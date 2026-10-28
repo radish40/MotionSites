@@ -75,3 +75,10 @@ github-token*
 gh-token*
 git-credentials*
 
+
+# Unified collection reproducible build and local QA
+/dist/
+/qa/
+__pycache__/
+*.pyc
+*.tar.gz

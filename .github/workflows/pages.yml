@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build and deploy unified gallery
 on:
   push:
     branches: [main]
@@ -18,9 +18,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 scripts/unified/build.py
+      - run: python3 scripts/unified/verify-data.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
       - id: deployment
         uses: actions/deploy-pages@v4

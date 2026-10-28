@@ -9,7 +9,16 @@
     "local_rel": "assets/previews/dreamcore-landing.webp",
     "sort_order": 4,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Dreamcore Landing"
+    ]
   },
   {
     "id": "bold-studio",
@@ -21,7 +30,16 @@
     "local_rel": "assets/previews/bold-studio.webp",
     "sort_order": 20,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Bold Studio"
+    ]
   },
   {
     "id": "interactive-discovery",
@@ -33,7 +51,16 @@
     "local_rel": "assets/previews/interactive-discovery.webp",
     "sort_order": 25,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Interactive Discovery"
+    ]
   },
   {
     "id": "prisma-landing",
@@ -44,7 +71,17 @@
     "source_kind": "motionsites",
     "local_rel": "assets/previews/prisma-landing.webp",
     "sort_order": 25,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Prisma Creative Studio"
+    ],
+    "local_kind": "webp"
   },
   {
     "id": "3d-jack-portfolio-hero",
@@ -55,7 +92,18 @@
     "source_kind": "motionsites",
     "local_rel": "assets/previews/3d-jack-portfolio-hero.mp4",
     "sort_order": 30,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "3D Jack Portfolio"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "art-landing",
@@ -67,7 +115,16 @@
     "local_rel": "assets/previews/art-landing.mp4",
     "sort_order": 35,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Art Landing"
+    ]
   },
   {
     "id": "aetheris-voyage-hero",
@@ -78,7 +135,17 @@
     "source_kind": "motionsites",
     "local_rel": "assets/previews/aetheris-voyage-hero.webp",
     "sort_order": 60,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Aetheris Voyage"
+    ],
+    "local_kind": "webp"
   },
   {
     "id": "codercrest-hero",
@@ -90,7 +157,17 @@
     "local_rel": "assets/previews/codercrest-hero.webp",
     "sort_order": 70,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 3,
+    "has_text": true,
+    "aliases": [
+      "CoderCrest"
+    ]
   },
   {
     "id": "urban-jungle-hero",
@@ -102,7 +179,17 @@
     "local_rel": "assets/previews/urban-jungle-hero.mp4",
     "sort_order": 90,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 3,
+    "has_text": true,
+    "aliases": [
+      "Urban Jungle"
+    ]
   },
   {
     "id": "reveal-hero",
@@ -114,7 +201,16 @@
     "local_rel": "assets/previews/reveal-hero.webp",
     "sort_order": 90,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Reveal Hero"
+    ]
   },
   {
     "id": "modern-agency",
@@ -126,18 +222,38 @@
     "local_rel": "assets/previews/modern-agency.webp",
     "sort_order": 95,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Modern Agency"
+    ]
   },
   {
     "id": "liquid-glass-agency",
     "title": "Liquid Glass Agency",
-    "description": "",
+    "description": "暗黑奢华单页着陆页，采用玻璃拟态与液态光泽效果，搭配电影级视频背景，呈现高端AI设计代理品牌质感。",
     "category": "Landing Page",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/liquid-glass-agency.mp4",
     "sort_order": 100,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 3,
+    "has_text": true,
+    "aliases": [
+      "Liquid Glass Agency"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "luxury-editorial-ecommerce-design",
@@ -149,7 +265,16 @@
     "local_rel": "assets/previews/luxury-editorial-ecommerce-design.webp",
     "sort_order": 105,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Luxury Ecommerce Design"
+    ]
   },
   {
     "id": "asme-hero",
@@ -161,7 +286,17 @@
     "local_rel": "assets/previews/asme-hero.mp4",
     "sort_order": 140,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Asme"
+    ]
   },
   {
     "id": "max-reed-portfolio",
@@ -173,18 +308,38 @@
     "local_rel": "assets/previews/max-reed-portfolio.webp",
     "sort_order": 250,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Max Reed Portfolio"
+    ]
   },
   {
     "id": "mindloop-landing",
     "title": "Mindloop Landing",
-    "description": "",
+    "description": "纯黑背景搭配白色文字的单色极简落地页，用于展示Mindloop内容平台，以Inter无衬线字体为主，Instrument Serif斜体强调关键词，搭配Framer Motion微动效。",
     "category": "Landing Page",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/mindloop-landing.mp4",
     "sort_order": 280,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Mindloop Landing"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "ember-dsgn-hero",
@@ -196,7 +351,16 @@
     "local_rel": "assets/previews/ember-dsgn-hero.webp",
     "sort_order": 300,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "EMBER.dsgn"
+    ]
   },
   {
     "id": "solar-energy-hero",
@@ -208,7 +372,16 @@
     "local_rel": "assets/previews/solar-energy-hero.webp",
     "sort_order": 440,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Solar Energy Hero"
+    ]
   },
   {
     "id": "halo-usd-landing",
@@ -220,18 +393,38 @@
     "local_rel": "assets/previews/halo-usd-landing.webp",
     "sort_order": 540,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "USD Halo"
+    ]
   },
   {
     "id": "ai-designer-agency",
     "title": "AI Designer Agency",
-    "description": "",
+    "description": "纯黑背景搭配白色文字，采用液态玻璃毛玻璃效果，圆角按钮，展示AI网页设计代理品牌形象。",
     "category": "Landing Page",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/ai-designer-agency.mp4",
     "sort_order": 590,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "AI Designer Agency"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "convix-software-hero",
@@ -243,7 +436,16 @@
     "local_rel": "assets/previews/convix-software-hero.webp",
     "sort_order": 620,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "SAAS Software"
+    ]
   },
   {
     "id": "dot-hero",
@@ -255,18 +457,38 @@
     "local_rel": "assets/previews/dot-hero.webp",
     "sort_order": 680,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Dot"
+    ]
   },
   {
     "id": "orbit-engineers",
     "title": "Orbit Engineers",
-    "description": "",
+    "description": "太空工程咨询公司单页网站，三个全屏英雄区通过按钮切换，深蓝背景配青色强调色，视频背景覆盖全屏。",
     "category": "Agency",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/orbit-engineers.mp4",
     "sort_order": 810,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Orbit Engineers"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "3d-studio-pricing",
@@ -277,7 +499,17 @@
     "source_kind": "motionsites",
     "local_rel": "assets/previews/3d-studio-pricing.mp4",
     "sort_order": 999,
-    "is_free": false
+    "is_free": false,
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "3D Studio Pricing"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "adhd-planner",
@@ -289,7 +521,15 @@
     "local_rel": "assets/previews/adhd-planner.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "ADHD Planner"
+    ]
   },
   {
     "id": "ai-driving-assistant",
@@ -301,7 +541,16 @@
     "local_rel": "assets/previews/ai-driving-assistant.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "AI Driving Assistant"
+    ]
   },
   {
     "id": "ai-interface",
@@ -313,7 +562,16 @@
     "local_rel": "assets/previews/ai-interface.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "AI Interface"
+    ]
   },
   {
     "id": "ai-meeting-notes",
@@ -325,7 +583,16 @@
     "local_rel": "assets/previews/ai-meeting-notes.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "AI Meeting Notes"
+    ]
   },
   {
     "id": "ai-workflow-agents",
@@ -337,7 +604,15 @@
     "local_rel": "assets/previews/ai-workflow-agents.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "AI Workflow Agents"
+    ]
   },
   {
     "id": "cargo-group",
@@ -349,7 +624,16 @@
     "local_rel": "assets/previews/cargo-group.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cargo Group"
+    ]
   },
   {
     "id": "cargox-mobile",
@@ -361,7 +645,16 @@
     "local_rel": "assets/previews/cargox-mobile.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "CARGOX Mobile"
+    ]
   },
   {
     "id": "celestial-renewal",
@@ -373,7 +666,16 @@
     "local_rel": "assets/previews/celestial-renewal.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Celestial Renewal"
+    ]
   },
   {
     "id": "church-community",
@@ -385,7 +687,15 @@
     "local_rel": "assets/previews/church-community.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Church Community"
+    ]
   },
   {
     "id": "cleantech",
@@ -397,7 +707,16 @@
     "local_rel": "assets/previews/cleantech.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "CleanTech"
+    ]
   },
   {
     "id": "coffee-rewards",
@@ -409,7 +728,16 @@
     "local_rel": "assets/previews/coffee-rewards.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Coffee Rewards"
+    ]
   },
   {
     "id": "cosmos-interface",
@@ -421,7 +749,16 @@
     "local_rel": "assets/previews/cosmos-interface.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cosmos Interface"
+    ]
   },
   {
     "id": "cozypaws",
@@ -433,7 +770,16 @@
     "local_rel": "assets/previews/cozypaws.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "CozyPaws"
+    ]
   },
   {
     "id": "cross-border",
@@ -445,7 +791,16 @@
     "local_rel": "assets/previews/cross-border.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cross-Border"
+    ]
   },
   {
     "id": "f1-racing-hub",
@@ -457,7 +812,15 @@
     "local_rel": "assets/previews/f1-racing-hub.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "F1 Racing Hub"
+    ]
   },
   {
     "id": "financial-suite",
@@ -469,7 +832,16 @@
     "local_rel": "assets/previews/financial-suite.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Financial Suite"
+    ]
   },
   {
     "id": "innovation-lab",
@@ -481,7 +853,15 @@
     "local_rel": "assets/previews/innovation-lab.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Innovation Lab"
+    ]
   },
   {
     "id": "innovation-studio",
@@ -493,7 +873,16 @@
     "local_rel": "assets/previews/innovation-studio.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Innovation Studio"
+    ]
   },
   {
     "id": "innovation-summit",
@@ -505,7 +894,16 @@
     "local_rel": "assets/previews/innovation-summit.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Innovation Summit"
+    ]
   },
   {
     "id": "integration-saas",
@@ -517,7 +915,16 @@
     "local_rel": "assets/previews/integration-saas.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Integration SaaS"
+    ]
   },
   {
     "id": "lead-funnel",
@@ -529,7 +936,16 @@
     "local_rel": "assets/previews/lead-funnel.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Lead Funnel"
+    ]
   },
   {
     "id": "luxury-escapes",
@@ -541,7 +957,16 @@
     "local_rel": "assets/previews/luxury-escapes.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Luxury Escapes"
+    ]
   },
   {
     "id": "mind-body-healing",
@@ -553,7 +978,15 @@
     "local_rel": "assets/previews/mind-body-healing.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Mind-Body Healing"
+    ]
   },
   {
     "id": "mood-tracker",
@@ -565,7 +998,16 @@
     "local_rel": "assets/previews/mood-tracker.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Mood Tracker"
+    ]
   },
   {
     "id": "movie-premiere",
@@ -577,7 +1019,16 @@
     "local_rel": "assets/previews/movie-premiere.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Movie Premiere"
+    ]
   },
   {
     "id": "outdoor-apparel",
@@ -589,7 +1040,16 @@
     "local_rel": "assets/previews/outdoor-apparel.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Outdoor Apparel"
+    ]
   },
   {
     "id": "oyla",
@@ -601,7 +1061,16 @@
     "local_rel": "assets/previews/oyla.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "OYLA"
+    ]
   },
   {
     "id": "pet-products",
@@ -613,7 +1082,16 @@
     "local_rel": "assets/previews/pet-products.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Pet Products"
+    ]
   },
   {
     "id": "place-saver",
@@ -625,7 +1103,16 @@
     "local_rel": "assets/previews/place-saver.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Place Saver"
+    ]
   },
   {
     "id": "product-studio",
@@ -637,7 +1124,16 @@
     "local_rel": "assets/previews/product-studio.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Product Studio"
+    ]
   },
   {
     "id": "prompt-hero",
@@ -649,7 +1145,16 @@
     "local_rel": "assets/previews/prompt-hero.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "PROMPT"
+    ]
   },
   {
     "id": "remit-race",
@@ -661,7 +1166,16 @@
     "local_rel": "assets/previews/remit-race.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Remit Race"
+    ]
   },
   {
     "id": "skills-lea",
@@ -673,7 +1187,16 @@
     "local_rel": "assets/previews/skills-lea.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "LearnHub"
+    ]
   },
   {
     "id": "sky-estate",
@@ -685,7 +1208,16 @@
     "local_rel": "assets/previews/sky-estate.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Sky Estate"
+    ]
   },
   {
     "id": "stillmind",
@@ -697,7 +1229,16 @@
     "local_rel": "assets/previews/stillmind.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Stillmind"
+    ]
   },
   {
     "id": "subscription-agency",
@@ -709,7 +1250,16 @@
     "local_rel": "assets/previews/subscription-agency.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Subscription Agency"
+    ]
   },
   {
     "id": "supplement-shop",
@@ -721,7 +1271,16 @@
     "local_rel": "assets/previews/supplement-shop.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Supplement Shop"
+    ]
   },
   {
     "id": "tech-forward",
@@ -733,7 +1292,16 @@
     "local_rel": "assets/previews/tech-forward.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Tech-Forward"
+    ]
   },
   {
     "id": "travel-explorer",
@@ -745,7 +1313,16 @@
     "local_rel": "assets/previews/travel-explorer.mp4",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Travel Explorer"
+    ]
   },
   {
     "id": "travel-journal",
@@ -757,7 +1334,16 @@
     "local_rel": "assets/previews/travel-journal.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Travel Journal"
+    ]
   },
   {
     "id": "vision-reveal",
@@ -769,7 +1355,16 @@
     "local_rel": "assets/previews/vision-reveal.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Vision Reveal"
+    ]
   },
   {
     "id": "wellbeing-os",
@@ -781,7 +1376,16 @@
     "local_rel": "assets/previews/wellbeing-os.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Wellbeing OS"
+    ]
   },
   {
     "id": "wellness-companion",
@@ -793,7 +1397,16 @@
     "local_rel": "assets/previews/wellness-companion.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Wellness Companion"
+    ]
   },
   {
     "id": "wellness-device",
@@ -805,7 +1418,15 @@
     "local_rel": "assets/previews/wellness-device.mp4",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Wellness Devicex"
+    ]
   },
   {
     "id": "3d-collectible-hero",
@@ -817,7 +1438,16 @@
     "local_rel": "assets/previews/3d-collectible-hero.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "3D Collectible Hero"
+    ]
   },
   {
     "id": "3d-story",
@@ -829,7 +1459,16 @@
     "local_rel": "assets/previews/3d-story.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "3D Story"
+    ]
   },
   {
     "id": "404-planet",
@@ -841,7 +1480,16 @@
     "local_rel": "assets/previews/404-planet.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "404 Planet"
+    ]
   },
   {
     "id": "aerocore",
@@ -853,7 +1501,16 @@
     "local_rel": "assets/previews/aerocore.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "AeroCore"
+    ]
   },
   {
     "id": "agency-services",
@@ -865,7 +1522,16 @@
     "local_rel": "assets/previews/agency-services.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Agency Services"
+    ]
   },
   {
     "id": "ai-automation",
@@ -877,7 +1543,16 @@
     "local_rel": "assets/previews/ai-automation.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "AI Automation"
+    ]
   },
   {
     "id": "ai-workflow",
@@ -889,7 +1564,16 @@
     "local_rel": "assets/previews/ai-workflow.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "AI Workflow Hero"
+    ]
   },
   {
     "id": "animated-cards",
@@ -901,7 +1585,16 @@
     "local_rel": "assets/previews/animated-cards.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Animated Cards"
+    ]
   },
   {
     "id": "apex-program-accordion",
@@ -913,7 +1606,16 @@
     "local_rel": "assets/previews/apex-program-accordion.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Apex Program Accordion"
+    ]
   },
   {
     "id": "apex-pulse",
@@ -925,7 +1627,16 @@
     "local_rel": "assets/previews/apex-pulse.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Apex Pulse"
+    ]
   },
   {
     "id": "arceage-contact-us",
@@ -937,7 +1648,16 @@
     "local_rel": "assets/previews/arceage-contact-us.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Arceage Contact Us"
+    ]
   },
   {
     "id": "arceage-services",
@@ -949,7 +1669,16 @@
     "local_rel": "assets/previews/arceage-services.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Arceage Services"
+    ]
   },
   {
     "id": "arceage-stats",
@@ -961,7 +1690,16 @@
     "local_rel": "assets/previews/arceage-stats.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Arceage Stats"
+    ]
   },
   {
     "id": "arceage-testimonial",
@@ -973,7 +1711,16 @@
     "local_rel": "assets/previews/arceage-testimonial.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Arceage Testimonial"
+    ]
   },
   {
     "id": "audio-showcase",
@@ -985,7 +1732,16 @@
     "local_rel": "assets/previews/audio-showcase.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Audio Showcase"
+    ]
   },
   {
     "id": "auramail",
@@ -997,7 +1753,16 @@
     "local_rel": "assets/previews/auramail.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "AuraMail"
+    ]
   },
   {
     "id": "aurora-onboard",
@@ -1009,7 +1774,16 @@
     "local_rel": "assets/previews/aurora-onboard.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Aurora Onboard"
+    ]
   },
   {
     "id": "axion-about",
@@ -1021,7 +1795,16 @@
     "local_rel": "assets/previews/axion-about.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Axion About"
+    ]
   },
   {
     "id": "beauty-categories",
@@ -1033,7 +1816,16 @@
     "local_rel": "assets/previews/beauty-categories.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Beauty Categories"
+    ]
   },
   {
     "id": "beauty-products",
@@ -1045,7 +1837,16 @@
     "local_rel": "assets/previews/beauty-products.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Beauty Products"
+    ]
   },
   {
     "id": "bento-grid-stats",
@@ -1057,7 +1858,16 @@
     "local_rel": "assets/previews/bento-grid-stats.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Bento Grid Stats"
+    ]
   },
   {
     "id": "bio-active",
@@ -1069,7 +1879,16 @@
     "local_rel": "assets/previews/bio-active.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Clarity Core"
+    ]
   },
   {
     "id": "bio-age-dashboard",
@@ -1081,7 +1900,16 @@
     "local_rel": "assets/previews/bio-age-dashboard.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Bio-Age Dashboard"
+    ]
   },
   {
     "id": "bio-digital",
@@ -1093,7 +1921,16 @@
     "local_rel": "assets/previews/bio-digital.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Bio-Digital"
+    ]
   },
   {
     "id": "bl",
@@ -1105,7 +1942,16 @@
     "local_rel": "assets/previews/bl.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Bloom"
+    ]
   },
   {
     "id": "blog-showcase",
@@ -1117,7 +1963,16 @@
     "local_rel": "assets/previews/blog-showcase.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Blog Showcase"
+    ]
   },
   {
     "id": "book-hero",
@@ -1129,7 +1984,16 @@
     "local_rel": "assets/previews/book-hero.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Book Hero"
+    ]
   },
   {
     "id": "bookedup",
@@ -1141,7 +2005,16 @@
     "local_rel": "assets/previews/bookedup.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "BookedUp"
+    ]
   },
   {
     "id": "botanical-shadow-about",
@@ -1153,7 +2026,16 @@
     "local_rel": "assets/previews/botanical-shadow-about.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Botanical Shadow About"
+    ]
   },
   {
     "id": "build-with-us",
@@ -1165,7 +2047,16 @@
     "local_rel": "assets/previews/build-with-us.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Build With Us"
+    ]
   },
   {
     "id": "cinematic-brand",
@@ -1177,7 +2068,16 @@
     "local_rel": "assets/previews/cinematic-brand.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cinematic Brand"
+    ]
   },
   {
     "id": "cinematic-landing-page",
@@ -1189,7 +2089,16 @@
     "local_rel": "assets/previews/cinematic-landing-page.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cinematic Landing Page"
+    ]
   },
   {
     "id": "cognitra-feature",
@@ -1201,7 +2110,16 @@
     "local_rel": "assets/previews/cognitra-feature.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cognitra Feature"
+    ]
   },
   {
     "id": "cognitra-offer",
@@ -1213,7 +2131,16 @@
     "local_rel": "assets/previews/cognitra-offer.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cognitra Offer"
+    ]
   },
   {
     "id": "contact-cybernetic",
@@ -1225,7 +2152,16 @@
     "local_rel": "assets/previews/contact-cybernetic.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Contact Cybernetic"
+    ]
   },
   {
     "id": "conversion",
@@ -1237,7 +2173,16 @@
     "local_rel": "assets/previews/conversion.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Conversion"
+    ]
   },
   {
     "id": "cosmic",
@@ -1249,7 +2194,16 @@
     "local_rel": "assets/previews/cosmic.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cosmic"
+    ]
   },
   {
     "id": "creative-agency",
@@ -1261,7 +2215,16 @@
     "local_rel": "assets/previews/creative-agency.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Creative Agency"
+    ]
   },
   {
     "id": "creative-portfolio",
@@ -1273,7 +2236,16 @@
     "local_rel": "assets/previews/creative-portfolio.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Creative Portfolio"
+    ]
   },
   {
     "id": "creative-studio",
@@ -1285,7 +2257,16 @@
     "local_rel": "assets/previews/creative-studio.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Creative Studio"
+    ]
   },
   {
     "id": "cursor-follow",
@@ -1297,7 +2278,16 @@
     "local_rel": "assets/previews/cursor-follow.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cursor Follow"
+    ]
   },
   {
     "id": "cyberpunk-reveal",
@@ -1309,7 +2299,16 @@
     "local_rel": "assets/previews/cyberpunk-reveal.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cyberpunk Reveal"
+    ]
   },
   {
     "id": "cybersecurity-hero",
@@ -1321,7 +2320,16 @@
     "local_rel": "assets/previews/cybersecurity-hero.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cybersecurity Hero"
+    ]
   },
   {
     "id": "cybersecurity-hero-v2",
@@ -1333,7 +2341,16 @@
     "local_rel": "assets/previews/cybersecurity-hero-v2.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Cybersecurity Hero v2"
+    ]
   },
   {
     "id": "daisy-sweet",
@@ -1345,7 +2362,16 @@
     "local_rel": "assets/previews/daisy-sweet.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Daisy Sweet"
+    ]
   },
   {
     "id": "daisy-wild",
@@ -1357,7 +2383,16 @@
     "local_rel": "assets/previews/daisy-wild.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Daisy Wild"
+    ]
   },
   {
     "id": "dashboard",
@@ -1369,7 +2404,16 @@
     "local_rel": "assets/previews/dashboard.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Dashboard UI"
+    ]
   },
   {
     "id": "digital-experiences",
@@ -1381,7 +2425,16 @@
     "local_rel": "assets/previews/digital-experiences.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Digital Experiences"
+    ]
   },
   {
     "id": "eco-intelligence",
@@ -1393,7 +2446,16 @@
     "local_rel": "assets/previews/eco-intelligence.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Eco Intelligence"
+    ]
   },
   {
     "id": "editorial-collection-cta",
@@ -1405,7 +2467,16 @@
     "local_rel": "assets/previews/editorial-collection-cta.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Editorial Collection CTA"
+    ]
   },
   {
     "id": "email-landing-page",
@@ -1417,7 +2488,16 @@
     "local_rel": "assets/previews/email-landing-page.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Email Landing Page"
+    ]
   },
   {
     "id": "equilibrium",
@@ -1429,7 +2509,16 @@
     "local_rel": "assets/previews/equilibrium.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Equilibrium"
+    ]
   },
   {
     "id": "evergreen-finance",
@@ -1441,7 +2530,16 @@
     "local_rel": "assets/previews/evergreen-finance.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Evergreen Finance"
+    ]
   },
   {
     "id": "faq-cta",
@@ -1453,7 +2551,16 @@
     "local_rel": "assets/previews/faq-cta.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "FAQ CTA"
+    ]
   },
   {
     "id": "features",
@@ -1465,7 +2572,16 @@
     "local_rel": "assets/previews/features.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Capabilities Overview"
+    ]
   },
   {
     "id": "feedback-slider",
@@ -1477,7 +2593,16 @@
     "local_rel": "assets/previews/feedback-slider.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Feedback Slider"
+    ]
   },
   {
     "id": "financialfocus",
@@ -1489,7 +2614,16 @@
     "local_rel": "assets/previews/financialfocus.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "FinancialFocus"
+    ]
   },
   {
     "id": "finflow",
@@ -1501,7 +2635,16 @@
     "local_rel": "assets/previews/finflow.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "FinFlow"
+    ]
   },
   {
     "id": "flowmate-carousal",
@@ -1513,7 +2656,16 @@
     "local_rel": "assets/previews/flowmate-carousal.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "FlowMate Carousal"
+    ]
   },
   {
     "id": "fun-404-page",
@@ -1525,7 +2677,15 @@
     "local_rel": "assets/previews/fun-404-page.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Fun 404 Page"
+    ]
   },
   {
     "id": "future-state",
@@ -1537,7 +2697,16 @@
     "local_rel": "assets/previews/future-state.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Future-State"
+    ]
   },
   {
     "id": "futuristic-cinematic",
@@ -1549,7 +2718,16 @@
     "local_rel": "assets/previews/futuristic-cinematic.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Futuristic Cinematic"
+    ]
   },
   {
     "id": "futuristic-tech",
@@ -1561,7 +2739,16 @@
     "local_rel": "assets/previews/futuristic-tech.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Futuristic Tech"
+    ]
   },
   {
     "id": "gateway-portal",
@@ -1573,7 +2760,16 @@
     "local_rel": "assets/previews/gateway-portal.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Gateway Portal"
+    ]
   },
   {
     "id": "gear-shop",
@@ -1585,7 +2781,16 @@
     "local_rel": "assets/previews/gear-shop.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Gear Shop"
+    ]
   },
   {
     "id": "glassmorphic-feature-tabs",
@@ -1597,7 +2802,16 @@
     "local_rel": "assets/previews/glassmorphic-feature-tabs.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Glassmorphic Feature Tabs"
+    ]
   },
   {
     "id": "glitch-pulse",
@@ -1609,7 +2823,16 @@
     "local_rel": "assets/previews/glitch-pulse.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Glitch Pulse"
+    ]
   },
   {
     "id": "global-cta-footer",
@@ -1621,7 +2844,16 @@
     "local_rel": "assets/previews/global-cta-footer.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Global CTA Footer"
+    ]
   },
   {
     "id": "golden-portal",
@@ -1633,7 +2865,16 @@
     "local_rel": "assets/previews/golden-portal.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Golden Portal"
+    ]
   },
   {
     "id": "growth-marketing-saas",
@@ -1645,7 +2886,16 @@
     "local_rel": "assets/previews/growth-marketing-saas.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Growth Marketing SaaS"
+    ]
   },
   {
     "id": "guardnet-benefits",
@@ -1657,7 +2907,16 @@
     "local_rel": "assets/previews/guardnet-benefits.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Guardnet Benefits"
+    ]
   },
   {
     "id": "guardnet-demo",
@@ -1669,7 +2928,16 @@
     "local_rel": "assets/previews/guardnet-demo.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Guardnet Demo"
+    ]
   },
   {
     "id": "halo-benefits",
@@ -1681,7 +2949,16 @@
     "local_rel": "assets/previews/halo-benefits.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Halo Benefits"
+    ]
   },
   {
     "id": "halo-use-case",
@@ -1693,7 +2970,16 @@
     "local_rel": "assets/previews/halo-use-case.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Halo Use Case"
+    ]
   },
   {
     "id": "health-portal",
@@ -1705,7 +2991,16 @@
     "local_rel": "assets/previews/health-portal.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Health Portal"
+    ]
   },
   {
     "id": "immersive-ocean",
@@ -1717,7 +3012,16 @@
     "local_rel": "assets/previews/immersive-ocean.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Immersive Ocean"
+    ]
   },
   {
     "id": "impact-ventures",
@@ -1729,7 +3033,16 @@
     "local_rel": "assets/previews/impact-ventures.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Impact Ventures"
+    ]
   },
   {
     "id": "intelligentx",
@@ -1741,7 +3054,16 @@
     "local_rel": "assets/previews/intelligentx.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "IntelligentX"
+    ]
   },
   {
     "id": "interactive-portfolio",
@@ -1753,7 +3075,16 @@
     "local_rel": "assets/previews/interactive-portfolio.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Interactive Portfolio"
+    ]
   },
   {
     "id": "interior-features",
@@ -1765,7 +3096,16 @@
     "local_rel": "assets/previews/interior-features.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Interior Features"
+    ]
   },
   {
     "id": "investment-hero",
@@ -1777,7 +3117,16 @@
     "local_rel": "assets/previews/investment-hero.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Investment Gate"
+    ]
   },
   {
     "id": "jewelry-store",
@@ -1789,7 +3138,16 @@
     "local_rel": "assets/previews/jewelry-store.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Jewelry Store"
+    ]
   },
   {
     "id": "kova-features",
@@ -1801,7 +3159,16 @@
     "local_rel": "assets/previews/kova-features.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Kova Features"
+    ]
   },
   {
     "id": "kova-testimonial",
@@ -1813,7 +3180,16 @@
     "local_rel": "assets/previews/kova-testimonial.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Kova Testimonial"
+    ]
   },
   {
     "id": "launchex-about",
@@ -1825,7 +3201,16 @@
     "local_rel": "assets/previews/launchex-about.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "LaunchEx About"
+    ]
   },
   {
     "id": "launchex-submissions",
@@ -1837,7 +3222,16 @@
     "local_rel": "assets/previews/launchex-submissions.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "LaunchEx Submissions"
+    ]
   },
   {
     "id": "layered-depth",
@@ -1849,7 +3243,16 @@
     "local_rel": "assets/previews/layered-depth.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Layered Depth"
+    ]
   },
   {
     "id": "learnly",
@@ -1861,7 +3264,16 @@
     "local_rel": "assets/previews/learnly.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Learnly"
+    ]
   },
   {
     "id": "liquid-glass-cta",
@@ -1873,7 +3285,16 @@
     "local_rel": "assets/previews/liquid-glass-cta.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Liquid Glass CTA"
+    ]
   },
   {
     "id": "liquid-glass-features",
@@ -1885,7 +3306,16 @@
     "local_rel": "assets/previews/liquid-glass-features.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Liquid Glass Features"
+    ]
   },
   {
     "id": "lodge-booking-app",
@@ -1897,7 +3327,16 @@
     "local_rel": "assets/previews/lodge-booking-app.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Lodge Booking App"
+    ]
   },
   {
     "id": "luminara",
@@ -1909,7 +3348,16 @@
     "local_rel": "assets/previews/luminara.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Luminara"
+    ]
   },
   {
     "id": "luxury-botanical",
@@ -1921,7 +3369,16 @@
     "local_rel": "assets/previews/luxury-botanical.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Luxury Botanical"
+    ]
   },
   {
     "id": "luxury-focus",
@@ -1933,7 +3390,16 @@
     "local_rel": "assets/previews/luxury-focus.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Luxury Focus"
+    ]
   },
   {
     "id": "luxury-hero",
@@ -1945,7 +3411,16 @@
     "local_rel": "assets/previews/luxury-hero.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Luxury Hero"
+    ]
   },
   {
     "id": "luxury-real-estate",
@@ -1957,7 +3432,16 @@
     "local_rel": "assets/previews/luxury-real-estate.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Luxury Real Estate"
+    ]
   },
   {
     "id": "media-card-carousel",
@@ -1969,7 +3453,16 @@
     "local_rel": "assets/previews/media-card-carousel.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Media Card Carousel"
+    ]
   },
   {
     "id": "minimal-workflow-saas",
@@ -1981,7 +3474,16 @@
     "local_rel": "assets/previews/minimal-workflow-saas.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Minimal Workflow SaaS"
+    ]
   },
   {
     "id": "mouse-trail-cta",
@@ -1993,7 +3495,16 @@
     "local_rel": "assets/previews/mouse-trail-cta.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Mouse Trail CTA"
+    ]
   },
   {
     "id": "mythic-naturecore",
@@ -2005,7 +3516,16 @@
     "local_rel": "assets/previews/mythic-naturecore.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Mythic Naturecore"
+    ]
   },
   {
     "id": "naturecore-saas",
@@ -2017,7 +3537,16 @@
     "local_rel": "assets/previews/naturecore-saas.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Naturecore SaaS"
+    ]
   },
   {
     "id": "neo-museum",
@@ -2029,7 +3558,16 @@
     "local_rel": "assets/previews/neo-museum.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Neo Museum"
+    ]
   },
   {
     "id": "neon-logic",
@@ -2041,7 +3579,16 @@
     "local_rel": "assets/previews/neon-logic.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Neon Logic"
+    ]
   },
   {
     "id": "network-hero",
@@ -2053,7 +3600,16 @@
     "local_rel": "assets/previews/network-hero.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Network Hero"
+    ]
   },
   {
     "id": "neural-interface",
@@ -2065,7 +3621,16 @@
     "local_rel": "assets/previews/neural-interface.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Neural Interface"
+    ]
   },
   {
     "id": "nex-max-upgrade",
@@ -2077,7 +3642,16 @@
     "local_rel": "assets/previews/nex-max-upgrade.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Nex Max Upgrade"
+    ]
   },
   {
     "id": "nexacore-control",
@@ -2089,7 +3663,16 @@
     "local_rel": "assets/previews/nexacore-control.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "NexaCore Control"
+    ]
   },
   {
     "id": "nexacore-process",
@@ -2101,7 +3684,16 @@
     "local_rel": "assets/previews/nexacore-process.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "NexaCore Process"
+    ]
   },
   {
     "id": "nexacore-results",
@@ -2113,7 +3705,16 @@
     "local_rel": "assets/previews/nexacore-results.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "NexaCore Results"
+    ]
   },
   {
     "id": "nike-hover",
@@ -2125,7 +3726,16 @@
     "local_rel": "assets/previews/nike-hover.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Nike Hover"
+    ]
   },
   {
     "id": "nimbus-demo",
@@ -2137,7 +3747,16 @@
     "local_rel": "assets/previews/nimbus-demo.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Nimbus Demo"
+    ]
   },
   {
     "id": "nimbus-grid",
@@ -2149,7 +3768,16 @@
     "local_rel": "assets/previews/nimbus-grid.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Nimbus Grid"
+    ]
   },
   {
     "id": "nimbus-ops",
@@ -2161,7 +3789,16 @@
     "local_rel": "assets/previews/nimbus-ops.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Nimbus Ops"
+    ]
   },
   {
     "id": "nimbus-pricing",
@@ -2173,7 +3810,16 @@
     "local_rel": "assets/previews/nimbus-pricing.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "NimBus Pricing"
+    ]
   },
   {
     "id": "nimbus-security",
@@ -2185,7 +3831,16 @@
     "local_rel": "assets/previews/nimbus-security.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Nimbus Security"
+    ]
   },
   {
     "id": "nimbus-sticky-cards",
@@ -2197,7 +3852,16 @@
     "local_rel": "assets/previews/nimbus-sticky-cards.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Nimbus Sticky Cards"
+    ]
   },
   {
     "id": "no-code-waitlist",
@@ -2209,7 +3873,16 @@
     "local_rel": "assets/previews/no-code-waitlist.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "No-Code Waitlist"
+    ]
   },
   {
     "id": "novadesk-signup",
@@ -2221,7 +3894,16 @@
     "local_rel": "assets/previews/novadesk-signup.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "NovaDesk Signup"
+    ]
   },
   {
     "id": "obsidian-hero",
@@ -2233,7 +3915,16 @@
     "local_rel": "assets/previews/obsidian-hero.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Obsidian Hero"
+    ]
   },
   {
     "id": "orbis-cards",
@@ -2245,7 +3936,16 @@
     "local_rel": "assets/previews/orbis-cards.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Orbis Cards"
+    ]
   },
   {
     "id": "orbis-cta",
@@ -2257,7 +3957,16 @@
     "local_rel": "assets/previews/orbis-cta.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Orbis CTA"
+    ]
   },
   {
     "id": "orbis-hello",
@@ -2269,7 +3978,16 @@
     "local_rel": "assets/previews/orbis-hello.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Orbis Hello"
+    ]
   },
   {
     "id": "organic-odyssey",
@@ -2281,7 +3999,16 @@
     "local_rel": "assets/previews/organic-odyssey.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Organic Odyssey"
+    ]
   },
   {
     "id": "pixel-grid-hover",
@@ -2293,7 +4020,16 @@
     "local_rel": "assets/previews/pixel-grid-hover.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Pixel Grid Hover"
+    ]
   },
   {
     "id": "portal",
@@ -2305,7 +4041,16 @@
     "local_rel": "assets/previews/portal.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 3,
+    "has_text": true,
+    "aliases": [
+      "Portal"
+    ]
   },
   {
     "id": "portfolio-about",
@@ -2317,7 +4062,16 @@
     "local_rel": "assets/previews/portfolio-about.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Portfolio About"
+    ]
   },
   {
     "id": "projects-catalog",
@@ -2329,7 +4083,16 @@
     "local_rel": "assets/previews/projects-catalog.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Projects Catalog"
+    ]
   },
   {
     "id": "prosthetics-hero",
@@ -2341,7 +4104,16 @@
     "local_rel": "assets/previews/prosthetics-hero.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Prosthetics Hero"
+    ]
   },
   {
     "id": "pulse-3d",
@@ -2353,7 +4125,16 @@
     "local_rel": "assets/previews/pulse-3d.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Pulse 3D"
+    ]
   },
   {
     "id": "radial-diagram",
@@ -2365,7 +4146,16 @@
     "local_rel": "assets/previews/radial-diagram.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Radial Diagram"
+    ]
   },
   {
     "id": "retro-futurist",
@@ -2377,7 +4167,16 @@
     "local_rel": "assets/previews/retro-futurist.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Retro-Futurist"
+    ]
   },
   {
     "id": "rocket-cta",
@@ -2389,7 +4188,16 @@
     "local_rel": "assets/previews/rocket-cta.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Rocket CTA"
+    ]
   },
   {
     "id": "rocket-faq",
@@ -2401,7 +4209,16 @@
     "local_rel": "assets/previews/rocket-faq.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Rocket FAQ"
+    ]
   },
   {
     "id": "rocket-pricing",
@@ -2413,7 +4230,16 @@
     "local_rel": "assets/previews/rocket-pricing.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Rocket Pricing"
+    ]
   },
   {
     "id": "saas-pricing-flow",
@@ -2425,7 +4251,16 @@
     "local_rel": "assets/previews/saas-pricing-flow.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "SaaS Pricing Flow"
+    ]
   },
   {
     "id": "scroll-landing",
@@ -2437,7 +4272,16 @@
     "local_rel": "assets/previews/scroll-landing.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Scroll Landing Page"
+    ]
   },
   {
     "id": "scroll-marquee",
@@ -2449,7 +4293,16 @@
     "local_rel": "assets/previews/scroll-marquee.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Scroll Marquee"
+    ]
   },
   {
     "id": "shop",
@@ -2461,7 +4314,16 @@
     "local_rel": "assets/previews/shop.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Daisy Shop"
+    ]
   },
   {
     "id": "solace-sign-in",
@@ -2473,7 +4335,16 @@
     "local_rel": "assets/previews/solace-sign-in.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Solace sign-in"
+    ]
   },
   {
     "id": "speakup-venture-hero",
@@ -2485,7 +4356,16 @@
     "local_rel": "assets/previews/speakup-venture-hero.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "SpeakUp Venture Hero"
+    ]
   },
   {
     "id": "stark-minimal-footer",
@@ -2497,7 +4377,16 @@
     "local_rel": "assets/previews/stark-minimal-footer.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Stark Minimal Footer"
+    ]
   },
   {
     "id": "stellar-launch",
@@ -2509,7 +4398,16 @@
     "local_rel": "assets/previews/stellar-launch.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Stellar Launch"
+    ]
   },
   {
     "id": "synthesis",
@@ -2521,7 +4419,16 @@
     "local_rel": "assets/previews/synthesis.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Synthesis"
+    ]
   },
   {
     "id": "tech-noir-about",
@@ -2533,7 +4440,16 @@
     "local_rel": "assets/previews/tech-noir-about.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Tech-Noir About"
+    ]
   },
   {
     "id": "technical-specifications",
@@ -2545,7 +4461,16 @@
     "local_rel": "assets/previews/technical-specifications.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Technical Specifications"
+    ]
   },
   {
     "id": "travel-hero",
@@ -2557,7 +4482,16 @@
     "local_rel": "assets/previews/travel-hero.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Scenic Travel"
+    ]
   },
   {
     "id": "unwind-hero",
@@ -2569,7 +4503,16 @@
     "local_rel": "assets/previews/unwind-hero.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Unwind Hero"
+    ]
   },
   {
     "id": "vaultshield",
@@ -2581,7 +4524,16 @@
     "local_rel": "assets/previews/vaultshield.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "VaultShield"
+    ]
   },
   {
     "id": "veloce-cards",
@@ -2593,7 +4545,16 @@
     "local_rel": "assets/previews/veloce-cards.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Veloce Cards"
+    ]
   },
   {
     "id": "velorix-iic",
@@ -2605,7 +4566,16 @@
     "local_rel": "assets/previews/velorix-iic.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Velorix IIC"
+    ]
   },
   {
     "id": "vertex-sci",
@@ -2617,7 +4587,16 @@
     "local_rel": "assets/previews/vertex-sci.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Vertex Sci"
+    ]
   },
   {
     "id": "visual-hero",
@@ -2629,7 +4608,16 @@
     "local_rel": "assets/previews/visual-hero.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Visual Hero"
+    ]
   },
   {
     "id": "waitlist-hero",
@@ -2641,7 +4629,16 @@
     "local_rel": "assets/previews/waitlist-hero.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Waitlist Hero"
+    ]
   },
   {
     "id": "wanderful-hero",
@@ -2653,7 +4650,16 @@
     "local_rel": "assets/previews/wanderful-hero.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Wanderful Hero"
+    ]
   },
   {
     "id": "wellness-balance",
@@ -2665,7 +4671,16 @@
     "local_rel": "assets/previews/wellness-balance.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Wellness Balance"
+    ]
   },
   {
     "id": "wellness-hero",
@@ -2677,7 +4692,16 @@
     "local_rel": "assets/previews/wellness-hero.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Wellness Hero"
+    ]
   },
   {
     "id": "yoga-coach",
@@ -2689,7 +4713,16 @@
     "local_rel": "assets/previews/yoga-coach.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Yoga Coach"
+    ]
   },
   {
     "id": "404",
@@ -2700,7 +4733,17 @@
     "source_kind": "motionsites",
     "local_rel": "assets/previews/404.png",
     "sort_order": 999,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Nexto 404"
+    ],
+    "local_kind": "png"
   },
   {
     "id": "ai-image-generator-ui",
@@ -2712,7 +4755,16 @@
     "local_rel": "assets/previews/ai-image-generator-ui.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "AI Image Generator UI"
+    ]
   },
   {
     "id": "modern-hr-dashboard",
@@ -2724,7 +4776,16 @@
     "local_rel": "assets/previews/modern-hr-dashboard.webp",
     "sort_order": 999,
     "is_free": false,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Modern HR Dashboard"
+    ]
   },
   {
     "id": "saas-value",
@@ -2736,522 +4797,962 @@
     "local_rel": "assets/previews/saas-value.webp",
     "sort_order": 999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "SaaS Value"
+    ]
   },
   {
     "id": "acreage-farming-hero",
     "title": "Acreage Farming",
-    "description": "",
+    "description": "深色与浅色交替的精准农业着陆页，包含视频背景、数据网格、品牌轮播和服务卡片。",
     "category": "Landing Page",
     "type": "landing-page",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/acreage-farming-hero.mp4",
     "sort_order": 9999,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 3,
+    "has_text": true,
+    "aliases": [
+      "Acreage Farming"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "akor-security",
     "title": "AKOR Security",
-    "description": "",
+    "description": "深色主题的智能安防品牌单页，顶部固定导航栏搭配鲜绿色品牌标识，主体内容采用淡入上移动画，营造专业科技感。",
     "category": "Landing Page",
     "type": "landing-page",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/akor-security.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "AKOR Security"
+    ]
   },
   {
     "id": "apex-saa-s",
     "title": "Apex SaaS",
-    "description": "",
+    "description": "深色SaaS落地页，包含浮动玻璃态导航栏、英雄区及背景视频社交证明区，使用React + Tailwind CSS + TypeScript构建。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/apex-saa-s.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Apex SaaS"
+    ]
   },
   {
     "id": "bloom-ai",
     "title": "Bloom AI",
-    "description": "",
+    "description": "全屏液态玻璃风格AI植物设计平台首页，背景为自动循环视频，内容浮于上方，采用Poppins和Source Serif 4字体，纯灰度配色。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/bloom-ai.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Bloom AI"
+    ]
   },
   {
     "id": "club-x-investors",
     "title": "ClubX Investors",
-    "description": "",
+    "description": "全屏视频背景的科技投资者俱乐部着陆页，深色导航栏搭配圆形Logo，中央链接与黑色圆角按钮形成视觉焦点。",
     "category": "Landing Page",
     "type": "landing-page",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/club-x-investors.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "ClubX Investors"
+    ]
   },
   {
     "id": "design-pro-academy",
     "title": "DesignPro Academy",
-    "description": "",
+    "description": "深色全屏视频背景上，白色导航栏与渐变按钮突出，营造沉浸式产品设计教育平台首页。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/design-pro-academy.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "DesignPro Academy"
+    ]
   },
   {
     "id": "evr-ventures",
     "title": "EVR Ventures",
-    "description": "",
+    "description": "深色全屏视频背景的创业公司英雄区，顶部导航栏含圆角菜单按钮，纯黑底色配白色文字，视频无遮罩覆盖。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/evr-ventures.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "EVR Ventures"
+    ]
   },
   {
     "id": "finlytic-ai-agent",
     "title": "Finlytic AI Agent",
-    "description": "",
+    "description": "黑色全屏背景，背景视频自动播放并放大120%，中央放置模糊黑色药丸形遮罩，用于SaaS产品英雄区展示。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/finlytic-ai-agent.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Finlytic AI Agent"
+    ]
   },
   {
     "id": "grow-ai-talent-platform",
     "title": "Grow AI Talent Platform",
-    "description": "",
+    "description": "深色主题的SaaS落地页首屏，包含导航栏、渐变标题、循环淡入淡出背景视频和品牌Logo滚动条，营造科技感与动感。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/grow-ai-talent-platform.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Grow AI Talent Platform"
+    ]
   },
   {
     "id": "hr-saa-s-hero",
     "title": "HR SaaS Hero",
-    "description": "",
+    "description": "HR SaaS品牌首页，顶部视频背景经垂直翻转并覆盖白色渐变，营造高端通透的编辑感，适合企业级产品展示。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/hr-saa-s-hero.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "HR SaaS Hero"
+    ]
   },
   {
     "id": "mindloop",
     "title": "Mindloop",
-    "description": "",
+    "description": "深色全屏视频背景搭配白色文字导航栏，居中展示品牌与标题，营造沉浸式SaaS首页体验。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/mindloop.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Mindloop"
+    ]
   },
   {
     "id": "neo-vision",
     "title": "NeoVision",
-    "description": "",
+    "description": "深色背景的未来感落地页，包含全屏视差英雄区、关于区和洞察区，使用系统无衬线字体和图标库，视觉简洁现代。",
     "category": "Landing Page",
     "type": "landing-page",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/neo-vision.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "NeoVision"
+    ]
   },
   {
     "id": "neuralyn",
     "title": "Neuralyn",
-    "description": "",
+    "description": "深色主题SaaS分析仪表盘着陆页，纯黑背景配白色文字，Hero区全屏展示品牌名称与italic强调词，搭配导航栏与动态效果。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/neuralyn.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Neuralyn"
+    ]
   },
   {
     "id": "nexora-automation",
     "title": "Nexora Automation",
-    "description": "",
+    "description": "深色文字搭配纯白背景，顶部导航栏与全屏英雄区无缝衔接，采用Instrument Serif衬线标题与Inter无衬线正文，营造高端SaaS品牌首页的简洁专业感。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/nexora-automation.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Nexora Automation"
+    ]
   },
   {
     "id": "nexus-it-solutions",
     "title": "Nexus IT Solutions",
-    "description": "",
+    "description": "全屏视差英雄区，背景视频铺满，导航栏与居中标题内容叠加，底部信任品牌展示区。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/nexus-it-solutions.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Nexus IT Solutions"
+    ]
   },
   {
     "id": "nickel-payments",
     "title": "Nickel Payments",
-    "description": "",
+    "description": "暖白背景上的 SaaS 着陆页英雄区，顶部浮动白色圆角导航栏，包含黑色圆形图标和品牌名称，整体简洁专业。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/nickel-payments.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Nickel Payments"
+    ]
   },
   {
     "id": "orbis-nft",
     "title": "Orbis NFT",
-    "description": "",
+    "description": "深空蓝背景的NFT品牌着陆页，采用视频背景与液态玻璃UI效果，搭配粗体标题和手写装饰字体，营造科幻感视觉体验。",
     "category": "Landing Page",
     "type": "landing-page",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/orbis-nft.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Orbis NFT"
+    ]
   },
   {
     "id": "orbit-web3",
     "title": "Orbit Web3",
-    "description": "",
+    "description": "深色电影感全屏视频背景，暖金色文字与按钮，营造沉浸式Web3品牌首页。",
     "category": "Web3",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/orbit-web3.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Orbit Web3"
+    ]
   },
   {
     "id": "planet-orbit",
     "title": "Planet Orbit",
-    "description": "",
+    "description": "深色SaaS着陆页，全屏背景视频展示行星轨道动画，绿色渐变按钮与暖白文字形成科技感对比，适用于软件产品推广。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/planet-orbit.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Planet Orbit"
+    ]
   },
   {
     "id": "power-ai",
     "title": "Power AI",
-    "description": "",
+    "description": "深色全屏英雄区，循环背景视频覆盖，导航栏、标题、副标题、行动按钮及底部品牌滚动条，营造沉浸式科技感。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/power-ai.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Power AI"
+    ]
   },
   {
     "id": "railroad.ai",
     "title": "Railroad.ai",
-    "description": "",
+    "description": "深蓝背景视频全屏铺满，覆盖半透明黑色遮罩，中央展示品牌名称与简洁导航，营造科技感沉浸式首屏。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/railroad.ai.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Railroad.ai"
+    ]
   },
   {
     "id": "sky-elite-private-jets",
     "title": "SkyElite Private Jets",
-    "description": "",
+    "description": "深色视频背景上覆盖半透明导航栏，品牌名\"SkyElite\"居左，桌面端显示完整菜单项，移动端汉堡菜单展开白色下拉面板，营造高端私人飞机品牌登陆页的沉浸式视觉体验。",
     "category": "Landing Page",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/sky-elite-private-jets.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "SkyElite Private Jets"
+    ]
   },
   {
     "id": "stellar-ai",
     "title": "Stellar AI",
-    "description": "",
+    "description": "白色背景的Stellar.ai首页英雄区，居中布局，使用Inter字体，包含渐入动画效果。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/stellar-ai.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Stellar AI"
+    ]
   },
   {
     "id": "taskly",
     "title": "Taskly",
-    "description": "",
+    "description": "纯白背景配左上角蓝光渐变，中央液态玻璃导航栏，双栏布局展示“Work smarter, achieve faster”大标题，适合现代SaaS产品首屏。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/taskly.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Taskly"
+    ]
   },
   {
     "id": "taskora-saa-s-hero",
     "title": "Taskora SaaS Hero",
-    "description": "",
+    "description": "深色主题SaaS产品英雄区，全屏背景视频搭配渐变遮罩，白色文字突出标题与行动按钮，展示Taskora品牌形象。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/taskora-saa-s-hero.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Taskora SaaS Hero"
+    ]
   },
   {
     "id": "terra-geo-map",
     "title": "Terra Geo Map",
-    "description": "",
+    "description": "深蓝渐变背景的SaaS着陆页英雄区，顶部导航栏含地球图标和“Terra”品牌名，中央展示产品介绍与行动号召按钮。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/terra-geo-map.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Terra Geo Map"
+    ]
   },
   {
     "id": "transform-data",
     "title": "Transform Data",
-    "description": "",
+    "description": "深色背景全屏视频背景的现代英雄区，视频居中放大显示，带有JavaScript控制的淡入淡出循环播放效果，适合数据科技类品牌展示。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/transform-data.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Transform Data"
+    ]
   },
   {
     "id": "velorah",
     "title": "Velorah",
-    "description": "",
+    "description": "全屏循环视频背景搭配毛玻璃导航栏，暗色主题下衬线字体标题与无衬线正文形成对比，营造电影级视觉冲击的代理机构首页。",
     "category": "Agency",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/velorah.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Velorah"
+    ]
   },
   {
     "id": "x-portfolio-hero",
     "title": "xPortfolio Hero",
-    "description": "",
+    "description": "全屏视频背景上叠加品牌设计机构\"Brandly\"的醒目大字标题，采用Inter与Anton字体，营造沉浸式品牌视觉冲击。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/x-portfolio-hero.mp4",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "mp4"
+    "local_kind": "mp4",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "xPortfolio Hero"
+    ]
   },
   {
     "id": "aethera-studio",
     "title": "Aethera Studio",
-    "description": "",
+    "description": "全屏电影级英雄区，背景为循环播放的渐隐渐现视频，搭配衬线标题和无衬线导航文字，营造沉浸式品牌展示体验。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/aethera-studio.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Aethera Studio"
+    ]
   },
   {
     "id": "buzzentic-agency",
     "title": "Buzzentic Agency",
-    "description": "",
+    "description": "全屏视频背景的代理公司首页，使用Barlow字体与Instrument Serif斜体，底部留白250px营造呼吸感。",
     "category": "Agency",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/buzzentic-agency.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Buzzentic Agency"
+    ]
   },
   {
     "id": "datacore-booking",
     "title": "Datacore Booking",
-    "description": "",
+    "description": "全屏视频背景的SaaS应用首页，紫色主色调搭配深紫导航栏，自动播放循环视频营造沉浸式体验。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/datacore-booking.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Datacore Booking"
+    ]
   },
   {
     "id": "framelix-3d-studios",
     "title": "Framelix 3D Studios",
-    "description": "",
+    "description": "深黑背景的3D动画工作室首页，纯白文字搭配全圆角按钮，导航栏居中排列三列双层链接，整体呈现极简电影感视觉风格。",
     "category": "Agency",
     "type": "landing-page",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/framelix-3d-studios.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Framelix 3D Studios"
+    ]
   },
   {
     "id": "logoisum-video-agency",
     "title": "Logoisum Video Agency",
-    "description": "",
+    "description": "深色全屏视频背景的影视剪辑机构英雄区，配有浮动白色导航栏和独特45度箭头按钮。",
     "category": "Agency",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/logoisum-video-agency.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Logoisum Video Agency"
+    ]
   },
   {
     "id": "new-era-automotive-hero",
     "title": "New Era Automotive Hero",
-    "description": "",
+    "description": "全屏汽车品牌英雄区，深色背景搭配自动播放背景视频，顶部和底部渐变遮罩增强文字可读性，中央醒目展示超大“NEW ERA”装饰文字。",
     "category": "Automotive",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/new-era-automotive-hero.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "New Era Automotive Hero"
+    ]
   },
   {
     "id": "new-era-bold-hero",
     "title": "New Era Bold Hero",
-    "description": "",
+    "description": "深蓝背景全屏英雄区，顶部放置大号粗体标题文字，背景自动播放循环视频，适用于品牌展示或代理机构首页。",
     "category": "Agency",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/new-era-bold-hero.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "New Era Bold Hero"
+    ]
   },
   {
     "id": "space-voyage",
     "title": "Space Voyage",
-    "description": "",
+    "description": "全屏太空旅行着陆页，配有沉浸式背景视频、柔和天蓝色调及全圆角设计，营造电影级视觉体验",
     "category": "Landing Page",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/space-voyage.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Space Voyage"
+    ]
   },
   {
     "id": "sync-ai",
     "title": "Sync AI",
-    "description": "",
+    "description": "全屏SaaS着陆页，白色背景配循环视频，顶部导航栏居中展示\"Stellar.ai\"品牌，底部合作伙伴Logo条固定。",
     "category": "Hero Section",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/sync-ai.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "Sync AI"
+    ]
   },
   {
     "id": "targo-logistics-hero",
     "title": "Targo Logistics Hero",
-    "description": "",
+    "description": "深黑背景搭配醒目品牌红色，左侧展示粗体大写标题与行动按钮，顶部导航含红色斜角按钮，营造高端物流品牌形象。",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/targo-logistics-hero.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Targo Logistics Hero"
+    ]
   },
   {
     "id": "viktor-portfolio",
     "title": "Viktor Portfolio",
-    "description": "",
+    "description": "深色全屏建筑作品集，背景循环播放视频，搭配未来感字体与极简排版，适合展示高端设计项目。",
     "category": "Portfolio",
     "type": "landing-page",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/viktor-portfolio.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Viktor Portfolio"
+    ]
   },
   {
     "id": "wealth-video-hero",
     "title": "Wealth Video Hero",
-    "description": "",
+    "description": "深色全屏背景上播放自动循环视频，顶部透明导航栏配白色标志和居中链接，打造财富管理平台的高端视觉冲击。",
     "category": "Fintech",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/wealth-video-hero.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Wealth Video Hero"
+    ]
   },
   {
     "id": "web3-eos-hero",
     "title": "Web3 EOS Hero",
-    "description": "",
+    "description": "全屏Web3英雄区，黑色背景上播放循环视频，半透明遮罩增强可读性，顶部导航栏含Logo和四个链接。",
     "category": "Web3",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/web3-eos-hero.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Web3 EOS Hero"
+    ]
   },
   {
     "id": "weblex-dark-hero",
     "title": "Weblex Dark Hero",
-    "description": "",
+    "description": "深色全屏英雄区，背景视频自动播放，透明导航栏固定顶部，品牌名带绿色圆点，中央导航链接与右侧圆角按钮。",
     "category": "Landing Page",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/weblex-dark-hero.webp",
     "sort_order": 9999,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery",
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Weblex Dark Hero"
+    ]
   },
   {
     "id": "community-superdesign-synapse",
@@ -3262,7 +5763,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/synapse/preview.mp4",
     "sort_order": 10018,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Synapse"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-card-swap",
@@ -3273,7 +5783,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/card-swap/preview.mp4",
     "sort_order": 10028,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Card Swap"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-hover-reveal-effect",
@@ -3284,7 +5803,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/hover-reveal-effect/preview.mp4",
     "sort_order": 10031,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Hover reveal effect"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-scroll-journey-line",
@@ -3295,7 +5823,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/scroll-journey-line/preview.mp4",
     "sort_order": 10033,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Scroll Journey Line"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-gooey-gradient-background",
@@ -3306,7 +5843,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/gooey-gradient-background/preview.mp4",
     "sort_order": 10035,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Gooey Gradient Background"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-horizontal-gallery",
@@ -3317,7 +5863,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/horizontal-gallery/preview.mp4",
     "sort_order": 10036,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Horizontal Gallery"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-disruptor-beta-launch",
@@ -3328,7 +5883,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/disruptor-beta-launch/preview.jpg",
     "sort_order": 10037,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Disruptor Beta Launch"
+    ],
+    "local_kind": "jpg"
   },
   {
     "id": "community-superdesign-ghost-cursor",
@@ -3339,7 +5903,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/ghost-cursor/preview.mp4",
     "sort_order": 10040,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Ghost Cursor"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-interactive-folder",
@@ -3350,7 +5923,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/interactive-folder/preview.mp4",
     "sort_order": 10042,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Interactive Folder"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-parallax-stars-background",
@@ -3361,7 +5943,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/parallax-stars-background/preview.mp4",
     "sort_order": 10044,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Parallax Stars Background"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-typing-animation",
@@ -3372,7 +5963,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/typing-animation/preview.mp4",
     "sort_order": 10045,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Typing animation"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-pill-nav",
@@ -3383,7 +5983,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/pill-nav/preview.mp4",
     "sort_order": 10047,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Pill Nav"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-exploded-view-assembly",
@@ -3394,7 +6003,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/exploded-view-assembly/preview.mp4",
     "sort_order": 10048,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "\"Exploded View\" Assembly"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-rolodex-text",
@@ -3405,7 +6023,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/rolodex-text/preview.mp4",
     "sort_order": 10049,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Rolodex Text"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-lightning-background",
@@ -3416,7 +6043,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/lightning-background/preview.mp4",
     "sort_order": 10050,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Lightning Background"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-hyperspeed-background",
@@ -3427,7 +6063,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/hyperspeed-background/preview.mp4",
     "sort_order": 10051,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Hyperspeed Background"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-light-rays-background",
@@ -3438,7 +6083,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/light-rays-background/preview.mp4",
     "sort_order": 10052,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Light Rays Background"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-glow-cursor-button",
@@ -3449,7 +6103,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/glow-cursor-button/preview.mp4",
     "sort_order": 10053,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Glow Cursor Button"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-interactive-card-stack",
@@ -3460,7 +6123,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/interactive-card-stack/preview.mp4",
     "sort_order": 10054,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Interactive Card Stack"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-counter",
@@ -3471,7 +6143,16 @@
     "source_kind": "community",
     "local_rel": "assets/community/superdesign/counter/preview.mp4",
     "sort_order": 10055,
-    "is_free": true
+    "is_free": true,
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Counter"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65",
@@ -3483,294 +6164,1707 @@
     "local_rel": "assets/previews/community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65.webp",
     "sort_order": 10098,
     "is_free": true,
-    "local_kind": "webp"
+    "local_kind": "webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Modal Design · success-celebration (pastel) — legibility fixed"
+    ]
   },
   {
     "id": "personal-showcase",
     "title": "Personal Showcase",
-    "description": null,
+    "description": "",
     "category": "Portfolio",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/personal-showcase.mp4",
     "sort_order": 11010,
     "is_free": true,
-    "poster_rel": "assets/previews/personal-showcase.webp"
+    "poster_rel": "assets/previews/personal-showcase.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Personal Showcase"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "digital-director",
     "title": "Digital Director",
-    "description": null,
+    "description": "",
     "category": "Portfolio",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/digital-director.mp4",
     "sort_order": 11070,
     "is_free": true,
-    "poster_rel": "assets/previews/digital-director.webp"
+    "poster_rel": "assets/previews/digital-director.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Digital Director"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "intelligent-operations",
     "title": "Intelligent Operations",
-    "description": null,
+    "description": "",
     "category": "Agency",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/intelligent-operations.mp4",
     "sort_order": 11160,
     "is_free": true,
-    "poster_rel": "assets/previews/intelligent-operations.webp"
+    "poster_rel": "assets/previews/intelligent-operations.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Intelligent Operations"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "skybridge-404",
     "title": "Skybridge 404",
-    "description": null,
+    "description": "",
     "category": "404",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/skybridge-404.mp4",
     "sort_order": 11220,
     "is_free": true,
-    "poster_rel": "assets/previews/skybridge-404.webp"
+    "poster_rel": "assets/previews/skybridge-404.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Skybridge 404"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "synth-mode",
     "title": "Synth Mode",
-    "description": null,
+    "description": "",
     "category": "Fashion",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/synth-mode.mp4",
     "sort_order": 11250,
     "is_free": true,
-    "poster_rel": "assets/previews/synth-mode.webp"
+    "poster_rel": "assets/previews/synth-mode.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Synth Mode"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "agent-grove",
     "title": "Agent Grove",
-    "description": null,
+    "description": "",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/agent-grove.mp4",
     "sort_order": 11310,
     "is_free": true,
-    "poster_rel": "assets/previews/agent-grove.webp"
+    "poster_rel": "assets/previews/agent-grove.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Agent Grove"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "mostar-guide",
     "title": "Mostar Guide",
-    "description": null,
+    "description": "",
     "category": "Travel",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/mostar-guide.mp4",
     "sort_order": 11370,
     "is_free": true,
-    "poster_rel": "assets/previews/mostar-guide.webp"
+    "poster_rel": "assets/previews/mostar-guide.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Mostar Guide"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "talent-collective",
     "title": "Talent Collective",
-    "description": null,
+    "description": "",
     "category": "Agency",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/talent-collective.mp4",
     "sort_order": 11460,
     "is_free": true,
-    "poster_rel": "assets/previews/talent-collective.webp"
+    "poster_rel": "assets/previews/talent-collective.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Talent Collective"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "intelligence-layer",
     "title": "Intelligence Layer",
-    "description": null,
+    "description": "",
     "category": "Technology",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/intelligence-layer.mp4",
     "sort_order": 11520,
     "is_free": true,
-    "poster_rel": "assets/previews/intelligence-layer.webp"
+    "poster_rel": "assets/previews/intelligence-layer.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Intelligence Layer"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "task-engine",
     "title": "Task Engine",
-    "description": null,
+    "description": "",
     "category": "SaaS",
     "type": "features",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/task-engine.mp4",
     "sort_order": 11550,
     "is_free": true,
-    "poster_rel": "assets/previews/task-engine.webp"
+    "poster_rel": "assets/previews/task-engine.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Task Engine"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "autonomous-ops",
     "title": "Autonomous Ops",
-    "description": null,
+    "description": "",
     "category": "SaaS",
     "type": "features",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/autonomous-ops.mp4",
     "sort_order": 11580,
     "is_free": true,
-    "poster_rel": "assets/previews/autonomous-ops.webp"
+    "poster_rel": "assets/previews/autonomous-ops.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Autonomous Ops"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "orbit-flora",
     "title": "Orbit Flora",
-    "description": null,
+    "description": "",
     "category": "AI",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/orbit-flora.mp4",
     "sort_order": 11670,
     "is_free": true,
-    "poster_rel": "assets/previews/orbit-flora.webp"
+    "poster_rel": "assets/previews/orbit-flora.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Orbit Flora"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "data-signal",
     "title": "Data Signal",
-    "description": null,
+    "description": "",
     "category": "Analytics",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/data-signal.mp4",
     "sort_order": 11700,
     "is_free": true,
-    "poster_rel": "assets/previews/data-signal.webp"
+    "poster_rel": "assets/previews/data-signal.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Data Signal"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "cyber-layer",
     "title": "Cyber Layer",
-    "description": null,
+    "description": "",
     "category": "Cybersecurity",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/cyber-layer.mp4",
     "sort_order": 11730,
     "is_free": true,
-    "poster_rel": "assets/previews/cyber-layer.webp"
+    "poster_rel": "assets/previews/cyber-layer.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Cyber Layer"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "ai-runtime",
     "title": "AI Runtime",
-    "description": null,
+    "description": "",
     "category": "AI",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/ai-runtime.mp4",
     "sort_order": 11760,
     "is_free": true,
-    "poster_rel": "assets/previews/ai-runtime.webp"
+    "poster_rel": "assets/previews/ai-runtime.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "AI Runtime"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "real-time-alerts",
     "title": "Real-Time Alerts",
-    "description": null,
+    "description": "",
     "category": "Sign in",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/real-time-alerts.mp4",
     "sort_order": 11820,
     "is_free": true,
-    "poster_rel": "assets/previews/real-time-alerts.webp"
+    "poster_rel": "assets/previews/real-time-alerts.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Real-Time Alerts"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "pet-diagnostics",
     "title": "Pet Diagnostics",
-    "description": null,
+    "description": "",
     "category": "Healthcare",
     "type": "features",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/pet-diagnostics.mp4",
     "sort_order": 11910,
     "is_free": true,
-    "poster_rel": "assets/previews/pet-diagnostics.webp"
+    "poster_rel": "assets/previews/pet-diagnostics.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Pet Diagnostics"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "growth-decisions",
     "title": "Growth Decisions",
-    "description": null,
+    "description": "",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/growth-decisions.mp4",
     "sort_order": 11940,
     "is_free": true,
-    "poster_rel": "assets/previews/growth-decisions.webp"
+    "poster_rel": "assets/previews/growth-decisions.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Growth Decisions"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "aurex-finance",
     "title": "Aurex Finance",
-    "description": null,
+    "description": "",
     "category": "Fintech",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/aurex-finance.mp4",
     "sort_order": 12090,
     "is_free": true,
-    "poster_rel": "assets/previews/aurex-finance.webp"
+    "poster_rel": "assets/previews/aurex-finance.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Aurex Finance"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "agent-wave",
     "title": "Agent Wave",
-    "description": null,
+    "description": "",
     "category": "AI",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/agent-wave.mp4",
     "sort_order": 12150,
     "is_free": true,
-    "poster_rel": "assets/previews/agent-wave.webp"
+    "poster_rel": "assets/previews/agent-wave.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Agent Wave"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "palomar-labs",
     "title": "Palomar Labs",
-    "description": null,
+    "description": "",
     "category": "AI",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/palomar-labs.mp4",
     "sort_order": 12240,
     "is_free": true,
-    "poster_rel": "assets/previews/palomar-labs.webp"
+    "poster_rel": "assets/previews/palomar-labs.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Palomar Labs"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "scaling-platform",
     "title": "Scaling Platform",
-    "description": null,
+    "description": "",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/scaling-platform.mp4",
     "sort_order": 12300,
     "is_free": true,
-    "poster_rel": "assets/previews/scaling-platform.webp"
+    "poster_rel": "assets/previews/scaling-platform.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Scaling Platform"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "quantum-lucid",
     "title": "Quantum Lucid",
-    "description": null,
+    "description": "",
     "category": "SaaS",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/quantum-lucid.mp4",
     "sort_order": 12360,
     "is_free": true,
-    "poster_rel": "assets/previews/quantum-lucid.webp"
+    "poster_rel": "assets/previews/quantum-lucid.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Quantum Lucid"
+    ],
+    "local_kind": "mp4"
   },
   {
     "id": "space-planet",
     "title": "Space planet",
-    "description": null,
+    "description": "",
     "category": "3D",
     "type": "hero",
     "source_kind": "motionsites",
     "local_rel": "assets/previews/space-planet.mp4",
     "sort_order": 12390,
     "is_free": true,
-    "poster_rel": "assets/previews/space-planet.webp"
+    "poster_rel": "assets/previews/space-planet.webp",
+    "sources": [
+      "gallery"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Space planet"
+    ],
+    "local_kind": "mp4"
+  },
+  {
+    "id": "7",
+    "title": "Synapse Dark Hero",
+    "category": "SaaS",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色主题SaaS首页，黑色背景配毛玻璃导航栏，居中大标题“Where Innovation Meets Execution”带淡入动画，下方排列毛玻璃徽章和渐变按钮。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Synapse Dark Hero"
+    ],
+    "local_rel": "assets/library/videos/Synapse_Dark_Hero_0.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "portfolio-cosmic-hero",
+    "title": "Portfolio Cosmic",
+    "category": "Portfolio",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "landing",
+    "description": "深色单页作品集着陆页，采用极简黑灰配色与衬线字体，结合GSAP滚动动画和Framer Motion微交互，适合展示创意作品。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Portfolio Cosmic"
+    ],
+    "local_rel": "assets/library/videos/Portfolio_Cosmic_0.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "3",
+    "title": "ClearInvoice SaaS Hero",
+    "category": "SaaS",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色模式SaaS产品首页，全屏背景视频自动播放，居中展示\"ClearInvoice\"标题和简洁文案，搭配渐变按钮和导航栏。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "ClearInvoice SaaS Hero"
+    ],
+    "local_rel": "assets/library/videos/ClearInvoice_SaaS_Hero_0.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "codenest-hero",
+    "title": "CodeNest Coding Platform",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "深色全屏背景视频搭配左侧渐变遮罩，中央大型SVG椭圆光晕，三根半透明竖线网格，营造高端编程教育平台沉浸式英雄区。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "CodeNest Coding Platform"
+    ],
+    "local_rel": "assets/library/videos/CodeNest_Coding_Platform_0.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "digitwist-hero",
+    "title": "Digitwist AI Builder",
+    "category": "SaaS",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "深色模式AI建站工具首页，顶部固定透明导航栏，搭配动态视频背景与流畅动画效果。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Digitwist AI Builder"
+    ],
+    "local_rel": "assets/library/videos/Digitwist_AI_Builder_0.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "deck-investor",
+    "title": "Investor Deck",
+    "category": "Investor Presentations",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "全黑背景的演示文稿式幻灯片网页应用，支持5张幻灯片同时挂载，通过透明度动画切换，集成HLS视频播放与键盘导航。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Investor Deck"
+    ],
+    "local_rel": "assets/library/videos/Investor_Deck_0.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "bionova-hero",
+    "title": "Bionova Biotech",
+    "category": "SaaS",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "生物科技咨询公司全屏英雄区，白色背景配深灰文字，柔和蓝色按钮，Poppins字体，带有淡入模糊动画效果。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Bionova Biotech"
+    ],
+    "local_rel": "assets/library/videos/Bionova_Biotech_0.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "nova-space-landing",
+    "title": "NOVA Space Systems",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "深黑背景搭配纯白文字，极简航天科技着陆页，无圆角设计，Space Grotesk字体贯穿全页。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "NOVA Space Systems"
+    ],
+    "local_rel": "assets/library/videos/NOVA_Space_Systems_1.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "4",
+    "title": "Datacore SaaS Hero",
+    "category": "SaaS",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色背景的全屏视频Hero区域，展示Datacore SaaS产品，搭配简洁导航和醒目标题，适合企业级数据管理平台首页。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Datacore SaaS Hero"
+    ],
+    "local_rel": "assets/library/videos/Datacore_SaaS_Hero_0.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "15",
+    "title": "Dark Portfolio Hero",
+    "category": "Portfolio",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色主题全屏作品集首页，带有动画加载屏幕和GSAP驱动的英雄区域入场动效，展示设计师作品。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Dark Portfolio Hero"
+    ],
+    "local_rel": "assets/library/videos/Dark_Portfolio_Hero_0.mp4",
+    "local_kind": "mp4"
+  },
+  {
+    "id": "vex-ventures-hero",
+    "title": "VEX Ventures",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "全屏视频背景英雄区，无任何遮罩层，使用Inter字体，自动播放循环视频，适用于品牌展示首页。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "VEX Ventures"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Glassmorphism Agency Hero",
+    "category": "Agency",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色玻璃态质感英雄页，紫粉渐变背景，居中排版，适合高端品牌展示。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Glassmorphism Agency Hero"
+    ]
+  },
+  {
+    "id": "innovation-landing",
+    "title": "Innovation",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "landing",
+    "description": "全黑背景单页着陆页，使用毛玻璃液体质感卡片，搭配Instrument Serif字体与framer-motion动画，营造科技感创新展示。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Innovation"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "AI Automation Hero",
+    "category": "AI / SaaS",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色全屏首页，左侧垂直居中展示AI自动化产品内容，背景为HLS视频流并右移200px，底部渐变遮罩过渡。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "AI Automation Hero"
+    ]
+  },
+  {
+    "id": "securify-hero",
+    "title": "Securify Data Security",
+    "category": "SaaS",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "全屏循环背景视频，浮动药丸形导航栏，大号错落排版标题，深色数据安全SaaS着陆页。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Securify Data Security"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Loader Animation",
+    "category": "Component",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色全屏加载界面，左上角显示\"Portfolio\"标签，使用Framer Motion实现淡入淡出动画，适合作品集网站启动过渡。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Loader Animation"
+    ]
+  },
+  {
+    "id": "rivr-hero",
+    "title": "RIVR",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "RIVR DeFi仪表盘英雄区，采用玻璃拟态设计，半透明磨砂玻璃背景搭配柔和光影，展示核心数据与品牌标识。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "RIVR"
+    ]
+  },
+  {
+    "id": "wisa-space-hero",
+    "title": "WISA Space",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "WISA Space 的 Hero 区域，采用 Google AI Studio 应用风格，简洁现代，突出品牌与核心功能入口。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "WISA Space"
+    ]
+  },
+  {
+    "id": "vortex-studio-hero",
+    "title": "AI Designer Portfolio",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "单页展示创意设计工作室\"Viktor Oddy\"，白底搭配PP Mondwest衬线字体Logo，居中窄列布局，简约优雅。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "AI Designer Portfolio"
+    ]
+  },
+  {
+    "id": "impressive-hero",
+    "title": "Impressive Hero",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "全屏背景视频搭配浮动液态玻璃导航栏，逐字动画标题与底部液态玻璃标语药丸，营造沉浸式视觉冲击。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Impressive Hero"
+    ]
+  },
+  {
+    "id": "flowmate-landing",
+    "title": "FlowMate",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "FlowMate AI工作流平台的品牌着陆页，采用固定左侧导航栏与右侧内容区布局，以米白背景搭配深灰文字，呈现简洁现代的科技感。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 2,
+    "has_text": true,
+    "aliases": [
+      "FlowMate"
+    ]
+  },
+  {
+    "id": "luminex-hero",
+    "title": "Luminex",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "全屏HLS视频背景搭配毛玻璃导航栏，底部左侧展示品牌标语与行动按钮。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Luminex"
+    ]
+  },
+  {
+    "id": "nike-premium-landing",
+    "title": "Nike Premium Landing",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "高端Nike品牌着陆页，含双滚动区域、气泡菜单和交互式遮罩动画，使用GSAP驱动视觉特效。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Nike Premium Landing"
+    ]
+  },
+  {
+    "id": "sentinel-ai-hero",
+    "title": "Sentinel AI",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "深色全屏安全公司首页，嵌入3D场景背景，搭配渐变文字与发光按钮，科技感强烈。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Sentinel AI"
+    ]
+  },
+  {
+    "id": "slam-dunk-hero",
+    "title": "Slam Dunk",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "以《灌篮高手》为主题的英雄区域，包含动态篮球元素和热血运动风格。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Slam Dunk"
+    ]
+  },
+  {
+    "id": "crypto-wealth-hero",
+    "title": "Crypto Wealth",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "深色全屏视频背景上叠加两层滚动联动内容，展示产品名称与核心功能图标，适合品牌首页首屏展示",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Crypto Wealth"
+    ]
+  },
+  {
+    "id": "shamoni-hero",
+    "title": "Shamoni",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "沉浸式滚动驱动着陆页，全屏视差背景与动态文字动画，营造奢华品牌展示体验。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Shamoni"
+    ]
+  },
+  {
+    "id": "glow-features",
+    "title": "Glow Features",
+    "category": "Features Section",
+    "type": "features",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "深色背景上三列发光渐变卡片网格，每张卡片包含图标、标题和说明文字，悬停时呈现霓虹光效。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Glow Features"
+    ]
+  },
+  {
+    "id": "lumina-footer",
+    "title": "Lumina",
+    "category": "Footer Section",
+    "type": "footer",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "沉浸式视频背景搭配液态玻璃风格页脚，呈现高端科技感的品牌展示页面。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Lumina"
+    ]
+  },
+  {
+    "id": "nexacore-hero",
+    "title": "NexaCore",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "NexaCore企业基础设施运营平台着陆页，采用自定义Mazzard H字体，包含导航栏、英雄区、信任区和自由区等核心模块。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "NexaCore"
+    ]
+  },
+  {
+    "id": "guardnet-landing",
+    "title": "Guardnet",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "全黑背景的科技安全品牌着陆页，使用Futura字体，包含醒目大标题和简洁布局，突出隐私保护与网络安全主题。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Guardnet"
+    ]
+  },
+  {
+    "id": "automation-machines-hero",
+    "title": "Automation Machines",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色全屏英雄区，黑色背景配白色文字，3D Spline场景置于内容后方，展现未来感自动化机械主题。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Automation Machines"
+    ]
+  },
+  {
+    "id": "focus-ai-landing",
+    "title": "Focus AI",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "深黑背景的电动房车品牌着陆页，采用Instrument Serif衬线字体展示标题，Inter字体用于正文，包含6个垂直堆叠的沉浸式内容区块。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Focus AI"
+    ]
+  },
+  {
+    "id": "design-rocket-email-hero",
+    "title": "Email Marketing",
+    "category": "Email Marketing",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "一封仿邮件风格的营销落地页，采用衬线字体标题与无衬线正文，展示与微软合作的AI领导力课程“设计火箭证书”。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Email Marketing"
+    ]
+  },
+  {
+    "id": "rivr-defi-landing",
+    "title": "RIVR DeFi",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "深色高性能DeFi仪表盘着陆页，采用React和Tailwind CSS构建，集成Framer Motion动画与Lucide图标，展示实时金融数据。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "RIVR DeFi"
+    ]
+  },
+  {
+    "id": "duolingo-styleguide-hero",
+    "title": "Duolingo Styleguide",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "多邻国风格英雄区，采用圆润Nunito字体与鲜艳绿色主色调，搭配固定导航栏和醒目行动按钮。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Duolingo Styleguide"
+    ]
+  },
+  {
+    "id": "velorah-focus-hero",
+    "title": "Velorah Focus",
+    "category": "Social Media",
+    "type": "social-media",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色背景中，600x800像素的社交帖子卡片居中显示，带有微白边框和圆角，全屏循环视频作为背景，营造沉浸式视觉体验。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Velorah Focus"
+    ]
+  },
+  {
+    "id": "price-calculator",
+    "title": "Price Calculator",
+    "category": "SaaS",
+    "type": "pricing",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "深色全宽计算器区域，双栏网格布局，左栏为深黑底表单含四项服务选项，右栏显示实时价格估算结果。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Price Calculator"
+    ]
+  },
+  {
+    "id": "yacht-club-hero",
+    "title": "Yacht Club",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "豪华游艇俱乐部着陆页，深色奢华风格，包含WebGL动画、GSAP菜单、Framer Motion视频叠加和液态扭曲光标轨迹。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Yacht Club"
+    ]
+  },
+  {
+    "id": "social-media-posts-hero",
+    "title": "Social Media Posts",
+    "category": "Social Media",
+    "type": "social-media",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "6张社交媒体帖子卡片以3行2列网格居中排列，每张384x384像素，圆角12px，背景为全屏覆盖的风景图片。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Social Media Posts"
+    ]
+  },
+  {
+    "id": "ecommerce-website-landing",
+    "title": "E-commerce Website",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "健康电商着陆页，近白背景配深色文字，全圆角设计，粘性导航栏含Logo、分类链接和登录按钮。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "E-commerce Website"
+    ]
+  },
+  {
+    "id": "digital-epoch-hero",
+    "title": "Digital Epoch",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "深色渐变背景搭配动态粒子动画，中央展示品牌标语与行动按钮，营造科技感沉浸式首屏体验。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Digital Epoch"
+    ]
+  },
+  {
+    "id": "ecovolta-hero",
+    "title": "EcoVolta",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色背景上播放全屏循环视频，中央展示公司名称与标语，搭配动态图标与按钮，营造沉浸式绿色能源品牌形象。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "EcoVolta"
+    ]
+  },
+  {
+    "id": "kresna-footer",
+    "title": "Kresna Footer",
+    "category": "Footer Section",
+    "type": "footer",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "深色背景的SaaS品牌页脚，四列网格布局，包含导航链接、公司信息和手写风格标题，底部显示版权与社交媒体图标。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Kresna Footer"
+    ]
+  },
+  {
+    "id": "vize-footer",
+    "title": "Vize Footer",
+    "category": "Footer Section",
+    "type": "footer",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "深色背景上采用分层卡片设计，搭配大号SVG滤镜文字和lucide-react图标，营造高级质感页脚组件。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Vize Footer"
+    ]
+  },
+  {
+    "id": "pro-ai-deck",
+    "title": "Pro AI Deck",
+    "category": "Presentation",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "全屏AI演示文稿应用，7张幻灯片支持横向滑动/键盘导航，配有流畅动画过渡和HLS视频播放功能。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Pro AI Deck"
+    ]
+  },
+  {
+    "id": "haul-footer",
+    "title": "HAUL!",
+    "category": "Footer Section",
+    "type": "footer",
+    "is_free": true,
+    "page_type": "hero",
+    "description": "深色背景的页脚区域，包含多列链接、社交媒体图标和版权信息，采用Tailwind CSS构建，整体风格简洁现代。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "HAUL!"
+    ]
+  },
+  {
+    "id": "veloce-finance-landing",
+    "title": "Veloce Finance",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色渐变背景的金融科技着陆页，采用品牌专属蓝绿渐变色，包含4个动态动画区块，展示现代金融应用的核心功能。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Veloce Finance"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Bold Portfolio Hero",
+    "category": "Portfolio",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "大胆的红橙渐变背景，巨大粗体无衬线标题，白色文字与图标，背景隐约浮现\"OLIVIA\"字样，适合个人作品集首页。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Bold Portfolio Hero"
+    ]
+  },
+  {
+    "id": "slate-hero",
+    "title": "Slate",
+    "category": "SaaS",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色全屏视频背景上，展示SaaS产品\"Slate\"的标题与动画文字，营造沉浸式生产力工具品牌氛围。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Slate"
+    ]
+  },
+  {
+    "id": "ecovolta-v2-hero",
+    "title": "EcoVolta V2",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色全屏视频背景英雄区，自动播放HLS流媒体视频，覆盖视口，搭配优雅衬线字体标题与无衬线字体文案，营造沉浸式品牌开场体验。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "EcoVolta V2"
+    ]
+  },
+  {
+    "id": "nexora-features",
+    "title": "Nexora Features",
+    "category": "Features Section",
+    "type": "features",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "全黑背景上的全宽功能区块，采用毛玻璃按钮和白色文字，展示产品核心功能。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Nexora Features"
+    ]
+  },
+  {
+    "id": "vitara-hero",
+    "title": "Vitara",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "AI医疗健康品牌着陆页，全屏视频背景搭配底部渐变遮罩，白色导航栏与衬线字体标题营造专业科技感。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Vitara"
+    ]
+  },
+  {
+    "id": "zenith-realty-landing",
+    "title": "Zenith Realty",
+    "category": "Landing Page",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "landing",
+    "description": "高端房产\"ZENITH REALTY\"着陆页，全屏视频背景搭配导航栏，深灰底色配白色文字，展现奢华质感。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Zenith Realty"
+    ]
+  },
+  {
+    "id": "nexar-hero",
+    "title": "Nexar",
+    "category": "Hero Section",
+    "type": "dashboard",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色全屏背景视频上，白色药丸形导航栏与三栏响应式网格布局形成对比，任务卡片带有渐入上移动画，适合项目管理仪表盘。",
+    "platform": "website",
+    "sources": [
+      "original",
+      "library"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Nexar"
+    ]
+  },
+  {
+    "id": "prioritize-hero",
+    "title": "Prioritize",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "采用极浅灰背景，顶部导航栏与全屏英雄区结合，使用Inter字体与Caveat手写体点缀，品牌图标为阶梯式积木SVG，搭配Framer Motion动画与lucide-react图标，打造简洁现代的产品展示页。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Prioritize"
+    ]
+  },
+  {
+    "id": "vertex-ai-hero",
+    "title": "VertexAI Hero",
+    "category": "Hero Section",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "全屏英雄区，背景为循环视频，毛玻璃导航栏居中标题混搭无衬线与斜体衬线字体，底部左侧描述右侧标签按钮。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "VertexAI Hero"
+    ]
+  },
+  {
+    "id": "keep-ahead-features",
+    "title": "Keep Ahead Features",
+    "category": "Features Section",
+    "type": "features",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色背景上三张毛玻璃渐变卡片，展示高级功能特性，适合社区或产品介绍页面。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Keep Ahead Features"
+    ]
+  },
+  {
+    "id": "benefits-features",
+    "title": "Benefits Features",
+    "category": "Features Section",
+    "type": "features",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深灰背景上，左侧标题区搭配右侧三列卡片网格，展示产品核心优势，卡片带图标和悬停动画。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Benefits Features"
+    ]
+  },
+  {
+    "id": "zenith-footer",
+    "title": "Zenith Footer",
+    "category": "Footer Section",
+    "type": "footer",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色全屏背景视频上叠加极简页脚，采用Geist字体与Framer Motion动画，营造沉浸式品牌展示体验。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Zenith Footer"
+    ]
+  },
+  {
+    "id": "digital-reality-hero",
+    "title": "Digital Reality",
+    "category": "Social Media",
+    "type": "social-media",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "全屏黑色背景上，600x800像素的玻璃态卡片居中展示，内嵌全屏覆盖背景视频，营造电影感社交媒体或数字作品集英雄区。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Digital Reality"
+    ]
+  },
+  {
+    "id": "community-cta",
+    "title": "Community CTA",
+    "category": "CTA Section",
+    "type": "cta",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "深色背景上嵌入自动循环视频，搭配白色标题和说明文字，形成沉浸式社区订阅号召区。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "Community CTA"
+    ]
+  },
+  {
+    "id": "package-fits-pricing",
+    "title": "What Package Fits You",
+    "category": "Pricing",
+    "type": "hero",
+    "is_free": false,
+    "page_type": "hero",
+    "description": "定价套餐页面，背景米灰，卡片式布局展示三种方案，标题衬线字体，价格优雅手写感，适合服务类网站。",
+    "platform": "website",
+    "sources": [
+      "original"
+    ],
+    "variant_count": 1,
+    "has_text": true,
+    "aliases": [
+      "What Package Fits You"
+    ]
   }
 ]

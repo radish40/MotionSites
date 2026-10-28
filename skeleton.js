@@ -1,0 +1,1 @@
+(function(){var g=document.getElementById("grid");if(!g)return;window.__MS_CLEAR_SKELETONS=function(){var s=g.querySelectorAll(".card.skeleton");for(var i=0;i<s.length;i++)s[i].remove();g.dataset.state=g.children.length?"ready":"empty"};})();

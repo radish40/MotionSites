@@ -150,6 +150,10 @@ const I18N = {
   }
 };
 
+Object.assign(I18N['zh-CN'], {tagline:'三个开源资料库 · 预览、比较与复制设计提示词',concept:'无预览',noPreview:'暂无预览',conceptBadge:'无预览',placeholderNote:'此设计暂无图片或视频预览',versionsUnit:'个版本',versionLabel:'提示词版本',previewLabel:'预览资源',sourceGallery:'图文库',sourceOriginal:'原始库',sourceLibrary:'文档库',searchLoading:'正在检索提示词正文…',searchFailed:'正文搜索暂时不可用，可继续按标题和描述搜索',loadFailed:'加载失败，请重新选择版本或打开卡片',prompts:'个设计',sourceLinks:'查看来源'});
+Object.assign(I18N.en, {tagline:'Three open-source libraries · Preview, compare and copy design prompts',concept:'No preview',noPreview:'No preview yet',conceptBadge:'No preview',placeholderNote:'No image or video preview is available for this design',versionsUnit:'versions',versionLabel:'Prompt version',previewLabel:'Preview assets',sourceGallery:'Visual library',sourceOriginal:'Original library',sourceLibrary:'Document library',searchLoading:'Searching prompt text…',searchFailed:'Full-text search unavailable; title and description search still work',loadFailed:'Loading failed. Select the version again or reopen this card.',prompts:'designs',sourceLinks:'View source'});
+const sourceLabel=key=>t({gallery:'sourceGallery',original:'sourceOriginal',library:'sourceLibrary'}[key]||key);
+
 let LANG = (() => {
   try {
     const stored = localStorage.getItem('ms.lang');
@@ -195,7 +199,7 @@ function debounce(fn, ms) {
 async function fetchJSON(url) {
   // BUST-CACHE: append a build stamp so each deploy invalidates browser caches.
   const sep = url.includes('?') ? '&' : '?';
-  const fullUrl = url + sep + 'v=20260831v6';
+  const fullUrl = url + sep + 'v=unified-20261028';
   const res = await fetch(fullUrl, { cache: 'no-store' });
   if (!res.ok) throw new Error('fetchJSON ' + url + ' ' + res.status);
   return res.json();
@@ -217,7 +221,7 @@ async function loadPromptText(id) {
   if (!rel) { __MS_TEXT_CACHE[id] = ''; return ''; }
   const p = (async function () {
     try {
-      const res = await fetch('data/' + rel + '?v=20260831v6', { cache: 'no-store' });
+      const res = await fetch('data/' + rel + '?v=unified-20261028', { cache: 'no-store' });
       if (!res.ok) throw new Error('text ' + id + ' ' + res.status);
       const txt = await res.text();
       __MS_TEXT_CACHE[id] = txt;
@@ -311,17 +315,17 @@ function placeholderHTML(x, opts) {
   const ph = paletteFor(x);
   const pat = fnv(x.id || 'x');
   const bg = opts.bg || BG_STYLES[pat % BG_STYLES.length];
-  const cat = esc(x.category || 'Concept');
+  const cat = esc(x.local_rel ? (x.category || '') : t('noPreview'));
   const ttl = esc(x.title || x.id || '');
   const big = !!opts.big;
-  const isVideo = (x.local_kind === 'mp4' || x.local_kind === 'hls');
+  const isVideo = ((x.local_kind === 'mp4' || x.local_kind === 'webm') || x.local_kind === 'hls');
   return '<div class="ph-art ph-bg-' + bg + '" style="--phA:' + ph.a + ';--phB:' + ph.b + ';--phC:' + ph.c + ';--phAngle:' + (pat % 360) + 'deg">'
     + '<div class="ph-grid"></div>'
     + '<div class="ph-glow"></div>'
     + '<div class="ph-icon">' + ornament(pat) + '</div>'
     + '<div class="ph-cat">' + cat.toUpperCase() + '</div>'
     + '<div class="ph-title" style="font-size:' + (big ? '30px' : '18px') + ';font-style:' + (big ? 'italic' : 'normal') + '">' + ttl + '</div>'
-    + (big ? '<div class="ph-meta"><span>' + esc(x.type || '—') + '</span> · ' + (x.is_free ? t('openAccess') : t('premium')) + '</div>' : '')
+    + (big ? '<div class="ph-meta"><span>' + esc(x.type || '—') + '</span> · ' + t('placeholderNote') + '</div>' : '')
     + '</div>';
 }
 
@@ -345,9 +349,9 @@ function onImgError(e) {
 
 function mediaOf(x, forPreview) {
   // forPreview=true is the detail modal; load immediately
-  if (x.local_kind === 'mp4') return '<video src="' + esc(x.local_rel) + '" ' + (forPreview ? 'controls ' : '') + 'autoplay loop muted playsinline preload="metadata"></video>';
+  if ((x.local_kind === 'mp4' || x.local_kind === 'webm')) return '<video src="' + esc(x.local_rel) + '" ' + (forPreview ? 'controls ' : '') + 'autoplay loop muted playsinline preload="metadata"></video>';
   if (x.local_kind === 'hls') return placeholderHTML(x, { big: forPreview });
-  if (x.local_kind === 'webp' || x.local_kind === 'gif' || x.local_kind === 'png' || x.local_kind === 'jpeg') {
+  if (x.local_kind === 'webp' || x.local_kind === 'gif' || x.local_kind === 'png' || (x.local_kind === 'jpeg' || x.local_kind === 'jpg')) {
     return '<img src="' + esc(x.local_rel) + '" alt="' + esc(x.title) + '" loading="lazy" decoding="async">';
   }
   return placeholderHTML(x, { big: forPreview });
@@ -534,7 +538,7 @@ function options(id, key) {
 }
 
 function cardHTML(x) {
-  const full = !!(x.prompt_text && x.prompt_text.trim());
+  const full = !!x.has_text;
   return '<article class="card" data-id="' + esc(x.id) + '">'
     + '<div class="badge-row">'
     + (full ? '<span class="badge full">' + t('fullBadge') + '</span>' : '<span class="badge muted">' + t('metadataBadge') + '</span>')
@@ -547,6 +551,8 @@ function cardHTML(x) {
     + '<div class="tag-row">'
     + '<span class="tag accent">' + esc(x.category || '—') + '</span>'
     + '<span class="tag">' + esc(x.type || '—') + '</span>'
+    + '<span class="tag">' + x.variant_count + ' ' + t('versionsUnit') + '</span>'
+    + '<span class="tag">' + (x.sources || []).map(sourceLabel).join(' · ') + '</span>'
     + '<span class="dot ' + (x.local_rel ? '' : 'concept') + '"></span>'
     + '</div></div></article>';
 }
@@ -558,14 +564,14 @@ function render() {
   let list = DATA;
   if (cat) list = list.filter((x) => x.category === cat);
   if (type) list = list.filter((x) => x.type === type);
-  if (media === 'img') list = list.filter((x) => x.local_kind && x.local_kind !== 'mp4' && x.local_kind !== 'hls');
-  if (media === 'video') list = list.filter((x) => x.local_kind === 'mp4' || x.local_kind === 'hls');
+  if (media === 'img') list = list.filter((x) => x.local_kind && x.local_kind !== 'mp4' && x.local_kind !== 'webm' && x.local_kind !== 'hls');
+  if (media === 'video') list = list.filter((x) => (x.local_kind === 'mp4' || x.local_kind === 'webm') || x.local_kind === 'hls');
   if (media === 'art') list = list.filter((x) => !x.local_rel);
-  if (source) list = list.filter((x) => (x.source_kind || 'motionsites') === source);
+  if (source) list = list.filter(x => (x.sources || []).includes(source));
   if (q) {
     const tokens = q.split(/\s+/).filter(Boolean);
     list = list.filter((x) => {
-      const hay = (x.title + ' ' + (x.description || '') + ' ' + x.id + ' ' + (x.category || '') + ' ' + (x.type || '') + ' ' + (x.prompt_text || '') + ' ' + (x.source_repo || '') + ' ' + (x.source_path || '')).toLowerCase();
+      const hay = (x.title + ' ' + (x.description || '') + ' ' + x.id + ' ' + (x.category || '') + ' ' + (x.type || '') + ' ' + (SEARCH_TEXT[x.id] || x.prompt_text || '') + ' ' + (x.aliases || []).join(' ') + ' ' + (x.source_repo || '') + ' ' + (x.source_path || '')).toLowerCase();
       return tokens.every((tk) => hay.includes(tk));
     });
   }
@@ -598,7 +604,9 @@ function renderBatch(list, start, end) {
   return slice.length;
 }
 
+let renderGeneration = 0;
 function renderProgressive(list) {
+  const generation = ++renderGeneration;
   if (typeof requestAnimationFrame === 'undefined') {
     renderBatch(list, 0, list.length);
     return;
@@ -606,6 +614,7 @@ function renderProgressive(list) {
   const BATCH = 60;
   let i = 0;
   function step() {
+    if(generation !== renderGeneration) return;
     const n = renderBatch(list, i, i + BATCH);
     i += n;
     if (i < list.length) requestAnimationFrame(step);
@@ -632,7 +641,7 @@ function chipInitFromLite(lite) {
   });
 }
 
-function updateHeaderStats(lite) { if (!lite) return; const map = { 'stat-curated': lite.total || 0, 'stat-text': lite.complete || 0, 'stat-anim': (lite.images || 0) + (lite.videos || 0), 'stat-videos': lite.videos || 0, 'stat-concepts': lite.concepts || 0 }; for (const id in map) { const el = document.getElementById(id); if (el) el.textContent = map[id]; } }
+function updateHeaderStats(lite) { if (!lite) return; const map = { 'stat-curated': lite.total || 0, 'stat-text': lite.versions || 0, 'stat-anim': (lite.images || 0) + (lite.videos || 0), 'stat-videos': lite.videos || 0, 'stat-concepts': lite.concepts || 0 }; for (const id in map) { const el = document.getElementById(id); if (el) el.textContent = map[id]; } }
 
 function animateSearch(q) {
   const $s = $('spotlight');
@@ -681,54 +690,62 @@ async function copyText(text) {
   }
 }
 
-async function openItem(id) {
-  current = DATA.find((x) => x.id === id);
-  if (!current) return;
-  // Lazy-load modal-only fields (image/video URLs, source links, tags) from a separate file
-  if(!window.__MS_DETAILS_CACHE__){try{window.__MS_DETAILS_CACHE__=await fetchJSON("data/catalog-details.json");}catch(e){window.__MS_DETAILS_CACHE__={};}}
-  const _d=window.__MS_DETAILS_CACHE__[current.id];if(_d){for(const _k in _d){if(current[_k]===undefined)current[_k]=_d[_k];}}
-  const isVideo = current.local_kind === 'mp4' || current.local_kind === 'hls';
-  $('title').innerHTML = esc(current.title) + ' <small>' + esc(current.id) + '</small>';
-  $('description').textContent = current.description || '—';
-  $('tags').innerHTML = [
-    '<span class="tag accent">' + esc(current.category || '—') + '</span>',
-    '<span class="tag">' + esc(current.type || '—') + '</span>',
-    '<span class="tag" id="prompt-state-tag" style="color:var(--orange);border-color:rgba(255,186,114,.45)">' + t('modalLoading') + '</span>',
-    current.local_rel ? '<span class="tag">' + (isVideo ? t('video') : t('visual')) + '</span>' : '<span class="tag">' + t('conceptBadge') + '</span>'
-  ].join('');
-  $('preview').innerHTML = mediaOf(current, true);
-  $('prompt').textContent = t('modalLoading');
-  $('prompt').dataset.mode = 'loading';
-  $('copy').disabled = true;
-  $('download').disabled = true;
-  try { $('dlg').showModal(); } catch (e) { /* not in secure context */ }
-
-  // Lazy-load the prompt body only when the modal opens
-  let body = current.prompt_text;
-  if (!body || !body.trim()) {
-    body = await loadPromptText(current.id);
-    current.prompt_text = body;
-  }
-  // If the user already closed the modal, stop here
-  if (!$('dlg').open) return;
-  const full = !!(body && body.trim());
-  if (full) {
-    $('prompt').textContent = body;
-    $('prompt').dataset.mode = 'prompt';
-  } else {
-    $('prompt').innerHTML = metaPanelHTML(current);
-    $('prompt').dataset.mode = 'meta';
-  }
-  $('copy').disabled = !full;
-  $('download').disabled = !full;
-  // Replace the loading tag with the final state
-  const tag = $('prompt-state-tag');
-  if (tag) {
-    tag.outerHTML = full
-      ? '<span class="tag" style="color:var(--green);border-color:rgba(92,220,177,.45)">' + t('fullPrompt') + '</span>'
-      : '<span class="tag" style="color:var(--orange);border-color:rgba(255,186,114,.45)">' + t('metadataOnly') + '</span>';
-  }
+let modalGeneration=0, detailPromise=null;
+const variantTextCache=new Map();
+function showPreview(path){
+ const kind=(path||'').split('.').pop().toLowerCase();
+ $('preview').innerHTML=mediaOf({...current,local_rel:path||'',local_kind:kind},true);
 }
+async function selectVariant(index){
+ const item=current, variant=item.variants[index];
+ if(!variant)return;
+ const generation=++modalGeneration;
+ item.prompt_text='';item.active_variant=variant.id;
+ $('prompt').textContent=t('modalLoading');$('prompt').dataset.mode='loading';
+ $('copy').disabled=true;$('download').disabled=true;
+ $('variant-sources').replaceChildren();
+ variant.sources.forEach(source=>{
+  const a=document.createElement('a');a.href=source.url;a.target='_blank';a.rel='noopener noreferrer';
+  a.textContent=sourceLabel(source.key)+' · '+source.path.split('/').pop();
+  a.title=source.url;$('variant-sources').appendChild(a);
+ });
+ try{
+  let body=variantTextCache.get(variant.text_path);
+  if(body===undefined){const response=await fetch('data/'+variant.text_path,{cache:'no-store'});if(!response.ok)throw Error(response.status);body=await response.text();variantTextCache.set(variant.text_path,body);}
+  if(generation!==modalGeneration||current!==item||!$('dlg').open)return;
+  item.prompt_text=body;$('prompt').textContent=body;$('prompt').dataset.mode='prompt';
+  $('copy').disabled=false;$('download').disabled=false;
+ }catch(e){if(generation===modalGeneration){$('prompt').textContent=t('loadFailed');$('prompt').dataset.mode='error';}}
+}
+$('variant-choice').addEventListener('change',()=>selectVariant(Number($('variant-choice').value)));
+$('preview-choice').addEventListener('change',()=>showPreview($('preview-choice').value));
+async function openItem(id){
+ const item=DATA.find(x=>x.id===id);if(!item)return;
+ const generation=++modalGeneration;current=item;
+ $('title').textContent=item.title;$('description').textContent=item.description||'';
+ $('tags').innerHTML='<span class="tag accent">'+esc(item.category)+'</span><span class="tag">'+item.variant_count+' '+t('versionsUnit')+'</span>';
+ $('prompt').textContent=t('modalLoading');$('prompt').dataset.mode='loading';
+ $('variant-choice').replaceChildren();$('variant-sources').replaceChildren();$('preview-choice').replaceChildren();
+ $('copy').disabled=true;$('download').disabled=true;
+ showPreview(item.local_rel);
+ if(!$('dlg').open)$('dlg').showModal();
+ try{
+  if(!detailPromise)detailPromise=fetchJSON('data/catalog-details.json').catch(e=>{detailPromise=null;throw e;});
+  const all=await detailPromise;
+  if(generation!==modalGeneration||current!==item||!$('dlg').open)return;
+  item.variants=all[id].variants;
+  item.variants.forEach((variant,i)=>{
+   const option=document.createElement('option');option.value=i;
+   option.textContent=(i+1)+'. '+[...new Set(variant.sources.map(s=>sourceLabel(s.key)))].join(' / ')+' · '+variant.length.toLocaleString()+(LANG==='en'?' characters':' 字符');
+   $('variant-choice').appendChild(option);
+  });
+  const media=all[id].previews||[];
+  media.forEach((path,i)=>{const option=document.createElement('option');option.value=path;option.textContent=(i+1)+'. '+path.split('/').pop();$('preview-choice').appendChild(option);});
+  $('preview-choice').hidden=media.length<2;$('preview-choice').previousElementSibling.hidden=media.length<2;
+  await selectVariant(0);
+ }catch(e){if(generation===modalGeneration){$('prompt').textContent=t('loadFailed');$('prompt').dataset.mode='error';}}
+}
+
 
 function metaPanelHTML(x) {
   const rows = [];
@@ -753,6 +770,7 @@ function metaPanelHTML(x) {
 }
 
 function closeModal() {
+  modalGeneration++;
   try { $('dlg').close(); } catch (e) {}
   // pause any playing video
   const v = $('preview').querySelector('video');
@@ -805,6 +823,7 @@ $('download').addEventListener('click', () => {
 $('close').addEventListener('click', closeModal);
 $('dlg').addEventListener('click', (e) => { if (e.target === $('dlg')) closeModal(); });
 $('dlg').addEventListener('close', () => {
+  modalGeneration++;
   const v = $('preview').querySelector('video');
   if (v) try { v.pause(); } catch (e) {}
 });
@@ -828,7 +847,7 @@ $('grid').addEventListener('error', onImgError, true); // capture for img errors
 
 // Filter events
 ['q', 'cat', 'type', 'source', 'media'].forEach((id) => {
-  if (id === 'q') { $(id).addEventListener('input', debounce(render, 120)); }
+  if (id === 'q') { $(id).addEventListener('input', debounce(searchAndRender, 120)); }
   else { $(id).addEventListener('change', render); }
 });
 
@@ -866,8 +885,8 @@ function chipInit() {
 function applyLang() {
   document.documentElement.lang = LANG === 'zh-CN' ? 'zh-CN' : 'en';
   document.title = (LANG === 'zh-CN'
-    ? 'MotionSites Prompts · 动效 UI 提示词资料库'
-    : 'MotionSites Prompts · A Curated Library of Motion-Driven UI');
+    ? 'MotionSites 合集 · 设计提示词与预览'
+    : 'MotionSites Collection · Design Prompts & Previews');
 
   // Search input placeholder
   const q = $('q');
@@ -929,8 +948,8 @@ function applyLang() {
   const source0 = $('source');
   if (source0) {
     if (source0.options[0]) source0.options[0].textContent = t('allSources');
-    if (source0.options[1]) source0.options[1].textContent = t('sourceMotionsites');
-    if (source0.options[2]) source0.options[2].textContent = t('sourceCommunity');
+    if (source0.options[1]) source0.options[1].textContent = sourceLabel('gallery');
+    if (source0.options[2]) source0.options[2].textContent = sourceLabel('original');
   }
 
   chipInit();
@@ -949,16 +968,24 @@ $('lang-toggle').addEventListener('click', () => {
 
 
 function rebuildSourceOptions() {
-  const sel = $('source');
-  if (!sel) return;
-  const cur = sel.value;
-  const present = new Set(DATA.map((x) => x.source_kind || 'motionsites'));
-  const opts = ['<option value="">' + t('allSources') + '</option>'];
-  if (present.has('motionsites')) opts.push('<option value="motionsites">' + t('sourceMotionsites') + '</option>');
-  if (present.has('community')) opts.push('<option value="community">' + t('sourceCommunity') + '</option>');
-  sel.innerHTML = opts.join('');
-  if (cur && (cur === '' || present.has(cur))) sel.value = cur;
+ const sel=$('source'), previous=sel.value;
+ sel.innerHTML='<option value="">'+t('allSources')+'</option>'+['gallery','original','library'].map(key=>'<option value="'+key+'">'+sourceLabel(key)+'</option>').join('');
+ sel.value=previous;
 }
+
+
+let SEARCH_TEXT=Object.create(null), searchPromise=null;
+async function searchAndRender(){
+ render();
+ if(!$('q').value.trim()){$('search-status').textContent='';return;}
+ if(!searchPromise){
+  $('search-status').textContent=t('searchLoading');
+  searchPromise=fetchJSON('data/catalog-search.json').then(data=>{SEARCH_TEXT=data;return data;}).catch(e=>{searchPromise=null;throw e;});
+ }
+ try{await searchPromise;$('search-status').textContent='';render();}
+ catch(e){$('search-status').textContent=t('searchFailed');}
+}
+
 // -------- boot --------
 async function bootstrap() {
   if (__MS_BOOT_DONE) return;

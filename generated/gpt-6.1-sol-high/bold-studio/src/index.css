@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; font-synthesis: none; }
+html { scroll-behavior: smooth; background: #191b19; }
+body { margin: 0; }
+* { box-sizing: border-box; }
+::selection { background: #fff; color: #181818; }
+a, button { -webkit-tap-highlight-color: transparent; }
+a:focus-visible, button:focus-visible { outline: 2px solid white; outline-offset: 6px; }
+.hero { height: 100svh; }
+.hero-shade { background: linear-gradient(90deg, rgba(0,0,0,.48) 0%, rgba(0,0,0,.2) 43%, transparent 78%); }
+@media (max-width: 639px) { .hero-shade { background: linear-gradient(90deg, rgba(0,0,0,.5),rgba(0,0,0,.12)); } }
+@media (max-height: 720px) { .hero { height: auto; } }
+@layer utilities {
+  .font-podium { font-family: "FSP DEMO - PODIUM Sharp 4.11", Impact, sans-serif; }
+  @keyframes fade-up { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes scale-in { from { opacity: 0; transform: scale(.9); } to { opacity: 1; transform: scale(1); } }
+  .animate-fade-up, .animate-fade-up-delay-1, .animate-fade-up-delay-2, .animate-fade-up-delay-3, .animate-fade-up-delay-4 { opacity: 0; animation: fade-up .8s ease-out forwards; }
+  .animate-fade-up-delay-1 { animation-delay: .2s; }
+  .animate-fade-up-delay-2 { animation-delay: .4s; }
+  .animate-fade-up-delay-3 { animation-delay: .6s; }
+  .animate-fade-up-delay-4 { animation-delay: .8s; }
+  .animate-fade-in { animation: fade-in 1s ease-out forwards; }
+  .animate-fade-in-delay { opacity: 0; animation: fade-in 1s ease-out .5s forwards; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0ms !important; transition-duration: .01ms !important; } }

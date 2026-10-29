@@ -1,0 +1,32 @@
+{
+  "title": "Bold Studio",
+  "id": "bold-studio",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/bold-studio:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "dist_index": "dist/index.html exists",
+    "desktop": "passed: 1440x1000, document 1440x1000",
+    "mobile": "passed: 390x844, document 390x844",
+    "mobile_menu": "passed: open, close, navigation dismissal",
+    "fonts": "PODIUM and Inter loaded in both viewports",
+    "video": "playing in both viewports; readyState 4; no media errors",
+    "javascript_errors": [],
+    "failed_requests": [],
+    "visual_review": "desktop and mobile screenshots inspected",
+    "evidence": "browser-checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session acceptance, not deployed.",
+    "React + Tailwind CSS + Vite; source and lockfile included.",
+    "Configured publish base: /motionsites-results/bold-studio/.",
+    "External video and fonts require network availability.",
+    "Single hero with in-page navigation; contact uses unverified demo mailto hello@vanguard.studio."
+  ]
+}

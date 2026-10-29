@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "page": [
+        1440,
+        1000
+      ],
+      "font": true,
+      "inter": true,
+      "video": {
+        "readyState": 4,
+        "currentTime": 3.264806,
+        "paused": false,
+        "error": null
+      },
+      "heading": "DESIGN.\nDISRUPT.\nCONQUER."
+    },
+    {
+      "name": "mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "page": [
+        390,
+        844
+      ],
+      "font": true,
+      "inter": true,
+      "video": {
+        "readyState": 4,
+        "currentTime": 2.308486,
+        "paused": false,
+        "error": null
+      },
+      "heading": "DESIGN.\nDISRUPT.\nCONQUER."
+    },
+    {
+      "menuOpen": true
+    },
+    {
+      "menuClosed": true
+    },
+    {
+      "menuLinkCloses": true
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

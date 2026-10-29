@@ -1,0 +1,57 @@
+{
+  "title": "Financial Suite",
+  "id": "financial-suite",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "dependency_audit": "0 vulnerabilities",
+    "browser_report": "browser-checks.json",
+    "desktop": {
+      "viewport": "1440x1000",
+      "screenshot": "screenshots/desktop.png",
+      "result": "passed"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "screenshot": "screenshots/mobile.png",
+      "result": "passed"
+    },
+    "interactions": [
+      "1800px scroll video scrubbing",
+      "hero and card transitions",
+      "reverse scroll",
+      "canvas spotlight",
+      "mobile menu",
+      "navigation detail dialogs",
+      "See Features",
+      "How It Works",
+      "More",
+      "application preview"
+    ],
+    "javascript_errors": 0,
+    "horizontal_overflow": false,
+    "assets": "All four images and video loaded successfully; Geist loaded successfully",
+    "asset_http_errors": 0,
+    "unexpected_failed_requests": 0,
+    "font_requests": "No requests for missing Helvetica Neue files; Geist loaded successfully in both viewports."
+  },
+  "asset_issues": [
+    {
+      "asset": "HelveticaNeue-Roman.woff2 / HelveticaNeue-Roman.woff",
+      "issue": "Original local font files are unavailable in this project; the prompt supplies no download source.",
+      "handling": "Removed unresolved URL sources. Retained local('Helvetica Neue') and the specified hero fallback stack. No substitute font file was renamed or supplied. Production browser checks reject asset HTTP errors, including font errors, and passed with zero HTTP errors."
+    }
+  ],
+  "notes": [
+    "Built static output: dist/index.html. Base: /motionsites-results/financial-suite/.",
+    "All five specified image and video assets are bundled locally; provenance is in asset-report.json.",
+    "No deployment, push, external messages, agents, or additional sessions.",
+    "Account, support, and application dialogs are previews; no live service or data collection.",
+    "Mobile More button is placed below the heading to prevent overlap.",
+    "Chromium may cancel redundant video range requests; the video loaded and scrubbed successfully.",
+    "Ready for review; not live.",
+    "Scoped font repair: rebuilt production output and regenerated all screenshots; strict asset HTTP checks passed at both required viewport sizes."
+  ]
+}

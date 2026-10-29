@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* The original Helvetica Neue Roman files were not supplied. Use the local
+   font when installed, otherwise the specified fallback stack. No absent-file URLs. */
+@font-face {
+  font-family: 'Helvetica Neue Roman';
+  src: local('Helvetica Neue');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+* { font-family: 'Geist', sans-serif; }
+html,body { margin: 0; background: #0A0B11; color: white; }
+body { min-width: 320px; }
+button { -webkit-tap-highlight-color: transparent; }
+button:focus-visible { outline: 2px solid white; outline-offset: 5px; }
+.font-helvetica-neue,.font-helvetica-neue * { font-family: 'Helvetica Neue Roman','Helvetica Neue',Helvetica,Arial,sans-serif; }
+@keyframes fadeSlideUp { 0% {opacity:0;transform:translateY(24px)} 100% {opacity:1;transform:translateY(0)} }
+@keyframes fadeIn { 0% {opacity:0} 100% {opacity:1} }
+.anim-stagger {opacity:0;transform:translateY(24px);animation:fadeSlideUp .9s cubic-bezier(.16,1,.3,1) both}
+.anim-fade {opacity:0;animation:fadeIn 1s cubic-bezier(.16,1,.3,1) both}
+.hero-height {height:100vh;height:100svh}
+@media (prefers-reduced-motion:reduce) { .anim-stagger,.anim-fade {animation-duration:1ms;animation-delay:0ms!important} * {scroll-behavior:auto!important} }

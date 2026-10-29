@@ -1,0 +1,117 @@
+{
+  "checks": [
+    {
+      "viewport": "desktop",
+      "geistLoaded": true
+    },
+    {
+      "viewport": "desktop",
+      "hero": true,
+      "overflow": false,
+      "assets": [
+        {
+          "url": "/motionsites-results/financial-suite/assets/hero-base.webp",
+          "width": 1280,
+          "height": 714
+        },
+        {
+          "url": "/motionsites-results/financial-suite/assets/hero-reveal.webp",
+          "width": 1280,
+          "height": 714
+        },
+        {
+          "url": "/motionsites-results/financial-suite/assets/card-base.png",
+          "width": 1024,
+          "height": 571
+        },
+        {
+          "url": "/motionsites-results/financial-suite/assets/card-reveal.png",
+          "width": 1024,
+          "height": 571
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "video": {
+        "duration": 4.041667,
+        "currentTime": 1.81875,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "viewport": "desktop",
+      "menuAndButtons": true,
+      "scrollReveal": true,
+      "reverseScroll": true,
+      "featuresButton": true
+    },
+    {
+      "viewport": "mobile",
+      "geistLoaded": true
+    },
+    {
+      "viewport": "mobile",
+      "hero": true,
+      "overflow": false,
+      "assets": [
+        {
+          "url": "/motionsites-results/financial-suite/assets/hero-base.webp",
+          "width": 1280,
+          "height": 714
+        },
+        {
+          "url": "/motionsites-results/financial-suite/assets/hero-reveal.webp",
+          "width": 1280,
+          "height": 714
+        },
+        {
+          "url": "/motionsites-results/financial-suite/assets/card-base.png",
+          "width": 1024,
+          "height": 571
+        },
+        {
+          "url": "/motionsites-results/financial-suite/assets/card-reveal.png",
+          "width": 1024,
+          "height": 571
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "video": {
+        "duration": 4.041667,
+        "currentTime": 1.81875,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "viewport": "mobile",
+      "menuAndButtons": true,
+      "scrollReveal": true,
+      "reverseScroll": true,
+      "featuresButton": true
+    },
+    {
+      "assetHttpErrors": 0,
+      "unexpectedFailedRequests": 0
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://localhost:4173/motionsites-results/financial-suite/assets/card-motion.mp4",
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/financial-suite/assets/card-motion.mp4",
+      "error": "net::ERR_ABORTED",
+      "type": "media"
+    }
+  ],
+  "responses": [],
+  "status": "passed"
+}

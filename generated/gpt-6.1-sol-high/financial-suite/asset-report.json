@@ -1,0 +1,37 @@
+[
+  {
+    "name": "hero-base.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260629_235011_7a23734e-7fe9-4491-ac28-e46133f980c2.png&w=1280&q=85",
+    "status": "downloaded",
+    "bytes": 48584,
+    "sha256": "4516c5cca43d6d08196927c1599d8568693adf14193c65236e31f7e6517a2291"
+  },
+  {
+    "name": "hero-reveal.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260630_011539_f0e4cacc-143c-4bec-9db3-d3415e656a83.png&w=1280&q=85",
+    "status": "downloaded",
+    "bytes": 41170,
+    "sha256": "907b2adccb5c0204e900a1948cc3eae76643ad80587d823e6e0943fec9f87d67"
+  },
+  {
+    "name": "card-base.png",
+    "source": "https://soft-zoom-63098134.figma.site/_assets/v11/47ffd9fae3c79a54bef0ff41737f6ad654c92213.png?w=1024",
+    "status": "downloaded",
+    "bytes": 60141,
+    "sha256": "db4c550ff2dc790ddafeef54f7fef5eec00387d6c77406e99fce1f9e02d64b80"
+  },
+  {
+    "name": "card-reveal.png",
+    "source": "https://soft-zoom-63098134.figma.site/_assets/v11/400e1612d64f65aee1c05735530d6f7a86ae3b8d.png?w=1024",
+    "status": "downloaded",
+    "bytes": 63761,
+    "sha256": "ed01776cec4853de49de6c4f35bd7b50f8b212daa064272df04119a0411b7d29"
+  },
+  {
+    "name": "card-motion.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260630_060707_72cd8ca2-3e4b-460c-9293-575573810866.mp4",
+    "status": "downloaded",
+    "bytes": 6551215,
+    "sha256": "29ce6173e55d73e007477ef424767b8c865ffe5fd6607d2b520904b3fc84c93e"
+  }
+]

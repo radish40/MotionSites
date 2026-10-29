@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T03:54:11.805382+00:00",
+  "updated_utc": "2026-10-29T03:55:34.761466+00:00",
   "total": 380,
   "counts": {
-    "complete": 10,
+    "complete": 11,
     "running": 5,
-    "not_started": 365
+    "ready": 1,
+    "not_started": 363
   },
   "jobs": [
     {
@@ -101,11 +102,11 @@
       "id": "reveal-hero",
       "title": "Reveal Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c1-93a5-7161-9596-1956103c101b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c00632f4ab71c7157bacf4f17d06c9cded7e2f23",
+      "group_message_id": 58,
+      "url": "https://tool.luo-xd.com/motionsites-results/reveal-hero/"
     },
     {
       "id": "modern-agency",
@@ -121,7 +122,7 @@
       "id": "liquid-glass-agency",
       "title": "Liquid Glass Agency",
       "category": "Landing Page",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a185c2-c909-7c61-b93c-abb77538fc0d",
       "source_commit": null,
       "group_message_id": null,
@@ -152,7 +153,7 @@
       "title": "Max Reed Portfolio",
       "category": "Features Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ca-c46a-7e40-a3b1-809af1e9bc6a",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -161,7 +162,7 @@
       "id": "mindloop-landing",
       "title": "Mindloop Landing",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -171,7 +172,7 @@
       "id": "ember-dsgn-hero",
       "title": "EMBER.dsgn",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

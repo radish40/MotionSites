@@ -318,10 +318,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c1-93a5-7161-9596-1956103c101b",
       "output_path": "generated/gpt-6.1-sol-high/reveal-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Session ended without result.json; inspect existing session before retrying",
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:51:02.406647+00:00",
@@ -329,8 +329,12 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "worker_state": "running",
-      "process_id": 2503232
+      "worker_state": "terminal",
+      "process_id": 2503232,
+      "source_commit": "c00632f4ab71c7157bacf4f17d06c9cded7e2f23",
+      "url": "https://tool.luo-xd.com/motionsites-results/reveal-hero/",
+      "completed_utc": "2026-10-29T03:55:34.588678+00:00",
+      "group_message_id": 58
     },
     {
       "number": 11,
@@ -378,7 +382,7 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a185c2-c909-7c61-b93c-abb77538fc0d",
       "output_path": "generated/gpt-6.1-sol-high/liquid-glass-agency",
       "validation": "",
@@ -386,7 +390,7 @@
       "process_id": 2485509,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:44:57.449880+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -477,14 +481,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ca-c46a-7e40-a3b1-809af1e9bc6a",
       "output_path": "generated/gpt-6.1-sol-high/max-reed-portfolio",
       "validation": "",
       "notes": "",
       "process_id": 2512151,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:53:40.501745+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 16,
@@ -502,11 +510,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/mindloop-landing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2517391,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:55:06.289926+00:00",
+      "worker_state": "running"
     },
     {
       "number": 17,
@@ -524,11 +536,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/ember-dsgn-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2517410,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:55:06.405856+00:00",
+      "worker_state": "running"
     },
     {
       "number": 18,
@@ -8517,5 +8533,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T03:54:11.805382+00:00"
+  "updated_utc": "2026-10-29T03:55:34.761466+00:00"
 }

@@ -1,0 +1,149 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/",
+  "checked_at": "2026-10-29T07:16:29.572Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "WoodNest — Nature's Perfect Hideaways",
+      "bodyChars": 740,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/evergreen.webp",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/forest.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.847696,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/spruce.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.974551,
+          "duration": 4.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/cedar.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.847176,
+          "duration": 4.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/forest.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.847044,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/forest.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/forest.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "WoodNest — Nature's Perfect Hideaways",
+      "bodyChars": 740,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/evergreen.webp",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/forest.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.237292,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/spruce.mp4",
+          "readyState": 1,
+          "paused": false,
+          "currentTime": 0,
+          "duration": 4.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/cedar.mp4",
+          "readyState": 1,
+          "paused": false,
+          "currentTime": 0,
+          "duration": 4.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/forest.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/forest.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/assets/forest.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Lodge Booking App",
+  "id": "lodge-booking-app",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "passed: Chromium against production files at configured subpath",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "interactions": [
+      "1440: menu and experiences dialog",
+      "1440: reserve listing and edit lodge",
+      "1440: date selections and calendar navigation",
+      "1440: both time pickers",
+      "1440: confirmation and Book Now",
+      "390: menu and experiences dialog",
+      "390: reserve listing and edit lodge",
+      "390: date selections and calendar navigation",
+      "390: both time pickers",
+      "390: confirmation and Book Now"
+    ],
+    "media": "All provided videos decode and play; images load; Inter and General Sans load",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/confirmation-1440.png",
+      "screenshots/confirmation-390.png"
+    ],
+    "report": "checks/browser-report.json"
+  },
+  "asset_issues": [
+    "Chromium cancelled two forest.mp4 range requests with net::ERR_ABORTED during media element updates. Both background videos decoded and played successfully; no missing assets or font delivery failures were observed."
+  ],
+  "notes": [
+    "React + TypeScript + Vite + Tailwind CSS + lucide-react.",
+    "All five supplied cabin media assets downloaded into public/assets and bundled in dist.",
+    "Production base: /motionsites-results/lodge-booking-app/.",
+    "Reservation selections and confirmation are local demo state; no backend or payment processing.",
+    "README.md contains run/build/check instructions and limitations.",
+    "No push or deployment performed. Ready means ready for acceptance."
+  ]
+}

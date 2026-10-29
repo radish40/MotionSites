@@ -1,0 +1,79 @@
+{
+  "title": "Animated Cards",
+  "id": "animated-cards",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed",
+      "script_errors": 0,
+      "http_errors": 0,
+      "layout_overflow": false,
+      "videos_playing": 10,
+      "jetbrains_mono_loaded": true,
+      "animation_changes_transform": true,
+      "screenshot": "screenshots/desktop.png",
+      "media_request_aborts": 9
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed",
+      "script_errors": 0,
+      "http_errors": 0,
+      "layout_overflow": false,
+      "videos_playing": 10,
+      "jetbrains_mono_loaded": true,
+      "animation_changes_transform": true,
+      "screenshot": "screenshots/mobile.png",
+      "media_request_aborts": 8
+    },
+    "production_build": {
+      "status": "passed",
+      "command": "npm run build",
+      "typescript": "passed",
+      "vite": "passed",
+      "artifact": "dist/index.html",
+      "base": "/motionsites-results/animated-cards/"
+    },
+    "source_fidelity": {
+      "status": "passed",
+      "description": "App.tsx exactly matches prompt after removing copied line-number prefixes."
+    },
+    "carousel_cycle": {
+      "framesAdvanced": 3291,
+      "fullWrapMatchesStart": true,
+      "allTransformsFinite": true,
+      "tiltResponds": true,
+      "tiltReturnsToCenter": true
+    }
+  },
+  "asset_issues": [
+    {
+      "asset": "JetBrains Mono",
+      "status": "resolved",
+      "detail": "Initial Google Fonts browser check did not load the font. Bundled original weights 300/400/500 locally with OFL license. Final browser checks verify active weights 300 and 500 loaded."
+    },
+    {
+      "asset": "CloudFront videos",
+      "status": "working_external_dependency",
+      "detail": "All five active original MP4 URLs play on front and back. Chromium aborted some buffering/range requests; no media errors or HTTP failures occurred. Internet access remains required."
+    }
+  ],
+  "notes": [
+    "Ready for review; not deployed or published.",
+    "React, TypeScript, Tailwind CSS v4 and requestAnimationFrame; no animation library.",
+    "Explicit source code takes precedence over horizontal wording: supplied carousel rotates vertically about X.",
+    "Supplied embedded SVG spells wavebank; JWT comment preserved as provided.",
+    "Prompt contains no actual index.css block; added Tailwind integration, font faces, xs breakpoint and black viewport defaults.",
+    "Browser checks used Chromium in the existing Docker image. Full-cycle logic tested with controlled animation callbacks, not a sustained 60 fps performance benchmark.",
+    "Screenshots and detailed browser evidence are in screenshots/. README.md includes build, run, verification and limitations.",
+    "All work confined to this project. No agents, other design sessions, pushes, deployments or messages to others."
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "background": "rgb(0, 0, 0)",
+    "perspective": "1350px",
+    "cardCount": 5,
+    "videos": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 9.94595,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "readyState": 2,
+        "paused": false,
+        "currentTime": 7.184536,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 7.875708,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 9.407453,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 2,
+        "paused": false,
+        "currentTime": 7.651128,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 9.944609,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 7.128845,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 0.748014,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 4.770508,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 4.770545,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "fontLoaded": true,
+    "fontFaces": [
+      {
+        "family": "JetBrains Mono",
+        "weight": "300",
+        "status": "loaded"
+      },
+      {
+        "family": "JetBrains Mono",
+        "weight": "400",
+        "status": "unloaded"
+      },
+      {
+        "family": "JetBrains Mono",
+        "weight": "500",
+        "status": "loaded"
+      }
+    ],
+    "scriptErrors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpErrors": [],
+    "animationChangesTransform": true,
+    "tiltTransforms": [
+      "translateY(0.06px) translateZ(399.96px) rotateX(0.94deg) rotateY(1.6deg) rotateZ(-3deg)",
+      "translateY(-246.94px) translateZ(220.04px) rotateX(-131.96deg) rotateY(0.01deg) rotateZ(-3deg)",
+      "translateY(-474.12px) translateZ(-59.94px) rotateX(-174.99deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(474.24px) translateZ(-60.04px) rotateX(175deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(247.05px) translateZ(219.94px) rotateX(132.01deg) rotateY(0deg) rotateZ(-3deg)"
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "background": "rgb(0, 0, 0)",
+    "perspective": "1350px",
+    "cardCount": 5,
+    "videos": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 8.135774,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 7.598472,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 7.440414,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 8.000188,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 7.11727,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 7.594742,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 7.116629,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 7.594769,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 6.432264,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 6.483059,
+        "error": null,
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "fontLoaded": true,
+    "fontFaces": [
+      {
+        "family": "JetBrains Mono",
+        "weight": "300",
+        "status": "loaded"
+      },
+      {
+        "family": "JetBrains Mono",
+        "weight": "400",
+        "status": "unloaded"
+      },
+      {
+        "family": "JetBrains Mono",
+        "weight": "500",
+        "status": "loaded"
+      }
+    ],
+    "scriptErrors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpErrors": [],
+    "animationChangesTransform": true,
+    "tiltTransforms": [
+      "translateY(7.55px) translateZ(391.29px) rotateX(10.43deg) rotateY(7.05deg) rotateZ(-3deg)",
+      "translateY(-148.45px) translateZ(228.71px) rotateX(-124.99deg) rotateY(1.08deg) rotateZ(-3deg)",
+      "translateY(-424.55px) translateZ(-46.45px) rotateX(-172.92deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(449.83px) translateZ(-69.19px) rotateX(175.97deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(169.65px) translateZ(206.45px) rotateX(134.08deg) rotateY(0deg) rotateZ(-3deg)"
+    ]
+  },
+  "cycle": {
+    "framesAdvanced": 3291,
+    "initial": [
+      "translateY(0px) translateZ(400px) rotateX(0deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(-247px) translateZ(220px) rotateX(-132deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(-474.17px) translateZ(-60px) rotateX(-175deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(474.17px) translateZ(-60px) rotateX(175deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(247px) translateZ(220px) rotateX(132deg) rotateY(0deg) rotateZ(-3deg)"
+    ],
+    "checkpoints": [
+      [
+        "translateY(247px) translateZ(220px) rotateX(132deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(0px) translateZ(400px) rotateX(0deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(-247px) translateZ(220px) rotateX(-132deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(-474.17px) translateZ(-60px) rotateX(-175deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(474.17px) translateZ(-60px) rotateX(175deg) rotateY(0deg) rotateZ(-3deg)"
+      ],
+      [
+        "translateY(474.17px) translateZ(-60px) rotateX(175deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(247px) translateZ(220px) rotateX(132deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(0px) translateZ(400px) rotateX(0deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(-247px) translateZ(220px) rotateX(-132deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(-474.17px) translateZ(-60px) rotateX(-175deg) rotateY(0deg) rotateZ(-3deg)"
+      ],
+      [
+        "translateY(-474.17px) translateZ(-60px) rotateX(-175deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(474.17px) translateZ(-60px) rotateX(175deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(247px) translateZ(220px) rotateX(132deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(0px) translateZ(400px) rotateX(0deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(-247px) translateZ(220px) rotateX(-132deg) rotateY(0deg) rotateZ(-3deg)"
+      ],
+      [
+        "translateY(-247px) translateZ(220px) rotateX(-132deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(-474.17px) translateZ(-60px) rotateX(-175deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(474.17px) translateZ(-60px) rotateX(175deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(247px) translateZ(220px) rotateX(132deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(0px) translateZ(400px) rotateX(0deg) rotateY(0deg) rotateZ(-3deg)"
+      ],
+      [
+        "translateY(0px) translateZ(400px) rotateX(0deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(-247px) translateZ(220px) rotateX(-132deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(-474.17px) translateZ(-60px) rotateX(-175deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(474.17px) translateZ(-60px) rotateX(175deg) rotateY(0deg) rotateZ(-3deg)",
+        "translateY(247px) translateZ(220px) rotateX(132deg) rotateY(0deg) rotateZ(-3deg)"
+      ]
+    ],
+    "wrapped": [
+      "translateY(0px) translateZ(400px) rotateX(0deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(-247px) translateZ(220px) rotateX(-132deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(-474.17px) translateZ(-60px) rotateX(-175deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(474.17px) translateZ(-60px) rotateX(175deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(247px) translateZ(220px) rotateX(132deg) rotateY(0deg) rotateZ(-3deg)"
+    ],
+    "fullWrapMatchesStart": true,
+    "tilted": [
+      "translateY(0px) translateZ(400px) rotateX(11.72deg) rotateY(14.65deg) rotateZ(-3deg)",
+      "translateY(-247px) translateZ(220px) rotateX(-132deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(-474.17px) translateZ(-60px) rotateX(-175deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(474.17px) translateZ(-60px) rotateX(175deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(247px) translateZ(220px) rotateX(132deg) rotateY(0deg) rotateZ(-3deg)"
+    ],
+    "returned": [
+      "translateY(0.89px) translateZ(399.35px) rotateX(0.48deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(-246.11px) translateZ(220.65px) rotateX(-131.52deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(-473.35px) translateZ(-58.99px) rotateX(-174.84deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(475.4px) translateZ(-60.69px) rotateX(175.07deg) rotateY(0deg) rotateZ(-3deg)",
+      "translateY(247.82px) translateZ(218.99px) rotateX(132.16deg) rotateY(0deg) rotateZ(-3deg)"
+    ],
+    "allTransformsFinite": true,
+    "tiltResponds": true,
+    "tiltReturnsToCenter": true
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "title": "SAAS Software",
+  "id": "convix-software-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5; dist/index.html exists",
+    "publication_base": "/motionsites-results/convix-software-hero/",
+    "browser": "passed: real Chromium via playwright-core against dist at the publication subpath",
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "columns": 3,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "muted": true,
+          "loop": true
+        },
+        "fonts": {
+          "inter": true,
+          "serif": true,
+          "serifItalic": true
+        },
+        "hero": {
+          "height": 968,
+          "overflow": "hidden"
+        }
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "columns": 1,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "muted": true,
+          "loop": true
+        },
+        "fonts": {
+          "inter": true,
+          "serif": true,
+          "serifItalic": true
+        },
+        "hero": {
+          "height": 820,
+          "overflow": "hidden"
+        }
+      },
+      {
+        "name": "tablet",
+        "width": 768,
+        "scrollWidth": 768,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "columns": 2,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "muted": true,
+          "loop": true
+        },
+        "fonts": {
+          "inter": true,
+          "serif": true,
+          "serifItalic": true
+        },
+        "hero": {
+          "height": 968,
+          "overflow": "hidden"
+        }
+      }
+    ],
+    "interactions": [
+      "Desktop metric tabs, editable targets, Save confirmation, Cancel/reset, period dropdowns pass",
+      "Mobile hamburger opens four navigation links and closes on selection",
+      "Get Started navigates to dashboard anchor"
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "dependency_audit": "0 vulnerabilities",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Only SAAS Software was implemented.",
+    "Supplied video and poster are bundled locally; Google Fonts loaded successfully and remain external dependencies.",
+    "Hero intentionally clips dashboard content at its rounded viewport boundary.",
+    "Dashboard controls use local React state; no backend or additional pages were specified.",
+    "No deployment, push, sub-agents, or other sessions. Ready means ready for review."
+  ]
+}

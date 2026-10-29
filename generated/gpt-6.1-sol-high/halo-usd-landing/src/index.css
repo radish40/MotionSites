@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { font-family: 'TT Norms Pro'; src: url('/fonts/tt-norms-pro-regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'TT Norms Pro'; src: url('/fonts/tt-norms-pro-semibold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+html, body { font-family: 'TT Norms Pro', Arial, sans-serif; background: #F5F5F5; }
+* { font-family: inherit; }
+html { scroll-behavior: smooth; scroll-padding-top: 28px; }
+body { margin: 0; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a:focus-visible, button:focus-visible { outline: 3px solid #8d65bb; outline-offset: 5px; }
+::selection { background: #d8c5e9; color: #2b2644; }
+video { background: #ddd5e6; }
+.marquee-window { mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent); }
+dialog::backdrop { background: rgb(20 15 30 / .35); backdrop-filter: blur(5px); }
+@media (max-width: 767px) {
+  .hero-card { height: calc(100svh - 96px) !important; }
+  .hero-shell { height: 100svh; min-height: 680px; }
+  .hero-content { padding: 76px 24px 28px; }
+  .hero-title { font-size: 48px; }
+  .hero-video { object-position: 61% center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .marquee-track, .backers-track { animation: none !important; }
+}

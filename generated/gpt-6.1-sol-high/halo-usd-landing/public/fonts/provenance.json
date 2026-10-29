@@ -1,0 +1,25 @@
+{
+  "source_page": "https://typetype.org/fonts/tt-norms-pro/",
+  "fonts": [
+    {
+      "file": "tt-norms-pro-regular.woff2",
+      "family": "TT Norms Pro",
+      "style": "Regular",
+      "css_weight": 400,
+      "postscript_name": "TTNormsPro-Rg",
+      "source": "https://typetype.org/wp-content/uploads/TT_Norms_Pro_Regular.woff2",
+      "bytes": 121340,
+      "sha256": "1bcf649b7f8b9b0121fbcece04f5b42824b9598b4486e93b9d7aaadcd3be8ee9"
+    },
+    {
+      "file": "tt-norms-pro-semibold.woff2",
+      "family": "TT Norms Pro",
+      "style": "DemiBold",
+      "css_weight": 600,
+      "postscript_name": "TTNormsPro-DmBd",
+      "source": "https://typetype.org/wp-content/uploads/TT_Norms_Pro_DemiBold.woff2",
+      "bytes": 122644,
+      "sha256": "69ad312d1852800941270fd5e464898c21500e3343b057ad7a656e97e1324b00"
+    }
+  ]
+}

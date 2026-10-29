@@ -1,0 +1,85 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/",
+  "checked_at": "2026-10-29T04:13:41.668Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Halo — Your Wealth Works",
+      "bodyChars": 1332,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/commerce.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/commerce.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/commerce.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Halo — Your Wealth Works",
+      "bodyChars": 1296,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/commerce.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/commerce.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/assets/commerce.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

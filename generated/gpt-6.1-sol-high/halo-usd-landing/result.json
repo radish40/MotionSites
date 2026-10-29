@@ -1,0 +1,52 @@
+{
+  "title": "USD Halo",
+  "id": "halo-usd-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript + Vite; dist/index.html and both dist/fonts WOFF2 files exist; no missing-font warnings",
+    "publish_base": "/motionsites-results/halo-usd-landing/",
+    "desktop": "passed: Chromium, 1440x1000",
+    "mobile": "passed: Chromium, 390x844",
+    "horizontal_overflow": "none at both requested viewports",
+    "videos": "both supplied videos decoded and played, muted, looping and inline",
+    "interactions": "CTA anchors, desktop navigation, wallet preview dialog, close button and Escape passed",
+    "marquees": "22s hero and 30s backers; reduced-motion override verified",
+    "javascript_errors": [],
+    "resource_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-report.json",
+    "visual_review": "desktop and mobile screenshots inspected",
+    "fonts": {
+      "status": "passed",
+      "weights": [
+        "400",
+        "600"
+      ],
+      "font_face_status": "loaded",
+      "rendered_heading": "TTNormsPro-DmBd",
+      "rendered_body": "TTNormsPro-Rg",
+      "method": "document.fonts + Chromium CSS.getPlatformFontsForNode; both desktop and mobile",
+      "http": "both WOFF2 URLs return 200 with font/woff2 under required project subpath",
+      "build_copy": "dist/fonts binaries match public/fonts SHA-256 hashes"
+    },
+    "console_errors": [],
+    "served_directory": "dist/ (temporary local HTTP server at required publishing subpath)"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session review; not deployed or pushed.",
+    "React + TypeScript + Vite + Tailwind CSS + lucide-react; dependency lockfile included.",
+    "Original hero and commerce videos and savings-card image downloaded successfully and included locally.",
+    "No wallet provider or destination was supplied. Open Wallet shows an honest preview-availability dialog.",
+    "Navigation uses existing section anchors because external destinations were not supplied.",
+    "All project writes remained within this directory; no agents or other sessions created.",
+    "Repaired missing production font files using unmodified WOFF2 assets from TypeType\u2019s official TT Norms Pro page. Source URLs and hashes recorded in public/fonts/provenance.json.",
+    "Regular is mapped to 400 and the foundry\u2019s DemiBold to the specified semibold filename and weight 600. Original font family, font-display: swap, inheritance, layout, copy and assets preserved.",
+    "Source /fonts/ URLs are rewritten by Vite to the configured publishing subpath, with local binaries copied into dist/fonts/.",
+    "screenshots/live-check.json retains the pre-repair production failure. screenshots/browser-report.json verifies the repaired dist output; no deployment or claim of changed remote production state."
+  ]
+}

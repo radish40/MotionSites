@@ -1,0 +1,199 @@
+{
+  "served_directory": "/work/dist",
+  "checked_at": "2026-10-29T04:12:09.867Z",
+  "font_responses": [
+    {
+      "viewport": "desktop",
+      "url": "http://localhost:4173/motionsites-results/halo-usd-landing/fonts/tt-norms-pro-regular.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://localhost:4173/motionsites-results/halo-usd-landing/fonts/tt-norms-pro-semibold.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://localhost:4173/motionsites-results/halo-usd-landing/fonts/tt-norms-pro-regular.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://localhost:4173/motionsites-results/halo-usd-landing/fonts/tt-norms-pro-semibold.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    }
+  ],
+  "url": "http://localhost:4173/motionsites-results/halo-usd-landing/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "horizontal_overflow": false,
+      "fonts": [
+        {
+          "family": "TT Norms Pro",
+          "weight": "400",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "TT Norms Pro",
+          "weight": "600",
+          "status": "loaded",
+          "display": "swap"
+        }
+      ],
+      "rendered_fonts": [
+        {
+          "selector": "#hero-title",
+          "fonts": [
+            {
+              "familyName": "TT Norms Pro DemiBold",
+              "postScriptName": "TTNormsPro-DmBd",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ]
+        },
+        {
+          "selector": "#usd-halo p",
+          "fonts": [
+            {
+              "familyName": "TT Norms Pro",
+              "postScriptName": "TTNormsPro-Rg",
+              "isCustomFont": true,
+              "glyphCount": 107
+            }
+          ]
+        }
+      ],
+      "videos": [
+        {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "paused": false,
+          "currentTime": 0.499414,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "width": 1248,
+          "height": 1664,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "paused": false,
+          "currentTime": 0.479573,
+          "error": null
+        }
+      ],
+      "animations": [
+        {
+          "name": "marquee",
+          "duration": "22s"
+        },
+        {
+          "name": "backers-marquee",
+          "duration": "30s"
+        }
+      ],
+      "interactions": "passed",
+      "reduced_motion": "passed",
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "horizontal_overflow": false,
+      "fonts": [
+        {
+          "family": "TT Norms Pro",
+          "weight": "400",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "TT Norms Pro",
+          "weight": "600",
+          "status": "loaded",
+          "display": "swap"
+        }
+      ],
+      "rendered_fonts": [
+        {
+          "selector": "#hero-title",
+          "fonts": [
+            {
+              "familyName": "TT Norms Pro DemiBold",
+              "postScriptName": "TTNormsPro-DmBd",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ]
+        },
+        {
+          "selector": "#usd-halo p",
+          "fonts": [
+            {
+              "familyName": "TT Norms Pro",
+              "postScriptName": "TTNormsPro-Rg",
+              "isCustomFont": true,
+              "glyphCount": 106
+            }
+          ]
+        }
+      ],
+      "videos": [
+        {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "paused": false,
+          "currentTime": 0.896706,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "width": 1248,
+          "height": 1664,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "paused": false,
+          "currentTime": 0.800258,
+          "error": null
+        }
+      ],
+      "animations": [
+        {
+          "name": "marquee",
+          "duration": "22s"
+        },
+        {
+          "name": "backers-marquee",
+          "duration": "30s"
+        }
+      ],
+      "interactions": "passed",
+      "reduced_motion": "passed",
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "script_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "passed": true
+}

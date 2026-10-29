@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 122/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 125/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -205,16 +205,16 @@
 | 118 | `editorial-collection-cta` | Editorial Collection CTA | CTA Section | 2 | 图片 | 已完成 |
 | 119 | `email-landing-page` | Email Landing Page | Landing Page | 2 | 图片 | 已完成 |
 | 120 | `equilibrium` | Equilibrium | Hero Section | 2 | 图片 | 已完成 |
-| 121 | `evergreen-finance` | Evergreen Finance | Fintech | 2 | 图片 | 生成中 |
+| 121 | `evergreen-finance` | Evergreen Finance | Fintech | 2 | 图片 | 已完成 |
 | 122 | `faq-cta` | FAQ CTA | CTA Section | 2 | 图片 | 已完成 |
 | 123 | `features` | Capabilities Overview | Features Section | 2 | 图片 | 已完成 |
-| 124 | `feedback-slider` | Feedback Slider | Components | 2 | 图片 | 生成中 |
-| 125 | `financialfocus` | FinancialFocus | Hero Section | 2 | 图片 | 生成中 |
+| 124 | `feedback-slider` | Feedback Slider | Components | 2 | 图片 | 已完成 |
+| 125 | `financialfocus` | FinancialFocus | Hero Section | 2 | 图片 | 已完成 |
 | 126 | `finflow` | FinFlow | Fintech | 2 | 图片 | 生成中 |
 | 127 | `flowmate-carousal` | FlowMate Carousal | Components | 1 | 图片 | 生成中 |
-| 128 | `fun-404-page` | Fun 404 Page | Education | 1 | 图片 | 未开始 |
-| 129 | `future-state` | Future-State | Landing Page | 2 | 图片 | 未开始 |
-| 130 | `futuristic-cinematic` | Futuristic Cinematic | Hero Section | 2 | 图片 | 未开始 |
+| 128 | `fun-404-page` | Fun 404 Page | Education | 1 | 图片 | 生成中 |
+| 129 | `future-state` | Future-State | Landing Page | 2 | 图片 | 生成中 |
+| 130 | `futuristic-cinematic` | Futuristic Cinematic | Hero Section | 2 | 图片 | 生成中 |
 | 131 | `futuristic-tech` | Futuristic Tech | Hero Section | 2 | 图片 | 未开始 |
 | 132 | `gateway-portal` | Gateway Portal | Landing Page | 2 | 图片 | 未开始 |
 | 133 | `gear-shop` | Gear Shop | E-commerce | 2 | 图片 | 未开始 |

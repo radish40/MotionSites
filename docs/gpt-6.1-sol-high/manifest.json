@@ -2179,19 +2179,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18607-f2d9-75d3-b697-cad7610cb21c",
       "output_path": "generated/gpt-6.1-sol-high/travel-journal",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2757499,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:00:30.152219+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "db96016ca37c0635901087a596c7b0f8c78d577c",
+      "url": "https://tool.luo-xd.com/motionsites-results/travel-journal/",
+      "completed_utc": "2026-10-29T05:05:45.996751+00:00",
+      "group_message_id": 113
     },
     {
       "number": 65,
@@ -2209,19 +2213,20 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "validating",
       "thread_id": "01a18607-f3af-70d1-b846-8f2eb9c9759e",
       "output_path": "generated/gpt-6.1-sol-high/vision-reveal",
       "validation": "",
-      "notes": "",
+      "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "process_id": 2757533,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:00:30.271310+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "delivery_failures": 1
     },
     {
       "number": 66,
@@ -2239,19 +2244,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18607-f480-76e1-88c7-1f0924fae3de",
       "output_path": "generated/gpt-6.1-sol-high/wellbeing-os",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2757607,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:00:30.493969+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "85a9247d05bda3f109ec70595275962da8b8836c",
+      "url": "https://tool.luo-xd.com/motionsites-results/wellbeing-os/",
+      "completed_utc": "2026-10-29T05:06:39.370788+00:00",
+      "group_message_id": 114
     },
     {
       "number": 67,
@@ -2270,14 +2279,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860a-1a0a-78e1-b7d8-67490c341108",
       "output_path": "generated/gpt-6.1-sol-high/wellness-companion",
       "validation": "",
       "notes": "",
       "process_id": 2766772,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:02:51.293575+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 68,
@@ -2296,14 +2309,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860a-1b3f-7eb0-8d07-8731056b5dd5",
       "output_path": "generated/gpt-6.1-sol-high/wellness-device",
       "validation": "",
       "notes": "",
       "process_id": 2766854,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:02:51.463748+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 69,
@@ -2321,11 +2338,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/3d-collectible-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2774777,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:05:16.194878+00:00",
+      "worker_state": "running"
     },
     {
       "number": 70,
@@ -2343,11 +2364,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/3d-story",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2774812,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:05:16.295528+00:00",
+      "worker_state": "running"
     },
     {
       "number": 71,
@@ -2365,11 +2390,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/404-planet",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2774902,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:05:16.418884+00:00",
+      "worker_state": "running"
     },
     {
       "number": 72,
@@ -9170,5 +9199,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:04:21.137867+00:00"
+  "updated_utc": "2026-10-29T05:06:39.535653+00:00"
 }

@@ -1,0 +1,81 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/kova-features/",
+  "checked_at": "2026-10-29T07:06:25.420Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Kova Features",
+      "bodyChars": 409,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/kova-features/assets/budgeting.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/kova-features/assets/security.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/kova-features/assets/wealth.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/kova-features/assets/budgeting.webp",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Kova Features",
+      "bodyChars": 409,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/kova-features/assets/budgeting.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/kova-features/assets/security.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/kova-features/assets/wealth.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/kova-features/assets/budgeting.webp",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

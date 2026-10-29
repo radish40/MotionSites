@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-cooper {
+  font-family: 'Cooper BT W01 Light', 'Georgia', serif;
+}
+.font-cooper-medium {
+  font-family: 'Cooper BT W01 Medium', 'Cooper BT W01 Light', 'Georgia', serif;
+  font-weight: 500;
+}
+
+:root { color: #08150C; background: #FDF5EB; font-family: Arial, Helvetica, sans-serif; font-synthesis: none; }
+body { margin: 0; min-width: 320px; }
+button:focus-visible { outline: 3px solid #7A8C3E; outline-offset: 4px; }
+.demo-dialog { border: 0; padding: 0; width: min(440px, calc(100% - 40px)); border-radius: 16px; color: #08150C; background: #FDF5EB; }
+.demo-dialog::backdrop { background: rgb(8 21 12 / 65%); backdrop-filter: blur(6px); }
+
+@font-face {
+  font-family: 'Cooper BT W01 Light';
+  src: url('/assets/cooper-light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cooper BT W01 Medium';
+  src: url('/assets/cooper-medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}

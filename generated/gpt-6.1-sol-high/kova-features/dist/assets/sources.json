@@ -1,0 +1,13 @@
+{
+  "images": {
+    "budgeting.webp": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260517_061249_f20dfeda-1033-45ce-a3ee-070965599cbf.png",
+    "security.webp": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260517_061305_db631f5f-185f-4fda-a7a8-1dd7359ef2ea.png",
+    "wealth.webp": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260517_061316_50e651f8-02d0-4add-9ddb-7d81d15ac02e.png"
+  },
+  "processing": "Exact source images resized to 1280px wide and encoded as WebP at quality 85, matching the supplied proxy parameters. The supplied Higgs proxy returned HTTP 403.",
+  "fonts": {
+    "cooper-light.woff2": "https://db.onlinewebfonts.com/t/53077f9a3eee9c479d37d6af20394ded.woff2",
+    "cooper-medium.woff2": "https://db.onlinewebfonts.com/t/5ade3423145f3b9f7031574333ca0b73.woff2"
+  },
+  "font_attribution": "Web Fonts — http://www.onlinewebfonts.com/fonts . Provider stylesheet declares CC BY 4.0; original provider stylesheets are retained alongside the font files."
+}

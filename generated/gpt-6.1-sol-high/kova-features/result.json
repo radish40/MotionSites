@@ -1,0 +1,33 @@
+{
+  "title": "Kova Features",
+  "id": "kova-features",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "required_base_path": "/motionsites-results/kova-features/",
+    "desktop": "passed at 1440x1000: four columns, 3:4 cards, no horizontal overflow",
+    "mobile": "passed at 390x844: one column, 3:4 cards, no horizontal overflow",
+    "tablet": "passed at 768x1024: two columns, 3:4 cards, no horizontal overflow",
+    "assets": "all three exact supplied images and both Cooper fonts load locally",
+    "animations": "scroll-triggered FadeUp components settle at opacity 1 and blur(0px)",
+    "interactions": "demo opening, all four feature previews, previous/next boundaries, Escape, close button, and reset on reopen passed at all three sizes",
+    "browser_script_errors": 0,
+    "browser_failed_requests": 0,
+    "browser_http_errors": 0,
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/mobile-bottom.png"],
+    "browser_report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [
+    {
+      "issue": "All three supplied images.higgs.ai proxy URLs returned HTTP 403.",
+      "resolution": "Downloaded the exact original CloudFront images embedded in those URLs; locally encoded 1280px-wide WebP assets at quality 85. No image substitutions."
+    }
+  ],
+  "notes": [
+    "Only Kova Features was implemented; no agents, other sessions, pushes, messages, or deployments.",
+    "Both required external font links are retained, with local exact WOFF2 copies for reliable rendering.",
+    "No demo video was supplied. Watch Demo opens a native dialog preview of the four supplied features.",
+    "Ready means available for management-session review; it does not mean deployed."
+  ]
+}

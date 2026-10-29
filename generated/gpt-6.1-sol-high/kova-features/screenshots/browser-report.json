@@ -1,0 +1,246 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "responses": [],
+  "layouts": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "columns": "308px 308px 308px 308px",
+      "cards": [
+        {
+          "width": 308,
+          "height": 410.65625
+        },
+        {
+          "width": 308,
+          "height": 410.65625
+        },
+        {
+          "width": 308,
+          "height": 410.65625
+        },
+        {
+          "width": 308,
+          "height": 410.65625
+        }
+      ],
+      "images": [
+        {
+          "src": "/motionsites-results/kova-features/assets/budgeting.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/kova-features/assets/security.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/kova-features/assets/wealth.webp",
+          "loaded": true
+        }
+      ],
+      "fonts": {
+        "light": true,
+        "medium": true
+      },
+      "headingFont": "\"Cooper BT W01 Medium\", \"Cooper BT W01 Light\", Georgia, serif",
+      "initialAnimation": [
+        {
+          "opacity": "1",
+          "y": "none"
+        },
+        {
+          "opacity": "1",
+          "y": "none"
+        },
+        {
+          "opacity": "1",
+          "y": "none"
+        },
+        {
+          "opacity": "1",
+          "y": "none"
+        }
+      ],
+      "finalAnimation": [
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        }
+      ]
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "columns": "350px",
+      "cards": [
+        {
+          "width": 350,
+          "height": 466.65625
+        },
+        {
+          "width": 350,
+          "height": 466.65625
+        },
+        {
+          "width": 350,
+          "height": 466.65625
+        },
+        {
+          "width": 350,
+          "height": 466.65625
+        }
+      ],
+      "images": [
+        {
+          "src": "/motionsites-results/kova-features/assets/budgeting.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/kova-features/assets/security.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/kova-features/assets/wealth.webp",
+          "loaded": true
+        }
+      ],
+      "fonts": {
+        "light": true,
+        "medium": true
+      },
+      "headingFont": "\"Cooper BT W01 Medium\", \"Cooper BT W01 Light\", Georgia, serif",
+      "initialAnimation": [
+        {
+          "opacity": "1",
+          "y": "none"
+        },
+        {
+          "opacity": "1",
+          "y": "none"
+        },
+        {
+          "opacity": "0",
+          "y": "matrix(1, 0, 0, 1, 0, 24)"
+        },
+        {
+          "opacity": "0",
+          "y": "matrix(1, 0, 0, 1, 0, 24)"
+        }
+      ],
+      "finalAnimation": [
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        }
+      ]
+    },
+    "tablet": {
+      "width": 768,
+      "scrollWidth": 768,
+      "columns": "336px 336px",
+      "cards": [
+        {
+          "width": 336,
+          "height": 448
+        },
+        {
+          "width": 336,
+          "height": 448
+        },
+        {
+          "width": 336,
+          "height": 448
+        },
+        {
+          "width": 336,
+          "height": 448
+        }
+      ],
+      "images": [
+        {
+          "src": "/motionsites-results/kova-features/assets/budgeting.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/kova-features/assets/security.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/kova-features/assets/wealth.webp",
+          "loaded": true
+        }
+      ],
+      "fonts": {
+        "light": true,
+        "medium": true
+      },
+      "headingFont": "\"Cooper BT W01 Medium\", \"Cooper BT W01 Light\", Georgia, serif",
+      "initialAnimation": [
+        {
+          "opacity": "1",
+          "y": "none"
+        },
+        {
+          "opacity": "1",
+          "y": "none"
+        },
+        {
+          "opacity": "1",
+          "y": "none"
+        },
+        {
+          "opacity": "1",
+          "y": "none"
+        }
+      ],
+      "finalAnimation": [
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)"
+        }
+      ]
+    }
+  },
+  "interactions": {
+    "desktop": "Demo opens, advances through four features, goes back, closes with Escape and close button, and resets on reopen.",
+    "mobile": "Demo opens, advances through four features, goes back, closes with Escape and close button, and resets on reopen.",
+    "tablet": "Demo opens, advances through four features, goes back, closes with Escape and close button, and resets on reopen."
+  }
+}

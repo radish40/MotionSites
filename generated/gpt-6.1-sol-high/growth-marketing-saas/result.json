@@ -1,0 +1,33 @@
+{
+  "title": "Growth Marketing SaaS",
+  "id": "growth-marketing-saas",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: tsc -b && vite build",
+    "desktop_1440x1000": "passed",
+    "mobile_390x844": "passed",
+    "horizontal_overflow": "none",
+    "script_errors": [],
+    "failed_requests": [],
+    "remote_fonts_and_assets": "all loaded on desktop and mobile",
+    "chat_enter_send_multiline_autoscroll": "passed",
+    "cta_scroll": "passed",
+    "email_preview": "passed",
+    "mobile_sheet_escape_and_navigation": "passed",
+    "parallax_and_reduced_motion": "passed",
+    "preview_video_fade_restart": "passed",
+    "screenshots_visually_reviewed": true,
+    "browser_report": "checks/browser-results.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built static output exists in dist/index.html.",
+    "Base path: /motionsites-results/growth-marketing-saas/.",
+    "Remote assets and exact fonts retained.",
+    "Only the navbar and hero are implemented; nav anchors refer to existing hero/dashboard content.",
+    "No backend: chat uses a canned reply, email is not stored, authentication and checkout are not implemented.",
+    "Screenshots: screenshots/desktop.png and screenshots/mobile.png, plus full-page and mobile menu captures.",
+    "Ready for management-session acceptance; not deployed."
+  ]
+}

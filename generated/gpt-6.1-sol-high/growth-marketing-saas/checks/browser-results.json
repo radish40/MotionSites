@@ -1,0 +1,97 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1177,
+    "fonts": {
+      "inter": true,
+      "serif": true,
+      "icons": true
+    },
+    "videos": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_fadafdb1-4df6-4699-be9c-77d25f39a3d0.mp4",
+        "readyState": 4,
+        "error": null,
+        "paused": false,
+        "currentTime": 3.412456,
+        "duration": 10.041667,
+        "opacity": "1"
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_115001_bcdaa3b4-03de-47e7-ad63-ae3e392c32d4.mp4",
+        "readyState": 4,
+        "error": null,
+        "paused": false,
+        "currentTime": 3.728074,
+        "duration": 10.041667,
+        "opacity": "1"
+      }
+    ],
+    "grass": [
+      {
+        "src": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing%2Fhero-bottom-bg.png",
+        "loaded": true
+      }
+    ],
+    "ctaScroll": true,
+    "chatEnter": {
+      "messages": 5,
+      "atBottom": true
+    },
+    "chatSend": true,
+    "shiftEnter": true,
+    "emailPreview": true,
+    "parallax": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, 0, -23.2623)"
+    },
+    "videoLoop": {
+      "currentTime": 0.730992,
+      "paused": false,
+      "opacity": "1"
+    }
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 961,
+    "fonts": {
+      "inter": true,
+      "serif": true,
+      "icons": true
+    },
+    "videos": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_fadafdb1-4df6-4699-be9c-77d25f39a3d0.mp4",
+        "readyState": 4,
+        "error": null,
+        "paused": false,
+        "currentTime": 3.37362,
+        "duration": 10.041667,
+        "opacity": "1"
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_115001_bcdaa3b4-03de-47e7-ad63-ae3e392c32d4.mp4",
+        "readyState": 4,
+        "error": null,
+        "paused": false,
+        "currentTime": 3.559115,
+        "duration": 10.041667,
+        "opacity": "1"
+      }
+    ],
+    "grass": [
+      {
+        "src": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing%2Fhero-bottom-bg.png",
+        "loaded": true
+      }
+    ],
+    "sheetEscape": true,
+    "sheetNavigation": true
+  },
+  "errors": [],
+  "failedRequests": [],
+  "assets": [],
+  "reducedMotion": "none"
+}

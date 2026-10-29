@@ -1,0 +1,53 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 2800,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 2363,
+      "overflow": false
+    },
+    {
+      "width": 640,
+      "height": 900,
+      "scrollWidth": 640,
+      "scrollHeight": 2520,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1000,
+      "scrollWidth": 768,
+      "scrollHeight": 2800,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://localhost:4173/motionsites-results/apex-pulse/assets/aether-flight.mp4",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "blob:http://localhost:4173/6f5e7769-3725-43c0-9047-b1654a6dd59e",
+      "reason": "net::ERR_ABORTED"
+    }
+  ],
+  "checks": [
+    "120-frame extraction and visible canvas handoff",
+    "1440x1000 and 390x844 screenshots; 640px and 768px layouts; no horizontal overflow",
+    "Fleet and home navigation",
+    "Details dialog opens, Escape dismisses, close control works",
+    "Schedule a Call uses native mail draft (recipient not supplied)",
+    "Scroll progress changes rendered frame",
+    "Forced frame-extraction failure: video stays visible and seeks to 9.97s"
+  ],
+  "status": "passed"
+}

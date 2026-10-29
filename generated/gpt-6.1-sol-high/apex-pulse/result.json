@@ -1,0 +1,80 @@
+{
+  "title": "Apex Pulse",
+  "id": "apex-pulse",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci && npm run build\"",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "passed: Chromium with Playwright Core against dist at the required subpath",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 2800,
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 2363,
+        "overflow": false
+      },
+      {
+        "width": 640,
+        "height": 900,
+        "scrollWidth": 640,
+        "scrollHeight": 2520,
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "height": 1000,
+        "scrollWidth": 768,
+        "scrollHeight": 2800,
+        "overflow": false
+      }
+    ],
+    "interactions": [
+      "120-frame extraction and visible canvas handoff",
+      "1440x1000 and 390x844 screenshots; 640px and 768px layouts; no horizontal overflow",
+      "Fleet and home navigation",
+      "Details dialog opens, Escape dismisses, close control works",
+      "Schedule a Call uses native mail draft (recipient not supplied)",
+      "Scroll progress changes rendered frame",
+      "Forced frame-extraction failure: video stays visible and seeks to 9.97s"
+    ],
+    "javascript_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-precision.png",
+      "screenshots/mobile-precision.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json",
+    "visual_review": "Desktop and mobile screenshots reviewed",
+    "dependencies": "Lockfile saved; npm install audit reported zero vulnerabilities; node_modules excluded"
+  },
+  "asset_issues": [
+    {
+      "asset": "Supplied CloudFront MP4",
+      "issue": "The exact requested video depicts a floral humanoid, not drone/UAV footage. Retained unchanged to honor the asset requirement.",
+      "availability": "HTTP 200, bundled locally, decoded and rendered successfully"
+    },
+    {
+      "asset": "Flexo Soft Medium",
+      "issue": "No font file supplied. Required Tailwind family configuration retained; body uses supplied Helvetica Neue Regular."
+    }
+  ],
+  "notes": [
+    "Website brand and document title are AETHER_X; project index name remains Apex Pulse.",
+    "Static publication base: /motionsites-results/apex-pulse/. Ready for review, not deployed.",
+    "Exact external Helvetica stylesheet linked; matching WOFF2 bundled locally. Font attribution and source CSS retained.",
+    "Join The Fleet scrolls to the precision section. Full Details opens the provided specifications in a native dialog.",
+    "Schedule a Call opens a native email draft with no recipient because no contact address or booking endpoint was supplied.",
+    "Chromium recorded two net::ERR_ABORTED media requests during seeking/source cleanup; video decoding, extraction, canvas handoff, and forced-failure fallback all passed.",
+    "Sequential extraction may take over a minute in CPU-only Chromium; the visible video fallback follows scroll throughout.",
+    "No agents, other design sessions, deployment, pushes, or messages were used. All project writes stayed in this directory."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/apex-pulse/",
+  "checked_at": "2026-10-29T05:24:00.797Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "AETHER_X — Where Sky Meets Machine Logic",
+      "bodyChars": 365,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/apex-pulse/assets/aether-flight.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/apex-pulse/assets/aether-flight.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/5192da41-add1-4cd9-b802-88296edbe220",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/apex-pulse/assets/aether-flight.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "AETHER_X — Where Sky Meets Machine Logic",
+      "bodyChars": 365,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/apex-pulse/assets/aether-flight.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/apex-pulse/assets/aether-flight.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/e9c2609d-4556-4719-9183-2a7fa0d0bfe1",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { font-family: 'Helvetica Neue Regular'; src: url('../public/assets/helvetica-neue-regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+
+:root { color-scheme: dark; font-synthesis: none; }
+html { scroll-behavior: smooth; background: #0a0a0a; }
+body { margin: 0; font-family: 'Helvetica Neue Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #0a0a0a; color: #fff; -webkit-font-smoothing: antialiased; }
+#root { isolation: isolate; }
+::selection { background: rgba(255,255,255,.2); }
+a, button { -webkit-tap-highlight-color: transparent; }
+button, a { touch-action: manipulation; }
+:focus-visible { outline: 2px solid white; outline-offset: 5px; }
+.pill { display: inline-flex; align-items: center; justify-content: center; gap: 1rem; border-radius: 9999px; padding: .95rem 1.6rem; white-space: nowrap; transition: background-color .25s, border-color .25s, transform .25s; }
+.video-shade { background: linear-gradient(180deg, rgba(0,0,0,.17), transparent 30%, transparent 45%, rgba(0,0,0,.58)); }
+.spec-dialog { width: min(540px, calc(100% - 32px)); max-height: 90svh; }
+.spec-dialog::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(10px); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .01ms !important; transition-delay: 0ms !important; }
+}

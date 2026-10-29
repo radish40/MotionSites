@@ -1,0 +1,68 @@
+{
+  "checks": [
+    "Desktop 1440x1000 has no horizontal overflow",
+    "Desktop navbar preserves 48px horizontal and 20px vertical padding",
+    "Desktop links preserve 32px gap",
+    "Hero creates two viewport heights",
+    "Both required fonts load",
+    "Video 1 autoplays and Video 2 initially pauses",
+    "Scrolling fades Video 1 and plays Video 2",
+    "Returning to top restores Video 1 and pauses Video 2",
+    "Mobile 390x844 has no horizontal overflow",
+    "Mobile heading settles at the specified 24px size",
+    "Mobile navbar preserves 20px horizontal and 16px vertical padding",
+    "Mobile menu opens and locks scrolling",
+    "All five mobile links are visible",
+    "Escape closes menu and restores scrolling",
+    "Mobile navigation follows fragment and closes menu",
+    "Resizing to desktop closes mobile menu and releases scroll lock",
+    "No browser script errors"
+  ],
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 2000,
+    "navPadding": [
+      "20px",
+      "48px"
+    ],
+    "gap": "32px",
+    "headingFont": true,
+    "geist": true,
+    "videos": [
+      {
+        "ready": 4,
+        "paused": true,
+        "error": null,
+        "time": 0
+      },
+      {
+        "ready": 4,
+        "paused": false,
+        "error": null,
+        "time": 2.318414
+      }
+    ],
+    "heading": "WHERE THE HORIZON MEETS\nTIMELESS ELEGANCE"
+  },
+  "mobile": {
+    "width": 390,
+    "padding": [
+      "16px",
+      "20px"
+    ],
+    "heading": {
+      "x": 20,
+      "y": 673.828125,
+      "width": 350,
+      "height": 79.171875,
+      "top": 673.828125,
+      "right": 370,
+      "bottom": 753,
+      "left": 20
+    }
+  },
+  "errors": [],
+  "failedRequests": [],
+  "responses": []
+}

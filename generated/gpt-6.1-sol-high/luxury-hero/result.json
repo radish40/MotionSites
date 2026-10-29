@@ -1,0 +1,49 @@
+{
+  "title": "Luxury Hero",
+  "id": "luxury-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "browser": "Chromium via playwright-core; built dist served under /motionsites-results/luxury-hero/",
+    "passed": [
+      "Desktop 1440x1000 has no horizontal overflow",
+      "Desktop navbar preserves 48px horizontal and 20px vertical padding",
+      "Desktop links preserve 32px gap",
+      "Hero creates two viewport heights",
+      "Both required fonts load",
+      "Video 1 autoplays and Video 2 initially pauses",
+      "Scrolling fades Video 1 and plays Video 2",
+      "Returning to top restores Video 1 and pauses Video 2",
+      "Mobile 390x844 has no horizontal overflow",
+      "Mobile heading settles at the specified 24px size",
+      "Mobile navbar preserves 20px horizontal and 16px vertical padding",
+      "Mobile menu opens and locks scrolling",
+      "All five mobile links are visible",
+      "Escape closes menu and restores scrolling",
+      "Mobile navigation follows fragment and closes menu",
+      "Resizing to desktop closes mobile menu and releases scroll lock",
+      "No browser script errors"
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-scrolled.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Page brand is Horizon Estates. Project index title remains Luxury Hero.",
+    "Exact supplied video URLs and font stylesheet links are used; both fonts and both videos loaded in Chromium.",
+    "External font and video hosts require network access.",
+    "CTA wording was unspecified; Explore Estates is used.",
+    "Navigation targets existing hero elements because the prompt requires only Navbar and Hero.",
+    "Desktop and mobile screenshots visually reviewed; mobile capture waits for responsive transitions to settle.",
+    "Production output is dist/ with the required Vite base. No deployment, push, agents, or other sessions."
+  ]
+}

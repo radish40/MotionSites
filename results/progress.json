@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T05:13:27.501991+00:00",
+  "updated_utc": "2026-10-29T05:15:35.422467+00:00",
   "total": 380,
   "counts": {
-    "complete": 71,
+    "complete": 72,
     "running": 5,
-    "not_started": 304
+    "blocked": 1,
+    "not_started": 302
   },
   "jobs": [
     {
@@ -721,7 +722,7 @@
       "id": "aerocore",
       "title": "AeroCore",
       "category": "Landing Page",
-      "status": "running",
+      "status": "blocked",
       "thread_id": "01a1860e-d7a1-7fd3-bae1-3240b03664ed",
       "source_commit": null,
       "group_message_id": null,
@@ -751,18 +752,18 @@
       "id": "ai-workflow",
       "title": "AI Workflow Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18610-dab8-7583-a66f-49c5cf3e58cc",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5ee144c292b9bfef627d390c304325f0f6b64882",
+      "group_message_id": 122,
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-workflow/"
     },
     {
       "id": "animated-cards",
       "title": "Animated Cards",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18613-648a-76d0-9406-61c2aaf040ad",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -771,7 +772,7 @@
       "id": "apex-program-accordion",
       "title": "Apex Program Accordion",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -781,7 +782,7 @@
       "id": "apex-pulse",
       "title": "Apex Pulse",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

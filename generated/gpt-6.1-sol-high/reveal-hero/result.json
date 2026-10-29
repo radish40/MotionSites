@@ -1,0 +1,104 @@
+{
+  "title": "Reveal Hero",
+  "id": "reveal-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": [
+    {
+      "name": "TypeScript and Vite production build",
+      "passed": true,
+      "output": "dist/index.html"
+    },
+    {
+      "name": "desktop layout",
+      "passed": true,
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "documentHeight": 1000,
+        "heroHeight": 1000,
+        "textBottom": 224,
+        "canvas": [
+          1440,
+          1000
+        ]
+      }
+    },
+    {
+      "name": "cursor spotlight and eased grid movement",
+      "passed": true,
+      "near": {
+        "alpha": 255,
+        "offset": 0.6149111280359568,
+        "mask": true
+      },
+      "far": {
+        "alpha": 0,
+        "offset": -0.30917363650158664,
+        "mask": true
+      }
+    },
+    {
+      "name": "tablet layout",
+      "passed": true,
+      "metrics": {
+        "viewport": 700,
+        "documentWidth": 700,
+        "documentHeight": 1000,
+        "heroHeight": 1000,
+        "textBottom": 48,
+        "canvas": [
+          700,
+          1000
+        ]
+      }
+    },
+    {
+      "name": "mobile layout",
+      "passed": true,
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "documentHeight": 844,
+        "heroHeight": 844,
+        "textBottom": 48,
+        "canvas": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "name": "mobile menu opens, closes, selects item, and handles Escape",
+      "passed": true
+    },
+    {
+      "name": "no browser script errors",
+      "passed": true
+    },
+    {
+      "name": "No console errors or failed network requests",
+      "passed": true
+    },
+    {
+      "name": "Exact remote images and Google Inter loaded",
+      "passed": true
+    },
+    {
+      "name": "Production served under required subpath",
+      "passed": true,
+      "path": "/motionsites-results/reveal-hero/"
+    }
+  ],
+  "asset_issues": [],
+  "notes": [
+    "React 18 + TypeScript + Vite + Tailwind CSS; lucide-react icons. Required Supabase dependency included; no backend needed.",
+    "Source, lockfile, build, validation script, documentation, and screenshots are contained in this project.",
+    "Screenshots: screenshots/desktop.png (1440x1000), screenshots/mobile.png (390x844), screenshots/mobile-menu.png.",
+    "Detailed evidence: screenshots/browser-report.json. Tablet layout also checked at 700x1000.",
+    "Mobile menu toggles, closes on item selection, and supports Escape. No destinations or flows were specified for other presentation buttons.",
+    "Images use the exact supplied URLs without downloading. Images and font remain external runtime dependencies.",
+    "Canvas mask follows the specified per-frame toDataURL algorithm; touch devices retain an initial centered reveal.",
+    "Ready for review; no deployment or push performed."
+  ]
+}

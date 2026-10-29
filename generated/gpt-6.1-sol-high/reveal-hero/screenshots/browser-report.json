@@ -1,0 +1,107 @@
+{
+  "scriptErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "responses": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260512_012043_9764f2d0-5c6e-4faa-94a6-a8253df08c5e.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260512_012949_6b24738e-6e5f-4b6f-93d7-5772f4d32285.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200
+    }
+  ],
+  "checks": [
+    {
+      "name": "desktop layout",
+      "passed": true,
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "documentHeight": 1000,
+        "heroHeight": 1000,
+        "textBottom": 224,
+        "canvas": [
+          1440,
+          1000
+        ]
+      }
+    },
+    {
+      "name": "cursor spotlight and eased grid movement",
+      "passed": true,
+      "near": {
+        "alpha": 255,
+        "offset": 0.6149111280359568,
+        "mask": true
+      },
+      "far": {
+        "alpha": 0,
+        "offset": -0.30917363650158664,
+        "mask": true
+      }
+    },
+    {
+      "name": "tablet layout",
+      "passed": true,
+      "metrics": {
+        "viewport": 700,
+        "documentWidth": 700,
+        "documentHeight": 1000,
+        "heroHeight": 1000,
+        "textBottom": 48,
+        "canvas": [
+          700,
+          1000
+        ]
+      }
+    },
+    {
+      "name": "mobile layout",
+      "passed": true,
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "documentHeight": 844,
+        "heroHeight": 844,
+        "textBottom": 48,
+        "canvas": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "name": "mobile menu opens, closes, selects item, and handles Escape",
+      "passed": true
+    },
+    {
+      "name": "no browser script errors",
+      "passed": true
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260512_012043_9764f2d0-5c6e-4faa-94a6-a8253df08c5e.png&w=1280&q=85",
+      "loaded": true,
+      "width": 1280,
+      "height": 724
+    },
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260512_012949_6b24738e-6e5f-4b6f-93d7-5772f4d32285.png&w=1280&q=85",
+      "loaded": true,
+      "width": 1280,
+      "height": 724
+    }
+  ],
+  "fontLoaded": true
+}

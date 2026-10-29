@@ -1,0 +1,33 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/reveal-hero/",
+  "checked_at": "2026-10-29T03:55:22.703Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "PureFlow One — Clean Air, Clear Mind.",
+      "bodyChars": 124,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "PureFlow One — Clean Air, Clear Mind.",
+      "bodyChars": 66,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

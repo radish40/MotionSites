@@ -109,6 +109,7 @@ def launch(ident, resume=False):
             'Use the exact prompt requirements, including its stack and assets. Model gpt-6.1-sol, reasoning high.')
         command=['/home/opc/.local/bin/codex','--no-daemon','-a','never','exec','-s','danger-full-access',
             '--skip-git-repo-check','-C',str(work),'--model','gpt-6.1-sol','-c','model_reasoning_effort="high"',
+            '-c','model_providers.OpenAI.http_headers={"Accept-Encoding"="identity"}',
             '--json','-o',str(logs/'final.txt')]
         if resume:
             command+=['resume',job['thread_id'],'Continue only this original design session. The provider environment issue is fixed. '+prompt]

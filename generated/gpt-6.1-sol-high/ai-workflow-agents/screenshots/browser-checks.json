@@ -1,0 +1,96 @@
+[
+  {
+    "name": "desktop",
+    "title": "Axon — Digital Workers for Mundane Workflows",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "document": {
+      "width": 1440,
+      "height": 1000
+    },
+    "fonts": {
+      "inter": true,
+      "instrumentSerif": true
+    },
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 3.790866,
+      "videoWidth": 1664,
+      "videoHeight": 1248,
+      "muted": true,
+      "loop": true
+    },
+    "heading": {
+      "x": 351.6875,
+      "y": 198,
+      "width": 736.609375,
+      "height": 182.375,
+      "top": 198,
+      "right": 1088.296875,
+      "bottom": 380.375,
+      "left": 351.6875
+    },
+    "navVisible": true,
+    "errors": [],
+    "consoleErrors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260714_113715_c7e0daa0-8bdd-4486-a2da-040901f8f0ea.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260714_113715_c7e0daa0-8bdd-4486-a2da-040901f8f0ea.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "interactions": "passed"
+  },
+  {
+    "name": "mobile",
+    "title": "Axon — Digital Workers for Mundane Workflows",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "document": {
+      "width": 390,
+      "height": 844
+    },
+    "fonts": {
+      "inter": true,
+      "instrumentSerif": true
+    },
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 3.560953,
+      "videoWidth": 1664,
+      "videoHeight": 1248,
+      "muted": true,
+      "loop": true
+    },
+    "heading": {
+      "x": 56.875,
+      "y": 158,
+      "width": 276.234375,
+      "height": 68.375,
+      "top": 158,
+      "right": 333.109375,
+      "bottom": 226.375,
+      "left": 56.875
+    },
+    "navVisible": false,
+    "errors": [],
+    "consoleErrors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260714_113715_c7e0daa0-8bdd-4486-a2da-040901f8f0ea.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "interactions": "passed"
+  }
+]

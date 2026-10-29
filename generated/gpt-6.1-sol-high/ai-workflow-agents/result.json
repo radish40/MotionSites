@@ -1,0 +1,42 @@
+{
+  "title": "AI Workflow Agents",
+  "id": "ai-workflow-agents",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.npm-home -e npm_config_cache=/work/.npm-cache -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "publication_path": "/motionsites-results/ai-workflow-agents/",
+    "browser": "Chromium via playwright-core in louislam/uptime-kuma:2",
+    "desktop_1440x1000": "passed",
+    "mobile_390x844": "passed",
+    "layout_overflow": "none",
+    "script_errors": 0,
+    "console_errors": 0,
+    "fonts": "Instrument Serif and Inter loaded in both viewports",
+    "video": "Decoded and playing muted in both viewports; loop enabled",
+    "interactions": "CTA click and keyboard activation, desktop nav feedback, home reset passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "completed",
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "supplied CloudFront MP4",
+      "observation": "Chromium aborted intermediate media requests with net::ERR_ABORTED. Final media playback succeeded in both viewports; no console or playback errors.",
+      "blocking": false
+    }
+  ],
+  "notes": [
+    "Page title: Axon — Digital Workers for Mundane Workflows.",
+    "React + Vite + Tailwind CSS; supplied logo, fonts, copy and video URL.",
+    "Only this project was read and written; no agents, other sessions, deployment, push, or messages.",
+    "Navigation destinations and signup endpoint unspecified. Controls provide coming-soon feedback without adding pages or storing/submitting data.",
+    "External Google Fonts and video require internet access.",
+    "Source, lockfile, dist output, browser check script and screenshots included. Dependencies and npm caches excluded.",
+    "Ready for management-session review; not deployed."
+  ]
+}

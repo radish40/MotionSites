@@ -1,0 +1,64 @@
+{
+  "title": "Pixel Grid Hover",
+  "id": "pixel-grid-hover",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22; Docker equivalent in README.md)",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite, dist/index.html exists",
+    "browser": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "case_studies": 4,
+        "pixel_blocks": 384,
+        "images_loaded": true,
+        "font_loaded": true,
+        "responsive_grid": true,
+        "horizontal_overflow": false,
+        "marquee_moves": true,
+        "script_errors": [],
+        "failed_requests": [],
+        "screenshot": "screenshots/desktop.png",
+        "hover_reveal_and_reset": true,
+        "magnetic_pointer_and_reset": true,
+        "keyboard_reveal": true,
+        "marquee_hover_pause": true,
+        "cta_arrow_hover": true
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "case_studies": 4,
+        "pixel_blocks": 384,
+        "images_loaded": true,
+        "font_loaded": true,
+        "responsive_grid": true,
+        "horizontal_overflow": false,
+        "marquee_moves": true,
+        "script_errors": [],
+        "failed_requests": [],
+        "screenshot": "screenshots/mobile.png"
+      }
+    },
+    "screenshots_reviewed": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-hover.png"
+    ],
+    "dependency_audit": "0 vulnerabilities reported during npm install"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Uses React 18, TypeScript, Tailwind CSS 3, Framer Motion 12; dependency lockfile included.",
+    "Static output configured for /motionsites-results/pixel-grid-hover/.",
+    "All specified Pexels photos and Google DM Sans 400/500 files retrieved and served locally.",
+    "Provided reference shows floating squares on a blank field; full written prompt used for page content and layout. No screenshot used as webpage content.",
+    "CTA and plus signs have no navigation destination in the prompt; specified visual and hover behavior implemented without invented contact workflow.",
+    "Browser validation uses Chromium. Touch viewport checked for layout and asset loading; hover behavior checked with desktop pointer.",
+    "No deployment or push performed."
+  ]
+}

@@ -1,0 +1,8 @@
+@font-face {font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('../public/assets/dm-sans-400.ttf') format('truetype');}
+@font-face {font-family:'DM Sans';font-style:normal;font-weight:500;font-display:swap;src:url('../public/assets/dm-sans-500.ttf') format('truetype');}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {background:#fff;}
+body {margin:0;min-width:320px;}
+button:focus-visible, article:focus-visible {outline:2px solid #000;outline-offset:4px;}

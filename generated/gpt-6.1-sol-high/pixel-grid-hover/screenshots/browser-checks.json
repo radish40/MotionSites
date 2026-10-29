@@ -1,0 +1,39 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "case_studies": 4,
+    "pixel_blocks": 384,
+    "images_loaded": true,
+    "font_loaded": true,
+    "responsive_grid": true,
+    "horizontal_overflow": false,
+    "marquee_moves": true,
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshot": "screenshots/desktop.png",
+    "hover_reveal_and_reset": true,
+    "magnetic_pointer_and_reset": true,
+    "keyboard_reveal": true,
+    "marquee_hover_pause": true,
+    "cta_arrow_hover": true
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "case_studies": 4,
+    "pixel_blocks": 384,
+    "images_loaded": true,
+    "font_loaded": true,
+    "responsive_grid": true,
+    "horizontal_overflow": false,
+    "marquee_moves": true,
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshot": "screenshots/mobile.png"
+  }
+}

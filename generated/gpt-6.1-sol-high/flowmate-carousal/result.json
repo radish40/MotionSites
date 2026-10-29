@@ -1,0 +1,45 @@
+{
+  "title": "FlowMate Carousal",
+  "id": "flowmate-carousal",
+  "status": "ready",
+  "build_command": "npm ci && npm run build",
+  "build_environment": "Node 22/npm in louislam/uptime-kuma:2; TypeScript check and Vite production build passed.",
+  "publish_path": "/motionsites-results/flowmate-carousal/",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "browser_report": "browser-checks.json",
+    "desktop_1440x1000": "passed",
+    "mobile_390x844": "passed",
+    "navigation_and_wraparound": "passed in both directions",
+    "keyboard_activation": "passed",
+    "auto_advance": "passed; four-second interval",
+    "hover_zoom": "passed on desktop",
+    "layout": "passed; 500px cards, three desktop columns, single mobile column",
+    "horizontal_overflow": "none; checked at rest and during slide animation",
+    "script_errors": [],
+    "failed_requests": [],
+    "local_images": "all five supplied images decoded successfully",
+    "visual_review": "desktop, mobile viewport, and full mobile screenshots reviewed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-full.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "issue": "Initial Python requests to the supplied image proxy stalled and returned HTTP 403.",
+      "resolution": "curl retries downloaded all five exact supplied WebP assets; bundled locally with source records in asset-manifest.json.",
+      "status": "resolved"
+    }
+  ],
+  "notes": [
+    "Only the requested single carousel section is implemented with React, TypeScript, Vite, Tailwind CSS, Framer Motion, and Lucide React.",
+    "Exact supplied text, imagery, system font stack, sizing, reveal, and directional slide behavior are implemented.",
+    "dist/index.html and all required local assets are present; dependencies are locked in package-lock.json.",
+    "No external font or image requests are needed at runtime.",
+    "No deployment or push performed. Ready means ready for management-session acceptance.",
+    "Browser verification covers Chromium at the two requested viewport sizes."
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "rects": [
+          {
+            "x": 80,
+            "y": 169,
+            "width": 410.65625,
+            "height": 500
+          },
+          {
+            "x": 514.65625,
+            "y": 169,
+            "width": 410.671875,
+            "height": 500
+          },
+          {
+            "x": 949.328125,
+            "y": 169,
+            "width": 410.65625,
+            "height": 500
+          }
+        ],
+        "sections": 1,
+        "navs": 0
+      },
+      "assets": [
+        {
+          "id": 1,
+          "width": 1280,
+          "height": 1714
+        },
+        {
+          "id": 2,
+          "width": 1280,
+          "height": 1714
+        },
+        {
+          "id": 3,
+          "width": 1280,
+          "height": 1714
+        },
+        {
+          "id": 4,
+          "width": 1280,
+          "height": 1714
+        },
+        {
+          "id": 5,
+          "width": 1280,
+          "height": 1714
+        }
+      ],
+      "initial_cards": "pass",
+      "next_previous": "pass",
+      "wrap_both_directions": "pass",
+      "keyboard": "pass",
+      "auto_advance": "pass",
+      "horizontal_overflow": "none"
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "rects": [
+          {
+            "x": 24,
+            "y": 169,
+            "width": 342,
+            "height": 500
+          },
+          {
+            "x": 24,
+            "y": 693,
+            "width": 342,
+            "height": 500
+          },
+          {
+            "x": 24,
+            "y": 1217,
+            "width": 342,
+            "height": 500
+          }
+        ],
+        "sections": 1,
+        "navs": 0
+      },
+      "assets": [
+        {
+          "id": 1,
+          "width": 1280,
+          "height": 1714
+        },
+        {
+          "id": 2,
+          "width": 1280,
+          "height": 1714
+        },
+        {
+          "id": 3,
+          "width": 1280,
+          "height": 1714
+        },
+        {
+          "id": 4,
+          "width": 1280,
+          "height": 1714
+        },
+        {
+          "id": 5,
+          "width": 1280,
+          "height": 1714
+        }
+      ],
+      "initial_cards": "pass",
+      "next_previous": "pass",
+      "wrap_both_directions": "pass",
+      "keyboard": "pass",
+      "auto_advance": "pass",
+      "horizontal_overflow": "none"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

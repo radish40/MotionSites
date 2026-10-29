@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "original_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_081328_19f48c5b-ea4d-4f23-8f80-7374f31015d4.png",
+    "path": "images/card-1.webp",
+    "status": "downloaded",
+    "bytes": 194348,
+    "error": "",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081328_19f48c5b-ea4d-4f23-8f80-7374f31015d4.png&w=1280&q=85"
+  },
+  {
+    "id": 2,
+    "original_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_081342_ad378347-1ebd-4b17-a716-ee895bf739c0.png",
+    "path": "images/card-2.webp",
+    "status": "downloaded",
+    "bytes": 98274,
+    "error": "",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081342_ad378347-1ebd-4b17-a716-ee895bf739c0.png&w=1280&q=85"
+  },
+  {
+    "id": 3,
+    "original_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_081415_a6e8a76c-224e-417b-bf99-6b86d6494644.png",
+    "path": "images/card-3.webp",
+    "status": "downloaded",
+    "bytes": 285584,
+    "error": "",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081415_a6e8a76c-224e-417b-bf99-6b86d6494644.png&w=1280&q=85"
+  },
+  {
+    "id": 4,
+    "original_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_081513_cf1cd2c1-2122-4de6-90ed-acae8bfbdb00.png",
+    "path": "images/card-4.webp",
+    "status": "downloaded",
+    "bytes": 358124,
+    "error": "",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081513_cf1cd2c1-2122-4de6-90ed-acae8bfbdb00.png&w=1280&q=85"
+  },
+  {
+    "id": 5,
+    "original_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_081541_9d2d28bf-d6a3-4b31-b0bb-cfc5202d4fcd.png",
+    "path": "images/card-5.webp",
+    "status": "downloaded",
+    "bytes": 153710,
+    "error": "",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081541_9d2d28bf-d6a3-4b31-b0bb-cfc5202d4fcd.png&w=1280&q=85"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "title": "IntelligentX",
+  "id": "intelligentx",
+  "status": "ready",
+  "build_command": "npm ci && npm run build",
+  "checks": {
+    "production_build": "passed: TypeScript + Vite inside louislam/uptime-kuma:2",
+    "base_path": "/motionsites-results/intelligentx/",
+    "dist_index": true,
+    "browser": {
+      "checks": [
+        {
+          "name": "desktop",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "metrics": {
+            "width": 1440,
+            "scrollWidth": 1440,
+            "background": "rgb(237, 238, 245)",
+            "edgeLabel": {
+              "position": "absolute",
+              "bottom": "40px"
+            },
+            "fonts": {
+              "inter": true,
+              "outfit": true
+            },
+            "video": {
+              "readyState": 4,
+              "playing": true,
+              "currentTime": 4.185561,
+              "width": 3840,
+              "error": null
+            }
+          },
+          "interactions": [
+            "language toggle",
+            "search submit",
+            "get started focus"
+          ]
+        },
+        {
+          "name": "mobile",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "metrics": {
+            "width": 390,
+            "scrollWidth": 390,
+            "background": "rgb(237, 238, 245)",
+            "edgeLabel": {
+              "position": "absolute",
+              "bottom": "28px"
+            },
+            "fonts": {
+              "inter": true,
+              "outfit": true
+            },
+            "video": {
+              "readyState": 4,
+              "playing": true,
+              "currentTime": 3.933485,
+              "width": 3840,
+              "error": null
+            }
+          },
+          "interactions": [
+            "language toggle",
+            "search submit",
+            "drawer open, link close, Escape close"
+          ]
+        }
+      ],
+      "errors": [],
+      "failedRequests": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png",
+      "screenshots/mobile-full.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected; edge-label positioning corrected and rechecked."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "React + Vite + Tailwind CSS + motion/react; exact supplied CloudFront video and Google Fonts Inter/Outfit.",
+    "Navigation leads to the question input. No question API or additional resource pages were provided. Submission displays an explicit preview-only message.",
+    "Language toggle translates the hero, question control, and tools label; navigation retains required English labels.",
+    "External video and font services require network access; both loaded in Chromium during verification.",
+    "Hero follows required 110vh mobile / 140vh desktop sizing; full-page screenshots include the bottom edge labels.",
+    "See README.md for the complete Docker build and browser-verification commands."
+  ]
+}

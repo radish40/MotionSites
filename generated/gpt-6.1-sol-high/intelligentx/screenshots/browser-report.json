@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "background": "rgb(237, 238, 245)",
+        "edgeLabel": {
+          "position": "absolute",
+          "bottom": "40px"
+        },
+        "fonts": {
+          "inter": true,
+          "outfit": true
+        },
+        "video": {
+          "readyState": 4,
+          "playing": true,
+          "currentTime": 4.185561,
+          "width": 3840,
+          "error": null
+        }
+      },
+      "interactions": [
+        "language toggle",
+        "search submit",
+        "get started focus"
+      ]
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "background": "rgb(237, 238, 245)",
+        "edgeLabel": {
+          "position": "absolute",
+          "bottom": "28px"
+        },
+        "fonts": {
+          "inter": true,
+          "outfit": true
+        },
+        "video": {
+          "readyState": 4,
+          "playing": true,
+          "currentTime": 3.933485,
+          "width": 3840,
+          "error": null
+        }
+      },
+      "interactions": [
+        "language toggle",
+        "search submit",
+        "drawer open, link close, Escape close"
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

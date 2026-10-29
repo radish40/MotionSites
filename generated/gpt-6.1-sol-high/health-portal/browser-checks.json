@@ -1,0 +1,380 @@
+{
+  "url": "http://localhost:4173/motionsites-results/health-portal/",
+  "checks": [
+    {
+      "name": "desktop: splash appears",
+      "pass": true
+    },
+    {
+      "name": "desktop: title",
+      "pass": true
+    },
+    {
+      "name": "desktop: three sections",
+      "pass": true
+    },
+    {
+      "name": "desktop: no horizontal overflow",
+      "pass": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "sections": [
+          {
+            "id": "home",
+            "height": 1000
+          },
+          {
+            "id": "gallery",
+            "height": 1000
+          },
+          {
+            "id": "about",
+            "height": 1000
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop: all five images loaded",
+      "pass": true,
+      "details": [
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115253_c19ab167-8dd5-48b4-967d-b9f0d9d6e8fb.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115237_fc519057-6e87-4abf-999a-9610b8b085b4.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114355_752ba9e6-0942-4abb-9047-5d9bb16632e9.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1928
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_113640_ccf3cf97-d447-425b-a134-d7b09fc743fc.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 724
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114219_414dfe80-f15c-4e25-bf52-b13721f4bd88.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 724
+        }
+      ]
+    },
+    {
+      "name": "desktop: Escape closes menu",
+      "pass": true
+    },
+    {
+      "name": "desktop: backdrop closes menu",
+      "pass": true
+    },
+    {
+      "name": "desktop: menu opens and locks scroll",
+      "pass": true
+    },
+    {
+      "name": "desktop: navigation closes menu",
+      "pass": true
+    },
+    {
+      "name": "desktop: gallery navigation",
+      "pass": true
+    },
+    {
+      "name": "desktop: consultation CTA navigates",
+      "pass": true
+    },
+    {
+      "name": "mobile: splash appears",
+      "pass": true
+    },
+    {
+      "name": "mobile: title",
+      "pass": true
+    },
+    {
+      "name": "mobile: three sections",
+      "pass": true
+    },
+    {
+      "name": "mobile: no horizontal overflow",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "sections": [
+          {
+            "id": "home",
+            "height": 844
+          },
+          {
+            "id": "gallery",
+            "height": 844
+          },
+          {
+            "id": "about",
+            "height": 1101.28125
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile: all five images loaded",
+      "pass": true,
+      "details": [
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115253_c19ab167-8dd5-48b4-967d-b9f0d9d6e8fb.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115237_fc519057-6e87-4abf-999a-9610b8b085b4.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114355_752ba9e6-0942-4abb-9047-5d9bb16632e9.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1928
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_113640_ccf3cf97-d447-425b-a134-d7b09fc743fc.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 724
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114219_414dfe80-f15c-4e25-bf52-b13721f4bd88.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 724
+        }
+      ]
+    },
+    {
+      "name": "mobile: Escape closes menu",
+      "pass": true
+    },
+    {
+      "name": "mobile: backdrop closes menu",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu opens and locks scroll",
+      "pass": true
+    },
+    {
+      "name": "mobile: navigation closes menu",
+      "pass": true
+    },
+    {
+      "name": "mobile: gallery navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: consultation CTA navigates",
+      "pass": true
+    },
+    {
+      "name": "No browser script errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No browser console errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "assetResponses": [
+    {
+      "viewport": "desktop",
+      "url": "https://db.onlinewebfonts.com/c/42acf9aa4a6dc2f2886a3f682e337ead?family=Open+Sauce+One+Bold",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://db.onlinewebfonts.com/c/1cd1e7d71e048159076fd90b39846902?family=Open+Sauce+One",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114355_752ba9e6-0942-4abb-9047-5d9bb16632e9.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115253_c19ab167-8dd5-48b4-967d-b9f0d9d6e8fb.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_113640_ccf3cf97-d447-425b-a134-d7b09fc743fc.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114219_414dfe80-f15c-4e25-bf52-b13721f4bd88.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115237_fc519057-6e87-4abf-999a-9610b8b085b4.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://db.onlinewebfonts.com/t/1cd1e7d71e048159076fd90b39846902.woff",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://db.onlinewebfonts.com/c/1cd1e7d71e048159076fd90b39846902?family=Open+Sauce+One",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://db.onlinewebfonts.com/c/42acf9aa4a6dc2f2886a3f682e337ead?family=Open+Sauce+One+Bold",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115253_c19ab167-8dd5-48b4-967d-b9f0d9d6e8fb.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_113640_ccf3cf97-d447-425b-a134-d7b09fc743fc.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115237_fc519057-6e87-4abf-999a-9610b8b085b4.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114355_752ba9e6-0942-4abb-9047-5d9bb16632e9.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114219_414dfe80-f15c-4e25-bf52-b13721f4bd88.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://db.onlinewebfonts.com/t/1cd1e7d71e048159076fd90b39846902.woff",
+      "status": 200
+    }
+  ],
+  "assets": [
+    {
+      "viewport": "desktop",
+      "images": [
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115253_c19ab167-8dd5-48b4-967d-b9f0d9d6e8fb.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115237_fc519057-6e87-4abf-999a-9610b8b085b4.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114355_752ba9e6-0942-4abb-9047-5d9bb16632e9.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1928
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_113640_ccf3cf97-d447-425b-a134-d7b09fc743fc.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 724
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114219_414dfe80-f15c-4e25-bf52-b13721f4bd88.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 724
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Open Sauce One",
+          "status": "loaded"
+        },
+        {
+          "family": "Open Sauce One Bold",
+          "status": "unloaded"
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "images": [
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115253_c19ab167-8dd5-48b4-967d-b9f0d9d6e8fb.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_115237_fc519057-6e87-4abf-999a-9610b8b085b4.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114355_752ba9e6-0942-4abb-9047-5d9bb16632e9.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 1928
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_113640_ccf3cf97-d447-425b-a134-d7b09fc743fc.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 724
+        },
+        {
+          "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_114219_414dfe80-f15c-4e25-bf52-b13721f4bd88.png&w=1280&q=85",
+          "loaded": true,
+          "width": 1280,
+          "height": 724
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Open Sauce One",
+          "status": "loaded"
+        },
+        {
+          "family": "Open Sauce One Bold",
+          "status": "unloaded"
+        }
+      ]
+    }
+  ]
+}

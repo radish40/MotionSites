@@ -1,0 +1,151 @@
+{
+  "title": "Health Portal",
+  "id": "health-portal",
+  "status": "ready",
+  "page_title": "Dental Health - Quality Healthcare",
+  "public_path": "/motionsites-results/health-portal/",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": {
+      "status": "passed",
+      "command": "npm run build",
+      "typecheck": "passed",
+      "output": "dist/index.html"
+    },
+    "browser": {
+      "status": "passed",
+      "engine": "Chromium via playwright-core",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "assertions_passed": 24,
+      "assertions": [
+        {
+          "name": "desktop: splash appears",
+          "pass": true
+        },
+        {
+          "name": "desktop: title",
+          "pass": true
+        },
+        {
+          "name": "desktop: three sections",
+          "pass": true
+        },
+        {
+          "name": "desktop: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "desktop: all five images loaded",
+          "pass": true
+        },
+        {
+          "name": "desktop: Escape closes menu",
+          "pass": true
+        },
+        {
+          "name": "desktop: backdrop closes menu",
+          "pass": true
+        },
+        {
+          "name": "desktop: menu opens and locks scroll",
+          "pass": true
+        },
+        {
+          "name": "desktop: navigation closes menu",
+          "pass": true
+        },
+        {
+          "name": "desktop: gallery navigation",
+          "pass": true
+        },
+        {
+          "name": "desktop: consultation CTA navigates",
+          "pass": true
+        },
+        {
+          "name": "mobile: splash appears",
+          "pass": true
+        },
+        {
+          "name": "mobile: title",
+          "pass": true
+        },
+        {
+          "name": "mobile: three sections",
+          "pass": true
+        },
+        {
+          "name": "mobile: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "mobile: all five images loaded",
+          "pass": true
+        },
+        {
+          "name": "mobile: Escape closes menu",
+          "pass": true
+        },
+        {
+          "name": "mobile: backdrop closes menu",
+          "pass": true
+        },
+        {
+          "name": "mobile: menu opens and locks scroll",
+          "pass": true
+        },
+        {
+          "name": "mobile: navigation closes menu",
+          "pass": true
+        },
+        {
+          "name": "mobile: gallery navigation",
+          "pass": true
+        },
+        {
+          "name": "mobile: consultation CTA navigates",
+          "pass": true
+        },
+        {
+          "name": "No browser script errors",
+          "pass": true
+        },
+        {
+          "name": "No browser console errors",
+          "pass": true
+        }
+      ],
+      "script_errors": [],
+      "console_errors": [],
+      "failed_requests": [],
+      "evidence": "browser-checks.json"
+    },
+    "screenshots": {
+      "desktop": "screenshots/desktop.png",
+      "mobile": "screenshots/mobile.png",
+      "visually_reviewed": true
+    },
+    "nested_asset_paths": "passed",
+    "dependency_lockfile": "package-lock.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for acceptance review; not deployed or pushed.",
+    "Exact specified image URLs and font stylesheet links retained; all returned HTTP 200 during browser checks.",
+    "Regular Open Sauce One font loaded. The separately linked Bold family is unused by the prompt-specified body font declaration; rendered bold weights are synthesized by the browser.",
+    "The prompt supplies no phone number or booking endpoint. Contact and Call Us links navigate to the existing consultation card. Book Online retains its specified visual/hover interaction without a booking backend.",
+    "The desktop Menu button uses the same navigation panel; links target existing sections only.",
+    "Fixed navbar may overlay the top of later sections while scrolling, following the prescribed section spacing. Mobile sections grow to fit their stacked cards.",
+    "All React implementation resides in src/App.tsx. No UI or icon libraries.",
+    "Source, static build, documentation, browser checks and screenshots are confined to this project."
+  ]
+}

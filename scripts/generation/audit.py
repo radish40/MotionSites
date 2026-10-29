@@ -73,9 +73,9 @@ def verify(job, titles, ancestors):
             if record:
                 header,name=record.split('\t',1)
                 committed[name]=header.split()[2]
-        required=[root/'index.html',root/'PROMPT.md',root/'README.md']
-        required += [p for p in root.iterdir() if p.is_file() and p.suffix in ('.json','.js','.cjs','.mjs','.ts','.tsx','.css')]
-        for directory in ('src','components','public'):
+        required=[root/'PROMPT.md',root/'README.md']
+        required += [p for p in root.iterdir() if p.is_file() and p.suffix in ('.html','.json','.js','.jsx','.cjs','.mjs','.ts','.tsx','.css')]
+        for directory in ('src','app','pages','components','public','assets','scripts','lib','hooks','styles'):
             if (root/directory).is_dir():required += [p for p in (root/directory).rglob('*') if p.is_file()]
         checks['source_files_committed']=all(str(p.relative_to(manage.ROOT)) in committed for p in required)
         checks['committed_source_bytes']=all(object_id(p.read_bytes())==committed.get(str(p.relative_to(manage.ROOT))) for p in required)

@@ -5822,21 +5822,25 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1868a-d006-7fc3-b919-8b24c8a17c39",
       "output_path": "generated/gpt-6.1-sol-high/neo-museum",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Same original session recovering isolated skeleton assets from own animated reference and attributed missing natural-history imagery; original Cloudinary disabled.",
       "process_id": 3277672,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:23:26.444607+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
       "repair_attempts": 1,
-      "delivery_failures": 0
+      "delivery_failures": 0,
+      "source_commit": "9fd4126a48eeb708a89024238ebe1bb0e3be84d1",
+      "url": "https://tool.luo-xd.com/motionsites-results/neo-museum/",
+      "completed_utc": "2026-10-29T07:46:00.136266+00:00",
+      "group_message_id": 234
     },
     {
       "number": 171,
@@ -6186,19 +6190,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1869c-5d53-7c33-b312-9ade0a532b10",
       "output_path": "generated/gpt-6.1-sol-high/nimbus-ops",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3318267,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:42:36.788717+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "03ca1f796fffc97619d458144a7ccd94647f070e",
+      "url": "https://tool.luo-xd.com/motionsites-results/nimbus-ops/",
+      "completed_utc": "2026-10-29T07:46:27.218569+00:00",
+      "group_message_id": 235
     },
     {
       "number": 182,
@@ -6217,14 +6225,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1869d-a35f-7a91-8593-0220d4fda13b",
       "output_path": "generated/gpt-6.1-sol-high/nimbus-pricing",
       "validation": "",
       "notes": "",
       "process_id": 3323076,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:44:00.252884+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 183,
@@ -6242,11 +6254,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nimbus-security",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3329126,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:45:28.133878+00:00",
+      "worker_state": "running"
     },
     {
       "number": 184,
@@ -6264,11 +6280,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nimbus-sticky-cards",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3329154,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:45:28.268257+00:00",
+      "worker_state": "running"
     },
     {
       "number": 185,
@@ -10583,7 +10603,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:44:33.814884+00:00",
+  "updated_utc": "2026-10-29T07:46:27.383212+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

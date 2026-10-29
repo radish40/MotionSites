@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:44:33.814884+00:00",
+  "updated_utc": "2026-10-29T07:46:27.383212+00:00",
   "total": 380,
   "counts": {
-    "complete": 177,
+    "complete": 179,
     "running": 5,
-    "not_started": 198
+    "not_started": 196
   },
   "jobs": [
     {
@@ -1701,11 +1701,11 @@
       "id": "neo-museum",
       "title": "Neo Museum",
       "category": "Website",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1868a-d006-7fc3-b919-8b24c8a17c39",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9fd4126a48eeb708a89024238ebe1bb0e3be84d1",
+      "group_message_id": 234,
+      "url": "https://tool.luo-xd.com/motionsites-results/neo-museum/"
     },
     {
       "id": "neon-logic",
@@ -1811,18 +1811,18 @@
       "id": "nimbus-ops",
       "title": "Nimbus Ops",
       "category": "CTA Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1869c-5d53-7c33-b312-9ade0a532b10",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "03ca1f796fffc97619d458144a7ccd94647f070e",
+      "group_message_id": 235,
+      "url": "https://tool.luo-xd.com/motionsites-results/nimbus-ops/"
     },
     {
       "id": "nimbus-pricing",
       "title": "NimBus Pricing",
       "category": "Pricing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1869d-a35f-7a91-8593-0220d4fda13b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1831,7 +1831,7 @@
       "id": "nimbus-security",
       "title": "Nimbus Security",
       "category": "Cards",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1841,7 +1841,7 @@
       "id": "nimbus-sticky-cards",
       "title": "Nimbus Sticky Cards",
       "category": "Cards",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

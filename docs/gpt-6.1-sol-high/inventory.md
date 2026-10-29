@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 177/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 179/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -254,7 +254,7 @@
 | 167 | `mouse-trail-cta` | Mouse Trail CTA | CTA Section | 2 | 图片 | 已完成 |
 | 168 | `mythic-naturecore` | Mythic Naturecore | Landing Page | 2 | 图片 | 已完成 |
 | 169 | `naturecore-saas` | Naturecore SaaS | Hero Section | 2 | 图片 | 已完成 |
-| 170 | `neo-museum` | Neo Museum | Website | 2 | 图片 | 生成中 |
+| 170 | `neo-museum` | Neo Museum | Website | 2 | 图片 | 已完成 |
 | 171 | `neon-logic` | Neon Logic | Landing Page | 2 | 图片 | 已完成 |
 | 172 | `network-hero` | Network Hero | Hero Section | 2 | 图片 | 已完成 |
 | 173 | `neural-interface` | Neural Interface | Landing Page | 2 | 图片 | 已完成 |
@@ -265,10 +265,10 @@
 | 178 | `nike-hover` | Nike Hover | Features Section | 2 | 图片 | 生成中 |
 | 179 | `nimbus-demo` | Nimbus Demo | Dashboards | 2 | 图片 | 已完成 |
 | 180 | `nimbus-grid` | Nimbus Grid | Landing Page | 2 | 图片 | 生成中 |
-| 181 | `nimbus-ops` | Nimbus Ops | CTA Section | 2 | 图片 | 生成中 |
+| 181 | `nimbus-ops` | Nimbus Ops | CTA Section | 2 | 图片 | 已完成 |
 | 182 | `nimbus-pricing` | NimBus Pricing | Pricing Page | 2 | 图片 | 生成中 |
-| 183 | `nimbus-security` | Nimbus Security | Cards | 2 | 图片 | 未开始 |
-| 184 | `nimbus-sticky-cards` | Nimbus Sticky Cards | Cards | 2 | 图片 | 未开始 |
+| 183 | `nimbus-security` | Nimbus Security | Cards | 2 | 图片 | 生成中 |
+| 184 | `nimbus-sticky-cards` | Nimbus Sticky Cards | Cards | 2 | 图片 | 生成中 |
 | 185 | `no-code-waitlist` | No-Code Waitlist | Waitlist & Coming Soon | 2 | 图片 | 未开始 |
 | 186 | `novadesk-signup` | NovaDesk Signup | Waitlist & Coming Soon | 2 | 图片 | 未开始 |
 | 187 | `obsidian-hero` | Obsidian Hero | Hero Section | 2 | 图片 | 未开始 |

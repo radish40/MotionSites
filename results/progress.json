@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:17:43.763799+00:00",
+  "updated_utc": "2026-10-29T07:19:41.559641+00:00",
   "total": 380,
   "counts": {
-    "complete": 160,
+    "complete": 162,
     "running": 5,
-    "not_started": 215
+    "not_started": 213
   },
   "jobs": [
     {
@@ -1611,21 +1611,21 @@
       "id": "luxury-botanical",
       "title": "Luxury Botanical",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867e-6370-7042-9998-124ce9e138f3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "92591edd2be167be0c7ef7fd910741cddfb7bea9",
+      "group_message_id": 216,
+      "url": "https://tool.luo-xd.com/motionsites-results/luxury-botanical/"
     },
     {
       "id": "luxury-focus",
       "title": "Luxury Focus",
       "category": "E-commerce",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867e-63f1-7e12-bdac-d8a6380e6da6",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "617c1d8d30e8a50fcec01d60f996c8e44e7333bd",
+      "group_message_id": 217,
+      "url": "https://tool.luo-xd.com/motionsites-results/luxury-focus/"
     },
     {
       "id": "luxury-hero",
@@ -1642,7 +1642,7 @@
       "title": "Luxury Real Estate",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18684-1f63-7d02-8445-6f6832dd93be",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1652,7 +1652,7 @@
       "title": "Media Card Carousel",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18684-1fff-7363-bb05-f34b607c051c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1661,7 +1661,7 @@
       "id": "minimal-workflow-saas",
       "title": "Minimal Workflow SaaS",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1671,7 +1671,7 @@
       "id": "mouse-trail-cta",
       "title": "Mouse Trail CTA",
       "category": "CTA Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

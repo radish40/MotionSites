@@ -5512,19 +5512,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867e-6370-7042-9998-124ce9e138f3",
       "output_path": "generated/gpt-6.1-sol-high/luxury-botanical",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3202188,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:09:52.251491+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "92591edd2be167be0c7ef7fd910741cddfb7bea9",
+      "url": "https://tool.luo-xd.com/motionsites-results/luxury-botanical/",
+      "completed_utc": "2026-10-29T07:19:15.918449+00:00",
+      "group_message_id": 216
     },
     {
       "number": 162,
@@ -5542,19 +5546,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867e-63f1-7e12-bdac-d8a6380e6da6",
       "output_path": "generated/gpt-6.1-sol-high/luxury-focus",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3202228,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:09:52.383654+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "617c1d8d30e8a50fcec01d60f996c8e44e7333bd",
+      "url": "https://tool.luo-xd.com/motionsites-results/luxury-focus/",
+      "completed_utc": "2026-10-29T07:19:41.399313+00:00",
+      "group_message_id": 217
     },
     {
       "number": 163,
@@ -5607,14 +5615,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18684-1f63-7d02-8445-6f6832dd93be",
       "output_path": "generated/gpt-6.1-sol-high/luxury-real-estate",
       "validation": "",
       "notes": "",
       "process_id": 3223551,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:16:08.075317+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 165,
@@ -5633,14 +5645,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18684-1fff-7363-bb05-f34b607c051c",
       "output_path": "generated/gpt-6.1-sol-high/media-card-carousel",
       "validation": "",
       "notes": "",
       "process_id": 3223590,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:16:08.186721+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 166,
@@ -5658,11 +5674,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/minimal-workflow-saas",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3232472,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:18:37.065521+00:00",
+      "worker_state": "running"
     },
     {
       "number": 167,
@@ -5680,11 +5700,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/mouse-trail-cta",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3232512,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:18:37.254926+00:00",
+      "worker_state": "running"
     },
     {
       "number": 168,
@@ -10373,7 +10397,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:17:43.763799+00:00",
+  "updated_utc": "2026-10-29T07:19:41.559641+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

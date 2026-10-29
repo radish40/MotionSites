@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 160/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 162/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -245,13 +245,13 @@
 | 158 | `liquid-glass-features` | Liquid Glass Features | Features Section | 2 | 图片 | 已完成 |
 | 159 | `lodge-booking-app` | Lodge Booking App | Travel | 1 | 图片 | 已完成 |
 | 160 | `luminara` | Luminara | Hero Section | 2 | 图片 | 已完成 |
-| 161 | `luxury-botanical` | Luxury Botanical | Landing Page | 2 | 图片 | 生成中 |
-| 162 | `luxury-focus` | Luxury Focus | E-commerce | 2 | 图片 | 生成中 |
+| 161 | `luxury-botanical` | Luxury Botanical | Landing Page | 2 | 图片 | 已完成 |
+| 162 | `luxury-focus` | Luxury Focus | E-commerce | 2 | 图片 | 已完成 |
 | 163 | `luxury-hero` | Luxury Hero | Hero Section | 2 | 图片 | 已完成 |
 | 164 | `luxury-real-estate` | Luxury Real Estate | Landing Page | 2 | 图片 | 生成中 |
 | 165 | `media-card-carousel` | Media Card Carousel | Components | 1 | 图片 | 生成中 |
-| 166 | `minimal-workflow-saas` | Minimal Workflow SaaS | SaaS | 2 | 图片 | 未开始 |
-| 167 | `mouse-trail-cta` | Mouse Trail CTA | CTA Section | 2 | 图片 | 未开始 |
+| 166 | `minimal-workflow-saas` | Minimal Workflow SaaS | SaaS | 2 | 图片 | 生成中 |
+| 167 | `mouse-trail-cta` | Mouse Trail CTA | CTA Section | 2 | 图片 | 生成中 |
 | 168 | `mythic-naturecore` | Mythic Naturecore | Landing Page | 2 | 图片 | 未开始 |
 | 169 | `naturecore-saas` | Naturecore SaaS | Hero Section | 2 | 图片 | 未开始 |
 | 170 | `neo-museum` | Neo Museum | Website | 2 | 图片 | 未开始 |

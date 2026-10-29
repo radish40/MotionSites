@@ -216,6 +216,8 @@ def notify(ident):
     device=Path('/home/opc/codex-relay/data/group-device-id').read_text().strip()
     count=sum(j['status']=='complete' for j in manifest['jobs'])
     text=f"MotionSites 已完成：{job['title']}\n访问地址：{job['url']}\n源码：{REPOSITORY}/tree/{job['source_commit']}/{job['output_path']}\n已保存桌面和手机截图。模型 GPT-6.1 Sol High，独立新会话生成。\n总进度：{count}/380\n成果索引：{BASE}"
+    batch_limit=manifest.get('current_batch',{}).get('through_number')
+    if batch_limit:text+=f'\n本轮目标：完成前 {batch_limit} 项后暂停。'
     payload={'deviceId':device,'requestId':'motionsites-complete-'+ident,'text':text}
     req=urllib.request.Request('http://127.0.0.1:8765/codex/api/group/messages',data=json.dumps(payload,ensure_ascii=False).encode(),
         headers={'Authorization':'Bearer '+token,'Content-Type':'application/json'})

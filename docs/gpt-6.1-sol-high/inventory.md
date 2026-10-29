@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 135/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 136/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -219,7 +219,7 @@
 | 132 | `gateway-portal` | Gateway Portal | Landing Page | 2 | 图片 | 已完成 |
 | 133 | `gear-shop` | Gear Shop | E-commerce | 2 | 图片 | 已完成 |
 | 134 | `glassmorphic-feature-tabs` | Glassmorphic Feature Tabs | Components | 2 | 图片 | 已完成 |
-| 135 | `glitch-pulse` | Glitch Pulse | Landing Page | 2 | 图片 | 待验收 |
+| 135 | `glitch-pulse` | Glitch Pulse | Landing Page | 2 | 图片 | 已完成 |
 | 136 | `global-cta-footer` | Global CTA Footer | CTA Section | 2 | 图片 | 生成中 |
 | 137 | `golden-portal` | Golden Portal | Landing Page | 2 | 图片 | 生成中 |
 | 138 | `growth-marketing-saas` | Growth Marketing SaaS | Hero Section | 2 | 图片 | 生成中 |

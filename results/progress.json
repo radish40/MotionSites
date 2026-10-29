@@ -1,9 +1,8 @@
 {
-  "updated_utc": "2026-10-29T06:48:05.837862+00:00",
+  "updated_utc": "2026-10-29T06:49:01.724265+00:00",
   "total": 380,
   "counts": {
-    "complete": 135,
-    "ready": 1,
+    "complete": 136,
     "running": 5,
     "not_started": 239
   },
@@ -1352,11 +1351,11 @@
       "id": "glitch-pulse",
       "title": "Glitch Pulse",
       "category": "Landing Page",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a1865f-8074-7ea3-acf7-9fce8034ae0a",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "0a79219d2ad12bac0d736a1037507e0937ad5374",
+      "group_message_id": 189,
+      "url": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/"
     },
     {
       "id": "global-cta-footer",
@@ -1403,7 +1402,7 @@
       "title": "Guardnet Demo",
       "category": "Info",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18669-1942-7ca1-b83b-8e6b9e7f2562",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1413,7 +1412,7 @@
       "title": "Halo Benefits",
       "category": "Why Us",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18669-19d8-7953-af90-cc5e7bd5848d",
       "source_commit": null,
       "group_message_id": null,
       "url": null

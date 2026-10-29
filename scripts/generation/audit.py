@@ -149,6 +149,9 @@ def main():
     if args.through is not None and (not 1<=args.through<=380 or args.ids):
         parser.error('--through requires 1..380 and cannot be combined with --ids')
     manifest=manage.load(); done=[j for j in manifest['jobs'] if j['status']=='complete']
+    if args.ids:
+        missing=set(args.ids)-{j['id'] for j in done}
+        if missing:parser.error('Requested designs are not completed: '+', '.join(sorted(missing)))
     selected=[j for j in done if (not args.ids or j['id'] in args.ids) and (args.through is None or j['number']<=args.through)]
     remote_head=manage.git('ls-remote','origin','refs/heads/main').split()[0]
     ancestors=set(manage.git('rev-list',remote_head).splitlines())

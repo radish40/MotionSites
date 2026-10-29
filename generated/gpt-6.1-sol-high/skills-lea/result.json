@@ -1,0 +1,41 @@
+{
+  "title": "LearnHub",
+  "id": "skills-lea",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: TypeScript and Vite production build",
+    "browser": {
+      "status": "passed",
+      "count": 28,
+      "details": "browser-checks.json",
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "additional_overflow_widths": [
+        768,
+        1024
+      ],
+      "script_errors": [],
+      "failed_asset_responses": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built only LearnHub within this project; no agents, deployments, pushes, or external messages.",
+    "Public base: /motionsites-results/skills-lea/.",
+    "All specified videos, imagery, and Space Grotesk weights 300\u2013700 are bundled locally.",
+    "Poster frames captured from original supplied videos prevent blank offscreen video rendering.",
+    "Mobile onboarding font is 36px to preserve three lines; desktop is 42px. Intermediate phone layouts wrap to avoid overflow.",
+    "Calendar weekday labels match the prompt verbatim.",
+    "Frontend state only; no backend persistence. Original media yields approximately 68 MB static build.",
+    "Screenshots display original-video poster frames for deterministic capture; production videos autoplay and loop.",
+    "Ready for review; not deployed."
+  ]
+}

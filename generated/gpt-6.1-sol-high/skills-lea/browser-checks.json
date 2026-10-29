@@ -1,0 +1,162 @@
+{
+  "checks": [
+    {
+      "name": "All six supplied videos decode and play",
+      "passed": true
+    },
+    {
+      "name": "Background and avatar images load",
+      "passed": true
+    },
+    {
+      "name": "Space Grotesk loaded",
+      "passed": true
+    },
+    {
+      "name": "Desktop has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Desktop phone dimensions and horizontal arrangement",
+      "passed": true
+    },
+    {
+      "name": "Design filter shows two courses",
+      "passed": true
+    },
+    {
+      "name": "Programming filter shows one course",
+      "passed": true
+    },
+    {
+      "name": "Search filters course titles",
+      "passed": true
+    },
+    {
+      "name": "Empty search state",
+      "passed": true
+    },
+    {
+      "name": "Course card opens corresponding schedule",
+      "passed": true
+    },
+    {
+      "name": "Calendar starts August 2024",
+      "passed": true
+    },
+    {
+      "name": "August 16 selected initially",
+      "passed": true
+    },
+    {
+      "name": "Calendar has 42 cells",
+      "passed": true
+    },
+    {
+      "name": "Next month navigation",
+      "passed": true
+    },
+    {
+      "name": "Calendar day selection",
+      "passed": true
+    },
+    {
+      "name": "Share copies schedule link",
+      "passed": true
+    },
+    {
+      "name": "Lesson preview opens",
+      "passed": true
+    },
+    {
+      "name": "Lesson preview closes",
+      "passed": true
+    },
+    {
+      "name": "Home resets course view",
+      "passed": true
+    },
+    {
+      "name": "Mobile has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile phones stack vertically at 320 pixels",
+      "passed": true
+    },
+    {
+      "name": "Onboarding navigates to Explore on mobile",
+      "passed": true
+    },
+    {
+      "name": "Course navigates to schedule on mobile",
+      "passed": true
+    },
+    {
+      "name": "Back returns to Explore on mobile",
+      "passed": true
+    },
+    {
+      "name": "No overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "No overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No browser script errors",
+      "passed": true
+    },
+    {
+      "name": "No failed asset responses",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "media": [
+    {
+      "src": "http://127.0.0.1:4173/motionsites-results/skills-lea/assets/onboarding.mp4",
+      "readyState": 4,
+      "width": 1080,
+      "playing": true,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:4173/motionsites-results/skills-lea/assets/design.mp4",
+      "readyState": 4,
+      "width": 960,
+      "playing": true,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:4173/motionsites-results/skills-lea/assets/programming.mp4",
+      "readyState": 4,
+      "width": 960,
+      "playing": true,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:4173/motionsites-results/skills-lea/assets/art.mp4",
+      "readyState": 4,
+      "width": 960,
+      "playing": true,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:4173/motionsites-results/skills-lea/assets/copywriting.mp4",
+      "readyState": 4,
+      "width": 960,
+      "playing": true,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:4173/motionsites-results/skills-lea/assets/lesson.mp4",
+      "readyState": 4,
+      "width": 1112,
+      "playing": true,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "onboarding.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260706_072800_64c47fd8-8c4a-431c-ab02-d8c84e461474.mp4",
+    "bytes": 11372976,
+    "status": "ok"
+  },
+  {
+    "name": "design.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260706_092940_b96cc608-4646-48fa-b73d-19be2b96f9c9.mp4",
+    "bytes": 16715596,
+    "status": "ok"
+  },
+  {
+    "name": "programming.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260706_091634_79fb6336-cd01-4002-b9e5-c20c548c6646.mp4",
+    "bytes": 6086441,
+    "status": "ok"
+  },
+  {
+    "name": "art.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260706_110013_a8872d8b-6678-48e1-a6ab-db071ac6e5ec.mp4",
+    "bytes": 6123112,
+    "status": "ok"
+  },
+  {
+    "name": "copywriting.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260706_100911_5fcfc40c-a4be-4900-aca4-82f09b746d51.mp4",
+    "bytes": 14244573,
+    "status": "ok"
+  },
+  {
+    "name": "lesson.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260706_110653_41933aaf-9ec1-423f-851a-043b3407ef44.mp4",
+    "bytes": 15255464,
+    "status": "ok"
+  },
+  {
+    "name": "background.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260706_013750_18427eb2-0d19-44fd-a5ab-8ee7c40fa18f.png&w=1280&q=85",
+    "bytes": 14394,
+    "status": "ok"
+  },
+  {
+    "name": "avatar.jpg",
+    "source": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100",
+    "bytes": 4590,
+    "status": "ok"
+  },
+  {
+    "name": "font.css",
+    "source": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap",
+    "bytes": 1185,
+    "status": "ok"
+  }
+]

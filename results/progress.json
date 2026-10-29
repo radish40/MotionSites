@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:17:44.557656+00:00",
+  "updated_utc": "2026-10-29T05:19:35.451185+00:00",
   "total": 380,
   "counts": {
-    "complete": 74,
-    "blocked": 1,
+    "complete": 76,
     "running": 5,
-    "not_started": 300
+    "not_started": 299
   },
   "jobs": [
     {
@@ -722,7 +721,7 @@
       "id": "aerocore",
       "title": "AeroCore",
       "category": "Landing Page",
-      "status": "blocked",
+      "status": "running",
       "thread_id": "01a1860e-d7a1-7fd3-bae1-3240b03664ed",
       "source_commit": null,
       "group_message_id": null,
@@ -762,21 +761,21 @@
       "id": "animated-cards",
       "title": "Animated Cards",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18613-648a-76d0-9406-61c2aaf040ad",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "50ed7a575ff91be75471217f9e1e6541be24ddd9",
+      "group_message_id": 125,
+      "url": "https://tool.luo-xd.com/motionsites-results/animated-cards/"
     },
     {
       "id": "apex-program-accordion",
       "title": "Apex Program Accordion",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18614-c904-7f31-ab03-6f9af78ca35b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "fb0f345449b6e2de653d623ee8d2d38417a19c0c",
+      "group_message_id": 126,
+      "url": "https://tool.luo-xd.com/motionsites-results/apex-program-accordion/"
     },
     {
       "id": "apex-pulse",
@@ -793,7 +792,7 @@
       "title": "Arceage Contact Us",
       "category": "Forms & Contact",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18616-d238-7e52-a6c2-4c075d36c4a6",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -803,7 +802,7 @@
       "title": "Arceage Services",
       "category": "Services",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18616-d342-76e3-854e-f73a8d9ecf07",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -812,7 +811,7 @@
       "id": "arceage-stats",
       "title": "Arceage Stats",
       "category": "Process & Stats",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

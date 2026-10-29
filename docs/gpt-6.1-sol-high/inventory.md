@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 74/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 76/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -156,16 +156,16 @@
 | 69 | `3d-collectible-hero` | 3D Collectible Hero | 3D Website | 2 | 图片 | 已完成 |
 | 70 | `3d-story` | 3D Story | Landing Page | 2 | 图片 | 已完成 |
 | 71 | `404-planet` | 404 Planet | 404 Pages | 2 | 图片 | 已完成 |
-| 72 | `aerocore` | AeroCore | Landing Page | 2 | 图片 | 阻塞 |
+| 72 | `aerocore` | AeroCore | Landing Page | 2 | 图片 | 生成中 |
 | 73 | `agency-services` | Agency Services | Services | 2 | 图片 | 已完成 |
 | 74 | `ai-automation` | AI Automation | Landing Page | 2 | 图片 | 已完成 |
 | 75 | `ai-workflow` | AI Workflow Hero | Hero Section | 2 | 图片 | 已完成 |
-| 76 | `animated-cards` | Animated Cards | Components | 2 | 图片 | 生成中 |
-| 77 | `apex-program-accordion` | Apex Program Accordion | Components | 2 | 图片 | 生成中 |
+| 76 | `animated-cards` | Animated Cards | Components | 2 | 图片 | 已完成 |
+| 77 | `apex-program-accordion` | Apex Program Accordion | Components | 2 | 图片 | 已完成 |
 | 78 | `apex-pulse` | Apex Pulse | Landing Page | 2 | 图片 | 生成中 |
 | 79 | `arceage-contact-us` | Arceage Contact Us | Forms & Contact | 2 | 图片 | 生成中 |
 | 80 | `arceage-services` | Arceage Services | Services | 2 | 图片 | 生成中 |
-| 81 | `arceage-stats` | Arceage Stats | Process & Stats | 2 | 图片 | 未开始 |
+| 81 | `arceage-stats` | Arceage Stats | Process & Stats | 2 | 图片 | 生成中 |
 | 82 | `arceage-testimonial` | Arceage Testimonial | Testimonials | 2 | 图片 | 未开始 |
 | 83 | `audio-showcase` | Audio Showcase | Hero Section | 2 | 图片 | 未开始 |
 | 84 | `auramail` | AuraMail | SaaS | 2 | 图片 | 未开始 |

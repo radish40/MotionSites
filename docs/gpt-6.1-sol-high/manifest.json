@@ -2452,19 +2452,22 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "blocked",
+      "status": "running",
       "thread_id": "01a1860e-d7a1-7fd3-bae1-3240b03664ed",
       "output_path": "generated/gpt-6.1-sol-high/aerocore",
       "validation": "",
-      "notes": "[{\"asset\": \"hero-engine_isebcf.png\", \"url\": \"https://res.cloudinary.com/dsdhxhhqh/image/upload/v1780405513/hero-engine_isebcf.png\", \"http_status\": 401, \"message\": \"cloud_name dsdhxhhqh is disabled\", \"impact\": \"Required engine cutout absent; original URL retained; visual acceptance blocked.\", \"resolution\": \"Restore source account or provide the exact original PNG.\"}]",
-      "process_id": 2785394,
+      "notes": "Same-session recovery of the disabled original engine asset using this design’s original preview; full page scope preserved.",
+      "process_id": 2822831,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:08:01.836732+00:00",
-      "worker_state": "terminal",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "repair_attempts": 1,
+      "previous_delivery_failures": 0,
+      "delivery_failures": 0
     },
     {
       "number": 73,
@@ -2584,19 +2587,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18613-648a-76d0-9406-61c2aaf040ad",
       "output_path": "generated/gpt-6.1-sol-high/animated-cards",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2804587,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:13:00.153308+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "50ed7a575ff91be75471217f9e1e6541be24ddd9",
+      "url": "https://tool.luo-xd.com/motionsites-results/animated-cards/",
+      "completed_utc": "2026-10-29T05:19:06.856445+00:00",
+      "group_message_id": 125
     },
     {
       "number": 77,
@@ -2614,19 +2621,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18614-c904-7f31-ab03-6f9af78ca35b",
       "output_path": "generated/gpt-6.1-sol-high/apex-program-accordion",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2809742,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:14:31.359660+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "fb0f345449b6e2de653d623ee8d2d38417a19c0c",
+      "url": "https://tool.luo-xd.com/motionsites-results/apex-program-accordion/",
+      "completed_utc": "2026-10-29T05:19:35.239191+00:00",
+      "group_message_id": 126
     },
     {
       "number": 78,
@@ -2675,14 +2686,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18616-d238-7e52-a6c2-4c075d36c4a6",
       "output_path": "generated/gpt-6.1-sol-high/arceage-contact-us",
       "validation": "",
       "notes": "",
       "process_id": 2816825,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:16:44.869355+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 80,
@@ -2701,14 +2716,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18616-d342-76e3-854e-f73a8d9ecf07",
       "output_path": "generated/gpt-6.1-sol-high/arceage-services",
       "validation": "",
       "notes": "",
       "process_id": 2816892,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:16:45.034611+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 81,
@@ -2726,11 +2745,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/arceage-stats",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2823969,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:18:37.343761+00:00",
+      "worker_state": "running"
     },
     {
       "number": 82,
@@ -9311,5 +9334,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:17:44.557656+00:00"
+  "updated_utc": "2026-10-29T05:19:35.451185+00:00"
 }

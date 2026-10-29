@@ -1,0 +1,78 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "viewportWidth": 1440,
+    "scrollWidth": 1440,
+    "mainWidth": 1400,
+    "sectionCount": 2,
+    "gridColumns": "318px 318px 318px 318px",
+    "fontLoaded": true,
+    "video": {
+      "readyState": 4,
+      "currentTime": 1.12895,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "videoWidth": 1920,
+      "videoHeight": 1080
+    },
+    "buttonsInBounds": true,
+    "hoverColor": "rgb(255, 255, 255)",
+    "focusOutline": "solid",
+    "buttonClicks": "all three buttons clickable; no workflow specified",
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260421_072418_508a7d2e-396d-4f6f-9d42-ec920fcf7755.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260421_072418_508a7d2e-396d-4f6f-9d42-ec920fcf7755.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpErrors": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "viewportWidth": 390,
+    "scrollWidth": 390,
+    "mainWidth": 390,
+    "sectionCount": 2,
+    "gridColumns": "173px 173px",
+    "fontLoaded": true,
+    "video": {
+      "readyState": 4,
+      "currentTime": 1.10928,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "videoWidth": 1920,
+      "videoHeight": 1080
+    },
+    "buttonsInBounds": true,
+    "hoverColor": "rgb(255, 255, 255)",
+    "focusOutline": "solid",
+    "buttonClicks": "all three buttons clickable; no workflow specified",
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260421_072418_508a7d2e-396d-4f6f-9d42-ec920fcf7755.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260421_072418_508a7d2e-396d-4f6f-9d42-ec920fcf7755.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpErrors": []
+  }
+]

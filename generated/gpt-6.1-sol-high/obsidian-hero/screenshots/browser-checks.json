@@ -1,0 +1,157 @@
+{
+  "url": "http://localhost:4173/motionsites-results/obsidian-hero/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "document": {
+        "width": 1440,
+        "height": 1000
+      },
+      "images": [
+        {
+          "loaded": true,
+          "source": "/motionsites-results/obsidian-hero/assets/craft.webp"
+        },
+        {
+          "loaded": true,
+          "source": "/motionsites-results/obsidian-hero/assets/arcvault.webp"
+        }
+      ],
+      "video": {
+        "playing": true,
+        "readyState": 4,
+        "currentTime": 0.664368,
+        "loop": true,
+        "muted": true,
+        "playsInline": true
+      },
+      "fontLoaded": true,
+      "headingFont": "Lexend, sans-serif",
+      "heading": {
+        "x": 48,
+        "y": 136,
+        "width": 512,
+        "height": 136.78125,
+        "top": 136,
+        "right": 560,
+        "bottom": 272.78125,
+        "left": 48
+      },
+      "cards": [
+        {
+          "x": 892,
+          "y": 452,
+          "width": 240,
+          "height": 240,
+          "top": 452,
+          "right": 1132,
+          "bottom": 692,
+          "left": 892
+        },
+        {
+          "x": 1152,
+          "y": 712,
+          "width": 240,
+          "height": 240,
+          "top": 712,
+          "right": 1392,
+          "bottom": 952,
+          "left": 1152
+        }
+      ],
+      "interactions": {
+        "projectsFocused": true,
+        "menuOpenClose": true,
+        "escapeCloses": true,
+        "focusTrapped": true,
+        "menuClosedAfterLink": true
+      }
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 844
+      },
+      "images": [
+        {
+          "loaded": true,
+          "source": "/motionsites-results/obsidian-hero/assets/craft.webp"
+        },
+        {
+          "loaded": true,
+          "source": "/motionsites-results/obsidian-hero/assets/arcvault.webp"
+        }
+      ],
+      "video": {
+        "playing": true,
+        "readyState": 4,
+        "currentTime": 0.575129,
+        "loop": true,
+        "muted": true,
+        "playsInline": true
+      },
+      "fontLoaded": true,
+      "headingFont": "Lexend, sans-serif",
+      "heading": {
+        "x": 20,
+        "y": 80,
+        "width": 350,
+        "height": 57,
+        "top": 80,
+        "right": 370,
+        "bottom": 137,
+        "left": 20
+      },
+      "cards": [
+        {
+          "x": 70,
+          "y": 520,
+          "width": 144,
+          "height": 144,
+          "top": 520,
+          "right": 214,
+          "bottom": 664,
+          "left": 70
+        },
+        {
+          "x": 226,
+          "y": 676,
+          "width": 144,
+          "height": 144,
+          "top": 676,
+          "right": 370,
+          "bottom": 820,
+          "left": 226
+        }
+      ],
+      "interactions": {
+        "projectsFocused": true,
+        "menuOpenClose": true,
+        "escapeCloses": true,
+        "focusTrapped": true,
+        "menuClosedAfterLink": true
+      }
+    }
+  ],
+  "errors": [],
+  "requestFailures": [],
+  "mediaCancellations": [
+    {
+      "url": "http://localhost:4173/motionsites-results/obsidian-hero/assets/architecture.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/obsidian-hero/assets/architecture.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

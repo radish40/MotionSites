@@ -1,0 +1,37 @@
+{
+  "title": "Obsidian Hero",
+  "id": "obsidian-hero",
+  "status": "ready",
+  "build_command": "npm ci && npm run build",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5; Docker command in README.md",
+    "publish_path": "/motionsites-results/obsidian-hero/",
+    "dist_index_exists": true,
+    "dependency_audit": "0 vulnerabilities",
+    "browser": "Headless Chromium via existing playwright-core",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "layout": "No page overflow; hero and staggered CSS grid cards remain separated at both required sizes",
+    "media": "Both original images decoded; original video playing, muted, looping and inline; Lexend loaded at both sizes",
+    "interactions": "Project focus, menu open/close, link dismissal, Escape, and focus trapping passed at both sizes",
+    "script_and_http_errors": [],
+    "failed_asset_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-menu.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "Only this project and its supplied visual reference were read. No agents or additional sessions were created.",
+    "The exact specified video and images are local copies in public/assets and dist/assets; no preview extraction or substitute imagery was needed.",
+    "The required external Lexend stylesheet remains an external dependency and was verified in the browser.",
+    "Navigation uses anchors within the supplied single-page content; external destinations and project detail pages were not specified.",
+    "Chromium canceled superseded MP4 range requests with net::ERR_ABORTED; those are logged separately and actual playback passed.",
+    "Screenshots capture different instants of a looping video. Validation covers Chromium at the required dimensions; other browsers and physical devices were not tested."
+  ]
+}

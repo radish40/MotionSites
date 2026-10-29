@@ -91,6 +91,7 @@ def verify(job, titles, ancestors):
         for directory in ('src','app','pages','components','public','assets','scripts','lib','hooks','styles'):
             if (root/directory).is_dir():required += [p for p in (root/directory).rglob('*') if p.is_file()
                 and not any(part in ('venv','.venv','__pycache__') for part in p.relative_to(root).parts)
+                and p.relative_to(root).parts[:3]!=('scripts','repair','vendor')
                 and p.suffix not in ('.whl','.pyc')]
         checks['source_files_committed']=all(str(p.relative_to(manage.ROOT)) in committed for p in required)
         checks['committed_source_bytes']=all(object_id(p.read_bytes())==committed.get(str(p.relative_to(manage.ROOT))) for p in required)

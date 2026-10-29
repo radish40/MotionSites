@@ -3,6 +3,8 @@ node_modules/
 venv/
 .venv/
 *.whl
+# Local packages used only by AeroCore's image recovery script
+/generated/gpt-6.1-sol-high/aerocore/scripts/repair/vendor/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

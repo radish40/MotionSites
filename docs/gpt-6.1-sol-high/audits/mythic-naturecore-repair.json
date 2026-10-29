@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-10-29T07:44:45.995863+00:00",
+  "total_designs": 380,
+  "completed_at_snapshot": 177,
+  "audited_designs": 1,
+  "remote_main": "28f372c55b597d147cca5149aa550a6123498b0a",
+  "unique_design_sessions": true,
+  "selected_deliveries_pass": true,
+  "public_index_matches_names_links_and_previews": true,
+  "public_index_cards": 177,
+  "full_scope_achieved": false,
+  "requested_batch_limit": null,
+  "requested_batch_scope_achieved": null,
+  "deliveries": [
+    {
+      "id": "mythic-naturecore",
+      "title": "Mythic Naturecore",
+      "source_commit": "18d70090dd42e03d88e1bf39d3aed1af5876c19b",
+      "thread_id": "01a18688-2f94-79f3-8c28-a2e77d227c64",
+      "group_message_id": 233,
+      "checks": {
+        "exact_title": true,
+        "prompt_snapshot": true,
+        "source_is_on_remote_main": true,
+        "actual_model_settings": true,
+        "no_delegated_contexts": true,
+        "actual_group_message": true,
+        "desktop_mobile_browser_report": true,
+        "source_files_committed": true,
+        "committed_source_bytes": true,
+        "remote_index.html": true,
+        "committed_dist_html": true,
+        "remote_preview/desktop.png": true,
+        "committed_preview/desktop.png": true,
+        "remote_preview/mobile.png": true,
+        "committed_preview/mobile.png": true
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-10-29T07:46:14.221199+00:00",
+  "total_designs": 380,
+  "completed_at_snapshot": 178,
+  "audited_designs": 1,
+  "remote_main": "9fd4126a48eeb708a89024238ebe1bb0e3be84d1",
+  "unique_design_sessions": true,
+  "selected_deliveries_pass": true,
+  "public_index_matches_names_links_and_previews": true,
+  "public_index_cards": 178,
+  "full_scope_achieved": false,
+  "requested_batch_limit": null,
+  "requested_batch_scope_achieved": null,
+  "deliveries": [
+    {
+      "id": "neo-museum",
+      "title": "Neo Museum",
+      "source_commit": "9fd4126a48eeb708a89024238ebe1bb0e3be84d1",
+      "thread_id": "01a1868a-d006-7fc3-b919-8b24c8a17c39",
+      "group_message_id": 234,
+      "checks": {
+        "exact_title": true,
+        "prompt_snapshot": true,
+        "source_is_on_remote_main": true,
+        "actual_model_settings": true,
+        "no_delegated_contexts": true,
+        "actual_group_message": true,
+        "desktop_mobile_browser_report": true,
+        "source_files_committed": true,
+        "committed_source_bytes": true,
+        "remote_index.html": true,
+        "committed_dist_html": true,
+        "remote_preview/desktop.png": true,
+        "committed_preview/desktop.png": true,
+        "remote_preview/mobile.png": true,
+        "committed_preview/mobile.png": true
+      },
+      "passed": true
+    }
+  ]
+}

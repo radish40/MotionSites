@@ -5756,7 +5756,7 @@
       "thread_id": "01a18688-2f94-79f3-8c28-a2e77d227c64",
       "output_path": "generated/gpt-6.1-sol-high/mythic-naturecore",
       "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
-      "notes": "Management visual review: same original session restoring photographic forest/stone portal/curtains/card assets from this design reference; original Cloudinary resources disabled.",
+      "notes": "Original Cloudinary images disabled. Photographic forest, mossy portal, foliage curtains and three ordered card layers recovered from this design reference, with live DOM/parallax/scroll retained. 50 browser checks plus management desktop/mobile review and independent source/HTTPS/screenshot audit passed. Source resolution and reconstructed occlusions documented.",
       "process_id": 3274158,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:20:34.357485+00:00",
@@ -5770,7 +5770,8 @@
       "source_commit": "18d70090dd42e03d88e1bf39d3aed1af5876c19b",
       "url": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/",
       "completed_utc": "2026-10-29T07:44:33.282641+00:00",
-      "group_message_id": 233
+      "group_message_id": 233,
+      "repair_verified_utc": "2026-10-29T07:44:45.995863+00:00"
     },
     {
       "number": 169,
@@ -5826,7 +5827,7 @@
       "thread_id": "01a1868a-d006-7fc3-b919-8b24c8a17c39",
       "output_path": "generated/gpt-6.1-sol-high/neo-museum",
       "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
-      "notes": "Same original session recovering isolated skeleton assets from own animated reference and attributed missing natural-history imagery; original Cloudinary disabled.",
+      "notes": "Original Cloudinary media disabled. Isolated T. rex, pterodactyl, mammoth and chapter specimen layers recovered from this design reference; two unseen fossils use attributed USGS photographs. Actual fallback motion and chapter dissolve tested; original articulated MP4 not recovered. Management visual review and independent source/HTTPS/screenshot audit passed; asset differences documented.",
       "process_id": 3277672,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:23:26.444607+00:00",
@@ -5840,7 +5841,8 @@
       "source_commit": "9fd4126a48eeb708a89024238ebe1bb0e3be84d1",
       "url": "https://tool.luo-xd.com/motionsites-results/neo-museum/",
       "completed_utc": "2026-10-29T07:46:00.136266+00:00",
-      "group_message_id": 234
+      "group_message_id": 234,
+      "repair_verified_utc": "2026-10-29T07:46:14.221199+00:00"
     },
     {
       "number": 171,
@@ -10603,7 +10605,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:46:27.383212+00:00",
+  "updated_utc": "2026-10-29T07:46:47.224356+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

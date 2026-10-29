@@ -3589,10 +3589,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a18636-0906-7541-9bad-3c8d89eee19f",
       "output_path": "generated/gpt-6.1-sol-high/cosmic",
-      "validation": "Live browser check failed; see screenshots/live-check.json",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2934832,
       "launch_method": "isolated_codex_exec",
@@ -3602,9 +3602,9 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "source_commit": "7f1fd9de20a6d1dd378cda6fc139eaf5d45b3117",
+      "source_commit": "62a49157a6a56080c900468133c95a1f37965ff2",
       "url": "https://tool.luo-xd.com/motionsites-results/cosmic/",
-      "completed_utc": "2026-10-29T05:59:45.528408+00:00",
+      "completed_utc": "2026-10-29T06:03:54.764450+00:00",
       "group_message_id": 157,
       "preview_previous_source_commit": "7f1fd9de20a6d1dd378cda6fc139eaf5d45b3117"
     },
@@ -3794,19 +3794,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1863d-b4e7-7512-9b87-6aa413e30f0c",
       "output_path": "generated/gpt-6.1-sol-high/cybersecurity-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2975038,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:59:13.115876+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "e450ee45fe0d2d867b8c406df52a15cbd949e712",
+      "url": "https://tool.luo-xd.com/motionsites-results/cybersecurity-hero/",
+      "completed_utc": "2026-10-29T06:04:34.467381+00:00",
+      "group_message_id": 162
     },
     {
       "number": 112,
@@ -3855,14 +3859,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1863f-c3b8-7bc2-86b3-af436ee073b7",
       "output_path": "generated/gpt-6.1-sol-high/daisy-sweet",
       "validation": "",
       "notes": "",
       "process_id": 2982248,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:01:28.151639+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 114,
@@ -3880,15 +3888,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "complete",
+      "thread_id": "01a1863f-c48d-7741-8ee2-15ef2793e57f",
       "output_path": "generated/gpt-6.1-sol-high/daisy-wild",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2982305,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:01:28.269409+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "source_commit": "8714f5e24a275cd36238ac2426ad3ae8df9578f7",
+      "url": "https://tool.luo-xd.com/motionsites-results/daisy-wild/",
+      "completed_utc": "2026-10-29T06:05:01.137210+00:00",
+      "group_message_id": 163
     },
     {
       "number": 115,
@@ -3907,14 +3923,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1863f-c52f-7d50-ae79-3d8b93225dbf",
       "output_path": "generated/gpt-6.1-sol-high/dashboard",
       "validation": "",
       "notes": "",
       "process_id": 2982365,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:01:28.398330+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 116,
@@ -3932,11 +3952,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/digital-experiences",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2994354,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:04:08.927118+00:00",
+      "worker_state": "running"
     },
     {
       "number": 117,
@@ -3954,11 +3978,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/eco-intelligence",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2994393,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:04:09.080948+00:00",
+      "worker_state": "running"
     },
     {
       "number": 118,
@@ -9747,5 +9775,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:03:11.633719+00:00"
+  "updated_utc": "2026-10-29T06:05:01.328582+00:00"
 }

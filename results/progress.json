@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:03:11.633719+00:00",
+  "updated_utc": "2026-10-29T06:05:01.328582+00:00",
   "total": 380,
   "counts": {
-    "complete": 109,
-    "needs_fix": 1,
+    "complete": 112,
     "running": 5,
-    "not_started": 265
+    "not_started": 263
   },
   "jobs": [
     {
@@ -1052,11 +1051,11 @@
       "id": "cosmic",
       "title": "Cosmic",
       "category": "Hero Section",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a18636-0906-7541-9bad-3c8d89eee19f",
-      "source_commit": "7f1fd9de20a6d1dd378cda6fc139eaf5d45b3117",
+      "source_commit": "62a49157a6a56080c900468133c95a1f37965ff2",
       "group_message_id": 157,
-      "url": null
+      "url": "https://tool.luo-xd.com/motionsites-results/cosmic/"
     },
     {
       "id": "creative-agency",
@@ -1112,11 +1111,11 @@
       "id": "cybersecurity-hero",
       "title": "Cybersecurity Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1863d-b4e7-7512-9b87-6aa413e30f0c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e450ee45fe0d2d867b8c406df52a15cbd949e712",
+      "group_message_id": 162,
+      "url": "https://tool.luo-xd.com/motionsites-results/cybersecurity-hero/"
     },
     {
       "id": "cybersecurity-hero-v2",
@@ -1133,7 +1132,7 @@
       "title": "Daisy Sweet",
       "category": "Products",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1863f-c3b8-7bc2-86b3-af436ee073b7",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1142,18 +1141,18 @@
       "id": "daisy-wild",
       "title": "Daisy Wild",
       "category": "Products",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a1863f-c48d-7741-8ee2-15ef2793e57f",
+      "source_commit": "8714f5e24a275cd36238ac2426ad3ae8df9578f7",
+      "group_message_id": 163,
+      "url": "https://tool.luo-xd.com/motionsites-results/daisy-wild/"
     },
     {
       "id": "dashboard",
       "title": "Dashboard UI",
       "category": "Dashboards",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1863f-c52f-7d50-ae79-3d8b93225dbf",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1162,7 +1161,7 @@
       "id": "digital-experiences",
       "title": "Digital Experiences",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1172,7 +1171,7 @@
       "id": "eco-intelligence",
       "title": "Eco Intelligence",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 109/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 112/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -189,19 +189,19 @@
 | 102 | `cognitra-offer` | Cognitra Offer | Cards | 2 | 图片 | 已完成 |
 | 103 | `contact-cybernetic` | Contact Cybernetic | Hero Section | 2 | 图片 | 已完成 |
 | 104 | `conversion` | Conversion | Hero Section | 1 | 图片 | 已完成 |
-| 105 | `cosmic` | Cosmic | Hero Section | 2 | 图片 | 待修复 |
+| 105 | `cosmic` | Cosmic | Hero Section | 2 | 图片 | 已完成 |
 | 106 | `creative-agency` | Creative Agency | Landing Page | 2 | 图片 | 已完成 |
 | 107 | `creative-portfolio` | Creative Portfolio | Hero Section | 2 | 图片 | 已完成 |
 | 108 | `creative-studio` | Creative Studio | Agency | 2 | 图片 | 已完成 |
 | 109 | `cursor-follow` | Cursor Follow | Hero Section | 2 | 图片 | 已完成 |
 | 110 | `cyberpunk-reveal` | Cyberpunk Reveal | Hero Section | 2 | 图片 | 已完成 |
-| 111 | `cybersecurity-hero` | Cybersecurity Hero | Hero Section | 2 | 图片 | 生成中 |
+| 111 | `cybersecurity-hero` | Cybersecurity Hero | Hero Section | 2 | 图片 | 已完成 |
 | 112 | `cybersecurity-hero-v2` | Cybersecurity Hero v2 | Hero Section | 2 | 图片 | 生成中 |
 | 113 | `daisy-sweet` | Daisy Sweet | Products | 2 | 图片 | 生成中 |
-| 114 | `daisy-wild` | Daisy Wild | Products | 2 | 图片 | 生成中 |
+| 114 | `daisy-wild` | Daisy Wild | Products | 2 | 图片 | 已完成 |
 | 115 | `dashboard` | Dashboard UI | Dashboards | 2 | 图片 | 生成中 |
-| 116 | `digital-experiences` | Digital Experiences | Landing Page | 1 | 图片 | 未开始 |
-| 117 | `eco-intelligence` | Eco Intelligence | Hero Section | 2 | 图片 | 未开始 |
+| 116 | `digital-experiences` | Digital Experiences | Landing Page | 1 | 图片 | 生成中 |
+| 117 | `eco-intelligence` | Eco Intelligence | Hero Section | 2 | 图片 | 生成中 |
 | 118 | `editorial-collection-cta` | Editorial Collection CTA | CTA Section | 2 | 图片 | 未开始 |
 | 119 | `email-landing-page` | Email Landing Page | Landing Page | 2 | 图片 | 未开始 |
 | 120 | `equilibrium` | Equilibrium | Hero Section | 2 | 图片 | 未开始 |

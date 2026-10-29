@@ -21,13 +21,14 @@ const path = require('node:path');
       await page.waitForTimeout(5000);
       let introWait = 'not-applicable';
       if (await page.locator('video[autoplay]:not([loop])').count()) {
-        try {
-          await page.waitForFunction(() => [...document.querySelectorAll('video[autoplay]:not([loop])')]
-            .every(video => video.ended || video.paused || video.error), null, {timeout:30000});
-          introWait = 'settled';
-        } catch (error) {
-          if (error.name !== 'TimeoutError') throw error;
-          introWait = 'timed-out';
+        const deadline = Date.now() + 30000;
+        introWait = 'timed-out';
+        while (Date.now() < deadline) {
+          // Direct evaluation works with the site's CSP; waitForFunction uses eval.
+          const settled = await page.evaluate(() => [...document.querySelectorAll('video[autoplay]:not([loop])')]
+            .every(video => video.ended || video.paused || video.error));
+          if (settled) { introWait = 'settled'; break; }
+          await page.waitForTimeout(250);
         }
         // Headlines often enter after an introductory clip's ended event.
         await page.waitForTimeout(2000);

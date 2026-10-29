@@ -1,0 +1,60 @@
+{
+  "base": "/motionsites-results/aurora-onboard/",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_081238_406ed0e3-5d83-436e-a512-0bbff7ec5b95.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_081238_406ed0e3-5d83-436e-a512-0bbff7ec5b95.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "httpErrors": [],
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "fontLoaded": true,
+      "videoReadyState": 4,
+      "videoError": null,
+      "videoWidth": 1248,
+      "videoTime": 2.569727,
+      "videoPaused": false,
+      "overflow": false,
+      "heroVisible": true,
+      "heroWidth": 732.15625,
+      "mainWidth": 1440,
+      "validation": true,
+      "passwordToggle": true,
+      "submissionFeedback": true,
+      "socialFeedback": true,
+      "loginFeedback": true
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "fontLoaded": true,
+      "videoReadyState": 4,
+      "videoError": null,
+      "videoWidth": 1248,
+      "videoTime": 2.652578,
+      "videoPaused": false,
+      "overflow": false,
+      "heroVisible": false,
+      "heroWidth": 0,
+      "mainWidth": 390,
+      "validation": true,
+      "passwordToggle": true,
+      "submissionFeedback": true,
+      "socialFeedback": true,
+      "loginFeedback": true
+    }
+  ]
+}

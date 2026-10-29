@@ -1,0 +1,77 @@
+{
+  "title": "Aurora Onboard",
+  "id": "aurora-onboard",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "publish_base": "/motionsites-results/aurora-onboard/",
+    "browser": "Chromium via playwright-core, real production build",
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "fontLoaded": true,
+        "videoReadyState": 4,
+        "videoError": null,
+        "videoWidth": 1248,
+        "videoTime": 2.569727,
+        "videoPaused": false,
+        "overflow": false,
+        "heroVisible": true,
+        "heroWidth": 732.15625,
+        "mainWidth": 1440,
+        "validation": true,
+        "passwordToggle": true,
+        "submissionFeedback": true,
+        "socialFeedback": true,
+        "loginFeedback": true
+      },
+      {
+        "viewport": "mobile",
+        "width": 390,
+        "height": 844,
+        "fontLoaded": true,
+        "videoReadyState": 4,
+        "videoError": null,
+        "videoWidth": 1248,
+        "videoTime": 2.652578,
+        "videoPaused": false,
+        "overflow": false,
+        "heroVisible": false,
+        "heroWidth": 0,
+        "mainWidth": 390,
+        "validation": true,
+        "passwordToggle": true,
+        "submissionFeedback": true,
+        "socialFeedback": true,
+        "loginFeedback": true
+      }
+    ],
+    "console_errors": [],
+    "script_errors": [],
+    "http_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "passed for desktop and mobile screenshots",
+    "report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "Required CloudFront video",
+      "severity": "observation",
+      "detail": "Chromium reported net::ERR_ABORTED for some video requests. Video loaded and played in both viewports: readyState 4, nonzero playback time, no media error. Exact source retained."
+    }
+  ],
+  "notes": [
+    "Implemented only Aurora Onboard using React, Tailwind CSS v4, motion/react, and lucide-react.",
+    "All application components and styles are in src/App.tsx and src/index.css.",
+    "Exact supplied video URL, no video overlay, and specified Google Inter font import retained. Both external assets loaded successfully.",
+    "Static preview: native form validation and password toggle work; submit/social/login actions provide honest feedback. No authentication service is connected.",
+    "Dependency lockfile saved. No deployment, push, agents, or other sessions were created.",
+    "ready means ready for management review, not deployed."
+  ]
+}

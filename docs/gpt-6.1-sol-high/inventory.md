@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 49/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 50/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -135,12 +135,12 @@
 | 48 | `mood-tracker` | Mood Tracker | Wellness | 2 | 视频 | 生成中 |
 | 49 | `movie-premiere` | Movie Premiere | Entertainment | 2 | 视频 | 已完成 |
 | 50 | `outdoor-apparel` | Outdoor Apparel | E-commerce | 2 | 视频 | 已完成 |
-| 51 | `oyla` | OYLA | E-commerce | 2 | 视频 | 生成中 |
-| 52 | `pet-products` | Pet Products | E-commerce | 2 | 视频 | 生成中 |
+| 51 | `oyla` | OYLA | E-commerce | 2 | 视频 | 待修复 |
+| 52 | `pet-products` | Pet Products | E-commerce | 2 | 视频 | 已完成 |
 | 53 | `place-saver` | Place Saver | Travel | 2 | 视频 | 生成中 |
 | 54 | `product-studio` | Product Studio | Agency | 2 | 视频 | 生成中 |
-| 55 | `prompt-hero` | PROMPT | Landing Page | 2 | 视频 | 未开始 |
-| 56 | `remit-race` | Remit Race | Fintech | 2 | 视频 | 未开始 |
+| 55 | `prompt-hero` | PROMPT | Landing Page | 2 | 视频 | 生成中 |
+| 56 | `remit-race` | Remit Race | Fintech | 2 | 视频 | 生成中 |
 | 57 | `skills-lea` | LearnHub | Education | 2 | 视频 | 未开始 |
 | 58 | `sky-estate` | Sky Estate | Real Estate | 2 | 视频 | 未开始 |
 | 59 | `stillmind` | Stillmind | Hero Section | 2 | 视频 | 未开始 |

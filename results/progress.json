@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T04:47:28.846901+00:00",
+  "updated_utc": "2026-10-29T04:49:12.821585+00:00",
   "total": 380,
   "counts": {
-    "complete": 49,
+    "complete": 50,
     "running": 5,
-    "not_started": 326
+    "needs_fix": 1,
+    "not_started": 324
   },
   "jobs": [
     {
@@ -511,7 +512,7 @@
       "id": "oyla",
       "title": "OYLA",
       "category": "E-commerce",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a185f5-8bef-7f03-b8a2-8d794c2c2a37",
       "source_commit": null,
       "group_message_id": null,
@@ -521,11 +522,11 @@
       "id": "pet-products",
       "title": "Pet Products",
       "category": "E-commerce",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185f7-d71a-7503-9dc8-d027ba6d8959",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9c0168f6121f0f5e6c7e93af06a10d70d103e0c0",
+      "group_message_id": 99,
+      "url": "https://tool.luo-xd.com/motionsites-results/pet-products/"
     },
     {
       "id": "place-saver",
@@ -542,7 +543,7 @@
       "title": "Product Studio",
       "category": "Agency",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185fb-9197-72b1-a6b8-c1c5e0a0c23c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -551,7 +552,7 @@
       "id": "prompt-hero",
       "title": "PROMPT",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -561,7 +562,7 @@
       "id": "remit-race",
       "title": "Remit Race",
       "category": "Fintech",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

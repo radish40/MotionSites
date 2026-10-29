@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T06:51:01.887387+00:00",
+  "updated_utc": "2026-10-29T06:53:07.548313+00:00",
   "total": 380,
   "counts": {
-    "complete": 138,
+    "complete": 140,
+    "needs_fix": 1,
     "running": 5,
-    "not_started": 237
+    "not_started": 234
   },
   "jobs": [
     {
@@ -1361,7 +1362,7 @@
       "id": "global-cta-footer",
       "title": "Global CTA Footer",
       "category": "CTA Section",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a18664-7c90-7c61-9399-b53eb66f7fdd",
       "source_commit": null,
       "group_message_id": null,
@@ -1371,11 +1372,11 @@
       "id": "golden-portal",
       "title": "Golden Portal",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18665-b621-7c93-904f-b3fff04971f9",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "143e450d29472ac7eb1b6d801866aa99e2ef29e4",
+      "group_message_id": 192,
+      "url": "https://tool.luo-xd.com/motionsites-results/golden-portal/"
     },
     {
       "id": "growth-marketing-saas",
@@ -1401,11 +1402,11 @@
       "id": "guardnet-demo",
       "title": "Guardnet Demo",
       "category": "Info",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18669-1942-7ca1-b83b-8e6b9e7f2562",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "d8c75842c4f8cbbae171388f72486724225cfb4e",
+      "group_message_id": 193,
+      "url": "https://tool.luo-xd.com/motionsites-results/guardnet-demo/"
     },
     {
       "id": "halo-benefits",
@@ -1422,7 +1423,7 @@
       "title": "Halo Use Case",
       "category": "Use Cases",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1866c-1e36-7212-927c-2ab52c46d586",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1432,7 +1433,7 @@
       "title": "Health Portal",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1866c-1ec6-7580-9f9d-a0e54dd66194",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1441,7 +1442,7 @@
       "id": "immersive-ocean",
       "title": "Immersive Ocean",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1451,7 +1452,7 @@
       "id": "impact-ventures",
       "title": "Impact Ventures",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1461,7 +1462,7 @@
       "id": "intelligentx",
       "title": "IntelligentX",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

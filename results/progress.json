@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:16:07.858526+00:00",
+  "updated_utc": "2026-10-29T06:18:51.501760+00:00",
   "total": 380,
   "counts": {
-    "complete": 120,
+    "complete": 122,
     "running": 5,
-    "not_started": 255
+    "not_started": 253
   },
   "jobs": [
     {
@@ -1221,28 +1221,28 @@
       "id": "faq-cta",
       "title": "FAQ CTA",
       "category": "CTA Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18647-6b9c-7501-94d1-2e3230cbca70",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "7113c7eaa7f7a5105019f18e2c778dc110fa7a67",
+      "group_message_id": 173,
+      "url": "https://tool.luo-xd.com/motionsites-results/faq-cta/"
     },
     {
       "id": "features",
       "title": "Capabilities Overview",
       "category": "Features Section",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a18649-1417-7652-8357-c2ea7eeccce4",
+      "source_commit": "124d6ea366762acee83abec62836045c894973ef",
+      "group_message_id": 174,
+      "url": "https://tool.luo-xd.com/motionsites-results/features/"
     },
     {
       "id": "feedback-slider",
       "title": "Feedback Slider",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18649-14ba-7fe1-9ad5-ccce10bafe85",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1252,7 +1252,7 @@
       "title": "FinancialFocus",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18649-1563-7a92-9174-bbb9e4d54bfa",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1261,7 +1261,7 @@
       "id": "finflow",
       "title": "FinFlow",
       "category": "Fintech",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1271,7 +1271,7 @@
       "id": "flowmate-carousal",
       "title": "FlowMate Carousal",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

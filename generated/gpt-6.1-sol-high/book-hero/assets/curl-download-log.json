@@ -1,0 +1,62 @@
+[
+  {
+    "file": "book-16.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260528_045156_4a79ba3c-ba56-4cd4-834b-d9728f56d1a4.png&w=1920&q=85",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "book-17.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260528_044451_68c948df-6c4c-45eb-974e-923486a41e41.png&w=1920&q=85",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "book-18.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260528_043853_b2f3c7c8-5d47-43bc-9ce4-2fa8d717e42b.png&w=1920&q=85",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "book-19.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260528_043838_240c7443-18d6-4d61-be4a-2d01e2dd65a6.png&w=1920&q=85",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "book-20.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260528_043832_62031210-1de3-47a6-ac3f-78eb84e99858.png&w=1920&q=85",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "book-21.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260528_043220_eb34b2f8-8a78-4b29-bbbc-d61e137aedad.png&w=1920&q=85",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "book-22.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260528_043212_ce1559e3-e0a6-48c8-887f-1331a8e989c5.png&w=1920&q=85",
+    "ok": false,
+    "error": "curl: (28) Operation timed out after 25001 milliseconds with 712704 out of 769708 bytes received"
+  },
+  {
+    "file": "book-23.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260528_032638_9520b937-d7e8-4f6a-88ba-8bbd1e8ecbfe.png&w=1920&q=85",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "book-24.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260528_043201_f749ce8e-72f6-46eb-8440-0f6bdbf2a782.png&w=1920&q=85",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "lawrence.css",
+    "url": "https://db.onlinewebfonts.com/c/d34add1e23bb969e5eb43cc5a4fab3d0?family=Lawrence+W00+Regular",
+    "ok": true,
+    "error": ""
+  }
+]

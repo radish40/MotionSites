@@ -1,0 +1,33 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/book-hero/",
+  "checked_at": "2026-10-29T05:47:18.189Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Foliom — Book Marquee",
+      "bodyChars": 107,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Foliom — Book Marquee",
+      "bodyChars": 56,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

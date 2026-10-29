@@ -1,0 +1,58 @@
+{
+  "title": "Book Hero",
+  "id": "book-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci && npm run build\"",
+  "checks": {
+    "build": "passed",
+    "browser": "passed",
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "interactions": [
+      "animation movement",
+      "hover pause and expansion",
+      "keyboard focus pause",
+      "mobile menu toggle, Escape and link close",
+      "reduced motion"
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "overflow": "none at both required viewports",
+    "font": "Lawrence loaded locally",
+    "images": "all 15 unique image assets decode, covering all 24 entries",
+    "evidence": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-hover.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_inspection": "passed"
+  },
+  "asset_issues": [
+    {
+      "issue": "All fifteen local PNG cover files were absent from the supplied project.",
+      "resolution": "Nine matching covers recovered from the nine supplied remote URLs. Six missing artworks use explicitly named SVG replacement covers based on the prompt titles and colors.",
+      "remaining_missing_originals": [
+        "book-1.png",
+        "book-2.png",
+        "book-3.png",
+        "book-6.png",
+        "book-11.png",
+        "book-14.png"
+      ]
+    },
+    {
+      "issue": "A duplicate parallel download of book-22.webp timed out.",
+      "resolution": "Retried successfully; final asset verified with Chromium image.decode()."
+    }
+  ],
+  "notes": [
+    "Native HTML/CSS/JavaScript stack retained; no framework or runtime dependency.",
+    "Complete static build in dist/index.html and dist/assets; tested at /motionsites-results/book-hero/.",
+    "Original placeholder navigation/category destinations retained.",
+    "All assets and font served locally.",
+    "README.md documents run commands, verification, attribution and artwork limitations.",
+    "Ready for management review with six original cover artworks unavailable. Not deployed or pushed."
+  ]
+}

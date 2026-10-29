@@ -1,0 +1,125 @@
+{
+  "url": "http://localhost:4173/motionsites-results/book-hero/",
+  "errors": [],
+  "failedRequests": [],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "books": 48,
+      "font": true,
+      "animation": true,
+      "hover": "passed",
+      "menu": "desktop navigation",
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "books": 48,
+      "font": true,
+      "animation": true,
+      "hover": "touch device",
+      "menu": "passed",
+      "screenshot": "screenshots/mobile.png"
+    }
+  },
+  "assets": [
+    {
+      "path": "./assets/book-1-fallback.svg",
+      "width": 400,
+      "height": 572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-2-fallback.svg",
+      "width": 400,
+      "height": 572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-3-fallback.svg",
+      "width": 400,
+      "height": 572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-23.webp",
+      "width": 1920,
+      "height": 2572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-24.webp",
+      "width": 1920,
+      "height": 2572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-6-fallback.svg",
+      "width": 400,
+      "height": 572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-22.webp",
+      "width": 1920,
+      "height": 2572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-21.webp",
+      "width": 1920,
+      "height": 2572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-20.webp",
+      "width": 1920,
+      "height": 2572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-19.webp",
+      "width": 1920,
+      "height": 2572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-11-fallback.svg",
+      "width": 400,
+      "height": 572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-18.webp",
+      "width": 1920,
+      "height": 2572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-17.webp",
+      "width": 1920,
+      "height": 2572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-14-fallback.svg",
+      "width": 400,
+      "height": 572,
+      "ok": true
+    },
+    {
+      "path": "./assets/book-16.webp",
+      "width": 1920,
+      "height": 2572,
+      "ok": true
+    }
+  ],
+  "reducedMotion": "passed",
+  "status": "passed"
+}

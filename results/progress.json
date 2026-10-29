@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:58:06.894322+00:00",
+  "updated_utc": "2026-10-29T06:00:35.413021+00:00",
   "total": 380,
   "counts": {
-    "complete": 105,
+    "complete": 107,
     "running": 5,
-    "not_started": 270
+    "not_started": 268
   },
   "jobs": [
     {
@@ -1051,11 +1051,11 @@
       "id": "cosmic",
       "title": "Cosmic",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18636-0906-7541-9bad-3c8d89eee19f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "7f1fd9de20a6d1dd378cda6fc139eaf5d45b3117",
+      "group_message_id": 157,
+      "url": "https://tool.luo-xd.com/motionsites-results/cosmic/"
     },
     {
       "id": "creative-agency",
@@ -1072,7 +1072,7 @@
       "title": "Creative Portfolio",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1863b-00e2-7b23-8d8e-3e897eeff159",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1082,7 +1082,7 @@
       "title": "Creative Studio",
       "category": "Agency",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1863b-01f0-7112-954d-71abb26bb001",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1091,18 +1091,18 @@
       "id": "cursor-follow",
       "title": "Cursor Follow",
       "category": "Hero Section",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a1863b-0257-76c0-af9c-32c4649254ce",
+      "source_commit": "953de91dfb802d51defd6d92dab8369a139c7e7f",
+      "group_message_id": 158,
+      "url": "https://tool.luo-xd.com/motionsites-results/cursor-follow/"
     },
     {
       "id": "cyberpunk-reveal",
       "title": "Cyberpunk Reveal",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1863b-0475-7581-98e6-9428140fc078",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1111,7 +1111,7 @@
       "id": "cybersecurity-hero",
       "title": "Cybersecurity Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1121,7 +1121,7 @@
       "id": "cybersecurity-hero-v2",
       "title": "Cybersecurity Hero v2",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

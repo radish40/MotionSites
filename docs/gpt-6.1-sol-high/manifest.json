@@ -5014,14 +5014,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1866f-de27-7c91-803a-04e8db962c21",
       "output_path": "generated/gpt-6.1-sol-high/interactive-portfolio",
       "validation": "",
       "notes": "",
       "process_id": 3142921,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:54:00.661179+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 148,
@@ -10150,7 +10154,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:54:32.304573+00:00",
+  "updated_utc": "2026-10-29T06:55:27.522325+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

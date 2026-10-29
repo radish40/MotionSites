@@ -1,0 +1,48 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "media": {
+      "readyState": 4,
+      "width": 3836,
+      "height": 2160,
+      "duration": 8.041667,
+      "error": null,
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_215831_c6a8989c-d716-4d8d-8745-e972a2eec711.mp4",
+      "fontLoaded": true
+    },
+    "overflow": {
+      "horizontal": false,
+      "vertical": false
+    },
+    "errors": [],
+    "failed": [],
+    "interactions": "Menu, both CTAs, Adaptive Systems, close button and Escape passed"
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "media": {
+      "readyState": 4,
+      "width": 3836,
+      "height": 2160,
+      "duration": 8.041667,
+      "error": null,
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_215831_c6a8989c-d716-4d8d-8745-e972a2eec711.mp4",
+      "fontLoaded": true
+    },
+    "overflow": {
+      "horizontal": false,
+      "vertical": false
+    },
+    "errors": [],
+    "failed": [],
+    "interactions": "Menu, both CTAs, Adaptive Systems, close button and Escape passed"
+  }
+]

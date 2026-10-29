@@ -1,0 +1,26 @@
+{
+  "title": "Tech-Forward",
+  "id": "tech-forward",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/tech-forward/",
+    "desktop": { "viewport": "1440x1000", "screenshot": "screenshots/desktop.png", "visually_reviewed": true, "overflow": false, "script_errors": 0, "failed_requests": 0 },
+    "mobile": { "viewport": "390x844", "screenshot": "screenshots/mobile.png", "visually_reviewed": true, "overflow": false, "script_errors": 0, "failed_requests": 0 },
+    "interactions": "Passed at both sizes: menu, menu item, both CTAs, Adaptive Systems, explicit close, Escape",
+    "video": "Exact requested remote MP4 loaded and decoded at 3836x2160; readyState 4; no media errors",
+    "fonts": "Google Fonts Inter loaded at both viewports",
+    "raw_report": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built only this project with React 19, Vite, motion, lucide-react and plain CSS.",
+    "Exact source video is bundled locally as an error fallback.",
+    "Google Fonts requires network access; CSS includes a sans-serif fallback.",
+    "Build succeeded with nonfatal Rollup warnings about Motion use client directives.",
+    "Screenshots use a paused video frame; application video autoplays and loops.",
+    "Initial npm install generated package-lock.json; subsequent builds use npm ci.",
+    "Ready means ready for review; no push or deployment performed."
+  ]
+}

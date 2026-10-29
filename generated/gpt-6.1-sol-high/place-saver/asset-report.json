@@ -1,0 +1,117 @@
+[
+  {
+    "file": "hero.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260710_114906_ad7cee37-9e56-434f-99bc-92d5bdc4f9fe.mp4",
+    "exit_code": 0,
+    "bytes": 10944010,
+    "error": null
+  },
+  {
+    "file": "pro.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260710_115050_a1ba47d0-aedf-413c-9dea-14509599d3dd.mp4",
+    "exit_code": 0,
+    "bytes": 7694222,
+    "error": null
+  },
+  {
+    "file": "logo.png",
+    "url": "https://polo-pecan-73837341.figma.site/_assets/v11/b1ddc82509144261f1999a0c4d92be5ce6689c0f.png",
+    "exit_code": 0,
+    "bytes": 1227242,
+    "error": null
+  },
+  {
+    "file": "monthly.png",
+    "url": "https://polo-pecan-73837341.figma.site/_assets/v11/ef4533e6536f2495088e56e0f98036b5ff15446d.png",
+    "exit_code": 0,
+    "bytes": 1768147,
+    "error": null
+  },
+  {
+    "file": "garamond-light.woff2",
+    "url": "https://res.cloudinary.com/dgupuutfn/raw/upload/v1783596334/ITCGaramondStd-LtNarrow_i2zcip.woff2",
+    "exit_code": 0,
+    "bytes": 24740,
+    "error": null
+  },
+  {
+    "file": "garamond-book.woff2",
+    "status": "present",
+    "bytes": 24928
+  },
+  {
+    "file": "garamond-italic.woff2",
+    "status": "present",
+    "bytes": 25716
+  },
+  {
+    "file": "google-0.woff2",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+    "exit_code": 0,
+    "bytes": 324820,
+    "error": null
+  },
+  {
+    "file": "google-1.woff2",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+    "exit_code": 0,
+    "bytes": 325304,
+    "error": null
+  },
+  {
+    "file": "google-2.woff2",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+    "exit_code": 0,
+    "bytes": 326048,
+    "error": null
+  },
+  {
+    "file": "google-3.woff2",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+    "exit_code": 0,
+    "bytes": 326468,
+    "error": null
+  },
+  {
+    "file": "google-4.woff2",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTbtY.ttf",
+    "exit_code": 0,
+    "bytes": 110816,
+    "error": null
+  },
+  {
+    "file": "google-5.woff2",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_pqTbtY.ttf",
+    "exit_code": 0,
+    "bytes": 111168,
+    "error": null
+  },
+  {
+    "file": "google-6.woff2",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_naUbtY.ttf",
+    "exit_code": 0,
+    "bytes": 111208,
+    "error": null
+  },
+  {
+    "file": "google-7.woff2",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQ.ttf",
+    "exit_code": 0,
+    "bytes": 123240,
+    "error": null
+  },
+  {
+    "file": "google-8.woff2",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vUDQ.ttf",
+    "exit_code": 0,
+    "bytes": 123608,
+    "error": null
+  },
+  {
+    "file": "google-9.woff2",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKebukDQ.ttf",
+    "exit_code": 0,
+    "bytes": 123672,
+    "error": null
+  }
+]

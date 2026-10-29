@@ -1,0 +1,30 @@
+{
+  "title": "Place Saver",
+  "id": "place-saver",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.cache -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only --ignore-scripts && npm run build'",
+  "checks": {
+    "real_build": "passed; dist/index.html and complete local assets generated",
+    "desktop_1440x1000": "passed; screenshots/desktop.png",
+    "mobile_390x844": "passed; screenshots/mobile.png",
+    "visual_review": "both screenshots reviewed",
+    "videos": "both exact source videos loaded and playing in Chromium",
+    "fonts": "Garamond and Inter loaded; all requested font families bundled",
+    "layout_overflow": "none at both required viewport sizes",
+    "interactions": "monthly/yearly selection, subscription previews, Apple preview, Terms preview, dialog close and Escape passed",
+    "reduced_motion": "passed; entrance animations disabled and videos paused",
+    "five_second_fallback": "passed with deliberately blocked videos",
+    "script_errors": "none",
+    "report": "browser-report.json",
+    "publish_path": "/motionsites-results/place-saver/"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Native single-page HTML/CSS/JavaScript stack; no runtime dependencies; package-lock.json saved.",
+    "All exact supplied video, image, and Cloudinary font assets downloaded and self-hosted. Google Fonts downloaded and self-hosted.",
+    "Initial urllib downloads stalled; curl downloads succeeded. Google font files use a .woff2 local suffix with accurate truetype format declarations.",
+    "Authentication, payment processing, and production legal terms are not connected; controls provide clearly identified showcase dialogs.",
+    "Mobile preserves the explicitly requested side-by-side scale-to-fit stage.",
+    "Ready for review only; no push or deployment performed."
+  ]
+}

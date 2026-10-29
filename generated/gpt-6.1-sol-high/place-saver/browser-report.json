@@ -1,0 +1,209 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "fonts": "loaded",
+      "garamond": true,
+      "inter": true,
+      "videos": [
+        {
+          "readyState": 4,
+          "videoWidth": 1080,
+          "currentTime": 3.726487,
+          "paused": false,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "videoWidth": 1080,
+          "currentTime": 3.619316,
+          "paused": false,
+          "error": null
+        }
+      ],
+      "overflow": false,
+      "phones": [
+        {
+          "x": 335.25,
+          "y": 124.75,
+          "width": 351.5,
+          "height": 750.5,
+          "right": 686.75,
+          "bottom": 875.25
+        },
+        {
+          "x": 753.25,
+          "y": 124.75,
+          "width": 351.5,
+          "height": 750.5,
+          "right": 1104.75,
+          "bottom": 875.25
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "fonts": "loaded",
+      "garamond": true,
+      "inter": true,
+      "videos": [
+        {
+          "readyState": 4,
+          "videoWidth": 1080,
+          "currentTime": 3.583011,
+          "paused": false,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "videoWidth": 1080,
+          "currentTime": 3.665267,
+          "paused": false,
+          "error": null
+        }
+      ],
+      "overflow": false,
+      "phones": [
+        {
+          "x": 47.75,
+          "y": 278.38580322265625,
+          "width": 134.52468872070312,
+          "height": 287.2283935546875,
+          "right": 182.27468872070312,
+          "bottom": 565.6141967773438
+        },
+        {
+          "x": 207.72531127929688,
+          "y": 278.38580322265625,
+          "width": 134.52468872070312,
+          "height": 287.2283935546875,
+          "right": 342.25,
+          "bottom": 565.6141967773438
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "interactions": [
+    {
+      "viewport": "desktop",
+      "planSelection": "passed",
+      "subscribeMonthly": "passed",
+      "subscribeYearly": "passed",
+      "apple": "passed",
+      "terms": "passed",
+      "dialogDismissal": "passed"
+    },
+    {
+      "viewport": "mobile",
+      "planSelection": "passed",
+      "subscribeMonthly": "passed",
+      "subscribeYearly": "passed",
+      "apple": "passed",
+      "terms": "passed",
+      "dialogDismissal": "passed"
+    }
+  ],
+  "checks": {
+    "reducedMotion": true,
+    "safetyTimeout": {
+      "passed": true,
+      "elapsedMs": 5608
+    }
+  },
+  "expectedFallbackErrors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "expectedAbortedVideoRequests": [
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/pro.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/pro.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/pro.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/pro.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/pro.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      }
+    },
+    {
+      "url": "http://localhost:5173/motionsites-results/place-saver/assets/pro.mp4",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      }
+    }
+  ]
+}

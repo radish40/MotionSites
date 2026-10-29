@@ -1314,19 +1314,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e9-3de9-7c00-8f59-a6db2fdd59db",
       "output_path": "generated/gpt-6.1-sol-high/f1-racing-hub",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2629776,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:26:57.816596+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "ea5bc0cf314ef25d2c2bf4abf9f30b3f0c51fb0d",
+      "url": "https://tool.luo-xd.com/motionsites-results/f1-racing-hub/",
+      "completed_utc": "2026-10-29T04:34:15.123947+00:00",
+      "group_message_id": 88
     },
     {
       "number": 40,
@@ -1348,15 +1352,18 @@
       "thread_id": "01a185e9-3e7d-7a11-953d-c45e1bac408a",
       "output_path": "generated/gpt-6.1-sol-high/financial-suite",
       "validation": "",
-      "notes": "",
-      "process_id": 2629814,
+      "notes": "Delivery failed; inspect private delivery.log and public browser report",
+      "process_id": 2659319,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:26:57.918275+00:00",
-      "worker_state": "running",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "repair_attempts": 1,
+      "previous_delivery_failures": 0,
+      "delivery_failures": 1
     },
     {
       "number": 41,
@@ -1409,14 +1416,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ed-8693-7f90-86db-f5077ce1cc4a",
       "output_path": "generated/gpt-6.1-sol-high/innovation-studio",
       "validation": "",
       "notes": "",
       "process_id": 2649055,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:31:38.558492+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 43,
@@ -1435,14 +1446,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ed-871d-73b3-8a07-f9cdac70916e",
       "output_path": "generated/gpt-6.1-sol-high/innovation-summit",
       "validation": "",
       "notes": "",
       "process_id": 2649097,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:31:38.665196+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 44,
@@ -1461,14 +1476,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ed-87fe-7472-aa4b-c7e3734d6b52",
       "output_path": "generated/gpt-6.1-sol-high/integration-saas",
       "validation": "",
       "notes": "",
       "process_id": 2649206,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:31:38.823156+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 45,
@@ -1486,11 +1505,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/lead-funnel",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2657291,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:33:48.815958+00:00",
+      "worker_state": "running"
     },
     {
       "number": 46,
@@ -1508,11 +1531,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/luxury-escapes",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2657325,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:33:48.915593+00:00",
+      "worker_state": "running"
     },
     {
       "number": 47,
@@ -8863,5 +8890,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:32:54.291079+00:00"
+  "updated_utc": "2026-10-29T04:34:15.454953+00:00"
 }

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:32:54.291079+00:00",
+  "updated_utc": "2026-10-29T04:34:15.454953+00:00",
   "total": 380,
   "counts": {
-    "complete": 39,
-    "running": 5,
-    "not_started": 336
+    "complete": 40,
+    "running": 6,
+    "not_started": 334
   },
   "jobs": [
     {
@@ -391,11 +391,11 @@
       "id": "f1-racing-hub",
       "title": "F1 Racing Hub",
       "category": "Mobile App",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e9-3de9-7c00-8f59-a6db2fdd59db",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "ea5bc0cf314ef25d2c2bf4abf9f30b3f0c51fb0d",
+      "group_message_id": 88,
+      "url": "https://tool.luo-xd.com/motionsites-results/f1-racing-hub/"
     },
     {
       "id": "financial-suite",
@@ -422,7 +422,7 @@
       "title": "Innovation Studio",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ed-8693-7f90-86db-f5077ce1cc4a",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -432,7 +432,7 @@
       "title": "Innovation Summit",
       "category": "Mobile App",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ed-871d-73b3-8a07-f9cdac70916e",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -442,7 +442,7 @@
       "title": "Integration SaaS",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ed-87fe-7472-aa4b-c7e3734d6b52",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -451,7 +451,7 @@
       "id": "lead-funnel",
       "title": "Lead Funnel",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -461,7 +461,7 @@
       "id": "luxury-escapes",
       "title": "Luxury Escapes",
       "category": "Travel",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

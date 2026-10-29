@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "name": "desktop layout and font",
+      "pass": true,
+      "dimensions": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "font": true
+      }
+    },
+    {
+      "name": "cursor canvas mask follows pointer",
+      "pass": true
+    },
+    {
+      "name": "reserve CTA hover transform",
+      "pass": true
+    },
+    {
+      "name": "mobile layout and hidden stats",
+      "pass": true,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "font": true
+      }
+    },
+    {
+      "name": "mobile open, link closes, Escape, toggle closes",
+      "pass": true
+    },
+    {
+      "name": "reduced motion",
+      "pass": true
+    },
+    {
+      "name": "runtime JavaScript errors",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "failedRequests": []
+}

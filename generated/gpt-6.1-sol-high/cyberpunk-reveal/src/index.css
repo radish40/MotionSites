@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO-LflOQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO-5flOQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxjPQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxjPQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8FqtjPQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tjPQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8SKtjPQ.ttf) format('truetype');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face { font-family:'Helvetica Neue Roman'; src:url('/fonts/HelveticaNeue-Roman.woff2') format('woff2'),url('/fonts/HelveticaNeue-Roman.woff') format('woff'); font-weight:400; font-display:swap; }
+* { font-family:'JetBrains Mono',monospace; }
+.font-helvetica-neue { font-family:'JetBrains Mono',monospace; }
+html,body,#root { margin:0; min-height:100%; }
+body { background:#8c1419; }
+button,a { -webkit-tap-highlight-color:transparent; }
+:focus-visible { outline:2px solid white; outline-offset:4px; }
+#mobile-menu :focus-visible { outline-color:#111827; }
+.reveal-image { mask-image:linear-gradient(transparent,transparent); -webkit-mask-image:linear-gradient(transparent,transparent); mask-size:100% 100%; -webkit-mask-size:100% 100%; }
+.base-image { animation:kenBurns 2.4s cubic-bezier(.22,1,.36,1) forwards; }
+.hero-rise { opacity:0; animation:heroRise .95s cubic-bezier(.22,1,.36,1) forwards; }
+.nav-drop { opacity:0; animation:navDrop .8s cubic-bezier(.22,1,.36,1) .1s forwards; }
+.arc-line { stroke-dasharray:var(--len); stroke-dashoffset:var(--len); animation:drawArc 1.6s cubic-bezier(.65,0,.35,1) forwards; }
+.arc-dot { opacity:0; transform-box:fill-box; transform-origin:center; animation:popIn .55s cubic-bezier(.34,1.56,.64,1) forwards; }
+.arc-ring { opacity:0; transform-box:fill-box; transform-origin:center; animation:pulseRing 2.8s ease-in-out infinite; }
+.arc-text { opacity:0; animation:fadeIn .7s ease forwards; }
+@keyframes kenBurns { from {transform:scale(1.12)} to {transform:scale(1)} }
+@keyframes heroRise { from {opacity:0;transform:translateY(26px);filter:blur(8px)} to {opacity:1;transform:translateY(0);filter:blur(0)} }
+@keyframes navDrop { from {opacity:0;transform:translateY(-18px)} to {opacity:1;transform:translateY(0)} }
+@keyframes drawArc { to {stroke-dashoffset:0} }
+@keyframes popIn { 0% {opacity:0;transform:scale(.4)} 70% {opacity:1;transform:scale(1.25)} 100% {opacity:1;transform:scale(1)} }
+@keyframes pulseRing { from {transform:scale(1);opacity:.35} to {transform:scale(1.45);opacity:0} }
+@keyframes fadeIn { to {opacity:1} }
+@media(prefers-reduced-motion:reduce) { .base-image,.hero-rise,.nav-drop,.arc-line,.arc-dot,.arc-ring,.arc-text {animation:none!important;opacity:1;transform:none;filter:none;stroke-dashoffset:0} *,*::before,*::after {scroll-behavior:auto!important;transition-duration:0s!important} }

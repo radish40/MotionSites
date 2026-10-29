@@ -1,0 +1,85 @@
+{
+  "title": "Cyberpunk Reveal",
+  "id": "cyberpunk-reveal",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": [
+    {
+      "name": "TypeScript and Vite production build",
+      "pass": true
+    },
+    {
+      "name": "npm dependency audit",
+      "pass": true,
+      "vulnerabilities": 0
+    },
+    {
+      "name": "desktop layout and font",
+      "pass": true,
+      "dimensions": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "font": true
+      }
+    },
+    {
+      "name": "cursor canvas mask follows pointer",
+      "pass": true
+    },
+    {
+      "name": "reserve CTA hover transform",
+      "pass": true
+    },
+    {
+      "name": "mobile layout and hidden stats",
+      "pass": true,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "font": true
+      }
+    },
+    {
+      "name": "mobile open, link closes, Escape, toggle closes",
+      "pass": true
+    },
+    {
+      "name": "reduced motion",
+      "pass": true
+    },
+    {
+      "name": "runtime JavaScript errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "browser failed requests",
+      "pass": true,
+      "requests": []
+    },
+    {
+      "name": "desktop and mobile screenshot visual review",
+      "pass": true
+    }
+  ],
+  "asset_issues": [
+    {
+      "asset": "Helvetica Neue Roman .woff2 / .woff",
+      "issue": "Not supplied. Required unused declaration retained; two build warnings. JetBrains Mono renders and is bundled locally."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Built only this project using React 18, Vite, TypeScript, Tailwind CSS, and lucide-react Menu/X.",
+    "Static files: dist/; base: /motionsites-results/cyberpunk-reveal/.",
+    "Both exact supplied portrait assets downloaded successfully and bundled.",
+    "Required Google Fonts import retained; eight JetBrains Mono font variants bundled with OFL license.",
+    "Screenshots: screenshots/desktop.png, screenshots/mobile.png, screenshots/desktop-reveal.png, screenshots/mobile-menu.png.",
+    "No destinations or backend supplied: navigation anchors the hero; CTAs have specified visual interaction only.",
+    "Full-window canvas mask follows the exact specified per-frame implementation and may be CPU intensive."
+  ]
+}

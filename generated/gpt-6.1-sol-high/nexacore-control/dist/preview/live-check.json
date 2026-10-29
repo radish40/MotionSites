@@ -1,0 +1,161 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nexacore-control/",
+  "checked_at": "2026-10-29T07:38:47.242Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "NexaCore Control",
+      "bodyChars": 685,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/30ff20e7-255c-44b9-86a5-4357e9f2cff1",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.120779,
+          "duration": 17.052333,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "NexaCore Control",
+      "bodyChars": 685,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/769bdc13-3d41-42e3-8bfd-4e190b36bb57",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.546581,
+          "duration": 17.052333,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

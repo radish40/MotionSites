@@ -1,0 +1,224 @@
+{
+  "url": "http://localhost:4173/motionsites-results/nexacore-control/",
+  "checks": [
+    {
+      "name": "desktop",
+      "status": "passed",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "pageHeight": 1005,
+      "cards": 10,
+      "columns": {
+        "negatives": {
+          "x": 80,
+          "y": 339,
+          "width": 374.390625,
+          "height": 585.96875
+        },
+        "video": {
+          "x": 478.390625,
+          "y": 473.578125,
+          "width": 483.21875,
+          "height": 316.796875
+        },
+        "positives": {
+          "x": 985.609375,
+          "y": 339,
+          "width": 374.390625,
+          "height": 585.96875
+        }
+      },
+      "fonts": [
+        {
+          "weight": 400,
+          "loaded": true
+        },
+        {
+          "weight": 500,
+          "loaded": true
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "time": 1.367876,
+        "duration": 17.052333,
+        "width": 1700,
+        "height": 1700,
+        "muted": true,
+        "loop": true,
+        "paused": false,
+        "objectFit": "cover"
+      },
+      "animations": 0
+    },
+    {
+      "name": "video-loop",
+      "status": "passed"
+    },
+    {
+      "name": "mobile",
+      "status": "passed",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "pageHeight": 1569,
+      "cards": 10,
+      "columns": {
+        "negatives": {
+          "x": 27.375,
+          "y": 490.546875,
+          "width": 335.25,
+          "height": 503
+        },
+        "video": {
+          "x": 95,
+          "y": 266.546875,
+          "width": 200,
+          "height": 200
+        },
+        "positives": {
+          "x": 27.375,
+          "y": 1017.546875,
+          "width": 335.25,
+          "height": 503
+        }
+      },
+      "fonts": [
+        {
+          "weight": 400,
+          "loaded": true
+        },
+        {
+          "weight": 500,
+          "loaded": true
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc0f520a992816d8b15dc_bullet-list-cross.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/686cc068490683bbb3377d04_bullet-list.svg",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "time": 1.504973,
+        "duration": 17.052333,
+        "width": 1700,
+        "height": 1700,
+        "muted": true,
+        "loop": true,
+        "paused": false,
+        "objectFit": "cover"
+      },
+      "animations": 0
+    },
+    {
+      "name": "responsive-320",
+      "status": "passed",
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "name": "responsive-768",
+      "status": "passed",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "name": "responsive-1024",
+      "status": "passed",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "name": "responsive-1920",
+      "status": "passed",
+      "width": 1920,
+      "scrollWidth": 1920
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

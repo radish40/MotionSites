@@ -1,0 +1,60 @@
+{
+  "title": "NexaCore Control",
+  "id": "nexacore-control",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "passed",
+    "viewports": [
+      {
+        "name": "desktop",
+        "status": "passed"
+      },
+      {
+        "name": "video-loop",
+        "status": "passed"
+      },
+      {
+        "name": "mobile",
+        "status": "passed"
+      },
+      {
+        "name": "responsive-320",
+        "status": "passed"
+      },
+      {
+        "name": "responsive-768",
+        "status": "passed"
+      },
+      {
+        "name": "responsive-1024",
+        "status": "passed"
+      },
+      {
+        "name": "responsive-1920",
+        "status": "passed"
+      }
+    ],
+    "script_and_console_errors": [],
+    "failed_requests": [],
+    "assets": "Both Mazzard H weights, all icon instances, and HLS video loaded successfully",
+    "video": "Muted autoplay, advancing frames, 1700x1700 decoding, and loop verified",
+    "layout": "10 cards; correct desktop and mobile order; no horizontal overflow at tested widths",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "details": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Built only this project with React, TypeScript, Tailwind CSS v3, and hls.js. Original asset URLs retained.",
+    "Publication base: /motionsites-results/nexacore-control/.",
+    "Full-page screenshots use requested viewport sizes; mobile capture includes all stacked cards.",
+    "External assets require network availability. Safari native HLS fallback was not browser-tested.",
+    "Nonfatal Vite entry chunk size advisory: approximately 749 kB minified, 236 kB gzip, including hls.js.",
+    "No other designs, agents, sessions, deployment, pushes, or messages were used. node_modules removed from deliverables."
+  ]
+}

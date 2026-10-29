@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:24:27.099083+00:00",
+  "updated_utc": "2026-10-29T05:26:37.927178+00:00",
   "total": 380,
   "counts": {
-    "complete": 80,
+    "complete": 82,
     "running": 5,
-    "not_started": 295
+    "not_started": 293
   },
   "jobs": [
     {
@@ -821,11 +821,11 @@
       "id": "arceage-testimonial",
       "title": "Arceage Testimonial",
       "category": "Testimonials",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1861a-3f31-7c01-8f8a-6ca7847443d1",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b03e898d5f1fc28f9a04ce3f9185fc4b05f23888",
+      "group_message_id": 131,
+      "url": "https://tool.luo-xd.com/motionsites-results/arceage-testimonial/"
     },
     {
       "id": "audio-showcase",
@@ -841,18 +841,18 @@
       "id": "auramail",
       "title": "AuraMail",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1861b-945c-7631-95b7-7d679495069e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "4aa6fbd9f07edb5e14ade030d123642592f040b4",
+      "group_message_id": 132,
+      "url": "https://tool.luo-xd.com/motionsites-results/auramail/"
     },
     {
       "id": "aurora-onboard",
       "title": "Aurora Onboard",
       "category": "Waitlist & Coming Soon",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861d-3ca6-7511-939a-fa33c4e4de9e",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -861,7 +861,7 @@
       "id": "axion-about",
       "title": "Axion About",
       "category": "About Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -871,7 +871,7 @@
       "id": "beauty-categories",
       "title": "Beauty Categories",
       "category": "Categories",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

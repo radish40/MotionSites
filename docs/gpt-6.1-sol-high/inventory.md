@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 80/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 82/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -166,12 +166,12 @@
 | 79 | `arceage-contact-us` | Arceage Contact Us | Forms & Contact | 2 | 图片 | 已完成 |
 | 80 | `arceage-services` | Arceage Services | Services | 2 | 图片 | 已完成 |
 | 81 | `arceage-stats` | Arceage Stats | Process & Stats | 2 | 图片 | 已完成 |
-| 82 | `arceage-testimonial` | Arceage Testimonial | Testimonials | 2 | 图片 | 生成中 |
+| 82 | `arceage-testimonial` | Arceage Testimonial | Testimonials | 2 | 图片 | 已完成 |
 | 83 | `audio-showcase` | Audio Showcase | Hero Section | 2 | 图片 | 生成中 |
-| 84 | `auramail` | AuraMail | SaaS | 2 | 图片 | 生成中 |
+| 84 | `auramail` | AuraMail | SaaS | 2 | 图片 | 已完成 |
 | 85 | `aurora-onboard` | Aurora Onboard | Waitlist & Coming Soon | 2 | 图片 | 生成中 |
-| 86 | `axion-about` | Axion About | About Section | 2 | 图片 | 未开始 |
-| 87 | `beauty-categories` | Beauty Categories | Categories | 2 | 图片 | 未开始 |
+| 86 | `axion-about` | Axion About | About Section | 2 | 图片 | 生成中 |
+| 87 | `beauty-categories` | Beauty Categories | Categories | 2 | 图片 | 生成中 |
 | 88 | `beauty-products` | Beauty Products | Products | 2 | 图片 | 未开始 |
 | 89 | `bento-grid-stats` | Bento Grid Stats | Components | 2 | 图片 | 未开始 |
 | 90 | `bio-active` | Clarity Core | Landing Page | 2 | 图片 | 未开始 |

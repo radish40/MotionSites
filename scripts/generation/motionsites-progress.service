@@ -1,0 +1,13 @@
+[Unit]
+Description=Report MotionSites generation progress to the device group
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=opc
+Group=opc
+WorkingDirectory=/home/opc/motionsites
+ExecStart=/usr/bin/python3 /home/opc/motionsites/scripts/generation/report.py
+TimeoutStartSec=90
+

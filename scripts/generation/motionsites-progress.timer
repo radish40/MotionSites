@@ -1,0 +1,11 @@
+[Unit]
+Description=Report MotionSites progress every thirty minutes
+
+[Timer]
+OnActiveSec=30min
+OnUnitActiveSec=30min
+AccuracySec=15s
+Unit=motionsites-progress.service
+
+[Install]
+WantedBy=timers.target

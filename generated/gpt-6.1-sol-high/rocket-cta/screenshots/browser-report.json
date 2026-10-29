@@ -1,0 +1,134 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/rocket-cta/",
+  "checks": [
+    "desktop: required copy, fonts, video playback, responsive chat visibility, loaded foreground, no horizontal overflow",
+    "desktop: CTA hover slide and keyboard focus",
+    "desktop: Enter sends user message and canned assistant reply, empty Enter ignored, Shift+Enter inserts newline, send button works, input clears",
+    "desktop: both parallax layers move on scroll",
+    "mobile: required copy, fonts, video playback, responsive chat visibility, loaded foreground, no horizontal overflow",
+    "mobile: CTA hover slide and keyboard focus",
+    "mobile: both parallax layers move on scroll",
+    "No uncaught JavaScript errors"
+  ],
+  "errors": [],
+  "consoleErrors": [
+    {
+      "viewport": "desktop",
+      "message": "Failed to load resource: the server responded with a status of 401 ()"
+    },
+    {
+      "viewport": "mobile",
+      "message": "Failed to load resource: the server responded with a status of 401 ()"
+    }
+  ],
+  "failedRequests": [],
+  "responses": [
+    {
+      "viewport": "desktop",
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1780586778/cta-bg_mlwy5s.png",
+      "status": 401
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1780586778/cta-bg_mlwy5s.png",
+      "status": 401
+    }
+  ],
+  "viewports": {
+    "desktop": {
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "sectionHeight": 944,
+      "fonts": {
+        "inter": true,
+        "instrumentSerif": true,
+        "materialSymbols": true
+      },
+      "grass": {
+        "source": "http://127.0.0.1:4173/motionsites-results/rocket-cta/assets/grass-recovered.png",
+        "width": 640,
+        "height": 148,
+        "fallback": "reference-extraction",
+        "transform": "matrix(1, 0, 0, 1, 0, -5.76132)",
+        "zIndex": "30"
+      },
+      "dashboard": {
+        "transform": "matrix(1, 0, 0, 1, 0, -3.45679)",
+        "zIndex": "10"
+      },
+      "chatVisible": true,
+      "video": {
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4",
+        "readyState": 4,
+        "width": 1924,
+        "height": 1076,
+        "time": 3.531983,
+        "paused": false,
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "preload": "auto",
+        "error": null
+      },
+      "parallaxTestHeight": 700,
+      "beforeScroll": {
+        "dashboard": "matrix(1, 0, 0, 1, 0, 17.8102)",
+        "grass": "matrix(1, 0, 0, 1, 0, 29.6837)"
+      },
+      "afterScroll": {
+        "scrollY": 313,
+        "dashboard": "matrix(1, 0, 0, 1, 0, -27.8832)",
+        "grass": "matrix(1, 0, 0, 1, 0, -46.472)"
+      }
+    },
+    "mobile": {
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "sectionHeight": 838.5,
+      "fonts": {
+        "inter": true,
+        "instrumentSerif": true,
+        "materialSymbols": true
+      },
+      "grass": {
+        "source": "http://127.0.0.1:4173/motionsites-results/rocket-cta/assets/grass-recovered.png",
+        "width": 640,
+        "height": 148,
+        "fallback": "reference-extraction",
+        "transform": "matrix(1, 0, 0, 1, 0, 19.8218)",
+        "zIndex": "30"
+      },
+      "dashboard": {
+        "transform": "matrix(1, 0, 0, 1, 0, -0.35651)",
+        "zIndex": "10"
+      },
+      "chatVisible": false,
+      "video": {
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4",
+        "readyState": 4,
+        "width": 1924,
+        "height": 1076,
+        "time": 3.981016,
+        "paused": false,
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "preload": "auto",
+        "error": null
+      },
+      "parallaxTestHeight": 600,
+      "beforeScroll": {
+        "dashboard": "matrix(1, 0, 0, 1, 0, 19.9305)",
+        "grass": "matrix(1, 0, 0, 1, 0, 29.9653)"
+      },
+      "afterScroll": {
+        "scrollY": 281,
+        "dashboard": "matrix(1, 0, 0, 1, 0, -26.9354)",
+        "grass": "matrix(1, 0, 0, 1, 0, 6.53231)"
+      }
+    }
+  },
+  "status": "passed"
+}

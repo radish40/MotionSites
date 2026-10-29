@@ -1,0 +1,56 @@
+{
+  "title": "Rocket CTA",
+  "id": "rocket-cta",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser_status": "passed",
+    "browser_checks": [
+      "desktop: required copy, fonts, video playback, responsive chat visibility, loaded foreground, no horizontal overflow",
+      "desktop: CTA hover slide and keyboard focus",
+      "desktop: Enter sends user message and canned assistant reply, empty Enter ignored, Shift+Enter inserts newline, send button works, input clears",
+      "desktop: both parallax layers move on scroll",
+      "mobile: required copy, fonts, video playback, responsive chat visibility, loaded foreground, no horizontal overflow",
+      "mobile: CTA hover slide and keyboard focus",
+      "mobile: both parallax layers move on scroll",
+      "No uncaught JavaScript errors"
+    ],
+    "screenshots": {
+      "desktop": "screenshots/desktop.png (1440x1000)",
+      "mobile": "screenshots/mobile.png (390x844)"
+    },
+    "browser_report": "screenshots/browser-report.json",
+    "visual_inspection": "completed for desktop and mobile",
+    "uncaught_javascript_errors": [],
+    "console_resource_errors": [
+      {
+        "viewport": "desktop",
+        "message": "Failed to load resource: the server responded with a status of 401 ()"
+      },
+      {
+        "viewport": "mobile",
+        "message": "Failed to load resource: the server responded with a status of 401 ()"
+      }
+    ],
+    "publication_base": "/motionsites-results/rocket-cta/"
+  },
+  "asset_issues": [
+    {
+      "asset": "Cloudinary grass foreground",
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1780586778/cta-bg_mlwy5s.png",
+      "issue": "HTTP 401: cloud_name dy5er7kv5 is disabled; versioned and unversioned originals also failed",
+      "recovery": "Requests exact URL first; onError loads assets/grass-recovered.png under the Vite base.",
+      "source": "/home/opc/motionsites/assets/previews/rocket-cta.webp",
+      "method": "scripts/recover-assets.cjs crops only the 640x148 foreground at y=320, masks its neutral top edge, and writes an alpha PNG.",
+      "limitations": "Low-resolution extraction with approximate edge transparency; original full-resolution fidelity cannot be verified."
+    }
+  ],
+  "notes": [
+    "Only Rocket CTA processed; source, configuration, lockfile, dist, screenshots and validation scripts included.",
+    "Exact CloudFront video plays and all specified Google Fonts load in Chromium.",
+    "CTA and Begin Journey retain specified visual behavior; no unspecified destination invented. Chat replies are canned as requested.",
+    "Parallax tested at shorter heights; screenshots use exact requested dimensions.",
+    "ready means ready for acceptance, not deployed. No agents, other sessions, push, deployment, or messages."
+  ]
+}

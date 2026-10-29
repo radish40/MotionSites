@@ -1653,19 +1653,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185f4-3296-7241-b42b-ab5ad676fded",
       "output_path": "generated/gpt-6.1-sol-high/movie-premiere",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2676164,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:38:55.782810+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "90f6b3a5df5ffbd8902747fadc0ece2a1e40510a",
+      "url": "https://tool.luo-xd.com/motionsites-results/movie-premiere/",
+      "completed_utc": "2026-10-29T04:44:54.113125+00:00",
+      "group_message_id": 97
     },
     {
       "number": 50,
@@ -1744,14 +1748,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f7-d71a-7503-9dc8-d027ba6d8959",
       "output_path": "generated/gpt-6.1-sol-high/pet-products",
       "validation": "",
       "notes": "",
       "process_id": 2690010,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:42:54.505933+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 53,
@@ -1769,11 +1777,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/place-saver",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2695521,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:44:25.135798+00:00",
+      "worker_state": "running"
     },
     {
       "number": 54,
@@ -8970,5 +8982,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:43:31.841073+00:00"
+  "updated_utc": "2026-10-29T04:44:54.278892+00:00"
 }

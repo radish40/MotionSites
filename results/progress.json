@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:05:01.328582+00:00",
+  "updated_utc": "2026-10-29T06:06:57.335287+00:00",
   "total": 380,
   "counts": {
-    "complete": 112,
+    "complete": 114,
     "running": 5,
-    "not_started": 263
+    "not_started": 261
   },
   "jobs": [
     {
@@ -1121,21 +1121,21 @@
       "id": "cybersecurity-hero-v2",
       "title": "Cybersecurity Hero v2",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1863d-b5eb-7ca1-9aa2-d8b318a33c9c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "2528981777c01d053a32713de136dd75cb6a5002",
+      "group_message_id": 164,
+      "url": "https://tool.luo-xd.com/motionsites-results/cybersecurity-hero-v2/"
     },
     {
       "id": "daisy-sweet",
       "title": "Daisy Sweet",
       "category": "Products",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1863f-c3b8-7bc2-86b3-af436ee073b7",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a0f4783751a126d5944689a6d882080ceeb1bda3",
+      "group_message_id": 165,
+      "url": "https://tool.luo-xd.com/motionsites-results/daisy-sweet/"
     },
     {
       "id": "daisy-wild",
@@ -1162,7 +1162,7 @@
       "title": "Digital Experiences",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18642-37f3-7660-8e98-97255cab7a79",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1172,7 +1172,7 @@
       "title": "Eco Intelligence",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18642-38ac-7523-a79f-8caeb3d3a91b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1181,7 +1181,7 @@
       "id": "editorial-collection-cta",
       "title": "Editorial Collection CTA",
       "category": "CTA Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1191,7 +1191,7 @@
       "id": "email-landing-page",
       "title": "Email Landing Page",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

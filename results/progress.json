@@ -1,10 +1,9 @@
 {
-  "updated_utc": "2026-10-29T04:12:25.841290+00:00",
+  "updated_utc": "2026-10-29T04:13:05.967487+00:00",
   "total": 380,
   "counts": {
-    "complete": 23,
+    "complete": 24,
     "running": 5,
-    "ready": 1,
     "not_started": 351
   },
   "jobs": [
@@ -262,11 +261,11 @@
       "id": "ai-driving-assistant",
       "title": "AI Driving Assistant",
       "category": "SaaS",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a185d6-b9c7-7ab1-b906-67d137633e4b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "7c28e5e22bac60050a31643ea04c0e058883f045",
+      "group_message_id": 72,
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-driving-assistant/"
     },
     {
       "id": "ai-interface",

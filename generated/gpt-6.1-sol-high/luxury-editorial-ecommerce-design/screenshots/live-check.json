@@ -1,0 +1,175 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/",
+  "checked_at": "2026-10-29T03:51:45.188Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "STRETCH — ethical beauty, sustainable impact.",
+      "bodyChars": 627,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/hero.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/cleanser.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/serum.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/set.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/oil.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/cleanser.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/serum.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/set.webp",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/hero-1.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/hero-2.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/hero-3.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/face.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/beauty-tools.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/body.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "STRETCH — ethical beauty, sustainable impact.",
+      "bodyChars": 596,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/hero.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/cleanser.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/serum.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/set.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/oil.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/cleanser.webp",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/serum.webp",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/set.webp",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/hero-1.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/hero-2.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/hero-3.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/face.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/beauty-tools.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/assets/body.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

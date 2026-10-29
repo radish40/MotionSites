@@ -1,0 +1,145 @@
+{
+  "title": "Luxury Ecommerce Design",
+  "id": "luxury-editorial-ecommerce-design",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "dependency_audit": "0 vulnerabilities",
+    "browser": [
+      {
+        "name": "desktop: page loads",
+        "passed": true
+      },
+      {
+        "name": "desktop: no horizontal page overflow",
+        "passed": true
+      },
+      {
+        "name": "desktop: slide dot control",
+        "passed": true
+      },
+      {
+        "name": "desktop: pause stops automatic advancement",
+        "passed": true
+      },
+      {
+        "name": "desktop: automatic advancement resumes",
+        "passed": true
+      },
+      {
+        "name": "desktop: seven ordered products",
+        "passed": true
+      },
+      {
+        "name": "desktop: sets filters collection",
+        "passed": true
+      },
+      {
+        "name": "desktop: vertical wheel moves carousel",
+        "passed": true
+      },
+      {
+        "name": "desktop: all six videos decode",
+        "passed": true
+      },
+      {
+        "name": "desktop: all images load",
+        "passed": true
+      },
+      {
+        "name": "desktop: lower sections no overflow",
+        "passed": true
+      },
+      {
+        "name": "desktop: search matches product",
+        "passed": true
+      },
+      {
+        "name": "mobile: page loads",
+        "passed": true
+      },
+      {
+        "name": "mobile: no horizontal page overflow",
+        "passed": true
+      },
+      {
+        "name": "mobile: slide dot control",
+        "passed": true
+      },
+      {
+        "name": "mobile: pause stops automatic advancement",
+        "passed": true
+      },
+      {
+        "name": "mobile: automatic advancement resumes",
+        "passed": true
+      },
+      {
+        "name": "mobile: menu opens",
+        "passed": true
+      },
+      {
+        "name": "mobile: menu navigation closes overlay",
+        "passed": true
+      },
+      {
+        "name": "mobile: seven ordered products",
+        "passed": true
+      },
+      {
+        "name": "mobile: sets filters collection",
+        "passed": true
+      },
+      {
+        "name": "mobile: vertical wheel moves carousel",
+        "passed": true
+      },
+      {
+        "name": "mobile: all six videos decode",
+        "passed": true
+      },
+      {
+        "name": "mobile: all images load",
+        "passed": true
+      },
+      {
+        "name": "mobile: lower sections no overflow",
+        "passed": true
+      },
+      {
+        "name": "mobile: search matches product",
+        "passed": true
+      },
+      {
+        "name": "no browser script, console, or resource errors",
+        "passed": true
+      }
+    ],
+    "browser_errors": [],
+    "desktop_viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobile_viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Both full-page screenshots inspected",
+    "subpath": "/motionsites-results/luxury-editorial-ecommerce-design/",
+    "dist_index_exists": true
+  },
+  "asset_issues": [],
+  "notes": [
+    "STRETCH implements the three requested sections using React 18, TypeScript, Vite, Tailwind CSS 3.4 and lucide-react.",
+    "All supplied images and videos are local and included in dist; no custom fonts.",
+    "Source, lockfile, production build, browser evidence and screenshots included.",
+    "Frontend only; no checkout or account backend. Navigation stays within the three sections.",
+    "Ready means available for management review. No deployment or push performed."
+  ]
+}

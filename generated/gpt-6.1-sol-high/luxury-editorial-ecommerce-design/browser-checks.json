@@ -1,0 +1,265 @@
+{
+  "checks": [
+    {
+      "name": "desktop: page loads",
+      "passed": true
+    },
+    {
+      "name": "desktop: no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop: slide dot control",
+      "passed": true
+    },
+    {
+      "name": "desktop: pause stops automatic advancement",
+      "passed": true
+    },
+    {
+      "name": "desktop: automatic advancement resumes",
+      "passed": true
+    },
+    {
+      "name": "desktop: seven ordered products",
+      "passed": true
+    },
+    {
+      "name": "desktop: sets filters collection",
+      "passed": true
+    },
+    {
+      "name": "desktop: vertical wheel moves carousel",
+      "passed": true
+    },
+    {
+      "name": "desktop: all six videos decode",
+      "passed": true
+    },
+    {
+      "name": "desktop: all images load",
+      "passed": true
+    },
+    {
+      "name": "desktop: lower sections no overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop: search matches product",
+      "passed": true
+    },
+    {
+      "name": "mobile: page loads",
+      "passed": true
+    },
+    {
+      "name": "mobile: no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile: slide dot control",
+      "passed": true
+    },
+    {
+      "name": "mobile: pause stops automatic advancement",
+      "passed": true
+    },
+    {
+      "name": "mobile: automatic advancement resumes",
+      "passed": true
+    },
+    {
+      "name": "mobile: menu opens",
+      "passed": true
+    },
+    {
+      "name": "mobile: menu navigation closes overlay",
+      "passed": true
+    },
+    {
+      "name": "mobile: seven ordered products",
+      "passed": true
+    },
+    {
+      "name": "mobile: sets filters collection",
+      "passed": true
+    },
+    {
+      "name": "mobile: vertical wheel moves carousel",
+      "passed": true
+    },
+    {
+      "name": "mobile: all six videos decode",
+      "passed": true
+    },
+    {
+      "name": "mobile: all images load",
+      "passed": true
+    },
+    {
+      "name": "mobile: lower sections no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile: search matches product",
+      "passed": true
+    },
+    {
+      "name": "no browser script, console, or resource errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "assets": [
+    {
+      "viewport": "desktop",
+      "media": [
+        {
+          "src": "hero-1.mp4",
+          "readyState": 4,
+          "width": 1440,
+          "error": null
+        },
+        {
+          "src": "hero-2.mp4",
+          "readyState": 4,
+          "width": 1440,
+          "error": null
+        },
+        {
+          "src": "hero-3.mp4",
+          "readyState": 4,
+          "width": 1440,
+          "error": null
+        },
+        {
+          "src": "face.mp4",
+          "readyState": 4,
+          "width": 1244,
+          "error": null
+        },
+        {
+          "src": "beauty-tools.mp4",
+          "readyState": 4,
+          "width": 1244,
+          "error": null
+        },
+        {
+          "src": "body.mp4",
+          "readyState": 4,
+          "width": 1244,
+          "error": null
+        }
+      ],
+      "images": [
+        {
+          "src": "hero.webp",
+          "loaded": true
+        },
+        {
+          "src": "cleanser.webp",
+          "loaded": true
+        },
+        {
+          "src": "serum.webp",
+          "loaded": true
+        },
+        {
+          "src": "set.webp",
+          "loaded": true
+        },
+        {
+          "src": "oil.webp",
+          "loaded": true
+        },
+        {
+          "src": "cleanser.webp",
+          "loaded": true
+        },
+        {
+          "src": "serum.webp",
+          "loaded": true
+        },
+        {
+          "src": "set.webp",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "media": [
+        {
+          "src": "hero-1.mp4",
+          "readyState": 4,
+          "width": 1440,
+          "error": null
+        },
+        {
+          "src": "hero-2.mp4",
+          "readyState": 4,
+          "width": 1440,
+          "error": null
+        },
+        {
+          "src": "hero-3.mp4",
+          "readyState": 4,
+          "width": 1440,
+          "error": null
+        },
+        {
+          "src": "face.mp4",
+          "readyState": 4,
+          "width": 1244,
+          "error": null
+        },
+        {
+          "src": "beauty-tools.mp4",
+          "readyState": 4,
+          "width": 1244,
+          "error": null
+        },
+        {
+          "src": "body.mp4",
+          "readyState": 4,
+          "width": 1244,
+          "error": null
+        }
+      ],
+      "images": [
+        {
+          "src": "hero.webp",
+          "loaded": true
+        },
+        {
+          "src": "cleanser.webp",
+          "loaded": true
+        },
+        {
+          "src": "serum.webp",
+          "loaded": true
+        },
+        {
+          "src": "set.webp",
+          "loaded": true
+        },
+        {
+          "src": "oil.webp",
+          "loaded": true
+        },
+        {
+          "src": "cleanser.webp",
+          "loaded": true
+        },
+        {
+          "src": "serum.webp",
+          "loaded": true
+        },
+        {
+          "src": "set.webp",
+          "loaded": true
+        }
+      ]
+    }
+  ]
+}

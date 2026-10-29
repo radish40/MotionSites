@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:26:37.927178+00:00",
+  "updated_utc": "2026-10-29T05:29:14.690911+00:00",
   "total": 380,
   "counts": {
-    "complete": 82,
+    "complete": 85,
     "running": 5,
-    "not_started": 293
+    "not_started": 290
   },
   "jobs": [
     {
@@ -721,11 +721,11 @@
       "id": "aerocore",
       "title": "AeroCore",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1860e-d7a1-7fd3-bae1-3240b03664ed",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "2863f872574d9bdfc0e051bfc6de504fac045b46",
+      "group_message_id": 133,
+      "url": "https://tool.luo-xd.com/motionsites-results/aerocore/"
     },
     {
       "id": "agency-services",
@@ -831,11 +831,11 @@
       "id": "audio-showcase",
       "title": "Audio Showcase",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1861b-93b1-7032-84c2-fe547be5ba54",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "cc2c25fc31a9a61cf931a7aeee29c57f1e782b46",
+      "group_message_id": 134,
+      "url": "https://tool.luo-xd.com/motionsites-results/audio-showcase/"
     },
     {
       "id": "auramail",
@@ -851,18 +851,18 @@
       "id": "aurora-onboard",
       "title": "Aurora Onboard",
       "category": "Waitlist & Coming Soon",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1861d-3ca6-7511-939a-fa33c4e4de9e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f8dce4e590a6edeecb5fe3618f68a8c5bc32b477",
+      "group_message_id": 135,
+      "url": "https://tool.luo-xd.com/motionsites-results/aurora-onboard/"
     },
     {
       "id": "axion-about",
       "title": "Axion About",
       "category": "About Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861e-d4ea-7660-ad2b-fd6676369ccf",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -872,7 +872,7 @@
       "title": "Beauty Categories",
       "category": "Categories",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861e-d5cb-7711-9e0c-d638c4b459bf",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -881,7 +881,7 @@
       "id": "beauty-products",
       "title": "Beauty Products",
       "category": "Products",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -891,7 +891,7 @@
       "id": "bento-grid-stats",
       "title": "Bento Grid Stats",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -901,7 +901,7 @@
       "id": "bio-active",
       "title": "Clarity Core",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

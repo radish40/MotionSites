@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 82/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 85/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -156,7 +156,7 @@
 | 69 | `3d-collectible-hero` | 3D Collectible Hero | 3D Website | 2 | 图片 | 已完成 |
 | 70 | `3d-story` | 3D Story | Landing Page | 2 | 图片 | 已完成 |
 | 71 | `404-planet` | 404 Planet | 404 Pages | 2 | 图片 | 已完成 |
-| 72 | `aerocore` | AeroCore | Landing Page | 2 | 图片 | 生成中 |
+| 72 | `aerocore` | AeroCore | Landing Page | 2 | 图片 | 已完成 |
 | 73 | `agency-services` | Agency Services | Services | 2 | 图片 | 已完成 |
 | 74 | `ai-automation` | AI Automation | Landing Page | 2 | 图片 | 已完成 |
 | 75 | `ai-workflow` | AI Workflow Hero | Hero Section | 2 | 图片 | 已完成 |
@@ -167,14 +167,14 @@
 | 80 | `arceage-services` | Arceage Services | Services | 2 | 图片 | 已完成 |
 | 81 | `arceage-stats` | Arceage Stats | Process & Stats | 2 | 图片 | 已完成 |
 | 82 | `arceage-testimonial` | Arceage Testimonial | Testimonials | 2 | 图片 | 已完成 |
-| 83 | `audio-showcase` | Audio Showcase | Hero Section | 2 | 图片 | 生成中 |
+| 83 | `audio-showcase` | Audio Showcase | Hero Section | 2 | 图片 | 已完成 |
 | 84 | `auramail` | AuraMail | SaaS | 2 | 图片 | 已完成 |
-| 85 | `aurora-onboard` | Aurora Onboard | Waitlist & Coming Soon | 2 | 图片 | 生成中 |
+| 85 | `aurora-onboard` | Aurora Onboard | Waitlist & Coming Soon | 2 | 图片 | 已完成 |
 | 86 | `axion-about` | Axion About | About Section | 2 | 图片 | 生成中 |
 | 87 | `beauty-categories` | Beauty Categories | Categories | 2 | 图片 | 生成中 |
-| 88 | `beauty-products` | Beauty Products | Products | 2 | 图片 | 未开始 |
-| 89 | `bento-grid-stats` | Bento Grid Stats | Components | 2 | 图片 | 未开始 |
-| 90 | `bio-active` | Clarity Core | Landing Page | 2 | 图片 | 未开始 |
+| 88 | `beauty-products` | Beauty Products | Products | 2 | 图片 | 生成中 |
+| 89 | `bento-grid-stats` | Bento Grid Stats | Components | 2 | 图片 | 生成中 |
+| 90 | `bio-active` | Clarity Core | Landing Page | 2 | 图片 | 生成中 |
 | 91 | `bio-age-dashboard` | Bio-Age Dashboard | Hero Section | 2 | 图片 | 未开始 |
 | 92 | `bio-digital` | Bio-Digital | Hero Section | 2 | 图片 | 未开始 |
 | 93 | `bl` | Bloom | Landing Page | 2 | 图片 | 未开始 |

@@ -2452,22 +2452,26 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1860e-d7a1-7fd3-bae1-3240b03664ed",
       "output_path": "generated/gpt-6.1-sol-high/aerocore",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Same-session recovery of the disabled original engine asset using this design’s original preview; full page scope preserved.",
       "process_id": 2822831,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:08:01.836732+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
       "repair_attempts": 1,
       "previous_delivery_failures": 0,
-      "delivery_failures": 0
+      "delivery_failures": 0,
+      "source_commit": "2863f872574d9bdfc0e051bfc6de504fac045b46",
+      "url": "https://tool.luo-xd.com/motionsites-results/aerocore/",
+      "completed_utc": "2026-10-29T05:28:17.338052+00:00",
+      "group_message_id": 133
     },
     {
       "number": 73,
@@ -2825,19 +2829,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1861b-93b1-7032-84c2-fe547be5ba54",
       "output_path": "generated/gpt-6.1-sol-high/audio-showcase",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2837407,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:21:56.536536+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "cc2c25fc31a9a61cf931a7aeee29c57f1e782b46",
+      "url": "https://tool.luo-xd.com/motionsites-results/audio-showcase/",
+      "completed_utc": "2026-10-29T05:28:45.561435+00:00",
+      "group_message_id": 134
     },
     {
       "number": 84,
@@ -2889,19 +2897,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1861d-3ca6-7511-939a-fa33c4e4de9e",
       "output_path": "generated/gpt-6.1-sol-high/aurora-onboard",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2844062,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:23:45.333032+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f8dce4e590a6edeecb5fe3618f68a8c5bc32b477",
+      "url": "https://tool.luo-xd.com/motionsites-results/aurora-onboard/",
+      "completed_utc": "2026-10-29T05:29:14.512467+00:00",
+      "group_message_id": 135
     },
     {
       "number": 86,
@@ -2920,14 +2932,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861e-d4ea-7660-ad2b-fd6676369ccf",
       "output_path": "generated/gpt-6.1-sol-high/axion-about",
       "validation": "",
       "notes": "",
       "process_id": 2851197,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:25:29.852018+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 87,
@@ -2946,14 +2962,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861e-d5cb-7711-9e0c-d638c4b459bf",
       "output_path": "generated/gpt-6.1-sol-high/beauty-categories",
       "validation": "",
       "notes": "",
       "process_id": 2851230,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:25:29.968068+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 88,
@@ -2971,11 +2991,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/beauty-products",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2858037,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:27:31.911615+00:00",
+      "worker_state": "running"
     },
     {
       "number": 89,
@@ -2993,11 +3017,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/bento-grid-stats",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2858072,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:27:32.024849+00:00",
+      "worker_state": "running"
     },
     {
       "number": 90,
@@ -3015,11 +3043,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/bio-active",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2858165,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:27:32.278666+00:00",
+      "worker_state": "running"
     },
     {
       "number": 91,
@@ -9402,5 +9434,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:26:37.927178+00:00"
+  "updated_utc": "2026-10-29T05:29:14.690911+00:00"
 }

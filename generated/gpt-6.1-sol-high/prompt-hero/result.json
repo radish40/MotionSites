@@ -1,0 +1,38 @@
+{
+  "title": "PROMPT",
+  "id": "prompt-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6; dist/index.html exists",
+    "publication_base": "/motionsites-results/prompt-hero/",
+    "desktop_1440x1000": "passed",
+    "mobile_390x844": "passed",
+    "cursor_scrubbing": "passed: both directions and center dead zone",
+    "touch_playback": "passed: autoplay, alternating videos, resume after scrolling back",
+    "scroll_phases": "passed: panel rise, gallery transforms, white outro, view pill and footer",
+    "reduced_motion": "passed: touch videos paused",
+    "assets": "passed: two decoded videos, ten images, locally bundled Inter Tight 500",
+    "horizontal_overflow": "none at both checked sizes",
+    "console_errors": 0,
+    "failed_requests": 0,
+    "browser_report": "browser-checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-gallery.png",
+      "screenshots/mobile-gallery.png",
+      "screenshots/desktop-outro.png",
+      "screenshots/mobile-outro.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session review; not deployed or pushed.",
+    "Only PROMPT was implemented; source, configuration, lockfile, assets and build output are inside this project.",
+    "Inline wordmark and decorative cursor paths were authored from the prompt description; original vector paths were not supplied.",
+    "Navigation, cart and view retain the specified pointer-events-none presentation.",
+    "Initial Python HTTPS downloads stalled; all original media URLs and Google font downloaded successfully with curl.",
+    "Mobile checks use Chromium touch emulation; physical-device autoplay policies can vary."
+  ]
+}

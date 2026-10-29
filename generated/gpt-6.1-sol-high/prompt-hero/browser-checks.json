@@ -1,0 +1,187 @@
+{
+  "scrubLeft": 4.306991,
+  "scrubRight": 4.306991,
+  "deadZone": [
+    0,
+    0
+  ],
+  "desktop": {
+    "initial": {
+      "videos": [
+        {
+          "duration": 5.041667,
+          "readyState": 4,
+          "paused": true,
+          "display": "none",
+          "currentTime": 0
+        },
+        {
+          "duration": 5.041667,
+          "readyState": 4,
+          "paused": true,
+          "display": "block",
+          "currentTime": 0
+        }
+      ],
+      "images": true,
+      "font": true,
+      "overflow": false,
+      "columns": 4
+    },
+    "half": {
+      "panelTop": 500,
+      "viewport": 1000
+    },
+    "gallery": {
+      "panelTop": 0,
+      "videoHidden": "hidden",
+      "cards": [
+        {
+          "top": -100,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "top": -100,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "top": 476,
+          "transform": "matrix(0.933333, 0, 0, 0.933333, 0, 0)"
+        },
+        {
+          "top": 1502,
+          "transform": "matrix(0.0333333, 0, 0, 0.0333333, 0, 0)"
+        },
+        {
+          "top": 2060,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        {
+          "top": 2060,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        {
+          "top": 2600,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        {
+          "top": 3140,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        {
+          "top": 3680,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        {
+          "top": 3680,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        }
+      ],
+      "overflow": false
+    },
+    "outro": {
+      "overlay": "1",
+      "view": "matrix(1, 0, 0, 1, 0, 0)",
+      "footer": "1",
+      "overflow": false
+    },
+    "errors": [],
+    "failed": []
+  },
+  "touchResume": true,
+  "touchAlternation": [
+    {
+      "paused": true,
+      "display": "none"
+    },
+    {
+      "paused": false,
+      "display": "block"
+    }
+  ],
+  "mobile": {
+    "initial": {
+      "videos": [
+        {
+          "duration": 5.041667,
+          "readyState": 4,
+          "paused": false,
+          "display": "block",
+          "currentTime": 1.666933
+        },
+        {
+          "duration": 5.041667,
+          "readyState": 4,
+          "paused": true,
+          "display": "none",
+          "currentTime": 0
+        }
+      ],
+      "images": true,
+      "font": true,
+      "overflow": false,
+      "columns": 2
+    },
+    "half": {
+      "panelTop": 422,
+      "viewport": 844
+    },
+    "gallery": {
+      "panelTop": 0,
+      "videoHidden": "hidden",
+      "cards": [
+        {
+          "top": 27.366043090820312,
+          "transform": "matrix(0.617872, 0, 0, 0.617872, 0, 0)"
+        },
+        {
+          "top": 27.366043090820312,
+          "transform": "matrix(0.617872, 0, 0, 0.617872, 0, 0)"
+        },
+        {
+          "top": 208.09375,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "top": 594.739990234375,
+          "transform": "matrix(0.678132, 0, 0, 0.678132, 0, 0)"
+        },
+        {
+          "top": 1056.18994140625,
+          "transform": "matrix(0.100526, 0, 0, 0.100526, 0, 0)"
+        },
+        {
+          "top": 1056.18994140625,
+          "transform": "matrix(0.100526, 0, 0, 0.100526, 0, 0)"
+        },
+        {
+          "top": 1378.09375,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        {
+          "top": 1670.59375,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        {
+          "top": 1963.09375,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        {
+          "top": 1963.09375,
+          "transform": "matrix(0, 0, 0, 0, 0, 0)"
+        }
+      ],
+      "overflow": false
+    },
+    "outro": {
+      "overlay": "1",
+      "view": "matrix(1, 0, 0, 1, 0, 0)",
+      "footer": "1",
+      "overflow": false
+    },
+    "errors": [],
+    "failed": []
+  },
+  "reducedMotion": true,
+  "passed": true
+}

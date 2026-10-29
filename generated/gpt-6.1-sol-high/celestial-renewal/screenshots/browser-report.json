@@ -1,0 +1,115 @@
+{
+  "url": "http://localhost:4173/motionsites-results/celestial-renewal/",
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "scrollWidth": 1440,
+    "sections": 2,
+    "fonts": [
+      {
+        "font": "Dancing Script",
+        "loaded": true
+      },
+      {
+        "font": "Instrument Serif",
+        "loaded": true
+      },
+      {
+        "font": "Inter",
+        "loaded": true
+      }
+    ],
+    "video": {
+      "readyState": 4,
+      "playing": true,
+      "muted": true,
+      "width": 3828,
+      "height": 2164
+    },
+    "images": [
+      {
+        "src": "/motionsites-results/celestial-renewal/assets/rainbow.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/celestial-renewal/assets/cloud.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/celestial-renewal/assets/cloud.png",
+        "loaded": true
+      }
+    ],
+    "soundToggle": "passed",
+    "ctaScroll": "passed",
+    "parallax": {
+      "before": "translate3d(0px, 120px, 0px)",
+      "after": "translate3d(0px, 79.1085px, 0px)"
+    },
+    "clouds": [
+      {
+        "opacity": 0.95686,
+        "left": -333.6280822753906,
+        "right": 316.3719177246094
+      },
+      {
+        "opacity": 0.95686,
+        "left": 1286.1280517578125,
+        "right": 1936.1280517578125
+      }
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "sections": 2,
+    "fonts": [
+      {
+        "font": "Dancing Script",
+        "loaded": true
+      },
+      {
+        "font": "Instrument Serif",
+        "loaded": true
+      },
+      {
+        "font": "Inter",
+        "loaded": true
+      }
+    ],
+    "video": {
+      "readyState": 4,
+      "playing": true,
+      "muted": true,
+      "width": 3828,
+      "height": 2164
+    },
+    "images": [
+      {
+        "src": "/motionsites-results/celestial-renewal/assets/rainbow.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/celestial-renewal/assets/cloud.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/celestial-renewal/assets/cloud.png",
+        "loaded": true
+      }
+    ],
+    "menu": "open, Escape close, link close passed",
+    "ctaScroll": "passed",
+    "parallax": {
+      "before": "translate3d(0px, 111.476px, 0px)",
+      "after": "translate3d(0px, -17.2031px, 0px)"
+    }
+  },
+  "errors": [],
+  "failedRequests": []
+}

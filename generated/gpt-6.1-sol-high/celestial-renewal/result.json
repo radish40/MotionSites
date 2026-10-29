@@ -1,0 +1,34 @@
+{
+  "title": "Celestial Renewal",
+  "id": "celestial-renewal",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5; dist/index.html exists",
+    "stack": "React + TypeScript + Vite + Tailwind CSS",
+    "publish_base": "/motionsites-results/celestial-renewal/",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium 390x844",
+    "video": "passed: supplied video loads and autoplays muted; sound toggle changes mute state",
+    "fonts": "passed: Dancing Script, Instrument Serif, and Inter loaded at both viewport sizes",
+    "assets": "passed: original video, rainbow PNG, and cloud PNG packaged locally and loaded",
+    "interactions": "passed: CTA scroll, mobile menu opening, Escape close, link close, sound toggle",
+    "parallax": "passed: scroll-driven rainbow transform; both desktop clouds animate to visible viewport edges",
+    "horizontal_overflow": "none at either viewport size",
+    "browser_errors": [],
+    "failed_requests": [],
+    "dependency_audit": "passed: zero reported vulnerabilities",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/desktop-quote.png", "screenshots/mobile-quote.png", "screenshots/mobile-menu.png"],
+    "browser_report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "Only this design was implemented, with two full-screen sections and the supplied copy and assets.",
+    "The prompt provides no booking backend or additional pages. Navigation and consultation links scroll to the existing philosophy section.",
+    "Cloud overhang percentages are applied within cloud-width containers so clouds remain partly visible as intended.",
+    "Google Fonts remain external as specified and loaded successfully during checks.",
+    "Full-page screenshots pause the original video at three seconds for repeatable captures.",
+    "Source, lockfile, static build, documentation, screenshots, and verification script are included."
+  ]
+}

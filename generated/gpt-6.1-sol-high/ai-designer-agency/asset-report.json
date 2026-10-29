@@ -1,0 +1,56 @@
+[
+  {
+    "name": "hero.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260326_073936_8dd07fdb-4f6b-4220-a3f0-9dedfaab0c88.mp4",
+    "status": "ok",
+    "error": ""
+  },
+  {
+    "name": "nova.gif",
+    "url": "https://motionsites.ai/assets/hero-grow-ai-preview-BlQ8tAQ-.gif",
+    "status": "ok",
+    "error": ""
+  },
+  {
+    "name": "pulse.gif",
+    "url": "https://motionsites.ai/assets/hero-evr-ventures-preview-DZxeVFEX.gif",
+    "status": "ok",
+    "error": ""
+  },
+  {
+    "name": "drift.gif",
+    "url": "https://motionsites.ai/assets/hero-wealth-preview-B70idl_u.gif",
+    "status": "ok",
+    "error": ""
+  },
+  {
+    "name": "arc.gif",
+    "url": "https://motionsites.ai/assets/hero-neuralyn-preview-Br4FRDQA.gif",
+    "status": "ok",
+    "error": ""
+  },
+  {
+    "name": "showcase.mp4",
+    "url": "https://media.cleanshot.cloud/media/21620/nKosRonaEKSufJVJ4VtouFhOPkqgJ3dPoQ8ZP52S.mp4",
+    "status": "failed",
+    "error": "curl: (22) The requested URL returned error: 403"
+  },
+  {
+    "name": "avatar1.jpg",
+    "url": "https://i.pravatar.cc/80?img=47",
+    "status": "ok",
+    "error": ""
+  },
+  {
+    "name": "avatar2.jpg",
+    "url": "https://i.pravatar.cc/80?img=12",
+    "status": "ok",
+    "error": ""
+  },
+  {
+    "name": "avatar3.jpg",
+    "url": "https://i.pravatar.cc/80?img=49",
+    "status": "ok",
+    "error": ""
+  }
+]

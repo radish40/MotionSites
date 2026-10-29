@@ -1,0 +1,149 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/",
+  "checked_at": "2026-10-29T04:07:10.488Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "VIRALMEDIA — AI Designer Agency",
+      "bodyChars": 998,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/avatar1.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/avatar2.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/avatar3.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/nova.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/pulse.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/hero.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/37b535cd-b740-4b90-8a63-52d0f4a71670",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [
+        {
+          "url": "https://media.cleanshot.cloud/media/21620/nKosRonaEKSufJVJ4VtouFhOPkqgJ3dPoQ8ZP52S.mp4",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "VIRALMEDIA — AI Designer Agency",
+      "bodyChars": 965,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/avatar1.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/avatar2.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/avatar3.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/nova.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/assets/hero.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/d0ee2ebd-2f56-44bd-84ee-7c4d343056e4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://media.cleanshot.cloud/media/21620/nKosRonaEKSufJVJ4VtouFhOPkqgJ3dPoQ8ZP52S.mp4",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "AI Designer Agency",
+  "id": "ai-designer-agency",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists; Vite base /motionsites-results/ai-designer-agency/",
+    "desktop_1440x1000": "passed",
+    "mobile_390x844": "passed",
+    "javascript_errors": 0,
+    "horizontal_overflow": "none at both viewports",
+    "images": "7/7 loaded at both viewports",
+    "google_fonts": "Barlow and Instrument Serif loaded at both viewports",
+    "hero_video": "playing at both viewports",
+    "hls_video": "hls.js playback readyState 4, 1920px video width at both viewports",
+    "showcase_fallback": "original source blocked; local supplied hero MP4 plays as fallback",
+    "interactions": "Get Started scrolls to contact; email required validation and request feedback passed; CTA mailto subjects verified",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "report": "browser-report.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "CleanShot showcase MP4",
+      "issue": "HTTP 403 on direct download and retry with browser headers; ERR_BLOCKED_BY_ORB in Chromium",
+      "handling": "Original URL retained with on-error fallback to the supplied, locally stored hero video."
+    }
+  ],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "Only this project was implemented. No agents or additional sessions were created.",
+    "Source, lockfile, dist output, README, asset report, browser report, and screenshots are included. node_modules excluded.",
+    "HLS vendor chunk is about 598 kB minified; Vite emits a non-fatal size advisory.",
+    "Email controls use an unverified demo address and require an email client; no backend or calendar was supplied, no email is sent automatically.",
+    "Blog/legal/careers links use email inquiries; social links use platform homepages because specific destinations were not supplied.",
+    "Mux HLS and Google Fonts remain external dependencies; Safari fallback implemented but not Safari-tested."
+  ]
+}

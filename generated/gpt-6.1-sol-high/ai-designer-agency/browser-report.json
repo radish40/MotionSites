@@ -1,0 +1,184 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/nKosRonaEKSufJVJ4VtouFhOPkqgJ3dPoQ8ZP52S.mp4",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "heroVideo": {
+      "readyState": 4,
+      "width": 1440,
+      "height": 1440,
+      "currentTime": 5.491088,
+      "error": null
+    },
+    "media": [
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/ai-designer-agency/assets/hero.mp4",
+        "readyState": 4,
+        "width": 1440,
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/ai-designer-agency/assets/hero.mp4",
+        "readyState": 4,
+        "width": 1440,
+        "error": null
+      },
+      {
+        "src": "blob:http://127.0.0.1:4173/e7634638-b728-44d0-bf99-b41df8435841",
+        "readyState": 4,
+        "width": 1920,
+        "error": null
+      }
+    ],
+    "overflow": {
+      "viewport": 1440,
+      "document": 1440
+    },
+    "images": [
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/avatar1.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/avatar2.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/avatar3.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/nova.gif",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/pulse.gif",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/drift.gif",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/arc.gif",
+        "loaded": true
+      }
+    ],
+    "fonts": {
+      "barlow": true,
+      "instrument": true
+    },
+    "contactReached": true,
+    "ctaLinks": [
+      {
+        "text": "START A PROJECT",
+        "href": "mailto:hello@viralmedia.agency?subject=Start%20a%20project"
+      },
+      {
+        "text": "BOOK A CALL",
+        "href": "mailto:hello@viralmedia.agency?subject=Book%20a%20discovery%20call"
+      }
+    ],
+    "invalidEmailBlocked": true,
+    "subscriptionStatus": "Complete your subscription request in your email app."
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/nKosRonaEKSufJVJ4VtouFhOPkqgJ3dPoQ8ZP52S.mp4",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "heroVideo": {
+      "readyState": 4,
+      "width": 1440,
+      "height": 1440,
+      "currentTime": 5.469011,
+      "error": null
+    },
+    "media": [
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/ai-designer-agency/assets/hero.mp4",
+        "readyState": 4,
+        "width": 1440,
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/ai-designer-agency/assets/hero.mp4",
+        "readyState": 4,
+        "width": 1440,
+        "error": null
+      },
+      {
+        "src": "blob:http://127.0.0.1:4173/5f4374de-9ef6-45a5-893c-abcecbd29061",
+        "readyState": 4,
+        "width": 1920,
+        "error": null
+      }
+    ],
+    "overflow": {
+      "viewport": 390,
+      "document": 390
+    },
+    "images": [
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/avatar1.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/avatar2.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/avatar3.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/nova.gif",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/pulse.gif",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/drift.gif",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ai-designer-agency/assets/arc.gif",
+        "loaded": true
+      }
+    ],
+    "fonts": {
+      "barlow": true,
+      "instrument": true
+    },
+    "contactReached": true,
+    "ctaLinks": [
+      {
+        "text": "START A PROJECT",
+        "href": "mailto:hello@viralmedia.agency?subject=Start%20a%20project"
+      },
+      {
+        "text": "BOOK A CALL",
+        "href": "mailto:hello@viralmedia.agency?subject=Book%20a%20discovery%20call"
+      }
+    ],
+    "invalidEmailBlocked": true,
+    "subscriptionStatus": "Complete your subscription request in your email app."
+  }
+}

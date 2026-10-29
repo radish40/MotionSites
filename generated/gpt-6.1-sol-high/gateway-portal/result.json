@@ -1,0 +1,35 @@
+{
+  "title": "Gateway Portal",
+  "id": "gateway-portal",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/gateway-portal/",
+    "desktop": "1440x1000 Chromium",
+    "mobile": "390x844 Chromium",
+    "interactions": ["menu open/close and section links", "Watch Demo scroll animation", "portal zoom/fade", "mouse parallax", "carousel previous/next and modulo wraparound"],
+    "javascript_errors": 0,
+    "horizontal_page_overflow": false,
+    "fonts": "requested display font binaries loaded; exact external stylesheet links retained",
+    "dependency_audit": "0 vulnerabilities",
+    "evidence": ["checks/build.log", "checks/browser-results.json", "checks/audit.json"],
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/desktop-transition.png", "screenshots/mobile-transition.png", "screenshots/desktop-wonders.png", "screenshots/mobile-wonders.png", "screenshots/desktop-footer.png", "screenshots/mobile-footer.png"]
+  },
+  "asset_issues": [
+    {
+      "asset": "PORTAL_BG",
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1781046673/image_1_ksxfzb.png",
+      "status": 401,
+      "reason": "cloud_name dy5er7kv5 is disabled",
+      "mitigation": "Original URL retained and attempted. A CSS arch with the specified world image provides a local visual fallback; original portal artwork cannot be reproduced."
+    }
+  ],
+  "notes": [
+    "Auragate is the on-page brand; Step Into Wonder is the document title.",
+    "Ready for management-session review, with disclosed missing original artwork. Not deployed or pushed.",
+    "All work and artifacts are inside this project; no other designs, sessions, or agents were used.",
+    "World image and both display fonts have local copies from the exact requested sources.",
+    "No video, legal copy, or social-profile destination was supplied; demo plays the page scroll, legal links target footer, and X targets its homepage."
+  ]
+}

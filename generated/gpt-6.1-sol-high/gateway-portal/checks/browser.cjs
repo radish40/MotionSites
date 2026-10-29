@@ -1,0 +1,51 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const fs = require('fs');
+(async () => {
+  const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', headless: true, args: ['--no-sandbox', '--disable-dev-shm-usage'] });
+  const results = [];
+  for (const [name, width, height] of [['desktop',1440,1000],['mobile',390,844]]) {
+    const page = await browser.newPage({viewport: {width,height}, deviceScaleFactor: 1});
+    const errors = [], failedRequests = [], httpErrors = [];
+    page.on('pageerror', e => errors.push(e.message));
+    page.on('requestfailed', r => failedRequests.push({url:r.url(), error:r.failure()?.errorText}));
+    page.on('response', r => {if(r.status()>=400) httpErrors.push({url:r.url(),status:r.status()});});
+    await page.goto(process.env.BASE_URL || 'http://localhost:4173/motionsites-results/gateway-portal/', {waitUntil:'networkidle'});
+    await page.waitForTimeout(2200);
+    await page.screenshot({path:`screenshots/${name}.png`});
+    const title = await page.title();
+    const fonts = await page.evaluate(async () => {await document.fonts.ready; await document.fonts.load('16px "Mr Dafoe Regular"', 'Aura Discover'); return {helvetica:document.fonts.check('16px "Helvetica Now Display"'), script:document.fonts.check('16px "Mr Dafoe Regular"', 'Aura Discover')};});
+    const overflow = await page.evaluate(() => ({viewport:innerWidth,client:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth}));
+    const initialTransform = await page.getByTestId('portal').evaluate(el => el.style.transform);
+    if(name==='desktop') {await page.mouse.move(1300,100);await page.waitForTimeout(400);}
+    const parallaxTransform = await page.getByTestId('portal').evaluate(el => el.style.transform);
+    await page.getByRole('button',{name:'Open menu',exact:true}).click();
+    const menuOpened = await page.getByRole('button',{name:'Close menu',exact:true}).getAttribute('aria-expanded');
+    await page.locator('#navigation-menu').getByRole('link',{name:'Features',exact:true}).click();
+    const menuClosed = await page.getByRole('button',{name:'Open menu',exact:true}).count()===1;
+    await page.evaluate(() => window.scrollTo(0,innerHeight*.6*.77)); await page.waitForTimeout(400);
+    const transition = await page.getByTestId('portal').evaluate(el => ({opacity:el.style.opacity,transform:el.style.transform}));
+    await page.screenshot({path:`screenshots/${name}-transition.png`});
+    await page.evaluate(() => window.scrollTo(0,0));
+    await page.getByRole('button',{name:'Watch Demo',exact:true}).click(); await page.waitForTimeout(2800);
+    const demoScroll = await page.evaluate(() => window.scrollY);
+    const quoteBefore = await page.locator('article[data-active="true"]').innerText();
+    await page.getByRole('button',{name:'Next testimonial',exact:true}).click(); await page.waitForTimeout(600);
+    const quoteNext = await page.locator('article[data-active="true"]').innerText();
+    await page.getByRole('button',{name:'Previous testimonial',exact:true}).click();
+    const restored = await page.locator('article[data-active="true"]').innerText()===quoteBefore;
+    for(let i=0;i<7;i++) await page.getByRole('button',{name:'Next testimonial',exact:true}).click();
+    const wraps = await page.locator('article[data-active="true"]').innerText()===quoteBefore;
+    await page.evaluate(() => document.getElementById('wonders').scrollIntoView()); await page.waitForTimeout(700);
+    await page.screenshot({path:`screenshots/${name}-wonders.png`});
+    await page.evaluate(() => window.scrollTo(0,document.documentElement.scrollHeight)); await page.waitForTimeout(300);
+    await page.screenshot({path:`screenshots/${name}-footer.png`});
+    const finalOverflow = await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth);
+    const item = {viewport:{width,height},title,fonts,overflow,finalOverflow,menuOpened,menuClosed,initialTransform,parallaxTransform,transition,demoScroll,carousel:{changed:quoteBefore!==quoteNext,restored,wraps},pageErrors:errors,failedRequests,httpErrors};
+    results.push(item);
+    await page.close();
+  }
+  await browser.close();
+  fs.writeFileSync('checks/browser-results.json',JSON.stringify(results,null,2));
+  console.log(JSON.stringify(results,null,2));
+  if(results.some(r=>r.pageErrors.length || !r.finalOverflow || !r.carousel.changed || !r.carousel.restored || !r.carousel.wraps || !r.menuClosed || !r.fonts.helvetica || !r.fonts.script)) process.exitCode=1;
+})();

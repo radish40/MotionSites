@@ -1,0 +1,80 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "title": "Step Into Wonder",
+    "fonts": {
+      "helvetica": true,
+      "script": true
+    },
+    "overflow": {
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425
+    },
+    "finalOverflow": true,
+    "menuOpened": "true",
+    "menuClosed": true,
+    "initialTransform": "scale(1) translate(0px, 0px)",
+    "parallaxTransform": "scale(1) translate(-4.57646px, 4.54489px)",
+    "transition": {
+      "opacity": "0.5",
+      "transform": "scale(6.8123) translate(-5.27122px, 4.88589px)"
+    },
+    "demoScroll": 1600,
+    "carousel": {
+      "changed": true,
+      "restored": true,
+      "wraps": true
+    },
+    "pageErrors": [],
+    "failedRequests": [],
+    "httpErrors": [
+      {
+        "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1781046673/image_1_ksxfzb.png",
+        "status": 401
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "title": "Step Into Wonder",
+    "fonts": {
+      "helvetica": true,
+      "script": true
+    },
+    "overflow": {
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375
+    },
+    "finalOverflow": true,
+    "menuOpened": "true",
+    "menuClosed": true,
+    "initialTransform": "scale(1) translate(0px, 0px)",
+    "parallaxTransform": "scale(1) translate(0px, 0px)",
+    "transition": {
+      "opacity": "0.496586",
+      "transform": "scale(6.81678) translate(-1.69697px, 3.88178px)"
+    },
+    "demoScroll": 1350,
+    "carousel": {
+      "changed": true,
+      "restored": true,
+      "wraps": true
+    },
+    "pageErrors": [],
+    "failedRequests": [],
+    "httpErrors": [
+      {
+        "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1781046673/image_1_ksxfzb.png",
+        "status": 401
+      }
+    ]
+  }
+]

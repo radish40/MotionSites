@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { font-family: 'Helvetica Now Display'; src: url('../public/assets/helvetica-now.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Mr Dafoe Regular'; src: url('../public/assets/mr-dafoe.woff2') format('woff2'); font-display: swap; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #0a0608; scroll-behavior: auto; overflow-x: clip; }
+html { scrollbar-gutter: stable; }
+body { font-family: 'Helvetica Now Display', 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; cursor: pointer; }
+a { color: inherit; }
+button:focus-visible, a:focus-visible { outline: 2px solid white; outline-offset: 6px; }
+@keyframes bobUp { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }

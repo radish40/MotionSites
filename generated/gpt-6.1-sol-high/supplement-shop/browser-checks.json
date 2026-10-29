@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "Desktop 1440x1000: correct phone dimensions, images loaded, no page overflow",
+    "Menu navigation, categories, quantity increment/decrement and total pricing passed",
+    "Buy Now adds the selected quantity, shows confirmation, and updates bag badge",
+    "Adjacent product navigation and three-second autoplay passed; quantity resets",
+    "Carousel loops through all three products",
+    "Mobile 390x844: full frame visible, no horizontal or vertical overflow",
+    "No browser script errors"
+  ],
+  "errors": [],
+  "failures": [],
+  "fonts": {
+    "dmSans": true,
+    "inter": true,
+    "status": "loaded"
+  },
+  "carouselLoop": [
+    "Herbix 90",
+    "Herbix 60",
+    "Herbix 30",
+    "Herbix 90"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Supplement Shop",
+  "id": "supplement-shop",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: Vite production build; dist/index.html exists",
+    "browser": [
+      "Desktop 1440x1000: correct phone dimensions, images loaded, no page overflow",
+      "Menu navigation, categories, quantity increment/decrement and total pricing passed",
+      "Buy Now adds the selected quantity, shows confirmation, and updates bag badge",
+      "Adjacent product navigation and three-second autoplay passed; quantity resets",
+      "Carousel loops through all three products",
+      "Mobile 390x844: full frame visible, no horizontal or vertical overflow",
+      "No browser script errors"
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "fonts": {
+      "dmSans": true,
+      "inter": true,
+      "status": "loaded"
+    },
+    "screenshots": {
+      "desktop": "screenshots/desktop.png",
+      "mobile": "screenshots/mobile.png"
+    }
+  },
+  "asset_issues": [],
+  "notes": [
+    "React, Tailwind CSS and lucide-react implementation.",
+    "Configured base: /motionsites-results/supplement-shop/.",
+    "All three exact supplied product images downloaded and bundled locally.",
+    "DM Sans and Inter loaded from Google Fonts and verified in Chromium.",
+    "Purchase feedback and bag count use local state; no payment backend.",
+    "Only three capsule products were provided; category selection changes tab state without inventing inventory.",
+    "Ready for acceptance review; not deployed or pushed."
+  ]
+}

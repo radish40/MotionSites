@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { margin: 0; -webkit-font-smoothing: antialiased; color: #111; }
+button { -webkit-tap-highlight-color: transparent; }
+button:focus-visible { outline: 2px solid #737373; outline-offset: 3px; }
+.phone { box-shadow: 0 25px 50px -12px rgba(0,0,0,.25); flex-shrink: 0; }
+.screen { height: 796px; display: grid; grid-template-rows: 44px 56px 76px 40px 342px 72px 42px 16px 56px 52px; }
+.icon-button { width: 36px; height: 36px; display:flex; align-items:center; justify-content:center; border-radius: 50%; }
+.quantity-button { width: 36px; height: 36px; display:flex; align-items:center; justify-content:center; border: 1px solid #d4d4d4; border-radius: 50%; }
+.quantity-button:hover:not(:disabled) { background: #f5f5f5; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.carousel { overflow:hidden; }
+.product-slot { position:absolute; top:50%; left:50%; }
+.product-slot img { width:100%; height:100%; object-fit:contain; mix-blend-mode:multiply; }
+.product-slot.in-motion { transition: width .45s cubic-bezier(.25,.1,.25,1), height .45s cubic-bezier(.25,.1,.25,1), transform .45s cubic-bezier(.25,.1,.25,1), opacity .45s cubic-bezier(.25,.1,.25,1); }
+.product-info, .price { transition: opacity .18s ease; }
+.fading { opacity:0 !important; }
+.reveal { animation: enter .7s both; animation-delay: var(--delay); }
+.carousel.reveal { animation-name: enter-carousel; }
+@keyframes enter { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+@keyframes enter-carousel { from { opacity:0; transform:scale(.95); } to { opacity:1; transform:scale(1); } }
+.menu-layer { visibility:hidden; pointer-events:none; transition: visibility .3s; }
+.menu-layer > button { opacity:0; transition: opacity .3s; }
+.menu-panel { transform: translateX(-100%); transition:transform .3s ease; }
+.menu-layer.is-open { visibility:visible; pointer-events:auto; }
+.menu-layer.is-open > button { opacity:1; }
+.menu-layer.is-open .menu-panel { transform:translateX(0); }
+.sheet { animation: enter .3s both; }
+@media (max-width: 390px) { main { padding: 8px 0 !important; } }
+@media (max-width: 374px) { .phone { transform: scale(.86); margin:-57px -26px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration:.01ms !important; } }

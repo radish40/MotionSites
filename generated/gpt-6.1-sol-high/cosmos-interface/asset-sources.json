@@ -1,0 +1,13 @@
+{
+  "videos": [
+    "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260701_091244_186b0374-b961-4059-b31d-84b819807185.mp4",
+    "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260707_040817_939f16e8-836c-4249-aa1d-63f3e2978a89.mp4"
+  ],
+  "font": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;900&display=swap",
+  "local_files": [
+    "public/assets/cortex-1.mp4",
+    "public/assets/cortex-2.mp4",
+    "public/assets/inter-tight-latin.woff2"
+  ],
+  "font_file": "https://fonts.gstatic.com/s/intertight/v9/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2"
+}

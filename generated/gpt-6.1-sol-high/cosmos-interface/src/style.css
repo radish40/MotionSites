@@ -1,0 +1,31 @@
+@font-face { font-family: 'Inter Tight'; src: url('/motionsites-results/cosmos-interface/assets/inter-tight-latin.woff2') format('woff2'); font-style: normal; font-weight: 100 900; font-display: swap; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+background: linear-gradient(180deg, #020715 0%, #051329 35%, #0b264b 65%, #007bb8 88%, #00b8e6 100%) no-repeat;
+background-attachment: fixed;
+color: #ffffff;
+font-family: 'Inter Tight', sans-serif;
+font-weight: 400;
+min-height: 100vh;
+line-height: 1.4;
+overflow-x: hidden;
+-webkit-font-smoothing: antialiased;
+margin: 0;
+}
+::selection { background: white; color: #122e58; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #020715; }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.15); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.25); }
+
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+a:focus-visible { outline: 2px solid white; outline-offset: 5px; }
+@media (max-width:1023px) {
+ #cortex main { grid-template-rows: 1fr auto; gap: 24px; padding-bottom: 32px; }
+ #cortex main > div:first-child { height: auto; align-self: center; }
+ #cortex main > div:last-child { justify-self: end; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }

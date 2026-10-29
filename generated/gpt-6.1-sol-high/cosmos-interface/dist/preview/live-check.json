@@ -1,0 +1,77 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/",
+  "checked_at": "2026-10-29T04:28:11.673Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Cortex — Mind Amplified.",
+      "bodyChars": 470,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/assets/cortex-1.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/assets/cortex-2.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/assets/cortex-1.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/assets/cortex-2.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/assets/cortex-2.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Cortex — Mind Amplified.",
+      "bodyChars": 470,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/assets/cortex-1.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/assets/cortex-2.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/assets/cortex-1.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/assets/cortex-2.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

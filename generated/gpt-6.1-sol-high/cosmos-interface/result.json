@@ -1,0 +1,78 @@
+{
+  "title": "Cosmos Interface",
+  "id": "cosmos-interface",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": {
+      "status": "passed",
+      "output": "dist/index.html",
+      "log": "build.log"
+    },
+    "subpath": "/motionsites-results/cosmos-interface/",
+    "browser": {
+      "status": "passed",
+      "engine": "Chromium via playwright-core",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "name": "desktop",
+          "font_loaded": true,
+          "script_errors": 0,
+          "failed_requests": 0,
+          "horizontal_overflow": 0,
+          "videos_decoded": 2,
+          "interface_stages_verified": 3
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "name": "mobile",
+          "font_loaded": true,
+          "script_errors": 0,
+          "failed_requests": 0,
+          "horizontal_overflow": 0,
+          "videos_decoded": 2,
+          "interface_stages_verified": 3
+        }
+      ],
+      "interactions": [
+        "Discover Cortex anchor",
+        "Cortex home navigation",
+        "Developer capabilities navigation",
+        "Support capability navigation",
+        "Interface navigation",
+        "hero video scroll seeking",
+        "three sticky interface text/video stages"
+      ],
+      "report": "screenshots/browser-report.json"
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "dependency_audit": {
+      "status": "passed",
+      "vulnerabilities": 0,
+      "report": "dependency-audit.json"
+    }
+  },
+  "asset_issues": [
+    {
+      "type": "supplied_content_mismatch",
+      "asset": "public/assets/cortex-1.mp4",
+      "details": "The exact supplied hero URL returns a red-background white cartoon cat video rather than neural-interface product imagery. Preserved as requested; successful download and browser decode."
+    }
+  ],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "React 19, Framer Motion 12.42.2, compiled Tailwind CSS 3, Vite; local Inter Tight variable font and both original videos.",
+    "Production assets resolve under the specified subpath and require no third-party runtime requests.",
+    "Connected supplied placeholder navigation to existing content; mobile hero adjusted to keep all content visible; final interface text remains visible at the page end.",
+    "Benign Framer Motion use-client bundler warnings are recorded in build.log.",
+    "Chromium aborts superseded video range requests during scroll seeking; recorded separately in the browser report. No actual failed requests or browser errors.",
+    "Additional about/interface screenshots are included. Safari and Firefox were not tested.",
+    "README.md includes build/run/validation steps and asset limitations."
+  ]
+}

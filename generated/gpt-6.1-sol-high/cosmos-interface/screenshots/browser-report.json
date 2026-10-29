@@ -1,0 +1,170 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "media": [
+      {
+        "readyState": 4,
+        "duration": 4.041667,
+        "width": 1920,
+        "error": null
+      },
+      {
+        "readyState": 4,
+        "duration": 9.055782,
+        "width": 1920,
+        "error": null
+      }
+    ],
+    "font": true,
+    "discover": {
+      "hash": "#discover",
+      "y": 900,
+      "time": 1.252889
+    },
+    "nav": [
+      {
+        "label": "Cortex",
+        "hash": "#cortex",
+        "y": 0
+      },
+      {
+        "label": "Developer",
+        "hash": "#developer",
+        "y": 1647
+      },
+      {
+        "label": "Support",
+        "hash": "#support",
+        "y": 1746
+      },
+      {
+        "label": "Interface",
+        "hash": "#solutions",
+        "y": 1900
+      }
+    ],
+    "stages": [
+      {
+        "time": 1.265158,
+        "visibleText": [
+          "Silent thought.",
+          "Cortex."
+        ]
+      },
+      {
+        "time": 4.428083,
+        "visibleText": [
+          "Cognitive flow.",
+          "Intuition."
+        ]
+      },
+      {
+        "time": 7.503756,
+        "visibleText": [
+          "Instant recall.",
+          "Insight."
+        ]
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "aborted": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/cosmos-interface/assets/cortex-1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/cosmos-interface/assets/cortex-2.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "overflow": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "media": [
+      {
+        "readyState": 4,
+        "duration": 4.041667,
+        "width": 1920,
+        "error": null
+      },
+      {
+        "readyState": 4,
+        "duration": 9.055782,
+        "width": 1920,
+        "error": null
+      }
+    ],
+    "font": true,
+    "discover": {
+      "hash": "#discover",
+      "y": 744,
+      "time": 1.234009
+    },
+    "nav": [
+      {
+        "label": "Cortex",
+        "hash": "#cortex",
+        "y": 0
+      },
+      {
+        "label": "Developer",
+        "hash": "#developer",
+        "y": 1335
+      },
+      {
+        "label": "Support",
+        "hash": "#support",
+        "y": 1442
+      },
+      {
+        "label": "Interface",
+        "hash": "#solutions",
+        "y": 1588
+      }
+    ],
+    "stages": [
+      {
+        "time": 1.263852,
+        "visibleText": [
+          "Silent thought.",
+          "Cortex."
+        ]
+      },
+      {
+        "time": 4.436284,
+        "visibleText": [
+          "Cognitive flow.",
+          "Intuition."
+        ]
+      },
+      {
+        "time": 7.512646,
+        "visibleText": [
+          "Instant recall.",
+          "Insight."
+        ]
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "aborted": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/cosmos-interface/assets/cortex-1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/cosmos-interface/assets/cortex-2.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "overflow": []
+  }
+}

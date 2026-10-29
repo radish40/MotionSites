@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-29T07:52:53.299168+00:00",
+  "updated_utc": "2026-10-29T07:54:18.128992+00:00",
   "total": 380,
   "counts": {
-    "complete": 185,
+    "complete": 186,
     "running": 5,
     "needs_fix": 3,
-    "not_started": 187
+    "not_started": 186
   },
   "jobs": [
     {
@@ -1872,17 +1872,17 @@
       "id": "obsidian-hero",
       "title": "Obsidian Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a2-4c46-7820-9dd5-2448c19d4b83",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a2a866615dd17ef8ab21c58aa14de194eeeafa72",
+      "group_message_id": 242,
+      "url": "https://tool.luo-xd.com/motionsites-results/obsidian-hero/"
     },
     {
       "id": "orbis-cards",
       "title": "Orbis Cards",
       "category": "Cards",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a186a2-4cd1-7062-a5af-823f9d116406",
       "source_commit": null,
       "group_message_id": null,
@@ -1892,7 +1892,7 @@
       "id": "orbis-cta",
       "title": "Orbis CTA",
       "category": "CTA Section",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a186a4-1f0a-7841-b144-a5975a5b55f9",
       "source_commit": null,
       "group_message_id": null,
@@ -1923,7 +1923,7 @@
       "title": "Pixel Grid Hover",
       "category": "Case Studies",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a5-c4c5-7bf0-aa28-6b5e64c52e39",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1933,7 +1933,7 @@
       "title": "Portal",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a5-c616-7332-a7ea-def56f988be2",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1942,7 +1942,7 @@
       "id": "portfolio-about",
       "title": "Portfolio About",
       "category": "About Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

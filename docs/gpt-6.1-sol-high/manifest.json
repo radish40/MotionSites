@@ -6400,19 +6400,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a2-4c46-7820-9dd5-2448c19d4b83",
       "output_path": "generated/gpt-6.1-sol-high/obsidian-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3343805,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:49:05.570079+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "a2a866615dd17ef8ab21c58aa14de194eeeafa72",
+      "url": "https://tool.luo-xd.com/motionsites-results/obsidian-hero/",
+      "completed_utc": "2026-10-29T07:54:17.906242+00:00",
+      "group_message_id": 242
     },
     {
       "number": 188,
@@ -6430,19 +6434,20 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a186a2-4cd1-7062-a5af-823f9d116406",
       "output_path": "generated/gpt-6.1-sol-high/orbis-cards",
       "validation": "",
-      "notes": "Session ended without result.json; inspect existing session before retrying",
-      "process_id": 3343830,
+      "notes": "Original session ended with a verified transport UTF-8 stream failure before any implementation; queued retry in the exact same original session. No replacement session.",
+      "process_id": 3361276,
       "launch_method": "isolated_codex_exec",
-      "started_utc": "2026-10-29T07:49:05.690606+00:00",
-      "worker_state": "terminal",
+      "started_utc": "2026-10-29T07:53:47.695940+00:00",
+      "worker_state": "running",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "repair_attempts": 1
     },
     {
       "number": 189,
@@ -6460,15 +6465,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a186a4-1f0a-7841-b144-a5975a5b55f9",
       "output_path": "generated/gpt-6.1-sol-high/orbis-cta",
       "validation": "",
-      "notes": "",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 3351644,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:51:05.146410+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -6551,14 +6556,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a5-c4c5-7bf0-aa28-6b5e64c52e39",
       "output_path": "generated/gpt-6.1-sol-high/pixel-grid-hover",
       "validation": "",
       "notes": "",
       "process_id": 3358523,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:52:53.009909+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 193,
@@ -6577,14 +6586,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a5-c616-7332-a7ea-def56f988be2",
       "output_path": "generated/gpt-6.1-sol-high/portal",
       "validation": "",
       "notes": "",
       "process_id": 3358572,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:52:53.299068+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 194,
@@ -6602,11 +6615,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/portfolio-about",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3361307,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:53:47.811248+00:00",
+      "worker_state": "running"
     },
     {
       "number": 195,
@@ -10701,7 +10718,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:52:53.299168+00:00",
+  "updated_utc": "2026-10-29T07:54:18.128992+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

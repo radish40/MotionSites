@@ -4,6 +4,7 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 import datetime
 import hashlib
+from html.parser import HTMLParser
 import json
 from pathlib import Path
 import sqlite3
@@ -12,14 +13,32 @@ import subprocess
 import manage
 
 
+class IndexCards(HTMLParser):
+    def __init__(self):
+        super().__init__();self.cards=[];self.current=None;self.heading=False
+
+    def handle_starttag(self,tag,attrs):
+        attrs=dict(attrs)
+        if tag=='article':self.current={'title':'','href':None,'preview':None}
+        elif self.current is not None:
+            if tag=='h2':self.heading=True
+            if tag=='a' and self.current['href'] is None:self.current['href']=attrs.get('href')
+            if tag=='img':self.current['preview']=attrs.get('src')
+
+    def handle_endtag(self,tag):
+        if tag=='h2':self.heading=False
+        if tag=='article' and self.current is not None:self.cards.append(self.current);self.current=None
+
+    def handle_data(self,data):
+        if self.heading and self.current is not None:self.current['title']+=data
+
+
 def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def git_blob(spec):
-    command=['docker','run','--rm','-u','1000:1000','--entrypoint','git','-v','/home/opc:/home/opc',
-        'alpine/git','-c',f'safe.directory={manage.ROOT}','-C',str(manage.ROOT),'cat-file','blob',spec]
-    return subprocess.run(command,check=True,capture_output=True).stdout
+def object_id(data):
+    return hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
 
 
 def public_file(url):
@@ -49,19 +68,28 @@ def verify(job, titles, ancestors):
         report=json.loads((root/'screenshots/live-check.json').read_text())
         checks['desktop_mobile_browser_report']=report['passed'] and {r['viewport'] for r in report['results']}=={'desktop','mobile'}
         # One tree read covers every source filename, including assets needed for rebuilding.
-        committed=set(manage.git('ls-tree','-r','--name-only',commit,'--',job['output_path']).splitlines())
+        committed={}
+        for record in manage.git('ls-tree','-r','-z',commit,'--',job['output_path']).split('\0'):
+            if record:
+                header,name=record.split('\t',1)
+                committed[name]=header.split()[2]
         required=[root/'index.html',root/'PROMPT.md',root/'README.md']
         required += [p for p in root.iterdir() if p.is_file() and p.suffix in ('.json','.js','.cjs','.mjs','.ts','.tsx','.css')]
         for directory in ('src','components','public'):
             if (root/directory).is_dir():required += [p for p in (root/directory).rglob('*') if p.is_file()]
         checks['source_files_committed']=all(str(p.relative_to(manage.ROOT)) in committed for p in required)
-        checks['committed_prompt_bytes']=digest(git_blob(commit+':'+job['output_path']+'/PROMPT.md'))==job['prompt_sha256']
-        # Compare deployed screenshots and HTML to the exact source commit, not just to a local copy.
+        checks['committed_source_bytes']=all(object_id(p.read_bytes())==committed.get(str(p.relative_to(manage.ROOT))) for p in required)
+        # Source must be committed. Build artifacts may legitimately be ignored by a project.
+        # Screenshots are committed independently of dist/ and must match their public copies.
         for name in ('index.html','preview/desktop.png','preview/mobile.png'):
             local=(root/'dist'/name).read_bytes()
             published=public_file(job['url']+('' if name=='index.html' else name))
-            committed_bytes=git_blob(commit+':'+job['output_path']+'/dist/'+name)
-            checks['remote_'+name]=digest(local)==digest(published)==digest(committed_bytes)
+            checks['remote_'+name]=digest(local)==digest(published)
+            if name!='index.html':
+                path=job['output_path']+'/screenshots/'+name.split('/')[-1]
+                checks['committed_'+name]=object_id(published)==committed.get(path)
+            elif job['output_path']+'/dist/index.html' in committed:
+                checks['committed_dist_html']=object_id(published)==committed[job['output_path']+'/dist/index.html']
     except Exception as error:
         proof['error']=str(error)
     proof['passed']=bool(checks) and all(checks.values()) and 'error' not in proof
@@ -81,11 +109,16 @@ def main():
     sessions=[j['thread_id'] for j in manifest['jobs'] if j.get('thread_id')]
     with ThreadPoolExecutor(max_workers=3) as pool:
         proofs=list(pool.map(lambda j:verify(j,titles,ancestors),selected))
+    cards=IndexCards();cards.feed(public_file(manage.BASE).decode())
+    indexed={card['href']:card for card in cards.cards}
+    index_matches=all(indexed.get(j['id']+'/')=={'title':j['title'],'href':j['id']+'/',
+        'preview':j['id']+'/preview/desktop.png'} for j in selected)
     full_scope=len(selected)==len(done)==len(manifest['jobs'])==380
-    all_selected_pass=bool(proofs) and all(p['passed'] for p in proofs) and len(set(sessions))==len(sessions)
+    all_selected_pass=bool(proofs) and all(p['passed'] for p in proofs) and len(set(sessions))==len(sessions) and index_matches
     report={'checked_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'total_designs':len(manifest['jobs']),
         'completed_at_snapshot':len(done),'audited_designs':len(proofs),'remote_main':remote_head,
         'unique_design_sessions':len(set(sessions))==len(sessions),'selected_deliveries_pass':all_selected_pass,
+        'public_index_matches_names_links_and_previews':index_matches,'public_index_cards':len(cards.cards),
         'full_scope_achieved':full_scope and all_selected_pass,'deliveries':proofs}
     output=manage.ROOT/'.work/generation/latest-delivery-audit.json'
     output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

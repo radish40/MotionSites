@@ -356,11 +356,11 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a185c1-941b-7bb1-a335-1f082bccccd5",
       "output_path": "generated/gpt-6.1-sol-high/modern-agency",
-      "validation": "Live browser check failed; see screenshots/live-check.json",
-      "notes": "Delivery failed; inspect private delivery.log and public browser report",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
+      "notes": "Screenshot file ownership corrected; rerun live verification in the same project.",
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:51:02.486988+00:00",
       "actual_session_config": {
@@ -369,7 +369,11 @@
       },
       "worker_state": "terminal",
       "process_id": 2503265,
-      "delivery_failures": 1
+      "delivery_failures": 1,
+      "source_commit": "607df23d18f5ed2bda6d59d771a8ca75faf99ba8",
+      "url": "https://tool.luo-xd.com/motionsites-results/modern-agency/",
+      "completed_utc": "2026-10-29T04:02:49.183718+00:00",
+      "group_message_id": 62
     },
     {
       "number": 12,
@@ -553,19 +557,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185cc-143e-7983-b115-6f04541fc2f4",
       "output_path": "generated/gpt-6.1-sol-high/ember-dsgn-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2517410,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:55:06.405856+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "e99432efeea01bcb76524769a05fffed51ae49d7",
+      "url": "https://tool.luo-xd.com/motionsites-results/ember-dsgn-hero/",
+      "completed_utc": "2026-10-29T04:03:19.760470+00:00",
+      "group_message_id": 63
     },
     {
       "number": 18,
@@ -583,19 +591,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ce-0c23-7ec0-a225-f0d7426b308f",
       "output_path": "generated/gpt-6.1-sol-high/solar-energy-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2525094,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:57:15.591074+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "89cac2752e1f20490b953a2c00ab6678fff80cb8",
+      "url": "https://tool.luo-xd.com/motionsites-results/solar-energy-hero/",
+      "completed_utc": "2026-10-29T04:04:05.983161+00:00",
+      "group_message_id": 64
     },
     {
       "number": 19,
@@ -673,11 +685,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/convix-software-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2547850,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:02:20.311056+00:00",
+      "worker_state": "running"
     },
     {
       "number": 22,
@@ -695,11 +711,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/dot-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2547885,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:02:20.421985+00:00",
+      "worker_state": "running"
     },
     {
       "number": 23,
@@ -8578,5 +8598,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:01:21.876473+00:00"
+  "updated_utc": "2026-10-29T04:04:06.138700+00:00"
 }

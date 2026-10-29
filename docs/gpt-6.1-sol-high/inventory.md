@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 14/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 17/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -95,18 +95,18 @@
 | 8 | `codercrest-hero` | CoderCrest | SaaS | 3 | 图片 | 已完成 |
 | 9 | `urban-jungle-hero` | Urban Jungle | Landing Page | 3 | 视频 | 已完成 |
 | 10 | `reveal-hero` | Reveal Hero | Hero Section | 2 | 图片 | 已完成 |
-| 11 | `modern-agency` | Modern Agency | Agency | 2 | 图片 | 待修复 |
+| 11 | `modern-agency` | Modern Agency | Agency | 2 | 图片 | 已完成 |
 | 12 | `liquid-glass-agency` | Liquid Glass Agency | Landing Page | 3 | 视频 | 已完成 |
 | 13 | `luxury-editorial-ecommerce-design` | Luxury Ecommerce Design | Landing Page | 2 | 图片 | 已完成 |
 | 14 | `asme-hero` | Asme | Hero Section | 1 | 视频 | 已完成 |
 | 15 | `max-reed-portfolio` | Max Reed Portfolio | Features Section | 2 | 图片 | 已完成 |
 | 16 | `mindloop-landing` | Mindloop Landing | Landing Page | 2 | 视频 | 生成中 |
-| 17 | `ember-dsgn-hero` | EMBER.dsgn | Hero Section | 2 | 图片 | 生成中 |
-| 18 | `solar-energy-hero` | Solar Energy Hero | Hero Section | 2 | 图片 | 生成中 |
+| 17 | `ember-dsgn-hero` | EMBER.dsgn | Hero Section | 2 | 图片 | 已完成 |
+| 18 | `solar-energy-hero` | Solar Energy Hero | Hero Section | 2 | 图片 | 已完成 |
 | 19 | `halo-usd-landing` | USD Halo | Landing Page | 2 | 图片 | 生成中 |
 | 20 | `ai-designer-agency` | AI Designer Agency | Landing Page | 1 | 视频 | 生成中 |
-| 21 | `convix-software-hero` | SAAS Software | SaaS | 1 | 图片 | 未开始 |
-| 22 | `dot-hero` | Dot | Hero Section | 1 | 图片 | 未开始 |
+| 21 | `convix-software-hero` | SAAS Software | SaaS | 1 | 图片 | 生成中 |
+| 22 | `dot-hero` | Dot | Hero Section | 1 | 图片 | 生成中 |
 | 23 | `orbit-engineers` | Orbit Engineers | Agency | 1 | 视频 | 未开始 |
 | 24 | `3d-studio-pricing` | 3D Studio Pricing | Pricing Page | 2 | 视频 | 未开始 |
 | 25 | `adhd-planner` | ADHD Planner | Mobile App | 1 | 视频 | 未开始 |

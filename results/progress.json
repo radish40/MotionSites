@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:01:21.876473+00:00",
+  "updated_utc": "2026-10-29T04:04:06.138700+00:00",
   "total": 380,
   "counts": {
-    "complete": 14,
-    "needs_fix": 1,
+    "complete": 17,
     "running": 5,
-    "not_started": 360
+    "not_started": 358
   },
   "jobs": [
     {
@@ -112,11 +111,11 @@
       "id": "modern-agency",
       "title": "Modern Agency",
       "category": "Agency",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a185c1-941b-7bb1-a335-1f082bccccd5",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "607df23d18f5ed2bda6d59d771a8ca75faf99ba8",
+      "group_message_id": 62,
+      "url": "https://tool.luo-xd.com/motionsites-results/modern-agency/"
     },
     {
       "id": "liquid-glass-agency",
@@ -172,21 +171,21 @@
       "id": "ember-dsgn-hero",
       "title": "EMBER.dsgn",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185cc-143e-7983-b115-6f04541fc2f4",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e99432efeea01bcb76524769a05fffed51ae49d7",
+      "group_message_id": 63,
+      "url": "https://tool.luo-xd.com/motionsites-results/ember-dsgn-hero/"
     },
     {
       "id": "solar-energy-hero",
       "title": "Solar Energy Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ce-0c23-7ec0-a225-f0d7426b308f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "89cac2752e1f20490b953a2c00ab6678fff80cb8",
+      "group_message_id": 64,
+      "url": "https://tool.luo-xd.com/motionsites-results/solar-energy-hero/"
     },
     {
       "id": "halo-usd-landing",
@@ -212,7 +211,7 @@
       "id": "convix-software-hero",
       "title": "SAAS Software",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -222,7 +221,7 @@
       "id": "dot-hero",
       "title": "Dot",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

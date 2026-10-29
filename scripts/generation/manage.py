@@ -140,6 +140,9 @@ def finish(ident):
     print(execute(['sudo','-n','python3',ROOT/'scripts/generation/publish.py',ident,output/'dist']))
     url=BASE+ident+'/'
     report=output/'screenshots';report.mkdir(exist_ok=True)
+    if report.resolve().parent!=output.resolve():raise RuntimeError('Screenshot directory must belong to this design')
+    if any(p.stat().st_uid!=os.getuid() for p in [report,*report.iterdir()]):
+        execute(['sudo','-n','chown','-R','--no-dereference',f'{os.getuid()}:{os.getgid()}',report])
     try:
         print(execute(['docker','run','--rm','-u','1000:1000','--shm-size=256m','-v',f'{ROOT}:/work',
             '--entrypoint','node','louislam/uptime-kuma:2','/work/scripts/generation/check-live.cjs',url,

@@ -1,0 +1,113 @@
+[
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "columns": 3,
+    "fonts": [
+      true,
+      true
+    ],
+    "videos": [
+      {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "width": 1320,
+        "height": 1568
+      },
+      {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "width": 1320,
+        "height": 1568
+      },
+      {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "width": 1320,
+        "height": 1568
+      }
+    ],
+    "interactions": "3 previews, Escape dismissal, collection focus, reduced motion passed",
+    "scriptErrors": [],
+    "failedRequests": []
+  },
+  {
+    "viewport": "mobile",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "columns": 1,
+    "fonts": [
+      true,
+      true
+    ],
+    "videos": [
+      {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "width": 1320,
+        "height": 1568
+      },
+      {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "width": 1320,
+        "height": 1568
+      },
+      {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "width": 1320,
+        "height": 1568
+      }
+    ],
+    "interactions": "3 previews, Escape dismissal, collection focus, reduced motion passed",
+    "scriptErrors": [],
+    "failedRequests": []
+  },
+  {
+    "viewport": "tablet",
+    "width": 820,
+    "height": 1000,
+    "overflow": false,
+    "columns": 2,
+    "fonts": [
+      true,
+      true
+    ],
+    "videos": [
+      {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "width": 1320,
+        "height": 1568
+      },
+      {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "width": 1320,
+        "height": 1568
+      },
+      {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "width": 1320,
+        "height": 1568
+      }
+    ],
+    "interactions": "3 previews, Escape dismissal, collection focus, reduced motion passed",
+    "scriptErrors": [],
+    "failedRequests": []
+  }
+]

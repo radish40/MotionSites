@@ -1,0 +1,31 @@
+{
+  "title": "Orbis Cards",
+  "id": "orbis-cards",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/orbis-cards/",
+    "desktop": "1440x1000; 3 columns; passed",
+    "mobile": "390x844; 1 column; passed",
+    "tablet": "820x1000; 2 columns; passed",
+    "videos": "All original videos decoded, autoplaying, muted, looping",
+    "fonts": "Anton and Condiment loaded successfully from Google Fonts",
+    "interactions": "All 3 preview dialogs, Escape dismissal, collection focus, reduced-motion pause passed",
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "failed_requests": [],
+    "dependency_audit": "0 vulnerabilities",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React, Vite, Tailwind; exact original video assets saved locally without modifications.",
+    "Google Fonts remains an external dependency as specified.",
+    "Original Orbis reference viewed only; no screenshot extraction used.",
+    "No creators destination was supplied; CTA focuses the existing collection. Chevrons preview each supplied object.",
+    "Chromium verified; other browser engines not tested. Animated frames vary.",
+    "No deployment, push, agents, other sessions, or messages. Ready for review, not published."
+  ]
+}

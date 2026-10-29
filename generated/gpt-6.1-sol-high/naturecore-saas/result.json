@@ -1,0 +1,131 @@
+{
+  "title": "Naturecore SaaS",
+  "id": "naturecore-saas",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser_command": "docker run --rm --shm-size=1g -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'node scripts/browser-check.cjs'",
+    "base_path": "/motionsites-results/naturecore-saas/",
+    "browser": "Chromium via playwright-core",
+    "viewports": {
+      "desktop": {
+        "hoverOpacity": "0.9",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "overflow": false,
+        "font": true,
+        "emojiFont": true,
+        "logoLoaded": true,
+        "video": {
+          "width": 1920,
+          "duration": 10.041667,
+          "currentTime": 3.335667
+        },
+        "heading": {
+          "x": 208,
+          "y": 172,
+          "width": 1024,
+          "height": 120,
+          "top": 172,
+          "right": 1232,
+          "bottom": 292,
+          "left": 208
+        },
+        "navLinkCount": 8,
+        "canvas": {
+          "visible": true,
+          "width": 960,
+          "frame": "0"
+        },
+        "reverse": "reverse",
+        "focused": {
+          "tag": "BUTTON",
+          "text": "Explore Options"
+        },
+        "ctaClicks": "pass (presentational controls per prompt)",
+        "errors": [],
+        "failedRequests": [
+          {
+            "url": "http://localhost:4173/motionsites-results/naturecore-saas/energy.mp4",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      },
+      "mobile": {
+        "hoverOpacity": "0.9",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "overflow": false,
+        "font": true,
+        "emojiFont": true,
+        "logoLoaded": true,
+        "video": {
+          "width": 1920,
+          "duration": 10.041667,
+          "currentTime": 3.784195
+        },
+        "heading": {
+          "x": 16,
+          "y": 126,
+          "width": 358,
+          "height": 112.5,
+          "top": 126,
+          "right": 374,
+          "bottom": 238.5,
+          "left": 16
+        },
+        "navLinkCount": 2,
+        "canvas": {
+          "visible": true,
+          "width": 960,
+          "frame": "10"
+        },
+        "reverse": "reverse",
+        "focused": {
+          "tag": "BUTTON",
+          "text": "Explore Options"
+        },
+        "ctaClicks": "pass (presentational controls per prompt)",
+        "errors": [],
+        "failedRequests": [
+          {
+            "url": "http://localhost:4173/motionsites-results/naturecore-saas/energy.mp4",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected; typography, video crop, responsive navigation, stacked mobile CTAs and emoji rendering verified.",
+    "dependency_audit": "npm install: 0 vulnerabilities"
+  },
+  "asset_issues": [
+    {
+      "asset": "/image.png",
+      "status": "fallback",
+      "detail": "Original owner logo not provided. Local LGPSM text PNG generated; replace when the original is supplied."
+    },
+    {
+      "asset": "badge emojis",
+      "status": "resolved",
+      "detail": "Missing Chromium plant glyph resolved with local 3.5KB Noto Color Emoji subset and included OFL license."
+    }
+  ],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "Implemented only the supplied Naturecore SaaS design and requested stack. All project artifacts are within this project.",
+    "Exact supplied MP4 downloaded unchanged and served locally; Inter uses the specified Google Fonts CSS import and loaded in browser checks.",
+    "Canvas reverse playback verified at both viewports, at maximum capture width 960px. Frame canvases consume memory for the lifetime of the page.",
+    "No destination pages, authentication or signup backend specified. Navigation targets the current hero and CTA controls are presentational, with hover, pressed and keyboard focus states.",
+    "Chromium recorded an aborted initial media request at both viewports; video dimensions, complete playback and reverse canvas rendering all passed.",
+    "Dependency lockfile included; generated node_modules removed from delivery."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/naturecore-saas/",
+  "checked_at": "2026-10-29T07:28:39.479Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Naturecore SaaS",
+      "bodyChars": 343,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/naturecore-saas/image.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/naturecore-saas/energy.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 10.041667,
+          "duration": 10.041667,
+          "ended": true,
+          "loop": false,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/naturecore-saas/energy.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Naturecore SaaS",
+      "bodyChars": 267,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/naturecore-saas/image.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/naturecore-saas/energy.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 10.041667,
+          "duration": 10.041667,
+          "ended": true,
+          "loop": false,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/naturecore-saas/energy.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T04:00:28.576186+00:00",
+  "updated_utc": "2026-10-29T04:01:21.876473+00:00",
   "total": 380,
   "counts": {
     "complete": 14,
@@ -193,7 +193,7 @@
       "title": "USD Halo",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d0-3526-7733-bb95-b1071d7e1782",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -203,7 +203,7 @@
       "title": "AI Designer Agency",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d0-3722-7392-b7f5-38103d36b467",
       "source_commit": null,
       "group_message_id": null,
       "url": null

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:08:58.963397+00:00",
+  "updated_utc": "2026-10-29T07:12:57.380543+00:00",
   "total": 380,
   "counts": {
-    "complete": 154,
-    "running": 5,
-    "not_started": 221
+    "complete": 157,
+    "running": 6,
+    "not_started": 217
   },
   "jobs": [
     {
@@ -1553,46 +1553,46 @@
       "category": "Landing Page",
       "status": "running",
       "thread_id": "01a18679-ad43-70a1-b60d-c15d50c66090",
-      "source_commit": null,
-      "group_message_id": null,
+      "source_commit": "a48ce72a57e684fb64e273707e0f77f1d969ca11",
+      "group_message_id": 209,
       "url": null
     },
     {
       "id": "learnly",
       "title": "Learnly",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867b-00e8-7112-82e2-0e7e780135ab",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "fcfdee5b5eb504951815a916d89f0965fbd29ed7",
+      "group_message_id": 210,
+      "url": "https://tool.luo-xd.com/motionsites-results/learnly/"
     },
     {
       "id": "liquid-glass-cta",
       "title": "Liquid Glass CTA",
       "category": "CTA Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867b-020b-7191-b4af-7c4b0ddc91da",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "d809de554610be9d0b49c46b45b0fe713a8fac57",
+      "group_message_id": 211,
+      "url": "https://tool.luo-xd.com/motionsites-results/liquid-glass-cta/"
     },
     {
       "id": "liquid-glass-features",
       "title": "Liquid Glass Features",
       "category": "Features Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867b-02a9-7db1-b87d-17f08d891dbb",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "93946f0ebb12d203db2329a8675477eeb7af465b",
+      "group_message_id": 212,
+      "url": "https://tool.luo-xd.com/motionsites-results/liquid-glass-features/"
     },
     {
       "id": "lodge-booking-app",
       "title": "Lodge Booking App",
       "category": "Travel",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867d-2972-7cf3-a8ad-8f4d804d3952",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1601,7 +1601,7 @@
       "id": "luminara",
       "title": "Luminara",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1611,7 +1611,7 @@
       "id": "luxury-botanical",
       "title": "Luxury Botanical",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1621,7 +1621,7 @@
       "id": "luxury-focus",
       "title": "Luxury Focus",
       "category": "E-commerce",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1631,7 +1631,7 @@
       "id": "luxury-hero",
       "title": "Luxury Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

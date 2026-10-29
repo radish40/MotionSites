@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 154/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 157/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -240,14 +240,14 @@
 | 153 | `launchex-about` | LaunchEx About | About Section | 2 | 图片 | 已完成 |
 | 154 | `launchex-submissions` | LaunchEx Submissions | Features Section | 2 | 图片 | 已完成 |
 | 155 | `layered-depth` | Layered Depth | Landing Page | 2 | 图片 | 生成中 |
-| 156 | `learnly` | Learnly | Hero Section | 2 | 图片 | 生成中 |
-| 157 | `liquid-glass-cta` | Liquid Glass CTA | CTA Section | 2 | 图片 | 生成中 |
-| 158 | `liquid-glass-features` | Liquid Glass Features | Features Section | 2 | 图片 | 生成中 |
+| 156 | `learnly` | Learnly | Hero Section | 2 | 图片 | 已完成 |
+| 157 | `liquid-glass-cta` | Liquid Glass CTA | CTA Section | 2 | 图片 | 已完成 |
+| 158 | `liquid-glass-features` | Liquid Glass Features | Features Section | 2 | 图片 | 已完成 |
 | 159 | `lodge-booking-app` | Lodge Booking App | Travel | 1 | 图片 | 生成中 |
-| 160 | `luminara` | Luminara | Hero Section | 2 | 图片 | 未开始 |
-| 161 | `luxury-botanical` | Luxury Botanical | Landing Page | 2 | 图片 | 未开始 |
-| 162 | `luxury-focus` | Luxury Focus | E-commerce | 2 | 图片 | 未开始 |
-| 163 | `luxury-hero` | Luxury Hero | Hero Section | 2 | 图片 | 未开始 |
+| 160 | `luminara` | Luminara | Hero Section | 2 | 图片 | 生成中 |
+| 161 | `luxury-botanical` | Luxury Botanical | Landing Page | 2 | 图片 | 生成中 |
+| 162 | `luxury-focus` | Luxury Focus | E-commerce | 2 | 图片 | 生成中 |
+| 163 | `luxury-hero` | Luxury Hero | Hero Section | 2 | 图片 | 生成中 |
 | 164 | `luxury-real-estate` | Luxury Real Estate | Landing Page | 2 | 图片 | 未开始 |
 | 165 | `media-card-carousel` | Media Card Carousel | Components | 1 | 图片 | 未开始 |
 | 166 | `minimal-workflow-saas` | Minimal Workflow SaaS | SaaS | 2 | 图片 | 未开始 |

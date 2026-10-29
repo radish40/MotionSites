@@ -5308,16 +5308,23 @@
       "status": "running",
       "thread_id": "01a18679-ad43-70a1-b60d-c15d50c66090",
       "output_path": "generated/gpt-6.1-sol-high/layered-depth",
-      "validation": "",
-      "notes": "",
-      "process_id": 3182016,
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
+      "notes": "Management visual review: recovering isolated pedestal/bird/background assets and real motion from this design reference; original Cloudinary disabled. Same original session repair.",
+      "process_id": 3214272,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:04:43.503984+00:00",
-      "worker_state": "running",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "a48ce72a57e684fb64e273707e0f77f1d969ca11",
+      "url": "https://tool.luo-xd.com/motionsites-results/layered-depth/",
+      "completed_utc": "2026-10-29T07:10:19.764021+00:00",
+      "group_message_id": 209,
+      "repair_attempts": 1,
+      "delivery_failures": 0,
+      "preview_previous_source_commit": "a48ce72a57e684fb64e273707e0f77f1d969ca11"
     },
     {
       "number": 156,
@@ -5335,19 +5342,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867b-00e8-7112-82e2-0e7e780135ab",
       "output_path": "generated/gpt-6.1-sol-high/learnly",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3187438,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:06:10.437136+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "fcfdee5b5eb504951815a916d89f0965fbd29ed7",
+      "url": "https://tool.luo-xd.com/motionsites-results/learnly/",
+      "completed_utc": "2026-10-29T07:10:53.836554+00:00",
+      "group_message_id": 210
     },
     {
       "number": 157,
@@ -5365,19 +5376,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867b-020b-7191-b4af-7c4b0ddc91da",
       "output_path": "generated/gpt-6.1-sol-high/liquid-glass-cta",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3187497,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:06:10.572914+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "d809de554610be9d0b49c46b45b0fe713a8fac57",
+      "url": "https://tool.luo-xd.com/motionsites-results/liquid-glass-cta/",
+      "completed_utc": "2026-10-29T07:11:21.724805+00:00",
+      "group_message_id": 211
     },
     {
       "number": 158,
@@ -5395,19 +5410,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867b-02a9-7db1-b87d-17f08d891dbb",
       "output_path": "generated/gpt-6.1-sol-high/liquid-glass-features",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3187611,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:06:10.807486+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "93946f0ebb12d203db2329a8675477eeb7af465b",
+      "url": "https://tool.luo-xd.com/motionsites-results/liquid-glass-features/",
+      "completed_utc": "2026-10-29T07:12:56.771591+00:00",
+      "group_message_id": 212
     },
     {
       "number": 159,
@@ -5426,14 +5445,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867d-2972-7cf3-a8ad-8f4d804d3952",
       "output_path": "generated/gpt-6.1-sol-high/lodge-booking-app",
       "validation": "",
       "notes": "",
       "process_id": 3198730,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:08:31.893734+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 160,
@@ -5451,11 +5474,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/luminara",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3202147,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:09:52.137994+00:00",
+      "worker_state": "running"
     },
     {
       "number": 161,
@@ -5473,11 +5500,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/luxury-botanical",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3202188,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:09:52.251491+00:00",
+      "worker_state": "running"
     },
     {
       "number": 162,
@@ -5495,11 +5526,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/luxury-focus",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3202228,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:09:52.383654+00:00",
+      "worker_state": "running"
     },
     {
       "number": 163,
@@ -5517,11 +5552,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/luxury-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3202360,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:09:52.544813+00:00",
+      "worker_state": "running"
     },
     {
       "number": 164,
@@ -10298,7 +10337,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:08:58.963397+00:00",
+  "updated_utc": "2026-10-29T07:12:57.380543+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

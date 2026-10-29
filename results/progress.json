@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T08:27:30.161518+00:00",
+  "updated_utc": "2026-10-29T08:27:54.914494+00:00",
   "total": 380,
   "counts": {
     "complete": 200,
@@ -15,7 +15,8 @@
     "paused_utc": "2026-10-29T08:27:30.161498+00:00",
     "audit_path": "docs/gpt-6.1-sol-high/audits/200-completed.json",
     "generation_service": "stopped_and_disabled",
-    "progress_timer": "stopped_and_disabled"
+    "progress_timer": "stopped_and_disabled",
+    "final_group_message_id": 258
   },
   "jobs": [
     {

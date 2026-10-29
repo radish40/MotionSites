@@ -1,0 +1,42 @@
+{
+  "title": "Neon Logic",
+  "id": "neon-logic",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "passed: Chromium via Playwright against production build at /motionsites-results/neon-logic/",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "report": "screenshots/browser-report.json",
+    "hero": "paused initially; forward scrubbing 1.796296s and reverse scrubbing 0.449074s verified",
+    "navigation": "About and Metrics scroll positions verified on both viewports; menu closes after navigation",
+    "download": "preview notice opens and closes",
+    "assets": "all five exact videos reached readyState 4 without media errors; both fonts and Apple icon loaded",
+    "script_errors": 0,
+    "http_errors": 0,
+    "horizontal_overflow": "none on both viewports across all sections and open menu",
+    "visual_review": "desktop/mobile hero, expanded menu, cinematic text, metrics, technology, architecture and footer screenshots reviewed",
+    "dependency_audit": "npm install reported 0 vulnerabilities"
+  },
+  "asset_issues": [
+    {
+      "type": "canceled_media_range_requests",
+      "count": 16,
+      "detail": "Chromium reported net::ERR_ABORTED for some video requests. All five videos loaded successfully without media errors on both viewports; raw events retained in browser report."
+    }
+  ],
+  "notes": [
+    "Built only Neon Logic, branded SynapseX per prompt. Required stack, external assets, typography, copy and animation behavior implemented.",
+    "No download binary or target supplied; Download opens an honest preview availability notice.",
+    "dist uses the required subpath. Source, lockfile, verification script, screenshots, README and result are included. node_modules removed from deliverables.",
+    "Mobile dynamic viewport height explicitly overrides Tailwind utility ordering.",
+    "Ready for management review; no deployment, push, subagent, other session, or external message."
+  ]
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --font-sans: "Space Mono", monospace; --font-serif: "Space Mono", monospace; --font-mono: "Space Mono", monospace; --font-display: "Space Mono", monospace; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { background: #000; color: #fff; overflow-x: hidden; overflow-y: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { font-family: "Space Mono", monospace; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline: 2px solid white; outline-offset: 5px; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+.lenis.lenis-scrolling iframe { pointer-events: none; }
+.video-background { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+.watermark { position: absolute; top: calc(50% + 50px); left: 50%; transform: translate(-50%,-50%); font-family: 'Anton SC', sans-serif; font-size: clamp(120px,30vw,521px); line-height: 1; letter-spacing: -4px; white-space: nowrap; opacity: .1; background: radial-gradient(circle,rgba(142,127,148,0) 0%,#8E7F94 70%); background-clip: text; -webkit-background-clip: text; color: transparent; pointer-events: none; }
+.hero-heading { font-size: clamp(40px,10vw,100px); font-weight: 400; line-height: .95; letter-spacing: -.03em; }
+.scramble-line { display: inline-block; min-height: .95em; white-space: pre; }
+.menu-hamburger { width:18px; height:12px; position:relative; display:block; }
+.menu-hamburger span { position:absolute; left:0; width:100%; height:1.5px; background:currentColor; border-radius:1px; }
+@media (max-width:639px) { .menu-hamburger { width:15px; height:10px; } .menu-hamburger span { height:1.2px; } }
+@media (prefers-reduced-motion:reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
+/* Keep dynamic viewport height authoritative after Tailwind's utility ordering. */
+.h-screen { height: 100vh; height: 100dvh; }

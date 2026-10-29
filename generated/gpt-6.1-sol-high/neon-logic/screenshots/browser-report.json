@@ -1,0 +1,259 @@
+{
+  "desktop": {
+    "initial": {
+      "title": "SynapseX — Brain And Body. One Network.",
+      "overflow": false,
+      "font": true,
+      "watermarkFont": true,
+      "appleIcon": "\"\"",
+      "heroPaused": true,
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_083515_290e5a10-0b95-41af-a5e2-32b6389baa4d.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 4.041667
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_092455_089c54f8-3b03-4966-9df1-e9746063d0ef.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 8.041667
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095810_ecea3dd2-fc5e-4e41-8696-4219290b6589.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 8.041667
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095750_32a52ce0-2005-45c9-9093-41f03fde9530.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 8.041667
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_080203_fd7f4f85-3a86-4837-8192-85e7bfe68e75.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 10.041667
+        }
+      ]
+    },
+    "scrubbedTime": 1.796296,
+    "reverseScrubbedTime": 0.449074,
+    "menu": {
+      "expanded": "true",
+      "overflow": false,
+      "navRight": 1440,
+      "buttons": [
+        {
+          "right": 223.140625,
+          "left": 187.140625
+        },
+        {
+          "right": 1408,
+          "left": 1257.65625
+        }
+      ]
+    },
+    "aboutNavigation": {
+      "scrollY": 1000,
+      "expected": 1000
+    },
+    "metricsNavigation": {
+      "scrollY": 2000,
+      "expected": 2000,
+      "menuClosed": true
+    },
+    "downloadDialog": true,
+    "sections": [
+      {
+        "scrollY": 1000,
+        "overflow": false
+      },
+      {
+        "scrollY": 2000,
+        "overflow": false
+      },
+      {
+        "scrollY": 3000,
+        "overflow": false
+      },
+      {
+        "scrollY": 4000,
+        "overflow": false
+      }
+    ]
+  },
+  "mobile": {
+    "initial": {
+      "title": "SynapseX — Brain And Body. One Network.",
+      "overflow": false,
+      "font": true,
+      "watermarkFont": true,
+      "appleIcon": "\"\"",
+      "heroPaused": true,
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_083515_290e5a10-0b95-41af-a5e2-32b6389baa4d.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 4.041667
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_092455_089c54f8-3b03-4966-9df1-e9746063d0ef.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 8.041667
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095810_ecea3dd2-fc5e-4e41-8696-4219290b6589.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 8.041667
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095750_32a52ce0-2005-45c9-9093-41f03fde9530.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 8.041667
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_080203_fd7f4f85-3a86-4837-8192-85e7bfe68e75.mp4",
+          "readyState": 4,
+          "error": null,
+          "duration": 10.041667
+        }
+      ]
+    },
+    "menu": {
+      "expanded": "true",
+      "overflow": false,
+      "navRight": 390,
+      "buttons": [
+        {
+          "right": 48,
+          "left": 20
+        },
+        {
+          "right": 374,
+          "left": 261.34375
+        }
+      ]
+    },
+    "aboutNavigation": {
+      "scrollY": 844,
+      "expected": 844
+    },
+    "metricsNavigation": {
+      "scrollY": 1688,
+      "expected": 1688,
+      "menuClosed": true
+    },
+    "downloadDialog": true,
+    "sections": [
+      {
+        "scrollY": 844,
+        "overflow": false
+      },
+      {
+        "scrollY": 1688,
+        "overflow": false
+      },
+      {
+        "scrollY": 2532,
+        "overflow": false
+      },
+      {
+        "scrollY": 3385,
+        "overflow": false
+      }
+    ]
+  },
+  "errors": [],
+  "failedRequests": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_083515_290e5a10-0b95-41af-a5e2-32b6389baa4d.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095810_ecea3dd2-fc5e-4e41-8696-4219290b6589.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095750_32a52ce0-2005-45c9-9093-41f03fde9530.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_080203_fd7f4f85-3a86-4837-8192-85e7bfe68e75.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095810_ecea3dd2-fc5e-4e41-8696-4219290b6589.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095750_32a52ce0-2005-45c9-9093-41f03fde9530.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_092455_089c54f8-3b03-4966-9df1-e9746063d0ef.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095810_ecea3dd2-fc5e-4e41-8696-4219290b6589.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095750_32a52ce0-2005-45c9-9093-41f03fde9530.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_080203_fd7f4f85-3a86-4837-8192-85e7bfe68e75.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_083515_290e5a10-0b95-41af-a5e2-32b6389baa4d.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_083515_290e5a10-0b95-41af-a5e2-32b6389baa4d.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_092455_089c54f8-3b03-4966-9df1-e9746063d0ef.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095750_32a52ce0-2005-45c9-9093-41f03fde9530.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095810_ecea3dd2-fc5e-4e41-8696-4219290b6589.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_080203_fd7f4f85-3a86-4837-8192-85e7bfe68e75.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "responses": [],
+  "passed": true
+}

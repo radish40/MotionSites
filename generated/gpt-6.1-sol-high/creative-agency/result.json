@@ -1,0 +1,43 @@
+{
+  "title": "Creative Agency",
+  "id": "creative-agency",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: TypeScript and Vite production build",
+    "browser": "passed: Chromium against dist at /motionsites-results/creative-agency/",
+    "assertions": [
+      "Title, headline, and seven specified buttons present",
+      "Exact remote video plays muted with loop and playsInline; Inter and Britanica-Black loaded",
+      "Reservations colors, nav border, Instagram opacity, begin now hover and active scale verified",
+      "Stat cards use blur(10px)",
+      "1440x1000 desktop and 390x844 mobile: no horizontal overflow; mobile navigation visibility correct; full-page screenshots saved",
+      "No JavaScript page errors"
+    ],
+    "desktop": {
+      "viewport": "1440x1000",
+      "document_height": 1000,
+      "horizontal_overflow": false,
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "document_height": 925,
+      "horizontal_overflow": false,
+      "screenshot": "screenshots/mobile.png"
+    },
+    "page_errors": [],
+    "console_errors": [],
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact source video URL and SVG paths retained; Inter and Britanica-Black loaded successfully.",
+    "Geist is not loaded; the prompt explicitly permits the sans-serif fallback.",
+    "Video returned HTTP 206 and plays with readyState 4, muted, loop, playsInline, and no media error. Individual byte-range request aborts, if recorded, did not prevent playback.",
+    "Visual-only controls intentionally have no additional navigation, form, state, or backend behavior.",
+    "Mobile document is 925px tall, reflecting the specified stacked layout.",
+    "Production files are in dist/. All work remains inside this project; nothing deployed or pushed."
+  ]
+}

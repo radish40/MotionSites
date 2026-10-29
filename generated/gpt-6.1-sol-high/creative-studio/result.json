@@ -1,0 +1,41 @@
+{
+  "title": "Creative Studio",
+  "id": "creative-studio",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/creative-studio/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "additional_widths": [
+      320,
+      360,
+      640,
+      768,
+      820,
+      1024
+    ],
+    "horizontal_and_vertical_overflow": "none at required viewports; heading fits additional widths",
+    "menu": "open button, close button, Escape dismissal and navigation passed",
+    "video": "autoplay playing; readyState 4 at both required viewports",
+    "font": "local Inter 600 loaded",
+    "browser_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-report.json",
+    "dependency_audit": "npm install reported 0 vulnerabilities"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Uses React 18, Tailwind CSS 3, Framer Motion, Lucide React and Inter.",
+    "Exact supplied video and Inter font are served locally. Assets total approximately 22 MB.",
+    "Navigation targets existing hero content. No destination pages or contact recipient were supplied; CTA uses mailto: without a recipient.",
+    "Heading font size is adjusted below 360px and between 768px and 809px to avoid clipping; specified clamp is retained at required screenshot sizes.",
+    "Build has harmless notices about ignored Framer Motion use client directives.",
+    "Ready for management review; not deployed or pushed."
+  ]
+}

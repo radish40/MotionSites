@@ -1,0 +1,45 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/creative-studio/",
+  "checked_at": "2026-10-29T06:02:09.362Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Creative Studio — Fearless Vision Delivered",
+      "bodyChars": 264,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/creative-studio/assets/studio-background.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Creative Studio — Fearless Vision Delivered",
+      "bodyChars": 231,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/creative-studio/assets/studio-background.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

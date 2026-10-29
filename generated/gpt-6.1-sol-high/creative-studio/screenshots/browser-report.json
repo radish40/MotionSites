@@ -1,0 +1,106 @@
+{
+  "url": "http://localhost:4173/motionsites-results/creative-studio/",
+  "errors": [],
+  "failedRequests": [],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "font": true,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "time": 2.57299,
+        "width": 3828,
+        "height": 2164
+      },
+      "heading": {
+        "x": 652.28125,
+        "y": 609.90625,
+        "width": 739.71875,
+        "height": 342.09375,
+        "top": 609.90625,
+        "right": 1392,
+        "bottom": 952,
+        "left": 652.28125
+      },
+      "menu": "open, close, Escape, and navigation passed",
+      "cta": "mailto link verified"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "font": true,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "time": 2.191623,
+        "width": 3828,
+        "height": 2164
+      },
+      "heading": {
+        "x": 169.765625,
+        "y": 719.375,
+        "width": 200.234375,
+        "height": 92.625,
+        "top": 719.375,
+        "right": 370,
+        "bottom": 812,
+        "left": 169.765625
+      },
+      "menu": "open, close, Escape, and navigation passed",
+      "cta": "mailto link verified"
+    }
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "gap": 12.125,
+      "right": 300,
+      "scrollWidth": 320,
+      "padding": 20
+    },
+    {
+      "width": 360,
+      "gap": 15.109375,
+      "right": 340,
+      "scrollWidth": 360,
+      "padding": 20
+    },
+    {
+      "width": 640,
+      "gap": 67.25,
+      "right": 608,
+      "scrollWidth": 640,
+      "padding": 32
+    },
+    {
+      "width": 768,
+      "gap": 19.453125,
+      "right": 720,
+      "scrollWidth": 768,
+      "padding": 48
+    },
+    {
+      "width": 820,
+      "gap": 22.765625,
+      "right": 772,
+      "scrollWidth": 820,
+      "padding": 48
+    },
+    {
+      "width": 1024,
+      "gap": 121.96875,
+      "right": 976,
+      "scrollWidth": 1024,
+      "padding": 48
+    }
+  ],
+  "status": "passed"
+}

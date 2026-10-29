@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:40:19.414410+00:00",
+  "updated_utc": "2026-10-29T07:41:42.849183+00:00",
   "total": 380,
   "counts": {
-    "complete": 174,
+    "complete": 175,
     "running": 5,
-    "not_started": 201
+    "not_started": 200
   },
   "jobs": [
     {
@@ -1771,11 +1771,11 @@
       "id": "nexacore-results",
       "title": "NexaCore Results",
       "category": "Features Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18696-a575-70c3-9781-46fc0dca537c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "81ba32a6b6eaf64018b7c91f3bd5d8fd44c706ef",
+      "group_message_id": 231,
+      "url": "https://tool.luo-xd.com/motionsites-results/nexacore-results/"
     },
     {
       "id": "nike-hover",
@@ -1801,7 +1801,7 @@
       "id": "nimbus-grid",
       "title": "Nimbus Grid",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

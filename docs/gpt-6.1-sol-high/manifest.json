@@ -6054,19 +6054,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18696-a575-70c3-9781-46fc0dca537c",
       "output_path": "generated/gpt-6.1-sol-high/nexacore-results",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3296320,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:36:21.916221+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "81ba32a6b6eaf64018b7c91f3bd5d8fd44c706ef",
+      "url": "https://tool.luo-xd.com/motionsites-results/nexacore-results/",
+      "completed_utc": "2026-10-29T07:41:42.647596+00:00",
+      "group_message_id": 231
     },
     {
       "number": 178,
@@ -6144,11 +6148,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nimbus-grid",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3313651,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:41:16.053582+00:00",
+      "worker_state": "running"
     },
     {
       "number": 181,
@@ -10551,7 +10559,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:40:19.414410+00:00",
+  "updated_utc": "2026-10-29T07:41:42.849183+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

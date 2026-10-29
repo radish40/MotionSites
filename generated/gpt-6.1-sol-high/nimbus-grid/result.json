@@ -1,0 +1,145 @@
+{
+  "title": "Nimbus Grid",
+  "id": "nimbus-grid",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publish_path": "/motionsites-results/nimbus-grid/",
+  "output_directory": "dist",
+  "checks": {
+    "production_build": "passed: Vite 5.4.21; dist/index.html exists",
+    "browser_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint node louislam/uptime-kuma:2 checks/browser.cjs",
+    "desktop": {
+      "viewport": "1440x1000",
+      "status": "passed",
+      "details": {
+        "fonts": {
+          "sans": true,
+          "mono": true
+        },
+        "shaderFrames": [
+          "http://localhost:4173/motionsites-results/nimbus-grid/",
+          "https://fragcoord.xyz/embed/c6zisyc6?viewport=1152x800"
+        ],
+        "shaderElement": {
+          "src": "https://fragcoord.xyz/embed/c6zisyc6?viewport=1152x800",
+          "width": "1152px",
+          "height": "800px",
+          "scale": "1.3875"
+        },
+        "consoleTabs": "pass: all three panes and completed typing",
+        "overflow": "pass: no horizontal overflow across all six sections",
+        "accordion0": {
+          "y": 100,
+          "height": 799,
+          "visualHeight": 480,
+          "copyHeight": 161
+        },
+        "accordion1": {
+          "y": 184,
+          "height": 715,
+          "visualHeight": 480,
+          "copyHeight": 161
+        },
+        "accordion2": {
+          "y": 268.2237548828125,
+          "height": 631,
+          "visualHeight": 480,
+          "copyHeight": 161
+        },
+        "accordion3": {
+          "y": 352,
+          "height": 547,
+          "visualHeight": 419,
+          "copyHeight": 161
+        },
+        "accordion": "pass: all four scroll segments and tab navigation",
+        "billing": "pass: month/GiB toggles",
+        "dashboard": "pass: pool toast interaction",
+        "cube": "pass: mouse, Enter, Space and 14 shards"
+      }
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "status": "passed",
+      "details": {
+        "fonts": {
+          "sans": true,
+          "mono": true
+        },
+        "shaderFrames": [
+          "http://localhost:4173/motionsites-results/nimbus-grid/",
+          "https://fragcoord.xyz/embed/c6zisyc6?viewport=369x799"
+        ],
+        "shaderElement": {
+          "src": "https://fragcoord.xyz/embed/c6zisyc6?viewport=369x799",
+          "width": "369px",
+          "height": "799px",
+          "scale": "1.1939924906132666"
+        },
+        "consoleTabs": "pass: all three panes and completed typing",
+        "overflow": "pass: no horizontal overflow across all six sections",
+        "accordion0": {
+          "y": 115,
+          "height": 657,
+          "visualHeight": 260,
+          "copyHeight": 117
+        },
+        "accordion1": {
+          "y": 211.19415283203125,
+          "height": 561,
+          "visualHeight": 260,
+          "copyHeight": 117
+        },
+        "accordion2": {
+          "y": 307,
+          "height": 465,
+          "visualHeight": 260,
+          "copyHeight": 117
+        },
+        "accordion3": {
+          "y": 402.796875,
+          "height": 369,
+          "visualHeight": 196,
+          "copyHeight": 117
+        },
+        "accordion": "pass: all four scroll segments and tab navigation",
+        "billing": "pass: month/GiB toggles",
+        "dashboard": "pass: pool toast interaction",
+        "cube": "pass: mouse, Enter, Space and 14 shards"
+      }
+    },
+    "javascript_exceptions": 0,
+    "failed_network_requests": 0,
+    "http_errors": [
+      {
+        "viewport": "mobile",
+        "status": 500,
+        "url": "https://fragcoord.xyz/api/config"
+      }
+    ],
+    "browser_report": "checks/browser-report.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "additional_screenshots": 16,
+    "dependency_audit": "Required Vite 5 tooling reports 1 high and 1 moderate advisory group; saved in checks/npm-audit.json.",
+    "supplemental_mobile_accordion_capture": "passed: checks/capture-platform.cjs; GPU disabled, off-screen iframe stubbed; heading text/color/visibility/bounds verified; four panel screenshots visually reviewed."
+  },
+  "asset_issues": [
+    {
+      "source": "https://fragcoord.xyz/api/config",
+      "issue": "Third-party HTTP 500 on desktop and mobile; embed, exact-size shader canvas, and animation still render. Preserved in browser report. Cannot repair the external service from this project."
+    }
+  ],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "Plain HTML, CSS, vanilla JS, Vite; all six sections implemented. Google Fonts loaded successfully.",
+    "The binary map and exact particle coordinates were referenced but absent from the supplied prompt. Reconstructed a 28-column/10-row map and 10 cube fragments plus 4 dots within the specified ranges.",
+    "Only the Nimbus Grid visual reference was inspected. No screenshot/video used as page content; no extracted bitmap assets.",
+    "Dashboard is a fictional console preview; New pool replays its confirmation. Plan CTAs navigate within the page. Monthly prices show an explicit 1 TiB estimate.",
+    "No agents, other sessions, deployment, push, or external messages. All generated files are inside this project. node_modules removed; dependency lock retained.",
+    "Browser testing validates and captures the live shader, then removes its iframe from the temporary test page to free software WebGL resources for subsequent checks.",
+    "Supplemental mobile platform screenshots were recaptured without GPU rendering after a headless software-WebGL capture glitch. Hero screenshots retain the live shader; details and repeat command are in README.md."
+  ]
+}

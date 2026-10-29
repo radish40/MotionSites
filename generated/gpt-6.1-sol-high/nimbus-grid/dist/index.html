@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#17130d"><meta name="description" content="Secure cloud storage capacity for business. Provision, scale, and govern your data with Nimbus Grid.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2317130d%27/%3E%3Cpath d=%27M9 24V8l14 16V8%27 fill=%27none%27 stroke=%27%23ead09a%27 stroke-width=%272%27/%3E%3C/svg%3E"><title>Nimbus Grid — Secure cloud storage capacity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/motionsites-results/nimbus-grid/assets/index-CkqJ3BQM.js"></script>
+  <link rel="stylesheet" crossorigin href="/motionsites-results/nimbus-grid/assets/index-C5TyiJgp.css">
+</head>
+<body>
+<main>
+<section class="hero" id="home" aria-label="Nimbus Grid cloud storage">
+<div class="shader-fallback" aria-hidden="true"></div>
+<iframe class="shader-bg" src="https://fragcoord.xyz/embed/c6zisyc6?viewport=1422x800" title="Animated gold and blue cloud shader" allow="autoplay; fullscreen" referrerpolicy="no-referrer" tabindex="-1" aria-hidden="true"></iframe>
+<header class="site-header"><a class="brand glass" href="#home">Nimbus Grid</a><nav aria-label="Main navigation"><a href="#platform">Technology</a><a href="#security">Security</a><a href="#pricing">Capacity</a><a href="#operations">Operations</a></nav><a class="header-cta glass" href="#pricing">Get Started</a></header>
+<div class="hero-layout">
+<div class="console-card"><div class="console-tabs" role="tablist" aria-label="Provisioning interface"><button id="tab-cli" role="tab" aria-selected="true" aria-controls="pane-cli" class="active" data-pane="cli">CLI</button><button id="tab-api" role="tab" aria-selected="false" aria-controls="pane-api" tabindex="-1" data-pane="api">API</button><button id="tab-console" role="tab" aria-selected="false" aria-controls="pane-console" tabindex="-1" data-pane="console">Console</button><span></span><span class="window-controls" aria-hidden="true"><i></i><i></i></span></div>
+<div class="console-pane" id="pane-cli" role="tabpanel" aria-labelledby="tab-cli"><pre><span class="accent">$</span> nimbus storage create \
+  --workspace prod-web \
+  --tier encrypted-fast \
+  --region eu-central</pre><p class="terminal-output"><span data-typed="storage pool web-db-test queued"></span></p></div>
+<div class="console-pane" id="pane-api" role="tabpanel" aria-labelledby="tab-api" hidden><pre><span class="accent">POST</span> /v1/storage/pools
+{
+  name: "web-db-test",
+  tier: "encrypted-fast", quota: "8 TiB"
+}</pre><p class="terminal-output"><span data-typed="202 accepted: provisioning policy attached"></span></p></div>
+<div class="console-pane console-form" id="pane-console" role="tabpanel" aria-labelledby="tab-console" hidden><label>Instance name<span class="console-input"><span data-typed="web-db-test"></span></span></label><label>Image<span class="console-input">ubuntu-24.04-noble</span></label><div class="console-form-row"><label>Memory<span class="console-input select">8 GiB</span></label><label>CPUs<span class="console-input select">2</span></label></div></div>
+</div>
+<div class="hero-copy"><h1>Cloud space that scales with your business systems.</h1><p>Nimbus Grid sells secure cloud storage capacity for companies that need fast onboarding, predictable throughput, encrypted collaboration, and modern data residency controls.</p></div>
+</div>
+</section>
+<section id="platform" class="platform" aria-label="Platform technology">
+<div class="accordion-inner"><nav class="accordion-nav" aria-label="Platform features"><button class="accordion-tab active" data-card="0" aria-current="true">Programmable infra</button><button class="accordion-tab" data-card="1">Data residency</button><button class="accordion-tab" data-card="2">Elastic scaling</button><button class="accordion-tab" data-card="3">Unified visibility</button></nav>
+<div class="accordion-stack">
+<article class="accordion-card"><div class="accordion-copy"><span class="eyebrow">01 / Technology</span><h2>Programmable infra</h2><p>Storage that fits your workflow. Provision capacity, attach policies, and ship with a few lines of code.</p></div><div class="accordion-visual"><div class="code-window"><div class="dots"><i></i><i></i><i></i></div><pre><em>01</em> storage_pool = {
+<em>02</em>   name = "client-vault"
+<em>03</em>   region = "eu-central"
+<em>04</em>   quota = "24 TiB"
+<em>05</em>   policy = encrypted_fast
+<em>06</em> }</pre></div></div></article>
+<article class="accordion-card"><div class="accordion-copy"><span class="eyebrow">02 / Governance</span><h2>Data residency</h2><p>Keep data where it belongs. Set clear regional boundaries and retention policies for every workspace.</p></div><div class="accordion-visual"><div class="code-window"><div class="dots"><i></i><i></i><i></i></div><pre>Region policy
+
+EU Central     <span>locked</span>
+US East        allowed
+AP Southeast   review
+Retention      7 years</pre></div></div></article>
+<article class="accordion-card"><div class="accordion-copy"><span class="eyebrow">03 / Capacity</span><h2>Elastic scaling</h2><p>Room for what comes next. Scale with active projects and reserve capacity before your teams need it.</p></div><div class="accordion-visual"><div class="code-window"><div class="dots"><i></i><i></i><i></i></div><pre>Capacity forecast
+
+Used           18.4 TiB
+Reserved       24 TiB
+Burst          <span>ready</span>
+Next tier      approved</pre></div></div></article>
+<article class="accordion-card"><div class="accordion-copy"><span class="eyebrow">04 / Observability</span><h2>Unified visibility</h2><p>One view across your storage grid. Track health, spot policy drift, and keep every audit ready to export.</p></div><div class="accordion-visual"><div class="code-window"><div class="dots"><i></i><i></i><i></i></div><pre>Operations view
+
+Sync health    <span>stable</span>
+Cold data      14%
+Policy drift   0
+Audit export   live</pre></div></div></article>
+</div></div></section>
+<section id="pricing" class="pricing"><div class="section-wrap"><div class="pricing-top"><div><span class="eyebrow">Pricing</span><h2>Only pay for cloud storage your teams actually use.</h2><p>Scale capacity up for active projects and cool it down when workspaces go quiet. Nimbus Grid keeps storage, transfer, and policy costs visible before they become invoices.</p></div><div class="pricing-table"><div class="pricing-table-head"><h3>Storage costs</h3><div class="billing-toggle" role="group" aria-label="Pricing unit"><button data-billing="month" aria-pressed="false">Per month</button><button class="active" data-billing="gib" aria-pressed="true">Per GiB</button></div></div><div class="price-row"><span>Encrypted active storage</span><span data-rate="0.021">$0.021 / GiB / month</span></div><div class="price-row"><span>Warm collaboration tier</span><span data-rate="0.012">$0.012 / GiB / month</span></div><div class="price-row"><span>Cold retained archive</span><span data-rate="0.004">$0.004 / GiB / month</span></div><div class="price-row"><span>Regional accelerated transfer</span><span>$0.018 / GiB moved</span></div><div class="price-row"><span>Customer-managed key vault</span><span>included</span></div><p class="billing-note" hidden>Monthly estimate for 1 TiB (1,024 GiB). Transfer billed by usage.</p></div></div>
+<div class="pricing-bars" aria-hidden="true"><i style="--bar-height:66%"></i><i style="--bar-height:58%"></i><i style="--bar-height:50%"></i><i style="--bar-height:62%"></i><i style="--bar-height:45%"></i><i style="--bar-height:54%"></i><i style="--bar-height:48%"></i><i style="--bar-height:64%"></i><i style="--bar-height:72%"></i><i style="--bar-height:70%"></i><i style="--bar-height:78%"></i><i style="--bar-height:82%"></i></div>
+<div class="plan-row"><article><span class="plan-index">01</span><h3>Starter</h3><p>For small teams consolidating shared project files.</p><a href="#plans" class="pill">Start small <span>↗</span></a></article><article><span class="plan-index">02</span><h3>Team</h3><p>For departments scaling collaboration and regional transfer.</p><a href="#plans" class="pill">Build team plan <span>↗</span></a></article><article><span class="plan-index">03</span><h3>Enterprise</h3><p>For organizations prioritizing governance, residency, and support.</p><a href="#operations" class="pill">Talk to sales <span>↗</span></a></article></div></div></section>
+<section id="security" class="security"><div class="section-wrap"><div class="heading-row"><div><span class="eyebrow">Security</span><h2>Modern encryption and compliance controls without slowing the team down.</h2></div><p>Role-based access, customer-managed keys, immutable retention, and regional storage policies give business clients a cloud layer that can satisfy procurement, IT, and legal from the first deployment.</p></div><div class="security-grid">
+<article class="security-card"><h3>Full policy control</h3><p>First-class API access for storage pools, keys, regions, and retention rules. No vendor lock-in to proprietary workflows.</p><div class="api-visual"><div class="api-window"><div class="dots"><i></i><i></i><i></i></div><pre>-> nimbus auth login
+Enter code
+<span class="accent">VAULT-9AMP</span>
+
+-> policy attach
+workspace/client-vault</pre></div><pre class="api-spec">openapi: 3.0.0
+info:
+  title: Nimbus API
+paths:
+  /storage/pools:
+  /keys:
+  /regions:
+  /retention:</pre></div></article>
+<article class="security-card"><h3>Full compliance</h3><p>SOC 2, ISO 27001, and GDPR-ready controls help teams satisfy audits, procurement reviews, and data residency requirements.</p><div class="compliance-list"><div><i></i><span>SOC 2<strong>Type II controls</strong></span></div><div><i></i><span>ISO 27001<strong>Security management</strong></span></div><div><i></i><span>GDPR<strong>Regional data policy</strong></span></div></div></article>
+<article class="security-card"><h3>Ownership and predictable economics</h3><p>Reserved capacity, clear transfer lanes, and audit-ready billing make storage spend easy to forecast across business units.</p><pre class="binary-map" aria-hidden="true">1111111111111111111111111111
+1111111111100000011111111111
+1111111100001100000011111111
+1111110000111111000000111111
+1111000011111111110000001111
+1111000011111111110000001111
+1111110000111111000000111111
+1111111100001100000011111111
+1111111111100000011111111111
+1111111111111111111111111111</pre><dl class="asset-table"><div><dt>Reserved tier</dt><dd>24 TiB</dd></div><div><dt>Transfer lane</dt><dd>EU Central</dd></div><div><dt>Revision</dt><dd>Q603</dd></div></dl></article>
+</div></div></section>
+<section id="plans" class="showcase"><div class="section-wrap"><div class="heading-row"><h2>The biggest forward leap in business cloud storage operations.</h2><p>A single control plane for provisioning storage pools, reviewing policy, watching growth, and shipping audit-ready reports without asking teams to change how they work.</p></div><figure><figcaption>Fig. 2 Nimbus Grid web console</figcaption><div class="dashboard-shell"><div class="dashboard-topbar"><div class="dots"><i></i><i></i><i></i></div><span></span></div><div class="dashboard-body"><aside><div class="workspace-name"><span class="workspace-icon">N</span> Client Vault</div><nav aria-label="Console preview"><span>Workspaces</span><span class="active">Storage Pools</span><span>Retention</span><span>Access</span><span>Transfers</span><span>Reports</span></nav></aside><div class="dashboard-main"><div class="dashboard-title"><h3>Storage Pools</h3><button class="new-pool">New pool <span>+</span></button></div><table><thead><tr><th>Name</th><th>Region</th><th>Used</th><th class="extra-column">Policy</th><th class="extra-column">State</th></tr></thead><tbody><tr><td>finance-vault</td><td>EU Central</td><td>18.4 TiB</td><td class="extra-column">7 years</td><td class="extra-column state">Healthy</td></tr><tr><td>design-assets</td><td>US East</td><td>9.8 TiB</td><td class="extra-column">Versioned</td><td class="extra-column state">Syncing</td></tr><tr><td>legal-archive</td><td>EU Central</td><td>42.1 TiB</td><td class="extra-column">Immutable</td><td class="extra-column state">Healthy</td></tr><tr><td>migration-lane</td><td>AP South</td><td>6.2 TiB</td><td class="extra-column">Temporary</td><td class="extra-column state">Queued</td></tr></tbody></table></div></div><div class="dashboard-toast" role="status"><span>✓</span><div>Pool created<small>finance-vault ready</small></div></div></div></figure></div></section>
+<section id="operations" class="operations"><div class="section-wrap operations-grid"><div class="operations-copy"><span class="eyebrow">Operations</span><h2>A control layer for every storage move your business makes.</h2><p>Route migrations, active workspaces, archives, and compliance exports through one operational grid. Nimbus Grid keeps capacity, policy, and transfer status visible before teams hit a limit.</p><a class="operations-cta" href="#plans">Plan operations <span>↗</span></a></div><div class="operations-visual"><button class="modal-cube-shell" aria-label="Explode the operations cube" aria-pressed="false"><span class="cube-glow"></span><span class="operations-core-cube"><span class="cube-face front"></span><span class="cube-face back"></span><span class="cube-face right"></span><span class="cube-face left"></span><span class="cube-face top"></span><span class="cube-face bottom"></span></span><span class="cube-particles" aria-hidden="true"></span></button><span class="cube-caption">Click to explore the grid <span>↗</span></span></div></div></section>
+</main>
+</body></html>

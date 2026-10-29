@@ -1,0 +1,51 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nimbus-grid/",
+  "checked_at": "2026-10-29T07:59:22.675Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nimbus Grid — Secure cloud storage capacity",
+      "bodyChars": 4540,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 500 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": [
+        {
+          "url": "https://fragcoord.xyz/api/config",
+          "status": 500
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nimbus Grid — Secure cloud storage capacity",
+      "bodyChars": 4458,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 500 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": [
+        {
+          "url": "https://fragcoord.xyz/api/config",
+          "status": 500
+        }
+      ]
+    }
+  ]
+}

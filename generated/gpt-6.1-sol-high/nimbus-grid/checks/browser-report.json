@@ -1,0 +1,498 @@
+{
+  "desktop": {
+    "fonts": {
+      "sans": true,
+      "mono": true
+    },
+    "shaderFrames": [
+      "http://localhost:4173/motionsites-results/nimbus-grid/",
+      "https://fragcoord.xyz/embed/c6zisyc6?viewport=1152x800"
+    ],
+    "shaderElement": {
+      "src": "https://fragcoord.xyz/embed/c6zisyc6?viewport=1152x800",
+      "width": "1152px",
+      "height": "800px",
+      "scale": "1.3875"
+    },
+    "consoleTabs": "pass: all three panes and completed typing",
+    "overflow": "pass: no horizontal overflow across all six sections",
+    "accordion0": {
+      "y": 100,
+      "height": 799,
+      "visualHeight": 480,
+      "copyHeight": 161
+    },
+    "accordion1": {
+      "y": 184,
+      "height": 715,
+      "visualHeight": 480,
+      "copyHeight": 161
+    },
+    "accordion2": {
+      "y": 268.2237548828125,
+      "height": 631,
+      "visualHeight": 480,
+      "copyHeight": 161
+    },
+    "accordion3": {
+      "y": 352,
+      "height": 547,
+      "visualHeight": 419,
+      "copyHeight": 161
+    },
+    "accordion": "pass: all four scroll segments and tab navigation",
+    "billing": "pass: month/GiB toggles",
+    "dashboard": "pass: pool toast interaction",
+    "cube": "pass: mouse, Enter, Space and 14 shards"
+  },
+  "mobile": {
+    "fonts": {
+      "sans": true,
+      "mono": true
+    },
+    "shaderFrames": [
+      "http://localhost:4173/motionsites-results/nimbus-grid/",
+      "https://fragcoord.xyz/embed/c6zisyc6?viewport=369x799"
+    ],
+    "shaderElement": {
+      "src": "https://fragcoord.xyz/embed/c6zisyc6?viewport=369x799",
+      "width": "369px",
+      "height": "799px",
+      "scale": "1.1939924906132666"
+    },
+    "consoleTabs": "pass: all three panes and completed typing",
+    "overflow": "pass: no horizontal overflow across all six sections",
+    "accordion0": {
+      "y": 115,
+      "height": 657,
+      "visualHeight": 260,
+      "copyHeight": 117
+    },
+    "accordion1": {
+      "y": 211.19415283203125,
+      "height": 561,
+      "visualHeight": 260,
+      "copyHeight": 117
+    },
+    "accordion2": {
+      "y": 307,
+      "height": 465,
+      "visualHeight": 260,
+      "copyHeight": 117
+    },
+    "accordion3": {
+      "y": 402.796875,
+      "height": 369,
+      "visualHeight": 196,
+      "copyHeight": 117
+    },
+    "accordion": "pass: all four scroll segments and tab navigation",
+    "billing": "pass: month/GiB toggles",
+    "dashboard": "pass: pool toast interaction",
+    "cube": "pass: mouse, Enter, Space and 14 shards"
+  },
+  "pageErrors": [],
+  "consoleErrors": [
+    {
+      "viewport": "desktop",
+      "error": "Failed to load resource: the server responded with a status of 500 ()"
+    },
+    {
+      "viewport": "mobile",
+      "error": "Failed to load resource: the server responded with a status of 500 ()"
+    }
+  ],
+  "failedRequests": [],
+  "responses": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/embed/c6zisyc6?viewport=1422x800"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-CCHSTm7E.css"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-N7mf797E.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/react-V2IdYcXK.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/supabase-C4UfBG8a.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY.woff2"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/embed/c6zisyc6?viewport=1152x800"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-N7mf797E.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-CCHSTm7E.css"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/react-V2IdYcXK.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/supabase-C4UfBG8a.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/useParsedShaderUniforms-C5sLbqBI.css"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/useShaderSlugPreview-DsQqAnSO.css"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/ShaderViewport-BrVx2AQ0.css"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/EmbedPage-Az9d8bDB.css"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/EmbedPage-bE598TKy.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/EmbedPage-DksnkR0s.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/colorGamut-CEK1KXVk.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/editorSettings-43wEBjiJ.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/viewportWebGpuMinimal-BGpT8HtR.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/gpuDetect-DiDese3X.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/effectiveWgslCommon-BGaxOV5G.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/useParsedShaderUniforms-D3WtNKkB.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/keyboardTexture-DnzC3K8o.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/advanced-compiler-Utg5oHRv.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/passResolution-DNSMT8KB.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/animatedWebpTexture-CWaWXN95.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/useShaderSlugPreview-BcK0HPi4.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/ShaderViewport-DUdGJO-n.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/workbox-window.prod.es5-BqEJf4Xk.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2"
+    },
+    {
+      "viewport": "desktop",
+      "status": 500,
+      "url": "https://fragcoord.xyz/api/config"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/webgl2Adapter-DJG6DDda.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-zzxcIoS9.js"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fragcoord.xyz/_vercel/insights/script.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/embed/c6zisyc6?viewport=1422x800"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY.woff2"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-CCHSTm7E.css"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-N7mf797E.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/react-V2IdYcXK.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/supabase-C4UfBG8a.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/embed/c6zisyc6?viewport=369x799"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-N7mf797E.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-CCHSTm7E.css"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/react-V2IdYcXK.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/supabase-C4UfBG8a.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/useShaderSlugPreview-DsQqAnSO.css"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/ShaderViewport-BrVx2AQ0.css"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/EmbedPage-Az9d8bDB.css"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/useParsedShaderUniforms-C5sLbqBI.css"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/EmbedPage-bE598TKy.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/editorSettings-43wEBjiJ.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/colorGamut-CEK1KXVk.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/useShaderSlugPreview-BcK0HPi4.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/gpuDetect-DiDese3X.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/useParsedShaderUniforms-D3WtNKkB.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/animatedWebpTexture-CWaWXN95.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/advanced-compiler-Utg5oHRv.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/keyboardTexture-DnzC3K8o.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/passResolution-DNSMT8KB.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/EmbedPage-DksnkR0s.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/viewportWebGpuMinimal-BGpT8HtR.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/ShaderViewport-DUdGJO-n.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/effectiveWgslCommon-BGaxOV5G.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 500,
+      "url": "https://fragcoord.xyz/api/config"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/index-zzxcIoS9.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/workbox-window.prod.es5-BqEJf4Xk.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/_vercel/insights/script.js"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fragcoord.xyz/assets/webgl2Adapter-DJG6DDda.js"
+    }
+  ]
+}

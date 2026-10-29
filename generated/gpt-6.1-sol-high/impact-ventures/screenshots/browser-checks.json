@@ -1,0 +1,54 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "cancelledVideoRequests": [
+    {
+      "url": "http://localhost:4173/motionsites-results/impact-ventures/assets/atelier-hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/impact-ventures/assets/atelier-hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/impact-ventures/assets/atelier-hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/impact-ventures/assets/atelier-hero.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "checks": [
+    "See Cases navigation and Watch Reel fullscreen playback work.",
+    {
+      "viewport": "desktop",
+      "overflow": false,
+      "video": {
+        "width": 1920,
+        "playing": true,
+        "currentTime": 0.648354
+      },
+      "fonts": {
+        "serif": true,
+        "sans": true
+      },
+      "heroHeight": 1000
+    },
+    "Mobile menu opens, closes by button and Escape, and closes on navigation.",
+    {
+      "viewport": "mobile",
+      "overflow": false,
+      "video": {
+        "width": 1920,
+        "playing": true,
+        "currentTime": 0.609713
+      },
+      "fonts": {
+        "serif": true,
+        "sans": true
+      },
+      "heroHeight": 844
+    }
+  ]
+}

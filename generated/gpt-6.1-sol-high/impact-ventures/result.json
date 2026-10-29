@@ -1,0 +1,29 @@
+{
+  "title": "Impact Ventures",
+  "id": "impact-ventures",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/impact-ventures/",
+    "desktop": "passed at 1440x1000; screenshot visually reviewed",
+    "mobile": "passed at 390x844; screenshot visually reviewed",
+    "mobile_menu": "passed open, close button, Escape, navigation-close; staggered animations and keyboard focus handling implemented",
+    "watch_reel": "passed fullscreen playback and exit",
+    "video": "loaded and autoplaying on both viewports",
+    "fonts": "Instrument Serif and Inter loaded on both viewports",
+    "horizontal_overflow": false,
+    "browser_errors": [],
+    "dependency_audit": "0 vulnerabilities",
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Brand and page heading follow the Atelier prompt; project index title remains Impact Ventures.",
+    "Exact supplied video is copied locally for reliable subpath delivery. Google Fonts remain externally loaded as specified.",
+    "Single hero scope: navigation uses reserved hashes; no additional pages or contact backend were specified.",
+    "Watch Reel plays the supplied asset fullscreen; no separate reel was supplied.",
+    "Video range request cancellations during seeking or context teardown are recorded separately; video playback passed.",
+    "Source, lockfile, static dist, README and screenshots are included. No push or deployment performed."
+  ]
+}

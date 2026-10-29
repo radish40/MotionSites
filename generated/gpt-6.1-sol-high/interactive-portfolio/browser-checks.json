@@ -1,0 +1,138 @@
+{
+  "checks": [
+    {
+      "name": "desktop: six project cards and five dock icons",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: all images loaded",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: no page overflow and all controls visible",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 1 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 2 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 3 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 4 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 5 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 6 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: About Me opens",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: Notes opens",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: external dock links",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: dock tooltip and magnification",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project drag moves 100×50 without opening",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: title bar drags modal",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: modal traps keyboard focus",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: keyboard opens dock window",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: all traffic lights dismiss window",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: Inter font loaded",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: six project cards and five dock icons",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: all images loaded",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: no page overflow and all controls visible",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 1 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 2 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 3 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 4 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 5 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 6 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: About Me opens",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: Notes opens",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: external dock links",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: touch dragging moves card without opening",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: Inter font loaded",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

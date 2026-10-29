@@ -1,0 +1,184 @@
+{
+  "title": "Interactive Portfolio",
+  "id": "interactive-portfolio",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publication_path": "/motionsites-results/interactive-portfolio/",
+  "output_directory": "dist/",
+  "checks": [
+    {
+      "name": "TypeScript and Vite production build",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: six project cards and five dock icons",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: all images loaded",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: no page overflow and all controls visible",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 1 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 2 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 3 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 4 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 5 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project 6 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: About Me opens",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: Notes opens",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: external dock links",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: dock tooltip and magnification",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: project drag moves 100×50 without opening",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: title bar drags modal",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: modal traps keyboard focus",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: keyboard opens dock window",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: all traffic lights dismiss window",
+      "status": "passed"
+    },
+    {
+      "name": "desktop: Inter font loaded",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: six project cards and five dock icons",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: all images loaded",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: no page overflow and all controls visible",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 1 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 2 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 3 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 4 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 5 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: project 6 opens full image",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: About Me opens",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: Notes opens",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: external dock links",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: touch dragging moves card without opening",
+      "status": "passed"
+    },
+    {
+      "name": "mobile: Inter font loaded",
+      "status": "passed"
+    },
+    {
+      "name": "Browser exceptions, console errors, HTTP errors and failed requests",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "All 12 source assets copied to dist and matched manifest",
+      "status": "passed"
+    },
+    {
+      "name": "Dependency audit",
+      "status": "passed",
+      "vulnerabilities": 0
+    },
+    {
+      "name": "Visual screenshot review",
+      "status": "passed",
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ]
+    }
+  ],
+  "asset_issues": [],
+  "screenshots": [
+    "screenshots/desktop.png",
+    "screenshots/mobile.png",
+    "screenshots/desktop-project.png",
+    "screenshots/mobile-project.png"
+  ],
+  "notes": [
+    "Ready for management review; not deployed or published.",
+    "Built only this project using React, Vite, TypeScript and Tailwind with inline component styles and no JSX utility classes.",
+    "All supplied image assets are mirrored locally with original URLs and SHA-256 hashes in asset-manifest.json. Google Fonts remains external and loaded in both browser checks.",
+    "Below 640px, cards use a two-column arrangement to keep all six projects visible; desktop uses the specified anchors.",
+    "About Me and Notes use brief editorial copy because body content was not specified. Project modals display the provided images.",
+    "Mouse and touch dragging supported; positions reset on reload.",
+    "No agents, other sessions, pushes, deployments or external messages were used."
+  ]
+}

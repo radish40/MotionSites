@@ -1,0 +1,117 @@
+[
+  {
+    "viewport": "1440x1000",
+    "status": "passed",
+    "media": [
+      {
+        "id": "v1",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "duration": 8
+      },
+      {
+        "id": "v2",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "duration": 8
+      },
+      {
+        "id": "v3",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "duration": 8
+      }
+    ],
+    "initialPixels": [
+      67,
+      31,
+      30,
+      255
+    ],
+    "script_errors": [],
+    "request_failures": [],
+    "canceled_media_requests": [
+      "http://localhost:4173/motionsites-results/bl/assets/202606101700_hglz7q.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101702_sd50y0.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101700_hglz7q.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101702_sd50y0.mp4: net::ERR_ABORTED"
+    ],
+    "checks": [
+      "initial canvas frame",
+      "fonts loaded",
+      "no horizontal overflow at all stages",
+      "CTA scroll",
+      "all feature cards",
+      "three mission stages",
+      "contact navigation",
+      "required email validation",
+      "successful form state",
+      "contact deep link"
+    ]
+  },
+  {
+    "viewport": "390x844",
+    "status": "passed",
+    "media": [
+      {
+        "id": "v1",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "duration": 8
+      },
+      {
+        "id": "v2",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "duration": 8
+      },
+      {
+        "id": "v3",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "duration": 8
+      }
+    ],
+    "initialPixels": [
+      68,
+      30,
+      31,
+      255
+    ],
+    "script_errors": [],
+    "request_failures": [],
+    "canceled_media_requests": [
+      "http://localhost:4173/motionsites-results/bl/assets/202606101700_hglz7q.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101702_sd50y0.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101700_hglz7q.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+      "http://localhost:4173/motionsites-results/bl/assets/202606101702_sd50y0.mp4: net::ERR_ABORTED"
+    ],
+    "checks": [
+      "initial canvas frame",
+      "fonts loaded",
+      "no horizontal overflow at all stages",
+      "CTA scroll",
+      "all feature cards",
+      "three mission stages",
+      "contact navigation",
+      "required email validation",
+      "successful form state",
+      "contact deep link",
+      "menu open/close",
+      "Escape dismissal",
+      "last feature card reachable"
+    ]
+  }
+]

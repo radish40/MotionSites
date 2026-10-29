@@ -1,0 +1,10 @@
+{
+  "name": "bloom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bloom cyber-botanical scroll experience",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs"
+  }
+}

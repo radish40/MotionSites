@@ -1,0 +1,146 @@
+{
+  "title": "Bloom",
+  "id": "bl",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed; real Node 22 static build",
+    "dist_index": "dist/index.html exists",
+    "source_output_integrity": "passed; all source and asset bytes match dist",
+    "browser": [
+      {
+        "viewport": "1440x1000",
+        "status": "passed",
+        "media": [
+          {
+            "id": "v1",
+            "readyState": 4,
+            "width": 1920,
+            "height": 1080,
+            "duration": 8
+          },
+          {
+            "id": "v2",
+            "readyState": 4,
+            "width": 1920,
+            "height": 1080,
+            "duration": 8
+          },
+          {
+            "id": "v3",
+            "readyState": 4,
+            "width": 1920,
+            "height": 1080,
+            "duration": 8
+          }
+        ],
+        "initialPixels": [
+          67,
+          31,
+          30,
+          255
+        ],
+        "script_errors": [],
+        "request_failures": [],
+        "canceled_media_requests": [
+          "http://localhost:4173/motionsites-results/bl/assets/202606101700_hglz7q.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101702_sd50y0.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101700_hglz7q.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101702_sd50y0.mp4: net::ERR_ABORTED"
+        ],
+        "checks": [
+          "initial canvas frame",
+          "fonts loaded",
+          "no horizontal overflow at all stages",
+          "CTA scroll",
+          "all feature cards",
+          "three mission stages",
+          "contact navigation",
+          "required email validation",
+          "successful form state",
+          "contact deep link"
+        ]
+      },
+      {
+        "viewport": "390x844",
+        "status": "passed",
+        "media": [
+          {
+            "id": "v1",
+            "readyState": 4,
+            "width": 1920,
+            "height": 1080,
+            "duration": 8
+          },
+          {
+            "id": "v2",
+            "readyState": 4,
+            "width": 1920,
+            "height": 1080,
+            "duration": 8
+          },
+          {
+            "id": "v3",
+            "readyState": 4,
+            "width": 1920,
+            "height": 1080,
+            "duration": 8
+          }
+        ],
+        "initialPixels": [
+          68,
+          30,
+          31,
+          255
+        ],
+        "script_errors": [],
+        "request_failures": [],
+        "canceled_media_requests": [
+          "http://localhost:4173/motionsites-results/bl/assets/202606101700_hglz7q.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101702_sd50y0.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101700_hglz7q.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101703_jmidj2.mp4: net::ERR_ABORTED",
+          "http://localhost:4173/motionsites-results/bl/assets/202606101702_sd50y0.mp4: net::ERR_ABORTED"
+        ],
+        "checks": [
+          "initial canvas frame",
+          "fonts loaded",
+          "no horizontal overflow at all stages",
+          "CTA scroll",
+          "all feature cards",
+          "three mission stages",
+          "contact navigation",
+          "required email validation",
+          "successful form state",
+          "contact deep link",
+          "menu open/close",
+          "Escape dismissal",
+          "last feature card reachable"
+        ]
+      }
+    ],
+    "screenshots": {
+      "desktop": "screenshots/desktop.png",
+      "desktop_size": "1440x1000",
+      "mobile": "screenshots/mobile.png",
+      "mobile_size": "390x844"
+    },
+    "visual_review": "desktop, mobile, feature, and mobile menu screenshots inspected"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Native HTML/CSS/JavaScript, as supplied in PROMPT.md.",
+    "All three original 1920x1080 eight-second videos and all four font families are bundled locally.",
+    "Static resource paths support /motionsites-results/bl/.",
+    "Navigation links map to existing scroll stages; mobile menu stacking, accessibility, and initial canvas readiness repaired.",
+    "Expected Chromium video range cancellations during seeking/reload are recorded separately in browser-checks.json; all videos decode and have no media errors.",
+    "The email form provides only the supplied local success state; it does not send email or persist subscriptions.",
+    "Validated in Chromium at two viewport sizes; physical mobile hardware was not tested.",
+    "Ready for management acceptance; not deployed or pushed."
+  ]
+}

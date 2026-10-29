@@ -1,0 +1,32 @@
+{
+  "title": "Arceage Stats",
+  "id": "arceage-stats",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/arceage-stats/",
+    "desktop": { "viewport": "1440x1000", "status": "passed", "screenshot": "screenshots/desktop.png" },
+    "mobile": { "viewport": "390x844", "status": "passed", "screenshot": "screenshots/mobile.png", "full_page": true },
+    "typewriter_reveal": "passed",
+    "animated_counters": "passed; all five final values verified, retained on repeat scroll",
+    "video": "passed; loaded, playing, advancing, muted, looping, inline",
+    "fonts": "passed; Barlow and Instrument Serif loaded",
+    "responsive_layout": "passed; desktop row and mobile column",
+    "horizontal_overflow": "none at tested viewports; internal section scrollLeft also zero",
+    "browser_script_errors": [],
+    "browser_console_errors": [],
+    "final_failed_requests": [],
+    "visual_review": "desktop and mobile screenshots inspected",
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Uses the required React 19, Tailwind CSS v4, Motion and Vite stack; package-lock.json preserved.",
+    "Uses the exact supplied external font import, logo path and MP4 URL; runtime connectivity is required for those assets.",
+    "Left flex column adds min-w-0 to avoid intrinsic-width scrolling while retaining the prescribed layout values.",
+    "Build log includes harmless dependency use-client directive warnings.",
+    "A preliminary pass observed an aborted video request while playback succeeded; final checks had no failed requests.",
+    "Ready for review only. No deployment, push, other sessions, agents or messages."
+  ]
+}

@@ -3226,14 +3226,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18626-8fb9-7f60-83a6-c1e0e5eca1c7",
       "output_path": "generated/gpt-6.1-sol-high/book-hero",
       "validation": "",
       "notes": "",
       "process_id": 2881661,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:33:56.461446+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 96,
@@ -3252,14 +3256,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18626-9071-7de2-ae01-021a5e6fbf47",
       "output_path": "generated/gpt-6.1-sol-high/bookedup",
       "validation": "",
       "notes": "",
       "process_id": 2881707,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:33:56.573155+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 97,
@@ -9510,5 +9518,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:34:56.827317+00:00"
+  "updated_utc": "2026-10-29T05:35:49.431251+00:00"
 }

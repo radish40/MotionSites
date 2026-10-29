@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/dm-sans-400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/dm-sans-500.ttf') format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { margin: 0; background: #0f0f0f; }
+body { min-width: 280px; }
+.desktop-grid { grid-template-rows: repeat(10, minmax(46px, auto)); }
+
+/* The specified dots retain their desktop size while fitting narrow tablet cards. */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .dot-chart { gap: 1px; }
+  .dot-chart > div { flex: 1; min-width: 0; }
+  .dot-chart .dot { width: 100%; }
+}

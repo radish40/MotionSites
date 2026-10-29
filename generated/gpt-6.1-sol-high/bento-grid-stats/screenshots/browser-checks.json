@@ -1,0 +1,282 @@
+{
+  "url": "/motionsites-results/bento-grid-stats/",
+  "errors": [],
+  "failedRequests": [],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "fontLoaded": true,
+      "imageLoaded": true,
+      "cards": [
+        {
+          "name": "header",
+          "x": 80,
+          "y": 128,
+          "width": 416,
+          "height": 240.5625,
+          "opacity": "1"
+        },
+        {
+          "name": "income",
+          "x": 80,
+          "y": 384.5625,
+          "width": 416,
+          "height": 522.9375,
+          "opacity": "1"
+        },
+        {
+          "name": "speed",
+          "x": 512,
+          "y": 128,
+          "width": 416,
+          "height": 383.5,
+          "opacity": "1"
+        },
+        {
+          "name": "text",
+          "x": 944,
+          "y": 128,
+          "width": 416,
+          "height": 240.5625,
+          "opacity": "1"
+        },
+        {
+          "name": "projects",
+          "x": 944,
+          "y": 384.5625,
+          "width": 416,
+          "height": 522.9375,
+          "opacity": "1"
+        },
+        {
+          "name": "photo",
+          "x": 512,
+          "y": 527.5,
+          "width": 416,
+          "height": 380,
+          "opacity": "1"
+        }
+      ],
+      "dotColumns": 26,
+      "dotCells": 390,
+      "decorativePlusSigns": 2,
+      "passed": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "fontLoaded": true,
+      "imageLoaded": true,
+      "cards": [
+        {
+          "name": "header",
+          "x": 24,
+          "y": 96,
+          "width": 342,
+          "height": 144.109375,
+          "opacity": "1"
+        },
+        {
+          "name": "income",
+          "x": 24,
+          "y": 256.109375,
+          "width": 342,
+          "height": 272.671875,
+          "opacity": "1"
+        },
+        {
+          "name": "speed",
+          "x": 24,
+          "y": 544.78125,
+          "width": 342,
+          "height": 359.5,
+          "opacity": "1"
+        },
+        {
+          "name": "text",
+          "x": 24,
+          "y": 920.28125,
+          "width": 342,
+          "height": 262.65625,
+          "opacity": "1"
+        },
+        {
+          "name": "projects",
+          "x": 24,
+          "y": 1198.9375,
+          "width": 342,
+          "height": 275.078125,
+          "opacity": "1"
+        },
+        {
+          "name": "photo",
+          "x": 24,
+          "y": 1490.015625,
+          "width": 342,
+          "height": 380,
+          "opacity": "1"
+        }
+      ],
+      "dotColumns": 26,
+      "dotCells": 390,
+      "decorativePlusSigns": 2,
+      "passed": true
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024,
+      "pageWidth": 768,
+      "viewportWidth": 768,
+      "fontLoaded": true,
+      "imageLoaded": true,
+      "cards": [
+        {
+          "name": "header",
+          "x": 40,
+          "y": 96,
+          "width": 218.65625,
+          "height": 351.03125,
+          "opacity": "1"
+        },
+        {
+          "name": "income",
+          "x": 40,
+          "y": 463.03125,
+          "width": 218.65625,
+          "height": 442,
+          "opacity": "1"
+        },
+        {
+          "name": "speed",
+          "x": 274.65625,
+          "y": 96,
+          "width": 218.671875,
+          "height": 413.03125,
+          "opacity": "1"
+        },
+        {
+          "name": "text",
+          "x": 509.328125,
+          "y": 96,
+          "width": 218.671875,
+          "height": 351.03125,
+          "opacity": "1"
+        },
+        {
+          "name": "projects",
+          "x": 509.328125,
+          "y": 463.03125,
+          "width": 218.671875,
+          "height": 442,
+          "opacity": "1"
+        },
+        {
+          "name": "photo",
+          "x": 274.65625,
+          "y": 525.03125,
+          "width": 218.671875,
+          "height": 380,
+          "opacity": "1"
+        }
+      ],
+      "dotColumns": 26,
+      "dotCells": 390,
+      "decorativePlusSigns": 2,
+      "passed": true
+    },
+    {
+      "name": "small-mobile",
+      "width": 320,
+      "height": 800,
+      "pageWidth": 320,
+      "viewportWidth": 320,
+      "fontLoaded": true,
+      "imageLoaded": true,
+      "cards": [
+        {
+          "name": "header",
+          "x": 24,
+          "y": 96,
+          "width": 272,
+          "height": 144.109375,
+          "opacity": "1"
+        },
+        {
+          "name": "income",
+          "x": 24,
+          "y": 256.109375,
+          "width": 272,
+          "height": 290.546875,
+          "opacity": "1"
+        },
+        {
+          "name": "speed",
+          "x": 24,
+          "y": 562.65625,
+          "width": 272,
+          "height": 337.890625,
+          "opacity": "1"
+        },
+        {
+          "name": "text",
+          "x": 24,
+          "y": 916.546875,
+          "width": 272,
+          "height": 284.75,
+          "opacity": "1"
+        },
+        {
+          "name": "projects",
+          "x": 24,
+          "y": 1217.296875,
+          "width": 272,
+          "height": 275.078125,
+          "opacity": "1"
+        },
+        {
+          "name": "photo",
+          "x": 24,
+          "y": 1508.375,
+          "width": 272,
+          "height": 380,
+          "opacity": "1"
+        }
+      ],
+      "dotColumns": 26,
+      "dotCells": 390,
+      "decorativePlusSigns": 2,
+      "passed": true
+    }
+  ],
+  "interactions": [
+    {
+      "name": "desktop: all scroll entrances finish and remain visible",
+      "passed": true
+    },
+    {
+      "name": "Offscreen mobile photo waits for scroll",
+      "passed": true
+    },
+    {
+      "name": "mobile: all scroll entrances finish and remain visible",
+      "passed": true
+    },
+    {
+      "name": "tablet: all scroll entrances finish and remain visible",
+      "passed": true
+    },
+    {
+      "name": "small-mobile: all scroll entrances finish and remain visible",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Bento Grid Stats",
+  "id": "bento-grid-stats",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.npm-home -e npm_config_cache=/work/.npm-cache -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "stack": "React 18, TypeScript, Tailwind CSS 3, Framer Motion 12",
+    "publication_base": "/motionsites-results/bento-grid-stats/",
+    "browser": "Chromium via existing playwright-core",
+    "desktop_1440x1000": "passed",
+    "mobile_390x844": "passed",
+    "tablet_768x1024": "passed",
+    "small_mobile_320x800": "passed",
+    "scroll_animations": "passed: offscreen trigger, completion, and once-only persistence",
+    "horizontal_overflow": "none at all four tested sizes",
+    "script_and_console_errors": 0,
+    "failed_asset_requests": 0,
+    "font_and_photo_loading": "passed",
+    "visual_review": "desktop and mobile screenshots reviewed",
+    "evidence": "screenshots/browser-checks.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact specified Pexels image and Google Fonts DM Sans 400/500 assets downloaded and served locally.",
+    "Decorative plus signs follow the required span markup; no additional click actions were added.",
+    "At tablet widths 768–1023px, chart dots adapt horizontally to fit the specified desktop columns.",
+    "Vite reports non-fatal ignored use-client directive warnings from Framer Motion.",
+    "Source, lockfile, production build, browser evidence, and documentation are included; node_modules is excluded.",
+    "Ready means ready for review; nothing was pushed or deployed."
+  ]
+}

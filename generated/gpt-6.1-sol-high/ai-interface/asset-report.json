@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "file": "public/assets/cortex-tech.webp",
+      "bytes": 61288,
+      "sha256": "2adb59622919fa7123f46cc489d6f3c48a329206f93abcb7424e8e9cbeeb2500",
+      "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260706_102306_b64c5436-04bc-4cb4-83c1-8c83a83a285c.png&w=1920&q=85",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/cortex.mp4",
+      "bytes": 7921166,
+      "sha256": "9eab879bb15c22439c097f283c55d53c1f8379a00357a7103352e3871fdbf82e",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_39ca84eAE1ODL9hbR5VhoEj8tBf/hf_20260704_111356_a61893e1-7df9-45d6-a986-a651b6cb7392.mp4",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/inter-tight-300.ttf",
+      "bytes": 298720,
+      "sha256": "ec12a8fe0f32e6d717b09c0c930106b9b90a9146338eaab5bc274cb1323ae6ae",
+      "source": "Google Fonts: Inter Tight (exact weights from prompt)",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/inter-tight-400.ttf",
+      "bytes": 298260,
+      "sha256": "27350bc95b961b9b4e1a80d872f49e903fe727f290f6b2a079e67ceb1685fb1f",
+      "source": "Google Fonts: Inter Tight (exact weights from prompt)",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/inter-tight-500.ttf",
+      "bytes": 301472,
+      "sha256": "c2a4bdafb30500a3bd0843f95ad659ad38492f025837803e6a8ef8672c575e8e",
+      "source": "Google Fonts: Inter Tight (exact weights from prompt)",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/inter-tight-600.ttf",
+      "bytes": 302212,
+      "sha256": "a40a1fdc93cadcbb0e3ba16d6010988118a1a3add06a097330b09cb41c2b8d45",
+      "source": "Google Fonts: Inter Tight (exact weights from prompt)",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/inter-tight-700.ttf",
+      "bytes": 302808,
+      "sha256": "98272f3512338c52940816f5db61966ca1cdbc3cdb3c0d981da22612723da59e",
+      "source": "Google Fonts: Inter Tight (exact weights from prompt)",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/inter-tight-900.ttf",
+      "bytes": 303808,
+      "sha256": "3dc8f19486c0960b95e19009a879b9ac7eba969548a61f400cbaec00ea06731a",
+      "source": "Google Fonts: Inter Tight (exact weights from prompt)",
+      "status": "downloaded; served locally"
+    }
+  ],
+  "issues": [],
+  "notes": [
+    "Initial Python HTTP download stalled; curl successfully retrieved the supplied media and fonts. No substituted assets."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "AI Interface",
+  "id": "ai-interface",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": {
+      "passed": true,
+      "output": "dist/index.html",
+      "log": "build.log",
+      "base": "/motionsites-results/ai-interface/"
+    },
+    "browser": {
+      "passed": true,
+      "engine": "Chromium via Playwright",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "report": "browser-checks.json"
+    },
+    "interactions": {
+      "passed": true,
+      "tested": [
+        "Discover Cortex",
+        "Cortex navigation",
+        "Interface navigation",
+        "Developer navigation and target visibility",
+        "Support navigation and target visibility",
+        "Capability link to interface",
+        "Scroll-scrubbed video",
+        "All three animated interface stages"
+      ]
+    },
+    "script_errors": 0,
+    "failed_requests": 0,
+    "horizontal_overflow": false,
+    "local_assets": {
+      "passed": true,
+      "report": "asset-report.json",
+      "fonts": "Inter Tight 300/400/500/600/700/900",
+      "media": "Exact supplied video and background image"
+    },
+    "dependency_audit": {
+      "passed": true,
+      "vulnerabilities": 0,
+      "report": "npm-audit.json"
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-about.png",
+      "screenshots/mobile-about.png",
+      "screenshots/desktop-stage-1.png",
+      "screenshots/desktop-stage-2.png",
+      "screenshots/desktop-stage-3.png",
+      "screenshots/mobile-stage-1.png",
+      "screenshots/mobile-stage-2.png",
+      "screenshots/mobile-stage-3.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Complete React 19 / Framer Motion 12.42.2 / Tailwind CSS implementation; Vite production build and dependency lockfile included.",
+    "Supplied media and fonts are served locally; no runtime CDN dependency.",
+    "Original missing fragment targets repaired using existing sections. No developer portal or support backend was supplied or added.",
+    "Responsive hero spacing and keyboard focus styling added. All original section copy and scroll animation stages retained.",
+    "Build contains harmless Framer Motion use-client directive notices; production build succeeds.",
+    "Chromium verified at requested viewport sizes; other browsers and physical devices were not tested.",
+    "Ready for management-session acceptance; no push or deployment performed."
+  ]
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  color: #08150C;
+  background: #FDF5EB;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-cooper {
+  font-family: 'Cooper BT W01 Light', 'Georgia', serif;
+}
+
+.font-cooper-medium {
+  font-family: 'Cooper BT W01 Medium', 'Cooper BT W01 Light', 'Georgia', serif;
+  font-weight: 500;
+}
+
+button:focus-visible {
+  outline: 2px solid #08150C;
+  outline-offset: 4px;
+}

@@ -1,0 +1,91 @@
+{
+  "url": "http://localhost:4173/motionsites-results/kova-testimonial/",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "initialVideoOpacity": "1",
+      "overflow": false,
+      "fonts": {
+        "light": true,
+        "medium": true,
+        "loadedFaces": [
+          {
+            "family": "Cooper BT W01 Light",
+            "status": "loaded"
+          },
+          {
+            "family": "Cooper BT W01 Medium",
+            "status": "loaded"
+          }
+        ]
+      },
+      "headingSize": "30px",
+      "quoteSize": "24px",
+      "gridColumns": "729.594px 486.391px",
+      "video": {
+        "width": 384,
+        "height": 384,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "currentTime": 3.372763,
+        "readyState": 4,
+        "error": null
+      },
+      "animation": "1",
+      "buttonHover": "passed",
+      "buttonKeyboard": "passed",
+      "animationOnce": "passed",
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "initialVideoOpacity": "1",
+      "overflow": false,
+      "fonts": {
+        "light": true,
+        "medium": true,
+        "loadedFaces": [
+          {
+            "family": "Cooper BT W01 Light",
+            "status": "loaded"
+          },
+          {
+            "family": "Cooper BT W01 Medium",
+            "status": "loaded"
+          }
+        ]
+      },
+      "headingSize": "24px",
+      "quoteSize": "18px",
+      "gridColumns": "350px",
+      "video": {
+        "width": 320,
+        "height": 320,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "currentTime": 3.419295,
+        "readyState": 4,
+        "error": null
+      },
+      "animation": "1",
+      "buttonHover": "passed",
+      "buttonKeyboard": "passed",
+      "animationOnce": "passed",
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "scrollTrigger": "passed: offscreen video stays hidden until scrolled into view",
+  "status": "passed"
+}

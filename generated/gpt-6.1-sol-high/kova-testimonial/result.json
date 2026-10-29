@@ -1,0 +1,31 @@
+{
+  "title": "Kova Testimonial",
+  "id": "kova-testimonial",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.npm-home -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --cache /work/.npm-cache && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/kova-testimonial/",
+    "desktop": "passed: Chromium, 1440x1000",
+    "mobile": "passed: Chromium, 390x844",
+    "fonts": "passed: both supplied Cooper faces loaded",
+    "video": "passed: loaded, autoplaying, muted, looping, playsInline, square",
+    "interactions": "passed: button hover and keyboard focus/activation; scroll-triggered animation and once behavior",
+    "overflow": "none at both required viewport sizes",
+    "script_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "browser_report": "screenshots/browser-report.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "visual_review": "completed for desktop and mobile screenshots"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built only the section described in PROMPT.md with React, TypeScript, Tailwind CSS 3, and Framer Motion.",
+    "Exact external font links and video source retained; network access is required.",
+    "All Stories has no specified destination; button styling and keyboard support are present without added navigation.",
+    "Screenshots capture the supplied video at 1.5 seconds for repeatability; the application video loops normally.",
+    "Source, lockfile, static dist, browser checks, screenshots, and README are included. node_modules is not included.",
+    "No deployment, push, other design work, or additional sessions were performed."
+  ]
+}

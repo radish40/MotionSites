@@ -1,0 +1,73 @@
+{
+  "checks": [
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x1000",
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "card": {
+          "x": 272,
+          "y": 170,
+          "width": 896,
+          "height": 660,
+          "top": 170,
+          "right": 1168,
+          "bottom": 830,
+          "left": 272
+        },
+        "video": {
+          "width": 1920,
+          "height": 1080,
+          "playing": true,
+          "time": 3.500716,
+          "muted": true
+        }
+      },
+      "screenshot": "screenshots/desktop.png",
+      "interactions": "passed: required email, password visibility, agreement, submit, three social buttons, three links, dismiss notices"
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "card": {
+          "x": 16,
+          "y": 155.875,
+          "width": 358,
+          "height": 532.25,
+          "top": 155.875,
+          "right": 374,
+          "bottom": 688.125,
+          "left": 16
+        },
+        "video": {
+          "width": 1920,
+          "height": 1080,
+          "playing": true,
+          "time": 3.669774,
+          "muted": true
+        }
+      },
+      "screenshot": "screenshots/mobile.png",
+      "interactions": "passed: required email, password visibility, agreement, submit, three social buttons, three links, dismiss notices"
+    }
+  ],
+  "scriptErrors": [],
+  "failedRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_191911_e7dc783e-a580-4974-8971-9796ecffd3bd.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_191911_e7dc783e-a580-4974-8971-9796ecffd3bd.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

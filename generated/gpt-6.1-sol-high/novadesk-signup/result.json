@@ -1,0 +1,28 @@
+{
+  "title": "NovaDesk Signup",
+  "id": "novadesk-signup",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities reported during installation",
+    "desktop": "passed: Chromium 1440x1000; centered 896x660 card; no layout overflow",
+    "mobile": "passed: Chromium 390x844; 358px single-column card; no layout overflow",
+    "video": "passed: exact URL, 1920x1080 decoded video, muted autoplay playing on both viewports",
+    "interactions": "passed on both viewports: native required email validation, show/hide password, checkbox, valid submit feedback, Google/Apple/Twitter preview feedback, Rules/Privacy Notice/Enter feedback, dismissal",
+    "script_errors": [],
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "No unavailable assets. The browser request log includes two net::ERR_ABORTED video stream requests; the video successfully decoded and played in both viewports. Full request records are preserved in screenshots/checks.json.",
+    "The specified MP4 is loaded from its exact external URL and requires network access at runtime."
+  ],
+  "notes": [
+    "React + TypeScript + Tailwind CSS + Vite; lucide-react interface icons; supplied custom SVG brand; system fonts.",
+    "The written prompt's Sign up heading is used despite the reference image showing Join us.",
+    "Authentication, OAuth, legal documents, and existing-account destinations were not supplied; actions show explicit preview-only feedback and do not claim account creation.",
+    "Only NovaDesk Signup was implemented. No agents, other sessions, deployment, push, or messages were used.",
+    "Ready means ready for review, not deployed."
+  ]
+}

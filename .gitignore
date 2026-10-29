@@ -1,5 +1,8 @@
 # Node / dependencies
 node_modules/
+venv/
+.venv/
+*.whl
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

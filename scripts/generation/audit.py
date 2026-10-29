@@ -89,7 +89,9 @@ def verify(job, titles, ancestors):
         required=[root/'PROMPT.md',root/'README.md']
         required += [p for p in root.iterdir() if p.is_file() and p.suffix in ('.html','.json','.js','.jsx','.cjs','.mjs','.ts','.tsx','.css')]
         for directory in ('src','app','pages','components','public','assets','scripts','lib','hooks','styles'):
-            if (root/directory).is_dir():required += [p for p in (root/directory).rglob('*') if p.is_file()]
+            if (root/directory).is_dir():required += [p for p in (root/directory).rglob('*') if p.is_file()
+                and not any(part in ('venv','.venv','__pycache__') for part in p.relative_to(root).parts)
+                and p.suffix not in ('.whl','.pyc')]
         checks['source_files_committed']=all(str(p.relative_to(manage.ROOT)) in committed for p in required)
         checks['committed_source_bytes']=all(object_id(p.read_bytes())==committed.get(str(p.relative_to(manage.ROOT))) for p in required)
         # Source must be committed. Build artifacts may legitimately be ignored by a project.

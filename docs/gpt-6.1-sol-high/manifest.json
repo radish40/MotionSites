@@ -6098,19 +6098,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18698-a9e3-7600-93bb-2208ed36d89b",
       "output_path": "generated/gpt-6.1-sol-high/nike-hover",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3303527,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:38:34.228730+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "04fcc1bf51640f3d879012f7b6120307dd2dd7b3",
+      "url": "https://tool.luo-xd.com/motionsites-results/nike-hover/",
+      "completed_utc": "2026-10-29T07:47:47.850097+00:00",
+      "group_message_id": 236
     },
     {
       "number": 179,
@@ -6226,19 +6230,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1869d-a35f-7a91-8593-0220d4fda13b",
       "output_path": "generated/gpt-6.1-sol-high/nimbus-pricing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3323076,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:44:00.252884+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "3a3f86fb3233605b300b801fd9c5a0d09995a7ea",
+      "url": "https://tool.luo-xd.com/motionsites-results/nimbus-pricing/",
+      "completed_utc": "2026-10-29T07:48:12.547633+00:00",
+      "group_message_id": 237
     },
     {
       "number": 183,
@@ -6257,14 +6265,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1869e-fade-73f1-a1c8-01d1255116b9",
       "output_path": "generated/gpt-6.1-sol-high/nimbus-security",
       "validation": "",
       "notes": "",
       "process_id": 3329126,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:45:28.133878+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 184,
@@ -6283,14 +6295,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1869e-fba4-7f43-b223-3e574b3c81a2",
       "output_path": "generated/gpt-6.1-sol-high/nimbus-sticky-cards",
       "validation": "",
       "notes": "",
       "process_id": 3329154,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:45:28.268257+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 185,
@@ -6308,11 +6324,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/no-code-waitlist",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3337564,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:47:20.312226+00:00",
+      "worker_state": "running"
     },
     {
       "number": 186,
@@ -6330,11 +6350,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/novadesk-signup",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3337600,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:47:20.437282+00:00",
+      "worker_state": "running"
     },
     {
       "number": 187,
@@ -10605,7 +10629,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:46:47.224356+00:00",
+  "updated_utc": "2026-10-29T07:48:12.717328+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

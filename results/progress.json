@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:06:57.335287+00:00",
+  "updated_utc": "2026-10-29T06:08:45.319154+00:00",
   "total": 380,
   "counts": {
-    "complete": 114,
+    "complete": 115,
     "running": 5,
-    "not_started": 261
+    "not_started": 260
   },
   "jobs": [
     {
@@ -1151,11 +1151,11 @@
       "id": "dashboard",
       "title": "Dashboard UI",
       "category": "Dashboards",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1863f-c52f-7d50-ae79-3d8b93225dbf",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "2aebf8d11676197c558eba5121914fd09600f5a7",
+      "group_message_id": 167,
+      "url": "https://tool.luo-xd.com/motionsites-results/dashboard/"
     },
     {
       "id": "digital-experiences",
@@ -1182,7 +1182,7 @@
       "title": "Editorial Collection CTA",
       "category": "CTA Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18643-d3f6-7d42-a775-1bf91a0258c2",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1192,7 +1192,7 @@
       "title": "Email Landing Page",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18643-d4c4-70c3-9369-b9214968c073",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1201,7 +1201,7 @@
       "id": "equilibrium",
       "title": "Equilibrium",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

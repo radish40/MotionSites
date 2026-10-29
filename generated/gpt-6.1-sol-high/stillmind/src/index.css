@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url('../public/assets/instrument-serif-regular.ttf') format('truetype'); }
+@font-face { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; font-display: swap; src: url('../public/assets/instrument-serif-italic.ttf') format('truetype'); }
+
+:root { font-family: 'Instrument Serif', serif; color: white; background: #111; font-synthesis: none; -webkit-font-smoothing: antialiased; }
+html, body, #root { width: 100%; height: 100%; margin: 0; overflow: hidden; font-family: 'Instrument Serif', serif; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+button, a { touch-action: manipulation; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible, [tabindex="-1"]:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.scene { height: 100svh; min-height: 0; }
+.scene-video { pointer-events: none; }
+.train-overlay { animation: train-bob 3s ease-in-out infinite; }
+@keyframes train-bob { 0%, 100% { transform: translateY(0) scale(1.03); } 50% { transform: translateY(-6px) scale(1.03); } }
+.liquid-glass { background: rgba(255,255,255,0.01); background-blend-mode: luminosity; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); border: none; box-shadow: inset 0 1px 1px rgba(255,255,255,0.1); position: relative; overflow: hidden; }
+.liquid-glass::before { content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1.4px; background: linear-gradient(180deg,rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.15) 20%,rgba(255,255,255,0) 40%,rgba(255,255,255,0) 60%,rgba(255,255,255,0.15) 80%,rgba(255,255,255,0.45) 100%); -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none; }
+.navigation { padding: 30px 44px; flex-shrink: 0; }
+.brand { line-height: 1; letter-spacing: -.5px; }
+.desktop-nav { padding: 5px 5px 5px 13px; gap: 2px; }
+.nav-link { padding: 10px 17px; transition: color .2s; }
+.white-button { background: #fff; color: #263027; font-size: 12px; font-weight: 500; white-space: nowrap; transition: background .2s, transform .2s; }
+.white-button:hover { background: #eeeae4; }
+.white-button:active { transform: scale(.97); }
+.nav-cta { padding: 12px 22px; margin-left: 8px; }
+.hero { color: #fff; padding: 0 24px 50px; min-height: 0; transition: color 700ms ease-in-out; }
+.hero.dark-ink { color: #182C41; }
+.community-badge { padding: 9px 18px; font-size: 11px; line-height: 18px; margin-bottom: 25px; }
+.hero-heading { margin: 0; line-height: 1.1; font-weight: 400; letter-spacing: -1.5px; }
+.hero-subtext { font-size: 14px; opacity: .85; margin-top: 24px; max-width: 36rem; }
+.email-form { margin-top: 30px; padding: 5px; min-height: 48px; }
+.email-form input { width: 0; flex: 1; min-width: 0; padding: 9px 14px; background: transparent; color: inherit; border: 0; font-size: 12px; outline-offset: -2px; border-radius: 30px; }
+.email-form input::placeholder { color: inherit; opacity: .65; }
+.email-form .white-button { padding: 11px 19px; }
+.confirmation { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; font-size: 12px; padding: 8px; }
+.video-switcher { margin-top: 32px; gap: 25px; }
+.scene-button { font-size: 11px; padding: 7px 0; border-bottom: 1px solid transparent; opacity: .5; white-space: nowrap; transition: opacity .2s, border-color .3s; }
+.scene-button:hover { opacity: .8; }
+.scene-button.is-active { opacity: 1; border-bottom-color: currentColor; }
+.stats { padding: 0 24px 37px; flex-shrink: 0; gap: 0; letter-spacing: .05px; }
+.stat-item { display: inline-flex; align-items: center; white-space: nowrap; }
+.stat-divider { opacity: .35; margin: 0 29px; }
+.mobile-menu-button { position: absolute; top: 23px; right: 24px; z-index: 60; width: 42px; height: 42px; color: white; }
+.menu-icon, .close-icon { position: absolute; top: 10px; left: 10px; transition: transform 300ms, opacity 300ms; }
+.close-icon { opacity: 0; transform: rotate(-90deg) scale(.75); }
+.is-open .menu-icon { opacity: 0; transform: rotate(90deg) scale(.75); }
+.is-open .close-icon { opacity: 1; transform: rotate(0) scale(1); }
+.mobile-menu { display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 500ms cubic-bezier(.4,0,.2,1), visibility 500ms; }
+.mobile-menu.is-open { opacity: 1; visibility: visible; pointer-events: auto; }
+.mobile-menu nav { gap: 27px; }
+.mobile-link { opacity: 0; transform: translateY(16px); transition: opacity 500ms cubic-bezier(.4,0,.2,1), transform 500ms cubic-bezier(.4,0,.2,1); }
+.is-open .mobile-link { opacity: 1; transform: translateY(0); }
+.mobile-cta { padding: 14px 32px; margin-top: 12px; transform: translateY(16px) scale(.9); }
+@media (max-width: 767px) {
+ .navigation { padding: 32px 24px; min-height: 87px; }
+ .hero { padding: 0 20px 35px; }
+ .community-badge { font-size: 9px; padding: 7px 13px; margin-bottom: 24px; }
+ .hero-heading { letter-spacing: -.5px; }
+ .hero-subtext { font-size: 12px; max-width: 310px; margin-top: 22px; line-height: 1.8; }
+ .email-form { margin-top: 27px; }
+ .email-form input { padding-left: 12px; font-size: 11px; }
+ .email-form .white-button { font-size: 11px; padding: 11px 16px; }
+ .video-switcher { margin-top: 25px; gap: 19px; }
+ .scene-button { font-size: 10px; }
+ .stats { gap: 12px 20px; padding: 0 26px 28px; max-width: 390px; align-self: center; font-size: 10px; }
+}
+@media (min-width: 768px) { .mobile-menu { display: none; } }
+@media (max-height: 650px) {
+ .navigation { padding-top: 18px; padding-bottom: 18px; min-height: 65px; }
+ .mobile-menu-button { top: 13px; }
+ .hero { padding-bottom: 12px; }
+ .community-badge { margin-bottom: 12px; padding-top: 5px; padding-bottom: 5px; }
+ .hero-heading { font-size: clamp(32px, 7vh, 64px); }
+ .hero-subtext { margin-top: 12px; font-size: 11px; }
+ .email-form { margin-top: 16px; min-height: 42px; }
+ .video-switcher { margin-top: 12px; }
+ .stats { padding-bottom: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .train-overlay { animation: none; transform: scale(1.03); }
+ .scene-video, .hero, .mobile-menu, .mobile-link, .menu-icon, .close-icon { transition-duration: .01ms; }
+}

@@ -1,0 +1,245 @@
+{
+  "title": "Stillmind",
+  "id": "stillmind",
+  "status": "ready",
+  "page_brand": "Lumora",
+  "publish_path": "/motionsites-results/stillmind/",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm run build'",
+  "checks": [
+    {
+      "name": "Production build",
+      "status": "passed",
+      "detail": "TypeScript and Vite build completed; dist/index.html and all local assets exist."
+    },
+    {
+      "name": "Four original videos play",
+      "status": "passed",
+      "detail": [
+        {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "paused": false,
+          "currentTime": 1.323763,
+          "error": null,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        },
+        {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "paused": false,
+          "currentTime": 1.439245,
+          "error": null,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        },
+        {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "paused": false,
+          "currentTime": 1.25188,
+          "error": null,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        },
+        {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "paused": false,
+          "currentTime": 1.323835,
+          "error": null,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        }
+      ]
+    },
+    {
+      "name": "Font and transparent overlay loaded",
+      "status": "passed",
+      "detail": {
+        "family": "\"Instrument Serif\", serif",
+        "loaded": true,
+        "faces": [
+          {
+            "family": "Instrument Serif",
+            "status": "unloaded",
+            "style": "italic"
+          },
+          {
+            "family": "Instrument Serif",
+            "status": "loaded",
+            "style": "italic"
+          },
+          {
+            "family": "Instrument Serif",
+            "status": "unloaded",
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Serif",
+            "status": "loaded",
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Serif",
+            "status": "loaded",
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Serif",
+            "status": "loaded",
+            "style": "italic"
+          }
+        ],
+        "overlay": 2752
+      }
+    },
+    {
+      "name": "Desktop 1440\u00d71000, no overflow",
+      "status": "passed",
+      "detail": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "hero": {
+          "x": 405.65625,
+          "y": 338.5,
+          "width": 628.671875,
+          "height": 176,
+          "top": 338.5,
+          "right": 1034.328125,
+          "bottom": 514.5,
+          "left": 405.65625
+        },
+        "footer": {
+          "x": 0,
+          "y": 943,
+          "width": 1440,
+          "height": 57,
+          "top": 943,
+          "right": 1440,
+          "bottom": 1000,
+          "left": 0
+        },
+        "form": {
+          "x": 528,
+          "y": 614,
+          "width": 384,
+          "height": 50,
+          "top": 614,
+          "right": 912,
+          "bottom": 664,
+          "left": 528
+        }
+      }
+    },
+    {
+      "name": "Scene crossfade and 1000ms click cooldown",
+      "status": "passed",
+      "detail": "Still Water remains active after immediate Quiet Dawn click."
+    },
+    {
+      "name": "Deep Woods dark hero, white navigation",
+      "status": "passed",
+      "detail": "#182C41 hero; white brand"
+    },
+    {
+      "name": "All four atmosphere controls",
+      "status": "passed",
+      "detail": "All scenes selectable; selected state and dark color reset verified."
+    },
+    {
+      "name": "Email form",
+      "status": "passed",
+      "detail": "Get Started focuses email; native validation; valid input gives local confirmation. No backend is configured."
+    },
+    {
+      "name": "Mobile 390\u00d7844, no overflow",
+      "status": "passed",
+      "detail": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "hero": {
+          "x": 65.09375,
+          "y": 291.765625,
+          "width": 259.796875,
+          "height": 79.1875,
+          "top": 291.765625,
+          "right": 324.890625,
+          "bottom": 370.953125,
+          "left": 65.09375
+        },
+        "footer": {
+          "x": 0,
+          "y": 772,
+          "width": 390,
+          "height": 72,
+          "top": 772,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "form": {
+          "x": 35,
+          "y": 484.734375,
+          "width": 320,
+          "height": 48.5,
+          "top": 484.734375,
+          "right": 355,
+          "bottom": 533.234375,
+          "left": 35
+        }
+      }
+    },
+    {
+      "name": "Mobile navigation",
+      "status": "passed",
+      "detail": "Animated menu opens and closes, 4 links render, focus is trapped, Escape closes, Get Started focuses form."
+    },
+    {
+      "name": "Navigation links",
+      "status": "passed",
+      "detail": "Each link closes the menu and focuses its related area within the single-screen design."
+    },
+    {
+      "name": "Additional responsive sizes",
+      "status": "passed",
+      "detail": "320\u00d7568, 768\u00d71024, 1440\u00d7800, 844\u00d7390: no document overflow or clipped form/footer."
+    },
+    {
+      "name": "Browser runtime errors",
+      "status": "passed",
+      "detail": []
+    }
+  ],
+  "asset_issues": [],
+  "screenshots": {
+    "desktop": "screenshots/desktop.png",
+    "mobile": "screenshots/mobile.png",
+    "deep_woods": "screenshots/deep-woods.png",
+    "mobile_menu": "screenshots/mobile-menu.png"
+  },
+  "browser_report": "screenshots/browser-report.json",
+  "verification_log": "screenshots/verification.log",
+  "verified_at": "2026-10-29T05:00:57.579380+00:00",
+  "notes": [
+    "Ready for review; no deployment or push performed.",
+    "React, Tailwind CSS, Lucide React, TypeScript and Vite. App in src/App.tsx; CSS in src/index.css.",
+    "All four original videos and original transparent PNG downloaded and bundled. Required Google Fonts link retained; matching Instrument Serif font files also bundled locally.",
+    "Email validates and displays a local acknowledgement only. No backend, persistence or mailing-list registration is configured.",
+    "Navigation focuses related areas in the specified single-viewport design; Get Started focuses the email field.",
+    "Chromium media request cancellations are retained in the browser report; all four videos decoded and played successfully.",
+    "Video assets total approximately 77 MB; all four preload and autoplay as specified."
+  ]
+}

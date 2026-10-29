@@ -1,0 +1,460 @@
+[
+  {
+    "viewport": {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    "state": {
+      "title": "NeuralKinetics — cybernetics made organic",
+      "overflowX": false,
+      "overflowY": false,
+      "fonts": {
+        "inter": true,
+        "outfit": true,
+        "loaded": [
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          }
+        ]
+      },
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 3.849575,
+        "advances": true,
+        "width": 3828,
+        "height": 2164,
+        "error": null
+      },
+      "headline": {
+        "x": 364.125,
+        "y": 452.15625,
+        "width": 711.75,
+        "height": 59.609375,
+        "top": 452.15625,
+        "right": 1075.875,
+        "bottom": 511.765625,
+        "left": 364.125
+      },
+      "buttons": [
+        {
+          "label": "Menu",
+          "x": 198.359375,
+          "y": 32,
+          "width": 107.09375,
+          "height": 46,
+          "top": 32,
+          "right": 305.453125,
+          "bottom": 78,
+          "left": 198.359375
+        },
+        {
+          "label": "Adaptive Systems",
+          "x": 1238.265625,
+          "y": 37,
+          "width": 36,
+          "height": 36,
+          "top": 37,
+          "right": 1274.265625,
+          "bottom": 73,
+          "left": 1238.265625
+        },
+        {
+          "label": "Neuromorphic",
+          "x": 1027.015625,
+          "y": 896.75,
+          "width": 127.890625,
+          "height": 47.25,
+          "top": 896.75,
+          "right": 1154.90625,
+          "bottom": 944,
+          "left": 1027.015625
+        },
+        {
+          "label": "AGI",
+          "x": 1164.90625,
+          "y": 896.75,
+          "width": 69.21875,
+          "height": 47.25,
+          "top": 896.75,
+          "right": 1234.125,
+          "bottom": 944,
+          "left": 1164.90625
+        },
+        {
+          "label": "Cybernetics",
+          "x": 1244.125,
+          "y": 896.75,
+          "width": 115.875,
+          "height": 47.25,
+          "top": 896.75,
+          "right": 1360,
+          "bottom": 944,
+          "left": 1244.125
+        }
+      ]
+    },
+    "hover": {
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)"
+    },
+    "focusOutline": {
+      "label": "Neuromorphic",
+      "style": "solid"
+    },
+    "errors": [],
+    "failedRequests": [],
+    "badResponses": []
+  },
+  {
+    "viewport": {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    "state": {
+      "title": "NeuralKinetics — cybernetics made organic",
+      "overflowX": false,
+      "overflowY": false,
+      "fonts": {
+        "inter": true,
+        "outfit": true,
+        "loaded": [
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "unloaded"
+          }
+        ]
+      },
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 3.909011,
+        "advances": true,
+        "width": 3828,
+        "height": 2164,
+        "error": null
+      },
+      "headline": {
+        "x": 36.609375,
+        "y": 356.359375,
+        "width": 316.796875,
+        "height": 26.3125,
+        "top": 356.359375,
+        "right": 353.40625,
+        "bottom": 382.671875,
+        "left": 36.609375
+      },
+      "buttons": [
+        {
+          "label": "Menu",
+          "x": 224.625,
+          "y": 24,
+          "width": 107.09375,
+          "height": 46,
+          "top": 24,
+          "right": 331.71875,
+          "bottom": 70,
+          "left": 224.625
+        },
+        {
+          "label": "Adaptive Systems",
+          "x": 112.625,
+          "y": 91,
+          "width": 36,
+          "height": 36,
+          "top": 91,
+          "right": 148.625,
+          "bottom": 127,
+          "left": 112.625
+        },
+        {
+          "label": "Neuromorphic",
+          "x": 32,
+          "y": 699.5,
+          "width": 127.890625,
+          "height": 47.25,
+          "top": 699.5,
+          "right": 159.890625,
+          "bottom": 746.75,
+          "left": 32
+        },
+        {
+          "label": "AGI",
+          "x": 169.890625,
+          "y": 699.5,
+          "width": 69.21875,
+          "height": 47.25,
+          "top": 699.5,
+          "right": 239.109375,
+          "bottom": 746.75,
+          "left": 169.890625
+        },
+        {
+          "label": "Cybernetics",
+          "x": 32,
+          "y": 756.75,
+          "width": 115.875,
+          "height": 47.25,
+          "top": 756.75,
+          "right": 147.875,
+          "bottom": 804,
+          "left": 32
+        }
+      ]
+    },
+    "hover": {
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)"
+    },
+    "focusOutline": {
+      "label": "Neuromorphic",
+      "style": "solid"
+    },
+    "errors": [],
+    "failedRequests": [],
+    "badResponses": []
+  }
+]

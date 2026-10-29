@@ -1,0 +1,25 @@
+{
+  "title": "Bio-Digital",
+  "id": "bio-digital",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities reported at installation",
+    "base_path": "/motionsites-results/bio-digital/",
+    "desktop": "Chromium 1440x1000: no page overflow, JavaScript errors, failed requests, or HTTP errors",
+    "mobile": "Chromium 390x844: no page overflow, JavaScript errors, failed requests, or HTTP errors",
+    "video": "Original supplied video loaded and played in both viewports; playback time advanced; no media errors",
+    "fonts": "Inter and Outfit loaded successfully",
+    "interactions": "Menu, Adaptive Systems, and tag clicks exercised; tag hover and keyboard focus checked",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Page branding is NeuralKinetics, as required by PROMPT.md; project index title remains Bio-Digital.",
+    "Exact supplied video and Google Fonts are external network dependencies.",
+    "Buttons implement specified visual feedback; no additional menu content or destinations were specified.",
+    "Ready for management-session acceptance; not deployed or pushed."
+  ]
+}

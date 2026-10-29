@@ -1,0 +1,50 @@
+{
+  "title": "Network Hero",
+  "id": "network-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "output_directory": "dist",
+  "base_path": "/motionsites-results/network-hero/",
+  "checks": {
+    "production_build": "passed with Vite 6.4.5",
+    "dist_index_exists": true,
+    "browser": "Chromium via playwright-core",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "additional_widths": [
+      320,
+      480,
+      768,
+      1024,
+      1280
+    ],
+    "reduced_motion": "passed",
+    "console_errors": 0,
+    "failed_requests": 0,
+    "horizontal_overflow": false,
+    "images_and_fonts": "all loaded from local build",
+    "animations_and_interactions": "typewriter, counter, orbit rotation, hover fills, underline, focus and placeholder clicks passed",
+    "dependency_audit": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "details": "browser-checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "All 16 prompt visual assets are self-hosted unchanged. Google Fonts are self-hosted, including Urbanist 500 for the counter.",
+    "Initial urllib requests returned HTTP 403; curl successfully retrieved every required asset. See asset-report.json.",
+    "Navigation and CTAs are focusable placeholder links because the prompt specifies no destinations or backend. Click checks verify only the defined landing-page behavior.",
+    "No deployment, push, other sessions, or agents were used. All project artifacts are inside this directory.",
+    "Ready means prepared for acceptance review, not deployed.",
+    "The requested model setting was gpt-6.1-sol with high reasoning; runtime model selection cannot be changed or independently verified by the project."
+  ]
+}

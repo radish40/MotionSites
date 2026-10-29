@@ -1,0 +1,98 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "metrics": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "heading": "Unlock Top Marketing Talent You Thought Was Out of Reach -- Now Just One Click Away!",
+      "count": "20k+",
+      "images": [],
+      "inter": true,
+      "urbanist": true,
+      "orbits": 4,
+      "avatars": 9,
+      "logos": 20,
+      "background": "url(\"http://127.0.0.1:4173/motionsites-results/network-hero/assets/background.webp\")"
+    },
+    "errors": [],
+    "failedRequests": [],
+    "checks": [
+      "incremental typewriter and completed exact heading",
+      "20k+ counter",
+      "all images and fonts loaded",
+      "four rotating orbits and nine avatars",
+      "20 logo instances",
+      "CTA hover fill and click",
+      "keyboard focus",
+      "navigation hover or mobile hiding",
+      "no horizontal overflow",
+      "no console or script errors"
+    ]
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "metrics": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "heading": "Unlock Top Marketing Talent You Thought Was Out of Reach -- Now Just One Click Away!",
+      "count": "20k+",
+      "images": [],
+      "inter": true,
+      "urbanist": true,
+      "orbits": 4,
+      "avatars": 9,
+      "logos": 20,
+      "background": "url(\"http://127.0.0.1:4173/motionsites-results/network-hero/assets/background.webp\")"
+    },
+    "errors": [],
+    "failedRequests": [],
+    "checks": [
+      "incremental typewriter and completed exact heading",
+      "20k+ counter",
+      "all images and fonts loaded",
+      "four rotating orbits and nine avatars",
+      "20 logo instances",
+      "CTA hover fill and click",
+      "keyboard focus",
+      "navigation hover or mobile hiding",
+      "no horizontal overflow",
+      "no console or script errors"
+    ]
+  },
+  {
+    "name": "breakpoint-320",
+    "passed": true
+  },
+  {
+    "name": "breakpoint-480",
+    "passed": true
+  },
+  {
+    "name": "breakpoint-768",
+    "passed": true
+  },
+  {
+    "name": "breakpoint-1024",
+    "passed": true
+  },
+  {
+    "name": "breakpoint-1280",
+    "passed": true
+  },
+  {
+    "name": "reduced-motion",
+    "passed": true
+  }
+]

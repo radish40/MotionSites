@@ -1,0 +1,262 @@
+{
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sections": [
+        {
+          "section": 0,
+          "width": 1440,
+          "height": 1000,
+          "scrollWidth": 1440,
+          "scrollHeight": 1000,
+          "headings": 1,
+          "videos": [
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "1"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            }
+          ],
+          "outOfBounds": []
+        },
+        {
+          "section": 1,
+          "width": 1440,
+          "height": 1000,
+          "scrollWidth": 1440,
+          "scrollHeight": 1000,
+          "headings": 1,
+          "videos": [
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "1"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            }
+          ],
+          "outOfBounds": []
+        },
+        {
+          "section": 2,
+          "width": 1440,
+          "height": 1000,
+          "scrollWidth": 1440,
+          "scrollHeight": 1000,
+          "headings": 1,
+          "videos": [
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "1"
+            }
+          ],
+          "outOfBounds": []
+        }
+      ],
+      "navigation": [
+        "Scroll to explore",
+        "Next",
+        "Back",
+        "Begin Your Mission",
+        "Home",
+        "Back to top",
+        "Reach Out href",
+        "Wheel does not navigate",
+        "Industries",
+        "Projects",
+        "Insights",
+        "Keyboard Enter"
+      ],
+      "fontLoaded": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sections": [
+        {
+          "section": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "scrollHeight": 844,
+          "headings": 1,
+          "videos": [
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "1"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            }
+          ],
+          "outOfBounds": []
+        },
+        {
+          "section": 1,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "scrollHeight": 844,
+          "headings": 1,
+          "videos": [
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "1"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            }
+          ],
+          "outOfBounds": []
+        },
+        {
+          "section": 2,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "scrollHeight": 844,
+          "headings": 1,
+          "videos": [
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "0"
+            },
+            {
+              "ready": 4,
+              "playing": true,
+              "width": 1928,
+              "height": 1076,
+              "error": null,
+              "opacity": "1"
+            }
+          ],
+          "outOfBounds": []
+        }
+      ],
+      "navigation": [
+        "Scroll to explore",
+        "Next",
+        "Back",
+        "Begin Your Mission",
+        "Home",
+        "Back to top",
+        "Reach Out href",
+        "Wheel does not navigate",
+        "Keyboard Enter"
+      ],
+      "fontLoaded": true
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "passed": true
+}

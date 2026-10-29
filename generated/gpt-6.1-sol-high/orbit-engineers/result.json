@@ -1,0 +1,37 @@
+{
+  "title": "Orbit Engineers",
+  "id": "orbit-engineers",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "publish_path": "/motionsites-results/orbit-engineers/",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "desktop": "Chromium 1440x1000; all three sections verified",
+    "mobile": "Chromium 390x844; all three sections verified",
+    "interaction": "Next, Back, Back to top, home, Begin Your Mission, desktop navigation, keyboard Enter, wheel does not navigate; Reach Out mailto href verified",
+    "media": "All three supplied videos loaded and playing; active video opacity 1; Inter loaded",
+    "layout": "No document overflow or out-of-viewport text/control bounds in the six scene/viewport combinations",
+    "browser_errors": 0,
+    "failed_requests": 0,
+    "http_errors": 0,
+    "report": "screenshots/browser-report.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-section-1.png",
+      "screenshots/desktop-section-2.png",
+      "screenshots/mobile-section-1.png",
+      "screenshots/mobile-section-2.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for review; not deployed.",
+    "React, Tailwind CSS, Framer Motion, and lucide-react implemented as specified.",
+    "Original supplied videos and Google Fonts Inter are local assets; decorative SVG images are original because no source URLs were supplied.",
+    "Reach Out targets a fictional placeholder email inbox; only its href was validated.",
+    "Desktop navigation reuses the specified three scenes; no extra pages were added.",
+    "Motion transitive dependency versions pinned for compatibility; successful build has benign upstream use-client directive warnings.",
+    "Chromium checks use the available Docker image; no claim of physical-device testing."
+  ]
+}

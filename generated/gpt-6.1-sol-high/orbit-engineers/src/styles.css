@@ -1,0 +1,45 @@
+@import url('./inter.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --background: 210 33% 19%; --foreground: 0 0% 100%; --primary: 199 89% 60%; --accent: 199 89% 60%; font-synthesis: none; }
+html, body, #root { height: 100%; margin: 0; }
+body { background: hsl(var(--background)); }
+main { height: 100svh; min-height: 100svh !important; }
+button, a { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline: 2px solid hsl(var(--primary)); outline-offset: 7px; }
+.video-shade { background: linear-gradient(180deg, rgba(4,15,25,.25), transparent 35%, transparent 60%, rgba(4,15,25,.3)); }
+.landing-heading { letter-spacing: -3px; line-height: 1.12; }
+.mission-heading, .service-heading { letter-spacing: -2px; }
+.bottom-bar { position: absolute; bottom: 36px; left: 80px; right: 80px; display: flex; align-items: center; justify-content: space-between; min-height: 40px; }
+@layer components {
+ .nav-link { @apply text-sm font-medium uppercase tracking-widest transition-colors hover:text-foreground/80; }
+ .text-link { @apply flex items-center gap-4 text-xs font-medium uppercase tracking-widest transition-colors hover:text-foreground/80; }
+ .pill-button { @apply inline-flex items-center justify-center gap-6 rounded-full bg-foreground px-8 py-4 text-xs font-medium uppercase tracking-[0.25em] text-background transition-shadow hover:shadow-lg; }
+}
+@media (min-width: 768px) and (max-width: 1150px) { .mission-content { padding-left: 64px; padding-right: 64px; gap: 24px; } .mission-heading { font-size: 44px; } .why { gap: 12px; } .pill-button { padding-left: 24px; padding-right: 24px; } }
+@media (max-width: 767px) {
+ header { padding: 26px 24px !important; }
+ .brand { gap: 8px; } .brand span { font-size: 15px; } .brand img { width: 26px; height: 26px; }
+ .coordinates { font-size: 9px; }
+ .edge-line.left-10 { left: 18px; } .edge-line.right-10 { right: 18px; }
+ .edge-line { top: 16px; height: calc(100% - 32px); }
+ .landing-heading { letter-spacing: -1.3px; font-size: clamp(24px, 6.15vw, 36px); line-height: 1.22; }
+ .hero-section > div.flex-1 { padding-left: 32px; padding-right: 32px; }
+ .bottom-bar { left: 36px; right: 36px; bottom: 28px; }
+ .text-link { font-size: 10px; gap: 9px; }
+ .mission-content { padding-top: 115px; padding-bottom: 140px; gap: 32px; }
+ .mission-heading { font-size: 42px; }
+ .why { gap: 18px; }
+ .mission-bottom { flex-wrap: wrap; row-gap: 24px; }
+ .tagline { order: -1; width: 100%; font-size: 9px; letter-spacing: .18em; }
+ .service-content { padding-top: 70px; padding-bottom: 90px; }
+ .service-heading { font-size: 36px; letter-spacing: -1.5px; }
+ .service-description { font-size: 11px; letter-spacing: .1em; }
+ .pill-button { padding: 16px 24px; font-size: 10px; gap: 18px; }
+ .bottom-bar > .w-20 { width: 64px; }
+}
+@media (max-height: 650px) and (max-width: 767px) { .mission-content { gap: 16px; } .mission-heading { font-size: 32px; } .why { display: none; } .service-content { gap: 16px; } .service-heading { font-size: 30px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; } }
+
+.text-link svg { flex-shrink: 0; }

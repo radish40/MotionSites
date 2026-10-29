@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-29T04:26:04.936811+00:00",
+  "updated_utc": "2026-10-29T04:28:35.345810+00:00",
   "total": 380,
   "counts": {
-    "complete": 32,
+    "complete": 35,
     "validating": 1,
     "running": 5,
-    "not_started": 342
+    "not_started": 339
   },
   "jobs": [
     {
@@ -342,38 +342,38 @@
       "id": "cleantech",
       "title": "CleanTech",
       "category": "Sustainability",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e0-d7c3-7222-8215-edd51409122b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f7f68374f9a7f3b519ed3f4672dee75467447505",
+      "group_message_id": 81,
+      "url": "https://tool.luo-xd.com/motionsites-results/cleantech/"
     },
     {
       "id": "coffee-rewards",
       "title": "Coffee Rewards",
       "category": "Loyalty",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e2-7ed9-76a0-889e-1d278d6b148c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b9410c164a1be70a07e67b5bc11cad18450e2c08",
+      "group_message_id": 82,
+      "url": "https://tool.luo-xd.com/motionsites-results/coffee-rewards/"
     },
     {
       "id": "cosmos-interface",
       "title": "Cosmos Interface",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e3-f461-7472-8844-f8c957f297d0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "867a4c542c2c67dac5c9929cc84cccb4bca44da3",
+      "group_message_id": 83,
+      "url": "https://tool.luo-xd.com/motionsites-results/cosmos-interface/"
     },
     {
       "id": "cozypaws",
       "title": "CozyPaws",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e7-dd8b-7510-a60f-9ef97febbabc",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -383,7 +383,7 @@
       "title": "Cross-Border",
       "category": "Transportation",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e7-de9a-7733-9b0c-1192aab86f67",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -392,7 +392,7 @@
       "id": "f1-racing-hub",
       "title": "F1 Racing Hub",
       "category": "Mobile App",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -402,7 +402,7 @@
       "id": "financial-suite",
       "title": "Financial Suite",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -412,7 +412,7 @@
       "id": "innovation-lab",
       "title": "Innovation Lab",
       "category": "Technology",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -24,7 +24,10 @@ def main():
         p.error('A complete static directory is required')
     files = sorted(source.rglob('*'))
     for file in files:
-        if file.is_symlink() or any(part.startswith('.') for part in file.relative_to(source).parts):
+        relative = file.relative_to(source)
+        # Expo's static export includes this public routing metadata file.
+        expo_routes = relative.as_posix() == '_expo/.routes.json' and file.is_file()
+        if file.is_symlink() or (not expo_routes and any(part.startswith('.') for part in relative.parts)):
             p.error('Hidden files and symlinks are not public artifacts')
         if file.name in ('TASK.md', 'PROMPT.md', 'package.json') or 'node_modules' in file.parts:
             p.error('Source directory passed instead of static build')

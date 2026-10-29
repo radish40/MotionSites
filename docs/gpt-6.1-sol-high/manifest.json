@@ -5680,19 +5680,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18686-6626-7a31-a885-40a92ee29099",
       "output_path": "generated/gpt-6.1-sol-high/minimal-workflow-saas",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3232472,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:18:37.065521+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "8d987d7705ebeb61491da44fff8d11383036c5b9",
+      "url": "https://tool.luo-xd.com/motionsites-results/minimal-workflow-saas/",
+      "completed_utc": "2026-10-29T07:24:01.511642+00:00",
+      "group_message_id": 220
     },
     {
       "number": 167,
@@ -5800,11 +5804,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/neo-museum",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3250910,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:23:26.444607+00:00",
+      "worker_state": "running"
     },
     {
       "number": 171,
@@ -10427,7 +10435,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:22:32.541473+00:00",
+  "updated_utc": "2026-10-29T07:24:01.675439+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:22:32.541473+00:00",
+  "updated_utc": "2026-10-29T07:24:01.675439+00:00",
   "total": 380,
   "counts": {
-    "complete": 164,
+    "complete": 165,
     "running": 5,
-    "not_started": 211
+    "not_started": 210
   },
   "jobs": [
     {
@@ -1661,11 +1661,11 @@
       "id": "minimal-workflow-saas",
       "title": "Minimal Workflow SaaS",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18686-6626-7a31-a885-40a92ee29099",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "8d987d7705ebeb61491da44fff8d11383036c5b9",
+      "group_message_id": 220,
+      "url": "https://tool.luo-xd.com/motionsites-results/minimal-workflow-saas/"
     },
     {
       "id": "mouse-trail-cta",
@@ -1701,7 +1701,7 @@
       "id": "neo-museum",
       "title": "Neo Museum",
       "category": "Website",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

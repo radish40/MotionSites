@@ -1,0 +1,412 @@
+{
+  "url": "/motionsites-results/ai-workflow/",
+  "viewports": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "video": {
+        "width": 3828,
+        "height": 2164,
+        "duration": 8.041667,
+        "readyState": 4,
+        "error": null
+      },
+      "layout": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "canvasVisible": true,
+        "canvasWidth": 960,
+        "canvasHeight": 543,
+        "fonts": [
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Neue Haas Grotesk Text Pro",
+            "status": "loaded"
+          }
+        ]
+      },
+      "checks": [
+        "Correct heading visible",
+        "No horizontal or vertical overflow",
+        "Screenshot saved",
+        "Desktop navigation and account hash links work",
+        "Button hover color matches prompt"
+      ]
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "video": {
+        "width": 3828,
+        "height": 2164,
+        "duration": 8.041667,
+        "readyState": 4,
+        "error": null
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "canvasVisible": true,
+        "canvasWidth": 960,
+        "canvasHeight": 543,
+        "fonts": [
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Neue Haas Grotesk Text Pro",
+            "status": "loaded"
+          }
+        ]
+      },
+      "checks": [
+        "Correct heading visible",
+        "No horizontal or vertical overflow",
+        "Screenshot saved",
+        "Menu opens and closes with icon toggle",
+        "Drawer link closes menu and sets #how",
+        "Backdrop closes menu",
+        "Body scroll lock resets"
+      ]
+    }
+  },
+  "errors": [],
+  "assetResponses": [
+    {
+      "viewport": "desktop",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://db.onlinewebfonts.com/c/6e47ef470dd19698c911332a9b4d1cf4?family=Neue+Haas+Grotesk+Text+Pro",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://db.onlinewebfonts.com/t/6e47ef470dd19698c911332a9b4d1cf4.woff",
+      "status": 200
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_131941_d136af49-e243-493a-be14-6ff3f24e09e6.mp4",
+      "status": 206
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://db.onlinewebfonts.com/c/6e47ef470dd19698c911332a9b4d1cf4?family=Neue+Haas+Grotesk+Text+Pro",
+      "status": 200
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_131941_d136af49-e243-493a-be14-6ff3f24e09e6.mp4",
+      "status": 206
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://db.onlinewebfonts.com/t/6e47ef470dd19698c911332a9b4d1cf4.woff",
+      "status": 200
+    }
+  ],
+  "failedRequests": [
+    {
+      "viewport": "desktop",
+      "url": "https://db.onlinewebfonts.com/c/dec0d9b4e22ca588dc20e1e2e09a59b5?family=Neue+Haas+Grotesk+Display+Pro+55+Roman",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://db.onlinewebfonts.com/c/dec0d9b4e22ca588dc20e1e2e09a59b5?family=Neue+Haas+Grotesk+Display+Pro+55+Roman",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    }
+  ]
+}

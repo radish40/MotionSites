@@ -1,0 +1,39 @@
+{
+  "title": "AI Workflow Hero",
+  "id": "ai-workflow",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "prompt_components": "Both TSX files match the supplied code exactly",
+    "publish_base": "/motionsites-results/ai-workflow/",
+    "desktop": "passed: 1440x1000; no overflow; hash links and button hover",
+    "mobile": "passed: 390x844; no overflow; drawer toggle, link dismissal, backdrop dismissal, body scroll lock",
+    "video": "passed: CloudFront video loads and canvas playback becomes visible at 960x543 on both viewports",
+    "script_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Both screenshots visually inspected",
+    "browser_report": "screenshots/browser-report.json",
+    "dependency_audit": "1 moderate and 1 high development dependency advisory; see dependency-audit.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "Neue Haas Grotesk Display Pro 55 Roman stylesheet",
+      "url": "https://db.onlinewebfonts.com/c/dec0d9b4e22ca588dc20e1e2e09a59b5?family=Neue+Haas+Grotesk+Display+Pro+55+Roman",
+      "issue": "net::ERR_BLOCKED_BY_ORB on both viewports",
+      "handling": "Retained exact required links; the specified Text Pro fallback successfully loads and renders.",
+      "retry": "Direct stylesheet retry returned HTTP 403 Forbidden."
+    }
+  ],
+  "notes": [
+    "Exact specified stack, assets, components, copy, and CSS transitions; no extra features.",
+    "Supplied action buttons are placeholders; hash links have no destination sections in the prompt.",
+    "Mobile dark green bottom text can have reduced contrast against dark video frames; exact design preserved.",
+    "External assets require network access; canvas frame caching uses browser memory.",
+    "Required Vite 5 retained; npm audit offered a major-version upgrade.",
+    "Ready for review only. No deployment, push, other projects, or agents used."
+  ]
+}

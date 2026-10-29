@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T08:05:11.928582+00:00",
+  "updated_utc": "2026-10-29T08:06:46.257982+00:00",
   "total": 380,
   "counts": {
-    "complete": 193,
+    "complete": 194,
     "running": 5,
-    "needs_fix": 2,
+    "needs_fix": 1,
     "not_started": 180
   },
   "jobs": [
@@ -1962,17 +1962,17 @@
       "id": "prosthetics-hero",
       "title": "Prosthetics Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186ae-1332-76e0-9721-c994415ffcd9",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "402f811676b890da9623ef627c91801d4fcdf3ba",
+      "group_message_id": 250,
+      "url": "https://tool.luo-xd.com/motionsites-results/prosthetics-hero/"
     },
     {
       "id": "pulse-3d",
       "title": "Pulse 3D",
       "category": "3D Website",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a186ae-145a-7a51-b802-f9aad07b1f8f",
       "source_commit": null,
       "group_message_id": null,
@@ -1982,7 +1982,7 @@
       "id": "radial-diagram",
       "title": "Radial Diagram",
       "category": "Testimonials",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a186ae-14d5-7910-853f-24f11089f7e9",
       "source_commit": null,
       "group_message_id": null,
@@ -1992,8 +1992,8 @@
       "id": "retro-futurist",
       "title": "Retro-Futurist",
       "category": "Hero Section",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a186b0-8593-7081-8024-b32ac2ef9eb0",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2003,7 +2003,7 @@
       "title": "Rocket CTA",
       "category": "CTA Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186b0-862e-70f0-ab31-b6a5edf0ea34",
       "source_commit": null,
       "group_message_id": null,
       "url": null

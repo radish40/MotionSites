@@ -1,0 +1,183 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/halo-benefits/",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "columns": "336px 336px 336px 336px",
+      "cards": [
+        {
+          "x": 24,
+          "y": 292,
+          "width": 688,
+          "height": 320
+        },
+        {
+          "x": 728,
+          "y": 292,
+          "width": 336,
+          "height": 320
+        },
+        {
+          "x": 1080,
+          "y": 292,
+          "width": 336,
+          "height": 320
+        }
+      ],
+      "imageLoaded": true,
+      "fontLoaded": true,
+      "fontFamily": "\"TT Norms Pro Regular\", ui-sans-serif, system-ui, sans-serif",
+      "animationDuration": "30s",
+      "marquee_moves": true,
+      "cta_click": "passed",
+      "cta_keyboard": "passed",
+      "hover": "passed",
+      "reduced_motion": "passed"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "columns": "342px",
+      "cards": [
+        {
+          "x": 24,
+          "y": 493,
+          "width": 342,
+          "height": 320
+        },
+        {
+          "x": 24,
+          "y": 829,
+          "width": 342,
+          "height": 320
+        },
+        {
+          "x": 24,
+          "y": 1165,
+          "width": 342,
+          "height": 320
+        }
+      ],
+      "imageLoaded": true,
+      "fontLoaded": true,
+      "fontFamily": "\"TT Norms Pro Regular\", ui-sans-serif, system-ui, sans-serif",
+      "animationDuration": "30s",
+      "marquee_moves": true,
+      "cta_click": "passed",
+      "cta_keyboard": "passed",
+      "hover": "passed",
+      "reduced_motion": "passed"
+    },
+    {
+      "width": 640,
+      "height": 900,
+      "scrollWidth": 640,
+      "columns": "288px 288px",
+      "cards": [
+        {
+          "x": 24,
+          "y": 415,
+          "width": 288,
+          "height": 320
+        },
+        {
+          "x": 328,
+          "y": 415,
+          "width": 288,
+          "height": 320
+        },
+        {
+          "x": 24,
+          "y": 751,
+          "width": 288,
+          "height": 320
+        }
+      ],
+      "imageLoaded": true,
+      "fontLoaded": true,
+      "fontFamily": "\"TT Norms Pro Regular\", ui-sans-serif, system-ui, sans-serif",
+      "animationDuration": "30s",
+      "marquee_moves": true,
+      "cta_click": "passed",
+      "cta_keyboard": "passed",
+      "hover": "passed",
+      "reduced_motion": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1000,
+      "scrollWidth": 768,
+      "columns": "352px 352px",
+      "cards": [
+        {
+          "x": 24,
+          "y": 340,
+          "width": 352,
+          "height": 320
+        },
+        {
+          "x": 392,
+          "y": 340,
+          "width": 352,
+          "height": 320
+        },
+        {
+          "x": 24,
+          "y": 676,
+          "width": 352,
+          "height": 320
+        }
+      ],
+      "imageLoaded": true,
+      "fontLoaded": true,
+      "fontFamily": "\"TT Norms Pro Regular\", ui-sans-serif, system-ui, sans-serif",
+      "animationDuration": "30s",
+      "marquee_moves": true,
+      "cta_click": "passed",
+      "cta_keyboard": "passed",
+      "hover": "passed",
+      "reduced_motion": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 1000,
+      "scrollWidth": 1024,
+      "columns": "232px 232px 232px 232px",
+      "cards": [
+        {
+          "x": 24,
+          "y": 304,
+          "width": 480,
+          "height": 320
+        },
+        {
+          "x": 520,
+          "y": 304,
+          "width": 232,
+          "height": 320
+        },
+        {
+          "x": 768,
+          "y": 304,
+          "width": 232,
+          "height": 320
+        }
+      ],
+      "imageLoaded": true,
+      "fontLoaded": true,
+      "fontFamily": "\"TT Norms Pro Regular\", ui-sans-serif, system-ui, sans-serif",
+      "animationDuration": "30s",
+      "marquee_moves": true,
+      "cta_click": "passed",
+      "cta_keyboard": "passed",
+      "hover": "passed",
+      "reduced_motion": "passed"
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "failed_requests": []
+}

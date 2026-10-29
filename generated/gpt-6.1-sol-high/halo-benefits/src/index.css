@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'TT Norms Pro Regular';
+  src: url('../public/assets/tt-norms-pro-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'TT Norms Pro Regular', ui-sans-serif, system-ui, sans-serif;
+    background: #F5F5F5;
+  }
+  body {
+    font-family: 'TT Norms Pro Regular', ui-sans-serif, system-ui, sans-serif;
+  }
+  * { font-family: inherit; }
+  button:focus-visible { outline: 2px solid #2B2644; outline-offset: 5px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backers-track { animation: none !important; }
+}

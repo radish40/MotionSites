@@ -6811,20 +6811,24 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186b0-8593-7081-8024-b32ac2ef9eb0",
       "output_path": "generated/gpt-6.1-sol-high/retro-futurist",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Verified terminal UTF-8 transport failure; resumed same original session through the exact same local provider backend. Model and reasoning unchanged.",
       "process_id": 3409452,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:04:37.814165+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "7c536cf85d95c4796342d0a6773f6d33b3cc8823",
+      "url": "https://tool.luo-xd.com/motionsites-results/retro-futurist/",
+      "completed_utc": "2026-10-29T08:14:14.460631+00:00",
+      "group_message_id": 255
     },
     {
       "number": 200,
@@ -10821,7 +10825,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T08:12:52.778284+00:00",
+  "updated_utc": "2026-10-29T08:14:14.635784+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

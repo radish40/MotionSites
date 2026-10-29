@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 197/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 198/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -283,7 +283,7 @@
 | 196 | `prosthetics-hero` | Prosthetics Hero | Hero Section | 1 | 图片 | 已完成 |
 | 197 | `pulse-3d` | Pulse 3D | 3D Website | 2 | 图片 | 生成中 |
 | 198 | `radial-diagram` | Radial Diagram | Testimonials | 2 | 图片 | 生成中 |
-| 199 | `retro-futurist` | Retro-Futurist | Hero Section | 2 | 图片 | 生成中 |
+| 199 | `retro-futurist` | Retro-Futurist | Hero Section | 2 | 图片 | 已完成 |
 | 200 | `rocket-cta` | Rocket CTA | CTA Section | 2 | 图片 | 已完成 |
 | 201 | `rocket-faq` | Rocket FAQ | FAQ & Help | 2 | 图片 | 未开始 |
 | 202 | `rocket-pricing` | Rocket Pricing | Pricing Page | 2 | 图片 | 未开始 |

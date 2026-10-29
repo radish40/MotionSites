@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { font-family: 'Helvetica Regular', Helvetica, Arial, sans-serif; }
+html, body, #root { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+main { height: 100svh !important; }
+button, a { -webkit-tap-highlight-color: transparent; transition: transform 200ms, color 200ms, background-color 200ms; }
+button:focus-visible, a:focus-visible { outline: 2px solid #93c5fd; outline-offset: 5px; }
+.liquid-glass {
+background: rgba(255, 255, 255, 0.01);
+background-blend-mode: luminosity;
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border: none;
+box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+position: relative;
+overflow: hidden;
+}
+.liquid-glass::before {
+content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1.4px;
+background: linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 20%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%, rgba(255,255,255,0.15) 80%, rgba(255,255,255,0.45) 100%);
+-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none;
+}
+@keyframes fade-up { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
+.animate-fade-up { animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.25s; }
+.delay-3 { animation-delay: 0.4s; }
+.delay-4 { animation-delay: 0.55s; }
+.delay-5 { animation-delay: 0.75s; }
+@media (prefers-reduced-motion: reduce) { .animate-fade-up { animation: none; } button, a { transition: none; } }
+@media (max-height: 650px) and (min-width: 640px) { section.relative { padding-top: 90px; } section.relative h1 { font-size: 46px; } section.relative p { margin-top: 12px; } section.relative > div:last-child { margin-top: 18px; } }
+@media (max-height: 690px) and (max-width: 639px) { section.relative { padding-top: 90px; } section.relative h1 { font-size: 32px; } section.relative p { max-width: 310px; margin-top: 12px; } section.relative > div:last-child { margin-top: 16px; flex-direction: row; gap: 8px; } section.relative > div:last-child button { padding-left: 16px; padding-right: 16px; } }
+/* A local copy of the supplied face keeps typography available offline. */
+@font-face { font-family: 'Helvetica Regular'; src: url('/assets/helvetica-regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }

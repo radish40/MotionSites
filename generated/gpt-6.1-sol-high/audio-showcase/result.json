@@ -1,0 +1,37 @@
+{
+  "title": "Audio Showcase",
+  "id": "audio-showcase",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "Chromium via playwright-core, real production output at required subpath",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "overflow": "none at both required sizes",
+    "interactions": "passed: navigation, collection dialogs, cart, mobile menu, previous/next, heart state, Escape dismissal",
+    "boomerang": "passed: decoded 1920x1080 source; 960x540 captured frames; video hidden and canvas shown after first pass",
+    "capture_fallback": "passed",
+    "reduced_motion": "passed",
+    "entrance_animation": "backwards fill; transform released after animation",
+    "script_errors": 0,
+    "console_warnings": 0,
+    "font": "supplied Helvetica face loaded locally; required remote stylesheet retained",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "raw_report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "Chromium reported net::ERR_ABORTED for superseded video startup/preload requests. Source decoding and completed boomerang playback passed on desktop and mobile.",
+    "Duplicate Helvetica declarations make document.fonts.check return false because the remote declaration remains unloaded. The bundled supplied WOFF2 face is loaded and used. No font network or console errors were observed."
+  ],
+  "notes": [
+    "React, TypeScript, Tailwind CSS, Vite, lucide-react; base /motionsites-results/audio-showcase/.",
+    "Video and font downloaded from exact prompt URLs and bundled; no substitute imagery.",
+    "Static hero. Track metadata and likes are local demonstration state; no audio source, backend, checkout, or persistence.",
+    "README.md includes build, run, verification, provenance, and limitations.",
+    "No agents, other designs, deployments, pushes, or messages. Ready means ready for review, not published."
+  ]
+}

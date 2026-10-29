@@ -1,0 +1,102 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "asset": {
+        "fontLoaded": true,
+        "documentFontsCheck": false,
+        "fontFaces": [
+          {
+            "family": "Helvetica Regular",
+            "status": "unloaded"
+          },
+          {
+            "family": "Helvetica Regular",
+            "status": "loaded"
+          }
+        ],
+        "computedFont": "\"Helvetica Regular\", Helvetica, Arial, sans-serif",
+        "videoWidth": 1920,
+        "videoHeight": 1080,
+        "duration": 8.041667
+      },
+      "boomerang": {
+        "frames": 59,
+        "width": 960,
+        "height": 540,
+        "visible": true,
+        "videoHidden": true
+      },
+      "animation": {
+        "fill": "backwards",
+        "transform": "none"
+      },
+      "overflow": false,
+      "interactions": "passed",
+      "scriptErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://localhost:4173/motionsites-results/audio-showcase/assets/vernal-woods.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://localhost:4173/motionsites-results/audio-showcase/assets/vernal-woods.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "consoleWarnings": []
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "asset": {
+        "fontLoaded": true,
+        "documentFontsCheck": false,
+        "fontFaces": [
+          {
+            "family": "Helvetica Regular",
+            "status": "unloaded"
+          },
+          {
+            "family": "Helvetica Regular",
+            "status": "loaded"
+          }
+        ],
+        "computedFont": "\"Helvetica Regular\", Helvetica, Arial, sans-serif",
+        "videoWidth": 1920,
+        "videoHeight": 1080,
+        "duration": 8.041667
+      },
+      "boomerang": {
+        "frames": 64,
+        "width": 960,
+        "height": 540,
+        "visible": true,
+        "videoHidden": true
+      },
+      "animation": {
+        "fill": "backwards",
+        "transform": "none"
+      },
+      "overflow": false,
+      "interactions": "passed",
+      "scriptErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://localhost:4173/motionsites-results/audio-showcase/assets/vernal-woods.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "consoleWarnings": []
+    }
+  ],
+  "reducedMotion": "passed",
+  "requestAnimationFrameFallback": "passed"
+}

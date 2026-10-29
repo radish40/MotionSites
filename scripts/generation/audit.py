@@ -86,13 +86,37 @@ def verify(job, titles, ancestors):
             if record:
                 header,name=record.split('\t',1)
                 committed[name]=header.split()[2]
+        reconstructed=set()
+        chunk_manifest=root/'asset-chunks/manifest.json'
+        if chunk_manifest.is_file():
+            package=json.loads(chunk_manifest.read_text())
+            valid=package.get('version')==1 and bool(package.get('assets'))
+            for asset in package.get('assets',[]):
+                original=root/asset['path']
+                if not original.resolve().is_relative_to((root/'public').resolve()):
+                    raise ValueError('Reconstructed asset outside project public directory')
+                combined=hashlib.sha256();total=0
+                valid=valid and bool(asset.get('chunks'))
+                for chunk in asset.get('chunks',[]):
+                    part=root/chunk['path']
+                    if not part.resolve().is_relative_to((root/'asset-chunks').resolve()):
+                        raise ValueError('Source chunk outside project asset-chunks directory')
+                    data=part.read_bytes();combined.update(data);total+=len(data)
+                    valid=valid and len(data)==chunk['bytes'] and len(data)<50*1024*1024 and digest(data)==chunk['sha256']
+                    valid=valid and object_id(data)==committed.get(str(part.relative_to(manage.ROOT)))
+                valid=valid and total==asset['bytes'] and combined.hexdigest()==asset['sha256']
+                valid=valid and original.stat().st_size==total and digest(original.read_bytes())==asset['sha256']
+                reconstructed.add(original)
+            checks['lossless_assets_reproducible_from_committed_chunks']=valid
         required=[root/'PROMPT.md',root/'README.md']
         required += [p for p in root.iterdir() if p.is_file() and p.suffix in ('.html','.json','.js','.jsx','.cjs','.mjs','.ts','.tsx','.css')]
-        for directory in ('src','app','pages','components','public','assets','scripts','lib','hooks','styles'):
+        for directory in ('src','app','pages','components','public','assets','asset-chunks','scripts','lib','hooks','styles'):
             if (root/directory).is_dir():required += [p for p in (root/directory).rglob('*') if p.is_file()
                 and not any(part in ('venv','.venv','__pycache__') for part in p.relative_to(root).parts)
                 and p.relative_to(root).parts[:3]!=('scripts','repair','vendor')
                 and p.suffix not in ('.whl','.pyc')]
+        # These exact originals are rebuilt from fully committed, hash-verified chunks.
+        required=[p for p in required if p not in reconstructed]
         checks['source_files_committed']=all(str(p.relative_to(manage.ROOT)) in committed for p in required)
         checks['committed_source_bytes']=all(object_id(p.read_bytes())==committed.get(str(p.relative_to(manage.ROOT))) for p in required)
         # Source must be committed. Build artifacts may legitimately be ignored by a project.

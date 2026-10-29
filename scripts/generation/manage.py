@@ -158,6 +158,12 @@ def finish(ident):
     for name in ('desktop.png','mobile.png','live-check.json'):shutil.copyfile(report/name,public/name)
     job['status']='publishing';save(manifest)
     # Stage only this finished design. Other workers may still be writing their directories.
+    candidates=git('ls-files','--cached','--others','--exclude-standard','-z','--',job['output_path']).split('\0')
+    oversized=[name for name in candidates if name and (ROOT/name).is_file() and (ROOT/name).stat().st_size>=100*1024*1024]
+    if oversized:
+        job['status']='needs_fix';job['validation']='Source packaging exceeds GitHub single-file limit: '+', '.join(oversized)
+        save(manifest)
+        raise RuntimeError(job['validation'])
     git('add','--',job['output_path'])
     if git('diff','--cached','--name-only'):
         git('commit','--quiet','-m',f'feat(generated): implement {job["title"]} with GPT-6.1 Sol High')

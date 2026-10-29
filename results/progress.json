@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:38:42.184705+00:00",
+  "updated_utc": "2026-10-29T05:49:57.567692+00:00",
   "total": 380,
   "counts": {
-    "complete": 92,
+    "complete": 97,
     "running": 5,
-    "not_started": 283
+    "not_started": 278
   },
   "jobs": [
     {
@@ -931,11 +931,11 @@
       "id": "bl",
       "title": "Bloom",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18624-b70d-76d3-b3a0-0ce2a344ddf0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "fa2c68af9237efb53e35276dd07b14aa3592b7a8",
+      "group_message_id": 144,
+      "url": "https://tool.luo-xd.com/motionsites-results/bl/"
     },
     {
       "id": "blog-showcase",
@@ -951,21 +951,21 @@
       "id": "book-hero",
       "title": "Book Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18626-8fb9-7f60-83a6-c1e0e5eca1c7",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "87c294f730b8653cae04e712c00e80b5b512796f",
+      "group_message_id": 145,
+      "url": "https://tool.luo-xd.com/motionsites-results/book-hero/"
     },
     {
       "id": "bookedup",
       "title": "BookedUp",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18626-9071-7de2-ae01-021a5e6fbf47",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9aa9f53c8d369ac53ef765db216034622746fc08",
+      "group_message_id": 146,
+      "url": "https://tool.luo-xd.com/motionsites-results/bookedup/"
     },
     {
       "id": "botanical-shadow-about",
@@ -981,28 +981,28 @@
       "id": "build-with-us",
       "title": "Build With Us",
       "category": "Forms & Contact",
-      "status": "not_started",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a1862b-cbe0-76e0-9f9c-3a387cc166c3",
+      "source_commit": "3f90ccde6c31d68d8ad140c209b82411b84a9eb7",
+      "group_message_id": 147,
+      "url": "https://tool.luo-xd.com/motionsites-results/build-with-us/"
     },
     {
       "id": "cinematic-brand",
       "title": "Cinematic Brand",
       "category": "Hero Section",
-      "status": "not_started",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a1862b-ccd7-7611-a23b-60405529718c",
+      "source_commit": "3d2633b3de6987e59433e8e685b8c7c830681ec7",
+      "group_message_id": 148,
+      "url": "https://tool.luo-xd.com/motionsites-results/cinematic-brand/"
     },
     {
       "id": "cinematic-landing-page",
       "title": "Cinematic Landing Page",
       "category": "Landing Page",
-      "status": "not_started",
-      "thread_id": "",
+      "status": "running",
+      "thread_id": "01a1862b-ccc3-7790-90b7-c517f2adcfb9",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1011,7 +1011,7 @@
       "id": "cognitra-feature",
       "title": "Cognitra Feature",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1021,7 +1021,7 @@
       "id": "cognitra-offer",
       "title": "Cognitra Offer",
       "category": "Cards",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

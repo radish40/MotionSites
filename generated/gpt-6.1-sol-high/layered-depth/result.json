@@ -4,9 +4,9 @@
   "status": "ready",
   "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
   "checks": {
-    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "production_build": "Passed final TypeScript + Vite production build; dist/index.html exists with configured subpath.",
     "browser_command": "docker run --rm -v \"$PWD:/work\" -w /work --entrypoint node louislam/uptime-kuma:2 scripts/check.cjs",
-    "browser_checks_passed": 37,
+    "browser_checks_passed": 39,
     "viewports": [
       {
         "name": "desktop",
@@ -30,14 +30,20 @@
     "dependencies": "react, react-dom, lucide-react only; build tools are devDependencies",
     "lockfile": "package-lock.json",
     "screenshots": [
-      "screenshots/desktop.png",
-      "screenshots/mobile.png",
+      "screenshots/desktop-bird-enter.png",
+      "screenshots/desktop-bird-leave.png",
       "screenshots/desktop-section2.png",
+      "screenshots/desktop.png",
+      "screenshots/mobile-bird-enter.png",
+      "screenshots/mobile-bird-leave.png",
+      "screenshots/mobile-menu.png",
       "screenshots/mobile-section2.png",
-      "screenshots/mobile-menu.png"
+      "screenshots/mobile.png"
     ],
     "report": "browser-checks.json",
-    "bird_state_logic": "passed using dispatched ended events plus real scroll; actual playback unavailable"
+    "bird_state_logic": "Passed actual decoded local image + running native fallback animation, natural idle state completion, genuine scrolling for leave/hidden/re-enter/idle. No synthetic media events.",
+    "leaf_shadow_motion": "Passed: rendered transforms change over time; both sections show native animated shadows.",
+    "visual_review": "Desktop/mobile hero and section 2 screenshots reviewed against this design\u2019s authorized animated reference."
   },
   "asset_issues": [
     {
@@ -53,7 +59,7 @@
       ],
       "status": 401,
       "cause": "Cloudinary response: cloud_name dy5er7kv5 is disabled",
-      "handling": "Original URLs preserved. Local SVG visual fallbacks for background/sculpture; no substitute bird footage. Actual video playback remains blocked."
+      "handling": "Original URLs retained. Recovered alpha pedestal and kingfisher from authorized design reference; visible native fallback arrival/idle/departure and animated SVG leaf shadows. Original Cloudinary footage is still unavailable."
     },
     {
       "assets": [
@@ -68,11 +74,12 @@
     }
   ],
   "notes": [
-    "Ready means the static build and source are ready for management review, not deployed.",
-    "Exact original motion and sculpture appearance remain limited by the disabled upstream Cloudinary account. Screenshots show local fallbacks.",
-    "Navigation pills change active selection; the design has no additional routes or sections.",
-    "Start a project uses assumed mailto:hello@qelora.studio; destination was not supplied or verified.",
-    "Only this project was read and written. No agents, other sessions, deployment, push, or messages were used.",
-    "README.md documents run commands, browser verification, attribution, and limitations."
+    "Repaired only Layered Depth. Ready for management review; not deployed.",
+    "Organic pedestal and kingfisher appearance recovered as separate transparent assets from 640\u00d7470 authorized reference, excluding text and controls. The reference is not used as a website background.",
+    "Bird flight/idle movement and soft leaf-shadow motion are native Web Animations approximations; original wing articulation is not recovered. Reference resolution limits detail.",
+    "Attribution, source URL, SHA256, frame numbers and recovery distinctions are preserved in recovery/manifest.json and README.md; scripts/recover.py reproduces image cutouts.",
+    "Live DOM wordmark/navigation/cards and exactly two sections retained, with original breakpoint and scroll parallax.",
+    "CTA email hello@qelora.studio remains an unverified assumption from initial implementation.",
+    "No deployment, push, messages, subagents or other design implementations used."
   ]
 }

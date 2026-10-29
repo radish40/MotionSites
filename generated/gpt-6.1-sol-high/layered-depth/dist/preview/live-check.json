@@ -1,6 +1,6 @@
 {
   "url": "https://tool.luo-xd.com/motionsites-results/layered-depth/",
-  "checked_at": "2026-10-29T07:10:07.234Z",
+  "checked_at": "2026-10-29T07:20:47.543Z",
   "passed": true,
   "results": [
     {
@@ -12,7 +12,27 @@
       "horizontalOverflow": 0,
       "images": [
         {
-          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/slab-fallback.svg",
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/bird-recovered.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/pedestal-recovered.png",
           "loaded": true,
           "visible": true
         },
@@ -20,6 +40,21 @@
           "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/cta.jpg",
           "loaded": true,
           "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": false
         }
       ],
       "videos": [
@@ -103,7 +138,7 @@
       "failedRequests": [],
       "badResponses": [
         {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
           "status": 401
         },
         {
@@ -111,7 +146,11 @@
           "status": 401
         },
         {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
           "status": 401
         },
         {
@@ -119,23 +158,7 @@
           "status": 401
         },
         {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
-          "status": 401
-        },
-        {
-          "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
-          "status": 401
-        },
-        {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
-          "status": 401
-        },
-        {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
-          "status": 401
-        },
-        {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
           "status": 401
         },
         {
@@ -144,6 +167,18 @@
         },
         {
           "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
           "status": 401
         }
       ]
@@ -157,7 +192,27 @@
       "horizontalOverflow": 0,
       "images": [
         {
-          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/slab-fallback.svg",
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/bird-recovered.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/pedestal-recovered.png",
           "loaded": true,
           "visible": true
         },
@@ -165,6 +220,21 @@
           "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/cta.jpg",
           "loaded": true,
           "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/leaf-shadows.svg",
+          "loaded": true,
+          "visible": false
         }
       ],
       "videos": [
@@ -240,11 +310,18 @@
         "Failed to load resource: the server responded with a status of 401 ()",
         "Failed to load resource: the server responded with a status of 401 ()",
         "Failed to load resource: the server responded with a status of 401 ()",
-        "Failed to load resource: the server responded with a status of 401 ()",
-        "Failed to load resource: the server responded with a status of 401 ()",
         "Failed to load resource: the server responded with a status of 401 ()"
       ],
-      "failedRequests": [],
+      "failedRequests": [
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
       "badResponses": [
         {
           "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
@@ -256,14 +333,6 @@
         },
         {
           "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
-          "status": 401
-        },
-        {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
-          "status": 401
-        },
-        {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
           "status": 401
         },
         {
@@ -279,7 +348,7 @@
           "status": 401
         },
         {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
           "status": 401
         },
         {
@@ -287,7 +356,7 @@
           "status": 401
         },
         {
-          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
           "status": 401
         }
       ]

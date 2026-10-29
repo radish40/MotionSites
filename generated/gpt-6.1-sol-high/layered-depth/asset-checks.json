@@ -74,5 +74,16 @@
     "recovery": "Downloaded with curl; font requests used a browser User-Agent.",
     "local_path": "public/assets/reg.woff2",
     "bytes": 4000
+  },
+  {
+    "asset": "authorized animated reference",
+    "status": 200,
+    "local_path": "recovery/reference.webp",
+    "dimensions": [
+      640,
+      470
+    ],
+    "frames": 74,
+    "usage": "Isolated pedestal/bird pixel recovery only; never used as page background. See recovery/manifest.json."
   }
 ]

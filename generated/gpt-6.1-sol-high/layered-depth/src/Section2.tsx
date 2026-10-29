@@ -1,7 +1,9 @@
-import { assets, localAsset } from './assets';
+import { assets } from './assets';
 import { Pin } from './Icons';
+import { LeafShadows } from './RecoveredMotion';
 export default function Section2() {
-  return <section id="approach" aria-label="Our approach" style={{ position: 'relative', width: '100%', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', fontFamily: "'Zimula Trial Med', sans-serif", background: `#b4b3a6 url(${localAsset('section-fallback.svg')}) center / cover` }}>
+  return <section id="approach" aria-label="Our approach" style={{ position: 'relative', width: '100%', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', fontFamily: "'Zimula Trial Med', sans-serif", background: '#e8e8e6' }}>
+    <LeafShadows second />
     <video src={assets.section2} autoPlay muted loop playsInline aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }} />
     <div style={{ background: 'rgba(242, 238, 230, 0.38)', position: 'absolute', inset: 0, pointerEvents: 'none', zIndex: 1 }} />
     <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none', textAlign: 'center', padding: '0 24px', zIndex: 2 }}><h2 style={{ fontSize: 'clamp(32px, 5.5vw, 80px)', lineHeight: 1.18, color: '#2a2420', maxWidth: 780, letterSpacing: '-0.025em', fontWeight: 400 }}>What stands the<br />test of time is all<br />that guides the<br />work.</h2></div>

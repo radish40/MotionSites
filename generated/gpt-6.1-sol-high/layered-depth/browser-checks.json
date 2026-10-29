@@ -18,15 +18,19 @@
   "scriptErrors": [],
   "networkFailures": [
     {
-      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
-      "status": 401
-    },
-    {
       "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
       "status": 401
     },
     {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
+      "status": 401
+    },
+    {
       "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
       "status": 401
     },
     {
@@ -35,10 +39,6 @@
     },
     {
       "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
-      "status": 401
-    },
-    {
-      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
       "status": 401
     },
     {
@@ -54,11 +54,11 @@
       "status": 401
     },
     {
-      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
       "status": 401
     },
     {
-      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
       "status": 401
     },
     {
@@ -67,11 +67,15 @@
     },
     {
       "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
-      "reason": "net::ERR_ABORTED"
+      "status": 401
     },
     {
-      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
-      "reason": "net::ERR_ABORTED"
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+      "status": 401
     },
     {
       "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779835701/bg-2-video_sgbpqt.mp4",
@@ -79,14 +83,26 @@
     },
     {
       "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
-      "reason": "net::ERR_ABORTED"
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+      "status": 401
     },
     {
       "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
       "reason": "net::ERR_ABORTED"
     },
     {
-      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
       "status": 401
     },
     {
@@ -95,15 +111,11 @@
     },
     {
       "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
-      "status": 401
+      "reason": "net::ERR_ABORTED"
     },
     {
-      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
-      "status": 401
-    },
-    {
-      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
-      "status": 401
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+      "reason": "net::ERR_ABORTED"
     }
   ],
   "checks": [
@@ -136,23 +148,23 @@
       "pass": true
     },
     {
-      "name": "desktop bird starts enter",
+      "name": "desktop recovered bird image decoded",
       "pass": true
     },
     {
-      "name": "desktop bird enter to idle1",
+      "name": "desktop bird idle animation running",
       "pass": true
     },
     {
-      "name": "desktop bird idle1 to idle2",
+      "name": "desktop natural idle transition",
       "pass": true
     },
     {
-      "name": "desktop bird idle2 to idle1",
+      "name": "desktop leaf shadows visibly animate",
       "pass": true
     },
     {
-      "name": "desktop scroll triggers leave",
+      "name": "desktop genuine scroll triggers leave",
       "pass": true
     },
     {
@@ -160,11 +172,15 @@
       "pass": true
     },
     {
-      "name": "desktop bird leave to hidden",
+      "name": "desktop animation completes leave and hides",
       "pass": true
     },
     {
-      "name": "desktop return to top re-enters",
+      "name": "desktop re-enter bird moves across screen",
+      "pass": true
+    },
+    {
+      "name": "desktop real re-enter completes to idle",
       "pass": true
     },
     {
@@ -208,23 +224,23 @@
       "pass": true
     },
     {
-      "name": "mobile bird starts enter",
+      "name": "mobile recovered bird image decoded",
       "pass": true
     },
     {
-      "name": "mobile bird enter to idle1",
+      "name": "mobile bird idle animation running",
       "pass": true
     },
     {
-      "name": "mobile bird idle1 to idle2",
+      "name": "mobile natural idle transition",
       "pass": true
     },
     {
-      "name": "mobile bird idle2 to idle1",
+      "name": "mobile leaf shadows visibly animate",
       "pass": true
     },
     {
-      "name": "mobile scroll triggers leave",
+      "name": "mobile genuine scroll triggers leave",
       "pass": true
     },
     {
@@ -232,11 +248,15 @@
       "pass": true
     },
     {
-      "name": "mobile bird leave to hidden",
+      "name": "mobile animation completes leave and hides",
       "pass": true
     },
     {
-      "name": "mobile return to top re-enters",
+      "name": "mobile re-enter bird moves across screen",
+      "pass": true
+    },
+    {
+      "name": "mobile real re-enter completes to idle",
       "pass": true
     },
     {

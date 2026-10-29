@@ -47,19 +47,33 @@ const server=http.createServer((req,res)=>{
    check('mobile nav selection',await page.getByRole('button',{name:'Responsibility',exact:true}).getAttribute('aria-pressed')==='true');
    await page.keyboard.press('Escape');
   }
-  // Media is unavailable remotely; ended events verify the actual React transitions independently.
-  check(name+' bird starts enter',await page.locator('[data-bird-state]').getAttribute('data-bird-state')==='enter');
-  for(const [clip,next] of [['enter','idle1'],['idle1','idle2'],['idle2','idle1']]){
-   await page.locator('[data-bird-state] video').nth(['enter','idle1','idle2','leave'].indexOf(clip)).dispatchEvent('ended');
-   check(name+' bird '+clip+' to '+next,await page.locator('[data-bird-state]').getAttribute('data-bird-state')===next);
-  }
-  await page.evaluate(()=>window.scrollTo({top:160,behavior:'instant'}));await page.waitForTimeout(150);
-  check(name+' scroll triggers leave',await page.locator('[data-bird-state]').getAttribute('data-bird-state')==='leave');
-  check(name+' sculpture parallax',await page.locator('img[alt=""]').evaluate(img=>img.style.transform.includes('-48px')));
-  await page.locator('[data-bird-state] video').nth(3).dispatchEvent('ended');
-  check(name+' bird leave to hidden',await page.locator('[data-bird-state]').getAttribute('data-bird-state')==='hidden');
-  await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));await page.waitForTimeout(150);
-  check(name+' return to top re-enters',await page.locator('[data-bird-state]').getAttribute('data-bird-state')==='enter');
+  // Real Web Animations completion and genuine scrolling; no synthetic media events.
+  await page.waitForFunction(() => document.querySelector('[data-bird-state]').dataset.birdState.startsWith('idle'));
+  const bird = page.locator('[data-recovered-bird]');
+  check(name+' recovered bird image decoded',await bird.locator('img').evaluate(img=>img.complete&&img.naturalWidth>0));
+  check(name+' bird idle animation running',await bird.evaluate(el=>el.getAnimations().some(a=>a.playState==='running')));
+  const initialIdle=await page.locator('[data-bird-state]').getAttribute('data-bird-state');
+  await page.waitForFunction(state=>document.querySelector('[data-bird-state]').dataset.birdState!==state,initialIdle);
+  check(name+' natural idle transition',await page.locator('[data-bird-state]').getAttribute('data-bird-state')!==initialIdle);
+  const leaf=page.locator('[data-leaf-shadows] img').first();
+  const before=await leaf.evaluate(el=>getComputedStyle(el).transform);
+  await page.waitForTimeout(350);
+  check(name+' leaf shadows visibly animate',before!==await leaf.evaluate(el=>getComputedStyle(el).transform));
+  await page.evaluate(()=>window.scrollTo({top:160,behavior:'instant'}));
+  await page.waitForFunction(()=>document.querySelector('[data-bird-state]').dataset.birdState==='leave');
+  check(name+' genuine scroll triggers leave',await bird.isVisible());
+  await page.screenshot({path:'/work/screenshots/'+name+'-bird-leave.png'});
+  check(name+' sculpture parallax',await page.locator('img[alt=""]').evaluateAll(imgs=>imgs.some(img=>img.style.transform.includes('-48px'))));
+  await page.waitForFunction(()=>document.querySelector('[data-bird-state]').dataset.birdState==='hidden');
+  check(name+' animation completes leave and hides',!await bird.isVisible());
+  await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));
+  await page.waitForFunction(()=>document.querySelector('[data-bird-state]').dataset.birdState==='enter');
+  const entry1=await bird.boundingBox();await page.waitForTimeout(300);const entry2=await bird.boundingBox();
+  check(name+' re-enter bird moves across screen',Math.abs(entry1.x-entry2.x)>5);
+  await page.screenshot({path:'/work/screenshots/'+name+'-bird-enter.png'});
+  await page.waitForFunction(()=>document.querySelector('[data-bird-state]').dataset.birdState==='idle1');
+  check(name+' real re-enter completes to idle',await bird.isVisible());
+  await page.screenshot({path:'/work/screenshots/'+name+'.png'});
   check(name+' email CTA',await page.getByRole('link',{name:'Start a project with Qelora by email'}).getAttribute('href')==='mailto:hello@qelora.studio');
   await page.getByRole('link',{name:'EXPLORE OUR APPROACH'}).click();await page.waitForTimeout(1100);
   check(name+' approach anchor scrolls to section 2',await page.evaluate(()=>Math.abs(window.scrollY-document.querySelector('#approach').offsetTop)<2));

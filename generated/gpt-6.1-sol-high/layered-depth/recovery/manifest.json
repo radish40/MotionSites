@@ -1,0 +1,21 @@
+{
+  "source_url": "https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/hero%20sections/animated%20(43).webp",
+  "source_sha256": "f9034292865298dc819cce92a83632e0708384180df31fa2e9aea2c4159486a0",
+  "attribution": "Reproduced from user-authorized Layered Depth design reference; original creator not identified in supplied materials.",
+  "reference_dimensions": [
+    640,
+    470
+  ],
+  "frames": 74,
+  "recovered_assets": {
+    "pedestal-recovered.png": "Frame 26: manual stone silhouette + chroma-masked planting, alpha cutout, UI excluded.",
+    "bird-recovered.png": "Frame 0: manual kingfisher silhouette, alpha cutout, UI excluded."
+  },
+  "approximations": [
+    "Native bird flight paths and idle rocking/scaling; not original articulated video footage.",
+    "SVG leaf shapes and Web Animations shadow sway guided by reference.",
+    "640px source upscaling and partial fine foliage recovery."
+  ],
+  "runtime_reference_usage": "None: reference.webp and frames are not in public/ or dist/.",
+  "original_cloudinary_retry": "HTTP 401; cloud_name dy5er7kv5 is disabled"
+}

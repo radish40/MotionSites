@@ -1,0 +1,41 @@
+{
+  "title": "Mood Tracker",
+  "id": "mood-tracker",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_lockfile": "package-lock.json saved; installation audit reported zero vulnerabilities",
+    "browser": "passed: real Chromium using playwright-core",
+    "desktop": "passed at 1440x1000; 3 phones at 390x800; no horizontal overflow or clipped phone content",
+    "mobile": "passed at 390x844; 3 stacked phones at 290x700; no horizontal overflow or clipped phone content",
+    "interactions": [
+      "desktop: initial layout, videos, font, period tabs, info, mood, notes, energy limits, save, history, search, suggestions, persisted storage",
+      "mobile: initial layout, videos, font, period tabs, info, mood, notes, energy limits, save, history, search, suggestions, persisted storage"
+    ],
+    "script_console_http_errors": [],
+    "assets": "All 3 supplied videos play at 1080x1920 with no media errors; supplied avatar and local Helvetica Neue ME load",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Both screenshots inspected; mobile capture uses full stacked page height at 390px width",
+    "detailed_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "Helvetica Neue ME external WOFF",
+      "observed": "An earlier browser run encountered ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT from the font provider.",
+      "resolution": "The exact supplied WOFF2 font is included locally with a matching regular font-face definition; the requested stylesheet link remains in index.html. Final checks confirm a loaded face in both viewports with no resource console errors."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; no deployment, push, or publishing performed.",
+    "All source, configuration, static build, screenshots, and documentation are inside this project.",
+    "Check-ins persist in browser localStorage; the pattern percentages are the fixed mockup data requested.",
+    "The original video files are retained unchanged and total approximately 126 MB.",
+    "Chromium can pause offscreen videos on mobile; each video was verified while visible.",
+    "The detailed browser report retains canceled MP4 requests (ERR_ABORTED) during seeking, looping, or reloading; all media playback assertions passed.",
+    "Fixed desktop phone sizes follow the prompt and can require horizontal scrolling at tablet widths."
+  ]
+}

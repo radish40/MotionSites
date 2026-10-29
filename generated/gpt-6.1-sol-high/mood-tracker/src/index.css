@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { font-family: 'Helvetica Neue ME'; src: url('/assets/helvetica-neue-me.woff2') format('woff2'); font-weight: normal; font-style: normal; font-display: swap; }
+
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { font-family: 'Helvetica Neue ME', sans-serif; margin: 0; padding: 0; }
+button, textarea, input { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, textarea:focus-visible, input:focus-visible { outline: 2px solid white; outline-offset: 4px; }
+button { transition: background-color .2s, transform .2s; }
+button:active { transform: scale(.96); }
+@keyframes fadeSlideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.stagger-item { opacity: 0; animation: fadeSlideUp .6s cubic-bezier(.16,1,.3,1) forwards; }
+.stagger-delay-1 { animation-delay: .1s; } .stagger-delay-2 { animation-delay: .2s; }
+.stagger-delay-3 { animation-delay: .35s; } .stagger-delay-4 { animation-delay: .5s; }
+.stagger-delay-5 { animation-delay: .65s; } .stagger-delay-6 { animation-delay: .8s; }
+.stagger-delay-7 { animation-delay: .95s; } .stagger-delay-8 { animation-delay: 1.1s; }
+.phone { isolation: isolate; }
+.phone video { z-index: -3; }
+.phone .wash { z-index: -2; }
+.phone .shade { z-index: -1; }
+.phone textarea { scrollbar-width: thin; }
+.dialog-backdrop { background: rgba(26,29,23,.45); backdrop-filter: blur(16px); }
+@media (max-width: 767px) {
+  .phone-content { padding-left: 20px; padding-right: 20px; }
+  .home-title { font-size: 34px; }
+  .snapshot { margin-top: 12px; margin-bottom: 12px; }
+  .snapshot h2 { font-size: 16px; }
+  .snapshot button { padding-left: 10px; padding-right: 10px; font-size: 12px; }
+  .home-card { padding: 15px; }
+  .home-card .round-action { width: 38px; height: 38px; }
+  .home-card p { font-size: 13px; }
+  .insight-card { padding: 13px; }
+  .status-icons { transform: scale(.8); transform-origin: right center; margin-right: -12px; }
+  .insight-label { font-size: 12px; }
+  .insight-icon { margin-right: 8px; }
+  .insight-description { font-size: 9px; }
+  .mood-face { width: 48px; height: 48px; }
+  .checkin-title { font-size: 24px; margin-bottom: 16px; }
+  .mood-row { margin-bottom: 20px; }
+  .notes-card { padding: 15px; margin-bottom: 20px; }
+  .notes-card textarea { font-size: 13px; min-height: 72px; }
+  .energy-row { gap: 6px; }
+  .energy-row > button { width: 32px; }
+  .energy-bar, .energy-row > button { height: 65px; }
+}
+@media (prefers-reduced-motion: reduce) { .stagger-item { animation: none; opacity: 1; } button { transition: none; } }

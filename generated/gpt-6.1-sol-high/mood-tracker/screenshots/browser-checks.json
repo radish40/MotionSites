@@ -1,0 +1,298 @@
+{
+  "errors": [],
+  "failedRequests": [
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-1.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/mood-tracker/assets/screen-3.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "checks": [
+    "desktop: initial layout, videos, font, period tabs, info, mood, notes, energy limits, save, history, search, suggestions, persisted storage",
+    "mobile: initial layout, videos, font, period tabs, info, mood, notes, energy limits, save, history, search, suggestions, persisted storage"
+  ],
+  "viewports": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "phones": [
+          {
+            "width": 390,
+            "height": 800,
+            "contentHeight": 776,
+            "contentScrollHeight": 776
+          },
+          {
+            "width": 390,
+            "height": 800,
+            "contentHeight": 776,
+            "contentScrollHeight": 776
+          },
+          {
+            "width": 390,
+            "height": 800,
+            "contentHeight": 776,
+            "contentScrollHeight": 776
+          }
+        ]
+      },
+      "media": [
+        {
+          "readyState": 4,
+          "playing": true,
+          "width": 1080,
+          "height": 1920,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "playing": true,
+          "width": 1080,
+          "height": 1920,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "playing": true,
+          "width": 1080,
+          "height": 1920,
+          "error": null
+        }
+      ],
+      "fontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Helvetica Neue ME",
+          "status": "unloaded",
+          "weight": "normal"
+        },
+        {
+          "family": "Helvetica Neue ME",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "phones": [
+          {
+            "width": 290,
+            "height": 700,
+            "contentHeight": 682,
+            "contentScrollHeight": 682
+          },
+          {
+            "width": 290,
+            "height": 700,
+            "contentHeight": 682,
+            "contentScrollHeight": 682
+          },
+          {
+            "width": 290,
+            "height": 700,
+            "contentHeight": 682,
+            "contentScrollHeight": 682
+          }
+        ]
+      },
+      "media": [
+        {
+          "readyState": 4,
+          "playing": true,
+          "width": 1080,
+          "height": 1920,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "playing": true,
+          "width": 1080,
+          "height": 1920,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "playing": true,
+          "width": 1080,
+          "height": 1920,
+          "error": null
+        }
+      ],
+      "fontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Helvetica Neue ME",
+          "status": "unloaded",
+          "weight": "normal"
+        },
+        {
+          "family": "Helvetica Neue ME",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "responses": [],
+  "checks": [
+    {
+      "name": "muted background video autoplays",
+      "passed": true
+    },
+    {
+      "name": "desktop 1440x1000",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000
+    },
+    {
+      "name": "newsletter native validation and unavailable-service status",
+      "passed": true
+    },
+    {
+      "name": "mobile 390x844",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 980
+    },
+    {
+      "name": "mobile staggered menu opens and closes by toggle, Escape, backdrop",
+      "passed": true
+    },
+    {
+      "name": "responsive 320px",
+      "width": 320,
+      "height": 1000,
+      "scrollWidth": 320,
+      "scrollHeight": 1000
+    },
+    {
+      "name": "responsive 640px",
+      "width": 640,
+      "height": 1000,
+      "scrollWidth": 640,
+      "scrollHeight": 1202
+    },
+    {
+      "name": "responsive 768px",
+      "width": 768,
+      "height": 1000,
+      "scrollWidth": 768,
+      "scrollHeight": 1000
+    },
+    {
+      "name": "responsive 1024px",
+      "width": 1024,
+      "height": 1000,
+      "scrollWidth": 1024,
+      "scrollHeight": 1000
+    }
+  ],
+  "fontLoaded": true,
+  "video": {
+    "readyState": 1,
+    "width": 3828,
+    "height": 2164,
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260613_180732_a54afbf6-b30d-470e-861f-669871f09f67.mp4"
+  }
+}

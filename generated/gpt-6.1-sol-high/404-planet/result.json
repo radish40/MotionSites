@@ -1,0 +1,50 @@
+{
+  "title": "404 Planet",
+  "id": "404-planet",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/404-planet/",
+    "browser_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm run check'",
+    "browser": "Chromium via playwright-core",
+    "desktop": "1440x1000; one viewport; no horizontal overflow",
+    "mobile": "390x844; scrollable footer; no horizontal overflow",
+    "additional_widths": [
+      320,
+      640,
+      768,
+      1024
+    ],
+    "interactions": [
+      "video autoplay",
+      "mobile menu toggle",
+      "Escape dismissal",
+      "backdrop dismissal",
+      "newsletter email validation and honest unavailable-service status"
+    ],
+    "font_loaded": true,
+    "video_loaded": true,
+    "console_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-full.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "details": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Uses React, Tailwind CSS and Lucide React with the exact supplied font stylesheet, video URL, SVG mark and design text.",
+    "Identical supplied video is saved locally as a fallback; poster is extracted from it.",
+    "Mobile footer requires vertical scrolling to preserve all specified content and sizing.",
+    "Product/footer/login destinations are descriptive host-root routes; destination pages were not supplied. Main-page link targets /. Social links target platform homepages.",
+    "No newsletter backend was supplied; native validation works and submission reports signup unavailable.",
+    "Dependency lockfile preserved; node_modules is ignored.",
+    "No agents, other sessions, deployment, push or messages used."
+  ]
+}

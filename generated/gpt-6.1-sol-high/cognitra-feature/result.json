@@ -1,0 +1,32 @@
+{
+  "title": "Cognitra Feature",
+  "id": "cognitra-feature",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities reported by final npm install",
+    "base_path": "/motionsites-results/cognitra-feature/",
+    "desktop": "passed: Chromium, 1440x1000",
+    "mobile": "passed: Chromium, 390x844",
+    "video": "passed: actual 1920x1080 video decoded and played with advancing time; autoplay, muted, loop, playsInline, fixed positioning",
+    "font": "Helvetica Now Var loaded at both viewport sizes",
+    "animation": "all six animated words and subtext reached opacity 1 and final position at both viewport sizes",
+    "layout": "transparent 100vh section; exact responsive padding; no horizontal or vertical overflow",
+    "script_errors": 0,
+    "visual_review": "desktop and mobile screenshots inspected",
+    "evidence": "screenshots/checks.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"]
+  },
+  "asset_issues": [
+    "Chromium recorded video range-request net::ERR_ABORTED events during the playback/screenshot-seek workflow. Video decoded, played, advanced, and rendered in both screenshots; no font or video availability failure was observed."
+  ],
+  "notes": [
+    "Implemented only the supplied Cognitra Feature design using React 18, TypeScript, Vite, Tailwind CSS 3 and Framer Motion 12.",
+    "Original video URL and font CSS import retained; external asset availability depends on their hosts.",
+    "Screenshots hold the video at 2 seconds after live playback verification.",
+    "Motion internal dependencies pinned to compatible versions after resolving the initial build mismatch.",
+    "No additional user controls were requested or added.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

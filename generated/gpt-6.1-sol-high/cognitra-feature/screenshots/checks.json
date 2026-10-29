@@ -1,0 +1,132 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "video": {
+      "playing": true,
+      "time": 2.630598,
+      "muted": true,
+      "loop": true,
+      "inline": true,
+      "width": 1920,
+      "height": 1080,
+      "position": "fixed"
+    },
+    "section": {
+      "height": 1000,
+      "background": "rgba(0, 0, 0, 0)",
+      "padding": "70px 32px 32px"
+    },
+    "heading": {
+      "text": "WE BUILD END-TO-END AI AUTOMATION SYSTEMS.",
+      "fontSize": "42px",
+      "words": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ]
+    },
+    "fontLoaded": true,
+    "paragraphOpacity": "1",
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_135830_bb6491d1-9b66-4aec-9722-13b4dfe3fb46.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "screenshot": "screenshots/desktop.png"
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "video": {
+      "playing": true,
+      "time": 2.907166,
+      "muted": true,
+      "loop": true,
+      "inline": true,
+      "width": 1920,
+      "height": 1080,
+      "position": "fixed"
+    },
+    "section": {
+      "height": 844,
+      "background": "rgba(0, 0, 0, 0)",
+      "padding": "90px 18px 32px"
+    },
+    "heading": {
+      "text": "WE BUILD END-TO-END AI AUTOMATION SYSTEMS.",
+      "fontSize": "26px",
+      "words": [
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none"
+        }
+      ]
+    },
+    "fontLoaded": true,
+    "paragraphOpacity": "1",
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_135830_bb6491d1-9b66-4aec-9722-13b4dfe3fb46.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_135830_bb6491d1-9b66-4aec-9722-13b4dfe3fb46.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "screenshot": "screenshots/mobile.png"
+  }
+]

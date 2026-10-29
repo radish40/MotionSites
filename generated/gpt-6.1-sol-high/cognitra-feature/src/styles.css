@@ -1,0 +1,57 @@
+@import url('https://db.onlinewebfonts.com/c/e66905e07608167a84e6ad52f638c3c6?family=Helvetica+Now+Var');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: 'Helvetica Now Var', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body { margin: 0; }
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.feature {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 70px 32px 32px;
+}
+
+.feature h2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em;
+  font-size: clamp(26px, 3vw, 42px);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.feature-description {
+  margin: 24px 0 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 260px;
+}
+
+@media (max-width: 900px) {
+  .feature { padding: 90px 18px 32px; }
+}

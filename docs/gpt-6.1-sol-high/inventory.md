@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 89/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 91/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -174,13 +174,13 @@
 | 87 | `beauty-categories` | Beauty Categories | Categories | 2 | 图片 | 已完成 |
 | 88 | `beauty-products` | Beauty Products | Products | 2 | 图片 | 已完成 |
 | 89 | `bento-grid-stats` | Bento Grid Stats | Components | 2 | 图片 | 已完成 |
-| 90 | `bio-active` | Clarity Core | Landing Page | 2 | 图片 | 生成中 |
+| 90 | `bio-active` | Clarity Core | Landing Page | 2 | 图片 | 已完成 |
 | 91 | `bio-age-dashboard` | Bio-Age Dashboard | Hero Section | 2 | 图片 | 生成中 |
-| 92 | `bio-digital` | Bio-Digital | Hero Section | 2 | 图片 | 生成中 |
+| 92 | `bio-digital` | Bio-Digital | Hero Section | 2 | 图片 | 已完成 |
 | 93 | `bl` | Bloom | Landing Page | 2 | 图片 | 生成中 |
 | 94 | `blog-showcase` | Blog Showcase | Blog & Editorial | 1 | 图片 | 生成中 |
-| 95 | `book-hero` | Book Hero | Hero Section | 2 | 图片 | 未开始 |
-| 96 | `bookedup` | BookedUp | SaaS | 1 | 图片 | 未开始 |
+| 95 | `book-hero` | Book Hero | Hero Section | 2 | 图片 | 生成中 |
+| 96 | `bookedup` | BookedUp | SaaS | 1 | 图片 | 生成中 |
 | 97 | `botanical-shadow-about` | Botanical Shadow About | About Section | 2 | 图片 | 未开始 |
 | 98 | `build-with-us` | Build With Us | Forms & Contact | 2 | 图片 | 未开始 |
 | 99 | `cinematic-brand` | Cinematic Brand | Hero Section | 2 | 图片 | 未开始 |

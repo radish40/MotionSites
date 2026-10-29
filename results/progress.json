@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:32:54.790270+00:00",
+  "updated_utc": "2026-10-29T05:34:56.827317+00:00",
   "total": 380,
   "counts": {
-    "complete": 89,
+    "complete": 91,
     "running": 5,
-    "not_started": 286
+    "not_started": 284
   },
   "jobs": [
     {
@@ -901,11 +901,11 @@
       "id": "bio-active",
       "title": "Clarity Core",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18620-b3ca-7433-a70c-400f33fb9310",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c9c6a0e9bac6768ccfc83c30d4a0a1e9241ddd7f",
+      "group_message_id": 140,
+      "url": "https://tool.luo-xd.com/motionsites-results/bio-active/"
     },
     {
       "id": "bio-age-dashboard",
@@ -921,18 +921,18 @@
       "id": "bio-digital",
       "title": "Bio-Digital",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18623-15e6-7121-8c61-6c202a67c605",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b2b7c4ed9dbc4a78daaf5133ca97c0f8d763b4f4",
+      "group_message_id": 141,
+      "url": "https://tool.luo-xd.com/motionsites-results/bio-digital/"
     },
     {
       "id": "bl",
       "title": "Bloom",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18624-b70d-76d3-b3a0-0ce2a344ddf0",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -942,7 +942,7 @@
       "title": "Blog Showcase",
       "category": "Blog & Editorial",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18624-b78d-7b90-9e12-1707ad0ba151",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -951,7 +951,7 @@
       "id": "book-hero",
       "title": "Book Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -961,7 +961,7 @@
       "id": "bookedup",
       "title": "BookedUp",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

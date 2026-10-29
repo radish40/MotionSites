@@ -1,0 +1,74 @@
+{
+  "title": "Equilibrium",
+  "id": "equilibrium",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "dist_index_exists": true,
+    "base_path": "/motionsites-results/equilibrium/",
+    "desktop_1440x1000": {
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "documentHeight": 1000,
+      "overflow": false,
+      "fontLoaded": true,
+      "video": {
+        "readyState": 4,
+        "currentTime": 1.161695,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "width": 3828,
+        "height": 2164,
+        "error": null,
+        "advancing": true
+      },
+      "glassBlur": "blur(4px)",
+      "desktopNavigation": true,
+      "mobileToggleHidden": true,
+      "ctaHoverBackground": "rgba(255, 255, 255, 0.9)"
+    },
+    "mobile_390x844": {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "overflow": false,
+      "fontLoaded": true,
+      "video": {
+        "readyState": 4,
+        "currentTime": 1.073521,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "width": 3828,
+        "height": 2164,
+        "error": null,
+        "advancing": true
+      },
+      "glassBlur": "blur(4px)",
+      "mobileMenu": "Opens, closes, and supports keyboard activation; all six buttons present; correct overlay bounds."
+    },
+    "javascript_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_review": "Desktop, mobile, and open-menu screenshots inspected."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact prompt video and remote Geist font successfully loaded in Chromium.",
+    "Source, dependency lockfile, production dist, browser check script, screenshots, and README included.",
+    "External font and video require network availability.",
+    "Navigation and CTA destinations were not specified; only the requested mobile menu toggles state.",
+    "An inline SVG favicon prevents a default browser favicon 404.",
+    "Ready for review; not deployed or pushed. No other designs, agents, or sessions used."
+  ]
+}

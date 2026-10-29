@@ -1,0 +1,53 @@
+{
+  "url": "http://localhost:4173/motionsites-results/equilibrium/",
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "responses": [],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "documentHeight": 1000,
+      "overflow": false,
+      "fontLoaded": true,
+      "video": {
+        "readyState": 4,
+        "currentTime": 1.161695,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "width": 3828,
+        "height": 2164,
+        "error": null,
+        "advancing": true
+      },
+      "glassBlur": "blur(4px)",
+      "desktopNavigation": true,
+      "mobileToggleHidden": true,
+      "ctaHoverBackground": "rgba(255, 255, 255, 0.9)"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "overflow": false,
+      "fontLoaded": true,
+      "video": {
+        "readyState": 4,
+        "currentTime": 1.073521,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "width": 3828,
+        "height": 2164,
+        "error": null,
+        "advancing": true
+      },
+      "glassBlur": "blur(4px)",
+      "mobileMenu": "Opens, closes, and supports keyboard activation; all six buttons present; correct overlay bounds."
+    }
+  }
+}

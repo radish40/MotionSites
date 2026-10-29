@@ -1,0 +1,58 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1000,
+    "scrollHeight": 1000,
+    "font": true,
+    "video": {
+      "width": 1920,
+      "height": 1080
+    },
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100"
+      },
+      {
+        "loaded": true,
+        "src": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100"
+      },
+      {
+        "loaded": true,
+        "src": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100"
+      },
+      {
+        "loaded": true,
+        "src": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=100"
+      }
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 844,
+    "scrollHeight": 844
+  },
+  "interactions": {
+    "desktopNav": true,
+    "ctaHover": "rgba(255, 255, 255, 0.1)",
+    "menuOpens": true,
+    "mainHidden": true,
+    "linkClosesMenu": true,
+    "escapeClosesMenu": true,
+    "resizeClosesMenu": true
+  },
+  "errors": [],
+  "assetIssues": [],
+  "mediaCancellations": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260715_082433_69699cf8-444b-4484-93cc-053e57896dfd.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260715_082433_69699cf8-444b-4484-93cc-053e57896dfd.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

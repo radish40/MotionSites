@@ -1,0 +1,24 @@
+{
+  "title": "Mind-Body Healing",
+  "id": "mind-body-healing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.cache -e npm_config_cache=/work/.cache/npm -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "desktop": "passed: Chromium 1440x1000, no overflow",
+    "mobile": "passed: Chromium 390x844, no overflow",
+    "assets": "passed: video autoplay and decoding, all four avatars, Inter font",
+    "interactions": "passed: desktop anchor links, CTA hover, mobile menu toggle, link dismissal, Escape and resize dismissal",
+    "script_errors": 0,
+    "report": "checks/browser-report.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/mobile-menu.png"]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built only the supplied Mind-Body Healing design; brand is Vibrant Wellness.",
+    "Static assets configured for /motionsites-results/mind-body-healing/.",
+    "Exact external assets loaded successfully; media request cancellations during test seeking/navigation are retained in browser-report.json.",
+    "CTA and account are presentational as specified; no booking or account workflow was requested.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

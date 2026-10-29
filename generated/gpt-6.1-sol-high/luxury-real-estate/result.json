@@ -1,0 +1,148 @@
+{
+  "title": "Luxury Real Estate",
+  "id": "luxury-real-estate",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed (TypeScript and Vite)",
+    "browser": [
+      {
+        "viewport": "desktop",
+        "size": "1440x1000",
+        "preloader": true,
+        "heroReveal": true,
+        "houseLoaded": true,
+        "menuLinksAndEscape": true,
+        "countUp": true,
+        "navColor": true,
+        "houseTransform": "matrix(1.13861, 0, 0, 1.13861, -99.8003, 764.163)",
+        "videoPlayback": [
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          },
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          },
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          },
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          },
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          }
+        ],
+        "gallery": "hover expansion passed",
+        "horizontalOverflow": false,
+        "fonts": {
+          "syne": true,
+          "inter": true
+        }
+      },
+      {
+        "viewport": "mobile",
+        "size": "390x844",
+        "preloader": true,
+        "heroReveal": true,
+        "houseLoaded": true,
+        "menuLinksAndEscape": true,
+        "countUp": true,
+        "navColor": true,
+        "houseTransform": "matrix(1.13861, 0, 0, 1.13861, -602.028, 501.229)",
+        "videoPlayback": [
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          },
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          },
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          },
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          },
+          {
+            "readyState": 4,
+            "width": 1928,
+            "playing": true,
+            "muted": true
+          }
+        ],
+        "gallery": "two-column grid passed",
+        "horizontalOverflow": false,
+        "fonts": {
+          "syne": true,
+          "inter": true
+        }
+      }
+    ],
+    "javascript_errors": [],
+    "evidence": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/intro.png",
+      "screenshots/desktop-statement.png",
+      "screenshots/mobile-statement.png",
+      "screenshots/desktop-gallery.png",
+      "screenshots/mobile-gallery.png"
+    ],
+    "expected_http_errors": [
+      {
+        "viewport": "desktop",
+        "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1780471903/building_bzziky.png",
+        "status": 401
+      },
+      {
+        "viewport": "mobile",
+        "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1780471903/building_bzziky.png",
+        "status": 401
+      }
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "HOUSE_IMG",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1780471903/building_bzziky.png",
+      "status": 401,
+      "reason": "cloud_name dsdhxhhqh is disabled",
+      "resolution": "Exact URL retained as primary. On error, uses a local transparent cutout derived from the first supplied gallery video. Original house appearance remains unavailable."
+    }
+  ],
+  "notes": [
+    "Ready for management review; not deployed.",
+    "Static output: dist/index.html. Base: /motionsites-results/luxury-real-estate/.",
+    "Exact sky and all five original videos saved locally; Google fonts loaded successfully in Chromium.",
+    "All requested development and outputs remain inside this project. No agents, other designs, pushes, or messages used.",
+    "Inquire uses an in-page end anchor; no form or persistence was specified."
+  ]
+}

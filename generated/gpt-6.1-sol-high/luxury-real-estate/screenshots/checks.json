@@ -1,0 +1,117 @@
+{
+  "url": "http://localhost:4173/motionsites-results/luxury-real-estate/",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "size": "1440x1000",
+      "preloader": true,
+      "heroReveal": true,
+      "houseLoaded": true,
+      "menuLinksAndEscape": true,
+      "countUp": true,
+      "navColor": true,
+      "houseTransform": "matrix(1.13861, 0, 0, 1.13861, -99.8003, 764.163)",
+      "videoPlayback": [
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        },
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        },
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        },
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        },
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        }
+      ],
+      "gallery": "hover expansion passed",
+      "horizontalOverflow": false,
+      "fonts": {
+        "syne": true,
+        "inter": true
+      }
+    },
+    {
+      "viewport": "mobile",
+      "size": "390x844",
+      "preloader": true,
+      "heroReveal": true,
+      "houseLoaded": true,
+      "menuLinksAndEscape": true,
+      "countUp": true,
+      "navColor": true,
+      "houseTransform": "matrix(1.13861, 0, 0, 1.13861, -602.028, 501.229)",
+      "videoPlayback": [
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        },
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        },
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        },
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        },
+        {
+          "readyState": 4,
+          "width": 1928,
+          "playing": true,
+          "muted": true
+        }
+      ],
+      "gallery": "two-column grid passed",
+      "horizontalOverflow": false,
+      "fonts": {
+        "syne": true,
+        "inter": true
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "responses": [
+    {
+      "viewport": "desktop",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1780471903/building_bzziky.png",
+      "status": 401
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1780471903/building_bzziky.png",
+      "status": 401
+    }
+  ]
+}

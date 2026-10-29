@@ -1,0 +1,57 @@
+{
+  "title": "Nimbus Security",
+  "id": "nimbus-security",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": "Chromium, production static files at /motionsites-results/nimbus-security/",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "fonts_loaded": true
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "horizontal_overflow": false,
+        "fonts_loaded": true
+      },
+      {
+        "width": 820,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "fonts_loaded": true
+      },
+      {
+        "width": 821,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "fonts_loaded": true
+      }
+    ],
+    "responsive_layout": "passed; 3 columns above 820px, stacked at and below 820px",
+    "scrolling": "passed; final card reachable",
+    "interactions": "not applicable; prompt specifies no interactive controls",
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "desktop and mobile screenshots inspected",
+    "dependency_audit": "1 moderate and 1 high development dependency finding; see dependency-audit.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact local prompt structure, copy, CSS variables, and responsive rules implemented with the required stack.",
+    "Google Fonts loaded successfully; external network access is required.",
+    "Own design reference viewed only; no screenshot page content or extraction.",
+    "No animation or interactive controls requested.",
+    "Vite 5 range retained as specified; audit suggests a major upgrade for development tooling advisories.",
+    "Chromium validation only; other engines not tested.",
+    "Ready for review; no deployment or push performed."
+  ]
+}

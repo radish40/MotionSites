@@ -6780,20 +6780,24 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186ae-14d5-7910-853f-24f11089f7e9",
       "output_path": "generated/gpt-6.1-sol-high/radial-diagram",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Verified terminal UTF-8 transport failure; resumed same original session through the exact same local provider backend. Model and reasoning unchanged.",
       "process_id": 3418556,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:01:57.794160+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 2
+      "repair_attempts": 2,
+      "source_commit": "e5726c535f01fd6bdcb900c18605b5691e79b93f",
+      "url": "https://tool.luo-xd.com/motionsites-results/radial-diagram/",
+      "completed_utc": "2026-10-29T08:17:24.284250+00:00",
+      "group_message_id": 256
     },
     {
       "number": 199,
@@ -10825,7 +10829,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T08:16:01.190015+00:00",
+  "updated_utc": "2026-10-29T08:17:24.467539+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

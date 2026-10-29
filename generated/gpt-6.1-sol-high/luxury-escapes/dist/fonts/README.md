@@ -1,0 +1,1 @@
+The requested Linotype Projekt regular WOFF2 and WOFF binaries were not supplied. Place licensed originals here as `linotype-projekt-regular.woff2` and `linotype-projekt-regular.woff`. The font face is configured but unused by both screens. See the project README for the recorded limitation.

@@ -1,0 +1,121 @@
+{
+  "consoleErrors": [],
+  "pageErrors": [],
+  "requestFailures": [],
+  "expectedMediaCancellations": [
+    {
+      "url": "http://localhost:4173/motionsites-results/luxury-escapes/videos/offer.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/luxury-escapes/videos/offer.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "responsesFailed": [],
+  "viewports": [
+    {
+      "name": "desktop",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "scroll": [
+        1440,
+        1000
+      ],
+      "stage": {
+        "x": 315,
+        "y": 105,
+        "width": 810,
+        "height": 790
+      },
+      "antonLoaded": true,
+      "videos": [
+        {
+          "src": "http://localhost:4173/motionsites-results/luxury-escapes/videos/offer.mp4",
+          "readyState": 4,
+          "paused": false,
+          "width": 1244,
+          "height": 1660,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/luxury-escapes/videos/offer.mp4",
+          "readyState": 4,
+          "paused": false,
+          "width": 1244,
+          "height": 1660,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/luxury-escapes/videos/getaway.mp4",
+          "readyState": 4,
+          "paused": false,
+          "width": 1080,
+          "height": 1916,
+          "error": null
+        }
+      ],
+      "interactions": {
+        "offerFocus": true,
+        "menuOpened": true,
+        "menuClosed": true,
+        "descriptionFocused": true,
+        "backFocused": true
+      }
+    },
+    {
+      "name": "mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll": [
+        390,
+        844
+      ],
+      "stage": {
+        "x": 20,
+        "y": 251.32098388671875,
+        "width": 350,
+        "height": 341.3580322265625
+      },
+      "antonLoaded": true,
+      "videos": [
+        {
+          "src": "http://localhost:4173/motionsites-results/luxury-escapes/videos/offer.mp4",
+          "readyState": 4,
+          "paused": false,
+          "width": 1244,
+          "height": 1660,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/luxury-escapes/videos/offer.mp4",
+          "readyState": 4,
+          "paused": false,
+          "width": 1244,
+          "height": 1660,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/luxury-escapes/videos/getaway.mp4",
+          "readyState": 4,
+          "paused": false,
+          "width": 1080,
+          "height": 1916,
+          "error": null
+        }
+      ],
+      "interactions": {
+        "offerFocus": true,
+        "menuOpened": true,
+        "menuClosed": true,
+        "descriptionFocused": true,
+        "backFocused": true
+      }
+    }
+  ],
+  "reducedMotion": true
+}

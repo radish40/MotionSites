@@ -1,0 +1,40 @@
+{
+  "title": "Luxury Escapes",
+  "id": "luxury-escapes",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "publish_base": "/motionsites-results/luxury-escapes/",
+    "desktop_1440x1000": "passed; visually inspected screenshots/desktop.png",
+    "mobile_390x844": "passed; visually inspected screenshots/mobile.png",
+    "viewport_overflow": "none on either required viewport",
+    "interactions": "View Offer, Back, menu open/close, menu summary selection, and description arrow passed on both viewports",
+    "video_playback": "all three video elements readyState 4, playing, with no media errors on both viewports",
+    "anton_font": "loaded successfully on both viewports",
+    "reduced_motion": "passed; videos paused",
+    "javascript_errors": 0,
+    "console_errors": 0,
+    "unexpected_request_failures": 0,
+    "http_error_responses": 0,
+    "npm_audit": "0 vulnerabilities after updating Vite to 6.4.5",
+    "evidence": "screenshots/browser-report.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "Linotype Projekt regular WOFF2 and WOFF",
+      "issue": "Neither font binary nor a source was supplied. The configured font face is unused in both screens; the binaries remain absent. Vite reports unresolved font assets during the successful build.",
+      "impact": "No visible impact or browser font requests in these screens. Add licensed originals to public/fonts/ to fulfill the unused font inventory requirement."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Only this project was read and modified; no agents or other sessions were created.",
+    "React and ReactDOM are the only runtime dependencies; Vite is a development dependency. Lockfile included; node_modules omitted from delivery.",
+    "Both exact supplied videos were downloaded unchanged and included locally, totaling approximately 78 MiB.",
+    "Expected MP4 request cancellations during screen remounts are preserved separately in the browser report; playback checks pass.",
+    "Headline widths adapt horizontally after font loading to preserve the prompt's exact line breaks.",
+    "The mobile screenshot preserves the requested side-by-side scaling behavior.",
+    "Requested model and reasoning were recorded in TASK.md; the running model is controlled by the surrounding session and was not switched."
+  ]
+}

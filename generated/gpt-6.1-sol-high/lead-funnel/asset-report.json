@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://image.mux.com/Fha8aU022LfL14z2WB1SbgIvq901NKvnl77OaQBOJXTk4/animated.webp?width=640&fps=15",
+    "local": "portfolio-01.webp",
+    "status": "ok",
+    "bytes": 1123092,
+    "error": ""
+  },
+  {
+    "url": "https://i.ibb.co/gFyGKsKC/temp-Imagel0c-NFL-heic-202606192014.jpg",
+    "local": "portfolio-02.jpg",
+    "status": "ok",
+    "bytes": 71016,
+    "error": ""
+  },
+  {
+    "url": "https://image.mux.com/3QMFUgJOJoclCn3i3dUJJQDapAuIhKin2VesnbIVThk/animated.webp?width=640&fps=15",
+    "local": "portfolio-03.webp",
+    "status": "ok",
+    "bytes": 2009134,
+    "error": ""
+  },
+  {
+    "url": "https://i.ibb.co/7JXNrt9z/temp-Imagel0c-NFL-heic-202606192011.jpg",
+    "local": "portfolio-04.jpg",
+    "status": "ok",
+    "bytes": 39856,
+    "error": ""
+  },
+  {
+    "url": "https://image.mux.com/8v3ptTfh02ifW501AE0101Oc9likenmSljCmutT2xXSEzEk/animated.webp?width=640&fps=15",
+    "local": "portfolio-05.webp",
+    "status": "ok",
+    "bytes": 715612,
+    "error": ""
+  },
+  {
+    "url": "https://i.ibb.co/hJj4nxBT/temp-Imagel0c-NFL-heic-202606192019.jpg",
+    "local": "portfolio-06.jpg",
+    "status": "ok",
+    "bytes": 32197,
+    "error": ""
+  },
+  {
+    "url": "https://image.mux.com/rjL6oQiSOfhaxXgbslqGUsFKnaRtqLdxwurjT6Yv5PQ/animated.webp?width=640&fps=15",
+    "local": "portfolio-07.webp",
+    "status": "ok",
+    "bytes": 1673622,
+    "error": ""
+  },
+  {
+    "url": "https://image.mux.com/WuNDVUgyyrxFhrn2QxrF1LjMS3nBwrD7xjMNnIEn6nU/animated.webp?width=640&fps=15",
+    "local": "portfolio-08.webp",
+    "status": "ok",
+    "bytes": 711612,
+    "error": ""
+  },
+  {
+    "url": "https://image.mux.com/lc4s01TqqDHxVTc01xNacwF2tHu3CdTXQflRRS8H02WYDs/animated.webp?width=640&fps=15",
+    "local": "portfolio-09.webp",
+    "status": "ok",
+    "bytes": 822670,
+    "error": ""
+  },
+  {
+    "url": "https://pbs.twimg.com/profile_images/1941325782829113344/buT3DYqx_400x400.jpg",
+    "local": "viktor-oddy.jpg",
+    "status": "failed",
+    "bytes": 0,
+    "error": "curl: (22) The requested URL returned error: 404"
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&family=Fraunces:ital,opsz,wght@1,9..144,100..900&display=swap",
+    "status": "ok",
+    "local": "fonts.css"
+  }
+]

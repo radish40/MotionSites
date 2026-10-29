@@ -1,0 +1,171 @@
+{
+  "url": "/motionsites-results/lead-funnel/",
+  "checks": [
+    {
+      "name": "desktop",
+      "check": "initial layout, loaded images/fonts, no viewport overflow, screenshot",
+      "pass": true,
+      "metrics": {
+        "viewport": 1440,
+        "width": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "images": [
+          {
+            "src": "/motionsites-results/lead-funnel/assets/viktor-oddy-fallback.svg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-01.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-02.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-03.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-04.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-05.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-06.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-07.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-02.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-08.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-04.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-09.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-06.jpg",
+            "ok": true
+          }
+        ],
+        "fonts": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "name": "desktop",
+      "check": "carousel auto rotation, arrow key, wheel, pointer drag",
+      "pass": true
+    },
+    {
+      "name": "desktop",
+      "check": "cookie choice saved and banner dismissed; budget threshold; budget/email flow; confirmation summary; click and Enter submission",
+      "pass": true
+    },
+    {
+      "name": "mobile",
+      "check": "initial layout, loaded images/fonts, no viewport overflow, screenshot",
+      "pass": true,
+      "metrics": {
+        "viewport": 390,
+        "width": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "images": [
+          {
+            "src": "/motionsites-results/lead-funnel/assets/viktor-oddy-fallback.svg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-01.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-02.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-03.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-04.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-05.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-06.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-07.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-02.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-08.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-04.jpg",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-09.webp",
+            "ok": true
+          },
+          {
+            "src": "/motionsites-results/lead-funnel/assets/portfolio-06.jpg",
+            "ok": true
+          }
+        ],
+        "fonts": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "name": "mobile",
+      "check": "carousel auto rotation, arrow key, wheel, pointer drag",
+      "pass": true
+    },
+    {
+      "name": "mobile",
+      "check": "mobile menu open and close through navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile",
+      "check": "cookie choice saved and banner dismissed; budget threshold; budget/email flow; confirmation summary; click and Enter submission",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

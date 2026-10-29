@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes cursor-blink {
+0%, 100% { opacity: 1; }
+50% { opacity: 0; }
+}
+.animate-cursor-blink {
+animation: cursor-blink 1.0s step-end infinite;
+}
+html, body {
+display: grid;
+margin: 0;
+padding: 0;
+overflow: hidden;
+height: 100%;
+width: 100%;
+background: #000000;
+user-select: none;
+touch-action: none;
+font-size: clamp(9px, 0.55vw + 0.65vh + 3px, 16px);
+}
+#root {
+display: grid;
+width: 100%;
+height: 100%;
+}
+.scene, .a3d {
+display: grid;
+}
+.scene {
+overflow: hidden;
+perspective: 35em;
+width: 100vw;
+height: 100vh;
+}
+.a3d {
+place-self: end center;
+margin-bottom: 12em;
+transform-style: preserve-3d;
+}
+.card {
+--w: 24em;
+--h: calc(var(--w) * 1);
+--ba: calc(360deg / var(--n));
+grid-area: 1/ 1;
+width: var(--w);
+height: var(--h);
+object-fit: contain;
+border-radius: 12px;
+overflow: hidden;
+backface-visibility: hidden;
+transition: opacity 0.5s ease, filter 0.5s ease;
+--card-rz: clamp(-20deg, calc(var(--vel, 0) * 1.0deg), 20deg);
+--card-skew-x: clamp(-10deg, calc(var(--vel, 0) * 0.4deg), 10deg);
+--card-z-offset: calc(var(--abs-vel, 0) * -2px);
+--card-scale: calc(1 - var(--abs-vel, 0) * 0.0025);
+transform:
+rotateY(calc(var(--i) * var(--ba)))
+translateZ(calc(var(--z-trans) + var(--card-z-offset)))
+rotateZ(var(--card-rz))
+skewX(var(--card-skew-x))
+scale(var(--card-scale));
+cursor: pointer;
+}
+
+/* Keep centering independent of Motion’s animated transform. */
+@media (min-width: 768px) { .cookie-banner { translate: -50% 0; } }
+
+/* Isolate the animated header from the perspective/blur compositing layers. */
+.site-header { isolation: isolate; transform: translateZ(0); }

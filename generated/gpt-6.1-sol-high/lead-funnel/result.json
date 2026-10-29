@@ -1,0 +1,210 @@
+{
+  "title": "Lead Funnel",
+  "id": "lead-funnel",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists",
+    "browser": "passed",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "script_errors": 0,
+    "failed_requests": 0,
+    "details": [
+      {
+        "name": "desktop",
+        "check": "initial layout, loaded images/fonts, no viewport overflow, screenshot",
+        "pass": true,
+        "metrics": {
+          "viewport": 1440,
+          "width": 1440,
+          "height": 1000,
+          "scrollHeight": 1000,
+          "images": [
+            {
+              "src": "/motionsites-results/lead-funnel/assets/viktor-oddy-fallback.svg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-01.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-02.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-03.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-04.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-05.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-06.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-07.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-02.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-08.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-04.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-09.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-06.jpg",
+              "ok": true
+            }
+          ],
+          "fonts": [
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "name": "desktop",
+        "check": "carousel auto rotation, arrow key, wheel, pointer drag",
+        "pass": true
+      },
+      {
+        "name": "desktop",
+        "check": "cookie choice saved and banner dismissed; budget threshold; budget/email flow; confirmation summary; click and Enter submission",
+        "pass": true
+      },
+      {
+        "name": "mobile",
+        "check": "initial layout, loaded images/fonts, no viewport overflow, screenshot",
+        "pass": true,
+        "metrics": {
+          "viewport": 390,
+          "width": 390,
+          "height": 844,
+          "scrollHeight": 844,
+          "images": [
+            {
+              "src": "/motionsites-results/lead-funnel/assets/viktor-oddy-fallback.svg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-01.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-02.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-03.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-04.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-05.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-06.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-07.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-02.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-08.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-04.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-09.webp",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/lead-funnel/assets/portfolio-06.jpg",
+              "ok": true
+            }
+          ],
+          "fonts": [
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "name": "mobile",
+        "check": "carousel auto rotation, arrow key, wheel, pointer drag",
+        "pass": true
+      },
+      {
+        "name": "mobile",
+        "check": "mobile menu open and close through navigation",
+        "pass": true
+      },
+      {
+        "name": "mobile",
+        "check": "cookie choice saved and banner dismissed; budget threshold; budget/email flow; confirmation summary; click and Enter submission",
+        "pass": true
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-submitted.png",
+      "screenshots/mobile-submitted.png"
+    ],
+    "report": "browser-checks.json",
+    "visual_review": "desktop and mobile screenshots reviewed"
+  },
+  "asset_issues": [
+    {
+      "url": "https://pbs.twimg.com/profile_images/1941325782829113344/buT3DYqx_400x400.jpg",
+      "local": "viktor-oddy.jpg",
+      "status": "failed",
+      "bytes": 0,
+      "error": "curl: (22) The requested URL returned error: 404",
+      "handling": "Local VO initials SVG used instead of unavailable portrait"
+    }
+  ],
+  "notes": [
+    "Local static deliverable only; not pushed or deployed.",
+    "Required publication base: /motionsites-results/lead-funnel/.",
+    "Source React 19, Motion 12.23.24, Tailwind utilities and Bootstrap Icons preserved; compiled using Vite.",
+    "Original six animated WebP assets, three JPG assets and both font families cached locally.",
+    "Fixed desktop cookie centering independently of Motion transforms.",
+    "Source navigation/privacy links remain placeholders; source submission has no backend.",
+    "Source email step enables submission at four characters; source cookie banner is shown again on reload.",
+    "See README.md for operation, validation, and limitations.",
+    "Isolated header compositing from perspective/blur layers to resolve intermittent Chromium rendering loss."
+  ]
+}

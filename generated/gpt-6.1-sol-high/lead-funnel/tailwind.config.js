@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{fontFamily:{sans:['"Inter Tight"','ui-sans-serif','system-ui','-apple-system','sans-serif'],serif:['"Fraunces"','Georgia','serif']}}},plugins:[]};

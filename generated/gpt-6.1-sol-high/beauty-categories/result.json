@@ -1,0 +1,33 @@
+{
+  "title": "Beauty Categories",
+  "id": "beauty-categories",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html and bundled assets exist",
+    "publication_base": "/motionsites-results/beauty-categories/",
+    "desktop": "passed; Chromium viewport 1440x1000; centered three-column layout",
+    "mobile": "passed; Chromium viewport 390x844; single-column layout",
+    "additional_responsive_widths": [640, 768, 1024],
+    "video_playback": "passed for all three original URLs on desktop and mobile",
+    "reveal": "passed; threshold 0.1; one-shot observer; 1000 ms grid transition; card delay values 0/150/300 ms",
+    "interactions": "passed; video zoom, overlay darkening, vertical label movement, button hover/active, keyboard focus/activation, and mobile taps",
+    "script_errors": [],
+    "failed_asset_requests": [],
+    "horizontal_overflow": false,
+    "dependency_audit": "zero vulnerabilities reported by npm",
+    "visual_inspection": "desktop and mobile screenshots inspected",
+    "evidence": "screenshots/browser-checks.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implements only the supplied React + Tailwind Categories design, with exact category copy and remote video sources.",
+    "Mobile screenshot is full-page, 390x1200, taken using the required 390x844 viewport.",
+    "Screenshots freeze videos at one second only after verifying real autoplay playback; production videos remain animated.",
+    "Shop destinations were not specified; buttons implement the requested visual interactions without additional shopping features.",
+    "Remote videos require network access; no external font was specified or added.",
+    "Dependency lockfile included. No agents, other designs, deployment, push, or messages to others used.",
+    "Ready means available for management-session review; not deployed."
+  ]
+}

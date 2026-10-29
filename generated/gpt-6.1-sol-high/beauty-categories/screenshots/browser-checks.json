@@ -1,0 +1,96 @@
+{
+  "checks": [
+    "Desktop: three 480 × 750 cards centered at y=125; video scale, overlay, label hover, button hover/press and keyboard focus pass.",
+    "desktop: supplied media decoded and autoplayed; one-shot reveal at threshold 0.1 and card transition delays pass.",
+    "Responsive breakpoints: 640, 768, and 1024 px have expected card heights and no horizontal overflow.",
+    "Mobile: three stacked 390 × 400 cards; all category buttons accept taps; no horizontal overflow.",
+    "mobile: supplied media decoded and autoplayed; one-shot reveal at threshold 0.1 and card transition delays pass."
+  ],
+  "scriptErrors": [],
+  "failedRequests": [],
+  "media": {
+    "desktop": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260518_203023_87a26602-2898-4acc-a396-c7a2b5ad84fd.mp4",
+        "readyState": 4,
+        "time": 2.200648,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260518_203415_b86e3f19-2aec-46cd-9a86-b64c40118e38.mp4",
+        "readyState": 4,
+        "time": 2.289531,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260518_203051_85fee398-ea01-4aa0-972b-137a74213be5.mp4",
+        "readyState": 4,
+        "time": 2.199975,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      }
+    ],
+    "mobile": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260518_203023_87a26602-2898-4acc-a396-c7a2b5ad84fd.mp4",
+        "readyState": 4,
+        "time": 2.363413,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260518_203415_b86e3f19-2aec-46cd-9a86-b64c40118e38.mp4",
+        "readyState": 4,
+        "time": 2.658377,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260518_203051_85fee398-ea01-4aa0-972b-137a74213be5.mp4",
+        "readyState": 4,
+        "time": 2.363444,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "error": null,
+        "width": 1244,
+        "height": 1664
+      }
+    ]
+  },
+  "status": "passed"
+}

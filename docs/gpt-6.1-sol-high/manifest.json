@@ -2931,19 +2931,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1861e-d4ea-7660-ad2b-fd6676369ccf",
       "output_path": "generated/gpt-6.1-sol-high/axion-about",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2851197,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:25:29.852018+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "5108b8610510efe44cfac3bdef6b6680f58b667b",
+      "url": "https://tool.luo-xd.com/motionsites-results/axion-about/",
+      "completed_utc": "2026-10-29T05:30:36.193802+00:00",
+      "group_message_id": 136
     },
     {
       "number": 87,
@@ -2961,19 +2965,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1861e-d5cb-7711-9e0c-d638c4b459bf",
       "output_path": "generated/gpt-6.1-sol-high/beauty-categories",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2851230,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:25:29.968068+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "4cf93e12c935e97cbb6c459a75725e08d537a2bd",
+      "url": "https://tool.luo-xd.com/motionsites-results/beauty-categories/",
+      "completed_utc": "2026-10-29T05:31:00.551773+00:00",
+      "group_message_id": 137
     },
     {
       "number": 88,
@@ -2992,14 +3000,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18620-b1b8-7252-bacf-d5344c19a609",
       "output_path": "generated/gpt-6.1-sol-high/beauty-products",
       "validation": "",
       "notes": "",
       "process_id": 2858037,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:27:31.911615+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 89,
@@ -3018,14 +3030,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18620-b251-7720-86a9-cd0a8e381981",
       "output_path": "generated/gpt-6.1-sol-high/bento-grid-stats",
       "validation": "",
       "notes": "",
       "process_id": 2858072,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:27:32.024849+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 90,
@@ -3044,14 +3060,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18620-b3ca-7433-a70c-400f33fb9310",
       "output_path": "generated/gpt-6.1-sol-high/bio-active",
       "validation": "",
       "notes": "",
       "process_id": 2858165,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:27:32.278666+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 91,
@@ -3069,11 +3089,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/bio-age-dashboard",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2868353,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:30:08.514266+00:00",
+      "worker_state": "running"
     },
     {
       "number": 92,
@@ -3091,11 +3115,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/bio-digital",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2868386,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:30:08.621358+00:00",
+      "worker_state": "running"
     },
     {
       "number": 93,
@@ -9434,5 +9462,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:29:14.690911+00:00"
+  "updated_utc": "2026-10-29T05:31:00.724026+00:00"
 }

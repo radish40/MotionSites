@@ -3995,19 +3995,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18642-38ac-7523-a79f-8caeb3d3a91b",
       "output_path": "generated/gpt-6.1-sol-high/eco-intelligence",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2994393,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:04:09.080948+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "2fc1457485dc61aac5bab2ae26666dee56bdd5b0",
+      "url": "https://tool.luo-xd.com/motionsites-results/eco-intelligence/",
+      "completed_utc": "2026-10-29T06:10:19.127357+00:00",
+      "group_message_id": 168
     },
     {
       "number": 118,
@@ -4025,19 +4029,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18643-d3f6-7d42-a775-1bf91a0258c2",
       "output_path": "generated/gpt-6.1-sol-high/editorial-collection-cta",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3001151,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:05:54.385393+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b2ca1be99a27944f7bc3647520ff22c749fc7276",
+      "url": "https://tool.luo-xd.com/motionsites-results/editorial-collection-cta/",
+      "completed_utc": "2026-10-29T06:10:44.208462+00:00",
+      "group_message_id": 169
     },
     {
       "number": 119,
@@ -4086,14 +4094,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18645-a926-7472-85a4-2f44a7385e7c",
       "output_path": "generated/gpt-6.1-sol-high/equilibrium",
       "validation": "",
       "notes": "",
       "process_id": 3008652,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:07:54.542360+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 121,
@@ -4111,11 +4123,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/evergreen-finance",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3015617,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:09:49.746291+00:00",
+      "worker_state": "running"
     },
     {
       "number": 122,
@@ -4133,11 +4149,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/faq-cta",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3015654,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:09:49.857801+00:00",
+      "worker_state": "running"
     },
     {
       "number": 123,
@@ -9816,5 +9836,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:08:45.319154+00:00"
+  "updated_utc": "2026-10-29T06:10:44.379634+00:00"
 }

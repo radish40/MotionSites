@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:08:45.319154+00:00",
+  "updated_utc": "2026-10-29T06:10:44.379634+00:00",
   "total": 380,
   "counts": {
-    "complete": 115,
+    "complete": 117,
     "running": 5,
-    "not_started": 260
+    "not_started": 258
   },
   "jobs": [
     {
@@ -1171,21 +1171,21 @@
       "id": "eco-intelligence",
       "title": "Eco Intelligence",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18642-38ac-7523-a79f-8caeb3d3a91b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "2fc1457485dc61aac5bab2ae26666dee56bdd5b0",
+      "group_message_id": 168,
+      "url": "https://tool.luo-xd.com/motionsites-results/eco-intelligence/"
     },
     {
       "id": "editorial-collection-cta",
       "title": "Editorial Collection CTA",
       "category": "CTA Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18643-d3f6-7d42-a775-1bf91a0258c2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b2ca1be99a27944f7bc3647520ff22c749fc7276",
+      "group_message_id": 169,
+      "url": "https://tool.luo-xd.com/motionsites-results/editorial-collection-cta/"
     },
     {
       "id": "email-landing-page",
@@ -1202,7 +1202,7 @@
       "title": "Equilibrium",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18645-a926-7472-85a4-2f44a7385e7c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1211,7 +1211,7 @@
       "id": "evergreen-finance",
       "title": "Evergreen Finance",
       "category": "Fintech",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1221,7 +1221,7 @@
       "id": "faq-cta",
       "title": "FAQ CTA",
       "category": "CTA Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

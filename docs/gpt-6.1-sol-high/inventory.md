@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 115/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 117/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -201,12 +201,12 @@
 | 114 | `daisy-wild` | Daisy Wild | Products | 2 | 图片 | 已完成 |
 | 115 | `dashboard` | Dashboard UI | Dashboards | 2 | 图片 | 已完成 |
 | 116 | `digital-experiences` | Digital Experiences | Landing Page | 1 | 图片 | 生成中 |
-| 117 | `eco-intelligence` | Eco Intelligence | Hero Section | 2 | 图片 | 生成中 |
-| 118 | `editorial-collection-cta` | Editorial Collection CTA | CTA Section | 2 | 图片 | 生成中 |
+| 117 | `eco-intelligence` | Eco Intelligence | Hero Section | 2 | 图片 | 已完成 |
+| 118 | `editorial-collection-cta` | Editorial Collection CTA | CTA Section | 2 | 图片 | 已完成 |
 | 119 | `email-landing-page` | Email Landing Page | Landing Page | 2 | 图片 | 生成中 |
 | 120 | `equilibrium` | Equilibrium | Hero Section | 2 | 图片 | 生成中 |
-| 121 | `evergreen-finance` | Evergreen Finance | Fintech | 2 | 图片 | 未开始 |
-| 122 | `faq-cta` | FAQ CTA | CTA Section | 2 | 图片 | 未开始 |
+| 121 | `evergreen-finance` | Evergreen Finance | Fintech | 2 | 图片 | 生成中 |
+| 122 | `faq-cta` | FAQ CTA | CTA Section | 2 | 图片 | 生成中 |
 | 123 | `features` | Capabilities Overview | Features Section | 2 | 图片 | 未开始 |
 | 124 | `feedback-slider` | Feedback Slider | Components | 2 | 图片 | 未开始 |
 | 125 | `financialfocus` | FinancialFocus | Hero Section | 2 | 图片 | 未开始 |

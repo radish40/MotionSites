@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { font-family: 'Nomada Didone'; src: url('/assets/nomada.woff2') format('woff2'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/assets/inter-400.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/assets/inter-500.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/assets/inter-600.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: swap; }
+
+* { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.font-heading { font-family: 'Nomada Didone', Georgia, serif; font-weight: normal; }
+.font-inter { font-family: 'Inter', sans-serif; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.phone-frame {
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,0.08), 0 0 0 1px rgba(0,0,0,0.6), 0 0 0 10px #1a1a1e, 0 0 0 11px rgba(255,255,255,0.06), 0 0 60px rgba(0,0,0,0.3);
+  isolation: isolate;
+  flex-shrink: 0;
+}
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-stagger { opacity: 0; animation: fadeSlideUp 0.6s ease-out forwards; }
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+.stagger-7 { animation-delay: 0.7s; }
+.card-gradient { mask-image: linear-gradient(to top, black 60%, transparent 100%); }
+.nav-icon { @apply w-9 h-9 text-white/40 flex items-center justify-center rounded-full transition-colors hover:text-white; }
+button { cursor: pointer; }
+button:focus-visible, [tabindex]:focus-visible { outline: 2px solid #a9c9ba; outline-offset: 3px; }
+input:focus-visible { border-radius: 4px; outline: 1px solid #a9c9ba; outline-offset: 1px; }
+@media (max-height: 780px) { .phone-frame { transform: scale(calc((100dvh - 40px) / 740)); } }
+@media (max-width: 369px) { .phone-frame { max-width: calc(100vw - 30px); } }
+@media (prefers-reduced-motion: reduce) { .animate-stagger { animation: none; opacity: 1; } * { scroll-behavior: auto !important; } }

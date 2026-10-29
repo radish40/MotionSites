@@ -1,0 +1,101 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "home": {
+        "overflow": false,
+        "video": {
+          "width": 2164,
+          "playing": true,
+          "time": 1.957905
+        },
+        "fonts": {
+          "nomada": true,
+          "inter": true
+        },
+        "frame": {
+          "x": 550,
+          "y": 130,
+          "width": 340,
+          "height": 740
+        }
+      },
+      "images": [
+        {
+          "source": "/motionsites-results/travel-explorer/assets/avatar.jpg",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/travel-explorer/assets/ireland.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/travel-explorer/assets/norway.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/travel-explorer/assets/japan.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/travel-explorer/assets/iceland.webp",
+          "loaded": true
+        }
+      ],
+      "exploreOverflow": false,
+      "interactionChecks": "passed"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "home": {
+        "overflow": false,
+        "video": {
+          "width": 2164,
+          "playing": true,
+          "time": 1.995677
+        },
+        "fonts": {
+          "nomada": true,
+          "inter": true
+        },
+        "frame": {
+          "x": 25,
+          "y": 52,
+          "width": 340,
+          "height": 740
+        }
+      },
+      "images": [
+        {
+          "source": "/motionsites-results/travel-explorer/assets/avatar.jpg",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/travel-explorer/assets/ireland.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/travel-explorer/assets/norway.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/travel-explorer/assets/japan.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/travel-explorer/assets/iceland.webp",
+          "loaded": true
+        }
+      ],
+      "exploreOverflow": false,
+      "interactionChecks": "passed"
+    }
+  ],
+  "errors": [],
+  "requestFailures": [],
+  "status": "passed"
+}

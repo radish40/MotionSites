@@ -1,0 +1,36 @@
+{
+  "title": "Travel Explorer",
+  "id": "travel-explorer",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "stack": "React 18, Vite, TypeScript, Tailwind CSS, lucide-react",
+    "base_path": "/motionsites-results/travel-explorer/",
+    "desktop": "passed: 1440x1000, both screens visually inspected",
+    "mobile": "passed: 390x844, both screens visually inspected",
+    "phone_frame": "340x740 at both required viewports",
+    "interactions": "passed: CTA, card scrolling, search, filters, empty state, View all, navigation and return to welcome",
+    "assets": "passed: video playback, all five images, Nomada Didone and Inter",
+    "page_overflow": "none on either screen at either required viewport",
+    "uncaught_javascript_errors": 0,
+    "failed_browser_requests": 0,
+    "browser_report": "screenshots/browser-checks.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/desktop-explore.png", "screenshots/mobile-explore.png"]
+  },
+  "asset_issues": [
+    {
+      "asset": "Norway destination image",
+      "issue": "The exact supplied image depicts urban architecture including a colosseum, rather than Norwegian fjords.",
+      "resolution": "Retained the required source asset; no substitution. All downloads and browser loads succeeded."
+    }
+  ],
+  "notes": [
+    "App title and brand: Roam Beyond Borders.",
+    "Ready for management review; not deployed or pushed.",
+    "Exact supplied media stored locally; required font stylesheet links retained with local font copies.",
+    "Only this project was modified; no agents or other sessions were created.",
+    "Two-screen mockup with local filtering and informational navigation controls; no backend.",
+    "README.md includes commands, validation, credits, and limitations. Dependency lockfile included; node_modules excluded from delivery."
+  ]
+}

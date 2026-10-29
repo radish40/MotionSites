@@ -1,0 +1,66 @@
+{
+  "title": "Dashboard UI",
+  "id": "dashboard",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "browser": "Chromium via playwright-core, production static site",
+    "checks": {
+      "desktop": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "cards": 8,
+        "columns": "322px 322px 322px 322px",
+        "imagesLoaded": true,
+        "video": {
+          "readyState": 4,
+          "playing": true
+        },
+        "font": true
+      },
+      "dark": {
+        "class": true,
+        "video": "/motionsites-results/dashboard/assets/dark.mp4",
+        "playing": true
+      },
+      "mic": "true",
+      "camera": "true",
+      "view": "true",
+      "dismiss": true,
+      "drag": true,
+      "play": "true",
+      "search": true,
+      "create": true,
+      "settings": true,
+      "participants": 21,
+      "mobile": {
+        "width": 390,
+        "scrollWidth": 390,
+        "columns": "358px",
+        "meetingHidden": true,
+        "imagesLoaded": true,
+        "bottomVideoVisible": true
+      },
+      "tablet": {
+        "columns": "448px 448px",
+        "scrollWidth": 1000,
+        "width": 1000
+      }
+    },
+    "errors": [],
+    "failed": [],
+    "browser_acceptance": "passed (exit 0)"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session acceptance; not deployed.",
+    "React + TypeScript + Vite + Tailwind CSS + lucide-react.",
+    "Public base: /motionsites-results/dashboard/.",
+    "Original supplied videos, avatars, and thumbnails bundled locally; provenance in asset-manifest.json.",
+    "Inter 300/400/500/600/700 loaded from Google Fonts; external network required for font.",
+    "Screenshots: screenshots/desktop.png, screenshots/desktop-dark.png, screenshots/mobile.png, screenshots/mobile-scrolled.png.",
+    "UI state is local; no Supabase or live conferencing backend is required."
+  ]
+}

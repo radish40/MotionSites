@@ -1,0 +1,47 @@
+{
+  "checks": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "cards": 8,
+      "columns": "322px 322px 322px 322px",
+      "imagesLoaded": true,
+      "video": {
+        "readyState": 4,
+        "playing": true
+      },
+      "font": true
+    },
+    "dark": {
+      "class": true,
+      "video": "/motionsites-results/dashboard/assets/dark.mp4",
+      "playing": true
+    },
+    "mic": "true",
+    "camera": "true",
+    "view": "true",
+    "dismiss": true,
+    "drag": true,
+    "play": "true",
+    "search": true,
+    "create": true,
+    "settings": true,
+    "participants": 21,
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "columns": "358px",
+      "meetingHidden": true,
+      "imagesLoaded": true,
+      "bottomVideoVisible": true
+    },
+    "tablet": {
+      "columns": "448px 448px",
+      "scrollWidth": 1000,
+      "width": 1000
+    }
+  },
+  "errors": [],
+  "failed": []
+}

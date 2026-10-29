@@ -1,0 +1,230 @@
+[
+  {
+    "file": "current_user.jpg",
+    "source": "https://i.pravatar.cc/100?u=current_user",
+    "bytes": 2994,
+    "status": "ok"
+  },
+  {
+    "file": "meeting_host.jpg",
+    "source": "https://i.pravatar.cc/100?u=meeting_host",
+    "bytes": 3042,
+    "status": "ok"
+  },
+  {
+    "file": "1.jpg",
+    "source": "https://i.pravatar.cc/100?u=1",
+    "bytes": 3636,
+    "status": "ok"
+  },
+  {
+    "file": "2.jpg",
+    "source": "https://i.pravatar.cc/100?u=2",
+    "bytes": 3428,
+    "status": "ok"
+  },
+  {
+    "file": "3.jpg",
+    "source": "https://i.pravatar.cc/100?u=3",
+    "bytes": 3959,
+    "status": "ok"
+  },
+  {
+    "file": "4.jpg",
+    "source": "https://i.pravatar.cc/100?u=4",
+    "bytes": 3962,
+    "status": "ok"
+  },
+  {
+    "file": "5.jpg",
+    "source": "https://i.pravatar.cc/100?u=5",
+    "bytes": 2634,
+    "status": "ok"
+  },
+  {
+    "file": "6.jpg",
+    "source": "https://i.pravatar.cc/100?u=6",
+    "bytes": 3566,
+    "status": "ok"
+  },
+  {
+    "file": "7.jpg",
+    "source": "https://i.pravatar.cc/100?u=7",
+    "bytes": 3405,
+    "status": "ok"
+  },
+  {
+    "file": "8.jpg",
+    "source": "https://i.pravatar.cc/100?u=8",
+    "bytes": 3042,
+    "status": "ok"
+  },
+  {
+    "file": "9.jpg",
+    "source": "https://i.pravatar.cc/100?u=9",
+    "bytes": 3930,
+    "status": "ok"
+  },
+  {
+    "file": "10.jpg",
+    "source": "https://i.pravatar.cc/100?u=10",
+    "bytes": 3959,
+    "status": "ok"
+  },
+  {
+    "file": "11.jpg",
+    "source": "https://i.pravatar.cc/100?u=11",
+    "bytes": 3938,
+    "status": "ok"
+  },
+  {
+    "file": "12.jpg",
+    "source": "https://i.pravatar.cc/100?u=12",
+    "bytes": 3757,
+    "status": "ok"
+  },
+  {
+    "file": "13.jpg",
+    "source": "https://i.pravatar.cc/100?u=13",
+    "bytes": 3556,
+    "status": "ok"
+  },
+  {
+    "file": "14.jpg",
+    "source": "https://i.pravatar.cc/100?u=14",
+    "bytes": 2844,
+    "status": "ok"
+  },
+  {
+    "file": "m1.jpg",
+    "source": "https://i.pravatar.cc/100?u=m1",
+    "bytes": 3757,
+    "status": "ok"
+  },
+  {
+    "file": "m2.jpg",
+    "source": "https://i.pravatar.cc/100?u=m2",
+    "bytes": 2417,
+    "status": "ok"
+  },
+  {
+    "file": "m3.jpg",
+    "source": "https://i.pravatar.cc/100?u=m3",
+    "bytes": 3896,
+    "status": "ok"
+  },
+  {
+    "file": "m4.jpg",
+    "source": "https://i.pravatar.cc/100?u=m4",
+    "bytes": 3405,
+    "status": "ok"
+  },
+  {
+    "file": "m5.jpg",
+    "source": "https://i.pravatar.cc/100?u=m5",
+    "bytes": 3827,
+    "status": "ok"
+  },
+  {
+    "file": "large1.jpg",
+    "source": "https://i.pravatar.cc/100?u=large1",
+    "bytes": 3506,
+    "status": "ok"
+  },
+  {
+    "file": "large2.jpg",
+    "source": "https://i.pravatar.cc/100?u=large2",
+    "bytes": 3905,
+    "status": "ok"
+  },
+  {
+    "file": "alice_av.jpg",
+    "source": "https://i.pravatar.cc/100?u=alice_av",
+    "bytes": 3896,
+    "status": "ok"
+  },
+  {
+    "file": "speaker.jpg",
+    "source": "https://i.pravatar.cc/100?u=speaker",
+    "bytes": 2209,
+    "status": "ok"
+  },
+  {
+    "file": "p1.jpg",
+    "source": "https://i.pravatar.cc/100?u=p1",
+    "bytes": 3585,
+    "status": "ok"
+  },
+  {
+    "file": "p2.jpg",
+    "source": "https://i.pravatar.cc/100?u=p2",
+    "bytes": 3914,
+    "status": "ok"
+  },
+  {
+    "file": "p3.jpg",
+    "source": "https://i.pravatar.cc/100?u=p3",
+    "bytes": 4247,
+    "status": "ok"
+  },
+  {
+    "file": "c1.jpg",
+    "source": "https://i.pravatar.cc/100?u=c1",
+    "bytes": 3195,
+    "status": "ok"
+  },
+  {
+    "file": "c2.jpg",
+    "source": "https://i.pravatar.cc/100?u=c2",
+    "bytes": 3896,
+    "status": "ok"
+  },
+  {
+    "file": "c3.jpg",
+    "source": "https://i.pravatar.cc/100?u=c3",
+    "bytes": 3506,
+    "status": "ok"
+  },
+  {
+    "file": "c4.jpg",
+    "source": "https://i.pravatar.cc/100?u=c4",
+    "bytes": 3764,
+    "status": "ok"
+  },
+  {
+    "file": "screen1.jpg",
+    "source": "https://picsum.photos/seed/screen1/300/200",
+    "bytes": 10301,
+    "status": "ok"
+  },
+  {
+    "file": "screen2.jpg",
+    "source": "https://picsum.photos/seed/screen2/300/200",
+    "bytes": 14425,
+    "status": "ok"
+  },
+  {
+    "file": "screen3.jpg",
+    "source": "https://picsum.photos/seed/screen3/300/200",
+    "bytes": 13059,
+    "status": "ok"
+  },
+  {
+    "file": "screen4.jpg",
+    "source": "https://picsum.photos/seed/screen4/300/200",
+    "bytes": 9489,
+    "status": "ok"
+  },
+  {
+    "file": "light.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_103318_2aa26b55-df1a-43a6-903d-941e718c9366.mp4",
+    "bytes": 35350919,
+    "status": "ok"
+  },
+  {
+    "file": "dark.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_102933_4e8f73b5-775a-4179-b2fb-472f59063dcd.mp4",
+    "bytes": 20261458,
+    "status": "ok"
+  }
+]

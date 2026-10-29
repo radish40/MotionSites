@@ -1,0 +1,39 @@
+{
+  "title": "Arceage Contact Us",
+  "id": "arceage-contact-us",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; Vite 6, dist/index.html exists",
+    "desktop": "passed at 1440x1000; no horizontal overflow",
+    "mobile": "passed at 390x844; no horizontal overflow",
+    "interactions": "passed: untouched fields, blur validation, required and optional fields, email/phone formats, button hover, prevented submission",
+    "browser_script_errors": 0,
+    "fonts": "Barlow and Instrument Serif loaded (HTTP 200)",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-validation.png"
+    ],
+    "report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/tick-circle.svg",
+      "issue": "HTTP 404",
+      "resolution": "Retained requested URL and added local SVG mask fallback: public/icons/tick-circle.svg"
+    },
+    {
+      "asset": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/close-circle.svg",
+      "issue": "HTTP 404",
+      "resolution": "Retained requested URL and added local SVG mask fallback: public/icons/close-circle.svg"
+    }
+  ],
+  "notes": [
+    "Ready for acceptance; not deployed or pushed.",
+    "Only this project was read and changed; no agents or other sessions were created.",
+    "Static submission intentionally prevents default; no backend, per prompt.",
+    "Production base: /motionsites-results/arceage-contact-us/.",
+    "Dependency lockfile included; node_modules excluded from delivery."
+  ]
+}

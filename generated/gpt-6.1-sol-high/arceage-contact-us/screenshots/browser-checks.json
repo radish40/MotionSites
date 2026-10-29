@@ -1,0 +1,116 @@
+{
+  "checks": [
+    {
+      "name": "desktop layout and initial state (1440x1000)",
+      "passed": true,
+      "fonts": {
+        "barlow": true,
+        "instrumentSerif": true
+      }
+    },
+    {
+      "name": "blur validation, invalid/valid name, email, international phone and optional fields",
+      "passed": true
+    },
+    {
+      "name": "green button hover and prevented form submission",
+      "passed": true
+    },
+    {
+      "name": "mobile layout (390x844), visible validation icon and required fields",
+      "passed": true
+    },
+    {
+      "name": "no browser script errors",
+      "passed": true
+    },
+    {
+      "name": "local SVG mask fallbacks loaded successfully",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "assetResponses": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Instrument+Serif:ital@0;1&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHpv4kjgoGqM7E_DMs5.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3_-gs51os.woff2",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/arceage-contact-us/icons/close-circle.svg",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/close-circle.svg",
+      "status": 404
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/tick-circle.svg",
+      "status": 404
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/arceage-contact-us/icons/tick-circle.svg",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/close-circle.svg",
+      "status": 404
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/tick-circle.svg",
+      "status": 404
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/close-circle.svg",
+      "status": 404
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/tick-circle.svg",
+      "status": 404
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/tick-circle.svg",
+      "status": 404
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/tick-circle.svg",
+      "status": 404
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Instrument+Serif:ital@0;1&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHpv4kjgoGqM7E_DMs5.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3_-gs51os.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/tick-circle.svg",
+      "status": 404
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/arceage-contact-us/icons/tick-circle.svg",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/arceage-contact-us/",
+  "checked_at": "2026-10-29T05:20:44.668Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Arceage Contact Us",
+      "bodyChars": 172,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Arceage Contact Us",
+      "bodyChars": 172,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

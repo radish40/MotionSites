@@ -1,0 +1,115 @@
+{
+  "title": "Golden Portal",
+  "id": "golden-portal",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: tsc -b && vite build",
+    "dist_index_exists": true,
+    "base_path": "/motionsites-results/golden-portal/",
+    "browser": [
+      {
+        "viewport": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "media": {
+          "readyState": 4,
+          "paused": false,
+          "width": 1920,
+          "currentTime": 2.062312,
+          "arsenica": true,
+          "inter": true
+        },
+        "layout": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "unrevealed": 0,
+          "brokenImages": []
+        },
+        "scriptErrors": [],
+        "failedRequests": [
+          {
+            "url": "http://localhost:4173/motionsites-results/golden-portal/assets/hero.mp4",
+            "error": "net::ERR_ABORTED"
+          }
+        ],
+        "httpErrors": [],
+        "interactions": "passed: gallery CTA, archive CTA, all navigation anchors, home, privacy and terms dialogs, Escape and close",
+        "screenshots": [
+          "screenshots/desktop.png",
+          "screenshots/desktop-full.png"
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "width": 390,
+        "height": 844,
+        "media": {
+          "readyState": 4,
+          "paused": false,
+          "width": 1920,
+          "currentTime": 2.002631,
+          "arsenica": true,
+          "inter": true
+        },
+        "layout": {
+          "width": 390,
+          "scrollWidth": 390,
+          "unrevealed": 0,
+          "brokenImages": []
+        },
+        "scriptErrors": [],
+        "failedRequests": [
+          {
+            "url": "http://localhost:4173/motionsites-results/golden-portal/assets/hero.mp4",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "http://localhost:4173/motionsites-results/golden-portal/assets/hero.mp4",
+            "error": "net::ERR_ABORTED"
+          }
+        ],
+        "httpErrors": [],
+        "interactions": "passed: gallery CTA, archive CTA, all navigation anchors, home",
+        "screenshots": [
+          "screenshots/mobile.png",
+          "screenshots/mobile-full.png"
+        ]
+      }
+    ],
+    "visual_review": "Desktop and mobile viewport/full-page screenshots inspected; corrected cloud transition seam; final screenshots saved."
+  },
+  "asset_issues": [
+    {
+      "asset": "top-bg_j88wyu.png",
+      "issue": "Supplied Cloudinary URL and untransformed retry return HTTP 401: cloud_name dy5er7kv5 is disabled",
+      "resolution": "Local transparent masked crop derived from supplied showcase image; visual approximation."
+    },
+    {
+      "asset": "bottom_bg_liw6lc.png",
+      "issue": "Supplied Cloudinary URL and untransformed retry return HTTP 401: cloud_name dy5er7kv5 is disabled",
+      "resolution": "Local masked crop derived from supplied showcase image; visual approximation."
+    },
+    {
+      "asset": "dove_xpaeub.png",
+      "issue": "Supplied Cloudinary URL and untransformed retry return HTTP 401: cloud_name dy5er7kv5 is disabled",
+      "resolution": "Standalone dove omitted. Original hero video includes doves."
+    },
+    {
+      "asset": "Arsenica stylesheet",
+      "issue": "Initial Python request returned HTTP 403",
+      "resolution": "Exact font binary downloaded successfully and bundled locally. Final browser confirms Arsenica and Inter loaded."
+    }
+  ],
+  "notes": [
+    "Ready for review, not deployed. No push or publishing performed.",
+    "Page brand: Digital Archive. Stack: React + Vite + TypeScript + Tailwind CSS v3; only lucide-react icons.",
+    "All six supplied interview questions and answers included verbatim.",
+    "Original video and both scene images locally hosted; no preview screenshot used as page content.",
+    "Source font stylesheet URLs retained in index.html, with local font files for reliable rendering.",
+    "Browser observed media request ERR_ABORTED during Chromium range switching; video readyState 4 and autoplay passed at both sizes; zero HTTP errors and JavaScript errors.",
+    "README.md documents run commands, validation, asset provenance, fallback differences and social/policy behavior.",
+    "Screenshots: screenshots/desktop.png and screenshots/mobile.png, with additional full-page captures.",
+    "All project files and outputs remain inside this project. No agents, other sessions, deployments, pushes, or messages to others."
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "media": {
+      "readyState": 4,
+      "paused": false,
+      "width": 1920,
+      "currentTime": 2.062312,
+      "arsenica": true,
+      "inter": true
+    },
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "unrevealed": 0,
+      "brokenImages": []
+    },
+    "scriptErrors": [],
+    "failedRequests": [
+      {
+        "url": "http://localhost:4173/motionsites-results/golden-portal/assets/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpErrors": [],
+    "interactions": "passed: gallery CTA, archive CTA, all navigation anchors, home, privacy and terms dialogs, Escape and close",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/desktop-full.png"
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "width": 390,
+    "height": 844,
+    "media": {
+      "readyState": 4,
+      "paused": false,
+      "width": 1920,
+      "currentTime": 2.002631,
+      "arsenica": true,
+      "inter": true
+    },
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "unrevealed": 0,
+      "brokenImages": []
+    },
+    "scriptErrors": [],
+    "failedRequests": [
+      {
+        "url": "http://localhost:4173/motionsites-results/golden-portal/assets/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:4173/motionsites-results/golden-portal/assets/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpErrors": [],
+    "interactions": "passed: gallery CTA, archive CTA, all navigation anchors, home",
+    "screenshots": [
+      "screenshots/mobile.png",
+      "screenshots/mobile-full.png"
+    ]
+  }
+]

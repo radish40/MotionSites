@@ -141,7 +141,7 @@ def finish(ident, refresh=False):
     if refresh:job['preview_previous_source_commit']=job['source_commit']
     output=ROOT/job['output_path']; result=json.loads((output/'result.json').read_text())
     if result.get('status')!='ready': raise RuntimeError('Worker is not ready')
-    if ident in ('glitch-pulse','pulse-3d') and not job.get('runtime'):
+    if ident=='glitch-pulse' and not job.get('runtime'):
         job['status']='needs_fix';job['validation']='Original prompt requires an Express production service; runtime deployment is pending'
         save(manifest)
         raise RuntimeError(job['validation'])

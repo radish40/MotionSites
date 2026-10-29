@@ -5169,19 +5169,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18673-f4f5-70c3-8dcc-9d3f3abb4442",
       "output_path": "generated/gpt-6.1-sol-high/kova-features",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3159418,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:58:28.607391+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "04600b59b0457ec9e865125ad3d38eff1f2f6bed",
+      "url": "https://tool.luo-xd.com/motionsites-results/kova-features/",
+      "completed_utc": "2026-10-29T07:06:37.670417+00:00",
+      "group_message_id": 204
     },
     {
       "number": 152,
@@ -5199,19 +5203,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18676-9b85-7e83-9b60-3998c08a11e3",
       "output_path": "generated/gpt-6.1-sol-high/kova-testimonial",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3170347,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:01:22.349543+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "947a11daed714a174c6342bd508cb0a0fca7a1e0",
+      "url": "https://tool.luo-xd.com/motionsites-results/kova-testimonial/",
+      "completed_utc": "2026-10-29T07:07:07.739081+00:00",
+      "group_message_id": 206
     },
     {
       "number": 153,
@@ -5229,19 +5237,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18676-9c22-7890-8aac-639124a03fb3",
       "output_path": "generated/gpt-6.1-sol-high/launchex-about",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3170390,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:01:22.476338+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "df115589272714d9074e2a300dbce485e52a6f55",
+      "url": "https://tool.luo-xd.com/motionsites-results/launchex-about/",
+      "completed_utc": "2026-10-29T07:07:37.773729+00:00",
+      "group_message_id": 207
     },
     {
       "number": 154,
@@ -5290,14 +5302,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18679-ad43-70a1-b60d-c15d50c66090",
       "output_path": "generated/gpt-6.1-sol-high/layered-depth",
       "validation": "",
       "notes": "",
       "process_id": 3182016,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:04:43.503984+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 156,
@@ -5315,11 +5331,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/learnly",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3187438,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:06:10.437136+00:00",
+      "worker_state": "running"
     },
     {
       "number": 157,
@@ -5337,11 +5357,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/liquid-glass-cta",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3187497,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:06:10.572914+00:00",
+      "worker_state": "running"
     },
     {
       "number": 158,
@@ -5359,11 +5383,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/liquid-glass-features",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3187611,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:06:10.807486+00:00",
+      "worker_state": "running"
     },
     {
       "number": 159,
@@ -10250,7 +10278,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:05:16.691530+00:00",
+  "updated_utc": "2026-10-29T07:07:38.049458+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

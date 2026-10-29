@@ -91,5 +91,7 @@ OYLA 按原提示词运行 Express 生产服务，容器为 `motionsites-oyla`�
 
 Glitch Pulse 使用 `scripts/generation/deploy-glitch-pulse.py` 和对应 Dockerfile 运行原始 `server.ts`，生产环境容器为 `motionsites-glitch-pulse`。项目页面和资源转发至该 Express 服务，`preview/` 由静态发布目录提供；验收需核对容器健康、生产环境、实际启动命令、原始服务器文件与公网 HTML，并确认截图可访问。
 
-`pulse-3d` 同样明确要求 Express，进入其授权批次后也需按实际服务端功能部署和验收。每个项目仍由其原有独立会话生成；部署由管理会话处理。
+第 197 项 `pulse-3d` 的提示词仅要求安装 Express 等依赖，并明确页面为无持久化的展示页面；原文没有要求启动 Express 服务。按实际生成的应用结构部署和验收，不额外添加服务端功能。每个项目仍由其原有独立会话生成；部署由管理会话处理。
+
+第 180 项 `nimbus-grid` 明确要求嵌入 `https://fragcoord.xyz/embed/c6zisyc6` 的动画着色器。其独立项目路径的 CSP 仅额外允许 `https://fragcoord.xyz` 作为 iframe 来源；成果索引与其他项目继续沿用各自策略。上线后仍须检查实际 iframe 加载和浏览器结果。
 

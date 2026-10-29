@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:05:16.691530+00:00",
+  "updated_utc": "2026-10-29T07:07:38.049458+00:00",
   "total": 380,
   "counts": {
-    "complete": 150,
+    "complete": 153,
     "running": 5,
-    "not_started": 225
+    "not_started": 222
   },
   "jobs": [
     {
@@ -1511,31 +1511,31 @@
       "id": "kova-features",
       "title": "Kova Features",
       "category": "Benefits",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18673-f4f5-70c3-8dcc-9d3f3abb4442",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "04600b59b0457ec9e865125ad3d38eff1f2f6bed",
+      "group_message_id": 204,
+      "url": "https://tool.luo-xd.com/motionsites-results/kova-features/"
     },
     {
       "id": "kova-testimonial",
       "title": "Kova Testimonial",
       "category": "Testimonials",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18676-9b85-7e83-9b60-3998c08a11e3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "947a11daed714a174c6342bd508cb0a0fca7a1e0",
+      "group_message_id": 206,
+      "url": "https://tool.luo-xd.com/motionsites-results/kova-testimonial/"
     },
     {
       "id": "launchex-about",
       "title": "LaunchEx About",
       "category": "About Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18676-9c22-7890-8aac-639124a03fb3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "df115589272714d9074e2a300dbce485e52a6f55",
+      "group_message_id": 207,
+      "url": "https://tool.luo-xd.com/motionsites-results/launchex-about/"
     },
     {
       "id": "launchex-submissions",
@@ -1552,7 +1552,7 @@
       "title": "Layered Depth",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18679-ad43-70a1-b60d-c15d50c66090",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1561,7 +1561,7 @@
       "id": "learnly",
       "title": "Learnly",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1571,7 +1571,7 @@
       "id": "liquid-glass-cta",
       "title": "Liquid Glass CTA",
       "category": "CTA Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1581,7 +1581,7 @@
       "id": "liquid-glass-features",
       "title": "Liquid Glass Features",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

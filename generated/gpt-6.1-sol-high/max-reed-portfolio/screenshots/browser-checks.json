@@ -1,0 +1,125 @@
+{
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "gridColumns": "429.328px 429.328px 429.344px",
+      "fontLoaded": true,
+      "videos": [
+        {
+          "readyState": 4,
+          "width": 1080,
+          "height": 1920,
+          "playing": true,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "readyState": 4,
+          "width": 2880,
+          "height": 2880,
+          "playing": true,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "readyState": 4,
+          "width": 2880,
+          "height": 2880,
+          "playing": true,
+          "muted": true,
+          "loop": true
+        }
+      ],
+      "keyboardFocus": "passed",
+      "contactLinks": "passed",
+      "reducedMotion": "passed"
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 1982,
+      "gridColumns": "358px",
+      "fontLoaded": true,
+      "videos": [
+        {
+          "readyState": 4,
+          "width": 1080,
+          "height": 1920,
+          "playing": true,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "readyState": 4,
+          "width": 2880,
+          "height": 2880,
+          "playing": true,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "readyState": 4,
+          "width": 2880,
+          "height": 2880,
+          "playing": true,
+          "muted": true,
+          "loop": true
+        }
+      ],
+      "keyboardFocus": "passed",
+      "contactLinks": "passed",
+      "reducedMotion": "passed"
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 1024,
+      "scrollHeight": 1440,
+      "gridColumns": "334px 334px",
+      "fontLoaded": true,
+      "videos": [
+        {
+          "readyState": 4,
+          "width": 1080,
+          "height": 1920,
+          "playing": true,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "readyState": 4,
+          "width": 2880,
+          "height": 2880,
+          "playing": true,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "readyState": 4,
+          "width": 2880,
+          "height": 2880,
+          "playing": true,
+          "muted": true,
+          "loop": true
+        }
+      ],
+      "keyboardFocus": "passed",
+      "contactLinks": "passed",
+      "reducedMotion": "passed"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    "desktop: http://127.0.0.1:4173/motionsites-results/max-reed-portfolio/assets/background.mp4 net::ERR_ABORTED",
+    "mobile: http://127.0.0.1:4173/motionsites-results/max-reed-portfolio/assets/background.mp4 net::ERR_ABORTED",
+    "tablet: http://127.0.0.1:4173/motionsites-results/max-reed-portfolio/assets/background.mp4 net::ERR_ABORTED"
+  ],
+  "badResponses": []
+}

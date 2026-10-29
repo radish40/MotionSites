@@ -1,0 +1,79 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/",
+  "checked_at": "2026-10-29T04:00:05.704Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Max Reed Portfolio",
+      "bodyChars": 660,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/assets/background.mp4",
+          "readyState": 2,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/assets/impact.mp4",
+          "readyState": 2,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/assets/software.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/assets/background.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Max Reed Portfolio",
+      "bodyChars": 660,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/assets/background.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/assets/impact.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/assets/software.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/assets/background.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/assets/background.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

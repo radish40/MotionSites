@@ -1,0 +1,150 @@
+{
+  "title": "Max Reed Portfolio",
+  "id": "max-reed-portfolio",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite build completed with exit code 0",
+    "dependency_audit": "0 vulnerabilities",
+    "browser_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint node louislam/uptime-kuma:2 browser-check.cjs",
+    "browser_result": "passed with exit code 0",
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "gridColumns": "429.328px 429.328px 429.344px",
+        "fontLoaded": true,
+        "videos": [
+          {
+            "readyState": 4,
+            "width": 1080,
+            "height": 1920,
+            "playing": true,
+            "muted": true,
+            "loop": true
+          },
+          {
+            "readyState": 4,
+            "width": 2880,
+            "height": 2880,
+            "playing": true,
+            "muted": true,
+            "loop": true
+          },
+          {
+            "readyState": 4,
+            "width": 2880,
+            "height": 2880,
+            "playing": true,
+            "muted": true,
+            "loop": true
+          }
+        ],
+        "keyboardFocus": "passed",
+        "contactLinks": "passed",
+        "reducedMotion": "passed"
+      },
+      {
+        "viewport": "mobile",
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 1982,
+        "gridColumns": "358px",
+        "fontLoaded": true,
+        "videos": [
+          {
+            "readyState": 4,
+            "width": 1080,
+            "height": 1920,
+            "playing": true,
+            "muted": true,
+            "loop": true
+          },
+          {
+            "readyState": 4,
+            "width": 2880,
+            "height": 2880,
+            "playing": true,
+            "muted": true,
+            "loop": true
+          },
+          {
+            "readyState": 4,
+            "width": 2880,
+            "height": 2880,
+            "playing": true,
+            "muted": true,
+            "loop": true
+          }
+        ],
+        "keyboardFocus": "passed",
+        "contactLinks": "passed",
+        "reducedMotion": "passed"
+      },
+      {
+        "viewport": "tablet",
+        "width": 768,
+        "scrollWidth": 768,
+        "height": 1024,
+        "scrollHeight": 1440,
+        "gridColumns": "334px 334px",
+        "fontLoaded": true,
+        "videos": [
+          {
+            "readyState": 4,
+            "width": 1080,
+            "height": 1920,
+            "playing": true,
+            "muted": true,
+            "loop": true
+          },
+          {
+            "readyState": 4,
+            "width": 2880,
+            "height": 2880,
+            "playing": true,
+            "muted": true,
+            "loop": true
+          },
+          {
+            "readyState": 4,
+            "width": 2880,
+            "height": 2880,
+            "playing": true,
+            "muted": true,
+            "loop": true
+          }
+        ],
+        "keyboardFocus": "passed",
+        "contactLinks": "passed",
+        "reducedMotion": "passed"
+      }
+    ],
+    "script_errors": [],
+    "http_errors": [],
+    "contact_links": "mailto and tel destinations verified; no external messages sent",
+    "marquee_hover": "pause and resume passed on desktop",
+    "visual_review": "desktop and full-page mobile screenshots visually inspected",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "report": "screenshots/browser-checks.json",
+    "publish_base": "/motionsites-results/max-reed-portfolio/",
+    "dist_index_exists": true
+  },
+  "asset_issues": [],
+  "notes": [
+    "All three exact supplied MP4 assets and Inter fonts are bundled locally. No runtime external requests are required.",
+    "Chromium reports an aborted range request for the portrait video; all videos reach readyState 4 and play successfully. Raw request observations are saved in the browser report.",
+    "Video assets total about 25 MB; preserved unchanged.",
+    "Email and phone launches depend on configured applications; automated checks verify link targets without sending messages.",
+    "Reduced motion pauses background videos and scrolling marquees.",
+    "Validated in Chromium only.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

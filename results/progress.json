@@ -1,10 +1,9 @@
 {
-  "updated_utc": "2026-10-29T04:16:13.326150+00:00",
+  "updated_utc": "2026-10-29T04:16:46.806411+00:00",
   "total": 380,
   "counts": {
-    "complete": 27,
+    "complete": 28,
     "running": 5,
-    "ready": 1,
     "not_started": 347
   },
   "jobs": [
@@ -292,11 +291,11 @@
       "id": "ai-workflow-agents",
       "title": "AI Workflow Agents",
       "category": "SaaS",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a185da-d1a9-7421-af5c-fa977d785446",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "ceb93d19237a4fdedac96e6945a98e9d682d58ca",
+      "group_message_id": 76,
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-workflow-agents/"
     },
     {
       "id": "cargo-group",

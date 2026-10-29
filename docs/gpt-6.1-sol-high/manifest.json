@@ -968,10 +968,10 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a185da-d1a9-7421-af5c-fa977d785446",
       "output_path": "generated/gpt-6.1-sol-high/ai-workflow-agents",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2577390,
       "launch_method": "isolated_codex_exec",
@@ -980,7 +980,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "ceb93d19237a4fdedac96e6945a98e9d682d58ca",
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-workflow-agents/",
+      "completed_utc": "2026-10-29T04:16:46.634293+00:00",
+      "group_message_id": 76
     },
     {
       "number": 30,
@@ -8729,5 +8733,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:16:13.326150+00:00"
+  "updated_utc": "2026-10-29T04:16:46.806411+00:00"
 }

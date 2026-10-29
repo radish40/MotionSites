@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:09:13.877433+00:00",
+  "updated_utc": "2026-10-29T05:11:48.426144+00:00",
   "total": 380,
   "counts": {
-    "complete": 68,
+    "complete": 70,
     "running": 5,
-    "not_started": 307
+    "not_started": 305
   },
   "jobs": [
     {
@@ -691,11 +691,11 @@
       "id": "3d-collectible-hero",
       "title": "3D Collectible Hero",
       "category": "3D Website",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1860c-4ffa-75f3-9c5a-5fd76b165db6",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e0326573834016086fa5886fb1c740873cec068c",
+      "group_message_id": 119,
+      "url": "https://tool.luo-xd.com/motionsites-results/3d-collectible-hero/"
     },
     {
       "id": "3d-story",
@@ -711,18 +711,18 @@
       "id": "404-planet",
       "title": "404 Planet",
       "category": "404 Pages",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1860c-5134-7f31-8cd6-790d083aff4c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "4b706aca55f04ff7784da06aff96c10746a69f1b",
+      "group_message_id": 120,
+      "url": "https://tool.luo-xd.com/motionsites-results/404-planet/"
     },
     {
       "id": "aerocore",
       "title": "AeroCore",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860e-d7a1-7fd3-bae1-3240b03664ed",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -732,7 +732,7 @@
       "title": "Agency Services",
       "category": "Services",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860e-d886-76d2-9942-6b474cddbcc2",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -741,7 +741,7 @@
       "id": "ai-automation",
       "title": "AI Automation",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -751,7 +751,7 @@
       "id": "ai-workflow",
       "title": "AI Workflow Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

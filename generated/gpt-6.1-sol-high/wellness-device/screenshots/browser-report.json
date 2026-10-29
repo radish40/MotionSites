@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "name": "desktop",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "heroHeight": 1000,
+        "headingFont": "\"Instrument Serif\", serif",
+        "headingSize": "256px",
+        "images": true,
+        "video": {
+          "playing": true,
+          "muted": true,
+          "loop": true
+        }
+      }
+    },
+    {
+      "name": "spotlight",
+      "status": "passed",
+      "details": "Canvas data URL mask changes with cursor; video clipped to lower 60%; parallax transform updates."
+    },
+    {
+      "name": "mobile",
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "heroHeight": 844,
+        "headingFont": "\"Instrument Serif\", serif",
+        "headingSize": "88px",
+        "images": true,
+        "video": {
+          "playing": true,
+          "muted": true,
+          "loop": true
+        }
+      }
+    },
+    {
+      "name": "mobile-menu",
+      "status": "passed",
+      "details": "Open, close, Escape, navigation selection, reserve dismiss, body overflow lock, focus return."
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "status": "passed"
+}

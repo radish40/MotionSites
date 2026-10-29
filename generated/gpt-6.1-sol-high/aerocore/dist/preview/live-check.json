@@ -1,0 +1,171 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/aerocore/",
+  "checked_at": "2026-10-29T05:27:48.278Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "EngineTech | Custom Aerospace Engines",
+      "bodyChars": 3981,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/engine-reconstructed.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/45229-720.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/23211-720.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/23843-720.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_033707_b842a2ea-f223-4804-96d0-737ab67510fc.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/6853-720.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/23211-720.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/6853-720.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "EngineTech | Custom Aerospace Engines",
+      "bodyChars": 3768,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/engine-reconstructed.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/45229-720.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/23211-720.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/23843-720.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_033707_b842a2ea-f223-4804-96d0-737ab67510fc.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/6853-720.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/23211-720.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/aerocore/assets/6853-720.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

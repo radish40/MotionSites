@@ -1,0 +1,100 @@
+{
+  "title": "AeroCore",
+  "id": "aerocore",
+  "status": "ready",
+  "page_title": "EngineTech | Custom Aerospace Engines",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publish_path": "/motionsites-results/aerocore/",
+  "checks": {
+    "build": {
+      "status": "passed",
+      "output": "dist/index.html"
+    },
+    "browser": {
+      "status": "passed",
+      "engine": "Chromium via playwright-core",
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "report": "screenshots/browser-report.json"
+    },
+    "javascript_errors": [],
+    "horizontal_overflow": {
+      "status": "passed",
+      "sections_per_viewport": 7
+    },
+    "statistics_tabs": {
+      "status": "passed",
+      "categories": 4,
+      "rows_per_category": 4
+    },
+    "showcase": {
+      "status": "passed",
+      "scroll_panels": 4,
+      "desktop_tab_click": "passed",
+      "deep_link_render": "passed"
+    },
+    "contact_anchor": "passed",
+    "home_publish_path": "passed",
+    "video_decode": {
+      "status": "passed",
+      "elements_per_viewport": 9
+    },
+    "story_rail": "passed",
+    "font": "Geist variable Latin and Phosphor regular bundled locally",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-stats.png",
+      "screenshots/mobile-stats.png",
+      "screenshots/desktop-showcase.png",
+      "screenshots/mobile-showcase.png",
+      "screenshots/desktop-stories.png",
+      "screenshots/mobile-stories.png"
+    ],
+    "visual_review": "completed",
+    "missing_original_anchor_targets": [
+      "#investors",
+      "#news",
+      "#careers",
+      "#privacy",
+      "#terms"
+    ],
+    "console_resource_errors": [],
+    "http_asset_failures": [],
+    "engine": {
+      "status": "passed",
+      "asset": "assets/engine-reconstructed.png",
+      "transparent": true,
+      "original_binary": false,
+      "loaded_visible_in_both_viewports": true,
+      "dimensions": [
+        704,
+        1056
+      ]
+    }
+  },
+  "asset_issues": [
+    {
+      "asset": "original hero-engine_isebcf.png",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1780405513/hero-engine_isebcf.png",
+      "http_status": 401,
+      "message": "cloud_name dsdhxhhqh is disabled",
+      "resolved_for_delivery": true,
+      "resolution": "Authorized transparent local reconstruction from the same-design recovered animated preview; not the original PNG.",
+      "replacement": "assets/engine-reconstructed.png",
+      "limitation": "640x472 lossy preview, effective engine detail roughly 246x488 pixels. Upsampled alpha PNG and silhouette may show compression and edge limitations."
+    }
+  ],
+  "notes": [
+    "Scoped repair completed only for AeroCore in original session. All seven design sections, engineering content, video panels, interactions, engine CSS placement and animations retained.",
+    "Original PNG could not be recovered. Exact source and versionless source return HTTP 401; exact filename searches found no working source.",
+    "Local transparent reconstruction combines registered clear regions across preview frames, excludes cursor and overlaid text, and removes the background. It is not the original PNG and no whole screenshot is rendered as the page.",
+    "Fresh native build and desktop/mobile Chromium checks pass with engine visible, no JavaScript or console errors, no HTTP asset failures, no horizontal overflow and all videos decoded.",
+    "Seven unique prompt videos and both fonts remain bundled locally. Build requires no network.",
+    "Five original anchor links have no supplied matching sections; preserved and documented without adding content.",
+    "Some redundant video range requests are canceled by Chromium (net::ERR_ABORTED); all nine video elements report readyState 4 and no media error.",
+    "Source animation and repair scripts retained outside dist. No deployment, push, subagents, other design access, or external messages."
+  ]
+}

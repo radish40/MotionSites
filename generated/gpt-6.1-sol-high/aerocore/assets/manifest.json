@@ -1,0 +1,87 @@
+[
+  {
+    "url": "https://assets.mixkit.co/videos/23211/23211-720.mp4",
+    "local": "assets/23211-720.mp4",
+    "bytes": 9573778,
+    "status": "ok"
+  },
+  {
+    "url": "https://assets.mixkit.co/videos/23843/23843-720.mp4",
+    "local": "assets/23843-720.mp4",
+    "bytes": 2127454,
+    "status": "ok"
+  },
+  {
+    "url": "https://assets.mixkit.co/videos/45229/45229-720.mp4",
+    "local": "assets/45229-720.mp4",
+    "bytes": 4345565,
+    "status": "ok"
+  },
+  {
+    "url": "https://assets.mixkit.co/videos/6853/6853-720.mp4",
+    "local": "assets/6853-720.mp4",
+    "bytes": 6503746,
+    "status": "ok"
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+    "local": "assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+    "bytes": 9814953,
+    "status": "ok"
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+    "local": "assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+    "bytes": 16312175,
+    "status": "ok"
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260324_033707_b842a2ea-f223-4804-96d0-737ab67510fc.mp4",
+    "local": "assets/hf_20260324_033707_b842a2ea-f223-4804-96d0-737ab67510fc.mp4",
+    "bytes": 11599533,
+    "status": "ok"
+  },
+  {
+    "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1780405513/hero-engine_isebcf.png",
+    "status": "failed",
+    "error": "cloud_name dsdhxhhqh is disabled",
+    "http_status": 401,
+    "retries": [
+      "Versionless URL: HTTP 401",
+      "f_auto,q_auto transformation: HTTP 401"
+    ],
+    "resolution": "Reconstructed transparent cutout from this same design preview, as authorized by scoped repair.",
+    "replacement": "assets/engine-reconstructed.png"
+  },
+  {
+    "url": "https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css",
+    "local": "assets/phosphor.css",
+    "bytes": 78131,
+    "status": "ok"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/geist/v5/gyByhwUxId8gMEwcGFU.woff2",
+    "local": "assets/geist-latin.woff2",
+    "bytes": 29400,
+    "status": "ok"
+  },
+  {
+    "url": "https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/Phosphor.woff2",
+    "local": "assets/Phosphor.woff2",
+    "bytes": 147380,
+    "status": "ok"
+  },
+  {
+    "local": "assets/engine-reconstructed.png",
+    "status": "reconstructed",
+    "bytes": 1069328,
+    "source": "Same-design recovered original-preview.webp, frames 0 and 17\u201333",
+    "method": "Registered frame composite, white-overlay removal, cursor exclusion, traced alpha silhouette",
+    "original_binary": false,
+    "dimensions": [
+      704,
+      1056
+    ],
+    "limitation": "Lossy 640x472 preview; effective engine detail about 246x488 pixels, upsampled with Lanczos."
+  }
+]

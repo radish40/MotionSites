@@ -1,0 +1,416 @@
+{
+  "base": "/motionsites-results/aerocore/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "engine": {
+        "complete": true,
+        "width": 704,
+        "height": 1056,
+        "src": "http://localhost:4173/motionsites-results/aerocore/assets/engine-reconstructed.png",
+        "visibility": "visible",
+        "rect": {
+          "top": -15,
+          "left": 379,
+          "width": 682,
+          "height": 1023
+        }
+      },
+      "title": "EngineTech | Custom Aerospace Engines",
+      "font": true,
+      "overflow": [
+        {
+          "section": "#heroScroll",
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        },
+        {
+          "section": "#company",
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        },
+        {
+          "section": "#technology",
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        },
+        {
+          "section": "#solutions",
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        },
+        {
+          "section": "#our-edge",
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        },
+        {
+          "section": "#our-team",
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        },
+        {
+          "section": ".site-footer",
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ],
+      "tabs": [
+        {
+          "key": "cities",
+          "title": "CITIES & INFRASTRUCTURE",
+          "values": [
+            "82%",
+            "68%",
+            "54%",
+            "76%"
+          ]
+        },
+        {
+          "key": "materials",
+          "title": "MATERIALS & MANUFACTURING",
+          "values": [
+            "91%",
+            "72%",
+            "96%",
+            "84%"
+          ]
+        },
+        {
+          "key": "fuels",
+          "title": "FUELS & UPSTREAM",
+          "values": [
+            "78%",
+            "64%",
+            "88%",
+            "92%"
+          ]
+        },
+        {
+          "key": "hydrogen",
+          "title": "H2 HYDROGEN",
+          "values": [
+            "86%",
+            "74%",
+            "93%",
+            "81%"
+          ]
+        }
+      ],
+      "showcase": [
+        {
+          "progress": 0.12,
+          "active": "01",
+          "opacity": "1"
+        },
+        {
+          "progress": 0.4,
+          "active": "02",
+          "opacity": "1"
+        },
+        {
+          "progress": 0.65,
+          "active": "03",
+          "opacity": "1"
+        },
+        {
+          "progress": 0.92,
+          "active": "04",
+          "opacity": "1"
+        }
+      ],
+      "showcaseTabClick": "passed",
+      "rail": {
+        "scrollWidth": 2869,
+        "clientWidth": 1440,
+        "scrollLeft": 1429
+      },
+      "contact": {
+        "top": -0.5,
+        "bottom": 117.5
+      },
+      "videos": [
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/45229-720.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/23211-720.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/23843-720.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_033707_b842a2ea-f223-4804-96d0-737ab67510fc.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/6853-720.mp4",
+          "readyState": 4,
+          "error": null
+        }
+      ],
+      "missingAnchors": [
+        "#investors",
+        "#news",
+        "#careers",
+        "#privacy",
+        "#terms"
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "engine": {
+        "complete": true,
+        "width": 704,
+        "height": 1056,
+        "src": "http://localhost:4173/motionsites-results/aerocore/assets/engine-reconstructed.png",
+        "visibility": "visible",
+        "rect": {
+          "top": -19,
+          "left": 48,
+          "width": 294,
+          "height": 868
+        }
+      },
+      "title": "EngineTech | Custom Aerospace Engines",
+      "font": true,
+      "overflow": [
+        {
+          "section": "#heroScroll",
+          "viewport": 390,
+          "document": 390,
+          "body": 390
+        },
+        {
+          "section": "#company",
+          "viewport": 390,
+          "document": 390,
+          "body": 390
+        },
+        {
+          "section": "#technology",
+          "viewport": 390,
+          "document": 390,
+          "body": 390
+        },
+        {
+          "section": "#solutions",
+          "viewport": 390,
+          "document": 390,
+          "body": 390
+        },
+        {
+          "section": "#our-edge",
+          "viewport": 390,
+          "document": 390,
+          "body": 390
+        },
+        {
+          "section": "#our-team",
+          "viewport": 390,
+          "document": 390,
+          "body": 390
+        },
+        {
+          "section": ".site-footer",
+          "viewport": 390,
+          "document": 390,
+          "body": 390
+        }
+      ],
+      "tabs": [
+        {
+          "key": "cities",
+          "title": "CITIES & INFRASTRUCTURE",
+          "values": [
+            "82%",
+            "68%",
+            "54%",
+            "76%"
+          ]
+        },
+        {
+          "key": "materials",
+          "title": "MATERIALS & MANUFACTURING",
+          "values": [
+            "91%",
+            "72%",
+            "96%",
+            "84%"
+          ]
+        },
+        {
+          "key": "fuels",
+          "title": "FUELS & UPSTREAM",
+          "values": [
+            "78%",
+            "64%",
+            "88%",
+            "92%"
+          ]
+        },
+        {
+          "key": "hydrogen",
+          "title": "H2 HYDROGEN",
+          "values": [
+            "86%",
+            "74%",
+            "93%",
+            "81%"
+          ]
+        }
+      ],
+      "showcase": [
+        {
+          "progress": 0.12,
+          "active": "01",
+          "opacity": "1"
+        },
+        {
+          "progress": 0.4,
+          "active": "02",
+          "opacity": "1"
+        },
+        {
+          "progress": 0.65,
+          "active": "03",
+          "opacity": "1"
+        },
+        {
+          "progress": 0.92,
+          "active": "04",
+          "opacity": "1"
+        }
+      ],
+      "rail": {
+        "scrollWidth": 1760,
+        "clientWidth": 390,
+        "scrollLeft": 1370
+      },
+      "contact": {
+        "top": 0.078125,
+        "bottom": 118.078125
+      },
+      "videos": [
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/45229-720.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/23211-720.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/23843-720.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_033707_b842a2ea-f223-4804-96d0-737ab67510fc.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/aerocore/assets/6853-720.mp4",
+          "readyState": 4,
+          "error": null
+        }
+      ],
+      "missingAnchors": [
+        "#investors",
+        "#news",
+        "#careers",
+        "#privacy",
+        "#terms"
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://localhost:4173/motionsites-results/aerocore/assets/23211-720.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/aerocore/assets/6853-720.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/aerocore/assets/23211-720.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/aerocore/assets/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/aerocore/assets/23211-720.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/aerocore/assets/6853-720.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "consoleErrors": []
+}

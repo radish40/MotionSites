@@ -220,10 +220,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c0-3881-7910-9647-a8238a2b526b",
       "output_path": "generated/gpt-6.1-sol-high/aetheris-voyage-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Session ended without result.json; inspect existing session before retrying",
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:46:14.754505+00:00",
@@ -231,8 +231,12 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "worker_state": "running",
-      "process_id": 2488414
+      "worker_state": "terminal",
+      "process_id": 2488414,
+      "source_commit": "c246519bf5f41e666a571906f7e8fec257b78322",
+      "url": "https://tool.luo-xd.com/motionsites-results/aetheris-voyage-hero/",
+      "completed_utc": "2026-10-29T03:54:11.634919+00:00",
+      "group_message_id": 57
     },
     {
       "number": 8,
@@ -472,11 +476,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/max-reed-portfolio",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2512151,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:53:40.501745+00:00",
+      "worker_state": "running"
     },
     {
       "number": 16,
@@ -8509,5 +8517,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T03:52:46.111551+00:00"
+  "updated_utc": "2026-10-29T03:54:11.805382+00:00"
 }

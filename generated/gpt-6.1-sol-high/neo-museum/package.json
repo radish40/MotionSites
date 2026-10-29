@@ -1,0 +1,6 @@
+{
+  "name": "neo-museum", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": { "dev": "vite --host 0.0.0.0", "build": "tsc -b && vite build", "preview": "vite preview --host 0.0.0.0" },
+  "dependencies": { "react": "^19.0.1", "react-dom": "^19.0.1", "vite": "^6.2.3", "@tailwindcss/vite": "^4.1.14", "tailwindcss": "^4.1.14", "motion": "^12.23.24", "lucide-react": "^0.546.0", "@vitejs/plugin-react": "^5.0.4", "typescript": "~5.8.2" },
+  "devDependencies": { "@types/react": "^19.0.1", "@types/react-dom": "^19.0.1" }
+}

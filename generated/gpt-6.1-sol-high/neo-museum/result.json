@@ -1,0 +1,232 @@
+{
+  "title": "Neo Museum",
+  "id": "neo-museum",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript + Vite, dist/index.html and bundled specimen assets present",
+    "browser": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "noOverflow": true,
+        "manual": [
+          {
+            "chapter": 1,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 69.16405053332143,
+            "settledScale": 0
+          },
+          {
+            "chapter": 2,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 57.53044633456795,
+            "settledScale": 0
+          },
+          {
+            "chapter": 3,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 56.92551359999963,
+            "settledScale": 0
+          },
+          {
+            "chapter": 4,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 52.759454522016284,
+            "settledScale": 0
+          },
+          {
+            "chapter": 5,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 57.58325080465675,
+            "settledScale": 0
+          }
+        ],
+        "autoChapters": [
+          "Prehistoric Giants",
+          "Age of Dinosaurs",
+          "Fossils of Ancient Life",
+          "Reptiles of the Mesozoic",
+          "Marine Fossil Gallery"
+        ],
+        "checks": {
+          "hiddenBeforeReveal": true,
+          "specimenReveals": true,
+          "specimenActuallyMoves": true,
+          "pauseStopsMotion": true,
+          "dialogOpens": true,
+          "dialogSpecimenLoads": true,
+          "dialogCloses": true,
+          "exploreScrolls": true,
+          "pterodactylLoads": true,
+          "allManualSwitches": true,
+          "allAutoSwitches": true,
+          "fontsLoad": true,
+          "noOverflow": true,
+          "noBrokenImages": true
+        }
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "noOverflow": true,
+        "manual": [
+          {
+            "chapter": 1,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 63.39381667983528,
+            "settledScale": 0
+          },
+          {
+            "chapter": 2,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 60.72885641670262,
+            "settledScale": 0
+          },
+          {
+            "chapter": 3,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 47.69856094794221,
+            "settledScale": 0
+          },
+          {
+            "chapter": 4,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 60.83837652447238,
+            "settledScale": 0
+          },
+          {
+            "chapter": 5,
+            "selected": true,
+            "loaded": true,
+            "correctSource": true,
+            "dissolveScale": 56.507201670962225,
+            "settledScale": 0
+          }
+        ],
+        "autoChapters": [
+          "Prehistoric Giants",
+          "Age of Dinosaurs",
+          "Fossils of Ancient Life",
+          "Reptiles of the Mesozoic",
+          "Marine Fossil Gallery"
+        ],
+        "checks": {
+          "hiddenBeforeReveal": true,
+          "specimenReveals": true,
+          "specimenActuallyMoves": true,
+          "menuOpens": true,
+          "menuCloses": true,
+          "navigationScrolls": true,
+          "pterodactylLoads": true,
+          "allManualSwitches": true,
+          "allAutoSwitches": true,
+          "fontsLoad": true,
+          "noOverflow": true,
+          "noBrokenImages": true
+        }
+      }
+    ],
+    "javascript_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-hero.png",
+      "screenshots/mobile-hero.png",
+      "screenshots/desktop-overlap.png",
+      "screenshots/mobile-overlap.png"
+    ],
+    "dissolve_evidence": "screenshots/*-dissolve-1.png through *-dissolve-5.png; actual nonzero displacement during transition and zero after settling",
+    "browser_report": "screenshots/browser-report.json",
+    "final_asset_report": "screenshots/final-asset-check.json",
+    "visual_review": "Compared own reference frames and browser screenshots; specimen-only recovery retains live DOM UI. No whole-page screenshot background."
+  },
+  "asset_issues": [
+    {
+      "url": "https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624247/01_udnber.png",
+      "status": 401,
+      "reason": "cloud_name dsdxaxkiz is disabled",
+      "verified_by": "HTTP requests; browser also confirms 401 for requested media",
+      "resolution": "Recovered T. rex from reference frame 72",
+      "runtime_dependency_on_failed_endpoint": false
+    },
+    {
+      "url": "https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624374/02_pmvxxl.png",
+      "status": 401,
+      "reason": "cloud_name dsdxaxkiz is disabled",
+      "verified_by": "HTTP requests; browser also confirms 401 for requested media",
+      "resolution": "USGS public-domain trilobite equivalent; Bruce Avera Hunter",
+      "runtime_dependency_on_failed_endpoint": false
+    },
+    {
+      "url": "https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624236/03_hcp3jc.png",
+      "status": 401,
+      "reason": "cloud_name dsdxaxkiz is disabled",
+      "verified_by": "HTTP requests; browser also confirms 401 for requested media",
+      "resolution": "Recovered pterodactyl reused as an approximate reptile specimen",
+      "runtime_dependency_on_failed_endpoint": false
+    },
+    {
+      "url": "https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624256/04_get63z.png",
+      "status": 401,
+      "reason": "cloud_name dsdxaxkiz is disabled",
+      "verified_by": "HTTP requests; browser also confirms 401 for requested media",
+      "resolution": "USGS public-domain ammonite equivalent; Annie Scott",
+      "runtime_dependency_on_failed_endpoint": false
+    },
+    {
+      "url": "https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624251/05_kz1tyu.png",
+      "status": 401,
+      "reason": "cloud_name dsdxaxkiz is disabled",
+      "verified_by": "HTTP requests; browser also confirms 401 for requested media",
+      "resolution": "Recovered mammoth from reference frame 57",
+      "runtime_dependency_on_failed_endpoint": false
+    },
+    {
+      "url": "https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779625001/ChatGPT_Image_May_23_2026_12_24_44_PM_1_lv1dne.png",
+      "status": 401,
+      "reason": "cloud_name dsdxaxkiz is disabled",
+      "verified_by": "HTTP requests; browser also confirms 401 for requested media",
+      "resolution": "Recovered pterodactyl from reference frame 45",
+      "runtime_dependency_on_failed_endpoint": false
+    },
+    {
+      "url": "https://res.cloudinary.com/dsdxaxkiz/video/upload/v1779624998/magnific_use-img-2-as-the-exact-ba_Piu3X0W42C_wnrc8f.mp4",
+      "status": 401,
+      "reason": "cloud_name dsdxaxkiz is disabled",
+      "verified_by": "HTTP requests; browser also confirms 401 for requested media",
+      "resolution": "Recovered hero T. rex from reference frame 0 with CSS fallback motion; original MP4 was not recovered or decoded",
+      "runtime_dependency_on_failed_endpoint": false
+    }
+  ],
+  "notes": [
+    "Ready for management acceptance, not deployed.",
+    "Recovery authorized by this design-specific repair request; read no other designs.",
+    "Source URLs remain preserved in src/App.tsx originalMedia. Runtime assets are local and subpath-compatible.",
+    "Hero fallback reveals after 2800ms and has verified visible CSS translation/rotation/scale; desktop pause/play verified. It approximates camera motion, not original articulated walking.",
+    "Recovered assets have limited detail from the 640x468 source; chapter 3 reuses pterodactyl, chapters 2/4 are attributed USGS equivalents.",
+    "Attribution and reproducible recovery: recovery/ATTRIBUTION.md, scripts/download-recovery.sh, scripts/recover.py, recovery/requirements.txt.",
+    "No subagents, other sessions, push, deployment, external messages, or writes outside this project."
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "noOverflow": true,
+      "manual": [
+        {
+          "chapter": 1,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 69.16405053332143,
+          "settledScale": 0
+        },
+        {
+          "chapter": 2,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 57.53044633456795,
+          "settledScale": 0
+        },
+        {
+          "chapter": 3,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 56.92551359999963,
+          "settledScale": 0
+        },
+        {
+          "chapter": 4,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 52.759454522016284,
+          "settledScale": 0
+        },
+        {
+          "chapter": 5,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 57.58325080465675,
+          "settledScale": 0
+        }
+      ],
+      "autoChapters": [
+        "Prehistoric Giants",
+        "Age of Dinosaurs",
+        "Fossils of Ancient Life",
+        "Reptiles of the Mesozoic",
+        "Marine Fossil Gallery"
+      ],
+      "checks": {
+        "hiddenBeforeReveal": true,
+        "specimenReveals": true,
+        "specimenActuallyMoves": true,
+        "pauseStopsMotion": true,
+        "dialogOpens": true,
+        "dialogSpecimenLoads": true,
+        "dialogCloses": true,
+        "exploreScrolls": true,
+        "pterodactylLoads": true,
+        "allManualSwitches": true,
+        "allAutoSwitches": true,
+        "fontsLoad": true,
+        "noOverflow": true,
+        "noBrokenImages": true
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "noOverflow": true,
+      "manual": [
+        {
+          "chapter": 1,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 63.39381667983528,
+          "settledScale": 0
+        },
+        {
+          "chapter": 2,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 60.72885641670262,
+          "settledScale": 0
+        },
+        {
+          "chapter": 3,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 47.69856094794221,
+          "settledScale": 0
+        },
+        {
+          "chapter": 4,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 60.83837652447238,
+          "settledScale": 0
+        },
+        {
+          "chapter": 5,
+          "selected": true,
+          "loaded": true,
+          "correctSource": true,
+          "dissolveScale": 56.507201670962225,
+          "settledScale": 0
+        }
+      ],
+      "autoChapters": [
+        "Prehistoric Giants",
+        "Age of Dinosaurs",
+        "Fossils of Ancient Life",
+        "Reptiles of the Mesozoic",
+        "Marine Fossil Gallery"
+      ],
+      "checks": {
+        "hiddenBeforeReveal": true,
+        "specimenReveals": true,
+        "specimenActuallyMoves": true,
+        "menuOpens": true,
+        "menuCloses": true,
+        "navigationScrolls": true,
+        "pterodactylLoads": true,
+        "allManualSwitches": true,
+        "allAutoSwitches": true,
+        "fontsLoad": true,
+        "noOverflow": true,
+        "noBrokenImages": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "assetResponses": [
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/index-D9_Zrf9Y.css",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/index-CyQcdH0L.js",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/pterodactyl.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-3.png",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/hero-skeleton.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-4.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-1.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-5.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-1.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-2.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-3.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-4.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-5.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-1.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-2.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-3.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-4.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-5.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-1.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/index-D9_Zrf9Y.css",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/index-CyQcdH0L.js",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/pterodactyl.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-3.png",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/hero-skeleton.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-4.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-5.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-1.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-2.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-5.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-1.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-2.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-3.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-4.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-5.png",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/neo-museum/assets/chapter-1.png",
+      "status": 200
+    }
+  ],
+  "checks": {}
+}

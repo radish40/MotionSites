@@ -11,6 +11,7 @@ Group=opc
 SupplementaryGroups=docker
 WorkingDirectory=/home/opc/motionsites
 Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/home/opc/.config/motionsites-generation.env
 ExecStart=/usr/bin/python3 /home/opc/motionsites/scripts/generation/dispatch.py
 Restart=on-failure
 RestartSec=20

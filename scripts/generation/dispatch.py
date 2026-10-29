@@ -53,6 +53,8 @@ def synchronize():
             if not job.get('thread_id'):
                 start=next((e for e in events if e.get('type')=='thread.started'),None)
                 if start:job['thread_id']=start['thread_id']
+            if job['status']=='queued' and not alive(job.get('process_id')):
+                continue  # A scheduled same-session retry must not consume its old terminal event.
             terminal=False
             if job.get('thread_id'):
                 row=db.execute('SELECT model,reasoning_effort,rollout_path FROM threads WHERE id=?',(job['thread_id'],)).fetchone()
@@ -89,13 +91,13 @@ def synchronize():
     return active
 
 
-def launch(ident):
+def launch(ident, resume=False):
     with state_lock():
-        manage.prepare(ident)
+        if not resume:manage.prepare(ident)
         manifest=manage.load();job=manage.job_for(manifest,ident)
         work=ROOT/job['output_path'];logs=RUNTIME/ident;logs.mkdir(exist_ok=True)
         # Refuse to start over if a previous process already emitted a session id.
-        if (logs/'events.jsonl').exists() and (logs/'events.jsonl').stat().st_size:
+        if not resume and (logs/'events.jsonl').exists() and (logs/'events.jsonl').stat().st_size:
             raise RuntimeError('Existing launch evidence; inspect it instead of duplicating the session')
         prompt=(f'User authorized a fresh isolated session for only {job["title"]}. '
             'Read TASK.md and PROMPT.md fully in your current directory; implement only this design. '
@@ -104,10 +106,14 @@ def launch(ident):
             'Use the exact prompt requirements, including its stack and assets. Model gpt-6.1-sol, reasoning high.')
         command=['/home/opc/.local/bin/codex','--no-daemon','-a','never','exec','-s','danger-full-access',
             '--skip-git-repo-check','-C',str(work),'--model','gpt-6.1-sol','-c','model_reasoning_effort="high"',
-            '--json','-o',str(logs/'final.txt'),prompt]
+            '--json','-o',str(logs/'final.txt')]
+        if resume:
+            command+=['resume',job['thread_id'],'Continue only this original design session. The provider environment issue is fixed. '+prompt]
+        else:command.append(prompt)
         with (logs/'events.jsonl').open('a') as stdout,(logs/'stderr.log').open('a') as stderr:
             process=subprocess.Popen(command,stdin=subprocess.DEVNULL,stdout=stdout,stderr=stderr,start_new_session=True)
         job.update(status='running',process_id=process.pid,launch_method='isolated_codex_exec',started_utc=manage.datetime.datetime.now(manage.datetime.timezone.utc).isoformat())
+        job['worker_state']='running'
         manage.save(manifest)
         print('Launched',ident,'pid',process.pid,flush=True)
 
@@ -124,6 +130,8 @@ def cycle():
     # Fill only confirmed available slots; no overlapping generation for one design.
     for job in manifest['jobs']:
         if len(active)>=MAX_WORKERS:break
+        if job['status']=='queued' and job.get('thread_id'):
+            launch(job['id'],resume=True);active.append(job['id']);continue
         if job['status']=='not_started' or (job['status']=='queued' and not job.get('thread_id') and not job.get('process_id')):
             launch(job['id']);active.append(job['id'])
     manifest=manage.load()
@@ -151,6 +159,8 @@ def cycle():
 
 def main():
     RUNTIME.mkdir(parents=True,exist_ok=True)
+    if not os.environ.get('OPENAI_API_KEY'):
+        raise RuntimeError('Provider credential missing; refuse to consume queue slots')
     with (RUNTIME/'dispatcher.lock').open('a') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         while owner_active():

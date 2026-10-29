@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 3/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 4/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -85,20 +85,20 @@
 
 | 序号 | 设计 ID | 名称 | 分类 | 文本版本数 | 本地预览 | 状态 |
 | ---: | --- | --- | --- | ---: | --- | --- |
-| 1 | `dreamcore-landing` | Dreamcore Landing | Landing Page | 2 | 图片 | 生成中 |
+| 1 | `dreamcore-landing` | Dreamcore Landing | Landing Page | 2 | 图片 | 发布中 |
 | 2 | `bold-studio` | Bold Studio | Hero Section | 2 | 图片 | 已完成 |
 | 3 | `interactive-discovery` | Interactive Discovery | Hero Section | 2 | 图片 | 已完成 |
-| 4 | `prisma-landing` | Prisma Creative Studio | Landing Page | 1 | 图片 | 生成中 |
-| 5 | `3d-jack-portfolio-hero` | 3D Jack Portfolio | Portfolio | 1 | 视频 | 生成中 |
+| 4 | `prisma-landing` | Prisma Creative Studio | Landing Page | 1 | 图片 | 已完成 |
+| 5 | `3d-jack-portfolio-hero` | 3D Jack Portfolio | Portfolio | 1 | 视频 | 待修复 |
 | 6 | `art-landing` | Art Landing | Landing Page | 2 | 视频 | 已完成 |
-| 7 | `aetheris-voyage-hero` | Aetheris Voyage | Hero Section | 1 | 图片 | 待修复 |
-| 8 | `codercrest-hero` | CoderCrest | SaaS | 3 | 图片 | 待修复 |
-| 9 | `urban-jungle-hero` | Urban Jungle | Landing Page | 3 | 视频 | 待修复 |
-| 10 | `reveal-hero` | Reveal Hero | Hero Section | 2 | 图片 | 生成中 |
-| 11 | `modern-agency` | Modern Agency | Agency | 2 | 图片 | 生成中 |
-| 12 | `liquid-glass-agency` | Liquid Glass Agency | Landing Page | 3 | 视频 | 未开始 |
-| 13 | `luxury-editorial-ecommerce-design` | Luxury Ecommerce Design | Landing Page | 2 | 图片 | 未开始 |
-| 14 | `asme-hero` | Asme | Hero Section | 1 | 视频 | 未开始 |
+| 7 | `aetheris-voyage-hero` | Aetheris Voyage | Hero Section | 1 | 图片 | 生成中 |
+| 8 | `codercrest-hero` | CoderCrest | SaaS | 3 | 图片 | 生成中 |
+| 9 | `urban-jungle-hero` | Urban Jungle | Landing Page | 3 | 视频 | 排队 |
+| 10 | `reveal-hero` | Reveal Hero | Hero Section | 2 | 图片 | 排队 |
+| 11 | `modern-agency` | Modern Agency | Agency | 2 | 图片 | 排队 |
+| 12 | `liquid-glass-agency` | Liquid Glass Agency | Landing Page | 3 | 视频 | 生成中 |
+| 13 | `luxury-editorial-ecommerce-design` | Luxury Ecommerce Design | Landing Page | 2 | 图片 | 生成中 |
+| 14 | `asme-hero` | Asme | Hero Section | 1 | 视频 | 生成中 |
 | 15 | `max-reed-portfolio` | Max Reed Portfolio | Features Section | 2 | 图片 | 未开始 |
 | 16 | `mindloop-landing` | Mindloop Landing | Landing Page | 2 | 视频 | 未开始 |
 | 17 | `ember-dsgn-hero` | EMBER.dsgn | Hero Section | 2 | 图片 | 未开始 |

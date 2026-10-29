@@ -1,0 +1,35 @@
+{
+  "title": "Portal",
+  "id": "portal",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/portal:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/portal/",
+    "desktop": "passed: Chromium 1440x1000; screenshot visually inspected",
+    "mobile": "passed: Chromium 390x844; screenshot visually inspected",
+    "javascript_runtime_errors": 0,
+    "horizontal_overflow": false,
+    "video": "passed: original 1920px video loaded and playing at both viewports",
+    "fonts": "passed: Helvetica Now Display Bold and used Inter faces loaded",
+    "interactions": "passed: desktop CTA hover; mobile open, close, backdrop, Escape, link dismissal, focus restoration",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    "No unavailable assets. Three video request cancellations (net::ERR_ABORTED) during Chromium media range loading/page teardown; actual playback succeeded.",
+    "Fonts remain external as specified and require internet access."
+  ],
+  "notes": [
+    "Exact prompt stack; original MP4 stored locally and included in dist.",
+    "Only Portal reference viewed. No preview screenshot used as page content.",
+    "Below 480px, heading and inline icons are slightly smaller to preserve the nowrap first line.",
+    "Destinations were unspecified; account/download CTAs are presentation controls and links are same-page placeholders.",
+    "Source, lockfile, dist, screenshots, browser script and README included; node_modules excluded.",
+    "Ready for management-session review; not deployed or pushed."
+  ]
+}

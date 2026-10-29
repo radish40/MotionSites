@@ -1,0 +1,142 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "sectionHeight": 1000,
+      "fonts": {
+        "instrumentSerif": true,
+        "manrope": true
+      },
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "time": 1.788944,
+        "width": 3828,
+        "height": 2164,
+        "error": null,
+        "muted": true,
+        "loop": true
+      },
+      "animations": [
+        {
+          "opacity": "1",
+          "filter": "blur(0px)",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)",
+          "transform": "none"
+        }
+      ],
+      "inputAndButtonFit": true,
+      "interactions": {
+        "invalidEmailRejected": true,
+        "validSubmitPrevented": true,
+        "noNavigation": true,
+        "keyboardTabToButton": true
+      }
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "sectionHeight": 844,
+      "fonts": {
+        "instrumentSerif": true,
+        "manrope": true
+      },
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "time": 1.772067,
+        "width": 3828,
+        "height": 2164,
+        "error": null,
+        "muted": true,
+        "loop": true
+      },
+      "animations": [
+        {
+          "opacity": "1",
+          "filter": "blur(0px)",
+          "transform": "none"
+        },
+        {
+          "opacity": "1",
+          "filter": "blur(0px)",
+          "transform": "none"
+        }
+      ],
+      "inputAndButtonFit": true,
+      "interactions": {
+        "invalidEmailRejected": true,
+        "validSubmitPrevented": true,
+        "noNavigation": true,
+        "keyboardTabToButton": true
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "assetResponses": [
+    {
+      "name": "desktop",
+      "url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&display=swap",
+      "status": 200
+    },
+    {
+      "name": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260603_202301_db51e299-b2f4-4cea-80de-8a6465b7532a.mp4",
+      "status": 206
+    },
+    {
+      "name": "desktop",
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2",
+      "status": 200
+    },
+    {
+      "name": "desktop",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSg.woff2",
+      "status": 200
+    },
+    {
+      "name": "desktop",
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "status": 200
+    },
+    {
+      "name": "mobile",
+      "url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&display=swap",
+      "status": 200
+    },
+    {
+      "name": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260603_202301_db51e299-b2f4-4cea-80de-8a6465b7532a.mp4",
+      "status": 206
+    },
+    {
+      "name": "mobile",
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "status": 200
+    },
+    {
+      "name": "mobile",
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2",
+      "status": 200
+    },
+    {
+      "name": "mobile",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSg.woff2",
+      "status": 200
+    }
+  ]
+}

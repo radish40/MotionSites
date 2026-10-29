@@ -1,0 +1,34 @@
+{
+  "title": "Editorial Collection CTA",
+  "id": "editorial-collection-cta",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html and bundled CSS/JS exist",
+    "base_path": "/motionsites-results/editorial-collection-cta/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "horizontal_overflow": "none at either required viewport",
+    "animations": "both blocks reach opacity 1, blur(0px), transform none; once/30% viewport and 200ms stagger configured",
+    "interactions": "native invalid-email validation; valid submit prevented with no navigation; keyboard tab reaches button",
+    "browser_errors": [],
+    "failed_requests": [],
+    "fonts": "Instrument Serif regular/italic and Manrope loaded via Google Fonts; HTTP 200",
+    "video": "exact requested URL; HTTP 206; readyState 4 and playing on desktop/mobile",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-report.json",
+    "visual_review": "desktop and mobile screenshots reviewed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "External Google Fonts and video require network access.",
+    "Form intentionally only calls preventDefault; no persistence.",
+    "Pinned motion-dom 12.23.12 for compatibility with Framer Motion 12.23.12.",
+    "Successful Vite build emits nonfatal ignored use client directives from Framer Motion.",
+    "Mobile heading wraps naturally while retaining the specified fixed 64px size."
+  ]
+}

@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { margin: 0; color: #000; background: #fff; }
+input { min-width: 0; }
+button:focus-visible { outline: 1px solid #000; outline-offset: 5px; }
+form:focus-within { border-bottom-color: #000; }

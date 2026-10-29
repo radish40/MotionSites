@@ -1,0 +1,48 @@
+{
+  "assets": [
+    {
+      "file": "public/assets/splash.mp4",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260624_205729_0e6fae4e-5fc0-42d0-b49a-b88d85ede0b2.mp4",
+      "bytes": 734453,
+      "sha256": "38dd604b82834dc5abb131aeebe93cccface4dadc0589762c1c7f62f385a233f",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/hero.mp4",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260624_210218_173f8eba-17ff-4e27-972b-d128af25bf49.mp4",
+      "bytes": 11331776,
+      "sha256": "f3a8ca48801a041af19efc12387bb3b185532b46487332385a6d052de8360403",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/gallery-1.webp",
+      "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_211418_dbb8d807-3cfb-4c26-b1df-02fb0c23cc7d.png&w=1280&q=85",
+      "bytes": 96232,
+      "sha256": "43e230a81cff3f549a847e0dff3954d8f7d211e65556481970e31d20bd687439",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/gallery-2.webp",
+      "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_211445_ba965dcd-97d6-4644-b390-d4744078ec6c.png&w=1280&q=85",
+      "bytes": 99276,
+      "sha256": "e751f474fb3fc6f79f81ef1b5a613275cd133e07b56bb5d1eae05b4f32e057f2",
+      "status": "downloaded; served locally"
+    },
+    {
+      "file": "public/assets/gallery-3.webp",
+      "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260624_212326_f5e78786-d7bb-40c5-abac-cd3c0be37d90.png&w=1280&q=85",
+      "bytes": 99880,
+      "sha256": "83d425a571cfdac26f02f7ed7701bf1e2ff9a824b81e569982bc77451ffb7e4b",
+      "status": "downloaded; served locally"
+    }
+  ],
+  "fonts": {
+    "Haboro Norm Regular": "public/assets/haboro.woff2",
+    "Geist": "public/assets/geist-{300,400,500,600}.ttf"
+  },
+  "download_notes": [
+    "Initial Python requests returned 403 for Haboro and 404 for a mistyped Geist 600 URL; curl retries using the supplied font stylesheet succeeded.",
+    "Slow Python video downloads were cancelled and retried successfully with curl.",
+    "Required remote font stylesheet links retained in index.html; local font faces provide reliable rendering."
+  ]
+}

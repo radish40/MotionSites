@@ -1,0 +1,46 @@
+{
+  "title": "Investment Gate",
+  "id": "investment-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/investment-hero/",
+    "desktop": "passed: 1440x1000 Chromium",
+    "mobile": "passed: 390x844 Chromium",
+    "splash": "natural video end and unmount verified on both viewports",
+    "interactions": "menu open/morph, Escape, outside close, Properties scroll, Home return, desktop contact and native contact links passed",
+    "gallery": "all eight phases checked; screenshots captured",
+    "overflow": "none at either viewport throughout checked phases",
+    "script_errors": [],
+    "fonts": "Haboro and Geist 300/400/500/600 verified loaded",
+    "images": "all three supplied gallery images decoded",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "evidence": [
+      "build.log",
+      "browser-report.json",
+      "browser-check.log",
+      "asset-report.json"
+    ]
+  },
+  "asset_issues": [
+    {
+      "issue": "Initial Python font requests failed and video downloads were slow.",
+      "resolution": "Successful curl retries; all requested assets bundled locally and browser verified. No unresolved asset failures."
+    },
+    {
+      "issue": "Two Chromium hero-video requests recorded net::ERR_ABORTED.",
+      "resolution": "Expected media request cancellation during seek/context teardown; hero video decoded and played in both checks."
+    }
+  ],
+  "notes": [
+    "Website brand: VELORA; document title: VELORA - Premium Real Estate.",
+    "Requested stack used, with lucide-react Home as the only icon import and no additional UI libraries.",
+    "Required external font stylesheet links retained; local font copies ensure reliable rendering.",
+    "Source, configuration, lockfile, publishable dist, screenshots and documentation are in this project only.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

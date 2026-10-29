@@ -1,0 +1,84 @@
+{
+  "base": "/motionsites-results/investment-hero/",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media": {
+        "hero": {
+          "width": 1280,
+          "height": 720
+        },
+        "images": [
+          {
+            "src": "http://127.0.0.1:5173/motionsites-results/investment-hero/assets/gallery-1.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://127.0.0.1:5173/motionsites-results/investment-hero/assets/gallery-2.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://127.0.0.1:5173/motionsites-results/investment-hero/assets/gallery-3.webp",
+            "loaded": true
+          }
+        ],
+        "fonts": {
+          "haboro": true,
+          "geist": true
+        }
+      },
+      "splash": "ended and unmounted",
+      "menu": "open, morph, Escape, backdrop close, Properties navigation, contact links, home return passed",
+      "scroll": "all eight phases and overflow checks passed",
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "media": {
+        "hero": {
+          "width": 1280,
+          "height": 720
+        },
+        "images": [
+          {
+            "src": "http://127.0.0.1:5173/motionsites-results/investment-hero/assets/gallery-1.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://127.0.0.1:5173/motionsites-results/investment-hero/assets/gallery-2.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://127.0.0.1:5173/motionsites-results/investment-hero/assets/gallery-3.webp",
+            "loaded": true
+          }
+        ],
+        "fonts": {
+          "haboro": true,
+          "geist": true
+        }
+      },
+      "splash": "ended and unmounted",
+      "menu": "open, morph, Escape, backdrop close, Properties navigation, contact links, home return passed",
+      "scroll": "all eight phases and overflow checks passed",
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:5173/motionsites-results/investment-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:5173/motionsites-results/investment-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

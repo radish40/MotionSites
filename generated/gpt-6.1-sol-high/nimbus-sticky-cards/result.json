@@ -1,0 +1,125 @@
+{
+  "title": "Nimbus Sticky Cards",
+  "id": "nimbus-sticky-cards",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "build": "passed; Vite 5.4.21; dist/index.html exists",
+    "base_path": "/motionsites-results/nimbus-sticky-cards/",
+    "browser": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "initial": {
+          "active": "infra",
+          "overflow": false,
+          "fontSans": true,
+          "fontMono": true,
+          "sectionHeight": 4200,
+          "stackHeight": 800
+        },
+        "tabs": [
+          {
+            "active": "residency",
+            "selected": 1,
+            "scrollY": 1067,
+            "overflow": false
+          },
+          {
+            "active": "scaling",
+            "selected": 1,
+            "scrollY": 2133,
+            "overflow": false
+          },
+          {
+            "active": "visibility",
+            "selected": 1,
+            "scrollY": 3200,
+            "overflow": false
+          },
+          {
+            "active": "infra",
+            "selected": 1,
+            "scrollY": 0,
+            "overflow": false
+          }
+        ],
+        "scroll": [
+          "infra",
+          "residency",
+          "scaling",
+          "visibility"
+        ],
+        "keyboardFocus": "residency",
+        "errors": [],
+        "failed": []
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "initial": {
+          "active": "infra",
+          "overflow": false,
+          "fontSans": true,
+          "fontMono": true,
+          "sectionHeight": 3545,
+          "stackHeight": 658
+        },
+        "tabs": [
+          {
+            "active": "residency",
+            "selected": 1,
+            "scrollY": 900,
+            "overflow": false
+          },
+          {
+            "active": "scaling",
+            "selected": 1,
+            "scrollY": 1801,
+            "overflow": false
+          },
+          {
+            "active": "visibility",
+            "selected": 1,
+            "scrollY": 2701,
+            "overflow": false
+          },
+          {
+            "active": "infra",
+            "selected": 1,
+            "scrollY": 0,
+            "overflow": false
+          }
+        ],
+        "scroll": [
+          "infra",
+          "residency",
+          "scaling",
+          "visibility"
+        ],
+        "keyboardFocus": "residency",
+        "errors": [],
+        "failed": []
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-stacked.png",
+      "screenshots/mobile-stacked.png"
+    ],
+    "visual_inspection": "Initial desktop/mobile and stacked mobile screenshots inspected."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for acceptance; not deployed.",
+    "Exact prompt stack, copy, CSS breakpoints and scroll algorithm retained.",
+    "Google Fonts loaded successfully; requires network access.",
+    "Supplied preview used only for comparison; no screenshot-based page or extracted assets.",
+    "Specified mobile fixed stack and clipping retained.",
+    "Audit reports 1 moderate and 1 high development dependency finding; see dependency-audit.json. Requested Vite major retained.",
+    "No other designs read, agents spawned, sessions created, pushes, deployments, or outbound messages."
+  ]
+}

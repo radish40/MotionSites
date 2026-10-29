@@ -1,0 +1,95 @@
+{
+  "path": "/motionsites-results/eco-intelligence/",
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "document": [
+        1440,
+        1000
+      ],
+      "video": {
+        "readyState": 4,
+        "width": 3828,
+        "height": 2164,
+        "playing": true,
+        "currentTime": 0.470353
+      },
+      "fonts": {
+        "bebas": true,
+        "helvetica": true
+      },
+      "card": {
+        "x": 1040,
+        "right": 1360,
+        "bottom": 952
+      },
+      "headingColor": "rgb(0, 0, 0)",
+      "interactions": "Menu opens, focus enters and traps, Escape closes and restores scroll, nav closes, CTA targets findings, call uses email; desktop backdrop closes."
+    },
+    {
+      "name": "mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "video": {
+        "readyState": 4,
+        "width": 3828,
+        "height": 2164,
+        "playing": true,
+        "currentTime": 0.720326
+      },
+      "fonts": {
+        "bebas": true,
+        "helvetica": true
+      },
+      "card": {
+        "x": 28,
+        "right": 348,
+        "bottom": 820
+      },
+      "headingColor": "rgb(255, 255, 255)",
+      "interactions": "Menu opens, focus enters and traps, Escape closes and restores scroll, nav closes, CTA targets findings, call uses email; desktop backdrop closes."
+    },
+    {
+      "name": "tablet",
+      "viewport": [
+        640,
+        900
+      ],
+      "document": [
+        640,
+        900
+      ],
+      "video": {
+        "readyState": 4,
+        "width": 3828,
+        "height": 2164,
+        "playing": true,
+        "currentTime": 0.660082
+      },
+      "fonts": {
+        "bebas": true,
+        "helvetica": true
+      },
+      "card": {
+        "x": 40,
+        "right": 360,
+        "bottom": 868
+      },
+      "headingColor": "rgb(0, 0, 0)",
+      "interactions": "Menu opens, focus enters and traps, Escape closes and restores scroll, nav closes, CTA targets findings, call uses email; desktop backdrop closes."
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

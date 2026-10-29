@@ -1,0 +1,118 @@
+{
+  "title": "Eco Intelligence",
+  "id": "eco-intelligence",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "publication_base": "/motionsites-results/eco-intelligence/",
+    "browser_report": "screenshots/browser-report.json",
+    "viewports": [
+      {
+        "name": "desktop",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "document": [
+          1440,
+          1000
+        ],
+        "video": {
+          "readyState": 4,
+          "width": 3828,
+          "height": 2164,
+          "playing": true,
+          "currentTime": 0.470353
+        },
+        "fonts": {
+          "bebas": true,
+          "helvetica": true
+        },
+        "card": {
+          "x": 1040,
+          "right": 1360,
+          "bottom": 952
+        },
+        "headingColor": "rgb(0, 0, 0)",
+        "interactions": "Menu opens, focus enters and traps, Escape closes and restores scroll, nav closes, CTA targets findings, call uses email; desktop backdrop closes."
+      },
+      {
+        "name": "mobile",
+        "viewport": [
+          390,
+          844
+        ],
+        "document": [
+          390,
+          844
+        ],
+        "video": {
+          "readyState": 4,
+          "width": 3828,
+          "height": 2164,
+          "playing": true,
+          "currentTime": 0.720326
+        },
+        "fonts": {
+          "bebas": true,
+          "helvetica": true
+        },
+        "card": {
+          "x": 28,
+          "right": 348,
+          "bottom": 820
+        },
+        "headingColor": "rgb(255, 255, 255)",
+        "interactions": "Menu opens, focus enters and traps, Escape closes and restores scroll, nav closes, CTA targets findings, call uses email; desktop backdrop closes."
+      },
+      {
+        "name": "tablet",
+        "viewport": [
+          640,
+          900
+        ],
+        "document": [
+          640,
+          900
+        ],
+        "video": {
+          "readyState": 4,
+          "width": 3828,
+          "height": 2164,
+          "playing": true,
+          "currentTime": 0.660082
+        },
+        "fonts": {
+          "bebas": true,
+          "helvetica": true
+        },
+        "card": {
+          "x": 40,
+          "right": 360,
+          "bottom": 868
+        },
+        "headingColor": "rgb(0, 0, 0)",
+        "interactions": "Menu opens, focus enters and traps, Escape closes and restores scroll, nav closes, CTA targets findings, call uses email; desktop backdrop closes."
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-menu.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots reviewed; specified responsive layout and menu verified"
+  },
+  "asset_issues": [],
+  "notes": [
+    "TERRA NOVA branding and prompt copy implemented with React, TypeScript, Vite, Tailwind CSS and Lucide React.",
+    "Original remote video is the primary source; identical local MP4 is a fallback. Exact requested fonts downloaded from their specified providers and bundled locally.",
+    "Navigation targets existing hero content. Start listening targets findings. Book a call and Contact use the supplied email; no scheduler or audio stream was specified.",
+    "Ready for management review; not deployed or pushed. All project artifacts remain inside this project.",
+    "Chromium checks only; mobile text contrast follows the supplied design and varies with video frames.",
+    "No sub-agents, other sessions, other designs, or external messages. Session model selection cannot be changed from project code."
+  ]
+}

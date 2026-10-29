@@ -1,0 +1,244 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "heading": "What builders say",
+      "fonts": [
+        {
+          "family": "PP Neue Montreal",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "PP Neue Montreal",
+          "weight": "500",
+          "status": "loaded"
+        },
+        {
+          "family": "PP Mondwest",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        }
+      ],
+      "expectedCardWidth": 427.5,
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "heading": "What builders say",
+      "fonts": [
+        {
+          "family": "PP Neue Montreal",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "PP Neue Montreal",
+          "weight": "500",
+          "status": "loaded"
+        },
+        {
+          "family": "PP Mondwest",
+          "weight": "400",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        },
+        {
+          "url": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2",
+          "loaded": true
+        }
+      ],
+      "expectedCardWidth": 342,
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "interactions": [
+    {
+      "viewport": 1440,
+      "hoverPause": true,
+      "previous": true,
+      "next": true,
+      "wrapBothDirections": true,
+      "autoAdvanceAndResume": true,
+      "keyboard": true
+    },
+    {
+      "viewport": 390,
+      "hoverPause": true,
+      "previous": true,
+      "next": true,
+      "wrapBothDirections": true,
+      "autoAdvanceAndResume": true,
+      "keyboard": true
+    }
+  ],
+  "scriptErrors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()"
+  ],
+  "failedRequests": [
+    {
+      "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9bb43e36419997ecfe_PPNeueMontreal-Book.otf",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9b39c5673e51a86f5a_PPNeueMontreal-Medium.otf",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9bb43e36419997ecfe_PPNeueMontreal-Book.otf",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9b39c5673e51a86f5a_PPNeueMontreal-Medium.otf",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "badResponses": [
+    {
+      "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9bb43e36419997ecfe_PPNeueMontreal-Book.otf",
+      "status": 403
+    },
+    {
+      "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9b39c5673e51a86f5a_PPNeueMontreal-Medium.otf",
+      "status": 403
+    },
+    {
+      "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9bb43e36419997ecfe_PPNeueMontreal-Book.otf",
+      "status": 403
+    },
+    {
+      "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9b39c5673e51a86f5a_PPNeueMontreal-Medium.otf",
+      "status": 403
+    }
+  ],
+  "status": "passed"
+}

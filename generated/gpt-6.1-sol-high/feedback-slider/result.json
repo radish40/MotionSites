@@ -1,0 +1,80 @@
+{
+  "title": "Feedback Slider",
+  "id": "feedback-slider",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: tsc -b && vite build",
+    "dist_index": true,
+    "base_path": "/motionsites-results/feedback-slider/",
+    "browser": "passed",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "card_width": 427.5,
+        "all_images_loaded": true,
+        "all_fonts_loaded": true,
+        "screenshot": "screenshots/desktop.png"
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "horizontal_overflow": false,
+        "card_width": 342,
+        "all_images_loaded": true,
+        "all_fonts_loaded": true,
+        "screenshot": "screenshots/mobile.png"
+      }
+    ],
+    "interactions": [
+      {
+        "viewport": 1440,
+        "hoverPause": true,
+        "previous": true,
+        "next": true,
+        "wrapBothDirections": true,
+        "autoAdvanceAndResume": true,
+        "keyboard": true
+      },
+      {
+        "viewport": 390,
+        "hoverPause": true,
+        "previous": true,
+        "next": true,
+        "wrapBothDirections": true,
+        "autoAdvanceAndResume": true,
+        "keyboard": true
+      }
+    ],
+    "script_errors": [],
+    "console_errors": [
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: the server responded with a status of 403 ()"
+    ],
+    "full_report": "screenshots/browser-checks.json",
+    "screenshots_visually_reviewed": true
+  },
+  "asset_issues": [
+    {
+      "asset": "Original PP Neue Montreal Book and Medium Webflow OTF URLs",
+      "issue": "Both return HTTP 403, also recorded as browser console/resource errors.",
+      "resolution": "Preserved exact original URLs and appended local same-font WOFF fallback sources from fonts.cdnfonts.com; both font faces verified loaded."
+    },
+    {
+      "asset": "PPMondwest-Regular.woff2",
+      "issue": "Required local asset was absent from initial project.",
+      "resolution": "Retrieved actual Mondwest Regular WOFF2 bytes from the foundry public specimen CDN; saved under required public filename and verified loaded."
+    }
+  ],
+  "notes": [
+    "Single requested design implemented with React + TypeScript + Tailwind CSS + Vite and lucide-react.",
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Pexels avatar URLs remain exactly as specified and loaded in both tested viewports.",
+    "README.md documents commands, validation, asset sources, and limitations.",
+    "No subagents or other sessions created; all generated project files are within this directory."
+  ]
+}

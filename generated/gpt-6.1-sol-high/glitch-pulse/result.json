@@ -1,0 +1,122 @@
+{
+  "title": "Glitch Pulse",
+  "id": "glitch-pulse",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci && npm run build\"",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "browser": "Chromium via Playwright against production Express server",
+    "desktop": "1440x1000",
+    "mobile": "390x844",
+    "passed": 18,
+    "total": 18,
+    "details": [
+      {
+        "name": "Trail cycles sequentially and caps at four",
+        "pass": true,
+        "types": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "name": "Trail expires",
+        "pass": true
+      },
+      {
+        "name": "Half of hero deleted at 12.5%",
+        "pass": true,
+        "text": "PROBLEM\nW\nI\nT\nH"
+      },
+      {
+        "name": "Hero removed at 40%",
+        "pass": true
+      },
+      {
+        "name": "Contact opens form at bottom",
+        "pass": true
+      },
+      {
+        "name": "Required inputs validate",
+        "pass": true
+      },
+      {
+        "name": "Submission success state",
+        "pass": true
+      },
+      {
+        "name": "New transmission resets form",
+        "pass": true
+      },
+      {
+        "name": "Close hides form",
+        "pass": true
+      },
+      {
+        "name": "Form reopens after leaving and returning to bottom",
+        "pass": true
+      },
+      {
+        "name": "Mobile form contained in viewport",
+        "pass": true
+      },
+      {
+        "name": "No horizontal layout overflow",
+        "pass": true
+      },
+      {
+        "name": "Both HLS videos loaded and paused",
+        "pass": true
+      },
+      {
+        "name": "First video scrubs",
+        "pass": true
+      },
+      {
+        "name": "Crossfade keeps first video opaque",
+        "pass": true
+      },
+      {
+        "name": "Second video scrubs and first is hidden",
+        "pass": true
+      },
+      {
+        "name": "Pixel font loaded for page text",
+        "pass": true
+      },
+      {
+        "name": "No JavaScript errors",
+        "pass": true
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/manifesto.png",
+      "screenshots/feedback.png",
+      "screenshots/mobile-feedback.png",
+      "screenshots/success.png"
+    ],
+    "report": "browser-report.json"
+  },
+  "asset_issues": [
+    {
+      "issue": "Figma CDN returned 403 to initial Python downloader",
+      "resolution": "All nine exact images downloaded successfully with curl and are served locally. See asset-report-curl.json."
+    }
+  ],
+  "notes": [
+    "Static production output is dist/ with base /motionsites-results/glitch-pulse/.",
+    "Both original Mux HLS streams loaded and scrubbed successfully; network access is required for video.",
+    "Exact Google Font CSS import retained; local copy of the same font provides a fallback.",
+    "Feedback uses the required client-side success state; the prompt specifies no persistence endpoint.",
+    "Safari native HLS fallback is implemented but not browser-tested.",
+    "Small mobile navigation spacing adjustment prevents clipping.",
+    "Vite bundle size advisory reflects hls.js; build succeeds.",
+    "Ready for management-session acceptance; not deployed or pushed."
+  ]
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import "tailwindcss";
+
+@theme {
+--font-press-start: "Press Start 2P", system-ui, sans-serif;
+}
+
+@keyframes marquee {
+0% { transform: translate3d(0, 0, 0); }
+100% { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes sticker-fade-out {
+0% {
+opacity: 0;
+transform: translate(-50%, -50%) rotate(var(--rot)) scale(0);
+}
+20% {
+opacity: 1;
+transform: translate(-50%, -50%) rotate(var(--rot)) scale(1.05);
+}
+30% {
+opacity: 1;
+transform: translate(-50%, -50%) rotate(var(--rot)) scale(1.0);
+}
+85% {
+opacity: 1;
+transform: translate(-50%, -50%) rotate(var(--rot)) scale(1.0);
+}
+100% {
+opacity: 0;
+transform: translate(-50%, -50%) rotate(var(--rot)) scale(0.8);
+}
+}
+
+.animate-marquee {
+display: flex;
+width: max-content;
+animation: marquee 10s linear infinite;
+}
+
+/* Same Google Font, served locally as a fallback when the font CDN is unavailable. */
+@font-face {
+ font-family: 'Press Start 2P';
+ font-style: normal;
+ font-weight: 400;
+ font-display: swap;
+ src: url('../public/assets/press-start-2p.ttf') format('truetype');
+}
+
+@media (max-width: 420px) {
+ nav[aria-label="Main navigation"] { gap: 16px; font-size: 9px; right: 24px; }
+}

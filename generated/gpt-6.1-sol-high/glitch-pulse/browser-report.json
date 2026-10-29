@@ -1,0 +1,267 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "Trail cycles sequentially and caps at four",
+      "pass": true,
+      "types": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "name": "Trail expires",
+      "pass": true
+    },
+    {
+      "name": "Half of hero deleted at 12.5%",
+      "pass": true,
+      "text": "PROBLEM\nW\nI\nT\nH"
+    },
+    {
+      "name": "Hero removed at 40%",
+      "pass": true
+    },
+    {
+      "name": "Contact opens form at bottom",
+      "pass": true
+    },
+    {
+      "name": "Required inputs validate",
+      "pass": true
+    },
+    {
+      "name": "Submission success state",
+      "pass": true
+    },
+    {
+      "name": "New transmission resets form",
+      "pass": true
+    },
+    {
+      "name": "Close hides form",
+      "pass": true
+    },
+    {
+      "name": "Form reopens after leaving and returning to bottom",
+      "pass": true
+    },
+    {
+      "name": "Mobile form contained in viewport",
+      "pass": true
+    },
+    {
+      "name": "No horizontal layout overflow",
+      "pass": true
+    },
+    {
+      "name": "Both HLS videos loaded and paused",
+      "pass": true
+    },
+    {
+      "name": "First video scrubs",
+      "pass": true
+    },
+    {
+      "name": "Crossfade keeps first video opaque",
+      "pass": true
+    },
+    {
+      "name": "Second video scrubs and first is hidden",
+      "pass": true
+    },
+    {
+      "name": "Pixel font loaded for page text",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript errors",
+      "pass": true
+    }
+  ],
+  "initial": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 12000,
+    "font": true,
+    "images": [
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-2.png",
+        "ok": true
+      },
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-3.png",
+        "ok": true
+      },
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-5.png",
+        "ok": true
+      },
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-4.png",
+        "ok": true
+      }
+    ],
+    "videos": [
+      {
+        "duration": 5.015622,
+        "time": 0,
+        "paused": true,
+        "ready": 4,
+        "opacity": "1"
+      },
+      {
+        "duration": 5.015622,
+        "time": 0.005323,
+        "paused": true,
+        "ready": 4,
+        "opacity": "0"
+      }
+    ]
+  },
+  "mid": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 12000,
+    "font": true,
+    "images": [
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-2.png",
+        "ok": true
+      },
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-3.png",
+        "ok": true
+      }
+    ],
+    "videos": [
+      {
+        "duration": 5.015622,
+        "time": 3.980371,
+        "paused": true,
+        "ready": 4,
+        "opacity": "1"
+      },
+      {
+        "duration": 5.015622,
+        "time": 0.005323,
+        "paused": true,
+        "ready": 4,
+        "opacity": "0"
+      }
+    ]
+  },
+  "crossfade": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 12000,
+    "font": true,
+    "images": [
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-2.png",
+        "ok": true
+      },
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-3.png",
+        "ok": true
+      }
+    ],
+    "videos": [
+      {
+        "duration": 5.015622,
+        "time": 4.721779,
+        "paused": true,
+        "ready": 4,
+        "opacity": "1"
+      },
+      {
+        "duration": 5.015622,
+        "time": 0.005323,
+        "paused": true,
+        "ready": 4,
+        "opacity": "0.5"
+      }
+    ]
+  },
+  "second": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 12000,
+    "font": true,
+    "images": [
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-2.png",
+        "ok": true
+      },
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-3.png",
+        "ok": true
+      }
+    ],
+    "videos": [
+      {
+        "duration": 5.015622,
+        "time": 4.975621,
+        "paused": true,
+        "ready": 4,
+        "opacity": "0"
+      },
+      {
+        "duration": 5.015622,
+        "time": 1.987007,
+        "paused": true,
+        "ready": 4,
+        "opacity": "1"
+      }
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 10128,
+    "font": true,
+    "images": [
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-2.png",
+        "ok": true
+      },
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-3.png",
+        "ok": true
+      },
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-5.png",
+        "ok": true
+      },
+      {
+        "src": "http://localhost:3000/motionsites-results/glitch-pulse/assets/sticker-4.png",
+        "ok": true
+      }
+    ],
+    "videos": [
+      {
+        "duration": 5.015622,
+        "time": 0,
+        "paused": true,
+        "ready": 4,
+        "opacity": "1"
+      },
+      {
+        "duration": 5.015622,
+        "time": 0.001945,
+        "paused": true,
+        "ready": 4,
+        "opacity": "0"
+      }
+    ]
+  },
+  "mobileForm": {
+    "x": 15.6015625,
+    "y": 242,
+    "width": 358.796875,
+    "height": 360
+  }
+}

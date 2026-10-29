@@ -1,0 +1,121 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/",
+  "checked_at": "2026-10-29T06:48:29.757Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Scroll Video",
+      "bodyChars": 788,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/assets/sticker-2.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/assets/sticker-3.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/assets/sticker-5.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/assets/sticker-4.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/e1d50d45-a27c-44af-98a9-f79d7b0cdeb6",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0.00185,
+          "duration": 5.015622,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/e3b5307e-1a45-4c50-a5bf-e5db9126980e",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0.000982,
+          "duration": 5.015622,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Scroll Video",
+      "bodyChars": 788,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/assets/sticker-2.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/assets/sticker-3.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/assets/sticker-5.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/glitch-pulse/assets/sticker-4.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/248c6aa4-838d-41cd-97f5-50d275fcdafa",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0.009773,
+          "duration": 5.015622,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/66392b38-7f00-4a4a-9056-8bd9eae4fd38",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0.014557,
+          "duration": 5.015622,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

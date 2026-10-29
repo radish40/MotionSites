@@ -1,0 +1,61 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/liquid-glass-cta/",
+  "checked_at": "2026-10-29T07:11:07.178Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Studio — Your next website starts here.",
+      "bodyChars": 227,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/a3317107-f96a-41a0-b8aa-c721cbd791a2",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.340482,
+          "duration": 7.708333,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Studio — Your next website starts here.",
+      "bodyChars": 227,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/fd71513e-28e9-4fa6-9978-a8028469848f",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.685403,
+          "duration": 7.708333,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

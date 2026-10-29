@@ -1,0 +1,130 @@
+{
+  "url": "http://localhost:4173/motionsites-results/liquid-glass-cta/",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "videoReady": true,
+      "title": "Studio — Your next website starts here.",
+      "heading": "Your next website starts here.",
+      "horizontalOverflow": false,
+      "fontHeading": true,
+      "fontBody": true,
+      "headingSize": "72px",
+      "footerDirection": "row",
+      "video": {
+        "readyState": 4,
+        "currentTime": 0.549696,
+        "width": 1280,
+        "height": 720,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true
+      },
+      "buttons": [
+        {
+          "text": "Book a Call",
+          "width": 142.515625,
+          "height": 44
+        },
+        {
+          "text": "View Pricing",
+          "width": 147.640625,
+          "height": 44
+        }
+      ],
+      "links": [
+        {
+          "text": "Privacy",
+          "href": "#"
+        },
+        {
+          "text": "Terms",
+          "href": "#"
+        },
+        {
+          "text": "Contact",
+          "href": "#"
+        }
+      ],
+      "interactions": {
+        "buttonClicks": "passed; source buttons have no configured destinations",
+        "footerClicks": "passed; source links retain # destinations",
+        "hoverBackground": "rgba(255, 255, 255, 0.1)",
+        "keyboardFocus": {
+          "tag": "BUTTON",
+          "text": "Book a Call",
+          "outline": "solid"
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "videoReady": true,
+      "title": "Studio — Your next website starts here.",
+      "heading": "Your next website starts here.",
+      "horizontalOverflow": false,
+      "fontHeading": true,
+      "fontBody": true,
+      "headingSize": "48px",
+      "footerDirection": "column",
+      "video": {
+        "readyState": 4,
+        "currentTime": 0.533462,
+        "width": 1280,
+        "height": 720,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true
+      },
+      "buttons": [
+        {
+          "text": "Book a Call",
+          "width": 142.515625,
+          "height": 44
+        },
+        {
+          "text": "View Pricing",
+          "width": 147.640625,
+          "height": 44
+        }
+      ],
+      "links": [
+        {
+          "text": "Privacy",
+          "href": "#"
+        },
+        {
+          "text": "Terms",
+          "href": "#"
+        },
+        {
+          "text": "Contact",
+          "href": "#"
+        }
+      ],
+      "interactions": {
+        "buttonClicks": "passed; source buttons have no configured destinations",
+        "footerClicks": "passed; source links retain # destinations",
+        "hoverBackground": "rgba(255, 255, 255, 0.1)",
+        "keyboardFocus": {
+          "tag": "BUTTON",
+          "text": "Book a Call",
+          "outline": "solid"
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "badResponses": []
+}

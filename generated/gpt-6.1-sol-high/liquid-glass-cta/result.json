@@ -1,0 +1,38 @@
+{
+  "title": "Liquid Glass CTA",
+  "id": "liquid-glass-cta",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/liquid-glass-cta/",
+    "desktop": {
+      "viewport": "1440x1000",
+      "status": "passed",
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "status": "passed",
+      "screenshot": "screenshots/mobile.png"
+    },
+    "video": "passed: HLS playback at both sizes",
+    "fonts": "passed: Instrument Serif italic and Barlow",
+    "interactions": "passed: clicks, glass hover, visible keyboard focus; original buttons have no configured actions and links use #",
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "screenshots_visually_reviewed": true,
+    "browser_report": "checks/browser-results.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original component and glass CSS preserved; standalone viewport-height black parent and visible keyboard focus added.",
+    "No CTA or footer destinations were supplied; source behavior preserved.",
+    "Non-fatal Vite chunk-size warning from required HLS player bundle.",
+    "External Mux and Google Fonts loaded successfully; native Safari fallback not tested.",
+    "Dependencies locked in package-lock.json; node_modules excluded from delivery.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

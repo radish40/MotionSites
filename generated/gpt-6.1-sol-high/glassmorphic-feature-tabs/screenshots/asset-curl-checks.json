@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260521_222821_06fd2e74-16a5-4e7f-90ed-14e6760e7edb.png&w=1280&q=85",
+    "status": "200",
+    "error": null
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260521_222901_b133c5f0-191c-4285-a018-a68fd9c9f5ac.png&w=1280&q=85",
+    "status": "200",
+    "error": null
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260521_225713_3226e3ad-3364-42b1-99bd-ed82005c0524.png&w=1280&q=85",
+    "status": "200",
+    "error": null
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260521_222832_223716d0-9b6c-4c48-98a6-a5e3c02e2962.png&w=1280&q=85",
+    "status": "200",
+    "error": null
+  },
+  {
+    "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-1.png",
+    "status": "200",
+    "error": null
+  },
+  {
+    "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-2.png",
+    "status": "200",
+    "error": null
+  },
+  {
+    "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-3.png",
+    "status": "400",
+    "error": null
+  },
+  {
+    "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-4.png",
+    "status": "400",
+    "error": null
+  },
+  {
+    "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-5.png",
+    "status": "400",
+    "error": null
+  },
+  {
+    "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-6.png",
+    "status": "400",
+    "error": null
+  },
+  {
+    "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/play_icon.svg",
+    "status": "200",
+    "error": null
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg1.mp4",
+    "status": "403",
+    "error": null
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg2.mp4",
+    "status": "403",
+    "error": null
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg3.mp4",
+    "status": "403",
+    "error": null
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg4.mp4",
+    "status": "403",
+    "error": null
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg5.mp4",
+    "status": "403",
+    "error": null
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg6.mp4",
+    "status": "403",
+    "error": null
+  },
+  {
+    "url": "https://i.pravatar.cc/64?img=12",
+    "status": "200",
+    "error": null
+  }
+]

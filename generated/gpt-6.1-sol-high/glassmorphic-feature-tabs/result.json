@@ -1,0 +1,91 @@
+{
+  "title": "Glassmorphic Feature Tabs",
+  "id": "glassmorphic-feature-tabs",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publish_path": "/motionsites-results/glassmorphic-feature-tabs/",
+  "output": "dist/",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5",
+    "desktop": "passed: 1440x1000 viewport, full-page screenshot",
+    "mobile": "passed: 390x844 viewport, full-page screenshot",
+    "interaction": "passed: 5-second rotation, permanent pause after input, all tabs, keyboard, arrow wrap, matching sidebar",
+    "visual_behavior": "passed: three spotlight shells, 400ms cross-fade, fixed 900x562 scaled dashboard, reduced motion",
+    "layout_overflow": "passed: no horizontal overflow at both viewports",
+    "javascript_errors": 0,
+    "fonts": "passed: Inter and Material Symbols Rounded",
+    "rendered_images": "passed with documented supplied-source fallbacks",
+    "all_original_asset_urls_load": false,
+    "dependency_audit": "passed: zero vulnerabilities",
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-3.png",
+      "status": "400",
+      "error": null,
+      "fallback": "Supplied module cover 1 or 2"
+    },
+    {
+      "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-4.png",
+      "status": "400",
+      "error": null,
+      "fallback": "Supplied module cover 1 or 2"
+    },
+    {
+      "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-5.png",
+      "status": "400",
+      "error": null,
+      "fallback": "Supplied module cover 1 or 2"
+    },
+    {
+      "url": "https://miptxtnhvjrkpmnjgdhk.supabase.co/storage/v1/object/public/training-assets/landing/module-cover-6.png",
+      "status": "400",
+      "error": null,
+      "fallback": "Supplied module cover 1 or 2"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg1.mp4",
+      "status": "403",
+      "error": null,
+      "fallback": "Supplied Higgs poster image; static tile"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg2.mp4",
+      "status": "403",
+      "error": null,
+      "fallback": "Supplied Higgs poster image; static tile"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg3.mp4",
+      "status": "403",
+      "error": null,
+      "fallback": "Supplied Higgs poster image; static tile"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg4.mp4",
+      "status": "403",
+      "error": null,
+      "fallback": "Supplied Higgs poster image; static tile"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg5.mp4",
+      "status": "403",
+      "error": null,
+      "fallback": "Supplied Higgs poster image; static tile"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_014404_bg6.mp4",
+      "status": "403",
+      "error": null,
+      "fallback": "Supplied Higgs poster image; static tile"
+    }
+  ],
+  "notes": [
+    "Ready means available for management review; not deployed.",
+    "Only this project was read and written. No agents, sessions, pushes, deployment, or external messages were created.",
+    "All media uses exact prompt URLs first. Inaccessible upstream assets are preserved in source and recovered through runtime fallbacks.",
+    "All six background videos are inaccessible (403), so their tiles currently use static posters.",
+    "Source, dependency lockfile, static dist, README, screenshots, and verification records are included. node_modules is excluded."
+  ]
+}

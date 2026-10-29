@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --background: 270 80% 3%; --foreground: 0 0% 100%; color-scheme: dark; }
+body { margin: 0; background: #000000; font-family: Inter, sans-serif; }
+.material-symbols-rounded { font-family: 'Material Symbols Rounded'; font-weight: normal; font-style: normal; display: inline-block; line-height: 1; letter-spacing: normal; text-transform: none; white-space: nowrap; word-wrap: normal; direction: ltr; -webkit-font-smoothing: antialiased; font-feature-settings: 'liga'; }
+button:focus-visible { outline: 2px solid rgba(255,255,255,.8); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; } }

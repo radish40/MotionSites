@@ -1,0 +1,284 @@
+{
+  "url": "http://localhost:4173/motionsites-results/prisma-landing/",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "type": "initial",
+      "data": {
+        "title": "Prisma — Creative Studio",
+        "scrollWidth": 1440,
+        "width": 1440,
+        "fonts": [
+          true,
+          true
+        ],
+        "videos": [
+          {
+            "src": "http://localhost:4173/motionsites-results/prisma-landing/assets/hero.mp4",
+            "readyState": 4,
+            "width": 1924,
+            "paused": false
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/prisma-landing/assets/canvas.mp4",
+            "readyState": 4,
+            "width": 1244,
+            "paused": true
+          }
+        ]
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "all-links",
+      "destinations": [
+        {
+          "label": "Our story",
+          "hash": "#our-story"
+        },
+        {
+          "label": "Collective",
+          "hash": "#collective"
+        },
+        {
+          "label": "Workshops",
+          "hash": "#workshops"
+        },
+        {
+          "label": "Programs",
+          "hash": "#programs"
+        },
+        {
+          "label": "Inquiries",
+          "hash": "#inquiries"
+        },
+        {
+          "label": "Join the lab",
+          "hash": "#collective"
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "type": "navigation",
+      "hash": "#our-story"
+    },
+    {
+      "viewport": "desktop",
+      "type": "feature-interactions",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "type": "overflow",
+      "passed": true,
+      "overflowing": []
+    },
+    {
+      "viewport": "desktop",
+      "type": "reduced-motion",
+      "videosPaused": true
+    },
+    {
+      "viewport": "mobile",
+      "type": "initial",
+      "data": {
+        "title": "Prisma — Creative Studio",
+        "scrollWidth": 390,
+        "width": 390,
+        "fonts": [
+          true,
+          true
+        ],
+        "videos": [
+          {
+            "src": "http://localhost:4173/motionsites-results/prisma-landing/assets/hero.mp4",
+            "readyState": 4,
+            "width": 1924,
+            "paused": false
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/prisma-landing/assets/canvas.mp4",
+            "readyState": 4,
+            "width": 1244,
+            "paused": true
+          }
+        ]
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "all-links",
+      "destinations": [
+        {
+          "label": "Our story",
+          "hash": "#our-story"
+        },
+        {
+          "label": "Collective",
+          "hash": "#collective"
+        },
+        {
+          "label": "Workshops",
+          "hash": "#workshops"
+        },
+        {
+          "label": "Programs",
+          "hash": "#programs"
+        },
+        {
+          "label": "Inquiries",
+          "hash": "#inquiries"
+        },
+        {
+          "label": "Join the lab",
+          "hash": "#collective"
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "type": "navigation",
+      "hash": "#our-story"
+    },
+    {
+      "viewport": "mobile",
+      "type": "feature-interactions",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "type": "overflow",
+      "passed": true,
+      "overflowing": []
+    },
+    {
+      "viewport": "mobile",
+      "type": "reduced-motion",
+      "videosPaused": true
+    },
+    {
+      "viewport": "tablet",
+      "type": "initial",
+      "data": {
+        "title": "Prisma — Creative Studio",
+        "scrollWidth": 768,
+        "width": 768,
+        "fonts": [
+          true,
+          true
+        ],
+        "videos": [
+          {
+            "src": "http://localhost:4173/motionsites-results/prisma-landing/assets/hero.mp4",
+            "readyState": 4,
+            "width": 1924,
+            "paused": false
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/prisma-landing/assets/canvas.mp4",
+            "readyState": 4,
+            "width": 1244,
+            "paused": true
+          }
+        ]
+      }
+    },
+    {
+      "viewport": "tablet",
+      "type": "all-links",
+      "destinations": [
+        {
+          "label": "Our story",
+          "hash": "#our-story"
+        },
+        {
+          "label": "Collective",
+          "hash": "#collective"
+        },
+        {
+          "label": "Workshops",
+          "hash": "#workshops"
+        },
+        {
+          "label": "Programs",
+          "hash": "#programs"
+        },
+        {
+          "label": "Inquiries",
+          "hash": "#inquiries"
+        },
+        {
+          "label": "Join the lab",
+          "hash": "#collective"
+        }
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "type": "navigation",
+      "hash": "#our-story"
+    },
+    {
+      "viewport": "tablet",
+      "type": "feature-interactions",
+      "passed": true
+    },
+    {
+      "viewport": "tablet",
+      "type": "overflow",
+      "passed": true,
+      "overflowing": []
+    },
+    {
+      "viewport": "tablet",
+      "type": "reduced-motion",
+      "videosPaused": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "viewport": "desktop",
+      "url": "http://localhost:4173/motionsites-results/prisma-landing/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://localhost:4173/motionsites-results/prisma-landing/assets/canvas.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://localhost:4173/motionsites-results/prisma-landing/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://localhost:4173/motionsites-results/prisma-landing/assets/canvas.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "viewport": "tablet",
+      "url": "http://localhost:4173/motionsites-results/prisma-landing/assets/hero.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "viewport": "tablet",
+      "url": "http://localhost:4173/motionsites-results/prisma-landing/assets/canvas.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ]
+}

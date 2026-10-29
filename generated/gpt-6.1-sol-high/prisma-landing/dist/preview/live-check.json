@@ -1,0 +1,79 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/prisma-landing/",
+  "checked_at": "2026-10-29T03:45:11.983Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Prisma — Creative Studio",
+      "bodyChars": 1184,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/storyboard.png",
+          "loaded": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/critiques.png",
+          "loaded": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/capsule.png",
+          "loaded": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/canvas.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Prisma — Creative Studio",
+      "bodyChars": 1184,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/storyboard.png",
+          "loaded": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/critiques.png",
+          "loaded": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/capsule.png",
+          "loaded": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/prisma-landing/assets/canvas.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

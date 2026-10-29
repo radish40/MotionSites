@@ -1,0 +1,40 @@
+{
+  "title": "Prisma Creative Studio",
+  "id": "prisma-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "publish_base": "/motionsites-results/prisma-landing/",
+    "browser": "real Chromium via playwright-core",
+    "viewports": [
+      "1440x1000",
+      "390x844",
+      "768x1024"
+    ],
+    "all_navigation_and_cta": "passed at all three viewports",
+    "feature_expansion_and_collapse": "passed for all three controls at all three viewports",
+    "horizontal_overflow": "none at all three viewports",
+    "javascript_errors": 0,
+    "http_errors": 0,
+    "fonts": "Almarai and Instrument Serif loaded at all three viewports",
+    "media": "both supplied videos decoded successfully; all three supplied icons loaded",
+    "reduced_motion": "videos remain paused at all three viewports",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "desktop and mobile full-page screenshots reviewed",
+    "evidence": "browser-report.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for review; not deployed or pushed. Only this project was modified.",
+    "Exact supplied media is bundled locally; Google Fonts remain external with system fallbacks.",
+    "Browser report retains six net::ERR_ABORTED video requests during intentional reduced-motion reloads. Both videos had readyState 4 before reload; there were no HTTP errors or unavailable assets.",
+    "Navigation and Join the lab use in-page anchors; Learn more reveals feature descriptions. No backend or external inquiry destination was specified.",
+    "Checklist and expanded description copy follows the specified topics where no exact wording was provided.",
+    "Full-page screenshots use one-second video frames. The About paragraph opacity responds to scroll.",
+    "Source, lockfile, static dist, screenshots, validation scripts and reports are included. node_modules is excluded through .gitignore."
+  ]
+}

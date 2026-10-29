@@ -1,0 +1,28 @@
+{
+  "title": "Agency Services",
+  "id": "agency-services",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html and bundled assets exist",
+    "base_path": "/motionsites-results/agency-services/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "scroll_animations": "passed; all five rows reveal and remain visible",
+    "reduced_motion": "passed",
+    "horizontal_overflow": "none at both required viewports",
+    "browser_errors": [],
+    "failed_requests": [],
+    "google_font": "Kanit loaded successfully at both viewports",
+    "visual_review": "desktop and mobile full-page screenshots reviewed",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented only PROMPT.md using React, Tailwind CSS, and framer-motion.",
+    "Google Fonts requires network access; the requested links are retained in the HTML head.",
+    "package-lock.json is included; node_modules is excluded from delivery.",
+    "Ready for management-session acceptance; not deployed or pushed."
+  ]
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "layout": {
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "fontLoaded": true,
+      "fontFamily": "Kanit, sans-serif",
+      "headingSize": "160px",
+      "sectionPadding": "128px 40px",
+      "sectionRadius": "60px",
+      "dividerCount": 4
+    },
+    "initialLastOpacity": "0",
+    "scrollRevealPassed": true,
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": {
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "fontLoaded": true,
+      "fontFamily": "Kanit, sans-serif",
+      "headingSize": "48px",
+      "sectionPadding": "80px 20px",
+      "sectionRadius": "40px",
+      "dividerCount": 4
+    },
+    "initialLastOpacity": "0",
+    "scrollRevealPassed": true,
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "reduced-motion",
+    "passed": true
+  }
+]

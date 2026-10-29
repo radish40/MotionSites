@@ -19,6 +19,10 @@ def main():
     now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
     text = f'MotionSites 定时进度 · {now}\n'
     text += f"已完成上线并推送源码：{counts['complete']}/{len(jobs)}\n"
+    batch_limit=manifest.get('current_batch',{}).get('through_number')
+    if batch_limit:
+        batch_done=sum(job['status']=='complete' for job in jobs if job['number']<=batch_limit)
+        text += f'本轮进度：{batch_done}/{batch_limit}；完成前 {batch_limit} 项后暂停，其余保留。\n'
     text += f"生成中：{counts['running']}；排队：{counts['queued']}；验收/发布中：{counts['ready'] + counts['validating'] + counts['publishing']}\n"
     text += f"待修复/阻塞：{counts['needs_fix'] + counts['blocked']}；未开始：{counts['not_started']}\n"
     if active:

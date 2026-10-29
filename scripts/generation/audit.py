@@ -140,9 +140,12 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--require-all',action='store_true',help='Fail unless all 380 designs pass')
     parser.add_argument('--ids',nargs='+',help='Audit only these completed design IDs')
+    parser.add_argument('--through',type=int,help='Require delivery of the first N designs and no work beyond that boundary')
     args=parser.parse_args()
+    if args.through is not None and (not 1<=args.through<=380 or args.ids):
+        parser.error('--through requires 1..380 and cannot be combined with --ids')
     manifest=manage.load(); done=[j for j in manifest['jobs'] if j['status']=='complete']
-    selected=[j for j in done if not args.ids or j['id'] in args.ids]
+    selected=[j for j in done if (not args.ids or j['id'] in args.ids) and (args.through is None or j['number']<=args.through)]
     remote_head=manage.git('ls-remote','origin','refs/heads/main').split()[0]
     ancestors=set(manage.git('rev-list',remote_head).splitlines())
     titles={j['id']:j['title'] for j in json.loads((manage.ROOT/'data/catalog-meta.json').read_text())}
@@ -155,17 +158,23 @@ def main():
         'preview':j['id']+'/preview/desktop.png'} for j in selected)
     full_scope=len(selected)==len(done)==len(manifest['jobs'])==380
     all_selected_pass=bool(proofs) and all(p['passed'] for p in proofs) and len(set(sessions))==len(sessions) and index_matches
+    batch_scope=None
+    if args.through is not None:
+        batch_scope=(all_selected_pass and len(selected)==len(done)==len(cards.cards)==args.through
+            and {j['number'] for j in selected}==set(range(1,args.through+1))
+            and all(j['status']=='not_started' for j in manifest['jobs'] if j['number']>args.through))
     report={'checked_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'total_designs':len(manifest['jobs']),
         'completed_at_snapshot':len(done),'audited_designs':len(proofs),'remote_main':remote_head,
         'unique_design_sessions':len(set(sessions))==len(sessions),'selected_deliveries_pass':all_selected_pass,
         'public_index_matches_names_links_and_previews':index_matches,'public_index_cards':len(cards.cards),
-        'full_scope_achieved':full_scope and all_selected_pass,'deliveries':proofs}
+        'full_scope_achieved':full_scope and all_selected_pass,
+        'requested_batch_limit':args.through,'requested_batch_scope_achieved':batch_scope,'deliveries':proofs}
     output=manage.ROOT/'.work/generation/latest-delivery-audit.json'
     output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='deliveries'},ensure_ascii=False))
     for proof in proofs:
         if not proof['passed']:print(json.dumps(proof,ensure_ascii=False))
-    if not all_selected_pass or args.require_all and not report['full_scope_achieved']:raise SystemExit(1)
+    if not all_selected_pass or args.require_all and not report['full_scope_achieved'] or args.through is not None and not batch_scope:raise SystemExit(1)
 
 
 if __name__=='__main__':main()

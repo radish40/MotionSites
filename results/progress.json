@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-29T06:43:21.524060+00:00",
+  "updated_utc": "2026-10-29T06:44:39.749588+00:00",
   "total": 380,
   "counts": {
-    "complete": 132,
+    "complete": 133,
     "running": 5,
     "needs_fix": 1,
-    "not_started": 242
+    "not_started": 241
   },
   "jobs": [
     {
@@ -1342,11 +1342,11 @@
       "id": "glassmorphic-feature-tabs",
       "title": "Glassmorphic Feature Tabs",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1865f-7fc2-77e0-931f-c66029897e07",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b5fce8ddb459e2ca5b08f2c76a411f70e76bc464",
+      "group_message_id": 186,
+      "url": "https://tool.luo-xd.com/motionsites-results/glassmorphic-feature-tabs/"
     },
     {
       "id": "glitch-pulse",
@@ -1373,7 +1373,7 @@
       "title": "Golden Portal",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18665-b621-7c93-904f-b3fff04971f9",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1383,7 +1383,7 @@
       "title": "Growth Marketing SaaS",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18665-b6d8-7b21-8760-4de42ff07dbb",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1392,7 +1392,7 @@
       "id": "guardnet-benefits",
       "title": "Guardnet Benefits",
       "category": "Benefits",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

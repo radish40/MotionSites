@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:20:11.083165+00:00",
+  "updated_utc": "2026-10-29T04:23:21.000721+00:00",
   "total": 380,
   "counts": {
-    "complete": 30,
+    "complete": 31,
     "running": 5,
-    "not_started": 345
+    "not_started": 344
   },
   "jobs": [
     {
@@ -301,11 +301,11 @@
       "id": "cargo-group",
       "title": "Cargo Group",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185dd-5ac8-7540-8530-9f5387c18034",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "53ecd08ec970e0cbc728826c036d5afd98f02f9c",
+      "group_message_id": 79,
+      "url": "https://tool.luo-xd.com/motionsites-results/cargo-group/"
     },
     {
       "id": "cargox-mobile",
@@ -352,7 +352,7 @@
       "title": "Coffee Rewards",
       "category": "Loyalty",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e2-7ed9-76a0-889e-1d278d6b148c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -361,7 +361,7 @@
       "id": "cosmos-interface",
       "title": "Cosmos Interface",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

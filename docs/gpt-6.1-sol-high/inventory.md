@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 30/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 31/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -114,13 +114,13 @@
 | 27 | `ai-interface` | AI Interface | Landing Page | 2 | 视频 | 已完成 |
 | 28 | `ai-meeting-notes` | AI Meeting Notes | SaaS | 2 | 视频 | 已完成 |
 | 29 | `ai-workflow-agents` | AI Workflow Agents | SaaS | 1 | 视频 | 已完成 |
-| 30 | `cargo-group` | Cargo Group | Hero Section | 2 | 视频 | 生成中 |
+| 30 | `cargo-group` | Cargo Group | Hero Section | 2 | 视频 | 已完成 |
 | 31 | `cargox-mobile` | CARGOX Mobile | Transportation | 2 | 视频 | 已完成 |
 | 32 | `celestial-renewal` | Celestial Renewal | Wellness | 2 | 视频 | 生成中 |
 | 33 | `church-community` | Church Community | Community | 1 | 视频 | 生成中 |
 | 34 | `cleantech` | CleanTech | Sustainability | 2 | 视频 | 生成中 |
 | 35 | `coffee-rewards` | Coffee Rewards | Loyalty | 2 | 视频 | 生成中 |
-| 36 | `cosmos-interface` | Cosmos Interface | Landing Page | 2 | 视频 | 未开始 |
+| 36 | `cosmos-interface` | Cosmos Interface | Landing Page | 2 | 视频 | 生成中 |
 | 37 | `cozypaws` | CozyPaws | Hero Section | 1 | 视频 | 未开始 |
 | 38 | `cross-border` | Cross-Border | Transportation | 2 | 视频 | 未开始 |
 | 39 | `f1-racing-hub` | F1 Racing Hub | Mobile App | 1 | 视频 | 未开始 |

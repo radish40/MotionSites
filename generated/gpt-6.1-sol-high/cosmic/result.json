@@ -1,0 +1,41 @@
+{
+  "title": "Cosmic",
+  "id": "cosmic",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/cosmic:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite production build; dist/index.html exists",
+    "base_path": "/motionsites-results/cosmic/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "video": "actual playback ended; rate 1.56; muted; no loop; headline revealed",
+    "interactions": "desktop links, desktop/mobile clipboard Share, mobile menu enter/exit, close button, navigation dismissal, Escape and focus restoration passed",
+    "fonts": "local Black Mustang and Anton loaded; Inter loaded on desktop and in mobile menu",
+    "overflow": "none at both requested viewports",
+    "script_errors": 0,
+    "failed_requests": 0,
+    "http_errors": 0,
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/mobile-menu.png"],
+    "details": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1781394960/rock_vca457.png",
+      "issue": "HTTP 401: cloud_name dy5er7kv5 is disabled; alternate transformations also unavailable",
+      "resolution": "Bundled transparent rock cutout reconstructed from supplied video's final frame; approximation of original unavailable overlay"
+    },
+    {
+      "asset": "Black Mustang from OnlineWebFonts",
+      "issue": "Original WOFF, WOFF2 and TTF rejected by Chromium: OS/2 version 5 fields missing",
+      "resolution": "Repaired local TTF OS/2 version marker to 4 and recalculated checksums; original glyphs and metrics preserved; browser loading verified"
+    }
+  ],
+  "notes": [
+    "React 18, Tailwind CSS 3, TypeScript, Vite 5 and lucide-react; lockfile included",
+    "Required external font links retained; fonts and supplied video also bundled locally",
+    "Native OS share dialog not automated; clipboard fallback tested",
+    "Single hero only; links use in-hero anchors",
+    "npm reported one moderate and one high advisory in requested build toolchain",
+    "Ready means reviewable static output; not deployed or pushed"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "desktop": {
+    "layout": {
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "documentHeight": 1000,
+      "video": {
+        "ended": true,
+        "playbackRate": 1.56,
+        "loop": false,
+        "muted": true,
+        "duration": 6.041667
+      },
+      "sequence": [
+        "metadata",
+        "ended"
+      ],
+      "starCount": 40,
+      "rockLoaded": true,
+      "fonts": [
+        {
+          "name": "Black Mustang",
+          "loaded": true
+        },
+        {
+          "name": "Anton",
+          "loaded": true
+        },
+        {
+          "name": "Inter",
+          "loaded": true
+        }
+      ],
+      "headlineRevealed": true,
+      "circles": 2
+    },
+    "interactions": [
+      "Share copies current URL",
+      "All three navigation anchors work"
+    ]
+  },
+  "mobile": {
+    "layout": {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "video": {
+        "ended": true,
+        "playbackRate": 1.56,
+        "loop": false,
+        "muted": true,
+        "duration": 6.041667
+      },
+      "sequence": [
+        "metadata",
+        "ended"
+      ],
+      "starCount": 40,
+      "rockLoaded": true,
+      "fonts": [
+        {
+          "name": "Black Mustang",
+          "loaded": true
+        },
+        {
+          "name": "Anton",
+          "loaded": true
+        },
+        {
+          "name": "Inter",
+          "loaded": false
+        }
+      ],
+      "headlineRevealed": true,
+      "circles": 2
+    },
+    "menuInterLoaded": true,
+    "interactions": [
+      "Menu entrance",
+      "Close button exit",
+      "Navigation closes menu",
+      "Escape closes and returns focus",
+      "Mobile Share copies URL"
+    ]
+  },
+  "scriptErrors": [],
+  "failedRequests": [],
+  "httpErrors": []
+}

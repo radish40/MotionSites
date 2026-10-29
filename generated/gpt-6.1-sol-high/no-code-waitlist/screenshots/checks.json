@@ -1,0 +1,35 @@
+{
+  "pageErrors": [],
+  "failedRequests": [],
+  "consoleErrors": [],
+  "desktop": {
+    "width": 1440,
+    "height": 1000,
+    "scrollWidth": 1440,
+    "scrollHeight": 1000,
+    "video": {
+      "readyState": 4,
+      "currentTime": 2.057442,
+      "videoWidth": 514
+    },
+    "fonts": {
+      "inter": true,
+      "serif": true
+    }
+  },
+  "typewriter": "Enter Your Email Here For Early Access",
+  "invalidEmailRejected": true,
+  "submissionConfirmed": "You Will Receive Notifications By Email",
+  "resetsAfterFourSeconds": true,
+  "demoOpens": true,
+  "demoCloses": true,
+  "signUpOpensForm": true,
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "scrollHeight": 844,
+    "navLinksHidden": true
+  },
+  "mobileFormFits": true
+}

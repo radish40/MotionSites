@@ -1,0 +1,59 @@
+{
+  "title": "No-Code Waitlist",
+  "id": "no-code-waitlist",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/no-code-waitlist:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "browser": "Chromium via Playwright",
+    "evidence": "screenshots/checks.json",
+    "pageErrors": [],
+    "failedRequests": [],
+    "consoleErrors": [],
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "video": {
+        "readyState": 4,
+        "currentTime": 2.057442,
+        "videoWidth": 514
+      },
+      "fonts": {
+        "inter": true,
+        "serif": true
+      }
+    },
+    "typewriter": "Enter Your Email Here For Early Access",
+    "invalidEmailRejected": true,
+    "submissionConfirmed": "You Will Receive Notifications By Email",
+    "resetsAfterFourSeconds": true,
+    "demoOpens": true,
+    "demoCloses": true,
+    "signUpOpensForm": true,
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "navLinksHidden": true
+    },
+    "mobileFormFits": true,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for review; not deployed.",
+    "Exact required stack and Mux HLS stream used. Google Fonts loaded successfully.",
+    "Email submit is frontend-only; no mailing service, persistence, or actual notifications.",
+    "Informational navigation dialogs stand in for unspecified product/auth destinations. Demo uses the provided video.",
+    "Native Safari HLS was not tested.",
+    "Vite reports a non-blocking large-chunk warning for hls.js (598.08 kB minified).",
+    "No agents, other sessions, pushes, deployment, or external messages."
+  ]
+}

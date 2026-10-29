@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:06:39.535653+00:00",
+  "updated_utc": "2026-10-29T05:09:13.877433+00:00",
   "total": 380,
   "counts": {
-    "complete": 65,
-    "validating": 1,
+    "complete": 68,
     "running": 5,
-    "not_started": 309
+    "not_started": 307
   },
   "jobs": [
     {
@@ -652,11 +651,11 @@
       "id": "vision-reveal",
       "title": "Vision Reveal",
       "category": "Hero Section",
-      "status": "validating",
+      "status": "complete",
       "thread_id": "01a18607-f3af-70d1-b846-8f2eb9c9759e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f518f7429cda7f5a57f741810626b44fc7e375ae",
+      "group_message_id": 116,
+      "url": "https://tool.luo-xd.com/motionsites-results/vision-reveal/"
     },
     {
       "id": "wellbeing-os",
@@ -672,28 +671,28 @@
       "id": "wellness-companion",
       "title": "Wellness Companion",
       "category": "Wellness",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1860a-1a0a-78e1-b7d8-67490c341108",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6f3e68289026321ea390dc6df1ffb7f665049447",
+      "group_message_id": 117,
+      "url": "https://tool.luo-xd.com/motionsites-results/wellness-companion/"
     },
     {
       "id": "wellness-device",
       "title": "Wellness Devicex",
       "category": "Healthcare",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1860a-1b3f-7eb0-8d07-8731056b5dd5",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b2b1ac107f5c1574f415adf6c8ede689637f6588",
+      "group_message_id": 118,
+      "url": "https://tool.luo-xd.com/motionsites-results/wellness-device/"
     },
     {
       "id": "3d-collectible-hero",
       "title": "3D Collectible Hero",
       "category": "3D Website",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860c-4ffa-75f3-9c5a-5fd76b165db6",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -703,7 +702,7 @@
       "title": "3D Story",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860c-5095-7490-9fac-9f31542f5537",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -713,7 +712,7 @@
       "title": "404 Planet",
       "category": "404 Pages",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860c-5134-7f31-8cd6-790d083aff4c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -722,7 +721,7 @@
       "id": "aerocore",
       "title": "AeroCore",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -732,7 +731,7 @@
       "id": "agency-services",
       "title": "Agency Services",
       "category": "Services",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

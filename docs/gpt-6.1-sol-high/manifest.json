@@ -2213,10 +2213,10 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "validating",
+      "status": "complete",
       "thread_id": "01a18607-f3af-70d1-b846-8f2eb9c9759e",
       "output_path": "generated/gpt-6.1-sol-high/vision-reveal",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "process_id": 2757533,
       "launch_method": "isolated_codex_exec",
@@ -2226,7 +2226,11 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "delivery_failures": 1
+      "delivery_failures": 1,
+      "source_commit": "f518f7429cda7f5a57f741810626b44fc7e375ae",
+      "url": "https://tool.luo-xd.com/motionsites-results/vision-reveal/",
+      "completed_utc": "2026-10-29T05:08:01.461619+00:00",
+      "group_message_id": 116
     },
     {
       "number": 66,
@@ -2278,19 +2282,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1860a-1a0a-78e1-b7d8-67490c341108",
       "output_path": "generated/gpt-6.1-sol-high/wellness-companion",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2766772,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:02:51.293575+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "6f3e68289026321ea390dc6df1ffb7f665049447",
+      "url": "https://tool.luo-xd.com/motionsites-results/wellness-companion/",
+      "completed_utc": "2026-10-29T05:08:31.598341+00:00",
+      "group_message_id": 117
     },
     {
       "number": 68,
@@ -2308,19 +2316,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1860a-1b3f-7eb0-8d07-8731056b5dd5",
       "output_path": "generated/gpt-6.1-sol-high/wellness-device",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2766854,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:02:51.463748+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b2b1ac107f5c1574f415adf6c8ede689637f6588",
+      "url": "https://tool.luo-xd.com/motionsites-results/wellness-device/",
+      "completed_utc": "2026-10-29T05:09:13.664922+00:00",
+      "group_message_id": 118
     },
     {
       "number": 69,
@@ -2339,14 +2351,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860c-4ffa-75f3-9c5a-5fd76b165db6",
       "output_path": "generated/gpt-6.1-sol-high/3d-collectible-hero",
       "validation": "",
       "notes": "",
       "process_id": 2774777,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:05:16.194878+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 70,
@@ -2365,14 +2381,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860c-5095-7490-9fac-9f31542f5537",
       "output_path": "generated/gpt-6.1-sol-high/3d-story",
       "validation": "",
       "notes": "",
       "process_id": 2774812,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:05:16.295528+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 71,
@@ -2391,14 +2411,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1860c-5134-7f31-8cd6-790d083aff4c",
       "output_path": "generated/gpt-6.1-sol-high/404-planet",
       "validation": "",
       "notes": "",
       "process_id": 2774902,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:05:16.418884+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 72,
@@ -2416,11 +2440,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/aerocore",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2785394,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:08:01.836732+00:00",
+      "worker_state": "running"
     },
     {
       "number": 73,
@@ -2438,11 +2466,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/agency-services",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2785435,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:08:01.981922+00:00",
+      "worker_state": "running"
     },
     {
       "number": 74,
@@ -9199,5 +9231,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:06:39.535653+00:00"
+  "updated_utc": "2026-10-29T05:09:13.877433+00:00"
 }

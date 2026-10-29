@@ -150,7 +150,11 @@ def finish(ident):
     except subprocess.CalledProcessError as error:
         job['status']='needs_fix';job['validation']='Live browser check failed; see screenshots/live-check.json';save(manifest)
         print(error.stdout);raise
-    public=output/'dist/preview';public.mkdir(exist_ok=True)
+    dist=output/'dist'
+    if dist.resolve().parent!=output.resolve():raise RuntimeError('Build directory must belong to this design')
+    if any(p.stat().st_uid!=os.getuid() for p in [dist,*dist.rglob('*')]):
+        execute(['sudo','-n','chown','-R','--no-dereference',f'{os.getuid()}:{os.getgid()}',dist])
+    public=dist/'preview';public.mkdir(exist_ok=True)
     for name in ('desktop.png','mobile.png','live-check.json'):shutil.copyfile(report/name,public/name)
     job['status']='publishing';save(manifest)
     # Stage only this finished design. Other workers may still be writing their directories.

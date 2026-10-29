@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:41:56.702557+00:00",
+  "updated_utc": "2026-10-29T04:43:31.841073+00:00",
   "total": 380,
   "counts": {
-    "complete": 46,
+    "complete": 47,
     "running": 5,
-    "not_started": 329
+    "not_started": 328
   },
   "jobs": [
     {
@@ -451,11 +451,11 @@
       "id": "lead-funnel",
       "title": "Lead Funnel",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ef-8375-7ee3-adda-bacbfead3167",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f97afef5de3303262bcd89fb56bc3708b3e1c1e7",
+      "group_message_id": 96,
+      "url": "https://tool.luo-xd.com/motionsites-results/lead-funnel/"
     },
     {
       "id": "luxury-escapes",
@@ -502,7 +502,7 @@
       "title": "Outdoor Apparel",
       "category": "E-commerce",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f5-8b58-72e0-98fc-5a4654703f68",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -512,7 +512,7 @@
       "title": "OYLA",
       "category": "E-commerce",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f5-8bef-7f03-b8a2-8d794c2c2a37",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -521,7 +521,7 @@
       "id": "pet-products",
       "title": "Pet Products",
       "category": "E-commerce",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

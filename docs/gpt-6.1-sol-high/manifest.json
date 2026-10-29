@@ -1521,19 +1521,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ef-8375-7ee3-adda-bacbfead3167",
       "output_path": "generated/gpt-6.1-sol-high/lead-funnel",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2657291,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:33:48.815958+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f97afef5de3303262bcd89fb56bc3708b3e1c1e7",
+      "url": "https://tool.luo-xd.com/motionsites-results/lead-funnel/",
+      "completed_utc": "2026-10-29T04:43:31.679628+00:00",
+      "group_message_id": 96
     },
     {
       "number": 46,
@@ -1680,14 +1684,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f5-8b58-72e0-98fc-5a4654703f68",
       "output_path": "generated/gpt-6.1-sol-high/outdoor-apparel",
       "validation": "",
       "notes": "",
       "process_id": 2680877,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:40:24.071587+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 51,
@@ -1706,14 +1714,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f5-8bef-7f03-b8a2-8d794c2c2a37",
       "output_path": "generated/gpt-6.1-sol-high/oyla",
       "validation": "",
       "notes": "",
       "process_id": 2680931,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:40:24.175915+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 52,
@@ -1731,11 +1743,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/pet-products",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2690010,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:42:54.505933+00:00",
+      "worker_state": "running"
     },
     {
       "number": 53,
@@ -8954,5 +8970,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:41:56.702557+00:00"
+  "updated_utc": "2026-10-29T04:43:31.841073+00:00"
 }

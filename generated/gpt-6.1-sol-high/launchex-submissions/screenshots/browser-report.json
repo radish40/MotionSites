@@ -1,0 +1,333 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "mediaAborts": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "breakpoint",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "tablet",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "tablet",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "background": "rgb(240, 240, 240)",
+      "sectionHeight": 1000,
+      "columns": {
+        "left": {
+          "x": 208,
+          "y": 344.5,
+          "width": 234,
+          "height": 455
+        },
+        "center": {
+          "x": 490,
+          "y": 200.5,
+          "width": 460,
+          "height": 599
+        },
+        "right": {
+          "x": 998,
+          "y": 344.5,
+          "width": 234,
+          "height": 455
+        }
+      },
+      "video": {
+        "x": 490,
+        "y": 339.5,
+        "width": 460,
+        "height": 460,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "controls": false,
+        "readyState": 4,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+        "fallback": false
+      },
+      "links": [
+        {
+          "text": "LeadAI venture for commerce",
+          "href": "#"
+        },
+        {
+          "text": "Emerging innovationsin food commerce",
+          "href": "#"
+        },
+        {
+          "text": "The finest innovationsfor learners and young students",
+          "href": "#"
+        },
+        {
+          "text": "Innovations for advancedcareer training",
+          "href": "#"
+        },
+        {
+          "text": "The finest innovationsin finance",
+          "href": "#"
+        },
+        {
+          "text": "Categoriescoming soon",
+          "href": "#"
+        }
+      ],
+      "polygons": 6,
+      "fontLoaded": true,
+      "outside": [],
+      "status": "passed"
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "background": "rgb(240, 240, 240)",
+      "sectionHeight": 1120,
+      "columns": {
+        "left": {
+          "x": 24,
+          "y": 456,
+          "width": 342,
+          "height": 272
+        },
+        "center": {
+          "x": 24,
+          "y": 80,
+          "width": 342,
+          "height": 336
+        },
+        "right": {
+          "x": 24,
+          "y": 768,
+          "width": 342,
+          "height": 272
+        }
+      },
+      "video": {
+        "x": 85,
+        "y": 196,
+        "width": 220,
+        "height": 220,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "controls": false,
+        "readyState": 4,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+        "fallback": false
+      },
+      "links": [
+        {
+          "text": "LeadAI venture for commerce",
+          "href": "#"
+        },
+        {
+          "text": "Emerging innovationsin food commerce",
+          "href": "#"
+        },
+        {
+          "text": "The finest innovationsfor learners and young students",
+          "href": "#"
+        },
+        {
+          "text": "Innovations for advancedcareer training",
+          "href": "#"
+        },
+        {
+          "text": "The finest innovationsin finance",
+          "href": "#"
+        },
+        {
+          "text": "Categoriescoming soon",
+          "href": "#"
+        }
+      ],
+      "polygons": 6,
+      "fontLoaded": true,
+      "outside": [],
+      "status": "passed"
+    },
+    {
+      "viewport": "breakpoint",
+      "width": 1024,
+      "height": 1000,
+      "overflow": false,
+      "background": "rgb(240, 240, 240)",
+      "sectionHeight": 1000,
+      "columns": {
+        "left": {
+          "x": 40,
+          "y": 344.5,
+          "width": 194,
+          "height": 455
+        },
+        "center": {
+          "x": 282,
+          "y": 200.5,
+          "width": 460,
+          "height": 599
+        },
+        "right": {
+          "x": 790,
+          "y": 344.5,
+          "width": 194,
+          "height": 455
+        }
+      },
+      "video": {
+        "x": 282,
+        "y": 339.5,
+        "width": 460,
+        "height": 460,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "controls": false,
+        "readyState": 4,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+        "fallback": false
+      },
+      "links": [
+        {
+          "text": "LeadAI venture for commerce",
+          "href": "#"
+        },
+        {
+          "text": "Emerging innovationsin food commerce",
+          "href": "#"
+        },
+        {
+          "text": "The finest innovationsfor learners and young students",
+          "href": "#"
+        },
+        {
+          "text": "Innovations for advancedcareer training",
+          "href": "#"
+        },
+        {
+          "text": "The finest innovationsin finance",
+          "href": "#"
+        },
+        {
+          "text": "Categoriescoming soon",
+          "href": "#"
+        }
+      ],
+      "polygons": 6,
+      "fontLoaded": true,
+      "outside": [],
+      "status": "passed"
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "height": 1000,
+      "overflow": false,
+      "background": "rgb(240, 240, 240)",
+      "sectionHeight": 1367,
+      "columns": {
+        "left": {
+          "x": 40,
+          "y": 671,
+          "width": 688,
+          "height": 272
+        },
+        "center": {
+          "x": 40,
+          "y": 112,
+          "width": 688,
+          "height": 519
+        },
+        "right": {
+          "x": 40,
+          "y": 983,
+          "width": 688,
+          "height": 272
+        }
+      },
+      "video": {
+        "x": 194,
+        "y": 251,
+        "width": 380,
+        "height": 380,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "controls": false,
+        "readyState": 4,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+        "fallback": false
+      },
+      "links": [
+        {
+          "text": "LeadAI venture for commerce",
+          "href": "#"
+        },
+        {
+          "text": "Emerging innovationsin food commerce",
+          "href": "#"
+        },
+        {
+          "text": "The finest innovationsfor learners and young students",
+          "href": "#"
+        },
+        {
+          "text": "Innovations for advancedcareer training",
+          "href": "#"
+        },
+        {
+          "text": "The finest innovationsin finance",
+          "href": "#"
+        },
+        {
+          "text": "Categoriescoming soon",
+          "href": "#"
+        }
+      ],
+      "polygons": 6,
+      "fontLoaded": true,
+      "outside": [],
+      "status": "passed"
+    }
+  ],
+  "localVideoFallback": "passed",
+  "status": "passed"
+}

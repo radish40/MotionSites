@@ -1,0 +1,61 @@
+{
+  "title": "LaunchEx Submissions",
+  "id": "launchex-submissions",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "stack": "React 19 + Tailwind CSS 3 + Vite; no extra UI libraries",
+    "base_path": "/motionsites-results/launchex-submissions/",
+    "browser": "passed",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "status": "passed",
+        "horizontal_overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "status": "passed",
+        "horizontal_overflow": false
+      },
+      {
+        "width": 1024,
+        "height": 1000,
+        "status": "passed",
+        "horizontal_overflow": false
+      },
+      {
+        "width": 768,
+        "height": 1000,
+        "status": "passed",
+        "horizontal_overflow": false
+      }
+    ],
+    "interactions": "passed: hover lift, keyboard focus/Enter, mobile anchor tap",
+    "video": "passed: original URL playback, autoplay/muted/loop/playsInline, no controls, local error fallback",
+    "script_errors": [],
+    "unexpected_failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-full.png"
+    ],
+    "visual_review": "desktop and full mobile screenshots inspected",
+    "dependency_audit": "0 known vulnerabilities",
+    "report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [
+    "TT Firs Neue was not supplied; the exact requested font stack uses locally bundled Inter as its fallback."
+  ],
+  "notes": [
+    "All output is inside this project. No agents, other sessions, deployment, push, or messages to others were used.",
+    "Original specified MP4 is primary; its unchanged local copy is bundled as an error fallback.",
+    "Media range cancellations during screenshot seeking/page closure are retained separately in browser-report.json.",
+    "Screenshot capture pauses at video time 1s after verifying playback; live page autoplays.",
+    "Cards retain href=\"#\" as specified; no added submission workflow.",
+    "ready means ready for management-session acceptance, not deployed."
+  ]
+}

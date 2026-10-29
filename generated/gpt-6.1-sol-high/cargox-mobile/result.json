@@ -1,0 +1,37 @@
+{
+  "title": "CARGOX Mobile",
+  "id": "cargox-mobile",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.cache -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "desktop_1440x1000": "passed; screenshots/desktop.png",
+    "mobile_390x844": "passed; screenshots/mobile.png",
+    "medium_1024x900": "passed; no page overflow",
+    "interactions": [
+      "menu open/close",
+      "menu navigation",
+      "CTA focus and navigation",
+      "required form validation",
+      "local form confirmation",
+      "scroll to top",
+      "mobile CTA navigation"
+    ],
+    "script_errors": [],
+    "assets": "Images loaded, Barlow Condensed 800 loaded, video readyState 4 and playing",
+    "evidence": "screenshots/checks.json",
+    "visual_review": "Desktop and full-page mobile screenshots inspected"
+  },
+  "asset_issues": [
+    "No unavailable source images, video, or font. Chromium emitted net::ERR_ABORTED for video requests during initialization/reload; playback verified successfully.",
+    "Exact CTA SVG path referenced by prompt was absent; shape recreated from its written description."
+  ],
+  "notes": [
+    "Ready for acceptance; not deployed or pushed.",
+    "Static production base: /motionsites-results/cargox-mobile/.",
+    "Supplied media and font stored locally; required Google Fonts import retained.",
+    "Form is a validated local preview; no backend or messages sent.",
+    "Social profile URLs unspecified; buttons link to platform homepages.",
+    "No separate menu pages specified; menu items navigate to Info phone."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "phones": [
+      {
+        "x": 47.28125,
+        "y": 50,
+        "width": 415.140625,
+        "height": 900
+      },
+      {
+        "x": 512.421875,
+        "y": 50,
+        "width": 415.140625,
+        "height": 900
+      },
+      {
+        "x": 977.5625,
+        "y": 50,
+        "width": 415.140625,
+        "height": 900
+      }
+    ],
+    "video": {
+      "ready": 4,
+      "paused": false
+    },
+    "images": true,
+    "font": true
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "zoom": "0.890585",
+    "phones": [
+      {
+        "x": 20,
+        "y": 20,
+        "width": 350,
+        "height": 758.765625
+      },
+      {
+        "x": 20,
+        "y": 828.765625,
+        "width": 350,
+        "height": 758.765625
+      },
+      {
+        "x": 20,
+        "y": 1637.53125,
+        "width": 350,
+        "height": 758.765625
+      }
+    ]
+  },
+  "medium": {
+    "width": 1024,
+    "scrollWidth": 1024
+  },
+  "interactions": [
+    "menu open/close",
+    "menu navigation",
+    "CTA focus and navigation",
+    "required form validation",
+    "local form confirmation",
+    "scroll to top",
+    "mobile CTA navigation"
+  ],
+  "scriptErrors": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/cargox-mobile/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/cargox-mobile/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

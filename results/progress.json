@@ -1,18 +1,18 @@
 {
-  "updated_utc": "2026-10-29T03:42:43.735032+00:00",
+  "updated_utc": "2026-10-29T03:43:38.416917+00:00",
   "total": 380,
   "counts": {
-    "blocked": 1,
-    "complete": 3,
     "running": 5,
-    "not_started": 371
+    "complete": 3,
+    "needs_fix": 3,
+    "not_started": 369
   },
   "jobs": [
     {
       "id": "dreamcore-landing",
       "title": "Dreamcore Landing",
       "category": "Landing Page",
-      "status": "blocked",
+      "status": "running",
       "thread_id": "01a185b7-4752-7d72-9ea3-74c28bf8f52f",
       "source_commit": null,
       "group_message_id": null,
@@ -72,8 +72,8 @@
       "id": "aetheris-voyage-hero",
       "title": "Aetheris Voyage",
       "category": "Hero Section",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a185c0-3881-7910-9647-a8238a2b526b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -82,8 +82,8 @@
       "id": "codercrest-hero",
       "title": "CoderCrest",
       "category": "SaaS",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a185c0-3882-7302-aa68-1afd7e242ecb",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -92,8 +92,8 @@
       "id": "urban-jungle-hero",
       "title": "Urban Jungle",
       "category": "Landing Page",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a185c0-389b-7410-94bb-24f646258581",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -102,7 +102,7 @@
       "id": "reveal-hero",
       "title": "Reveal Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -112,7 +112,7 @@
       "id": "modern-agency",
       "title": "Modern Agency",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

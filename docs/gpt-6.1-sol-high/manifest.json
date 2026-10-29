@@ -23,7 +23,7 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "blocked",
+      "status": "running",
       "thread_id": "01a185b7-4752-7d72-9ea3-74c28bf8f52f",
       "output_path": "generated/gpt-6.1-sol-high/dreamcore-landing",
       "validation": "",
@@ -32,9 +32,9 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "worker_state": "terminal",
-      "process_id": 2477876,
-      "repair_attempts": 1
+      "worker_state": "repairing",
+      "repair_attempts": 1,
+      "repair_queue_receipt": "Queued message 01a185c1-70ed-7703-bbe2-08b7910263e4 for thread 01a185b7-4752-7d72-9ea3-74c28bf8f52f."
     },
     {
       "number": 2,
@@ -204,14 +204,19 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a185c0-3881-7910-9647-a8238a2b526b",
       "output_path": "generated/gpt-6.1-sol-high/aetheris-voyage-hero",
       "validation": "",
-      "notes": "",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 2478003,
       "launch_method": "isolated_codex_exec",
-      "started_utc": "2026-10-29T03:42:09.142867+00:00"
+      "started_utc": "2026-10-29T03:42:09.142867+00:00",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "worker_state": "terminal"
     },
     {
       "number": 8,
@@ -229,14 +234,19 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a185c0-3882-7302-aa68-1afd7e242ecb",
       "output_path": "generated/gpt-6.1-sol-high/codercrest-hero",
       "validation": "",
-      "notes": "",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 2478025,
       "launch_method": "isolated_codex_exec",
-      "started_utc": "2026-10-29T03:42:09.253702+00:00"
+      "started_utc": "2026-10-29T03:42:09.253702+00:00",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "worker_state": "terminal"
     },
     {
       "number": 9,
@@ -254,14 +264,19 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a185c0-389b-7410-94bb-24f646258581",
       "output_path": "generated/gpt-6.1-sol-high/urban-jungle-hero",
       "validation": "",
-      "notes": "",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 2478044,
       "launch_method": "isolated_codex_exec",
-      "started_utc": "2026-10-29T03:42:09.343012+00:00"
+      "started_utc": "2026-10-29T03:42:09.343012+00:00",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "worker_state": "terminal"
     },
     {
       "number": 10,
@@ -279,11 +294,14 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/reveal-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2482649,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:43:38.311620+00:00"
     },
     {
       "number": 11,
@@ -301,11 +319,14 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/modern-agency",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2482704,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:43:38.416841+00:00"
     },
     {
       "number": 12,
@@ -8426,5 +8447,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T03:42:43.735032+00:00"
+  "updated_utc": "2026-10-29T03:43:38.416917+00:00"
 }

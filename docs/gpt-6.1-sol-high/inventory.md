@@ -85,17 +85,17 @@
 
 | 序号 | 设计 ID | 名称 | 分类 | 文本版本数 | 本地预览 | 状态 |
 | ---: | --- | --- | --- | ---: | --- | --- |
-| 1 | `dreamcore-landing` | Dreamcore Landing | Landing Page | 2 | 图片 | 阻塞 |
+| 1 | `dreamcore-landing` | Dreamcore Landing | Landing Page | 2 | 图片 | 生成中 |
 | 2 | `bold-studio` | Bold Studio | Hero Section | 2 | 图片 | 已完成 |
 | 3 | `interactive-discovery` | Interactive Discovery | Hero Section | 2 | 图片 | 已完成 |
 | 4 | `prisma-landing` | Prisma Creative Studio | Landing Page | 1 | 图片 | 生成中 |
 | 5 | `3d-jack-portfolio-hero` | 3D Jack Portfolio | Portfolio | 1 | 视频 | 生成中 |
 | 6 | `art-landing` | Art Landing | Landing Page | 2 | 视频 | 已完成 |
-| 7 | `aetheris-voyage-hero` | Aetheris Voyage | Hero Section | 1 | 图片 | 生成中 |
-| 8 | `codercrest-hero` | CoderCrest | SaaS | 3 | 图片 | 生成中 |
-| 9 | `urban-jungle-hero` | Urban Jungle | Landing Page | 3 | 视频 | 生成中 |
-| 10 | `reveal-hero` | Reveal Hero | Hero Section | 2 | 图片 | 未开始 |
-| 11 | `modern-agency` | Modern Agency | Agency | 2 | 图片 | 未开始 |
+| 7 | `aetheris-voyage-hero` | Aetheris Voyage | Hero Section | 1 | 图片 | 待修复 |
+| 8 | `codercrest-hero` | CoderCrest | SaaS | 3 | 图片 | 待修复 |
+| 9 | `urban-jungle-hero` | Urban Jungle | Landing Page | 3 | 视频 | 待修复 |
+| 10 | `reveal-hero` | Reveal Hero | Hero Section | 2 | 图片 | 生成中 |
+| 11 | `modern-agency` | Modern Agency | Agency | 2 | 图片 | 生成中 |
 | 12 | `liquid-glass-agency` | Liquid Glass Agency | Landing Page | 3 | 视频 | 未开始 |
 | 13 | `luxury-editorial-ecommerce-design` | Luxury Ecommerce Design | Landing Page | 2 | 图片 | 未开始 |
 | 14 | `asme-hero` | Asme | Hero Section | 1 | 视频 | 未开始 |

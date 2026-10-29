@@ -1,0 +1,72 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "font": "Barlow, ui-sans-serif, system-ui, sans-serif",
+      "barlowLoaded": true,
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 740,
+        "top": 0,
+        "right": 1440,
+        "bottom": 740,
+        "left": 0
+      },
+      "images": [
+        {
+          "src": "https://picsum.photos/seed/maranda/100/100",
+          "complete": true,
+          "width": 100
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "font": "Barlow, ui-sans-serif, system-ui, sans-serif",
+      "barlowLoaded": true,
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 674,
+        "top": 0,
+        "right": 390,
+        "bottom": 674,
+        "left": 0
+      },
+      "images": [
+        {
+          "src": "https://picsum.photos/seed/maranda/100/100",
+          "complete": true,
+          "width": 100
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "failedResponses": [],
+  "interactions": [
+    "desktop: Next → John Doe; avatar loaded",
+    "desktop: Next → Sarah Smith; avatar loaded",
+    "desktop: Next → Maranda Walsh; avatar loaded",
+    "desktop: Previous wraps from first to last",
+    "desktop: keyboard activation works",
+    "mobile: Next → John Doe; avatar loaded",
+    "mobile: Next → Sarah Smith; avatar loaded",
+    "mobile: Next → Maranda Walsh; avatar loaded",
+    "mobile: Previous wraps from first to last",
+    "mobile: keyboard activation works"
+  ]
+}

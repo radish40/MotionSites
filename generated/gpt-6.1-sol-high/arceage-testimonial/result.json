@@ -1,0 +1,44 @@
+{
+  "title": "Arceage Testimonial",
+  "id": "arceage-testimonial",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22 in louislam/uptime-kuma:2; full Docker command in README.md)",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/arceage-testimonial/",
+    "desktop": "passed at 1440x1000; screenshot visually inspected",
+    "mobile": "passed at 390x844; screenshot visually inspected",
+    "carousel": [
+      "desktop: Next \u2192 John Doe; avatar loaded",
+      "desktop: Next \u2192 Sarah Smith; avatar loaded",
+      "desktop: Next \u2192 Maranda Walsh; avatar loaded",
+      "desktop: Previous wraps from first to last",
+      "desktop: keyboard activation works",
+      "mobile: Next \u2192 John Doe; avatar loaded",
+      "mobile: Next \u2192 Sarah Smith; avatar loaded",
+      "mobile: Next \u2192 Maranda Walsh; avatar loaded",
+      "mobile: Previous wraps from first to last",
+      "mobile: keyboard activation works"
+    ],
+    "horizontal_overflow": false,
+    "console_errors": [],
+    "runtime_errors": [],
+    "failed_requests": [],
+    "failed_http_responses": [],
+    "evidence": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/checks.json",
+      "build.log"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented only this design with React 19, Tailwind CSS v4, Motion, Lucide, and Vite 6.",
+    "Google Fonts Barlow and all three supplied Picsum avatars loaded successfully; external assets require network access.",
+    "Instrument Serif is defined globally and unused as specified.",
+    "Build reports nonfatal Motion use client directive warnings.",
+    "Dependency lockfile, browser check, README, and production dist are included; node_modules excluded.",
+    "Ready for acceptance review; no deployment or push performed."
+  ]
+}

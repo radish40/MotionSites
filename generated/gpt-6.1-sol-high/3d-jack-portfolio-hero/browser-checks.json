@@ -1,0 +1,182 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "title": "Jack -- 3D Creator",
+    "hero": "Hi, i'm jack",
+    "font": true,
+    "aboutNavigation": {
+      "hash": "#about",
+      "top": 20
+    },
+    "navChecks": [
+      {
+        "label": "Price",
+        "expected": "#services",
+        "actual": "#services"
+      },
+      {
+        "label": "Projects",
+        "expected": "#projects",
+        "actual": "#projects"
+      }
+    ],
+    "marquee": {
+      "before": [
+        "matrix(1, 0, 0, 1, 62.8, 0)",
+        "matrix(1, 0, 0, 1, -62.8, 0)"
+      ],
+      "after": [
+        "matrix(1, 0, 0, 1, 92.8, 0)",
+        "matrix(1, 0, 0, 1, -92.8, 0)"
+      ]
+    },
+    "magnetMoved": true,
+    "contact": "mailto:?subject=Let%E2%80%99s%20build%20something%20incredible%20together",
+    "liveProjectPreviewOpened": true,
+    "previewResponses": [
+      {
+        "asset": 28,
+        "status": 200
+      },
+      {
+        "asset": 31,
+        "status": 200
+      },
+      {
+        "asset": 34,
+        "status": 200
+      }
+    ],
+    "scrollChecks": [
+      {
+        "section": ".marquee",
+        "scrollY": 976,
+        "overflow": false,
+        "brokenImages": []
+      },
+      {
+        "section": "#about",
+        "scrollY": 1732,
+        "overflow": false,
+        "brokenImages": []
+      },
+      {
+        "section": "#services",
+        "scrollY": 3099,
+        "overflow": false,
+        "brokenImages": []
+      },
+      {
+        "section": "#projects",
+        "scrollY": 5414,
+        "overflow": false,
+        "brokenImages": []
+      }
+    ],
+    "stacking": {
+      "before": {
+        "top": 128,
+        "transform": "matrix(0.970296, 0, 0, 0.970296, 0, 0)"
+      },
+      "after": {
+        "top": 128,
+        "transform": "matrix(0.954039, 0, 0, 0.954039, 0, 0)"
+      }
+    },
+    "errors": [],
+    "failedRequests": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "title": "Jack -- 3D Creator",
+    "hero": "Hi, i'm jack",
+    "font": true,
+    "aboutNavigation": {
+      "hash": "#about",
+      "top": 20
+    },
+    "navChecks": [
+      {
+        "label": "Price",
+        "expected": "#services",
+        "actual": "#services"
+      },
+      {
+        "label": "Projects",
+        "expected": "#projects",
+        "actual": "#projects"
+      }
+    ],
+    "marquee": {
+      "before": [
+        "matrix(1, 0, 0, 1, 29.8, 0)",
+        "matrix(1, 0, 0, 1, -29.8, 0)"
+      ],
+      "after": [
+        "matrix(1, 0, 0, 1, 59.8, 0)",
+        "matrix(1, 0, 0, 1, -59.8, 0)"
+      ]
+    },
+    "magnetMoved": "touch disabled",
+    "contact": "mailto:?subject=Let%E2%80%99s%20build%20something%20incredible%20together",
+    "liveProjectPreviewOpened": true,
+    "previewResponses": [
+      {
+        "asset": 28,
+        "status": 200
+      },
+      {
+        "asset": 31,
+        "status": 200
+      },
+      {
+        "asset": 34,
+        "status": 200
+      }
+    ],
+    "scrollChecks": [
+      {
+        "section": ".marquee",
+        "scrollY": 844,
+        "overflow": false,
+        "brokenImages": []
+      },
+      {
+        "section": "#about",
+        "scrollY": 1512,
+        "overflow": false,
+        "brokenImages": []
+      },
+      {
+        "section": "#services",
+        "scrollY": 2636,
+        "overflow": false,
+        "brokenImages": []
+      },
+      {
+        "section": "#projects",
+        "scrollY": 4384,
+        "overflow": false,
+        "brokenImages": []
+      }
+    ],
+    "stacking": {
+      "before": {
+        "top": 96,
+        "transform": "matrix(0.97038, 0, 0, 0.97038, 0, 0)"
+      },
+      "after": {
+        "top": 96,
+        "transform": "matrix(0.949494, 0, 0, 0.949494, 0, 0)"
+      }
+    },
+    "errors": [],
+    "failedRequests": []
+  }
+}

@@ -1,0 +1,4 @@
+const http=require('http'),fs=require('fs'),path=require('path');
+const root='/work/dist',base='/motionsites-results/3d-jack-portfolio-hero/';
+const mime={'.html':'text/html','.js':'text/javascript','.css':'text/css','.gif':'image/gif','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.ttf':'font/ttf'};
+http.createServer((req,res)=>{let u=decodeURIComponent(req.url.split('?')[0]);if(u==='/'||u===base.slice(0,-1)){res.writeHead(302,{Location:base});return res.end()}if(!u.startsWith(base)){res.writeHead(404);return res.end()}let file=path.join(root,u.slice(base.length)||'index.html');if(!file.startsWith(root)){res.writeHead(403);return res.end()}fs.readFile(file,(err,data)=>{if(err){res.writeHead(404);return res.end()}res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'});res.end(data)})}).listen(4173,'0.0.0.0');

@@ -1,0 +1,56 @@
+{
+  "title": "3D Jack Portfolio",
+  "id": "3d-jack-portfolio-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm run build'",
+  "checks": {
+    "production_build": {
+      "status": "passed",
+      "details": "TypeScript and Vite production build completed; dist/index.html exists.",
+      "evidence": "build.log"
+    },
+    "publish_base": "/motionsites-results/3d-jack-portfolio-hero/",
+    "browser": {
+      "status": "passed",
+      "engine": "Chromium via playwright-core",
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "navigation": "About, Price to Services, Projects passed",
+      "magnet": "Desktop pointer movement verified",
+      "marquee": "Opposite translations measured on scroll",
+      "project_stacking": "Sticky top and decreasing scale measured at both viewports",
+      "project_previews": "First preview opened through its link; all three preview assets returned HTTP 200",
+      "contact": "mailto composer link verified; recipient intentionally blank",
+      "font": "Local Kanit loaded",
+      "console_errors": 0,
+      "failed_requests": 0,
+      "horizontal_overflow": false,
+      "broken_rendered_images": 0,
+      "evidence": "browser-checks.json"
+    },
+    "screenshots": {
+      "desktop": "screenshots/desktop.png",
+      "mobile": "screenshots/mobile.png",
+      "dimensions_verified": true,
+      "additional_sections": "About, Services, and Projects screenshots at both viewports"
+    },
+    "dependency_lockfile": "package-lock.json"
+  },
+  "asset_issues": [
+    {
+      "url": "https://motionsites.ai/assets/hero-celestia-preview-0yO3jXO8.gif",
+      "issue": "HTTP 404 on exact supplied URL",
+      "resolution": "Preserved tile position with a local SVG labeled Celestia / Preview unavailable. All other 20 original animated GIFs saved locally."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Only this project was implemented. All artifacts are in this directory; no sub-agents or additional agent sessions used.",
+    "Prompt supplies no contact address or live-project website URLs. Contact opens an unaddressed email composer; project buttons open the supplied full-size artwork previews.",
+    "Price navigation targets Services because no separate pricing section or prices were specified.",
+    "Original GIFs retained; production directory is approximately 175 MB.",
+    "README.md contains run instructions, validation evidence, and limitations."
+  ]
+}

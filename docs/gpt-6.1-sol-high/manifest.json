@@ -382,10 +382,10 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a185c2-c909-7c61-b93c-abb77538fc0d",
       "output_path": "generated/gpt-6.1-sol-high/liquid-glass-agency",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2485509,
       "launch_method": "isolated_codex_exec",
@@ -394,7 +394,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "ab75b8dc184911ee25ef6fafaaf12c0c2a9aab61",
+      "url": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/",
+      "completed_utc": "2026-10-29T03:56:13.703215+00:00",
+      "group_message_id": 59
     },
     {
       "number": 13,
@@ -8533,5 +8537,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T03:55:34.761466+00:00"
+  "updated_utc": "2026-10-29T03:56:13.869210+00:00"
 }

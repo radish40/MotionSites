@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T05:55:19.286387+00:00",
+  "updated_utc": "2026-10-29T05:57:19.676150+00:00",
   "total": 380,
   "counts": {
-    "complete": 102,
-    "running": 4,
-    "not_started": 274
+    "complete": 104,
+    "running": 5,
+    "ready": 1,
+    "not_started": 270
   },
   "jobs": [
     {
@@ -1031,28 +1032,28 @@
       "id": "contact-cybernetic",
       "title": "Contact Cybernetic",
       "category": "Hero Section",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a18636-0806-71d0-b25d-7dc35629934d",
+      "source_commit": "a0eee250d549b209684d9853cef06799fd14bfda",
+      "group_message_id": 154,
+      "url": "https://tool.luo-xd.com/motionsites-results/contact-cybernetic/"
     },
     {
       "id": "conversion",
       "title": "Conversion",
       "category": "Hero Section",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a18636-088b-75d1-9a9c-88cd0dca6676",
+      "source_commit": "87040676e0ddb3ca578517a1b5f06dd24e14c35b",
+      "group_message_id": 155,
+      "url": "https://tool.luo-xd.com/motionsites-results/conversion/"
     },
     {
       "id": "cosmic",
       "title": "Cosmic",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18636-0906-7541-9bad-3c8d89eee19f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1061,8 +1062,8 @@
       "id": "creative-agency",
       "title": "Creative Agency",
       "category": "Landing Page",
-      "status": "running",
-      "thread_id": "",
+      "status": "ready",
+      "thread_id": "01a18636-09ae-75d2-8571-23e88368efca",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1071,7 +1072,7 @@
       "id": "creative-portfolio",
       "title": "Creative Portfolio",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1081,7 +1082,7 @@
       "id": "creative-studio",
       "title": "Creative Studio",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1091,7 +1092,7 @@
       "id": "cursor-follow",
       "title": "Cursor Follow",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1101,7 +1102,7 @@
       "id": "cyberpunk-reveal",
       "title": "Cyberpunk Reveal",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

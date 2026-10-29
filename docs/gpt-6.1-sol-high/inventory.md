@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 102/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 104/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -187,14 +187,14 @@
 | 100 | `cinematic-landing-page` | Cinematic Landing Page | Landing Page | 2 | 图片 | 已完成 |
 | 101 | `cognitra-feature` | Cognitra Feature | Features Section | 2 | 图片 | 已完成 |
 | 102 | `cognitra-offer` | Cognitra Offer | Cards | 2 | 图片 | 已完成 |
-| 103 | `contact-cybernetic` | Contact Cybernetic | Hero Section | 2 | 图片 | 生成中 |
-| 104 | `conversion` | Conversion | Hero Section | 1 | 图片 | 生成中 |
+| 103 | `contact-cybernetic` | Contact Cybernetic | Hero Section | 2 | 图片 | 已完成 |
+| 104 | `conversion` | Conversion | Hero Section | 1 | 图片 | 已完成 |
 | 105 | `cosmic` | Cosmic | Hero Section | 2 | 图片 | 生成中 |
-| 106 | `creative-agency` | Creative Agency | Landing Page | 2 | 图片 | 生成中 |
-| 107 | `creative-portfolio` | Creative Portfolio | Hero Section | 2 | 图片 | 未开始 |
-| 108 | `creative-studio` | Creative Studio | Agency | 2 | 图片 | 未开始 |
-| 109 | `cursor-follow` | Cursor Follow | Hero Section | 2 | 图片 | 未开始 |
-| 110 | `cyberpunk-reveal` | Cyberpunk Reveal | Hero Section | 2 | 图片 | 未开始 |
+| 106 | `creative-agency` | Creative Agency | Landing Page | 2 | 图片 | 待验收 |
+| 107 | `creative-portfolio` | Creative Portfolio | Hero Section | 2 | 图片 | 生成中 |
+| 108 | `creative-studio` | Creative Studio | Agency | 2 | 图片 | 生成中 |
+| 109 | `cursor-follow` | Cursor Follow | Hero Section | 2 | 图片 | 生成中 |
+| 110 | `cyberpunk-reveal` | Cyberpunk Reveal | Hero Section | 2 | 图片 | 生成中 |
 | 111 | `cybersecurity-hero` | Cybersecurity Hero | Hero Section | 2 | 图片 | 未开始 |
 | 112 | `cybersecurity-hero-v2` | Cybersecurity Hero v2 | Hero Section | 2 | 图片 | 未开始 |
 | 113 | `daisy-sweet` | Daisy Sweet | Products | 2 | 图片 | 未开始 |

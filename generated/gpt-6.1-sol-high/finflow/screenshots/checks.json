@@ -1,0 +1,168 @@
+{
+  "pageErrors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "failedRequests": [],
+  "responses": [
+    {
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/shopify.svg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/applepay.svg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visa.svg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/stripe.svg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/paypal.svg",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mastercard.svg",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260602_132418_e0e79d08-5d1f-42d9-b8ae-8dd69217aacf.mp4",
+      "status": 206
+    }
+  ],
+  "viewports": {
+    "320": {
+      "width": 320,
+      "scrollWidth": 320
+    },
+    "640": {
+      "width": 640,
+      "scrollWidth": 640
+    },
+    "768": {
+      "width": 768,
+      "scrollWidth": 768
+    },
+    "1024": {
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "heading": "Discover a faster path to financial flow",
+      "headingBounds": {
+        "x": 320,
+        "y": 175,
+        "width": 800,
+        "height": 132,
+        "top": 175,
+        "right": 1120,
+        "bottom": 307,
+        "left": 320
+      },
+      "logos": [
+        {
+          "alt": "Shopify",
+          "loaded": true
+        },
+        {
+          "alt": "Stripe",
+          "loaded": true
+        },
+        {
+          "alt": "Visa",
+          "loaded": true
+        },
+        {
+          "alt": "Apple Pay",
+          "loaded": true
+        },
+        {
+          "alt": "Mastercard",
+          "loaded": true
+        },
+        {
+          "alt": "PayPal",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "error": null,
+        "paused": false,
+        "currentTime": 3.207659,
+        "width": 3828,
+        "filter": "saturate(0)"
+      },
+      "declaredFont": "\"ITC Avant Garde Gothic W02 Bk\", sans-serif",
+      "loadedFontFaces": 0
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "heading": "Discover a faster path to financial flow",
+      "headingBounds": {
+        "x": 16,
+        "y": 115.453125,
+        "width": 358,
+        "height": 61.59375,
+        "top": 115.453125,
+        "right": 374,
+        "bottom": 177.046875,
+        "left": 16
+      },
+      "logos": [
+        {
+          "alt": "Shopify",
+          "loaded": true
+        },
+        {
+          "alt": "Stripe",
+          "loaded": true
+        },
+        {
+          "alt": "Visa",
+          "loaded": true
+        },
+        {
+          "alt": "Apple Pay",
+          "loaded": true
+        },
+        {
+          "alt": "Mastercard",
+          "loaded": true
+        },
+        {
+          "alt": "PayPal",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "error": null,
+        "paused": true,
+        "currentTime": 2,
+        "width": 3828,
+        "filter": "saturate(0)"
+      },
+      "declaredFont": "\"ITC Avant Garde Gothic W02 Bk\", sans-serif",
+      "loadedFontFaces": 0
+    }
+  },
+  "interactions": {
+    "desktopButtons": "All four buttons accept clicks. No destinations or further actions were specified; buttons are presentation-only.",
+    "mobileMenuOpens": true,
+    "mobileLinkCount": 4,
+    "mobileAuthCount": 2,
+    "mobileMenuCloses": true
+  }
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "name": "desktop",
+    "playback": {
+      "before": 0.000316,
+      "after": 0.709646,
+      "duration": 4.532,
+      "width": 640,
+      "height": 478,
+      "paused": false,
+      "frameDifference": 4.769947916666666
+    },
+    "loopPlayback": {
+      "timeAfterLoop": 0.500571,
+      "paused": false,
+      "ended": false
+    },
+    "layout": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "documentWidth": 1440,
+      "documentHeight": 1000,
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000,
+        "bottom": 1000
+      },
+      "headline": {
+        "x": 421.96875,
+        "y": 313.09375,
+        "width": 596.046875,
+        "height": 373.8125,
+        "bottom": 686.90625
+      },
+      "subtext": {
+        "x": 550,
+        "y": 918.40625,
+        "width": 340,
+        "height": 41.59375,
+        "bottom": 960
+      },
+      "headlineText": "What stands the\ntest of time is all\nthat guides the\nwork.",
+      "headlineFontSize": "79.2px",
+      "fonts": [
+        {
+          "family": "Zimula Trial Med",
+          "status": "loaded"
+        },
+        {
+          "family": "Zimula Trial Bd",
+          "status": "loaded"
+        },
+        {
+          "family": "Zimula Trial Reg",
+          "status": "loaded"
+        }
+      ],
+      "fontLoaded": true,
+      "componentClassCount": 0,
+      "video": {
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "readyState": 4,
+        "error": null
+      },
+      "animationCount": 0,
+      "interactiveElements": 0
+    },
+    "scriptErrors": [],
+    "consoleErrors": [],
+    "failedRequests": [],
+    "assetResponses": [
+      {
+        "url": "https://db.onlinewebfonts.com/c/076f8c5b3b67616658dd1e4e9bac62ec?family=Zimula+Trial+Med",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/c/08d8ca53f66ab5b48659912fa0136b78?family=Zimula+Trial+Bd",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/c/46024824a3dd3309c3a7f46f4f1283ba?family=Zimula+Trial+Reg",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/t/076f8c5b3b67616658dd1e4e9bac62ec.woff",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/t/08d8ca53f66ab5b48659912fa0136b78.woff",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/t/46024824a3dd3309c3a7f46f4f1283ba.woff",
+        "status": 200
+      }
+    ],
+    "checks": "Layout, exact text, inline styles, static composition, video decoding and moving frames, no console errors, scroll and screenshots passed. No controls are specified."
+  },
+  {
+    "name": "mobile",
+    "playback": {
+      "before": 0.000347,
+      "after": 0.709553,
+      "duration": 4.532,
+      "width": 640,
+      "height": 478,
+      "paused": false,
+      "frameDifference": 4.7635546875
+    },
+    "loopPlayback": {
+      "timeAfterLoop": 0.500601,
+      "paused": false,
+      "ended": false
+    },
+    "layout": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "headline": {
+        "x": 74.5625,
+        "y": 346.5,
+        "width": 240.875,
+        "height": 151,
+        "bottom": 497.5
+      },
+      "subtext": {
+        "x": 25,
+        "y": 775.0625,
+        "width": 340,
+        "height": 35.1875,
+        "bottom": 810.25
+      },
+      "headlineText": "What stands the\ntest of time is all\nthat guides the\nwork.",
+      "headlineFontSize": "32px",
+      "fonts": [
+        {
+          "family": "Zimula Trial Med",
+          "status": "loaded"
+        },
+        {
+          "family": "Zimula Trial Bd",
+          "status": "loaded"
+        },
+        {
+          "family": "Zimula Trial Reg",
+          "status": "loaded"
+        }
+      ],
+      "fontLoaded": true,
+      "componentClassCount": 0,
+      "video": {
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "readyState": 4,
+        "error": null
+      },
+      "animationCount": 0,
+      "interactiveElements": 0
+    },
+    "scriptErrors": [],
+    "consoleErrors": [],
+    "failedRequests": [],
+    "assetResponses": [
+      {
+        "url": "https://db.onlinewebfonts.com/c/076f8c5b3b67616658dd1e4e9bac62ec?family=Zimula+Trial+Med",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/c/46024824a3dd3309c3a7f46f4f1283ba?family=Zimula+Trial+Reg",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/c/08d8ca53f66ab5b48659912fa0136b78?family=Zimula+Trial+Bd",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/t/076f8c5b3b67616658dd1e4e9bac62ec.woff",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/t/08d8ca53f66ab5b48659912fa0136b78.woff",
+        "status": 200
+      },
+      {
+        "url": "https://db.onlinewebfonts.com/t/46024824a3dd3309c3a7f46f4f1283ba.woff",
+        "status": 200
+      }
+    ],
+    "checks": "Layout, exact text, inline styles, static composition, video decoding and moving frames, no console errors, scroll and screenshots passed. No controls are specified."
+  }
+]

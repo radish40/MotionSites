@@ -1,0 +1,83 @@
+{
+  "title": "Botanical Shadow About",
+  "id": "botanical-shadow-about",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html and local WebM exist",
+    "publication_base": "/motionsites-results/botanical-shadow-about/",
+    "desktop": {
+      "viewport": "1440x1000",
+      "status": "passed",
+      "screenshot": "screenshots/desktop.png",
+      "playback": {
+        "before": 0.000316,
+        "after": 0.709646,
+        "duration": 4.532,
+        "width": 640,
+        "height": 478,
+        "paused": false,
+        "frameDifference": 4.769947916666666
+      },
+      "loop": {
+        "timeAfterLoop": 0.500571,
+        "paused": false,
+        "ended": false
+      }
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "status": "passed",
+      "screenshot": "screenshots/mobile.png",
+      "playback": {
+        "before": 0.000347,
+        "after": 0.709553,
+        "duration": 4.532,
+        "width": 640,
+        "height": 478,
+        "paused": false,
+        "frameDifference": 4.7635546875
+      },
+      "loop": {
+        "timeAfterLoop": 0.500601,
+        "paused": false,
+        "ended": false
+      }
+    },
+    "console_errors": 0,
+    "uncaught_javascript_errors": 0,
+    "failed_requests": 0,
+    "overflow": "none in both viewports",
+    "fonts": "All three exact font stylesheets and font families loaded",
+    "video": "Local VP9 WebM decoded at 640x478, currentTime advances, pixels change and end-to-start loop continues at both viewports",
+    "composition": "Prompt layout, inline styles, overlay, copy and fonts retained; no component CSS classes, CSS animations, scroll listeners or parallax",
+    "interactions": "Scroll checked; no controls specified",
+    "visual_inspection": "Recovered contact sheet and desktop/mobile screenshots inspected; botanical treatment present without duplicate text, divider, pin or corners",
+    "report": "screenshots/browser-checks.json",
+    "build_log": "screenshots/final-verification.log"
+  },
+  "asset_issues": [
+    {
+      "asset": "original Cloudinary video",
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779835701/bg-2-video_sgbpqt.mp4",
+      "original_status": 401,
+      "reason": "Cloudinary account disabled; original binary unavailable",
+      "recovery_status": "functional local fallback bundled",
+      "fallback": "public/assets/botanical-shadow-recovered.webm",
+      "provenance": "recovery/provenance.json",
+      "source_reference": "recovery/original-preview.webp",
+      "method": "All 68 moving reference frames; temporal ink mask, per-frame spatial inpainting of text/line/icon/corners, inverse 38% warm overlay, VP9 encoding retaining frame timestamps and 4.532-second loop",
+      "limitation": "Lossy reconstruction from this design’s compressed animated preview, not the original MP4. Hidden background is interpolated; source resolution and compression remain.",
+      "runtime": "Known-disabled original URL preserved in component data-original-src and provenance; bundled local video selected directly to avoid a guaranteed 401 console error"
+    }
+  ],
+  "notes": [
+    "Ready for management acceptance; not deployed.",
+    "Scoped recovery complete. Original PROMPT.md unchanged.",
+    "React + TypeScript + Vite + Tailwind CSS; inline component styling preserved.",
+    "Recovery script and pinned Python requirements included, along with reference binary, mask, contact sheet, provenance hashes and final local video.",
+    "No other designs, agents, new sessions, deployments, pushes or messages to others.",
+    "All writes stayed inside this project. Only the explicitly authorized external repair request and recovery reference directory were read.",
+    "node_modules, local recovery venv and wheel downloads removed after verification; intermediates are ignored."
+  ]
+}

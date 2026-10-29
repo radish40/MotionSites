@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.recovery-venv/
+recovery/frames/
+recovery/*.mp4
+recovery/concat.txt
+__pycache__/
+.recovery-wheels/

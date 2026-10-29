@@ -1,0 +1,32 @@
+{
+  "title": "Orbis CTA",
+  "id": "orbis-cta",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.npm-home -e npm_config_cache=/work/.npm-cache -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "publish_base": "/motionsites-results/orbis-cta/",
+    "browser": "Playwright with Chromium against production build",
+    "desktop": "1440x1000 passed; screenshots/desktop.png",
+    "mobile": "390x844 passed; screenshots/mobile.png",
+    "video": "original 1784x1160 video; advancing muted autoplay and loop verified; section height equals natural video height",
+    "fonts": "Anton and Condiment loaded",
+    "interactions": "three social buttons: hover color, clicks, keyboard Tab order and focus verified",
+    "overflow": "none horizontally at either required viewport",
+    "script_errors": 0,
+    "console_errors": 0,
+    "local_fallback": "video and fonts load with their remote hosts blocked",
+    "visual_review": "desktop and mobile screenshots inspected",
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact React/Tailwind layout and original assets; no preview screenshot used as page content.",
+    "Original video URL and Google Fonts links retained; local unchanged assets included for fallback.",
+    "Mobile section intentionally follows the video's natural aspect ratio; no fixed viewport height added.",
+    "Social destinations were not specified; buttons implement only the requested visual feedback.",
+    "Initial npm audit reported 1 moderate and 2 high dependency advisories; no forced migration applied.",
+    "Chromium verified; Safari and Firefox were not tested.",
+    "Ready for acceptance review, not deployed. No agents, other designs, pushes, or messages used."
+  ]
+}

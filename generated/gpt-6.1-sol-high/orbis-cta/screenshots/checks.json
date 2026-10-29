@@ -1,0 +1,70 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sectionHeight": 936.3125,
+        "videoHeight": 936.3125,
+        "videoWidth": 1784,
+        "videoNaturalHeight": 1160,
+        "headingFont": "Anton, sans-serif",
+        "headingSize": "60px",
+        "videoPosition": "static",
+        "muted": true,
+        "loop": true,
+        "fonts": [
+          true,
+          true
+        ]
+      },
+      "hover": {
+        "before": "rgba(0, 0, 0, 0)",
+        "after": "rgba(255, 255, 255, 0.1)"
+      },
+      "buttons": "click and keyboard focus passed; destinations unspecified by design",
+      "scriptErrors": [],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "sectionHeight": 253.578125,
+        "videoHeight": 253.578125,
+        "videoWidth": 1784,
+        "videoNaturalHeight": 1160,
+        "headingFont": "Anton, sans-serif",
+        "headingSize": "16px",
+        "videoPosition": "static",
+        "muted": true,
+        "loop": true,
+        "fonts": [
+          true,
+          true
+        ]
+      },
+      "hover": {
+        "before": "rgba(0, 0, 0, 0)",
+        "after": "rgba(255, 255, 255, 0.1)"
+      },
+      "buttons": "click and keyboard focus passed; destinations unspecified by design",
+      "scriptErrors": [],
+      "consoleErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "fallback": {
+    "passed": true,
+    "localFontsLoaded": true,
+    "src": "http://localhost:4173/motionsites-results/orbis-cta/assets/orbis.mp4",
+    "readyState": 4
+  }
+}

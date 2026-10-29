@@ -1,0 +1,35 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/cybersecurity-hero-v2/",
+  "checked_at": "2026-10-29T06:06:13.556Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Xero — The simple way to encrypt your data",
+      "bodyChars": 215,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Xero — The simple way to encrypt your data",
+      "bodyChars": 215,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

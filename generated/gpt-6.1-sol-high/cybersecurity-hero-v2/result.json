@@ -1,0 +1,114 @@
+{
+  "title": "Cybersecurity Hero v2",
+  "id": "cybersecurity-hero-v2",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/cybersecurity-hero-v2/",
+    "browser": "Chromium through playwright-core, against the production build",
+    "desktop_viewport": "1440x1000",
+    "mobile_viewport": "390x844",
+    "browser_checks": [
+      {
+        "name": "Desktop heading",
+        "passed": true
+      },
+      {
+        "name": "Desktop overflow",
+        "passed": true
+      },
+      {
+        "name": "Shader canvas",
+        "passed": true
+      },
+      {
+        "name": "Inter font loaded",
+        "passed": true
+      },
+      {
+        "name": "Beam animates",
+        "passed": true
+      },
+      {
+        "name": "Method opens preview",
+        "passed": true
+      },
+      {
+        "name": "Pricing opens preview",
+        "passed": true
+      },
+      {
+        "name": "Docs opens preview",
+        "passed": true
+      },
+      {
+        "name": "Login opens preview",
+        "passed": true
+      },
+      {
+        "name": "Sign Up opens preview",
+        "passed": true
+      },
+      {
+        "name": "Get Started opens preview",
+        "passed": true
+      },
+      {
+        "name": "Mobile overflow",
+        "passed": true
+      },
+      {
+        "name": "Mobile menu opens",
+        "passed": true
+      },
+      {
+        "name": "Mobile navigation closes menu and opens content",
+        "passed": true
+      },
+      {
+        "name": "Escape closes menu",
+        "passed": true
+      },
+      {
+        "name": "Reduced motion hides animated shader",
+        "passed": true
+      },
+      {
+        "name": "Overflow at 320",
+        "passed": true
+      },
+      {
+        "name": "Overflow at 768",
+        "passed": true
+      },
+      {
+        "name": "Overflow at 860",
+        "passed": true
+      },
+      {
+        "name": "Overflow at 1920",
+        "passed": true
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "visual_review": "Desktop and mobile screenshots reviewed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "dependency_audit": "2 development-tool findings: moderate esbuild, high Vite; details in dependency-audit.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented with the required React, TypeScript, Vite, Tailwind, shaders/react, lucide-react and Supabase dependencies. Lockfile included.",
+    "Inter loaded from Google Fonts during validation; icons and abstract brand marks are inline SVG.",
+    "Live shader and measured SVG beam animation; responsive menu and reduced-motion treatment included.",
+    "No backend or destination URLs were supplied. Navigation and account/CTA actions open local preview dialogs; no credentials are collected.",
+    "Vite emits a large chunk warning for the shader-containing bundle (1.49 MB, 411 kB gzip).",
+    "Required Vite 5.4 version line retained; npm audit findings documented in README.md.",
+    "Ready means prepared for acceptance review. No deployment, push, agents, or external messages."
+  ]
+}

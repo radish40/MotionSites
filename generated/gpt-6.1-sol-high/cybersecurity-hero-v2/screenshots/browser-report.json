@@ -1,0 +1,87 @@
+{
+  "url": "http://localhost:4173/motionsites-results/cybersecurity-hero-v2/",
+  "errors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "Desktop heading",
+      "passed": true
+    },
+    {
+      "name": "Desktop overflow",
+      "passed": true
+    },
+    {
+      "name": "Shader canvas",
+      "passed": true
+    },
+    {
+      "name": "Inter font loaded",
+      "passed": true
+    },
+    {
+      "name": "Beam animates",
+      "passed": true
+    },
+    {
+      "name": "Method opens preview",
+      "passed": true
+    },
+    {
+      "name": "Pricing opens preview",
+      "passed": true
+    },
+    {
+      "name": "Docs opens preview",
+      "passed": true
+    },
+    {
+      "name": "Login opens preview",
+      "passed": true
+    },
+    {
+      "name": "Sign Up opens preview",
+      "passed": true
+    },
+    {
+      "name": "Get Started opens preview",
+      "passed": true
+    },
+    {
+      "name": "Mobile overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu opens",
+      "passed": true
+    },
+    {
+      "name": "Mobile navigation closes menu and opens content",
+      "passed": true
+    },
+    {
+      "name": "Escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion hides animated shader",
+      "passed": true
+    },
+    {
+      "name": "Overflow at 320",
+      "passed": true
+    },
+    {
+      "name": "Overflow at 768",
+      "passed": true
+    },
+    {
+      "name": "Overflow at 860",
+      "passed": true
+    },
+    {
+      "name": "Overflow at 1920",
+      "passed": true
+    }
+  ]
+}

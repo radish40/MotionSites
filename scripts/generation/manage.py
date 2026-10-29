@@ -117,7 +117,7 @@ def index():
     active='、'.join(esc(j['title']) for j in jobs if j['status'] in ('running','validating','publishing'))
     doc='''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MotionSites · GPT-6.1 Sol High 成果索引</title><style>
 *{box-sizing:border-box}body{margin:0;background:#f5f5f1;color:#17201b;font:16px/1.6 system-ui,sans-serif}main{max-width:1400px;margin:auto;padding:48px 24px}header{margin-bottom:36px}h1{font-size:clamp(28px,4vw,48px);letter-spacing:-.04em;margin:0}p{color:#59645b}a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}.stats{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.stats span{background:white;border:1px solid #dce0d9;border-radius:30px;padding:8px 16px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:24px}article{background:white;border:1px solid #dce0d9;border-radius:16px;overflow:hidden}article img{width:100%;aspect-ratio:1.44;object-fit:cover;object-position:top;background:#e6e9e1;display:block}h2{font-size:21px;margin:16px 20px 4px}article p{margin:0 20px 12px;font-size:13px}nav{display:flex;gap:14px;flex-wrap:wrap;padding:0 20px 20px;font-size:13px}footer{margin-top:44px;font-size:13px;color:#59645b}.empty{border:1px dashed #bdc7ba;border-radius:16px;padding:36px}header>a{display:inline-block;margin-bottom:20px}</style></head><body><main><header><a href="/motionsites-preview/">← 提示词画廊</a><h1>MotionSites 生成成果</h1><p>380 个设计 · GPT-6.1 Sol High · 每个设计独立新会话。项目名称与原提示词名称保持一致。</p>'''
-    doc+=f'<div class="stats"><span>已完成 {counts["complete"]} / {len(jobs)}</span><span>生成中 {counts["running"]}</span><span>验收 / 发布中 {counts["validating"]+counts["publishing"]}</span><span>待修复 / 阻塞 {counts["needs_fix"]+counts["blocked"]}</span></div>'
+    doc+=f'<div class="stats"><span>已完成 {counts["complete"]} / {len(jobs)}</span><span>生成中 {counts["running"]}</span><span>验收 / 发布中 {counts["ready"]+counts["validating"]+counts["publishing"]}</span><span>待修复 / 阻塞 {counts["needs_fix"]+counts["blocked"]}</span></div>'
     if active:doc+=f'<p>当前项目：{active}</p>'
     doc+='</header><section class="grid">'+(''.join(cards) or '<p class="empty">首批项目正在生成与验收，完成后将在这里展示网页和截图。</p>')+'</section>'
     doc+=f'<footer>更新于 {esc(manifest.get("updated_utc",manifest["created_utc"]))} · <a href="progress.json">完整进度</a> · <a href="{REPOSITORY}">项目仓库</a></footer></main></body></html>'
@@ -153,7 +153,7 @@ def finish(ident):
     # Stage only this finished design. Other workers may still be writing their directories.
     git('add','--',job['output_path'])
     if git('diff','--cached','--name-only'):
-        print(git('commit','-m',f'feat(generated): implement {job["title"]} with GPT-6.1 Sol High'))
+        git('commit','--quiet','-m',f'feat(generated): implement {job["title"]} with GPT-6.1 Sol High')
     commit=git('rev-parse','HEAD')
     print(git('push','origin','main'))
     remote=git('ls-remote','origin','refs/heads/main').split()[0]
@@ -165,6 +165,18 @@ def finish(ident):
                validation='Live desktop/mobile browser checks passed; source pushed and public screenshots verified')
     save(manifest);index()
     notify(ident)
+    cleanup_dependencies(output)
+
+
+def cleanup_dependencies(output):
+    # Completed source and lockfiles are in Git; installed packages can be recreated.
+    # Only clean this finished design, never the dependencies of an active worker.
+    packages=output/'node_modules'
+    try:
+        if packages.is_symlink():packages.unlink()
+        elif packages.is_dir():shutil.rmtree(packages)
+    except OSError as error:
+        print('Dependency cleanup deferred:',output.name,str(error),file=sys.stderr)
 
 
 def notify(ident):
@@ -187,7 +199,7 @@ def notify(ident):
 def checkpoint():
     index()
     git('add','--','docs/gpt-6.1-sol-high','scripts/generation','results')
-    if git('diff','--cached','--name-only'):print(git('commit','-m','chore(generation): update batch progress and delivery tooling'))
+    if git('diff','--cached','--name-only'):git('commit','--quiet','-m','chore(generation): update batch progress and delivery tooling')
     print(git('push','origin','main'))
     head=git('rev-parse','HEAD');remote=git('ls-remote','origin','refs/heads/main').split()[0]
     if remote!=head:raise RuntimeError('Checkpoint push was not confirmed')

@@ -151,10 +151,10 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a185bb-cd37-7382-976f-68406b8413ee",
       "output_path": "generated/gpt-6.1-sol-high/3d-jack-portfolio-hero",
-      "validation": "Live browser check failed; see screenshots/live-check.json",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Controller check corrected to avoid treating off-screen lazy images as broken; rerun actual live verification.",
       "process_id": 2468262,
       "launch_method": "isolated_codex_exec",
@@ -164,7 +164,11 @@
         "reasoning_effort": "high"
       },
       "worker_state": "terminal",
-      "delivery_failures": 1
+      "delivery_failures": 1,
+      "source_commit": "5bb3f66d95792396c8018c31a47e108994e5e210",
+      "url": "https://tool.luo-xd.com/motionsites-results/3d-jack-portfolio-hero/",
+      "completed_utc": "2026-10-29T03:51:01.705740+00:00",
+      "group_message_id": 53
     },
     {
       "number": 6,
@@ -246,10 +250,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c0-3882-7302-aa68-1afd7e242ecb",
       "output_path": "generated/gpt-6.1-sol-high/codercrest-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Session ended without result.json; inspect existing session before retrying",
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:46:14.806208+00:00",
@@ -257,8 +261,12 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "worker_state": "running",
-      "process_id": 2488432
+      "worker_state": "terminal",
+      "process_id": 2488432,
+      "source_commit": "6d7e393ed317dd96fcd18e9a1857061b445c7de1",
+      "url": "https://tool.luo-xd.com/motionsites-results/codercrest-hero/",
+      "completed_utc": "2026-10-29T03:51:31.332932+00:00",
+      "group_message_id": 54
     },
     {
       "number": 9,
@@ -276,18 +284,19 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "queued",
+      "status": "running",
       "thread_id": "01a185c0-389b-7410-94bb-24f646258581",
       "output_path": "generated/gpt-6.1-sol-high/urban-jungle-hero",
       "validation": "",
       "notes": "Session ended without result.json; inspect existing session before retrying",
       "launch_method": "isolated_codex_exec",
-      "started_utc": "2026-10-29T03:42:09.343012+00:00",
+      "started_utc": "2026-10-29T03:51:02.255629+00:00",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "worker_state": "terminal"
+      "worker_state": "running",
+      "process_id": 2503208
     },
     {
       "number": 10,
@@ -305,18 +314,19 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "queued",
+      "status": "running",
       "thread_id": "01a185c1-93a5-7161-9596-1956103c101b",
       "output_path": "generated/gpt-6.1-sol-high/reveal-hero",
       "validation": "",
       "notes": "Session ended without result.json; inspect existing session before retrying",
       "launch_method": "isolated_codex_exec",
-      "started_utc": "2026-10-29T03:43:38.311620+00:00",
+      "started_utc": "2026-10-29T03:51:02.406647+00:00",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "worker_state": "terminal"
+      "worker_state": "running",
+      "process_id": 2503232
     },
     {
       "number": 11,
@@ -334,18 +344,19 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "queued",
+      "status": "running",
       "thread_id": "01a185c1-941b-7bb1-a335-1f082bccccd5",
       "output_path": "generated/gpt-6.1-sol-high/modern-agency",
       "validation": "",
       "notes": "Session ended without result.json; inspect existing session before retrying",
       "launch_method": "isolated_codex_exec",
-      "started_utc": "2026-10-29T03:43:38.416841+00:00",
+      "started_utc": "2026-10-29T03:51:02.486988+00:00",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "worker_state": "terminal"
+      "worker_state": "running",
+      "process_id": 2503265
     },
     {
       "number": 12,
@@ -393,19 +404,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c2-ca14-7d23-ae0f-8e52434f6d15",
       "output_path": "generated/gpt-6.1-sol-high/luxury-editorial-ecommerce-design",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2485538,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:44:57.573538+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "3b7ef4ae6f929c08f59adb59a9baa3598ed3cf07",
+      "url": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/",
+      "completed_utc": "2026-10-29T03:52:15.935978+00:00",
+      "group_message_id": 55
     },
     {
       "number": 14,
@@ -423,19 +438,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c2-caac-7d80-9c44-c619104bb4f2",
       "output_path": "generated/gpt-6.1-sol-high/asme-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2485609,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:44:57.778783+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "5ac5ba1453122e026c61c535f1321ac9babd1479",
+      "url": "https://tool.luo-xd.com/motionsites-results/asme-hero/",
+      "completed_utc": "2026-10-29T03:52:45.946752+00:00",
+      "group_message_id": 56
     },
     {
       "number": 15,
@@ -8490,5 +8509,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T03:48:27.401767+00:00"
+  "updated_utc": "2026-10-29T03:52:46.111551+00:00"
 }

@@ -39,6 +39,8 @@ const path = require('node:path');
     !r.badResponses.some(e=>sameOrigin(e.url)) && !r.images.some(i=>i.visible && !i.loaded));
   const report = { url, checked_at: new Date().toISOString(), passed, results };
   fs.writeFileSync(path.join(output, 'live-check.json'), JSON.stringify(report,null,2)+'\n');
-  console.log(JSON.stringify(report));
+  console.log(JSON.stringify({url,passed,results:results.map(r=>({viewport:r.viewport,status:r.status,
+    horizontalOverflow:r.horizontalOverflow,errors:r.errors,
+    brokenVisibleImages:r.images.filter(i=>i.visible && !i.loaded),failedRequests:r.failedRequests,badResponses:r.badResponses}))}));
   if (!passed) process.exitCode = 1;
 })().catch(error => {console.error(error);process.exitCode=1;});

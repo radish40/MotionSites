@@ -1,11 +1,9 @@
 {
-  "updated_utc": "2026-10-29T03:48:27.401767+00:00",
+  "updated_utc": "2026-10-29T03:52:46.111551+00:00",
   "total": 380,
   "counts": {
-    "complete": 5,
-    "ready": 1,
+    "complete": 9,
     "running": 5,
-    "queued": 3,
     "not_started": 366
   },
   "jobs": [
@@ -53,11 +51,11 @@
       "id": "3d-jack-portfolio-hero",
       "title": "3D Jack Portfolio",
       "category": "Portfolio",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a185bb-cd37-7382-976f-68406b8413ee",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5bb3f66d95792396c8018c31a47e108994e5e210",
+      "group_message_id": 53,
+      "url": "https://tool.luo-xd.com/motionsites-results/3d-jack-portfolio-hero/"
     },
     {
       "id": "art-landing",
@@ -83,17 +81,17 @@
       "id": "codercrest-hero",
       "title": "CoderCrest",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c0-3882-7302-aa68-1afd7e242ecb",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6d7e393ed317dd96fcd18e9a1857061b445c7de1",
+      "group_message_id": 54,
+      "url": "https://tool.luo-xd.com/motionsites-results/codercrest-hero/"
     },
     {
       "id": "urban-jungle-hero",
       "title": "Urban Jungle",
       "category": "Landing Page",
-      "status": "queued",
+      "status": "running",
       "thread_id": "01a185c0-389b-7410-94bb-24f646258581",
       "source_commit": null,
       "group_message_id": null,
@@ -103,7 +101,7 @@
       "id": "reveal-hero",
       "title": "Reveal Hero",
       "category": "Hero Section",
-      "status": "queued",
+      "status": "running",
       "thread_id": "01a185c1-93a5-7161-9596-1956103c101b",
       "source_commit": null,
       "group_message_id": null,
@@ -113,7 +111,7 @@
       "id": "modern-agency",
       "title": "Modern Agency",
       "category": "Agency",
-      "status": "queued",
+      "status": "running",
       "thread_id": "01a185c1-941b-7bb1-a335-1f082bccccd5",
       "source_commit": null,
       "group_message_id": null,
@@ -133,21 +131,21 @@
       "id": "luxury-editorial-ecommerce-design",
       "title": "Luxury Ecommerce Design",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c2-ca14-7d23-ae0f-8e52434f6d15",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "3b7ef4ae6f929c08f59adb59a9baa3598ed3cf07",
+      "group_message_id": 55,
+      "url": "https://tool.luo-xd.com/motionsites-results/luxury-editorial-ecommerce-design/"
     },
     {
       "id": "asme-hero",
       "title": "Asme",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c2-caac-7d80-9c44-c619104bb4f2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5ac5ba1453122e026c61c535f1321ac9babd1479",
+      "group_message_id": 56,
+      "url": "https://tool.luo-xd.com/motionsites-results/asme-hero/"
     },
     {
       "id": "max-reed-portfolio",

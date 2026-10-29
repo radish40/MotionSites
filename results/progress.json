@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:19:41.559641+00:00",
+  "updated_utc": "2026-10-29T07:21:38.637529+00:00",
   "total": 380,
   "counts": {
-    "complete": 162,
+    "complete": 164,
     "running": 5,
-    "not_started": 213
+    "not_started": 211
   },
   "jobs": [
     {
@@ -1551,11 +1551,11 @@
       "id": "layered-depth",
       "title": "Layered Depth",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18679-ad43-70a1-b60d-c15d50c66090",
-      "source_commit": "a48ce72a57e684fb64e273707e0f77f1d969ca11",
+      "source_commit": "6cae6067a32771e243efc06e6ae29cf5a18b847e",
       "group_message_id": 209,
-      "url": null
+      "url": "https://tool.luo-xd.com/motionsites-results/layered-depth/"
     },
     {
       "id": "learnly",
@@ -1651,18 +1651,18 @@
       "id": "media-card-carousel",
       "title": "Media Card Carousel",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18684-1fff-7363-bb05-f34b607c051c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "63c06df8cfc2cb9e5a56d51ed2ea8d7ea5659e42",
+      "group_message_id": 218,
+      "url": "https://tool.luo-xd.com/motionsites-results/media-card-carousel/"
     },
     {
       "id": "minimal-workflow-saas",
       "title": "Minimal Workflow SaaS",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18686-6626-7a31-a885-40a92ee29099",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1672,7 +1672,7 @@
       "title": "Mouse Trail CTA",
       "category": "CTA Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18686-672c-7860-9e6e-4f414f5a2f4b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1681,7 +1681,7 @@
       "id": "mythic-naturecore",
       "title": "Mythic Naturecore",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1691,7 +1691,7 @@
       "id": "naturecore-saas",
       "title": "Naturecore SaaS",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,0 +1,112 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "name": "desktop",
+    "title": "Guardnet Benefits",
+    "heading": "Key Benefits",
+    "overflow": false,
+    "fontLoaded": true,
+    "fonts": [
+      {
+        "family": "Futura Md BT Medium",
+        "status": "loaded"
+      }
+    ],
+    "cards": [
+      {
+        "x": 60,
+        "y": 224,
+        "width": 429.328125,
+        "height": 460
+      },
+      {
+        "x": 505.328125,
+        "y": 224,
+        "width": 429.328125,
+        "height": 460
+      },
+      {
+        "x": 950.65625,
+        "y": 224,
+        "width": 429.34375,
+        "height": 460
+      }
+    ],
+    "video": {
+      "readyState": 4,
+      "playing": true,
+      "advanced": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "width": 1440,
+      "height": 1440
+    },
+    "errors": [],
+    "failures": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260421_072701_f6a01abb-eb30-4559-9d6e-774362defbc3.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "responses": []
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "name": "mobile",
+    "title": "Guardnet Benefits",
+    "heading": "Key Benefits",
+    "overflow": false,
+    "fontLoaded": true,
+    "fonts": [
+      {
+        "family": "Futura Md BT Medium",
+        "status": "loaded"
+      }
+    ],
+    "cards": [
+      {
+        "x": 16,
+        "y": 132,
+        "width": 358,
+        "height": 380
+      },
+      {
+        "x": 16,
+        "y": 524,
+        "width": 358,
+        "height": 380
+      },
+      {
+        "x": 16,
+        "y": 916,
+        "width": 358,
+        "height": 380
+      }
+    ],
+    "video": {
+      "readyState": 4,
+      "playing": true,
+      "advanced": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "width": 1440,
+      "height": 1440
+    },
+    "errors": [],
+    "failures": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260421_072701_f6a01abb-eb30-4559-9d6e-774362defbc3.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "responses": []
+  }
+]

@@ -1,0 +1,48 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import './index.css';
+
+const description = 'Defense platforms constantly observe bandwidth streams, record files, and machine behaviors to uncover unusual patterns or outliers that could signal a defensive failure.';
+
+function BenefitsSection() {
+  return (
+    <section aria-labelledby="benefits-heading" className="relative w-full bg-black px-4 sm:px-6 md:px-10 py-12 sm:py-20">
+      <h1 id="benefits-heading" className="text-white text-3xl sm:text-4xl md:text-5xl font-light text-center mb-12 sm:mb-24" style={{ letterSpacing: '-0.04em' }}>
+        Key Benefits
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
+        <article className="relative h-[380px] sm:h-[460px] rounded-2xl bg-neutral-950 overflow-hidden p-6 sm:p-8">
+          <div aria-hidden="true" className="absolute top-1/2 -translate-y-1/2 -left-[420px] h-[460px] w-[460px] rounded-full bg-[#1e3a8a] blur-3xl opacity-40" />
+          <div className="relative z-10 flex flex-col h-full">
+            <h2 className="text-white text-xl sm:text-2xl font-light leading-tight">Preemptive Risks<br />Scouting and Reactions</h2>
+            <p className="mt-12 sm:mt-20 text-[13px] sm:text-[14px] leading-relaxed text-white/70 font-light max-w-[280px]">{description}</p>
+          </div>
+        </article>
+        <article className="relative h-[380px] sm:h-[460px] rounded-2xl bg-neutral-950 overflow-hidden flex flex-col">
+          <div className="relative w-full overflow-hidden" style={{ height: '75%' }}>
+            <video className="w-full h-full object-cover block" autoPlay loop muted playsInline aria-hidden="true" tabIndex={-1}>
+              <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260421_072701_f6a01abb-eb30-4559-9d6e-774362defbc3.mp4" type="video/mp4" />
+            </video>
+            <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-neutral-950" />
+          </div>
+          <div className="flex-1 flex items-center justify-start p-6 sm:p-8">
+            <h2 className="text-white text-xl sm:text-2xl font-light leading-tight text-left">Know-how and Sectoral<br />Awareness</h2>
+          </div>
+        </article>
+        <article className="relative h-[380px] sm:h-[460px] rounded-2xl bg-neutral-950 overflow-hidden p-6 sm:p-8">
+          <div aria-hidden="true" className="absolute -top-28 -right-28 h-56 w-56 rounded-full bg-[#1e3a8a] blur-3xl opacity-40" />
+          <div className="relative z-10 flex flex-col h-full">
+            <h2 className="text-white text-xl sm:text-2xl font-light leading-tight">Preemptive Risks<br />Scouting and Reactions</h2>
+            <p className="mt-auto text-[13px] sm:text-[14px] leading-relaxed text-white/70 font-light max-w-[320px]">{description}</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  );
+}
+
+function App() {
+  return <main className="w-full max-w-[1400px] mx-auto"><BenefitsSection /></main>;
+}
+
+createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>);

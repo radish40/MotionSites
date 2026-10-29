@@ -1,0 +1,31 @@
+{
+  "title": "Guardnet Benefits",
+  "id": "guardnet-benefits",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/guardnet-benefits/",
+    "desktop": "passed at 1440x1000; three columns, 460px card heights",
+    "mobile": "passed at 390x844; stacked cards, 380px card heights",
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "console_errors": [],
+    "http_error_responses": [],
+    "font": "Futura Md BT Medium loaded in both viewports",
+    "video": "readyState 4; muted autoplay and advancing playback passed in both viewports; loop and playsInline enabled",
+    "visual_review": "desktop and mobile screenshots inspected",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    "Chromium recorded one net::ERR_ABORTED request for the video in each viewport, while the video decoded and played successfully. Font and video URLs returned HTTP 200; no missing assets observed."
+  ],
+  "notes": [
+    "React + TypeScript + Tailwind CSS; no additional UI or animation libraries.",
+    "Uses the exact requested font import, original video URL, copy, card classes, and responsive breakpoints.",
+    "External font and video require network access.",
+    "Ready means available for review, not deployed. No push or deployment performed.",
+    "Dependency lockfile, source, build output, browser verification script, and README included."
+  ]
+}

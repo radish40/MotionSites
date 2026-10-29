@@ -6543,20 +6543,24 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a4-2051-7670-9965-d74e593d01b7",
       "output_path": "generated/gpt-6.1-sol-high/organic-odyssey",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Same original session retry through the exact same local provider backend, bypassing the public HTTP route after repeated UTF-8 stream failures. Model and reasoning unchanged.",
       "process_id": 3395199,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:59:06.925986+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 2
+      "repair_attempts": 2,
+      "source_commit": "d5408ae9ab70096e11446499e949e606553d1c53",
+      "url": "https://tool.luo-xd.com/motionsites-results/organic-odyssey/",
+      "completed_utc": "2026-10-29T08:08:20.188658+00:00",
+      "group_message_id": 252
     },
     {
       "number": 192,
@@ -6741,15 +6745,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a186ae-145a-7a51-b802-f9aad07b1f8f",
       "output_path": "generated/gpt-6.1-sol-high/pulse-3d",
       "validation": "",
-      "notes": "Verified terminal UTF-8 transport failure; resumed same original session through the exact same local provider backend. Model and reasoning unchanged.",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 3403100,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:01:57.645991+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -6772,15 +6776,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a186ae-14d5-7910-853f-24f11089f7e9",
       "output_path": "generated/gpt-6.1-sol-high/radial-diagram",
       "validation": "",
-      "notes": "Verified terminal UTF-8 transport failure; resumed same original session through the exact same local provider backend. Model and reasoning unchanged.",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 3403118,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:01:57.794160+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -10808,7 +10812,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T08:06:46.257982+00:00",
+  "updated_utc": "2026-10-29T08:08:20.372348+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

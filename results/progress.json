@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T08:06:46.257982+00:00",
+  "updated_utc": "2026-10-29T08:08:20.372348+00:00",
   "total": 380,
   "counts": {
-    "complete": 194,
-    "running": 5,
-    "needs_fix": 1,
+    "complete": 195,
+    "running": 2,
+    "needs_fix": 3,
     "not_started": 180
   },
   "jobs": [
@@ -1912,11 +1912,11 @@
       "id": "organic-odyssey",
       "title": "Organic Odyssey",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a4-2051-7670-9965-d74e593d01b7",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "d5408ae9ab70096e11446499e949e606553d1c53",
+      "group_message_id": 252,
+      "url": "https://tool.luo-xd.com/motionsites-results/organic-odyssey/"
     },
     {
       "id": "pixel-grid-hover",
@@ -1972,7 +1972,7 @@
       "id": "pulse-3d",
       "title": "Pulse 3D",
       "category": "3D Website",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a186ae-145a-7a51-b802-f9aad07b1f8f",
       "source_commit": null,
       "group_message_id": null,
@@ -1982,7 +1982,7 @@
       "id": "radial-diagram",
       "title": "Radial Diagram",
       "category": "Testimonials",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a186ae-14d5-7910-853f-24f11089f7e9",
       "source_commit": null,
       "group_message_id": null,

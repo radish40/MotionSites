@@ -1,0 +1,57 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "phone": {
+        "width": 375,
+        "height": 780
+      },
+      "fontLoaded": true,
+      "imageLoaded": true,
+      "contentFits": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "phone": {
+        "width": 352,
+        "height": 780
+      },
+      "fontLoaded": true,
+      "imageLoaded": true,
+      "contentFits": true
+    }
+  ],
+  "errors": [],
+  "assetFailures": [],
+  "checks": [
+    {
+      "viewport": 1440,
+      "preselectedCards": true,
+      "toggles": true,
+      "shortDragResets": true,
+      "longDragConfirms": true,
+      "selectionResetsConfirmation": true,
+      "keyboardConfirmation": true,
+      "voiceFallback": true
+    },
+    {
+      "viewport": 390,
+      "preselectedCards": true,
+      "toggles": true,
+      "shortDragResets": true,
+      "longDragConfirms": true,
+      "selectionResetsConfirmation": true,
+      "keyboardConfirmation": true,
+      "voiceFallback": true
+    },
+    {
+      "localImageFallback": true
+    }
+  ]
+}

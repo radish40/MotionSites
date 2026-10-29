@@ -1,0 +1,45 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/wellness-companion/",
+  "checked_at": "2026-10-29T05:08:16.051Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Vitaforge Daily · Wellness Companion",
+      "bodyChars": 150,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260704_143500_a76b8e64-2c69-4683-80e7-2bb060a921d6.png&w=1280&q=85",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Vitaforge Daily · Wellness Companion",
+      "bodyChars": 150,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260704_143500_a76b8e64-2c69-4683-80e7-2bb060a921d6.png&w=1280&q=85",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

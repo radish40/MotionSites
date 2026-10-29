@@ -1,0 +1,29 @@
+{
+  "title": "Wellness Companion",
+  "id": "wellness-companion",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/wellness-companion/",
+    "desktop": "passed: Chromium 1440x1000; phone 375x780",
+    "mobile": "passed: Chromium 390x844; responsive phone 352x780",
+    "interactions": ["Stress and Skin preselected", "card toggles", "drag below threshold resets", "drag above 85 percent confirms", "selection change resets confirmation", "keyboard confirmation", "unsupported voice feedback"],
+    "console_errors": 0,
+    "page_errors": 0,
+    "horizontal_overflow": false,
+    "content_overflow": false,
+    "assets": "font and exact remote background loaded; local image fallback also passed",
+    "dependency_audit": "0 vulnerabilities",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React 18, Tailwind CSS 3, Lucide React, Vite, and TypeScript; dependency lockfile included.",
+    "Uses the exact supplied image and font stylesheet URLs, plus bundled copies for resilience.",
+    "Real microphone transcription was not tested in headless Chromium; speech availability depends on browser support, permission, and service connectivity.",
+    "Only this project's design was read and implemented. No agents, other sessions, deployment, push, or external messaging.",
+    "Ready for management-session acceptance; not deployed."
+  ]
+}

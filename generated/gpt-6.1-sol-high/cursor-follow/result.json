@@ -1,0 +1,64 @@
+{
+  "title": "Cursor Follow",
+  "id": "cursor-follow",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node.js 22; Docker instructions in README.md)",
+  "checks": [
+    {
+      "name": "TypeScript check and Vite production build",
+      "passed": true
+    },
+    {
+      "name": "Video decoded, paused at zero, no autoplay",
+      "paused": true,
+      "time": 0,
+      "duration": 4.041667,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "name": "Google Fonts loaded",
+      "Anton": true,
+      "Condiment": true
+    },
+    {
+      "name": "Desktop 1440x1000, no overflow",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000
+    },
+    {
+      "name": "Forward/reverse scrub, rapid seek chaining, lower/upper clamps",
+      "sensitivity": 0.8,
+      "forward": 2.24537,
+      "reverse": 0.673611,
+      "upper": 4.041667
+    },
+    {
+      "name": "Mobile 390x844, no overflow",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 844
+    },
+    {
+      "name": "Mobile menu opens, closes, item/CTA dismissal and Escape",
+      "passed": true
+    },
+    {
+      "name": "No browser console or script errors",
+      "passed": true
+    }
+  ],
+  "asset_issues": [],
+  "notes": [
+    "Page title and brand: Orbis.Nft. Project index title: Cursor Follow.",
+    "Production artifact: dist/index.html. Base path: /motionsites-results/cursor-follow/.",
+    "Exact supplied video bundled locally. Specified Google Fonts loaded successfully.",
+    "Desktop and mobile screenshots saved and visually inspected; additional mobile-menu screenshot and checks.json included.",
+    "Navigation and reservation destinations were not supplied; no additional routes or backend implemented.",
+    "Mouse movement drives scrubbing; touch devices show the initial frame.",
+    "Validated with Chromium only. Ready for review; not deployed or pushed."
+  ]
+}

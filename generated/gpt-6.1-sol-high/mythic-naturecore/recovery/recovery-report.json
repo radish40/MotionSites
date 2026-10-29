@@ -1,0 +1,93 @@
+{
+  "source_url": "https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/hero%20sections/animated%20(72).webp",
+  "source_size": [
+    640,
+    480
+  ],
+  "frames": 74,
+  "scene_crop": [
+    82,
+    88,
+    557,
+    393
+  ],
+  "registrations": [
+    {
+      "frame": 24,
+      "inverse_scale": 0.7198419659514468,
+      "inliers": 316
+    },
+    {
+      "frame": 25,
+      "inverse_scale": 0.6647377948589691,
+      "inliers": 279
+    },
+    {
+      "frame": 26,
+      "inverse_scale": 0.6070187567000858,
+      "inliers": 259
+    },
+    {
+      "frame": 27,
+      "inverse_scale": 0.5664705695229985,
+      "inliers": 213
+    },
+    {
+      "frame": 28,
+      "inverse_scale": 0.5411825322827304,
+      "inliers": 204
+    },
+    {
+      "frame": 29,
+      "inverse_scale": 0.5236451317367927,
+      "inliers": 193
+    },
+    {
+      "frame": 30,
+      "inverse_scale": 0.5099195969995981,
+      "inliers": 167
+    },
+    {
+      "frame": 31,
+      "inverse_scale": 0.5074535393482416,
+      "inliers": 158
+    },
+    {
+      "frame": 32,
+      "inverse_scale": 0.48644395331866747,
+      "inliers": 145
+    },
+    {
+      "frame": 33,
+      "inverse_scale": 0.44974657604815665,
+      "inliers": 111
+    },
+    {
+      "frame": 34,
+      "inverse_scale": 0.38452452839075374,
+      "inliers": 49
+    },
+    {
+      "frame": 35,
+      "inverse_scale": 0.34034289198524686,
+      "inliers": 36
+    },
+    {
+      "frame": 36,
+      "inverse_scale": 0.31227920170430706,
+      "inliers": 25
+    }
+  ],
+  "portal_ui_pixels": 164681,
+  "recovered_ui_pixels": 75145,
+  "inpainted_ui_pixels": 25611,
+  "outputs": [
+    "portal-recovered.png",
+    "world-recovered.jpg",
+    "curtain-left-recovered.png",
+    "curtain-right-recovered.png",
+    "card-1-recovered.jpg",
+    "card-2-recovered.jpg",
+    "card-3-recovered.jpg"
+  ]
+}

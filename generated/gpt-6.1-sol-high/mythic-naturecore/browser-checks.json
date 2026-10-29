@@ -1,0 +1,223 @@
+{
+  "console_errors": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "checks": [
+    {
+      "name": "desktop: entry curtains open",
+      "pass": true
+    },
+    {
+      "name": "desktop: local raster images decode",
+      "pass": true
+    },
+    {
+      "name": "desktop: no horizontal overflow",
+      "pass": true,
+      "details": {
+        "scrollWidth": 1425,
+        "width": 1440
+      }
+    },
+    {
+      "name": "desktop: page is 480vh",
+      "pass": true
+    },
+    {
+      "name": "desktop: fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "desktop: images loaded",
+      "pass": true
+    },
+    {
+      "name": "desktop: responsive cards",
+      "pass": true
+    },
+    {
+      "name": "desktop: correct navigation",
+      "pass": true
+    },
+    {
+      "name": "mouse parallax updates world",
+      "pass": true
+    },
+    {
+      "name": "Descend scrolls into portal",
+      "pass": true
+    },
+    {
+      "name": "desktop: Connect reaches final scene",
+      "pass": true
+    },
+    {
+      "name": "desktop: portal fades out after real zoom",
+      "pass": true
+    },
+    {
+      "name": "desktop: hero is inert after fade",
+      "pass": true
+    },
+    {
+      "name": "desktop: logo returns to entrance",
+      "pass": true
+    },
+    {
+      "name": "desktop: reel enters immersive scene",
+      "pass": true
+    },
+    {
+      "name": "desktop: stage indicator works",
+      "pass": true
+    },
+    {
+      "name": "responsive hook updates on resize",
+      "pass": true
+    },
+    {
+      "name": "mobile: entry curtains open",
+      "pass": true
+    },
+    {
+      "name": "mobile: local raster images decode",
+      "pass": true
+    },
+    {
+      "name": "mobile: no horizontal overflow",
+      "pass": true,
+      "details": {
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "mobile: page is 480vh",
+      "pass": true
+    },
+    {
+      "name": "mobile: fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "mobile: images loaded",
+      "pass": true
+    },
+    {
+      "name": "mobile: responsive cards",
+      "pass": true
+    },
+    {
+      "name": "mobile: correct navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: Connect reaches final scene",
+      "pass": true
+    },
+    {
+      "name": "mobile: portal fades out after real zoom",
+      "pass": true
+    },
+    {
+      "name": "mobile: hero is inert after fade",
+      "pass": true
+    },
+    {
+      "name": "mobile: logo returns to entrance",
+      "pass": true
+    },
+    {
+      "name": "mobile: reel enters immersive scene",
+      "pass": true
+    },
+    {
+      "name": "mobile: stage indicator works",
+      "pass": true
+    },
+    {
+      "name": "tablet: entry curtains open",
+      "pass": true
+    },
+    {
+      "name": "tablet: local raster images decode",
+      "pass": true
+    },
+    {
+      "name": "tablet: no horizontal overflow",
+      "pass": true,
+      "details": {
+        "scrollWidth": 885,
+        "width": 900
+      }
+    },
+    {
+      "name": "tablet: page is 480vh",
+      "pass": true
+    },
+    {
+      "name": "tablet: fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "tablet: images loaded",
+      "pass": true
+    },
+    {
+      "name": "tablet: responsive cards",
+      "pass": true
+    },
+    {
+      "name": "tablet: correct navigation",
+      "pass": true
+    },
+    {
+      "name": "tablet: Connect reaches final scene",
+      "pass": true
+    },
+    {
+      "name": "tablet: portal fades out after real zoom",
+      "pass": true
+    },
+    {
+      "name": "tablet: hero is inert after fade",
+      "pass": true
+    },
+    {
+      "name": "tablet: logo returns to entrance",
+      "pass": true
+    },
+    {
+      "name": "tablet: reel enters immersive scene",
+      "pass": true
+    },
+    {
+      "name": "tablet: stage indicator works",
+      "pass": true
+    },
+    {
+      "name": "reduced motion disables bob animation",
+      "pass": true
+    },
+    {
+      "name": "navigation is keyboard accessible",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "no console errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "no failed requests",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "passed": true
+}

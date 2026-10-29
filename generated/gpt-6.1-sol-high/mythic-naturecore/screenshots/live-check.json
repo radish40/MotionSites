@@ -1,0 +1,99 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/",
+  "checked_at": "2026-10-29T07:44:14.461Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Reverie — Mythic Naturecore",
+      "bodyChars": 347,
+      "horizontalOverflow": -15,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/world-recovered.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/portal-recovered.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/curtain-left-recovered.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/curtain-right-recovered.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/card-1-recovered.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/card-2-recovered.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/card-3-recovered.jpg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Reverie — Mythic Naturecore",
+      "bodyChars": 280,
+      "horizontalOverflow": -15,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/world-recovered.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/portal-recovered.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/curtain-left-recovered.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/curtain-right-recovered.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/assets/card-1-recovered.jpg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

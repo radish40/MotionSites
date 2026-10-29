@@ -1,0 +1,93 @@
+{
+  "title": "Mythic Naturecore",
+  "id": "mythic-naturecore",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm run build\"",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "browser_report": "browser-checks.json",
+    "browser_passed": true,
+    "browser_assertions": 50,
+    "viewports": [
+      "1440x1000",
+      "390x844",
+      "900x1000"
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/portal.png",
+      "screenshots/desktop-final.png",
+      "screenshots/mobile-final.png"
+    ],
+    "visual_review": "Compared desktop, mobile, portal zoom and final scene screenshots with this design\u2019s 74-frame reference. Photographic forest, mossy stone arch, foliage and distinct ordered card imagery restored; low-resolution recovery limitations documented.",
+    "deployment": "not performed"
+  },
+  "asset_issues": [
+    {
+      "file": "portal.png",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1779974947/portal_bg_mu60k9.png",
+      "http_status": "401",
+      "error": "",
+      "reason": "Original source still returns HTTP 401; versionless portal and transformed world variants also returned 401",
+      "fallback": "Photographic layer recovered from this design\u2019s own authorized animated reference; see recovery/README.md"
+    },
+    {
+      "file": "curtain-left.png",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1779975070/curtain_left_cdht6q.png",
+      "http_status": "401",
+      "error": "",
+      "reason": "Original source still returns HTTP 401; versionless portal and transformed world variants also returned 401",
+      "fallback": "Photographic layer recovered from this design\u2019s own authorized animated reference; see recovery/README.md"
+    },
+    {
+      "file": "curtain-right.png",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1779975071/curtain_right_a9bn3i.png",
+      "http_status": "401",
+      "error": "",
+      "reason": "Original source still returns HTTP 401; versionless portal and transformed world variants also returned 401",
+      "fallback": "Photographic layer recovered from this design\u2019s own authorized animated reference; see recovery/README.md"
+    },
+    {
+      "file": "world.jpg",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1779975077/world_bg_jzzcn1.jpg",
+      "http_status": "401",
+      "error": "",
+      "reason": "Original source still returns HTTP 401; versionless portal and transformed world variants also returned 401",
+      "fallback": "Photographic layer recovered from this design\u2019s own authorized animated reference; see recovery/README.md"
+    },
+    {
+      "file": "card-3.jpg",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1779975070/card_3_nbwm25.jpg",
+      "http_status": "401",
+      "error": "",
+      "reason": "Original source still returns HTTP 401; versionless portal and transformed world variants also returned 401",
+      "fallback": "Photographic layer recovered from this design\u2019s own authorized animated reference; see recovery/README.md"
+    },
+    {
+      "file": "card-2.jpg",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1779975070/card_2_wr6al6.jpg",
+      "http_status": "401",
+      "error": "",
+      "reason": "Original source still returns HTTP 401; versionless portal and transformed world variants also returned 401",
+      "fallback": "Photographic layer recovered from this design\u2019s own authorized animated reference; see recovery/README.md"
+    },
+    {
+      "file": "card-1.jpg",
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1779975070/card_1_jz8otj.jpg",
+      "http_status": "401",
+      "error": "",
+      "reason": "Original source still returns HTTP 401; versionless portal and transformed world variants also returned 401",
+      "fallback": "Photographic layer recovered from this design\u2019s own authorized animated reference; see recovery/README.md"
+    }
+  ],
+  "notes": [
+    "Visual repair complete using this design\u2019s authorized 74-frame source. Photographic world, transparent moss-covered portal, separate foliage curtains and three ordered card crops replace all former illustrations.",
+    "React/TypeScript/Tailwind stack and original scroll/parallax formulas preserved. All typography, cards, labels, buttons and controls remain live DOM.",
+    "No flattened reference screenshot or animation is used at runtime. Recovery code, source attribution, original reference and reconstruction details retained in recovery/.",
+    "Approximate areas: foliage formerly hidden by UI, manually traced alpha silhouettes, tight card crops and low-resolution softness. Original full-resolution Cloudinary files remain unavailable (401).",
+    "Production dist/index.html uses /motionsites-results/mythic-naturecore/. Original asset constants and card order preserved. Fonts bundled locally.",
+    "No deployment, push, external messages, agents, other designs, or additional sessions. Dependencies and temporary Python environment removed from delivery."
+  ]
+}

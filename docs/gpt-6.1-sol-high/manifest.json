@@ -2062,14 +2062,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18602-97c3-7e90-bbcd-7789b26e6be5",
       "output_path": "generated/gpt-6.1-sol-high/supplement-shop",
       "validation": "",
       "notes": "",
       "process_id": 2736157,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:54:39.216643+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 62,
@@ -9090,5 +9094,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:55:09.293292+00:00"
+  "updated_utc": "2026-10-29T04:56:11.440704+00:00"
 }

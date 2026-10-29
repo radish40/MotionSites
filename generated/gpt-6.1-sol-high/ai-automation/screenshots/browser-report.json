@@ -1,0 +1,136 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "fontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Helvetica Now Var",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Var",
+          "status": "loaded"
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_135830_bb6491d1-9b66-4aec-9722-13b4dfe3fb46.mp4",
+          "readyState": 4,
+          "playing": true,
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260513_220333_48163edc-995f-4513-9f44-48dbb07a7329.mp4",
+          "readyState": 4,
+          "playing": false,
+          "width": 2880,
+          "height": 2880
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260513_221040_e6ba7c5a-864e-46e9-871e-341a176a7e3e.mp4",
+          "readyState": 4,
+          "playing": false,
+          "width": 2880,
+          "height": 2880
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260513_221104_fb538584-5b87-495f-952e-09ddd5a1792a.mp4",
+          "readyState": 4,
+          "playing": false,
+          "width": 2880,
+          "height": 2880
+        }
+      ],
+      "heading": "SCALING\nFASTER USING AI",
+      "servicesTop": 177,
+      "horizontalOverflow": false
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "fontLoaded": true,
+      "fontFaces": [
+        {
+          "family": "Helvetica Now Var",
+          "status": "loaded"
+        },
+        {
+          "family": "Helvetica Now Var",
+          "status": "loaded"
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_135830_bb6491d1-9b66-4aec-9722-13b4dfe3fb46.mp4",
+          "readyState": 4,
+          "playing": true,
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260513_220333_48163edc-995f-4513-9f44-48dbb07a7329.mp4",
+          "readyState": 4,
+          "playing": false,
+          "width": 2880,
+          "height": 2880
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260513_221040_e6ba7c5a-864e-46e9-871e-341a176a7e3e.mp4",
+          "readyState": 4,
+          "playing": false,
+          "width": 2880,
+          "height": 2880
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260513_221104_fb538584-5b87-495f-952e-09ddd5a1792a.mp4",
+          "readyState": 4,
+          "playing": false,
+          "width": 2880,
+          "height": 2880
+        }
+      ],
+      "heading": "SCALING\nFASTER USING AI",
+      "servicesTop": 0,
+      "horizontalOverflow": false
+    }
+  ],
+  "errors": [],
+  "assetFailures": [],
+  "canceledMediaRequests": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_135830_bb6491d1-9b66-4aec-9722-13b4dfe3fb46.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_135830_bb6491d1-9b66-4aec-9722-13b4dfe3fb46.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_135830_bb6491d1-9b66-4aec-9722-13b4dfe3fb46.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_135830_bb6491d1-9b66-4aec-9722-13b4dfe3fb46.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "interactions": [
+    "desktop: statement word animations, products navigation, 3 service cards, repost clipboard, main navigation, email CTA, button hover passed",
+    "mobile: statement word animations, products navigation, 3 service cards, repost clipboard, main navigation, email CTA passed"
+  ]
+}

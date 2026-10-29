@@ -1,0 +1,43 @@
+{
+  "title": "AI Automation",
+  "id": "ai-automation",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; Vite 6.4.5; dist/index.html exists",
+    "base_path": "/motionsites-results/ai-automation/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "failed_assets": [],
+    "font": "Helvetica Now Var loaded at both sizes",
+    "videos": "All four decoded; background and visible service videos played; no media errors",
+    "interactions": [
+      "desktop: statement word animations, products navigation, 3 service cards, repost clipboard, main navigation, email CTA, button hover passed",
+      "mobile: statement word animations, products navigation, 3 service cards, repost clipboard, main navigation, email CTA passed"
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-statement.png",
+      "screenshots/mobile-statement.png",
+      "screenshots/desktop-services.png",
+      "screenshots/mobile-services.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "browser_report": "screenshots/browser-report.json",
+    "dependency_install": "134 packages installed; audit reported zero vulnerabilities"
+  },
+  "asset_issues": [
+    "No unavailable external assets observed. Supplied font stylesheet declares regular weight only; an additional font-face exposes the same original font file variable weight range.",
+    "Chromium canceled 4 background MP4 stream requests with net::ERR_ABORTED during navigation. Retained in browser-report.json; decoded playback and media-error checks passed."
+  ],
+  "notes": [
+    "Ready for local deliverable review; no deployment or publishing performed.",
+    "Uses the exact supplied external video URLs and font CSS import; network access is required.",
+    "No booking URL or email address was supplied. BOOK A CALL! and CONNECT open an email draft without a recipient; configure a real destination before using for inquiries.",
+    "Unspecified CASE/CREW links target the statement; RATES targets services. No additional sections invented.",
+    "Source, configuration, dependency lockfile, production dist, screenshots, README and verification script are included. node_modules is excluded."
+  ]
+}

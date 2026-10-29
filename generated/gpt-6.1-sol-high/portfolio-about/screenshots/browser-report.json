@@ -1,0 +1,48 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "imageCount": 4,
+    "imagesLoaded": true,
+    "fontLoaded": true,
+    "loadedFontWeights": [
+      "400",
+      "500",
+      "900"
+    ],
+    "heading": "160px",
+    "scrollReveal": true,
+    "contactAnchor": true,
+    "keyboardFocus": true,
+    "hoverAndActive": true,
+    "reducedMotion": true,
+    "errors": [],
+    "failedRequests": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "imageCount": 4,
+    "imagesLoaded": true,
+    "fontLoaded": true,
+    "loadedFontWeights": [
+      "400",
+      "500",
+      "900"
+    ],
+    "heading": "48px",
+    "scrollReveal": true,
+    "contactAnchor": true,
+    "keyboardFocus": true,
+    "hoverAndActive": true,
+    "reducedMotion": true,
+    "errors": [],
+    "failedRequests": []
+  }
+}

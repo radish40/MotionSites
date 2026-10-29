@@ -1,0 +1,73 @@
+{
+  "title": "Portfolio About",
+  "id": "portfolio-about",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "overflow": false,
+        "imageCount": 4,
+        "imagesLoaded": true,
+        "fontLoaded": true,
+        "loadedFontWeights": [
+          "400",
+          "500",
+          "900"
+        ],
+        "heading": "160px",
+        "scrollReveal": true,
+        "contactAnchor": true,
+        "keyboardFocus": true,
+        "hoverAndActive": true,
+        "reducedMotion": true,
+        "errors": [],
+        "failedRequests": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "overflow": false,
+        "imageCount": 4,
+        "imagesLoaded": true,
+        "fontLoaded": true,
+        "loadedFontWeights": [
+          "400",
+          "500",
+          "900"
+        ],
+        "heading": "48px",
+        "scrollReveal": true,
+        "contactAnchor": true,
+        "keyboardFocus": true,
+        "hoverAndActive": true,
+        "reducedMotion": true,
+        "errors": [],
+        "failedRequests": []
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-scrolled.png",
+      "screenshots/mobile-scrolled.png"
+    ],
+    "visual_inspection": "Desktop and mobile screenshots reviewed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original image assets downloaded successfully and stored locally. All Kanit weights 300\u2013900 available locally; specified Google Fonts links retained.",
+    "Supplied preview contains only a dark frame; implemented using full written specification.",
+    "Empty 45vh runway enables the standalone scroll reveal to complete.",
+    "Contact Me links to #contact on the button group; no separate contact content was supplied.",
+    "Vite emitted nonfatal framer-motion use client directive warnings; production build and browser checks passed.",
+    "Ready for acceptance; not deployed or pushed."
+  ]
+}

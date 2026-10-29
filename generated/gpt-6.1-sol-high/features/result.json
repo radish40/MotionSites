@@ -1,0 +1,30 @@
+{
+  "title": "Capabilities Overview",
+  "id": "features",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "real_build": "passed; dist/index.html exists",
+    "browser": "Chromium via Playwright against built output at /motionsites-results/features/",
+    "desktop": "1440x1000 passed; 3 columns; screenshot visually inspected",
+    "mobile": "390x844 passed; 1 column; screenshot visually inspected",
+    "tablet": "900x1000 passed; 2 columns",
+    "horizontal_overflow": "none at all checked sizes",
+    "script_errors": [],
+    "failed_requests": [],
+    "fonts_and_icons": "Geist and Phosphor loaded",
+    "videos": "all 3 loaded and playing muted, looping, inline",
+    "interactions": "CTA, email, phone, and icon link targets passed; keyboard focus passed; marquee animation and reduced motion passed",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Native HTML/CSS/JavaScript implementation of only the supplied EngineTech design.",
+    "Exact specified videos and Phosphor version saved locally with Geist variable font and video-derived fallback posters.",
+    "Relative asset paths support the required publishing subpath.",
+    "Email and telephone URI activation tested without sending messages or placing calls.",
+    "Screenshots use actual video frames paused at two seconds; normal operation autoplays.",
+    "No deployment or push performed. Ready for management-session review."
+  ]
+}

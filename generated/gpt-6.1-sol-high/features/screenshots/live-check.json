@@ -1,0 +1,97 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/features/",
+  "checked_at": "2026-10-29T06:18:36.252Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "EngineTech — Capabilities Overview",
+      "bodyChars": 970,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/features/assets/program-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.394558,
+          "duration": 12.466667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/features/assets/engineers.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.498485,
+          "duration": 30.24,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/features/assets/core-systems.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.509565,
+          "duration": 6.92,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "EngineTech — Capabilities Overview",
+      "bodyChars": 970,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/features/assets/program-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.423859,
+          "duration": 12.466667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/features/assets/engineers.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.436131,
+          "duration": 30.24,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/features/assets/core-systems.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.413254,
+          "duration": 6.92,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

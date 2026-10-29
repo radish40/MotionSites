@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "check": "video fallback scrubs when frame preloading fails",
+      "passed": true,
+      "videoTime": 6.594026
+    },
+    {
+      "check": "viewport overflow across six scroll positions",
+      "passed": true,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "check": "viewport overflow across six scroll positions",
+      "passed": true,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    }
+  ],
+  "passed": true
+}

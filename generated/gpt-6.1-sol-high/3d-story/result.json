@@ -1,0 +1,177 @@
+{
+  "title": "3D Story",
+  "id": "3d-story",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": {
+      "passed": true,
+      "output": "dist/index.html",
+      "stack": "Native HTML/CSS/JavaScript as supplied in PROMPT.md; Node 22 build script, no dependencies"
+    },
+    "browser": {
+      "passed": true,
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "report": "screenshots/checks.json",
+      "checks": [
+        {
+          "viewport": "desktop",
+          "check": "initial render, local video, extracted frames, Inter font, no overflow",
+          "passed": true,
+          "details": {
+            "title": "Veldara",
+            "width": 1440,
+            "scrollWidth": 1440,
+            "font": true,
+            "videoDuration": 10.041667,
+            "canvasVisible": "visible",
+            "heading": "Instantly craft immersive 3D worlds on the web."
+          }
+        },
+        {
+          "viewport": "desktop",
+          "check": "Get Started navigates to feature story; hero fades",
+          "passed": true
+        },
+        {
+          "viewport": "desktop",
+          "check": "video changes with scroll; feature reveal and responsive layout",
+          "passed": true,
+          "details": {
+            "opacity": 1,
+            "columns": "357.328px 357.328px 357.344px",
+            "mask": "linear-gradient(to right, black 106.364%, transparent 121.364%)",
+            "top": 801.4375,
+            "bottom": 1000
+          }
+        },
+        {
+          "viewport": "desktop",
+          "check": "finale reveals Veldara 8; feature cards fade away",
+          "passed": true
+        },
+        {
+          "viewport": "desktop",
+          "check": "Guides navigates to feature story",
+          "passed": true
+        },
+        {
+          "viewport": "desktop",
+          "check": "scroll cue works; social links are labeled; return to top restores hero",
+          "passed": true
+        },
+        {
+          "viewport": "mobile",
+          "check": "initial render, local video, extracted frames, Inter font, no overflow",
+          "passed": true,
+          "details": {
+            "title": "Veldara",
+            "width": 390,
+            "scrollWidth": 390,
+            "font": true,
+            "videoDuration": 10.041667,
+            "canvasVisible": "visible",
+            "heading": "Instantly craft immersive 3D worlds on the web."
+          }
+        },
+        {
+          "viewport": "mobile",
+          "check": "Get Started navigates to feature story; hero fades",
+          "passed": true
+        },
+        {
+          "viewport": "mobile",
+          "check": "video changes with scroll; feature reveal and responsive layout",
+          "passed": true,
+          "details": {
+            "opacity": 1,
+            "columns": "358px",
+            "mask": "linear-gradient(black 106.35%, transparent 126.35%)",
+            "top": 366.703125,
+            "bottom": 844
+          }
+        },
+        {
+          "viewport": "mobile",
+          "check": "finale reveals Veldara 8; feature cards fade away",
+          "passed": true
+        },
+        {
+          "viewport": "mobile",
+          "check": "scroll cue works; social links are labeled; return to top restores hero",
+          "passed": true
+        },
+        {
+          "check": "reduced motion disables arrow animation",
+          "passed": true
+        }
+      ],
+      "script_errors": [],
+      "failed_asset_requests": []
+    },
+    "fallback_and_overflow": {
+      "passed": true,
+      "report": "screenshots/fallback-checks.json",
+      "checks": [
+        {
+          "check": "video fallback scrubs when frame preloading fails",
+          "passed": true,
+          "videoTime": 6.594026
+        },
+        {
+          "check": "viewport overflow across six scroll positions",
+          "passed": true,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "check": "viewport overflow across six scroll positions",
+          "passed": true,
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          }
+        }
+      ]
+    },
+    "visual_review": {
+      "passed": true,
+      "screenshots": [
+        "screenshots/desktop.png",
+        "screenshots/mobile.png",
+        "screenshots/desktop-features.png",
+        "screenshots/mobile-features.png",
+        "screenshots/desktop-finale.png",
+        "screenshots/mobile-finale.png"
+      ]
+    },
+    "static_assets": {
+      "passed": true,
+      "source_matches_dist": true,
+      "local_video_bytes": 6282757,
+      "video_sha256": "f61466ccabe6e85731eb9f24b1b71e02d0111097f63f2826bdffba564ffde841",
+      "font_weights": [
+        400,
+        500,
+        600,
+        700
+      ]
+    }
+  },
+  "asset_issues": [],
+  "notes": [
+    "Website brand and document title are Veldara; project index title remains 3D Story.",
+    "Built for /motionsites-results/3d-story/; supplied video and Inter fonts are bundled locally.",
+    "The 120-frame preload may take over a minute in headless Chromium. Native video displays and scrubs during extraction and remains available when extraction fails.",
+    "Corrected initial zero-time frame seeking, seek timeout cleanup, and end-of-video seeking; retained supplied scroll timing, layout, copy, palette and animation sequence.",
+    "Empty internal links now target existing story sections; social links use service homepages because no brand account URLs were supplied.",
+    "Desktop/mobile browser checks and fallback checks passed. README.md documents running, verification and limitations.",
+    "No agents, deployment, push, external messages or other design sessions were created. Only this project was written.",
+    "Ready means available for management-session acceptance; it does not mean published."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "base": "/motionsites-results/3d-story/",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "check": "initial render, local video, extracted frames, Inter font, no overflow",
+      "passed": true,
+      "details": {
+        "title": "Veldara",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "font": true,
+        "videoDuration": 10.041667,
+        "canvasVisible": "visible",
+        "heading": "Instantly craft immersive 3D worlds on the web."
+      }
+    },
+    {
+      "viewport": "desktop",
+      "check": "Get Started navigates to feature story; hero fades",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "check": "video changes with scroll; feature reveal and responsive layout",
+      "passed": true,
+      "details": {
+        "opacity": 1,
+        "columns": "357.328px 357.328px 357.344px",
+        "mask": "linear-gradient(to right, black 106.364%, transparent 121.364%)",
+        "top": 801.4375,
+        "bottom": 1000
+      }
+    },
+    {
+      "viewport": "desktop",
+      "check": "finale reveals Veldara 8; feature cards fade away",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "check": "Guides navigates to feature story",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "check": "scroll cue works; social links are labeled; return to top restores hero",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "check": "initial render, local video, extracted frames, Inter font, no overflow",
+      "passed": true,
+      "details": {
+        "title": "Veldara",
+        "width": 390,
+        "scrollWidth": 390,
+        "font": true,
+        "videoDuration": 10.041667,
+        "canvasVisible": "visible",
+        "heading": "Instantly craft immersive 3D worlds on the web."
+      }
+    },
+    {
+      "viewport": "mobile",
+      "check": "Get Started navigates to feature story; hero fades",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "check": "video changes with scroll; feature reveal and responsive layout",
+      "passed": true,
+      "details": {
+        "opacity": 1,
+        "columns": "358px",
+        "mask": "linear-gradient(black 106.35%, transparent 126.35%)",
+        "top": 366.703125,
+        "bottom": 844
+      }
+    },
+    {
+      "viewport": "mobile",
+      "check": "finale reveals Veldara 8; feature cards fade away",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "check": "scroll cue works; social links are labeled; return to top restores hero",
+      "passed": true
+    },
+    {
+      "check": "reduced motion disables arrow animation",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "requestsFailed": [],
+  "passed": true
+}

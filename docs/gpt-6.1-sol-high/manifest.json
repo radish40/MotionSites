@@ -4965,19 +4965,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866d-f814-7012-9403-a4688bb452a0",
       "output_path": "generated/gpt-6.1-sol-high/impact-ventures",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3135415,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:51:56.116160+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "fed2f286bf91e73f58da370094dcaf7948145031",
+      "url": "https://tool.luo-xd.com/motionsites-results/impact-ventures/",
+      "completed_utc": "2026-10-29T06:58:58.442793+00:00",
+      "group_message_id": 198
     },
     {
       "number": 146,
@@ -4995,19 +4999,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866d-f982-7bc0-8e2a-6732f07bcb67",
       "output_path": "generated/gpt-6.1-sol-high/intelligentx",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3135547,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:51:56.401019+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "6ea40349600d1deef09b04bdf82d5f1a65fc8ba0",
+      "url": "https://tool.luo-xd.com/motionsites-results/intelligentx/",
+      "completed_utc": "2026-10-29T06:59:27.083928+00:00",
+      "group_message_id": 199
     },
     {
       "number": 147,
@@ -5056,14 +5064,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18672-32a7-7713-be0e-1eaf417e818f",
       "output_path": "generated/gpt-6.1-sol-high/interior-features",
       "validation": "",
       "notes": "",
       "process_id": 3152633,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:56:33.209914+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 149,
@@ -5082,14 +5094,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18672-3451-70b0-bd29-2129d11c5373",
       "output_path": "generated/gpt-6.1-sol-high/investment-hero",
       "validation": "",
       "notes": "",
       "process_id": 3152737,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:56:33.588750+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 150,
@@ -5107,11 +5123,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/jewelry-store",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3159359,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:58:28.482902+00:00",
+      "worker_state": "running"
     },
     {
       "number": 151,
@@ -5129,11 +5149,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/kova-features",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3159418,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:58:28.607391+00:00",
+      "worker_state": "running"
     },
     {
       "number": 152,
@@ -10174,7 +10198,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:57:27.587752+00:00",
+  "updated_utc": "2026-10-29T06:59:27.258593+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

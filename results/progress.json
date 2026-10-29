@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:57:27.587752+00:00",
+  "updated_utc": "2026-10-29T06:59:27.258593+00:00",
   "total": 380,
   "counts": {
-    "complete": 144,
+    "complete": 146,
     "running": 5,
-    "not_started": 231
+    "not_started": 229
   },
   "jobs": [
     {
@@ -1451,21 +1451,21 @@
       "id": "impact-ventures",
       "title": "Impact Ventures",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866d-f814-7012-9403-a4688bb452a0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "fed2f286bf91e73f58da370094dcaf7948145031",
+      "group_message_id": 198,
+      "url": "https://tool.luo-xd.com/motionsites-results/impact-ventures/"
     },
     {
       "id": "intelligentx",
       "title": "IntelligentX",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866d-f982-7bc0-8e2a-6732f07bcb67",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6ea40349600d1deef09b04bdf82d5f1a65fc8ba0",
+      "group_message_id": 199,
+      "url": "https://tool.luo-xd.com/motionsites-results/intelligentx/"
     },
     {
       "id": "interactive-portfolio",
@@ -1482,7 +1482,7 @@
       "title": "Interior Features",
       "category": "Features Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18672-32a7-7713-be0e-1eaf417e818f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1492,7 +1492,7 @@
       "title": "Investment Gate",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18672-3451-70b0-bd29-2129d11c5373",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1501,7 +1501,7 @@
       "id": "jewelry-store",
       "title": "Jewelry Store",
       "category": "E-commerce",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1511,7 +1511,7 @@
       "id": "kova-features",
       "title": "Kova Features",
       "category": "Benefits",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

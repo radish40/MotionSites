@@ -1,0 +1,130 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "document": {
+      "width": 1440,
+      "height": 1000
+    },
+    "video": {
+      "ready": 4,
+      "width": 1920,
+      "muted": true
+    },
+    "images": [
+      {
+        "src": "/motionsites-results/cargo-group/assets/map.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/cargo-group/assets/ship.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/cargo-group/assets/car.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/cargo-group/assets/plane.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/cargo-group/assets/cargo.png",
+        "loaded": true
+      }
+    ],
+    "font": true,
+    "fontFaces": [
+      {
+        "family": "Barlow Condensed",
+        "status": "unloaded"
+      },
+      {
+        "family": "Barlow Condensed",
+        "status": "unloaded"
+      },
+      {
+        "family": "Barlow Condensed",
+        "status": "unloaded"
+      },
+      {
+        "family": "Barlow Condensed",
+        "status": "loaded"
+      }
+    ],
+    "headline": "BEYOND\nBORDERS\nAND LIMITS",
+    "footerBottom": 1000,
+    "navHoverColor": "rgb(255, 218, 0)",
+    "ctaHoverTransform": "matrix(0, -1, 1, 0, 0, 0)",
+    "iconHoverTransform": "matrix(1.1196, 0, 0, 1.1196, 0, -3.98652)",
+    "gatedBeforeVideo": true,
+    "errors": [],
+    "failedRequests": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "document": {
+      "width": 390,
+      "height": 844
+    },
+    "video": {
+      "ready": 4,
+      "width": 1920,
+      "muted": true
+    },
+    "images": [
+      {
+        "src": "/motionsites-results/cargo-group/assets/map.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/cargo-group/assets/ship.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/cargo-group/assets/car.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/cargo-group/assets/plane.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/cargo-group/assets/cargo.png",
+        "loaded": true
+      }
+    ],
+    "font": true,
+    "fontFaces": [
+      {
+        "family": "Barlow Condensed",
+        "status": "unloaded"
+      },
+      {
+        "family": "Barlow Condensed",
+        "status": "unloaded"
+      },
+      {
+        "family": "Barlow Condensed",
+        "status": "unloaded"
+      },
+      {
+        "family": "Barlow Condensed",
+        "status": "loaded"
+      }
+    ],
+    "headline": "BEYOND\nBORDERS\nAND LIMITS",
+    "footerBottom": 844,
+    "menuOpened": true,
+    "menuItemCloses": true,
+    "escapeCloses": true,
+    "gatedBeforeVideo": true,
+    "errors": [],
+    "failedRequests": []
+  }
+}

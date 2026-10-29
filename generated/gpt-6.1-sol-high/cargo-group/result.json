@@ -1,0 +1,151 @@
+{
+  "title": "Cargo Group",
+  "id": "cargo-group",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "browser": "Chromium via playwright-core, actual dist served at required subpath",
+    "desktop_1440x1000": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "document": {
+        "width": 1440,
+        "height": 1000
+      },
+      "video": {
+        "ready": 4,
+        "width": 1920,
+        "muted": true
+      },
+      "images": [
+        {
+          "src": "/motionsites-results/cargo-group/assets/map.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/cargo-group/assets/ship.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/cargo-group/assets/car.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/cargo-group/assets/plane.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/cargo-group/assets/cargo.png",
+          "loaded": true
+        }
+      ],
+      "font": true,
+      "fontFaces": [
+        {
+          "family": "Barlow Condensed",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow Condensed",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow Condensed",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow Condensed",
+          "status": "loaded"
+        }
+      ],
+      "headline": "BEYOND\nBORDERS\nAND LIMITS",
+      "footerBottom": 1000,
+      "navHoverColor": "rgb(255, 218, 0)",
+      "ctaHoverTransform": "matrix(0, -1, 1, 0, 0, 0)",
+      "iconHoverTransform": "matrix(1.1196, 0, 0, 1.1196, 0, -3.98652)",
+      "gatedBeforeVideo": true,
+      "errors": [],
+      "failedRequests": []
+    },
+    "mobile_390x844": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 844
+      },
+      "video": {
+        "ready": 4,
+        "width": 1920,
+        "muted": true
+      },
+      "images": [
+        {
+          "src": "/motionsites-results/cargo-group/assets/map.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/cargo-group/assets/ship.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/cargo-group/assets/car.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/cargo-group/assets/plane.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/cargo-group/assets/cargo.png",
+          "loaded": true
+        }
+      ],
+      "font": true,
+      "fontFaces": [
+        {
+          "family": "Barlow Condensed",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow Condensed",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow Condensed",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow Condensed",
+          "status": "loaded"
+        }
+      ],
+      "headline": "BEYOND\nBORDERS\nAND LIMITS",
+      "footerBottom": 844,
+      "menuOpened": true,
+      "menuItemCloses": true,
+      "escapeCloses": true,
+      "gatedBeforeVideo": true,
+      "errors": [],
+      "failedRequests": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "Exact supplied media are included locally, alongside Barlow Condensed 800 and the required Google Fonts import.",
+    "Content/video gating, mobile menu, hover effects, image/font loading, script errors and page dimensions verified.",
+    "Navigation destinations and contact action were unspecified and were not invented.",
+    "Only this project was implemented. No agents or additional sessions were created."
+  ]
+}

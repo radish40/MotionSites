@@ -2,6 +2,7 @@
 node_modules/
 venv/
 .venv/
+/generated/gpt-6.1-sol-high/mythic-naturecore/.recovery-env/
 *.whl
 # Local packages used only by AeroCore's image recovery script
 /generated/gpt-6.1-sol-high/aerocore/scripts/repair/vendor/

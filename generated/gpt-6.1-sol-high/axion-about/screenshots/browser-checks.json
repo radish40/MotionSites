@@ -1,0 +1,170 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "pageWidth": 1440,
+    "viewportWidth": 1440,
+    "imagesLoaded": true,
+    "visibleImages": 2,
+    "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "imageBounds": [
+      {
+        "x": 48,
+        "y": 572.21875,
+        "width": 349.4375,
+        "height": 276.03125,
+        "right": 397.4375
+      },
+      {
+        "x": 778.765625,
+        "y": 418.1875,
+        "width": 645.109375,
+        "height": 430.0625,
+        "right": 1423.875
+      }
+    ],
+    "keyboardFocusable": true,
+    "hover": {
+      "before": {
+        "roll": "none",
+        "arrow": "matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)"
+      },
+      "after": {
+        "roll": "matrix(1, 0, 0, 1, 0, -20)",
+        "arrow": "matrix(1, 0, 0, 1, 0, 0)",
+        "color": "rgb(224, 90, 26)"
+      }
+    },
+    "buttonClickCompleted": true
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "pageWidth": 390,
+    "viewportWidth": 390,
+    "imagesLoaded": true,
+    "visibleImages": 2,
+    "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "imageBounds": [
+      {
+        "x": 20,
+        "y": 414.625,
+        "width": 350,
+        "height": 276.46875,
+        "right": 370
+      },
+      {
+        "x": 20,
+        "y": 707.09375,
+        "width": 350,
+        "height": 233.328125,
+        "right": 370
+      }
+    ],
+    "keyboardFocusable": true,
+    "hover": {
+      "before": {
+        "roll": "none",
+        "arrow": "matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)"
+      },
+      "after": {
+        "roll": "matrix(1, 0, 0, 1, 0, -20)",
+        "arrow": "matrix(1, 0, 0, 1, 0, 0)",
+        "color": "rgb(224, 90, 26)"
+      }
+    },
+    "buttonClickCompleted": true
+  },
+  {
+    "name": "tablet",
+    "viewport": {
+      "width": 768,
+      "height": 1000
+    },
+    "errors": [],
+    "pageWidth": 768,
+    "viewportWidth": 768,
+    "imagesLoaded": true,
+    "visibleImages": 2,
+    "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "imageBounds": [
+      {
+        "x": 32,
+        "y": 434.65625,
+        "width": 307.796875,
+        "height": 243.140625,
+        "right": 339.796875
+      },
+      {
+        "x": 359.796875,
+        "y": 434.65625,
+        "width": 376.203125,
+        "height": 250.796875,
+        "right": 736
+      }
+    ],
+    "keyboardFocusable": true,
+    "hover": {
+      "before": {
+        "roll": "none",
+        "arrow": "matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)"
+      },
+      "after": {
+        "roll": "matrix(1, 0, 0, 1, 0, -20)",
+        "arrow": "matrix(1, 0, 0, 1, 0, 0)",
+        "color": "rgb(224, 90, 26)"
+      }
+    },
+    "buttonClickCompleted": true
+  },
+  {
+    "name": "small-desktop",
+    "viewport": {
+      "width": 1024,
+      "height": 1000
+    },
+    "errors": [],
+    "pageWidth": 1024,
+    "viewportWidth": 1024,
+    "imagesLoaded": true,
+    "visibleImages": 2,
+    "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "imageBounds": [
+      {
+        "x": 48,
+        "y": 501.59375,
+        "width": 241.265625,
+        "height": 190.578125,
+        "right": 289.265625
+      },
+      {
+        "x": 619.34375,
+        "y": 395.21875,
+        "width": 445.4375,
+        "height": 296.953125,
+        "right": 1064.78125
+      }
+    ],
+    "keyboardFocusable": true,
+    "hover": {
+      "before": {
+        "roll": "none",
+        "arrow": "matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0)"
+      },
+      "after": {
+        "roll": "matrix(1, 0, 0, 1, 0, -20)",
+        "arrow": "matrix(1, 0, 0, 1, 0, 0)",
+        "color": "rgb(224, 90, 26)"
+      }
+    },
+    "buttonClickCompleted": true
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "title": "Axion About",
+  "id": "axion-about",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript check and Vite production build; dist/index.html exists",
+    "public_base": "/motionsites-results/axion-about/",
+    "browser": "Chromium using playwright-core against locally served dist files",
+    "viewports": ["1440x1000", "390x844", "768x1000", "1024x1000"],
+    "runtime_errors": 0,
+    "http_errors": 0,
+    "images": "Both supplied assets loaded successfully at every checked viewport",
+    "horizontal_page_scroll": "none at all checked viewports",
+    "interactions": "CTA keyboard focus and click checked; hover text translates -20px, arrow rotates from -45deg to 0deg, background changes to #e05a1a",
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/desktop-hover.png", "screenshots/small-desktop.png"],
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React 18 + TypeScript + Tailwind CSS 3.4 default theme + lucide-react; system fonts only.",
+    "Both exact provided image responses are bundled locally.",
+    "The exact prescribed desktop grid and nowrap paragraph expand the center column: at 1024px the right image extends about 40.8px beyond the viewport and is clipped by the required overflow-hidden. At 1440px it extends into the nominal right padding. No horizontal page scrolling occurs.",
+    "The prompt supplies no CTA destination; its specified button and hover behavior are implemented without an invented click action.",
+    "Ready means available for review, not deployed. No push, deployment, other sessions, or sub-agents were used."
+  ]
+}

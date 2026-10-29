@@ -1,0 +1,59 @@
+{
+  "title": "Nimbus Demo",
+  "id": "nimbus-demo",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; Vite 5.4.21; dist/index.html exists",
+    "publication_base": "/motionsites-results/nimbus-demo/",
+    "browser": "Chromium via Playwright Core",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "table_cell_overflow": false,
+        "responsive_layout": "passed",
+        "fonts": "IBM Plex Sans and Mono, 400/500 loaded"
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "horizontal_overflow": false,
+        "table_cell_overflow": false,
+        "responsive_layout": "passed",
+        "fonts": "IBM Plex Sans and Mono, 400/500 loaded"
+      },
+      {
+        "width": 820,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "table_cell_overflow": false,
+        "responsive_layout": "passed",
+        "fonts": "IBM Plex Sans and Mono, 400/500 loaded"
+      }
+    ],
+    "dashboard_hover_tilt_and_shine": "passed",
+    "table_row_hover": "passed",
+    "new_pool_button": "click checked; intentionally static per prompt",
+    "script_errors": [],
+    "failed_asset_requests": [],
+    "visual_review": "desktop and mobile screenshots reviewed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Only this project implemented with the specified HTML/CSS/Vite stack; script.js is empty.",
+    "Reference image viewed only for comparison; no screenshot used as an asset.",
+    "Phone table uses 12px text and 8px cell padding to prevent overflow.",
+    "Screenshots use required viewport dimensions with full-page capture.",
+    "Google Fonts is external and loaded successfully during verification.",
+    "Development audit: one moderate esbuild and one high Vite finding; required Vite major retained. See dependency-audit.json and README.md.",
+    "No agents, other sessions, other designs, deployment, push, or external messages. All created files are inside this project.",
+    "Ready for acceptance; not deployed."
+  ]
+}

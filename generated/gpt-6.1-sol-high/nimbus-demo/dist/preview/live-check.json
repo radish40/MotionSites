@@ -1,0 +1,37 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nimbus-demo/",
+  "checked_at": "2026-10-29T07:42:50.983Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nimbus Grid — Web console",
+      "bodyChars": 622,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nimbus Grid — Web console",
+      "bodyChars": 540,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

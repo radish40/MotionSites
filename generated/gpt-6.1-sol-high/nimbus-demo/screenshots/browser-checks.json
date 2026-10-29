@@ -1,0 +1,102 @@
+{
+  "url": "http://localhost:4173/motionsites-results/nimbus-demo/",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "fonts": [
+        {
+          "family": "IBM Plex Mono",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weight": "500",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "weight": "500",
+          "status": "loaded"
+        }
+      ],
+      "cellsOverflowing": [],
+      "sidebarColumns": "240px 1054px",
+      "toastPosition": "absolute",
+      "policyDisplay": "block",
+      "hoverTiltAndShine": "passed",
+      "rowHighlight": "passed"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "fonts": [
+        {
+          "family": "IBM Plex Mono",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weight": "500",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "weight": "500",
+          "status": "loaded"
+        }
+      ],
+      "cellsOverflowing": [],
+      "sidebarColumns": "352px",
+      "toastPosition": "static",
+      "policyDisplay": "none"
+    },
+    {
+      "width": 820,
+      "height": 1000,
+      "scrollWidth": 820,
+      "fonts": [
+        {
+          "family": "IBM Plex Mono",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weight": "500",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "weight": "500",
+          "status": "loaded"
+        }
+      ],
+      "cellsOverflowing": [],
+      "sidebarColumns": "736px",
+      "toastPosition": "static",
+      "policyDisplay": "none"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,414 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "fonts": {
+        "inter": true,
+        "serif": true
+      },
+      "images": [
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/0ae29d6d9628bede667f90d57bebe81b8f1ec2bf.svg",
+          "loaded": true,
+          "width": 300,
+          "height": 150
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/3e5158dad63d392ade022e81890edc9f54d750bc.png",
+          "loaded": true,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/76be6ec3a93a703b15e9cc01e764a4e3f9d7d2c0.png",
+          "loaded": true,
+          "width": 354,
+          "height": 574
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+          "loaded": true,
+          "width": 870,
+          "height": 762
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+          "loaded": true,
+          "width": 977,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+          "loaded": true,
+          "width": 870,
+          "height": 816
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/3e5158dad63d392ade022e81890edc9f54d750bc.png",
+          "loaded": true,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/76be6ec3a93a703b15e9cc01e764a4e3f9d7d2c0.png",
+          "loaded": true,
+          "width": 354,
+          "height": 574
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+          "loaded": true,
+          "width": 870,
+          "height": 762
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+          "loaded": true,
+          "width": 977,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+          "loaded": true,
+          "width": 870,
+          "height": 816
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/3e5158dad63d392ade022e81890edc9f54d750bc.png",
+          "loaded": true,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/76be6ec3a93a703b15e9cc01e764a4e3f9d7d2c0.png",
+          "loaded": true,
+          "width": 354,
+          "height": 574
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+          "loaded": true,
+          "width": 870,
+          "height": 762
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+          "loaded": true,
+          "width": 977,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+          "loaded": true,
+          "width": 870,
+          "height": 816
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "fonts": {
+        "inter": true,
+        "serif": true
+      },
+      "images": [
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/0ae29d6d9628bede667f90d57bebe81b8f1ec2bf.svg",
+          "loaded": true,
+          "width": 300,
+          "height": 150
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/3e5158dad63d392ade022e81890edc9f54d750bc.png",
+          "loaded": true,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/76be6ec3a93a703b15e9cc01e764a4e3f9d7d2c0.png",
+          "loaded": true,
+          "width": 354,
+          "height": 574
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+          "loaded": true,
+          "width": 870,
+          "height": 762
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+          "loaded": true,
+          "width": 977,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+          "loaded": true,
+          "width": 870,
+          "height": 816
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/3e5158dad63d392ade022e81890edc9f54d750bc.png",
+          "loaded": true,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/76be6ec3a93a703b15e9cc01e764a4e3f9d7d2c0.png",
+          "loaded": true,
+          "width": 354,
+          "height": 574
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+          "loaded": true,
+          "width": 870,
+          "height": 762
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+          "loaded": true,
+          "width": 977,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+          "loaded": true,
+          "width": 870,
+          "height": 816
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/3e5158dad63d392ade022e81890edc9f54d750bc.png",
+          "loaded": true,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/76be6ec3a93a703b15e9cc01e764a4e3f9d7d2c0.png",
+          "loaded": true,
+          "width": 354,
+          "height": 574
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+          "loaded": true,
+          "width": 870,
+          "height": 762
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+          "loaded": true,
+          "width": 977,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+          "loaded": true,
+          "width": 870,
+          "height": 816
+        }
+      ]
+    },
+    {
+      "name": "tablet",
+      "width": 834,
+      "height": 1112,
+      "scrollWidth": 834,
+      "scrollHeight": 1112,
+      "fonts": {
+        "inter": true,
+        "serif": true
+      },
+      "images": [
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/0ae29d6d9628bede667f90d57bebe81b8f1ec2bf.svg",
+          "loaded": true,
+          "width": 300,
+          "height": 150
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/3e5158dad63d392ade022e81890edc9f54d750bc.png",
+          "loaded": true,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/76be6ec3a93a703b15e9cc01e764a4e3f9d7d2c0.png",
+          "loaded": true,
+          "width": 354,
+          "height": 574
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+          "loaded": true,
+          "width": 870,
+          "height": 762
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+          "loaded": true,
+          "width": 977,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+          "loaded": true,
+          "width": 870,
+          "height": 816
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/3e5158dad63d392ade022e81890edc9f54d750bc.png",
+          "loaded": true,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/76be6ec3a93a703b15e9cc01e764a4e3f9d7d2c0.png",
+          "loaded": true,
+          "width": 354,
+          "height": 574
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+          "loaded": true,
+          "width": 870,
+          "height": 762
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+          "loaded": true,
+          "width": 977,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+          "loaded": true,
+          "width": 870,
+          "height": 816
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/3e5158dad63d392ade022e81890edc9f54d750bc.png",
+          "loaded": true,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/76be6ec3a93a703b15e9cc01e764a4e3f9d7d2c0.png",
+          "loaded": true,
+          "width": 354,
+          "height": 574
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+          "loaded": true,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+          "loaded": true,
+          "width": 870,
+          "height": 762
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+          "loaded": true,
+          "width": 977,
+          "height": 1024
+        },
+        {
+          "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+          "loaded": true,
+          "width": 870,
+          "height": 816
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    "Search cat and open result; add product; Escape closes dialog",
+    "Cart quantity updates subtotal in both directions",
+    "Favorite toggle updates header badge",
+    "Review dialog and external platform links",
+    "Navigation and account dialogs open and close",
+    "Mobile CTA and product arrow open product dialog"
+  ],
+  "scriptErrors": [],
+  "failedRequests": [],
+  "badResponses": []
+}

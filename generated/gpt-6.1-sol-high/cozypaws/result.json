@@ -1,0 +1,63 @@
+{
+  "title": "CozyPaws",
+  "id": "cozypaws",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/cozypaws:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "passed: Playwright Core with real Chromium against built static files at /motionsites-results/cozypaws/",
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "overflow": false,
+        "fonts_loaded": true,
+        "all_images_loaded": true
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "overflow": false,
+        "fonts_loaded": true,
+        "all_images_loaded": true
+      },
+      {
+        "name": "tablet",
+        "width": 834,
+        "height": 1112,
+        "overflow": false,
+        "fonts_loaded": true,
+        "all_images_loaded": true
+      }
+    ],
+    "interactions": [
+      "Search cat and open result; add product; Escape closes dialog",
+      "Cart quantity updates subtotal in both directions",
+      "Favorite toggle updates header badge",
+      "Review dialog and external platform links",
+      "Navigation and account dialogs open and close",
+      "Mobile CTA and product arrow open product dialog"
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/tablet.png"
+    ],
+    "visual_review": "Desktop, mobile, and tablet screenshots reviewed",
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session acceptance; not deployed.",
+    "React, TypeScript, Vite, Tailwind CSS, and Lucide React; dependency lockfile included.",
+    "All supplied assets are referenced externally and were available during browser verification. Google Fonts also loaded.",
+    "No video source or specific review links were supplied: review control opens the supplied image preview and platform homepage links.",
+    "Static prototype with visit-local cart/favorite state; initial badge counts match the prompt. No backend or checkout.",
+    "All work is contained in this project. No agents, other sessions, other designs, pushes, or deployments."
+  ]
+}

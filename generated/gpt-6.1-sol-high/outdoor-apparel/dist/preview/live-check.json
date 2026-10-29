@@ -1,0 +1,157 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/",
+  "checked_at": "2026-10-29T04:47:13.485Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "ALP1NE™",
+      "bodyChars": 946,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/jacket.fca57bc0.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/gaiters.aa2524de.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/shorts.1a032e36.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/cap.b10e4e2c.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/scarf.427effaf.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/backpack.0558dccb.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/boot.545d53aa.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/product-1.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/product-2.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/product-3.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/product-4.webp",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/hero.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "ALP1NE™",
+      "bodyChars": 870,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/jacket.fca57bc0.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/gaiters.aa2524de.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/shorts.1a032e36.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/cap.b10e4e2c.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/scarf.427effaf.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/backpack.0558dccb.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/boot.545d53aa.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/product-1.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/product-2.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/product-3.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/product-4.webp",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/assets/hero.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

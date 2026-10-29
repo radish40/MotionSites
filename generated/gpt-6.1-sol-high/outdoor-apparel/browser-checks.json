@@ -1,0 +1,203 @@
+{
+  "desktop": {
+    "initial": {
+      "title": "ALP1NE™",
+      "font": true,
+      "video": {
+        "ready": 4,
+        "duration": 5.041667,
+        "paused": true
+      },
+      "images": [
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/jacket.fca57bc0.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/gaiters.aa2524de.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/shorts.1a032e36.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/cap.b10e4e2c.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/scarf.427effaf.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/backpack.0558dccb.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/boot.545d53aa.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/product-1.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/product-2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/product-3.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/product-4.webp",
+          "loaded": true
+        }
+      ],
+      "overflow": false
+    },
+    "clockChanges": true,
+    "scrub": {
+      "currentTime": 1.980596,
+      "titleOpacity": 0.761525
+    },
+    "collage": {
+      "overflow": false,
+      "transform": "translate3d(15.9532px, 53.1773px, 0px) rotate(-1.24495deg)"
+    },
+    "collection": {
+      "clip": "inset(7.98572e-06% round 3px)",
+      "position": 4026,
+      "label": "Shell Jacket ↟$1,200"
+    },
+    "transitions": [
+      {
+        "visible": "Shell Jacket",
+        "symbol": "◇"
+      },
+      {
+        "visible": "Arc Layer",
+        "symbol": "↟"
+      },
+      {
+        "visible": "Field Cap",
+        "symbol": "∿"
+      },
+      {
+        "visible": "Summit Haul 40",
+        "symbol": "✦"
+      }
+    ],
+    "reverses": {
+      "video": 0.095077,
+      "clip": "inset(50% round 3px)",
+      "overflow": false
+    },
+    "errors": [],
+    "failed": [],
+    "responses": []
+  },
+  "mobile": {
+    "initial": {
+      "title": "ALP1NE™",
+      "font": true,
+      "video": {
+        "ready": 4,
+        "duration": 5.041667,
+        "paused": true
+      },
+      "images": [
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/jacket.fca57bc0.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/gaiters.aa2524de.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/shorts.1a032e36.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/cap.b10e4e2c.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/scarf.427effaf.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/backpack.0558dccb.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/boot.545d53aa.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/product-1.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/product-2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/product-3.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/outdoor-apparel/assets/product-4.webp",
+          "loaded": true
+        }
+      ],
+      "overflow": false
+    },
+    "clockChanges": true,
+    "mobileMenu": {
+      "opens": true,
+      "visible": true,
+      "closesOnLink": true
+    },
+    "scrub": {
+      "currentTime": 2.007966,
+      "titleOpacity": 0.756293
+    },
+    "collage": {
+      "overflow": false,
+      "transform": "translate3d(0.461572px, 1.53857px, 0px) rotate(-0.0360201deg)"
+    },
+    "collection": {
+      "clip": "inset(0% round 3px)",
+      "position": 3121,
+      "label": "Shell Jacket ↟$1,200"
+    },
+    "transitions": [
+      {
+        "visible": "Shell Jacket",
+        "symbol": "◇"
+      },
+      {
+        "visible": "Arc Layer",
+        "symbol": "∧"
+      },
+      {
+        "visible": "Field Cap",
+        "symbol": "∴"
+      },
+      {
+        "visible": "Summit Haul 40",
+        "symbol": "∧"
+      }
+    ],
+    "reverses": {
+      "video": 0.00159,
+      "clip": "inset(50% round 3px)",
+      "overflow": false
+    },
+    "errors": [],
+    "failed": [],
+    "responses": []
+  }
+}

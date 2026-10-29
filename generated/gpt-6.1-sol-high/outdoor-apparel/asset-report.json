@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_39ca84eAE1ODL9hbR5VhoEj8tBf/hf_20260706_124521_30407ad9-28f0-481c-9d64-641c619e47e0.mp4",
+    "file": "assets/hero.mp4",
+    "status": "ok",
+    "bytes": 8992934,
+    "error": ""
+  },
+  {
+    "url": "https://order-twine-70493179.figma.site/_components/v2/5922cc7522062a402e02d607e26cc654a692d2ad/jacket.fca57bc0.png",
+    "file": "assets/jacket.fca57bc0.png",
+    "status": "ok",
+    "bytes": 291002,
+    "error": ""
+  },
+  {
+    "url": "https://order-twine-70493179.figma.site/_components/v2/5922cc7522062a402e02d607e26cc654a692d2ad/gaiters.aa2524de.png",
+    "file": "assets/gaiters.aa2524de.png",
+    "status": "ok",
+    "bytes": 103132,
+    "error": ""
+  },
+  {
+    "url": "https://order-twine-70493179.figma.site/_components/v2/5922cc7522062a402e02d607e26cc654a692d2ad/shorts.1a032e36.png",
+    "file": "assets/shorts.1a032e36.png",
+    "status": "ok",
+    "bytes": 107597,
+    "error": ""
+  },
+  {
+    "url": "https://order-twine-70493179.figma.site/_components/v2/5922cc7522062a402e02d607e26cc654a692d2ad/cap.b10e4e2c.png",
+    "file": "assets/cap.b10e4e2c.png",
+    "status": "ok",
+    "bytes": 50060,
+    "error": ""
+  },
+  {
+    "url": "https://order-twine-70493179.figma.site/_components/v2/5922cc7522062a402e02d607e26cc654a692d2ad/scarf.427effaf.png",
+    "file": "assets/scarf.427effaf.png",
+    "status": "ok",
+    "bytes": 82726,
+    "error": ""
+  },
+  {
+    "url": "https://order-twine-70493179.figma.site/_components/v2/5922cc7522062a402e02d607e26cc654a692d2ad/backpack.0558dccb.png",
+    "file": "assets/backpack.0558dccb.png",
+    "status": "ok",
+    "bytes": 250464,
+    "error": ""
+  },
+  {
+    "url": "https://order-twine-70493179.figma.site/_components/v2/5922cc7522062a402e02d607e26cc654a692d2ad/boot.545d53aa.png",
+    "file": "assets/boot.545d53aa.png",
+    "status": "ok",
+    "bytes": 44014,
+    "error": ""
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260707_111701_92784626-1c2b-4db6-afd7-dd456e7a4717.png&w=1920&q=85",
+    "file": "assets/product-1.webp",
+    "status": "ok",
+    "bytes": 188958,
+    "error": ""
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260707_111730_62a35ec8-335d-4bea-9337-780589328a03.png&w=1920&q=85",
+    "file": "assets/product-2.webp",
+    "status": "ok",
+    "bytes": 256986,
+    "error": ""
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260707_111749_b8ced0e0-177c-4cca-9d14-b3fdd7bedf27.png&w=1920&q=85",
+    "file": "assets/product-3.webp",
+    "status": "ok",
+    "bytes": 139782,
+    "error": ""
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260707_111837_c28c966d-4a92-408f-8ac3-0c9bac445704.png&w=1920&q=85",
+    "file": "assets/product-4.webp",
+    "status": "ok",
+    "bytes": 229228,
+    "error": ""
+  }
+]

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#575234">
+<meta name="description" content="ALP1NE™ — Technical gear for the moments that begin where comfort ends.">
+<title>ALP1NE™</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%23575234'/%3E%3Cpath d='M8 31L20 8l12 23H8m6-11h12' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://i.ibb.co" crossorigin>
+<link rel="preconnect" href="https://d8j0ntlcm91z4.cloudfront.net" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { overscroll-behavior: none; overflow-x: hidden; }
+body { background-color: transparent; font-family: "Inter Tight", sans-serif; font-weight: 600; min-height: 100vh; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+button { border: 0; cursor: pointer; }
+a:focus-visible, button:focus-visible { outline: 2px solid #9aaf4e; outline-offset: 4px; }
+#background-wrapper { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1; overflow: hidden; background: #33382e; }
+.bg-video { width: 100%; height: 100%; object-fit: cover; display: block; }
+#header-container { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 12px 14px 0; background: transparent; }
+.cell { background-color: #ffffff; backdrop-filter: none; color: #000000; font-family: "Inter Tight", sans-serif; font-weight: 600; font-size: 18px; letter-spacing: .01em; padding: 10px 14px; border-radius: 3px; white-space: nowrap; display: inline-flex; align-items: center; justify-content: center; }
+a.cell, button.cell { transition: background-color .2s; }
+a.cell:hover, button.cell:hover { background-color: #e7e7db; }
+#header-left, #header-center, #header-right { display: flex; gap: 6px; align-items: center; }
+.center-cell { min-width: 140px; }
+#menu-toggle-btn { display: none !important; }
+#mobile-menu-overlay { position: fixed; inset: 0; z-index: 99; opacity: 0; pointer-events: none; background: rgba(0,0,0,0); backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px); transition: opacity .4s cubic-bezier(.16,1,.3,1), background-color .4s cubic-bezier(.16,1,.3,1), backdrop-filter .4s cubic-bezier(.16,1,.3,1); display: flex; align-items: center; justify-content: center; }
+#mobile-menu-overlay.active { opacity: 1; pointer-events: auto; background: rgba(0,0,0,.08); backdrop-filter: blur(25px); -webkit-backdrop-filter: blur(25px); }
+.mobile-menu-content { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.mobile-menu-content .cell { opacity: 0; transform: translateY(20px) scale(.96); transition: opacity .4s cubic-bezier(.16,1,.3,1), transform .4s cubic-bezier(.16,1,.3,1); transition-delay: calc(var(--i) * .04s); }
+.active .mobile-menu-content .cell { opacity: 1; transform: translateY(0) scale(1); }
+#bottom-title-container { position: fixed; bottom: 12px; left: 14px; right: 14px; z-index: 19; pointer-events: none; display: flex; justify-content: center; align-items: flex-end; mix-blend-mode: difference; will-change: transform, opacity, filter; }
+.bottom-title-text { font-size: 80px; font-weight: 600; line-height: 1; letter-spacing: -.015em; text-transform: uppercase; color: #ffffff; mix-blend-mode: difference; text-align: center; }
+.hero-spacer { height: 250vh; pointer-events: none; }
+.yellow-text-section { --pscale: 1; background-color: #575234; width: 100%; padding: 224px 24px; display: flex; justify-content: center; align-items: center; position: relative; z-index: 20; }
+.text-block-container { max-width: 1406px; width: 100%; margin: 0 auto; color: #ffffff; mix-blend-mode: difference; display: flex; flex-direction: column; gap: 32px; position: relative; z-index: 10; }
+.text-block-container p { font-size: 70px; line-height: 1.05; letter-spacing: -.03em; text-indent: 140px; text-align: left; }
+.parallax-layer { position: absolute; inset: 0; pointer-events: none; }
+.parallax-layer.back { z-index: 5; }
+.parallax-layer.front { z-index: 11; }
+.parallax-item { position: absolute; height: auto; will-change: transform; }
+.item-jacket { top: 2%; left: 7%; width: calc(640px * var(--pscale)); }
+.item-gaiters { top: 58%; left: 74%; width: calc(346px * var(--pscale)); }
+.item-shorts { top: 9%; left: 66%; width: calc(326px * var(--pscale)); }
+.item-cap { top: 33%; left: 7%; width: calc(310px * var(--pscale)); }
+.item-scarf { top: 28%; left: 64%; width: calc(467px * var(--pscale)); }
+.item-backpack { top: 50%; left: 37%; width: calc(596px * var(--pscale)); }
+.item-boot { top: 72%; left: 13%; width: calc(224px * var(--pscale)); }
+#loop-scroll-spacer { height: 3400px; width: 100%; background-color: #575234; position: relative; z-index: 20; }
+#product-slider-overlay { position: fixed; inset: 0; z-index: 30; display: flex; clip-path: inset(50% 50% 50% 50%); -webkit-clip-path: inset(50% 50% 50% 50%); pointer-events: none; }
+#product-slider-track { display: flex; height: 100%; will-change: transform; }
+.product-card { position: relative; width: 100vw; height: 100vh; flex-shrink: 0; overflow: hidden; background: #747260; }
+.product-card img { width: 140%; max-width: none; height: 100%; object-fit: cover; margin-left: -20%; will-change: transform; }
+.product-info { position: absolute; bottom: 32px; left: 32px; display: flex; gap: 8px; }
+.product-info .cell { font-size: 18px; padding: 13px; letter-spacing: -.03em; }
+#slider-symbol { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 600px; line-height: 1; color: #ffffff; mix-blend-mode: difference; z-index: 51; transition: opacity .2s ease; pointer-events: none; visibility: hidden; }
+@media(max-width:1200px) { .bottom-title-text { font-size: 60px; } .yellow-text-section { --pscale: .72; } .text-block-container p { font-size: 54px; text-indent: 100px; } }
+@media(max-width:1024px) { #header-left > .cell:not(#cell-brand), #header-center, #header-right > a { display: none; } #menu-toggle-btn { display: inline-flex !important; } #cell-brand, #menu-toggle-btn { font-size: 16px; padding: 10px 14px; } }
+@media(max-width:768px) { .bottom-title-text { font-size: 40px; } .yellow-text-section { --pscale: .5; } .text-block-container p { font-size: 34px; text-indent: 60px; } #slider-symbol { font-size: 200px; } }
+@media(max-width:480px) { .bottom-title-text { font-size: 28px; } .yellow-text-section { --pscale: .4; } .text-block-container p { font-size: 24px; text-indent: 40px; } }
+</style>
+</head>
+<body>
+<div id="background-wrapper" aria-hidden="true"><video id="bg-video" class="bg-video" playsinline webkit-playsinline autoplay muted preload="auto" referrerpolicy="no-referrer" src="/motionsites-results/outdoor-apparel/assets/hero.mp4"></video></div>
+<header id="header-container">
+<div id="header-left"><a class="cell" id="cell-brand" href="#top" aria-label="ALP1NE home">ALP1NE™</a><span class="cell" id="clock-text"></span></div>
+<nav id="header-center" aria-label="Main"><a class="cell center-cell" href="#collection">Collection</a><a class="cell center-cell" href="#journal">Journal</a><a class="cell center-cell" href="#about">About</a></nav>
+<div id="header-right"><a class="cell" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a><a class="cell" href="#press">Press</a><button class="cell" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-menu-overlay">Menu</button></div>
+</header>
+<div id="mobile-menu-overlay" aria-hidden="true" inert>
+<nav class="mobile-menu-content" aria-label="Mobile"><span class="cell" id="mobile-clock-text" style="--i:0"></span><a class="cell" href="#collection" style="--i:1">Collection</a><a class="cell" href="#journal" style="--i:2">Journal</a><a class="cell" href="#about" style="--i:3">About</a><a class="cell" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style="--i:4">Instagram</a><a class="cell" href="#press" style="--i:5">Press</a></nav>
+</div>
+<div id="bottom-title-container"><h1 class="bottom-title-text">We work in weathered nylon, laminated layers, and raw shell.</h1></div>
+<main id="top">
+<div class="hero-spacer"></div>
+<section class="yellow-text-section" id="about" aria-label="Our approach">
+<div class="parallax-layer back" aria-hidden="true">
+<img class="parallax-item item-jacket" src="/motionsites-results/outdoor-apparel/assets/jacket.fca57bc0.png" alt="" data-speed="0.14" data-drift="-0.22" data-rot="-0.6">
+<img class="parallax-item item-gaiters" src="/motionsites-results/outdoor-apparel/assets/gaiters.aa2524de.png" alt="" data-speed="0.42" data-drift="0.26" data-rot="-1.0">
+</div>
+<div class="text-block-container">
+<p>We build gear ⟡ for people who see the outdoors ≠ as more than scenery ∴ they see it as a challenge.</p>
+<p>Every jacket ⊹ every layer ⊹ every detail is engineered ∿ to perform in the harshest conditions ⟶ so you can stay focused on the journey.</p>
+<p>We believe true performance ⟡ isn't measured by appearance ∴ but by how your gear responds to rain ∧ snow ∧ relentless wind ∧ high-altitude environments.</p>
+<p id="journal">Whether you're heading into a multi-day expedition ↟ climbing a summit ◇ or hiking before sunrise ⊹ our equipment is built to help you move with confidence.</p>
+<p id="press">Because the moments that matter most begin where comfort ends ✦ adventure begins.</p>
+</div>
+<div class="parallax-layer front" aria-hidden="true">
+<img class="parallax-item item-shorts" src="/motionsites-results/outdoor-apparel/assets/shorts.1a032e36.png" alt="" data-speed="0.44" data-drift="0.28" data-rot="0.9">
+<img class="parallax-item item-cap" src="/motionsites-results/outdoor-apparel/assets/cap.b10e4e2c.png" alt="" data-speed="0.46" data-drift="-0.30" data-rot="1.4">
+<img class="parallax-item item-scarf" src="/motionsites-results/outdoor-apparel/assets/scarf.427effaf.png" alt="" data-speed="0.30" data-drift="0.24" data-rot="-1.2">
+<img class="parallax-item item-backpack" src="/motionsites-results/outdoor-apparel/assets/backpack.0558dccb.png" alt="" data-speed="0.18" data-drift="0.16" data-rot="0.5">
+<img class="parallax-item item-boot" src="/motionsites-results/outdoor-apparel/assets/boot.545d53aa.png" alt="" data-speed="0.60" data-drift="-0.30" data-rot="1.8">
+</div>
+</section>
+<div id="loop-scroll-spacer" aria-hidden="true"></div>
+</main>
+<section id="product-slider-overlay" aria-label="Collection" aria-hidden="true">
+<div id="product-slider-track">
+<article class="product-card" aria-label="Shell Jacket"><img src="/motionsites-results/outdoor-apparel/assets/product-1.webp" alt="ALP1NE Shell Jacket in the field"><div class="product-info"><span class="cell">Shell Jacket ↟</span><span class="cell">$1,200</span></div></article>
+<article class="product-card" aria-label="Arc Layer"><img src="/motionsites-results/outdoor-apparel/assets/product-2.webp" alt="ALP1NE Arc Layer in the field"><div class="product-info"><span class="cell">Arc Layer ◇</span><span class="cell">$890</span></div></article>
+<article class="product-card" aria-label="Field Cap"><img src="/motionsites-results/outdoor-apparel/assets/product-3.webp" alt="ALP1NE Field Cap in the field"><div class="product-info"><span class="cell">Field Cap ⊹</span><span class="cell">$180</span></div></article>
+<article class="product-card" aria-label="Summit Haul 40"><img src="/motionsites-results/outdoor-apparel/assets/product-4.webp" alt="ALP1NE Summit Haul 40 in the field"><div class="product-info"><span class="cell">Summit Haul 40 ↟</span><span class="cell">$540</span></div></article>
+</div>
+</section>
+<div id="slider-symbol" aria-hidden="true">◇</div>
+<script>
+const $ = s => document.querySelector(s);
+const video = $('#bg-video'), hero = $('.hero-spacer'), title = $('#bottom-title-container');
+const section = $('.yellow-text-section'), slider = $('#product-slider-overlay'), track = $('#product-slider-track'), symbol = $('#slider-symbol');
+const gear = [...document.querySelectorAll('.parallax-item')], cards = [...document.querySelectorAll('.product-card')];
+const menu = $('#mobile-menu-overlay'), toggle = $('#menu-toggle-btn');
+function setMenu(open) {
+ menu.classList.toggle('active', open); menu.inert = !open; menu.setAttribute('aria-hidden', String(!open));
+ toggle.textContent = open ? 'Close' : 'Menu'; toggle.setAttribute('aria-expanded', String(open));
+ document.body.style.overflowY = open ? 'hidden' : '';
+}
+toggle.addEventListener('click', () => setMenu(!menu.classList.contains('active')));
+menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+document.addEventListener('keydown', e => {
+ if (!menu.classList.contains('active')) return;
+ if (e.key === 'Escape') { setMenu(false); toggle.focus(); }
+ if (e.key === 'Tab') {
+  const links = [...menu.querySelectorAll('a')], first = toggle, last = links.at(-1);
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+ }
+});
+function updateClock() {
+ const d = new Date();
+ const time = [d.getHours(), d.getMinutes(), d.getSeconds()].map(n => String(n).padStart(2,'0')).join(':');
+ const day = d.toLocaleDateString('en-US', {weekday:'long'}), month = d.toLocaleDateString('en-US', {month:'long'});
+ const text = `${time} (PST) ${day} ${month} ${d.getDate()} ${d.getFullYear()}`;
+ $('#clock-text').textContent = text; $('#mobile-clock-text').textContent = text;
+}
+updateClock(); setInterval(updateClock,1000);
+let priming = false;
+function primeVideo() {
+ if (priming) return;
+ priming = true; video.muted = true;
+ const promise = video.play();
+ if (promise) promise.then(() => { video.pause(); priming = false; }).catch(() => { priming = false; });
+ else { video.pause(); priming = false; }
+}
+video.addEventListener('loadeddata', primeVideo, {once:true});
+window.addEventListener('touchstart', primeVideo, {once:true,passive:true});
+window.addEventListener('click', primeVideo, {once:true,passive:true});
+const clamp = (v,min=0,max=1) => Math.max(min,Math.min(max,v));
+const lerp = (a,b,f) => a + (b-a)*f;
+const ease = t => t < .5 ? 4*t*t*t : 1-Math.pow(-2*t+2,3)/2;
+const REVEAL_PX = 700, CARD_PX = 900*(cards.length-1);
+let titleP=0, parallaxP=0, revealP=0, cardP=0, videoTime=0, lastSeek=0, lastCard=0, symbolTimer;
+let metrics;
+function measure() {
+ metrics={height:window.innerHeight,width:window.innerWidth,hero:hero.offsetHeight,sectionTop:section.offsetTop,sectionHeight:section.offsetHeight,max:document.documentElement.scrollHeight-window.innerHeight};
+ if(window.innerWidth>1024) setMenu(false);
+}
+measure(); window.addEventListener('resize', measure, {passive:true});
+document.fonts.ready.then(measure);
+function collectionScroll() { return metrics.max-CARD_PX; }
+document.querySelectorAll('a[href="#collection"]').forEach(a=>a.addEventListener('click', e=> { e.preventDefault(); window.scrollTo({top:collectionScroll(),behavior:'smooth'}); }));
+function animate(now) {
+ const y=window.scrollY;
+ const progress=clamp(y/metrics.hero);
+ if(Number.isFinite(video.duration) && video.duration>0 && !priming) {
+  videoTime=lerp(videoTime,progress*Math.max(0,video.duration-.04),.12);
+  if(now-lastSeek>=30 && video.readyState>=2 && !video.seeking && Math.abs(video.currentTime-videoTime)>.018) {
+   video.currentTime=videoTime; lastSeek=now;
+  }
+ }
+ titleP=lerp(titleP,clamp(progress/.85),.12);
+ const revealStart=metrics.max-REVEAL_PX-CARD_PX;
+ revealP=lerp(revealP,clamp((y-revealStart)/REVEAL_PX),.15);
+ const opening=ease(revealP), inset=50*(1-opening);
+ const clip=`inset(${inset}% ${inset}% ${inset}% ${inset}% round 3px)`;
+ slider.style.clipPath=clip; slider.style.webkitClipPath=clip;
+ slider.setAttribute('aria-hidden',String(opening<.01));
+ title.style.transform=`translateY(${-150*titleP}px) scale(${1-.2*titleP})`;
+ title.style.opacity=(1-clamp((titleP-.3)/.7))*(1-opening);
+ title.style.filter=`blur(${24*titleP}px)`;
+ if(y+metrics.height>metrics.sectionTop-600 && y<metrics.sectionTop+metrics.sectionHeight+600) {
+  const p=clamp((y+metrics.height/2-metrics.sectionTop-metrics.sectionHeight/2)/((metrics.sectionHeight+metrics.height)/2),-1.2,1.2);
+  parallaxP=lerp(parallaxP,p,.12);
+  gear.forEach(item=> {
+   const {speed,drift,rot}=item.dataset;
+   item.style.transform=`translate3d(${parallaxP*speed*drift*520}px,${-parallaxP*speed*520}px,0) rotate(${parallaxP*rot*4}deg)`;
+  });
+ }
+ cardP=lerp(cardP,clamp((y-revealStart-REVEAL_PX)/CARD_PX)*(cards.length-1),.12);
+ track.style.transform=`translate3d(${-cardP*metrics.width}px,0,0)`;
+ cards.forEach((card,i)=> {
+  card.querySelector('img').style.transform=`translate3d(${(cardP-i)*metrics.width*.18}px,0,0)`;
+  card.setAttribute('aria-hidden',String(Math.round(cardP)!==i));
+ });
+ symbol.style.visibility=opening>.98?'visible':'hidden';
+ const active=Math.round(cardP);
+ if(active!==lastCard) {
+  lastCard=active; symbol.style.opacity='0'; clearTimeout(symbolTimer);
+  symbolTimer=setTimeout(()=> {
+   const symbols=['◇','≠','↟','✦','⊹','∧','⟡','∴','⟶','∿'].filter(s=>s!==symbol.textContent);
+   symbol.textContent=symbols[Math.floor(Math.random()*symbols.length)]; symbol.style.opacity='1';
+  },150);
+ }
+ requestAnimationFrame(animate);
+}
+requestAnimationFrame(animate);
+</script>
+</body>
+</html>

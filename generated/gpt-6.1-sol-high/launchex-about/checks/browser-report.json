@@ -1,0 +1,205 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/launchex-about/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "sectionHeight": 1000,
+      "background": "rgb(240, 245, 247)",
+      "columns": 3,
+      "cards": [
+        {
+          "x": 80,
+          "y": 413.5,
+          "height": 340,
+          "clipPath": "polygon(64px 0px, calc(100% - 14px) 0px, calc(100% - 4px) 4px, 100% 14px, 100% calc(100% - 14px), calc(100% - 4px) calc(100% - 4px), calc(100% - 14px) 100%, 14px 100%, 4px calc(100% - 4px), 0px calc(100% - 14px), 0px 64px)"
+        },
+        {
+          "x": 513.328125,
+          "y": 509.5,
+          "height": 340,
+          "clipPath": "polygon(0px 14px, 4px 4px, 14px 0px, calc(100% - 64px) 0px, 100% 64px, 100% calc(100% - 14px), calc(100% - 4px) calc(100% - 4px), calc(100% - 14px) 100%, 64px 100%, 0px calc(100% - 64px))"
+        },
+        {
+          "x": 946.65625,
+          "y": 413.5,
+          "height": 340,
+          "clipPath": "polygon(0px 14px, 4px 4px, 14px 0px, calc(100% - 64px) 0px, 100% 64px, 100% calc(100% - 64px), calc(100% - 64px) 100%, 14px 100%, 4px calc(100% - 4px), 0px calc(100% - 14px))"
+        }
+      ],
+      "assets": [
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/market.webp",
+          "loaded": true,
+          "width": 1280
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/ventures.webp",
+          "loaded": true,
+          "width": 1280
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/sessions.webp",
+          "loaded": true,
+          "width": 1280
+        }
+      ],
+      "interLoaded": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "documentWidth": 390,
+      "sectionHeight": 1480.375,
+      "background": "rgb(240, 245, 247)",
+      "columns": 1,
+      "cards": [
+        {
+          "x": 24,
+          "y": 520.375,
+          "height": 280,
+          "clipPath": "polygon(64px 0px, calc(100% - 14px) 0px, calc(100% - 4px) 4px, 100% 14px, 100% calc(100% - 14px), calc(100% - 4px) calc(100% - 4px), calc(100% - 14px) 100%, 14px 100%, 4px calc(100% - 4px), 0px calc(100% - 14px), 0px 64px)"
+        },
+        {
+          "x": 24,
+          "y": 820.375,
+          "height": 280,
+          "clipPath": "polygon(0px 14px, 4px 4px, 14px 0px, calc(100% - 64px) 0px, 100% 64px, 100% calc(100% - 14px), calc(100% - 4px) calc(100% - 4px), calc(100% - 14px) 100%, 64px 100%, 0px calc(100% - 64px))"
+        },
+        {
+          "x": 24,
+          "y": 1120.375,
+          "height": 280,
+          "clipPath": "polygon(0px 14px, 4px 4px, 14px 0px, calc(100% - 64px) 0px, 100% 64px, 100% calc(100% - 64px), calc(100% - 64px) 100%, 14px 100%, 4px calc(100% - 4px), 0px calc(100% - 14px))"
+        }
+      ],
+      "assets": [
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/market.webp",
+          "loaded": true,
+          "width": 1280
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/ventures.webp",
+          "loaded": true,
+          "width": 1280
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/sessions.webp",
+          "loaded": true,
+          "width": 1280
+        }
+      ],
+      "interLoaded": true
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "documentWidth": 768,
+      "sectionHeight": 1318.1875,
+      "background": "rgb(240, 245, 247)",
+      "columns": 2,
+      "cards": [
+        {
+          "x": 40,
+          "y": 506.1875,
+          "height": 340,
+          "clipPath": "polygon(64px 0px, calc(100% - 14px) 0px, calc(100% - 4px) 4px, 100% 14px, 100% calc(100% - 14px), calc(100% - 4px) calc(100% - 4px), calc(100% - 14px) 100%, 14px 100%, 4px calc(100% - 4px), 0px calc(100% - 14px), 0px 64px)"
+        },
+        {
+          "x": 394,
+          "y": 506.1875,
+          "height": 340,
+          "clipPath": "polygon(0px 14px, 4px 4px, 14px 0px, calc(100% - 64px) 0px, 100% 64px, 100% calc(100% - 14px), calc(100% - 4px) calc(100% - 4px), calc(100% - 14px) 100%, 64px 100%, 0px calc(100% - 64px))"
+        },
+        {
+          "x": 40,
+          "y": 866.1875,
+          "height": 340,
+          "clipPath": "polygon(0px 14px, 4px 4px, 14px 0px, calc(100% - 64px) 0px, 100% 64px, 100% calc(100% - 64px), calc(100% - 64px) 100%, 14px 100%, 4px calc(100% - 4px), 0px calc(100% - 14px))"
+        }
+      ],
+      "assets": [
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/market.webp",
+          "loaded": true,
+          "width": 1280
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/ventures.webp",
+          "loaded": true,
+          "width": 1280
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/sessions.webp",
+          "loaded": true,
+          "width": 1280
+        }
+      ],
+      "interLoaded": true
+    },
+    {
+      "name": "small-desktop",
+      "width": 1024,
+      "height": 900,
+      "viewport": 1024,
+      "documentWidth": 1024,
+      "sectionHeight": 923,
+      "background": "rgb(240, 245, 247)",
+      "columns": 3,
+      "cards": [
+        {
+          "x": 40,
+          "y": 375,
+          "height": 340,
+          "clipPath": "polygon(64px 0px, calc(100% - 14px) 0px, calc(100% - 4px) 4px, 100% 14px, 100% calc(100% - 14px), calc(100% - 4px) calc(100% - 4px), calc(100% - 14px) 100%, 14px 100%, 4px calc(100% - 4px), 0px calc(100% - 14px), 0px 64px)"
+        },
+        {
+          "x": 361.328125,
+          "y": 471,
+          "height": 340,
+          "clipPath": "polygon(0px 14px, 4px 4px, 14px 0px, calc(100% - 64px) 0px, 100% 64px, 100% calc(100% - 14px), calc(100% - 4px) calc(100% - 4px), calc(100% - 14px) 100%, 64px 100%, 0px calc(100% - 64px))"
+        },
+        {
+          "x": 682.65625,
+          "y": 375,
+          "height": 340,
+          "clipPath": "polygon(0px 14px, 4px 4px, 14px 0px, calc(100% - 64px) 0px, 100% 64px, 100% calc(100% - 64px), calc(100% - 64px) 100%, 14px 100%, 4px calc(100% - 4px), 0px calc(100% - 14px))"
+        }
+      ],
+      "assets": [
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/market.webp",
+          "loaded": true,
+          "width": 1280
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/ventures.webp",
+          "loaded": true,
+          "width": 1280
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/launchex-about/assets/sessions.webp",
+          "loaded": true,
+          "width": 1280
+        }
+      ],
+      "interLoaded": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "interactions": {
+    "hoverTransform": "matrix(1, 0, 0, 1, 0, -2)",
+    "externalLink": "New tab opened at exact destination (network response intercepted)",
+    "keyboardFocus": true
+  },
+  "status": "passed"
+}

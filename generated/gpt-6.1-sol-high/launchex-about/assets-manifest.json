@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "file": "public/assets/market.webp",
+      "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260514_154203_6c6f94dc-a07e-4ba5-8688-106f01ccd2c8.png&w=1280&q=85",
+      "status": "downloaded with curl; locally bundled"
+    },
+    {
+      "file": "public/assets/ventures.webp",
+      "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260514_154151_45c62c60-3bcc-4f21-8f9d-03722ebb5df8.png&w=1280&q=85",
+      "status": "downloaded with curl; locally bundled"
+    },
+    {
+      "file": "public/assets/sessions.webp",
+      "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260514_152238_24ec8db4-d728-4739-bb30-e985533e9637.png&w=1280&q=85",
+      "status": "downloaded with curl; locally bundled"
+    }
+  ],
+  "fonts": {
+    "family": "Inter",
+    "provider": "Google Fonts",
+    "files": [
+      "src/assets/inter-400.ttf",
+      "src/assets/inter-500.ttf",
+      "src/assets/inter-600.ttf"
+    ],
+    "limitation": "TT Firs Neue file not supplied; using specified Inter fallback."
+  }
+}

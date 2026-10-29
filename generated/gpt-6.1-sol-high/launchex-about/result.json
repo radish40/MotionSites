@@ -1,0 +1,39 @@
+{
+  "title": "LaunchEx About",
+  "id": "launchex-about",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --cache /tmp/launchex-npm-cache && npm run build'",
+  "checks": {
+    "production_build": "passed: dist/index.html exists",
+    "base_path": "/motionsites-results/launchex-about/",
+    "browser": "Chromium via playwright-core",
+    "viewports": [
+      "1440x1000",
+      "390x844",
+      "768x1024",
+      "1024x900"
+    ],
+    "layout": "passed: responsive columns, heights, desktop offset, no horizontal overflow",
+    "runtime_errors": 0,
+    "failed_requests": 0,
+    "assets": "passed: all supplied images and local Inter fonts loaded",
+    "interactions": "passed: keyboard focus, 2px hover lift, exact link opening in new tab with intercepted destination response",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "report": "checks/browser-report.json",
+    "production_dependency_audit": "0 vulnerabilities"
+  },
+  "asset_issues": [
+    "TT Firs Neue font file/source was not supplied. Exact CSS stack retained; bundled Inter provides the specified fallback.",
+    "Initial Python image requests returned HTTP 403; curl retries of the exact URLs succeeded. Original images are bundled."
+  ],
+  "notes": [
+    "Implemented only the supplied single-section design using React, Tailwind CSS, and lucide-react.",
+    "External website availability was not tested; destination response was intercepted for click check.",
+    "Initial full npm audit reported 3 development dependency vulnerabilities (1 moderate, 2 high); production audit passed.",
+    "Mobile full-page screenshot is 390x1480, captured at a 390x844 viewport.",
+    "No deployment, push, other sessions, agents, or messages. Ready for review only."
+  ]
+}

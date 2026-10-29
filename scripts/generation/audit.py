@@ -73,11 +73,15 @@ def verify(job, titles, ancestors):
                 check=True,capture_output=True,text=True).stdout)[0]
             checks['runtime_healthy']=state['State']['Running'] and state['State'].get('Health',{}).get('Status')=='healthy'
             checks['runtime_restart_policy']=state['HostConfig']['RestartPolicy']['Name']=='unless-stopped'
+            checks['runtime_image']=state['Config']['Image']==runtime['image']
+            checks['runtime_production_environment']='NODE_ENV=production' in state['Config']['Env']
+            if runtime.get('command'):checks['runtime_command']=state['Config']['Cmd']==runtime['command']
+            server_file=runtime.get('server_file','dist/server.cjs')
             bundled=subprocess.run(['docker','exec',runtime['container'],'node','-e',
-                "process.stdout.write(require('node:crypto').createHash('sha256').update(require('node:fs').readFileSync('dist/server.cjs')).digest('hex'))"],
+                "process.stdout.write(require('node:crypto').createHash('sha256').update(require('node:fs').readFileSync(process.argv[1])).digest('hex'))",server_file],
                 check=True,capture_output=True,text=True).stdout
-            checks['runtime_matches_build']=bundled==digest((root/'dist/server.cjs').read_bytes())
-            for number,query in enumerate(runtime.get('api_queries',[''])):
+            checks['runtime_matches_build']=bundled==digest((root/server_file).read_bytes())
+            for number,query in enumerate(runtime.get('api_queries',['']) if runtime.get('api_path') else []):
                 payload=json.loads(public_file('https://tool.luo-xd.com'+runtime['api_path']+query))
                 checks[f'runtime_api_{number}']=payload.get('success') is True and payload.get('url','').startswith('https://') and '.mp4' in payload['url']
         # One tree read covers every source filename, including assets needed for rebuilding.

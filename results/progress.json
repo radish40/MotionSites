@@ -1,11 +1,12 @@
 {
-  "updated_utc": "2026-10-29T06:45:43.382134+00:00",
+  "updated_utc": "2026-10-29T06:47:07.860349+00:00",
   "total": 380,
   "counts": {
-    "complete": 133,
-    "running": 5,
+    "complete": 134,
     "needs_fix": 1,
-    "not_started": 241
+    "running": 5,
+    "ready": 1,
+    "not_started": 239
   },
   "jobs": [
     {
@@ -1332,11 +1333,11 @@
       "id": "gear-shop",
       "title": "Gear Shop",
       "category": "E-commerce",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1865f-7f3d-7ce0-9bf6-e3d57d56898e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "4a4b5ec076d427eedf57b532f6533554889cc929",
+      "group_message_id": 187,
+      "url": "https://tool.luo-xd.com/motionsites-results/gear-shop/"
     },
     {
       "id": "glassmorphic-feature-tabs",
@@ -1392,7 +1393,7 @@
       "id": "guardnet-benefits",
       "title": "Guardnet Benefits",
       "category": "Benefits",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18666-ec8d-7711-80d1-65b2e4feaa9c",
       "source_commit": null,
       "group_message_id": null,
@@ -1402,7 +1403,7 @@
       "id": "guardnet-demo",
       "title": "Guardnet Demo",
       "category": "Info",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1412,7 +1413,7 @@
       "id": "halo-benefits",
       "title": "Halo Benefits",
       "category": "Why Us",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -4543,19 +4543,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1865f-7f3d-7ce0-9bf6-e3d57d56898e",
       "output_path": "generated/gpt-6.1-sol-high/gear-shop",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3075129,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:36:07.740406+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "4a4b5ec076d427eedf57b532f6533554889cc929",
+      "url": "https://tool.luo-xd.com/motionsites-results/gear-shop/",
+      "completed_utc": "2026-10-29T06:47:07.645216+00:00",
+      "group_message_id": 187
     },
     {
       "number": 134,
@@ -4728,7 +4732,7 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18666-ec8d-7711-80d1-65b2e4feaa9c",
       "output_path": "generated/gpt-6.1-sol-high/guardnet-benefits",
       "validation": "",
@@ -4736,7 +4740,7 @@
       "process_id": 3104289,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:44:14.460782+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -4758,11 +4762,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/guardnet-demo",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3113465,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:46:37.014360+00:00",
+      "worker_state": "running"
     },
     {
       "number": 141,
@@ -4780,11 +4788,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/halo-benefits",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3113501,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:46:37.137756+00:00",
+      "worker_state": "running"
     },
     {
       "number": 142,
@@ -10045,7 +10057,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:45:43.382134+00:00",
+  "updated_utc": "2026-10-29T06:47:07.860349+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

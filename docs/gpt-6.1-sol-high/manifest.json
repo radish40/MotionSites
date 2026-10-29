@@ -356,19 +356,20 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a185c1-941b-7bb1-a335-1f082bccccd5",
       "output_path": "generated/gpt-6.1-sol-high/modern-agency",
-      "validation": "",
-      "notes": "Session ended without result.json; inspect existing session before retrying",
+      "validation": "Live browser check failed; see screenshots/live-check.json",
+      "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:51:02.486988+00:00",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "worker_state": "running",
-      "process_id": 2503265
+      "worker_state": "terminal",
+      "process_id": 2503265,
+      "delivery_failures": 1
     },
     {
       "number": 12,
@@ -488,19 +489,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ca-c46a-7e40-a3b1-809af1e9bc6a",
       "output_path": "generated/gpt-6.1-sol-high/max-reed-portfolio",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2512151,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:53:40.501745+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "0c2a7b3d6b1dc5b510d8258c85766080c85b0a1e",
+      "url": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/",
+      "completed_utc": "2026-10-29T04:00:28.420250+00:00",
+      "group_message_id": 61
     },
     {
       "number": 16,
@@ -608,11 +613,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/halo-usd-landing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2534585,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:59:37.072473+00:00",
+      "worker_state": "running"
     },
     {
       "number": 20,
@@ -630,11 +639,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/ai-designer-agency",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2534700,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:59:37.409653+00:00",
+      "worker_state": "running"
     },
     {
       "number": 21,
@@ -8557,5 +8570,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T03:58:41.399978+00:00"
+  "updated_utc": "2026-10-29T04:00:28.576186+00:00"
 }

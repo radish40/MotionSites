@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T03:58:41.399978+00:00",
+  "updated_utc": "2026-10-29T04:00:28.576186+00:00",
   "total": 380,
   "counts": {
-    "complete": 13,
+    "complete": 14,
+    "needs_fix": 1,
     "running": 5,
-    "not_started": 362
+    "not_started": 360
   },
   "jobs": [
     {
@@ -111,7 +112,7 @@
       "id": "modern-agency",
       "title": "Modern Agency",
       "category": "Agency",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a185c1-941b-7bb1-a335-1f082bccccd5",
       "source_commit": null,
       "group_message_id": null,
@@ -151,11 +152,11 @@
       "id": "max-reed-portfolio",
       "title": "Max Reed Portfolio",
       "category": "Features Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ca-c46a-7e40-a3b1-809af1e9bc6a",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "0c2a7b3d6b1dc5b510d8258c85766080c85b0a1e",
+      "group_message_id": 61,
+      "url": "https://tool.luo-xd.com/motionsites-results/max-reed-portfolio/"
     },
     {
       "id": "mindloop-landing",
@@ -191,7 +192,7 @@
       "id": "halo-usd-landing",
       "title": "USD Halo",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -201,7 +202,7 @@
       "id": "ai-designer-agency",
       "title": "AI Designer Agency",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

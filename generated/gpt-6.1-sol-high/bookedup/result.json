@@ -1,0 +1,75 @@
+{
+  "title": "BookedUp",
+  "id": "bookedup",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "public_base": "/motionsites-results/bookedup/",
+    "browser": "Chromium via playwright-core against production dist/",
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "images_loaded": true,
+        "fonts_loaded": {
+          "heading": true,
+          "body": true
+        },
+        "marquee_moving": true,
+        "cycle_height": 1200,
+        "visible_tracks": 1,
+        "cta_dialogs": true
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "horizontal_overflow": false,
+        "images_loaded": true,
+        "fonts_loaded": {
+          "heading": true,
+          "body": true
+        },
+        "marquee_moving": true,
+        "cycle_height": 1200,
+        "visible_tracks": 1,
+        "cta_dialogs": true
+      },
+      {
+        "name": "tablet",
+        "width": 820,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "images_loaded": true,
+        "fonts_loaded": {
+          "heading": true,
+          "body": true
+        },
+        "marquee_moving": true,
+        "cycle_height": 1200,
+        "visible_tracks": 2,
+        "cta_dialogs": true
+      }
+    ],
+    "reduced_motion": true,
+    "script_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "raw_report": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact requested stack and supplied font/avatar sources used. Local font and avatar copies are bundled; remote font CSS imports retained.",
+    "Both CTA dialogs work with Escape, close controls, and native modal focus handling. Booking is a clearly labeled static preview without a supplied backend.",
+    "Desktop and mobile screenshots visually inspected. Tablet dual-column behavior verified.",
+    "README.md includes build, run, browser verification, attribution, and limitations.",
+    "Ready for review only; no deployment, push, agents, other sessions, or outbound messages."
+  ]
+}

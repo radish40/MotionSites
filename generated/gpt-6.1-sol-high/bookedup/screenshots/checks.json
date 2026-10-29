@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "fonts": {
+        "heading": true,
+        "body": true
+      },
+      "cycleHeight": 1200,
+      "visibleTracks": 1,
+      "images": true,
+      "heading": {
+        "x": 76,
+        "y": 288.390625,
+        "width": 744,
+        "height": 167.71875,
+        "top": 288.390625,
+        "right": 820,
+        "bottom": 456.109375,
+        "left": 76
+      },
+      "cards": {
+        "x": 949.7207641601562,
+        "y": -19.57135009765625,
+        "width": 332.55853271484375,
+        "height": 302.75018310546875,
+        "top": -19.57135009765625,
+        "right": 1282.279296875,
+        "bottom": 283.1788330078125,
+        "left": 949.7207641601562
+      },
+      "marqueeMoving": true,
+      "growthDialog": true,
+      "introDialog": true,
+      "dialogClosed": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "fonts": {
+        "heading": true,
+        "body": true
+      },
+      "cycleHeight": 1200,
+      "visibleTracks": 1,
+      "images": true,
+      "heading": {
+        "x": 30,
+        "y": 120.5,
+        "width": 330,
+        "height": 82.59375,
+        "top": 120.5,
+        "right": 360,
+        "bottom": 203.09375,
+        "left": 30
+      },
+      "cards": {
+        "x": 42.70159149169922,
+        "y": 493.16009521484375,
+        "width": 304.5968017578125,
+        "height": 301.2847900390625,
+        "top": 493.16009521484375,
+        "right": 347.2983932495117,
+        "bottom": 794.4448852539062,
+        "left": 42.70159149169922
+      },
+      "marqueeMoving": true,
+      "growthDialog": true,
+      "introDialog": true,
+      "dialogClosed": true
+    },
+    {
+      "name": "tablet",
+      "width": 820,
+      "height": 1000,
+      "scrollWidth": 820,
+      "viewport": 820,
+      "fonts": {
+        "heading": true,
+        "body": true
+      },
+      "cycleHeight": 1200,
+      "visibleTracks": 2,
+      "images": true,
+      "heading": {
+        "x": 154.765625,
+        "y": 155,
+        "width": 510.453125,
+        "height": 145.09375,
+        "top": 155,
+        "right": 665.21875,
+        "bottom": 300.09375,
+        "left": 154.765625
+      },
+      "cards": {
+        "x": 74.69474029541016,
+        "y": 639.1767578125,
+        "width": 294.61053466796875,
+        "height": 300.761474609375,
+        "top": 639.1767578125,
+        "right": 369.3052749633789,
+        "bottom": 939.938232421875,
+        "left": 74.69474029541016
+      },
+      "marqueeMoving": true,
+      "growthDialog": true,
+      "introDialog": true,
+      "dialogClosed": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failed": [],
+  "reducedMotion": true,
+  "fontRequests": [
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bookedup/assets/inter-regular.ttf",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bookedup/assets/reykjavik.woff2",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bookedup/assets/inter-regular.ttf",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bookedup/assets/reykjavik.woff2",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bookedup/assets/inter-regular.ttf",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bookedup/assets/reykjavik.woff2",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bookedup/assets/reykjavik.woff2",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bookedup/assets/inter-regular.ttf",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Gear Shop",
+  "id": "gear-shop",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: Vite 6.4.5 production build; dist/index.html exists",
+    "browser": {
+      "status": "passed",
+      "results": [
+        "desktop: three screens",
+        "desktop: correct responsive arrangement",
+        "desktop: no horizontal page overflow",
+        "desktop: all images loaded",
+        "desktop: speaker filter",
+        "desktop: search results",
+        "desktop: empty search state",
+        "desktop: product selection",
+        "desktop: color selection",
+        "desktop: add to cart total",
+        "desktop: cart opens",
+        "desktop: cart closes",
+        "desktop: menu opens",
+        "desktop: Escape closes menu",
+        "desktop: sound preview starts",
+        "desktop: sound preview stops",
+        "desktop: reduced motion respected",
+        "mobile: three screens",
+        "mobile: correct responsive arrangement",
+        "mobile: no horizontal page overflow",
+        "mobile: all images loaded",
+        "mobile: speaker filter",
+        "mobile: search results",
+        "mobile: empty search state",
+        "mobile: product selection",
+        "mobile: color selection",
+        "mobile: add to cart total",
+        "mobile: cart opens",
+        "mobile: cart closes",
+        "mobile: menu opens",
+        "mobile: Escape closes menu",
+        "mobile: sound preview starts",
+        "mobile: sound preview stops",
+        "mobile: reduced motion respected",
+        "No browser script or console errors",
+        "No failed asset requests"
+      ],
+      "errors": [],
+      "failed": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "viewport_sizes": [
+      "1440x1000",
+      "390x844"
+    ],
+    "visual_review": "Desktop and full-page mobile captures reviewed",
+    "dependency_audit": "0 vulnerabilities at installation"
+  },
+  "asset_issues": [
+    {
+      "asset": "Substance OTF font family, weights 100–900",
+      "status": "unavailable",
+      "details": "No font files supplied. Supplied site asset references did not expose Substance URLs. Local font-face declarations and requested system fallback are used; screenshots use fallback."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed.",
+    "All work confined to Gear Shop project. No agents, other sessions, pushes, deployments, or messages used.",
+    "All six supplied images downloaded and bundled locally.",
+    "Noto Emoji fire glyph bundled locally with OFL license.",
+    "Vanilla HTML with inline CSS, Vite, and vanilla JavaScript.",
+    "Cart state is in-memory, color previews are CSS filters, and sound preview is a generated Web Audio chord because no audio asset was supplied.",
+    "Production base: /motionsites-results/gear-shop/.",
+    "node_modules is ignored; package-lock.json retained."
+  ]
+}

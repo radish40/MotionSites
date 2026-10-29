@@ -1,0 +1,124 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "Desktop selected at 1440px",
+      "passed": true
+    },
+    {
+      "name": "Desktop has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Desktop Product dropdown opens",
+      "passed": true
+    },
+    {
+      "name": "Resource link opens information dialog",
+      "passed": true
+    },
+    {
+      "name": "Demo opens playable video",
+      "passed": true
+    },
+    {
+      "name": "Escape closes demo",
+      "passed": true
+    },
+    {
+      "name": "React/Babel adjustment panel updates dashboard width",
+      "passed": true
+    },
+    {
+      "name": "Desktop waitlist displays honest local confirmation",
+      "passed": true
+    },
+    {
+      "name": "Mobile selected at 390px after live resize",
+      "passed": true
+    },
+    {
+      "name": "Mobile has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile navigation opens",
+      "passed": true
+    },
+    {
+      "name": "Trial CTA reaches waitlist",
+      "passed": true
+    },
+    {
+      "name": "Email required validation works",
+      "passed": true
+    },
+    {
+      "name": "Mobile waitlist saves locally",
+      "passed": true
+    },
+    {
+      "name": "Product accordion opens",
+      "passed": true
+    },
+    {
+      "name": "Opening another accordion closes the previous section",
+      "passed": true
+    },
+    {
+      "name": "Correct page at 767px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 767px",
+      "passed": true
+    },
+    {
+      "name": "Correct page at 768px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "Correct page at 860px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 860px",
+      "passed": true
+    },
+    {
+      "name": "Correct page at 1100px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 1100px",
+      "passed": true
+    },
+    {
+      "name": "No browser script or console errors",
+      "passed": true
+    }
+  ],
+  "desktop": {
+    "fonts": true,
+    "video": {
+      "readyState": 4,
+      "width": 1920,
+      "paused": false
+    },
+    "height": 1223
+  },
+  "mobile": {
+    "fonts": true,
+    "video": {
+      "readyState": 4,
+      "currentTime": 0.480017,
+      "loop": false
+    },
+    "height": 1881
+  }
+}

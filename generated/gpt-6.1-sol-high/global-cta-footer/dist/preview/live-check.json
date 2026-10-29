@@ -1,0 +1,89 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/global-cta-footer/",
+  "checked_at": "2026-10-29T06:56:09.740Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Highframe — Build the tools your team actually needs",
+      "bodyChars": 1424,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/global-cta-footer/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.23383,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/global-cta-footer/desktop/index.html",
+          "visible": true,
+          "title": "Highframe — Build the tools your team actually needs",
+          "bodyChars": 599,
+          "horizontalOverflow": 0
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/global-cta-footer/desktop/assets/dashboard-orchestrator.html",
+          "visible": true,
+          "title": "Highframe — Workflow builder",
+          "bodyChars": 825,
+          "horizontalOverflow": 0
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Highframe — Build the tools your team actually needs",
+      "bodyChars": 1189,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/global-cta-footer/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.165301,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        }
+      ],
+      "frames": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/global-cta-footer/mobile/index.html",
+          "visible": true,
+          "title": "Highframe — Built for your team",
+          "bodyChars": 364,
+          "horizontalOverflow": 0
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/global-cta-footer/mobile/dashboard-orchestrator.html",
+          "visible": true,
+          "title": "Highframe — Workflow builder",
+          "bodyChars": 825,
+          "horizontalOverflow": 0
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

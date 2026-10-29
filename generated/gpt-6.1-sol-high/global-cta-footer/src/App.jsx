@@ -1,0 +1,3 @@
+import React, {useEffect,useState} from 'react';
+import {createRoot} from 'react-dom/client';
+function App(){const query='(max-width: 767px)';const [mobile,setMobile]=useState(()=>window.matchMedia(query).matches);useEffect(()=>{const media=window.matchMedia(query);const update=()=>setMobile(media.matches);media.addEventListener('change',update);return()=>media.removeEventListener('change',update)},[]);return <iframe key={mobile?'mobile':'desktop'} title={`Highframe ${mobile?'mobile':'desktop'} landing page`} src={`${import.meta.env.BASE_URL}${mobile?'mobile':'desktop'}/index.html`} allow="autoplay; fullscreen"/>}createRoot(document.getElementById('root')).render(<App/>);

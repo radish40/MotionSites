@@ -1,0 +1,139 @@
+{
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_102608_5fa1187d-9ac6-44fb-82ab-54376200abc0.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_102608_5fa1187d-9ac6-44fb-82ab-54376200abc0.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_102608_5fa1187d-9ac6-44fb-82ab-54376200abc0.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_102608_5fa1187d-9ac6-44fb-82ab-54376200abc0.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "tablet",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_102608_5fa1187d-9ac6-44fb-82ab-54376200abc0.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "small-desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_102608_5fa1187d-9ac6-44fb-82ab-54376200abc0.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "small-desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_102608_5fa1187d-9ac6-44fb-82ab-54376200abc0.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "responses": [],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "fontLoaded": true,
+      "loadedFontFaces": 3,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.740478,
+        "width": 1440,
+        "height": 1440,
+        "error": null,
+        "objectPosition": "50% 50%"
+      },
+      "cardHeight": 340,
+      "featureCount": 4,
+      "ctaVisible": true,
+      "toggleClick": "passed",
+      "toggleKeyboard": "passed",
+      "briefLink": "passed"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "fontLoaded": true,
+      "loadedFontFaces": 3,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.536822,
+        "width": 1440,
+        "height": 1440,
+        "error": null,
+        "objectPosition": "100% 50%"
+      },
+      "cardHeight": 570,
+      "featureCount": 4,
+      "ctaVisible": true,
+      "toggleClick": "passed",
+      "toggleKeyboard": "passed",
+      "briefLink": "passed"
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "viewportWidth": 768,
+      "fontLoaded": true,
+      "loadedFontFaces": 3,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.258365,
+        "width": 1440,
+        "height": 1440,
+        "error": null,
+        "objectPosition": "50% 50%"
+      },
+      "cardHeight": 340,
+      "featureCount": 4,
+      "ctaVisible": true,
+      "toggleClick": "passed",
+      "toggleKeyboard": "passed",
+      "briefLink": "passed"
+    },
+    {
+      "name": "small-desktop",
+      "width": 1024,
+      "height": 900,
+      "scrollWidth": 1024,
+      "viewportWidth": 1024,
+      "fontLoaded": true,
+      "loadedFontFaces": 3,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 2.359802,
+        "width": 1440,
+        "height": 1440,
+        "error": null,
+        "objectPosition": "50% 50%"
+      },
+      "cardHeight": 340,
+      "featureCount": 4,
+      "ctaVisible": true,
+      "toggleClick": "passed",
+      "toggleKeyboard": "passed",
+      "briefLink": "passed"
+    }
+  ]
+}

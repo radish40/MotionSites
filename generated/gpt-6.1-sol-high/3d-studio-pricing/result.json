@@ -1,0 +1,128 @@
+{
+  "title": "3D Studio Pricing",
+  "id": "3d-studio-pricing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/3d-studio-pricing/",
+    "browser": "Chromium via playwright-core; actual dist served at required subpath",
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "viewportWidth": 1440,
+        "fontLoaded": true,
+        "loadedFontFaces": 3,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.740478,
+          "width": 1440,
+          "height": 1440,
+          "error": null,
+          "objectPosition": "50% 50%"
+        },
+        "cardHeight": 340,
+        "featureCount": 4,
+        "ctaVisible": true,
+        "toggleClick": "passed",
+        "toggleKeyboard": "passed",
+        "briefLink": "passed"
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "fontLoaded": true,
+        "loadedFontFaces": 3,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.536822,
+          "width": 1440,
+          "height": 1440,
+          "error": null,
+          "objectPosition": "100% 50%"
+        },
+        "cardHeight": 570,
+        "featureCount": 4,
+        "ctaVisible": true,
+        "toggleClick": "passed",
+        "toggleKeyboard": "passed",
+        "briefLink": "passed"
+      },
+      {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "viewportWidth": 768,
+        "fontLoaded": true,
+        "loadedFontFaces": 3,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.258365,
+          "width": 1440,
+          "height": 1440,
+          "error": null,
+          "objectPosition": "50% 50%"
+        },
+        "cardHeight": 340,
+        "featureCount": 4,
+        "ctaVisible": true,
+        "toggleClick": "passed",
+        "toggleKeyboard": "passed",
+        "briefLink": "passed"
+      },
+      {
+        "name": "small-desktop",
+        "width": 1024,
+        "height": 900,
+        "scrollWidth": 1024,
+        "viewportWidth": 1024,
+        "fontLoaded": true,
+        "loadedFontFaces": 3,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.359802,
+          "width": 1440,
+          "height": 1440,
+          "error": null,
+          "objectPosition": "50% 50%"
+        },
+        "cardHeight": 340,
+        "featureCount": 4,
+        "ctaVisible": true,
+        "toggleClick": "passed",
+        "toggleKeyboard": "passed",
+        "briefLink": "passed"
+      }
+    ],
+    "javascript_errors": [],
+    "http_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-report.json",
+    "visual_review": "Desktop, mobile, and tablet screenshots reviewed"
+  },
+  "asset_issues": [
+    "No unavailable assets. Specified CloudFront video and Google Fonts Geist loaded in Chromium at all four sizes.",
+    "Chromium emitted net::ERR_ABORTED for canceled video requests during playback/seeking; recorded in browser report. Video decoded, autoplayed, and reported no media error."
+  ],
+  "notes": [
+    "React, Tailwind CSS, Lucide React, and Geist implemented as requested; package-lock.json retained.",
+    "Mobile card uses content height to fit the three stacked columns; desktop card retains exact 340px height.",
+    "Price suffix can wrap at intermediate widths to prevent overlap.",
+    "Start a brief opens an email draft with selected fidelity option. Recipient is blank because no destination address was supplied; a configured mail application is required.",
+    "Ready for management review; no deployment or push performed."
+  ]
+}

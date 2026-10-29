@@ -1,0 +1,68 @@
+{
+  "title": "Cinematic Brand",
+  "id": "cinematic-brand",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed (TypeScript and Vite)",
+    "browser": {
+      "checks": [
+        "desktop 1440x1000: title, copy, viewport fit, autoplay, screenshot, Contact submission, Sign Up, Begin Now, story playback controls, Escape and close passed",
+        "mobile 390x844: title, copy, viewport fit, autoplay, screenshot, Contact submission, Sign Up, Begin Now, story playback controls, Escape and close passed",
+        "Reduced-motion preference: hero and actions visible without delayed reveals"
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "httpErrors": [],
+      "requestFailures": [],
+      "assets": {
+        "desktop": {
+          "scrollWidth": 1440,
+          "width": 1440,
+          "scrollHeight": 1000,
+          "height": 1000,
+          "font": true,
+          "video": {
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 6.380598,
+            "width": 3852,
+            "error": null
+          }
+        },
+        "mobile": {
+          "scrollWidth": 390,
+          "width": 390,
+          "scrollHeight": 844,
+          "height": 844,
+          "font": true,
+          "video": {
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 6.761677,
+            "width": 3852,
+            "error": null
+          }
+        }
+      }
+    },
+    "visual_review": "Desktop and mobile screenshots reviewed",
+    "output": "dist/index.html exists; assets use /motionsites-results/cinematic-brand/",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "Implemented only Cinematic Brand using the required stack, copy, assets and animations.",
+    "Original video and Quire Sans Pro loaded successfully in Chromium at both requested viewport sizes.",
+    "External CDN assets require network access; the supplied video is approximately 55.4 MiB.",
+    "Contact and signup dialogs are local interactive previews with no backend, sending, or persistence.",
+    "Watch the story uses the supplied video with native playback controls.",
+    "Motion transitive dependencies pinned after resolving an initial build incompatibility.",
+    "Screenshots capture the original video at five seconds; runtime playback loops normally.",
+    "Dependency lockfile included; node_modules excluded."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/cinematic-brand/",
+  "checked_at": "2026-10-29T05:49:47.302Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Nexora — Beyond the Interface",
+      "bodyChars": 236,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260606_170109_f96e01a5-b0db-4274-b24d-8d97e99ec928.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Nexora — Beyond the Interface",
+      "bodyChars": 236,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260606_170109_f96e01a5-b0db-4274-b24d-8d97e99ec928.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

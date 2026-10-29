@@ -2719,19 +2719,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18616-d342-76e3-854e-f73a8d9ecf07",
       "output_path": "generated/gpt-6.1-sol-high/arceage-services",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2816892,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:16:45.034611+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f53f282c1f5eff6ff9df51fdc1edece2632e9df5",
+      "url": "https://tool.luo-xd.com/motionsites-results/arceage-services/",
+      "completed_utc": "2026-10-29T05:22:24.274702+00:00",
+      "group_message_id": 128
     },
     {
       "number": 81,
@@ -2749,19 +2753,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18618-8a1d-7e51-af89-ff91e28ed8ec",
       "output_path": "generated/gpt-6.1-sol-high/arceage-stats",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2823969,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:18:37.343761+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "e80e1b808d5f4bd43d1aaac1f0234e1000464a4e",
+      "url": "https://tool.luo-xd.com/motionsites-results/arceage-stats/",
+      "completed_utc": "2026-10-29T05:22:49.026144+00:00",
+      "group_message_id": 129
     },
     {
       "number": 82,
@@ -2780,14 +2788,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861a-3f31-7c01-8f8a-6ca7847443d1",
       "output_path": "generated/gpt-6.1-sol-high/arceage-testimonial",
       "validation": "",
       "notes": "",
       "process_id": 2832238,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:20:29.352973+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 83,
@@ -2805,11 +2817,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/audio-showcase",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2837407,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:21:56.536536+00:00",
+      "worker_state": "running"
     },
     {
       "number": 84,
@@ -2827,11 +2843,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/auramail",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2837435,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:21:56.643169+00:00",
+      "worker_state": "running"
     },
     {
       "number": 85,
@@ -9346,5 +9366,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:21:01.122255+00:00"
+  "updated_utc": "2026-10-29T05:22:49.232257+00:00"
 }

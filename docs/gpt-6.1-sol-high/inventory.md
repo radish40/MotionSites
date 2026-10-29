@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 77/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 79/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -164,11 +164,11 @@
 | 77 | `apex-program-accordion` | Apex Program Accordion | Components | 2 | 图片 | 已完成 |
 | 78 | `apex-pulse` | Apex Pulse | Landing Page | 2 | 图片 | 生成中 |
 | 79 | `arceage-contact-us` | Arceage Contact Us | Forms & Contact | 2 | 图片 | 已完成 |
-| 80 | `arceage-services` | Arceage Services | Services | 2 | 图片 | 生成中 |
-| 81 | `arceage-stats` | Arceage Stats | Process & Stats | 2 | 图片 | 生成中 |
+| 80 | `arceage-services` | Arceage Services | Services | 2 | 图片 | 已完成 |
+| 81 | `arceage-stats` | Arceage Stats | Process & Stats | 2 | 图片 | 已完成 |
 | 82 | `arceage-testimonial` | Arceage Testimonial | Testimonials | 2 | 图片 | 生成中 |
-| 83 | `audio-showcase` | Audio Showcase | Hero Section | 2 | 图片 | 未开始 |
-| 84 | `auramail` | AuraMail | SaaS | 2 | 图片 | 未开始 |
+| 83 | `audio-showcase` | Audio Showcase | Hero Section | 2 | 图片 | 生成中 |
+| 84 | `auramail` | AuraMail | SaaS | 2 | 图片 | 生成中 |
 | 85 | `aurora-onboard` | Aurora Onboard | Waitlist & Coming Soon | 2 | 图片 | 未开始 |
 | 86 | `axion-about` | Axion About | About Section | 2 | 图片 | 未开始 |
 | 87 | `beauty-categories` | Beauty Categories | Categories | 2 | 图片 | 未开始 |

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:21:01.122255+00:00",
+  "updated_utc": "2026-10-29T05:22:49.232257+00:00",
   "total": 380,
   "counts": {
-    "complete": 77,
+    "complete": 79,
     "running": 5,
-    "not_started": 298
+    "not_started": 296
   },
   "jobs": [
     {
@@ -801,28 +801,28 @@
       "id": "arceage-services",
       "title": "Arceage Services",
       "category": "Services",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18616-d342-76e3-854e-f73a8d9ecf07",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f53f282c1f5eff6ff9df51fdc1edece2632e9df5",
+      "group_message_id": 128,
+      "url": "https://tool.luo-xd.com/motionsites-results/arceage-services/"
     },
     {
       "id": "arceage-stats",
       "title": "Arceage Stats",
       "category": "Process & Stats",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18618-8a1d-7e51-af89-ff91e28ed8ec",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e80e1b808d5f4bd43d1aaac1f0234e1000464a4e",
+      "group_message_id": 129,
+      "url": "https://tool.luo-xd.com/motionsites-results/arceage-stats/"
     },
     {
       "id": "arceage-testimonial",
       "title": "Arceage Testimonial",
       "category": "Testimonials",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861a-3f31-7c01-8f8a-6ca7847443d1",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -831,7 +831,7 @@
       "id": "audio-showcase",
       "title": "Audio Showcase",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -841,7 +841,7 @@
       "id": "auramail",
       "title": "AuraMail",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -579,14 +579,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ce-0c23-7ec0-a225-f0d7426b308f",
       "output_path": "generated/gpt-6.1-sol-high/solar-energy-hero",
       "validation": "",
       "notes": "",
       "process_id": 2525094,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:57:15.591074+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 19,
@@ -8553,5 +8557,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T03:57:46.016022+00:00"
+  "updated_utc": "2026-10-29T03:58:41.399978+00:00"
 }

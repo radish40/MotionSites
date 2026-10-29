@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:07:38.049458+00:00",
+  "updated_utc": "2026-10-29T07:08:58.963397+00:00",
   "total": 380,
   "counts": {
-    "complete": 153,
+    "complete": 154,
     "running": 5,
-    "not_started": 222
+    "not_started": 221
   },
   "jobs": [
     {
@@ -1541,11 +1541,11 @@
       "id": "launchex-submissions",
       "title": "LaunchEx Submissions",
       "category": "Features Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18678-65c0-7ad1-b28e-4ed192514097",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "bf2543f69c7ff8cc436188c88d1887803b08f036",
+      "group_message_id": 208,
+      "url": "https://tool.luo-xd.com/motionsites-results/launchex-submissions/"
     },
     {
       "id": "layered-depth",
@@ -1562,7 +1562,7 @@
       "title": "Learnly",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867b-00e8-7112-82e2-0e7e780135ab",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1572,7 +1572,7 @@
       "title": "Liquid Glass CTA",
       "category": "CTA Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867b-020b-7191-b4af-7c4b0ddc91da",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1582,7 +1582,7 @@
       "title": "Liquid Glass Features",
       "category": "Features Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867b-02a9-7db1-b87d-17f08d891dbb",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1591,7 +1591,7 @@
       "id": "lodge-booking-app",
       "title": "Lodge Booking App",
       "category": "Travel",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

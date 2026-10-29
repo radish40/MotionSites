@@ -5271,19 +5271,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18678-65c0-7ad1-b28e-4ed192514097",
       "output_path": "generated/gpt-6.1-sol-high/launchex-submissions",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3177584,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:03:19.598063+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "bf2543f69c7ff8cc436188c88d1887803b08f036",
+      "url": "https://tool.luo-xd.com/motionsites-results/launchex-submissions/",
+      "completed_utc": "2026-10-29T07:08:58.809882+00:00",
+      "group_message_id": 208
     },
     {
       "number": 155,
@@ -5332,14 +5336,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867b-00e8-7112-82e2-0e7e780135ab",
       "output_path": "generated/gpt-6.1-sol-high/learnly",
       "validation": "",
       "notes": "",
       "process_id": 3187438,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:06:10.437136+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 157,
@@ -5358,14 +5366,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867b-020b-7191-b4af-7c4b0ddc91da",
       "output_path": "generated/gpt-6.1-sol-high/liquid-glass-cta",
       "validation": "",
       "notes": "",
       "process_id": 3187497,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:06:10.572914+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 158,
@@ -5384,14 +5396,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867b-02a9-7db1-b87d-17f08d891dbb",
       "output_path": "generated/gpt-6.1-sol-high/liquid-glass-features",
       "validation": "",
       "notes": "",
       "process_id": 3187611,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:06:10.807486+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 159,
@@ -5409,11 +5425,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/lodge-booking-app",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3198730,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:08:31.893734+00:00",
+      "worker_state": "running"
     },
     {
       "number": 160,
@@ -10278,7 +10298,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:07:38.049458+00:00",
+  "updated_utc": "2026-10-29T07:08:58.963397+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

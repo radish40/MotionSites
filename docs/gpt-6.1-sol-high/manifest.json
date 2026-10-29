@@ -3203,21 +3203,25 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18624-b78d-7b90-9e12-1707ad0ba151",
       "output_path": "generated/gpt-6.1-sol-high/blog-showcase",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Preserving original video bytes with reproducible sub-limit source chunks in original session.",
       "process_id": 2917194,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:31:55.489529+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
       "delivery_failures": 0,
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "d4e7ff1c16d8788a4f64a8ee270fc8081146d2a1",
+      "url": "https://tool.luo-xd.com/motionsites-results/blog-showcase/",
+      "completed_utc": "2026-10-29T05:52:32.642213+00:00",
+      "group_message_id": 149
     },
     {
       "number": 95,
@@ -3304,21 +3308,32 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18629-31c2-7cc1-827d-9a70771cffc4",
       "output_path": "generated/gpt-6.1-sol-high/botanical-shadow-about",
-      "validation": "",
-      "notes": "Original same-design animated reference supplied for faithful local video recovery in original session.",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
+      "notes": "Original Cloudinary video is disabled (401). Functional moving background reconstructed from this same design’s compressed animated preview; lossy recovery and occluded-region approximation documented in README and recovery/provenance.json.",
       "process_id": 2914031,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:36:48.905472+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
       "repair_attempts": 1,
-      "delivery_failures": 0
+      "delivery_failures": 0,
+      "source_commit": "3fc0629e56e115fde732bf30f3f16ec31f6a8fca",
+      "url": "https://tool.luo-xd.com/motionsites-results/botanical-shadow-about/",
+      "completed_utc": "2026-10-29T05:53:59.044956+00:00",
+      "group_message_id": 151,
+      "asset_recovery": {
+        "original_http_status": 401,
+        "reference_url": "https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/animated%20(11).webp",
+        "local_asset": "public/assets/botanical-shadow-recovered.webm",
+        "provenance": "recovery/provenance.json",
+        "lossy": true
+      }
     },
     {
       "number": 98,
@@ -3404,19 +3419,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1862b-ccc3-7790-90b7-c517f2adcfb9",
       "output_path": "generated/gpt-6.1-sol-high/cinematic-landing-page",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2902345,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:39:39.644579+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "06cf86f60dd1d5c2f9c63eb6b3de929e4ef7f1ba",
+      "url": "https://tool.luo-xd.com/motionsites-results/cinematic-landing-page/",
+      "completed_utc": "2026-10-29T05:53:29.815060+00:00",
+      "group_message_id": 150
     },
     {
       "number": 101,
@@ -3434,15 +3453,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "complete",
+      "thread_id": "01a18632-0598-7ff2-9dd0-4b5c07a04594",
       "output_path": "generated/gpt-6.1-sol-high/cognitra-feature",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2918742,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:46:27.520123+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "source_commit": "c8f2463f0e5c080450379a629acc476c83ad8fa5",
+      "url": "https://tool.luo-xd.com/motionsites-results/cognitra-feature/",
+      "completed_utc": "2026-10-29T05:54:34.512299+00:00",
+      "group_message_id": 152
     },
     {
       "number": 102,
@@ -3460,15 +3487,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "complete",
+      "thread_id": "01a18632-060d-71b3-ae52-8fd24a0ff4c8",
       "output_path": "generated/gpt-6.1-sol-high/cognitra-offer",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2918779,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:46:27.629929+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "source_commit": "d303a70f4dc6d8232b42638c8e1fdb67fb806571",
+      "url": "https://tool.luo-xd.com/motionsites-results/cognitra-offer/",
+      "completed_utc": "2026-10-29T05:55:18.413902+00:00",
+      "group_message_id": 153
     },
     {
       "number": 103,
@@ -3486,11 +3521,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/contact-cybernetic",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2934668,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:50:50.242732+00:00",
+      "worker_state": "running"
     },
     {
       "number": 104,
@@ -3508,11 +3547,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/conversion",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2934721,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:50:50.375488+00:00",
+      "worker_state": "running"
     },
     {
       "number": 105,
@@ -3530,11 +3573,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/cosmic",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2934832,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:50:50.521761+00:00",
+      "worker_state": "running"
     },
     {
       "number": 106,
@@ -3552,11 +3599,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/creative-agency",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2934923,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:50:50.661915+00:00",
+      "worker_state": "running"
     },
     {
       "number": 107,
@@ -9587,5 +9638,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:49:57.567692+00:00"
+  "updated_utc": "2026-10-29T05:55:19.286387+00:00"
 }

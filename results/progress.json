@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:49:57.567692+00:00",
+  "updated_utc": "2026-10-29T05:55:19.286387+00:00",
   "total": 380,
   "counts": {
-    "complete": 97,
-    "running": 5,
-    "not_started": 278
+    "complete": 102,
+    "running": 4,
+    "not_started": 274
   },
   "jobs": [
     {
@@ -941,11 +941,11 @@
       "id": "blog-showcase",
       "title": "Blog Showcase",
       "category": "Blog & Editorial",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18624-b78d-7b90-9e12-1707ad0ba151",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "d4e7ff1c16d8788a4f64a8ee270fc8081146d2a1",
+      "group_message_id": 149,
+      "url": "https://tool.luo-xd.com/motionsites-results/blog-showcase/"
     },
     {
       "id": "book-hero",
@@ -971,11 +971,11 @@
       "id": "botanical-shadow-about",
       "title": "Botanical Shadow About",
       "category": "About Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18629-31c2-7cc1-827d-9a70771cffc4",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "3fc0629e56e115fde732bf30f3f16ec31f6a8fca",
+      "group_message_id": 151,
+      "url": "https://tool.luo-xd.com/motionsites-results/botanical-shadow-about/"
     },
     {
       "id": "build-with-us",
@@ -1001,37 +1001,37 @@
       "id": "cinematic-landing-page",
       "title": "Cinematic Landing Page",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1862b-ccc3-7790-90b7-c517f2adcfb9",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "06cf86f60dd1d5c2f9c63eb6b3de929e4ef7f1ba",
+      "group_message_id": 150,
+      "url": "https://tool.luo-xd.com/motionsites-results/cinematic-landing-page/"
     },
     {
       "id": "cognitra-feature",
       "title": "Cognitra Feature",
       "category": "Features Section",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a18632-0598-7ff2-9dd0-4b5c07a04594",
+      "source_commit": "c8f2463f0e5c080450379a629acc476c83ad8fa5",
+      "group_message_id": 152,
+      "url": "https://tool.luo-xd.com/motionsites-results/cognitra-feature/"
     },
     {
       "id": "cognitra-offer",
       "title": "Cognitra Offer",
       "category": "Cards",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a18632-060d-71b3-ae52-8fd24a0ff4c8",
+      "source_commit": "d303a70f4dc6d8232b42638c8e1fdb67fb806571",
+      "group_message_id": 153,
+      "url": "https://tool.luo-xd.com/motionsites-results/cognitra-offer/"
     },
     {
       "id": "contact-cybernetic",
       "title": "Contact Cybernetic",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1041,7 +1041,7 @@
       "id": "conversion",
       "title": "Conversion",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1051,7 +1051,7 @@
       "id": "cosmic",
       "title": "Cosmic",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1061,7 +1061,7 @@
       "id": "creative-agency",
       "title": "Creative Agency",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

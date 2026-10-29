@@ -41,7 +41,7 @@ const path = require('node:path');
         // Headlines often enter after an introductory clip's ended event.
         await page.waitForTimeout(2000);
       }
-      const layout = await page.evaluate(() => ({
+      const measureLayout = () => ({
         title: document.title,
         bodyChars: document.body.innerText.trim().length,
         horizontalOverflow: document.documentElement.scrollWidth - window.innerWidth,
@@ -52,7 +52,21 @@ const path = require('node:path');
         }),
         videos: [...document.querySelectorAll('video')].map(v=>({src:v.currentSrc,readyState:v.readyState,
           paused:v.paused,currentTime:v.currentTime,duration:v.duration,ended:v.ended,loop:v.loop,autoplay:v.autoplay})),
-      }));
+      });
+      const layout = await page.evaluate(measureLayout);
+      layout.frames = [];
+      for (const frame of page.frames()) {
+        if (frame === page.mainFrame() || !frame.url().startsWith(new URL(url).origin + '/')) continue;
+        const frameElement = await frame.frameElement();
+        const box = await frameElement.boundingBox();
+        await frameElement.dispose();
+        const visible = !!box && box.width>0 && box.height>0 && box.y<viewport.height && box.y+box.height>0;
+        const child = await frame.evaluate(measureLayout);
+        layout.frames.push({url:frame.url(),visible,title:child.title,bodyChars:child.bodyChars,horizontalOverflow:child.horizontalOverflow});
+        if (visible) layout.bodyChars += child.bodyChars;
+        layout.images.push(...child.images.map(image => ({...image,visible:visible && image.visible})));
+        layout.videos.push(...child.videos);
+      }
       await page.screenshot({ path: path.join(output, `${name}.png`) });
       results.push({ viewport:name,status:response.status(),introWait,...layout,errors,consoleErrors,failedRequests,badResponses });
       await context.close();

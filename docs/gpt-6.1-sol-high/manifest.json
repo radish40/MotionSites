@@ -4658,10 +4658,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a18664-7c90-7c61-9399-b53eb66f7fdd",
       "output_path": "generated/gpt-6.1-sol-high/global-cta-footer",
-      "validation": "Live browser check failed; see screenshots/live-check.json",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "process_id": 3096385,
       "launch_method": "isolated_codex_exec",
@@ -4671,7 +4671,11 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "delivery_failures": 1
+      "delivery_failures": 1,
+      "source_commit": "451d111c44885d5cb5d2d6c36ad4dd44a866df93",
+      "url": "https://tool.luo-xd.com/motionsites-results/global-cta-footer/",
+      "completed_utc": "2026-10-29T06:56:32.711173+00:00",
+      "group_message_id": 195
     },
     {
       "number": 137,
@@ -4893,19 +4897,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866c-1ec6-7580-9f9d-a0e54dd66194",
       "output_path": "generated/gpt-6.1-sol-high/health-portal",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3128506,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:49:55.025568+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "9755ad02eecfb97019aee051b9087e29b55de3be",
+      "url": "https://tool.luo-xd.com/motionsites-results/health-portal/",
+      "completed_utc": "2026-10-29T06:57:01.908811+00:00",
+      "group_message_id": 196
     },
     {
       "number": 144,
@@ -4923,19 +4931,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866d-f744-73b0-a274-4a6c68e7fe6b",
       "output_path": "generated/gpt-6.1-sol-high/immersive-ocean",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3135379,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:51:55.983874+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "9afaf2533eb7ff632a459883ce66516a32ebd821",
+      "url": "https://tool.luo-xd.com/motionsites-results/immersive-ocean/",
+      "completed_utc": "2026-10-29T06:57:27.412607+00:00",
+      "group_message_id": 197
     },
     {
       "number": 145,
@@ -5043,11 +5055,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/interior-features",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3152633,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:56:33.209914+00:00",
+      "worker_state": "running"
     },
     {
       "number": 149,
@@ -5065,11 +5081,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/investment-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3152737,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:56:33.588750+00:00",
+      "worker_state": "running"
     },
     {
       "number": 150,
@@ -10154,7 +10174,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:55:27.522325+00:00",
+  "updated_utc": "2026-10-29T06:57:27.587752+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:55:27.522325+00:00",
+  "updated_utc": "2026-10-29T06:57:27.587752+00:00",
   "total": 380,
   "counts": {
-    "complete": 141,
-    "needs_fix": 1,
+    "complete": 144,
     "running": 5,
-    "not_started": 233
+    "not_started": 231
   },
   "jobs": [
     {
@@ -1362,11 +1361,11 @@
       "id": "global-cta-footer",
       "title": "Global CTA Footer",
       "category": "CTA Section",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a18664-7c90-7c61-9399-b53eb66f7fdd",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "451d111c44885d5cb5d2d6c36ad4dd44a866df93",
+      "group_message_id": 195,
+      "url": "https://tool.luo-xd.com/motionsites-results/global-cta-footer/"
     },
     {
       "id": "golden-portal",
@@ -1432,21 +1431,21 @@
       "id": "health-portal",
       "title": "Health Portal",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866c-1ec6-7580-9f9d-a0e54dd66194",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9755ad02eecfb97019aee051b9087e29b55de3be",
+      "group_message_id": 196,
+      "url": "https://tool.luo-xd.com/motionsites-results/health-portal/"
     },
     {
       "id": "immersive-ocean",
       "title": "Immersive Ocean",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866d-f744-73b0-a274-4a6c68e7fe6b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9afaf2533eb7ff632a459883ce66516a32ebd821",
+      "group_message_id": 197,
+      "url": "https://tool.luo-xd.com/motionsites-results/immersive-ocean/"
     },
     {
       "id": "impact-ventures",
@@ -1482,7 +1481,7 @@
       "id": "interior-features",
       "title": "Interior Features",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1492,7 +1491,7 @@
       "id": "investment-hero",
       "title": "Investment Gate",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

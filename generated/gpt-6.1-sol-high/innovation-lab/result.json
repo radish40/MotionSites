@@ -1,0 +1,32 @@
+{
+  "title": "Innovation Lab",
+  "id": "innovation-lab",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript check and Vite production build; dist/index.html exists",
+    "dependency_audit": "npm install reported 0 vulnerabilities",
+    "base_path": "/motionsites-results/innovation-lab/",
+    "browser": "Chromium via playwright-core, testing the production dist at the required subpath",
+    "desktop": "1440x1000: passed",
+    "mobile": "390x844: passed",
+    "layout": "No horizontal or vertical document overflow at either required viewport; responsive heading, navigation, side column, and bottom grid checked",
+    "assets": "Google Fonts CSS and Inter WOFF2 returned HTTP 200; exact CloudFront video returned HTTP 206 and played at 1920x1080",
+    "interactions": "Visible controls accept clicks; keyboard button focus and Discover Now arrow hover transition passed. No click actions were supplied in the prompt.",
+    "console_errors": 0,
+    "failed_asset_requests": 0,
+    "report": "screenshots/browser-report.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Brand and page title: VortxLab Creations. Project index title: Innovation Lab.",
+    "Used React, TypeScript, Vite, Tailwind CSS, Inter weights 300–900, and only ArrowRight from lucide-react.",
+    "Exact supplied video URL remains the video src; remote video and Google Fonts require network access.",
+    "Media range requests cancelled by Chromium during seeking or page closure are recorded separately in the browser report; playback and asset retrieval passed.",
+    "Screenshot capture pauses the video at four seconds after animations; normal page playback loops continuously.",
+    "Buttons retain the prompt's presentation behavior because no navigation destinations or business actions were specified.",
+    "Source, lockfile, production dist, validation script, screenshots, and README are included. node_modules is excluded.",
+    "No deployment, push, other project work, sub-agents, or external messages. Ready means ready for management-session review."
+  ]
+}

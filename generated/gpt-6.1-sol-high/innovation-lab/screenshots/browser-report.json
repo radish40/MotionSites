@@ -1,0 +1,120 @@
+{
+  "url": "http://localhost:4173/motionsites-results/innovation-lab/",
+  "viewports": [
+    {
+      "title": "VortxLab Creations",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "fontLoaded": true,
+      "video": {
+        "currentTime": 4.474394,
+        "paused": false,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      "heading": "Forging Tomorrow\nVirtual Horizon\nVortxLab Creations",
+      "screenshot": "screenshots/desktop.png",
+      "checks": [
+        "no horizontal or vertical overflow",
+        "video autoplay advances; muted, loop, inline enabled",
+        "Inter loaded",
+        "responsive element visibility",
+        "Discover arrow hover transition",
+        "all visible controls clickable",
+        "keyboard button focus"
+      ]
+    },
+    {
+      "title": "VortxLab Creations",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "fontLoaded": true,
+      "video": {
+        "currentTime": 4.418645,
+        "paused": false,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      "heading": "Forging Tomorrow\nVirtual Horizon\nVortxLab Creations",
+      "screenshot": "screenshots/mobile.png",
+      "checks": [
+        "no horizontal or vertical overflow",
+        "video autoplay advances; muted, loop, inline enabled",
+        "Inter loaded",
+        "responsive element visibility",
+        "Discover arrow hover transition",
+        "all visible controls clickable",
+        "keyboard button focus"
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "abortedMediaRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260717_120352_eb988725-1351-43b3-8095-16e4a1005e3d.mp4",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260717_120352_eb988725-1351-43b3-8095-16e4a1005e3d.mp4",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "assetResponses": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260717_120352_eb988725-1351-43b3-8095-16e4a1005e3d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260717_120352_eb988725-1351-43b3-8095-16e4a1005e3d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260717_120352_eb988725-1351-43b3-8095-16e4a1005e3d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260717_120352_eb988725-1351-43b3-8095-16e4a1005e3d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260717_120352_eb988725-1351-43b3-8095-16e4a1005e3d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260717_120352_eb988725-1351-43b3-8095-16e4a1005e3d.mp4",
+      "status": 206
+    }
+  ],
+  "status": "passed"
+}

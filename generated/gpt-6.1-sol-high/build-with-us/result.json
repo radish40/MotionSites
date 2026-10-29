@@ -1,0 +1,40 @@
+{
+  "title": "Build With Us",
+  "id": "build-with-us",
+  "status": "ready",
+  "build_command": "npm ci && npm run build",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite via Docker Node 22",
+    "dist_index": true,
+    "base_path": "/motionsites-results/build-with-us/",
+    "desktop": "passed at 1440x1000; fits viewport",
+    "mobile": "passed at 390x844; expands vertically",
+    "horizontal_overflow": false,
+    "console_errors": [],
+    "script_errors": [],
+    "failed_requests": [],
+    "interactions": [
+      "CTA contact anchor",
+      "required-field validation",
+      "controlled name/email/message inputs",
+      "service multi-select and deselect",
+      "one-second disabled sending state",
+      "success state replaces form"
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-success.png",
+      "screenshots/mobile-success.png"
+    ],
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact supplied video URL and required Google Fonts successfully loaded during Chromium checks. External video and fonts need internet access.",
+    "Added locally hosted Noto Color Emoji waving-hand subset and license after discovering missing system emoji glyph.",
+    "Form submission is simulated as specified; no message is delivered.",
+    "Secondary-page content and social profile URLs were not supplied. Navigation links target contact; socials open their platforms.",
+    "Production files are in dist/. No deployment or push performed. Docker build command is in README.md."
+  ]
+}

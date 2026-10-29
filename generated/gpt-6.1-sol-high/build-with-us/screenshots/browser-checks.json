@@ -1,0 +1,97 @@
+{
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "responses": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260602_150901_c45b90ec-18d7-42ff-90e2-b95d7109e330.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260602_150901_c45b90ec-18d7-42ff-90e2-b95d7109e330.mp4",
+      "status": 206
+    }
+  ],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "width": 3828,
+        "time": 3.162735
+      },
+      "fonts": {
+        "inter": true,
+        "instrument": true
+      },
+      "checks": [
+        "initial render",
+        "no horizontal overflow",
+        "background video autoplay",
+        "Google Fonts loaded",
+        "CTA contact anchor",
+        "required-field validation",
+        "input entry",
+        "service multi-select and deselect",
+        "disabled sending state",
+        "success replacement"
+      ]
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 1017,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "width": 3828,
+        "time": 3.236507
+      },
+      "fonts": {
+        "inter": true,
+        "instrument": true
+      },
+      "checks": [
+        "initial render",
+        "no horizontal overflow",
+        "background video autoplay",
+        "Google Fonts loaded",
+        "CTA contact anchor",
+        "required-field validation",
+        "input entry",
+        "service multi-select and deselect",
+        "disabled sending state",
+        "success replacement"
+      ]
+    }
+  }
+}

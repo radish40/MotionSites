@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { font-family: 'Inter', sans-serif; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+@font-face { font-family: "Noto Color Emoji"; src: url("/fonts/waving-hand.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: swap; }

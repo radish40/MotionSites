@@ -2685,19 +2685,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18616-d238-7e52-a6c2-4c075d36c4a6",
       "output_path": "generated/gpt-6.1-sol-high/arceage-contact-us",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2816825,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:16:44.869355+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "c243b3f9d32d8bf6bfa5ef73dec7cfcee2e88d92",
+      "url": "https://tool.luo-xd.com/motionsites-results/arceage-contact-us/",
+      "completed_utc": "2026-10-29T05:21:00.923743+00:00",
+      "group_message_id": 127
     },
     {
       "number": 80,
@@ -2746,14 +2750,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18618-8a1d-7e51-af89-ff91e28ed8ec",
       "output_path": "generated/gpt-6.1-sol-high/arceage-stats",
       "validation": "",
       "notes": "",
       "process_id": 2823969,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:18:37.343761+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 82,
@@ -2771,11 +2779,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/arceage-testimonial",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2832238,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:20:29.352973+00:00",
+      "worker_state": "running"
     },
     {
       "number": 83,
@@ -9334,5 +9346,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:19:35.451185+00:00"
+  "updated_utc": "2026-10-29T05:21:01.122255+00:00"
 }

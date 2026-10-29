@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:53:45.993138+00:00",
+  "updated_utc": "2026-10-29T04:55:09.293292+00:00",
   "total": 380,
   "counts": {
-    "complete": 55,
+    "complete": 56,
     "running": 5,
-    "not_started": 320
+    "not_started": 319
   },
   "jobs": [
     {
@@ -551,11 +551,11 @@
       "id": "prompt-hero",
       "title": "PROMPT",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185fc-d58a-7083-ab59-0f5c899f9974",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b5860d780ab51dae7911275c138d3235689952a6",
+      "group_message_id": 105,
+      "url": "https://tool.luo-xd.com/motionsites-results/prompt-hero/"
     },
     {
       "id": "remit-race",
@@ -592,7 +592,7 @@
       "title": "Stillmind",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18600-c596-7911-8cbb-dfe9ee08f7d6",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -602,7 +602,7 @@
       "title": "Subscription Agency",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18600-c620-7fb1-858e-46161ade9caf",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -611,7 +611,7 @@
       "id": "supplement-shop",
       "title": "Supplement Shop",
       "category": "Healthcare",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

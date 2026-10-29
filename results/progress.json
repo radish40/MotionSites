@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:45:51.307617+00:00",
+  "updated_utc": "2026-10-29T04:47:28.846901+00:00",
   "total": 380,
   "counts": {
-    "complete": 48,
+    "complete": 49,
     "running": 5,
-    "not_started": 327
+    "not_started": 326
   },
   "jobs": [
     {
@@ -501,11 +501,11 @@
       "id": "outdoor-apparel",
       "title": "Outdoor Apparel",
       "category": "E-commerce",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185f5-8b58-72e0-98fc-5a4654703f68",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a8bbf6d4aca9bb211df5809f82c9479d4b507817",
+      "group_message_id": 98,
+      "url": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/"
     },
     {
       "id": "oyla",
@@ -541,7 +541,7 @@
       "id": "product-studio",
       "title": "Product Studio",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

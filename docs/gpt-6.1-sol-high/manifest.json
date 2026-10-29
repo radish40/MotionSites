@@ -1687,19 +1687,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185f5-8b58-72e0-98fc-5a4654703f68",
       "output_path": "generated/gpt-6.1-sol-high/outdoor-apparel",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2680877,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:40:24.071587+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "a8bbf6d4aca9bb211df5809f82c9479d4b507817",
+      "url": "https://tool.luo-xd.com/motionsites-results/outdoor-apparel/",
+      "completed_utc": "2026-10-29T04:47:28.677487+00:00",
+      "group_message_id": 98
     },
     {
       "number": 51,
@@ -1807,11 +1811,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/product-studio",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2708666,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:46:58.790274+00:00",
+      "worker_state": "running"
     },
     {
       "number": 55,
@@ -8986,5 +8994,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:45:51.307617+00:00"
+  "updated_utc": "2026-10-29T04:47:28.846901+00:00"
 }

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:33:45.489361+00:00",
+  "updated_utc": "2026-10-29T07:35:26.006970+00:00",
   "total": 380,
   "counts": {
-    "complete": 170,
+    "complete": 171,
     "running": 5,
-    "not_started": 205
+    "not_started": 204
   },
   "jobs": [
     {
@@ -1731,11 +1731,11 @@
       "id": "neural-interface",
       "title": "Neural Interface",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1868f-192e-7252-ba3f-4c7d6336e737",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "439fa2c861e6b9071da794a8cf8e73a96dbd710b",
+      "group_message_id": 226,
+      "url": "https://tool.luo-xd.com/motionsites-results/neural-interface/"
     },
     {
       "id": "nex-max-upgrade",
@@ -1752,7 +1752,7 @@
       "title": "NexaCore Control",
       "category": "Features Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18693-d26f-75e2-8312-6498cac013d8",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1761,7 +1761,7 @@
       "id": "nexacore-process",
       "title": "NexaCore Process",
       "category": "Process & Stats",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

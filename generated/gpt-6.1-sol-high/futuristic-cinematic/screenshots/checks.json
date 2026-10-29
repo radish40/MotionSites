@@ -1,0 +1,76 @@
+{
+  "url": "http://localhost:4173/motionsites-results/futuristic-cinematic/",
+  "errors": [],
+  "warnings": [
+    {
+      "name": "desktop",
+      "message": "No available adapters."
+    },
+    {
+      "name": "desktop",
+      "message": "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend."
+    },
+    {
+      "name": "mobile",
+      "message": "No available adapters."
+    },
+    {
+      "name": "mobile",
+      "message": "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend."
+    }
+  ],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "axentra — When strategy meets its spark",
+      "heading": "When strategy meets its spark\nand thought reshapes what lies ahead",
+      "canvas": [
+        {
+          "width": 1440,
+          "height": 1000
+        }
+      ],
+      "fontLoaded": true,
+      "overflow": false,
+      "navPosition": "absolute"
+    },
+    {
+      "name": "cta-hover",
+      "transform": "2px"
+    },
+    {
+      "name": "live-motion",
+      "framesDiffer": true
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "axentra — When strategy meets its spark",
+      "heading": "When strategy meets its spark and thought reshapes what lies ahead",
+      "canvas": [
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "fontLoaded": true,
+      "overflow": false,
+      "navPosition": "absolute"
+    },
+    {
+      "name": "mobile-menu",
+      "visible": true,
+      "expanded": "true",
+      "escaped": true,
+      "linkCloses": true
+    }
+  ]
+}

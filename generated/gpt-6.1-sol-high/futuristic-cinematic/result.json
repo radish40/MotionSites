@@ -1,0 +1,83 @@
+{
+  "title": "Futuristic Cinematic",
+  "id": "futuristic-cinematic",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/futuristic-cinematic/",
+    "browser": "Chromium via Playwright Core, actual production build",
+    "viewports": [
+      {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "title": "axentra \u2014 When strategy meets its spark",
+        "heading": "When strategy meets its spark\nand thought reshapes what lies ahead",
+        "canvas": [
+          {
+            "width": 1440,
+            "height": 1000
+          }
+        ],
+        "fontLoaded": true,
+        "overflow": false,
+        "navPosition": "absolute"
+      },
+      {
+        "name": "cta-hover",
+        "transform": "2px"
+      },
+      {
+        "name": "live-motion",
+        "framesDiffer": true
+      },
+      {
+        "name": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "title": "axentra \u2014 When strategy meets its spark",
+        "heading": "When strategy meets its spark and thought reshapes what lies ahead",
+        "canvas": [
+          {
+            "width": 390,
+            "height": 844
+          }
+        ],
+        "fontLoaded": true,
+        "overflow": false,
+        "navPosition": "absolute"
+      },
+      {
+        "name": "mobile-menu",
+        "visible": true,
+        "expanded": "true",
+        "escaped": true,
+        "linkCloses": true
+      }
+    ],
+    "script_and_console_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact requested shader composition and values implemented with shaders/react 2.5.135; no background video or raster substitute.",
+    "Explicit shader node IDs resolve invalid double-underscore GLSL identifiers from React 19 default IDs.",
+    "Inter loaded from the exact requested Google Fonts URL.",
+    "Headless Chromium uses WebGL2 through SwiftShader because WebGPU adapters are unavailable; shader renders successfully. Browser warnings are retained in checks.json.",
+    "Vite emits a non-blocking bundle size warning: shader/Three.js runtime yields approximately 1.61 MB JS, 445 KB gzip.",
+    "Navigation returns to the single hero. Waitlist and hero CTA have no click destination because none is specified; no extra service, page, or form was added.",
+    "README.md documents setup, validation, and limitations. Dependency lockfile saved; node_modules ignored.",
+    "No deployment, push, other design reads, additional sessions, or agents. Ready for acceptance review."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "hlsJsFallback": [
+    {
+      "readyState": 4,
+      "blobSource": true
+    },
+    {
+      "readyState": 4,
+      "blobSource": true
+    },
+    {
+      "readyState": 4,
+      "blobSource": true
+    }
+  ],
+  "reducedMotion": {
+    "autoplay": false,
+    "poster": true
+  },
+  "errors": []
+}

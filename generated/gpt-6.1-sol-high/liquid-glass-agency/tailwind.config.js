@@ -1,0 +1,2 @@
+import animate from 'tailwindcss-animate';
+export default {content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{fontFamily:{heading:["'Instrument Serif'",'serif'],body:["'Barlow'",'sans-serif']},colors:{background:'hsl(var(--background))',foreground:'hsl(var(--foreground))',primary:'hsl(var(--primary))',border:'hsl(var(--border))'},borderRadius:{DEFAULT:'var(--radius)'}}},plugins:[animate]};

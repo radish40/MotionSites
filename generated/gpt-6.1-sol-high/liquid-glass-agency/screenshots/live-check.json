@@ -1,0 +1,117 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/",
+  "checked_at": "2026-10-29T03:55:57.429Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Studio — The Website Your Brand Deserves",
+      "bodyChars": 2444,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/images/logo.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/images/logo.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/images/glass-study.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/images/logo.svg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260307_083826_e938b29f-a43a-41ec-a153-3d4730578ab8.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://stream.mux.com/9JXDljEVWYwWu01PUkAemafDugK89o01BR6zqJ3aS9u00A.m3u8",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdFslMJYM.m3u8",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://stream.mux.com/8wrHPCX2dC3msyYU9ObwqNdm00u3ViXvOSHUMRYSEe5Q.m3u8",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Studio — The Website Your Brand Deserves",
+      "bodyChars": 2277,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/images/logo.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/images/logo.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/images/glass-study.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/liquid-glass-agency/images/logo.svg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260307_083826_e938b29f-a43a-41ec-a153-3d4730578ab8.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://stream.mux.com/9JXDljEVWYwWu01PUkAemafDugK89o01BR6zqJ3aS9u00A.m3u8",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdFslMJYM.m3u8",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://stream.mux.com/8wrHPCX2dC3msyYU9ObwqNdm00u3ViXvOSHUMRYSEe5Q.m3u8",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

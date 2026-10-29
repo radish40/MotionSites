@@ -1,0 +1,107 @@
+{
+  "desktopBrief": true,
+  "desktopFilm": true,
+  "desktopPricing": true,
+  "desktopLearnMore": true,
+  "desktopOptimization": true,
+  "desktopPrivacy": true,
+  "desktopTerms": true,
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "brokenImages": [],
+    "headings": [
+      "The Website Your Brand Deserves",
+      "You dream it.We ship it.",
+      "Pro features.Zero complexity.",
+      "Designed to convert.Built to perform.",
+      "It gets smarter.Automatically.",
+      "The difference is everything.",
+      "Days, Not Months",
+      "Obsessively Crafted",
+      "Built to Convert",
+      "Secure by Default",
+      "Don't take our word for it.",
+      "Your next websitestarts here."
+    ],
+    "videos": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260307_083826_e938b29f-a43a-41ec-a153-3d4730578ab8.mp4",
+        "readyState": 4,
+        "paused": false
+      },
+      {
+        "src": "https://stream.mux.com/9JXDljEVWYwWu01PUkAemafDugK89o01BR6zqJ3aS9u00A.m3u8",
+        "readyState": 4,
+        "paused": false
+      },
+      {
+        "src": "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdFslMJYM.m3u8",
+        "readyState": 4,
+        "paused": false
+      },
+      {
+        "src": "https://stream.mux.com/8wrHPCX2dC3msyYU9ObwqNdm00u3ViXvOSHUMRYSEe5Q.m3u8",
+        "readyState": 4,
+        "paused": false
+      }
+    ],
+    "fonts": true,
+    "errors": [],
+    "failedRequests": []
+  },
+  "mobileNav": true,
+  "mobileBrief": true,
+  "mobileFilm": true,
+  "mobilePricing": true,
+  "mobileLearnMore": true,
+  "mobileOptimization": true,
+  "mobilePrivacy": true,
+  "mobileTerms": true,
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "brokenImages": [],
+    "headings": [
+      "The Website Your Brand Deserves",
+      "You dream it.We ship it.",
+      "Pro features.Zero complexity.",
+      "Designed to convert.Built to perform.",
+      "It gets smarter.Automatically.",
+      "The difference is everything.",
+      "Days, Not Months",
+      "Obsessively Crafted",
+      "Built to Convert",
+      "Secure by Default",
+      "Don't take our word for it.",
+      "Your next websitestarts here."
+    ],
+    "videos": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260307_083826_e938b29f-a43a-41ec-a153-3d4730578ab8.mp4",
+        "readyState": 4,
+        "paused": false
+      },
+      {
+        "src": "https://stream.mux.com/9JXDljEVWYwWu01PUkAemafDugK89o01BR6zqJ3aS9u00A.m3u8",
+        "readyState": 4,
+        "paused": false
+      },
+      {
+        "src": "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdFslMJYM.m3u8",
+        "readyState": 4,
+        "paused": false
+      },
+      {
+        "src": "https://stream.mux.com/8wrHPCX2dC3msyYU9ObwqNdm00u3ViXvOSHUMRYSEe5Q.m3u8",
+        "readyState": 4,
+        "paused": false
+      }
+    ],
+    "fonts": true,
+    "errors": [],
+    "failedRequests": []
+  }
+}

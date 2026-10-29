@@ -1,0 +1,52 @@
+{
+  "title": "Liquid Glass Agency",
+  "id": "liquid-glass-agency",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publication_path": "/motionsites-results/liquid-glass-agency/",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite; no warnings",
+    "desktop": {
+      "viewport": "1440x1000",
+      "script_errors": 0,
+      "horizontal_overflow": false,
+      "broken_images": 0,
+      "fonts_loaded": true,
+      "videos_ready": 4
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "script_errors": 0,
+      "horizontal_overflow": false,
+      "broken_images": 0,
+      "fonts_loaded": true,
+      "videos_ready": 4
+    },
+    "interactions": "passed: mobile navigation, CTA form and local download, film player, feature dialogs, pricing, privacy, terms, Escape dismissal",
+    "hls_fallback": "passed: all three streams play through hls.js with native support disabled",
+    "reduced_motion": "passed: autoplay disabled and hero poster retained",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png",
+      "screenshots/mobile-full.png"
+    ],
+    "browser_reports": [
+      "screenshots/browser-report.json",
+      "screenshots/fallback-report.json"
+    ]
+  },
+  "asset_issues": [
+    {
+      "issue": "The prompt specifies a logo image and a feature GIF but provides no source files or URLs.",
+      "resolution": "Created original local SVG logo and animated 20-frame chrome sculpture GIF."
+    }
+  ],
+  "notes": [
+    "All supplied video URLs worked in Chromium. Exact external video URLs retained; hero has local MP4 and JPEG fallback.",
+    "Google Fonts import retained; local copies of both font families included.",
+    "No booking backend, calendar, contact address, or prices were supplied. The clearly labeled demo prepares a local brief without sending data or scheduling a call.",
+    "All work and artifacts are confined to this project. No agents, pushes, deployment, or external messages.",
+    "Ready for management review; not deployed."
+  ]
+}

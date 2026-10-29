@@ -1,0 +1,522 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "overflow": false,
+      "phones": [
+        {
+          "x": 90.5,
+          "y": 63.5,
+          "width": 393,
+          "height": 873
+        },
+        {
+          "x": 523.5,
+          "y": 63.5,
+          "width": 393,
+          "height": 873
+        },
+        {
+          "x": 956.5,
+          "y": 63.5,
+          "width": 393,
+          "height": 873
+        }
+      ],
+      "images": [
+        {
+          "src": "./assets/dimitris.webp",
+          "loaded": true
+        },
+        {
+          "src": "./assets/fiona.webp",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "time": 3.248409
+      },
+      "fontStatus": "loaded",
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Michroma",
+          "status": "loaded"
+        },
+        {
+          "family": "Poppins",
+          "status": "loaded"
+        }
+      ],
+      "chipRowsFit": true,
+      "faqFits": true,
+      "ctaFocusable": true,
+      "errors": [],
+      "failed": [],
+      "mediaAborts": [
+        {
+          "url": "http://localhost:4173/motionsites-results/innovation-summit/assets/home.mp4",
+          "reason": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://localhost:4173/motionsites-results/innovation-summit/assets/home.mp4",
+          "reason": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "phones": [
+        {
+          "x": 16,
+          "y": 24,
+          "width": 358,
+          "height": 795.2518920898438
+        },
+        {
+          "x": 16,
+          "y": 847.25,
+          "width": 358,
+          "height": 795.251953125
+        },
+        {
+          "x": 16,
+          "y": 1670.5,
+          "width": 358,
+          "height": 795.251953125
+        }
+      ],
+      "images": [
+        {
+          "src": "./assets/dimitris.webp",
+          "loaded": true
+        },
+        {
+          "src": "./assets/fiona.webp",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "time": 3.260927
+      },
+      "fontStatus": "loaded",
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Michroma",
+          "status": "loaded"
+        },
+        {
+          "family": "Poppins",
+          "status": "loaded"
+        }
+      ],
+      "chipRowsFit": true,
+      "faqFits": true,
+      "ctaFocusable": true,
+      "errors": [],
+      "failed": [],
+      "mediaAborts": [
+        {
+          "url": "http://localhost:4173/motionsites-results/innovation-summit/assets/home.mp4",
+          "reason": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "name": "tablet",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "overflow": false,
+      "phones": [
+        {
+          "x": 213.5,
+          "y": 40,
+          "width": 393,
+          "height": 873
+        },
+        {
+          "x": 213.5,
+          "y": 945,
+          "width": 393,
+          "height": 873
+        },
+        {
+          "x": 213.5,
+          "y": 1850,
+          "width": 393,
+          "height": 873
+        }
+      ],
+      "images": [
+        {
+          "src": "./assets/dimitris.webp",
+          "loaded": true
+        },
+        {
+          "src": "./assets/fiona.webp",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "time": 3.267407
+      },
+      "fontStatus": "loaded",
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Michroma",
+          "status": "loaded"
+        },
+        {
+          "family": "Poppins",
+          "status": "loaded"
+        }
+      ],
+      "chipRowsFit": true,
+      "faqFits": true,
+      "ctaFocusable": true,
+      "errors": [],
+      "failed": [],
+      "mediaAborts": [
+        {
+          "url": "http://localhost:4173/motionsites-results/innovation-summit/assets/home.mp4",
+          "reason": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "name": "small",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "overflow": false,
+      "phones": [
+        {
+          "x": 16,
+          "y": 24,
+          "width": 288,
+          "height": 639.7557373046875
+        },
+        {
+          "x": 16,
+          "y": 691.75,
+          "width": 288,
+          "height": 639.7557373046875
+        },
+        {
+          "x": 16,
+          "y": 1359.5,
+          "width": 288,
+          "height": 639.7557373046875
+        }
+      ],
+      "images": [
+        {
+          "src": "./assets/dimitris.webp",
+          "loaded": true
+        },
+        {
+          "src": "./assets/fiona.webp",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "time": 3.245026
+      },
+      "fontStatus": "loaded",
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Michroma",
+          "status": "loaded"
+        },
+        {
+          "family": "Poppins",
+          "status": "loaded"
+        }
+      ],
+      "chipRowsFit": true,
+      "faqFits": true,
+      "ctaFocusable": true,
+      "errors": [],
+      "failed": [],
+      "mediaAborts": [
+        {
+          "url": "http://localhost:4173/motionsites-results/innovation-summit/assets/home.mp4",
+          "reason": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "name": "compact-desktop",
+      "viewport": {
+        "width": 1024,
+        "height": 1000
+      },
+      "overflow": false,
+      "phones": [
+        {
+          "x": 24,
+          "y": 156.421875,
+          "width": 309.3333435058594,
+          "height": 687.14501953125
+        },
+        {
+          "x": 357.328125,
+          "y": 156.421875,
+          "width": 309.3333740234375,
+          "height": 687.14501953125
+        },
+        {
+          "x": 690.65625,
+          "y": 156.421875,
+          "width": 309.3333740234375,
+          "height": 687.14501953125
+        }
+      ],
+      "images": [
+        {
+          "src": "./assets/dimitris.webp",
+          "loaded": true
+        },
+        {
+          "src": "./assets/fiona.webp",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "time": 3.365396
+      },
+      "fontStatus": "loaded",
+      "fonts": [
+        {
+          "family": "General Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "loaded"
+        },
+        {
+          "family": "Satoshi",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Archivo",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Michroma",
+          "status": "loaded"
+        },
+        {
+          "family": "Poppins",
+          "status": "loaded"
+        }
+      ],
+      "chipRowsFit": true,
+      "faqFits": true,
+      "ctaFocusable": true,
+      "errors": [],
+      "failed": [],
+      "mediaAborts": [
+        {
+          "url": "http://localhost:4173/motionsites-results/innovation-summit/assets/home.mp4",
+          "reason": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://localhost:4173/motionsites-results/innovation-summit/assets/home.mp4",
+          "reason": "net::ERR_ABORTED"
+        }
+      ]
+    }
+  ],
+  "reducedMotion": {
+    "animation": "none",
+    "videoVisibility": "hidden"
+  }
+}

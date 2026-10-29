@@ -1,0 +1,60 @@
+{
+  "title": "Innovation Summit",
+  "id": "innovation-summit",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; Vite 6.4.5; dist/index.html exists",
+    "browser": "Chromium 148 via Playwright Core; production output served at configured subpath",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 820,
+        "height": 1180
+      },
+      {
+        "width": 320,
+        "height": 740
+      },
+      {
+        "width": 1024,
+        "height": 1000
+      }
+    ],
+    "horizontal_overflow": false,
+    "console_and_script_errors": 0,
+    "http_or_asset_failures": 0,
+    "video_playback": "passed at all five viewports; readyState 4, unpaused, currentTime > 3 seconds",
+    "portraits": "both supplied images loaded at all viewports",
+    "fonts": "all used font faces loaded locally",
+    "layout": "393x873 frames at desktop; responsive scaling and wrapping; FAQ content and chip rows fit",
+    "controls": "menu and CTA clicks checked; CTA keyboard focus passed; controls remain static as requested",
+    "reduced_motion": "entrance and sheen animations disabled; moving video hidden",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "evidence": "screenshots/checks.json",
+    "npm_audit": "0 vulnerabilities after updating Vite to 6.4.5"
+  },
+  "asset_issues": [
+    "Axiforma was specified without a font file or licensed source URL. The specified Satoshi fallback is used for headings, and Poppins for metadata."
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Native HTML/CSS with CSS-only animations and no runtime JavaScript, as specified.",
+    "Exact supplied video and portrait URLs successfully downloaded and bundled locally.",
+    "Public base: /motionsites-results/innovation-summit/.",
+    "Vite leaves the public font stylesheet URL for runtime resolution; browser checks verify successful local loading.",
+    "Chromium media-range cancellations (net::ERR_ABORTED) are recorded separately in checks.json; video playback succeeds.",
+    "Reduced motion uses a static gradient background. Only Chromium was tested.",
+    "Source, lockfile, build output, screenshots, README, and browser check script are included; node_modules excluded."
+  ]
+}

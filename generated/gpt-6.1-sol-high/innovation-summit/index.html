@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23433b73%27/%3E%3Ctext x=%277%27 y=%2724%27 fill=%27white%27 font-size=%2725%27%3Eu%3C/text%3E%3C/svg%3E" />
+  <meta name="theme-color" content="#433B73" />
+  <meta name="description" content="Unfold by MEWS. A three-screen event app showcase featuring the event, speakers, and frequently asked questions." />
+  <title>Unfold by MEWS — Innovation Summit</title>
+  <link rel="stylesheet" href="%BASE_URL%assets/fonts.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="showcase" aria-label="Unfold by MEWS event app showcase">
+    <div class="device-slot">
+      <section class="phone home" aria-label="Unfold home screen">
+        <video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+          <source src="./assets/home.mp4" type="video/mp4" />
+        </video>
+        <div class="video-overlay" aria-hidden="true"></div>
+        <header class="topbar home-top rise" style="--delay:.45s">
+          <span class="mews">MEWS</span>
+          <button class="menu menu-home" type="button" aria-label="Home menu (visual preview)"><span></span><span></span></button>
+        </header>
+        <div class="hero-copy">
+          <h1 class="blur">Unfold</h1>
+          <div class="metadata rise" style="--delay:.75s"><span>Volume 05</span><i class="pill" aria-hidden="true"></i><span>Amsterdam</span><i class="dot" aria-hidden="true"></i><span>29.05.2024</span></div>
+        </div>
+        <div class="cta-wrap rise" style="--delay:.95s"><button class="ticket" type="button" aria-label="Get a ticket (visual preview)"><span>Get a ticket</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+      </section>
+    </div>
+    <div class="device-slot">
+      <section class="phone speakers" aria-labelledby="speakers-heading">
+        <header class="topbar rise" style="--delay:.6s"><span class="brand">Unfold</span><button class="menu menu-light" type="button" aria-label="Speakers menu (visual preview)"><span></span><span></span></button></header>
+        <div class="speakers-content">
+          <h2 id="speakers-heading" class="clip" style="--delay:.7s">This Year's<br />Speakers</h2>
+          <p class="description rise" style="--delay:.8s">Hospitality's best and brightest are invited to speak at Unfold. Here are some of the people who'll inspire attendees this year.</p>
+          <div class="divider" style="--delay:.9s"></div>
+          <div class="chips speaker-chips stagger" style="--delay:1s" aria-label="Speaker categories, All selected">
+            <span class="chip active">All</span><span class="chip">Keynote</span><span class="chip">Hotelier</span><span class="chip">Technology</span><span class="chip">Consultant</span>
+          </div>
+          <div class="speaker-grid stagger" style="--delay:1.23s">
+            <article class="speaker-card"><img src="./assets/dimitris.webp" alt="Dimitris Manikis" width="150" height="172" /><h3>Dimitris Manikis</h3><p title="President and MD for...">President and MD for...</p></article>
+            <article class="speaker-card"><img src="./assets/fiona.webp" alt="Fiona McDonnell" width="150" height="172" /><h3>Fiona McDonnell</h3><p title="VP Global Partner...">VP Global Partner...</p></article>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="device-slot">
+      <section class="phone faqs" aria-labelledby="faq-heading">
+        <header class="topbar rise" style="--delay:.8s"><span class="brand">Unfold</span><button class="menu menu-light" type="button" aria-label="FAQ menu (visual preview)"><span></span><span></span></button></header>
+        <div class="faq-content">
+          <h2 id="faq-heading" class="clip" style="--delay:.9s">FAQs</h2>
+          <div class="divider" style="--delay:1s"></div>
+          <div class="chips faq-chips stagger" style="--delay:1.05s" aria-label="FAQ categories, All selected">
+            <div class="chip-row"><span class="chip active">All</span><span class="chip">Where can I stay?</span><span class="chip">In-person experience</span></div>
+            <div class="chip-row"><span class="chip">Tickets</span><span class="chip">Venue</span><span class="chip">Workshop sessions</span></div>
+            <div class="chip-row"><span class="chip">Networking &amp; afterparty</span><span class="chip">Other</span></div>
+          </div>
+          <div class="faq-groups stagger" style="--delay:1.25s">
+            <div class="faq-group"><span class="category-label">Where can I stay?</span><div class="question"><span>Where can I stay?</span><span class="plus" aria-hidden="true"></span></div></div>
+            <div class="faq-group"><span class="category-label">In-person experience</span><div class="question"><span>What time does the<br />event start?</span><span class="plus" aria-hidden="true"></span></div><div class="question"><span>What's included in my<br />ticket?</span><span class="plus" aria-hidden="true"></span></div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

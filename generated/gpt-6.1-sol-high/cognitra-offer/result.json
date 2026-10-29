@@ -1,0 +1,33 @@
+{
+  "title": "Cognitra Offer",
+  "id": "cognitra-offer",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "publish_base": "/motionsites-results/cognitra-offer/",
+    "desktop_1440x1000": "passed; three equal columns; 100vh; no horizontal or vertical overflow",
+    "mobile_390x844": "passed; single column; natural vertical scrolling; no horizontal overflow",
+    "video_playback": "passed; all three supplied videos decoded and advanced on desktop and mobile; muted, loop, playsInline enabled",
+    "scroll_reveals": "passed; all cards visible after entering viewport",
+    "font": "passed; Helvetica Now Var loaded",
+    "reduced_motion": "passed; heading visible without entrance animation",
+    "script_errors": [],
+    "http_errors": [],
+    "failed_requests": [],
+    "visual_review": "passed; desktop and mobile screenshots inspected",
+    "evidence": "screenshots/browser-checks.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented only the supplied Cognitra Offer design with React 18, TypeScript, Vite, Tailwind CSS 3, and Framer Motion 12.",
+    "All three exact supplied videos and the supplied font were downloaded successfully; local copies are included.",
+    "Original font CSS import retained, with a local font declaration for resilience.",
+    "Mobile screenshot is full-page, captured at viewport 390x844.",
+    "Chromium tested; Safari and Firefox untested.",
+    "No controls were specified; behavioral checks cover video playback and scrolling reveals.",
+    "Ready for review; not deployed or pushed. No agents or additional sessions were created.",
+    "Execution model is controlled by the enclosing session and was not changed by project code."
+  ]
+}

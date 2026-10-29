@@ -1,0 +1,91 @@
+{
+  "url": "http://localhost:4173/motionsites-results/cognitra-offer/",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "sectionHeight": 1000,
+      "columns": "445.328px 445.328px 445.344px",
+      "fontLoaded": true,
+      "background": "rgb(197, 197, 197)",
+      "videos": [
+        {
+          "width": 2880,
+          "height": 2880,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "width": 2880,
+          "height": 2880,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "width": 2880,
+          "height": 2880,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "error": null
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "scrollHeight": 1748,
+      "sectionHeight": 1748.34375,
+      "columns": "354px",
+      "fontLoaded": true,
+      "background": "rgb(197, 197, 197)",
+      "videos": [
+        {
+          "width": 2880,
+          "height": 2880,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "width": 2880,
+          "height": 2880,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "width": 2880,
+          "height": 2880,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "scriptErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "reducedMotion": "passed"
+}

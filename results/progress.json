@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:27:14.229750+00:00",
+  "updated_utc": "2026-10-29T07:28:58.062275+00:00",
   "total": 380,
   "counts": {
-    "complete": 167,
+    "complete": 168,
     "running": 5,
-    "not_started": 208
+    "not_started": 207
   },
   "jobs": [
     {
@@ -1691,11 +1691,11 @@
       "id": "naturecore-saas",
       "title": "Naturecore SaaS",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18688-3035-79f1-bede-8ef3b5b1b247",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "058fd884b9bdd9e083e38a3b23559aa4fa1550ec",
+      "group_message_id": 223,
+      "url": "https://tool.luo-xd.com/motionsites-results/naturecore-saas/"
     },
     {
       "id": "neo-museum",
@@ -1722,7 +1722,7 @@
       "title": "Network Hero",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1868d-d3c6-7013-b835-0238b813746e",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1731,7 +1731,7 @@
       "id": "neural-interface",
       "title": "Neural Interface",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

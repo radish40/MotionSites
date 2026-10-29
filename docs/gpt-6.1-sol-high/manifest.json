@@ -5782,19 +5782,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18688-3035-79f1-bede-8ef3b5b1b247",
       "output_path": "generated/gpt-6.1-sol-high/naturecore-saas",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3239855,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:20:34.477752+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "058fd884b9bdd9e083e38a3b23559aa4fa1550ec",
+      "url": "https://tool.luo-xd.com/motionsites-results/naturecore-saas/",
+      "completed_utc": "2026-10-29T07:28:57.804243+00:00",
+      "group_message_id": 223
     },
     {
       "number": 170,
@@ -5873,14 +5877,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1868d-d3c6-7013-b835-0238b813746e",
       "output_path": "generated/gpt-6.1-sol-high/network-hero",
       "validation": "",
       "notes": "",
       "process_id": 3261011,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:26:44.046181+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 173,
@@ -5898,11 +5906,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/neural-interface",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3266845,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:28:07.349284+00:00",
+      "worker_state": "running"
     },
     {
       "number": 174,
@@ -10459,7 +10471,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:27:14.229750+00:00",
+  "updated_utc": "2026-10-29T07:28:58.062275+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

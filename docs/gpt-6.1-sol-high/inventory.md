@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 167/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 168/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -253,11 +253,11 @@
 | 166 | `minimal-workflow-saas` | Minimal Workflow SaaS | SaaS | 2 | 图片 | 已完成 |
 | 167 | `mouse-trail-cta` | Mouse Trail CTA | CTA Section | 2 | 图片 | 已完成 |
 | 168 | `mythic-naturecore` | Mythic Naturecore | Landing Page | 2 | 图片 | 生成中 |
-| 169 | `naturecore-saas` | Naturecore SaaS | Hero Section | 2 | 图片 | 生成中 |
+| 169 | `naturecore-saas` | Naturecore SaaS | Hero Section | 2 | 图片 | 已完成 |
 | 170 | `neo-museum` | Neo Museum | Website | 2 | 图片 | 生成中 |
 | 171 | `neon-logic` | Neon Logic | Landing Page | 2 | 图片 | 生成中 |
 | 172 | `network-hero` | Network Hero | Hero Section | 2 | 图片 | 生成中 |
-| 173 | `neural-interface` | Neural Interface | Landing Page | 2 | 图片 | 未开始 |
+| 173 | `neural-interface` | Neural Interface | Landing Page | 2 | 图片 | 生成中 |
 | 174 | `nex-max-upgrade` | Nex Max Upgrade | Pricing Page | 2 | 图片 | 未开始 |
 | 175 | `nexacore-control` | NexaCore Control | Features Section | 2 | 图片 | 未开始 |
 | 176 | `nexacore-process` | NexaCore Process | Process & Stats | 2 | 图片 | 未开始 |

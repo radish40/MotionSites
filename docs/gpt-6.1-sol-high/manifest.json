@@ -5124,14 +5124,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18673-f461-7251-805d-1c5e35c62620",
       "output_path": "generated/gpt-6.1-sol-high/jewelry-store",
       "validation": "",
       "notes": "",
       "process_id": 3159359,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:58:28.482902+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 151,
@@ -5150,14 +5154,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18673-f4f5-70c3-8dcc-9d3f3abb4442",
       "output_path": "generated/gpt-6.1-sol-high/kova-features",
       "validation": "",
       "notes": "",
       "process_id": 3159418,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:58:28.607391+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 152,
@@ -10198,7 +10206,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:59:27.258593+00:00",
+  "updated_utc": "2026-10-29T07:00:20.889788+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

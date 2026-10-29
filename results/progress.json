@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T06:59:27.258593+00:00",
+  "updated_utc": "2026-10-29T07:00:20.889788+00:00",
   "total": 380,
   "counts": {
     "complete": 146,
@@ -1502,7 +1502,7 @@
       "title": "Jewelry Store",
       "category": "E-commerce",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18673-f461-7251-805d-1c5e35c62620",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1512,7 +1512,7 @@
       "title": "Kova Features",
       "category": "Benefits",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18673-f4f5-70c3-8dcc-9d3f3abb4442",
       "source_commit": null,
       "group_message_id": null,
       "url": null

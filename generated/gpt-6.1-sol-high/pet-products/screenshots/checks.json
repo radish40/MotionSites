@@ -1,0 +1,291 @@
+{
+  "url": "/motionsites-results/pet-products/",
+  "checks": [
+    {
+      "name": "desktop 1440x1000",
+      "result": "pass",
+      "details": {
+        "viewport": 1440,
+        "width": 1440,
+        "images": true,
+        "phones": [
+          {
+            "x": 85,
+            "y": 93.828125,
+            "width": 390,
+            "height": 812.328125
+          },
+          {
+            "x": 525,
+            "y": 93.828125,
+            "width": 390,
+            "height": 812.328125
+          },
+          {
+            "x": 965,
+            "y": 93.828125,
+            "width": 390,
+            "height": 812.328125
+          }
+        ],
+        "fonts": [
+          {
+            "family": "Inter",
+            "loaded": true
+          },
+          {
+            "family": "Poppins",
+            "loaded": true
+          },
+          {
+            "family": "DM Serif Display",
+            "loaded": true
+          }
+        ],
+        "avatarFits": true,
+        "pricesFit": true
+      }
+    },
+    {
+      "name": "video loads, autoplays muted, pauses and resumes",
+      "result": "pass"
+    },
+    {
+      "name": "navigation, favorites, add to cart, synchronized cart totals, close/Escape and Explore Products",
+      "result": "pass"
+    },
+    {
+      "name": "mobile 390x844",
+      "result": "pass",
+      "details": {
+        "viewport": 390,
+        "width": 390,
+        "images": true,
+        "phones": [
+          {
+            "x": 29.25,
+            "y": 20,
+            "width": 331.5,
+            "height": 692.578125
+          },
+          {
+            "x": 29.25,
+            "y": 739.765625,
+            "width": 331.5,
+            "height": 692.578125
+          },
+          {
+            "x": 29.25,
+            "y": 1459.53125,
+            "width": 331.5,
+            "height": 692.578125
+          }
+        ],
+        "fonts": [
+          {
+            "family": "Inter",
+            "loaded": true
+          },
+          {
+            "family": "Poppins",
+            "loaded": true
+          },
+          {
+            "family": "DM Serif Display",
+            "loaded": true
+          }
+        ],
+        "avatarFits": true,
+        "pricesFit": true
+      }
+    },
+    {
+      "name": "mobile menu, explore, product add and cart",
+      "result": "pass"
+    },
+    {
+      "name": "responsive 320",
+      "result": "pass",
+      "details": {
+        "viewport": 320,
+        "width": 320,
+        "images": true,
+        "phones": [
+          {
+            "x": 13.75,
+            "y": -891,
+            "width": 292.5,
+            "height": 610.40625
+          },
+          {
+            "x": 13.75,
+            "y": -256.59375,
+            "width": 292.5,
+            "height": 610.40625
+          },
+          {
+            "x": 13.75,
+            "y": 377.8125,
+            "width": 292.5,
+            "height": 610.40625
+          }
+        ],
+        "fonts": [
+          {
+            "family": "Inter",
+            "loaded": true
+          },
+          {
+            "family": "Poppins",
+            "loaded": true
+          },
+          {
+            "family": "DM Serif Display",
+            "loaded": true
+          }
+        ],
+        "avatarFits": true,
+        "pricesFit": true
+      }
+    },
+    {
+      "name": "responsive 768",
+      "result": "pass",
+      "details": {
+        "viewport": 768,
+        "width": 768,
+        "images": true,
+        "phones": [
+          {
+            "x": 198.75,
+            "y": -883,
+            "width": 370.5,
+            "height": 772.40625
+          },
+          {
+            "x": 198.75,
+            "y": -80.203125,
+            "width": 370.5,
+            "height": 772.40625
+          },
+          {
+            "x": 198.75,
+            "y": 722.59375,
+            "width": 370.5,
+            "height": 772.40625
+          }
+        ],
+        "fonts": [
+          {
+            "family": "Inter",
+            "loaded": true
+          },
+          {
+            "family": "Poppins",
+            "loaded": true
+          },
+          {
+            "family": "DM Serif Display",
+            "loaded": true
+          }
+        ],
+        "avatarFits": true,
+        "pricesFit": true
+      }
+    },
+    {
+      "name": "responsive 1024",
+      "result": "pass",
+      "details": {
+        "viewport": 1024,
+        "width": 1024,
+        "images": true,
+        "phones": [
+          {
+            "x": 23.046875,
+            "y": 186.34375,
+            "width": 300.296875,
+            "height": 627.296875
+          },
+          {
+            "x": 361.84375,
+            "y": 186.34375,
+            "width": 300.296875,
+            "height": 627.296875
+          },
+          {
+            "x": 700.640625,
+            "y": 186.34375,
+            "width": 300.296875,
+            "height": 627.296875
+          }
+        ],
+        "fonts": [
+          {
+            "family": "Inter",
+            "loaded": true
+          },
+          {
+            "family": "Poppins",
+            "loaded": true
+          },
+          {
+            "family": "DM Serif Display",
+            "loaded": true
+          }
+        ],
+        "avatarFits": true,
+        "pricesFit": true
+      }
+    },
+    {
+      "name": "responsive 1280",
+      "result": "pass",
+      "details": {
+        "viewport": 1280,
+        "width": 1280,
+        "images": true,
+        "phones": [
+          {
+            "x": 151.046875,
+            "y": 186.34375,
+            "width": 300.296875,
+            "height": 627.296875
+          },
+          {
+            "x": 489.84375,
+            "y": 186.34375,
+            "width": 300.296875,
+            "height": 627.296875
+          },
+          {
+            "x": 828.640625,
+            "y": 186.34375,
+            "width": 300.296875,
+            "height": 627.296875
+          }
+        ],
+        "fonts": [
+          {
+            "family": "Inter",
+            "loaded": true
+          },
+          {
+            "family": "Poppins",
+            "loaded": true
+          },
+          {
+            "family": "DM Serif Display",
+            "loaded": true
+          }
+        ],
+        "avatarFits": true,
+        "pricesFit": true
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "responses": [],
+  "status": "pass"
+}

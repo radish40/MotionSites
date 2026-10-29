@@ -1,0 +1,27 @@
+/* Keep the supplied three-phone composition within narrower viewports. */
+@media (min-width: 1024px) and (max-width: 1310px) { .phones { zoom: .77; } }
+@media (max-width: 370px) { .phones { zoom: .75; } .page { padding: 12px; } }
+button:focus-visible, a:focus-visible { outline: 3px solid #E86A10; outline-offset: 3px; }
+button { -webkit-tap-highlight-color: transparent; }
+.explore-btn, .product-plus, .play-btn button { transition: transform .2s, background .2s; }
+.explore-btn:hover, .play-btn button:hover { transform: scale(1.05); }
+.product-plus:hover { transform: rotate(90deg); }
+.product-plus.added { color: #E86A10; }
+.phone-panel { position: absolute; inset: 95px 10px 10px; z-index: 50; background: #f0f9f1; color: #1a3d1a; border: 1px solid #bad6bd; border-radius: 22px; padding: 24px 20px; overflow-y: auto; box-shadow: 0 12px 25px #1a3d1a22; }
+.phone-panel[hidden] { display: none; }
+.panel-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 25px; }
+.panel-top h2 { font: 500 25px 'Poppins',sans-serif; }
+.panel-close { border: 0; background: #1a3d1a; color: white; border-radius: 50%; width: 32px; height: 32px; font-size: 23px; cursor: pointer; }
+.panel-link { display: block; width: 100%; text-align: left; padding: 18px 0; border: 0; border-bottom: 1px solid #bad6bd; background: none; font: 500 16px 'Inter',sans-serif; color: #1a3d1a; cursor: pointer; }
+.panel-item { display: flex; justify-content: space-between; gap: 12px; align-items: center; border-bottom: 1px solid #bad6bd; padding: 16px 0; font-size: 14px; }
+.panel-item img { width: 48px; height: 48px; border-radius: 10px; object-fit: cover; }
+.panel-item span { flex: 1; }
+.panel-total { margin-top: 24px; font-size: 20px; font-weight: 600; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; transition: none !important; } }
+/* Scope inherited image positioning so the small client avatar stays in its circle. */
+.stats-avatar img { position: static; }
+/* Fit all four supplied products and their prices inside the phone screen. */
+.product-card { padding: 12px; }
+.product-img { height: 58px; aspect-ratio: auto; }
+.product-name { font-size: 12px; }
+.product-price { font-size: 24px; }

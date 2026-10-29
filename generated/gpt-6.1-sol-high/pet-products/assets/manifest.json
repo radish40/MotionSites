@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://polo-pecan-73837341.figma.site/_assets/v11/e62173d41f91350a59628e8a9a55ae078a886fb9.png?w=128",
+    "local": "assets/avatar.png",
+    "status": "ok",
+    "bytes": 13249,
+    "content_type": "downloaded via curl"
+  },
+  {
+    "url": "https://polo-pecan-73837341.figma.site/_assets/v11/8d44b25186ef45a5789c74668fb781cea4e1ff49.png",
+    "local": "assets/dachshund.png",
+    "status": "ok",
+    "bytes": 469508,
+    "content_type": "downloaded via curl"
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260706_160640_dc6d2a50-121e-45b0-a84f-331faa58d804.mp4",
+    "local": "assets/pets.mp4",
+    "status": "ok",
+    "bytes": 9412581,
+    "content_type": "downloaded via curl"
+  },
+  {
+    "url": "https://polo-pecan-73837341.figma.site/_assets/v11/96745c4e72ad5c5208e53a885df797fd82cd854a.png?h=1024",
+    "local": "assets/retriever.png",
+    "status": "ok",
+    "bytes": 331226,
+    "content_type": "downloaded via curl"
+  },
+  {
+    "url": "https://polo-pecan-73837341.figma.site/_assets/v11/81bd2e7a66b58f3d8f3ad78fd1ebf01af8dfdee1.png",
+    "local": "assets/cat.png",
+    "status": "ok",
+    "bytes": 496378,
+    "content_type": "downloaded via curl"
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260706_172706_08d34c84-fa47-4744-835d-aeb8574e894b.png&w=1280&q=85",
+    "local": "assets/sunset-bowl.webp",
+    "status": "ok",
+    "bytes": 42086,
+    "content_type": "downloaded via curl"
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260706_171722_0831d998-50be-461c-89e1-1164db805d12.png&w=1280&q=85",
+    "local": "assets/mint-bowl.webp",
+    "status": "ok",
+    "bytes": 20462,
+    "content_type": "downloaded via curl"
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260706_171713_10dca337-a1bd-44c8-be9f-44ef5b5efb5c.png&w=1280&q=85",
+    "local": "assets/cat-toy.webp",
+    "status": "ok",
+    "bytes": 40138,
+    "content_type": "downloaded via curl"
+  },
+  {
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260706_175012_ec38ea5f-e56d-4158-9970-df6ea6f4641b.png&w=1280&q=85",
+    "local": "assets/cat-bed.webp",
+    "status": "ok",
+    "bytes": 46306,
+    "content_type": "downloaded via curl"
+  }
+]

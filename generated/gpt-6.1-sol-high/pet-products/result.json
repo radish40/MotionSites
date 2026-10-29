@@ -1,0 +1,47 @@
+{
+  "title": "Pet Products",
+  "id": "pet-products",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only --ignore-scripts && npm run build'",
+  "checks": {
+    "build": "pass",
+    "browser": "pass",
+    "report": "screenshots/checks.json",
+    "desktop": "1440x1000",
+    "mobile": "390x844",
+    "additional_widths": [
+      320,
+      768,
+      1024,
+      1280
+    ],
+    "interaction_checks": [
+      "video loads, autoplays muted, pauses and resumes",
+      "navigation, favorites, add to cart, synchronized cart totals, close/Escape and Explore Products",
+      "mobile menu, explore, product add and cart"
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "pass"
+  },
+  "asset_issues": [
+    {
+      "type": "source_content_mismatch",
+      "details": "Exact supplied assets retained: Sunset Cat Bowl image is a green mouse toy; Cat Toy image is an orange bowl; Cat Bed image is a red mouse toy. No failed media or font downloads."
+    }
+  ],
+  "notes": [
+    "Native HTML/CSS/JavaScript stack, as supplied in PROMPT.md.",
+    "Complete static build in dist/ with relative local assets for /motionsites-results/pet-products/.",
+    "Nine media assets and all three requested font families bundled locally.",
+    "Corrected inherited avatar positioning and product price clipping, with responsive fit and reduced-motion support.",
+    "Cart uses page-session memory and the supplied initial one-item $21 state; no backend specified.",
+    "README.md includes build, preview, checks and limitations.",
+    "No deployment, push, other design access, subagents or messaging. Ready means ready for review."
+  ]
+}

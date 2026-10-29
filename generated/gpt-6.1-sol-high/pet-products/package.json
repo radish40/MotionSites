@@ -1,0 +1,7 @@
+{
+  "name": "pet-products",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pet Products — CozyPaws native HTML design",
+  "scripts": { "build": "node scripts/build.mjs" }
+}

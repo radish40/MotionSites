@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 171/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 172/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -258,10 +258,10 @@
 | 171 | `neon-logic` | Neon Logic | Landing Page | 2 | 图片 | 已完成 |
 | 172 | `network-hero` | Network Hero | Hero Section | 2 | 图片 | 已完成 |
 | 173 | `neural-interface` | Neural Interface | Landing Page | 2 | 图片 | 已完成 |
-| 174 | `nex-max-upgrade` | Nex Max Upgrade | Pricing Page | 2 | 图片 | 生成中 |
+| 174 | `nex-max-upgrade` | Nex Max Upgrade | Pricing Page | 2 | 图片 | 已完成 |
 | 175 | `nexacore-control` | NexaCore Control | Features Section | 2 | 图片 | 生成中 |
 | 176 | `nexacore-process` | NexaCore Process | Process & Stats | 2 | 图片 | 生成中 |
-| 177 | `nexacore-results` | NexaCore Results | Features Section | 2 | 图片 | 未开始 |
+| 177 | `nexacore-results` | NexaCore Results | Features Section | 2 | 图片 | 生成中 |
 | 178 | `nike-hover` | Nike Hover | Features Section | 2 | 图片 | 未开始 |
 | 179 | `nimbus-demo` | Nimbus Demo | Dashboards | 2 | 图片 | 未开始 |
 | 180 | `nimbus-grid` | Nimbus Grid | Landing Page | 2 | 图片 | 未开始 |

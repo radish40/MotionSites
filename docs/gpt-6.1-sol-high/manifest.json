@@ -5952,19 +5952,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18690-b8f2-7a81-9f9f-edd36c46b777",
       "output_path": "generated/gpt-6.1-sol-high/nex-max-upgrade",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3273243,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:29:53.772600+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "c56ac6304def593c24eb7e17076774b7f1bf41aa",
+      "url": "https://tool.luo-xd.com/motionsites-results/nex-max-upgrade/",
+      "completed_utc": "2026-10-29T07:37:34.001296+00:00",
+      "group_message_id": 228
     },
     {
       "number": 175,
@@ -6013,14 +6017,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18695-2312-72a3-b20f-b70e8ab85897",
       "output_path": "generated/gpt-6.1-sol-high/nexacore-process",
       "validation": "",
       "notes": "",
       "process_id": 3290309,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:34:42.967037+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 177,
@@ -6038,11 +6046,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nexacore-results",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3296320,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:36:21.916221+00:00",
+      "worker_state": "running"
     },
     {
       "number": 178,
@@ -10511,7 +10523,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:35:26.006970+00:00",
+  "updated_utc": "2026-10-29T07:37:34.247190+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

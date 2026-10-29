@@ -1,0 +1,79 @@
+{
+  "url": "http://localhost:4173/motionsites-results/wellbeing-os/",
+  "checks": [
+    "Desktop dropdown hover, item selection, keyboard toggle, Escape dismissal and absolute placement passed.",
+    "Mobile menu animation, all navigation entries, item selection and Escape dismissal passed.",
+    "Desktop 1440×1000 and mobile 390×844 fill the viewport without document overflow.",
+    "Local video fallback plays when the specified remote video is deliberately blocked.",
+    "Bundled Helvetica Now Text font loads when the remote font provider is deliberately blocked."
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "cancelledMediaRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_053131_1ec3dd1c-d627-44fb-ab20-6e1fce41b0d5.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_053131_1ec3dd1c-d627-44fb-ab20-6e1fce41b0d5.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/wellbeing-os/assets/flowpath.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/wellbeing-os/assets/flowpath.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "assets": {
+    "video": {
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_053131_1ec3dd1c-d627-44fb-ab20-6e1fce41b0d5.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "width": 1920,
+      "height": 1080
+    },
+    "fonts": [
+      {
+        "family": "Helvetica Now Text",
+        "status": "loaded"
+      },
+      {
+        "family": "Helvetica Now Text Local",
+        "status": "unloaded"
+      }
+    ]
+  },
+  "desktop": {
+    "width": 1440,
+    "height": 1000,
+    "documentWidth": 1440,
+    "documentHeight": 1000,
+    "sectionHeight": 1000
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "documentWidth": 390,
+    "documentHeight": 844,
+    "sectionHeight": 844
+  },
+  "expectedFallbackFailures": [
+    {
+      "url": "https://db.onlinewebfonts.com/c/08e020de1811ec4489f82d1247a42c09?family=Helvetica+Now+Text",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_053131_1ec3dd1c-d627-44fb-ab20-6e1fce41b0d5.mp4",
+      "error": "net::ERR_FAILED"
+    }
+  ],
+  "expectedFallbackErrors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "status": "passed"
+}

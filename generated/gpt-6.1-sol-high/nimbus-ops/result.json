@@ -1,0 +1,33 @@
+{
+  "title": "Nimbus Ops",
+  "id": "nimbus-ops",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed, Vite 5.4.21; dist/index.html exists",
+    "base_path": "/motionsites-results/nimbus-ops/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "interactions": "click explode/collapse, Enter, Space, CTA hover and #plans fragment passed",
+    "horizontal_overflow": false,
+    "console_errors": [],
+    "failed_requests": [],
+    "fonts": "IBM Plex Sans and IBM Plex Mono used subsets loaded successfully",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-exploded.png",
+      "screenshots/mobile-exploded.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Plain HTML, CSS, vanilla JS; no frameworks, images, or 3D libraries.",
+    "Reference viewed only; no screenshot used as page content.",
+    "Exact #plans CTA retained; standalone page has no plans section.",
+    "Chromium verification only. Full-page screenshots use the requested viewport dimensions.",
+    "Required Vite 5 development toolchain install reported one moderate and one high npm audit finding.",
+    "All artifacts remain within this project. Not deployed or pushed. Ready for review."
+  ]
+}

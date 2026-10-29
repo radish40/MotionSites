@@ -1,0 +1,217 @@
+{
+  "url": "http://localhost:4173/motionsites-results/nimbus-ops/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "title": "A control layer for every storage move your business makes.",
+      "particles": 14,
+      "faces": 6,
+      "fonts": [
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        }
+      ],
+      "cubeAnimation": "core-cube-float",
+      "clickToggle": "passed",
+      "keyboardToggle": "passed",
+      "ctaHoverAndHash": "passed",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "title": "A control layer for every storage move your business makes.",
+      "particles": 14,
+      "faces": 6,
+      "fonts": [
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "IBM Plex Sans",
+          "status": "unloaded"
+        }
+      ],
+      "cubeAnimation": "core-cube-float",
+      "clickToggle": "passed",
+      "keyboardToggle": "passed",
+      "ctaHoverAndHash": "passed",
+      "horizontalOverflow": false
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

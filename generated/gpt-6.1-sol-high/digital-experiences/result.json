@@ -1,0 +1,118 @@
+{
+  "title": "Digital Experiences",
+  "id": "digital-experiences",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities reported during npm install",
+    "browser": [
+      {
+        "name": "Exactly two main sections",
+        "passed": true
+      },
+      {
+        "name": "Instrument Serif and Barlow loaded",
+        "passed": true
+      },
+      {
+        "name": "Both background videos decoded",
+        "passed": true
+      },
+      {
+        "name": "Background videos autoplay muted inline",
+        "passed": true
+      },
+      {
+        "name": "Desktop hero fills viewport",
+        "passed": true
+      },
+      {
+        "name": "No desktop horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "Services navigation reaches capabilities",
+        "passed": true
+      },
+      {
+        "name": "Contact opens project dialog",
+        "passed": true
+      },
+      {
+        "name": "Project brief copies to clipboard",
+        "passed": true
+      },
+      {
+        "name": "Escape closes dialog",
+        "passed": true
+      },
+      {
+        "name": "Showreel opens native video player",
+        "passed": true
+      },
+      {
+        "name": "Close button closes showreel",
+        "passed": true
+      },
+      {
+        "name": "No mobile horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "Desktop navigation hidden on mobile",
+        "passed": true
+      },
+      {
+        "name": "Mobile trust bar fits within hero",
+        "passed": true
+      },
+      {
+        "name": "Mobile project CTA works",
+        "passed": true
+      },
+      {
+        "name": "Mobile capabilities grid is single column",
+        "passed": true
+      },
+      {
+        "name": "Fading video restarts after ending",
+        "passed": true
+      },
+      {
+        "name": "No browser script or console errors",
+        "passed": true
+      },
+      {
+        "name": "No failed external asset requests",
+        "passed": true
+      }
+    ],
+    "desktop": {
+      "viewport": "1440x1000",
+      "horizontal_overflow": false,
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "horizontal_overflow": false,
+      "screenshot": "screenshots/mobile.png"
+    },
+    "additional_screenshots": [
+      "screenshots/desktop-capabilities.png",
+      "screenshots/mobile-capabilities.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json",
+    "script_errors": [],
+    "visual_review": "Desktop and mobile screenshots reviewed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented only this project using React + Vite + TypeScript + Tailwind CSS + Framer Motion.",
+    "Exactly two main sections. Production base: /motionsites-results/digital-experiences/.",
+    "Specified Google Fonts and both exact supplied remote videos loaded successfully. Local copies of the videos included as fallbacks.",
+    "Two Chromium video range-request cancellations (net::ERR_ABORTED) recorded separately from load failures; successful decoding verified.",
+    "No contact endpoint or address supplied: project CTA opens a local brief dialog with clipboard copy, not a submission service. Showreel uses supplied hero video.",
+    "Ready for management review; not deployed or pushed. No other designs read, agents spawned, or external messages sent."
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "url": "http://localhost:4173/motionsites-results/digital-experiences/",
+  "checks": [
+    {
+      "name": "Exactly two main sections",
+      "passed": true
+    },
+    {
+      "name": "Instrument Serif and Barlow loaded",
+      "passed": true
+    },
+    {
+      "name": "Both background videos decoded",
+      "passed": true
+    },
+    {
+      "name": "Background videos autoplay muted inline",
+      "passed": true
+    },
+    {
+      "name": "Desktop hero fills viewport",
+      "passed": true
+    },
+    {
+      "name": "No desktop horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Services navigation reaches capabilities",
+      "passed": true
+    },
+    {
+      "name": "Contact opens project dialog",
+      "passed": true
+    },
+    {
+      "name": "Project brief copies to clipboard",
+      "passed": true
+    },
+    {
+      "name": "Escape closes dialog",
+      "passed": true
+    },
+    {
+      "name": "Showreel opens native video player",
+      "passed": true
+    },
+    {
+      "name": "Close button closes showreel",
+      "passed": true
+    },
+    {
+      "name": "No mobile horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Desktop navigation hidden on mobile",
+      "passed": true
+    },
+    {
+      "name": "Mobile trust bar fits within hero",
+      "passed": true
+    },
+    {
+      "name": "Mobile project CTA works",
+      "passed": true
+    },
+    {
+      "name": "Mobile capabilities grid is single column",
+      "passed": true
+    },
+    {
+      "name": "Fading video restarts after ending",
+      "passed": true
+    },
+    {
+      "name": "No browser script or console errors",
+      "passed": true
+    },
+    {
+      "name": "No failed external asset requests",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "canceledRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_093722_ccfc7ebf-182f-419f-8a62-2dc02db7dd9d.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_093722_ccfc7ebf-182f-419f-8a62-2dc02db7dd9d.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_093722_ccfc7ebf-182f-419f-8a62-2dc02db7dd9d.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Instrument+Serif:ital@1&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260619_191346_9d19d66e-86a4-47f7-8dc6-712c1788c3b2.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHpv4kjgoGqM7E_DMs5.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_093722_ccfc7ebf-182f-419f-8a62-2dc02db7dd9d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3_-gs51os.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_093722_ccfc7ebf-182f-419f-8a62-2dc02db7dd9d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_093722_ccfc7ebf-182f-419f-8a62-2dc02db7dd9d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Instrument+Serif:ital@1&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3p-ks51os.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHpv4kjgoGqM7E_DMs5.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3_-gs51os.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260619_191346_9d19d66e-86a4-47f7-8dc6-712c1788c3b2.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_093722_ccfc7ebf-182f-419f-8a62-2dc02db7dd9d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_093722_ccfc7ebf-182f-419f-8a62-2dc02db7dd9d.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_093722_ccfc7ebf-182f-419f-8a62-2dc02db7dd9d.mp4",
+      "status": 206
+    }
+  ],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "sections": [
+        {
+          "id": "home",
+          "height": 1000
+        },
+        {
+          "id": "capabilities",
+          "height": 1000
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "loaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "loaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "loaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Instrument Serif",
+          "status": "unloaded"
+        },
+        {
+          "family": "Instrument Serif",
+          "status": "loaded"
+        }
+      ]
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "sections": [
+        {
+          "id": "home",
+          "height": 844
+        },
+        {
+          "id": "capabilities",
+          "height": 1388
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "loaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "loaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "loaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Barlow",
+          "status": "unloaded"
+        },
+        {
+          "family": "Instrument Serif",
+          "status": "unloaded"
+        },
+        {
+          "family": "Instrument Serif",
+          "status": "loaded"
+        }
+      ]
+    }
+  },
+  "loopState": {
+    "currentTime": 0.499836,
+    "duration": 8.041667,
+    "paused": false,
+    "opacity": "1"
+  },
+  "status": "passed"
+}

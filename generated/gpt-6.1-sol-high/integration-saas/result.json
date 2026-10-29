@@ -1,0 +1,120 @@
+{
+  "title": "Integration SaaS",
+  "id": "integration-saas",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci && npm run build\"",
+  "checks": {
+    "production_build": "passed",
+    "output": "dist/index.html",
+    "publish_base": "/motionsites-results/integration-saas/",
+    "browser": [
+      {
+        "name": "desktop: no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "desktop: fullscreen hero",
+        "passed": true
+      },
+      {
+        "name": "desktop: Geist font loaded",
+        "passed": true
+      },
+      {
+        "name": "desktop: all avatars loaded",
+        "passed": true
+      },
+      {
+        "name": "desktop: video loaded and autoplaying",
+        "passed": true
+      },
+      {
+        "name": "desktop: Start Integration link responds",
+        "passed": true
+      },
+      {
+        "name": "desktop: Schedule Call link responds",
+        "passed": true
+      },
+      {
+        "name": "desktop: Sign In link responds",
+        "passed": true
+      },
+      {
+        "name": "mobile: no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "mobile: fullscreen hero",
+        "passed": true
+      },
+      {
+        "name": "mobile: Geist font loaded",
+        "passed": true
+      },
+      {
+        "name": "mobile: all avatars loaded",
+        "passed": true
+      },
+      {
+        "name": "mobile: video loaded and autoplaying",
+        "passed": true
+      },
+      {
+        "name": "mobile: menu opens",
+        "passed": true
+      },
+      {
+        "name": "mobile: keyboard focus stays in menu",
+        "passed": true
+      },
+      {
+        "name": "mobile: scroll locked",
+        "passed": true
+      },
+      {
+        "name": "mobile: Escape closes and unlocks scroll",
+        "passed": true
+      },
+      {
+        "name": "mobile: focus restored",
+        "passed": true
+      },
+      {
+        "name": "mobile: navigation updates hash and closes menu",
+        "passed": true
+      },
+      {
+        "name": "mobile: backdrop closes menu",
+        "passed": true
+      },
+      {
+        "name": "mobile: close button works",
+        "passed": true
+      },
+      {
+        "name": "no browser script or console errors",
+        "passed": true
+      },
+      {
+        "name": "no failed asset requests",
+        "passed": true
+      }
+    ],
+    "script_errors": [],
+    "dependency_audit": "0 vulnerabilities",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "React + Tailwind CSS + Vite; Geist Google Font; exact supplied video and Pexels avatars; lucide-react Menu and X.",
+    "All required external assets loaded in Chromium at both requested viewport sizes. Video playback verified; Chromium canceled some media range requests with net::ERR_ABORTED, recorded in screenshots/browser-checks.json.",
+    "Navigation and CTA links use named hash placeholders because destination URLs and backend workflows are not supplied.",
+    "Only one full-screen hero was implemented. No deployment, push, other sessions, or agents.",
+    "Ready for management review, not published."
+  ]
+}

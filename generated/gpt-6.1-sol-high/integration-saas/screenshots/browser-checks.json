@@ -1,0 +1,112 @@
+{
+  "checks": [
+    {
+      "name": "desktop: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop: fullscreen hero",
+      "passed": true
+    },
+    {
+      "name": "desktop: Geist font loaded",
+      "passed": true
+    },
+    {
+      "name": "desktop: all avatars loaded",
+      "passed": true
+    },
+    {
+      "name": "desktop: video loaded and autoplaying",
+      "passed": true
+    },
+    {
+      "name": "desktop: Start Integration link responds",
+      "passed": true
+    },
+    {
+      "name": "desktop: Schedule Call link responds",
+      "passed": true
+    },
+    {
+      "name": "desktop: Sign In link responds",
+      "passed": true
+    },
+    {
+      "name": "mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile: fullscreen hero",
+      "passed": true
+    },
+    {
+      "name": "mobile: Geist font loaded",
+      "passed": true
+    },
+    {
+      "name": "mobile: all avatars loaded",
+      "passed": true
+    },
+    {
+      "name": "mobile: video loaded and autoplaying",
+      "passed": true
+    },
+    {
+      "name": "mobile: menu opens",
+      "passed": true
+    },
+    {
+      "name": "mobile: keyboard focus stays in menu",
+      "passed": true
+    },
+    {
+      "name": "mobile: scroll locked",
+      "passed": true
+    },
+    {
+      "name": "mobile: Escape closes and unlocks scroll",
+      "passed": true
+    },
+    {
+      "name": "mobile: focus restored",
+      "passed": true
+    },
+    {
+      "name": "mobile: navigation updates hash and closes menu",
+      "passed": true
+    },
+    {
+      "name": "mobile: backdrop closes menu",
+      "passed": true
+    },
+    {
+      "name": "mobile: close button works",
+      "passed": true
+    },
+    {
+      "name": "no browser script or console errors",
+      "passed": true
+    },
+    {
+      "name": "no failed asset requests",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "assetIssues": [],
+  "mediaAborts": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_151414_1020688d-fcb3-4b2a-9bc2-cd1dae8853dd.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_151414_1020688d-fcb3-4b2a-9bc2-cd1dae8853dd.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_151414_1020688d-fcb3-4b2a-9bc2-cd1dae8853dd.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

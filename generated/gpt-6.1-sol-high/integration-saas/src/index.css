@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  font-family: 'Geist', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body { background: #B69198; }
+a, button { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.hero { height: 100vh; height: 100svh; min-height: 620px; }
+.mobile-gradient { background: linear-gradient(to top, #B69198 0%, #B69198 30%, transparent 55%); }
+.desktop-gradient { background: linear-gradient(to right, #B69198 0%, #B69198 30%, transparent 55%); }
+@media (min-width: 768px) { .hero { min-height: 650px; } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; transition-delay: 0ms !important; }
+}

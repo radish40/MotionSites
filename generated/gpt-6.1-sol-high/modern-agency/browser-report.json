@@ -1,0 +1,100 @@
+{
+  "desktop": {
+    "errors": [],
+    "failed": [],
+    "shader": "ready",
+    "overflow": {
+      "scroll": 1440,
+      "viewport": 1440
+    },
+    "media": {
+      "images": [
+        {
+          "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-small.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-large.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-small.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-large.webp",
+          "loaded": true
+        }
+      ],
+      "videos": [
+        {
+          "readyState": 4,
+          "paused": false,
+          "width": 1440,
+          "time": 4.255747
+        },
+        {
+          "readyState": 4,
+          "paused": false,
+          "width": 1440,
+          "time": 4.255079
+        }
+      ]
+    },
+    "clock": "AX\nProjects\nStudio\nJournal\nConnect\nTaking on projects for Q1 2026\n03:56 in London\nBook a strategy call\nBook a strategy call",
+    "contactDialog": true,
+    "projectDialog": true,
+    "caseDialog": true,
+    "hoverWidth": 148,
+    "pass": true
+  },
+  "mobile": {
+    "errors": [],
+    "failed": [],
+    "shader": "ready",
+    "overflow": {
+      "scroll": 390,
+      "viewport": 390
+    },
+    "media": {
+      "images": [
+        {
+          "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-small.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-large.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-small.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-large.webp",
+          "loaded": true
+        }
+      ],
+      "videos": [
+        {
+          "readyState": 4,
+          "paused": false,
+          "width": 1440,
+          "time": 2.235882
+        },
+        {
+          "readyState": 4,
+          "paused": false,
+          "width": 1440,
+          "time": 2.236032
+        }
+      ]
+    },
+    "clock": "AX\nMenu",
+    "menuOpen": true,
+    "menuClosed": true,
+    "projectDialog": true,
+    "caseDialog": true,
+    "pass": true
+  }
+}

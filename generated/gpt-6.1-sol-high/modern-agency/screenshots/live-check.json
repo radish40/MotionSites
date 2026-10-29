@@ -1,0 +1,97 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/modern-agency/",
+  "checked_at": "2026-10-29T04:02:35.656Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Axion Studio — Digital experiences",
+      "bodyChars": 756,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/studio-small.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/studio-large.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/studio-small.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/studio-large.webp",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/narrativ.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/luminar.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Axion Studio — Digital experiences",
+      "bodyChars": 640,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/studio-small.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/studio-large.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/studio-small.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/studio-large.webp",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/narrativ.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/modern-agency/assets/luminar.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

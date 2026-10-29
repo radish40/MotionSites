@@ -1,0 +1,30 @@
+[
+  {
+    "file": "studio-small.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260516_090123_74be96d4-9c1b-40cf-932a-96f4f4babed3.png&w=1280&q=85",
+    "success": true,
+    "bytes": 84438,
+    "error": null
+  },
+  {
+    "file": "studio-large.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260516_090133_c157d30b-a99a-4477-bec1-a446149ec3f2.png&w=1280&q=85",
+    "success": true,
+    "bytes": 61374,
+    "error": null
+  },
+  {
+    "file": "narrativ.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260516_122702_390f5305-8719-41d5-ae80-d23ab3796c28.mp4",
+    "success": true,
+    "bytes": 5382028,
+    "error": null
+  },
+  {
+    "file": "luminar.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260516_123323_f909c2b8-ff6c-4edf-882b-8ebcdbe389b5.mp4",
+    "success": true,
+    "bytes": 5250214,
+    "error": null
+  }
+]

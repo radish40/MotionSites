@@ -1,0 +1,130 @@
+{
+  "title": "Modern Agency",
+  "id": "modern-agency",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "desktop_1440x1000": {
+      "errors": [],
+      "failed": [],
+      "shader": "ready",
+      "overflow": {
+        "scroll": 1440,
+        "viewport": 1440
+      },
+      "media": {
+        "images": [
+          {
+            "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-small.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-large.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-small.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-large.webp",
+            "loaded": true
+          }
+        ],
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": false,
+            "width": 1440,
+            "time": 4.255747
+          },
+          {
+            "readyState": 4,
+            "paused": false,
+            "width": 1440,
+            "time": 4.255079
+          }
+        ]
+      },
+      "clock": "AX\nProjects\nStudio\nJournal\nConnect\nTaking on projects for Q1 2026\n03:56 in London\nBook a strategy call\nBook a strategy call",
+      "contactDialog": true,
+      "projectDialog": true,
+      "caseDialog": true,
+      "hoverWidth": 148,
+      "pass": true
+    },
+    "mobile_390x844": {
+      "errors": [],
+      "failed": [],
+      "shader": "ready",
+      "overflow": {
+        "scroll": 390,
+        "viewport": 390
+      },
+      "media": {
+        "images": [
+          {
+            "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-small.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-large.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-small.webp",
+            "loaded": true
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/modern-agency/assets/studio-large.webp",
+            "loaded": true
+          }
+        ],
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": false,
+            "width": 1440,
+            "time": 2.235882
+          },
+          {
+            "readyState": 4,
+            "paused": false,
+            "width": 1440,
+            "time": 2.236032
+          }
+        ]
+      },
+      "clock": "AX\nMenu",
+      "menuOpen": true,
+      "menuClosed": true,
+      "projectDialog": true,
+      "caseDialog": true,
+      "pass": true
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "assets": "All four exact supplied assets downloaded, bundled locally, and decoded in Chromium.",
+    "subpath": "/motionsites-results/modern-agency/",
+    "shader_visual_check": {
+      "canvas_size": "1440x1000",
+      "initialization": "ready",
+      "screenshot": "screenshots/shader-active.png",
+      "observation": "Canvas remains nearly white in this software-WebGPU capture after pointer movement; orange ChromaFlow response was not visually confirmed. Exact requested stack and parameters are present."
+    }
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management review; not deployed or pushed.",
+    "React 18 + TypeScript + Vite + Tailwind CSS 3.4; required shaders/react and lucide-react; system font.",
+    "Vite emits a nonfatal large-chunk warning from the required shader package.",
+    "ChromaFlow is pointer responsive; idle background is nearly white. CSS fallback provided when WebGPU is unavailable.",
+    "Prompt supplies no booking URL, contact endpoint, journal route, or case-study pages. Contact dialog uses inferred hello@axion.studio mailto placeholder, to be replaced before public launch. No messages sent. Journal anchors to featured work; case-study controls preview supplied media.",
+    "Source, lockfile, reports, screenshots, and dist are inside this project.",
+    "Shader limitation: initialization succeeds, but the orange pointer response is not visually confirmed in headless software WebGPU; review on a hardware-accelerated browser."
+  ]
+}

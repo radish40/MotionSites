@@ -1,0 +1,4 @@
+export function Arrow() { return <svg width="16" height="18" viewBox="0 0 16 18" fill="none" aria-hidden="true"><path d="M8 2v13m-5-5 5 5 5-5" stroke="currentColor" strokeWidth="1.2" /></svg>; }
+export function Chevron() { return <svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="m1 1 4 4 4-4" stroke="currentColor" strokeWidth="1.2" /></svg>; }
+export function Envelope() { return <svg width="19" height="17" viewBox="0 0 19 17" fill="none" aria-hidden="true"><rect x="1.5" y="2.5" width="16" height="12" rx="2" stroke="currentColor" strokeWidth="1.2"/><path d="m2 4 7.5 5L17 4" stroke="currentColor" strokeWidth="1.2" /></svg>; }
+export function Pin() { return <svg width="24" height="28" viewBox="0 0 24 28" fill="none" aria-hidden="true"><path d="M21 10c0 7-9 15-9 15S3 17 3 10a9 9 0 1 1 18 0Z" stroke="#2a2420" strokeWidth="1.4"/><circle cx="12" cy="10" r="3" stroke="#2a2420" strokeWidth="1.4"/></svg>; }

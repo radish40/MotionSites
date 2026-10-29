@@ -1,0 +1,15 @@
+@import url('https://db.onlinewebfonts.com/c/46024824a3dd3309c3a7f46f4f1283ba?family=Zimula+Trial+Reg');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { font-family: 'Zimula Trial Med'; src: url('../public/assets/med.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Zimula Trial Bd'; src: url('../public/assets/bold.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Zimula Trial Reg'; src: url('../public/assets/reg.woff2') format('woff2'); font-display: swap; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Zimula Trial Med', sans-serif; background: #0e0c0a; overflow-x: hidden; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0e0c0a; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }

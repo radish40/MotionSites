@@ -1,0 +1,78 @@
+[
+  {
+    "asset": "hero",
+    "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "asset": "enter",
+    "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "asset": "idle1",
+    "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "asset": "idle2",
+    "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "asset": "leave",
+    "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "asset": "section2",
+    "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779835701/bg-2-video_sgbpqt.mp4",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "asset": "logo",
+    "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779808187/q-logo_isvugc.png",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "asset": "slab",
+    "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "asset": "cta",
+    "url": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "initial_error": "HTTP Error 403: Forbidden",
+    "status": 200,
+    "recovery": "Downloaded with curl; font requests used a browser User-Agent.",
+    "local_path": "public/assets/cta.jpg",
+    "bytes": 12916
+  },
+  {
+    "asset": "med",
+    "url": "https://db.onlinewebfonts.com/t/076f8c5b3b67616658dd1e4e9bac62ec.woff2",
+    "initial_error": "HTTP Error 403: Forbidden",
+    "status": 200,
+    "recovery": "Downloaded with curl; font requests used a browser User-Agent.",
+    "local_path": "public/assets/med.woff2",
+    "bytes": 3976
+  },
+  {
+    "asset": "bold",
+    "url": "https://db.onlinewebfonts.com/t/08d8ca53f66ab5b48659912fa0136b78.woff2",
+    "initial_error": "HTTP Error 403: Forbidden",
+    "status": 200,
+    "recovery": "Downloaded with curl; font requests used a browser User-Agent.",
+    "local_path": "public/assets/bold.woff2",
+    "bytes": 3968
+  },
+  {
+    "asset": "reg",
+    "url": "https://db.onlinewebfonts.com/t/46024824a3dd3309c3a7f46f4f1283ba.woff2",
+    "initial_error": "HTTP Error 403: Forbidden",
+    "status": 200,
+    "recovery": "Downloaded with curl; font requests used a browser User-Agent.",
+    "local_path": "public/assets/reg.woff2",
+    "bytes": 4000
+  }
+]

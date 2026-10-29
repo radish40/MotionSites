@@ -1,0 +1,259 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "sections": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "sections": 2,
+      "horizontalOverflow": false
+    }
+  ],
+  "scriptErrors": [],
+  "networkFailures": [
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779835701/bg-2-video_sgbpqt.mp4",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779835701/bg-2-video_sgbpqt.mp4",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+      "reason": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+      "status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+      "status": 401
+    }
+  ],
+  "checks": [
+    {
+      "name": "desktop exactly two sections",
+      "pass": true
+    },
+    {
+      "name": "desktop no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "desktop local fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "desktop CTA image loaded",
+      "pass": true
+    },
+    {
+      "name": "desktop nav selection",
+      "pass": true
+    },
+    {
+      "name": "language menu opens",
+      "pass": true
+    },
+    {
+      "name": "language Escape dismisses",
+      "pass": true
+    },
+    {
+      "name": "desktop bird starts enter",
+      "pass": true
+    },
+    {
+      "name": "desktop bird enter to idle1",
+      "pass": true
+    },
+    {
+      "name": "desktop bird idle1 to idle2",
+      "pass": true
+    },
+    {
+      "name": "desktop bird idle2 to idle1",
+      "pass": true
+    },
+    {
+      "name": "desktop scroll triggers leave",
+      "pass": true
+    },
+    {
+      "name": "desktop sculpture parallax",
+      "pass": true
+    },
+    {
+      "name": "desktop bird leave to hidden",
+      "pass": true
+    },
+    {
+      "name": "desktop return to top re-enters",
+      "pass": true
+    },
+    {
+      "name": "desktop email CTA",
+      "pass": true
+    },
+    {
+      "name": "desktop approach anchor scrolls to section 2",
+      "pass": true
+    },
+    {
+      "name": "desktop no overflow after interactions",
+      "pass": true
+    },
+    {
+      "name": "mobile exactly two sections",
+      "pass": true
+    },
+    {
+      "name": "mobile no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile local fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "mobile CTA image loaded",
+      "pass": true
+    },
+    {
+      "name": "mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "mobile selection closes menu",
+      "pass": true
+    },
+    {
+      "name": "mobile nav selection",
+      "pass": true
+    },
+    {
+      "name": "mobile bird starts enter",
+      "pass": true
+    },
+    {
+      "name": "mobile bird enter to idle1",
+      "pass": true
+    },
+    {
+      "name": "mobile bird idle1 to idle2",
+      "pass": true
+    },
+    {
+      "name": "mobile bird idle2 to idle1",
+      "pass": true
+    },
+    {
+      "name": "mobile scroll triggers leave",
+      "pass": true
+    },
+    {
+      "name": "mobile sculpture parallax",
+      "pass": true
+    },
+    {
+      "name": "mobile bird leave to hidden",
+      "pass": true
+    },
+    {
+      "name": "mobile return to top re-enters",
+      "pass": true
+    },
+    {
+      "name": "mobile email CTA",
+      "pass": true
+    },
+    {
+      "name": "mobile approach anchor scrolls to section 2",
+      "pass": true
+    },
+    {
+      "name": "mobile no overflow after interactions",
+      "pass": true
+    },
+    {
+      "name": "no uncaught script errors",
+      "pass": true
+    }
+  ]
+}

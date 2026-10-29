@@ -1,0 +1,296 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/layered-depth/",
+  "checked_at": "2026-10-29T07:10:07.234Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Qelora — Architecture beyond the expected",
+      "bodyChars": 342,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/slab-fallback.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/cta.jpg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779835701/bg-2-video_sgbpqt.mp4",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": [
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779835701/bg-2-video_sgbpqt.mp4",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+          "status": 401
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Qelora — Architecture beyond the expected",
+      "bodyChars": 300,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/slab-fallback.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/layered-depth/assets/cta.jpg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779835701/bg-2-video_sgbpqt.mp4",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": [
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779854565/slab_v1_kb4vqk.png",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779808200/bg-video_xsmysw.mp4",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/f_auto/v1779835701/bg-2-video_sgbpqt.mp4",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808206/bird-entrada_e72qt7.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808282/bird-idle_fzjami.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808286/bird-saida_ifroz1.webm",
+          "status": 401
+        },
+        {
+          "url": "https://res.cloudinary.com/dy5er7kv5/video/upload/q_auto/v1779808284/bird-idle2_rajmgo.webm",
+          "status": 401
+        }
+      ]
+    }
+  ]
+}

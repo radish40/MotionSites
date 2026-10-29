@@ -1,0 +1,78 @@
+{
+  "title": "Layered Depth",
+  "id": "layered-depth",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser_command": "docker run --rm -v \"$PWD:/work\" -w /work --entrypoint node louislam/uptime-kuma:2 scripts/check.cjs",
+    "browser_checks_passed": 37,
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "sections": 2,
+        "horizontalOverflow": false
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "sections": 2,
+        "horizontalOverflow": false
+      }
+    ],
+    "script_errors": [],
+    "local_resource_errors": [],
+    "sections": 2,
+    "jsx_uses_only_inline_styles": true,
+    "dependencies": "react, react-dom, lucide-react only; build tools are devDependencies",
+    "lockfile": "package-lock.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-section2.png",
+      "screenshots/mobile-section2.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "report": "browser-checks.json",
+    "bird_state_logic": "passed using dispatched ended events plus real scroll; actual playback unavailable"
+  },
+  "asset_issues": [
+    {
+      "assets": [
+        "hero video",
+        "section 2 video",
+        "bird enter",
+        "bird idle 1",
+        "bird idle 2",
+        "bird leave",
+        "sculpture",
+        "unused Q logo"
+      ],
+      "status": 401,
+      "cause": "Cloudinary response: cloud_name dy5er7kv5 is disabled",
+      "handling": "Original URLs preserved. Local SVG visual fallbacks for background/sculpture; no substitute bird footage. Actual video playback remains blocked."
+    },
+    {
+      "assets": [
+        "Zimula Trial Med",
+        "Zimula Trial Bd",
+        "Zimula Trial Reg",
+        "Pexels CTA photo"
+      ],
+      "initial_status": 403,
+      "resolved": true,
+      "handling": "Recovered exact assets with curl; bundled locally. Required stylesheet links/import retained."
+    }
+  ],
+  "notes": [
+    "Ready means the static build and source are ready for management review, not deployed.",
+    "Exact original motion and sculpture appearance remain limited by the disabled upstream Cloudinary account. Screenshots show local fallbacks.",
+    "Navigation pills change active selection; the design has no additional routes or sections.",
+    "Start a project uses assumed mailto:hello@qelora.studio; destination was not supplied or verified.",
+    "Only this project was read and written. No agents, other sessions, deployment, push, or messages were used.",
+    "README.md documents run commands, browser verification, attribution, and limitations."
+  ]
+}

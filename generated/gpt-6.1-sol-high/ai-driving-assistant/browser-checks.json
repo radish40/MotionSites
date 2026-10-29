@@ -1,0 +1,188 @@
+{
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "initial": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "duration": 5.041667,
+        "videoWidth": 1928,
+        "videoHeight": 1076,
+        "time": 0,
+        "font": "Orbitron, sans-serif",
+        "triggers": 1,
+        "navVisible": true
+      },
+      "states": [
+        {
+          "state": "expanded",
+          "opacity": 1,
+          "time": 0,
+          "scrollWidth": 1440,
+          "width": 1440,
+          "mediaWidth": 1440,
+          "checkpointOpacity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "effortless",
+          "opacity": 1,
+          "time": 0.883251,
+          "scrollWidth": 1440,
+          "width": 1440,
+          "mediaWidth": 1440,
+          "checkpointOpacity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "voice",
+          "opacity": 1,
+          "time": 1.512498,
+          "scrollWidth": 1440,
+          "width": 1440,
+          "mediaWidth": 1440,
+          "checkpointOpacity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "anywhere",
+          "opacity": 1,
+          "time": 2.37957,
+          "scrollWidth": 1440,
+          "width": 1440,
+          "mediaWidth": 1440,
+          "checkpointOpacity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "route",
+          "opacity": 1,
+          "time": 3.748524,
+          "scrollWidth": 1440,
+          "width": 1440,
+          "mediaWidth": 1440,
+          "checkpointOpacity": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "initial": {
+        "width": 390,
+        "scrollWidth": 390,
+        "duration": 5.041667,
+        "videoWidth": 1928,
+        "videoHeight": 1076,
+        "time": 0.001,
+        "font": "Orbitron, sans-serif",
+        "triggers": 1,
+        "navVisible": false
+      },
+      "states": [
+        {
+          "state": "expanded",
+          "opacity": 1,
+          "time": 0.001,
+          "scrollWidth": 390,
+          "width": 390,
+          "mediaWidth": 390,
+          "checkpointOpacity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "effortless",
+          "opacity": 1,
+          "time": 1.078977,
+          "scrollWidth": 390,
+          "width": 390,
+          "mediaWidth": 390,
+          "checkpointOpacity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "voice",
+          "opacity": 1,
+          "time": 1.284626,
+          "scrollWidth": 390,
+          "width": 390,
+          "mediaWidth": 390,
+          "checkpointOpacity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "anywhere",
+          "opacity": 1,
+          "time": 2.220705,
+          "scrollWidth": 390,
+          "width": 390,
+          "mediaWidth": 390,
+          "checkpointOpacity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "route",
+          "opacity": 1,
+          "time": 3.448911,
+          "scrollWidth": 390,
+          "width": 390,
+          "mediaWidth": 390,
+          "checkpointOpacity": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "externalRequests": [],
+  "checks": [
+    "Desktop 1440×1000 and mobile 390×844",
+    "Video decoded and scrubbed through timeline",
+    "Fullscreen media expansion",
+    "Effortless and Anywhere story transitions",
+    "Voice waveform and completed route checkpoints",
+    "Reverse scroll restores hero",
+    "Email type validation and no-navigation submit as supplied",
+    "Reduced motion removes blur",
+    "No horizontal overflow in all sampled states",
+    "No JavaScript errors, failed requests, or external runtime requests"
+  ],
+  "status": "passed"
+}

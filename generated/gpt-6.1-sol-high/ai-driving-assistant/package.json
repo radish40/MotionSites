@@ -1,0 +1,11 @@
+{
+  "name": "ai-driving-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auren — Your car. Its mind. Native HTML, CSS, JavaScript and GSAP.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/browser-check.cjs"
+  }
+}

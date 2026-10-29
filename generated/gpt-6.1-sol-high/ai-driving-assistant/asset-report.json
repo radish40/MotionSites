@@ -1,0 +1,62 @@
+[
+  {
+    "file": "gsap.min.js",
+    "source": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+    "bytes": 72214
+  },
+  {
+    "file": "ScrollTrigger.min.js",
+    "source": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+    "bytes": 43380
+  },
+  {
+    "file": "driving.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_39ca84eAE1ODL9hbR5VhoEj8tBf/hf_20260709_102332_2d8c4e02-313c-4362-aaa7-4c907cfc4f79.mp4",
+    "bytes": 6880034
+  },
+  {
+    "file": "fonts.css",
+    "source": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Orbitron:wght@400;500;700&display=swap",
+    "bytes": 1838
+  },
+  {
+    "file": "font-0.ttf",
+    "source": "https://fonts.gstatic.com/s/intertight/v9/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-qXA.ttf",
+    "bytes": 298260
+  },
+  {
+    "file": "font-1.ttf",
+    "source": "https://fonts.gstatic.com/s/intertight/v9/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-qXA.ttf",
+    "bytes": 301472
+  },
+  {
+    "file": "font-2.ttf",
+    "source": "https://fonts.gstatic.com/s/intertight/v9/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiqXA.ttf",
+    "bytes": 302212
+  },
+  {
+    "file": "font-3.ttf",
+    "source": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.ttf",
+    "bytes": 112172
+  },
+  {
+    "file": "font-4.ttf",
+    "source": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxjPQ.ttf",
+    "bytes": 112204
+  },
+  {
+    "file": "font-5.ttf",
+    "source": "https://fonts.gstatic.com/s/orbitron/v35/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6xpg.ttf",
+    "bytes": 17752
+  },
+  {
+    "file": "font-6.ttf",
+    "source": "https://fonts.gstatic.com/s/orbitron/v35/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyKS6xpg.ttf",
+    "bytes": 17800
+  },
+  {
+    "file": "font-7.ttf",
+    "source": "https://fonts.gstatic.com/s/orbitron/v35/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1ny_Cmxpg.ttf",
+    "bytes": 17708
+  }
+]

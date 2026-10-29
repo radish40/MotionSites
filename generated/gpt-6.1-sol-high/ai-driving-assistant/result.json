@@ -1,0 +1,40 @@
+{
+  "title": "AI Driving Assistant",
+  "id": "ai-driving-assistant",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed",
+    "browser": "passed",
+    "details": [
+      "Desktop 1440×1000 and mobile 390×844",
+      "Video decoded and scrubbed through timeline",
+      "Fullscreen media expansion",
+      "Effortless and Anywhere story transitions",
+      "Voice waveform and completed route checkpoints",
+      "Reverse scroll restores hero",
+      "Email type validation and no-navigation submit as supplied",
+      "Reduced motion removes blur",
+      "No horizontal overflow in all sampled states",
+      "No JavaScript errors, failed requests, or external runtime requests"
+    ],
+    "report": "browser-checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/voice.png",
+      "screenshots/route.png"
+    ],
+    "visual_review": "Desktop hero, mobile hero, and voice state inspected",
+    "subpath": "/motionsites-results/ai-driving-assistant/",
+    "dist_index": "present"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Native HTML/CSS/JavaScript and GSAP 3.12.5 as supplied in PROMPT.md.",
+    "Exact supplied video, fonts and scripts downloaded locally; source URLs in asset-report.json.",
+    "Header destinations, menu/login actions and backend waitlist submission are not specified in the original prompt and remain presentation-only. Email validation and no-navigation submit preserved.",
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "No agents or additional sessions created."
+  ]
+}

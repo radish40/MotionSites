@@ -1,0 +1,137 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/",
+  "checked_at": "2026-10-29T04:05:19.418Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Mindloop — Get Inspired with Us",
+      "bodyChars": 1750,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/avatar-1.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/avatar-2.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/avatar-3.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/icon-chatgpt.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/icon-perplexity.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/icon-google.png",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/mission.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/solution.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/fbf99218-465b-43b1-9fa0-3ac0254633fc",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Mindloop — Get Inspired with Us",
+      "bodyChars": 1676,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/avatar-1.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/avatar-2.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/avatar-3.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/icon-chatgpt.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/icon-perplexity.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/mission.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/assets/solution.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/5d0ac628-72e6-4590-91c6-545264d7b883",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

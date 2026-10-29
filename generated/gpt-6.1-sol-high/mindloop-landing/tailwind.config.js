@@ -1,0 +1,2 @@
+import animate from 'tailwindcss-animate';
+export default {content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{colors:{background:'hsl(var(--background))',foreground:'hsl(var(--foreground))',border:'hsl(var(--border))',primary:{DEFAULT:'hsl(var(--primary))',foreground:'hsl(var(--primary-foreground))'}},fontFamily:{sans:['Inter','sans-serif'],serif:['Instrument Serif','serif']}}},plugins:[animate]};

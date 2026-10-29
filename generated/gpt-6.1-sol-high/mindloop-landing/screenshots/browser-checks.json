@@ -1,0 +1,145 @@
+{
+  "url": "http://localhost:4173/motionsites-results/mindloop-landing/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "overflow": [],
+      "images": [
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/avatar-1.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/avatar-2.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/avatar-3.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/icon-chatgpt.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/icon-perplexity.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/icon-google.png",
+          "loaded": true
+        }
+      ],
+      "media": [
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/hero.mp4",
+          "readyState": 4,
+          "width": 1624,
+          "playing": true,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/mission.mp4",
+          "readyState": 4,
+          "width": 1440,
+          "playing": true,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/solution.mp4",
+          "readyState": 4,
+          "width": 1088,
+          "playing": true,
+          "error": null
+        },
+        {
+          "src": "blob:http://localhost:4173/76021560-7bb3-4640-bf5c-d73c5f99d3ae",
+          "readyState": 4,
+          "width": 1280,
+          "playing": true,
+          "error": null
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "images": [
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/avatar-1.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/avatar-2.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/avatar-3.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/icon-chatgpt.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/icon-perplexity.png",
+          "loaded": true
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/icon-google.png",
+          "loaded": true
+        }
+      ],
+      "media": [
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/hero.mp4",
+          "readyState": 4,
+          "width": 1624,
+          "playing": true,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/mission.mp4",
+          "readyState": 4,
+          "width": 1440,
+          "playing": true,
+          "error": null
+        },
+        {
+          "src": "http://localhost:4173/motionsites-results/mindloop-landing/assets/solution.mp4",
+          "readyState": 4,
+          "width": 1088,
+          "playing": true,
+          "error": null
+        },
+        {
+          "src": "blob:http://localhost:4173/9140906c-a751-42d8-bdc2-aa27e23373ff",
+          "readyState": 4,
+          "width": 1280,
+          "playing": true,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "interactions": {
+    "desktopSubscribe": true,
+    "desktopWriter": true,
+    "desktopDialogClose": true,
+    "desktopSubscribeCTA": true,
+    "mobileMenu": true,
+    "mobileSubscribe": true,
+    "mobileWriter": true,
+    "mobileDialogClose": true,
+    "mobileSubscribeCTA": true
+  }
+}

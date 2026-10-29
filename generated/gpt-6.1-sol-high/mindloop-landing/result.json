@@ -1,0 +1,54 @@
+{
+  "title": "Mindloop Landing",
+  "id": "mindloop-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "publication_base": "/motionsites-results/mindloop-landing/",
+    "browser": "Chromium via playwright-core against production dist with HTTP byte-range support",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "horizontal_overflow": "none at either viewport throughout page",
+    "page_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "images": "all 6 images loaded at both viewports",
+    "video": "all 3 supplied MP4s and exact supplied HLS stream reached readyState 4 and played at both viewports",
+    "interactions": {
+      "desktopSubscribe": true,
+      "desktopWriter": true,
+      "desktopDialogClose": true,
+      "desktopSubscribeCTA": true,
+      "mobileMenu": true,
+      "mobileSubscribe": true,
+      "mobileWriter": true,
+      "mobileDialogClose": true,
+      "mobileSubscribeCTA": true
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png",
+      "screenshots/mobile-full.png"
+    ],
+    "report": "screenshots/browser-checks.json",
+    "visual_review": "desktop, mobile, and full page reviewed"
+  },
+  "asset_issues": [
+    {
+      "issue": "No original avatar or platform-icon files were present in the project.",
+      "resolution": "Downloaded local avatar PNGs and rasterized the matching platform marks from SVG sources. Provenance and regeneration scripts are documented in README.md."
+    }
+  ],
+  "notes": [
+    "All work confined to this project. No deployment, push, other sessions, subagents, or messaging.",
+    "The exact supplied CloudFront MP4s are included locally; fonts are bundled locally. HLS remains an external network dependency.",
+    "Forms validate email and save interest only in browser localStorage. No backend was specified and no email is sent.",
+    "Social account URLs were not provided; social links open the corresponding platform homepage.",
+    "Vite reports a nonfatal chunk-size advisory for the HLS engine bundle.",
+    "Source, dependency lockfile, real static build, screenshots, and reproducible browser-check script are included."
+  ]
+}

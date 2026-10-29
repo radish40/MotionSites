@@ -1,0 +1,37 @@
+{
+  "title": "Contact Cybernetic",
+  "id": "contact-cybernetic",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publish_path": "/motionsites-results/contact-cybernetic/",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": [
+      "Desktop mouse scrubbing changes the paused video time",
+      "desktop 1440x1000: typewriter completes, multi-select and deselect work, inquiry link includes selections, no horizontal overflow",
+      "Mobile video autoplays; overlay displays above content, Escape and links close menu",
+      "mobile 390x844: typewriter completes, multi-select and deselect work, inquiry link includes selections, no horizontal overflow",
+      "No browser script or console errors",
+      "With external network requests blocked, bundled video fallback and local Inter font load"
+    ],
+    "script_errors": [],
+    "failed_asset_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-full.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented only Contact Cybernetic using React, Tailwind CSS, motion/react, and lucide-react.",
+    "Original CloudFront video and Google Fonts import load successfully; bundled fallback video and fonts also verified with external requests blocked.",
+    "Navigation destination pages were not supplied; Labs, Studio, Openings and Shop point to the hero. Get in touch points to services.",
+    "No contact recipient supplied; Let's Go opens a mail draft with service selections and an empty recipient. No message is sent.",
+    "Build emits nonfatal Motion use-client directive warnings.",
+    "Ready for management-session acceptance; not deployed or pushed. No agents or additional sessions created.",
+    "node_modules excluded from deliverable; package-lock.json retained."
+  ]
+}

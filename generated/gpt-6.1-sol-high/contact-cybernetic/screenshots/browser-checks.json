@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "Desktop mouse scrubbing changes the paused video time",
+    "desktop 1440x1000: typewriter completes, multi-select and deselect work, inquiry link includes selections, no horizontal overflow",
+    "Mobile video autoplays; overlay displays above content, Escape and links close menu",
+    "mobile 390x844: typewriter completes, multi-select and deselect work, inquiry link includes selections, no horizontal overflow",
+    "No browser script or console errors",
+    "With external network requests blocked, bundled video fallback and local Inter font load"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "media": {
+    "desktop": {
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260601_110537_3a579fa0-7bbc-4d94-9d25-0e816c7840f5.mp4",
+      "duration": 4.041667,
+      "width": 3840,
+      "height": 2160,
+      "paused": true,
+      "currentTime": 0
+    },
+    "mobile": {
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260601_110537_3a579fa0-7bbc-4d94-9d25-0e816c7840f5.mp4",
+      "duration": 4.041667,
+      "width": 3840,
+      "height": 2160,
+      "paused": false,
+      "currentTime": 1.440993
+    }
+  }
+}

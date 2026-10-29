@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('../public/assets/inter.css');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', Arial, sans-serif;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.animate-blink { animation: blink 1s step-end infinite; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid #4D6D47; outline-offset: 6px; }
+.hero-headline { min-height: 2.16em; }
+#spade-hero { padding-top: 124px; }
+@media (min-width: 1024px) {
+  #spade-hero { padding-top: 110px; padding-bottom: 80px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-blink { animation: none; }
+}

@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T06:00:35.413021+00:00",
+  "updated_utc": "2026-10-29T06:03:11.633719+00:00",
   "total": 380,
   "counts": {
-    "complete": 107,
+    "complete": 109,
+    "needs_fix": 1,
     "running": 5,
-    "not_started": 268
+    "not_started": 265
   },
   "jobs": [
     {
@@ -1051,11 +1052,11 @@
       "id": "cosmic",
       "title": "Cosmic",
       "category": "Hero Section",
-      "status": "complete",
+      "status": "needs_fix",
       "thread_id": "01a18636-0906-7541-9bad-3c8d89eee19f",
       "source_commit": "7f1fd9de20a6d1dd378cda6fc139eaf5d45b3117",
       "group_message_id": 157,
-      "url": "https://tool.luo-xd.com/motionsites-results/cosmic/"
+      "url": null
     },
     {
       "id": "creative-agency",
@@ -1071,21 +1072,21 @@
       "id": "creative-portfolio",
       "title": "Creative Portfolio",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1863b-00e2-7b23-8d8e-3e897eeff159",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "19f26277e70b1d33e455d1e70bf1c1f7060134a1",
+      "group_message_id": 159,
+      "url": "https://tool.luo-xd.com/motionsites-results/creative-portfolio/"
     },
     {
       "id": "creative-studio",
       "title": "Creative Studio",
       "category": "Agency",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1863b-01f0-7112-954d-71abb26bb001",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "4b1e7ed45af8a1a85a3a7662d28013c8b54a508e",
+      "group_message_id": 160,
+      "url": "https://tool.luo-xd.com/motionsites-results/creative-studio/"
     },
     {
       "id": "cursor-follow",
@@ -1101,18 +1102,18 @@
       "id": "cyberpunk-reveal",
       "title": "Cyberpunk Reveal",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1863b-0475-7581-98e6-9428140fc078",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "76a164999db0ccb7738271ba0c06ff7104b25937",
+      "group_message_id": 161,
+      "url": "https://tool.luo-xd.com/motionsites-results/cyberpunk-reveal/"
     },
     {
       "id": "cybersecurity-hero",
       "title": "Cybersecurity Hero",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1863d-b4e7-7512-9b87-6aa413e30f0c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1122,7 +1123,7 @@
       "title": "Cybersecurity Hero v2",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1863d-b5eb-7ca1-9aa2-d8b318a33c9c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1131,7 +1132,7 @@
       "id": "daisy-sweet",
       "title": "Daisy Sweet",
       "category": "Products",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1141,7 +1142,7 @@
       "id": "daisy-wild",
       "title": "Daisy Wild",
       "category": "Products",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1151,7 +1152,7 @@
       "id": "dashboard",
       "title": "Dashboard UI",
       "category": "Dashboards",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

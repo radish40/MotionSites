@@ -19,6 +19,19 @@ const path = require('node:path');
       page.on('response', response => {if(response.status() >= 400) badResponses.push({url:response.url(),status:response.status()});});
       const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
       await page.waitForTimeout(5000);
+      let introWait = 'not-applicable';
+      if (await page.locator('video[autoplay]:not([loop])').count()) {
+        try {
+          await page.waitForFunction(() => [...document.querySelectorAll('video[autoplay]:not([loop])')]
+            .every(video => video.ended || video.paused || video.error), null, {timeout:30000});
+          introWait = 'settled';
+        } catch (error) {
+          if (error.name !== 'TimeoutError') throw error;
+          introWait = 'timed-out';
+        }
+        // Headlines often enter after an introductory clip's ended event.
+        await page.waitForTimeout(2000);
+      }
       const layout = await page.evaluate(() => ({
         title: document.title,
         bodyChars: document.body.innerText.trim().length,
@@ -28,10 +41,11 @@ const path = require('node:path');
           return {src:i.currentSrc,loaded:i.complete && i.naturalWidth>0,
             visible:rect.width>0 && rect.height>0 && rect.bottom>0 && rect.top<innerHeight && getComputedStyle(i).visibility!=='hidden'};
         }),
-        videos: [...document.querySelectorAll('video')].map(v=>({src:v.currentSrc,readyState:v.readyState,paused:v.paused})),
+        videos: [...document.querySelectorAll('video')].map(v=>({src:v.currentSrc,readyState:v.readyState,
+          paused:v.paused,currentTime:v.currentTime,duration:v.duration,ended:v.ended,loop:v.loop,autoplay:v.autoplay})),
       }));
       await page.screenshot({ path: path.join(output, `${name}.png`) });
-      results.push({ viewport:name,status:response.status(),...layout,errors,consoleErrors,failedRequests,badResponses });
+      results.push({ viewport:name,status:response.status(),introWait,...layout,errors,consoleErrors,failedRequests,badResponses });
       await context.close();
     }
   } finally { await browser.close(); }

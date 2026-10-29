@@ -129,10 +129,12 @@ def index():
     print(execute(['sudo','-n','python3',ROOT/'scripts/generation/publish.py','index',output]))
 
 
-def finish(ident):
+def finish(ident, refresh=False):
     manifest=load(); job=job_for(manifest,ident)
-    if job['status']=='complete':
+    if refresh and job['status']!='complete':raise RuntimeError('Only completed deliveries can refresh their previews')
+    if job['status']=='complete' and not refresh:
         notify(ident);return
+    if refresh:job['preview_previous_source_commit']=job['source_commit']
     output=ROOT/job['output_path']; result=json.loads((output/'result.json').read_text())
     if result.get('status')!='ready': raise RuntimeError('Worker is not ready')
     if not (output/'dist/index.html').is_file():raise RuntimeError('Missing static build')
@@ -176,9 +178,14 @@ def finish(ident):
         execute(['curl','--fail','--silent','--show-error','--max-time','30','--output','/dev/null',url+relative])
     job.update(status='complete',source_commit=commit,url=url,completed_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),
                validation='Live desktop/mobile browser checks passed; source pushed and public screenshots verified')
+    if refresh:job['preview_refreshed_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat()
     save(manifest);index()
     notify(ident)
     cleanup_dependencies(output)
+
+
+def refresh(ident):
+    finish(ident,refresh=True)
 
 
 def cleanup_dependencies(output):
@@ -221,7 +228,7 @@ def checkpoint():
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument('action',choices=['status','prepare','register','index','finish','notify','checkpoint'])
+    parser.add_argument('action',choices=['status','prepare','register','index','finish','refresh','notify','checkpoint'])
     parser.add_argument('args',nargs='*');args=parser.parse_args()
     if args.action=='status':
         manifest=load();print(json.dumps(dict(Counter(j['status'] for j in manifest['jobs'])),ensure_ascii=False))

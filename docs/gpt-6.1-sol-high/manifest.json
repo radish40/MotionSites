@@ -4611,11 +4611,11 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "ready",
       "thread_id": "01a1865f-8074-7ea3-acf7-9fce8034ae0a",
       "output_path": "generated/gpt-6.1-sol-high/glitch-pulse",
-      "validation": "Original prompt requires an Express production service; runtime deployment is pending",
-      "notes": "Delivery failed; inspect private delivery.log and public browser report",
+      "validation": "Original Express production server running and healthy; public HTML matches actual build",
+      "notes": "Production Express server deployed from original server.ts, with static preview screenshots served under the project preview path.",
       "process_id": 3075332,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:36:08.020259+00:00",
@@ -4624,7 +4624,19 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "delivery_failures": 1
+      "delivery_failures": 0,
+      "runtime": {
+        "container": "motionsites-glitch-pulse",
+        "image": "motionsites-glitch-pulse:ab78fe2b550c6326",
+        "deployment_script": "scripts/generation/deploy-glitch-pulse.py",
+        "server_file": "server.ts",
+        "command": [
+          "--import",
+          "tsx",
+          "server.ts"
+        ],
+        "verified_utc": "2026-10-29T06:48:05.837739+00:00"
+      }
     },
     {
       "number": 136,
@@ -4732,10 +4744,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18666-ec8d-7711-80d1-65b2e4feaa9c",
       "output_path": "generated/gpt-6.1-sol-high/guardnet-benefits",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3104289,
       "launch_method": "isolated_codex_exec",
@@ -4744,7 +4756,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "5cfec5cf0cc17529b31bc11a8e3ceb4c11514518",
+      "url": "https://tool.luo-xd.com/motionsites-results/guardnet-benefits/",
+      "completed_utc": "2026-10-29T06:48:05.460474+00:00",
+      "group_message_id": 188
     },
     {
       "number": 140,
@@ -10057,7 +10073,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:47:07.860349+00:00",
+  "updated_utc": "2026-10-29T06:48:05.837862+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

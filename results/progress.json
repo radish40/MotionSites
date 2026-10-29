@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:47:07.860349+00:00",
+  "updated_utc": "2026-10-29T06:48:05.837862+00:00",
   "total": 380,
   "counts": {
-    "complete": 134,
-    "needs_fix": 1,
-    "running": 5,
+    "complete": 135,
     "ready": 1,
+    "running": 5,
     "not_started": 239
   },
   "jobs": [
@@ -1353,7 +1352,7 @@
       "id": "glitch-pulse",
       "title": "Glitch Pulse",
       "category": "Landing Page",
-      "status": "needs_fix",
+      "status": "ready",
       "thread_id": "01a1865f-8074-7ea3-acf7-9fce8034ae0a",
       "source_commit": null,
       "group_message_id": null,
@@ -1393,11 +1392,11 @@
       "id": "guardnet-benefits",
       "title": "Guardnet Benefits",
       "category": "Benefits",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18666-ec8d-7711-80d1-65b2e4feaa9c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5cfec5cf0cc17529b31bc11a8e3ceb4c11514518",
+      "group_message_id": 188,
+      "url": "https://tool.luo-xd.com/motionsites-results/guardnet-benefits/"
     },
     {
       "id": "guardnet-demo",

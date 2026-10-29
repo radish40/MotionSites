@@ -1,0 +1,86 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "document": {
+        "width": 1440,
+        "height": 1000
+      },
+      "font": true,
+      "video": {
+        "readyState": 4,
+        "width": 1440,
+        "height": 1440,
+        "playing": true,
+        "currentTime": 2.363384,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260713_234424_b1332b69-2e69-4302-8dbc-40f86846afbd.mp4"
+      },
+      "scale": "scale(1.15, 2.02605)"
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 844
+      },
+      "font": true,
+      "video": {
+        "readyState": 4,
+        "width": 1440,
+        "height": 1440,
+        "playing": true,
+        "currentTime": 2.116296,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260713_234424_b1332b69-2e69-4302-8dbc-40f86846afbd.mp4"
+      },
+      "scale": "scale(1.15, 5.908)"
+    }
+  ],
+  "script_errors": [],
+  "failed_requests": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260713_234424_b1332b69-2e69-4302-8dbc-40f86846afbd.mp4",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260713_234424_b1332b69-2e69-4302-8dbc-40f86846afbd.mp4",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260713_234424_b1332b69-2e69-4302-8dbc-40f86846afbd.mp4",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260713_234424_b1332b69-2e69-4302-8dbc-40f86846afbd.mp4",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "interaction_checks": [
+    "desktop: resize recalculation, open, close, Escape, focus trap, scroll lock, no menu overflow, navigation destination, home destination, backdrop dismissal",
+    "mobile: resize recalculation, open, close, Escape, focus trap, scroll lock, no menu overflow, navigation destination, home destination"
+  ],
+  "local_video_fallback": {
+    "source": "http://localhost:4173/motionsites-results/fun-404-page/assets/tinytrails-404.mp4",
+    "playing": true
+  },
+  "status": "passed"
+}

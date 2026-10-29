@@ -1,0 +1,27 @@
+{
+  "title": "Fun 404 Page",
+  "id": "fun-404-page",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite, dist/index.html exists",
+    "dependency_audit": "passed: zero vulnerabilities",
+    "browser": "Chromium via existing Playwright Core in Docker; real dist served at /motionsites-results/fun-404-page/",
+    "desktop": "passed: 1440x1000, no scrolling or overflow",
+    "mobile": "passed: 390x844, no scrolling or overflow",
+    "script_errors": 0,
+    "interactions": "passed: resize scaling, menu toggle, close button, desktop backdrop, Escape, focus trap and restoration, scroll lock, navigation and home destinations",
+    "assets": "Google Inter font loaded; supplied remote video playing; bundled video fallback playback verified with remote URL blocked",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/desktop-menu.png", "screenshots/mobile-menu.png"],
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React, Tailwind CSS, Lucide React and Vite; single App.tsx page component.",
+    "Exact supplied video URL retained, with a bundled copy as an error fallback.",
+    "Inter remains externally hosted on Google Fonts; sans-serif fallback is available.",
+    "Raw browser logs include media ERR_ABORTED entries when navigation interrupts streaming; successful playback was verified separately.",
+    "Home and home-section content are supplied by the host site; local browser checks verify destinations using a fixture.",
+    "Ready for management-session review. No deployment, push, other project access, or agent sessions."
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:18:20.441764+00:00",
+  "updated_utc": "2026-10-29T04:20:11.083165+00:00",
   "total": 380,
   "counts": {
-    "complete": 29,
+    "complete": 30,
     "running": 5,
-    "not_started": 346
+    "not_started": 345
   },
   "jobs": [
     {
@@ -311,11 +311,11 @@
       "id": "cargox-mobile",
       "title": "CARGOX Mobile",
       "category": "Transportation",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185dd-5bd3-7631-9ce3-de33cd1cf6b8",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "cd09d8b1dea7a48a485bfc3786207e2ba9fa6be0",
+      "group_message_id": 78,
+      "url": "https://tool.luo-xd.com/motionsites-results/cargox-mobile/"
     },
     {
       "id": "celestial-renewal",
@@ -342,7 +342,7 @@
       "title": "CleanTech",
       "category": "Sustainability",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e0-d7c3-7222-8215-edd51409122b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -351,7 +351,7 @@
       "id": "coffee-rewards",
       "title": "Coffee Rewards",
       "category": "Loyalty",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

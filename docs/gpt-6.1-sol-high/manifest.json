@@ -1036,19 +1036,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185dd-5bd3-7631-9ce3-de33cd1cf6b8",
       "output_path": "generated/gpt-6.1-sol-high/cargox-mobile",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2588419,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:13:58.862756+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "cd09d8b1dea7a48a485bfc3786207e2ba9fa6be0",
+      "url": "https://tool.luo-xd.com/motionsites-results/cargox-mobile/",
+      "completed_utc": "2026-10-29T04:20:10.923990+00:00",
+      "group_message_id": 78
     },
     {
       "number": 32,
@@ -1127,14 +1131,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e0-d7c3-7222-8215-edd51409122b",
       "output_path": "generated/gpt-6.1-sol-high/cleantech",
       "validation": "",
       "notes": "",
       "process_id": 2601146,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:17:47.293931+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 35,
@@ -1152,11 +1160,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/coffee-rewards",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2607672,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:19:35.526021+00:00",
+      "worker_state": "running"
     },
     {
       "number": 36,
@@ -8749,5 +8761,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:18:20.441764+00:00"
+  "updated_utc": "2026-10-29T04:20:11.083165+00:00"
 }

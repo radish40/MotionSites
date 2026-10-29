@@ -1,10 +1,9 @@
 {
-  "updated_utc": "2026-10-29T08:10:38.561083+00:00",
+  "updated_utc": "2026-10-29T08:11:58.577009+00:00",
   "total": 380,
   "counts": {
-    "complete": 196,
-    "needs_fix": 2,
-    "running": 2,
+    "complete": 197,
+    "running": 3,
     "not_started": 180
   },
   "jobs": [
@@ -1972,7 +1971,7 @@
       "id": "pulse-3d",
       "title": "Pulse 3D",
       "category": "3D Website",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a186ae-145a-7a51-b802-f9aad07b1f8f",
       "source_commit": null,
       "group_message_id": null,
@@ -1982,7 +1981,7 @@
       "id": "radial-diagram",
       "title": "Radial Diagram",
       "category": "Testimonials",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a186ae-14d5-7910-853f-24f11089f7e9",
       "source_commit": null,
       "group_message_id": null,
@@ -2002,11 +2001,11 @@
       "id": "rocket-cta",
       "title": "Rocket CTA",
       "category": "CTA Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186b0-862e-70f0-ab31-b6a5edf0ea34",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "17f4b4f4c9c0426181347393d3335947f0916415",
+      "group_message_id": 254,
+      "url": "https://tool.luo-xd.com/motionsites-results/rocket-cta/"
     },
     {
       "id": "rocket-faq",

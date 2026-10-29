@@ -1,0 +1,130 @@
+{
+  "consoleErrors": [],
+  "knownWarnings": [
+    "Warning: Each child in a list should have a unique \"key\" prop. See https://reactjs.org/link/warning-keys for more information.%s \n    at https://unpkg.com/framer-motion@11.11.17/dist/framer-motion.js:1:120993\n    at div\n    at div\n    at section\n    at Hero (<anonymous>:62:25)\n    at main\n    at App (<anonymous>:233:22)"
+  ],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_080021_d598092b-c4c2-4e53-8e46-94cf9064cd50.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "responses": [],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "heading": "Venture\nPast\nOur\nSky\nAcross\nthe\nUniverse",
+      "fonts": {
+        "heading": true,
+        "body": true
+      },
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_080021_d598092b-c4c2-4e53-8e46-94cf9064cd50.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 5.216936,
+          "duration": 7.041667,
+          "opacity": "1",
+          "loop": false,
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_094631_d30ab262-45ee-4b7d-99f3-5d5848c8ef13.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 5.442244,
+          "duration": 12.041667,
+          "opacity": "1",
+          "loop": false,
+          "width": 1572,
+          "height": 1316
+        }
+      ]
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "Venture\nPast\nOur\nSky\nAcross\nthe\nUniverse",
+      "fonts": {
+        "heading": true,
+        "body": true
+      },
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_080021_d598092b-c4c2-4e53-8e46-94cf9064cd50.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 5.605893,
+          "duration": 7.041667,
+          "opacity": "1",
+          "loop": false,
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_094631_d30ab262-45ee-4b7d-99f3-5d5848c8ef13.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 0.671209,
+          "duration": 12.041667,
+          "opacity": "1",
+          "loop": false,
+          "width": 1572,
+          "height": 1316
+        }
+      ]
+    }
+  },
+  "liftoffOpened": true,
+  "liftoffClosed": true,
+  "voyageAnchor": {
+    "hash": "#capabilities",
+    "scrollY": 910
+  },
+  "mobileStatBounds": [
+    {
+      "left": 23,
+      "right": 187,
+      "visible": true
+    },
+    {
+      "left": 203,
+      "right": 367,
+      "visible": true
+    }
+  ],
+  "mobileCards": 3,
+  "mobileCardBounds": [
+    {
+      "left": 32,
+      "right": 358,
+      "visible": true
+    },
+    {
+      "left": 32,
+      "right": 358,
+      "visible": true
+    },
+    {
+      "left": 32,
+      "right": 358,
+      "visible": true
+    }
+  ],
+  "mobileOverflow": false,
+  "loopCheck": {
+    "currentTime": 0.792433,
+    "paused": false,
+    "opacity": "1"
+  },
+  "capabilitiesLoopCheck": {
+    "currentTime": 0.06169,
+    "paused": false,
+    "opacity": "0.1118"
+  },
+  "navigationTargetsValid": true
+}

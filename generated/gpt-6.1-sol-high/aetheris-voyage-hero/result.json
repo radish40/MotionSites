@@ -1,0 +1,35 @@
+{
+  "title": "Aetheris Voyage",
+  "id": "aetheris-voyage-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html generated",
+    "browser_report": "browser-report.json",
+    "desktop": "1440x1000; rendered and screenshot captured",
+    "mobile": "390x844; rendered and screenshot captured; statistics and capability card bounds fit",
+    "interactions": "liftoff dialog opens and closes with Escape; voyage CTA navigates to capabilities; navigation targets exist",
+    "scripts": "no uncaught page errors or unexpected console errors",
+    "fonts": "Instrument Serif italic and Barlow loaded",
+    "videos": "both supplied videos decoded and played; custom manual loop checked",
+    "overflow": "no horizontal document overflow at either required viewport",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/capabilities-desktop.png",
+      "screenshots/capabilities-mobile.png"
+    ]
+  },
+  "asset_issues": [
+    "No unavailable required assets observed. CDN scripts, fonts, and supplied videos loaded.",
+    "Chromium records canceled hero-video media requests during playback/seek lifecycle; decoded playback and loop restart succeed."
+  ],
+  "notes": [
+    "CDN-only stack and original asset URLs retained; no bundled application dependencies.",
+    "Framer Motion CDN exports Motion; compatibility alias supplies FramerMotion before the specified assignment.",
+    "Known pinned Framer Motion development-build list-key warning retained in browser-report.json.",
+    "Claim a Spot and Start Your Voyage navigate to capabilities; no booking backend specified.",
+    "Build resources use relative URLs compatible with /motionsites-results/aetheris-voyage-hero/.",
+    "Ready for review; not deployed or pushed. Only this project was modified."
+  ]
+}

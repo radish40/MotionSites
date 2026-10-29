@@ -1,0 +1,6 @@
+{
+  "name": "aetheris-voyage-hero",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "build": "node build.mjs", "check": "node browser-check.cjs" }
+}

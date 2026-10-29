@@ -1,0 +1,103 @@
+{
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "heading": "Make ordinary ideas into captivating narratives.",
+      "video": {
+        "playing": true,
+        "advances": true,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      "fonts": {
+        "inter": true,
+        "serif": true,
+        "loadedFaces": [
+          {
+            "family": "Instrument Serif",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "style": "normal"
+          }
+        ]
+      },
+      "navigationVisible": true,
+      "controls": "hover, keyboard focus, and clicks passed; navigation stays within hero"
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "heading": "Make ordinary ideas into captivating narratives.",
+      "video": {
+        "playing": true,
+        "advances": true,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      "fonts": {
+        "inter": true,
+        "serif": true,
+        "loadedFaces": [
+          {
+            "family": "Instrument Serif",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "style": "normal"
+          }
+        ]
+      },
+      "navigationVisible": false,
+      "controls": "hover, keyboard focus, and clicks passed; navigation stays within hero"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "canceledRequests": [
+    {
+      "url": "http://localhost:4173/motionsites-results/luminara/assets/luminara.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/luminara/assets/luminara.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/luminara/assets/luminara.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/luminara/assets/luminara.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "externalAssetIssues": []
+}

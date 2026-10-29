@@ -1,0 +1,120 @@
+{
+  "title": "Luminara",
+  "id": "luminara",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publish_path": "/motionsites-results/luminara/",
+  "output_directory": "dist",
+  "checks": {
+    "production_build": "passed; Vite 6.4.5; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities after patching Vite and PostCSS",
+    "browser": "Chromium via playwright-core, serving built dist at the configured base path",
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "heading": "Make ordinary ideas into captivating narratives.",
+        "video": {
+          "playing": true,
+          "advances": true,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": true
+        },
+        "fonts": {
+          "inter": true,
+          "serif": true,
+          "loadedFaces": [
+            {
+              "family": "Instrument Serif",
+              "weight": "400",
+              "style": "italic"
+            },
+            {
+              "family": "Inter",
+              "weight": "400",
+              "style": "normal"
+            },
+            {
+              "family": "Inter",
+              "weight": "500",
+              "style": "normal"
+            }
+          ]
+        },
+        "navigationVisible": true,
+        "controls": "hover, keyboard focus, and clicks passed; navigation stays within hero"
+      },
+      {
+        "viewport": "mobile",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "heading": "Make ordinary ideas into captivating narratives.",
+        "video": {
+          "playing": true,
+          "advances": true,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": true
+        },
+        "fonts": {
+          "inter": true,
+          "serif": true,
+          "loadedFaces": [
+            {
+              "family": "Instrument Serif",
+              "weight": "400",
+              "style": "italic"
+            },
+            {
+              "family": "Inter",
+              "weight": "400",
+              "style": "normal"
+            },
+            {
+              "family": "Inter",
+              "weight": "500",
+              "style": "normal"
+            }
+          ]
+        },
+        "navigationVisible": false,
+        "controls": "hover, keyboard focus, and clicks passed; navigation stays within hero"
+      }
+    ],
+    "script_errors": [],
+    "failed_asset_requests": [],
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "Google Fonts stylesheet",
+      "issue": "Initial browser run encountered intermittent net::ERR_SOCKET_NOT_CONNECTED.",
+      "resolution": "Exact Google Fonts link retained; matching font files bundled locally. Both required families confirmed loaded in final browser run."
+    },
+    {
+      "asset": "Video",
+      "issue": "Chromium canceled range requests while seeking or closing pages (net::ERR_ABORTED).",
+      "resolution": "Not a playback failure; video decoded at 1920x1080 and advanced while autoplaying on both viewports. Original supplied video is bundled locally."
+    }
+  ],
+  "notes": [
+    "Implemented only the supplied Luminara single-section design using React, Tailwind CSS and Vite.",
+    "Navigation targets the existing hero. CTA buttons implement the specified presentation states; the prompt provides no action or destination.",
+    "Screenshots show the video at two seconds for consistent comparison; the shipped page autoplays normally.",
+    "Browser coverage is limited to Chromium at the two required viewport sizes.",
+    "Ready means ready for management review. No deployment, push, additional session, delegation, or messaging was performed."
+  ]
+}

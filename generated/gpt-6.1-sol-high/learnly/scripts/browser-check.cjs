@@ -1,0 +1,94 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const http = require('node:http');
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const root = path.resolve('dist');
+const prefix = '/motionsites-results/learnly/';
+const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml' };
+const server = http.createServer((req, res) => {
+  const pathname = new URL(req.url, 'http://localhost').pathname;
+  if (!pathname.startsWith(prefix)) { res.writeHead(404).end(); return; }
+  const file = path.resolve(root, pathname.slice(prefix.length) || 'index.html');
+  if (!file.startsWith(root + '/')) { res.writeHead(403).end(); return; }
+  fs.readFile(file, (err, data) => {
+    if (err) { res.writeHead(404).end(); return; }
+    res.writeHead(200, { 'Content-Type': types[path.extname(file)] || 'application/octet-stream' }).end(data);
+  });
+});
+(async () => {
+  await new Promise(resolve => server.listen(4173, '0.0.0.0', resolve));
+  const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', args: ['--no-sandbox', '--disable-dev-shm-usage'], headless: true });
+  const results = { checks: [], page_errors: [], console_errors: [], failed_requests: [], asset_responses: [], assets: [] };
+  try {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
+    page.on('pageerror', e => results.page_errors.push(e.message));
+    page.on('console', m => { if (m.type() === 'error') results.console_errors.push(m.text()); });
+    page.on('requestfailed', r => results.failed_requests.push({ url: r.url(), error: r.failure()?.errorText }));
+    page.on('response', r => { if (/pexels|googleapis|gstatic/.test(r.url())) results.asset_responses.push({ url: r.url(), status: r.status() }); });
+    await page.goto('http://localhost:4173' + prefix, { waitUntil: 'networkidle', timeout: 60000 });
+    await page.evaluate(() => document.fonts.ready);
+    await page.locator('.c6-card img').evaluateAll(imgs => Promise.all(imgs.map(img => img.decode().catch(() => {}))));
+    assert.equal(await page.title(), 'Learnly - Professional Learning Platform');
+    assert.equal(await page.locator('.c6-card').count(), 3);
+    results.assets = await page.locator('.c6-card img').evaluateAll(imgs => imgs.map(img => ({ url: img.src, loaded: img.complete && img.naturalWidth > 0, width: img.naturalWidth })));
+    results.font_loaded = await page.evaluate(() => document.fonts.check('16px Outfit'));
+    const overflow = () => page.evaluate(() => ({ viewport: innerWidth, document: document.documentElement.scrollWidth, body: document.body.scrollWidth }));
+    results.desktop_layout = await overflow();
+    assert.ok(results.desktop_layout.document <= 1440, 'Desktop document overflow');
+    await page.screenshot({ path: 'screenshots/desktop.png', fullPage: true });
+    results.checks.push('Desktop 1440x1000: page title, three cards, no document overflow, screenshot');
+    const cards = page.locator('.c6-card');
+    const initial = await cards.nth(1).boundingBox();
+    await cards.nth(1).hover();
+    await page.waitForTimeout(850);
+    const expanded = await cards.nth(1).boundingBox();
+    assert.ok(expanded.width > initial.width * 1.5, 'Card expands on hover');
+    assert.equal(await cards.nth(1).locator('.c6-card-content').evaluate(e => getComputedStyle(e).opacity), '1');
+    results.checks.push('Card hover: accordion expands and content becomes visible');
+    await page.locator('.c6-search input').fill('Design');
+    await page.locator('.c6-search button').hover();
+    await page.waitForTimeout(600);
+    assert.equal(await page.locator('.c6-search button').evaluate(e => getComputedStyle(e).backgroundPosition), '0px 0%');
+    await page.locator('.c6-search button').click();
+    assert.equal(await page.locator('.c6-search input').inputValue(), 'Design');
+    results.checks.push('Search input accepts text; Up button click and gradient hover work (prompt has no search handler)');
+    await page.locator('.c6-trial').first().hover();
+    await page.waitForTimeout(500);
+    assert.notEqual(await page.locator('.c6-trial').first().evaluate(e => getComputedStyle(e).transform), 'none');
+    results.checks.push('Trial button hover transform works');
+    await page.locator('.c6-search input').clear();
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.mouse.move(0, 0);
+    await page.waitForTimeout(700);
+    results.mobile_layout = await overflow();
+    assert.ok(results.mobile_layout.document <= 390, 'Mobile document overflow');
+    await page.screenshot({ path: 'screenshots/mobile.png', fullPage: true });
+    const toggle = page.getByRole('button', { name: 'Toggle menu' });
+    await toggle.click();
+    await page.waitForTimeout(650);
+    assert.ok(await page.locator('.c6-mobile-nav').evaluate(e => e.classList.contains('open')));
+    assert.equal(await page.evaluate(() => document.body.style.overflow), 'hidden');
+    const navBounds = await page.locator('.c6-mobile-nav').boundingBox();
+    assert.ok(navBounds.x >= 0 && navBounds.x < 390);
+    await page.locator('.c6-mobile-nav a').nth(1).click();
+    await page.waitForTimeout(650);
+    assert.equal(await page.locator('.c6-mobile-nav').evaluate(e => e.classList.contains('open')), false);
+    assert.equal(await page.evaluate(() => document.body.style.overflow), 'auto');
+    results.checks.push('Mobile 390x844: no document overflow; menu opens, locks scroll, link closes menu and restores scroll');
+    await page.locator('.c6-right').evaluate(e => { e.scrollLeft = 315; });
+    await page.waitForTimeout(700);
+    assert.ok(await page.locator('.c6-right').evaluate(e => e.scrollLeft > 200));
+    assert.equal(Math.round((await cards.nth(1).boundingBox()).width), 300);
+    results.checks.push('Mobile carousel scrolls with 300px cards and CSS scroll snapping');
+    await toggle.click();
+    await page.setViewportSize({ width: 1440, height: 1000 });
+    await page.waitForTimeout(600);
+    assert.equal(await page.locator('.c6-mobile-nav').evaluate(e => e.classList.contains('open')), false);
+    results.checks.push('Resizing to desktop closes the mobile menu');
+    assert.deepEqual(results.page_errors, []);
+    results.checks.push('No JavaScript runtime errors');
+    fs.writeFileSync('screenshots/browser-checks.json', JSON.stringify(results, null, 2) + '\n');
+    console.log(JSON.stringify(results, null, 2));
+  } finally { await browser.close(); server.close(); }
+})().catch(e => { console.error(e); server.close(); process.exitCode = 1; });

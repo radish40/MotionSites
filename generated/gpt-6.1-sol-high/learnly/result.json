@@ -1,0 +1,60 @@
+{
+  "title": "Learnly",
+  "id": "learnly",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build && npm run typecheck && npm run lint'",
+  "checks": {
+    "build": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "provided_files_verbatim": [
+      "package.json",
+      "tailwind.config.js",
+      "postcss.config.js",
+      "index.html",
+      "src/main.tsx",
+      "src/index.css",
+      "src/App.tsx"
+    ],
+    "browser": [
+      "Desktop 1440x1000: page title, three cards, no document overflow, screenshot",
+      "Card hover: accordion expands and content becomes visible",
+      "Search input accepts text; Up button click and gradient hover work (prompt has no search handler)",
+      "Trial button hover transform works",
+      "Mobile 390x844: no document overflow; menu opens, locks scroll, link closes menu and restores scroll",
+      "Mobile carousel scrolls with 300px cards and CSS scroll snapping",
+      "Resizing to desktop closes the mobile menu",
+      "No JavaScript runtime errors"
+    ],
+    "script_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "desktop": {
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440
+    },
+    "mobile": {
+      "viewport": 390,
+      "document": 390,
+      "body": 390
+    },
+    "remote_images_loaded": true,
+    "outfit_loaded": true,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "passed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Publication base: /motionsites-results/learnly/. Static deliverable: dist/.",
+    "Supplied placeholder links and search behavior preserved.",
+    "All remote assets retained at exact supplied URLs.",
+    "Dependency audit: 1 high (Vite), 1 moderate (esbuild); required manifest retained. See screenshots/dependency-audit.json.",
+    "Mobile screenshot is full-page at a 390x844 viewport.",
+    "node_modules is ignored and excluded from source delivery."
+  ]
+}

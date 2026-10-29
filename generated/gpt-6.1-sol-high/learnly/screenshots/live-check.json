@@ -1,0 +1,69 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/learnly/",
+  "checked_at": "2026-10-29T07:10:38.417Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Learnly - Professional Learning Platform",
+      "bodyChars": 286,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://images.pexels.com/photos/5212675/pexels-photo-5212675.jpeg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://images.pexels.com/photos/8617763/pexels-photo-8617763.jpeg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://images.pexels.com/photos/6333648/pexels-photo-6333648.jpeg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Learnly - Professional Learning Platform",
+      "bodyChars": 204,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://images.pexels.com/photos/5212675/pexels-photo-5212675.jpeg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://images.pexels.com/photos/8617763/pexels-photo-8617763.jpeg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://images.pexels.com/photos/6333648/pexels-photo-6333648.jpeg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

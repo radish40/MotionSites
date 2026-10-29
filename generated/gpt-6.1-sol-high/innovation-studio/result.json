@@ -1,0 +1,147 @@
+{
+  "title": "Innovation Studio",
+  "id": "innovation-studio",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22, via louislam/uptime-kuma:2 Docker image on this host; full command in README.md)",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "24 of 24 checks passed",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "details": [
+      {
+        "name": "desktop: assets and layout",
+        "passed": true,
+        "details": {
+          "fontLoaded": true,
+          "videoReady": 4,
+          "videoPlaying": true,
+          "videoWidth": 1920,
+          "overflow": false
+        }
+      },
+      {
+        "name": "desktop: dot selects third slide",
+        "passed": true
+      },
+      {
+        "name": "desktop: dot resets timer",
+        "passed": true
+      },
+      {
+        "name": "desktop: automatic rotation",
+        "passed": true
+      },
+      {
+        "name": "desktop: menu opens and locks scrolling",
+        "passed": true
+      },
+      {
+        "name": "desktop: menu navigation",
+        "passed": true
+      },
+      {
+        "name": "desktop: no scroll after navigation",
+        "passed": true
+      },
+      {
+        "name": "desktop: escape and focus restore",
+        "passed": true
+      },
+      {
+        "name": "desktop: CTA opens navigation",
+        "passed": true
+      },
+      {
+        "name": "desktop: close button",
+        "passed": true
+      },
+      {
+        "name": "desktop: backdrop closes menu",
+        "passed": true
+      },
+      {
+        "name": "mobile: assets and layout",
+        "passed": true,
+        "details": {
+          "fontLoaded": true,
+          "videoReady": 4,
+          "videoPlaying": true,
+          "videoWidth": 1920,
+          "overflow": false
+        }
+      },
+      {
+        "name": "mobile: dot selects third slide",
+        "passed": true
+      },
+      {
+        "name": "mobile: dot resets timer",
+        "passed": true
+      },
+      {
+        "name": "mobile: automatic rotation",
+        "passed": true
+      },
+      {
+        "name": "mobile: menu opens and locks scrolling",
+        "passed": true
+      },
+      {
+        "name": "mobile: menu navigation",
+        "passed": true
+      },
+      {
+        "name": "mobile: no scroll after navigation",
+        "passed": true
+      },
+      {
+        "name": "mobile: escape and focus restore",
+        "passed": true
+      },
+      {
+        "name": "mobile: CTA opens navigation",
+        "passed": true
+      },
+      {
+        "name": "mobile: close button",
+        "passed": true
+      },
+      {
+        "name": "mobile: backdrop closes menu",
+        "passed": true
+      },
+      {
+        "name": "No browser script or console errors",
+        "passed": true,
+        "details": []
+      },
+      {
+        "name": "No failed asset requests",
+        "passed": true,
+        "details": []
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-menu.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "evidence": "screenshots/checks.json",
+    "visual_review": "Desktop and mobile hero and menu reviewed",
+    "script_errors": [],
+    "failed_asset_requests": []
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented only Innovation Studio with React, TypeScript, Tailwind CSS, Lucide React, and Vite.",
+    "Production base: /motionsites-results/innovation-studio/. No deployment or push performed.",
+    "Exact supplied CloudFront video and Google Fonts Geist loaded successfully; they remain external network dependencies.",
+    "Cancelled video range requests are recorded separately in browser evidence. Video reached readyState 4 and played at both viewport sizes.",
+    "Menu links select the capability slides; hero CTAs open the menu; Connect and contact links use mailto/tel because no project pages were specified.",
+    "Dependency lockfile retained; node_modules excluded from deliverable."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "checks": [
+    {
+      "name": "desktop: assets and layout",
+      "passed": true,
+      "details": {
+        "fontLoaded": true,
+        "videoReady": 4,
+        "videoPlaying": true,
+        "videoWidth": 1920,
+        "overflow": false
+      }
+    },
+    {
+      "name": "desktop: dot selects third slide",
+      "passed": true
+    },
+    {
+      "name": "desktop: dot resets timer",
+      "passed": true
+    },
+    {
+      "name": "desktop: automatic rotation",
+      "passed": true
+    },
+    {
+      "name": "desktop: menu opens and locks scrolling",
+      "passed": true
+    },
+    {
+      "name": "desktop: menu navigation",
+      "passed": true
+    },
+    {
+      "name": "desktop: no scroll after navigation",
+      "passed": true
+    },
+    {
+      "name": "desktop: escape and focus restore",
+      "passed": true
+    },
+    {
+      "name": "desktop: CTA opens navigation",
+      "passed": true
+    },
+    {
+      "name": "desktop: close button",
+      "passed": true
+    },
+    {
+      "name": "desktop: backdrop closes menu",
+      "passed": true
+    },
+    {
+      "name": "mobile: assets and layout",
+      "passed": true,
+      "details": {
+        "fontLoaded": true,
+        "videoReady": 4,
+        "videoPlaying": true,
+        "videoWidth": 1920,
+        "overflow": false
+      }
+    },
+    {
+      "name": "mobile: dot selects third slide",
+      "passed": true
+    },
+    {
+      "name": "mobile: dot resets timer",
+      "passed": true
+    },
+    {
+      "name": "mobile: automatic rotation",
+      "passed": true
+    },
+    {
+      "name": "mobile: menu opens and locks scrolling",
+      "passed": true
+    },
+    {
+      "name": "mobile: menu navigation",
+      "passed": true
+    },
+    {
+      "name": "mobile: no scroll after navigation",
+      "passed": true
+    },
+    {
+      "name": "mobile: escape and focus restore",
+      "passed": true
+    },
+    {
+      "name": "mobile: CTA opens navigation",
+      "passed": true
+    },
+    {
+      "name": "mobile: close button",
+      "passed": true
+    },
+    {
+      "name": "mobile: backdrop closes menu",
+      "passed": true
+    },
+    {
+      "name": "No browser script or console errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "No failed asset requests",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "cancelledRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_135039_b04d00db-6ee2-4e2a-a7f5-b2dfd3d24fd2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_135039_b04d00db-6ee2-4e2a-a7f5-b2dfd3d24fd2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_135039_b04d00db-6ee2-4e2a-a7f5-b2dfd3d24fd2.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_135039_b04d00db-6ee2-4e2a-a7f5-b2dfd3d24fd2.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

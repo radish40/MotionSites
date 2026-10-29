@@ -15,6 +15,7 @@ import manage
 ROOT=manage.ROOT
 RUNTIME=ROOT/'.work/generation'
 MAX_WORKERS=5  # Five queue workers, one reserved repair slot, and the management conversation: at most seven.
+BATCH_STOP_NUMBER=200  # User requested this run stop after the first 200 designs; retain all 380 in the inventory.
 OWNER_THREAD='01a185a9-9c17-7bf1-813d-c0d86c818e53'
 
 
@@ -129,6 +130,7 @@ def cycle():
     manifest=manage.load()
     # Fill only confirmed available slots; no overlapping generation for one design.
     for job in manifest['jobs']:
+        if job['number']>BATCH_STOP_NUMBER:continue
         if len(active)>=MAX_WORKERS:break
         if job['status']=='queued' and job.get('thread_id'):
             launch(job['id'],resume=True);active.append(job['id']);continue
@@ -136,6 +138,7 @@ def cycle():
             launch(job['id']);active.append(job['id'])
     manifest=manage.load()
     for job in manifest['jobs']:
+        if job['number']>BATCH_STOP_NUMBER:continue
         if job['status'] in ('ready','validating','publishing'):
             logs=RUNTIME/job['id'];logs.mkdir(exist_ok=True)
             # Persistent delivery failures require investigation, not an unbounded retry loop.
@@ -166,6 +169,10 @@ def main():
         while owner_active():
             try:cycle()
             except Exception:traceback.print_exc()
+            batch=[job for job in manage.load()['jobs'] if job['number']<=BATCH_STOP_NUMBER]
+            if len(batch)==BATCH_STOP_NUMBER and all(job['status']=='complete' and job.get('group_message_id') for job in batch):
+                print(f'First {BATCH_STOP_NUMBER} deliveries finished; queue stopped for management verification and requested pause.',flush=True)
+                return
             time.sleep(45)
         print('Owner goal is no longer active; no additional jobs will be launched.',flush=True)
 

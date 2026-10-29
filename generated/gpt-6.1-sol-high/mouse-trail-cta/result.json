@@ -1,0 +1,49 @@
+{
+  "title": "Mouse Trail CTA",
+  "id": "mouse-trail-cta",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: TypeScript and Vite production build; dist/index.html exists",
+    "browser": [
+      "Desktop 1440×1000: heading, 40px card radius, loaded custom fonts, completed reveal.",
+      "Mouse trail: local animated images load; 96px thumbnails, relative coordinates and 50px offset, rotation, fading, shrinking, 80ms throttling and removal after 1 second verified.",
+      "CTA: keyboard focus, visible focus outline, hover color and mailto draft target verified; no recipient supplied by prompt.",
+      "Mobile 390×844: 48px heading, intact portrait and CTA, no horizontal overflow.",
+      "Reduced motion: content remains visible and pointer trail is disabled.",
+      "IntersectionObserver: offscreen content starts hidden, reveals after scroll, and stays revealed after leaving view.",
+      "No browser console errors, page errors, failed requests, missing assets or production-subpath errors."
+    ],
+    "console_errors": [],
+    "failed_requests": [],
+    "dependency_audit": "0 vulnerabilities reported after updating Vite and PostCSS",
+    "visual_review": "Desktop, mobile and active trail screenshots reviewed"
+  },
+  "asset_issues": [
+    {
+      "asset": "PP Neue Montreal Book and Medium",
+      "issue": "Both exact prompt Webflow URLs return HTTP 403.",
+      "resolution": "Bundled working local WOFF copies from cdnfonts.com; original URLs retained as secondary sources. Local copies load successfully."
+    },
+    {
+      "asset": "PP Mondwest",
+      "issue": "No font binary supplied; initial alternative esm.sh URL returned 404.",
+      "resolution": "Bundled original OTF from GitHub and converted it to the required public/PPMondwest-Regular.woff2; font loads successfully."
+    },
+    {
+      "asset": "Portrait",
+      "issue": "No verified Viktor Oddy portrait supplied.",
+      "resolution": "Bundled a square Unsplash stock portrait as allowed by the prompt."
+    }
+  ],
+  "notes": [
+    "Ready for management-session review; not deployed or pushed.",
+    "Only this project was written; no agents or other sessions were created.",
+    "Required React + TypeScript + Tailwind CSS + Vite stack; lockfile included; node_modules excluded.",
+    "Production base: /motionsites-results/mouse-trail-cta/.",
+    "Eight original locally generated animated rectangular GIFs; no external runtime asset dependency.",
+    "No chat destination supplied. CTA opens a prefilled mailto draft without recipient; requires email client and recipient entry. No message is sent. OS email client launch was not tested.",
+    "Font files retain their owners’ copyright; no commercial font license included.",
+    "Screenshots: screenshots/desktop.png, screenshots/mobile.png, screenshots/desktop-trail.png. Browser report: screenshots/checks.json."
+  ]
+}

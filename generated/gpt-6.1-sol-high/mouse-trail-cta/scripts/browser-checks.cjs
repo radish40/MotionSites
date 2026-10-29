@@ -1,0 +1,110 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const http = require('node:http');
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+
+const prefix = '/motionsites-results/mouse-trail-cta/';
+const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.gif': 'image/gif', '.jpg': 'image/jpeg', '.woff': 'font/woff', '.woff2': 'font/woff2' };
+const server = http.createServer((req, res) => {
+  if (!req.url.startsWith(prefix)) { res.writeHead(404); res.end(); return; }
+  const relative = decodeURIComponent(req.url.split('?')[0].slice(prefix.length)) || 'index.html';
+  const file = path.join('/work/dist', relative);
+  if (!file.startsWith('/work/dist/') || !fs.existsSync(file)) { res.writeHead(404); res.end(); return; }
+  res.writeHead(200, { 'Content-Type': mime[path.extname(file)] || 'application/octet-stream' });
+  res.end(fs.readFileSync(file));
+});
+
+(async () => {
+  await new Promise(resolve => server.listen(4173, '127.0.0.1', resolve));
+  const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', headless: true, args: ['--no-sandbox', '--disable-dev-shm-usage'] });
+  const errors = [], failedRequests = [], checks = [];
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
+  page.on('pageerror', error => errors.push(error.message));
+  page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
+  page.on('requestfailed', request => failedRequests.push({ url: request.url(), error: request.failure()?.errorText }));
+  page.on('response', response => { if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
+  await page.goto(`http://127.0.0.1:4173${prefix}`, { waitUntil: 'networkidle' });
+  await page.evaluate(() => document.fonts.ready);
+  await page.waitForTimeout(1100);
+  const heading = page.getByRole('heading', { name: 'Partner with us' });
+  assert.equal(await heading.evaluate(el => getComputedStyle(el).opacity), '1');
+  assert(await page.evaluate(() => document.fonts.check('80px "PP Mondwest"') && document.fonts.check('16px "PP Neue Montreal"')));
+  assert.equal(await page.locator('.partner-card').evaluate(el => getComputedStyle(el).borderRadius), '40px');
+  assert.equal(await heading.evaluate(el => getComputedStyle(el).fontSize), '80px');
+  checks.push('Desktop 1440×1000: heading, 40px card radius, loaded custom fonts, completed reveal.');
+  await page.screenshot({ path: '/work/screenshots/desktop.png', fullPage: true });
+  const card = await page.locator('.partner-card').boundingBox();
+  await page.mouse.move(card.x + 80, card.y + 100);
+  await page.waitForTimeout(100);
+  for (let i = 0; i < 8; i++) {
+    await page.mouse.move(card.x + 130 + i * 95, card.y + 100 + Math.sin(i) * 35);
+    await page.waitForTimeout(90);
+  }
+  const trails = page.locator('[data-trail-image]');
+  assert((await trails.count()) >= 5);
+  const sample = await trails.last().evaluate(el => ({ opacity: +getComputedStyle(el).opacity, left: parseFloat(el.style.left), top: parseFloat(el.style.top), transform: el.style.transform, imageOK: el.querySelector('img').naturalWidth > 0, width: el.querySelector('img').width }));
+  assert(sample.imageOK && sample.width === 96 && sample.opacity < 1 && sample.opacity > 0);
+  assert(Math.abs(sample.left - (130 + 7 * 95 - 50)) < 1);
+  assert(Math.abs(sample.top - (100 + Math.sin(7) * 35 - 50)) < 1);
+  assert(sample.transform.includes('scale(') && sample.transform.includes('rotate('));
+  await page.screenshot({ path: '/work/screenshots/desktop-trail.png', fullPage: true });
+  const before = await trails.count();
+  await page.locator('.partner-card').evaluate(el => {
+    for (let i = 0; i < 20; i++) el.dispatchEvent(new MouseEvent('mousemove', { bubbles: true, clientX: 400 + i, clientY: 300 }));
+  });
+  assert((await trails.count()) <= before + 2);
+  await page.mouse.move(1, 1);
+  await page.waitForTimeout(1150);
+  assert.equal(await trails.count(), 0);
+  checks.push('Mouse trail: local animated images load; 96px thumbnails, relative coordinates and 50px offset, rotation, fading, shrinking, 80ms throttling and removal after 1 second verified.');
+  const button = page.getByRole('link', { name: 'Viktor Oddy Start chat with Viktor' });
+  await page.keyboard.press('Tab');
+  assert(await button.evaluate(el => document.activeElement === el));
+  assert((await button.getAttribute('href')).startsWith('mailto:'));
+  await button.hover();
+  await page.waitForTimeout(250);
+  assert.equal(await button.evaluate(el => getComputedStyle(el).backgroundColor), 'rgb(13, 33, 44)');
+  checks.push('CTA: keyboard focus, visible focus outline, hover color and mailto draft target verified; no recipient supplied by prompt.');
+  assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+  await page.setViewportSize({ width: 390, height: 844 });
+  await button.evaluate(el => el.blur());
+  await page.mouse.move(1, 1);
+  await page.waitForTimeout(1200);
+  assert.equal(await heading.evaluate(el => getComputedStyle(el).fontSize), '48px');
+  assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+  assert(await button.isVisible());
+  assert(await page.locator('img[alt="Viktor Oddy"]').evaluate(el => el.complete && el.naturalWidth === 160));
+  await page.screenshot({ path: '/work/screenshots/mobile.png', fullPage: true });
+  checks.push('Mobile 390×844: 48px heading, intact portrait and CTA, no horizontal overflow.');
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.mouse.move(80, 200);
+  await page.mouse.move(120, 210);
+  await page.waitForTimeout(100);
+  assert.equal(await trails.count(), 0);
+  assert.equal(await heading.evaluate(el => getComputedStyle(el).opacity), '1');
+  checks.push('Reduced motion: content remains visible and pointer trail is disabled.');
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.route(`http://127.0.0.1:4173${prefix}`, async route => {
+    const response = await route.fetch();
+    const html = (await response.text()).replace('</head>', '<style>main { padding-top: 1200px !important; }</style></head>');
+    await route.fulfill({ response, body: html });
+  });
+  await page.goto('about:blank');
+  await page.goto(`http://127.0.0.1:4173${prefix}`, { waitUntil: 'networkidle' });
+  assert.equal(await heading.evaluate(el => getComputedStyle(el).opacity), '0');
+  await heading.scrollIntoViewIfNeeded();
+  await page.waitForTimeout(1200);
+  assert.equal(await heading.evaluate(el => getComputedStyle(el).opacity), '1');
+  await page.evaluate(() => scrollTo(0, 0));
+  await page.waitForTimeout(100);
+  assert.equal(await heading.evaluate(el => getComputedStyle(el).opacity), '1');
+  checks.push('IntersectionObserver: offscreen content starts hidden, reveals after scroll, and stays revealed after leaving view.');
+  assert.deepEqual(errors, []);
+  assert.deepEqual(failedRequests, []);
+  checks.push('No browser console errors, page errors, failed requests, missing assets or production-subpath errors.');
+  fs.writeFileSync('/work/screenshots/checks.json', JSON.stringify({ checks, errors, failedRequests, sample }, null, 2) + '\n');
+  console.log(JSON.stringify({ checks, errors, failedRequests }, null, 2));
+  await browser.close();
+  server.close();
+})().catch(error => { console.error(error); server.close(); process.exit(1); });

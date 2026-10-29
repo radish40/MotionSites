@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "Desktop 1440×1000: heading, 40px card radius, loaded custom fonts, completed reveal.",
+    "Mouse trail: local animated images load; 96px thumbnails, relative coordinates and 50px offset, rotation, fading, shrinking, 80ms throttling and removal after 1 second verified.",
+    "CTA: keyboard focus, visible focus outline, hover color and mailto draft target verified; no recipient supplied by prompt.",
+    "Mobile 390×844: 48px heading, intact portrait and CTA, no horizontal overflow.",
+    "Reduced motion: content remains visible and pointer trail is disabled.",
+    "IntersectionObserver: offscreen content starts hidden, reveals after scroll, and stays revealed after leaving view.",
+    "No browser console errors, page errors, failed requests, missing assets or production-subpath errors."
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "sample": {
+    "opacity": 0.906,
+    "left": 745,
+    "top": 72,
+    "transform": "scale(0.9859) rotate(6.83488deg)",
+    "imageOK": true,
+    "width": 96
+  }
+}

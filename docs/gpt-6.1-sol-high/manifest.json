@@ -1074,19 +1074,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185de-aa95-7371-9ca6-caa93aa2010f",
       "output_path": "generated/gpt-6.1-sol-high/celestial-renewal",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2591897,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:15:24.740481+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "2c559875d90cd0b0ef5265b9e4a6f97363b28c2e",
+      "url": "https://tool.luo-xd.com/motionsites-results/celestial-renewal/",
+      "completed_utc": "2026-10-29T04:26:04.481548+00:00",
+      "group_message_id": 80
     },
     {
       "number": 33,
@@ -1104,19 +1108,20 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "validating",
       "thread_id": "01a185de-ab14-70b3-ba42-5934e9c3a9f9",
       "output_path": "generated/gpt-6.1-sol-high/church-community",
       "validation": "",
-      "notes": "",
+      "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "process_id": 2591935,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:15:24.848761+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "delivery_failures": 1
     },
     {
       "number": 34,
@@ -1195,14 +1200,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e3-f461-7472-8844-f8c957f297d0",
       "output_path": "generated/gpt-6.1-sol-high/cosmos-interface",
       "validation": "",
       "notes": "",
       "process_id": 2612961,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:21:11.106541+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 37,
@@ -1220,11 +1229,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/cozypaws",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2625512,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:25:27.463181+00:00",
+      "worker_state": "running"
     },
     {
       "number": 38,
@@ -1242,11 +1255,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/cross-border",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2625549,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:25:27.647102+00:00",
+      "worker_state": "running"
     },
     {
       "number": 39,
@@ -8773,5 +8790,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:23:21.000721+00:00"
+  "updated_utc": "2026-10-29T04:26:04.936811+00:00"
 }

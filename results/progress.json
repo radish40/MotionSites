@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T04:23:21.000721+00:00",
+  "updated_utc": "2026-10-29T04:26:04.936811+00:00",
   "total": 380,
   "counts": {
-    "complete": 31,
+    "complete": 32,
+    "validating": 1,
     "running": 5,
-    "not_started": 344
+    "not_started": 342
   },
   "jobs": [
     {
@@ -321,17 +322,17 @@
       "id": "celestial-renewal",
       "title": "Celestial Renewal",
       "category": "Wellness",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185de-aa95-7371-9ca6-caa93aa2010f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "2c559875d90cd0b0ef5265b9e4a6f97363b28c2e",
+      "group_message_id": 80,
+      "url": "https://tool.luo-xd.com/motionsites-results/celestial-renewal/"
     },
     {
       "id": "church-community",
       "title": "Church Community",
       "category": "Community",
-      "status": "running",
+      "status": "validating",
       "thread_id": "01a185de-ab14-70b3-ba42-5934e9c3a9f9",
       "source_commit": null,
       "group_message_id": null,
@@ -362,7 +363,7 @@
       "title": "Cosmos Interface",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e3-f461-7472-8844-f8c957f297d0",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -371,7 +372,7 @@
       "id": "cozypaws",
       "title": "CozyPaws",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -381,7 +382,7 @@
       "id": "cross-border",
       "title": "Cross-Border",
       "category": "Transportation",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

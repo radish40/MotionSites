@@ -1,0 +1,3 @@
+export default function CTA({ onStart, compact=false }: { onStart:()=>void; compact?:boolean }) {
+ return <div className={`flex items-center gap-5 rounded-xl bg-black/25 py-1 pl-6 pr-1 backdrop-blur-md ${compact?'flex-wrap justify-between gap-y-4 pb-1 pt-4':'mx-auto max-w-full'}`}><p className="text-sm font-medium text-white"><span className="hidden sm:inline">No noise. No complicated systems. Just your day, gently sorted.</span><span className="sm:hidden">No noise. Just your day, gently sorted.</span></p><button onClick={onStart} className="shrink-0 rounded-xl bg-white px-5 py-2.5 text-sm font-medium text-black transition-colors hover:bg-white/90">Start for free</button></div>;
+}

@@ -1,0 +1,67 @@
+{
+  "title": "ADHD Planner",
+  "id": "adhd-planner",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22; Docker command in README.md)",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/adhd-planner/",
+    "browser_command": "node scripts/browser-check.cjs (Docker command in README.md)",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "interactions": "passed",
+        "script_errors": [],
+        "horizontal_overflow": [],
+        "fonts": {
+          "inter": true,
+          "serif": true
+        },
+        "videos_decoded": 4
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "interactions": "passed",
+        "script_errors": [],
+        "horizontal_overflow": [],
+        "fonts": {
+          "inter": true,
+          "serif": true
+        },
+        "videos_decoded": 4
+      }
+    ],
+    "interaction_coverage": [
+      "Menu toggle and link dismissal",
+      "FAQ dialog and Escape dismissal",
+      "Start for free notice",
+      "Say hello and Stay informed notices",
+      "Drift AI anchor",
+      "Card reveals",
+      "Desktop feature scrolling and active state"
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-features.png",
+      "screenshots/mobile-features.png"
+    ],
+    "visual_review": "Desktop and mobile hero and feature screenshots inspected",
+    "details": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "severity": "informational",
+      "detail": "Chromium logged net::ERR_ABORTED for canceled MP4 range requests. Every video subsequently decoded at readyState 4 without a media error on both viewports. Raw events are preserved in browser-checks.json."
+    }
+  ],
+  "notes": [
+    "Exact supplied four MP4s and feature WebP bundled locally; provenance in public/assets/sources.json.",
+    "Google Fonts Inter and Instrument Serif loaded successfully; the requested external CSS import remains.",
+    "Signup, contact and newsletter destinations were unspecified; buttons open honest preview notices. No backend, accounts, subscriptions or data collection.",
+    "Mobile reveal overflow fixed by clipping the feature section without changing sticky scrolling.",
+    "Ready for review only. No deployment or push performed."
+  ]
+}

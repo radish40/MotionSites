@@ -1,0 +1,130 @@
+[
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "heroVideo": {
+      "ready": 4,
+      "width": 1920,
+      "playing": true,
+      "error": null
+    },
+    "media": [
+      {
+        "src": "/motionsites-results/adhd-planner/assets/hero.mp4",
+        "width": 1920,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "src": "/motionsites-results/adhd-planner/assets/ease.mp4",
+        "width": 1440,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "src": "/motionsites-results/adhd-planner/assets/start.mp4",
+        "width": 1920,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "src": "/motionsites-results/adhd-planner/assets/focus.mp4",
+        "width": 1920,
+        "ready": 4,
+        "error": null
+      }
+    ],
+    "font": {
+      "inter": true,
+      "serif": true
+    },
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/adhd-planner/assets/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/adhd-planner/assets/ease.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/adhd-planner/assets/start.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/adhd-planner/assets/focus.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "overflows": [],
+    "interactions": "passed"
+  },
+  {
+    "viewport": "mobile",
+    "width": 390,
+    "height": 844,
+    "heroVideo": {
+      "ready": 4,
+      "width": 1920,
+      "playing": true,
+      "error": null
+    },
+    "media": [
+      {
+        "src": "/motionsites-results/adhd-planner/assets/hero.mp4",
+        "width": 1920,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "src": "/motionsites-results/adhd-planner/assets/ease.mp4",
+        "width": 1440,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "src": "/motionsites-results/adhd-planner/assets/start.mp4",
+        "width": 1920,
+        "ready": 4,
+        "error": null
+      },
+      {
+        "src": "/motionsites-results/adhd-planner/assets/focus.mp4",
+        "width": 1920,
+        "ready": 4,
+        "error": null
+      }
+    ],
+    "font": {
+      "inter": true,
+      "serif": true
+    },
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/adhd-planner/assets/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/adhd-planner/assets/ease.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/adhd-planner/assets/start.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/adhd-planner/assets/focus.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/adhd-planner/assets/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "overflows": [],
+    "interactions": "passed"
+  }
+]

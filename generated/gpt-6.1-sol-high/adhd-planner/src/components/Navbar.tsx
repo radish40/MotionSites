@@ -1,0 +1,10 @@
+import { useEffect, useRef, useState } from 'react';
+export default function Navbar({ onFAQ }: { onFAQ: () => void }) {
+ const [open,setOpen] = useState(false);
+ const ref=useRef<HTMLElement>(null);
+ useEffect(()=>{const outside=(e:PointerEvent)=>{if(!ref.current?.contains(e.target as Node))setOpen(false)}; const key=(e:KeyboardEvent)=>{if(e.key==='Escape')setOpen(false)};document.addEventListener('pointerdown',outside);document.addEventListener('keydown',key);return()=>{document.removeEventListener('pointerdown',outside);document.removeEventListener('keydown',key)}},[]);
+ return <nav ref={ref} aria-label="Main navigation" className="absolute left-1/2 top-6 z-50 -translate-x-1/2">
+ <div className="flex items-center gap-10 rounded-full bg-white py-3 pl-6 pr-4 shadow-lg"><a href="#home" className="text-lg font-bold tracking-tight text-black" onClick={()=>setOpen(false)}>Drift.</a><button aria-label={open?'Close menu':'Open menu'} aria-expanded={open} aria-controls="main-menu" onClick={()=>setOpen(!open)} className="relative h-7 w-7"><span className={`absolute left-1 top-[10px] h-[1.5px] w-5 bg-black transition-transform duration-300 ease-[cubic-bezier(0.77,0,0.175,1)] ${open?'translate-y-[3px] rotate-45':''}`}/><span className={`absolute left-1 top-4 h-[1.5px] w-5 bg-black transition-transform duration-300 ease-[cubic-bezier(0.77,0,0.175,1)] ${open?'-translate-y-[3px] -rotate-45':''}`}/></button></div>
+ <div id="main-menu" inert={!open} className={`absolute left-0 right-0 top-full mt-2 origin-top rounded-2xl bg-white p-2 shadow-lg transition-all duration-300 ${open?'translate-y-0 scale-100 opacity-100':'pointer-events-none -translate-y-2 scale-95 opacity-0'}`}>
+ <a href="#features" onClick={()=>setOpen(false)} className="block rounded-xl px-4 py-3 text-sm hover:bg-stone-100">Features</a><a href="#drift-ai" onClick={()=>setOpen(false)} className="block rounded-xl px-4 py-3 text-sm hover:bg-stone-100">Drift AI</a><button onClick={()=>{setOpen(false);onFAQ()}} className="block w-full rounded-xl px-4 py-3 text-left text-sm hover:bg-stone-100">FAQ</button></div></nav>;
+}

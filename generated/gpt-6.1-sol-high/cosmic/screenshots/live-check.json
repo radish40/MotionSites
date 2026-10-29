@@ -1,11 +1,12 @@
 {
   "url": "https://tool.luo-xd.com/motionsites-results/cosmic/",
-  "checked_at": "2026-10-29T05:59:31.241Z",
+  "checked_at": "2026-10-29T06:03:42.259Z",
   "passed": true,
   "results": [
     {
       "viewport": "desktop",
       "status": 200,
+      "introWait": "settled",
       "title": "COSMIQ - What's Beyond",
       "bodyChars": 50,
       "horizontalOverflow": 0,
@@ -20,7 +21,12 @@
         {
           "src": "https://tool.luo-xd.com/motionsites-results/cosmic/assets/cosmiq.mp4",
           "readyState": 4,
-          "paused": false
+          "paused": true,
+          "currentTime": 6.041667,
+          "duration": 6.041667,
+          "ended": true,
+          "loop": false,
+          "autoplay": true
         }
       ],
       "errors": [],
@@ -31,6 +37,7 @@
     {
       "viewport": "mobile",
       "status": 200,
+      "introWait": "settled",
       "title": "COSMIQ - What's Beyond",
       "bodyChars": 21,
       "horizontalOverflow": 0,
@@ -45,7 +52,12 @@
         {
           "src": "https://tool.luo-xd.com/motionsites-results/cosmic/assets/cosmiq.mp4",
           "readyState": 4,
-          "paused": false
+          "paused": true,
+          "currentTime": 6.041667,
+          "duration": 6.041667,
+          "ended": true,
+          "loop": false,
+          "autoplay": true
         }
       ],
       "errors": [],

@@ -1,0 +1,76 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "initial": {
+      "title": "SynapseX",
+      "font": true,
+      "video": {
+        "readyState": 4,
+        "duration": 4.041667,
+        "error": null
+      },
+      "overflow": false,
+      "hero": [
+        "Brain",
+        "And Body",
+        "One",
+        "Network"
+      ],
+      "cards": 6
+    },
+    "menu": true,
+    "aboutNavigation": true,
+    "metricsNavigation": true,
+    "scrollVideoSeeking": true,
+    "carouselDrag": {
+      "before": 0,
+      "after": 2
+    },
+    "homeNavigation": true,
+    "downloadHref": "https://www.instagram.com/dmitriyinin",
+    "scriptErrors": [],
+    "failedRequests": [],
+    "allAssetsLocal": true
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "initial": {
+      "title": "SynapseX",
+      "font": true,
+      "video": {
+        "readyState": 4,
+        "duration": 4.041667,
+        "error": null
+      },
+      "overflow": false,
+      "hero": [
+        "Brain",
+        "And Body",
+        "One",
+        "Network"
+      ],
+      "cards": 6
+    },
+    "menu": true,
+    "aboutNavigation": true,
+    "metricsNavigation": true,
+    "scrollVideoSeeking": true,
+    "carouselDrag": {
+      "before": 0,
+      "after": 1
+    },
+    "homeNavigation": true,
+    "downloadHref": "https://www.instagram.com/dmitriyinin",
+    "scriptErrors": [],
+    "failedRequests": [],
+    "allAssetsLocal": true
+  }
+]

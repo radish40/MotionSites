@@ -1,0 +1,109 @@
+{
+  "title": "Neural Interface",
+  "id": "neural-interface",
+  "status": "ready",
+  "page_title": "SynapseX",
+  "publish_path": "/motionsites-results/neural-interface/",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists and matches source",
+    "browser": "passed in container Chromium using Playwright Core",
+    "viewports": [
+      {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "initial": {
+          "title": "SynapseX",
+          "font": true,
+          "video": {
+            "readyState": 4,
+            "duration": 4.041667,
+            "error": null
+          },
+          "overflow": false,
+          "hero": [
+            "Brain",
+            "And Body",
+            "One",
+            "Network"
+          ],
+          "cards": 6
+        },
+        "menu": true,
+        "aboutNavigation": true,
+        "metricsNavigation": true,
+        "scrollVideoSeeking": true,
+        "carouselDrag": {
+          "before": 0,
+          "after": 2
+        },
+        "homeNavigation": true,
+        "downloadHref": "https://www.instagram.com/dmitriyinin",
+        "scriptErrors": [],
+        "failedRequests": [],
+        "allAssetsLocal": true
+      },
+      {
+        "name": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "initial": {
+          "title": "SynapseX",
+          "font": true,
+          "video": {
+            "readyState": 4,
+            "duration": 4.041667,
+            "error": null
+          },
+          "overflow": false,
+          "hero": [
+            "Brain",
+            "And Body",
+            "One",
+            "Network"
+          ],
+          "cards": 6
+        },
+        "menu": true,
+        "aboutNavigation": true,
+        "metricsNavigation": true,
+        "scrollVideoSeeking": true,
+        "carouselDrag": {
+          "before": 0,
+          "after": 1
+        },
+        "homeNavigation": true,
+        "downloadHref": "https://www.instagram.com/dmitriyinin",
+        "scriptErrors": [],
+        "failedRequests": [],
+        "allAssetsLocal": true
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-menu.png",
+      "screenshots/mobile-menu.png",
+      "screenshots/desktop-about.png",
+      "screenshots/mobile-about.png",
+      "screenshots/desktop-metrics.png",
+      "screenshots/mobile-metrics.png"
+    ],
+    "visual_review": "Desktop and mobile hero, About, menu, and Metrics screenshots reviewed against this design and prompt.",
+    "dependency_audit": "One critical advisory reported for required Swiper 11: GHSA-hmx5-qpq5-p643; version retained for stack fidelity."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Native HTML/CSS/JavaScript stack with Bootstrap Icons 1.11.3, Swiper 11.2.10, Lenis 1.1.18, and Space Mono.",
+    "Original MP4 and all runtime fonts/libraries bundled locally; checks made no external requests.",
+    "Minor accessibility and navigation corrections: native menu buttons, expanded and inert states, keyboard logo activation, Escape closing, Lenis-aware navigation, actual section targets.",
+    "Download retains the exact Instagram destination specified in the prompt; destination checked without external navigation.",
+    "Chromium desktop and mobile viewport checks only; no physical-device, Safari, or Firefox validation.",
+    "All outputs are inside this project. No deployment or push performed. ready means ready for acceptance."
+  ]
+}

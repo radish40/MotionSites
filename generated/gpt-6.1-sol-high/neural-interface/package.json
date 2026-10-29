@@ -1,0 +1,16 @@
+{
+  "name": "neural-interface",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node scripts/browser-check.cjs"
+  },
+  "dependencies": {
+    "bootstrap-icons": "1.11.3",
+    "lenis": "1.1.18",
+    "swiper": "11.2.10"
+  }
+}

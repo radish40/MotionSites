@@ -1,0 +1,42 @@
+{
+  "video_source": "https://d8j0ntlcm91z4.cloudfront.net/user_39ca84eAE1ODL9hbR5VhoEj8tBf/hf_20260613_120544_a609e0c2-e52d-4bd5-b10f-b66ac51f1965.mp4",
+  "font_source": "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+  "recovery": "Original video and fonts downloaded successfully; no extracted or substitute imagery.",
+  "assets": [
+    {
+      "file": "public/assets/favicon.svg",
+      "bytes": 967,
+      "sha256": "bed52ecf6ad75fe0cfe778d3f8eb2dab2582e32c05ba4156ccc2c1af3a6975cd"
+    },
+    {
+      "file": "public/assets/fonts.css",
+      "bytes": 694,
+      "sha256": "2d9342d4a254c75daa527407ed384da36dc619f5ce0a3c7611b41fb9922dd51a"
+    },
+    {
+      "file": "public/assets/i7dMIFZifjKcF5UAWdDRaPpZYFI.ttf",
+      "bytes": 79904,
+      "sha256": "5be2b984cdb8befc8ad1871d10f1aa8337f7d2bae3c6bf0ce720d0745ac1a8ec"
+    },
+    {
+      "file": "public/assets/i7dNIFZifjKcF5UAWdDRYER8QA.ttf",
+      "bytes": 100780,
+      "sha256": "71fc772fd07392d445baf8b3c374f71896909c6152b91d4f1d750ee4212d5c4a"
+    },
+    {
+      "file": "public/assets/i7dPIFZifjKcF5UAWdDRUEY.ttf",
+      "bytes": 81124,
+      "sha256": "829aad32ab9525358de2a7ebc718d05a6b335e67421aad5e1e09cd1fa796af4e"
+    },
+    {
+      "file": "public/assets/i7dSIFZifjKcF5UAWdDRYERE_FeaGw.ttf",
+      "bytes": 92936,
+      "sha256": "7aa775015c59df6dc6e4d9bdb69917055c21889d3ac1c18bdabf96851b2043cb"
+    },
+    {
+      "file": "public/assets/neural-interface.mp4",
+      "bytes": 7269846,
+      "sha256": "57c5c669300b462438a8d4c5a4dc6458f1450c48fb2b21ce5d0f0763c4585c18"
+    }
+  ]
+}

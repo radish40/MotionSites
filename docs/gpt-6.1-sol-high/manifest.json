@@ -5818,19 +5818,21 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "blocked",
+      "status": "running",
       "thread_id": "01a1868a-d006-7fc3-b919-8b24c8a17c39",
       "output_path": "generated/gpt-6.1-sol-high/neo-museum",
       "validation": "",
-      "notes": "[{\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624247/01_udnber.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624374/02_pmvxxl.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624236/03_hcp3jc.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624256/04_get63z.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624251/05_kz1tyu.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779625001/ChatGPT_Image_May_23_2026_12_24_44_PM_1_lv1dne.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/video/upload/v1779624998/magnific_use-img-2-as-the-exact-ba_Piu3X0W42C_wnrc8f.mp4\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}]",
-      "process_id": 3250910,
+      "notes": "Same original session recovering isolated skeleton assets from own animated reference and attributed missing natural-history imagery; original Cloudinary disabled.",
+      "process_id": 3277672,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:23:26.444607+00:00",
-      "worker_state": "terminal",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "repair_attempts": 1,
+      "delivery_failures": 0
     },
     {
       "number": 171,
@@ -5848,19 +5850,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1868c-2896-7d60-a8ed-0caf1f5124ce",
       "output_path": "generated/gpt-6.1-sol-high/neon-logic",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3254779,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:24:54.722577+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "7aaafd0589c9d1c2492b5f48b65a482e1144fd3e",
+      "url": "https://tool.luo-xd.com/motionsites-results/neon-logic/",
+      "completed_utc": "2026-10-29T07:32:20.240263+00:00",
+      "group_message_id": 224
     },
     {
       "number": 172,
@@ -10485,7 +10491,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:30:47.314453+00:00",
+  "updated_utc": "2026-10-29T07:32:20.402732+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

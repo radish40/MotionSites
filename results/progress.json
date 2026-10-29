@@ -1,10 +1,9 @@
 {
-  "updated_utc": "2026-10-29T07:30:47.314453+00:00",
+  "updated_utc": "2026-10-29T07:32:20.402732+00:00",
   "total": 380,
   "counts": {
-    "complete": 168,
+    "complete": 169,
     "running": 5,
-    "blocked": 1,
     "not_started": 206
   },
   "jobs": [
@@ -1702,7 +1701,7 @@
       "id": "neo-museum",
       "title": "Neo Museum",
       "category": "Website",
-      "status": "blocked",
+      "status": "running",
       "thread_id": "01a1868a-d006-7fc3-b919-8b24c8a17c39",
       "source_commit": null,
       "group_message_id": null,
@@ -1712,11 +1711,11 @@
       "id": "neon-logic",
       "title": "Neon Logic",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1868c-2896-7d60-a8ed-0caf1f5124ce",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "7aaafd0589c9d1c2492b5f48b65a482e1144fd3e",
+      "group_message_id": 224,
+      "url": "https://tool.luo-xd.com/motionsites-results/neon-logic/"
     },
     {
       "id": "network-hero",

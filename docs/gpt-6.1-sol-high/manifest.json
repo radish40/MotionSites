@@ -3965,19 +3965,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18642-37f3-7660-8e98-97255cab7a79",
       "output_path": "generated/gpt-6.1-sol-high/digital-experiences",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2994354,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:04:08.927118+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "41b50cd97a36ad309a9ebfe1de0b77f1fbfe8888",
+      "url": "https://tool.luo-xd.com/motionsites-results/digital-experiences/",
+      "completed_utc": "2026-10-29T06:13:13.883988+00:00",
+      "group_message_id": 170
     },
     {
       "number": 117,
@@ -4063,19 +4067,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18643-d4c4-70c3-9369-b9214968c073",
       "output_path": "generated/gpt-6.1-sol-high/email-landing-page",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3001181,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:05:54.522303+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "c2b62b107cbf456afe7dcbd6d09daa71fbaea0a4",
+      "url": "https://tool.luo-xd.com/motionsites-results/email-landing-page/",
+      "completed_utc": "2026-10-29T06:13:40.603969+00:00",
+      "group_message_id": 171
     },
     {
       "number": 120,
@@ -4093,19 +4101,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18645-a926-7472-85a4-2f44a7385e7c",
       "output_path": "generated/gpt-6.1-sol-high/equilibrium",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3008652,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:07:54.542360+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "19552e1aed6bd7d630b7d234c6bd215c65893a18",
+      "url": "https://tool.luo-xd.com/motionsites-results/equilibrium/",
+      "completed_utc": "2026-10-29T06:16:07.636612+00:00",
+      "group_message_id": 172
     },
     {
       "number": 121,
@@ -4124,14 +4136,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18647-6b15-7861-83ab-c5bc77f16e0d",
       "output_path": "generated/gpt-6.1-sol-high/evergreen-finance",
       "validation": "",
       "notes": "",
       "process_id": 3015617,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:09:49.746291+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 122,
@@ -4150,14 +4166,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18647-6b9c-7501-94d1-2e3230cbca70",
       "output_path": "generated/gpt-6.1-sol-high/faq-cta",
       "validation": "",
       "notes": "",
       "process_id": 3015654,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:09:49.857801+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 123,
@@ -4175,11 +4195,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/features",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3021201,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:11:38.567130+00:00",
+      "worker_state": "running"
     },
     {
       "number": 124,
@@ -4197,11 +4221,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/feedback-slider",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3021257,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:11:38.685778+00:00",
+      "worker_state": "running"
     },
     {
       "number": 125,
@@ -4219,11 +4247,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/financialfocus",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3021307,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:11:38.808860+00:00",
+      "worker_state": "running"
     },
     {
       "number": 126,
@@ -9836,5 +9868,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:10:44.379634+00:00"
+  "updated_utc": "2026-10-29T06:16:07.858526+00:00"
 }

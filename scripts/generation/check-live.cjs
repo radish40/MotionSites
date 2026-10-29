@@ -21,15 +21,23 @@ const path = require('node:path');
       await page.waitForTimeout(5000);
       let introWait = 'not-applicable';
       if (await page.locator('video[autoplay]:not([loop])').count()) {
+        const introState = await page.evaluateHandle(() => {
+          const states = [...document.querySelectorAll('video[autoplay]:not([loop])')]
+            .map(video => ({video, ended:video.ended}));
+          for (const state of states) state.video.addEventListener('ended', () => {state.ended = true;}, {once:true});
+          return states;
+        });
         const deadline = Date.now() + 30000;
         introWait = 'timed-out';
         while (Date.now() < deadline) {
           // Direct evaluation works with the site's CSP; waitForFunction uses eval.
-          const settled = await page.evaluate(() => [...document.querySelectorAll('video[autoplay]:not([loop])')]
-            .every(video => video.ended || video.paused || video.error));
+          // Remember ended events even when an app immediately restarts its video.
+          const settled = await introState.evaluate(states => states
+            .every(state => state.ended || state.video.paused || state.video.error));
           if (settled) { introWait = 'settled'; break; }
           await page.waitForTimeout(250);
         }
+        await introState.dispose();
         // Headlines often enter after an introductory clip's ended event.
         await page.waitForTimeout(2000);
       }

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:10:44.379634+00:00",
+  "updated_utc": "2026-10-29T06:16:07.858526+00:00",
   "total": 380,
   "counts": {
-    "complete": 117,
+    "complete": 120,
     "running": 5,
-    "not_started": 258
+    "not_started": 255
   },
   "jobs": [
     {
@@ -1161,11 +1161,11 @@
       "id": "digital-experiences",
       "title": "Digital Experiences",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18642-37f3-7660-8e98-97255cab7a79",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "41b50cd97a36ad309a9ebfe1de0b77f1fbfe8888",
+      "group_message_id": 170,
+      "url": "https://tool.luo-xd.com/motionsites-results/digital-experiences/"
     },
     {
       "id": "eco-intelligence",
@@ -1191,28 +1191,28 @@
       "id": "email-landing-page",
       "title": "Email Landing Page",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18643-d4c4-70c3-9369-b9214968c073",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c2b62b107cbf456afe7dcbd6d09daa71fbaea0a4",
+      "group_message_id": 171,
+      "url": "https://tool.luo-xd.com/motionsites-results/email-landing-page/"
     },
     {
       "id": "equilibrium",
       "title": "Equilibrium",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18645-a926-7472-85a4-2f44a7385e7c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "19552e1aed6bd7d630b7d234c6bd215c65893a18",
+      "group_message_id": 172,
+      "url": "https://tool.luo-xd.com/motionsites-results/equilibrium/"
     },
     {
       "id": "evergreen-finance",
       "title": "Evergreen Finance",
       "category": "Fintech",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18647-6b15-7861-83ab-c5bc77f16e0d",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1222,7 +1222,7 @@
       "title": "FAQ CTA",
       "category": "CTA Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18647-6b9c-7501-94d1-2e3230cbca70",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1231,7 +1231,7 @@
       "id": "features",
       "title": "Capabilities Overview",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1241,7 +1241,7 @@
       "id": "feedback-slider",
       "title": "Feedback Slider",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1251,7 +1251,7 @@
       "id": "financialfocus",
       "title": "FinancialFocus",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

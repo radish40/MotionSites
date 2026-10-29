@@ -1,0 +1,190 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "video": {
+      "readyState": 4,
+      "width": 1780,
+      "height": 1160,
+      "duration": 9.041667,
+      "error": null
+    },
+    "fontChecks": {
+      "serif": true,
+      "sans": true,
+      "script": true
+    },
+    "shopScroll": 1450,
+    "buyScroll": 1450,
+    "rejectsEmptyEmail": true,
+    "newsletter": "This preview does not send subscriptions.",
+    "footerNewsletter": "This preview does not send subscriptions.",
+    "overflow": [
+      {
+        "y": 0,
+        "width": 1440,
+        "viewport": 1440
+      },
+      {
+        "y": 500,
+        "width": 1440,
+        "viewport": 1440
+      },
+      {
+        "y": 1500,
+        "width": 1440,
+        "viewport": 1440
+      },
+      {
+        "y": 2500,
+        "width": 1440,
+        "viewport": 1440
+      },
+      {
+        "y": 3750,
+        "width": 1440,
+        "viewport": 1440
+      },
+      {
+        "y": 4800,
+        "width": 1440,
+        "viewport": 1440
+      },
+      {
+        "y": 6420,
+        "width": 1440,
+        "viewport": 1440
+      }
+    ],
+    "images": [
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-3.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-4.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-5.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-6.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/botanical-landscape.png",
+        "loaded": true
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "external": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "video": {
+      "readyState": 4,
+      "width": 1780,
+      "height": 1160,
+      "duration": 9.041667,
+      "error": null
+    },
+    "fontChecks": {
+      "serif": true,
+      "sans": true,
+      "script": true
+    },
+    "shopScroll": 1224,
+    "buyScroll": 1224,
+    "rejectsEmptyEmail": true,
+    "newsletter": "This preview does not send subscriptions.",
+    "footerNewsletter": "This preview does not send subscriptions.",
+    "overflow": [
+      {
+        "y": 0,
+        "width": 390,
+        "viewport": 390
+      },
+      {
+        "y": 422,
+        "width": 390,
+        "viewport": 390
+      },
+      {
+        "y": 1266,
+        "width": 390,
+        "viewport": 390
+      },
+      {
+        "y": 2110,
+        "width": 390,
+        "viewport": 390
+      },
+      {
+        "y": 3165,
+        "width": 390,
+        "viewport": 390
+      },
+      {
+        "y": 4051,
+        "width": 390,
+        "viewport": 390
+      },
+      {
+        "y": 5912,
+        "width": 390,
+        "viewport": 390
+      }
+    ],
+    "images": [
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-3.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-4.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-5.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/fragrance-6.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/luxury-botanical/assets/botanical-landscape.png",
+        "loaded": true
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "external": []
+  }
+]

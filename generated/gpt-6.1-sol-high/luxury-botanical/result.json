@@ -1,0 +1,54 @@
+{
+  "title": "Luxury Botanical",
+  "id": "luxury-botanical",
+  "status": "ready",
+  "page_title": "Bentley \u2014 Beyond The Collection",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publish_path": "/motionsites-results/luxury-botanical/",
+  "checks": {
+    "production_build": "passed",
+    "dist_index": "dist/index.html",
+    "browser": "Chromium via playwright-core",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "scroll_animation": "passed at six scroll positions per viewport",
+    "shop_and_buy_navigation": "passed",
+    "newsletter_forms": "passed; required email validation and honest preview feedback",
+    "images": "7/7 loaded in each viewport",
+    "fonts": "Instrument Serif, Manrope, Great Vibes loaded",
+    "video": "1780x1160 MP4 decoded; readyState 4; no media error",
+    "horizontal_overflow": "none at all checked scroll positions",
+    "console_errors": 0,
+    "failed_requests": 0,
+    "external_runtime_requests": 0,
+    "dependency_audit": "0 vulnerabilities reported",
+    "evidence": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-orbit.png",
+      "screenshots/mobile-orbit.png",
+      "screenshots/desktop-fragrance.png",
+      "screenshots/mobile-fragrance.png",
+      "screenshots/desktop-newsletter.png",
+      "screenshots/mobile-newsletter.png",
+      "screenshots/desktop-footer.png",
+      "screenshots/mobile-footer.png"
+    ]
+  },
+  "asset_issues": [
+    "All supplied media and fonts downloaded successfully and are locally hosted.",
+    "Two supplied Radiant Osmanthus URLs have identical image content.",
+    "Some supplied fragrance titles do not match the bottle labels; original prompt assignments are preserved."
+  ],
+  "notes": [
+    "Ready for management acceptance; not deployed or pushed.",
+    "Original React, Framer Motion and Tailwind stack bundled locally with Vite.",
+    "Newsletter submission is a local preview; no subscription service or checkout backend was supplied.",
+    "Footer destination links retain the original placeholder behavior.",
+    "Framer Motion use-client directives produce non-blocking build warnings.",
+    "README.md contains project instructions, validation and limitations."
+  ]
+}

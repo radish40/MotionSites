@@ -4305,19 +4305,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1864e-0205-7da1-8acf-1e66b5be5bd0",
       "output_path": "generated/gpt-6.1-sol-high/finflow",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3037798,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:17:01.449222+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "e407b3d30a86c42b38f9f63b1b61b92b098fb892",
+      "url": "https://tool.luo-xd.com/motionsites-results/finflow/",
+      "completed_utc": "2026-10-29T06:36:32.298953+00:00",
+      "group_message_id": 178
     },
     {
       "number": 127,
@@ -4335,19 +4339,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1864e-02bb-7653-a108-c7fe6227041e",
       "output_path": "generated/gpt-6.1-sol-high/flowmate-carousal",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3037826,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:17:01.569521+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "975ebf6935b32a440ce7dcbc6bff3d328ff590c3",
+      "url": "https://tool.luo-xd.com/motionsites-results/flowmate-carousal/",
+      "completed_utc": "2026-10-29T06:36:58.388667+00:00",
+      "group_message_id": 179
     },
     {
       "number": 128,
@@ -4365,15 +4373,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "complete",
+      "thread_id": "01a18650-8ad5-7ce1-a2b2-cdb9071f039a",
       "output_path": "generated/gpt-6.1-sol-high/fun-404-page",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3046128,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:19:47.614692+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "source_commit": "0d29e2be59ee194042395da2e9f8df59d0127bb3",
+      "url": "https://tool.luo-xd.com/motionsites-results/fun-404-page/",
+      "completed_utc": "2026-10-29T06:37:27.955987+00:00",
+      "group_message_id": 181
     },
     {
       "number": 129,
@@ -4391,15 +4407,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "complete",
+      "thread_id": "01a18650-8b84-7552-9749-6d233686c042",
       "output_path": "generated/gpt-6.1-sol-high/future-state",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3046160,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:19:47.761872+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "source_commit": "e5168055f87a81bb7930f0f22c0dfb5486867454",
+      "url": "https://tool.luo-xd.com/motionsites-results/future-state/",
+      "completed_utc": "2026-10-29T06:38:01.247771+00:00",
+      "group_message_id": 182
     },
     {
       "number": 130,
@@ -4417,15 +4441,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "complete",
+      "thread_id": "01a18650-8c55-73d2-ad67-6028387e33c3",
       "output_path": "generated/gpt-6.1-sol-high/futuristic-cinematic",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3046249,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:19:47.936144+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "source_commit": "0371ff91d0919a379c45ef50e6a1ccc7778574e6",
+      "url": "https://tool.luo-xd.com/motionsites-results/futuristic-cinematic/",
+      "completed_utc": "2026-10-29T06:38:39.496749+00:00",
+      "group_message_id": 183
     },
     {
       "number": 131,
@@ -4443,11 +4475,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/futuristic-tech",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3074985,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:36:07.503559+00:00",
+      "worker_state": "running"
     },
     {
       "number": 132,
@@ -4465,11 +4501,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/gateway-portal",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3075022,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:36:07.613107+00:00",
+      "worker_state": "running"
     },
     {
       "number": 133,
@@ -4487,11 +4527,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/gear-shop",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3075129,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:36:07.740406+00:00",
+      "worker_state": "running"
     },
     {
       "number": 134,
@@ -4509,11 +4553,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/glassmorphic-feature-tabs",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3075224,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:36:07.880437+00:00",
+      "worker_state": "running"
     },
     {
       "number": 135,
@@ -4531,11 +4579,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/glitch-pulse",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3075332,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:36:08.020259+00:00",
+      "worker_state": "running"
     },
     {
       "number": 136,
@@ -9928,5 +9980,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:22:04.946174+00:00"
+  "updated_utc": "2026-10-29T06:38:39.677116+00:00"
 }

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:22:04.946174+00:00",
+  "updated_utc": "2026-10-29T06:38:39.677116+00:00",
   "total": 380,
   "counts": {
-    "complete": 125,
+    "complete": 130,
     "running": 5,
-    "not_started": 250
+    "not_started": 245
   },
   "jobs": [
     {
@@ -1261,57 +1261,57 @@
       "id": "finflow",
       "title": "FinFlow",
       "category": "Fintech",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1864e-0205-7da1-8acf-1e66b5be5bd0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e407b3d30a86c42b38f9f63b1b61b92b098fb892",
+      "group_message_id": 178,
+      "url": "https://tool.luo-xd.com/motionsites-results/finflow/"
     },
     {
       "id": "flowmate-carousal",
       "title": "FlowMate Carousal",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1864e-02bb-7653-a108-c7fe6227041e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "975ebf6935b32a440ce7dcbc6bff3d328ff590c3",
+      "group_message_id": 179,
+      "url": "https://tool.luo-xd.com/motionsites-results/flowmate-carousal/"
     },
     {
       "id": "fun-404-page",
       "title": "Fun 404 Page",
       "category": "Education",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a18650-8ad5-7ce1-a2b2-cdb9071f039a",
+      "source_commit": "0d29e2be59ee194042395da2e9f8df59d0127bb3",
+      "group_message_id": 181,
+      "url": "https://tool.luo-xd.com/motionsites-results/fun-404-page/"
     },
     {
       "id": "future-state",
       "title": "Future-State",
       "category": "Landing Page",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a18650-8b84-7552-9749-6d233686c042",
+      "source_commit": "e5168055f87a81bb7930f0f22c0dfb5486867454",
+      "group_message_id": 182,
+      "url": "https://tool.luo-xd.com/motionsites-results/future-state/"
     },
     {
       "id": "futuristic-cinematic",
       "title": "Futuristic Cinematic",
       "category": "Hero Section",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a18650-8c55-73d2-ad67-6028387e33c3",
+      "source_commit": "0371ff91d0919a379c45ef50e6a1ccc7778574e6",
+      "group_message_id": 183,
+      "url": "https://tool.luo-xd.com/motionsites-results/futuristic-cinematic/"
     },
     {
       "id": "futuristic-tech",
       "title": "Futuristic Tech",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1321,7 +1321,7 @@
       "id": "gateway-portal",
       "title": "Gateway Portal",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1331,7 +1331,7 @@
       "id": "gear-shop",
       "title": "Gear Shop",
       "category": "E-commerce",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1341,7 +1341,7 @@
       "id": "glassmorphic-feature-tabs",
       "title": "Glassmorphic Feature Tabs",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1351,7 +1351,7 @@
       "id": "glitch-pulse",
       "title": "Glitch Pulse",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

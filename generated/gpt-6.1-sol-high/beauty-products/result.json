@@ -1,0 +1,86 @@
+{
+  "title": "Beauty Products",
+  "id": "beauty-products",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci --no-audit --no-fund && npm run build\"",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "publish_path": "/motionsites-results/beauty-products/",
+    "stack": "React 19.1.0 + Tailwind CSS 4.1.7 + Vite 6.3.5",
+    "browser_status": "passed",
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "dimensions": {
+          "width": 1440,
+          "height": 1000
+        },
+        "layout": {
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "cardWidth": 339,
+          "background": "rgb(249, 244, 240)",
+          "articleOpacity": "1"
+        },
+        "imagesLoaded": 7,
+        "defaultProducts": 7,
+        "setsFilter": "passed",
+        "tabKeyboardNavigation": "passed",
+        "wheelScroll": "passed",
+        "dragScroll": "passed",
+        "scrollProgress": "passed",
+        "nativeTouchSwipe": "not applicable",
+        "screenshot": "screenshots/desktop.png",
+        "documentOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "dimensions": {
+          "width": 390,
+          "height": 844
+        },
+        "layout": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "cardWidth": 260,
+          "background": "rgb(249, 244, 240)",
+          "articleOpacity": "1"
+        },
+        "imagesLoaded": 7,
+        "defaultProducts": 7,
+        "setsFilter": "passed",
+        "tabKeyboardNavigation": "passed",
+        "wheelScroll": "passed",
+        "dragScroll": "passed",
+        "scrollProgress": "passed",
+        "nativeTouchSwipe": "passed",
+        "screenshot": "screenshots/mobile.png",
+        "documentOverflow": false
+      }
+    ],
+    "console_and_script_errors": [],
+    "failed_requests": [],
+    "visual_inspection": "Desktop and mobile screenshots inspected",
+    "dependency_lockfile": true
+  },
+  "asset_issues": [
+    {
+      "issue": "The supplied images.higgs.ai proxy requests did not finish after more than 80 seconds and were stopped.",
+      "resolution": "All four exact original CloudFront PNG assets referenced inside the supplied proxy URLs downloaded successfully and are bundled locally. All seven rendered images pass browser loading checks.",
+      "evidence": [
+        "asset-report.json",
+        "asset-fallback-report.json"
+      ]
+    }
+  ],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "Only this project was implemented. No other designs, agents, or sessions were used.",
+    "The sets tab filters to the supplied Super glow set.",
+    "No custom font was specified; the Tailwind system sans-serif stack is used.",
+    "The exact requested progress transform formula is preserved; the track clips the thumb at the far-right endpoint.",
+    "Original PNG assets total approximately 9.5 MiB.",
+    "README.md includes local build and browser verification commands. node_modules is excluded from delivery."
+  ]
+}

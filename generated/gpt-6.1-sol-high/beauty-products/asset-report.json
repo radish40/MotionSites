@@ -1,0 +1,5 @@
+{
+  "issue": "The supplied images.higgs.ai image proxy did not complete requests after more than 80 seconds; requests were stopped.",
+  "resolution": "Downloaded and bundled the exact four original CloudFront PNG assets referenced by those URLs. No substitute imagery is used.",
+  "originals": "asset-fallback-report.json"
+}

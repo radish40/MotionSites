@@ -1,0 +1,56 @@
+{
+  "url": "http://localhost:4173/motionsites-results/beauty-products/",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "cardWidth": 339,
+        "background": "rgb(249, 244, 240)",
+        "articleOpacity": "1"
+      },
+      "imagesLoaded": 7,
+      "defaultProducts": 7,
+      "setsFilter": "passed",
+      "tabKeyboardNavigation": "passed",
+      "wheelScroll": "passed",
+      "dragScroll": "passed",
+      "scrollProgress": "passed",
+      "nativeTouchSwipe": "not applicable",
+      "screenshot": "screenshots/desktop.png",
+      "documentOverflow": false
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "cardWidth": 260,
+        "background": "rgb(249, 244, 240)",
+        "articleOpacity": "1"
+      },
+      "imagesLoaded": 7,
+      "defaultProducts": 7,
+      "setsFilter": "passed",
+      "tabKeyboardNavigation": "passed",
+      "wheelScroll": "passed",
+      "dragScroll": "passed",
+      "scrollProgress": "passed",
+      "nativeTouchSwipe": "passed",
+      "screenshot": "screenshots/mobile.png",
+      "documentOverflow": false
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

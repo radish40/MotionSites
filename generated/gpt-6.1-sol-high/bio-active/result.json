@@ -1,0 +1,92 @@
+{
+  "title": "Clarity Core",
+  "id": "bio-active",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/bio-active/",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium 390x844",
+    "interactions": [
+      "desktop: loading intro visible",
+      "desktop: correct active video and play-once end pause passed",
+      "desktop: second scene, clinical stats and wheel transition passed",
+      "desktop: home reset and Explore Now passed; no layout overflow",
+      "mobile: loading intro visible",
+      "mobile: correct active video and play-once end pause passed",
+      "mobile: second scene, clinical stats and menu navigation passed",
+      "mobile: home reset and Explore Now passed; no layout overflow",
+      "mobile: touch gesture transition passed"
+    ],
+    "javascript_errors": [],
+    "layout_overflow": false,
+    "assets": [
+      {
+        "viewport": "desktop",
+        "font": true,
+        "videos": [
+          {
+            "readyState": 4,
+            "error": null,
+            "width": 3828,
+            "height": 2164,
+            "currentTime": 2.033373
+          },
+          {
+            "readyState": 4,
+            "error": null,
+            "width": 1920,
+            "height": 1080,
+            "currentTime": 0
+          }
+        ],
+        "image": 1280,
+        "overflow": false
+      },
+      {
+        "viewport": "mobile",
+        "font": true,
+        "videos": [
+          {
+            "readyState": 2,
+            "error": null,
+            "width": 3828,
+            "height": 2164,
+            "currentTime": 1.720224
+          },
+          {
+            "readyState": 4,
+            "error": null,
+            "width": 1920,
+            "height": 1080,
+            "currentTime": 0
+          }
+        ],
+        "image": 1280,
+        "overflow": false
+      }
+    ],
+    "report": "screenshots/browser-checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-science.png",
+      "screenshots/mobile-science.png",
+      "screenshots/mobile-menu.png",
+      "screenshots/splash.png"
+    ]
+  },
+  "asset_issues": [
+    "No unavailable assets. Exact supplied videos and product thumbnail are bundled locally; specified font CDN loaded successfully.",
+    "Font remains dependent on the external CDN; Helvetica/Arial fallbacks are configured.",
+    "Chromium aborted/reissued two video range requests during playback/seeking (net::ERR_ABORTED); videos decoded and playback checks passed without media errors."
+  ],
+  "notes": [
+    "Clarity Core project index name retained; webpage brand is LumiDerm and title is LumiDerm | Advanced Skin Science.",
+    "Only this project was read and written. No agents, other sessions, deployment, push, or outbound messages were created.",
+    "Book Now and navigation reveal the provided science scene and update URL fragments. The prompt supplies no booking endpoint or additional sections; no booking backend was added.",
+    "Touch and keyboard navigation supplement the requested wheel controls. Physical-device testing was not performed.",
+    "Source, configuration, dependency lockfile, built dist, screenshots and README are included. node_modules is ignored. ready means prepared for review, not deployed."
+  ]
+}

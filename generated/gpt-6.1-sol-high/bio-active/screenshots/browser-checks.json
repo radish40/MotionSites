@@ -1,0 +1,70 @@
+{
+  "checks": [
+    "desktop: loading intro visible",
+    "desktop: correct active video and play-once end pause passed",
+    "desktop: second scene, clinical stats and wheel transition passed",
+    "desktop: home reset and Explore Now passed; no layout overflow",
+    "mobile: loading intro visible",
+    "mobile: correct active video and play-once end pause passed",
+    "mobile: second scene, clinical stats and menu navigation passed",
+    "mobile: home reset and Explore Now passed; no layout overflow",
+    "mobile: touch gesture transition passed"
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bio-active/assets/hero-science.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/bio-active/assets/hero-science.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "assets": [
+    {
+      "viewport": "desktop",
+      "font": true,
+      "videos": [
+        {
+          "readyState": 4,
+          "error": null,
+          "width": 3828,
+          "height": 2164,
+          "currentTime": 2.033373
+        },
+        {
+          "readyState": 4,
+          "error": null,
+          "width": 1920,
+          "height": 1080,
+          "currentTime": 0
+        }
+      ],
+      "image": 1280,
+      "overflow": false
+    },
+    {
+      "viewport": "mobile",
+      "font": true,
+      "videos": [
+        {
+          "readyState": 2,
+          "error": null,
+          "width": 3828,
+          "height": 2164,
+          "currentTime": 1.720224
+        },
+        {
+          "readyState": 4,
+          "error": null,
+          "width": 1920,
+          "height": 1080,
+          "currentTime": 0
+        }
+      ],
+      "image": 1280,
+      "overflow": false
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "title": "Solar Energy Hero",
+  "id": "solar-energy-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/solar-energy-hero/",
+    "browser": "Chromium via playwright-core, built static files served inside temporary Docker container",
+    "desktop_viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobile_viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "browser_checks": [
+      {
+        "check": "desktop layout",
+        "status": "passed",
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "content": [
+          {
+            "element": "hero-title",
+            "x": 491.234375,
+            "y": 123,
+            "right": 948.765625,
+            "bottom": 235
+          },
+          {
+            "element": "theme-toggle",
+            "x": 555.203125,
+            "y": 817.3125,
+            "right": 884.796875,
+            "bottom": 880.8125
+          },
+          {
+            "element": "hero-footer",
+            "x": 420,
+            "y": 888.8125,
+            "right": 1020,
+            "bottom": 940
+          }
+        ]
+      },
+      {
+        "check": "desktop morning layout",
+        "status": "passed",
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "content": [
+          {
+            "element": "hero-title",
+            "x": 491.234375,
+            "y": 123,
+            "right": 948.765625,
+            "bottom": 235
+          },
+          {
+            "element": "theme-toggle",
+            "x": 555.203125,
+            "y": 817.3125,
+            "right": 884.796875,
+            "bottom": 880.8125
+          },
+          {
+            "element": "hero-footer",
+            "x": 420,
+            "y": 888.8125,
+            "right": 1020,
+            "bottom": 940
+          }
+        ]
+      },
+      {
+        "check": "desktop pull-down, repeat click guard, Morning and Night switch",
+        "status": "passed"
+      },
+      {
+        "check": "desktop six navigation links, quote button visibility and hover",
+        "status": "passed"
+      },
+      {
+        "check": "desktop local images decoded",
+        "status": "passed",
+        "images": [
+          {
+            "file": "hero-dark.webp",
+            "width": 2336,
+            "height": 2856
+          },
+          {
+            "file": "hero-light.webp",
+            "width": 2336,
+            "height": 2856
+          }
+        ]
+      },
+      {
+        "check": "mobile layout",
+        "status": "passed",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "content": [
+          {
+            "element": "hero-title",
+            "x": 25.921875,
+            "y": 98,
+            "right": 364.078125,
+            "bottom": 182
+          },
+          {
+            "element": "theme-toggle",
+            "x": 40,
+            "y": 623.71875,
+            "right": 350,
+            "bottom": 699.21875
+          },
+          {
+            "element": "hero-footer",
+            "x": 20,
+            "y": 707.21875,
+            "right": 370,
+            "bottom": 784
+          }
+        ]
+      },
+      {
+        "check": "mobile morning layout",
+        "status": "passed",
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "content": [
+          {
+            "element": "hero-title",
+            "x": 25.921875,
+            "y": 98,
+            "right": 364.078125,
+            "bottom": 182
+          },
+          {
+            "element": "theme-toggle",
+            "x": 40,
+            "y": 623.71875,
+            "right": 350,
+            "bottom": 699.21875
+          },
+          {
+            "element": "hero-footer",
+            "x": 20,
+            "y": 707.21875,
+            "right": 370,
+            "bottom": 784
+          }
+        ]
+      },
+      {
+        "check": "mobile pull-down, repeat click guard, Morning and Night switch",
+        "status": "passed"
+      },
+      {
+        "check": "mobile menu pointer and keyboard open/close",
+        "status": "passed"
+      },
+      {
+        "check": "mobile local images decoded",
+        "status": "passed",
+        "images": [
+          {
+            "file": "hero-dark.webp",
+            "width": 2336,
+            "height": 2856
+          },
+          {
+            "file": "hero-light.webp",
+            "width": 2336,
+            "height": 2856
+          }
+        ]
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "font": "Outfit loaded, Google stylesheet and font returned HTTP 200",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-morning.png",
+      "screenshots/mobile-morning.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_review": "Desktop Night/Morning, mobile Night and mobile menu screenshots inspected",
+    "dependency_audit": "4 build-tool advisories: esbuild moderate; Vite, PostCSS and Sharp high. See dependency-audit.json.",
+    "lockfile_rebuild": "passed: npm ci && npm run build; identical output asset hashes"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built only Solar Energy Hero in this project. No deployment or push.",
+    "Both exact source photos downloaded at build time and converted to local WebP assets.",
+    "Required framework/library versions retained. Supabase installed but unused.",
+    "Google Outfit remains external as specified.",
+    "Navigation anchors and quote buttons retain the prompt hero-only behavior.",
+    "Background URLs use import.meta.env.BASE_URL for the required publishing subpath.",
+    "Ready for acceptance review; not published."
+  ]
+}

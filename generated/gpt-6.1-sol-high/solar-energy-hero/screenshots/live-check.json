@@ -1,0 +1,33 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/solar-energy-hero/",
+  "checked_at": "2026-10-29T04:03:32.928Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Reposit Zero Electricity Bills Page",
+      "bodyChars": 318,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Reposit Zero Electricity Bills Page",
+      "bodyChars": 237,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "checks": [
+    {
+      "check": "desktop layout",
+      "status": "passed",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "content": [
+        {
+          "element": "hero-title",
+          "x": 491.234375,
+          "y": 123,
+          "right": 948.765625,
+          "bottom": 235
+        },
+        {
+          "element": "theme-toggle",
+          "x": 555.203125,
+          "y": 817.3125,
+          "right": 884.796875,
+          "bottom": 880.8125
+        },
+        {
+          "element": "hero-footer",
+          "x": 420,
+          "y": 888.8125,
+          "right": 1020,
+          "bottom": 940
+        }
+      ]
+    },
+    {
+      "check": "desktop morning layout",
+      "status": "passed",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "content": [
+        {
+          "element": "hero-title",
+          "x": 491.234375,
+          "y": 123,
+          "right": 948.765625,
+          "bottom": 235
+        },
+        {
+          "element": "theme-toggle",
+          "x": 555.203125,
+          "y": 817.3125,
+          "right": 884.796875,
+          "bottom": 880.8125
+        },
+        {
+          "element": "hero-footer",
+          "x": 420,
+          "y": 888.8125,
+          "right": 1020,
+          "bottom": 940
+        }
+      ]
+    },
+    {
+      "check": "desktop pull-down, repeat click guard, Morning and Night switch",
+      "status": "passed"
+    },
+    {
+      "check": "desktop six navigation links, quote button visibility and hover",
+      "status": "passed"
+    },
+    {
+      "check": "desktop local images decoded",
+      "status": "passed",
+      "images": [
+        {
+          "file": "hero-dark.webp",
+          "width": 2336,
+          "height": 2856
+        },
+        {
+          "file": "hero-light.webp",
+          "width": 2336,
+          "height": 2856
+        }
+      ]
+    },
+    {
+      "check": "mobile layout",
+      "status": "passed",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "content": [
+        {
+          "element": "hero-title",
+          "x": 25.921875,
+          "y": 98,
+          "right": 364.078125,
+          "bottom": 182
+        },
+        {
+          "element": "theme-toggle",
+          "x": 40,
+          "y": 623.71875,
+          "right": 350,
+          "bottom": 699.21875
+        },
+        {
+          "element": "hero-footer",
+          "x": 20,
+          "y": 707.21875,
+          "right": 370,
+          "bottom": 784
+        }
+      ]
+    },
+    {
+      "check": "mobile morning layout",
+      "status": "passed",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "content": [
+        {
+          "element": "hero-title",
+          "x": 25.921875,
+          "y": 98,
+          "right": 364.078125,
+          "bottom": 182
+        },
+        {
+          "element": "theme-toggle",
+          "x": 40,
+          "y": 623.71875,
+          "right": 350,
+          "bottom": 699.21875
+        },
+        {
+          "element": "hero-footer",
+          "x": 20,
+          "y": 707.21875,
+          "right": 370,
+          "bottom": 784
+        }
+      ]
+    },
+    {
+      "check": "mobile pull-down, repeat click guard, Morning and Night switch",
+      "status": "passed"
+    },
+    {
+      "check": "mobile menu pointer and keyboard open/close",
+      "status": "passed"
+    },
+    {
+      "check": "mobile local images decoded",
+      "status": "passed",
+      "images": [
+        {
+          "file": "hero-dark.webp",
+          "width": 2336,
+          "height": 2856
+        },
+        {
+          "file": "hero-light.webp",
+          "width": 2336,
+          "height": 2856
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "responses": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtq.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtq.woff2",
+      "status": 200
+    }
+  ]
+}

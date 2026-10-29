@@ -1,0 +1,11 @@
+@font-face {font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('/assets/dm-sans-400.ttf') format('truetype')}
+@font-face {font-family:'DM Sans';font-style:normal;font-weight:500;font-display:swap;src:url('/assets/dm-sans-500.ttf') format('truetype')}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {color-scheme:dark;background:#0f0f0f;font-synthesis:weight}
+body {margin:0;min-width:320px}
+button {-webkit-tap-highlight-color:transparent}
+button:focus-visible {outline:1px solid #fff;outline-offset:6px}
+.diagram-label {font-weight:300;transition:font-weight .25s cubic-bezier(.22,1,.36,1)}
+.diagram-label[data-active='true'] {font-weight:700}

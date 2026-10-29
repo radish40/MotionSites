@@ -1,0 +1,60 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "scrollWidth": 1440,
+    "imageLoaded": true,
+    "fontLoaded": true,
+    "heading": "1",
+    "glitches": 10,
+    "hoverOrTouchHighlight": true,
+    "keyboardFocus": "passed",
+    "replay": true,
+    "errors": [],
+    "failedRequests": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "imageLoaded": true,
+    "fontLoaded": true,
+    "heading": "1",
+    "glitches": 10,
+    "hoverOrTouchHighlight": true,
+    "keyboardFocus": "not applicable",
+    "replay": true,
+    "errors": [],
+    "failedRequests": []
+  },
+  "responsive": [
+    {
+      "width": 320,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 640,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 768,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 1024,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 1280,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 1920,
+      "noHorizontalOverflow": true
+    }
+  ]
+}

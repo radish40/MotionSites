@@ -1,0 +1,29 @@
+{
+  "title": "Radial Diagram",
+  "id": "radial-diagram",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "stack": "React 18, TypeScript, Tailwind CSS 3, Framer Motion 12",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium 390x844",
+    "interactions": "passed: hover, keyboard focus, touch selection, animation replay",
+    "assets": "passed: portrait and DM Sans fonts loaded",
+    "script_and_console_errors": [],
+    "failed_requests": [],
+    "horizontal_overflow": "none at widths 320, 390, 640, 768, 1024, 1280, 1440, 1920",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/browser-checks.json",
+    "visual_inspection": "passed for desktop and full-page mobile screenshots"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Static production files use base /motionsites-results/radial-diagram/.",
+    "Exact Pexels portrait and Google Fonts files downloaded successfully and served locally; requested Google Fonts link retained.",
+    "Provided visual reference contains only a dark frame; implemented the full written specification using real DOM and SVG.",
+    "Plus button replays entrance animations; diagram labels also support keyboard focus and touch selection.",
+    "Font weights 300 and 700 use browser matching/synthesis from the specified 400/500 font assets.",
+    "Browser validation used Chromium only. Ready for review; not deployed."
+  ]
+}

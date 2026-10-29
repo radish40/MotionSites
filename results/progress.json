@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T06:42:03.388171+00:00",
+  "updated_utc": "2026-10-29T06:43:21.524060+00:00",
   "total": 380,
   "counts": {
-    "complete": 131,
+    "complete": 132,
     "running": 5,
-    "not_started": 244
+    "needs_fix": 1,
+    "not_started": 242
   },
   "jobs": [
     {
@@ -1321,11 +1322,11 @@
       "id": "gateway-portal",
       "title": "Gateway Portal",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1865f-7ea2-7141-b1ba-3b3ae463801c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "08802f3b2a8b92c2ff5d45b9e8a47686a12a2b01",
+      "group_message_id": 185,
+      "url": "https://tool.luo-xd.com/motionsites-results/gateway-portal/"
     },
     {
       "id": "gear-shop",
@@ -1351,7 +1352,7 @@
       "id": "glitch-pulse",
       "title": "Glitch Pulse",
       "category": "Landing Page",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a1865f-8074-7ea3-acf7-9fce8034ae0a",
       "source_commit": null,
       "group_message_id": null,
@@ -1362,7 +1363,7 @@
       "title": "Global CTA Footer",
       "category": "CTA Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18664-7c90-7c61-9399-b53eb66f7fdd",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1371,7 +1372,7 @@
       "id": "golden-portal",
       "title": "Golden Portal",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1381,7 +1382,7 @@
       "id": "growth-marketing-saas",
       "title": "Growth Marketing SaaS",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -4509,19 +4509,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1865f-7ea2-7141-b1ba-3b3ae463801c",
       "output_path": "generated/gpt-6.1-sol-high/gateway-portal",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3075022,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:36:07.613107+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "08802f3b2a8b92c2ff5d45b9e8a47686a12a2b01",
+      "url": "https://tool.luo-xd.com/motionsites-results/gateway-portal/",
+      "completed_utc": "2026-10-29T06:43:21.143045+00:00",
+      "group_message_id": 185
     },
     {
       "number": 133,
@@ -4599,19 +4603,20 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a1865f-8074-7ea3-acf7-9fce8034ae0a",
       "output_path": "generated/gpt-6.1-sol-high/glitch-pulse",
-      "validation": "",
-      "notes": "",
+      "validation": "Original prompt requires an Express production service; runtime deployment is pending",
+      "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "process_id": 3075332,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:36:08.020259+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "delivery_failures": 1
     },
     {
       "number": 136,
@@ -4630,14 +4635,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18664-7c90-7c61-9399-b53eb66f7fdd",
       "output_path": "generated/gpt-6.1-sol-high/global-cta-footer",
       "validation": "",
       "notes": "",
       "process_id": 3096385,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:41:34.783706+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 137,
@@ -4655,11 +4664,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/golden-portal",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3100798,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:42:55.047690+00:00",
+      "worker_state": "running"
     },
     {
       "number": 138,
@@ -4677,11 +4690,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/growth-marketing-saas",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3100840,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:42:55.161517+00:00",
+      "worker_state": "running"
     },
     {
       "number": 139,
@@ -10008,5 +10025,11 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:42:03.388171+00:00"
+  "updated_utc": "2026-10-29T06:43:21.524060+00:00",
+  "current_batch": {
+    "through_number": 200,
+    "after_verified_completion": "pause",
+    "remaining_designs_after_batch": 180,
+    "requested_by_user": true
+  }
 }

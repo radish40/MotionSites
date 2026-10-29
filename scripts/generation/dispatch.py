@@ -94,6 +94,8 @@ def synchronize():
 
 def launch(ident, resume=False):
     with state_lock():
+        if manage.job_for(manage.load(),ident)['number']>BATCH_STOP_NUMBER:
+            raise RuntimeError('Design is beyond the user-requested batch limit')
         if not resume:manage.prepare(ident)
         manifest=manage.load();job=manage.job_for(manifest,ident)
         work=ROOT/job['output_path'];logs=RUNTIME/ident;logs.mkdir(exist_ok=True)

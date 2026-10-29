@@ -5309,7 +5309,7 @@
       "thread_id": "01a18679-ad43-70a1-b60d-c15d50c66090",
       "output_path": "generated/gpt-6.1-sol-high/layered-depth",
       "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
-      "notes": "Management visual review: recovering isolated pedestal/bird/background assets and real motion from this design reference; original Cloudinary disabled. Same original session repair.",
+      "notes": "Original Cloudinary resources disabled. Pedestal and bird recovered as isolated transparent assets from this design reference; native visible bird motion and leaf shadows reconstructed and documented. 39 real browser checks and independent source/HTTPS/screenshot audit passed after same-session repair.",
       "process_id": 3214272,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:04:43.503984+00:00",
@@ -5324,7 +5324,9 @@
       "group_message_id": 209,
       "repair_attempts": 1,
       "delivery_failures": 0,
-      "preview_previous_source_commit": "a48ce72a57e684fb64e273707e0f77f1d969ca11"
+      "preview_previous_source_commit": "a48ce72a57e684fb64e273707e0f77f1d969ca11",
+      "repair_update_group_message_id": 219,
+      "repair_verified_utc": "2026-10-29T07:21:23.042769+00:00"
     },
     {
       "number": 156,
@@ -10417,7 +10419,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:21:38.637529+00:00",
+  "updated_utc": "2026-10-29T07:21:54.739786+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

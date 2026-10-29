@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-10-29T07:21:23.042769+00:00",
+  "remote_main": "6cae6067a32771e243efc06e6ae29cf5a18b847e",
+  "same_original_session": true,
+  "index_matches": true,
+  "delivery": {
+    "id": "layered-depth",
+    "title": "Layered Depth",
+    "source_commit": "6cae6067a32771e243efc06e6ae29cf5a18b847e",
+    "thread_id": "01a18679-ad43-70a1-b60d-c15d50c66090",
+    "group_message_id": 209,
+    "checks": {
+      "exact_title": true,
+      "prompt_snapshot": true,
+      "source_is_on_remote_main": true,
+      "actual_model_settings": true,
+      "no_delegated_contexts": true,
+      "actual_group_message": true,
+      "desktop_mobile_browser_report": true,
+      "source_files_committed": true,
+      "committed_source_bytes": true,
+      "remote_index.html": true,
+      "committed_dist_html": true,
+      "remote_preview/desktop.png": true,
+      "committed_preview/desktop.png": true,
+      "remote_preview/mobile.png": true,
+      "committed_preview/mobile.png": true
+    },
+    "passed": true
+  }
+}

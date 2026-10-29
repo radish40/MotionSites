@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://localhost:4173/motionsites-results/urban-jungle-hero/urban-jungle.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/urban-jungle-hero/urban-jungle.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/urban-jungle-hero/urban-jungle.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "checks": [
+    {
+      "name": "desktop initial 1440x1000",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 5000,
+        "video": {
+          "duration": 6.041667,
+          "readyState": 4,
+          "currentTime": 0
+        },
+        "fonts": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "name": "GSAP liquid pill hover",
+      "passed": true,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "name": "About scroll, headline exit, video seek, glass panel",
+      "passed": true,
+      "details": {
+        "scrollY": 4000,
+        "videoTime": 6.001667,
+        "videoDuration": 6.041667,
+        "heading": {
+          "x": 220,
+          "y": 260.015625,
+          "width": 1000,
+          "height": 462.96875,
+          "top": 260.015625,
+          "right": 1220,
+          "bottom": 722.984375,
+          "left": 220
+        },
+        "panel": {
+          "x": 95,
+          "y": 75,
+          "width": 1250,
+          "height": 850,
+          "top": 75,
+          "right": 1345,
+          "bottom": 925,
+          "left": 95
+        },
+        "heroOpacity": "0",
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "Home scroll and video rewind",
+      "passed": true
+    },
+    {
+      "name": "Services and Contact navigate to supplied About content",
+      "passed": true
+    },
+    {
+      "name": "mobile 390x844, menu toggle, Escape, About scroll, overflow",
+      "passed": true,
+      "details": {
+        "initial": {
+          "scrollWidth": 390,
+          "width": 390,
+          "mainHeight": 4220,
+          "scrollY": 0,
+          "heroOpacity": "1",
+          "headline": {
+            "x": 16,
+            "y": 664.828125,
+            "width": 358,
+            "height": 163.171875,
+            "top": 664.828125,
+            "right": 374,
+            "bottom": 828,
+            "left": 16
+          }
+        },
+        "about": {
+          "scrollY": 3376,
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": {
+            "x": 41,
+            "y": 268.90625,
+            "width": 308,
+            "height": 277.15625,
+            "top": 268.90625,
+            "right": 349,
+            "bottom": 546.0625,
+            "left": 41
+          },
+          "panel": {
+            "x": 16,
+            "y": 63.296875,
+            "width": 358,
+            "height": 717.390625,
+            "top": 63.296875,
+            "right": 374,
+            "bottom": 780.6875,
+            "left": 16
+          }
+        }
+      }
+    }
+  ]
+}

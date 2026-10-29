@@ -1,0 +1,152 @@
+{
+  "checks": [
+    {
+      "name": "Page title",
+      "passed": true
+    },
+    {
+      "name": "Exactly two sections",
+      "passed": true
+    },
+    {
+      "name": "Desktop has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Desktop navigation visible",
+      "passed": true
+    },
+    {
+      "name": "Hero video playing",
+      "passed": true
+    },
+    {
+      "name": "Scroll crossfades to second video",
+      "passed": true
+    },
+    {
+      "name": "Learn more navigates to studio text",
+      "passed": true
+    },
+    {
+      "name": "Scrolling home restores hero video",
+      "passed": true
+    },
+    {
+      "name": "Mobile has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Desktop links hidden on mobile",
+      "passed": true
+    },
+    {
+      "name": "Menu opens with scroll lock",
+      "passed": true
+    },
+    {
+      "name": "All four mobile links visible",
+      "passed": true
+    },
+    {
+      "name": "Menu link closes overlay and navigates",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu reports closed",
+      "passed": true
+    },
+    {
+      "name": "Mobile second section video active",
+      "passed": true
+    },
+    {
+      "name": "Mobile studio has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Escape closes menu and restores scrolling",
+      "passed": true
+    },
+    {
+      "name": "Resize to desktop clears mobile scroll lock",
+      "passed": true
+    },
+    {
+      "name": "No uncaught script errors",
+      "passed": true
+    },
+    {
+      "name": "No HTTP asset errors",
+      "passed": true
+    },
+    {
+      "name": "No browser console errors",
+      "passed": true
+    },
+    {
+      "name": "Required font loaded",
+      "passed": true
+    },
+    {
+      "name": "Both supplied videos decoded",
+      "passed": true
+    }
+  ],
+  "scriptErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_075205_41edc37d-b74b-4c8c-a1e2-2b7879cb4386.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_152235_56f10620-8704-4c63-8ddd-f146a7085404.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_075205_41edc37d-b74b-4c8c-a1e2-2b7879cb4386.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_152235_56f10620-8704-4c63-8ddd-f146a7085404.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_075205_41edc37d-b74b-4c8c-a1e2-2b7879cb4386.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_075205_41edc37d-b74b-4c8c-a1e2-2b7879cb4386.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_152235_56f10620-8704-4c63-8ddd-f146a7085404.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "httpErrors": [],
+  "assets": {
+    "fonts": [
+      {
+        "family": "Helvetica Now Var",
+        "status": "loaded"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_152235_56f10620-8704-4c63-8ddd-f146a7085404.mp4",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_075205_41edc37d-b74b-4c8c-a1e2-2b7879cb4386.mp4",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "status": "passed"
+}

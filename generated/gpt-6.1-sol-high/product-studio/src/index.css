@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+html { scroll-behavior: smooth; background: #080808; }
+body { font-family: 'Helvetica Now Var', sans-serif; }
+[id] { scroll-margin-top: 100px; }
+:focus-visible { outline: 1px solid white; outline-offset: 6px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

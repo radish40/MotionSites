@@ -1,0 +1,44 @@
+{
+  "title": "Product Studio",
+  "id": "product-studio",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: tsc -b && vite build",
+    "dist_index_exists": true,
+    "base_path": "/motionsites-results/product-studio/",
+    "browser": "Chromium via playwright-core",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "browser_assertions_passed": 23,
+    "browser_status": "passed",
+    "script_errors": [],
+    "console_errors": [],
+    "http_errors": [],
+    "visual_review": "Desktop and mobile hero/studio inspected",
+    "evidence": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-studio.png",
+      "screenshots/mobile-studio.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "severity": "info",
+      "detail": "Some video range requests aborted during seeking/resetting (net::ERR_ABORTED). Both supplied MP4s decoded and played. No broken assets or HTTP errors observed. Original font/video URLs require network access."
+    }
+  ],
+  "notes": [
+    "Page title: Kinetic Forge. Project index title: Product Studio.",
+    "Requested stack, Atom icon, font stylesheet, video URLs, copy, and two-section layout implemented.",
+    "Navigation and Learn more use relevant in-page anchors; no external destinations were supplied.",
+    "Screenshots pause video at two seconds; live page uses autoplay and looping.",
+    "Dependency lockfile retained; node_modules excluded from delivery.",
+    "No agents, other sessions, pushes, messages, or deployment. Ready for management-session acceptance."
+  ]
+}

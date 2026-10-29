@@ -1,0 +1,56 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "assets": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_195923_b0ba8ace-1d1d-4f2c-9a28-1ab84b330680.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_201152_bba90a12-bf12-459f-91f0-51f237dbaf3b.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7.woff2",
+      "status": 200
+    }
+  ],
+  "checks": {
+    "desktopOverflow": true,
+    "desktopHeading": "Layers hold\ntales of time",
+    "revealMask": true,
+    "startDigging": true,
+    "navigation": true,
+    "signupAndEscape": true,
+    "mobileOverflow": true,
+    "mobileMenu": true,
+    "mobileDigging": true,
+    "reducedMotion": true,
+    "imageLoads": [
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_195923_b0ba8ace-1d1d-4f2c-9a28-1ab84b330680.png&w=1280&q=85",
+        "loaded": true,
+        "width": 1280,
+        "height": 724
+      },
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_201152_bba90a12-bf12-459f-91f0-51f237dbaf3b.png&w=1280&q=85",
+        "loaded": true,
+        "width": 1280,
+        "height": 724
+      }
+    ],
+    "fonts": {
+      "inter": true,
+      "playfair": true
+    }
+  }
+}

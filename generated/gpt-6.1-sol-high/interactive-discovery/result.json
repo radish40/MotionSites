@@ -1,0 +1,73 @@
+{
+  "title": "Interactive Discovery",
+  "id": "interactive-discovery",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/interactive-discovery:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": {
+      "passed": true,
+      "command_executed": "npm install && npm run build",
+      "typescript": "passed",
+      "vite": "6.1.0",
+      "output": "dist/index.html"
+    },
+    "browser": "Chromium via playwright-core; Vite production preview at configured subpath",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "touch": true
+      }
+    ],
+    "desktopOverflow": true,
+    "desktopHeading": "Layers hold\ntales of time",
+    "revealMask": true,
+    "startDigging": true,
+    "navigation": true,
+    "signupAndEscape": true,
+    "mobileOverflow": true,
+    "mobileMenu": true,
+    "mobileDigging": true,
+    "reducedMotion": true,
+    "imageLoads": [
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_195923_b0ba8ace-1d1d-4f2c-9a28-1ab84b330680.png&w=1280&q=85",
+        "loaded": true,
+        "width": 1280,
+        "height": 724
+      },
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_201152_bba90a12-bf12-459f-91f0-51f237dbaf3b.png&w=1280&q=85",
+        "loaded": true,
+        "width": 1280,
+        "height": 724
+      }
+    ],
+    "fonts": {
+      "inter": true,
+      "playfair": true
+    },
+    "page_errors": [],
+    "failed_browser_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/spotlight.png"
+    ],
+    "visual_review": "All three screenshots inspected; typography, framing, responsive placement and soft reveal verified."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Both exact image URLs returned HTTP 200 in Chromium (1280x724). Google Fonts CSS and both font files returned HTTP 200.",
+    "Host Python requests to image URLs returned 403, but the actual browser successfully loaded both. No replacement image is used.",
+    "Sign Up is a client-side preview dialog. It sends no request and stores no email. Navigation switches contextual hero copy; Start Digging positions the spotlight and shows an exploration hint.",
+    "The requested canvas-toDataURL mask runs each frame; performance depends on device.",
+    "Install reported 3 npm audit advisories (1 moderate, 2 high); build and browser checks passed. Production output is static.",
+    "package-lock.json retained; node_modules excluded and removed."
+  ]
+}

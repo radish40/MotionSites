@@ -5718,19 +5718,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18686-672c-7860-9e6e-4f414f5a2f4b",
       "output_path": "generated/gpt-6.1-sol-high/mouse-trail-cta",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3232512,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:18:37.254926+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "a31b72caa3441b2ca860cca18ee9c43d42c5f9cf",
+      "url": "https://tool.luo-xd.com/motionsites-results/mouse-trail-cta/",
+      "completed_utc": "2026-10-29T07:27:14.064634+00:00",
+      "group_message_id": 222
     },
     {
       "number": 168,
@@ -5839,14 +5843,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1868c-2896-7d60-a8ed-0caf1f5124ce",
       "output_path": "generated/gpt-6.1-sol-high/neon-logic",
       "validation": "",
       "notes": "",
       "process_id": 3254779,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:24:54.722577+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 172,
@@ -5864,11 +5872,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/network-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3261011,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:26:44.046181+00:00",
+      "worker_state": "running"
     },
     {
       "number": 173,
@@ -10447,7 +10459,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:25:47.530940+00:00",
+  "updated_utc": "2026-10-29T07:27:14.229750+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

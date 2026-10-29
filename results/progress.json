@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:25:47.530940+00:00",
+  "updated_utc": "2026-10-29T07:27:14.229750+00:00",
   "total": 380,
   "counts": {
-    "complete": 166,
+    "complete": 167,
     "running": 5,
-    "not_started": 209
+    "not_started": 208
   },
   "jobs": [
     {
@@ -1671,11 +1671,11 @@
       "id": "mouse-trail-cta",
       "title": "Mouse Trail CTA",
       "category": "CTA Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18686-672c-7860-9e6e-4f414f5a2f4b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a31b72caa3441b2ca860cca18ee9c43d42c5f9cf",
+      "group_message_id": 222,
+      "url": "https://tool.luo-xd.com/motionsites-results/mouse-trail-cta/"
     },
     {
       "id": "mythic-naturecore",
@@ -1712,7 +1712,7 @@
       "title": "Neon Logic",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1868c-2896-7d60-a8ed-0caf1f5124ce",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1721,7 +1721,7 @@
       "id": "network-hero",
       "title": "Network Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

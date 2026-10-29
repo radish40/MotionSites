@@ -1,17 +1,18 @@
 {
-  "updated_utc": "2026-10-29T03:36:23.181980+00:00",
+  "updated_utc": "2026-10-29T03:42:43.735032+00:00",
   "total": 380,
   "counts": {
-    "running": 3,
-    "queued": 3,
-    "not_started": 374
+    "blocked": 1,
+    "complete": 3,
+    "running": 5,
+    "not_started": 371
   },
   "jobs": [
     {
       "id": "dreamcore-landing",
       "title": "Dreamcore Landing",
       "category": "Landing Page",
-      "status": "running",
+      "status": "blocked",
       "thread_id": "01a185b7-4752-7d72-9ea3-74c28bf8f52f",
       "source_commit": null,
       "group_message_id": null,
@@ -21,28 +22,28 @@
       "id": "bold-studio",
       "title": "Bold Studio",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185b7-47af-7d32-a012-436695eb8afb",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "ecae8708eb5ebf9950a5ef0cada8643417aa419a",
+      "group_message_id": 48,
+      "url": "https://tool.luo-xd.com/motionsites-results/bold-studio/"
     },
     {
       "id": "interactive-discovery",
       "title": "Interactive Discovery",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185b7-47f7-7c43-92b7-fbb02ce86185",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a2d0ba3d313a4a1bd1d90797fb23e49bf6966e80",
+      "group_message_id": 49,
+      "url": "https://tool.luo-xd.com/motionsites-results/interactive-discovery/"
     },
     {
       "id": "prisma-landing",
       "title": "Prisma Creative Studio",
       "category": "Landing Page",
-      "status": "queued",
-      "thread_id": "",
+      "status": "running",
+      "thread_id": "01a185bb-cd38-7923-8baf-a4674b3188d7",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -51,8 +52,8 @@
       "id": "3d-jack-portfolio-hero",
       "title": "3D Jack Portfolio",
       "category": "Portfolio",
-      "status": "queued",
-      "thread_id": "",
+      "status": "running",
+      "thread_id": "01a185bb-cd37-7382-976f-68406b8413ee",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -61,17 +62,17 @@
       "id": "art-landing",
       "title": "Art Landing",
       "category": "Landing Page",
-      "status": "queued",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a185bb-cd37-7380-8dc8-30fd76511daa",
+      "source_commit": "07695c65f21445d6cb5c85c26cb50c52c28c1eed",
+      "group_message_id": 50,
+      "url": "https://tool.luo-xd.com/motionsites-results/art-landing/"
     },
     {
       "id": "aetheris-voyage-hero",
       "title": "Aetheris Voyage",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -81,7 +82,7 @@
       "id": "codercrest-hero",
       "title": "CoderCrest",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -91,7 +92,7 @@
       "id": "urban-jungle-hero",
       "title": "Urban Jungle",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

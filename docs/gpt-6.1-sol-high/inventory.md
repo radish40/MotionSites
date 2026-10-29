@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：仅清单与计划；380 个设计均未开始生成。
+当前状态：已完成 3/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -85,15 +85,15 @@
 
 | 序号 | 设计 ID | 名称 | 分类 | 文本版本数 | 本地预览 | 状态 |
 | ---: | --- | --- | --- | ---: | --- | --- |
-| 1 | `dreamcore-landing` | Dreamcore Landing | Landing Page | 2 | 图片 | 未开始 |
-| 2 | `bold-studio` | Bold Studio | Hero Section | 2 | 图片 | 未开始 |
-| 3 | `interactive-discovery` | Interactive Discovery | Hero Section | 2 | 图片 | 未开始 |
-| 4 | `prisma-landing` | Prisma Creative Studio | Landing Page | 1 | 图片 | 未开始 |
-| 5 | `3d-jack-portfolio-hero` | 3D Jack Portfolio | Portfolio | 1 | 视频 | 未开始 |
-| 6 | `art-landing` | Art Landing | Landing Page | 2 | 视频 | 未开始 |
-| 7 | `aetheris-voyage-hero` | Aetheris Voyage | Hero Section | 1 | 图片 | 未开始 |
-| 8 | `codercrest-hero` | CoderCrest | SaaS | 3 | 图片 | 未开始 |
-| 9 | `urban-jungle-hero` | Urban Jungle | Landing Page | 3 | 视频 | 未开始 |
+| 1 | `dreamcore-landing` | Dreamcore Landing | Landing Page | 2 | 图片 | 阻塞 |
+| 2 | `bold-studio` | Bold Studio | Hero Section | 2 | 图片 | 已完成 |
+| 3 | `interactive-discovery` | Interactive Discovery | Hero Section | 2 | 图片 | 已完成 |
+| 4 | `prisma-landing` | Prisma Creative Studio | Landing Page | 1 | 图片 | 生成中 |
+| 5 | `3d-jack-portfolio-hero` | 3D Jack Portfolio | Portfolio | 1 | 视频 | 生成中 |
+| 6 | `art-landing` | Art Landing | Landing Page | 2 | 视频 | 已完成 |
+| 7 | `aetheris-voyage-hero` | Aetheris Voyage | Hero Section | 1 | 图片 | 生成中 |
+| 8 | `codercrest-hero` | CoderCrest | SaaS | 3 | 图片 | 生成中 |
+| 9 | `urban-jungle-hero` | Urban Jungle | Landing Page | 3 | 视频 | 生成中 |
 | 10 | `reveal-hero` | Reveal Hero | Hero Section | 2 | 图片 | 未开始 |
 | 11 | `modern-agency` | Modern Agency | Agency | 2 | 图片 | 未开始 |
 | 12 | `liquid-glass-agency` | Liquid Glass Agency | Landing Page | 3 | 视频 | 未开始 |

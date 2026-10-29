@@ -23,15 +23,18 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "blocked",
       "thread_id": "01a185b7-4752-7d72-9ea3-74c28bf8f52f",
       "output_path": "generated/gpt-6.1-sol-high/dreamcore-landing",
       "validation": "",
-      "notes": "",
+      "notes": "[{\"url\": \"https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706555/bottom_clouds_xskut6.png\", \"status\": 401, \"reason\": \"cloud_name dy5er7kv5 is disabled\", \"impact\": \"Required original scene asset unavailable; original URL retained, graceful fallback applied.\"}, {\"url\": \"https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706564/curtain_right_paeyym.png\", \"status\": 401, \"reason\": \"cloud_name dy5er7kv5 is disabled\", \"impact\": \"Required original scene asset unavailable; original URL retained, graceful fallback applied.\"}, {\"url\": \"https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779707217/image_1_vdzwae.png\", \"status\": 401, \"reason\": \"cloud_name dy5er7kv5 is disabled\", \"impact\": \"Required original scene asset unavailable; original URL retained, graceful fallback applied.\"}, {\"url\": \"https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706559/curtain_left_znkmva.png\", \"status\": 401, \"reason\": \"cloud_name dy5er7kv5 is disabled\", \"impact\": \"Required original scene asset unavailable; original URL retained, graceful fallback applied.\"}, {\"url\": \"https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706392/image_2_gkcdlx.png\", \"status\": 401, \"reason\": \"cloud_name dy5er7kv5 is disabled\", \"impact\": \"Required original scene asset unavailable; original URL retained, graceful fallback applied.\"}]",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "worker_state": "terminal",
+      "process_id": 2477876,
+      "repair_attempts": 1
     },
     {
       "number": 2,
@@ -49,15 +52,19 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185b7-47af-7d32-a012-436695eb8afb",
       "output_path": "generated/gpt-6.1-sol-high/bold-studio",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "ecae8708eb5ebf9950a5ef0cada8643417aa419a",
+      "url": "https://tool.luo-xd.com/motionsites-results/bold-studio/",
+      "completed_utc": "2026-10-29T03:38:41.200246+00:00",
+      "group_message_id": 48
     },
     {
       "number": 3,
@@ -75,15 +82,19 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185b7-47f7-7c43-92b7-fbb02ce86185",
       "output_path": "generated/gpt-6.1-sol-high/interactive-discovery",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "a2d0ba3d313a4a1bd1d90797fb23e49bf6966e80",
+      "url": "https://tool.luo-xd.com/motionsites-results/interactive-discovery/",
+      "completed_utc": "2026-10-29T03:39:22.035759+00:00",
+      "group_message_id": 49
     },
     {
       "number": 4,
@@ -101,11 +112,18 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "queued",
-      "thread_id": "",
+      "status": "running",
+      "thread_id": "01a185bb-cd38-7923-8baf-a4674b3188d7",
       "output_path": "generated/gpt-6.1-sol-high/prisma-landing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2468261,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:38:55.336719+00:00",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 5,
@@ -123,11 +141,18 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "queued",
-      "thread_id": "",
+      "status": "running",
+      "thread_id": "01a185bb-cd37-7382-976f-68406b8413ee",
       "output_path": "generated/gpt-6.1-sol-high/3d-jack-portfolio-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2468262,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:38:55.430068+00:00",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 6,
@@ -145,11 +170,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "queued",
-      "thread_id": "",
+      "status": "complete",
+      "thread_id": "01a185bb-cd37-7380-8dc8-30fd76511daa",
       "output_path": "generated/gpt-6.1-sol-high/art-landing",
-      "validation": "",
-      "notes": ""
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
+      "notes": "",
+      "process_id": 2468266,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:38:55.525386+00:00",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "worker_state": "terminal",
+      "source_commit": "07695c65f21445d6cb5c85c26cb50c52c28c1eed",
+      "url": "https://tool.luo-xd.com/motionsites-results/art-landing/",
+      "completed_utc": "2026-10-29T03:42:43.569999+00:00",
+      "group_message_id": 50
     },
     {
       "number": 7,
@@ -167,11 +204,14 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/aetheris-voyage-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2478003,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:42:09.142867+00:00"
     },
     {
       "number": 8,
@@ -189,11 +229,14 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/codercrest-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2478025,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:42:09.253702+00:00"
     },
     {
       "number": 9,
@@ -211,11 +254,14 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/urban-jungle-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2478044,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:42:09.343012+00:00"
     },
     {
       "number": 10,
@@ -8380,5 +8426,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T03:36:23.181980+00:00"
+  "updated_utc": "2026-10-29T03:42:43.735032+00:00"
 }

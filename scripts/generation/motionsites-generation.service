@@ -1,0 +1,20 @@
+[Unit]
+Description=MotionSites isolated-session generation and delivery queue
+After=network-online.target docker.service
+Wants=network-online.target
+Requires=docker.service
+
+[Service]
+Type=simple
+User=opc
+Group=opc
+SupplementaryGroups=docker
+WorkingDirectory=/home/opc/motionsites
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 /home/opc/motionsites/scripts/generation/dispatch.py
+Restart=on-failure
+RestartSec=20
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

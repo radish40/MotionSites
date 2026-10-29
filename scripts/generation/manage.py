@@ -3,6 +3,7 @@
 import argparse
 from collections import Counter
 import csv
+import fcntl
 import datetime
 import hashlib
 import html
@@ -47,6 +48,19 @@ def save(manifest):
         writer=csv.DictWriter(stream,fieldnames=fields)
         writer.writeheader()
         writer.writerows({k: json.dumps(v,ensure_ascii=False) if isinstance(v,(dict,list)) else v for k,v in j.items()} for j in manifest['jobs'])
+    inventory=STATE/'inventory.md'
+    if inventory.exists():
+        lines=inventory.read_text().splitlines()
+        statuses={'not_started':'未开始','queued':'排队','running':'生成中','ready':'待验收','validating':'验收中','publishing':'发布中','complete':'已完成','needs_fix':'待修复','blocked':'阻塞'}
+        counts=Counter(j['status'] for j in manifest['jobs'])
+        for n,line in enumerate(lines):
+            if line.startswith('当前状态：'):
+                lines[n]=f'当前状态：已完成 {counts["complete"]}/380；以 manifest.json 和在线索引的最新状态为准。'
+            for job in manifest['jobs']:
+                if f"| `{job['id']}` |" in line:
+                    lines[n]=line.rsplit('|',2)[0]+'| '+statuses.get(job['status'],job['status'])+' |'
+                    break
+        inventory.write_text('\n'.join(lines)+'\n')
 
 
 def job_for(manifest, ident):
@@ -112,6 +126,8 @@ def index():
 
 def finish(ident):
     manifest=load(); job=job_for(manifest,ident)
+    if job['status']=='complete':
+        notify(ident);return
     output=ROOT/job['output_path']; result=json.loads((output/'result.json').read_text())
     if result.get('status')!='ready': raise RuntimeError('Worker is not ready')
     if not (output/'dist/index.html').is_file():raise RuntimeError('Missing static build')
@@ -139,8 +155,7 @@ def finish(ident):
     if remote != commit:raise RuntimeError('Remote HEAD does not match pushed source')
     print(execute(['sudo','-n','python3',ROOT/'scripts/generation/publish.py',ident,output/'dist']))
     for relative in ('','preview/desktop.png','preview/mobile.png'):
-        with urllib.request.urlopen(url+relative,timeout=30) as response:
-            if response.status!=200:raise RuntimeError('Public delivery check failed')
+        execute(['curl','--fail','--silent','--show-error','--max-time','30','--output','/dev/null',url+relative])
     job.update(status='complete',source_commit=commit,url=url,completed_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),
                validation='Live desktop/mobile browser checks passed; source pushed and public screenshots verified')
     save(manifest);index()
@@ -185,4 +200,8 @@ def main():
     else:globals()[args.action](*args.args)
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    lockdir=ROOT/'.work/generation';lockdir.mkdir(parents=True,exist_ok=True)
+    with (lockdir/'manager.lock').open('a') as lock:
+        fcntl.flock(lock,fcntl.LOCK_EX)
+        main()

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body { @apply antialiased overflow-hidden; }
+html, body, #root { width: 100%; height: 100%; margin: 0; background: #000; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+a, button { outline-offset: 5px; }
+a:focus-visible, button:focus-visible { outline: 1px solid #ff5c35; }
+.small-label { @apply text-[10px] font-bold tracking-widest uppercase; }
+.dot { @apply inline-block h-1 w-1 shrink-0 rounded-full bg-current opacity-50; }
+.scrollbar-hide { scrollbar-width: none; }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.ember-glass {
+  background-color: rgba(131, 131, 131, 0.3);
+  mask-image: url(#emberMaskMobile);
+  -webkit-mask-image: url(#emberMaskMobile);
+}
+@media (min-width: 1024px) {
+  .ember-glass { mask-image: url(#emberMaskDesktop); -webkit-mask-image: url(#emberMaskDesktop); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}

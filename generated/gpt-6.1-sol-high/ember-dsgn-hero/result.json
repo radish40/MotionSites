@@ -1,0 +1,34 @@
+{
+  "title": "EMBER.dsgn",
+  "id": "ember-dsgn-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite 6; dist/index.html exists",
+    "lockfile_install": "npm ci passed; audit reported zero vulnerabilities",
+    "base_path": "/motionsites-results/ember-dsgn-hero/",
+    "browser": "Docker Chromium 148 via playwright-core, serving actual dist output",
+    "desktop": "1440x1000; equal-width panels; no horizontal overflow",
+    "mobile": "390x844; vertical panel scrolling; no horizontal overflow; STUDIO reachable",
+    "video": "Mux HLS loaded; readyState 4; playing and advancing; muted; looped; playbackRate 0.7; CSS scale -1 1",
+    "typography_and_mask": "Inter loaded; responsive SVG masks; computed backdrop-filter blur(20px); visually inspected",
+    "interactions": "Menu open, close button, Escape, focus restoration, navigation dismissal, language selection, and Explore Our Work link passed",
+    "script_errors": 0,
+    "console_errors": 0,
+    "failed_asset_requests": 0,
+    "http_errors": 0,
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/mobile-menu.png", "screenshots/mobile-studio.png"],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session review; not deployed or pushed.",
+    "Only this project's files were read and written; no agents or additional sessions were created.",
+    "PROMPT.md ends at Mobile ( and contains empty markup fragments; all complete preceding specifications were implemented.",
+    "External Mux and Google Fonts assets loaded successfully during validation and require Internet access.",
+    "Safari native HLS fallback implemented but not tested on Safari.",
+    "No translated copy, project pages, studio social handles, or contact endpoint were provided; language controls select state, navigation uses local anchors, and social links use platform homepages.",
+    "Non-blocking Vite entry bundle warning: about 966 kB minified, 304 kB gzip, including hls.js and Motion.",
+    "README.md includes setup, build, reproducible browser validation, and limitations. Dependency lockfile retained; node_modules excluded."
+  ]
+}

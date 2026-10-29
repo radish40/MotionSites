@@ -1,0 +1,55 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/ember-dsgn-hero/",
+  "checked_at": "2026-10-29T04:03:04.485Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "EMBER.dsgn — Digital Design Studio",
+      "bodyChars": 357,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/fe617461-6f86-44f9-990f-e4c3f9d15466",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/mHqJFvEne01IEMsUtais7o4Cbuz2DFXvtp8CaF8KY8dOErSSNmZ5BTT02Bel02j3uduOFlDYaWHakbYWoTieoAiQckgZki8av6UjW3ukW58HQCpclwWyhe52A/1.m4s?skid=default&signature=NmFlYmZmNDBfMTk2M2NmYTc0OGM5MTc1NTRlYWUzNGFlNGViMTYzZmY4N2RjNmE4NmRiNmNmZWNhNDk4NTU4NjExNGUzMjcwZg==&zone=2",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "EMBER.dsgn — Digital Design Studio",
+      "bodyChars": 268,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/4053b13f-9bdb-498b-bc53-7a50e392b8ae",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/mHqJFvEne01IEMsUtais7o4Cbuz2DFXvtp8CaF8KY8dOErSSNmZ5BTT02Bel02j3uduOFlDYaWHakbYWoTieoAiQckgZki8av6UjW3ukW58HQCpclwWyhe52A/1.m4s?skid=default&signature=NmFlYmZmNDBfMTk2M2NmYTc0OGM5MTc1NTRlYWUzNGFlNGViMTYzZmY4N2RjNmE4NmRiNmNmZWNhNDk4NTU4NjExNGUzMjcwZg==&zone=2",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

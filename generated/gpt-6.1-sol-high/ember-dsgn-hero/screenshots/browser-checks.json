@@ -1,0 +1,58 @@
+{
+  "url": "/motionsites-results/ember-dsgn-hero/",
+  "desktop": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "documentWidth": 1440,
+    "overflow": false,
+    "video": {
+      "readyState": 4,
+      "currentTime": 2.334063,
+      "paused": false,
+      "playbackRate": 0.7,
+      "muted": true,
+      "loop": true,
+      "width": 960,
+      "height": 540,
+      "scale": "-1 1"
+    },
+    "interLoaded": true,
+    "backdropFilter": "blur(20px)",
+    "mask": "url(\"#emberMaskDesktop\")",
+    "panelWidth": 720,
+    "videoAdvances": true,
+    "languageToggle": true,
+    "exploreLink": true
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "documentWidth": 390,
+    "overflow": false,
+    "panelScrollWidth": 390,
+    "panelScrollHeight": 1266,
+    "menuOpens": true,
+    "menuLinks": [
+      "EMBER.dsgn",
+      "WORKS",
+      "SERVICES",
+      "ABOUT",
+      "TEAM",
+      "CONTACTS"
+    ],
+    "languageToggle": true,
+    "escapeCloses": true,
+    "focusRestored": true,
+    "closeButton": true,
+    "linkClosesMenu": true,
+    "studioReachable": true
+  },
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "httpErrors": []
+}

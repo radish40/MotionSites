@@ -6543,20 +6543,20 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a186a4-2051-7670-9965-d74e593d01b7",
       "output_path": "generated/gpt-6.1-sol-high/organic-odyssey",
       "validation": "",
-      "notes": "Session ended without result.json; inspect existing session before retrying",
-      "process_id": 3374056,
+      "notes": "Same original session retry through the exact same local provider backend, bypassing the public HTTP route after repeated UTF-8 stream failures. Model and reasoning unchanged.",
+      "process_id": 3395199,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:59:06.925986+00:00",
-      "worker_state": "terminal",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 2
     },
     {
       "number": 192,
@@ -6642,20 +6642,24 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a6-9aae-7d70-9d2e-0c0a8ced1c66",
       "output_path": "generated/gpt-6.1-sol-high/portfolio-about",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Verified terminal UTF-8 stream failure. Resume exact original design session with identity response encoding; Orbis Cards recovery has already demonstrated real tool and generation progress.",
       "process_id": 3374132,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:59:07.043767+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "0e9a3066d5a2f94beb7c8d87dce7a3d6376612f4",
+      "url": "https://tool.luo-xd.com/motionsites-results/portfolio-about/",
+      "completed_utc": "2026-10-29T08:05:11.759232+00:00",
+      "group_message_id": 249
     },
     {
       "number": 195,
@@ -6674,14 +6678,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186ae-12ab-76c3-9900-50f3c708231b",
       "output_path": "generated/gpt-6.1-sol-high/projects-catalog",
       "validation": "",
       "notes": "",
       "process_id": 3386708,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:01:57.327046+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 196,
@@ -6700,14 +6708,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186ae-1332-76e0-9721-c994415ffcd9",
       "output_path": "generated/gpt-6.1-sol-high/prosthetics-hero",
       "validation": "",
       "notes": "",
       "process_id": 3386748,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:01:57.455346+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 197,
@@ -6725,15 +6737,19 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a186ae-145a-7a51-b802-f9aad07b1f8f",
       "output_path": "generated/gpt-6.1-sol-high/pulse-3d",
       "validation": "",
-      "notes": "",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 3386861,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:01:57.645991+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 198,
@@ -6751,15 +6767,19 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a186ae-14d5-7910-853f-24f11089f7e9",
       "output_path": "generated/gpt-6.1-sol-high/radial-diagram",
       "validation": "",
-      "notes": "",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 3386934,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:01:57.794160+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 199,
@@ -6777,11 +6797,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/retro-futurist",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3395986,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T08:04:37.814165+00:00",
+      "worker_state": "running"
     },
     {
       "number": 200,
@@ -6799,11 +6823,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/rocket-cta",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3396039,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T08:04:37.939042+00:00",
+      "worker_state": "running"
     },
     {
       "number": 201,
@@ -10766,7 +10794,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T08:03:36.938839+00:00",
+  "updated_utc": "2026-10-29T08:05:11.928582+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

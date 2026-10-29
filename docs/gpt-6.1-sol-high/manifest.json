@@ -2655,19 +2655,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18614-caea-7fc3-b6c0-133dd0382605",
       "output_path": "generated/gpt-6.1-sol-high/apex-pulse",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2809786,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:14:31.655740+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "5d7db82e7c962bf205389b1bfa5a1fe272b56bac",
+      "url": "https://tool.luo-xd.com/motionsites-results/apex-pulse/",
+      "completed_utc": "2026-10-29T05:24:26.828925+00:00",
+      "group_message_id": 130
     },
     {
       "number": 79,
@@ -2818,14 +2822,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861b-93b1-7032-84c2-fe547be5ba54",
       "output_path": "generated/gpt-6.1-sol-high/audio-showcase",
       "validation": "",
       "notes": "",
       "process_id": 2837407,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:21:56.536536+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 84,
@@ -2844,14 +2852,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861b-945c-7631-95b7-7d679495069e",
       "output_path": "generated/gpt-6.1-sol-high/auramail",
       "validation": "",
       "notes": "",
       "process_id": 2837435,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:21:56.643169+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 85,
@@ -2869,11 +2881,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/aurora-onboard",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2844062,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:23:45.333032+00:00",
+      "worker_state": "running"
     },
     {
       "number": 86,
@@ -9366,5 +9382,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:22:49.232257+00:00"
+  "updated_utc": "2026-10-29T05:24:27.099083+00:00"
 }

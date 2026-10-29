@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:22:49.232257+00:00",
+  "updated_utc": "2026-10-29T05:24:27.099083+00:00",
   "total": 380,
   "counts": {
-    "complete": 79,
+    "complete": 80,
     "running": 5,
-    "not_started": 296
+    "not_started": 295
   },
   "jobs": [
     {
@@ -781,11 +781,11 @@
       "id": "apex-pulse",
       "title": "Apex Pulse",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18614-caea-7fc3-b6c0-133dd0382605",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5d7db82e7c962bf205389b1bfa5a1fe272b56bac",
+      "group_message_id": 130,
+      "url": "https://tool.luo-xd.com/motionsites-results/apex-pulse/"
     },
     {
       "id": "arceage-contact-us",
@@ -832,7 +832,7 @@
       "title": "Audio Showcase",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861b-93b1-7032-84c2-fe547be5ba54",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -842,7 +842,7 @@
       "title": "AuraMail",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1861b-945c-7631-95b7-7d679495069e",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -851,7 +851,7 @@
       "id": "aurora-onboard",
       "title": "Aurora Onboard",
       "category": "Waitlist & Coming Soon",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

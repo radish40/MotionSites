@@ -1,0 +1,110 @@
+{
+  "title": "Cinematic Landing Page",
+  "id": "cinematic-landing-page",
+  "status": "ready",
+  "brand": "Bakery Facilities",
+  "publish_path": "/motionsites-results/cinematic-landing-page/",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "overflow": false,
+        "videos": [
+          {
+            "readyState": 4,
+            "width": 3840,
+            "error": null
+          },
+          {
+            "readyState": 4,
+            "width": 1920,
+            "error": null
+          },
+          {
+            "readyState": 4,
+            "width": 1920,
+            "error": null
+          }
+        ],
+        "fonts": [
+          {
+            "family": "Instrument Serif",
+            "loaded": true
+          },
+          {
+            "family": "Luxurious Script",
+            "loaded": true
+          },
+          {
+            "family": "Manrope",
+            "loaded": true
+          },
+          {
+            "family": "Open Sans",
+            "loaded": true
+          }
+        ]
+      },
+      "region": "Taiwan",
+      "productsDropdown": true,
+      "heroTransition": "ellipse(80% 83% at 50% 50%)",
+      "productDialog": true,
+      "lottieCount": 4,
+      "newsletterForm": true,
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "overflow": false,
+        "accordion": true,
+        "menuClosed": true,
+        "productsOverflow": false,
+        "aboutOverflow": false,
+        "partneringOverflow": false,
+        "contactOverflow": false
+      },
+      "thirdSlideTransition": "ellipse(80% 83% at 50% 50%)",
+      "brochureStatus": 200,
+      "errors": [],
+      "failedRequests": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "dependency_audit": {
+      "info": 0,
+      "low": 0,
+      "moderate": 3,
+      "high": 1,
+      "critical": 0,
+      "total": 4
+    }
+  },
+  "asset_issues": [
+    "No download failures. The three supplied MP4s and requested Google Fonts are hosted locally.",
+    "Gallery and background image URLs were absent; local Unsplash photographs used. Source IDs are in README.md.",
+    "Lottie source files absent; four original Lottie animations implemented.",
+    "Full About text and office street addresses were absent; editorial completion and city-level offices documented in README.md.",
+    "Official brochure absent; downloadable website product overview provided.",
+    "Traditional Chinese page copy absent; language control provides a Chinese contact notice, with English-only edition stated."
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "React 18 / Vite / TypeScript / Tailwind CSS / GSAP ScrollTrigger and SplitText / Lottie; no Framer Motion.",
+    "Final explicit gallery breakpoint rule followed: one column below 400px, two below 1000px, four at 1000px and above.",
+    "Newsletter uses an explicit email subscription request; no backend subscription is claimed and no message was sent.",
+    "Original hero films total approximately 68 MB; local posters supplied.",
+    "Build warnings: local font CSS is resolved at runtime; upstream Lottie uses eval. All runtime assets checked successfully.",
+    "npm audit reports 3 moderate and 1 high advisory in the prescribed Vite/router dependency tree; suggested fixes require major-version migrations. Full audit saved.",
+    "Browser evidence is in browser-checks.json, screenshots/, and verification.log.",
+    "No other designs or sessions were accessed; no agents were spawned."
+  ]
+}

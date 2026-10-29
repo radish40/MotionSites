@@ -1,0 +1,67 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "videos": [
+      {
+        "readyState": 4,
+        "width": 3840,
+        "error": null
+      },
+      {
+        "readyState": 4,
+        "width": 1920,
+        "error": null
+      },
+      {
+        "readyState": 4,
+        "width": 1920,
+        "error": null
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Serif",
+        "loaded": true
+      },
+      {
+        "family": "Luxurious Script",
+        "loaded": true
+      },
+      {
+        "family": "Manrope",
+        "loaded": true
+      },
+      {
+        "family": "Open Sans",
+        "loaded": true
+      }
+    ]
+  },
+  "region": "Taiwan",
+  "productsDropdown": true,
+  "heroTransition": "ellipse(80% 83% at 50% 50%)",
+  "productDialog": true,
+  "lottieCount": 4,
+  "newsletterForm": true,
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "accordion": true,
+    "menuClosed": true,
+    "productsOverflow": false,
+    "aboutOverflow": false,
+    "partneringOverflow": false,
+    "contactOverflow": false
+  },
+  "thirdSlideTransition": "ellipse(80% 83% at 50% 50%)",
+  "brochureStatus": 200,
+  "errors": [],
+  "failedRequests": []
+}

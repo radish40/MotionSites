@@ -1,0 +1,2 @@
+import animate from 'tailwindcss-animate';
+export default { content: ['./index.html', './src/**/*.{ts,tsx}'], theme: { container: { padding: '5%' }, extend: { borderRadius: { DEFAULT: '2px' }, fontFamily: { body: ['Open Sans', 'sans-serif'], accent: ['Instrument Serif', 'serif'], manrope: ['Manrope', 'sans-serif'], luxurious: ['Luxurious Script', 'cursive'] }, keyframes: { marquee: { '0%': { transform: 'translateX(0)' }, '100%': { transform: 'translateX(-50%)' } } }, animation: { marquee: 'marquee 60s linear infinite' } } }, plugins: [animate] };

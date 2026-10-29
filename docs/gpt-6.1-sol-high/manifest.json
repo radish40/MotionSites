@@ -5756,15 +5756,17 @@
       "thread_id": "01a18688-2f94-79f3-8c28-a2e77d227c64",
       "output_path": "generated/gpt-6.1-sol-high/mythic-naturecore",
       "validation": "",
-      "notes": "",
-      "process_id": 3239807,
+      "notes": "Management visual review: same original session restoring photographic forest/stone portal/curtains/card assets from this design reference; original Cloudinary resources disabled.",
+      "process_id": 3274158,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:20:34.357485+00:00",
-      "worker_state": "running",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "repair_attempts": 1,
+      "delivery_failures": 0
     },
     {
       "number": 169,
@@ -5937,14 +5939,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18690-b8f2-7a81-9f9f-edd36c46b777",
       "output_path": "generated/gpt-6.1-sol-high/nex-max-upgrade",
       "validation": "",
       "notes": "",
       "process_id": 3273243,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:29:53.772600+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 175,
@@ -10479,7 +10485,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:29:53.772686+00:00",
+  "updated_utc": "2026-10-29T07:30:47.314453+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

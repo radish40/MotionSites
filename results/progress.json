@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T07:29:53.772686+00:00",
+  "updated_utc": "2026-10-29T07:30:47.314453+00:00",
   "total": 380,
   "counts": {
     "complete": 168,
@@ -1743,7 +1743,7 @@
       "title": "Nex Max Upgrade",
       "category": "Pricing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18690-b8f2-7a81-9f9f-edd36c46b777",
       "source_commit": null,
       "group_message_id": null,
       "url": null

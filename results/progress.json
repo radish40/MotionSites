@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:01:57.126685+00:00",
+  "updated_utc": "2026-10-29T05:04:21.137867+00:00",
   "total": 380,
   "counts": {
-    "complete": 61,
+    "complete": 63,
     "running": 5,
-    "not_started": 314
+    "not_started": 312
   },
   "jobs": [
     {
@@ -591,11 +591,11 @@
       "id": "stillmind",
       "title": "Stillmind",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18600-c596-7911-8cbb-dfe9ee08f7d6",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "8ff07d0e0483390498a4c547e3facfaacfa9e0e8",
+      "group_message_id": 111,
+      "url": "https://tool.luo-xd.com/motionsites-results/stillmind/"
     },
     {
       "id": "subscription-agency",
@@ -631,18 +631,18 @@
       "id": "travel-explorer",
       "title": "Travel Explorer",
       "category": "Travel",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18606-5f47-7013-8a23-370b488d2e57",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "961b9b82ecb2982447f1841049d0bdf6b069049e",
+      "group_message_id": 112,
+      "url": "https://tool.luo-xd.com/motionsites-results/travel-explorer/"
     },
     {
       "id": "travel-journal",
       "title": "Travel Journal",
       "category": "Travel",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18607-f2d9-75d3-b697-cad7610cb21c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -652,7 +652,7 @@
       "title": "Vision Reveal",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18607-f3af-70d1-b846-8f2eb9c9759e",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -662,7 +662,7 @@
       "title": "Wellbeing OS",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18607-f480-76e1-88c7-1f0924fae3de",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -671,7 +671,7 @@
       "id": "wellness-companion",
       "title": "Wellness Companion",
       "category": "Wellness",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -681,7 +681,7 @@
       "id": "wellness-device",
       "title": "Wellness Devicex",
       "category": "Healthcare",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

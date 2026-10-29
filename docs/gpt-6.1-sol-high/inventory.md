@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 61/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 63/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -143,16 +143,16 @@
 | 56 | `remit-race` | Remit Race | Fintech | 2 | 视频 | 已完成 |
 | 57 | `skills-lea` | LearnHub | Education | 2 | 视频 | 已完成 |
 | 58 | `sky-estate` | Sky Estate | Real Estate | 2 | 视频 | 已完成 |
-| 59 | `stillmind` | Stillmind | Hero Section | 2 | 视频 | 生成中 |
+| 59 | `stillmind` | Stillmind | Hero Section | 2 | 视频 | 已完成 |
 | 60 | `subscription-agency` | Subscription Agency | Hero Section | 2 | 视频 | 已完成 |
 | 61 | `supplement-shop` | Supplement Shop | Healthcare | 2 | 视频 | 已完成 |
 | 62 | `tech-forward` | Tech-Forward | Hero Section | 2 | 视频 | 已完成 |
-| 63 | `travel-explorer` | Travel Explorer | Travel | 2 | 视频 | 生成中 |
+| 63 | `travel-explorer` | Travel Explorer | Travel | 2 | 视频 | 已完成 |
 | 64 | `travel-journal` | Travel Journal | Travel | 2 | 视频 | 生成中 |
 | 65 | `vision-reveal` | Vision Reveal | Hero Section | 2 | 视频 | 生成中 |
 | 66 | `wellbeing-os` | Wellbeing OS | Hero Section | 2 | 视频 | 生成中 |
-| 67 | `wellness-companion` | Wellness Companion | Wellness | 2 | 视频 | 未开始 |
-| 68 | `wellness-device` | Wellness Devicex | Healthcare | 1 | 视频 | 未开始 |
+| 67 | `wellness-companion` | Wellness Companion | Wellness | 2 | 视频 | 生成中 |
+| 68 | `wellness-device` | Wellness Devicex | Healthcare | 1 | 视频 | 生成中 |
 | 69 | `3d-collectible-hero` | 3D Collectible Hero | 3D Website | 2 | 图片 | 未开始 |
 | 70 | `3d-story` | 3D Story | Landing Page | 2 | 图片 | 未开始 |
 | 71 | `404-planet` | 404 Planet | 404 Pages | 2 | 图片 | 未开始 |

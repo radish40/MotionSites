@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:59:35.805203+00:00",
+  "updated_utc": "2026-10-29T05:01:57.126685+00:00",
   "total": 380,
   "counts": {
-    "complete": 58,
+    "complete": 61,
     "running": 5,
-    "not_started": 317
+    "not_started": 314
   },
   "jobs": [
     {
@@ -601,38 +601,38 @@
       "id": "subscription-agency",
       "title": "Subscription Agency",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18600-c620-7fb1-858e-46161ade9caf",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "337bfb17217a47aff72ddc8ebb49af8f301b93ce",
+      "group_message_id": 108,
+      "url": "https://tool.luo-xd.com/motionsites-results/subscription-agency/"
     },
     {
       "id": "supplement-shop",
       "title": "Supplement Shop",
       "category": "Healthcare",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18602-97c3-7e90-bbcd-7789b26e6be5",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "cf0ca7b20f2593eabc54c30fd54704ed70b99a1d",
+      "group_message_id": 109,
+      "url": "https://tool.luo-xd.com/motionsites-results/supplement-shop/"
     },
     {
       "id": "tech-forward",
       "title": "Tech-Forward",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18604-e7e8-7813-b72a-4ce3540fba05",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "53440ab60642dae1dea136cfa7151257e31b2cb8",
+      "group_message_id": 110,
+      "url": "https://tool.luo-xd.com/motionsites-results/tech-forward/"
     },
     {
       "id": "travel-explorer",
       "title": "Travel Explorer",
       "category": "Travel",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18606-5f47-7013-8a23-370b488d2e57",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -641,7 +641,7 @@
       "id": "travel-journal",
       "title": "Travel Journal",
       "category": "Travel",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -651,7 +651,7 @@
       "id": "vision-reveal",
       "title": "Vision Reveal",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -661,7 +661,7 @@
       "id": "wellbeing-os",
       "title": "Wellbeing OS",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

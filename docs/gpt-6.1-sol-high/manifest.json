@@ -2039,19 +2039,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18600-c620-7fb1-858e-46161ade9caf",
       "output_path": "generated/gpt-6.1-sol-high/subscription-agency",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2728087,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:52:39.969457+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "337bfb17217a47aff72ddc8ebb49af8f301b93ce",
+      "url": "https://tool.luo-xd.com/motionsites-results/subscription-agency/",
+      "completed_utc": "2026-10-29T05:00:55.101274+00:00",
+      "group_message_id": 108
     },
     {
       "number": 61,
@@ -2069,19 +2073,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18602-97c3-7e90-bbcd-7789b26e6be5",
       "output_path": "generated/gpt-6.1-sol-high/supplement-shop",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2736157,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:54:39.216643+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "cf0ca7b20f2593eabc54c30fd54704ed70b99a1d",
+      "url": "https://tool.luo-xd.com/motionsites-results/supplement-shop/",
+      "completed_utc": "2026-10-29T05:01:22.720034+00:00",
+      "group_message_id": 109
     },
     {
       "number": 62,
@@ -2099,19 +2107,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18604-e7e8-7813-b72a-4ce3540fba05",
       "output_path": "generated/gpt-6.1-sol-high/tech-forward",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2746461,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:57:10.657611+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "53440ab60642dae1dea136cfa7151257e31b2cb8",
+      "url": "https://tool.luo-xd.com/motionsites-results/tech-forward/",
+      "completed_utc": "2026-10-29T05:01:56.960569+00:00",
+      "group_message_id": 110
     },
     {
       "number": 63,
@@ -2130,14 +2142,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18606-5f47-7013-8a23-370b488d2e57",
       "output_path": "generated/gpt-6.1-sol-high/travel-explorer",
       "validation": "",
       "notes": "",
       "process_id": 2751966,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:58:46.805072+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 64,
@@ -2155,11 +2171,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/travel-journal",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2757499,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:00:30.152219+00:00",
+      "worker_state": "running"
     },
     {
       "number": 65,
@@ -2177,11 +2197,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/vision-reveal",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2757533,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:00:30.271310+00:00",
+      "worker_state": "running"
     },
     {
       "number": 66,
@@ -2199,11 +2223,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/wellbeing-os",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2757607,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:00:30.493969+00:00",
+      "worker_state": "running"
     },
     {
       "number": 67,
@@ -9114,5 +9142,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:59:35.805203+00:00"
+  "updated_utc": "2026-10-29T05:01:57.126685+00:00"
 }

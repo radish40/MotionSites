@@ -6681,19 +6681,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186ae-12ab-76c3-9900-50f3c708231b",
       "output_path": "generated/gpt-6.1-sol-high/projects-catalog",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3386708,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:01:57.327046+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "ea123acbc192ac49ad5ceb0b93346f8b542039be",
+      "url": "https://tool.luo-xd.com/motionsites-results/projects-catalog/",
+      "completed_utc": "2026-10-29T08:09:45.421539+00:00",
+      "group_message_id": 253
     },
     {
       "number": 196,
@@ -6807,19 +6811,20 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a186b0-8593-7081-8024-b32ac2ef9eb0",
       "output_path": "generated/gpt-6.1-sol-high/retro-futurist",
       "validation": "",
-      "notes": "Session ended without result.json; inspect existing session before retrying",
-      "process_id": 3395986,
+      "notes": "Verified terminal UTF-8 transport failure; resumed same original session through the exact same local provider backend. Model and reasoning unchanged.",
+      "process_id": 3409452,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T08:04:37.814165+00:00",
-      "worker_state": "terminal",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "repair_attempts": 1
     },
     {
       "number": 200,
@@ -10812,7 +10817,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T08:08:20.372348+00:00",
+  "updated_utc": "2026-10-29T08:09:45.593992+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

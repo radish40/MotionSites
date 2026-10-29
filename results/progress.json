@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T08:08:20.372348+00:00",
+  "updated_utc": "2026-10-29T08:09:45.593992+00:00",
   "total": 380,
   "counts": {
-    "complete": 195,
+    "complete": 196,
+    "needs_fix": 2,
     "running": 2,
-    "needs_fix": 3,
     "not_started": 180
   },
   "jobs": [
@@ -1952,11 +1952,11 @@
       "id": "projects-catalog",
       "title": "Projects Catalog",
       "category": "Projects",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186ae-12ab-76c3-9900-50f3c708231b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "ea123acbc192ac49ad5ceb0b93346f8b542039be",
+      "group_message_id": 253,
+      "url": "https://tool.luo-xd.com/motionsites-results/projects-catalog/"
     },
     {
       "id": "prosthetics-hero",
@@ -1992,7 +1992,7 @@
       "id": "retro-futurist",
       "title": "Retro-Futurist",
       "category": "Hero Section",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a186b0-8593-7081-8024-b32ac2ef9eb0",
       "source_commit": null,
       "group_message_id": null,

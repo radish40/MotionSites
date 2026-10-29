@@ -1,0 +1,59 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/minimal-workflow-saas/",
+  "checked_at": "2026-10-29T07:23:49.537Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Script — Minimal Workflow SaaS",
+      "bodyChars": 1273,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/minimal-workflow-saas/assets/workflow-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.740659,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Script — Minimal Workflow SaaS",
+      "bodyChars": 1228,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/minimal-workflow-saas/assets/workflow-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.743921,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

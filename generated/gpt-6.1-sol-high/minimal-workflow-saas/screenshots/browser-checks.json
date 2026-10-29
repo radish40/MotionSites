@@ -1,0 +1,60 @@
+[
+  {
+    "viewport": "desktop",
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000
+    },
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 2.662155,
+      "videoWidth": 1920,
+      "videoHeight": 1080,
+      "muted": true,
+      "loop": true
+    },
+    "consoleErrors": [],
+    "failedRequests": [],
+    "checks": [
+      "font loading",
+      "navigation visibility",
+      "CTA hover/click",
+      "keyboard focus",
+      "no horizontal overflow",
+      "background video playback",
+      "task advancement",
+      "full task cycle and silent reset"
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 844
+    },
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 2.668845,
+      "videoWidth": 1920,
+      "videoHeight": 1080,
+      "muted": true,
+      "loop": true
+    },
+    "consoleErrors": [],
+    "failedRequests": [],
+    "checks": [
+      "font loading",
+      "navigation visibility",
+      "CTA hover/click",
+      "keyboard focus",
+      "no horizontal overflow",
+      "background video playback"
+    ]
+  }
+]

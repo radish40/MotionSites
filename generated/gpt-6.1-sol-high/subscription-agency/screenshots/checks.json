@@ -1,0 +1,118 @@
+{
+  "url": "http://localhost:4173/motionsites-results/subscription-agency/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "documentWidth": 1440,
+      "heroHeight": 888.09375,
+      "titleFont": "82px",
+      "fonts": [
+        {
+          "family": "Cedarville Cursive",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": "600",
+          "style": "italic"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": "600",
+          "style": "normal"
+        }
+      ],
+      "avatarLoaded": true,
+      "curveCount": 40,
+      "mobileCurveCount": 20,
+      "ctaDirection": "row",
+      "menuKeyboardChecks": "passed",
+      "navigationLinks": "5 passed",
+      "ctaDialogs": "2 passed"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "documentWidth": 390,
+      "heroHeight": 760,
+      "titleFont": "50.7px",
+      "fonts": [
+        {
+          "family": "Cedarville Cursive",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weight": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": "600",
+          "style": "italic"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": "600",
+          "style": "normal"
+        }
+      ],
+      "avatarLoaded": true,
+      "curveCount": 40,
+      "mobileCurveCount": 20,
+      "ctaDirection": "column",
+      "menuKeyboardChecks": "passed",
+      "navigationLinks": "5 passed",
+      "ctaDialogs": "2 passed"
+    }
+  ],
+  "scriptErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "status": "passed",
+  "extraResponsiveWidths": [
+    320,
+    810,
+    1199,
+    1200
+  ],
+  "reducedMotion": "passed"
+}

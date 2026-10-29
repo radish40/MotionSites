@@ -1,0 +1,33 @@
+{
+  "title": "Subscription Agency",
+  "id": "subscription-agency",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities reported",
+    "publish_base": "/motionsites-results/subscription-agency/",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium 390x844",
+    "additional_overflow_widths": [320, 810, 1199, 1200],
+    "horizontal_overflow": "none",
+    "script_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "menu": "passed: open/close, initial focus, keyboard cycling, Escape, all five links",
+    "ctas": "passed: both dialogs open and dismiss",
+    "reduced_motion": "passed",
+    "assets": "supplied images and Google Fonts loaded",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/menu.png"],
+    "browser_report": "screenshots/checks.json"
+  },
+  "asset_issues": ["Cedarville Cursive offers weight 400 only; Airbnb requests CSS weight 700 using the available face."],
+  "notes": [
+    "React + Vite + Tailwind CSS integration; custom CSS without utility classes.",
+    "Exact supplied images bundled locally; Google Fonts remain external.",
+    "No navigation or booking destinations supplied; links show honest availability dialogs.",
+    "Full-page screenshots captured at specified viewport sizes.",
+    "Only this project was read and modified. No agents, other sessions, deployment, push, or external messages.",
+    "Ready means ready for review, not deployed."
+  ]
+}

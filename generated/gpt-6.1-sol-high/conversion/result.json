@@ -1,0 +1,40 @@
+{
+  "title": "Conversion",
+  "id": "conversion",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "dist_index_exists": true,
+    "browser_report": "screenshots/browser-checks.json",
+    "desktop": "passed: 1440x1000",
+    "mobile": "passed: 390x844",
+    "layout_overflow": false,
+    "script_errors": 0,
+    "console_errors": 0,
+    "http_errors": 0,
+    "fonts": "Qanelas-Heavy 900 and Inter 400/500/600/700 loaded",
+    "video": "autoplay, muted, looping playback confirmed on both viewports",
+    "qr": "loaded on both viewports",
+    "interactions": [
+      "Desktop navigation anchors and Get It Today QR anchor passed",
+      "Mobile toggle, link navigation, animated unmount, Escape and focus return passed"
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_review": "completed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built for /motionsites-results/conversion/. Ready for review; not deployed or pushed.",
+    "Exact supplied video, QR and font sources retained; local copies included for reliability.",
+    "Chromium canceled some video requests with net::ERR_ABORTED while playback remained successful; raw events retained in browser report.",
+    "Navigation hashes match the prompt. No destination sections or download URL were supplied; CTA targets the Try Now QR card.",
+    "Screenshots capture the actual supplied video at two seconds after confirming playback.",
+    "Physical-device Safari was not tested.",
+    "Source, dist, lockfile, documentation and validation artifacts are included; node_modules excluded."
+  ]
+}

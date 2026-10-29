@@ -1,0 +1,114 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "headingBounds": {
+        "left": 209.703125,
+        "right": 1230.296875
+      },
+      "headingFont": "Qanelas-Heavy, sans-serif",
+      "fontsLoaded": true,
+      "loadedFonts": [
+        {
+          "family": "Qanelas-Heavy",
+          "weight": "900"
+        },
+        {
+          "family": "Inter",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "weight": "500"
+        },
+        {
+          "family": "Inter",
+          "weight": "600"
+        },
+        {
+          "family": "Inter",
+          "weight": "700"
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "playing": true,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      "qrLoaded": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "headingBounds": {
+        "left": 9.4375,
+        "right": 380.5625
+      },
+      "headingFont": "Qanelas-Heavy, sans-serif",
+      "fontsLoaded": true,
+      "loadedFonts": [
+        {
+          "family": "Qanelas-Heavy",
+          "weight": "900"
+        },
+        {
+          "family": "Inter",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "weight": "500"
+        },
+        {
+          "family": "Inter",
+          "weight": "600"
+        },
+        {
+          "family": "Inter",
+          "weight": "700"
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "playing": true,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      "qrLoaded": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "httpErrors": [],
+  "failedRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260613_235144_2f72690f-ad2d-4b1d-9dc1-96fc97d01ca5.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260613_235144_2f72690f-ad2d-4b1d-9dc1-96fc97d01ca5.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260613_235144_2f72690f-ad2d-4b1d-9dc1-96fc97d01ca5.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "interactions": [
+    "Desktop navigation anchors and Get It Today QR anchor passed",
+    "Mobile toggle, link navigation, animated unmount, Escape and focus return passed"
+  ],
+  "status": "passed"
+}

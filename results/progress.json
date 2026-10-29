@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:37:34.247190+00:00",
+  "updated_utc": "2026-10-29T07:39:24.613654+00:00",
   "total": 380,
   "counts": {
-    "complete": 172,
+    "complete": 174,
     "running": 5,
-    "not_started": 203
+    "not_started": 201
   },
   "jobs": [
     {
@@ -1751,28 +1751,28 @@
       "id": "nexacore-control",
       "title": "NexaCore Control",
       "category": "Features Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18693-d26f-75e2-8312-6498cac013d8",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "eb4879459f7873687625a8d820ffeba46a727148",
+      "group_message_id": 229,
+      "url": "https://tool.luo-xd.com/motionsites-results/nexacore-control/"
     },
     {
       "id": "nexacore-process",
       "title": "NexaCore Process",
       "category": "Process & Stats",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18695-2312-72a3-b20f-b70e8ab85897",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "17516fc3db28431d5176d2f428aa380ebd9a52f2",
+      "group_message_id": 230,
+      "url": "https://tool.luo-xd.com/motionsites-results/nexacore-process/"
     },
     {
       "id": "nexacore-results",
       "title": "NexaCore Results",
       "category": "Features Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18696-a575-70c3-9781-46fc0dca537c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1781,7 +1781,7 @@
       "id": "nike-hover",
       "title": "Nike Hover",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1791,7 +1791,7 @@
       "id": "nimbus-demo",
       "title": "Nimbus Demo",
       "category": "Dashboards",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

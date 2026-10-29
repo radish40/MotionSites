@@ -5986,19 +5986,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18693-d26f-75e2-8312-6498cac013d8",
       "output_path": "generated/gpt-6.1-sol-high/nexacore-control",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3285183,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:33:16.946130+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "eb4879459f7873687625a8d820ffeba46a727148",
+      "url": "https://tool.luo-xd.com/motionsites-results/nexacore-control/",
+      "completed_utc": "2026-10-29T07:38:58.610400+00:00",
+      "group_message_id": 229
     },
     {
       "number": 176,
@@ -6016,19 +6020,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18695-2312-72a3-b20f-b70e8ab85897",
       "output_path": "generated/gpt-6.1-sol-high/nexacore-process",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3290309,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:34:42.967037+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "17516fc3db28431d5176d2f428aa380ebd9a52f2",
+      "url": "https://tool.luo-xd.com/motionsites-results/nexacore-process/",
+      "completed_utc": "2026-10-29T07:39:24.453229+00:00",
+      "group_message_id": 230
     },
     {
       "number": 177,
@@ -6047,14 +6055,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18696-a575-70c3-9781-46fc0dca537c",
       "output_path": "generated/gpt-6.1-sol-high/nexacore-results",
       "validation": "",
       "notes": "",
       "process_id": 3296320,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:36:21.916221+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 178,
@@ -6072,11 +6084,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nike-hover",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3303527,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:38:34.228730+00:00",
+      "worker_state": "running"
     },
     {
       "number": 179,
@@ -6094,11 +6110,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nimbus-demo",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3303597,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:38:34.377046+00:00",
+      "worker_state": "running"
     },
     {
       "number": 180,
@@ -10523,7 +10543,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:37:34.247190+00:00",
+  "updated_utc": "2026-10-29T07:39:24.613654+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

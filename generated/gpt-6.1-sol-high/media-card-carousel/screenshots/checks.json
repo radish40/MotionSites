@@ -1,0 +1,160 @@
+{
+  "url": "http://localhost:4173/motionsites-results/media-card-carousel/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "cards": 5,
+      "fontLoaded": true,
+      "opacity": "0.54",
+      "railOverflow": true,
+      "snap": "x mandatory",
+      "videos": [
+        {
+          "src": "./assets/integration-review.mp4",
+          "width": 1440,
+          "height": 1440,
+          "time": 0.53464,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "src": "./assets/hot-fire-campaign.mp4",
+          "width": 1440,
+          "height": 1440,
+          "time": 0.534182,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "src": "./assets/manufacturing-floor.mp4",
+          "width": 1920,
+          "height": 1080,
+          "time": 0.534389,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "src": "./assets/integration-review.mp4",
+          "width": 1440,
+          "height": 1440,
+          "time": 0,
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "src": "./assets/hot-fire-campaign.mp4",
+          "width": 1440,
+          "height": 1440,
+          "time": 0,
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        }
+      ],
+      "hoverAndFocus": "passed",
+      "navigation": "keyboard, wheel, final card passed",
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "cards": 5,
+      "fontLoaded": true,
+      "opacity": "1",
+      "railOverflow": true,
+      "snap": "x mandatory",
+      "videos": [
+        {
+          "src": "./assets/integration-review.mp4",
+          "width": 1440,
+          "height": 1440,
+          "time": 0.679804,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "src": "./assets/hot-fire-campaign.mp4",
+          "width": 1440,
+          "height": 1440,
+          "time": 0.67982,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "src": "./assets/manufacturing-floor.mp4",
+          "width": 1920,
+          "height": 1080,
+          "time": 0,
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "src": "./assets/integration-review.mp4",
+          "width": 1440,
+          "height": 1440,
+          "time": 0,
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        },
+        {
+          "src": "./assets/hot-fire-campaign.mp4",
+          "width": 1440,
+          "height": 1440,
+          "time": 0,
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "error": null
+        }
+      ],
+      "hoverAndFocus": "full opacity as specified",
+      "navigation": "touch swipe, final card passed",
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

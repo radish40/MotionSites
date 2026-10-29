@@ -1,0 +1,30 @@
+{
+  "title": "Media Card Carousel",
+  "id": "media-card-carousel",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: complete static output in dist/index.html and dist/assets",
+    "publication_path": "/motionsites-results/media-card-carousel/",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium touch/mobile emulation 390x844",
+    "videos": "all five decode successfully; visible previews autoplay and advance; muted, looping, inline attributes verified",
+    "interactions": "passed: hover, focus, keyboard arrow scrolling, horizontal wheel scrolling, mobile touch swipe, final card reachability",
+    "layout": "passed: scroll snapping, desktop/mobile opacity, no horizontal page overflow",
+    "fonts": "passed: bundled Geist variable font loaded",
+    "browser_errors": [],
+    "failed_asset_requests": [],
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "report": "screenshots/checks.json",
+    "visual_review": "both screenshots reviewed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Native HTML/CSS implementation; no framework mandated by PROMPT.md.",
+    "All supplied videos and Geist font bundled locally; no runtime external dependencies.",
+    "Footer preserves the prompt's static 05 / 05 indicator.",
+    "Browser may defer autoplay for fully offscreen videos.",
+    "Screenshots captured after playback verification at a consistent one-second frame; desktop full-page image is 1440x1007 from a 1440x1000 viewport.",
+    "Ready for management review; not deployed or pushed."
+  ]
+}

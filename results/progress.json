@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-29T04:49:12.821585+00:00",
+  "updated_utc": "2026-10-29T04:51:44.591908+00:00",
   "total": 380,
   "counts": {
-    "complete": 50,
-    "running": 5,
+    "complete": 52,
     "needs_fix": 1,
-    "not_started": 324
+    "running": 5,
+    "not_started": 322
   },
   "jobs": [
     {
@@ -482,11 +482,11 @@
       "id": "mood-tracker",
       "title": "Mood Tracker",
       "category": "Wellness",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185f2-1b09-7631-9496-262d7824d09f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "4011271aefefec01d73f00e1f8127e7ab390c90f",
+      "group_message_id": 100,
+      "url": "https://tool.luo-xd.com/motionsites-results/mood-tracker/"
     },
     {
       "id": "movie-premiere",
@@ -532,11 +532,11 @@
       "id": "place-saver",
       "title": "Place Saver",
       "category": "Travel",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185f9-3984-74e2-9528-7530a69ec2a4",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c92b2ef92c3294556ed38dcb6891eeb81cfe5246",
+      "group_message_id": 101,
+      "url": "https://tool.luo-xd.com/motionsites-results/place-saver/"
     },
     {
       "id": "product-studio",
@@ -553,7 +553,7 @@
       "title": "PROMPT",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185fc-d58a-7083-ab59-0f5c899f9974",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -563,7 +563,7 @@
       "title": "Remit Race",
       "category": "Fintech",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185fc-d625-7091-8302-193b6ba9ea87",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -572,7 +572,7 @@
       "id": "skills-lea",
       "title": "LearnHub",
       "category": "Education",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -582,7 +582,7 @@
       "id": "sky-estate",
       "title": "Sky Estate",
       "category": "Real Estate",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

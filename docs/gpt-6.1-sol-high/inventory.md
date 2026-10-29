@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 26/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 27/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -109,15 +109,15 @@
 | 22 | `dot-hero` | Dot | Hero Section | 1 | 图片 | 已完成 |
 | 23 | `orbit-engineers` | Orbit Engineers | Agency | 1 | 视频 | 已完成 |
 | 24 | `3d-studio-pricing` | 3D Studio Pricing | Pricing Page | 2 | 视频 | 已完成 |
-| 25 | `adhd-planner` | ADHD Planner | Mobile App | 1 | 视频 | 生成中 |
+| 25 | `adhd-planner` | ADHD Planner | Mobile App | 1 | 视频 | 已完成 |
 | 26 | `ai-driving-assistant` | AI Driving Assistant | SaaS | 2 | 视频 | 已完成 |
 | 27 | `ai-interface` | AI Interface | Landing Page | 2 | 视频 | 已完成 |
 | 28 | `ai-meeting-notes` | AI Meeting Notes | SaaS | 2 | 视频 | 生成中 |
-| 29 | `ai-workflow-agents` | AI Workflow Agents | SaaS | 1 | 视频 | 生成中 |
+| 29 | `ai-workflow-agents` | AI Workflow Agents | SaaS | 1 | 视频 | 待验收 |
 | 30 | `cargo-group` | Cargo Group | Hero Section | 2 | 视频 | 生成中 |
 | 31 | `cargox-mobile` | CARGOX Mobile | Transportation | 2 | 视频 | 生成中 |
-| 32 | `celestial-renewal` | Celestial Renewal | Wellness | 2 | 视频 | 未开始 |
-| 33 | `church-community` | Church Community | Community | 1 | 视频 | 未开始 |
+| 32 | `celestial-renewal` | Celestial Renewal | Wellness | 2 | 视频 | 生成中 |
+| 33 | `church-community` | Church Community | Community | 1 | 视频 | 生成中 |
 | 34 | `cleantech` | CleanTech | Sustainability | 2 | 视频 | 未开始 |
 | 35 | `coffee-rewards` | Coffee Rewards | Loyalty | 2 | 视频 | 未开始 |
 | 36 | `cosmos-interface` | Cosmos Interface | Landing Page | 2 | 视频 | 未开始 |

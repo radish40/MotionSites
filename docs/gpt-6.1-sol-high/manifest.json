@@ -836,19 +836,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d6-b970-7d61-90dd-db56d94e030c",
       "output_path": "generated/gpt-6.1-sol-high/adhd-planner",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2561898,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:06:44.209885+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "e32ccd35f78e07097ca29cacf05aec1a3432ebbf",
+      "url": "https://tool.luo-xd.com/motionsites-results/adhd-planner/",
+      "completed_utc": "2026-10-29T04:16:13.169524+00:00",
+      "group_message_id": 75
     },
     {
       "number": 26,
@@ -964,7 +968,7 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a185da-d1a9-7421-af5c-fa977d785446",
       "output_path": "generated/gpt-6.1-sol-high/ai-workflow-agents",
       "validation": "",
@@ -972,7 +976,7 @@
       "process_id": 2577390,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:11:12.492320+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -995,14 +999,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185dd-5ac8-7540-8530-9f5387c18034",
       "output_path": "generated/gpt-6.1-sol-high/cargo-group",
       "validation": "",
       "notes": "",
       "process_id": 2588385,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:13:58.758655+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 31,
@@ -1021,14 +1029,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185dd-5bd3-7631-9ce3-de33cd1cf6b8",
       "output_path": "generated/gpt-6.1-sol-high/cargox-mobile",
       "validation": "",
       "notes": "",
       "process_id": 2588419,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:13:58.862756+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 32,
@@ -1046,11 +1058,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/celestial-renewal",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2591897,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:15:24.740481+00:00",
+      "worker_state": "running"
     },
     {
       "number": 33,
@@ -1068,11 +1084,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/church-community",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2591935,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:15:24.848761+00:00",
+      "worker_state": "running"
     },
     {
       "number": 34,
@@ -8709,5 +8729,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:14:31.824018+00:00"
+  "updated_utc": "2026-10-29T04:16:13.326150+00:00"
 }

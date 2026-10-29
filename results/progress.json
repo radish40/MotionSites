@@ -1,10 +1,9 @@
 {
-  "updated_utc": "2026-10-29T05:57:19.676150+00:00",
+  "updated_utc": "2026-10-29T05:58:06.894322+00:00",
   "total": 380,
   "counts": {
-    "complete": 104,
+    "complete": 105,
     "running": 5,
-    "ready": 1,
     "not_started": 270
   },
   "jobs": [
@@ -1062,11 +1061,11 @@
       "id": "creative-agency",
       "title": "Creative Agency",
       "category": "Landing Page",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18636-09ae-75d2-8571-23e88368efca",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "7f6825a674dcbbf029faa4b4b48ff2a781f52eeb",
+      "group_message_id": 156,
+      "url": "https://tool.luo-xd.com/motionsites-results/creative-agency/"
     },
     {
       "id": "creative-portfolio",

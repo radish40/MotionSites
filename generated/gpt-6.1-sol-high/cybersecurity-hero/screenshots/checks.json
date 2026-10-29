@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "All six Inter weights bundled locally; font loaded in browser.",
+    "Desktop 1440×1000: hero, navigation, five brands, exact headline, no horizontal overflow.",
+    "Animation traverses all four phases; both beam paths share measured coordinates.",
+    "Pipeline node click replays encryption animation.",
+    "CTA and account links remain prompt-specified local # anchors; CTA hover verified.",
+    "Mobile 390×844: responsive sizes, wrapped brands, hidden navigation, updated beam geometry, no overflow.",
+    "Mobile menu opens, locks scrolling, closes on link selection and Escape; desktop resize resets menu.",
+    "Additional widths 320, 480, 768, 860, 1600, 1920: no horizontal overflow.",
+    "No browser script errors or failed asset requests."
+  ],
+  "errors": [],
+  "failedRequests": []
+}

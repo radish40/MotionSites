@@ -1,0 +1,40 @@
+{
+  "title": "Cybersecurity Hero",
+  "id": "cybersecurity-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: TypeScript check and Vite production build",
+    "browser": {
+      "checks": [
+        "All six Inter weights bundled locally; font loaded in browser.",
+        "Desktop 1440\u00d71000: hero, navigation, five brands, exact headline, no horizontal overflow.",
+        "Animation traverses all four phases; both beam paths share measured coordinates.",
+        "Pipeline node click replays encryption animation.",
+        "CTA and account links remain prompt-specified local # anchors; CTA hover verified.",
+        "Mobile 390\u00d7844: responsive sizes, wrapped brands, hidden navigation, updated beam geometry, no overflow.",
+        "Mobile menu opens, locks scrolling, closes on link selection and Escape; desktop resize resets menu.",
+        "Additional widths 320, 480, 768, 860, 1600, 1920: no horizontal overflow.",
+        "No browser script errors or failed asset requests."
+      ],
+      "errors": [],
+      "failedRequests": []
+    },
+    "screenshots": {
+      "desktop": "screenshots/desktop.png",
+      "mobile": "screenshots/mobile.png",
+      "mobile_menu": "screenshots/mobile-menu.png"
+    }
+  },
+  "asset_issues": [
+    "PROMPT.md refers to a supplied multi-cut Xero logo path, but no actual path or source asset was included. A recreated inline multi-cut X is used and documented."
+  ],
+  "notes": [
+    "React + TypeScript + Vite; plain global CSS; exact supplied headline, gradient stops and specified inline SVG geometry.",
+    "All six Inter Google Font weights are bundled locally with the font license; no runtime external asset dependencies.",
+    "Production base: /motionsites-results/cybersecurity-hero/. Publishable files are in dist/.",
+    "Navigation, account and CTA links use the prompt-specified # destination.",
+    "README.md contains run, build, verification and limitation details.",
+    "node_modules excluded. No deployment, push, subagents or messages. Ready means available for acceptance, not live."
+  ]
+}

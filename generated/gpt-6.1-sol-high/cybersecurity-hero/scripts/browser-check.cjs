@@ -1,0 +1,91 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+const assert = require('assert');
+const base = '/motionsites-results/cybersecurity-hero/';
+const mime = {'.html':'text/html', '.js':'text/javascript', '.css':'text/css', '.ttf':'font/ttf', '.svg':'image/svg+xml'};
+const server = http.createServer((req,res) => {
+  if (!req.url.startsWith(base)) { res.writeHead(404); return res.end(); }
+  const file = path.join('/work/dist', decodeURIComponent(req.url.slice(base.length).split('?')[0]) || 'index.html');
+  if (!file.startsWith('/work/dist/') || !fs.existsSync(file)) { res.writeHead(404); return res.end(); }
+  res.setHeader('Content-Type', mime[path.extname(file)] || 'application/octet-stream');
+  fs.createReadStream(file).pipe(res);
+});
+(async () => {
+  await new Promise(resolve => server.listen(4173, '0.0.0.0', resolve));
+  const browser = await chromium.launch({executablePath: '/usr/bin/chromium', headless:true, args:['--no-sandbox','--disable-dev-shm-usage']});
+  const errors = [], failedRequests = [], checks = [];
+  const page = await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+  page.on('pageerror', e => errors.push(e.message));
+  page.on('requestfailed', r => failedRequests.push(r.url()));
+  page.on('response', r => {if(r.status() >= 400) failedRequests.push(`${r.status()} ${r.url()}`)});
+  await page.goto('http://127.0.0.1:4173'+base, {waitUntil:'networkidle'});
+  await page.evaluate(() => document.fonts.ready);
+  assert(await page.evaluate(async () => {
+    const weights = [300,400,500,600,700,800];
+    await Promise.all(weights.map(weight => document.fonts.load(`${weight} 16px Inter`)));
+    return weights.every(weight => document.fonts.check(`${weight} 16px Inter`));
+  }));
+  checks.push('All six Inter weights bundled locally; font loaded in browser.');
+  assert.equal(await page.locator('.brand-item').count(),5);
+  assert.equal(await page.locator('h1').innerText(),'The simple way\nencryption your data');
+  assert(await page.locator('.nav-links').isVisible());
+  assert(!await page.locator('.menu-toggle').isVisible());
+  assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+  await page.screenshot({path:'/work/screenshots/desktop.png', fullPage:true});
+  checks.push('Desktop 1440×1000: hero, navigation, five brands, exact headline, no horizontal overflow.');
+  const phases = new Set();
+  for(let i=0;i<72;i++) { phases.add(await page.locator('.icon-pipeline').getAttribute('data-phase')); await page.waitForTimeout(55); }
+  assert.deepEqual([...phases].sort(),['idle','p1','p2','splash']);
+  const paths = await page.locator('.beam-svg > path').evaluateAll(nodes => nodes.map(n => n.getAttribute('d')));
+  assert(paths[0] && paths[0] === paths[1]);
+  checks.push('Animation traverses all four phases; both beam paths share measured coordinates.');
+  await page.locator('#node-x').click();
+  await page.waitForTimeout(100);
+  assert.equal(await page.locator('.icon-pipeline').getAttribute('data-phase'),'p1');
+  checks.push('Pipeline node click replays encryption animation.');
+  await page.locator('.btn-cta').hover();
+  await page.waitForTimeout(250);
+  assert.equal(await page.locator('.btn-cta').evaluate(n=>getComputedStyle(n).opacity),'0.9');
+  await page.locator('.btn-cta').click();
+  await page.locator('.btn-login').click();
+  await page.locator('.btn-signup').click();
+  checks.push('CTA and account links remain prompt-specified local # anchors; CTA hover verified.');
+  await page.setViewportSize({width:390,height:844});
+  await page.waitForTimeout(250);
+  assert(await page.locator('.menu-toggle').isVisible());
+  assert(!await page.locator('.nav-menu').isVisible());
+  assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+  const mobilePaths = await page.locator('.beam-svg > path').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('d')));
+  assert(mobilePaths[0] !== paths[0] && mobilePaths[0] === mobilePaths[1]);
+  await page.screenshot({path:'/work/screenshots/mobile.png',fullPage:true});
+  checks.push('Mobile 390×844: responsive sizes, wrapped brands, hidden navigation, updated beam geometry, no overflow.');
+  await page.locator('.menu-toggle').click();
+  await page.waitForTimeout(450);
+  assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'true');
+  assert.equal(await page.evaluate(()=>document.body.style.overflow),'hidden');
+  assert.equal(Math.round((await page.locator('.nav-menu').boundingBox()).x),0);
+  await page.screenshot({path:'/work/screenshots/mobile-menu.png',fullPage:true});
+  await page.getByRole('link',{name:'Method',exact:true}).click();
+  await page.waitForTimeout(450);
+  assert.equal(await page.evaluate(()=>document.body.style.overflow),'');
+  await page.locator('.menu-toggle').click();
+  await page.keyboard.press('Escape');
+  assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'false');
+  await page.locator('.menu-toggle').click();
+  await page.setViewportSize({width:1440,height:1000});
+  await page.waitForTimeout(100);
+  assert.equal(await page.evaluate(()=>document.body.style.overflow),'');
+  checks.push('Mobile menu opens, locks scrolling, closes on link selection and Escape; desktop resize resets menu.');
+  for(const width of [320,480,768,860,1600,1920]) {
+    await page.setViewportSize({width,height:1000}); await page.waitForTimeout(60);
+    assert(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth),`overflow at ${width}`);
+  }
+  checks.push('Additional widths 320, 480, 768, 860, 1600, 1920: no horizontal overflow.');
+  assert.equal(errors.length,0,errors.join('\n')); assert.equal(failedRequests.length,0,failedRequests.join('\n'));
+  checks.push('No browser script errors or failed asset requests.');
+  fs.writeFileSync('/work/screenshots/checks.json',JSON.stringify({checks,errors,failedRequests},null,2)+'\n');
+  console.log(JSON.stringify({checks,errors,failedRequests},null,2));
+  await browser.close(); server.close();
+})().catch(e=>{console.error(e);server.close();process.exit(1)});

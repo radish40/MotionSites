@@ -1,0 +1,60 @@
+{
+  "original_unavailable": [
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779707217/image_1_vdzwae.png",
+      "previous_status": 401,
+      "previous_response": "cloud_name dy5er7kv5 is disabled"
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706559/curtain_left_znkmva.png",
+      "previous_status": 401,
+      "previous_response": "cloud_name dy5er7kv5 is disabled"
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706564/curtain_right_paeyym.png",
+      "previous_status": 401,
+      "previous_response": "cloud_name dy5er7kv5 is disabled"
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706392/image_2_gkcdlx.png",
+      "previous_status": 401,
+      "previous_response": "cloud_name dy5er7kv5 is disabled"
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706555/bottom_clouds_xskut6.png",
+      "previous_status": 401,
+      "previous_response": "cloud_name dy5er7kv5 is disabled"
+    }
+  ],
+  "local_images": [
+    {
+      "source_url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260525_160507_2ccbb4eb-1469-484f-af25-59168ad9a233.png&w=1280&q=85",
+      "local_file": "public/assets/dream-1.webp",
+      "sha256": "85ec638eb7e269c1175ecd58721b1b0f9b3664b29c824a822506236534a33e1e",
+      "bytes": 106048
+    },
+    {
+      "source_url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260525_160644_072a7f68-a101-4ded-a332-7d37707dbdd1.png&w=1280&q=85",
+      "local_file": "public/assets/dream-2.webp",
+      "sha256": "7b1135fcfec7486c18e714c98873b35a5c28fa0dc26163ff1a50394572771c0b",
+      "bytes": 35778
+    },
+    {
+      "source_url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260525_160706_1c153d04-0dfb-4ac9-a4ef-e74f301c329c.png&w=1280&q=85",
+      "local_file": "public/assets/dream-3.webp",
+      "sha256": "195b1472af3c836d38308adc9f19ea3228e28e7e63c9be5deeba595c9d57cedf",
+      "bytes": 202564
+    }
+  ],
+  "usage": {
+    "world": "dream-1.webp",
+    "portal": "dream-3.webp with transparent elliptical mask",
+    "cards": [
+      "dream-1.webp",
+      "dream-2.webp",
+      "dream-3.webp"
+    ],
+    "curtains": "inline CSS gradients",
+    "clouds": "inline SVG / CSS"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/dreamcore-landing/",
+  "checked_at": "2026-10-29T03:46:28.027Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Step Into Wonder",
+      "bodyChars": 913,
+      "horizontalOverflow": -15,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/dreamcore-landing/assets/dream-1.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/dreamcore-landing/assets/dream-3.webp",
+          "loaded": true
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Step Into Wonder",
+      "bodyChars": 848,
+      "horizontalOverflow": -15,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/dreamcore-landing/assets/dream-1.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/dreamcore-landing/assets/dream-3.webp",
+          "loaded": true
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

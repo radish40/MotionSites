@@ -1,0 +1,312 @@
+{
+  "desktop": {
+    "title": "Step Into Wonder",
+    "fonts": {
+      "viaoda": true,
+      "imprima": true
+    },
+    "images": [
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-3.webp",
+        "loaded": true
+      }
+    ],
+    "cardBackgrounds": [
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-3.webp",
+        "loaded": true
+      }
+    ],
+    "layers": [
+      {
+        "layer": "world",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "layer": "clouds",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "layer": "portal",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "layer": "curtain-left",
+        "transform": "matrix(1, 0, 0, 1, -883.5, 0)"
+      },
+      {
+        "layer": "curtain-right",
+        "transform": "matrix(1, 0, 0, 1, 883.5, 0)"
+      }
+    ],
+    "cardCount": 9,
+    "overflow": {
+      "viewport": 1440,
+      "document": 1425,
+      "body": 1425
+    },
+    "exploreProgress": 0.84,
+    "scene2Opacity": "1",
+    "scroll": [
+      {
+        "progress": 0.3,
+        "portal": {
+          "transform": "translate(6.26641px, 6.55121px) scale(2.17)",
+          "opacity": "1"
+        },
+        "arc": "rotate(0deg)"
+      },
+      {
+        "progress": 0.7,
+        "portal": {
+          "transform": "translate(6.27371px, 6.55884px) scale(6.33)",
+          "opacity": "0.75"
+        },
+        "arc": "rotate(0deg)"
+      },
+      {
+        "progress": 1,
+        "portal": {
+          "transform": "translate(6.27769px, 6.563px) scale(7.5)",
+          "opacity": "0"
+        },
+        "arc": "rotate(-80deg)"
+      }
+    ],
+    "returnToTop": true,
+    "reelProgress": 0.84,
+    "descendProgress": 0.84,
+    "mouseTransform": "translate(2.86524px, 0.923569px) scale(1.17078)"
+  },
+  "mobile": {
+    "title": "Step Into Wonder",
+    "fonts": {
+      "viaoda": true,
+      "imprima": true
+    },
+    "images": [
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-3.webp",
+        "loaded": true
+      }
+    ],
+    "cardBackgrounds": [
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-3.webp",
+        "loaded": true
+      }
+    ],
+    "layers": [
+      {
+        "layer": "world",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "layer": "clouds",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "layer": "portal",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "layer": "curtain-left",
+        "transform": "matrix(1, 0, 0, 1, -232.5, 0)"
+      },
+      {
+        "layer": "curtain-right",
+        "transform": "matrix(1, 0, 0, 1, 232.5, 0)"
+      }
+    ],
+    "cardCount": 9,
+    "overflow": {
+      "viewport": 390,
+      "document": 375,
+      "body": 375
+    },
+    "exploreProgress": 0.8400374181478016,
+    "scene2Opacity": "1",
+    "scroll": [
+      {
+        "progress": 0.3,
+        "portal": {
+          "transform": "translate(0px, 0px) scale(2.16976)",
+          "opacity": "1"
+        },
+        "arc": "rotate(0deg)"
+      },
+      {
+        "progress": 0.7,
+        "portal": {
+          "transform": "translate(0px, 0px) scale(6.33024)",
+          "opacity": "0.749844"
+        },
+        "arc": "rotate(-0.0083151deg)"
+      },
+      {
+        "progress": 1,
+        "portal": {
+          "transform": "translate(0px, 0px) scale(7.5)",
+          "opacity": "0"
+        },
+        "arc": "rotate(-80deg)"
+      }
+    ],
+    "returnToTop": true,
+    "reelProgress": 0.8400374181478016
+  },
+  "tablet": {
+    "title": "Step Into Wonder",
+    "fonts": {
+      "viaoda": true,
+      "imprima": true
+    },
+    "images": [
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-3.webp",
+        "loaded": true
+      }
+    ],
+    "cardBackgrounds": [
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-3.webp",
+        "loaded": true
+      }
+    ],
+    "layers": [
+      {
+        "layer": "world",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "layer": "clouds",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "layer": "portal",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      {
+        "layer": "curtain-left",
+        "transform": "matrix(1, 0, 0, 1, -507.78, 0)"
+      },
+      {
+        "layer": "curtain-right",
+        "transform": "matrix(1, 0, 0, 1, 507.78, 0)"
+      }
+    ],
+    "cardCount": 9,
+    "overflow": {
+      "viewport": 834,
+      "document": 819,
+      "body": 819
+    },
+    "exploreProgress": 0.84,
+    "scene2Opacity": "1",
+    "scroll": [
+      {
+        "progress": 0.3,
+        "portal": {
+          "transform": "translate(5.74736px, 6.55411px) scale(2.17)",
+          "opacity": "1"
+        },
+        "arc": "rotate(0deg)"
+      },
+      {
+        "progress": 0.7,
+        "portal": {
+          "transform": "translate(5.75428px, 6.562px) scale(6.33)",
+          "opacity": "0.75"
+        },
+        "arc": "rotate(0deg)"
+      },
+      {
+        "progress": 1,
+        "portal": {
+          "transform": "translate(5.75661px, 6.56465px) scale(7.5)",
+          "opacity": "0"
+        },
+        "arc": "rotate(-80deg)"
+      }
+    ],
+    "returnToTop": true,
+    "reelProgress": 0.84
+  },
+  "assetFailures": [],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "imageRequests": [
+    {
+      "name": "desktop",
+      "url": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-1.webp"
+    },
+    {
+      "name": "desktop",
+      "url": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-3.webp"
+    },
+    {
+      "name": "desktop",
+      "url": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-2.webp"
+    },
+    {
+      "name": "mobile",
+      "url": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-1.webp"
+    },
+    {
+      "name": "mobile",
+      "url": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-3.webp"
+    },
+    {
+      "name": "mobile",
+      "url": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-2.webp"
+    },
+    {
+      "name": "tablet",
+      "url": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-1.webp"
+    },
+    {
+      "name": "tablet",
+      "url": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-3.webp"
+    },
+    {
+      "name": "tablet",
+      "url": "http://localhost:4173/motionsites-results/dreamcore-landing/assets/dream-2.webp"
+    }
+  ]
+}

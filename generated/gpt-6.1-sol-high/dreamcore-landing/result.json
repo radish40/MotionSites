@@ -1,0 +1,132 @@
+{
+  "title": "Dreamcore Landing",
+  "id": "dreamcore-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/dreamcore-landing:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "typescript_and_production_build": {
+      "status": "passed",
+      "command": "npm run build",
+      "output": "dist/index.html",
+      "vite_version": "6.4.5"
+    },
+    "production_subpath": {
+      "status": "passed",
+      "path": "/motionsites-results/dreamcore-landing/"
+    },
+    "browser": {
+      "status": "passed",
+      "engine": "Chromium via playwright-core",
+      "report": "browser-checks.json",
+      "javascript_exceptions": [],
+      "console_errors": [],
+      "resource_failures": [],
+      "all_image_requests_local": true
+    },
+    "viewports": {
+      "desktop": {
+        "size": "1440x1000",
+        "horizontal_overflow": false,
+        "fonts": {
+          "viaoda": true,
+          "imprima": true
+        },
+        "scene2_opacity_after_explore": "1",
+        "return_to_top": true,
+        "view_reel_scroll_progress": 0.84,
+        "scroll_parallax_and_arc": "passed at 30%, 70%, 100%",
+        "arc_card_count": 9
+      },
+      "mobile": {
+        "size": "390x844",
+        "horizontal_overflow": false,
+        "fonts": {
+          "viaoda": true,
+          "imprima": true
+        },
+        "scene2_opacity_after_explore": "1",
+        "return_to_top": true,
+        "view_reel_scroll_progress": 0.8400374181478016,
+        "scroll_parallax_and_arc": "passed at 30%, 70%, 100%",
+        "arc_card_count": 9
+      },
+      "tablet": {
+        "size": "834x1000",
+        "horizontal_overflow": false,
+        "fonts": {
+          "viaoda": true,
+          "imprima": true
+        },
+        "scene2_opacity_after_explore": "1",
+        "return_to_top": true,
+        "view_reel_scroll_progress": 0.84,
+        "scroll_parallax_and_arc": "passed at 30%, 70%, 100%",
+        "arc_card_count": 9
+      }
+    },
+    "visual_review": {
+      "status": "passed_authorized_asset_replacement",
+      "screenshots": [
+        "screenshots/desktop.png",
+        "screenshots/mobile.png",
+        "screenshots/desktop-scene2.png",
+        "screenshots/mobile-scene2.png"
+      ],
+      "notes": "Updated desktop/mobile screenshots inspected for both scenes. Local source images and code-drawn curtains/clouds are intentional authorized replacements, not a restoration of original pixels."
+    },
+    "local_assets": {
+      "status": "passed",
+      "files": [
+        "public/assets/dream-1.webp",
+        "public/assets/dream-2.webp",
+        "public/assets/dream-3.webp"
+      ],
+      "manifest": "asset-sources.json",
+      "published_cloudinary_references": 0,
+      "all_scene_and_card_images_decoded": true
+    }
+  },
+  "asset_issues": [
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706555/bottom_clouds_xskut6.png",
+      "reason": "cloud_name dy5er7kv5 is disabled",
+      "impact": "Resolved by authorized replacement. Original URL is documentation only and is never requested by the running page.",
+      "historical_status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706564/curtain_right_paeyym.png",
+      "reason": "cloud_name dy5er7kv5 is disabled",
+      "impact": "Resolved by authorized replacement. Original URL is documentation only and is never requested by the running page.",
+      "historical_status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779707217/image_1_vdzwae.png",
+      "reason": "cloud_name dy5er7kv5 is disabled",
+      "impact": "Resolved by authorized replacement. Original URL is documentation only and is never requested by the running page.",
+      "historical_status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706559/curtain_left_znkmva.png",
+      "reason": "cloud_name dy5er7kv5 is disabled",
+      "impact": "Resolved by authorized replacement. Original URL is documentation only and is never requested by the running page.",
+      "historical_status": 401
+    },
+    {
+      "url": "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706392/image_2_gkcdlx.png",
+      "reason": "cloud_name dy5er7kv5 is disabled",
+      "impact": "Resolved by authorized replacement. Original URL is documentation only and is never requested by the running page.",
+      "historical_status": 401
+    }
+  ],
+  "notes": [
+    "已按授权完成素材替代修复，ready 表示本地替代版本可交付验收；未推送、部署或发送通知。",
+    "三张提示词可用图已原样保存到 public/assets/ 并随 dist 发布；场景和卡片不再依赖外部图床。",
+    "世界使用原卡片 1，门框使用原卡片 3 加椭圆透明遮罩，左右帷幕使用 CSS 渐变和遮罩，云层使用 SVG 椭圆、渐变与模糊。",
+    "这些替代的世界构图、门框开口、帷幕纹理和云层轮廓均与无法取得的原图有差异，没有恢复原始像素。",
+    "五张失效 Cloudinary 地址仅存于 README.md、asset-sources.json、原任务提示词与本记录；运行时无 401 请求。",
+    "完整保留两幕、开场帷幕、鼠标及滚动视差、弧形九卡与导航/View Reel/Descend/返回顶部交互。",
+    "实际生产构建及 Chromium 1440x1000、390x844、834x1000 检查通过；零资源失败、零脚本异常、零控制台错误、无横向溢出，四张截图已更新。",
+    "Google Fonts Viaoda Libre/Imprima 仍按原要求远程加载，检查时正常；这是唯一剩余的外部素材依赖。",
+    "未使用整个预览截图充当页面；图片来源及 SHA-256 校验见 asset-sources.json。"
+  ]
+}

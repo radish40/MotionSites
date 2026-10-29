@@ -1,0 +1,121 @@
+{
+  "url": "http://localhost:4173/motionsites-results/codercrest-hero/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "title": "CoderCrest",
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "sectionHeight": 1000,
+      "contentMarginTop": "380px",
+      "buttonInViewport": true,
+      "videos": [
+        {
+          "source": "blob:http://localhost:4173/6c32db49-164f-4db2-a2e8-af01905ff7f1",
+          "playing": true,
+          "time": 2.4888,
+          "readyState": 4,
+          "width": 1920,
+          "height": 832,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "error": null
+        },
+        {
+          "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260424_090051_64ea5059-da6b-492b-a171-aa7ecc767dc3.mp4",
+          "playing": true,
+          "time": 2.924621,
+          "readyState": 4,
+          "width": 2880,
+          "height": 2880,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "error": null
+        },
+        {
+          "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260424_093237_ff0ddc63-c068-4e29-96da-fdd0e40af133.mp4",
+          "playing": true,
+          "time": 2.772587,
+          "readyState": 4,
+          "width": 960,
+          "height": 960,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "error": null
+        }
+      ],
+      "font": "\"YDYoonche L\", \"YDYoonche M\", sans-serif",
+      "interactions": {
+        "hover": {
+          "scale": "1.03",
+          "shadow": "rgba(39, 243, 169, 0.22) 0px 6px 32px 8px"
+        },
+        "activeScale": "0.98",
+        "keyboardFocus": true,
+        "keyboardActivation": "passed"
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "title": "CoderCrest",
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "sectionHeight": 844,
+      "contentMarginTop": "380px",
+      "buttonInViewport": true,
+      "videos": [
+        {
+          "source": "blob:http://localhost:4173/4e912bc5-792e-4ec0-9114-4aad1d30250f",
+          "playing": true,
+          "time": 1.525231,
+          "readyState": 4,
+          "width": 1920,
+          "height": 832,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "error": null
+        },
+        {
+          "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260424_090051_64ea5059-da6b-492b-a171-aa7ecc767dc3.mp4",
+          "playing": true,
+          "time": 1.920809,
+          "readyState": 4,
+          "width": 2880,
+          "height": 2880,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "error": null
+        },
+        {
+          "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260424_093237_ff0ddc63-c068-4e29-96da-fdd0e40af133.mp4",
+          "playing": true,
+          "time": 1.810394,
+          "readyState": 4,
+          "width": 960,
+          "height": 960,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "error": null
+        }
+      ],
+      "font": "\"YDYoonche L\", \"YDYoonche M\", sans-serif",
+      "interactions": {
+        "tap": "passed"
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "status": "passed"
+}

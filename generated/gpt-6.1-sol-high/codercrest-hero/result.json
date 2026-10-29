@@ -1,0 +1,41 @@
+{
+  "title": "CoderCrest",
+  "id": "codercrest-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/codercrest-hero:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "dist_index_exists": true,
+    "base_path": "/motionsites-results/codercrest-hero/",
+    "browser": "Chromium via playwright-core in temporary Docker container",
+    "desktop": { "viewport": "1440x1000", "status": "passed", "screenshot": "screenshots/desktop.png" },
+    "mobile": { "viewport": "390x844", "status": "passed", "screenshot": "screenshots/mobile.png" },
+    "all_three_videos_playing": true,
+    "muted_loop_inline": "passed",
+    "horizontal_overflow": false,
+    "vertical_overflow": false,
+    "button_visible": true,
+    "button_hover_scale_and_glow": "passed",
+    "button_active_scale": "passed",
+    "keyboard_focus_and_activation": "passed",
+    "mobile_tap": "passed",
+    "script_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "screenshots_visually_reviewed": true,
+    "report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    "YDYoonche L/M font files or provider were not supplied. The exact requested font family is declared and the allowed sans-serif fallback is used."
+  ],
+  "notes": [
+    "Ready means ready for review, not deployed.",
+    "Only this CoderCrest project was implemented; no agents, additional sessions, pushes, deployments, or messages to others were used.",
+    "All three specified remote video assets returned HTTP 200 and played in both tested viewports.",
+    "Native HLS fallback is implemented but not verified in Safari.",
+    "CTA destination was unspecified; only the requested button interactions are implemented.",
+    "Vite emitted a non-fatal bundle-size warning for the hls.js-containing JavaScript bundle.",
+    "The exact 380px margin and responsive wrapping from the prompt are retained."
+  ]
+}

@@ -5067,19 +5067,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18672-32a7-7713-be0e-1eaf417e818f",
       "output_path": "generated/gpt-6.1-sol-high/interior-features",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3152633,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:56:33.209914+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "4bf8e4cf81239f56180e1c2b333857829f2713d1",
+      "url": "https://tool.luo-xd.com/motionsites-results/interior-features/",
+      "completed_utc": "2026-10-29T07:03:48.684650+00:00",
+      "group_message_id": 202
     },
     {
       "number": 149,
@@ -5192,14 +5196,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18676-9b85-7e83-9b60-3998c08a11e3",
       "output_path": "generated/gpt-6.1-sol-high/kova-testimonial",
       "validation": "",
       "notes": "",
       "process_id": 3170347,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:01:22.349543+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 153,
@@ -5218,14 +5226,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18676-9c22-7890-8aac-639124a03fb3",
       "output_path": "generated/gpt-6.1-sol-high/launchex-about",
       "validation": "",
       "notes": "",
       "process_id": 3170390,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:01:22.476338+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 154,
@@ -5243,11 +5255,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/launchex-submissions",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3177584,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:03:19.598063+00:00",
+      "worker_state": "running"
     },
     {
       "number": 155,
@@ -10222,7 +10238,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:02:23.182615+00:00",
+  "updated_utc": "2026-10-29T07:03:48.865332+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

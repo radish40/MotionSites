@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:02:23.182615+00:00",
+  "updated_utc": "2026-10-29T07:03:48.865332+00:00",
   "total": 380,
   "counts": {
-    "complete": 148,
+    "complete": 149,
     "running": 5,
-    "not_started": 227
+    "not_started": 226
   },
   "jobs": [
     {
@@ -1481,11 +1481,11 @@
       "id": "interior-features",
       "title": "Interior Features",
       "category": "Features Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18672-32a7-7713-be0e-1eaf417e818f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "4bf8e4cf81239f56180e1c2b333857829f2713d1",
+      "group_message_id": 202,
+      "url": "https://tool.luo-xd.com/motionsites-results/interior-features/"
     },
     {
       "id": "investment-hero",
@@ -1522,7 +1522,7 @@
       "title": "Kova Testimonial",
       "category": "Testimonials",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18676-9b85-7e83-9b60-3998c08a11e3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1532,7 +1532,7 @@
       "title": "LaunchEx About",
       "category": "About Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18676-9c22-7890-8aac-639124a03fb3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1541,7 +1541,7 @@
       "id": "launchex-submissions",
       "title": "LaunchEx Submissions",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

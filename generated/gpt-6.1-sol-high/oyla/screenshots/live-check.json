@@ -1,0 +1,117 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/oyla/",
+  "checked_at": "2026-10-29T04:52:23.787Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "OYLA — Measured Purity",
+      "bodyChars": 732,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/obsidian.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/void.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/onyx.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/shadow.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/obsidian.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/void.webp",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/hero.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/craft.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "OYLA — Measured Purity",
+      "bodyChars": 732,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/obsidian.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/void.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/onyx.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/shadow.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/obsidian.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/void.webp",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/hero.mp4",
+          "readyState": 4,
+          "paused": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/oyla/assets/craft.mp4",
+          "readyState": 4,
+          "paused": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "mode": "production",
+  "api": {
+    "success": true,
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_39ca84eAE1ODL9hbR5VhoEj8tBf/hf_20260627_212146_743b92b3-40a3-46cb-988d-7bf716564ec3.mp4"
+  },
+  "secondApi": {
+    "success": true,
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_39ca84eAE1ODL9hbR5VhoEj8tBf/hf_20260628_122130_8b16d300-75cb-49f5-82ce-afd6b79c2d79.mp4"
+  },
+  "invalidApiStatus": 400,
+  "breakpoints": [
+    {
+      "width": 1000,
+      "overflow": false,
+      "card": 500,
+      "columns": "500px 500px",
+      "footerColumns": "428px 428px",
+      "triggers": 12,
+      "spacer": 590,
+      "footer": 590
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "card": 331.5,
+      "columns": "390px",
+      "footerColumns": "358px",
+      "triggers": 12,
+      "spacer": 644,
+      "footer": 644
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "card": 480,
+      "columns": "720px 720px",
+      "footerColumns": "404.75px 337.297px 505.953px",
+      "triggers": 12,
+      "spacer": 379,
+      "footer": 379
+    }
+  ],
+  "horizontal": "matrix(1, 0, 0, 1, -1425.6, 0)",
+  "fullReveal": 1439.046875,
+  "errors": [],
+  "externalNetworkFallback": {
+    "gsap": "3.12.5",
+    "videoSources": [
+      "http://localhost:3000/motionsites-results/oyla/assets/hero.mp4",
+      "http://localhost:3000/motionsites-results/oyla/assets/craft.mp4"
+    ],
+    "images": true,
+    "fonts": true
+  }
+}

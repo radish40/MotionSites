@@ -1,0 +1,42 @@
+{
+  "title": "OYLA",
+  "id": "oyla",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: dist/index.html and dist/server.cjs generated",
+    "production_browser": "passed: Chromium 1440x1000 and 390x844",
+    "development_browser": "passed: Express + Vite SPA middleware",
+    "responsive_resize": "passed: 1000px, 390px, 1440px; no overflow or duplicated triggers",
+    "interactions": "passed: navigation, menu, bag, collection, DISCOVER, newsletter alert",
+    "scroll_animations": "passed: both guarded video scrubbers, horizontal carousel, video reveal, copy/stats",
+    "footer": "passed: fixed reveal and dynamically matching spacer",
+    "higgsfield_proxy": "passed: both supplied share pages returned direct MP4 URLs; invalid host rejected",
+    "asset_loading": "passed: supplied videos, product images, Instrument Serif and Inter Tight",
+    "external_network_fallback": "passed: bundled media, fonts and GSAP with external requests blocked",
+    "script_errors": 0,
+    "failed_requests": 0,
+    "http_errors": 0,
+    "npm_audit": "passed: zero vulnerabilities",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "evidence": [
+      "screenshots/browser-report.json",
+      "screenshots/production-smoke.json",
+      "screenshots/development-smoke.json",
+      "audit.json"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session review; not deployed.",
+    "Static assets support /motionsites-results/oyla/. Source, configuration, lockfile and build output are included.",
+    "Exact supplied media and fonts are bundled locally; specified GSAP CDN has local fallbacks.",
+    "Newsletter is the specified alert-only interaction; no store, account or legal-policy backend is connected.",
+    "Instagram profile URL and original SVG logo paths were not supplied; see README for preview behavior.",
+    "Added studio heading clearance to avoid fixed-header overlap.",
+    "Only this OYLA project was handled. No agents, other sessions, pushes, deployment or messages."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "initial": {
+      "title": "OYLA — Measured Purity",
+      "overflow": false,
+      "videos": [
+        {
+          "duration": 5.041667,
+          "readyState": 4,
+          "paused": true,
+          "source": "http://localhost:3000/motionsites-results/oyla/assets/hero.mp4"
+        },
+        {
+          "duration": 4.041667,
+          "readyState": 4,
+          "paused": true,
+          "source": "http://localhost:3000/motionsites-results/oyla/assets/craft.mp4"
+        }
+      ],
+      "fonts": [
+        true,
+        true
+      ],
+      "images": true,
+      "triggers": 12
+    },
+    "menuOpen": true,
+    "bag": true,
+    "about": {
+      "y": 9440,
+      "top": 0,
+      "overflow": false
+    },
+    "collection": {
+      "top": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "reveal": {
+      "width": 1051,
+      "videoTime": 1.800843
+    },
+    "heroSeek": 3.104797,
+    "footer": {
+      "atBottom": true,
+      "top": 621.21875,
+      "spacer": 379,
+      "height": 379,
+      "overflow": false
+    },
+    "newsletter": "You're on the list. Welcome.",
+    "errors": [],
+    "failed": [],
+    "http": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "initial": {
+      "title": "OYLA — Measured Purity",
+      "overflow": false,
+      "videos": [
+        {
+          "duration": 5.041667,
+          "readyState": 4,
+          "paused": true,
+          "source": "https://d8j0ntlcm91z4.cloudfront.net/user_39ca84eAE1ODL9hbR5VhoEj8tBf/hf_20260627_212146_743b92b3-40a3-46cb-988d-7bf716564ec3.mp4"
+        },
+        {
+          "duration": 4.041667,
+          "readyState": 4,
+          "paused": true,
+          "source": "https://d8j0ntlcm91z4.cloudfront.net/user_39ca84eAE1ODL9hbR5VhoEj8tBf/hf_20260628_122130_8b16d300-75cb-49f5-82ce-afd6b79c2d79.mp4"
+        }
+      ],
+      "fonts": [
+        true,
+        true
+      ],
+      "images": true,
+      "triggers": 12
+    },
+    "menuOpen": true,
+    "bag": true,
+    "about": {
+      "y": 8351,
+      "top": 0,
+      "overflow": false
+    },
+    "collection": {
+      "top": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "reveal": {
+      "width": 284.8125,
+      "videoTime": 1.878813
+    },
+    "heroSeek": 3.273176,
+    "footer": {
+      "atBottom": true,
+      "top": 199.625,
+      "spacer": 644,
+      "height": 644,
+      "overflow": false
+    },
+    "newsletter": "You're on the list. Welcome.",
+    "errors": [],
+    "failed": [],
+    "http": []
+  }
+}

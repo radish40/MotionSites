@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T07:50:09.281117+00:00",
+  "updated_utc": "2026-10-29T07:51:58.822264+00:00",
   "total": 380,
   "counts": {
-    "complete": 183,
+    "complete": 185,
     "running": 5,
-    "not_started": 192
+    "needs_fix": 1,
+    "not_started": 189
   },
   "jobs": [
     {
@@ -1851,28 +1852,28 @@
       "id": "no-code-waitlist",
       "title": "No-Code Waitlist",
       "category": "Waitlist & Coming Soon",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a0-b0e3-76c0-a910-359d512cdc6f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "2e2db287837ae6af44528c525b63f722727d58fb",
+      "group_message_id": 240,
+      "url": "https://tool.luo-xd.com/motionsites-results/no-code-waitlist/"
     },
     {
       "id": "novadesk-signup",
       "title": "NovaDesk Signup",
       "category": "Waitlist & Coming Soon",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a0-b1b6-7651-95af-3762b069ebc0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "8335764cf44cb57899a26784ea125f82da47e3ff",
+      "group_message_id": 241,
+      "url": "https://tool.luo-xd.com/motionsites-results/novadesk-signup/"
     },
     {
       "id": "obsidian-hero",
       "title": "Obsidian Hero",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a2-4c46-7820-9dd5-2448c19d4b83",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1881,8 +1882,8 @@
       "id": "orbis-cards",
       "title": "Orbis Cards",
       "category": "Cards",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a186a2-4cd1-7062-a5af-823f9d116406",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1891,7 +1892,7 @@
       "id": "orbis-cta",
       "title": "Orbis CTA",
       "category": "CTA Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1901,7 +1902,7 @@
       "id": "orbis-hello",
       "title": "Orbis Hello",
       "category": "About Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1911,7 +1912,7 @@
       "id": "organic-odyssey",
       "title": "Organic Odyssey",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

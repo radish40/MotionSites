@@ -6332,19 +6332,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a0-b0e3-76c0-a910-359d512cdc6f",
       "output_path": "generated/gpt-6.1-sol-high/no-code-waitlist",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3337564,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:47:20.312226+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "2e2db287837ae6af44528c525b63f722727d58fb",
+      "url": "https://tool.luo-xd.com/motionsites-results/no-code-waitlist/",
+      "completed_utc": "2026-10-29T07:51:31.582561+00:00",
+      "group_message_id": 240
     },
     {
       "number": 186,
@@ -6362,19 +6366,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a0-b1b6-7651-95af-3762b069ebc0",
       "output_path": "generated/gpt-6.1-sol-high/novadesk-signup",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3337600,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:47:20.437282+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "8335764cf44cb57899a26784ea125f82da47e3ff",
+      "url": "https://tool.luo-xd.com/motionsites-results/novadesk-signup/",
+      "completed_utc": "2026-10-29T07:51:58.643870+00:00",
+      "group_message_id": 241
     },
     {
       "number": 187,
@@ -6393,14 +6401,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a2-4c46-7820-9dd5-2448c19d4b83",
       "output_path": "generated/gpt-6.1-sol-high/obsidian-hero",
       "validation": "",
       "notes": "",
       "process_id": 3343805,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:49:05.570079+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 188,
@@ -6418,15 +6430,19 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a186a2-4cd1-7062-a5af-823f9d116406",
       "output_path": "generated/gpt-6.1-sol-high/orbis-cards",
       "validation": "",
-      "notes": "",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 3343830,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:49:05.690606+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 189,
@@ -6444,11 +6460,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/orbis-cta",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3351644,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:51:05.146410+00:00",
+      "worker_state": "running"
     },
     {
       "number": 190,
@@ -6466,11 +6486,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/orbis-hello",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3351716,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:51:05.276411+00:00",
+      "worker_state": "running"
     },
     {
       "number": 191,
@@ -6488,11 +6512,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/organic-odyssey",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3351778,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:51:05.407734+00:00",
+      "worker_state": "running"
     },
     {
       "number": 192,
@@ -10653,7 +10681,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:50:09.281117+00:00",
+  "updated_utc": "2026-10-29T07:51:58.822264+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

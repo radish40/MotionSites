@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:05:51.512826+00:00",
+  "updated_utc": "2026-10-29T04:09:00.084663+00:00",
   "total": 380,
   "counts": {
-    "complete": 18,
-    "running": 5,
-    "not_started": 357
+    "complete": 21,
+    "running": 6,
+    "not_started": 353
   },
   "jobs": [
     {
@@ -201,38 +201,38 @@
       "id": "ai-designer-agency",
       "title": "AI Designer Agency",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d0-3722-7392-b7f5-38103d36b467",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "850995fc8f4bd8e8360cc97796c545a41d6c9c24",
+      "group_message_id": 67,
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/"
     },
     {
       "id": "convix-software-hero",
       "title": "SAAS Software",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d2-b27c-7101-85b6-8ab3a3d8be43",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b0133e1e08274485f62e867c4ba75847e8a5f9bd",
+      "group_message_id": 68,
+      "url": "https://tool.luo-xd.com/motionsites-results/convix-software-hero/"
     },
     {
       "id": "dot-hero",
       "title": "Dot",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d2-b384-7261-8694-d969bc297f1e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b0713c1a3c969c689b38f8b7061dd28026b01c18",
+      "group_message_id": 69,
+      "url": "https://tool.luo-xd.com/motionsites-results/dot-hero/"
     },
     {
       "id": "orbit-engineers",
       "title": "Orbit Engineers",
       "category": "Agency",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d5-2431-7822-9d20-ea90b78ecdc1",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -241,7 +241,7 @@
       "id": "3d-studio-pricing",
       "title": "3D Studio Pricing",
       "category": "Pricing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -251,7 +251,7 @@
       "id": "adhd-planner",
       "title": "ADHD Planner",
       "category": "Mobile App",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -261,7 +261,7 @@
       "id": "ai-driving-assistant",
       "title": "AI Driving Assistant",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -271,7 +271,7 @@
       "id": "ai-interface",
       "title": "AI Interface",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

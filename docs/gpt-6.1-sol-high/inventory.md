@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 18/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 21/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -104,14 +104,14 @@
 | 17 | `ember-dsgn-hero` | EMBER.dsgn | Hero Section | 2 | 图片 | 已完成 |
 | 18 | `solar-energy-hero` | Solar Energy Hero | Hero Section | 2 | 图片 | 已完成 |
 | 19 | `halo-usd-landing` | USD Halo | Landing Page | 2 | 图片 | 生成中 |
-| 20 | `ai-designer-agency` | AI Designer Agency | Landing Page | 1 | 视频 | 生成中 |
-| 21 | `convix-software-hero` | SAAS Software | SaaS | 1 | 图片 | 生成中 |
-| 22 | `dot-hero` | Dot | Hero Section | 1 | 图片 | 生成中 |
+| 20 | `ai-designer-agency` | AI Designer Agency | Landing Page | 1 | 视频 | 已完成 |
+| 21 | `convix-software-hero` | SAAS Software | SaaS | 1 | 图片 | 已完成 |
+| 22 | `dot-hero` | Dot | Hero Section | 1 | 图片 | 已完成 |
 | 23 | `orbit-engineers` | Orbit Engineers | Agency | 1 | 视频 | 生成中 |
-| 24 | `3d-studio-pricing` | 3D Studio Pricing | Pricing Page | 2 | 视频 | 未开始 |
-| 25 | `adhd-planner` | ADHD Planner | Mobile App | 1 | 视频 | 未开始 |
-| 26 | `ai-driving-assistant` | AI Driving Assistant | SaaS | 2 | 视频 | 未开始 |
-| 27 | `ai-interface` | AI Interface | Landing Page | 2 | 视频 | 未开始 |
+| 24 | `3d-studio-pricing` | 3D Studio Pricing | Pricing Page | 2 | 视频 | 生成中 |
+| 25 | `adhd-planner` | ADHD Planner | Mobile App | 1 | 视频 | 生成中 |
+| 26 | `ai-driving-assistant` | AI Driving Assistant | SaaS | 2 | 视频 | 生成中 |
+| 27 | `ai-interface` | AI Interface | Landing Page | 2 | 视频 | 生成中 |
 | 28 | `ai-meeting-notes` | AI Meeting Notes | SaaS | 2 | 视频 | 未开始 |
 | 29 | `ai-workflow-agents` | AI Workflow Agents | SaaS | 1 | 视频 | 未开始 |
 | 30 | `cargo-group` | Cargo Group | Hero Section | 2 | 视频 | 未开始 |

@@ -632,16 +632,19 @@
       "status": "running",
       "thread_id": "01a185d0-3526-7733-bb95-b1071d7e1782",
       "output_path": "generated/gpt-6.1-sol-high/halo-usd-landing",
-      "validation": "",
-      "notes": "",
-      "process_id": 2534585,
+      "validation": "Live browser check failed; see screenshots/live-check.json",
+      "notes": "Same original session is repairing observed production font 404s.",
+      "process_id": 2569685,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:59:37.072473+00:00",
-      "worker_state": "running",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "delivery_failures": 0,
+      "repair_attempts": 1,
+      "previous_delivery_failures": 1
     },
     {
       "number": 20,
@@ -659,19 +662,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d0-3722-7392-b7f5-38103d36b467",
       "output_path": "generated/gpt-6.1-sol-high/ai-designer-agency",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2534700,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:59:37.409653+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "850995fc8f4bd8e8360cc97796c545a41d6c9c24",
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-designer-agency/",
+      "completed_utc": "2026-10-29T04:07:30.727635+00:00",
+      "group_message_id": 67
     },
     {
       "number": 21,
@@ -689,19 +696,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d2-b27c-7101-85b6-8ab3a3d8be43",
       "output_path": "generated/gpt-6.1-sol-high/convix-software-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2547850,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:02:20.311056+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b0133e1e08274485f62e867c4ba75847e8a5f9bd",
+      "url": "https://tool.luo-xd.com/motionsites-results/convix-software-hero/",
+      "completed_utc": "2026-10-29T04:08:08.514657+00:00",
+      "group_message_id": 68
     },
     {
       "number": 22,
@@ -719,19 +730,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d2-b384-7261-8694-d969bc297f1e",
       "output_path": "generated/gpt-6.1-sol-high/dot-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2547885,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:02:20.421985+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b0713c1a3c969c689b38f8b7061dd28026b01c18",
+      "url": "https://tool.luo-xd.com/motionsites-results/dot-hero/",
+      "completed_utc": "2026-10-29T04:08:59.868342+00:00",
+      "group_message_id": 69
     },
     {
       "number": 23,
@@ -750,14 +765,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d5-2431-7822-9d20-ea90b78ecdc1",
       "output_path": "generated/gpt-6.1-sol-high/orbit-engineers",
       "validation": "",
       "notes": "",
       "process_id": 2557317,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:05:00.389293+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 24,
@@ -775,11 +794,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/3d-studio-pricing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2561863,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:06:44.107566+00:00",
+      "worker_state": "running"
     },
     {
       "number": 25,
@@ -797,11 +820,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/adhd-planner",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2561898,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:06:44.209885+00:00",
+      "worker_state": "running"
     },
     {
       "number": 26,
@@ -819,11 +846,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/ai-driving-assistant",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2561940,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:06:44.319398+00:00",
+      "worker_state": "running"
     },
     {
       "number": 27,
@@ -841,11 +872,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/ai-interface",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2562063,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:06:44.484725+00:00",
+      "worker_state": "running"
     },
     {
       "number": 28,
@@ -8614,5 +8649,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:05:51.512826+00:00"
+  "updated_utc": "2026-10-29T04:09:00.084663+00:00"
 }

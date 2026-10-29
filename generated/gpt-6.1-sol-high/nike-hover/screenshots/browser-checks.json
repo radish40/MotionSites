@@ -1,0 +1,256 @@
+{
+  "desktop": {
+    "layout": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "document": [
+        1440,
+        1000
+      ],
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000,
+        "top": 0,
+        "right": 1440,
+        "bottom": 1000,
+        "left": 0
+      },
+      "fonts": {
+        "manrope": true,
+        "instrument": true
+      },
+      "boxes": [
+        {
+          "element": ".stats",
+          "rect": {
+            "x": 315.1875,
+            "y": 200,
+            "width": 320,
+            "height": 176.25,
+            "top": 200,
+            "right": 635.1875,
+            "bottom": 376.25,
+            "left": 315.1875
+          }
+        },
+        {
+          "element": ".headline",
+          "rect": {
+            "x": 115.1875,
+            "y": 691.25,
+            "width": 400.8125,
+            "height": 188.75,
+            "top": 691.25,
+            "right": 516,
+            "bottom": 880,
+            "left": 115.1875
+          }
+        },
+        {
+          "element": ".brand",
+          "rect": {
+            "x": 1044.8125,
+            "y": 752,
+            "width": 180,
+            "height": 128,
+            "top": 752,
+            "right": 1224.8125,
+            "bottom": 880,
+            "left": 1044.8125
+          }
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": true,
+        "error": null
+      }
+    },
+    "hoverPlays": true,
+    "videoTimeAdvances": true,
+    "leavePauses": true,
+    "leftHoverPlays": true,
+    "spotlight": [
+      {
+        "x": 376.7393721682909,
+        "y": 744.0947497736486
+      },
+      {
+        "x": 493.6989017016847,
+        "y": 690.1638492004415
+      },
+      {
+        "x": 626.0273142953149,
+        "y": 625.735729014918
+      },
+      {
+        "x": 758.522142417673,
+        "y": 559.3454570460123
+      },
+      {
+        "x": 873.6257308154503,
+        "y": 500.79151681095414
+      },
+      {
+        "x": 958.2387062984337,
+        "y": 457.42898771229
+      }
+    ]
+  },
+  "mobile": {
+    "layout": {
+      "viewport": [
+        390,
+        844
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "top": 0,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      },
+      "fonts": {
+        "manrope": true,
+        "instrument": true
+      },
+      "boxes": [
+        {
+          "element": ".stats",
+          "rect": {
+            "x": 55,
+            "y": 67.515625,
+            "width": 280,
+            "height": 160.25,
+            "top": 67.515625,
+            "right": 335,
+            "bottom": 227.765625,
+            "left": 55
+          }
+        },
+        {
+          "element": ".headline",
+          "rect": {
+            "x": 16,
+            "y": 486.0625,
+            "width": 218.625,
+            "height": 104.75,
+            "top": 486.0625,
+            "right": 234.625,
+            "bottom": 590.8125,
+            "left": 16
+          }
+        },
+        {
+          "element": ".brand",
+          "rect": {
+            "x": 125,
+            "y": 685.375,
+            "width": 140,
+            "height": 108,
+            "top": 685.375,
+            "right": 265,
+            "bottom": 793.375,
+            "left": 125
+          }
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "error": null
+      }
+    },
+    "autoplays": true,
+    "touchSpotlight": {
+      "x": 235.74672976197817,
+      "y": 364.8642940637377,
+      "radius": 280
+    }
+  },
+  "tablet": {
+    "layout": {
+      "viewport": [
+        768,
+        1024
+      ],
+      "document": [
+        768,
+        1024
+      ],
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 1024,
+        "top": 0,
+        "right": 768,
+        "bottom": 1024,
+        "left": 0
+      },
+      "fonts": {
+        "manrope": true,
+        "instrument": true
+      },
+      "boxes": [
+        {
+          "element": ".stats",
+          "rect": {
+            "x": 38.390625,
+            "y": 184.3125,
+            "width": 320,
+            "height": 176.25,
+            "top": 184.3125,
+            "right": 358.390625,
+            "bottom": 360.5625,
+            "left": 38.390625
+          }
+        },
+        {
+          "element": ".headline",
+          "rect": {
+            "x": 38.390625,
+            "y": 762.75,
+            "width": 291.5,
+            "height": 138.375,
+            "top": 762.75,
+            "right": 329.890625,
+            "bottom": 901.125,
+            "left": 38.390625
+          }
+        },
+        {
+          "element": ".brand",
+          "rect": {
+            "x": 549.609375,
+            "y": 773.125,
+            "width": 180,
+            "height": 128,
+            "top": 773.125,
+            "right": 729.609375,
+            "bottom": 901.125,
+            "left": 549.609375
+          }
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": true,
+        "error": null
+      }
+    }
+  },
+  "errors": [],
+  "failedRequests": []
+}

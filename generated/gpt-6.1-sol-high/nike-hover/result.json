@@ -1,0 +1,52 @@
+{
+  "title": "Nike Hover",
+  "id": "nike-hover",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "base_path": "/motionsites-results/nike-hover/",
+    "browser": "Real Chromium using playwright-core against dist/",
+    "viewports": {
+      "desktop": "1440x1000",
+      "mobile": "390x844",
+      "tablet": "768x1024"
+    },
+    "layout": "passed: full viewport height, no document overflow, all content boxes within viewport",
+    "desktop_interactions": "passed: both hover zones play, leave pauses, playback time advances, six spotlight circles move",
+    "mobile_interactions": "passed: muted autoplay, touch follows within 10px of tap, 280px radius",
+    "fonts": "Manrope and Instrument Serif loaded in all three viewports",
+    "script_errors": [],
+    "failed_requests": [],
+    "report": "screenshots/browser-checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-hover.png",
+      "screenshots/tablet.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "Supplied 02604201313.png",
+      "issue": "404 from exact GitHub URL, raw URL, repository URL, and jsDelivr mirror",
+      "resolution": "Isolated shoe and rock artwork recovered from authorized single-frame 640x472 reference via Canvas clipping; live text/chart/logo excluded. Source and recovery code retained in scripts/.",
+      "limitations": "Lower-resolution artwork; areas occluded by original card/label omitted. Top rock slightly repositioned."
+    },
+    {
+      "asset": "Supplied signed MP4",
+      "issue": "403; unsigned URL also 403",
+      "resolution": "Locally generated six-second VP9 WebM with isolated artwork, ambient orange light and subtle drift; plays through actual HTML video behind SVG mask.",
+      "limitations": "Approximation; original motion unavailable and cannot be verified."
+    }
+  ],
+  "notes": [
+    "React + TypeScript + Tailwind v4 + GSAP. react-player and gsap installed via npm; lockfile retained.",
+    "Exact required src/index.css Google Fonts and Tailwind configuration retained.",
+    "Production dist/ is complete and subpath compatible.",
+    "README.md documents run/build, browser validation, recovery procedure and limits.",
+    "One browser rerun waited for networkidle and timed out; verification now waits for document load, font readiness and decoded video. Final full run passed without failed requests.",
+    "No agents, other designs, deployment, push, or external messages.",
+    "ready means available for management-session review, not deployed."
+  ]
+}

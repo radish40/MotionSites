@@ -1,0 +1,61 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nike-hover/",
+  "checked_at": "2026-10-29T07:47:34.583Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nike Hover",
+      "bodyChars": 196,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nike-hover/assets/reveal.webm",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 5.891717,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nike Hover",
+      "bodyChars": 196,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nike-hover/assets/reveal.webm",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.794939,
+          "duration": 5.891717,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

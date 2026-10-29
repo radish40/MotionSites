@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 36/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 39/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -121,14 +121,14 @@
 | 34 | `cleantech` | CleanTech | Sustainability | 2 | 视频 | 已完成 |
 | 35 | `coffee-rewards` | Coffee Rewards | Loyalty | 2 | 视频 | 已完成 |
 | 36 | `cosmos-interface` | Cosmos Interface | Landing Page | 2 | 视频 | 已完成 |
-| 37 | `cozypaws` | CozyPaws | Hero Section | 1 | 视频 | 生成中 |
-| 38 | `cross-border` | Cross-Border | Transportation | 2 | 视频 | 生成中 |
+| 37 | `cozypaws` | CozyPaws | Hero Section | 1 | 视频 | 已完成 |
+| 38 | `cross-border` | Cross-Border | Transportation | 2 | 视频 | 已完成 |
 | 39 | `f1-racing-hub` | F1 Racing Hub | Mobile App | 1 | 视频 | 生成中 |
 | 40 | `financial-suite` | Financial Suite | Landing Page | 2 | 视频 | 生成中 |
-| 41 | `innovation-lab` | Innovation Lab | Technology | 1 | 视频 | 生成中 |
-| 42 | `innovation-studio` | Innovation Studio | Hero Section | 2 | 视频 | 未开始 |
-| 43 | `innovation-summit` | Innovation Summit | Mobile App | 2 | 视频 | 未开始 |
-| 44 | `integration-saas` | Integration SaaS | Hero Section | 2 | 视频 | 未开始 |
+| 41 | `innovation-lab` | Innovation Lab | Technology | 1 | 视频 | 已完成 |
+| 42 | `innovation-studio` | Innovation Studio | Hero Section | 2 | 视频 | 生成中 |
+| 43 | `innovation-summit` | Innovation Summit | Mobile App | 2 | 视频 | 生成中 |
+| 44 | `integration-saas` | Integration SaaS | Hero Section | 2 | 视频 | 生成中 |
 | 45 | `lead-funnel` | Lead Funnel | Hero Section | 2 | 视频 | 未开始 |
 | 46 | `luxury-escapes` | Luxury Escapes | Travel | 2 | 视频 | 未开始 |
 | 47 | `mind-body-healing` | Mind-Body Healing | Healthcare | 1 | 视频 | 未开始 |

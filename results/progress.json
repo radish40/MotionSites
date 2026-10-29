@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:30:42.108862+00:00",
+  "updated_utc": "2026-10-29T04:32:54.291079+00:00",
   "total": 380,
   "counts": {
-    "complete": 36,
+    "complete": 39,
     "running": 5,
-    "not_started": 339
+    "not_started": 336
   },
   "jobs": [
     {
@@ -371,21 +371,21 @@
       "id": "cozypaws",
       "title": "CozyPaws",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e7-dd8b-7510-a60f-9ef97febbabc",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "3d862046141f5a25a5f969ca6d316e25c4cd9893",
+      "group_message_id": 85,
+      "url": "https://tool.luo-xd.com/motionsites-results/cozypaws/"
     },
     {
       "id": "cross-border",
       "title": "Cross-Border",
       "category": "Transportation",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e7-de9a-7733-9b0c-1192aab86f67",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "dc8dfb4897df96b5beab82976288b6660b4b9d26",
+      "group_message_id": 86,
+      "url": "https://tool.luo-xd.com/motionsites-results/cross-border/"
     },
     {
       "id": "f1-racing-hub",
@@ -411,17 +411,17 @@
       "id": "innovation-lab",
       "title": "Innovation Lab",
       "category": "Technology",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e9-3f09-72a3-afe9-0ad5515c8a54",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9a36c26f97cb90d22644f1a78151b1ba1484c0b4",
+      "group_message_id": 87,
+      "url": "https://tool.luo-xd.com/motionsites-results/innovation-lab/"
     },
     {
       "id": "innovation-studio",
       "title": "Innovation Studio",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -431,7 +431,7 @@
       "id": "innovation-summit",
       "title": "Innovation Summit",
       "category": "Mobile App",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -441,7 +441,7 @@
       "id": "integration-saas",
       "title": "Integration SaaS",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

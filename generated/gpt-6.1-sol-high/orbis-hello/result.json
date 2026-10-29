@@ -1,0 +1,34 @@
+{
+  "title": "Orbis Hello",
+  "id": "orbis-hello",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/orbis-hello/",
+    "desktop": "passed Chromium at 1440x1000",
+    "mobile": "passed Chromium at 390x844",
+    "horizontal_overflow": "none at either viewport",
+    "fonts": "Anton and Condiment loaded at both viewports",
+    "video": "original MP4 loaded and playback advanced; autoplay, muted, loop and playsInline verified",
+    "responsive_columns": "right ghost column visible on desktop and hidden on mobile",
+    "script_errors": [],
+    "failed_requests": [],
+    "interactions": "none specified; video playback checked",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json",
+    "visual_review": "both screenshots inspected",
+    "dependency_audit": "0 vulnerabilities reported after final dependency installation"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React, Tailwind CSS, Vite; exact supplied utility layout, copy, font configuration and asset links.",
+    "No added animations, transitions, hover effects or controls.",
+    "External video and fonts require network access; all loaded successfully during checks.",
+    "Screenshots capture the original video at 3 seconds for reproducibility.",
+    "Ready for acceptance review; not deployed or pushed."
+  ]
+}

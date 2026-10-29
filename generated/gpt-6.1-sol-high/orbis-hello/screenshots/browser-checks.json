@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "sectionHeight": 1000,
+      "heading": "HELLO!\nI'M ORBIS\nOrbis",
+      "headingFont": "Anton, sans-serif",
+      "antonLoaded": true,
+      "condimentLoaded": true,
+      "rightColumnDisplay": "flex",
+      "video": {
+        "currentTime": 2.190564,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "width": 1844,
+        "height": 1124,
+        "error": null
+      },
+      "controls": 0,
+      "errors": [],
+      "failedRequests": [],
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "sectionHeight": 844,
+      "heading": "HELLO!\nI'M ORBIS\nOrbis",
+      "headingFont": "Anton, sans-serif",
+      "antonLoaded": true,
+      "condimentLoaded": true,
+      "rightColumnDisplay": "none",
+      "video": {
+        "currentTime": 2.297786,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "width": 1844,
+        "height": 1124,
+        "error": null
+      },
+      "controls": 0,
+      "errors": [],
+      "failedRequests": [],
+      "screenshot": "screenshots/mobile.png"
+    }
+  ]
+}

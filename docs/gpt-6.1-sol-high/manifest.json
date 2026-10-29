@@ -1971,19 +1971,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185fe-6baa-7c02-b86e-ee996079bffe",
       "output_path": "generated/gpt-6.1-sol-high/sky-estate",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2718760,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:50:05.647709+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "895daa72721abd96c9ebc2d3d8134c80beeb5868",
+      "url": "https://tool.luo-xd.com/motionsites-results/sky-estate/",
+      "completed_utc": "2026-10-29T04:57:52.878084+00:00",
+      "group_message_id": 106
     },
     {
       "number": 59,
@@ -2091,11 +2095,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/tech-forward",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2746461,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:57:10.657611+00:00",
+      "worker_state": "running"
     },
     {
       "number": 63,
@@ -9094,5 +9102,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:56:11.440704+00:00"
+  "updated_utc": "2026-10-29T04:57:53.091350+00:00"
 }

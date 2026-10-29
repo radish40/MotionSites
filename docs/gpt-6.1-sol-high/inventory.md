@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 56/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 57/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -142,11 +142,11 @@
 | 55 | `prompt-hero` | PROMPT | Landing Page | 2 | 视频 | 已完成 |
 | 56 | `remit-race` | Remit Race | Fintech | 2 | 视频 | 已完成 |
 | 57 | `skills-lea` | LearnHub | Education | 2 | 视频 | 生成中 |
-| 58 | `sky-estate` | Sky Estate | Real Estate | 2 | 视频 | 生成中 |
+| 58 | `sky-estate` | Sky Estate | Real Estate | 2 | 视频 | 已完成 |
 | 59 | `stillmind` | Stillmind | Hero Section | 2 | 视频 | 生成中 |
 | 60 | `subscription-agency` | Subscription Agency | Hero Section | 2 | 视频 | 生成中 |
 | 61 | `supplement-shop` | Supplement Shop | Healthcare | 2 | 视频 | 生成中 |
-| 62 | `tech-forward` | Tech-Forward | Hero Section | 2 | 视频 | 未开始 |
+| 62 | `tech-forward` | Tech-Forward | Hero Section | 2 | 视频 | 生成中 |
 | 63 | `travel-explorer` | Travel Explorer | Travel | 2 | 视频 | 未开始 |
 | 64 | `travel-journal` | Travel Journal | Travel | 2 | 视频 | 未开始 |
 | 65 | `vision-reveal` | Vision Reveal | Hero Section | 2 | 视频 | 未开始 |

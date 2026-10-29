@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:56:11.440704+00:00",
+  "updated_utc": "2026-10-29T04:57:53.091350+00:00",
   "total": 380,
   "counts": {
-    "complete": 56,
+    "complete": 57,
     "running": 5,
-    "not_started": 319
+    "not_started": 318
   },
   "jobs": [
     {
@@ -581,11 +581,11 @@
       "id": "sky-estate",
       "title": "Sky Estate",
       "category": "Real Estate",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185fe-6baa-7c02-b86e-ee996079bffe",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "895daa72721abd96c9ebc2d3d8134c80beeb5868",
+      "group_message_id": 106,
+      "url": "https://tool.luo-xd.com/motionsites-results/sky-estate/"
     },
     {
       "id": "stillmind",
@@ -621,7 +621,7 @@
       "id": "tech-forward",
       "title": "Tech-Forward",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

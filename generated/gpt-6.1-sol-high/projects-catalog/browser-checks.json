@@ -1,0 +1,238 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "font": true,
+      "images": [
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        }
+      ],
+      "cards": [
+        {
+          "height": 815,
+          "top": 416
+        },
+        {
+          "height": 815,
+          "top": 1294
+        },
+        {
+          "height": 815,
+          "top": 2172
+        }
+      ],
+      "bodyHeight": 3078,
+      "scrollStates": [
+        [
+          {
+            "top": 32,
+            "transform": "matrix(0.985563, 0, 0, 0.985563, 0, 0)"
+          },
+          {
+            "top": 794,
+            "transform": "none"
+          },
+          {
+            "top": 1672,
+            "transform": "none"
+          }
+        ],
+        [
+          {
+            "top": 32,
+            "transform": "matrix(0.962464, 0, 0, 0.962464, 0, 0)"
+          },
+          {
+            "top": 60,
+            "transform": "matrix(0.986848, 0, 0, 0.986848, 0, 0)"
+          },
+          {
+            "top": 872,
+            "transform": "none"
+          }
+        ],
+        [
+          {
+            "top": 32,
+            "transform": "matrix(0.94, 0, 0, 0.94, 0, 0)"
+          },
+          {
+            "top": 60,
+            "transform": "matrix(0.97, 0, 0, 0.97, 0, 0)"
+          },
+          {
+            "top": 94,
+            "transform": "none"
+          }
+        ]
+      ],
+      "linksOpened": 3,
+      "keyboardFocus": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "font": true,
+      "images": [
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "loaded": true,
+          "width": 1200,
+          "height": 896
+        }
+      ],
+      "cards": [
+        {
+          "height": 795,
+          "top": 208
+        },
+        {
+          "height": 795,
+          "top": 1062.5
+        },
+        {
+          "height": 795,
+          "top": 1945
+        }
+      ],
+      "bodyHeight": 2884,
+      "scrollStates": [
+        [
+          {
+            "top": 24,
+            "transform": "matrix(0.985294, 0, 0, 0.985294, 0, 0)"
+          },
+          {
+            "top": 562.5,
+            "transform": "none"
+          },
+          {
+            "top": 1445,
+            "transform": "none"
+          }
+        ],
+        [
+          {
+            "top": 24,
+            "transform": "matrix(0.961765, 0, 0, 0.961765, 0, 0)"
+          },
+          {
+            "top": 25.5,
+            "transform": "matrix(0.986324, 0, 0, 0.986324, 0, 0)"
+          },
+          {
+            "top": 645,
+            "transform": "none"
+          }
+        ],
+        [
+          {
+            "top": -95,
+            "transform": "matrix(0.94, 0, 0, 0.94, 0, 0)"
+          },
+          {
+            "top": -95,
+            "transform": "matrix(0.97, 0, 0, 0.97, 0, 0)"
+          },
+          {
+            "top": -95,
+            "transform": "none"
+          }
+        ]
+      ],
+      "linksOpened": 3,
+      "keyboardFocus": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "reducedMotion": true,
+  "passed": true
+}

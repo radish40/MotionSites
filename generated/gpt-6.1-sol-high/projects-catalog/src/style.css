@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+html, body { margin: 0; font-family: 'Kanit', sans-serif; background: white; color: #D7E2EA; }
+* { box-sizing: border-box; }
+.hero-heading { font-size: clamp(3rem, 12vw, 160px); background: linear-gradient(180deg, #646973 0%, #BBCCD7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.project-number { font-size: clamp(3rem, 10vw, 140px); }
+.project-category { font-size: clamp(1rem, 2.2vw, 2.1rem); }
+.project-name { font-size: clamp(0.9rem, 2vw, 2rem); }
+.first-image { height: clamp(130px, 16vw, 230px); }
+.second-image { height: clamp(160px, 22vw, 340px); }
+.feature-image { min-width: 0; height: calc(clamp(130px, 16vw, 230px) + clamp(160px, 22vw, 340px) + 20px); }
+.projects { padding-bottom: 112px; }
+a:focus-visible { outline: 3px solid #BBCCD7; outline-offset: 6px; }
+@media (max-width: 767px) {
+  .feature-image { height: clamp(240px, 75vw, 500px); }
+  .project-wrapper { height: max(85vh, calc(var(--card-height) + var(--card-offset) + 32px)); top: min(24px, calc(100svh - var(--card-height) - var(--card-offset) - 24px)); }
+}

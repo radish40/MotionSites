@@ -1,0 +1,46 @@
+{
+  "title": "Projects Catalog",
+  "id": "projects-catalog",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser_report": "browser-checks.json",
+    "browser_passed": true,
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "images": "9 of 9 loaded at each viewport",
+    "font": "Kanit loaded",
+    "interactions": "all three specified links opened at both viewports; keyboard focus passed",
+    "scroll": "no horizontal overflow during scroll sweeps; sticky positions and 0.94/0.97/1 scale transforms recorded",
+    "reduced_motion": true,
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-stacked.png",
+      "screenshots/mobile-stacked.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "issue": "Specified image proxy requests stalled",
+      "resolution": "Recovered all nine unchanged original PNGs from the CloudFront source URLs embedded in the specified links; served locally.",
+      "report": "asset-report.json"
+    },
+    {
+      "issue": "External font loading dependency",
+      "resolution": "Preserved specified Google Fonts head links and bundled local Google-hosted Kanit weights 300\u2013900."
+    }
+  ],
+  "notes": [
+    "React, Tailwind CSS, framer-motion useScroll/useTransform/motion; real DOM implementation.",
+    "Vite base: /motionsites-results/projects-catalog/.",
+    "Mobile wrapper height and sticky inset adapt to content height so all images remain reachable.",
+    "Live Project links remain # with target=_blank and noopener noreferrer as specified.",
+    "Pinned compatible motion-dom/motion-utils versions after resolving initial build failure; build log contains harmless use client directive warnings.",
+    "Only installed Chromium tested. Original PNG delivery is approximately 22 MB.",
+    "No deployment, push, other sessions, agents or messages."
+  ]
+}

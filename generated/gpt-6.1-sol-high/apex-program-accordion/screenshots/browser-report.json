@@ -1,0 +1,317 @@
+{
+  "checks": [
+    "desktop 1440x1000: default state, lesson count, no horizontal overflow, screenshot",
+    "desktop: animated height transition and 180-degree chevron verified",
+    "desktop: every module opens exclusively, lesson counts 4/7/4/3, close-all, Enter/Space keyboard toggles",
+    "desktop: global pointer updates spotlight CSS variables",
+    "mobile 390x844: default state, lesson count, no horizontal overflow, screenshot",
+    "mobile: animated height transition and 180-degree chevron verified",
+    "mobile: every module opens exclusively, lesson counts 4/7/4/3, close-all, Enter/Space keyboard toggles",
+    "mobile: global pointer updates spotlight CSS variables",
+    "Reduced motion: no reveal translation; immediate accordion transition"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "fonts": {
+    "desktop": {
+      "inter": true,
+      "symbols": true,
+      "faces": [
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Material Symbols Outlined",
+          "status": "loaded"
+        }
+      ]
+    },
+    "mobile": {
+      "inter": true,
+      "symbols": true,
+      "faces": [
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Inter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Material Symbols Outlined",
+          "status": "loaded"
+        }
+      ]
+    }
+  }
+}

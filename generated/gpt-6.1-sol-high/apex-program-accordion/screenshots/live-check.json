@@ -1,0 +1,33 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/apex-program-accordion/",
+  "checked_at": "2026-10-29T05:19:22.344Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Apex Program Accordion",
+      "bodyChars": 451,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Apex Program Accordion",
+      "bodyChars": 451,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Apex Program Accordion",
+  "id": "apex-program-accordion",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": [
+    "TypeScript and Vite production build passed; dist/index.html exists",
+    "Required publication subpath verified",
+    "desktop 1440x1000: default state, lesson count, no horizontal overflow, screenshot",
+    "desktop: animated height transition and 180-degree chevron verified",
+    "desktop: every module opens exclusively, lesson counts 4/7/4/3, close-all, Enter/Space keyboard toggles",
+    "desktop: global pointer updates spotlight CSS variables",
+    "mobile 390x844: default state, lesson count, no horizontal overflow, screenshot",
+    "mobile: animated height transition and 180-degree chevron verified",
+    "mobile: every module opens exclusively, lesson counts 4/7/4/3, close-all, Enter/Space keyboard toggles",
+    "mobile: global pointer updates spotlight CSS variables",
+    "Reduced motion: no reveal translation; immediate accordion transition",
+    "No browser console/page errors or failed requests",
+    "Inter and Material Symbols loaded on both viewports",
+    "Desktop and mobile screenshots visually inspected",
+    "npm audit: zero vulnerabilities"
+  ],
+  "asset_issues": [],
+  "notes": [
+    "Only this project was read and modified. No agents, other sessions, deployment, push, or messages.",
+    "Google Fonts are externally hosted per prompt and require network access.",
+    "Full-page screenshots use 1440x1000 and 390x844 viewports, after scrolling to reveal all rows.",
+    "README.md contains build and verification instructions; screenshots/browser-report.json contains evidence.",
+    "Ready for review; not deployed."
+  ]
+}

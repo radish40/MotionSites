@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:00:20.889788+00:00",
+  "updated_utc": "2026-10-29T07:02:23.182615+00:00",
   "total": 380,
   "counts": {
-    "complete": 146,
+    "complete": 148,
     "running": 5,
-    "not_started": 229
+    "not_started": 227
   },
   "jobs": [
     {
@@ -1471,11 +1471,11 @@
       "id": "interactive-portfolio",
       "title": "Interactive Portfolio",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866f-de27-7c91-803a-04e8db962c21",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "92ad29ce019fb0370693c554f3a18f4d4a7d90ac",
+      "group_message_id": 200,
+      "url": "https://tool.luo-xd.com/motionsites-results/interactive-portfolio/"
     },
     {
       "id": "interior-features",
@@ -1501,11 +1501,11 @@
       "id": "jewelry-store",
       "title": "Jewelry Store",
       "category": "E-commerce",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18673-f461-7251-805d-1c5e35c62620",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "65ed81988813b1cf6569e655a51e5e9b79d6c90b",
+      "group_message_id": 201,
+      "url": "https://tool.luo-xd.com/motionsites-results/jewelry-store/"
     },
     {
       "id": "kova-features",
@@ -1521,7 +1521,7 @@
       "id": "kova-testimonial",
       "title": "Kova Testimonial",
       "category": "Testimonials",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1531,7 +1531,7 @@
       "id": "launchex-about",
       "title": "LaunchEx About",
       "category": "About Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

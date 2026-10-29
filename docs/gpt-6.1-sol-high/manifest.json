@@ -5033,19 +5033,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866f-de27-7c91-803a-04e8db962c21",
       "output_path": "generated/gpt-6.1-sol-high/interactive-portfolio",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3142921,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:54:00.661179+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "92ad29ce019fb0370693c554f3a18f4d4a7d90ac",
+      "url": "https://tool.luo-xd.com/motionsites-results/interactive-portfolio/",
+      "completed_utc": "2026-10-29T07:01:47.995938+00:00",
+      "group_message_id": 200
     },
     {
       "number": 148,
@@ -5123,19 +5127,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18673-f461-7251-805d-1c5e35c62620",
       "output_path": "generated/gpt-6.1-sol-high/jewelry-store",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3159359,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:58:28.482902+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "65ed81988813b1cf6569e655a51e5e9b79d6c90b",
+      "url": "https://tool.luo-xd.com/motionsites-results/jewelry-store/",
+      "completed_utc": "2026-10-29T07:02:22.946185+00:00",
+      "group_message_id": 201
     },
     {
       "number": 151,
@@ -5183,11 +5191,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/kova-testimonial",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3170347,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:01:22.349543+00:00",
+      "worker_state": "running"
     },
     {
       "number": 153,
@@ -5205,11 +5217,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/launchex-about",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3170390,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:01:22.476338+00:00",
+      "worker_state": "running"
     },
     {
       "number": 154,
@@ -10206,7 +10222,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:00:20.889788+00:00",
+  "updated_utc": "2026-10-29T07:02:23.182615+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

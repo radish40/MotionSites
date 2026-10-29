@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 146/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 148/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -231,13 +231,13 @@
 | 144 | `immersive-ocean` | Immersive Ocean | Hero Section | 2 | 图片 | 已完成 |
 | 145 | `impact-ventures` | Impact Ventures | Hero Section | 2 | 图片 | 已完成 |
 | 146 | `intelligentx` | IntelligentX | Hero Section | 1 | 图片 | 已完成 |
-| 147 | `interactive-portfolio` | Interactive Portfolio | Hero Section | 2 | 图片 | 生成中 |
+| 147 | `interactive-portfolio` | Interactive Portfolio | Hero Section | 2 | 图片 | 已完成 |
 | 148 | `interior-features` | Interior Features | Features Section | 2 | 图片 | 生成中 |
 | 149 | `investment-hero` | Investment Gate | Landing Page | 2 | 图片 | 生成中 |
-| 150 | `jewelry-store` | Jewelry Store | E-commerce | 2 | 图片 | 生成中 |
+| 150 | `jewelry-store` | Jewelry Store | E-commerce | 2 | 图片 | 已完成 |
 | 151 | `kova-features` | Kova Features | Benefits | 2 | 图片 | 生成中 |
-| 152 | `kova-testimonial` | Kova Testimonial | Testimonials | 2 | 图片 | 未开始 |
-| 153 | `launchex-about` | LaunchEx About | About Section | 2 | 图片 | 未开始 |
+| 152 | `kova-testimonial` | Kova Testimonial | Testimonials | 2 | 图片 | 生成中 |
+| 153 | `launchex-about` | LaunchEx About | About Section | 2 | 图片 | 生成中 |
 | 154 | `launchex-submissions` | LaunchEx Submissions | Features Section | 2 | 图片 | 未开始 |
 | 155 | `layered-depth` | Layered Depth | Landing Page | 2 | 图片 | 未开始 |
 | 156 | `learnly` | Learnly | Hero Section | 2 | 图片 | 未开始 |

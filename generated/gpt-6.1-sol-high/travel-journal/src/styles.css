@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { font-family: 'Inter', sans-serif; }
+html, body, #root { width: 100%; height: 100%; margin: 0; }
+.phone { box-shadow: inset 0 0 0 2px rgba(255,255,255,.08), 0 0 0 1px rgba(0,0,0,.6), 0 0 0 10px #1a1a1e, 0 0 0 11px rgba(255,255,255,.06), 0 0 60px rgba(0,0,0,.5); }
+.liquid-glass {
+  background: rgba(255,255,255,.01);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: none;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.1);
+  position: relative;
+  overflow: hidden;
+}
+.liquid-glass::before {
+  content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1.4px;
+  background: linear-gradient(180deg, rgba(255,255,255,.45) 0%, rgba(255,255,255,.15) 20%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%, rgba(255,255,255,.15) 80%, rgba(255,255,255,.45) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none;
+}
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+button { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+button:focus-visible, [tabindex]:focus-visible { outline: 2px solid white; outline-offset: 4px; }
+@media (max-width: 398px) { .phone { transform: scale(.94); } }
+@media (max-height: 790px) { .phone { transform: scale(.85); } }
+@media (prefers-reduced-motion: reduce) { .transition-all { transition-duration: 0ms; } }

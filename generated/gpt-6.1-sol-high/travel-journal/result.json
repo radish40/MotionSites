@@ -1,0 +1,77 @@
+{
+  "title": "Travel Journal",
+  "id": "travel-journal",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "dist_index_exists": true,
+    "publication_base": "/motionsites-results/travel-journal/",
+    "browser": "Chromium via playwright-core in temporary Docker container",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "status": "passed",
+        "horizontal_overflow": false,
+        "all_images_loaded": true,
+        "inter_loaded": true
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "status": "passed",
+        "horizontal_overflow": false,
+        "all_images_loaded": true,
+        "inter_loaded": true
+      }
+    ],
+    "interactions": [
+      {
+        "viewport": "desktop",
+        "passed": [
+          "region menu",
+          "calendar",
+          "Escape closes panel",
+          "favorite toggle",
+          "navigation selection",
+          "internal scrolling",
+          "Rome menu"
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "passed": [
+          "region menu",
+          "calendar",
+          "Escape closes panel",
+          "favorite toggle",
+          "navigation selection",
+          "internal scrolling",
+          "Rome menu"
+        ]
+      }
+    ],
+    "script_and_console_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-scrolled.png",
+      "screenshots/mobile-scrolled.png"
+    ],
+    "visual_review": "Desktop, mobile, and scrolled screenshots inspected",
+    "detailed_report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for acceptance review; not deployed or pushed.",
+    "Exact supplied image assets preserved locally. The supplied landscapes do not depict the labeled cities; this source-image mismatch is preserved as requested.",
+    "Google Fonts head links retained. Local Inter weights 300\u2013900 bundled for reliable rendering.",
+    "Phone remains 375 \u00d7 780 internally and scales to 94% at the required mobile viewport to fit the bezel.",
+    "UI mockup uses transient component state and has no backend.",
+    "Only this project was modified; no agents or additional sessions were created.",
+    "Dependency lockfile included; node_modules excluded from delivered files."
+  ]
+}

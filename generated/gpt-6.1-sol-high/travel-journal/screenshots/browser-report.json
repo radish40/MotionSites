@@ -1,0 +1,146 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "layout": {
+        "documentWidth": 1440,
+        "viewport": 1440,
+        "phone": {
+          "x": 532.5,
+          "y": 110,
+          "width": 375,
+          "height": 780
+        },
+        "images": [
+          {
+            "src": "/motionsites-results/travel-journal/assets/tokyo.webp",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/travel-journal/assets/seoul.webp",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/travel-journal/assets/bali.webp",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/travel-journal/assets/rome.webp",
+            "loaded": true
+          }
+        ],
+        "fontLoaded": true,
+        "cards": [
+          {
+            "opacity": "1",
+            "height": 200
+          },
+          {
+            "opacity": "1",
+            "height": 200
+          },
+          {
+            "opacity": "1",
+            "height": 200
+          },
+          {
+            "opacity": "1",
+            "height": 200
+          }
+        ]
+      },
+      "scroll": {
+        "top": 276,
+        "height": 1056,
+        "client": 780
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "documentWidth": 390,
+        "viewport": 390,
+        "phone": {
+          "x": 18.75,
+          "y": 55.399993896484375,
+          "width": 352.5,
+          "height": 733.199951171875
+        },
+        "images": [
+          {
+            "src": "/motionsites-results/travel-journal/assets/tokyo.webp",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/travel-journal/assets/seoul.webp",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/travel-journal/assets/bali.webp",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/travel-journal/assets/rome.webp",
+            "loaded": true
+          }
+        ],
+        "fontLoaded": true,
+        "cards": [
+          {
+            "opacity": "1",
+            "height": 200
+          },
+          {
+            "opacity": "1",
+            "height": 200
+          },
+          {
+            "opacity": "1",
+            "height": 200
+          },
+          {
+            "opacity": "1",
+            "height": 200
+          }
+        ]
+      },
+      "scroll": {
+        "top": 276,
+        "height": 1056,
+        "client": 780
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "interactions": [
+    {
+      "viewport": "desktop",
+      "passed": [
+        "region menu",
+        "calendar",
+        "Escape closes panel",
+        "favorite toggle",
+        "navigation selection",
+        "internal scrolling",
+        "Rome menu"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "passed": [
+        "region menu",
+        "calendar",
+        "Escape closes panel",
+        "favorite toggle",
+        "navigation selection",
+        "internal scrolling",
+        "Rome menu"
+      ]
+    }
+  ]
+}

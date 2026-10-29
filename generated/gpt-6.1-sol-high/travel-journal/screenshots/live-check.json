@@ -1,0 +1,75 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/travel-journal/",
+  "checked_at": "2026-10-29T05:05:29.294Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Travel Journal",
+      "bodyChars": 89,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/travel-journal/assets/tokyo.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/travel-journal/assets/seoul.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/travel-journal/assets/bali.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/travel-journal/assets/rome.webp",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Travel Journal",
+      "bodyChars": 89,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/travel-journal/assets/tokyo.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/travel-journal/assets/seoul.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/travel-journal/assets/bali.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/travel-journal/assets/rome.webp",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

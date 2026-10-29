@@ -1,0 +1,83 @@
+{
+  "title": "Coffee Rewards",
+  "id": "coffee-rewards",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists",
+    "browser": {
+      "viewports": [
+        {
+          "name": "desktop",
+          "width": 1440,
+          "height": 1000,
+          "autoplay": true,
+          "phone": {
+            "width": 304.1875,
+            "height": 658.3125
+          },
+          "overflow": false,
+          "internalOverflow": false,
+          "images": true,
+          "video": {
+            "readyState": 4,
+            "width": 1440
+          },
+          "filters": 4,
+          "scrollHeight": 848,
+          "screenHeight": 844
+        },
+        {
+          "name": "mobile",
+          "width": 390,
+          "height": 844,
+          "autoplay": true,
+          "phone": {
+            "width": 234,
+            "height": 506.390625
+          },
+          "overflow": false,
+          "internalOverflow": false,
+          "images": true,
+          "video": {
+            "readyState": 4,
+            "width": 1440
+          },
+          "filters": 4,
+          "scrollHeight": 848,
+          "screenHeight": 844
+        }
+      ],
+      "interactions": {
+        "edit": true,
+        "achievements": true,
+        "shuffle": true,
+        "closeAndReopen": true
+      },
+      "errors": [],
+      "failedRequests": [],
+      "reducedMotion": {
+        "videoPaused": true,
+        "nameAnimation": "none"
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "dependency_audit": "0 vulnerabilities reported during final dependency installation"
+  },
+  "asset_issues": [
+    "Original local laurel-left.png, laurel-right.png, icon-trophy.png and icon-shuffle.png were not supplied; replacement PNGs generated locally with canvas.",
+    "Licensed Neue Haas Unica and Helvetica Now Display font files were not supplied. Font CSS retrieval from the supplied image host returned 404. Local stylesheet paths are included, and typography uses the specified system fallback stack."
+  ],
+  "notes": [
+    "Vanilla HTML/CSS/JS with Vite; base /motionsites-results/coffee-rewards/. Exact supplied video and four product PNGs are included locally.",
+    "Ready for review only. No deployment, push, agents, other sessions or outbound messages.",
+    "Profile edits are session-local. Shuffle provides animation and feedback without inventing additional favorites.",
+    "Video poster and screenshots use the one-second frame of the supplied original portrait video.",
+    "Vite font CSS public URL notices are documented; production URLs resolve with zero browser request failures.",
+    "Runtime model selection is controlled by the invoking session; no other model or session was created."
+  ]
+}

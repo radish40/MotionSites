@@ -1,0 +1,56 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "autoplay": true,
+      "phone": {
+        "width": 304.1875,
+        "height": 658.3125
+      },
+      "overflow": false,
+      "internalOverflow": false,
+      "images": true,
+      "video": {
+        "readyState": 4,
+        "width": 1440
+      },
+      "filters": 4,
+      "scrollHeight": 848,
+      "screenHeight": 844
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "autoplay": true,
+      "phone": {
+        "width": 234,
+        "height": 506.390625
+      },
+      "overflow": false,
+      "internalOverflow": false,
+      "images": true,
+      "video": {
+        "readyState": 4,
+        "width": 1440
+      },
+      "filters": 4,
+      "scrollHeight": 848,
+      "screenHeight": 844
+    }
+  ],
+  "interactions": {
+    "edit": true,
+    "achievements": true,
+    "shuffle": true,
+    "closeAndReopen": true
+  },
+  "errors": [],
+  "failedRequests": [],
+  "reducedMotion": {
+    "videoPaused": true,
+    "nameAnimation": "none"
+  }
+}

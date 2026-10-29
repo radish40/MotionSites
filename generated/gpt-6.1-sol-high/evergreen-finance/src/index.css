@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+ * { box-sizing: border-box; }
+ html, body { margin: 0; padding: 0; overflow-x: hidden; }
+ html { scroll-behavior: smooth; scroll-padding-top: 28px; }
+ body { color: #08150C; background: #FDF5EB; font-family: Arial, Helvetica, sans-serif; -webkit-font-smoothing: antialiased; }
+ button, a, select { -webkit-tap-highlight-color: transparent; }
+ button, a { touch-action: manipulation; }
+ button:focus-visible, a:focus-visible, select:focus-visible { outline: 2px solid #7A8C3E; outline-offset: 5px; }
+ ::selection { background: #A8B87A; color: #08150C; }
+}
+.font-cooper { font-family: 'Cooper BT W01 Light', 'Georgia', serif; }
+.font-cooper-medium { font-family: 'Cooper BT W01 Medium', 'Cooper BT W01 Light', 'Georgia', serif; font-weight: 500; }
+.hero { min-height: 100svh; }
+.hero-video { object-fit: cover; width: 100%; height: 100%; }
+.hero-canvas { width: 100%; height: 100%; object-fit: cover; }
+.dark-button { @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#08150C] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-[#1a2e1f]; }
+.month-select { @apply cursor-pointer appearance-none rounded-full border border-stone-200 bg-transparent py-1 pl-2.5 pr-5 text-[9px] text-stone-500 outline-none; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@font-face { font-family: 'Cooper BT W01 Light'; src: url('../public/assets/cooper-light.woff2') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Cooper BT W01 Medium'; src: url('../public/assets/cooper-medium.woff2') format('woff2'); font-style: normal; font-weight: 500; font-display: swap; }

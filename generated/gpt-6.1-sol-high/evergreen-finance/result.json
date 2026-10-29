@@ -1,0 +1,33 @@
+{
+  "title": "Evergreen Finance",
+  "id": "evergreen-finance",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "browser": "Chromium, production dist served at /motionsites-results/evergreen-finance/",
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "script_errors": 0,
+    "horizontal_overflow": false,
+    "images": "all three loaded",
+    "videos": "hero capture and boomerang canvas verified; testimonial readyState 4",
+    "fonts": "both bundled Cooper WOFF2 font faces loaded on both viewports",
+    "interactions": "mobile menu, navigation, both demo buttons, app preview, story dialog, Escape, chart period controls passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "details": "browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built only this Evergreen Finance project; not deployed or pushed.",
+    "All original media and exact font binaries are bundled; original font stylesheet links retained. See asset-report.json.",
+    "document.fonts.check returns false because the retained external stylesheet adds duplicate unloaded faces; browser font-face records and resource requests confirm both local Cooper faces loaded successfully.",
+    "One desktop video request was aborted when its demo dialog was closed; playback and canvas transition passed.",
+    "Static product preview: no app store destinations, backend, or separate 30-second demo was supplied. App actions explain availability; demo uses supplied hero clip.",
+    "Boomerang frame buffers are capped at 640px desktop / 480px mobile, below the 960px limit; decoded frame delivery varies with browser performance.",
+    "README.md documents setup, validation, font attribution, and limitations."
+  ]
+}

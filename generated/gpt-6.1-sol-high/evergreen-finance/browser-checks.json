@@ -1,0 +1,136 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "hero": {
+      "canvasFrames": "21",
+      "videoDuration": 10.041667,
+      "heroHeight": 1000,
+      "fonts": false,
+      "fontFaces": [
+        {
+          "family": "Cooper BT W01 Light",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cooper BT W01 Medium",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cooper BT W01 Light",
+          "status": "loaded"
+        },
+        {
+          "family": "Cooper BT W01 Medium",
+          "status": "loaded"
+        }
+      ],
+      "fontResources": [
+        "http://localhost:4173/motionsites-results/evergreen-finance/assets/cooper-light-DPFvtM1L.woff2",
+        "http://localhost:4173/motionsites-results/evergreen-finance/assets/cooper-medium-Bssokwe0.woff2"
+      ]
+    },
+    "layout": {
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "images": [
+        {
+          "src": "/motionsites-results/evergreen-finance/assets/budget.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/evergreen-finance/assets/security.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/evergreen-finance/assets/wealth.webp",
+          "loaded": true
+        }
+      ],
+      "testimonialVideo": 4,
+      "sections": 3,
+      "overflowElements": []
+    },
+    "errors": [],
+    "requestFailures": [
+      {
+        "url": "http://localhost:4173/motionsites-results/evergreen-finance/assets/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "interactions": [
+      "demo opens and closes with Escape",
+      "app preview opens and closes",
+      "story opens and closes",
+      "feature demo opens",
+      "chart period selection"
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "hero": {
+      "canvasFrames": "23",
+      "videoDuration": 10.041667,
+      "heroHeight": 844,
+      "fonts": false,
+      "fontFaces": [
+        {
+          "family": "Cooper BT W01 Light",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cooper BT W01 Medium",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cooper BT W01 Light",
+          "status": "loaded"
+        },
+        {
+          "family": "Cooper BT W01 Medium",
+          "status": "loaded"
+        }
+      ],
+      "fontResources": [
+        "http://localhost:4173/motionsites-results/evergreen-finance/assets/cooper-light-DPFvtM1L.woff2",
+        "http://localhost:4173/motionsites-results/evergreen-finance/assets/cooper-medium-Bssokwe0.woff2"
+      ]
+    },
+    "layout": {
+      "scrollWidth": 390,
+      "viewport": 390,
+      "images": [
+        {
+          "src": "/motionsites-results/evergreen-finance/assets/budget.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/evergreen-finance/assets/security.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/evergreen-finance/assets/wealth.webp",
+          "loaded": true
+        }
+      ],
+      "testimonialVideo": 4,
+      "sections": 3,
+      "overflowElements": []
+    },
+    "errors": [],
+    "requestFailures": [],
+    "interactions": [
+      "demo opens and closes with Escape",
+      "app preview opens and closes",
+      "story opens and closes",
+      "feature demo opens",
+      "chart period selection",
+      "mobile menu opens, navigates and closes"
+    ]
+  }
+}

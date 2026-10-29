@@ -1,0 +1,44 @@
+[
+  {
+    "file": "hero.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260517_070729_32a7eb4e-d6e2-4571-badc-91b4dab1ecbe.mp4",
+    "status": "ok",
+    "bytes": 50375940
+  },
+  {
+    "file": "testimonial.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260517_074029_c7a854bd-2d6e-4b62-96b3-ae8c16311e44.mp4",
+    "status": "ok",
+    "bytes": 4538189
+  },
+  {
+    "file": "budget.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260517_061249_f20dfeda-1033-45ce-a3ee-070965599cbf.png&w=1280&q=85",
+    "status": "ok",
+    "bytes": 135104
+  },
+  {
+    "file": "security.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260517_061305_db631f5f-185f-4fda-a7a8-1dd7359ef2ea.png&w=1280&q=85",
+    "status": "ok",
+    "bytes": 228822
+  },
+  {
+    "file": "wealth.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260517_061316_50e651f8-02d0-4add-9ddb-7d81d15ac02e.png&w=1280&q=85",
+    "status": "ok",
+    "bytes": 391454
+  },
+  {
+    "file": "cooper-light.woff2",
+    "url": "https://db.onlinewebfonts.com/t/53077f9a3eee9c479d37d6af20394ded.woff2",
+    "status": "ok",
+    "bytes": 23092
+  },
+  {
+    "file": "cooper-medium.woff2",
+    "url": "https://db.onlinewebfonts.com/t/5ade3423145f3b9f7031574333ca0b73.woff2",
+    "status": "ok",
+    "bytes": 23624
+  }
+]

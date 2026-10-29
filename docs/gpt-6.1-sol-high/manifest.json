@@ -2478,10 +2478,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a1860e-d886-76d2-9942-6b474cddbcc2",
       "output_path": "generated/gpt-6.1-sol-high/agency-services",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2785435,
       "launch_method": "isolated_codex_exec",
@@ -2490,7 +2490,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "6b3555ac3f676c8a4b952ef61112159ae6d19847",
+      "url": "https://tool.luo-xd.com/motionsites-results/agency-services/",
+      "completed_utc": "2026-10-29T05:13:27.277004+00:00",
+      "group_message_id": 121
     },
     {
       "number": 74,
@@ -2568,11 +2572,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/animated-cards",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2804587,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T05:13:00.153308+00:00",
+      "worker_state": "running"
     },
     {
       "number": 77,
@@ -9263,5 +9271,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:12:43.289983+00:00"
+  "updated_utc": "2026-10-29T05:13:27.501991+00:00"
 }

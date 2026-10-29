@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:12:43.289983+00:00",
+  "updated_utc": "2026-10-29T05:13:27.501991+00:00",
   "total": 380,
   "counts": {
-    "complete": 70,
-    "running": 4,
-    "ready": 1,
-    "not_started": 305
+    "complete": 71,
+    "running": 5,
+    "not_started": 304
   },
   "jobs": [
     {
@@ -732,11 +731,11 @@
       "id": "agency-services",
       "title": "Agency Services",
       "category": "Services",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a1860e-d886-76d2-9942-6b474cddbcc2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6b3555ac3f676c8a4b952ef61112159ae6d19847",
+      "group_message_id": 121,
+      "url": "https://tool.luo-xd.com/motionsites-results/agency-services/"
     },
     {
       "id": "ai-automation",
@@ -762,7 +761,7 @@
       "id": "animated-cards",
       "title": "Animated Cards",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1941,19 +1941,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185fe-6adf-7303-ae9a-f47da18c5996",
       "output_path": "generated/gpt-6.1-sol-high/skills-lea",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2718726,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:50:05.541995+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "82b00e012d3a000588a7d7d6f5c2d1f7d8108261",
+      "url": "https://tool.luo-xd.com/motionsites-results/skills-lea/",
+      "completed_utc": "2026-10-29T04:59:35.620331+00:00",
+      "group_message_id": 107
     },
     {
       "number": 58,
@@ -2096,14 +2100,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18604-e7e8-7813-b72a-4ce3540fba05",
       "output_path": "generated/gpt-6.1-sol-high/tech-forward",
       "validation": "",
       "notes": "",
       "process_id": 2746461,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:57:10.657611+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 63,
@@ -2121,11 +2129,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/travel-explorer",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2751966,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:58:46.805072+00:00",
+      "worker_state": "running"
     },
     {
       "number": 64,
@@ -9102,5 +9114,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:57:53.091350+00:00"
+  "updated_utc": "2026-10-29T04:59:35.805203+00:00"
 }

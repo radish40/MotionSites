@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:57:53.091350+00:00",
+  "updated_utc": "2026-10-29T04:59:35.805203+00:00",
   "total": 380,
   "counts": {
-    "complete": 57,
+    "complete": 58,
     "running": 5,
-    "not_started": 318
+    "not_started": 317
   },
   "jobs": [
     {
@@ -571,11 +571,11 @@
       "id": "skills-lea",
       "title": "LearnHub",
       "category": "Education",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185fe-6adf-7303-ae9a-f47da18c5996",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "82b00e012d3a000588a7d7d6f5c2d1f7d8108261",
+      "group_message_id": 107,
+      "url": "https://tool.luo-xd.com/motionsites-results/skills-lea/"
     },
     {
       "id": "sky-estate",
@@ -622,7 +622,7 @@
       "title": "Tech-Forward",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18604-e7e8-7813-b72a-4ce3540fba05",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -631,7 +631,7 @@
       "id": "travel-explorer",
       "title": "Travel Explorer",
       "category": "Travel",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

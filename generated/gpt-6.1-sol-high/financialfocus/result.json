@@ -1,0 +1,64 @@
+{
+  "title": "FinancialFocus",
+  "id": "financialfocus",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": "Chromium via Playwright Core; npm run check exited 0",
+    "url_prefix": "/motionsites-results/financialfocus/",
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 1000,
+        "video_elements_playing": 10,
+        "fonts_loaded": true,
+        "images_loaded": true,
+        "animation": true,
+        "mouse_parallax": true,
+        "keyboard_focus": true,
+        "document_overflow": false,
+        "script_and_console_errors": [],
+        "non_aborted_request_failures": 0,
+        "canceled_media_range_requests": 9,
+        "screenshot": "screenshots/desktop.png"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "video_elements_playing": 10,
+        "fonts_loaded": true,
+        "images_loaded": true,
+        "animation": true,
+        "mouse_parallax": "not applicable",
+        "keyboard_focus": true,
+        "document_overflow": false,
+        "script_and_console_errors": [],
+        "non_aborted_request_failures": 0,
+        "canceled_media_range_requests": 6,
+        "screenshot": "screenshots/mobile.png"
+      }
+    },
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "assets": [
+        "wave-icon.svg",
+        "w.svg"
+      ],
+      "issue": "Both original Cloud Run URLs return HTTP 404.",
+      "resolution": "Local replacements reuse the W path embedded in the prompt card logo. Large background is an approximation; exact original SVG unavailable."
+    }
+  ],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "React 18 + Tailwind CSS 4 + Babel preserved; compiled at build time and bundled locally.",
+    "Original supplied video assets and four font families bundled locally.",
+    "Order Card and Menu preserve supplied visual feedback; original prompt has no click handlers or additional flows.",
+    "Chromium canceled some MP4 range requests (net::ERR_ABORTED); all ten video elements reached readyState 4 and were playing.",
+    "Carousel edge clipping and continuous frame-based animation match the prompt.",
+    "Only this project was modified; no subagents used."
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "title": "3D Cylinder Carousel",
+    "overflow": false,
+    "images": [
+      {
+        "src": "./assets/wave-icon.svg",
+        "loaded": true
+      },
+      {
+        "src": "./assets/w.svg",
+        "loaded": true
+      }
+    ],
+    "videos": [
+      {
+        "src": "./assets/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 4.328831
+      },
+      {
+        "src": "./assets/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 3.472148
+      },
+      {
+        "src": "./assets/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 3.513195
+      },
+      {
+        "src": "./assets/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 4.211894
+      },
+      {
+        "src": "./assets/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 3.156014
+      },
+      {
+        "src": "./assets/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 3.858569
+      },
+      {
+        "src": "./assets/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 3.181147
+      },
+      {
+        "src": "./assets/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 3.858589
+      },
+      {
+        "src": "./assets/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 2.047811
+      },
+      {
+        "src": "./assets/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 2.087848
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "loaded": true
+      },
+      {
+        "family": "Manrope",
+        "loaded": true
+      },
+      {
+        "family": "JetBrains Mono",
+        "loaded": true
+      },
+      {
+        "family": "Mr Dafoe",
+        "loaded": true
+      }
+    ],
+    "animation": true,
+    "mouseParallax": true,
+    "buttons": "clickable; prompt supplies hover/active states only",
+    "keyboardFocus": true,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "title": "3D Cylinder Carousel",
+    "overflow": false,
+    "images": [
+      {
+        "src": "./assets/wave-icon.svg",
+        "loaded": true
+      },
+      {
+        "src": "./assets/w.svg",
+        "loaded": true
+      }
+    ],
+    "videos": [
+      {
+        "src": "./assets/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 8.564147
+      },
+      {
+        "src": "./assets/hf_20260506_030111_a9e15665-d379-4a7f-8116-695bbe452ad1.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 3.257259
+      },
+      {
+        "src": "./assets/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 3.045099
+      },
+      {
+        "src": "./assets/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 5.700271
+      },
+      {
+        "src": "./assets/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 2.610539
+      },
+      {
+        "src": "./assets/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 5.377813
+      },
+      {
+        "src": "./assets/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 2.671452
+      },
+      {
+        "src": "./assets/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 5.377816
+      },
+      {
+        "src": "./assets/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 1.470315
+      },
+      {
+        "src": "./assets/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "readyState": 4,
+        "paused": false,
+        "time": 1.45035
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "loaded": true
+      },
+      {
+        "family": "Manrope",
+        "loaded": true
+      },
+      {
+        "family": "JetBrains Mono",
+        "loaded": true
+      },
+      {
+        "family": "Mr Dafoe",
+        "loaded": true
+      }
+    ],
+    "animation": true,
+    "mouseParallax": "not applicable",
+    "buttons": "clickable; prompt supplies hover/active states only",
+    "keyboardFocus": true,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260429_171347_f640c30d-ec21-426a-98bc-77e07c2c60cb.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/financialfocus/assets/hf_20260423_161253_c72b1869-400f-45ed-ac0c-52f68c2ed5bd.mp4",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  }
+}

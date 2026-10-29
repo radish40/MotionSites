@@ -5884,19 +5884,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1868d-d3c6-7013-b835-0238b813746e",
       "output_path": "generated/gpt-6.1-sol-high/network-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3261011,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:26:44.046181+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f5acbeea26ba54396e4f97eb8bbc852683bec8bd",
+      "url": "https://tool.luo-xd.com/motionsites-results/network-hero/",
+      "completed_utc": "2026-10-29T07:33:45.293507+00:00",
+      "group_message_id": 225
     },
     {
       "number": 173,
@@ -5974,11 +5978,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nexacore-control",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3285183,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:33:16.946130+00:00",
+      "worker_state": "running"
     },
     {
       "number": 176,
@@ -10491,7 +10499,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:32:20.402732+00:00",
+  "updated_utc": "2026-10-29T07:33:45.489361+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

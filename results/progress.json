@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:32:20.402732+00:00",
+  "updated_utc": "2026-10-29T07:33:45.489361+00:00",
   "total": 380,
   "counts": {
-    "complete": 169,
+    "complete": 170,
     "running": 5,
-    "not_started": 206
+    "not_started": 205
   },
   "jobs": [
     {
@@ -1721,11 +1721,11 @@
       "id": "network-hero",
       "title": "Network Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1868d-d3c6-7013-b835-0238b813746e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f5acbeea26ba54396e4f97eb8bbc852683bec8bd",
+      "group_message_id": 225,
+      "url": "https://tool.luo-xd.com/motionsites-results/network-hero/"
     },
     {
       "id": "neural-interface",
@@ -1751,7 +1751,7 @@
       "id": "nexacore-control",
       "title": "NexaCore Control",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

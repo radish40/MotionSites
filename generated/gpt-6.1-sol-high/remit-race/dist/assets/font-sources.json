@@ -1,0 +1,52 @@
+[
+  {
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf",
+    "file": "assets/font-0.ttf",
+    "bytes": 325748
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+    "file": "assets/font-1.ttf",
+    "bytes": 324820
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+    "file": "assets/font-2.ttf",
+    "bytes": 325304
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+    "file": "assets/font-3.ttf",
+    "bytes": 326048
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+    "file": "assets/font-4.ttf",
+    "bytes": 326468
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/quicksand/v37/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo18E.ttf",
+    "file": "assets/font-5.ttf",
+    "bytes": 72964
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/quicksand/v37/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18E.ttf",
+    "file": "assets/font-6.ttf",
+    "bytes": 73224
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/quicksand/v37/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18E.ttf",
+    "file": "assets/font-7.ttf",
+    "bytes": 73232
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/quicksand/v37/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkCEv18E.ttf",
+    "file": "assets/font-8.ttf",
+    "bytes": 73140
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/quicksand/v37/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv18E.ttf",
+    "file": "assets/font-9.ttf",
+    "bytes": 72916
+  }
+]

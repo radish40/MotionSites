@@ -1,0 +1,34 @@
+{
+  "title": "Remit Race",
+  "id": "remit-race",
+  "status": "ready",
+  "page_title": "NovaPay - One Globe, One Future",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.cache -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --ignore-scripts --no-audit --no-fund && npm run build'",
+  "checks": {
+    "build": "passed",
+    "browser": "passed",
+    "desktop": "1440x1000",
+    "mobile": "390x844",
+    "carousel": "Next/previous, both wrap directions, keyboard Enter/Space, rapid-click guard passed",
+    "assets": "Qanelas-Heavy, Quicksand, Inter, globe PNG and playing muted looping MP4 verified",
+    "horizontal_overflow": "none at required viewports",
+    "script_errors": 0,
+    "console_errors": 0,
+    "http_errors": 0,
+    "failed_asset_requests": 0,
+    "details": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Native HTML/CSS/JavaScript implementation preserving the supplied layout, copy, animation and interaction.",
+    "All supplied fonts and media bundled locally; original URLs recorded in assets manifests.",
+    "Static output is dist/; resources support /motionsites-results/remit-race/.",
+    "Navigation labels, close symbol and countdown retain their source presentational behavior.",
+    "Chromium MP4 request cancellations are recorded separately; decoded video playback passed in both viewports.",
+    "No deployment or push performed. Ready means deliverable for review."
+  ]
+}

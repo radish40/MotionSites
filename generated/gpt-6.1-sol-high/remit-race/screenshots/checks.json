@@ -1,0 +1,139 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/remit-race/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "title": "NovaPay - One Globe, One Future",
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "fonts": [
+        {
+          "name": "Qanelas-Heavy",
+          "weight": 900,
+          "loaded": true
+        },
+        {
+          "name": "Quicksand",
+          "weight": 600,
+          "loaded": true
+        },
+        {
+          "name": "Inter",
+          "weight": 400,
+          "loaded": true
+        }
+      ],
+      "imageLoaded": true,
+      "video": {
+        "readyState": 4,
+        "playing": true,
+        "time": 1.836413,
+        "muted": true,
+        "loop": true
+      },
+      "phones": [
+        {
+          "screen": "competition",
+          "x": 220.203125,
+          "y": 180.203125,
+          "width": 306.53125,
+          "height": 639.59375
+        },
+        {
+          "screen": "one-world",
+          "x": 566.734375,
+          "y": 180.203125,
+          "width": 306.53125,
+          "height": 639.59375
+        },
+        {
+          "screen": "about",
+          "x": 913.265625,
+          "y": 180.203125,
+          "width": 306.53125,
+          "height": 639.59375
+        }
+      ],
+      "interactions": "Passed next/previous, forward/backward wrap, Enter/Space activation, rapid-click animation guard"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "title": "NovaPay - One Globe, One Future",
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "fonts": [
+        {
+          "name": "Qanelas-Heavy",
+          "weight": 900,
+          "loaded": true
+        },
+        {
+          "name": "Quicksand",
+          "weight": 600,
+          "loaded": true
+        },
+        {
+          "name": "Inter",
+          "weight": 400,
+          "loaded": true
+        }
+      ],
+      "imageLoaded": true,
+      "video": {
+        "readyState": 4,
+        "playing": true,
+        "time": 1.826827,
+        "muted": true,
+        "loop": true
+      },
+      "phones": [
+        {
+          "screen": "competition",
+          "x": 77.09375,
+          "y": 24,
+          "width": 235.796875,
+          "height": 492
+        },
+        {
+          "screen": "one-world",
+          "x": 77.09375,
+          "y": 556,
+          "width": 235.796875,
+          "height": 492
+        },
+        {
+          "screen": "about",
+          "x": 77.09375,
+          "y": 1088,
+          "width": 235.796875,
+          "height": 492
+        }
+      ],
+      "interactions": "Passed next/previous, forward/backward wrap, Enter/Space activation, rapid-click animation guard"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "mediaRequestCancellations": [
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/remit-race/assets/globe.mp4",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/remit-race/assets/globe.mp4",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "httpErrors": [],
+  "status": "passed"
+}

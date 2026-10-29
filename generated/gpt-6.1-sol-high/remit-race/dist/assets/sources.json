@@ -1,0 +1,20 @@
+[
+  {
+    "source": "https://db.onlinewebfonts.com/t/3010f9da43a41a81d5daa32bd6edebc2.woff2",
+    "file": "assets/qanelas-heavy.woff2",
+    "bytes": 26324,
+    "status": "downloaded"
+  },
+  {
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260706_033111_a61458df-1103-4d80-95d8-82aef099bbf2.mp4",
+    "file": "assets/globe.mp4",
+    "bytes": 26328655,
+    "status": "downloaded"
+  },
+  {
+    "source": "https://polo-pecan-73837341.figma.site/_assets/v11/79bb00a5846ae132a06fc1f590fe4d05764300be.png",
+    "file": "assets/globe.png",
+    "bytes": 856924,
+    "status": "downloaded"
+  }
+]

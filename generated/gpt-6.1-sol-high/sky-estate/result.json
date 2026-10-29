@@ -1,0 +1,95 @@
+{
+  "title": "Sky Estate",
+  "id": "sky-estate",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": {
+      "url": "/motionsites-results/sky-estate/",
+      "viewports": [
+        {
+          "name": "desktop",
+          "width": 1440,
+          "height": 1000,
+          "overflow": false,
+          "assets": [
+            {
+              "src": "/motionsites-results/sky-estate/assets/sky.png",
+              "loaded": true
+            },
+            {
+              "src": "/motionsites-results/sky-estate/assets/building.png",
+              "loaded": true
+            },
+            {
+              "src": "/motionsites-results/sky-estate/assets/mountains.png",
+              "loaded": true
+            }
+          ],
+          "fontLoaded": true,
+          "parallax": true,
+          "characterReveal": {
+            "before": "0.25",
+            "after": "1"
+          },
+          "statsVisible": true
+        },
+        {
+          "name": "mobile",
+          "width": 390,
+          "height": 844,
+          "overflow": false,
+          "assets": [
+            {
+              "src": "/motionsites-results/sky-estate/assets/sky.png",
+              "loaded": true
+            },
+            {
+              "src": "/motionsites-results/sky-estate/assets/building.png",
+              "loaded": true
+            },
+            {
+              "src": "/motionsites-results/sky-estate/assets/mountains.png",
+              "loaded": true
+            }
+          ],
+          "fontLoaded": true,
+          "parallax": true,
+          "characterReveal": {
+            "before": "0.25",
+            "after": "1"
+          },
+          "statsVisible": true
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "interactions": [
+        "Desktop Projects link navigates to statistics",
+        "Mobile menu opens, Escape closes, About link navigates and closes overlay",
+        "Contact CTAs open an email draft; recipient intentionally unset because no contact address was supplied"
+      ],
+      "status": "passed"
+    },
+    "dependency_audit": "0 vulnerabilities",
+    "visual_review": "Desktop full page, mobile full page, statistics, and mobile menu screenshots reviewed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-stats.png",
+      "screenshots/mobile-stats.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Galaxy Home page with Aether Lane branding; project index title remains Sky Estate.",
+    "Exact three requested image assets and Google Inter Tight 400/500/600/700 are served locally.",
+    "Static assets configured for /motionsites-results/sky-estate/.",
+    "No contact recipient was supplied. Get in touch has a mailto inquiry subject with an empty recipient; configure the recipient before publication. No email was sent and external email client launch was not tested.",
+    "The statistics section has a 75vh minimum height to allow the final text character to reach full opacity on both required viewports.",
+    "Original images are approximately 15 MB in total.",
+    "Ready for management acceptance; not deployed or pushed."
+  ]
+}

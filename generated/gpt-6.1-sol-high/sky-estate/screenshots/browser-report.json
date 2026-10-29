@@ -1,0 +1,67 @@
+{
+  "url": "/motionsites-results/sky-estate/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "assets": [
+        {
+          "src": "/motionsites-results/sky-estate/assets/sky.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/sky-estate/assets/building.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/sky-estate/assets/mountains.png",
+          "loaded": true
+        }
+      ],
+      "fontLoaded": true,
+      "parallax": true,
+      "characterReveal": {
+        "before": "0.25",
+        "after": "1"
+      },
+      "statsVisible": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "assets": [
+        {
+          "src": "/motionsites-results/sky-estate/assets/sky.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/sky-estate/assets/building.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/sky-estate/assets/mountains.png",
+          "loaded": true
+        }
+      ],
+      "fontLoaded": true,
+      "parallax": true,
+      "characterReveal": {
+        "before": "0.25",
+        "after": "1"
+      },
+      "statsVisible": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "interactions": [
+    "Desktop Projects link navigates to statistics",
+    "Mobile menu opens, Escape closes, About link navigates and closes overlay",
+    "Contact CTAs open an email draft; recipient intentionally unset because no contact address was supplied"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,17 @@
+@font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/assets/inter-tight-400.ttf') format('truetype')}
+@font-face{font-family:'Inter Tight';font-style:normal;font-weight:500;font-display:swap;src:url('/assets/inter-tight-500.ttf') format('truetype')}
+@font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/assets/inter-tight-600.ttf') format('truetype')}
+@font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/assets/inter-tight-700.ttf') format('truetype')}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{font-family:'Inter Tight',system-ui,sans-serif;overflow-x:hidden;background:#020319}
+*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+html{scroll-behavior:smooth;scroll-padding-top:110px}
+::selection{background:#8F9EFF;color:#020319}
+:focus-visible{outline:2px solid #BEC7FF;outline-offset:6px}
+.hero-title{background-image:linear-gradient(to bottom,#A8B4FF,#FFFFFF)}
+.contact-button{display:inline-block;flex-shrink:0;white-space:nowrap;border-radius:9999px;border:1px solid rgba(255,255,255,.8);background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(255,255,255,.10) 76%),radial-gradient(ellipse at 50% 100%,rgba(255,255,255,.7) 0%,transparent 100%),#BEC7FF;color:rgba(39,28,64,.8);font-weight:500;filter:drop-shadow(0 1px 1px rgb(0 0 0/.05))}
+.description{text-shadow:2px 4px 26px rgba(0,0,0,.56)}
+.marquee-mask{mask-image:linear-gradient(to right,transparent,#000 12%,#000 88%,transparent)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.animate-marquee,.animate-marquee-reverse{animation:none}*{transition-duration:.01ms!important}}

@@ -4,6 +4,8 @@
 
 项目索引名称必须保留为 {{TITLE}}，设计 ID 为 {{ID}}。网页内标题与品牌按提示词要求。模型要求 gpt-6.1-sol，推理强度 high。使用原提示词要求的技术栈、文案、素材、字体、动画和交互，完整实现，不能用原预览截图充当页面。
 
+本设计自己的原始视觉参考为 `/home/opc/motionsites/assets/previews/{{ID}}.webp`（仅在文件存在时读取；WebP 可能包含动画多帧）。可用它对照构图、素材和动画，仍然禁止读取其他设计。若指定素材失效，尽力恢复原文件；确实无法恢复时，可从本设计参考中提取独立素材并重建必要动画，保留真实 DOM 布局、文字和控件。不要使用带页面文字、按钮的整页截图或整段参考视频充当网页。提取素材须隔离对应元素，记录来源、恢复方法、近似部分和验证限制；恢复代码及素材仅写入本项目。
+
 发布路径 /motionsites-results/{{ID}}/，所有资源应适应此子路径。源码及配置放在本目录，构建后的可发布静态文件放在 dist/，dist/index.html 必须存在；原生 HTML 项目同样复制完整运行文件到 dist/。不要提交 node_modules。保存依赖锁文件。
 
 主机没有 Node/npm/git，可用现有 Docker 镜像 louislam/uptime-kuma:2（含 Node22/npm、Chromium、/app/node_modules/playwright-core）。例如：

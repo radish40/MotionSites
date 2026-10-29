@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+font-family: 'Inter', system-ui, sans-serif;
+-webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+.animate-shiny {
+animation: shiny 6s linear infinite;
+}
+}
+
+@keyframes shiny {
+0% {
+background-position: -200% center;
+}
+100% {
+background-position: 200% center;
+}
+}
+
+body { margin: 0; }
+button, a { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid #3D81E3; outline-offset: 5px; }

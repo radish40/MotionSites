@@ -1,0 +1,54 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/auramail/",
+  "checked_at": "2026-10-29T05:26:24.907Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Aura — Your email. Revitalized.",
+      "bodyChars": 344,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_124911_3ed2d5b7-1604-4a4d-acbf-a28fd6c79348.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Aura — Your email. Revitalized.",
+      "bodyChars": 270,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_124911_3ed2d5b7-1604-4a4d-acbf-a28fd6c79348.mp4",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_124911_3ed2d5b7-1604-4a4d-acbf-a28fd6c79348.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_124911_3ed2d5b7-1604-4a4d-acbf-a28fd6c79348.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

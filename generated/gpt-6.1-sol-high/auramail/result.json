@@ -1,0 +1,42 @@
+{
+  "title": "AuraMail",
+  "id": "auramail",
+  "status": "ready",
+  "build_command": "npm ci && npm run build",
+  "checks": {
+    "build": "passed: TypeScript and Vite production build via louislam/uptime-kuma:2 Docker image; full command in README.md",
+    "output": "dist/index.html",
+    "base_path": "/motionsites-results/auramail/",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium 390x844",
+    "horizontal_overflow": "none on either viewport",
+    "mobile_drawer": "open, five links, close verified",
+    "navigation": "five supplied placeholder anchors verified",
+    "download_buttons": "clickable; no destination supplied in design",
+    "video": "playing on both viewports, readyState 4, no media error",
+    "font": "Inter loaded on both viewports",
+    "javascript_errors": 0,
+    "console_errors": 0,
+    "http_errors": 0,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "CloudFront background video",
+      "severity": "informational",
+      "detail": "Loaded and played on both viewports. Chromium logged ERR_ABORTED stream/range cancellations, retained in browser-checks.json; no decoding or playback error."
+    }
+  ],
+  "notes": [
+    "Implemented only AuraMail from TASK.md and PROMPT.md using the specified stack, copy, logos, video, font and animations.",
+    "External video and Google Fonts require network access.",
+    "Navigation placeholder anchors and buttons without a download destination are preserved from the prompt.",
+    "Source, lockfile, production output, browser checks and screenshots are included.",
+    "No agents, other sessions, deployments, pushes or messages. Ready means ready for acceptance, not deployed."
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "url": "/motionsites-results/nimbus-pricing/",
+  "browser": "Chromium",
+  "errors": [],
+  "failedRequests": [],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "documentHeight": 1477,
+      "fontSans": true,
+      "fontMono": true,
+      "loadedFonts": [
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 500",
+        "IBM Plex Sans 400"
+      ],
+      "topColumns": "448.703px 732.109px",
+      "planColumns": "355.203px 355.203px 355.219px",
+      "bars": [
+        {
+          "height": 340.796875,
+          "morph": "24px"
+        },
+        {
+          "height": 274.390625,
+          "morph": "-4px"
+        },
+        {
+          "height": 210,
+          "morph": "-30px"
+        },
+        {
+          "height": 254.59375,
+          "morph": "-43px"
+        },
+        {
+          "height": 178,
+          "morph": "-38px"
+        },
+        {
+          "height": 240.1875,
+          "morph": "-19px"
+        },
+        {
+          "height": 235.390625,
+          "morph": "5px"
+        },
+        {
+          "height": 327.1875,
+          "morph": "20px"
+        },
+        {
+          "height": 366.59375,
+          "morph": "21px"
+        },
+        {
+          "height": 344,
+          "morph": "8px"
+        },
+        {
+          "height": 363.390625,
+          "morph": "-11px"
+        },
+        {
+          "height": 368.59375,
+          "morph": "-25px"
+        }
+      ],
+      "scrollAnimation": "passed",
+      "planLinks": "passed",
+      "focusOutline": "solid"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 1996,
+      "fontSans": true,
+      "fontMono": true,
+      "loadedFonts": [
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 500",
+        "IBM Plex Sans 400"
+      ],
+      "topColumns": "350px",
+      "planColumns": "350px",
+      "bars": [
+        {
+          "height": 357.796875,
+          "morph": "41px"
+        },
+        {
+          "height": 301.390625,
+          "morph": "23px"
+        },
+        {
+          "height": 234,
+          "morph": "-6px"
+        },
+        {
+          "height": 266.59375,
+          "morph": "-31px"
+        },
+        {
+          "height": 173,
+          "morph": "-43px"
+        },
+        {
+          "height": 222.1875,
+          "morph": "-37px"
+        },
+        {
+          "height": 212.390625,
+          "morph": "-18px"
+        },
+        {
+          "height": 313.1875,
+          "morph": "6px"
+        },
+        {
+          "height": 366.59375,
+          "morph": "21px"
+        },
+        {
+          "height": 357,
+          "morph": "21px"
+        },
+        {
+          "height": 381.390625,
+          "morph": "7px"
+        },
+        {
+          "height": 381.59375,
+          "morph": "-12px"
+        }
+      ],
+      "scrollAnimation": "passed",
+      "planLinks": "passed",
+      "focusOutline": "solid"
+    }
+  },
+  "status": "passed"
+}

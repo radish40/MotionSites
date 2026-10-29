@@ -1,0 +1,38 @@
+{
+  "title": "NimBus Pricing",
+  "id": "nimbus-pricing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: Vite 5.4.21; dist/index.html exists",
+    "browser": "passed: Chromium at 1440x1000 and 390x844",
+    "required_subpath": "passed: /motionsites-results/nimbus-pricing/",
+    "horizontal_overflow": "none at both viewports",
+    "javascript_errors": [],
+    "failed_requests": [],
+    "fonts": "IBM Plex Sans and IBM Plex Mono loaded successfully",
+    "responsive_layout": "desktop columns and mobile stacking verified",
+    "plan_links": "all three specified anchor links passed",
+    "keyboard_focus": "visible focus outline passed",
+    "scroll_animation": "twelve bars, six alternating muted bars, scroll-driven morph changes passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-viewport.png",
+      "screenshots/mobile-viewport.png",
+      "screenshots/desktop-bars.png",
+      "screenshots/mobile-bars.png"
+    ],
+    "visual_review": "desktop and mobile full-page captures inspected",
+    "details": "browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Complete source, lockfile, static dist, screenshots, browser check script, and README provided.",
+    "Google Fonts remain external dependencies; no failed font requests during validation.",
+    "Only this design reference was inspected. No raster reference used as page content.",
+    "Billing pill intentionally follows static prompt markup. Plan links follow prompt anchors; plans target added to plan row.",
+    "Prescribed Vite ^5.4.2 retained. npm audit reports two development dependency findings: one moderate and one high.",
+    "No deployment, push, additional session, sub-agent, or external message."
+  ]
+}

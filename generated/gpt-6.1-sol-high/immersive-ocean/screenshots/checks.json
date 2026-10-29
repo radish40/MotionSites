@@ -1,0 +1,37 @@
+{
+  "url": "http://localhost:4173/motionsites-results/immersive-ocean/",
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_204221_5339e40b-e73d-4ab0-9c65-79c18c66fd50.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_204221_5339e40b-e73d-4ab0-9c65-79c18c66fd50.mp4",
+      "failure": "net::ERR_ABORTED"
+    }
+  ],
+  "checks": [
+    "Desktop 1440x1000: content, navigation, no overflow, screenshot",
+    "Mobile 390x844: no overflow, menu opens/closes, all menu links dismiss, Escape closes, desktop resize closes menu",
+    "Reduced-motion preference: hero text visible",
+    "No browser script or console errors"
+  ],
+  "assets": {
+    "font": true,
+    "loadedFontFaces": 3,
+    "fontFamily": "Geist, sans-serif",
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 2.680036,
+      "width": 1920,
+      "height": 1080,
+      "error": null,
+      "autoPlay": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    }
+  }
+}

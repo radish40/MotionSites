@@ -1,0 +1,48 @@
+{
+  "title": "Immersive Ocean",
+  "id": "immersive-ocean",
+  "status": "ready",
+  "build_command": "npm ci --no-audit --no-fund && npm run build (Node 22, inside louislam/uptime-kuma:2 Docker image; full invocation in README.md)",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/immersive-ocean/",
+    "browser": [
+      "Desktop 1440x1000: content, navigation, no overflow, screenshot",
+      "Mobile 390x844: no overflow, menu opens/closes, all menu links dismiss, Escape closes, desktop resize closes menu",
+      "Reduced-motion preference: hero text visible",
+      "No browser script or console errors"
+    ],
+    "console_errors": [],
+    "font": "Geist loaded successfully; 3 loaded font faces",
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 2.680036,
+      "width": 1920,
+      "height": 1080,
+      "error": null,
+      "autoPlay": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "No unavailable assets. Chromium recorded two net::ERR_ABORTED video requests during the test lifecycle; playback succeeded at readyState 4, 1920x1080, with no media error. Raw request records retained in screenshots/checks.json."
+  ],
+  "notes": [
+    "Foldcraft is the page brand; Immersive Ocean is the project index title.",
+    "React, Tailwind CSS, Lucide React, Geist, and exact supplied video URL implemented.",
+    "Navigation and CTA destinations were not provided; same-page # links are used. All mobile links close the overlay.",
+    "Video and Google Fonts require network access.",
+    "Screenshots pause the actual video at 3 seconds for repeatability; production video autoplays muted and loops inline.",
+    "Build and browser checks ran in temporary Docker containers. No agents, other sessions, deployment, push, or external messages.",
+    "Ready means prepared for acceptance, not deployed."
+  ]
+}

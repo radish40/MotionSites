@@ -1,0 +1,37 @@
+{
+  "title": "Halo Use Case",
+  "id": "halo-use-case",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "public_base": "/motionsites-results/halo-use-case/",
+    "desktop": "passed: Chromium 1440x1000, two columns, 720px card, no horizontal overflow",
+    "mobile": "passed: Chromium 390x844, stacked layout, 720px card, no horizontal overflow",
+    "button": "passed: hover color transition, click, keyboard focus and Enter activation",
+    "font": "TT Norms Pro Regular loaded in both viewports",
+    "video": "loaded and autoplaying muted in both viewports; playback advances, loop and playsInline enabled",
+    "script_errors": [],
+    "console_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/checks.json",
+    "visual_review": "Desktop and mobile screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "CloudFront MP4",
+      "observation": "Chromium recorded net::ERR_ABORTED requests during media handling/seeking. Video loaded with readyState 4, no media error, and successful advancing playback in both viewports. Raw requests retained in browser report."
+    }
+  ],
+  "notes": [
+    "Implemented only the supplied Halo Use Case design with React, TypeScript, Tailwind CSS and lucide-react.",
+    "Uses the exact external font stylesheet and MP4 URL supplied in PROMPT.md.",
+    "Know more has no destination or additional action specified in the prompt; it retains the reference button behavior.",
+    "Full-page screenshots use a consistent video frame at two seconds. Production video plays normally.",
+    "External font and video require network availability.",
+    "Ready means ready for review; no deployment or push performed."
+  ]
+}

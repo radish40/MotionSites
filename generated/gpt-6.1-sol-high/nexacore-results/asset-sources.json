@@ -1,0 +1,26 @@
+[
+  {
+    "path": "public/assets/background.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260418_125638_553b96dc-a1fd-4b2b-81a9-ed7daa80006e.png&w=1280&q=85",
+    "method": "Direct download, no transformation",
+    "sha256": "e4876bea68b33da8a39e0d4ef6f4c125ba5a0604e9e320023d1f7d48c94adab0"
+  },
+  {
+    "path": "public/assets/logo.png",
+    "source": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/6870f623cf3df417ce45df05_icon%20logo%20eternacloud.png",
+    "method": "Direct download, no transformation",
+    "sha256": "bc1bb1c5467b5c0ce9c1b5dac7c78432d40f3a9aeb8e8a4081c076057d21ae11"
+  },
+  {
+    "path": "public/assets/mazzard-h-400.woff2",
+    "source": "https://db.onlinewebfonts.com/t/eb5b5ee332420add9a40ee988cb6ac37.woff2",
+    "method": "Direct download, no transformation",
+    "sha256": "a40523189cb669d2255bf5f3e532f2e752a364887f72c04cb19e0d56c919fbdc"
+  },
+  {
+    "path": "public/assets/mazzard-h-500.woff2",
+    "source": "https://db.onlinewebfonts.com/t/875fffdfa62169a0f131e90f37f1faf4.woff2",
+    "method": "Direct download, no transformation",
+    "sha256": "a60b38366717bfa7da974fbfa5875990aa937a658c70fdf110801b10ca7af117"
+  }
+]

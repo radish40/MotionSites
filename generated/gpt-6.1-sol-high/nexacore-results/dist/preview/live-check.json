@@ -1,0 +1,119 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nexacore-results/",
+  "checked_at": "2026-10-29T07:41:30.074Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "NexaCore Results",
+      "bodyChars": 363,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "NexaCore Results",
+      "bodyChars": 363,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-results/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

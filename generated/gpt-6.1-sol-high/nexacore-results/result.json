@@ -1,0 +1,224 @@
+{
+  "title": "NexaCore Results",
+  "id": "nexacore-results",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "typescript": "passed",
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "dependency_audit": "0 vulnerabilities",
+    "browser": "Chromium via Playwright",
+    "viewports": [
+      {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "passed": true,
+        "title": "NexaCore Results",
+        "horizontalOverflow": false,
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "desktopVisible": true,
+        "mobileVisible": false,
+        "pillarCount": 4,
+        "pillars": [
+          {
+            "label": "Scopes",
+            "x": 167.8125,
+            "y": 536.984375,
+            "align": "center"
+          },
+          {
+            "label": "Integrates",
+            "x": 450.046875,
+            "y": 507.03125,
+            "align": "center"
+          },
+          {
+            "label": "Certifies",
+            "x": 720.765625,
+            "y": 477.078125,
+            "align": "center"
+          },
+          {
+            "label": "Activates",
+            "x": 1007.328125,
+            "y": 447.140625,
+            "align": "center"
+          }
+        ],
+        "imagesLoaded": true,
+        "fontsLoaded": true,
+        "animationCount": 0,
+        "controlCount": 0,
+        "bodyHeight": 978,
+        "scrollReachedBottom": true,
+        "errors": [],
+        "failedRequests": []
+      },
+      {
+        "name": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "passed": true,
+        "title": "NexaCore Results",
+        "horizontalOverflow": false,
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "desktopVisible": false,
+        "mobileVisible": true,
+        "pillarCount": 4,
+        "pillars": [
+          {
+            "label": "Scopes",
+            "x": 34.53125,
+            "y": 372.40625,
+            "align": "flex-start"
+          },
+          {
+            "label": "Integrates",
+            "x": 34.53125,
+            "y": 586.90625,
+            "align": "flex-end"
+          },
+          {
+            "label": "Certifies",
+            "x": 34.53125,
+            "y": 801.40625,
+            "align": "flex-start"
+          },
+          {
+            "label": "Activates",
+            "x": 34.53125,
+            "y": 1015.90625,
+            "align": "flex-end"
+          }
+        ],
+        "imagesLoaded": true,
+        "fontsLoaded": true,
+        "animationCount": 0,
+        "controlCount": 0,
+        "bodyHeight": 1278,
+        "scrollReachedBottom": true,
+        "errors": [],
+        "failedRequests": []
+      },
+      {
+        "name": "breakpoint-below",
+        "viewport": {
+          "width": 639,
+          "height": 900
+        },
+        "passed": true,
+        "title": "NexaCore Results",
+        "horizontalOverflow": false,
+        "viewportWidth": 639,
+        "documentWidth": 639,
+        "desktopVisible": false,
+        "mobileVisible": true,
+        "pillarCount": 4,
+        "pillars": [
+          {
+            "label": "Scopes",
+            "x": 56.578125,
+            "y": 289.390625,
+            "align": "flex-start"
+          },
+          {
+            "label": "Integrates",
+            "x": 56.578125,
+            "y": 503.890625,
+            "align": "flex-end"
+          },
+          {
+            "label": "Certifies",
+            "x": 56.578125,
+            "y": 718.390625,
+            "align": "flex-start"
+          },
+          {
+            "label": "Activates",
+            "x": 56.578125,
+            "y": 932.890625,
+            "align": "flex-end"
+          }
+        ],
+        "imagesLoaded": true,
+        "fontsLoaded": true,
+        "animationCount": 0,
+        "controlCount": 0,
+        "bodyHeight": 1195,
+        "scrollReachedBottom": true,
+        "errors": [],
+        "failedRequests": []
+      },
+      {
+        "name": "breakpoint-at",
+        "viewport": {
+          "width": 640,
+          "height": 900
+        },
+        "passed": true,
+        "title": "NexaCore Results",
+        "horizontalOverflow": false,
+        "viewportWidth": 640,
+        "documentWidth": 640,
+        "desktopVisible": true,
+        "mobileVisible": false,
+        "pillarCount": 4,
+        "pillars": [
+          {
+            "label": "Scopes",
+            "x": 74.578125,
+            "y": 318.515625,
+            "align": "center"
+          },
+          {
+            "label": "Integrates",
+            "x": 200.03125,
+            "y": 305.203125,
+            "align": "center"
+          },
+          {
+            "label": "Certifies",
+            "x": 320.34375,
+            "y": 291.890625,
+            "align": "center"
+          },
+          {
+            "label": "Activates",
+            "x": 447.703125,
+            "y": 278.578125,
+            "align": "center"
+          }
+        ],
+        "imagesLoaded": true,
+        "fontsLoaded": true,
+        "animationCount": 0,
+        "controlCount": 0,
+        "bodyHeight": 542,
+        "scrollReachedBottom": true,
+        "errors": [],
+        "failedRequests": []
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Specified original assets mirrored locally without transformation; see asset-sources.json.",
+    "Static React + TypeScript + Tailwind CSS v3; no state, animations, hover states, scroll effects, or controls.",
+    "Base: /motionsites-results/nexacore-results/.",
+    "Only this project reference was viewed; no screenshot used as page content.",
+    "Chromium-only validation; mobile screenshot is full-page.",
+    "No agents, other designs, deployments, pushes, or external messages. Ready for review, not deployed."
+  ]
+}

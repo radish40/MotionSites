@@ -629,22 +629,26 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d0-3526-7733-bb95-b1071d7e1782",
       "output_path": "generated/gpt-6.1-sol-high/halo-usd-landing",
-      "validation": "Live browser check failed; see screenshots/live-check.json",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Same original session is repairing observed production font 404s.",
       "process_id": 2569685,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:59:37.072473+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
       "delivery_failures": 0,
       "repair_attempts": 1,
-      "previous_delivery_failures": 1
+      "previous_delivery_failures": 1,
+      "source_commit": "317900d1af5510a66b452147ae4a35e93151b322",
+      "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/",
+      "completed_utc": "2026-10-29T04:13:56.772701+00:00",
+      "group_message_id": 73
     },
     {
       "number": 20,
@@ -896,19 +900,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d6-bae5-7f71-9ffa-22c69b9d1ef5",
       "output_path": "generated/gpt-6.1-sol-high/ai-interface",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2562063,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:06:44.484725+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "3b7ae9acc8ac0117e4c54794c017afbc22f650ca",
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-interface/",
+      "completed_utc": "2026-10-29T04:14:31.665850+00:00",
+      "group_message_id": 74
     },
     {
       "number": 28,
@@ -927,14 +935,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185da-d0f0-78c1-b7de-ccf12bb73f7a",
       "output_path": "generated/gpt-6.1-sol-high/ai-meeting-notes",
       "validation": "",
       "notes": "",
       "process_id": 2577360,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:11:12.389829+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 29,
@@ -953,14 +965,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185da-d1a9-7421-af5c-fa977d785446",
       "output_path": "generated/gpt-6.1-sol-high/ai-workflow-agents",
       "validation": "",
       "notes": "",
       "process_id": 2577390,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:11:12.492320+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 30,
@@ -978,11 +994,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/cargo-group",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2588385,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:13:58.758655+00:00",
+      "worker_state": "running"
     },
     {
       "number": 31,
@@ -1000,11 +1020,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/cargox-mobile",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2588419,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:13:58.862756+00:00",
+      "worker_state": "running"
     },
     {
       "number": 32,
@@ -8685,5 +8709,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:13:05.967487+00:00"
+  "updated_utc": "2026-10-29T04:14:31.824018+00:00"
 }

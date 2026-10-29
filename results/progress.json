@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:13:05.967487+00:00",
+  "updated_utc": "2026-10-29T04:14:31.824018+00:00",
   "total": 380,
   "counts": {
-    "complete": 24,
+    "complete": 26,
     "running": 5,
-    "not_started": 351
+    "not_started": 349
   },
   "jobs": [
     {
@@ -191,11 +191,11 @@
       "id": "halo-usd-landing",
       "title": "USD Halo",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d0-3526-7733-bb95-b1071d7e1782",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "317900d1af5510a66b452147ae4a35e93151b322",
+      "group_message_id": 73,
+      "url": "https://tool.luo-xd.com/motionsites-results/halo-usd-landing/"
     },
     {
       "id": "ai-designer-agency",
@@ -271,18 +271,18 @@
       "id": "ai-interface",
       "title": "AI Interface",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d6-bae5-7f71-9ffa-22c69b9d1ef5",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "3b7ae9acc8ac0117e4c54794c017afbc22f650ca",
+      "group_message_id": 74,
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-interface/"
     },
     {
       "id": "ai-meeting-notes",
       "title": "AI Meeting Notes",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185da-d0f0-78c1-b7de-ccf12bb73f7a",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -292,7 +292,7 @@
       "title": "AI Workflow Agents",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185da-d1a9-7421-af5c-fa977d785446",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -301,7 +301,7 @@
       "id": "cargo-group",
       "title": "Cargo Group",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -311,7 +311,7 @@
       "id": "cargox-mobile",
       "title": "CARGOX Mobile",
       "category": "Transportation",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

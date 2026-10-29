@@ -1,0 +1,30 @@
+{
+  "title": "Liquid Glass Features",
+  "id": "liquid-glass-features",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite production build; dist/index.html exists",
+    "base_path": "/motionsites-results/liquid-glass-features/",
+    "desktop": "passed at 1440x1000: alternating two-column layout, no horizontal overflow",
+    "mobile": "passed at 390x844: content above image in both rows, no horizontal overflow",
+    "interactions": "both buttons: hover overlay, click, focus and Enter activation passed; no destination specified by prompt",
+    "assets": "both external GIFs decoded and both Google Font families loaded in both viewports",
+    "browser_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_inspection": "desktop and mobile screenshots reviewed",
+    "details": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact supplied FeaturesChess component and liquid-glass CSS retained.",
+    "External GIF URLs remain direct src strings as requested; fonts and GIFs require external connectivity.",
+    "Initial favicon 404 resolved with an inline favicon; final browser run passed without errors.",
+    "No additional button flow was specified or added.",
+    "No deployment, push, other sessions, agents, or messages; ready for review only."
+  ]
+}

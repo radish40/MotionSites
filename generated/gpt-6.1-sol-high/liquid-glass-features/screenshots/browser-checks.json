@@ -1,0 +1,165 @@
+{
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "overflow": false,
+      "fonts": {
+        "heading": true,
+        "body": true
+      },
+      "images": [
+        {
+          "src": "https://motionsites.ai/assets/hero-grow-ai-preview-BlQ8tAQ-.gif",
+          "loaded": true,
+          "naturalWidth": 800,
+          "naturalHeight": 573
+        },
+        {
+          "src": "https://motionsites.ai/assets/hero-glassmorphism-agency-preview-CGqeRoqP.gif",
+          "loaded": true,
+          "naturalWidth": 800,
+          "naturalHeight": 559
+        }
+      ],
+      "rows": [
+        {
+          "direction": "row",
+          "content": {
+            "x": 96,
+            "y": 403.140625,
+            "width": 584,
+            "height": 176
+          },
+          "image": {
+            "x": 760,
+            "y": 282,
+            "width": 584,
+            "height": 418.28125
+          }
+        },
+        {
+          "direction": "row-reverse",
+          "content": {
+            "x": 760,
+            "y": 912.3125,
+            "width": 584,
+            "height": 176
+          },
+          "image": {
+            "x": 96,
+            "y": 796.28125,
+            "width": 584,
+            "height": 408.0625
+          }
+        }
+      ],
+      "background": "rgb(0, 0, 0)",
+      "headings": [
+        "Pro features. Zero complexity.",
+        "Designed to convert. Built to perform.",
+        "It gets smarter. Automatically."
+      ],
+      "interactions": [
+        {
+          "label": "Learn more",
+          "hoverBackground": "rgba(255, 255, 255, 0.1)",
+          "click": true,
+          "keyboard": true,
+          "behavior": "Prompt-supplied button, no destination specified"
+        },
+        {
+          "label": "See how it works",
+          "hoverBackground": "rgba(255, 255, 255, 0.1)",
+          "click": true,
+          "keyboard": true,
+          "behavior": "Prompt-supplied button, no destination specified"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "fonts": {
+        "heading": true,
+        "body": true
+      },
+      "images": [
+        {
+          "src": "https://motionsites.ai/assets/hero-grow-ai-preview-BlQ8tAQ-.gif",
+          "loaded": true,
+          "naturalWidth": 800,
+          "naturalHeight": 573
+        },
+        {
+          "src": "https://motionsites.ai/assets/hero-glassmorphism-agency-preview-CGqeRoqP.gif",
+          "loaded": true,
+          "naturalWidth": 800,
+          "naturalHeight": 559
+        }
+      ],
+      "rows": [
+        {
+          "direction": "column",
+          "content": {
+            "x": 24,
+            "y": 286.78125,
+            "width": 342,
+            "height": 210.25
+          },
+          "image": {
+            "x": 24,
+            "y": 545.03125,
+            "width": 342,
+            "height": 244.953125
+          }
+        },
+        {
+          "direction": "column",
+          "content": {
+            "x": 24,
+            "y": 885.984375,
+            "width": 342,
+            "height": 183.25
+          },
+          "image": {
+            "x": 24,
+            "y": 1117.234375,
+            "width": 342,
+            "height": 238.96875
+          }
+        }
+      ],
+      "background": "rgb(0, 0, 0)",
+      "headings": [
+        "Pro features. Zero complexity.",
+        "Designed to convert. Built to perform.",
+        "It gets smarter. Automatically."
+      ],
+      "interactions": [
+        {
+          "label": "Learn more",
+          "hoverBackground": "rgba(255, 255, 255, 0.1)",
+          "click": true,
+          "keyboard": true,
+          "behavior": "Prompt-supplied button, no destination specified"
+        },
+        {
+          "label": "See how it works",
+          "hoverBackground": "rgba(255, 255, 255, 0.1)",
+          "click": true,
+          "keyboard": true,
+          "behavior": "Prompt-supplied button, no destination specified"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "assetIssues": []
+}

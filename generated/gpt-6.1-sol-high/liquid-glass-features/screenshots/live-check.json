@@ -1,0 +1,59 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/liquid-glass-features/",
+  "checked_at": "2026-10-29T07:11:56.035Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Liquid Glass Features",
+      "bodyChars": 404,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://motionsites.ai/assets/hero-grow-ai-preview-BlQ8tAQ-.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://motionsites.ai/assets/hero-glassmorphism-agency-preview-CGqeRoqP.gif",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Liquid Glass Features",
+      "bodyChars": 404,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://motionsites.ai/assets/hero-grow-ai-preview-BlQ8tAQ-.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://motionsites.ai/assets/hero-glassmorphism-agency-preview-CGqeRoqP.gif",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/retro-futurist/",
+  "checked_at": "2026-10-29T08:14:01.103Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Mainframe® — Meet A.R.I.A.",
+      "bodyChars": 310,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/retro-futurist/assets/mainframe.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 4.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Mainframe® — Meet A.R.I.A.",
+      "bodyChars": 301,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/retro-futurist/assets/mainframe.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 4.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

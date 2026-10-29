@@ -1,0 +1,87 @@
+{
+  "title": "Retro-Futurist",
+  "id": "retro-futurist",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript noEmit + Vite production build",
+    "dist_index_exists": true,
+    "browser": {
+      "url": "http://localhost:4173/motionsites-results/retro-futurist/",
+      "checks": [
+        {
+          "name": "Pills appear before typewriter completes",
+          "passed": true
+        },
+        {
+          "name": "Typewriter completes and removes cursor",
+          "passed": true
+        },
+        {
+          "name": "Original video loads and remains paused without autoplay",
+          "passed": true,
+          "duration": 4.041667,
+          "width": 3828,
+          "height": 2164,
+          "paused": true,
+          "time": 0
+        },
+        {
+          "name": "Mouse scrubs forward and backward with queued seeks",
+          "passed": true,
+          "forward": 2.24537,
+          "backward": 0.673611
+        },
+        {
+          "name": "Desktop 1440\u00d71000: no overflow and both fonts loaded",
+          "passed": true,
+          "viewport": 1440,
+          "width": 1440,
+          "height": 1000,
+          "fonts": true
+        },
+        {
+          "name": "Copy button writes exact email and announces success",
+          "passed": true
+        },
+        {
+          "name": "Contact actions have working mailto destinations",
+          "passed": true
+        },
+        {
+          "name": "Mobile 390\u00d7844: no overflow and all actions in viewport",
+          "passed": true,
+          "viewport": 390,
+          "width": 390,
+          "height": 844
+        },
+        {
+          "name": "Mobile menu opens, closes, exposes all links, and supports Escape",
+          "passed": true
+        },
+        {
+          "name": "No browser JavaScript errors",
+          "passed": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "screenshots": [
+        "screenshots/desktop.png",
+        "screenshots/mobile.png"
+      ],
+      "passed": true
+    }
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented Mainframe with React, TypeScript, Vite and Tailwind CSS.",
+    "All original video and font assets were accessible and mirrored unchanged locally; exact required font stylesheet links retained.",
+    "Output base: /motionsites-results/retro-futurist/. No deployment or push performed.",
+    "Only the permitted Retro-Futurist preview was inspected; no preview pixels were used in the page.",
+    "Navigation URLs were unspecified; corresponding mainframe.co paths are used and their remote contents were not verified.",
+    "Clipboard tested on localhost; use HTTPS or localhost. Mobile check uses Chromium emulation.",
+    "README.md documents run instructions, provenance, checks and limits."
+  ]
+}

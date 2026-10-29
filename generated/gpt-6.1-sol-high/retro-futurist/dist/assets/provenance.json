@@ -1,0 +1,22 @@
+{
+  "assets": [
+    {
+      "file": "public/assets/mainframe.mp4",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260530_042513_df96a13b-6155-4f6e-8b93-c9dee66fba08.mp4",
+      "sha256": "a8a035f82baaf5e07d90e451f8cee4416c68d03781dba6dc8143e4b41974c25b",
+      "method": "Downloaded unchanged original over HTTPS; no extraction or replacement"
+    },
+    {
+      "file": "public/assets/heading.woff2",
+      "source": "https://db.onlinewebfonts.com/t/5ac3fe7c6abd2f62067f266d89671492.woff2",
+      "sha256": "199ec8a227a6df42b64c781b36192cec082efc903c86b6dda07ae53df042083b",
+      "method": "Downloaded unchanged original over HTTPS; no extraction or replacement"
+    },
+    {
+      "file": "public/assets/body.woff2",
+      "source": "https://db.onlinewebfonts.com/t/1aa3377e489837a26d019bba501e779d.woff2",
+      "sha256": "cab96f0d4fc8b81018b52279bf51d947b84c310d5dfba4b4baf4629a257b0268",
+      "method": "Downloaded unchanged original over HTTPS; no extraction or replacement"
+    }
+  ]
+}

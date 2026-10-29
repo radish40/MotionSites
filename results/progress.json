@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:24:01.675439+00:00",
+  "updated_utc": "2026-10-29T07:25:47.530940+00:00",
   "total": 380,
   "counts": {
-    "complete": 165,
+    "complete": 166,
     "running": 5,
-    "not_started": 210
+    "not_started": 209
   },
   "jobs": [
     {
@@ -1641,11 +1641,11 @@
       "id": "luxury-real-estate",
       "title": "Luxury Real Estate",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18684-1f63-7d02-8445-6f6832dd93be",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "1c9b23a3ff6e129b2ac8efa94f95235494fd2e24",
+      "group_message_id": 221,
+      "url": "https://tool.luo-xd.com/motionsites-results/luxury-real-estate/"
     },
     {
       "id": "media-card-carousel",
@@ -1702,7 +1702,7 @@
       "title": "Neo Museum",
       "category": "Website",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1868a-d006-7fc3-b919-8b24c8a17c39",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1711,7 +1711,7 @@
       "id": "neon-logic",
       "title": "Neon Logic",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

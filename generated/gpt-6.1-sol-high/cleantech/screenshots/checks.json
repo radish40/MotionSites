@@ -1,0 +1,88 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "heroVideo": {
+      "width": 3828,
+      "height": 2164,
+      "playing": true,
+      "time": 2.436342
+    },
+    "frames": 120,
+    "canvas": {
+      "width": 1440,
+      "height": 1000,
+      "pixels": [
+        35,
+        48,
+        38,
+        255
+      ]
+    },
+    "charOpacity": "1",
+    "errors": [],
+    "failed": [],
+    "warnings": [],
+    "interactions": [
+      "Start Here anchor",
+      "hero fade",
+      "character reveal",
+      "120-frame canvas extraction",
+      "first stat",
+      "second stat",
+      "brand home"
+    ],
+    "horizontalOverflow": false
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "heroVideo": {
+      "width": 3828,
+      "height": 2164,
+      "playing": true,
+      "time": 2.422516
+    },
+    "frames": 120,
+    "canvas": {
+      "width": 390,
+      "height": 844,
+      "pixels": [
+        33,
+        48,
+        38,
+        255
+      ]
+    },
+    "charOpacity": "1",
+    "errors": [],
+    "failed": [],
+    "warnings": [],
+    "interactions": [
+      "Start Here anchor",
+      "hero fade",
+      "character reveal",
+      "120-frame canvas extraction",
+      "first stat",
+      "second stat",
+      "brand home"
+    ],
+    "horizontalOverflow": false
+  },
+  {
+    "forcedFallback": {
+      "time": 6.487664,
+      "duration": 10.041667,
+      "visible": true,
+      "frames": "0"
+    },
+    "characterOpacities": [
+      "1",
+      "0.3"
+    ]
+  }
+]

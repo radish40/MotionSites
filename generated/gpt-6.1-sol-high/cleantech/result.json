@@ -1,0 +1,27 @@
+{
+  "title": "CleanTech",
+  "id": "cleantech",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5; dist/index.html exists",
+    "dependency_install": "passed; package-lock.json saved; npm reported zero vulnerabilities",
+    "base_path": "/motionsites-results/cleantech/",
+    "browser": "Chromium via existing playwright-core in louislam/uptime-kuma:2",
+    "desktop": { "viewport": "1440x1000", "status": "passed", "extracted_frames": 120, "script_errors": 0, "failed_resource_responses": 0, "horizontal_overflow": false },
+    "mobile": { "viewport": "390x844", "status": "passed", "extracted_frames": 120, "script_errors": 0, "failed_resource_responses": 0, "horizontal_overflow": false },
+    "interactions": ["Hero video autoplay", "Start Here scrolls to about", "Hero opacity reaches zero", "Character opacity reveals progressively", "Canvas renders extracted video frames", "First statistic appears at progress 0.3", "Second statistic appears at progress 0.7", "Brand returns to page top", "Seek-based fallback works when ImageBitmap is unavailable"],
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/desktop-about.png", "screenshots/mobile-about.png", "screenshots/desktop-first.png", "screenshots/mobile-first.png", "screenshots/desktop-second.png", "screenshots/mobile-second.png"],
+    "visual_review": "All eight screenshots reviewed",
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Terova is the on-page brand; CleanTech is the project index title.",
+    "Exact supplied MP4 assets and Google Fonts Inter WOFF2 are bundled locally and load from the required subpath.",
+    "Frame extraction can take approximately one minute in the software-rendered test browser; seek-based playback remains visible during extraction.",
+    "The prompt provides no contact destinations: LinkedIn uses its generic homepage; tel: and mailto: remain unaddressed. No contact data was invented.",
+    "Browser checks cover Chromium desktop and mobile viewports, not physical devices or other browser engines.",
+    "Ready means available for acceptance review. Nothing was deployed, pushed, or sent externally."
+  ]
+}

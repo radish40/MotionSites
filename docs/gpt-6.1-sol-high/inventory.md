@@ -274,10 +274,10 @@
 | 187 | `obsidian-hero` | Obsidian Hero | Hero Section | 2 | 图片 | 生成中 |
 | 188 | `orbis-cards` | Orbis Cards | Cards | 2 | 图片 | 待修复 |
 | 189 | `orbis-cta` | Orbis CTA | CTA Section | 2 | 图片 | 生成中 |
-| 190 | `orbis-hello` | Orbis Hello | About Section | 2 | 图片 | 生成中 |
-| 191 | `organic-odyssey` | Organic Odyssey | Hero Section | 2 | 图片 | 生成中 |
-| 192 | `pixel-grid-hover` | Pixel Grid Hover | Case Studies | 2 | 图片 | 未开始 |
-| 193 | `portal` | Portal | Hero Section | 3 | 图片 | 未开始 |
+| 190 | `orbis-hello` | Orbis Hello | About Section | 2 | 图片 | 待修复 |
+| 191 | `organic-odyssey` | Organic Odyssey | Hero Section | 2 | 图片 | 待修复 |
+| 192 | `pixel-grid-hover` | Pixel Grid Hover | Case Studies | 2 | 图片 | 生成中 |
+| 193 | `portal` | Portal | Hero Section | 3 | 图片 | 生成中 |
 | 194 | `portfolio-about` | Portfolio About | About Section | 2 | 图片 | 未开始 |
 | 195 | `projects-catalog` | Projects Catalog | Projects | 2 | 图片 | 未开始 |
 | 196 | `prosthetics-hero` | Prosthetics Hero | Hero Section | 1 | 图片 | 未开始 |

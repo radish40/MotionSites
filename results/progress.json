@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-29T07:51:58.822264+00:00",
+  "updated_utc": "2026-10-29T07:52:53.299168+00:00",
   "total": 380,
   "counts": {
     "complete": 185,
     "running": 5,
-    "needs_fix": 1,
-    "not_started": 189
+    "needs_fix": 3,
+    "not_started": 187
   },
   "jobs": [
     {
@@ -1893,7 +1893,7 @@
       "title": "Orbis CTA",
       "category": "CTA Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a4-1f0a-7841-b144-a5975a5b55f9",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1902,8 +1902,8 @@
       "id": "orbis-hello",
       "title": "Orbis Hello",
       "category": "About Section",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a186a4-1fc7-7be0-913e-a6387c10e805",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1912,8 +1912,8 @@
       "id": "organic-odyssey",
       "title": "Organic Odyssey",
       "category": "Hero Section",
-      "status": "running",
-      "thread_id": "",
+      "status": "needs_fix",
+      "thread_id": "01a186a4-2051-7670-9965-d74e593d01b7",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1922,7 +1922,7 @@
       "id": "pixel-grid-hover",
       "title": "Pixel Grid Hover",
       "category": "Case Studies",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1932,7 +1932,7 @@
       "id": "portal",
       "title": "Portal",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

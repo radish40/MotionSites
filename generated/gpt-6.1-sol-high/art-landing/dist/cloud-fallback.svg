@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440">
+<defs>
+ <filter id="edge" x="-15%" y="-50%" width="130%" height="200%"><feTurbulence type="fractalNoise" baseFrequency=".014 .025" numOctaves="4" seed="12" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="55"/><feGaussianBlur stdDeviation="4"/></filter>
+ <filter id="soft" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+ <radialGradient id="white"><stop stop-color="#fff"/><stop offset=".55" stop-color="#faf7f7"/><stop offset="1" stop-color="#c8bdbd"/></radialGradient>
+ <linearGradient id="shade" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#b6a6a6"/></linearGradient>
+</defs>
+<g filter="url(#edge)" fill="url(#white)">
+ <ellipse cx="0" cy="240" rx="220" ry="110"/><ellipse cx="160" cy="205" rx="220" ry="138"/>
+ <ellipse cx="380" cy="230" rx="230" ry="120"/><ellipse cx="590" cy="200" rx="195" ry="145"/>
+ <ellipse cx="800" cy="235" rx="235" ry="130"/><ellipse cx="1010" cy="215" rx="220" ry="142"/>
+ <ellipse cx="1230" cy="230" rx="225" ry="120"/><ellipse cx="1440" cy="205" rx="220" ry="145"/><ellipse cx="1620" cy="240" rx="210" ry="115"/>
+</g>
+<g filter="url(#soft)" fill="#fff" opacity=".8"><ellipse cx="180" cy="180" rx="160" ry="65"/><ellipse cx="600" cy="166" rx="140" ry="65"/><ellipse cx="1000" cy="180" rx="165" ry="60"/><ellipse cx="1420" cy="170" rx="160" ry="65"/></g>
+</svg>

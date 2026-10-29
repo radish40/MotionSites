@@ -1,0 +1,36 @@
+{
+  "title": "Art Landing",
+  "id": "art-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities reported by npm install",
+    "base_path": "/motionsites-results/art-landing/",
+    "browser": "Chromium via installed playwright-core, actual dist build",
+    "desktop": { "viewport": "1440x1000", "javascript_errors": 0, "horizontal_overflow": false, "keyboard_cta": "passed", "cta_scroll": "passed", "cloud_parallax_px": -100, "hover": "white/10 background and blur(48px)" },
+    "mobile": { "viewport": "390x844", "javascript_errors": 0, "horizontal_overflow": false, "keyboard_cta": "passed", "cta_scroll": "passed", "cloud_parallax_px": -24 },
+    "fonts": "Manrope, Italiana, and Marck Script loaded in both viewports",
+    "videos": "Both loaded; hero plays on entry and bottom video plays when visible, both viewports",
+    "cloud_fallback": "Loaded successfully in both viewports after upstream HTTP 401",
+    "visual_review": "Hero and second-section captures reviewed at both required viewport sizes",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/desktop-section2.png", "screenshots/mobile-section2.png", "screenshots/desktop-bottom.png", "screenshots/mobile-bottom.png"],
+    "raw_results": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1781500777/cloude_vj4pjv.png",
+      "status": 401,
+      "error": "dsdhxhhqh cannot be accessed via this endpoint",
+      "resolution": "Original URL retained; local cloud-fallback.svg loads on image error. Original cloud appearance could not be verified."
+    }
+  ],
+  "notes": [
+    "Implemented only Art Landing within the authorized project directory. No agents, other sessions, deployments, pushes, or outbound messages.",
+    "Ready for management review; not deployed.",
+    "Unspecified paragraph copy was authored to match the business-automation topic.",
+    "Get started scrolls to section two; no destination was specified.",
+    "Videos and fonts remain external runtime dependencies.",
+    "Dependency lockfile retained; node_modules omitted from deliverable."
+  ]
+}

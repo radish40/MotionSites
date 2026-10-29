@@ -1,0 +1,128 @@
+[
+  {
+    "name": "desktop",
+    "initial": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "overflow": false,
+      "fonts": [
+        {
+          "font": "Manrope",
+          "loaded": true
+        },
+        {
+          "font": "Italiana",
+          "loaded": true
+        },
+        {
+          "font": "Marck Script",
+          "loaded": true
+        }
+      ],
+      "videos": [
+        {
+          "loaded": true,
+          "playing": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "loaded": true,
+          "playing": false,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "cloudFallback": true,
+      "cloudTransform": "none"
+    },
+    "keyboardFocus": true,
+    "hover": {
+      "background": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+      "blur": "blur(48px)"
+    },
+    "afterClick": {
+      "scrollTop": 1000,
+      "overflow": false,
+      "cloudTransform": "matrix(1, 0, 0, 1, 0, -100)"
+    },
+    "bottomPlayback": {
+      "playing": true,
+      "time": 1.031254,
+      "loaded": true
+    },
+    "errors": [],
+    "failedRequests": [],
+    "httpErrors": [
+      {
+        "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1781500777/cloude_vj4pjv.png",
+        "status": 401
+      }
+    ]
+  },
+  {
+    "name": "mobile",
+    "initial": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "fonts": [
+        {
+          "font": "Manrope",
+          "loaded": true
+        },
+        {
+          "font": "Italiana",
+          "loaded": true
+        },
+        {
+          "font": "Marck Script",
+          "loaded": true
+        }
+      ],
+      "videos": [
+        {
+          "loaded": true,
+          "playing": true,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "loaded": true,
+          "playing": false,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "cloudFallback": true,
+      "cloudTransform": "none"
+    },
+    "keyboardFocus": true,
+    "hover": {
+      "background": "oklab(0 0 0 / 0.1)",
+      "blur": "blur(8px)"
+    },
+    "afterClick": {
+      "scrollTop": 844,
+      "overflow": false,
+      "cloudTransform": "matrix(1, 0, 0, 1, 0, -24)"
+    },
+    "bottomPlayback": {
+      "playing": true,
+      "time": 1.788588,
+      "loaded": true
+    },
+    "errors": [],
+    "failedRequests": [],
+    "httpErrors": [
+      {
+        "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1781500777/cloude_vj4pjv.png",
+        "status": 401
+      }
+    ]
+  }
+]

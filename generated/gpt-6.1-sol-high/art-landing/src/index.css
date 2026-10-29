@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Manrope:wght@400;600&family=Marck+Script&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-manrope: "Manrope", sans-serif;
+  --font-italiana: "Italiana", serif;
+  --font-marck: "Marck Script", cursive;
+}
+html, body, #root { margin: 0; width: 100%; height: 100%; }
+body { background: #000; }
+button { -webkit-tap-highlight-color: transparent; }
+::selection { background: #ff0000; color: white; }
+button:focus-visible { outline: 2px solid white; outline-offset: 8px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; } }

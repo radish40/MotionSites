@@ -1,0 +1,34 @@
+{
+  "title": "Bio-Age Dashboard",
+  "id": "bio-age-dashboard",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript + Vite",
+    "desktop": "passed: 1440x1000",
+    "mobile": "passed: 390x844",
+    "script_errors": 0,
+    "http_failures": 0,
+    "horizontal_overflow": false,
+    "font": "Inter loaded",
+    "video": "playing; readyState 4 on both viewports",
+    "interactions": "desktop hover, keyboard, mobile tap, help toggle/Escape, age increments passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-expanded.png",
+      "screenshots/mobile-expanded.png"
+    ],
+    "raw_report": "screenshots/checks.json",
+    "visual_review": "desktop, mobile, expanded desktop reviewed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "All six exact supplied visual assets downloaded and served locally.",
+    "Requested Google Fonts import retained with local Inter weights 300\u2013900.",
+    "Canceled/replaced MP4 range requests in raw report did not prevent video playback.",
+    "Static informational panels have decorative arrows; no destination screens or data integrations specified.",
+    "Production base: /motionsites-results/bio-age-dashboard/. dist/index.html exists.",
+    "No deployment, push, other sessions, or agents. Ready for acceptance, not published."
+  ]
+}

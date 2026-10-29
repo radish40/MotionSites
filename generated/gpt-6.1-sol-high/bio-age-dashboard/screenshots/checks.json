@@ -1,0 +1,150 @@
+{
+  "desktop": {
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/bio-age-dashboard/assets/background.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/bio-age-dashboard/assets/background.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpFailures": [],
+    "layout": {
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "age": "28",
+      "images": [
+        {
+          "src": "/motionsites-results/bio-age-dashboard/assets/logo.svg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/bio-age-dashboard/assets/avatar.png",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 5.207603
+      },
+      "font": true,
+      "fontFaces": [
+        {
+          "family": "Inter",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "weight": "500"
+        },
+        {
+          "family": "Inter",
+          "weight": "600"
+        },
+        {
+          "family": "Inter",
+          "weight": "700"
+        },
+        {
+          "family": "Inter",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "weight": "500"
+        },
+        {
+          "family": "Inter",
+          "weight": "600"
+        },
+        {
+          "family": "Inter",
+          "weight": "700"
+        }
+      ]
+    },
+    "hoverExpanded": "true",
+    "hoverCollapsed": "false",
+    "clickExpanded": "true",
+    "recommendationVisible": true,
+    "expandedOverflow": false,
+    "clickCollapsed": "false",
+    "helpVisible": true,
+    "helpDismissed": true,
+    "ageAfterWait": "30"
+  },
+  "mobile": {
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/bio-age-dashboard/assets/background.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/bio-age-dashboard/assets/background.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpFailures": [],
+    "layout": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "height": 1289,
+      "age": "28",
+      "images": [
+        {
+          "src": "/motionsites-results/bio-age-dashboard/assets/logo.svg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/bio-age-dashboard/assets/avatar.png",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 5.316547
+      },
+      "font": true,
+      "fontFaces": [
+        {
+          "family": "Inter",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "weight": "500"
+        },
+        {
+          "family": "Inter",
+          "weight": "600"
+        },
+        {
+          "family": "Inter",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "weight": "500"
+        },
+        {
+          "family": "Inter",
+          "weight": "600"
+        }
+      ]
+    },
+    "clickExpanded": "true",
+    "recommendationVisible": true,
+    "expandedOverflow": false,
+    "clickCollapsed": "false",
+    "helpVisible": true,
+    "helpDismissed": true,
+    "ageAfterWait": "29"
+  }
+}

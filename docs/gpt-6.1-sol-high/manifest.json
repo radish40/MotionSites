@@ -288,10 +288,10 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c0-389b-7410-94bb-24f646258581",
       "output_path": "generated/gpt-6.1-sol-high/urban-jungle-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Session ended without result.json; inspect existing session before retrying",
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:51:02.255629+00:00",
@@ -299,8 +299,12 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "worker_state": "running",
-      "process_id": 2503208
+      "worker_state": "terminal",
+      "process_id": 2503208,
+      "source_commit": "ed6b1d5af9118ca82b022512dbf7c3e9981474c0",
+      "url": "https://tool.luo-xd.com/motionsites-results/urban-jungle-hero/",
+      "completed_utc": "2026-10-29T03:57:45.807246+00:00",
+      "group_message_id": 60
     },
     {
       "number": 10,
@@ -515,14 +519,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185cc-137d-7063-8f58-3b339f16a5a4",
       "output_path": "generated/gpt-6.1-sol-high/mindloop-landing",
       "validation": "",
       "notes": "",
       "process_id": 2517391,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:55:06.289926+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 17,
@@ -541,14 +549,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185cc-143e-7983-b115-6f04541fc2f4",
       "output_path": "generated/gpt-6.1-sol-high/ember-dsgn-hero",
       "validation": "",
       "notes": "",
       "process_id": 2517410,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T03:55:06.405856+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 18,
@@ -566,11 +578,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/solar-energy-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2525094,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T03:57:15.591074+00:00",
+      "worker_state": "running"
     },
     {
       "number": 19,
@@ -8537,5 +8553,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T03:56:13.869210+00:00"
+  "updated_utc": "2026-10-29T03:57:46.016022+00:00"
 }

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T03:56:13.869210+00:00",
+  "updated_utc": "2026-10-29T03:57:46.016022+00:00",
   "total": 380,
   "counts": {
-    "complete": 12,
+    "complete": 13,
     "running": 5,
-    "not_started": 363
+    "not_started": 362
   },
   "jobs": [
     {
@@ -91,11 +91,11 @@
       "id": "urban-jungle-hero",
       "title": "Urban Jungle",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185c0-389b-7410-94bb-24f646258581",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "ed6b1d5af9118ca82b022512dbf7c3e9981474c0",
+      "group_message_id": 60,
+      "url": "https://tool.luo-xd.com/motionsites-results/urban-jungle-hero/"
     },
     {
       "id": "reveal-hero",
@@ -162,7 +162,7 @@
       "title": "Mindloop Landing",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185cc-137d-7063-8f58-3b339f16a5a4",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -172,7 +172,7 @@
       "title": "EMBER.dsgn",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185cc-143e-7983-b115-6f04541fc2f4",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -181,7 +181,7 @@
       "id": "solar-energy-hero",
       "title": "Solar Energy Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

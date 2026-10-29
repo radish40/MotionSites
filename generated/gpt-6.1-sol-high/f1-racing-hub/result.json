@@ -1,0 +1,61 @@
+{
+  "title": "F1 Racing Hub",
+  "id": "f1-racing-hub",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "dist_index_exists": true,
+    "public_base": "/motionsites-results/f1-racing-hub/",
+    "desktop": {
+      "viewport": "1440x1000",
+      "status": "passed",
+      "horizontal_overflow": false,
+      "script_errors": [],
+      "failed_requests": [],
+      "images_loaded": 23,
+      "font_loaded": true,
+      "count_up_totals": [
+        "227",
+        "374",
+        "4987"
+      ],
+      "interactions": {
+        "menuVisible": true,
+        "navigationWorked": true,
+        "escapeClosed": true,
+        "signIn": "https://account.formula1.com/"
+      },
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "status": "passed",
+      "horizontal_overflow": false,
+      "script_errors": [],
+      "failed_requests": [],
+      "images_loaded": 23,
+      "font_loaded": true,
+      "count_up_totals": [
+        "227",
+        "374",
+        "4987"
+      ],
+      "interactions": {
+        "menuVisible": true,
+        "navigationWorked": true,
+        "escapeClosed": true,
+        "signIn": "https://account.formula1.com/"
+      },
+      "screenshot": "screenshots/mobile.png"
+    }
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "All supplied image URLs are used verbatim. External images and Google Fonts loaded successfully in both browser checks.",
+    "Mobile screenshot is full-page, captured with a 390x844 viewport.",
+    "Sign in opens the official Formula 1 account site; external authentication was not exercised.",
+    "Browser evidence: screenshots/checks.json. Reproduce using scripts/check.cjs in the supplied Docker image."
+  ]
+}

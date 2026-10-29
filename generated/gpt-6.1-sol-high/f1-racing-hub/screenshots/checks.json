@@ -1,0 +1,230 @@
+{
+  "desktop": {
+    "title": "F1 Racing Hub",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "phones": 3,
+    "points": [
+      "227",
+      "374",
+      "4987"
+    ],
+    "images": [
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260709_152331_bd312d1a-1f20-46b9-9b68-12bcdcf6d53e.png&w=1280&q=85",
+        "loaded": true
+      },
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260709_152331_bd312d1a-1f20-46b9-9b68-12bcdcf6d53e.png&w=1280&q=85",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/pqUTggaeyOivtzDImRzkBRdww.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/m5IyHuJeOQ5P0GOvWx1xv0IR9Y.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/dAAdqktZVxBDjPKk97YCjZjsE.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/NZPITJ6zDBvxVT7rc1NH2sOU.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      },
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260709_152331_bd312d1a-1f20-46b9-9b68-12bcdcf6d53e.png&w=1280&q=85",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/pqUTggaeyOivtzDImRzkBRdww.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/raKAG2bJP9xeqi118VMniPLvbAA.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/pIXUcwyAF0xzCIaKjtNLahHpasQ.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/NZPITJ6zDBvxVT7rc1NH2sOU.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      },
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260709_152331_bd312d1a-1f20-46b9-9b68-12bcdcf6d53e.png&w=1280&q=85",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/sUDhzMuxKIOvqjSH5U1fn0QSXqI.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/zIA1tYDOAdZo3k6IXX9gBC5FGbY.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/MzKCSYB4uVt9psQq4jRwQNRDjc.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/MJfqhcmEoIBnfimJNhKqoZpq0.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/3EwXxC1QutaGnlNDZMlAN66ZmTU.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/NZPITJ6zDBvxVT7rc1NH2sOU.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      }
+    ],
+    "fontLoaded": true,
+    "errors": [],
+    "failed": [],
+    "interactions": {
+      "menuVisible": true,
+      "navigationWorked": true,
+      "escapeClosed": true,
+      "signIn": "https://account.formula1.com/"
+    }
+  },
+  "mobile": {
+    "title": "F1 Racing Hub",
+    "width": 390,
+    "scrollWidth": 390,
+    "phones": 3,
+    "points": [
+      "227",
+      "374",
+      "4987"
+    ],
+    "images": [
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260709_152331_bd312d1a-1f20-46b9-9b68-12bcdcf6d53e.png&w=1280&q=85",
+        "loaded": true
+      },
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260709_152331_bd312d1a-1f20-46b9-9b68-12bcdcf6d53e.png&w=1280&q=85",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/pqUTggaeyOivtzDImRzkBRdww.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/m5IyHuJeOQ5P0GOvWx1xv0IR9Y.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/dAAdqktZVxBDjPKk97YCjZjsE.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/NZPITJ6zDBvxVT7rc1NH2sOU.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      },
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260709_152331_bd312d1a-1f20-46b9-9b68-12bcdcf6d53e.png&w=1280&q=85",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/pqUTggaeyOivtzDImRzkBRdww.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/raKAG2bJP9xeqi118VMniPLvbAA.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/pIXUcwyAF0xzCIaKjtNLahHpasQ.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/NZPITJ6zDBvxVT7rc1NH2sOU.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      },
+      {
+        "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260709_152331_bd312d1a-1f20-46b9-9b68-12bcdcf6d53e.png&w=1280&q=85",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/sUDhzMuxKIOvqjSH5U1fn0QSXqI.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/zIA1tYDOAdZo3k6IXX9gBC5FGbY.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/MzKCSYB4uVt9psQq4jRwQNRDjc.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/MJfqhcmEoIBnfimJNhKqoZpq0.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/3EwXxC1QutaGnlNDZMlAN66ZmTU.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/NZPITJ6zDBvxVT7rc1NH2sOU.png",
+        "loaded": true
+      },
+      {
+        "url": "https://framerusercontent.com/images/JIl4japgQlMAQRvh1gDHszRvkUY.png?width=92&height=92",
+        "loaded": true
+      }
+    ],
+    "fontLoaded": true,
+    "errors": [],
+    "failed": [],
+    "interactions": {
+      "menuVisible": true,
+      "navigationWorked": true,
+      "escapeClosed": true,
+      "signIn": "https://account.formula1.com/"
+    }
+  }
+}

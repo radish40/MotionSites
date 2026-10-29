@@ -6264,19 +6264,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1869e-fade-73f1-a1c8-01d1255116b9",
       "output_path": "generated/gpt-6.1-sol-high/nimbus-security",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3329126,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:45:28.133878+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "c87d51bd42483d00e73476b349a35cf99c933f10",
+      "url": "https://tool.luo-xd.com/motionsites-results/nimbus-security/",
+      "completed_utc": "2026-10-29T07:49:38.539695+00:00",
+      "group_message_id": 238
     },
     {
       "number": 184,
@@ -6294,19 +6298,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1869e-fba4-7f43-b223-3e574b3c81a2",
       "output_path": "generated/gpt-6.1-sol-high/nimbus-sticky-cards",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3329154,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:45:28.268257+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "5d4950d8a5cf8a2c109f4f523cc737607434e771",
+      "url": "https://tool.luo-xd.com/motionsites-results/nimbus-sticky-cards/",
+      "completed_utc": "2026-10-29T07:50:09.078115+00:00",
+      "group_message_id": 239
     },
     {
       "number": 185,
@@ -6325,14 +6333,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a0-b0e3-76c0-a910-359d512cdc6f",
       "output_path": "generated/gpt-6.1-sol-high/no-code-waitlist",
       "validation": "",
       "notes": "",
       "process_id": 3337564,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:47:20.312226+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 186,
@@ -6351,14 +6363,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a0-b1b6-7651-95af-3762b069ebc0",
       "output_path": "generated/gpt-6.1-sol-high/novadesk-signup",
       "validation": "",
       "notes": "",
       "process_id": 3337600,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:47:20.437282+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 187,
@@ -6376,11 +6392,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/obsidian-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3343805,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:49:05.570079+00:00",
+      "worker_state": "running"
     },
     {
       "number": 188,
@@ -6398,11 +6418,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/orbis-cards",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3343830,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:49:05.690606+00:00",
+      "worker_state": "running"
     },
     {
       "number": 189,
@@ -10629,7 +10653,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:48:12.717328+00:00",
+  "updated_utc": "2026-10-29T07:50:09.281117+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

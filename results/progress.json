@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:48:12.717328+00:00",
+  "updated_utc": "2026-10-29T07:50:09.281117+00:00",
   "total": 380,
   "counts": {
-    "complete": 181,
+    "complete": 183,
     "running": 5,
-    "not_started": 194
+    "not_started": 192
   },
   "jobs": [
     {
@@ -1831,28 +1831,28 @@
       "id": "nimbus-security",
       "title": "Nimbus Security",
       "category": "Cards",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1869e-fade-73f1-a1c8-01d1255116b9",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c87d51bd42483d00e73476b349a35cf99c933f10",
+      "group_message_id": 238,
+      "url": "https://tool.luo-xd.com/motionsites-results/nimbus-security/"
     },
     {
       "id": "nimbus-sticky-cards",
       "title": "Nimbus Sticky Cards",
       "category": "Cards",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1869e-fba4-7f43-b223-3e574b3c81a2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5d4950d8a5cf8a2c109f4f523cc737607434e771",
+      "group_message_id": 239,
+      "url": "https://tool.luo-xd.com/motionsites-results/nimbus-sticky-cards/"
     },
     {
       "id": "no-code-waitlist",
       "title": "No-Code Waitlist",
       "category": "Waitlist & Coming Soon",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a0-b0e3-76c0-a910-359d512cdc6f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1862,7 +1862,7 @@
       "title": "NovaDesk Signup",
       "category": "Waitlist & Coming Soon",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a186a0-b1b6-7651-95af-3762b069ebc0",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1871,7 +1871,7 @@
       "id": "obsidian-hero",
       "title": "Obsidian Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1881,7 +1881,7 @@
       "id": "orbis-cards",
       "title": "Orbis Cards",
       "category": "Cards",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

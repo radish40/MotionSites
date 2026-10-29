@@ -1,0 +1,37 @@
+[
+  {
+    "file": "bullet-list.svg",
+    "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/683ef70a24657b10be91ef49_bullet-list.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 844
+  },
+  {
+    "file": "hover_card_img.png",
+    "url": "https://cdn.prod.website-files.com/6720dd1ab6df0da205830ab1/682c7cb62b8800a7594c5abd_hover_card_img.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 154429
+  },
+  {
+    "file": "background.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260418_120332_3b24257a-afe6-48ca-875f-78147370f403.png&w=1280&q=85",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 9812
+  },
+  {
+    "file": "mazzard-h-400.woff2",
+    "url": "https://db.onlinewebfonts.com/t/eb5b5ee332420add9a40ee988cb6ac37.woff2",
+    "status": 200,
+    "type": "application/x-font-woff",
+    "bytes": 26344
+  },
+  {
+    "file": "mazzard-h-500.woff2",
+    "url": "https://db.onlinewebfonts.com/t/875fffdfa62169a0f131e90f37f1faf4.woff2",
+    "status": 200,
+    "type": "application/x-font-woff",
+    "bytes": 26288
+  }
+]

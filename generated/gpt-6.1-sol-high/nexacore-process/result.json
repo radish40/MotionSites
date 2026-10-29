@@ -1,0 +1,77 @@
+{
+  "title": "NexaCore Process",
+  "id": "nexacore-process",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "stack": "React 18, TypeScript, Tailwind CSS 3, Vite; inline SVG icons",
+    "base_path": "/motionsites-results/nexacore-process/",
+    "browser": {
+      "url": "http://localhost:4173/motionsites-results/nexacore-process/",
+      "errors": [],
+      "failedRequests": [],
+      "checks": [
+        {
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "overflow": false,
+          "fonts": true,
+          "columns": 4,
+          "brokenImages": 0,
+          "cards": 4,
+          "hoverOrTapReveal": true,
+          "learnMoreAnchor": true,
+          "keyboardReveal": true
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "overflow": false,
+          "fonts": true,
+          "columns": 1,
+          "brokenImages": 0,
+          "cards": 4,
+          "hoverOrTapReveal": true,
+          "learnMoreAnchor": true,
+          "keyboardReveal": "checked on desktop"
+        },
+        {
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "overflow": false,
+          "fonts": true,
+          "columns": 2,
+          "brokenImages": 0,
+          "cards": 4,
+          "hoverOrTapReveal": true,
+          "learnMoreAnchor": true,
+          "keyboardReveal": "checked on desktop"
+        }
+      ],
+      "status": "passed"
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-hover.png"
+    ],
+    "visual_review": "desktop, mobile, and hover screenshots reviewed",
+    "dependencies": "lockfile saved; npm audit reported zero vulnerabilities"
+  },
+  "asset_issues": [],
+  "notes": [
+    "All original image and font assets returned HTTP 200 and are mirrored locally without modification. See asset-report.json.",
+    "Learn more retains the prompt-specified href=\"#\"; no destination pages were specified.",
+    "Keyboard focus and mobile touch reveal the same useState-driven hover effects; reduced-motion preferences are respected.",
+    "Chromium checks use the production build at the configured public subpath. Mobile checks use emulation.",
+    "No deployment, push, agents, additional sessions, or external messages were performed. All outputs are confined to this project.",
+    "Ready for management review; not published."
+  ]
+}

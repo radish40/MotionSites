@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "viewport": "1440x1000",
+      "assets": {
+        "interLoaded": true,
+        "logoLoaded": true,
+        "overflow": false
+      },
+      "accordion": "all five toggle; one open; keyboard Enter/Space",
+      "newsletter": "native email validation; submission stays on page",
+      "gradient": "custom properties animate; reduced motion disables animation",
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "viewport": "390x844",
+      "assets": {
+        "interLoaded": true,
+        "logoLoaded": true,
+        "overflow": false
+      },
+      "accordion": "all five toggle; one open; keyboard Enter/Space",
+      "newsletter": "native email validation; submission stays on page",
+      "gradient": "custom properties animate; reduced motion disables animation",
+      "screenshot": "screenshots/mobile.png"
+    },
+    {
+      "responsiveWidths": [
+        320,
+        480,
+        768,
+        900,
+        901,
+        1100
+      ],
+      "overflow": false
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "assetIssues": []
+}

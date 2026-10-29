@@ -1,0 +1,47 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/faq-cta/",
+  "checked_at": "2026-10-29T06:17:38.685Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "FAQ CTA",
+      "bodyChars": 628,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://pub-f170a2592d2c4a1485466404c36807be.r2.dev/Tests/logoipsum-415.svg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "FAQ CTA",
+      "bodyChars": 628,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://pub-f170a2592d2c4a1485466404c36807be.r2.dev/Tests/logoipsum-415.svg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "FAQ CTA",
+  "id": "faq-cta",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "passed: Chromium against production build at /motionsites-results/faq-cta/",
+    "viewports": [
+      {
+        "viewport": "1440x1000",
+        "assets": {
+          "interLoaded": true,
+          "logoLoaded": true,
+          "overflow": false
+        },
+        "accordion": "all five toggle; one open; keyboard Enter/Space",
+        "newsletter": "native email validation; submission stays on page",
+        "gradient": "custom properties animate; reduced motion disables animation",
+        "screenshot": "screenshots/desktop.png"
+      },
+      {
+        "viewport": "390x844",
+        "assets": {
+          "interLoaded": true,
+          "logoLoaded": true,
+          "overflow": false
+        },
+        "accordion": "all five toggle; one open; keyboard Enter/Space",
+        "newsletter": "native email validation; submission stays on page",
+        "gradient": "custom properties animate; reduced motion disables animation",
+        "screenshot": "screenshots/mobile.png"
+      },
+      {
+        "responsiveWidths": [
+          320,
+          480,
+          768,
+          900,
+          901,
+          1100
+        ],
+        "overflow": false
+      }
+    ],
+    "cta_hover": "passed: shadow increases on hover and resets on leave; click checked",
+    "page_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "visual_review": "desktop and mobile full-page screenshots inspected"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management review; not deployed or pushed.",
+    "Only this project was read and modified. No agents or other sessions created.",
+    "Exact supplied gradient CSS, FAQ copy, footer content, Inter font, remote logo, and lucide-react chevrons used.",
+    "CTA has no supplied destination; newsletter has native validation and no backend; footer links retain specified # targets.",
+    "Source, dependency lockfile, dist, screenshots, and README.md included."
+  ]
+}

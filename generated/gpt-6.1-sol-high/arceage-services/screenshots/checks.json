@@ -1,0 +1,50 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": {
+        "barlow": true,
+        "instrument": true
+      },
+      "imageLoaded": true,
+      "lottieCount": 3,
+      "heading": "A Highly Efficient, Precision-Driven Harvesting Process Built For Maximum Yield"
+    },
+    "contact": {
+      "focused": true,
+      "visible": true,
+      "scrollY": 168
+    },
+    "scriptErrors": [],
+    "failedRequests": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": {
+        "barlow": true,
+        "instrument": true
+      },
+      "imageLoaded": true,
+      "lottieCount": 3,
+      "heading": "A Highly Efficient, Precision-Driven Harvesting Process Built For Maximum Yield"
+    },
+    "contact": {
+      "focused": true,
+      "visible": true,
+      "scrollY": 248
+    },
+    "scriptErrors": [],
+    "failedRequests": []
+  }
+}

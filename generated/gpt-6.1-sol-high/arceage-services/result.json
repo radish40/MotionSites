@@ -1,0 +1,82 @@
+{
+  "title": "Arceage Services",
+  "id": "arceage-services",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.npm-home -e npm_config_cache=/work/.npm-cache -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "layout": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "fonts": {
+            "barlow": true,
+            "instrument": true
+          },
+          "imageLoaded": true,
+          "lottieCount": 3,
+          "heading": "A Highly Efficient, Precision-Driven Harvesting Process Built For Maximum Yield"
+        },
+        "contact": {
+          "focused": true,
+          "visible": true,
+          "scrollY": 168
+        },
+        "scriptErrors": [],
+        "failedRequests": []
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "layout": {
+          "width": 390,
+          "scrollWidth": 390,
+          "fonts": {
+            "barlow": true,
+            "instrument": true
+          },
+          "imageLoaded": true,
+          "lottieCount": 3,
+          "heading": "A Highly Efficient, Precision-Driven Harvesting Process Built For Maximum Yield"
+        },
+        "contact": {
+          "focused": true,
+          "visible": true,
+          "scrollY": 248
+        },
+        "scriptErrors": [],
+        "failedRequests": []
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "assets": [
+        "1.jpg",
+        "curry.json",
+        "tractor.json",
+        "beetle.json"
+      ],
+      "issue": "All specified GitHub URLs returned HTTP 404; direct raw image URL also returned 404.",
+      "resolution": "Local Unsplash agricultural photograph and original local Lottie illustrations substituted; exact original assets unavailable."
+    }
+  ],
+  "notes": [
+    "React 19 + Tailwind CSS 4 + Motion + Vite 6 + required Lottie Player.",
+    "Exact Google Fonts CSS import; both used font styles loaded in browser checks.",
+    "Minimal contact anchor supports schedule scroll; no booking backend.",
+    "Build warns about upstream Lottie eval and a chunk over 500 kB.",
+    "Ready for review with documented asset substitutions. Not deployed or pushed."
+  ]
+}

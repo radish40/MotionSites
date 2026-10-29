@@ -1,0 +1,48 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "scrollWidth": 1440,
+    "scrollHeight": 1000,
+    "headingFits": true,
+    "fontLoaded": true,
+    "video": {
+      "currentTime": 4.320452,
+      "duration": 10.041667,
+      "readyState": 4,
+      "paused": false,
+      "opacity": "1",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_115001_bcdaa3b4-03de-47e7-ad63-ae3e392c32d4.mp4"
+    },
+    "interactions": "passed"
+  },
+  "loopChecks": [
+    "fade-out and restart with full fade-in passed",
+    "fade-out and restart with full fade-in passed"
+  ],
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "scrollHeight": 844,
+    "headingFits": true,
+    "fontLoaded": true,
+    "video": {
+      "currentTime": 4.316414,
+      "duration": 10.041667,
+      "readyState": 4,
+      "paused": false,
+      "opacity": "1",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_115001_bcdaa3b4-03de-47e7-ad63-ae3e392c32d4.mp4"
+    },
+    "interactions": "passed"
+  },
+  "localVideoFallback": "passed with remote source deliberately blocked",
+  "scriptErrors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}

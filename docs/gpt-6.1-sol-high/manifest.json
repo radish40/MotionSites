@@ -6085,14 +6085,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18698-a9e3-7600-93bb-2208ed36d89b",
       "output_path": "generated/gpt-6.1-sol-high/nike-hover",
       "validation": "",
       "notes": "",
       "process_id": 3303527,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:38:34.228730+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 179,
@@ -6111,14 +6115,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18698-aa99-7021-bf41-67fa3944f8a1",
       "output_path": "generated/gpt-6.1-sol-high/nimbus-demo",
       "validation": "",
       "notes": "",
       "process_id": 3303597,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:38:34.377046+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 180,
@@ -10543,7 +10551,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:39:24.613654+00:00",
+  "updated_utc": "2026-10-29T07:40:19.414410+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

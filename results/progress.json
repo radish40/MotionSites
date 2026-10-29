@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T07:43:04.201255+00:00",
+  "updated_utc": "2026-10-29T07:44:33.814884+00:00",
   "total": 380,
   "counts": {
-    "complete": 176,
+    "complete": 177,
     "running": 5,
-    "not_started": 199
+    "not_started": 198
   },
   "jobs": [
     {
@@ -1681,11 +1681,11 @@
       "id": "mythic-naturecore",
       "title": "Mythic Naturecore",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18688-2f94-79f3-8c28-a2e77d227c64",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "18d70090dd42e03d88e1bf39d3aed1af5876c19b",
+      "group_message_id": 233,
+      "url": "https://tool.luo-xd.com/motionsites-results/mythic-naturecore/"
     },
     {
       "id": "naturecore-saas",
@@ -1812,7 +1812,7 @@
       "title": "Nimbus Ops",
       "category": "CTA Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1869c-5d53-7c33-b312-9ade0a532b10",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1821,7 +1821,7 @@
       "id": "nimbus-pricing",
       "title": "NimBus Pricing",
       "category": "Pricing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

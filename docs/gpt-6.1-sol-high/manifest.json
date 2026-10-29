@@ -1348,22 +1348,26 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e9-3e7d-7a11-953d-c45e1bac408a",
       "output_path": "generated/gpt-6.1-sol-high/financial-suite",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "process_id": 2659319,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:26:57.918275+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
       "repair_attempts": 1,
       "previous_delivery_failures": 0,
-      "delivery_failures": 1
+      "delivery_failures": 1,
+      "source_commit": "0ab242264085f1686c0a3440e0c18e781d3c4981",
+      "url": "https://tool.luo-xd.com/motionsites-results/financial-suite/",
+      "completed_utc": "2026-10-29T04:37:21.208890+00:00",
+      "group_message_id": 91
     },
     {
       "number": 41,
@@ -1415,19 +1419,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ed-8693-7f90-86db-f5077ce1cc4a",
       "output_path": "generated/gpt-6.1-sol-high/innovation-studio",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2649055,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:31:38.558492+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "a7aae71c87a2d80a6d2b698b1ff4f6c4f80db616",
+      "url": "https://tool.luo-xd.com/motionsites-results/innovation-studio/",
+      "completed_utc": "2026-10-29T04:37:57.714981+00:00",
+      "group_message_id": 92
     },
     {
       "number": 43,
@@ -1569,11 +1577,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/mind-body-healing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2667411,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:36:38.563603+00:00",
+      "worker_state": "running"
     },
     {
       "number": 48,
@@ -1591,11 +1603,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/mood-tracker",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2667455,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:36:38.673103+00:00",
+      "worker_state": "running"
     },
     {
       "number": 49,
@@ -8902,5 +8918,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:35:45.509142+00:00"
+  "updated_utc": "2026-10-29T04:37:57.886457+00:00"
 }

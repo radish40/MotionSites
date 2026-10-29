@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:35:45.509142+00:00",
+  "updated_utc": "2026-10-29T04:37:57.886457+00:00",
   "total": 380,
   "counts": {
-    "complete": 41,
+    "complete": 43,
     "running": 5,
-    "not_started": 334
+    "not_started": 332
   },
   "jobs": [
     {
@@ -401,11 +401,11 @@
       "id": "financial-suite",
       "title": "Financial Suite",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185e9-3e7d-7a11-953d-c45e1bac408a",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "0ab242264085f1686c0a3440e0c18e781d3c4981",
+      "group_message_id": 91,
+      "url": "https://tool.luo-xd.com/motionsites-results/financial-suite/"
     },
     {
       "id": "innovation-lab",
@@ -421,11 +421,11 @@
       "id": "innovation-studio",
       "title": "Innovation Studio",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ed-8693-7f90-86db-f5077ce1cc4a",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a7aae71c87a2d80a6d2b698b1ff4f6c4f80db616",
+      "group_message_id": 92,
+      "url": "https://tool.luo-xd.com/motionsites-results/innovation-studio/"
     },
     {
       "id": "innovation-summit",
@@ -471,7 +471,7 @@
       "id": "mind-body-healing",
       "title": "Mind-Body Healing",
       "category": "Healthcare",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -481,7 +481,7 @@
       "id": "mood-tracker",
       "title": "Mood Tracker",
       "category": "Wellness",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

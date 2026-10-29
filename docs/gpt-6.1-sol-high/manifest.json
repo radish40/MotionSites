@@ -5816,15 +5816,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "blocked",
       "thread_id": "01a1868a-d006-7fc3-b919-8b24c8a17c39",
       "output_path": "generated/gpt-6.1-sol-high/neo-museum",
       "validation": "",
-      "notes": "",
+      "notes": "[{\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624247/01_udnber.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624374/02_pmvxxl.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624236/03_hcp3jc.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624256/04_get63z.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779624251/05_kz1tyu.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/image/upload/v1779625001/ChatGPT_Image_May_23_2026_12_24_44_PM_1_lv1dne.png\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}, {\"url\": \"https://res.cloudinary.com/dsdxaxkiz/video/upload/v1779624998/magnific_use-img-2-as-the-exact-ba_Piu3X0W42C_wnrc8f.mp4\", \"status\": 401, \"reason\": \"cloud_name dsdxaxkiz is disabled\", \"verified_by\": \"HTTP requests; browser also confirms 401 for requested media\"}]",
       "process_id": 3250910,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:23:26.444607+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -5907,14 +5907,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1868f-192e-7252-ba3f-4c7d6336e737",
       "output_path": "generated/gpt-6.1-sol-high/neural-interface",
       "validation": "",
       "notes": "",
       "process_id": 3266845,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:28:07.349284+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 174,
@@ -5932,11 +5936,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nex-max-upgrade",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3273243,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:29:53.772600+00:00",
+      "worker_state": "running"
     },
     {
       "number": 175,
@@ -10471,7 +10479,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:28:58.062275+00:00",
+  "updated_utc": "2026-10-29T07:29:53.772686+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

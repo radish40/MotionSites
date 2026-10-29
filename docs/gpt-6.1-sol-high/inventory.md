@@ -254,11 +254,11 @@
 | 167 | `mouse-trail-cta` | Mouse Trail CTA | CTA Section | 2 | 图片 | 已完成 |
 | 168 | `mythic-naturecore` | Mythic Naturecore | Landing Page | 2 | 图片 | 生成中 |
 | 169 | `naturecore-saas` | Naturecore SaaS | Hero Section | 2 | 图片 | 已完成 |
-| 170 | `neo-museum` | Neo Museum | Website | 2 | 图片 | 生成中 |
+| 170 | `neo-museum` | Neo Museum | Website | 2 | 图片 | 阻塞 |
 | 171 | `neon-logic` | Neon Logic | Landing Page | 2 | 图片 | 生成中 |
 | 172 | `network-hero` | Network Hero | Hero Section | 2 | 图片 | 生成中 |
 | 173 | `neural-interface` | Neural Interface | Landing Page | 2 | 图片 | 生成中 |
-| 174 | `nex-max-upgrade` | Nex Max Upgrade | Pricing Page | 2 | 图片 | 未开始 |
+| 174 | `nex-max-upgrade` | Nex Max Upgrade | Pricing Page | 2 | 图片 | 生成中 |
 | 175 | `nexacore-control` | NexaCore Control | Features Section | 2 | 图片 | 未开始 |
 | 176 | `nexacore-process` | NexaCore Process | Process & Stats | 2 | 图片 | 未开始 |
 | 177 | `nexacore-results` | NexaCore Results | Features Section | 2 | 图片 | 未开始 |

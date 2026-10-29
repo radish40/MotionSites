@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T07:28:58.062275+00:00",
+  "updated_utc": "2026-10-29T07:29:53.772686+00:00",
   "total": 380,
   "counts": {
     "complete": 168,
     "running": 5,
-    "not_started": 207
+    "blocked": 1,
+    "not_started": 206
   },
   "jobs": [
     {
@@ -1701,7 +1702,7 @@
       "id": "neo-museum",
       "title": "Neo Museum",
       "category": "Website",
-      "status": "running",
+      "status": "blocked",
       "thread_id": "01a1868a-d006-7fc3-b919-8b24c8a17c39",
       "source_commit": null,
       "group_message_id": null,
@@ -1732,7 +1733,7 @@
       "title": "Neural Interface",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1868f-192e-7252-ba3f-4c7d6336e737",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1741,7 +1742,7 @@
       "id": "nex-max-upgrade",
       "title": "Nex Max Upgrade",
       "category": "Pricing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

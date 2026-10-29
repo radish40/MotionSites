@@ -1,0 +1,52 @@
+[
+  {
+    "path": "public/videos/featured.mp4",
+    "bytes": 108874018,
+    "sha256": "1a60011ed01fffe5051a9db331fbb92d7dbb7f47b5ba002154b2c3e93ab57c72"
+  },
+  {
+    "path": "public/videos/lighting.mp4",
+    "bytes": 23364488,
+    "sha256": "652a5ef51d39c4bf0b5d40faa83fb99669c17711dae3a69d434882a0a4d955a3"
+  },
+  {
+    "path": "public/videos/editing.mp4",
+    "bytes": 16524236,
+    "sha256": "6f910c38577c5e45aa0907611af653c781f5ed0404f0f38ef5f9be1e1e860670"
+  },
+  {
+    "path": "public/videos/business.mp4",
+    "bytes": 128831264,
+    "sha256": "3f35e5255469874c9030ad84ccee866475151049c3b0bf971e3f61e1738b9981"
+  },
+  {
+    "path": "public/fonts/inter-400.ttf",
+    "bytes": 324820,
+    "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba"
+  },
+  {
+    "path": "public/fonts/inter-500.ttf",
+    "bytes": 325304,
+    "sha256": "8c883f63b2c4157d997319f2c8bc6995ed4357ef371940d31ca159004a4aae63"
+  },
+  {
+    "path": "public/fonts/outfit-600.ttf",
+    "bytes": 48456,
+    "sha256": "8900df5726b5a6f23e723594f11d5ea27e695bd85c884f18d88ed080544fe205"
+  },
+  {
+    "path": "public/fonts/outfit-500.ttf",
+    "bytes": 47800,
+    "sha256": "9a9f465776e653cd6175661d844555e08684d432518f1d2c621bcb3006598f9c"
+  },
+  {
+    "path": "public/fonts/outfit-700.ttf",
+    "bytes": 48340,
+    "sha256": "49dcdf653a004a2575b3de649f5e4c549d774fecddf317812330edd0ad70685a"
+  },
+  {
+    "path": "public/fonts/inter-600.ttf",
+    "bytes": 326048,
+    "sha256": "e7a1aaf7eda9f2fad4131725fa556265ec75ca7b2d756260173a040363e8d4f7"
+  }
+]

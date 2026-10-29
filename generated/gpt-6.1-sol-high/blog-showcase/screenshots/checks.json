@@ -1,0 +1,216 @@
+{
+  "scriptErrors": [],
+  "failedRequests": [],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "gridColumns": 3,
+      "featuredColumns": 2,
+      "headingSize": "64px",
+      "fontsLoaded": true,
+      "videos": [
+        {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 5.171097
+        },
+        {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 5.628967
+        },
+        {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 1.92
+        },
+        {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 5.059128
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "scrollWidth": 390,
+      "gridColumns": 1,
+      "featuredColumns": 1,
+      "headingSize": "48px",
+      "fontsLoaded": true,
+      "videos": [
+        {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 3.136248
+        },
+        {
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 0
+        },
+        {
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 0
+        },
+        {
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 0
+        }
+      ]
+    },
+    {
+      "name": "tablet",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "gridColumns": 2,
+      "featuredColumns": 1,
+      "headingSize": "64px",
+      "fontsLoaded": true,
+      "videos": [
+        {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 3.658656
+        },
+        {
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 0
+        },
+        {
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 0
+        },
+        {
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 0
+        }
+      ]
+    },
+    {
+      "name": "small",
+      "width": 768,
+      "scrollWidth": 768,
+      "gridColumns": 1,
+      "featuredColumns": 1,
+      "headingSize": "48px",
+      "fontsLoaded": true,
+      "videos": [
+        {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 3.336376
+        },
+        {
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 0
+        },
+        {
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 0
+        },
+        {
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080,
+          "readyState": 4,
+          "currentTime": 0
+        }
+      ]
+    }
+  ],
+  "interactions": {
+    "visiblePlayback": "All four videos play when scrolled into view at every tested viewport",
+    "videoHover": "All four videos scale to 1.08; overlay and plus fade in",
+    "viewAllPosts": "Navigates to #posts and scrolls to post grid",
+    "keyboard": "View all posts and video previews are keyboard focusable"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+*.tsbuildinfo
+
+# Reconstructed from authenticated source chunks before build/dev.
+/public/videos/business.mp4
+/public/videos/featured.mp4
+/dist/
+# Temporary files from atomic restoration and packaging verification.
+/public/videos/*.restore-*.tmp
+/public/videos/*.restore-test-backup

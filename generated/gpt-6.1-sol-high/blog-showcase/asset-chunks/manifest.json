@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "chunk_size_bytes": 50331648,
+  "assets": [
+    {
+      "path": "public/videos/featured.mp4",
+      "bytes": 108874018,
+      "sha256": "1a60011ed01fffe5051a9db331fbb92d7dbb7f47b5ba002154b2c3e93ab57c72",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260507_155500_808e6fdd-761f-4acd-b3be-cb7e6e700def.mp4",
+      "chunks": [
+        {
+          "path": "asset-chunks/featured/001.bin",
+          "bytes": 50331648,
+          "sha256": "c71a6fe4e0cd8c8ed4a03796064bd23615ff832751ea2cc05f726eb4c5c335fd"
+        },
+        {
+          "path": "asset-chunks/featured/002.bin",
+          "bytes": 50331648,
+          "sha256": "3ba86d8b01df3c9ec200409ece2013587bd902fc7f015246cde05dccfacfb20d"
+        },
+        {
+          "path": "asset-chunks/featured/003.bin",
+          "bytes": 8210722,
+          "sha256": "37609d1d4da50b1ba91a3b83df87592cd49540428af04a819fc7a97a23211b2e"
+        }
+      ]
+    },
+    {
+      "path": "public/videos/business.mp4",
+      "bytes": 128831264,
+      "sha256": "3f35e5255469874c9030ad84ccee866475151049c3b0bf971e3f61e1738b9981",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260507_154232_f8809bd2-a6c3-4a38-908d-2005e5b3cb3e.mp4",
+      "chunks": [
+        {
+          "path": "asset-chunks/business/001.bin",
+          "bytes": 50331648,
+          "sha256": "90d20a2a01b9a3402d0087afeb04c3815e005d679ae5bb52c0171c182cf7916e"
+        },
+        {
+          "path": "asset-chunks/business/002.bin",
+          "bytes": 50331648,
+          "sha256": "2240e78f30bbe16dbd1be1453887f604873a10a82aa0ff8c7bdefd8c3ac2159d"
+        },
+        {
+          "path": "asset-chunks/business/003.bin",
+          "bytes": 28167968,
+          "sha256": "1c886470a141ddd0665b52b920a60fb9be69a11c406febdd65e69276add77092"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "checks": [
+    "Both originals renamed aside, reconstructed from chunks, and matched pre-existing original SHA256 and size.",
+    "Repeat restoration authenticates chunks and leaves valid originals untouched.",
+    "Corrupt chunk rejected before touching valid originals.",
+    "Missing chunk rejected.",
+    "Invalid original replaced with an authenticated exact reconstruction.",
+    "All four original videos and all six font files still match the original asset manifest.",
+    "All six binary chunks are strictly below 50 MiB and match manifest sizes and SHA256."
+  ],
+  "assets": [
+    {
+      "path": "public/videos/featured.mp4",
+      "bytes": 108874018,
+      "sha256": "1a60011ed01fffe5051a9db331fbb92d7dbb7f47b5ba002154b2c3e93ab57c72",
+      "restored_from_missing": true
+    },
+    {
+      "path": "public/videos/business.mp4",
+      "bytes": 128831264,
+      "sha256": "3f35e5255469874c9030ad84ccee866475151049c3b0bf971e3f61e1738b9981",
+      "restored_from_missing": true
+    }
+  ],
+  "production_build": "passed: npm ci && npm run build; prebuild authenticated chunks and originals",
+  "predev": "passed: npm run predev",
+  "source_package": {
+    "chunk_count": 6,
+    "largest_file_bytes": 50331648,
+    "largest_files": [
+      [
+        50331648,
+        "asset-chunks/featured/002.bin"
+      ],
+      [
+        50331648,
+        "asset-chunks/featured/001.bin"
+      ],
+      [
+        50331648,
+        "asset-chunks/business/002.bin"
+      ],
+      [
+        50331648,
+        "asset-chunks/business/001.bin"
+      ],
+      [
+        28167968,
+        "asset-chunks/business/003.bin"
+      ],
+      [
+        23364488,
+        "public/videos/lighting.mp4"
+      ]
+    ],
+    "excluded_reassembled_files": [
+      "public/videos/business.mp4",
+      "public/videos/featured.mp4"
+    ],
+    "excluded_build_directory": "dist/",
+    "inspection": "Filesystem inventory only; no Git commands used."
+  },
+  "dist_original_hashes": "passed: both oversized dist/videos files match manifest size and SHA256"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "blog-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "prebuild": "node scripts/restore-assets.cjs",
+    "predev": "node scripts/restore-assets.cjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.57.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "@vitejs/plugin-react": "5.0.3",
+    "autoprefixer": "10.4.21",
+    "postcss": "8.5.32",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.9.2",
+    "vite": "7.3.7"
+  }
+}

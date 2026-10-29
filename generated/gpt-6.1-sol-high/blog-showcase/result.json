@@ -1,0 +1,92 @@
+{
+  "title": "Blog Showcase",
+  "id": "blog-showcase",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": {
+      "status": "passed",
+      "details": "Post-repair npm ci and production build passed with prebuild restoration; TypeScript/Vite 7.3.7; dist/index.html exists."
+    },
+    "browser": {
+      "status": "passed",
+      "engine": "Chromium via playwright-core",
+      "viewports": [
+        "1440x1000",
+        "390x844",
+        "1024x1000",
+        "768x1000"
+      ],
+      "horizontal_overflow": false,
+      "page_script_errors": 0,
+      "http_failures": 0,
+      "details_file": "screenshots/checks.json",
+      "details": "Rerun against the post-repair production build; all four videos play when visible at every viewport, hover/anchor/keyboard checks pass."
+    },
+    "interactions": {
+      "status": "passed",
+      "details": [
+        "Four video hover scales equal 1.08; overlay and plus opacity reach 1.",
+        "View all posts navigates to #posts and scrolls.",
+        "Keyboard focus reaches the link and preview containers.",
+        "All four videos play when visible at each tested viewport; muted, loop and playsInline verified."
+      ]
+    },
+    "assets": {
+      "status": "passed",
+      "details": "Exact four supplied MP4s and six Google Fonts weights downloaded and self-hosted. Fonts loaded and all video dimensions verified as 1920x1080.",
+      "manifest": "screenshots/asset-manifest.json"
+    },
+    "visual_review": {
+      "status": "passed",
+      "screenshots": [
+        "screenshots/desktop.png",
+        "screenshots/mobile.png"
+      ]
+    },
+    "dependency_audit": {
+      "status": "passed",
+      "vulnerabilities": 0,
+      "report": "npm-audit.json"
+    },
+    "supabase": {
+      "status": "not_verified",
+      "details": "Client query, schema, seed and public SELECT RLS policy implemented. No remote project credentials supplied; live migration and RLS enforcement not executed. Local seed fallback used for browser verification."
+    },
+    "packaging": {
+      "status": "passed",
+      "manifest": "asset-chunks/manifest.json",
+      "report": "screenshots/packaging-checks.json",
+      "chunk_count": 6,
+      "maximum_chunk_bytes": 50331648,
+      "chunk_limit_bytes_exclusive": 52428800,
+      "originals": [
+        {
+          "path": "public/videos/featured.mp4",
+          "bytes": 108874018,
+          "sha256": "1a60011ed01fffe5051a9db331fbb92d7dbb7f47b5ba002154b2c3e93ab57c72"
+        },
+        {
+          "path": "public/videos/business.mp4",
+          "bytes": 128831264,
+          "sha256": "3f35e5255469874c9030ad84ccee866475151049c3b0bf971e3f61e1738b9981"
+        }
+      ],
+      "restoration": "Both originals temporarily renamed, restored byte-for-byte and compared to original hashes; backups removed. Corrupt/missing chunks rejected, repeat runs verified, invalid original repaired.",
+      "hooks": "npm prebuild and predev both invoke scripts/restore-assets.cjs; both executed successfully.",
+      "delivery": "Originals and dist remain on disk. Both oversized originals and all dist output ignored. Smaller videos/fonts remain normal source files. No Git commands run."
+    }
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management review; this repair performed no publication or deployment.",
+    "Static base path: /motionsites-results/blog-showcase/.",
+    "Supabase needs project URL, public anon key, and execution of supabase/schema.sql before live data is used.",
+    "Original supplied videos retained without transcoding; static assets total approximately 266 MiB.",
+    "Offscreen autoplay is deferred by Chromium on narrow layouts; previews resume automatically when visible.",
+    "No other designs were read, no agents or additional Codex sessions were created, and no push or messages were sent.",
+    "Large-asset packaging repair only; original layout, application code, Supabase support and functionality retained.",
+    "All source package files are below 50 MiB after excluding ignored build artifacts and reconstructed originals. Restoration requires only Node built-ins and included chunks, with no network or server-only files.",
+    "PROMPT.md unchanged. Management is responsible for history cleanup and publication; no Git commands, staging, commits, pushes, messages, agents or additional sessions were used in this repair."
+  ]
+}

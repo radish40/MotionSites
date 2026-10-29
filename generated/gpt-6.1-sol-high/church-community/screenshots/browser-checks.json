@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x1000",
+      "status": "passed",
+      "metrics": {
+        "width": 1440,
+        "scroll": 1440,
+        "phones": [
+          {
+            "x": 103.5,
+            "y": 40,
+            "width": 379,
+            "height": 816
+          },
+          {
+            "x": 530.5,
+            "y": 40,
+            "width": 379,
+            "height": 816
+          },
+          {
+            "x": 957.5,
+            "y": 40,
+            "width": 379,
+            "height": 816
+          }
+        ],
+        "images": []
+      },
+      "interactions": "All three menus open/close; Home, About, Events, Sermons, Contact links; Escape dismiss; sermon, Join us, Learn more and Back controls"
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "status": "passed",
+      "metrics": {
+        "width": 390,
+        "scroll": 390,
+        "phones": [
+          {
+            "x": 20,
+            "y": 20,
+            "width": 350,
+            "height": 753.56201171875
+          },
+          {
+            "x": 20,
+            "y": 805.546875,
+            "width": 350,
+            "height": 753.56201171875
+          },
+          {
+            "x": 20,
+            "y": 1591.09375,
+            "width": 350,
+            "height": 753.56201171875
+          }
+        ],
+        "images": []
+      },
+      "interactions": "All three menus open/close; Home, About, Events, Sermons, Contact links; Escape dismiss; sermon, Join us, Learn more and Back controls"
+    }
+  ],
+  "script_errors": [],
+  "failed_requests": []
+}

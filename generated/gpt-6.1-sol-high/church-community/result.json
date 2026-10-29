@@ -1,0 +1,96 @@
+{
+  "title": "Church Community",
+  "id": "church-community",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "build": "passed \u2014 Expo static web export; dist/index.html exists",
+    "dependencies": "passed \u2014 expo install --check",
+    "checks": [
+      {
+        "viewport": "desktop",
+        "dimensions": "1440x1000",
+        "status": "passed",
+        "metrics": {
+          "width": 1440,
+          "scroll": 1440,
+          "phones": [
+            {
+              "x": 103.5,
+              "y": 40,
+              "width": 379,
+              "height": 816
+            },
+            {
+              "x": 530.5,
+              "y": 40,
+              "width": 379,
+              "height": 816
+            },
+            {
+              "x": 957.5,
+              "y": 40,
+              "width": 379,
+              "height": 816
+            }
+          ],
+          "images": []
+        },
+        "interactions": "All three menus open/close; Home, About, Events, Sermons, Contact links; Escape dismiss; sermon, Join us, Learn more and Back controls"
+      },
+      {
+        "viewport": "mobile",
+        "dimensions": "390x844",
+        "status": "passed",
+        "metrics": {
+          "width": 390,
+          "scroll": 390,
+          "phones": [
+            {
+              "x": 20,
+              "y": 20,
+              "width": 350,
+              "height": 753.56201171875
+            },
+            {
+              "x": 20,
+              "y": 805.546875,
+              "width": 350,
+              "height": 753.56201171875
+            },
+            {
+              "x": 20,
+              "y": 1591.09375,
+              "width": 350,
+              "height": 753.56201171875
+            }
+          ],
+          "images": []
+        },
+        "interactions": "All three menus open/close; Home, About, Events, Sermons, Contact links; Escape dismiss; sermon, Join us, Learn more and Back controls"
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/menu.png",
+      "screenshots/mobile-full.png"
+    ],
+    "additional_responsive_check": "passed \u2014 1024px desktop layout has three phones, horizontal scrolling, and no page overflow"
+  },
+  "asset_issues": [
+    {
+      "type": "description_mismatch",
+      "details": "All nine exact supplied assets are downloaded and bundled. The supplied landing hero depicts a person walking into a church, and the supplied sermon hero depicts a Bible study table, rather than the prompt descriptions of raised hands and a preacher."
+    }
+  ],
+  "notes": [
+    "Ready for management-session review; not deployed or pushed.",
+    "React Native with Expo Router, Reanimated FadeIn animations, and bundled Manrope 300/400/500. Expo baseUrl is /motionsites-results/church-community/.",
+    "Text typewriter effect supports configurable delay and speed.",
+    "Join us and Learn more show supplied service details; no backend or sermon recording was supplied.",
+    "Desktop horizontal arrangement; below 900px, vertically stacked scaled phones."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Church Community",
+    "slug": "church-community",
+    "scheme": "church-community",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "name": "Christ Family Church"
+    },
+    "plugins": ["expo-router"],
+    "experiments": { "baseUrl": "/motionsites-results/church-community" }
+  }
+}

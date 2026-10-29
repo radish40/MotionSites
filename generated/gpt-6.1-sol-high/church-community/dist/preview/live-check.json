@@ -1,0 +1,157 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/church-community/",
+  "checked_at": "2026-10-29T04:29:01.517Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "",
+      "bodyChars": 1043,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/portrait.de4e573fd15fa413dd40aea3f7e0e169.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/quote.43527683419032fa89a71b5d882c1af4.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/arrow.662c2405d54678285d7be025478b8b32.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/star.3bf6419b7deeda6da1b914a777ff94f6.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/logo.4a7546acea8f7f2a0f82301ca7cdf42e.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/hero.8c51591f62357389b5ec3ad418be9fa9.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/avatars.fc231a781fac062870464229d3c6ae6c.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/arrow.662c2405d54678285d7be025478b8b32.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/logo.4a7546acea8f7f2a0f82301ca7cdf42e.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/preacher.d8b0c12132985edc6f84fecf3af1f1b0.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/play.0e0b789b84c98fc67f26694851456ebb.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/logo.4a7546acea8f7f2a0f82301ca7cdf42e.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "",
+      "bodyChars": 1043,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/portrait.de4e573fd15fa413dd40aea3f7e0e169.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/quote.43527683419032fa89a71b5d882c1af4.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/arrow.662c2405d54678285d7be025478b8b32.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/star.3bf6419b7deeda6da1b914a777ff94f6.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/logo.4a7546acea8f7f2a0f82301ca7cdf42e.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/hero.8c51591f62357389b5ec3ad418be9fa9.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/avatars.fc231a781fac062870464229d3c6ae6c.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/arrow.662c2405d54678285d7be025478b8b32.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/logo.4a7546acea8f7f2a0f82301ca7cdf42e.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/preacher.d8b0c12132985edc6f84fecf3af1f1b0.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/play.0e0b789b84c98fc67f26694851456ebb.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/church-community/assets/assets/logo.4a7546acea8f7f2a0f82301ca7cdf42e.png",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

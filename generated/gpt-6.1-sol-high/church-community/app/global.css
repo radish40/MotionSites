@@ -1,0 +1,25 @@
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  background: #5a4c41;
+}
+body {
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+:focus-visible {
+  outline: 2px solid #c8ad7a;
+  outline-offset: 5px;
+}
+::selection {
+  background: #c8ad7a;
+  color: #1d191a;
+}

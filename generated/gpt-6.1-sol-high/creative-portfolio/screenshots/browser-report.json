@@ -1,0 +1,48 @@
+{
+  "desktop": "1440x1000",
+  "mobile": "390x844",
+  "additionalWidths": [
+    1024,
+    320
+  ],
+  "fontLoaded": true,
+  "desktopVideos": [
+    {
+      "src": "blob:http://localhost:4173/40c2d679-422b-4937-9920-7d7365d08f93",
+      "readyState": 2,
+      "paused": false,
+      "width": 1920,
+      "height": 1080,
+      "error": null
+    },
+    {
+      "src": "blob:http://localhost:4173/af7ec877-a1f2-4333-bb23-5856eb4f6f22",
+      "readyState": 4,
+      "paused": false,
+      "width": 1920,
+      "height": 1080,
+      "error": null
+    },
+    {
+      "src": "blob:http://localhost:4173/f795d6da-e5c8-4807-8d32-6859b7f3d111",
+      "readyState": 4,
+      "paused": false,
+      "width": 1920,
+      "height": 1080,
+      "error": null
+    }
+  ],
+  "checks": [
+    "video blob preloading and playback",
+    "all three crossfades and accent changes",
+    "live clock updates",
+    "CTA hover and email destination",
+    "mobile menu open / Escape / navigation close",
+    "reduced motion pauses videos and disables animation",
+    "no horizontal overflow",
+    "no JavaScript or console errors"
+  ],
+  "errors": [],
+  "warnings": [],
+  "failedRequests": []
+}

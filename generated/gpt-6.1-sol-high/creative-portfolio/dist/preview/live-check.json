@@ -1,0 +1,135 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/creative-portfolio/",
+  "checked_at": "2026-10-29T06:01:42.247Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Viktor. — Creative Portfolio",
+      "bodyChars": 309,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/df908dd7-43a6-4185-9875-334f03e5539e",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/eb73ff59-6cfb-415d-96c4-505ea8727aef",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/5156544b-66c3-4465-9ea4-729986219151",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260629_032424_3c9c2a9d-807b-4482-80e6-dd6d9dfd4545.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260627_094019_4214ea73-b963-46a4-8327-61489192de99.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260629_030107_874273ea-684a-4e90-bb96-8fdfde48d53d.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260629_032424_3c9c2a9d-807b-4482-80e6-dd6d9dfd4545.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/eb73ff59-6cfb-415d-96c4-505ea8727aef",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/5156544b-66c3-4465-9ea4-729986219151",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/df908dd7-43a6-4185-9875-334f03e5539e",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Viktor. — Creative Portfolio",
+      "bodyChars": 314,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/de8fef66-771e-4ad6-a814-f0fcc208dd9a",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/4bab6c85-83f9-496d-99e6-568dba7424a4",
+          "readyState": 4,
+          "paused": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/838a5feb-1ea6-4ba6-b477-f53f7ac1885b",
+          "readyState": 4,
+          "paused": false
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260629_030107_874273ea-684a-4e90-bb96-8fdfde48d53d.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260629_032424_3c9c2a9d-807b-4482-80e6-dd6d9dfd4545.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260627_094019_4214ea73-b963-46a4-8327-61489192de99.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260627_094019_4214ea73-b963-46a4-8327-61489192de99.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/838a5feb-1ea6-4ba6-b477-f53f7ac1885b",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260629_032424_3c9c2a9d-807b-4482-80e6-dd6d9dfd4545.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/4bab6c85-83f9-496d-99e6-568dba7424a4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260629_030107_874273ea-684a-4e90-bb96-8fdfde48d53d.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/de8fef66-771e-4ad6-a814-f0fcc208dd9a",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/4bab6c85-83f9-496d-99e6-568dba7424a4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

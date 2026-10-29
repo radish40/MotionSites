@@ -1,0 +1,29 @@
+{
+  "title": "Creative Portfolio",
+  "id": "creative-portfolio",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "publish_base": "/motionsites-results/creative-portfolio/",
+    "desktop": "1440x1000 passed; screenshots/desktop.png",
+    "mobile": "390x844 passed; screenshots/mobile.png",
+    "additional_responsive": "1024x768 and 320x740: no horizontal overflow",
+    "video": "all three supplied videos preload as blobs and play at 1920x1080; switcher crossfades and accent changes pass",
+    "interactions": "clock updates, CTA hover and mailto, menu expansion, Escape and navigation dismissal pass",
+    "reduced_motion": "animations disabled and videos paused",
+    "font": "Google Figtree loaded successfully",
+    "browser_errors": [],
+    "failed_requests": [],
+    "dependency_audit": "0 vulnerabilities",
+    "report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built only the requested Navbar and Hero using React, Vite, Tailwind CSS and Figtree.",
+    "Original supplied CloudFront assets are used; font and media require network access.",
+    "Paragraph continuation was completed because the prompt provides an abbreviated opening phrase.",
+    "Navigation targets the existing hero areas; email and project CTA use mailto:Davies@gmail.com.",
+    "Ready for management-session acceptance; not deployed or pushed."
+  ]
+}

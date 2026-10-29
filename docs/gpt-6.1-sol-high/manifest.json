@@ -795,14 +795,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d6-b8df-7cd3-b702-8ee941e90c49",
       "output_path": "generated/gpt-6.1-sol-high/3d-studio-pricing",
       "validation": "",
       "notes": "",
       "process_id": 2561863,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:06:44.107566+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 25,
@@ -821,14 +825,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d6-b970-7d61-90dd-db56d94e030c",
       "output_path": "generated/gpt-6.1-sol-high/adhd-planner",
       "validation": "",
       "notes": "",
       "process_id": 2561898,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:06:44.209885+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 26,
@@ -847,14 +855,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d6-b9c7-7ab1-b906-67d137633e4b",
       "output_path": "generated/gpt-6.1-sol-high/ai-driving-assistant",
       "validation": "",
       "notes": "",
       "process_id": 2561940,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:06:44.319398+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 27,
@@ -873,14 +885,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d6-bae5-7f71-9ffa-22c69b9d1ef5",
       "output_path": "generated/gpt-6.1-sol-high/ai-interface",
       "validation": "",
       "notes": "",
       "process_id": 2562063,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:06:44.484725+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 28,
@@ -8649,5 +8665,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:09:00.084663+00:00"
+  "updated_utc": "2026-10-29T04:09:53.631131+00:00"
 }

@@ -1,0 +1,242 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "assets": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Manrope:wght@200;300;400;500;600;700;800&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSg.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781009782/rng_awymkj.png",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781017114/202606091756_msbh8b.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/dbfd996z4/video/upload/q_auto/f_auto/v1781009724/11111111_gvewuj.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://res.cloudinary.com/dbfd996z4/video/upload/q_auto/f_auto/v1781009724/2222222_x4qpet.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781019866/2606091843_kfonxp.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781019866/2606091843_kfonxp.jpg",
+      "status": 200
+    }
+  ],
+  "checks": [
+    {
+      "name": "Desktop has no horizontal overflow",
+      "pass": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "Hero headline visible",
+      "pass": true
+    },
+    {
+      "name": "First video scrubs",
+      "pass": true
+    },
+    {
+      "name": "Earrings panel opens",
+      "pass": true
+    },
+    {
+      "name": "Earrings content",
+      "pass": true
+    },
+    {
+      "name": "Quantity increases and price updates",
+      "pass": true
+    },
+    {
+      "name": "Quantity minimum",
+      "pass": true
+    },
+    {
+      "name": "Bag provides confirmation",
+      "pass": true
+    },
+    {
+      "name": "First back button closes sheet",
+      "pass": true
+    },
+    {
+      "name": "Second video scrubs",
+      "pass": true
+    },
+    {
+      "name": "Bag jumps to final ring",
+      "pass": true
+    },
+    {
+      "name": "Product changes reset quantity",
+      "pass": true
+    },
+    {
+      "name": "Second back button closes sheet",
+      "pass": true
+    },
+    {
+      "name": "Mobile has no horizontal overflow",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "Mobile hero within viewport",
+      "pass": true,
+      "details": {
+        "x": 24,
+        "y": 392.078125,
+        "width": 342,
+        "height": 111.1875
+      }
+    },
+    {
+      "name": "Mobile panel opens",
+      "pass": true
+    },
+    {
+      "name": "Mobile purchase button within viewport",
+      "pass": true,
+      "details": {
+        "x": 207,
+        "y": 740,
+        "width": 159,
+        "height": 50
+      }
+    },
+    {
+      "name": "No script errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "All supplied images load",
+      "pass": true
+    },
+    {
+      "name": "Both videos loaded",
+      "pass": true,
+      "details": [
+        {
+          "readyState": 4,
+          "duration": 8.003,
+          "time": 0
+        },
+        {
+          "readyState": 4,
+          "duration": 8.003,
+          "time": 0
+        }
+      ]
+    }
+  ],
+  "initialMedia": {
+    "videos": [
+      {
+        "readyState": 4,
+        "duration": 8.003,
+        "time": 0
+      },
+      {
+        "readyState": 4,
+        "duration": 8.003,
+        "time": 0
+      }
+    ],
+    "images": [
+      {
+        "src": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781009782/rng_awymkj.png",
+        "complete": true,
+        "width": 314
+      },
+      {
+        "src": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781017114/202606091756_msbh8b.jpg",
+        "complete": true,
+        "width": 1792
+      }
+    ],
+    "fonts": true
+  },
+  "firstVideoMidpoint": {
+    "videos": [
+      {
+        "readyState": 1,
+        "duration": 8.003,
+        "time": 2.845185
+      },
+      {
+        "readyState": 4,
+        "duration": 8.003,
+        "time": 0
+      }
+    ],
+    "images": [
+      {
+        "src": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781009782/rng_awymkj.png",
+        "complete": true,
+        "width": 314
+      },
+      {
+        "src": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781017114/202606091756_msbh8b.jpg",
+        "complete": true,
+        "width": 1792
+      }
+    ],
+    "fonts": true
+  },
+  "secondVideoMidpoint": {
+    "videos": [
+      {
+        "readyState": 1,
+        "duration": 8.003,
+        "time": 7.641073
+      },
+      {
+        "readyState": 1,
+        "duration": 8.003,
+        "time": 2.698863
+      }
+    ],
+    "images": [
+      {
+        "src": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781009782/rng_awymkj.png",
+        "complete": true,
+        "width": 314
+      },
+      {
+        "src": "https://res.cloudinary.com/dbfd996z4/image/upload/q_auto/f_auto/v1781017114/202606091756_msbh8b.jpg",
+        "complete": true,
+        "width": 1792
+      }
+    ],
+    "fonts": true
+  }
+}

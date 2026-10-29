@@ -1,0 +1,160 @@
+{
+  "title": "Luxury Focus",
+  "id": "luxury-focus",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed \u2014 TypeScript and Vite 6",
+    "browser_engine": "Chromium via playwright-core",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "results": [
+      {
+        "name": "Desktop has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 1440,
+          "scrollWidth": 1440
+        }
+      },
+      {
+        "name": "Hero headline visible",
+        "pass": true
+      },
+      {
+        "name": "First video scrubs",
+        "pass": true
+      },
+      {
+        "name": "Earrings panel opens",
+        "pass": true
+      },
+      {
+        "name": "Earrings content",
+        "pass": true
+      },
+      {
+        "name": "Quantity increases and price updates",
+        "pass": true
+      },
+      {
+        "name": "Quantity minimum",
+        "pass": true
+      },
+      {
+        "name": "Bag provides confirmation",
+        "pass": true
+      },
+      {
+        "name": "First back button closes sheet",
+        "pass": true
+      },
+      {
+        "name": "Second video scrubs",
+        "pass": true
+      },
+      {
+        "name": "Bag jumps to final ring",
+        "pass": true
+      },
+      {
+        "name": "Product changes reset quantity",
+        "pass": true
+      },
+      {
+        "name": "Second back button closes sheet",
+        "pass": true
+      },
+      {
+        "name": "Mobile has no horizontal overflow",
+        "pass": true,
+        "details": {
+          "width": 390,
+          "scrollWidth": 390
+        }
+      },
+      {
+        "name": "Mobile hero within viewport",
+        "pass": true,
+        "details": {
+          "x": 24,
+          "y": 392.078125,
+          "width": 342,
+          "height": 111.1875
+        }
+      },
+      {
+        "name": "Mobile panel opens",
+        "pass": true
+      },
+      {
+        "name": "Mobile purchase button within viewport",
+        "pass": true,
+        "details": {
+          "x": 207,
+          "y": 740,
+          "width": 159,
+          "height": 50
+        }
+      },
+      {
+        "name": "No script errors",
+        "pass": true,
+        "details": []
+      },
+      {
+        "name": "All supplied images load",
+        "pass": true
+      },
+      {
+        "name": "Both videos loaded",
+        "pass": true,
+        "details": [
+          {
+            "readyState": 4,
+            "duration": 8.003,
+            "time": 0
+          },
+          {
+            "readyState": 4,
+            "duration": 8.003,
+            "time": 0
+          }
+        ]
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "fonts": "Google Fonts stylesheet and all requested font files loaded successfully",
+    "media": "All five supplied media URLs returned HTTP 200 or 206; both videos loaded and scrubbed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-earrings.png",
+      "screenshots/desktop-ring.png",
+      "screenshots/mobile-ring.png"
+    ],
+    "report": "browser-report.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "Hero product PNG",
+      "issue": "The exact supplied URL displays a pink gemstone pendant on a rounded light background rather than the described onyx ring. Required URL retained."
+    },
+    {
+      "asset": "Second panel ring JPG",
+      "issue": "The exact supplied URL displays a pink gemstone ring rather than the sterling silver sculpture implied by its supplied title. Required URL and title retained."
+    }
+  ],
+  "notes": [
+    "Built for /motionsites-results/luxury-focus/; dist/index.html exists.",
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "All application code lives in src/App.tsx; only progress and quantity use React state.",
+    "No backend or data persistence; bag feedback is local to the current page.",
+    "Original manifesto and descriptions expanded from prompt excerpts.",
+    "Contact uses a demonstration mailto address; no messages were sent.",
+    "Required live Cloudinary videos used; no fallback frame sequence files supplied."
+  ]
+}

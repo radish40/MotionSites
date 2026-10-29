@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-serif: "Instrument Serif", serif;
+  --font-sans: "Manrope", sans-serif;
+}
+html,body,#root {margin:0;min-height:100%;background:#020202}
+button,a {-webkit-tap-highlight-color:transparent}
+button {cursor:pointer}
+button:focus-visible,a:focus-visible {outline:2px solid #aaa947;outline-offset:6px}
+::selection {background:#FBFF8D;color:#121212}

@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-29T05:15:35.422467+00:00",
+  "updated_utc": "2026-10-29T05:17:44.557656+00:00",
   "total": 380,
   "counts": {
-    "complete": 72,
-    "running": 5,
+    "complete": 74,
     "blocked": 1,
-    "not_started": 302
+    "running": 5,
+    "not_started": 300
   },
   "jobs": [
     {
@@ -702,11 +702,11 @@
       "id": "3d-story",
       "title": "3D Story",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1860c-5095-7490-9fac-9f31542f5537",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "809e85f071191d564715ba9b73105901e3031001",
+      "group_message_id": 123,
+      "url": "https://tool.luo-xd.com/motionsites-results/3d-story/"
     },
     {
       "id": "404-planet",
@@ -742,11 +742,11 @@
       "id": "ai-automation",
       "title": "AI Automation",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18610-d98a-7a12-9254-de8b6469629b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "36b3ec3eb15eefdfa17672ea0841d9ed5177601d",
+      "group_message_id": 124,
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-automation/"
     },
     {
       "id": "ai-workflow",
@@ -773,7 +773,7 @@
       "title": "Apex Program Accordion",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18614-c904-7f31-ab03-6f9af78ca35b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -783,7 +783,7 @@
       "title": "Apex Pulse",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18614-caea-7fc3-b6c0-133dd0382605",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -792,7 +792,7 @@
       "id": "arceage-contact-us",
       "title": "Arceage Contact Us",
       "category": "Forms & Contact",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -802,7 +802,7 @@
       "id": "arceage-services",
       "title": "Arceage Services",
       "category": "Services",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

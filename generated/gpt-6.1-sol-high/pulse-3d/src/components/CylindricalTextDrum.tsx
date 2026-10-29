@@ -1,0 +1,37 @@
+export const LINES=[
+'Welcome to the [ultimate convergence]',
+'of [digital rebels], [underground creators],',
+'and [top-tier product builders] who',
+'refuse to follow [guidelines].',
+'This is where [high-end design principles]',
+'meet [pure technical execution],',
+'without the [corporate bureaucracy] and',
+'meaningless [standard aesthetics].',
+'We [gather in the shadows] to build',
+'the [next generation] of [scalable interfaces],',
+'[automated workflows], and [decentralized assets]',
+'that move the [cultural needle forward].',
+'Experience [zero-bullshit networking],',
+'weekly [alpha allocations], and [unreleased]',
+"[toolkits] to shape the [internet's landscape].",
+'',
+'This is [not another social club]',
+'for casual enthusiasts or [template consumers].',
+'This is a [highly selective environment]',
+'engineered for [hyper-productive creators],',
+'[UI/UX visionaries], and [AI prompt architects]',
+'who operate at the [absolute limits]',
+'of [digital product creation].',
+'Our [framework is simple]:',
+'[eliminate intermediate noise],',
+'[automate the execution layer],',
+'and [deploy elite digital products]',
+'while others are still [scheduling meetings].',
+'We loop through [complex design systems],',
+'[break conventional grids], and',
+'[execute fluid interactions] that',
+'[redefine digital environments].'];
+export default function CylindricalTextDrum({scrollProgress}:{scrollProgress:number}){
+ const target=Math.max(0,Math.min(1,(scrollProgress-1.45)/2.05))*(LINES.length-1);
+ return <div className="text-drum"><div className="drum-inner">{LINES.map((line,idx)=>{const diff=idx-target,ty=diff*32,a=ty/380,c=Math.cos(a),blur=Math.min(8,Math.max(0,(Math.abs(diff)-1.5)*.75));return <p key={idx} style={{transform:`translateY(${ty}px) translateZ(${c*380-380}px) rotateX(${-a*180/Math.PI*.8}deg) scale(${.78+c*.22})`,opacity:Math.max(0,(c-.2)/.8)*(line?1:.3),filter:blur>.1?`blur(${blur}px)`:'none'}}>{line.split(/(\[[^\]]+\])/g).map((s,i)=>s.startsWith('[')?<strong key={i}>{s.slice(1,-1)}</strong>:<span key={i}>{s}</span>)}</p>})}</div></div>
+}

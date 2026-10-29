@@ -1,0 +1,2 @@
+import {GoogleWordmark,GithubWordmark} from './Logos';
+export default function Marquee(){return <div className="partner-strip"><div className="partner-border"><div className="marquee-container"><div className="marquee-track">{[0,1].map(i=><div className="marquee-group" aria-hidden={i===1} key={i}><GoogleWordmark/><GithubWordmark/>{['voiceflow','zendesk','pendo','glide','canva'].map(n=><img key={n} src={`${import.meta.env.BASE_URL}assets/${n}.svg`} alt={n==='voiceflow'?'Voiceflow':n[0].toUpperCase()+n.slice(1)} referrerPolicy="no-referrer"/>)}</div>)}</div></div></div></div>}

@@ -1,0 +1,158 @@
+{
+  "title": "Pulse 3D",
+  "id": "pulse-3d",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci --no-audit --no-fund && npm run build\"",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/pulse-3d/",
+    "browser": "Chromium via playwright-core, actual dist files",
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "screenshot": "screenshots/mobile.png"
+    },
+    "assertions": [
+      {
+        "name": "desktop viewport and no overflow",
+        "pass": true
+      },
+      {
+        "name": "both original videos decoded",
+        "pass": true,
+        "detail": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "duration": 4.01
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "duration": 6.016
+          }
+        ]
+      },
+      {
+        "name": "fonts loaded",
+        "pass": true
+      },
+      {
+        "name": "wheel coefficient",
+        "pass": true,
+        "detail": 0.24
+      },
+      {
+        "name": "hero scrubs",
+        "pass": true
+      },
+      {
+        "name": "navigation reaches About",
+        "pass": true
+      },
+      {
+        "name": "tiles revealed",
+        "pass": true
+      },
+      {
+        "name": "desktop tile hover scale",
+        "pass": true
+      },
+      {
+        "name": "manifesto navigation and upper clamp",
+        "pass": true
+      },
+      {
+        "name": "second panel fully raised",
+        "pass": true
+      },
+      {
+        "name": "second stream scrubbed",
+        "pass": true,
+        "detail": {
+          "current": 5.919411,
+          "duration": 6.016,
+          "seeking": true
+        }
+      },
+      {
+        "name": "reverse and lower clamp",
+        "pass": true
+      },
+      {
+        "name": "gesture cancels navigation",
+        "pass": true
+      },
+      {
+        "name": "mobile viewport and no overflow",
+        "pass": true
+      },
+      {
+        "name": "mobile menu opens",
+        "pass": true
+      },
+      {
+        "name": "mobile navigation closes menu",
+        "pass": true
+      },
+      {
+        "name": "mobile navigation reaches tiles",
+        "pass": true
+      },
+      {
+        "name": "touch coefficient",
+        "pass": true
+      },
+      {
+        "name": "no script errors",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "no failed requests",
+        "pass": true,
+        "detail": []
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    {
+      "assets": [
+        "voiceflow",
+        "zendesk",
+        "pendo",
+        "glide",
+        "canva"
+      ],
+      "issue": "All five exact raw GitHub URLs and source repository contents API returned HTTP 404.",
+      "resolution": "Local SVG text wordmarks in requested order; approximate letterforms.",
+      "evidence": "scripts/logo-recovery-response.txt"
+    },
+    {
+      "assets": [
+        "GoogleWordmark",
+        "GithubWordmark"
+      ],
+      "issue": "Referenced original SVG path files not supplied.",
+      "resolution": "Inline SVG text wordmarks; approximate letterforms."
+    }
+  ],
+  "notes": [
+    "Inner Circle page built with the required stack and shared progress animation controller.",
+    "Both original MP4s downloaded without modification, locally served, decoded and scrubbed in Chromium; hashes in scripts/asset-manifest.json.",
+    "Manrope and Michroma downloaded from specified Google Fonts stylesheet and self-hosted.",
+    "The unused PROJECTS_DATA and EXPERTISE_DATA entries are unspecified in the prompt; retained as typed empty arrays.",
+    "Original preview used only for visual reference. No screenshot-based page background or extracted assets.",
+    "Physical iOS/Safari not tested; mobile checks run in Chromium with touch enabled.",
+    "All changes are inside this project. No other designs, agents, deployment, push, or external messages.",
+    "Ready means available for acceptance review, not deployed."
+  ]
+}

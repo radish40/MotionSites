@@ -1,0 +1,12 @@
+[
+  {
+    "file": "public/assets/hero.mp4",
+    "source": "https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/cloudinarry%20to%20cloudflare/202606021731-e_hqa6sn.mp4",
+    "sha256": "710a69052fc0b63f27d5f89c1032b6b0ae5d8e36ef9b909ce02966c1a02faefd"
+  },
+  {
+    "file": "public/assets/drum.mp4",
+    "source": "https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/cloudinarry%20to%20cloudflare/2026060218225-v_kcy5rl.mp4",
+    "sha256": "7b399be4829e121c2bb62a9ee2f560539aa465ac8b532f39398807cdaa14d0a5"
+  }
+]

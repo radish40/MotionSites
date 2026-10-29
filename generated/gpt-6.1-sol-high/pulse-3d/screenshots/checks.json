@@ -1,0 +1,106 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "desktop viewport and no overflow",
+      "pass": true
+    },
+    {
+      "name": "both original videos decoded",
+      "pass": true,
+      "detail": [
+        {
+          "width": 1920,
+          "height": 1080,
+          "duration": 4.01
+        },
+        {
+          "width": 1920,
+          "height": 1080,
+          "duration": 6.016
+        }
+      ]
+    },
+    {
+      "name": "fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "wheel coefficient",
+      "pass": true,
+      "detail": 0.24
+    },
+    {
+      "name": "hero scrubs",
+      "pass": true
+    },
+    {
+      "name": "navigation reaches About",
+      "pass": true
+    },
+    {
+      "name": "tiles revealed",
+      "pass": true
+    },
+    {
+      "name": "desktop tile hover scale",
+      "pass": true
+    },
+    {
+      "name": "manifesto navigation and upper clamp",
+      "pass": true
+    },
+    {
+      "name": "second panel fully raised",
+      "pass": true
+    },
+    {
+      "name": "second stream scrubbed",
+      "pass": true,
+      "detail": {
+        "current": 5.919411,
+        "duration": 6.016,
+        "seeking": true
+      }
+    },
+    {
+      "name": "reverse and lower clamp",
+      "pass": true
+    },
+    {
+      "name": "gesture cancels navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile viewport and no overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "mobile navigation closes menu",
+      "pass": true
+    },
+    {
+      "name": "mobile navigation reaches tiles",
+      "pass": true
+    },
+    {
+      "name": "touch coefficient",
+      "pass": true
+    },
+    {
+      "name": "no script errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no failed requests",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

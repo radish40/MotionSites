@@ -1,0 +1,35 @@
+const {chromium}=require('/app/node_modules/playwright-core');
+const fs=require('fs');
+(async()=>{
+const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+const report={errors:[],failedRequests:[],checks:[]};
+const check=(name,pass,detail)=>{report.checks.push({name,pass,detail});if(!pass)console.error('FAIL',name,detail)};
+async function open(viewport,mobile=false){const context=await browser.newContext({viewport,isMobile:mobile,hasTouch:mobile});const p=await context.newPage();p.on('pageerror',e=>report.errors.push(e.message));p.on('requestfailed',r=>report.failedRequests.push({url:r.url(),error:r.failure()}));await p.goto('http://127.0.0.1:4173/motionsites-results/pulse-3d/',{waitUntil:'networkidle'});await p.evaluate(()=>document.fonts.ready);await p.waitForFunction(()=>[...document.querySelectorAll('video')].every(v=>v.readyState>=2));return p}
+const p=await open({width:1440,height:1000});
+const progress=()=>p.locator('main').getAttribute('data-progress').then(Number);
+await p.screenshot({path:'screenshots/desktop.png'});
+check('desktop viewport and no overflow',await p.evaluate(()=>innerWidth===1440&&innerHeight===1000&&document.documentElement.scrollWidth===innerWidth&&getComputedStyle(document.body).overflow==='hidden'));
+check('both original videos decoded',await p.evaluate(()=>[...document.querySelectorAll('video')].every(v=>v.videoWidth>0)),await p.locator('video').evaluateAll(vs=>vs.map(v=>({width:v.videoWidth,height:v.videoHeight,duration:v.duration}))));
+check('fonts loaded',await p.evaluate(()=>document.fonts.check('400 20px Michroma')&&document.fonts.check('600 20px Manrope')));
+await p.mouse.wheel(0,400);await p.waitForTimeout(1500);check('wheel coefficient',Math.abs(await progress()-.24)<.001,await progress());
+check('hero scrubs',await p.locator('video').first().evaluate(v=>v.currentTime>0.3));
+await p.getByRole('button',{name:'About',exact:true}).click();await p.waitForFunction(()=>Math.abs(Number(document.querySelector('main').dataset.lerped)-.95)<.0002,{},{timeout:20000});await p.waitForTimeout(1200);check('navigation reaches About',Math.abs(await progress()-.95)<.001);
+check('tiles revealed',await p.locator('.soap-tile').first().evaluate(e=>Number(getComputedStyle(e).opacity)>.85));
+await p.locator('.soap-tile').nth(1).hover();await p.waitForTimeout(800);check('desktop tile hover scale',await p.locator('.soap-tile').nth(1).evaluate(e=>getComputedStyle(e).transform.includes('1.2')));
+await p.screenshot({path:'screenshots/desktop-tiles.png'});
+await p.getByRole('button',{name:'Manifesto',exact:true}).click();await p.waitForTimeout(2800);check('manifesto navigation and upper clamp',Math.abs(await progress()-3.5)<.001);
+check('second panel fully raised',await p.locator('.second-screen').evaluate(e=>Math.abs(e.getBoundingClientRect().top)<1));
+await p.waitForFunction(()=>{const v=document.querySelectorAll('video')[1];return v.currentTime>v.duration-.1},{},{timeout:20000}).catch(()=>{});check('second stream scrubbed',await p.locator('video').nth(1).evaluate(v=>v.currentTime>v.duration-.1),await p.locator('video').nth(1).evaluate(v=>({current:v.currentTime,duration:v.duration,seeking:v.seeking}))); 
+await p.screenshot({path:'screenshots/desktop-manifesto.png'});
+await p.mouse.wheel(0,-10000);await p.waitForTimeout(2300);check('reverse and lower clamp',await progress()===0);
+await p.getByRole('button',{name:'Manifesto',exact:true}).click();await p.waitForTimeout(350);await p.mouse.wheel(0,-100);await p.waitForTimeout(150);const interrupted=await progress();await p.waitForTimeout(1400);check('gesture cancels navigation',Math.abs(await progress()-interrupted)<.001);
+const m=await open({width:390,height:844},true);await m.screenshot({path:'screenshots/mobile.png'});
+check('mobile viewport and no overflow',await m.evaluate(()=>innerWidth===390&&document.documentElement.scrollWidth===390&&document.documentElement.scrollHeight===844));
+await m.getByRole('button',{name:'Open menu',exact:true}).click();check('mobile menu opens',await m.locator('#mobile-menu').isVisible());await m.screenshot({path:'screenshots/mobile-menu.png'});
+await m.locator('#mobile-menu').getByRole('button',{name:'About',exact:true}).click();await m.waitForFunction(()=>Math.abs(Number(document.querySelector('main').dataset.lerped)-.95)<.0002,{},{timeout:20000});await m.waitForTimeout(1200);check('mobile navigation closes menu',await m.locator('#mobile-menu').count()===0);check('mobile navigation reaches tiles',Number(await m.locator('main').getAttribute('data-progress'))===.95);
+await m.screenshot({path:'screenshots/mobile-tiles.png'});
+const client=await m.context().newCDPSession(m);await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:200,y:700}]});await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:200,y:200}]});await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await m.waitForTimeout(1800);check('touch coefficient',Math.abs(Number(await m.locator('main').getAttribute('data-progress'))-1.7)<.01);
+await m.screenshot({path:'screenshots/mobile-manifesto.png'});
+check('no script errors',report.errors.length===0,report.errors);check('no failed requests',report.failedRequests.length===0,report.failedRequests);
+fs.writeFileSync('screenshots/checks.json',JSON.stringify(report,null,2));await browser.close();if(report.checks.some(c=>!c.pass))process.exitCode=1;
+})();

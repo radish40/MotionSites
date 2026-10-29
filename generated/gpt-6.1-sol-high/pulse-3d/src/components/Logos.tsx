@@ -1,0 +1,3 @@
+// The prompt does not include the referenced original wordmark path files.
+export function GoogleWordmark({size=100}:{size?:number}){return <svg width={size} height="30" viewBox="0 0 115 30" role="img" aria-label="Google"><text x="1" y="25" fill="currentColor" fontFamily="Arial,sans-serif" fontSize="32" letterSpacing="-1.5">Google</text></svg>}
+export function GithubWordmark({size=100}:{size?:number}){return <svg width={size} height="30" viewBox="0 0 110 30" role="img" aria-label="GitHub"><text x="1" y="25" fill="currentColor" fontFamily="Arial,sans-serif" fontSize="30" fontWeight="700" letterSpacing="-1.5">GitHub</text></svg>}

@@ -1,0 +1,32 @@
+{
+  "title": "3D Collectible Hero",
+  "id": "3d-collectible-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "stack": "React + TypeScript + Vite + Tailwind CSS + lucide-react",
+    "base_path": "/motionsites-results/3d-collectible-hero/",
+    "desktop": "passed: Chromium 1440x1000, no page overflow, visually reviewed",
+    "mobile": "passed: Chromium 390x844, no page overflow, visually reviewed",
+    "carousel": "passed: four states, previous/next wraparound, 650ms animation lock, background transition",
+    "keyboard": "passed: Enter and Space activate navigation",
+    "discover_link": "passed: hover opacity and active artwork destination",
+    "assets": "passed: all four exact supplied image URLs and Anton/Inter fonts loaded",
+    "script_errors": 0,
+    "console_errors": 0,
+    "failed_requests": 0,
+    "http_errors": 0,
+    "dependency_audit": "0 vulnerabilities",
+    "report": "screenshots/browser-checks.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for acceptance; not deployed or pushed.",
+    "Discover it opens the active original artwork because the prompt supplies no destination.",
+    "Original remote images and Google Fonts require network access.",
+    "Browser checks used Chromium; other engines were not tested.",
+    "Source, lockfile, static dist build, screenshots and verification script are included."
+  ]
+}

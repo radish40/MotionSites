@@ -1,0 +1,48 @@
+{
+  "checks": [
+    "All four supplied images and both Google font families loaded",
+    "Desktop 1440x1000: full viewport, no page overflow, correct description visibility",
+    "Next arrow, 650ms animation lock, green background transition",
+    "All four carousel states, next wraparound, previous wraparound",
+    "Keyboard Enter/Space operate arrow buttons",
+    "Discover it hover and link open the active original artwork",
+    "Mobile 390x844: full viewport, no page overflow, correct description visibility",
+    "Mobile navigation and resize-derived figurine sizing",
+    "No script errors, console errors, failed requests or HTTP errors"
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "requestFailures": [],
+  "httpErrors": [],
+  "assets": [
+    {
+      "src": "https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/1.02464a56.png",
+      "width": 2160,
+      "height": 2880,
+      "loaded": true
+    },
+    {
+      "src": "https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/2.b977faab.png",
+      "width": 2160,
+      "height": 2880,
+      "loaded": true
+    },
+    {
+      "src": "https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/3.4df853b4.png",
+      "width": 2160,
+      "height": 2880,
+      "loaded": true
+    },
+    {
+      "src": "https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/4.4457fbce.png",
+      "width": 2160,
+      "height": 2880,
+      "loaded": true
+    }
+  ],
+  "fonts": {
+    "anton": true,
+    "inter": true
+  },
+  "status": "passed"
+}

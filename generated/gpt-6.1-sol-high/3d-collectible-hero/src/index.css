@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { width: 100%; min-height: 100%; margin: 0; }
+body { font-family: 'Inter', sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline: 2px solid white; outline-offset: 7px; }
+.carousel-arrow { transition: transform 150ms, background-color 150ms; }
+.carousel-arrow:hover { transform: scale(1.08); background-color: rgba(255,255,255,0.12); }
+.carousel-arrow:active { transform: scale(0.96); }
+.discover { opacity: 0.95; transition: opacity 200ms; }
+.discover:hover { opacity: 1; }

@@ -1,0 +1,10 @@
+{
+  "name": "ai-meeting-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Meeting Notes — Livo AI native landing page",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/browser-check.cjs"
+  }
+}

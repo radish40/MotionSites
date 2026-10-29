@@ -1,0 +1,30 @@
+{
+  "title": "Prosthetics Hero",
+  "id": "prosthetics-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/prosthetics-hero/",
+    "desktop": { "viewport": "1440x1000", "status": "passed", "screenshot": "screenshots/desktop.png" },
+    "mobile": { "viewport": "390x844", "status": "passed", "screenshot": "screenshots/mobile.png" },
+    "video": "passed: exact source, decoded playback and advancing time, muted, loop, playsInline",
+    "interactions": "passed: CTA fill, arrow translations, nav hover, anchor clicks and keyboard focus",
+    "overflow": "none at either requested viewport",
+    "script_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "visual_review": "desktop and mobile screenshots reviewed",
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Single hero implemented in src/App.tsx with React, TypeScript, Tailwind CSS and Vite; dependency lockfile saved.",
+    "Exact external video URL is available and remains a network dependency; no asset extraction or substitution used.",
+    "Links are href=# placeholders because no destinations were specified.",
+    "Exact requested mobile object-cover layout overlaps text with the moving hand, reducing contrast in some frames.",
+    "Screenshots use the video frame at two seconds after successful autoplay checks; production video remains autoplaying.",
+    "Browser validation used Chromium at the requested sizes, not physical devices or other engines.",
+    "Ready for review only; no deployment or push performed."
+  ]
+}

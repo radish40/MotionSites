@@ -1,9 +1,8 @@
 {
-  "updated_utc": "2026-10-29T04:28:35.345810+00:00",
+  "updated_utc": "2026-10-29T04:29:45.776156+00:00",
   "total": 380,
   "counts": {
-    "complete": 35,
-    "validating": 1,
+    "complete": 36,
     "running": 5,
     "not_started": 339
   },
@@ -332,11 +331,11 @@
       "id": "church-community",
       "title": "Church Community",
       "category": "Community",
-      "status": "validating",
+      "status": "complete",
       "thread_id": "01a185de-ab14-70b3-ba42-5934e9c3a9f9",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6c54657d364c22eeb35c2445fb95449ffd13a19c",
+      "group_message_id": 84,
+      "url": "https://tool.luo-xd.com/motionsites-results/church-community/"
     },
     {
       "id": "cleantech",
@@ -393,7 +392,7 @@
       "title": "F1 Racing Hub",
       "category": "Mobile App",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e9-3de9-7c00-8f59-a6db2fdd59db",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -403,7 +402,7 @@
       "title": "Financial Suite",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e9-3e7d-7a11-953d-c45e1bac408a",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -413,7 +412,7 @@
       "title": "Innovation Lab",
       "category": "Technology",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e9-3f09-72a3-afe9-0ad5515c8a54",
       "source_commit": null,
       "group_message_id": null,
       "url": null

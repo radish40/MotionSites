@@ -29,7 +29,14 @@ def main():
         expo_routes = relative.as_posix() == '_expo/.routes.json' and file.is_file()
         if file.is_symlink() or (not expo_routes and any(part.startswith('.') for part in relative.parts)):
             p.error('Hidden files and symlinks are not public artifacts')
-        if file.name in ('TASK.md', 'PROMPT.md', 'package.json') or 'node_modules' in file.parts:
+        # Expo preserves dependency paths for exported images and fonts.
+        expo_asset = relative.parts[:2] == ('assets', 'node_modules') and (
+            file.is_dir() or file.suffix.lower() in (
+                '.png', '.jpg', '.jpeg', '.webp', '.gif', '.svg', '.avif', '.ico',
+                '.ttf', '.otf', '.woff', '.woff2', '.mp4', '.webm', '.mp3', '.wav',
+            )
+        )
+        if file.name in ('TASK.md', 'PROMPT.md', 'package.json') or ('node_modules' in relative.parts and not expo_asset):
             p.error('Source directory passed instead of static build')
     DEST.mkdir(parents=True, exist_ok=True)
     with (DEST / '.publish.lock').open('a') as lock:

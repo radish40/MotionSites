@@ -1108,10 +1108,10 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "validating",
+      "status": "complete",
       "thread_id": "01a185de-ab14-70b3-ba42-5934e9c3a9f9",
       "output_path": "generated/gpt-6.1-sol-high/church-community",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Publisher now accepts the exact Expo static routing metadata path; retrying full live validation.",
       "process_id": 2591935,
       "launch_method": "isolated_codex_exec",
@@ -1122,7 +1122,11 @@
         "reasoning_effort": "high"
       },
       "delivery_failures": 0,
-      "previous_delivery_failures": 2
+      "previous_delivery_failures": 2,
+      "source_commit": "6c54657d364c22eeb35c2445fb95449ffd13a19c",
+      "url": "https://tool.luo-xd.com/motionsites-results/church-community/",
+      "completed_utc": "2026-10-29T04:29:44.373565+00:00",
+      "group_message_id": 84
     },
     {
       "number": 34,
@@ -1303,14 +1307,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e9-3de9-7c00-8f59-a6db2fdd59db",
       "output_path": "generated/gpt-6.1-sol-high/f1-racing-hub",
       "validation": "",
       "notes": "",
       "process_id": 2629776,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:26:57.816596+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 40,
@@ -1329,14 +1337,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e9-3e7d-7a11-953d-c45e1bac408a",
       "output_path": "generated/gpt-6.1-sol-high/financial-suite",
       "validation": "",
       "notes": "",
       "process_id": 2629814,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:26:57.918275+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 41,
@@ -1355,14 +1367,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185e9-3f09-72a3-afe9-0ad5515c8a54",
       "output_path": "generated/gpt-6.1-sol-high/innovation-lab",
       "validation": "",
       "notes": "",
       "process_id": 2629933,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:26:58.059813+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 42,
@@ -8823,5 +8839,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:28:35.345810+00:00"
+  "updated_utc": "2026-10-29T04:29:45.776156+00:00"
 }

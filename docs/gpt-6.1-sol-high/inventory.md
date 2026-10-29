@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 35/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 36/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -117,7 +117,7 @@
 | 30 | `cargo-group` | Cargo Group | Hero Section | 2 | 视频 | 已完成 |
 | 31 | `cargox-mobile` | CARGOX Mobile | Transportation | 2 | 视频 | 已完成 |
 | 32 | `celestial-renewal` | Celestial Renewal | Wellness | 2 | 视频 | 已完成 |
-| 33 | `church-community` | Church Community | Community | 1 | 视频 | 验收中 |
+| 33 | `church-community` | Church Community | Community | 1 | 视频 | 已完成 |
 | 34 | `cleantech` | CleanTech | Sustainability | 2 | 视频 | 已完成 |
 | 35 | `coffee-rewards` | Coffee Rewards | Loyalty | 2 | 视频 | 已完成 |
 | 36 | `cosmos-interface` | Cosmos Interface | Landing Page | 2 | 视频 | 已完成 |

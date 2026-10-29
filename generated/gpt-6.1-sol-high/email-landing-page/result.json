@@ -1,0 +1,48 @@
+{
+  "title": "Email Landing Page",
+  "id": "email-landing-page",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22; Docker instructions in README.md)",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "desktop_viewport": "1440x1000",
+    "mobile_viewport": "390x844",
+    "script_errors": [],
+    "browser_checks": {
+      "desktopOverflow": true,
+      "yearlyPricing": true,
+      "monthlyPricing": true,
+      "planSelection": true,
+      "downloadNotice": true,
+      "mailSearch": true,
+      "compose": true,
+      "archive": true,
+      "mobileMenu": true,
+      "mobileReader": true,
+      "mobileOverflow": true,
+      "mobilePricingScroll": true,
+      "revealedSections": true
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "report": "screenshots/browser-report.json",
+    "visual_review": "All sections visible and reviewed on desktop and mobile",
+    "dist_index_exists": true
+  },
+  "asset_issues": [
+    {
+      "asset": "CloudFront video",
+      "observation": "Two aborted video requests logged. Playback succeeded: readyState 4, 1920px source width, paused false."
+    }
+  ],
+  "notes": [
+    "Exact required stack, font import, video URL, gradients, and copy retained.",
+    "Build base /motionsites-results/email-landing-page/.",
+    "Inter loaded. External video and font require network access.",
+    "No download binary, checkout, sales destination, blog, documentation, or careers content supplied; controls show local preview notices.",
+    "Inbox changes are local preview state. No messages sent.",
+    "No deployment, push, agents, or other sessions. Ready for acceptance review."
+  ]
+}

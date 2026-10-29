@@ -1,0 +1,7 @@
+{
+  "name": "jewelry-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jewelry Store — Blue Nile prompt implementation",
+  "scripts": {"build": "node scripts/build.cjs", "check": "node scripts/check.cjs"}
+}

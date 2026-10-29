@@ -1,0 +1,60 @@
+{
+  "url": "/motionsites-results/jewelry-store/",
+  "checks": [
+    "Desktop supplied CTA hover and navigation visible",
+    {
+      "viewport": "desktop",
+      "title": "Blue Nile",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "images": true,
+      "fonts": [
+        {
+          "family": "Test Founders Grotesk Light",
+          "status": "loaded"
+        },
+        {
+          "family": "NimbusSanExt",
+          "status": "loaded"
+        }
+      ],
+      "product": {
+        "x": 1075,
+        "y": 724,
+        "width": 365,
+        "height": 276
+      }
+    },
+    "Mobile menu opens; Escape, backdrop, and menu link close it",
+    {
+      "viewport": "mobile",
+      "title": "Blue Nile",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "images": true,
+      "fonts": [
+        {
+          "family": "Test Founders Grotesk Light",
+          "status": "loaded"
+        },
+        {
+          "family": "NimbusSanExt",
+          "status": "loaded"
+        }
+      ],
+      "product": {
+        "x": 0,
+        "y": 584,
+        "width": 390,
+        "height": 260
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

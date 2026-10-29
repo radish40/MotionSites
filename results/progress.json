@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-10-29T04:34:15.454953+00:00",
+  "updated_utc": "2026-10-29T04:35:45.509142+00:00",
   "total": 380,
   "counts": {
-    "complete": 40,
-    "running": 6,
+    "complete": 41,
+    "running": 5,
     "not_started": 334
   },
   "jobs": [
@@ -441,18 +441,18 @@
       "id": "integration-saas",
       "title": "Integration SaaS",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ed-87fe-7472-aa4b-c7e3734d6b52",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f77ee25bb72a2a4010c23ddc694935de9683a268",
+      "group_message_id": 89,
+      "url": "https://tool.luo-xd.com/motionsites-results/integration-saas/"
     },
     {
       "id": "lead-funnel",
       "title": "Lead Funnel",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ef-8375-7ee3-adda-bacbfead3167",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -462,7 +462,7 @@
       "title": "Luxury Escapes",
       "category": "Travel",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ef-83fe-7243-830d-74a6a5428a15",
       "source_commit": null,
       "group_message_id": null,
       "url": null

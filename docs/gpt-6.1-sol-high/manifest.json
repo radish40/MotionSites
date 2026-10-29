@@ -1475,19 +1475,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ed-87fe-7472-aa4b-c7e3734d6b52",
       "output_path": "generated/gpt-6.1-sol-high/integration-saas",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2649206,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:31:38.823156+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f77ee25bb72a2a4010c23ddc694935de9683a268",
+      "url": "https://tool.luo-xd.com/motionsites-results/integration-saas/",
+      "completed_utc": "2026-10-29T04:35:45.352092+00:00",
+      "group_message_id": 89
     },
     {
       "number": 45,
@@ -1506,14 +1510,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ef-8375-7ee3-adda-bacbfead3167",
       "output_path": "generated/gpt-6.1-sol-high/lead-funnel",
       "validation": "",
       "notes": "",
       "process_id": 2657291,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:33:48.815958+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 46,
@@ -1532,14 +1540,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185ef-83fe-7243-830d-74a6a5428a15",
       "output_path": "generated/gpt-6.1-sol-high/luxury-escapes",
       "validation": "",
       "notes": "",
       "process_id": 2657325,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:33:48.915593+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 47,
@@ -8890,5 +8902,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:34:15.454953+00:00"
+  "updated_utc": "2026-10-29T04:35:45.509142+00:00"
 }

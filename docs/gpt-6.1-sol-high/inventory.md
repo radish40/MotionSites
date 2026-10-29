@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 40/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 41/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -128,7 +128,7 @@
 | 41 | `innovation-lab` | Innovation Lab | Technology | 1 | 视频 | 已完成 |
 | 42 | `innovation-studio` | Innovation Studio | Hero Section | 2 | 视频 | 生成中 |
 | 43 | `innovation-summit` | Innovation Summit | Mobile App | 2 | 视频 | 生成中 |
-| 44 | `integration-saas` | Integration SaaS | Hero Section | 2 | 视频 | 生成中 |
+| 44 | `integration-saas` | Integration SaaS | Hero Section | 2 | 视频 | 已完成 |
 | 45 | `lead-funnel` | Lead Funnel | Hero Section | 2 | 视频 | 生成中 |
 | 46 | `luxury-escapes` | Luxury Escapes | Travel | 2 | 视频 | 生成中 |
 | 47 | `mind-body-healing` | Mind-Body Healing | Healthcare | 1 | 视频 | 未开始 |

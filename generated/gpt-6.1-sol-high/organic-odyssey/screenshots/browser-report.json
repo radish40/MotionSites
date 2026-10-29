@@ -1,0 +1,61 @@
+{
+  "url": "http://localhost:4173/motionsites-results/organic-odyssey/",
+  "checks": [
+    {
+      "name": "desktop",
+      "metrics": {
+        "title": "Synthetic Nature",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "fonts": {
+          "garamond": true,
+          "geist300": true,
+          "geist400": true,
+          "geist500": true
+        },
+        "video": {
+          "readyState": 4,
+          "width": 3828,
+          "height": 2164,
+          "duration": 8.041667
+        }
+      },
+      "errors": [],
+      "failed": [],
+      "immersive": true,
+      "returned": true,
+      "videoPlaying": true,
+      "mobileMenu": "not applicable"
+    },
+    {
+      "name": "mobile",
+      "metrics": {
+        "title": "Synthetic Nature",
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "fonts": {
+          "garamond": true,
+          "geist300": true,
+          "geist400": true,
+          "geist500": true
+        },
+        "video": {
+          "readyState": 4,
+          "width": 3828,
+          "height": 2164,
+          "duration": 8.041667
+        }
+      },
+      "errors": [],
+      "failed": [],
+      "immersive": true,
+      "returned": true,
+      "videoPlaying": true,
+      "mobileMenu": "open, link close, Escape close passed"
+    }
+  ]
+}

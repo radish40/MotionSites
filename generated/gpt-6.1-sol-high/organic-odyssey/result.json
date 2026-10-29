@@ -1,0 +1,86 @@
+{
+  "title": "Organic Odyssey",
+  "id": "organic-odyssey",
+  "status": "ready",
+  "page_title": "Synthetic Nature",
+  "brand": "Organic Visions",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities reported during npm install",
+    "base_path": "/motionsites-results/organic-odyssey/",
+    "browser": "Chromium via Playwright against production dist at configured subpath",
+    "viewports": [
+      {
+        "name": "desktop",
+        "metrics": {
+          "title": "Synthetic Nature",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "height": 1000,
+          "scrollHeight": 1000,
+          "fonts": {
+            "garamond": true,
+            "geist300": true,
+            "geist400": true,
+            "geist500": true
+          },
+          "video": {
+            "readyState": 4,
+            "width": 3828,
+            "height": 2164,
+            "duration": 8.041667
+          }
+        },
+        "errors": [],
+        "failed": [],
+        "immersive": true,
+        "returned": true,
+        "videoPlaying": true,
+        "mobileMenu": "not applicable"
+      },
+      {
+        "name": "mobile",
+        "metrics": {
+          "title": "Synthetic Nature",
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844,
+          "scrollHeight": 844,
+          "fonts": {
+            "garamond": true,
+            "geist300": true,
+            "geist400": true,
+            "geist500": true
+          },
+          "video": {
+            "readyState": 4,
+            "width": 3828,
+            "height": 2164,
+            "duration": 8.041667
+          }
+        },
+        "errors": [],
+        "failed": [],
+        "immersive": true,
+        "returned": true,
+        "videoPlaying": true,
+        "mobileMenu": "open, link close, Escape close passed"
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original video downloaded unchanged into public/assets and bundled in dist; no screenshot used as page content.",
+    "Garamond and Geist 300/400/500 loaded successfully from prescribed external links. External font availability remains a runtime dependency.",
+    "Navigation uses named fragment links; destination pages were outside the supplied hero-only scope.",
+    "CTA enters unobstructed film mode; return control and Escape restore introduction.",
+    "Mobile verification uses Chromium emulation, not a physical device.",
+    "Source, lockfile, production output, browser script, screenshots and README are included. No deployment, push, other project access, or agents."
+  ]
+}

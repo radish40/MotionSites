@@ -1,0 +1,122 @@
+{
+  "title": "Futuristic Tech",
+  "id": "futuristic-tech",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5",
+    "dist_index_exists": true,
+    "publication_base": "/motionsites-results/futuristic-tech/",
+    "desktop_viewport": "1440x1000",
+    "mobile_viewport": "390x844",
+    "browser_assertions": [
+      {
+        "name": "desktop video playback",
+        "pass": true,
+        "detail": {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "name": "desktop no overflow",
+        "pass": true
+      },
+      {
+        "name": "desktop Inter loaded",
+        "pass": true
+      },
+      {
+        "name": "waitlist dialog opens",
+        "pass": true
+      },
+      {
+        "name": "waitlist dialog closes",
+        "pass": true
+      },
+      {
+        "name": "desktop motion CTA restarts film",
+        "pass": true
+      },
+      {
+        "name": "mobile video playback",
+        "pass": true,
+        "detail": {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "name": "mobile no overflow",
+        "pass": true
+      },
+      {
+        "name": "mobile Inter loaded",
+        "pass": true
+      },
+      {
+        "name": "mobile menu opens",
+        "pass": true
+      },
+      {
+        "name": "Escape closes menu",
+        "pass": true
+      },
+      {
+        "name": "nav closes menu",
+        "pass": true
+      },
+      {
+        "name": "backdrop closes menu",
+        "pass": true
+      },
+      {
+        "name": "mobile motion CTA restarts film",
+        "pass": true
+      },
+      {
+        "name": "no script errors",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "no console errors",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "no HTTP asset errors",
+        "pass": true,
+        "detail": []
+      }
+    ],
+    "script_errors": [],
+    "console_errors": [],
+    "http_asset_errors": [],
+    "dependency_audit": "passed: 0 vulnerabilities",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_review": "Desktop, mobile, and open mobile menu screenshots inspected."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for review; not deployed or pushed. Only this project was accessed and written.",
+    "Exact supplied video saved locally; Google Fonts Inter loaded successfully and remains externally hosted.",
+    "Poster extracted from the supplied film; screenshots captured with video paused at 3 seconds. Autoplay verified separately.",
+    "Video byte-range requests were canceled during browser seeks/cleanup; successful playback and CTA restart verified on both viewports.",
+    "Navigation uses same-page fragments because destination content was not supplied.",
+    "No waitlist endpoint supplied; CTA opens a coming-soon dialog without collecting or transmitting data.",
+    "Full verification details and commands are in README.md and screenshots/browser-checks.json."
+  ]
+}

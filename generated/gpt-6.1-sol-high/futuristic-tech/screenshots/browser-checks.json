@@ -1,0 +1,112 @@
+{
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://localhost:4173/motionsites-results/futuristic-tech/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/futuristic-tech/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/futuristic-tech/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/futuristic-tech/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "httpErrors": [],
+  "consoleErrors": [],
+  "checks": [
+    {
+      "name": "desktop video playback",
+      "pass": true,
+      "detail": {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "desktop no overflow",
+      "pass": true
+    },
+    {
+      "name": "desktop Inter loaded",
+      "pass": true
+    },
+    {
+      "name": "waitlist dialog opens",
+      "pass": true
+    },
+    {
+      "name": "waitlist dialog closes",
+      "pass": true
+    },
+    {
+      "name": "desktop motion CTA restarts film",
+      "pass": true
+    },
+    {
+      "name": "mobile video playback",
+      "pass": true,
+      "detail": {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "inline": true,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "mobile no overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile Inter loaded",
+      "pass": true
+    },
+    {
+      "name": "mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "Escape closes menu",
+      "pass": true
+    },
+    {
+      "name": "nav closes menu",
+      "pass": true
+    },
+    {
+      "name": "backdrop closes menu",
+      "pass": true
+    },
+    {
+      "name": "mobile motion CTA restarts film",
+      "pass": true
+    },
+    {
+      "name": "no script errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no console errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no HTTP asset errors",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

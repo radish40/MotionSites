@@ -1,0 +1,46 @@
+[
+  {
+    "file": "public/assets/poster-1.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260705_105630_4428f039-9cd3-44a3-bb7f-15c28b0703f2.png&w=1280&q=85",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/poster-2.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260705_105503_6f51b402-7feb-4a64-a154-bce55a4bff52.png&w=1280&q=85",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/poster-3.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260705_105544_9e41e1d6-2da4-458f-99a5-8568241ab76b.png&w=1280&q=85",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/poster-4.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260705_105558_d8ebccec-11f9-4445-8bae-f44e1117ca00.png&w=1280&q=85",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/poster-5.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260705_105613_e3910ee6-0196-48a4-b1e3-2a2c16c721d0.png&w=1280&q=85",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/poster-6.webp",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260705_105621_a97dd98e-cf52-4084-9977-2556ac4fc1fa.png&w=1280&q=85",
+    "status": "downloaded"
+  },
+  {
+    "file": "public/assets/inter-google.css",
+    "source": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap",
+    "status": "downloaded; font URLs localized",
+    "weights": [
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "title": "Movie Premiere",
+  "id": "movie-premiere",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "browser": {
+      "status": "passed",
+      "checks": [
+        {
+          "viewport": "desktop",
+          "size": {
+            "width": 1440,
+            "height": 1000
+          },
+          "layout": {
+            "width": 1440,
+            "scrollWidth": 1440,
+            "height": 1000,
+            "scrollHeight": 1000,
+            "phoneWidth": 375,
+            "phoneHeight": 780,
+            "images": true,
+            "font": true
+          },
+          "tabs": "pass",
+          "navigation": "pass",
+          "short_swipe": "pass",
+          "upward_swipe": "pass",
+          "downward_swipe": "pass",
+          "six_card_rotation": "pass",
+          "keyboard": "pass"
+        },
+        {
+          "viewport": "mobile",
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "layout": {
+            "width": 390,
+            "scrollWidth": 390,
+            "height": 844,
+            "scrollHeight": 844,
+            "phoneWidth": 375,
+            "phoneHeight": 780,
+            "images": true,
+            "font": true
+          },
+          "tabs": "pass",
+          "navigation": "pass",
+          "short_swipe": "pass",
+          "upward_swipe": "pass",
+          "downward_swipe": "pass",
+          "six_card_rotation": "pass",
+          "keyboard": "pass",
+          "touch_swipe": "pass"
+        }
+      ],
+      "errors": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "publish_entry": "dist/index.html",
+    "base_path": "/motionsites-results/movie-premiere/"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Page branding: Cineva Mobile UI. Project index title retained as Movie Premiere.",
+    "React 18, TypeScript, Vite, Tailwind CSS 3.4, Lucide React; lockfile saved.",
+    "All six supplied posters and Google Fonts Inter weights 300\u2013900 are served locally.",
+    "375x780 internal phone frame scales to 94% on mobile to fit the bezel.",
+    "Tabs and navigation change visual selection; no routing or backend is included, as requested.",
+    "README.md, asset-manifest.json, and reproducible browser checks included.",
+    "Ready for management-session acceptance; not deployed or pushed."
+  ]
+}

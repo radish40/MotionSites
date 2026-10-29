@@ -1,10 +1,9 @@
 {
-  "updated_utc": "2026-10-29T03:46:59.923728+00:00",
+  "updated_utc": "2026-10-29T03:48:27.401767+00:00",
   "total": 380,
   "counts": {
-    "publishing": 1,
-    "complete": 4,
-    "needs_fix": 1,
+    "complete": 5,
+    "ready": 1,
     "running": 5,
     "queued": 3,
     "not_started": 366
@@ -14,11 +13,11 @@
       "id": "dreamcore-landing",
       "title": "Dreamcore Landing",
       "category": "Landing Page",
-      "status": "publishing",
+      "status": "complete",
       "thread_id": "01a185b7-4752-7d72-9ea3-74c28bf8f52f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "cb1a3ba31cb7288ac3857e9958d915305df13ae2",
+      "group_message_id": 52,
+      "url": "https://tool.luo-xd.com/motionsites-results/dreamcore-landing/"
     },
     {
       "id": "bold-studio",
@@ -54,7 +53,7 @@
       "id": "3d-jack-portfolio-hero",
       "title": "3D Jack Portfolio",
       "category": "Portfolio",
-      "status": "needs_fix",
+      "status": "ready",
       "thread_id": "01a185bb-cd37-7382-976f-68406b8413ee",
       "source_commit": null,
       "group_message_id": null,

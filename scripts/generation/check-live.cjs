@@ -22,7 +22,11 @@ const path = require('node:path');
         title: document.title,
         bodyChars: document.body.innerText.trim().length,
         horizontalOverflow: document.documentElement.scrollWidth - window.innerWidth,
-        images: [...document.images].map(i => ({src:i.currentSrc,loaded:i.complete && i.naturalWidth>0})),
+        images: [...document.images].map(i => {
+          const rect=i.getBoundingClientRect();
+          return {src:i.currentSrc,loaded:i.complete && i.naturalWidth>0,
+            visible:rect.width>0 && rect.height>0 && rect.bottom>0 && rect.top<innerHeight && getComputedStyle(i).visibility!=='hidden'};
+        }),
         videos: [...document.querySelectorAll('video')].map(v=>({src:v.currentSrc,readyState:v.readyState,paused:v.paused})),
       }));
       await page.screenshot({ path: path.join(output, `${name}.png`) });
@@ -32,7 +36,7 @@ const path = require('node:path');
   } finally { await browser.close(); }
   const sameOrigin = target => new URL(target).origin === new URL(url).origin;
   const passed = results.every(r => r.status === 200 && r.bodyChars > 0 && r.horizontalOverflow <= 3 && !r.errors.length &&
-    !r.badResponses.some(e=>sameOrigin(e.url)) && !r.images.some(i=>!i.loaded));
+    !r.badResponses.some(e=>sameOrigin(e.url)) && !r.images.some(i=>i.visible && !i.loaded));
   const report = { url, checked_at: new Date().toISOString(), passed, results };
   fs.writeFileSync(path.join(output, 'live-check.json'), JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify(report));

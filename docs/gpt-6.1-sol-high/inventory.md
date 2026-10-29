@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 4/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 5/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -85,11 +85,11 @@
 
 | 序号 | 设计 ID | 名称 | 分类 | 文本版本数 | 本地预览 | 状态 |
 | ---: | --- | --- | --- | ---: | --- | --- |
-| 1 | `dreamcore-landing` | Dreamcore Landing | Landing Page | 2 | 图片 | 发布中 |
+| 1 | `dreamcore-landing` | Dreamcore Landing | Landing Page | 2 | 图片 | 已完成 |
 | 2 | `bold-studio` | Bold Studio | Hero Section | 2 | 图片 | 已完成 |
 | 3 | `interactive-discovery` | Interactive Discovery | Hero Section | 2 | 图片 | 已完成 |
 | 4 | `prisma-landing` | Prisma Creative Studio | Landing Page | 1 | 图片 | 已完成 |
-| 5 | `3d-jack-portfolio-hero` | 3D Jack Portfolio | Portfolio | 1 | 视频 | 待修复 |
+| 5 | `3d-jack-portfolio-hero` | 3D Jack Portfolio | Portfolio | 1 | 视频 | 待验收 |
 | 6 | `art-landing` | Art Landing | Landing Page | 2 | 视频 | 已完成 |
 | 7 | `aetheris-voyage-hero` | Aetheris Voyage | Hero Section | 1 | 图片 | 生成中 |
 | 8 | `codercrest-hero` | CoderCrest | SaaS | 3 | 图片 | 生成中 |

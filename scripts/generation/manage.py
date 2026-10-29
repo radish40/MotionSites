@@ -13,6 +13,7 @@ from pathlib import Path
 import shutil
 import sqlite3
 import subprocess
+import sys
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -23,7 +24,11 @@ REPOSITORY = 'https://github.com/radish40/MotionSites'
 
 
 def execute(command, **kwargs):
-    return subprocess.run([str(x) for x in command], check=True, text=True, capture_output=True, **kwargs).stdout.strip()
+    try:
+        return subprocess.run([str(x) for x in command], check=True, text=True, capture_output=True, **kwargs).stdout.strip()
+    except subprocess.CalledProcessError as error:
+        print(error.stderr[-5000:],file=sys.stderr,flush=True)
+        raise
 
 
 def git(*args):

@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-29T08:01:02.686343+00:00",
+  "updated_utc": "2026-10-29T08:03:36.938839+00:00",
   "total": 380,
   "counts": {
-    "complete": 189,
+    "complete": 192,
+    "needs_fix": 1,
     "running": 5,
-    "not_started": 186
+    "not_started": 182
   },
   "jobs": [
     {
@@ -1881,37 +1882,37 @@
       "id": "orbis-cards",
       "title": "Orbis Cards",
       "category": "Cards",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a2-4cd1-7062-a5af-823f9d116406",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9fe476183ee62664fcaabc191274a709830ed7eb",
+      "group_message_id": 246,
+      "url": "https://tool.luo-xd.com/motionsites-results/orbis-cards/"
     },
     {
       "id": "orbis-cta",
       "title": "Orbis CTA",
       "category": "CTA Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a4-1f0a-7841-b144-a5975a5b55f9",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "606067e781471941b9a3ea4ccee6f804e10679fc",
+      "group_message_id": 247,
+      "url": "https://tool.luo-xd.com/motionsites-results/orbis-cta/"
     },
     {
       "id": "orbis-hello",
       "title": "Orbis Hello",
       "category": "About Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a4-1fc7-7be0-913e-a6387c10e805",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "fd6c1e51d2c557d5f398dbe317ffde3970562f68",
+      "group_message_id": 248,
+      "url": "https://tool.luo-xd.com/motionsites-results/orbis-hello/"
     },
     {
       "id": "organic-odyssey",
       "title": "Organic Odyssey",
       "category": "Hero Section",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a186a4-2051-7670-9965-d74e593d01b7",
       "source_commit": null,
       "group_message_id": null,
@@ -1951,7 +1952,7 @@
       "id": "projects-catalog",
       "title": "Projects Catalog",
       "category": "Projects",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1961,7 +1962,7 @@
       "id": "prosthetics-hero",
       "title": "Prosthetics Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1971,7 +1972,7 @@
       "id": "pulse-3d",
       "title": "Pulse 3D",
       "category": "3D Website",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1981,7 +1982,7 @@
       "id": "radial-diagram",
       "title": "Radial Diagram",
       "category": "Testimonials",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

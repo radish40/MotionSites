@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 189/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 192/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -272,17 +272,17 @@
 | 185 | `no-code-waitlist` | No-Code Waitlist | Waitlist & Coming Soon | 2 | 图片 | 已完成 |
 | 186 | `novadesk-signup` | NovaDesk Signup | Waitlist & Coming Soon | 2 | 图片 | 已完成 |
 | 187 | `obsidian-hero` | Obsidian Hero | Hero Section | 2 | 图片 | 已完成 |
-| 188 | `orbis-cards` | Orbis Cards | Cards | 2 | 图片 | 生成中 |
-| 189 | `orbis-cta` | Orbis CTA | CTA Section | 2 | 图片 | 生成中 |
-| 190 | `orbis-hello` | Orbis Hello | About Section | 2 | 图片 | 生成中 |
-| 191 | `organic-odyssey` | Organic Odyssey | Hero Section | 2 | 图片 | 生成中 |
+| 188 | `orbis-cards` | Orbis Cards | Cards | 2 | 图片 | 已完成 |
+| 189 | `orbis-cta` | Orbis CTA | CTA Section | 2 | 图片 | 已完成 |
+| 190 | `orbis-hello` | Orbis Hello | About Section | 2 | 图片 | 已完成 |
+| 191 | `organic-odyssey` | Organic Odyssey | Hero Section | 2 | 图片 | 待修复 |
 | 192 | `pixel-grid-hover` | Pixel Grid Hover | Case Studies | 2 | 图片 | 已完成 |
 | 193 | `portal` | Portal | Hero Section | 3 | 图片 | 已完成 |
 | 194 | `portfolio-about` | Portfolio About | About Section | 2 | 图片 | 生成中 |
-| 195 | `projects-catalog` | Projects Catalog | Projects | 2 | 图片 | 未开始 |
-| 196 | `prosthetics-hero` | Prosthetics Hero | Hero Section | 1 | 图片 | 未开始 |
-| 197 | `pulse-3d` | Pulse 3D | 3D Website | 2 | 图片 | 未开始 |
-| 198 | `radial-diagram` | Radial Diagram | Testimonials | 2 | 图片 | 未开始 |
+| 195 | `projects-catalog` | Projects Catalog | Projects | 2 | 图片 | 生成中 |
+| 196 | `prosthetics-hero` | Prosthetics Hero | Hero Section | 1 | 图片 | 生成中 |
+| 197 | `pulse-3d` | Pulse 3D | 3D Website | 2 | 图片 | 生成中 |
+| 198 | `radial-diagram` | Radial Diagram | Testimonials | 2 | 图片 | 生成中 |
 | 199 | `retro-futurist` | Retro-Futurist | Hero Section | 2 | 图片 | 未开始 |
 | 200 | `rocket-cta` | Rocket CTA | CTA Section | 2 | 图片 | 未开始 |
 | 201 | `rocket-faq` | Rocket FAQ | FAQ & Help | 2 | 图片 | 未开始 |

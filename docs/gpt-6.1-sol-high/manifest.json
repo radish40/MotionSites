@@ -6438,20 +6438,24 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a2-4cd1-7062-a5af-823f9d116406",
       "output_path": "generated/gpt-6.1-sol-high/orbis-cards",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Verified terminal UTF-8 stream failures; testing identity response encoding in this exact original session. Generation service held until real progress is observed.",
       "process_id": 3371476,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:57:48.315014+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 2
+      "repair_attempts": 2,
+      "source_commit": "9fe476183ee62664fcaabc191274a709830ed7eb",
+      "url": "https://tool.luo-xd.com/motionsites-results/orbis-cards/",
+      "completed_utc": "2026-10-29T08:02:33.454349+00:00",
+      "group_message_id": 246
     },
     {
       "number": 189,
@@ -6469,20 +6473,24 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a4-1f0a-7841-b144-a5975a5b55f9",
       "output_path": "generated/gpt-6.1-sol-high/orbis-cta",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Verified terminal UTF-8 stream failure. Resume exact original design session with identity response encoding; Orbis Cards recovery has already demonstrated real tool and generation progress.",
       "process_id": 3373979,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:59:06.767398+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "606067e781471941b9a3ea4ccee6f804e10679fc",
+      "url": "https://tool.luo-xd.com/motionsites-results/orbis-cta/",
+      "completed_utc": "2026-10-29T08:03:06.150972+00:00",
+      "group_message_id": 247
     },
     {
       "number": 190,
@@ -6500,20 +6508,24 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a186a4-1fc7-7be0-913e-a6387c10e805",
       "output_path": "generated/gpt-6.1-sol-high/orbis-hello",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Verified terminal UTF-8 stream failure. Resume exact original design session with identity response encoding; Orbis Cards recovery has already demonstrated real tool and generation progress.",
       "process_id": 3373998,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:59:06.831925+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "fd6c1e51d2c557d5f398dbe317ffde3970562f68",
+      "url": "https://tool.luo-xd.com/motionsites-results/orbis-hello/",
+      "completed_utc": "2026-10-29T08:03:36.752856+00:00",
+      "group_message_id": 248
     },
     {
       "number": 191,
@@ -6531,15 +6543,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a186a4-2051-7670-9965-d74e593d01b7",
       "output_path": "generated/gpt-6.1-sol-high/organic-odyssey",
       "validation": "",
-      "notes": "Verified terminal UTF-8 stream failure. Resume exact original design session with identity response encoding; Orbis Cards recovery has already demonstrated real tool and generation progress.",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 3374056,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:59:06.925986+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -6661,11 +6673,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/projects-catalog",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3386708,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T08:01:57.327046+00:00",
+      "worker_state": "running"
     },
     {
       "number": 196,
@@ -6683,11 +6699,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/prosthetics-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3386748,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T08:01:57.455346+00:00",
+      "worker_state": "running"
     },
     {
       "number": 197,
@@ -6705,11 +6725,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/pulse-3d",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3386861,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T08:01:57.645991+00:00",
+      "worker_state": "running"
     },
     {
       "number": 198,
@@ -6727,11 +6751,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/radial-diagram",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3386934,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T08:01:57.794160+00:00",
+      "worker_state": "running"
     },
     {
       "number": 199,
@@ -10738,7 +10766,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T08:01:02.686343+00:00",
+  "updated_utc": "2026-10-29T08:03:36.938839+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

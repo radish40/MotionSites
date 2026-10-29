@@ -4718,19 +4718,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18665-b6d8-7b21-8760-4de42ff07dbb",
       "output_path": "generated/gpt-6.1-sol-high/growth-marketing-saas",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3100840,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:42:55.161517+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "81a296904a134e5976e30b70db703bb9b9538f15",
+      "url": "https://tool.luo-xd.com/motionsites-results/growth-marketing-saas/",
+      "completed_utc": "2026-10-29T06:50:35.308449+00:00",
+      "group_message_id": 190
     },
     {
       "number": 139,
@@ -4812,19 +4816,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18669-19d8-7953-af90-cc5e7bd5848d",
       "output_path": "generated/gpt-6.1-sol-high/halo-benefits",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3113501,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T06:46:37.137756+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "e06058a218f18fc0e7192c7d4e135b94790065ca",
+      "url": "https://tool.luo-xd.com/motionsites-results/halo-benefits/",
+      "completed_utc": "2026-10-29T06:51:01.723566+00:00",
+      "group_message_id": 191
     },
     {
       "number": 142,
@@ -4842,11 +4850,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/halo-use-case",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3128459,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:49:54.916977+00:00",
+      "worker_state": "running"
     },
     {
       "number": 143,
@@ -4864,11 +4876,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/health-portal",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3128506,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T06:49:55.025568+00:00",
+      "worker_state": "running"
     },
     {
       "number": 144,
@@ -10085,7 +10101,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T06:49:01.724265+00:00",
+  "updated_utc": "2026-10-29T06:51:01.887387+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

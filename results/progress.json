@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T06:49:01.724265+00:00",
+  "updated_utc": "2026-10-29T06:51:01.887387+00:00",
   "total": 380,
   "counts": {
-    "complete": 136,
+    "complete": 138,
     "running": 5,
-    "not_started": 239
+    "not_started": 237
   },
   "jobs": [
     {
@@ -1381,11 +1381,11 @@
       "id": "growth-marketing-saas",
       "title": "Growth Marketing SaaS",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18665-b6d8-7b21-8760-4de42ff07dbb",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "81a296904a134e5976e30b70db703bb9b9538f15",
+      "group_message_id": 190,
+      "url": "https://tool.luo-xd.com/motionsites-results/growth-marketing-saas/"
     },
     {
       "id": "guardnet-benefits",
@@ -1411,17 +1411,17 @@
       "id": "halo-benefits",
       "title": "Halo Benefits",
       "category": "Why Us",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18669-19d8-7953-af90-cc5e7bd5848d",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e06058a218f18fc0e7192c7d4e135b94790065ca",
+      "group_message_id": 191,
+      "url": "https://tool.luo-xd.com/motionsites-results/halo-benefits/"
     },
     {
       "id": "halo-use-case",
       "title": "Halo Use Case",
       "category": "Use Cases",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -1431,7 +1431,7 @@
       "id": "health-portal",
       "title": "Health Portal",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

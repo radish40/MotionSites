@@ -5444,19 +5444,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867d-2972-7cf3-a8ad-8f4d804d3952",
       "output_path": "generated/gpt-6.1-sol-high/lodge-booking-app",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3198730,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:08:31.893734+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f2a342e3ead414de2b863aa7e8b4e80daeeafcaa",
+      "url": "https://tool.luo-xd.com/motionsites-results/lodge-booking-app/",
+      "completed_utc": "2026-10-29T07:16:48.744373+00:00",
+      "group_message_id": 213
     },
     {
       "number": 160,
@@ -5474,19 +5478,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867e-62db-7553-940c-6824b43e8b94",
       "output_path": "generated/gpt-6.1-sol-high/luminara",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3202147,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:09:52.137994+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f3743b4cd7c906369b9ed07008df64374a56ee4f",
+      "url": "https://tool.luo-xd.com/motionsites-results/luminara/",
+      "completed_utc": "2026-10-29T07:17:17.862877+00:00",
+      "group_message_id": 214
     },
     {
       "number": 161,
@@ -5564,19 +5572,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1867e-6496-7cd0-b1f4-5467f27fadb2",
       "output_path": "generated/gpt-6.1-sol-high/luxury-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 3202360,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:09:52.544813+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "dd4fb87f0571c253bd032740d93c6028d916546f",
+      "url": "https://tool.luo-xd.com/motionsites-results/luxury-hero/",
+      "completed_utc": "2026-10-29T07:17:43.599319+00:00",
+      "group_message_id": 215
     },
     {
       "number": 164,
@@ -5594,11 +5606,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/luxury-real-estate",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3223551,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:16:08.075317+00:00",
+      "worker_state": "running"
     },
     {
       "number": 165,
@@ -5616,11 +5632,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/media-card-carousel",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 3223590,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T07:16:08.186721+00:00",
+      "worker_state": "running"
     },
     {
       "number": 166,
@@ -10353,7 +10373,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:14:46.569233+00:00",
+  "updated_utc": "2026-10-29T07:17:43.763799+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

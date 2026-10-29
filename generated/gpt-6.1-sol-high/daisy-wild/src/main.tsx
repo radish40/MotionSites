@@ -1,0 +1,8 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { WildScentSection } from './WildScentSection';
+import './index.css';
+
+createRoot(document.getElementById('root')!).render(
+  <React.StrictMode><main><WildScentSection /></main></React.StrictMode>,
+);

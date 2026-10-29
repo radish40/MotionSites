@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "name": "desktop",
+      "status": "passed",
+      "measurements": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "documentWidth": 1440,
+        "layoutDisplay": "grid",
+        "flexDirection": "column-reverse",
+        "panel": {
+          "x": 720,
+          "y": 0,
+          "width": 720,
+          "height": 1000
+        },
+        "video": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1000
+        },
+        "panelColor": "rgb(189, 232, 79)",
+        "image": {
+          "x": 970,
+          "y": 254.5,
+          "width": 220,
+          "height": 340,
+          "loaded": true
+        },
+        "noteWeights": [
+          "700",
+          "700",
+          "700",
+          "700",
+          "700",
+          "700"
+        ],
+        "button": {
+          "opacity": "1",
+          "transition": "opacity 1.4s cubic-bezier(0.22, 1, 0.36, 1) 1.15s, transform 1.4s cubic-bezier(0.22, 1, 0.36, 1) 1.15s",
+          "border": "1px"
+        },
+        "videoPlayback": {
+          "currentTime": 2.813011,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "videoWidth": 1292
+        }
+      },
+      "hover": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "background": "rgb(255, 255, 255)"
+      },
+      "errors": [],
+      "failedRequests": [
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_151818_65bb22c5-33ae-4e23-85ea-0a3dd89957c2.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "name": "mobile",
+      "status": "passed",
+      "measurements": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390,
+        "layoutDisplay": "flex",
+        "flexDirection": "column-reverse",
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 511.359375
+        },
+        "video": {
+          "x": 0,
+          "y": 511.359375,
+          "width": 390,
+          "height": 292.5
+        },
+        "panelColor": "rgb(189, 232, 79)",
+        "image": {
+          "x": 125,
+          "y": 72,
+          "width": 140,
+          "height": 216.359375,
+          "loaded": true
+        },
+        "noteWeights": [
+          "700",
+          "700",
+          "700",
+          "700",
+          "700",
+          "700"
+        ],
+        "button": {
+          "opacity": "1",
+          "transition": "opacity 1.4s cubic-bezier(0.22, 1, 0.36, 1) 1.15s, transform 1.4s cubic-bezier(0.22, 1, 0.36, 1) 1.15s",
+          "border": "1px"
+        },
+        "videoPlayback": {
+          "currentTime": 2.792348,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "videoWidth": 1292
+        }
+      },
+      "hover": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "background": "rgb(255, 255, 255)"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "screenshot": "screenshots/mobile.png"
+    },
+    {
+      "name": "breakpoint-767",
+      "status": "passed",
+      "display": "flex"
+    },
+    {
+      "name": "breakpoint-768",
+      "status": "passed",
+      "display": "grid"
+    }
+  ]
+}

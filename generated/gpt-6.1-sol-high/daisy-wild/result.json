@@ -1,0 +1,37 @@
+{
+  "title": "Daisy Wild",
+  "id": "daisy-wild",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --no-audit --no-fund && npm run build'",
+  "checks": {
+    "typescript": "passed",
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/daisy-wild/",
+    "desktop_1440x1000": "passed; equal columns, video left, product right, 1000px height",
+    "mobile_390x844": "passed; product above video via flex-col-reverse, video height 292.5px",
+    "responsive_boundary": "passed at 767px and 768px",
+    "horizontal_overflow": "none at requested viewports",
+    "assets": "product image loaded and visible video playing, muted, inline, loop enabled on both viewports",
+    "animations": "completed entry animations; specified transition observed; white hover fill verified",
+    "interactions": "button hover, click, keyboard focus and Enter checked",
+    "javascript_errors": [],
+    "console_errors": [],
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "visual_review": "both screenshots reviewed",
+    "report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "severity": "informational",
+      "asset": "specified MP4",
+      "detail": "Chromium canceled one desktop media request with net::ERR_ABORTED; visible video playback succeeded. Raw event retained in browser-checks.json. No failed asset loading observed."
+    }
+  ],
+  "notes": [
+    "React 18 + TypeScript + Tailwind CSS 3 + Vite; no additional runtime packages or custom fonts.",
+    "Exact supplied product image and video URLs retained; external availability remains a runtime dependency.",
+    "SHOP NOW has the specified hover appearance; no destination or checkout behavior was provided by the prompt.",
+    "Source, dependency lockfile, static build, browser check script, screenshots, and README are included.",
+    "Ready for local review; no deployment or push performed."
+  ]
+}

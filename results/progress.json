@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-29T06:53:07.548313+00:00",
+  "updated_utc": "2026-10-29T06:54:32.304573+00:00",
   "total": 380,
   "counts": {
-    "complete": 140,
+    "complete": 141,
     "needs_fix": 1,
     "running": 5,
-    "not_started": 234
+    "not_started": 233
   },
   "jobs": [
     {
@@ -1422,11 +1422,11 @@
       "id": "halo-use-case",
       "title": "Halo Use Case",
       "category": "Use Cases",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a1866c-1e36-7212-927c-2ab52c46d586",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "dfd0963f2c1e1b6fc4450fbb421f155721c6f869",
+      "group_message_id": 194,
+      "url": "https://tool.luo-xd.com/motionsites-results/halo-use-case/"
     },
     {
       "id": "health-portal",
@@ -1443,7 +1443,7 @@
       "title": "Immersive Ocean",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1866d-f744-73b0-a274-4a6c68e7fe6b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1453,7 +1453,7 @@
       "title": "Impact Ventures",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1866d-f814-7012-9403-a4688bb452a0",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1463,7 +1463,7 @@
       "title": "IntelligentX",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1866d-f982-7bc0-8e2a-6732f07bcb67",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -1472,7 +1472,7 @@
       "id": "interactive-portfolio",
       "title": "Interactive Portfolio",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

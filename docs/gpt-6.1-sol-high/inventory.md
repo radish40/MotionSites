@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 140/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 141/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -226,12 +226,12 @@
 | 139 | `guardnet-benefits` | Guardnet Benefits | Benefits | 1 | 图片 | 已完成 |
 | 140 | `guardnet-demo` | Guardnet Demo | Info | 1 | 图片 | 已完成 |
 | 141 | `halo-benefits` | Halo Benefits | Why Us | 2 | 图片 | 已完成 |
-| 142 | `halo-use-case` | Halo Use Case | Use Cases | 2 | 图片 | 生成中 |
+| 142 | `halo-use-case` | Halo Use Case | Use Cases | 2 | 图片 | 已完成 |
 | 143 | `health-portal` | Health Portal | Landing Page | 2 | 图片 | 生成中 |
 | 144 | `immersive-ocean` | Immersive Ocean | Hero Section | 2 | 图片 | 生成中 |
 | 145 | `impact-ventures` | Impact Ventures | Hero Section | 2 | 图片 | 生成中 |
 | 146 | `intelligentx` | IntelligentX | Hero Section | 1 | 图片 | 生成中 |
-| 147 | `interactive-portfolio` | Interactive Portfolio | Hero Section | 2 | 图片 | 未开始 |
+| 147 | `interactive-portfolio` | Interactive Portfolio | Hero Section | 2 | 图片 | 生成中 |
 | 148 | `interior-features` | Interior Features | Features Section | 2 | 图片 | 未开始 |
 | 149 | `investment-hero` | Investment Gate | Landing Page | 2 | 图片 | 未开始 |
 | 150 | `jewelry-store` | Jewelry Store | E-commerce | 2 | 图片 | 未开始 |

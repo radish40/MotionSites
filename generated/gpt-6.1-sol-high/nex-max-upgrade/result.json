@@ -1,0 +1,39 @@
+{
+  "title": "Nex Max Upgrade",
+  "id": "nex-max-upgrade",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 7.3.7",
+    "dependency_audit": "0 vulnerabilities",
+    "browser": "Chromium 148 via playwright-core; actual dist served at configured subpath",
+    "screenshots": {
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ]
+    },
+    "responsive_layout": "desktop: two 320px columns; mobile: one 360px column",
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "video": "Original MP4 decoded on both viewports; reversals at both bounds verified; paused; 0 native play calls",
+    "font": "Google Fonts Inter loaded on both viewports",
+    "controls": "Download button and Usage Policy link clickable; specified placeholder behavior retained",
+    "detailed_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "All source, build, diagnostic assets, screenshots, and documentation are inside this project. No deployment or push.",
+    "Exact prompt CSS retained, including body padding plus root min-height producing 80px vertical scroll at both checked viewports.",
+    "Prompt supplies no download action or destination; button remains presentational. Usage Policy retains href=\"#\".",
+    "Video and Inter remain external dependencies. assets/source-video.mp4 is an unchanged diagnostic archive and is not used by the page or copied to dist.",
+    "Continuous seeking fluctuates readyState; final browser checks verify decoded frames and advancing timestamps. Reverse seeking is slower near the end of the MP4, as decoding gates each seek.",
+    "Only this design reference was viewed; no screenshot content was used in the implementation."
+  ]
+}

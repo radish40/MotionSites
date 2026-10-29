@@ -1,0 +1,61 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nex-max-upgrade/",
+  "checked_at": "2026-10-29T07:37:06.021Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nex Max Upgrade",
+      "bodyChars": 351,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_064209_0cb7d815-ff61-4caa-a6d5-bbff145ab272.mp4",
+          "readyState": 1,
+          "paused": true,
+          "currentTime": 1.349999,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nex Max Upgrade",
+      "bodyChars": 351,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_064209_0cb7d815-ff61-4caa-a6d5-bbff145ab272.mp4",
+          "readyState": 1,
+          "paused": true,
+          "currentTime": 1.249999,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

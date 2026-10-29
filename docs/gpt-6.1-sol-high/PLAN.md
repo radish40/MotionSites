@@ -80,3 +80,9 @@
 ## 当前进度
 
 以同目录 manifest.json 为准；不要以本计划中的历史表述推断实时任务状态。
+
+## 含服务端功能的项目
+
+OYLA 按原提示词运行 Express 生产服务，容器为 `motionsites-oyla`，使用 `scripts/generation/deploy-oyla.py` 和对应 Dockerfile 重建。静态页面由结果站点提供，项目路径下的 `/api/higgsfield-video` 转发至该容器；两个指定分享链接均需通过公网 API 验证。容器独立安装锁文件中的生产依赖，不依赖生成工作目录的 node_modules。
+
+剩余主提示词中，`glitch-pulse` 和 `pulse-3d` 也明确要求 Express。完成后需按各自实际服务端功能部署和验收，不能仅发布静态构建来代替这些要求。每个项目仍由其原有独立会话生成；部署由管理会话处理。

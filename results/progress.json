@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:51:44.591908+00:00",
+  "updated_utc": "2026-10-29T04:53:45.993138+00:00",
   "total": 380,
   "counts": {
-    "complete": 52,
-    "needs_fix": 1,
+    "complete": 55,
     "running": 5,
-    "not_started": 322
+    "not_started": 320
   },
   "jobs": [
     {
@@ -512,11 +511,11 @@
       "id": "oyla",
       "title": "OYLA",
       "category": "E-commerce",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a185f5-8bef-7f03-b8a2-8d794c2c2a37",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "279841e39ba5eb80ab0381640cfe352945283742",
+      "group_message_id": 102,
+      "url": "https://tool.luo-xd.com/motionsites-results/oyla/"
     },
     {
       "id": "pet-products",
@@ -542,11 +541,11 @@
       "id": "product-studio",
       "title": "Product Studio",
       "category": "Agency",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185fb-9197-72b1-a6b8-c1c5e0a0c23c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "230209114186ed5c83fc56b86613197a7cdf7945",
+      "group_message_id": 103,
+      "url": "https://tool.luo-xd.com/motionsites-results/product-studio/"
     },
     {
       "id": "prompt-hero",
@@ -562,18 +561,18 @@
       "id": "remit-race",
       "title": "Remit Race",
       "category": "Fintech",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185fc-d625-7091-8302-193b6ba9ea87",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "312ce7c88d4c4bb52837487b0bd4dda1a08b57ae",
+      "group_message_id": 104,
+      "url": "https://tool.luo-xd.com/motionsites-results/remit-race/"
     },
     {
       "id": "skills-lea",
       "title": "LearnHub",
       "category": "Education",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185fe-6adf-7303-ae9a-f47da18c5996",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -583,7 +582,7 @@
       "title": "Sky Estate",
       "category": "Real Estate",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185fe-6baa-7c02-b86e-ee996079bffe",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -592,7 +591,7 @@
       "id": "stillmind",
       "title": "Stillmind",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -602,7 +601,7 @@
       "id": "subscription-agency",
       "title": "Subscription Agency",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

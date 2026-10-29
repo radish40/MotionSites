@@ -67,6 +67,19 @@ def verify(job, titles, ancestors):
         group.close()
         report=json.loads((root/'screenshots/live-check.json').read_text())
         checks['desktop_mobile_browser_report']=report['passed'] and {r['viewport'] for r in report['results']}=={'desktop','mobile'}
+        runtime=job.get('runtime')
+        if runtime:
+            state=json.loads(subprocess.run(['docker','inspect',runtime['container']],
+                check=True,capture_output=True,text=True).stdout)[0]
+            checks['runtime_healthy']=state['State']['Running'] and state['State'].get('Health',{}).get('Status')=='healthy'
+            checks['runtime_restart_policy']=state['HostConfig']['RestartPolicy']['Name']=='unless-stopped'
+            bundled=subprocess.run(['docker','exec',runtime['container'],'node','-e',
+                "process.stdout.write(require('node:crypto').createHash('sha256').update(require('node:fs').readFileSync('dist/server.cjs')).digest('hex'))"],
+                check=True,capture_output=True,text=True).stdout
+            checks['runtime_matches_build']=bundled==digest((root/'dist/server.cjs').read_bytes())
+            for number,query in enumerate(runtime.get('api_queries',[''])):
+                payload=json.loads(public_file('https://tool.luo-xd.com'+runtime['api_path']+query))
+                checks[f'runtime_api_{number}']=payload.get('success') is True and payload.get('url','').startswith('https://') and '.mp4' in payload['url']
         # One tree read covers every source filename, including assets needed for rebuilding.
         committed={}
         for record in manage.git('ls-tree','-r','-z',commit,'--',job['output_path']).split('\0'):

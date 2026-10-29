@@ -1725,11 +1725,11 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a185f5-8bef-7f03-b8a2-8d794c2c2a37",
       "output_path": "generated/gpt-6.1-sol-high/oyla",
-      "validation": "Live browser check failed; see screenshots/live-check.json",
-      "notes": "Delivery failed; inspect private delivery.log and public browser report",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
+      "notes": "Original Express production server deployed; both supplied Higgsfield API shares verified over public HTTPS. Retrying full delivery.",
       "process_id": 2680931,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:40:24.175915+00:00",
@@ -1738,7 +1738,22 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "delivery_failures": 1
+      "delivery_failures": 1,
+      "runtime": {
+        "container": "motionsites-oyla",
+        "image": "motionsites-oyla:2ae6ee24c70e7571",
+        "deployment_script": "scripts/generation/deploy-oyla.py",
+        "api_path": "/motionsites-results/oyla/api/higgsfield-video",
+        "verified_utc": "2026-10-29T04:52:05.649275+00:00",
+        "api_queries": [
+          "",
+          "?url=https%3A%2F%2Fhiggsfield.ai%2Fs%2FiK6bYyCxd0I"
+        ]
+      },
+      "source_commit": "279841e39ba5eb80ab0381640cfe352945283742",
+      "url": "https://tool.luo-xd.com/motionsites-results/oyla/",
+      "completed_utc": "2026-10-29T04:52:39.482870+00:00",
+      "group_message_id": 102
     },
     {
       "number": 52,
@@ -1824,19 +1839,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185fb-9197-72b1-a6b8-c1c5e0a0c23c",
       "output_path": "generated/gpt-6.1-sol-high/product-studio",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2708666,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:46:58.790274+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "230209114186ed5c83fc56b86613197a7cdf7945",
+      "url": "https://tool.luo-xd.com/motionsites-results/product-studio/",
+      "completed_utc": "2026-10-29T04:53:10.615665+00:00",
+      "group_message_id": 103
     },
     {
       "number": 55,
@@ -1884,19 +1903,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185fc-d625-7091-8302-193b6ba9ea87",
       "output_path": "generated/gpt-6.1-sol-high/remit-race",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2713441,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:48:21.859836+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "312ce7c88d4c4bb52837487b0bd4dda1a08b57ae",
+      "url": "https://tool.luo-xd.com/motionsites-results/remit-race/",
+      "completed_utc": "2026-10-29T04:53:45.777864+00:00",
+      "group_message_id": 104
     },
     {
       "number": 57,
@@ -1915,14 +1938,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185fe-6adf-7303-ae9a-f47da18c5996",
       "output_path": "generated/gpt-6.1-sol-high/skills-lea",
       "validation": "",
       "notes": "",
       "process_id": 2718726,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:50:05.541995+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 58,
@@ -1941,14 +1968,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185fe-6baa-7c02-b86e-ee996079bffe",
       "output_path": "generated/gpt-6.1-sol-high/sky-estate",
       "validation": "",
       "notes": "",
       "process_id": 2718760,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:50:05.647709+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 59,
@@ -1966,11 +1997,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/stillmind",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2728048,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:52:39.866189+00:00",
+      "worker_state": "running"
     },
     {
       "number": 60,
@@ -1988,11 +2023,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/subscription-agency",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2728087,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:52:39.969457+00:00",
+      "worker_state": "running"
     },
     {
       "number": 61,
@@ -9035,5 +9074,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:51:44.591908+00:00"
+  "updated_utc": "2026-10-29T04:53:45.993138+00:00"
 }

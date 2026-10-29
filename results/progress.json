@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:39:31.312833+00:00",
+  "updated_utc": "2026-10-29T04:41:56.702557+00:00",
   "total": 380,
   "counts": {
-    "complete": 44,
+    "complete": 46,
     "running": 5,
-    "not_started": 331
+    "not_started": 329
   },
   "jobs": [
     {
@@ -461,21 +461,21 @@
       "id": "luxury-escapes",
       "title": "Luxury Escapes",
       "category": "Travel",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ef-83fe-7243-830d-74a6a5428a15",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "1ff2f3d5b2b6bd740af2117eacc315afbf950fa5",
+      "group_message_id": 94,
+      "url": "https://tool.luo-xd.com/motionsites-results/luxury-escapes/"
     },
     {
       "id": "mind-body-healing",
       "title": "Mind-Body Healing",
       "category": "Healthcare",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185f2-1a73-72e2-8946-e54e4e15eee6",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9eef431e4637858f6d39141333bd7b185638dffa",
+      "group_message_id": 95,
+      "url": "https://tool.luo-xd.com/motionsites-results/mind-body-healing/"
     },
     {
       "id": "mood-tracker",
@@ -492,7 +492,7 @@
       "title": "Movie Premiere",
       "category": "Entertainment",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f4-3296-7241-b42b-ab5ad676fded",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -501,7 +501,7 @@
       "id": "outdoor-apparel",
       "title": "Outdoor Apparel",
       "category": "E-commerce",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -511,7 +511,7 @@
       "id": "oyla",
       "title": "OYLA",
       "category": "E-commerce",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

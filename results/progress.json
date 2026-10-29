@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:16:46.806411+00:00",
+  "updated_utc": "2026-10-29T04:18:20.441764+00:00",
   "total": 380,
   "counts": {
-    "complete": 28,
+    "complete": 29,
     "running": 5,
-    "not_started": 347
+    "not_started": 346
   },
   "jobs": [
     {
@@ -281,11 +281,11 @@
       "id": "ai-meeting-notes",
       "title": "AI Meeting Notes",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185da-d0f0-78c1-b7de-ccf12bb73f7a",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e07c823f9c4358c0bf3babcaa73ae262040cb69d",
+      "group_message_id": 77,
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-meeting-notes/"
     },
     {
       "id": "ai-workflow-agents",
@@ -322,7 +322,7 @@
       "title": "Celestial Renewal",
       "category": "Wellness",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185de-aa95-7371-9ca6-caa93aa2010f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -332,7 +332,7 @@
       "title": "Church Community",
       "category": "Community",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185de-ab14-70b3-ba42-5934e9c3a9f9",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -341,7 +341,7 @@
       "id": "cleantech",
       "title": "CleanTech",
       "category": "Sustainability",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

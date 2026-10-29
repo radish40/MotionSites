@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:04:06.138700+00:00",
+  "updated_utc": "2026-10-29T04:05:51.512826+00:00",
   "total": 380,
   "counts": {
-    "complete": 17,
+    "complete": 18,
     "running": 5,
-    "not_started": 358
+    "not_started": 357
   },
   "jobs": [
     {
@@ -161,11 +161,11 @@
       "id": "mindloop-landing",
       "title": "Mindloop Landing",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185cc-137d-7063-8f58-3b339f16a5a4",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b7da0d036e286b7eab19d1383f9eb69023e90a2e",
+      "group_message_id": 65,
+      "url": "https://tool.luo-xd.com/motionsites-results/mindloop-landing/"
     },
     {
       "id": "ember-dsgn-hero",
@@ -212,7 +212,7 @@
       "title": "SAAS Software",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d2-b27c-7101-85b6-8ab3a3d8be43",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -222,7 +222,7 @@
       "title": "Dot",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185d2-b384-7261-8694-d969bc297f1e",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -231,7 +231,7 @@
       "id": "orbit-engineers",
       "title": "Orbit Engineers",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

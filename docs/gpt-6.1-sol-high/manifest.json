@@ -764,19 +764,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d5-2431-7822-9d20-ea90b78ecdc1",
       "output_path": "generated/gpt-6.1-sol-high/orbit-engineers",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2557317,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:05:00.389293+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f74f99cd1dfb7545cc1fcefd918f76590936d3bb",
+      "url": "https://tool.luo-xd.com/motionsites-results/orbit-engineers/",
+      "completed_utc": "2026-10-29T04:11:52.391968+00:00",
+      "group_message_id": 70
     },
     {
       "number": 24,
@@ -794,19 +798,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185d6-b8df-7cd3-b702-8ee941e90c49",
       "output_path": "generated/gpt-6.1-sol-high/3d-studio-pricing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2561863,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:06:44.107566+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "3cf8395cbbfff759b2f0e03a903ed20d547fc977",
+      "url": "https://tool.luo-xd.com/motionsites-results/3d-studio-pricing/",
+      "completed_utc": "2026-10-29T04:12:25.625986+00:00",
+      "group_message_id": 71
     },
     {
       "number": 25,
@@ -854,7 +862,7 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a185d6-b9c7-7ab1-b906-67d137633e4b",
       "output_path": "generated/gpt-6.1-sol-high/ai-driving-assistant",
       "validation": "",
@@ -862,7 +870,7 @@
       "process_id": 2561940,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:06:44.319398+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -914,11 +922,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/ai-meeting-notes",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2577360,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:11:12.389829+00:00",
+      "worker_state": "running"
     },
     {
       "number": 29,
@@ -936,11 +948,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/ai-workflow-agents",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2577390,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:11:12.492320+00:00",
+      "worker_state": "running"
     },
     {
       "number": 30,
@@ -8665,5 +8681,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:09:53.631131+00:00"
+  "updated_utc": "2026-10-29T04:12:25.841290+00:00"
 }

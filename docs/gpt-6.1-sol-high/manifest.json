@@ -2478,7 +2478,7 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a1860e-d886-76d2-9942-6b474cddbcc2",
       "output_path": "generated/gpt-6.1-sol-high/agency-services",
       "validation": "",
@@ -2486,7 +2486,7 @@
       "process_id": 2785435,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:08:01.981922+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -2509,14 +2509,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18610-d98a-7a12-9254-de8b6469629b",
       "output_path": "generated/gpt-6.1-sol-high/ai-automation",
       "validation": "",
       "notes": "",
       "process_id": 2793416,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:10:13.459379+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 75,
@@ -2535,14 +2539,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18610-dab8-7583-a66f-49c5cf3e58cc",
       "output_path": "generated/gpt-6.1-sol-high/ai-workflow",
       "validation": "",
       "notes": "",
       "process_id": 2793459,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T05:10:13.621957+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 76,
@@ -9255,5 +9263,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T05:11:48.426144+00:00"
+  "updated_utc": "2026-10-29T05:12:43.289983+00:00"
 }

@@ -157,7 +157,7 @@
 | 70 | `3d-story` | 3D Story | Landing Page | 2 | 图片 | 生成中 |
 | 71 | `404-planet` | 404 Planet | 404 Pages | 2 | 图片 | 已完成 |
 | 72 | `aerocore` | AeroCore | Landing Page | 2 | 图片 | 生成中 |
-| 73 | `agency-services` | Agency Services | Services | 2 | 图片 | 生成中 |
+| 73 | `agency-services` | Agency Services | Services | 2 | 图片 | 待验收 |
 | 74 | `ai-automation` | AI Automation | Landing Page | 2 | 图片 | 生成中 |
 | 75 | `ai-workflow` | AI Workflow Hero | Hero Section | 2 | 图片 | 生成中 |
 | 76 | `animated-cards` | Animated Cards | Components | 2 | 图片 | 未开始 |

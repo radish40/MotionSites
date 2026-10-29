@@ -1,9 +1,10 @@
 {
-  "updated_utc": "2026-10-29T05:11:48.426144+00:00",
+  "updated_utc": "2026-10-29T05:12:43.289983+00:00",
   "total": 380,
   "counts": {
     "complete": 70,
-    "running": 5,
+    "running": 4,
+    "ready": 1,
     "not_started": 305
   },
   "jobs": [
@@ -731,7 +732,7 @@
       "id": "agency-services",
       "title": "Agency Services",
       "category": "Services",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a1860e-d886-76d2-9942-6b474cddbcc2",
       "source_commit": null,
       "group_message_id": null,
@@ -742,7 +743,7 @@
       "title": "AI Automation",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18610-d98a-7a12-9254-de8b6469629b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -752,7 +753,7 @@
       "title": "AI Workflow Hero",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18610-dab8-7583-a66f-49c5cf3e58cc",
       "source_commit": null,
       "group_message_id": null,
       "url": null

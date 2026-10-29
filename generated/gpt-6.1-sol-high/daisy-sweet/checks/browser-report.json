@@ -1,0 +1,157 @@
+{
+  "url": "http://localhost:4173/motionsites-results/daisy-sweet/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "passed": true,
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "panel": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 1000
+      },
+      "video": {
+        "x": 720,
+        "y": 0,
+        "width": 720,
+        "height": 1000
+      },
+      "background": "rgb(75, 179, 237)",
+      "image": {
+        "loaded": true,
+        "x": 250,
+        "y": 254.5,
+        "width": 220,
+        "height": 340
+      },
+      "videoState": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 2.9121,
+        "error": null,
+        "loop": true,
+        "muted": true,
+        "playsInline": true
+      },
+      "animation": [
+        {
+          "opacity": "1",
+          "transition": "opacity 1400ms cubic-bezier(0.22, 1, 0.36, 1), transform 1400ms cubic-bezier(0.22, 1, 0.36, 1)",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "opacity": "1",
+          "transition": "opacity 1800ms cubic-bezier(0.22, 1, 0.36, 1) 300ms, transform 1800ms cubic-bezier(0.22, 1, 0.36, 1) 300ms",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "opacity": "1",
+          "transition": "opacity 1400ms cubic-bezier(0.22, 1, 0.36, 1) 600ms, transform 1400ms cubic-bezier(0.22, 1, 0.36, 1) 600ms",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "opacity": "1",
+          "transition": "opacity 1400ms cubic-bezier(0.22, 1, 0.36, 1) 900ms, transform 1400ms cubic-bezier(0.22, 1, 0.36, 1) 900ms",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "opacity": "1",
+          "transition": "opacity 1400ms cubic-bezier(0.22, 1, 0.36, 1) 1150ms, transform 1400ms cubic-bezier(0.22, 1, 0.36, 1) 1150ms",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "svgCount": 0,
+      "videoPlaybackAdvances": true,
+      "hover": {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "background": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "passed": true,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "panel": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 511.359375
+      },
+      "video": {
+        "x": 0,
+        "y": 511.359375,
+        "width": 390,
+        "height": 292.5
+      },
+      "background": "rgb(75, 179, 237)",
+      "image": {
+        "loaded": true,
+        "x": 125,
+        "y": 72,
+        "width": 140,
+        "height": 216.359375
+      },
+      "videoState": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 2.974391,
+        "error": null,
+        "loop": true,
+        "muted": true,
+        "playsInline": true
+      },
+      "animation": [
+        {
+          "opacity": "1",
+          "transition": "opacity 1400ms cubic-bezier(0.22, 1, 0.36, 1), transform 1400ms cubic-bezier(0.22, 1, 0.36, 1)",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "opacity": "1",
+          "transition": "opacity 1800ms cubic-bezier(0.22, 1, 0.36, 1) 300ms, transform 1800ms cubic-bezier(0.22, 1, 0.36, 1) 300ms",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "opacity": "1",
+          "transition": "opacity 1400ms cubic-bezier(0.22, 1, 0.36, 1) 600ms, transform 1400ms cubic-bezier(0.22, 1, 0.36, 1) 600ms",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "opacity": "1",
+          "transition": "opacity 1400ms cubic-bezier(0.22, 1, 0.36, 1) 900ms, transform 1400ms cubic-bezier(0.22, 1, 0.36, 1) 900ms",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "opacity": "1",
+          "transition": "opacity 1400ms cubic-bezier(0.22, 1, 0.36, 1) 1150ms, transform 1400ms cubic-bezier(0.22, 1, 0.36, 1) 1150ms",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "font": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "svgCount": 0,
+      "videoPlaybackAdvances": true
+    }
+  ],
+  "errors": [],
+  "assetIssues": [],
+  "mediaRequestAborts": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_151802_1bbf9a81-a7cb-4be1-b858-f1cd92b62b96.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_151802_1bbf9a81-a7cb-4be1-b858-f1cd92b62b96.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

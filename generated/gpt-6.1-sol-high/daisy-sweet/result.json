@@ -1,0 +1,35 @@
+{
+  "title": "Daisy Sweet",
+  "id": "daisy-sweet",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/daisy-sweet/",
+    "desktop": "passed: Chromium 1440x1000; equal 720px panels and 1000px height",
+    "mobile": "passed: Chromium 390x844; stacked panel and 292.5px video strip",
+    "horizontal_overflow": "none at either viewport",
+    "browser_errors": [],
+    "media": "product image decoded; visible video loaded and playback advanced on both viewports",
+    "animations": "all five entrance transitions completed with exact specified timings",
+    "button": "desktop white hover fill, keyboard focus and Enter activation passed",
+    "dependency_audit": "zero vulnerabilities",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "reports": [
+      "checks/browser-report.json",
+      "checks/npm-audit.json"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact supplied external image and video URLs are preserved; network access is required.",
+    "Chromium aborted individual media requests on both viewports; both visible videos nevertheless reached readyState 4 and played. These events are recorded in mediaRequestAborts.",
+    "SHOP NOW has the specified hover interaction; no shopping destination was supplied, so no navigation or checkout behavior was added.",
+    "React 18, TypeScript, Tailwind CSS 3 default configuration, and Vite; no additional application packages or custom fonts.",
+    "Source, dependency lockfile, static dist output, browser checks, screenshots, and README are included.",
+    "Ready for review; not deployed or pushed. No agents or additional sessions were created."
+  ]
+}

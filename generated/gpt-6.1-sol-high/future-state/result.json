@@ -1,0 +1,38 @@
+{
+  "title": "Future-State",
+  "id": "future-state",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: TypeScript and Vite production build",
+    "dist_index": true,
+    "base_path": "/motionsites-results/future-state/",
+    "desktop_1440x1000": "passed",
+    "mobile_390x844": "passed",
+    "decoded_frames_per_viewport": 120,
+    "canvas_scroll_frames": "0 \u2192 118 \u2192 0",
+    "javascript_errors": 0,
+    "horizontal_overflow": false,
+    "font_loaded": true,
+    "navigation": "all four anchors passed",
+    "ctas": "Begin Today and Run The Demo passed",
+    "share": "clipboard fallback passed on both viewports",
+    "reveal_replay": "passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-section-two.png",
+      "screenshots/mobile-section-two.png"
+    ],
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact supplied external font stylesheet and CloudFront video used; both loaded successfully.",
+    "Chromium logged aborted media range/blob requests during source seeking and cleanup; all 120 frames decoded successfully, with no asset availability failures. Raw events retained in screenshots/checks.json.",
+    "Initial decoding takes about 30\u201340 seconds in the container; a scrubbed video fallback remains visible during decoding.",
+    "No pricing copy, contact endpoint, or separate demo app was supplied. Navigation uses existing sections and the demo CTA restarts the scroll experience, documented in README.md.",
+    "Source, lockfile, production dist, screenshots and validation scripts included. node_modules removed from deliverable.",
+    "No agents, other sessions, deployment, push, or external messages. Ready means ready for review, not deployed."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "desktop": {
+    "initial": {
+      "title": "NOVA_AI — Today AI Aligns With Bold Dreams",
+      "loading": "ready",
+      "frameCount": "120",
+      "frame": "0",
+      "fontLoaded": true,
+      "horizontalOverflow": false,
+      "heroHeight": 1000,
+      "bodyHeight": 2808,
+      "canvasSize": [
+        1440,
+        1000
+      ]
+    },
+    "end": {
+      "scrollY": 1800,
+      "frame": "118",
+      "headingVisible": true,
+      "horizontalOverflow": false
+    },
+    "replay": {
+      "scrollY": 0,
+      "frame": "0",
+      "heroRevealed": true
+    },
+    "shared": "Link copied",
+    "nav": {
+      "tiers": {
+        "hash": "#tiers",
+        "scrollY": 1000
+      },
+      "features": {
+        "hash": "#features",
+        "scrollY": 1800
+      },
+      "talk to us": {
+        "hash": "#contact",
+        "scrollY": 526
+      },
+      "main": {
+        "hash": "#main",
+        "scrollY": 0
+      }
+    },
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260611_104107_121bfb5a-b1df-4e0d-8240-25b81f7cc85d.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "blob:http://localhost:4173/feedad7b-ecc0-4747-aca4-1cdc6b9c65c9",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "warnings": []
+  },
+  "mobile": {
+    "initial": {
+      "title": "NOVA_AI — Today AI Aligns With Bold Dreams",
+      "loading": "ready",
+      "frameCount": "120",
+      "frame": "0",
+      "fontLoaded": true,
+      "horizontalOverflow": false,
+      "heroHeight": 844,
+      "bodyHeight": 2375,
+      "canvasSize": [
+        390,
+        844
+      ]
+    },
+    "end": {
+      "scrollY": 1519,
+      "frame": "118",
+      "headingVisible": true,
+      "horizontalOverflow": false
+    },
+    "replay": {
+      "scrollY": 0,
+      "frame": "0",
+      "heroRevealed": true
+    },
+    "shared": "Link copied",
+    "nav": {
+      "tiers": {
+        "hash": "#tiers",
+        "scrollY": 844
+      },
+      "features": {
+        "hash": "#features",
+        "scrollY": 1519
+      },
+      "talk to us": {
+        "hash": "#contact",
+        "scrollY": 402
+      },
+      "main": {
+        "hash": "#main",
+        "scrollY": 0
+      }
+    },
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260611_104107_121bfb5a-b1df-4e0d-8240-25b81f7cc85d.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "blob:http://localhost:4173/7d027e33-8612-4f1f-ba85-b1942b94de13",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260611_104107_121bfb5a-b1df-4e0d-8240-25b81f7cc85d.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1453,19 +1453,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ed-871d-73b3-8a07-f9cdac70916e",
       "output_path": "generated/gpt-6.1-sol-high/innovation-summit",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 2649097,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:31:38.665196+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "edf76a6b38b3705e70f49eef8a1a925288208cc9",
+      "url": "https://tool.luo-xd.com/motionsites-results/innovation-summit/",
+      "completed_utc": "2026-10-29T04:39:31.143718+00:00",
+      "group_message_id": 93
     },
     {
       "number": 44,
@@ -1578,14 +1582,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f2-1a73-72e2-8946-e54e4e15eee6",
       "output_path": "generated/gpt-6.1-sol-high/mind-body-healing",
       "validation": "",
       "notes": "",
       "process_id": 2667411,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:36:38.563603+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 48,
@@ -1604,14 +1612,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f2-1b09-7631-9496-262d7824d09f",
       "output_path": "generated/gpt-6.1-sol-high/mood-tracker",
       "validation": "",
       "notes": "",
       "process_id": 2667455,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T04:36:38.673103+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 49,
@@ -1629,11 +1641,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/movie-premiere",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 2676164,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-29T04:38:55.782810+00:00",
+      "worker_state": "running"
     },
     {
       "number": 50,
@@ -8918,5 +8934,5 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T04:37:57.886457+00:00"
+  "updated_utc": "2026-10-29T04:39:31.312833+00:00"
 }

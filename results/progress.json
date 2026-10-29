@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-29T04:37:57.886457+00:00",
+  "updated_utc": "2026-10-29T04:39:31.312833+00:00",
   "total": 380,
   "counts": {
-    "complete": 43,
+    "complete": 44,
     "running": 5,
-    "not_started": 332
+    "not_started": 331
   },
   "jobs": [
     {
@@ -431,11 +431,11 @@
       "id": "innovation-summit",
       "title": "Innovation Summit",
       "category": "Mobile App",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a185ed-871d-73b3-8a07-f9cdac70916e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "edf76a6b38b3705e70f49eef8a1a925288208cc9",
+      "group_message_id": 93,
+      "url": "https://tool.luo-xd.com/motionsites-results/innovation-summit/"
     },
     {
       "id": "integration-saas",
@@ -472,7 +472,7 @@
       "title": "Mind-Body Healing",
       "category": "Healthcare",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f2-1a73-72e2-8946-e54e4e15eee6",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -482,7 +482,7 @@
       "title": "Mood Tracker",
       "category": "Wellness",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a185f2-1b09-7631-9496-262d7824d09f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -491,7 +491,7 @@
       "id": "movie-premiere",
       "title": "Movie Premiere",
       "category": "Entertainment",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

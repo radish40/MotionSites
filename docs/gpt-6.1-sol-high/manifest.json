@@ -5475,14 +5475,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867e-62db-7553-940c-6824b43e8b94",
       "output_path": "generated/gpt-6.1-sol-high/luminara",
       "validation": "",
       "notes": "",
       "process_id": 3202147,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:09:52.137994+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 161,
@@ -5501,14 +5505,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867e-6370-7042-9998-124ce9e138f3",
       "output_path": "generated/gpt-6.1-sol-high/luxury-botanical",
       "validation": "",
       "notes": "",
       "process_id": 3202188,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:09:52.251491+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 162,
@@ -5527,14 +5535,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867e-63f1-7e12-bdac-d8a6380e6da6",
       "output_path": "generated/gpt-6.1-sol-high/luxury-focus",
       "validation": "",
       "notes": "",
       "process_id": 3202228,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:09:52.383654+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 163,
@@ -5553,14 +5565,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a1867e-6496-7cd0-b1f4-5467f27fadb2",
       "output_path": "generated/gpt-6.1-sol-high/luxury-hero",
       "validation": "",
       "notes": "",
       "process_id": 3202360,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-29T07:09:52.544813+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 164,
@@ -10337,7 +10353,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T07:12:57.380543+00:00",
+  "updated_utc": "2026-10-29T07:14:46.569233+00:00",
   "current_batch": {
     "through_number": 200,
     "after_verified_completion": "pause",

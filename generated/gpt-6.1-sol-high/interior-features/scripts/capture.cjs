@@ -1,0 +1,21 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const fs = require('node:fs');
+const assert = require('node:assert/strict');
+(async()=>{
+ const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox','--disable-dev-shm-usage']});
+ const desktop=await browser.newPage({viewport:{width:1440,height:1000}});
+ await desktop.goto('http://localhost:5173/motionsites-results/interior-features/',{waitUntil:'networkidle'});
+ await desktop.evaluate(()=>document.fonts.ready);
+ await desktop.screenshot({path:'screenshots/desktop.png',fullPage:true});
+ await desktop.getByRole('switch').click();await desktop.locator('h1').click();await desktop.waitForTimeout(10000);
+ await desktop.screenshot({path:'screenshots/desktop-night.png',fullPage:true});
+ const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true,deviceScaleFactor:1});
+ await mobile.goto('http://localhost:5173/motionsites-results/interior-features/',{waitUntil:'networkidle'});
+ await mobile.evaluate(()=>document.fonts.ready);
+ await mobile.screenshot({path:'screenshots/mobile.png',fullPage:true});
+ await mobile.getByRole('switch').tap();await mobile.waitForTimeout(10000);
+ assert(await mobile.evaluate(()=>document.body.classList.contains('is-night')&&!document.querySelector('video').paused&&document.querySelector('video').currentTime>0&&document.documentElement.scrollWidth===390));
+ await mobile.screenshot({path:'screenshots/mobile-night.png',fullPage:true});
+ const report=JSON.parse(fs.readFileSync('screenshots/browser-checks.json'));report.checks.push({name:'mobile touch context 390x844',passed:true});fs.writeFileSync('screenshots/browser-checks.json',JSON.stringify(report,null,2));
+ console.log('Clean screenshots captured; mobile touch playback passed.');await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

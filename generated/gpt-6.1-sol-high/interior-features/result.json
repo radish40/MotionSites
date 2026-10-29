@@ -1,0 +1,30 @@
+{
+  "title": "Interior Features",
+  "id": "interior-features",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists",
+    "publish_path": "/motionsites-results/interior-features/",
+    "desktop": "passed at 1440x1000; card 319x404; correct artboard scale; no horizontal overflow",
+    "mobile": "passed at 390x844; normal scrolling; correct artboard scale; no horizontal overflow",
+    "tablet": "passed at 768x1024",
+    "interactions": "passed: click, keyboard Space/Enter, mobile touch, 4.5-second crossfade, night video playback, pause on day, both still source swaps, rapid toggles, reduced motion",
+    "console_errors": 0,
+    "failed_requests": 0,
+    "http_errors": 0,
+    "fonts": "400/500/700 local WOFF2 and Google Material Icons loaded",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/desktop-night.png", "screenshots/mobile-night.png"],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    "Original Neue Montreal font binaries were not supplied. Local WOFF2 files were converted from CDNFonts PP Neue Montreal Book/Medium/Bold and registered at the required 400/500/700 weights. Source details are preserved in font-source.css and README.md."
+  ],
+  "notes": [
+    "Native HTML/CSS/JavaScript implementation; package-lock.json saved. No framework was required by the prompt.",
+    "Exact supplied photo, night still, video, icon stylesheet, footer copy, gradient, and responsive card layout implemented.",
+    "Media and Google Material Icons remain external and require network access; all loaded during browser verification.",
+    "Only this project was handled. No agents, other sessions, push, deployment, or external messages.",
+    "Ready means ready for management-session acceptance, not live."
+  ]
+}

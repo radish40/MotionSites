@@ -1,0 +1,149 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "responses": [],
+  "checks": [
+    {
+      "name": "desktop day",
+      "viewport": 1440,
+      "overflow": false,
+      "card": {
+        "width": 319,
+        "height": 404
+      },
+      "scale": 0.48325358851674644,
+      "font400": true,
+      "font500": true,
+      "font700": true,
+      "icons": true,
+      "photo": "https://res.cloudinary.com/dgupuutfn/image/upload/v1780913983/room2_pihyox.png",
+      "photoLoaded": true,
+      "videoReady": 4,
+      "videoPaused": true,
+      "videoTime": 0,
+      "opacity": "0",
+      "night": false
+    },
+    {
+      "name": "slow crossfade",
+      "viewport": 1440,
+      "overflow": false,
+      "card": {
+        "width": 319,
+        "height": 404
+      },
+      "scale": 0.48325358851674644,
+      "font400": true,
+      "font500": true,
+      "font700": true,
+      "icons": true,
+      "photo": "https://res.cloudinary.com/dgupuutfn/image/upload/v1780913983/room2_pihyox.png",
+      "photoLoaded": true,
+      "videoReady": 4,
+      "videoPaused": false,
+      "videoTime": 0.958849,
+      "opacity": "0.710752",
+      "night": true
+    },
+    {
+      "name": "desktop night playback and still swap",
+      "viewport": 1440,
+      "overflow": false,
+      "card": {
+        "width": 319,
+        "height": 404
+      },
+      "scale": 0.48325358851674644,
+      "font400": true,
+      "font500": true,
+      "font700": true,
+      "icons": true,
+      "photo": "https://res.cloudinary.com/dgupuutfn/image/upload/v1780913982/room2_night_qc4qeq.png",
+      "photoLoaded": true,
+      "videoReady": 4,
+      "videoPaused": false,
+      "videoTime": 1.86322,
+      "opacity": "1",
+      "night": true
+    },
+    {
+      "name": "return to day",
+      "viewport": 1440,
+      "overflow": false,
+      "card": {
+        "width": 319,
+        "height": 404
+      },
+      "scale": 0.48325358851674644,
+      "font400": true,
+      "font500": true,
+      "font700": true,
+      "icons": true,
+      "photo": "https://res.cloudinary.com/dgupuutfn/image/upload/v1780913983/room2_pihyox.png",
+      "photoLoaded": true,
+      "videoReady": 4,
+      "videoPaused": true,
+      "videoTime": 2.048885,
+      "opacity": "0",
+      "night": false
+    },
+    {
+      "name": "rapid toggle",
+      "passed": true
+    },
+    {
+      "name": "mobile day",
+      "viewport": 390,
+      "overflow": false,
+      "card": {
+        "width": 342,
+        "height": 433
+      },
+      "scale": 0.5179425837320574,
+      "font400": true,
+      "font500": true,
+      "font700": true,
+      "icons": true,
+      "photo": "https://res.cloudinary.com/dgupuutfn/image/upload/v1780913983/room2_pihyox.png",
+      "photoLoaded": true,
+      "videoReady": 4,
+      "videoPaused": true,
+      "videoTime": 2.248751,
+      "opacity": "0",
+      "night": false
+    },
+    {
+      "name": "mobile night",
+      "viewport": 390,
+      "overflow": false,
+      "card": {
+        "width": 342,
+        "height": 433
+      },
+      "scale": 0.5179425837320574,
+      "font400": true,
+      "font500": true,
+      "font700": true,
+      "icons": true,
+      "photo": "https://res.cloudinary.com/dgupuutfn/image/upload/v1780913982/room2_night_qc4qeq.png",
+      "photoLoaded": true,
+      "videoReady": 4,
+      "videoPaused": false,
+      "videoTime": 4.168444,
+      "opacity": "1",
+      "night": true
+    },
+    {
+      "name": "tablet resize",
+      "passed": true
+    },
+    {
+      "name": "reduced motion",
+      "passed": true
+    },
+    {
+      "name": "mobile touch context 390x844",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'PP Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PP Neue Montreal'), url('https://fonts.cdnfonts.com/s/100431/ppneuemontreal-book.woff') format('woff');
+}
+@font-face {
+    font-family: 'PP Neue Montreal';
+    font-style: italic;
+    font-weight: 400;
+    src: local('PP Neue Montreal'), url('https://fonts.cdnfonts.com/s/100431/ppneuemontreal-italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'PP Neue Montreal';
+    font-style: normal;
+    font-weight: 100;
+    src: local('PP Neue Montreal'), url('https://fonts.cdnfonts.com/s/100431/ppneuemontreal-thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'PP Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    src: local('PP Neue Montreal'), url('https://fonts.cdnfonts.com/s/100431/ppneuemontreal-medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'PP Neue Montreal';
+    font-style: italic;
+    font-weight: 600;
+    src: local('PP Neue Montreal'), url('https://fonts.cdnfonts.com/s/100431/ppneuemontreal-semibolditalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'PP Neue Montreal';
+    font-style: normal;
+    font-weight: 700;
+    src: local('PP Neue Montreal'), url('https://fonts.cdnfonts.com/s/100431/ppneuemontreal-bold.woff') format('woff');
+}
+
+

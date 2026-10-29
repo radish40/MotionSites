@@ -1,0 +1,71 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/interior-features/",
+  "checked_at": "2026-10-29T07:03:32.611Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Interior Features",
+      "bodyChars": 435,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/dgupuutfn/image/upload/v1780913983/room2_pihyox.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260609_072414_1e4448ec-537f-4f94-b56b-19e00c1550e8.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Interior Features",
+      "bodyChars": 425,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/dgupuutfn/image/upload/v1780913983/room2_pihyox.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260609_072414_1e4448ec-537f-4f94-b56b-19e00c1550e8.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

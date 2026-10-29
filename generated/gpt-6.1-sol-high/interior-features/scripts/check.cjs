@@ -1,0 +1,41 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const fs = require('node:fs');
+const assert = require('node:assert/strict');
+(async () => {
+ const browser = await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+ const report = {errors:[],failedRequests:[],responses:[],checks:[]};
+ const page = await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+ page.on('pageerror', e=>report.errors.push(e.message));
+ page.on('requestfailed', req=>report.failedRequests.push({url:req.url(),error:req.failure()?.errorText}));
+ page.on('response', r=> {if(r.status()>=400)report.responses.push({url:r.url(),status:r.status()});});
+ await page.goto('http://localhost:5173/motionsites-results/interior-features/',{waitUntil:'networkidle',timeout:90000});
+ await page.evaluate(()=>document.fonts.ready);
+ await page.waitForFunction(()=>document.querySelector('img').naturalWidth>0,{timeout:30000});
+ const inspect = () => page.evaluate(()=>{
+ const card=document.querySelector('.direct-card'),art=document.querySelector('.direct-card__artboard'),video=document.querySelector('video'),photo=document.querySelector('img');
+ return {viewport:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,card:{width:card.clientWidth,height:card.clientHeight},scale:parseFloat(art.style.getPropertyValue('--direct-scale')),font400:document.fonts.check('400 16px "Neue Montreal"'),font500:document.fonts.check('500 16px "Neue Montreal"'),font700:document.fonts.check('700 16px "Neue Montreal"'),icons:document.fonts.check('24px "Material Icons"'),photo:photo.currentSrc,photoLoaded:photo.naturalWidth>0,videoReady:video.readyState,videoError:video.error?.message,videoPaused:video.paused,videoTime:video.currentTime,opacity:getComputedStyle(video).opacity,night:document.body.classList.contains('is-night')};
+ });
+ let day=await inspect(); assert(!day.overflow);assert(day.photoLoaded);assert.equal(day.scale,Math.min(day.card.width/660,day.card.height/836));report.checks.push({name:'desktop day',...day});
+ await page.screenshot({path:'screenshots/desktop.png',fullPage:true});
+ await page.getByRole('switch').focus();await page.keyboard.press('Space');
+ await page.waitForTimeout(1000);
+ const mid=await inspect();assert(mid.night);assert(+mid.opacity>0&&+mid.opacity<1);report.checks.push({name:'slow crossfade',...mid});
+ await page.waitForTimeout(9000);
+ const night=await inspect();assert(!night.videoPaused);assert(night.videoTime>0);assert(night.photo.includes('room2_night'));assert.equal(night.opacity,'1');report.checks.push({name:'desktop night playback and still swap',...night});
+ await page.screenshot({path:'screenshots/desktop-night.png',fullPage:true});
+ await page.keyboard.press('Enter');await page.waitForTimeout(10000);
+ const returned=await inspect();assert(!returned.night);assert(returned.videoPaused);assert(returned.photo.includes('room2_pihyox'));assert.equal(returned.opacity,'0');report.checks.push({name:'return to day',...returned});
+ // Rapid switching must leave the photo and video in the final requested mode.
+ await page.getByRole('switch').click();await page.waitForTimeout(150);await page.getByRole('switch').click();await page.waitForTimeout(9500);
+ const rapid=await inspect();assert(!rapid.night&&rapid.photo.includes('room2_pihyox')&&rapid.videoPaused);report.checks.push({name:'rapid toggle',passed:true});
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(300);
+ const mobile=await inspect();assert(!mobile.overflow);assert.equal(mobile.scale,Math.min(mobile.card.width/660,mobile.card.height/836));report.checks.push({name:'mobile day',...mobile});
+ await page.screenshot({path:'screenshots/mobile.png',fullPage:true});
+ await page.getByRole('switch').tap({timeout:500}).catch(()=>page.getByRole('switch').click());await page.waitForTimeout(10000);
+ const mobileNight=await inspect();assert(mobileNight.night&&!mobileNight.videoPaused&&!mobileNight.overflow);report.checks.push({name:'mobile night',...mobileNight});await page.screenshot({path:'screenshots/mobile-night.png',fullPage:true});
+ await page.setViewportSize({width:768,height:1024});await page.waitForTimeout(200);assert(!(await inspect()).overflow);report.checks.push({name:'tablet resize',passed:true});
+ await page.emulateMedia({reducedMotion:'reduce'});await page.getByRole('switch').click();await page.waitForTimeout(200);assert(!(await inspect()).night);report.checks.push({name:'reduced motion',passed:true});
+ assert.equal(report.errors.length,0);
+ fs.writeFileSync('screenshots/browser-checks.json',JSON.stringify(report,null,2));
+ console.log(JSON.stringify(report,null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

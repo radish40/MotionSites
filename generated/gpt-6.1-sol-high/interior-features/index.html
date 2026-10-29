@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="description" content="Explore a living space in a different light. An interactive Interior Features room study.">
+  <title>Interior Features</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233fae6b'/%3E%3Cpath d='M9 23V9h14v14M9 16h14M16 9v14' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://res.cloudinary.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Interior Features home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Interior Features<span class="brand-period">.</span></a>
+      <button class="theme-switch" type="button" role="switch" aria-checked="false" aria-label="Night mode">
+        <span class="theme-switch__thumb" aria-hidden="true"></span>
+        <span class="theme-option theme-option--day"><span class="material-icons" aria-hidden="true">light_mode</span><span>Day</span></span>
+        <span class="theme-option theme-option--night"><span class="material-icons" aria-hidden="true">dark_mode</span><span>Night</span></span>
+      </button>
+    </header>
+    <main>
+      <div class="intro">
+        <p class="eyebrow">A LITTLE IMAGINATION. A PLACE OF YOUR OWN.</p>
+        <h1>See your space in a new light.</h1>
+        <p class="intro__desc">Good spaces start with an idea. Make yours feel like home.</p>
+      </div>
+      <div class="cards">
+        <article class="card-frame" aria-labelledby="room-title">
+          <div class="direct-card">
+            <div class="direct-card__artboard" id="directCardTwoArtboard">
+              <img class="direct-card__photo" src="https://res.cloudinary.com/dgupuutfn/image/upload/v1780913983/room2_pihyox.png" data-night-src="https://res.cloudinary.com/dgupuutfn/image/upload/v1780913982/room2_night_qc4qeq.png" alt="Living room interior" fetchpriority="high">
+              <video class="direct2-video" src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260609_072414_1e4448ec-537f-4f94-b56b-19e00c1550e8.mp4" muted loop playsinline preload="auto" aria-hidden="true"></video>
+              <div class="direct2-grade"></div>
+              <div class="direct-footer">
+                <div class="direct-footer__head">
+                  <div class="direct-footer__icon" style="background:#3fae6b;color:#fff;box-shadow:0 10px 24px -10px rgba(63,174,107,.6)"><span class="material-icons" aria-hidden="true">construction</span></div>
+                  <div class="direct-footer__title" id="room-title">Build the room in real time</div>
+                </div>
+                <div class="direct-footer__desc">Move pieces, explore finishes, and align with your studio on one shared canvas.</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="room-caption"><span class="room-caption__dot"></span><span id="light-label" aria-live="polite">The living room · Daylight</span></div>
+      <p class="hint"><span class="material-icons" aria-hidden="true">contrast</span> Switch the light. Shift the mood.</p>
+    </main>
+    <footer class="site-footer"><span>DESIGNED TO FEEL LIKE YOU.</span><span>A study in light & living <span class="footer-spark" aria-hidden="true">✳</span></span></footer>
+  </div>
+</body>
+</html>

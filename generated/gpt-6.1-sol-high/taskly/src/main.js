@@ -1,0 +1,18 @@
+import './style.css';
+const dialog = document.querySelector('#info-dialog');
+const content = document.querySelector('#dialog-content');
+const panels = {
+ features: '<span class="eyebrow">LESS BUSYWORK. MORE PROGRESS.</span><h2>A little clarity goes a long way.</h2><p>Keep your projects, your team, and your next steps in one place.</p><ul><li><strong>Organize your projects</strong><span>Turn big goals into clear, manageable tasks.</span></li><li><strong>Stay in sync</strong><span>Collaborate with your team and keep everyone on the same page.</span></li><li><strong>See your progress</strong><span>Know what’s done and what’s coming next.</span></li></ul>',
+ company: '<span class="eyebrow">MEET TASKLY</span><h2>Make room for your best work.</h2><p>We believe that managing work should feel effortless. Taskly brings projects and people together, so your team can spend more time moving ideas forward.</p>',
+ pricing: '<span class="eyebrow">A SMARTER START</span><h2>Find your flow with Taskly.</h2><p>Tell us a little about your team to get started and learn about the right plan for your projects.</p><button class="primary-cta" data-signup>Get Started Now <span aria-hidden="true">↗</span></button>'
+};
+function openDialog(html){content.innerHTML=html;if(!dialog.open)dialog.showModal();}
+function signup(){openDialog('<span class="eyebrow">LET’S GET STARTED</span><h2>Your next great project starts here.</h2><p>Leave your details to express interest in Taskly.</p><form><label>Your name<input name="name" autocomplete="name" placeholder="Alex Morgan" required></label><label>Work email<input name="email" type="email" autocomplete="email" placeholder="alex@company.com" required></label><button class="primary-cta" type="submit">Get Started Now <span aria-hidden="true">↗</span></button><small>Demo only. Your details stay in this browser and are not sent.</small></form>');}
+document.addEventListener('click',e=>{const signupButton=e.target.closest('[data-signup]');const panel=e.target.closest('[data-panel]');if(signupButton)signup();if(panel){openDialog(panels[panel.dataset.panel]);closeMenu();}});
+document.querySelector('.close-dialog').addEventListener('click',()=>dialog.close());
+dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+dialog.addEventListener('submit',e=>{e.preventDefault();const name=new FormData(e.target).get('name');openDialog('<span class="eyebrow">YOU’RE ALL SET</span><h2>Thanks for your interest!</h2><p class="confirmation"></p><button class="primary-cta" id="done">Back to Taskly <span aria-hidden="true">↗</span></button>');content.querySelector('.confirmation').textContent=`${name}, you’ve completed the Taskly demo. No details have been sent or stored.`;content.querySelector('#done').onclick=()=>dialog.close();});
+const menu=document.querySelector('.menu-toggle');function closeMenu(){document.querySelector('.navbar').classList.remove('menu-open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open navigation');}
+menu.onclick=()=>{const open=document.querySelector('.navbar').classList.toggle('menu-open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');};
+document.querySelectorAll('a[href="#home"]').forEach(a=>a.addEventListener('click',closeMenu));
+const video=document.querySelector('video');const reduced=matchMedia('(prefers-reduced-motion: reduce)');function setMotion(){if(reduced.matches){video.pause();video.currentTime=0.1;}else video.play().catch(()=>{});}video.addEventListener('loadeddata',setMotion);reduced.addEventListener('change',setMotion);

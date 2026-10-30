@@ -1,0 +1,73 @@
+{
+  "title": "Taskly",
+  "id": "taskly",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/taskly:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "layout": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "fonts": [
+            true,
+            true
+          ],
+          "video": {
+            "playing": true,
+            "time": 1.557813,
+            "filter": "hue-rotate(-55deg) saturate(2.5) brightness(1.2) contrast(1.1)",
+            "blend": "screen"
+          }
+        },
+        "errors": [],
+        "interactions": "navigation panels, Escape dismissal, mobile menu, signup form and confirmation, signup button, close button passed"
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "layout": {
+          "width": 390,
+          "scrollWidth": 390,
+          "fonts": [
+            true,
+            true
+          ],
+          "video": {
+            "playing": true,
+            "time": 1.38275,
+            "filter": "hue-rotate(-55deg) saturate(2.5) brightness(1.2) contrast(1.1)",
+            "blend": "screen"
+          }
+        },
+        "errors": [],
+        "interactions": "navigation panels, Escape dismissal, mobile menu, signup form and confirmation, signup button, close button passed"
+      },
+      {
+        "reducedMotion": "video paused"
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "desktop and mobile inspected",
+    "dependency_audit": "0 vulnerabilities"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original video and required fonts downloaded and served locally.",
+    "Wrapper luminance key removes black; source video retains exact screen blend and color grade. Edge transparency approximation and compression documented in README.md.",
+    "Five original grayscale SVG placeholder logos.",
+    "Signup is a local demo; no data sent or stored.",
+    "Required Vite base configured. No deployment, push, messages, agents, or additional sessions.",
+    "Browser checks cover Chromium only."
+  ]
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": [
+        true,
+        true
+      ],
+      "video": {
+        "playing": true,
+        "time": 1.557813,
+        "filter": "hue-rotate(-55deg) saturate(2.5) brightness(1.2) contrast(1.1)",
+        "blend": "screen"
+      }
+    },
+    "errors": [],
+    "interactions": "navigation panels, Escape dismissal, mobile menu, signup form and confirmation, signup button, close button passed"
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": [
+        true,
+        true
+      ],
+      "video": {
+        "playing": true,
+        "time": 1.38275,
+        "filter": "hue-rotate(-55deg) saturate(2.5) brightness(1.2) contrast(1.1)",
+        "blend": "screen"
+      }
+    },
+    "errors": [],
+    "interactions": "navigation panels, Escape dismissal, mobile menu, signup form and confirmation, signup button, close button passed"
+  },
+  {
+    "reducedMotion": "video paused"
+  }
+]

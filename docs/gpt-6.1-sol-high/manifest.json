@@ -11722,14 +11722,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b4a-2fc1-7871-9fe7-e89d4bbeff4b",
       "output_path": "generated/gpt-6.1-sol-high/crypto-wealth-hero",
       "validation": "",
       "notes": "",
       "process_id": 1040678,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:30:57.103351+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 344,
@@ -11748,14 +11752,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b4a-3196-7e20-ba05-4fa2154feb59",
       "output_path": "generated/gpt-6.1-sol-high/shamoni-hero",
       "validation": "",
       "notes": "",
       "process_id": 1040722,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:30:57.316844+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 345,
@@ -12551,7 +12559,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:31:33.724129+00:00",
+  "updated_utc": "2026-10-30T05:32:30.821839+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -9178,19 +9178,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af7-99e5-7bd2-bab7-75d6b9340c1c",
       "output_path": "generated/gpt-6.1-sol-high/targo-logistics-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 682243,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:00:44.691495+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "9d4775dd585f53353fdd189f6c3d3c9f9d75aaf0",
+      "url": "https://tool.luo-xd.com/motionsites-results/targo-logistics-hero/",
+      "completed_utc": "2026-10-30T04:08:02.124765+00:00",
+      "group_message_id": 334
     },
     {
       "number": 269,
@@ -9299,14 +9303,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18afc-6b6b-7ee0-814e-4da93e8f4698",
       "output_path": "generated/gpt-6.1-sol-high/weblex-dark-hero",
       "validation": "",
       "notes": "",
       "process_id": 703356,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:06:00.691509+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 273,
@@ -9324,11 +9332,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-synapse",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 710073,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:07:26.479535+00:00",
+      "worker_state": "running"
     },
     {
       "number": 274,
@@ -11686,7 +11698,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:06:32.576664+00:00",
+  "updated_utc": "2026-10-30T04:08:02.307750+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

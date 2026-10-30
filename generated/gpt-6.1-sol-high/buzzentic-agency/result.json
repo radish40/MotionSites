@@ -1,0 +1,33 @@
+{
+  "title": "Buzzentic Agency",
+  "id": "buzzentic-agency",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": "Chromium via playwright-core",
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "overflow": "none at required viewports",
+    "interactions": "navigation dialogs, Escape, mobile menu, badge, CTA hover, local brief download passed",
+    "script_errors": [],
+    "failed_http_responses": [],
+    "evidence": "screenshots/browser-checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "React + Tailwind CSS v4 + Vite; base /motionsites-results/buzzentic-agency/.",
+    "Exact supplied video and requested fonts are hosted locally; no overlays or filters.",
+    "Screenshots capture the video at two seconds after confirming autoplay.",
+    "No supplied contact endpoint: contact interaction downloads a local brief and sends nothing.",
+    "Fortune badge is from the design brief; no article URL was supplied and the claim was not independently verified.",
+    "Supporting copy was authored where the prompt did not provide exact wording.",
+    "Only Chromium tested; no deployment, push, external messaging, or other design work.",
+    "Ready means available for review, not deployed."
+  ]
+}

@@ -9076,19 +9076,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af5-eaa6-7ec1-bb25-d442aa9928c7",
       "output_path": "generated/gpt-6.1-sol-high/new-era-bold-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 674786,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:58:54.520890+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b5b6e551fc15044fa6d4cf2fd6a60b72cbfa3a40",
+      "url": "https://tool.luo-xd.com/motionsites-results/new-era-bold-hero/",
+      "completed_utc": "2026-10-30T04:04:35.246657+00:00",
+      "group_message_id": 330
     },
     {
       "number": 266,
@@ -9106,19 +9110,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af5-eb82-70f0-bc52-11f1d87c1618",
       "output_path": "generated/gpt-6.1-sol-high/space-voyage",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 674832,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:58:54.664846+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "9339bbbfc8cca463972bb949ea96db2c617139d9",
+      "url": "https://tool.luo-xd.com/motionsites-results/space-voyage/",
+      "completed_utc": "2026-10-30T04:05:07.811764+00:00",
+      "group_message_id": 331
     },
     {
       "number": 267,
@@ -9197,14 +9205,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af9-6d30-7f83-b216-fcdbe224bac7",
       "output_path": "generated/gpt-6.1-sol-high/viktor-portfolio",
       "validation": "",
       "notes": "",
       "process_id": 691195,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:02:44.533821+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 270,
@@ -9222,11 +9234,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/wealth-video-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 696431,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:04:07.526839+00:00",
+      "worker_state": "running"
     },
     {
       "number": 271,
@@ -9244,11 +9260,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/web3-eos-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 696489,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:04:07.660108+00:00",
+      "worker_state": "running"
     },
     {
       "number": 272,
@@ -11650,7 +11670,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:03:13.132565+00:00",
+  "updated_utc": "2026-10-30T04:05:07.993275+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

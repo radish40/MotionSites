@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:03:13.132565+00:00",
+  "updated_utc": "2026-10-30T04:05:07.993275+00:00",
   "total": 380,
   "counts": {
-    "complete": 264,
+    "complete": 266,
     "running": 5,
-    "not_started": 111
+    "not_started": 109
   },
   "current_batch": {
     "from_number": 201,
@@ -2660,21 +2660,21 @@
       "id": "new-era-bold-hero",
       "title": "New Era Bold Hero",
       "category": "Agency",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af5-eaa6-7ec1-bb25-d442aa9928c7",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b5b6e551fc15044fa6d4cf2fd6a60b72cbfa3a40",
+      "group_message_id": 330,
+      "url": "https://tool.luo-xd.com/motionsites-results/new-era-bold-hero/"
     },
     {
       "id": "space-voyage",
       "title": "Space Voyage",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af5-eb82-70f0-bc52-11f1d87c1618",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9339bbbfc8cca463972bb949ea96db2c617139d9",
+      "group_message_id": 331,
+      "url": "https://tool.luo-xd.com/motionsites-results/space-voyage/"
     },
     {
       "id": "sync-ai",
@@ -2701,7 +2701,7 @@
       "title": "Viktor Portfolio",
       "category": "Portfolio",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af9-6d30-7f83-b216-fcdbe224bac7",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2710,7 +2710,7 @@
       "id": "wealth-video-hero",
       "title": "Wealth Video Hero",
       "category": "Fintech",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2720,7 +2720,7 @@
       "id": "web3-eos-hero",
       "title": "Web3 EOS Hero",
       "category": "Web3",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

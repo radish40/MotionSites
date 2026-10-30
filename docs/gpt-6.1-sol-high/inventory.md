@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 264/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 266/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -349,13 +349,13 @@
 | 262 | `framelix-3d-studios` | Framelix 3D Studios | Agency | 1 | 图片 | 已完成 |
 | 263 | `logoisum-video-agency` | Logoisum Video Agency | Agency | 1 | 图片 | 已完成 |
 | 264 | `new-era-automotive-hero` | New Era Automotive Hero | Automotive | 1 | 图片 | 已完成 |
-| 265 | `new-era-bold-hero` | New Era Bold Hero | Agency | 1 | 图片 | 生成中 |
-| 266 | `space-voyage` | Space Voyage | Landing Page | 2 | 图片 | 生成中 |
+| 265 | `new-era-bold-hero` | New Era Bold Hero | Agency | 1 | 图片 | 已完成 |
+| 266 | `space-voyage` | Space Voyage | Landing Page | 2 | 图片 | 已完成 |
 | 267 | `sync-ai` | Sync AI | Hero Section | 2 | 图片 | 生成中 |
 | 268 | `targo-logistics-hero` | Targo Logistics Hero | SaaS | 1 | 图片 | 生成中 |
 | 269 | `viktor-portfolio` | Viktor Portfolio | Portfolio | 1 | 图片 | 生成中 |
-| 270 | `wealth-video-hero` | Wealth Video Hero | Fintech | 1 | 图片 | 未开始 |
-| 271 | `web3-eos-hero` | Web3 EOS Hero | Web3 | 1 | 图片 | 未开始 |
+| 270 | `wealth-video-hero` | Wealth Video Hero | Fintech | 1 | 图片 | 生成中 |
+| 271 | `web3-eos-hero` | Web3 EOS Hero | Web3 | 1 | 图片 | 生成中 |
 | 272 | `weblex-dark-hero` | Weblex Dark Hero | Landing Page | 1 | 图片 | 未开始 |
 | 273 | `community-superdesign-synapse` | Synapse | Landing Page | 1 | 视频 | 未开始 |
 | 274 | `community-superdesign-card-swap` | Card Swap | Components | 1 | 视频 | 未开始 |

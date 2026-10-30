@@ -1,0 +1,60 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/codenest-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:11:03.030Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "CodeNest — Launch your coding career.",
+      "bodyChars": 368,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/65b9cb6d-f77f-4ae2-835d-6ba4057bd95a",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.470092,
+          "duration": 9.374999,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "CodeNest — Launch your coding career.",
+      "bodyChars": 319,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/2dd79d90-4e90-41f0-a746-38f32c5ba048",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.468577,
+          "duration": 9.374999,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

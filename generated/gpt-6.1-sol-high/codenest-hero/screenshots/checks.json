@@ -1,0 +1,144 @@
+{
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "fontsLoaded": true,
+      "card": {
+        "width": 200,
+        "height": 200,
+        "transform": "none",
+        "translate": "0px -50px"
+      },
+      "video": {
+        "readyState": 4,
+        "time": 2.620965,
+        "paused": false,
+        "width": 1920,
+        "status": "streaming"
+      }
+    },
+    {
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "fontsLoaded": true,
+      "card": {
+        "width": 200,
+        "height": 200,
+        "transform": "none",
+        "translate": "0px -50px"
+      },
+      "video": {
+        "readyState": 4,
+        "time": 6.476335,
+        "paused": false,
+        "width": 1920,
+        "status": "streaming"
+      }
+    },
+    {
+      "label": "responsive-320",
+      "width": 320,
+      "height": 900,
+      "scrollWidth": 320,
+      "scrollHeight": 926,
+      "fontsLoaded": true,
+      "card": {
+        "width": 200,
+        "height": 200,
+        "transform": "none",
+        "translate": "0px -50px"
+      },
+      "video": {
+        "readyState": 4,
+        "time": 7.755102,
+        "paused": false,
+        "width": 1920,
+        "status": "streaming"
+      }
+    },
+    {
+      "label": "responsive-768",
+      "width": 768,
+      "height": 900,
+      "scrollWidth": 768,
+      "scrollHeight": 998,
+      "fontsLoaded": true,
+      "card": {
+        "width": 200,
+        "height": 200,
+        "transform": "none",
+        "translate": "0px -50px"
+      },
+      "video": {
+        "readyState": 4,
+        "time": 7.768279,
+        "paused": false,
+        "width": 1920,
+        "status": "streaming"
+      }
+    },
+    {
+      "label": "responsive-1024",
+      "width": 1024,
+      "height": 900,
+      "scrollWidth": 1024,
+      "scrollHeight": 998,
+      "fontsLoaded": true,
+      "card": {
+        "width": 200,
+        "height": 200,
+        "transform": "none",
+        "translate": "0px -50px"
+      },
+      "video": {
+        "readyState": 4,
+        "time": 7.781119,
+        "paused": false,
+        "width": 1920,
+        "status": "streaming"
+      }
+    },
+    {
+      "label": "responsive-1920",
+      "width": 1920,
+      "height": 900,
+      "scrollWidth": 1920,
+      "scrollHeight": 1018,
+      "fontsLoaded": true,
+      "card": {
+        "width": 200,
+        "height": 200,
+        "transform": "none",
+        "translate": "0px -50px"
+      },
+      "video": {
+        "readyState": 4,
+        "time": 7.795213,
+        "paused": false,
+        "width": 1920,
+        "status": "streaming"
+      }
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "reducedMotion": true,
+  "interactions": [
+    "desktop navigation: all 4 links open details; Escape closes",
+    "Get Started opens learning path; close and return controls work",
+    "mobile full-screen menu: open, close button, Escape, link selection",
+    "focus returns to menu trigger",
+    "responsive checks: 320, 390, 768, 1024, 1440, 1920 widths",
+    "reduced motion: poster instead of autoplay"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,58 @@
+{
+  "title": "CodeNest Coding Platform",
+  "id": "codenest-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": "passed",
+    "desktop": "1440x1000",
+    "mobile": "390x844",
+    "additional_widths": [
+      320,
+      768,
+      1024,
+      1920
+    ],
+    "horizontal_overflow": false,
+    "live_hls_playback": "verified on desktop and mobile",
+    "fonts": "all three required families loaded locally",
+    "glass_card": "200x200px; computed translate 0px -50px",
+    "interactions": [
+      "desktop navigation: all 4 links open details; Escape closes",
+      "Get Started opens learning path; close and return controls work",
+      "mobile full-screen menu: open, close button, Escape, link selection",
+      "focus returns to menu trigger",
+      "responsive checks: 320, 390, 768, 1024, 1440, 1920 widths",
+      "reduced motion: poster instead of autoplay"
+    ],
+    "script_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png",
+      "screenshots/get-started.png"
+    ],
+    "detailed_report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional codenest-hero.webp reference",
+      "issue": "File absent at specified path",
+      "handling": "Built from the complete written prompt; no screenshot extraction or reference-match claim."
+    }
+  ],
+  "notes": [
+    "React + Tailwind CSS + hls.js (enableWorker: false) + lucide-react.",
+    "Required Mux stream played successfully; runtime streaming requires Mux connectivity.",
+    "Poster comes from the same video; required fonts are self-hosted.",
+    "Configured base: /motionsites-results/codenest-hero/.",
+    "CTA and navigation open local informational dialogs; no enrollment endpoint was specified.",
+    "Build has a nonfatal Vite large-chunk advisory due to the HLS library.",
+    "Chromium verification only; shorter viewports may scroll vertically.",
+    "No deployment, push, other design access, or agent delegation."
+  ]
+}

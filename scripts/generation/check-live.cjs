@@ -36,6 +36,18 @@ const path = require('node:path');
         window.requestAnimationFrame = callback => raf(time => {
           if (!window.__freezeCanvasCapture) callback(time);
         });
+        window.__captureDrawSamples = [];
+        const observer = new MutationObserver(() => {
+          if (!document.querySelector('[data-loaded="true"],[data-scene="loaded"]')) return;
+          observer.disconnect();
+          // Bound the software renderer's active capture window. Samples are
+          // real WebGL calls taken at distinct times before freezing anything.
+          for (const delay of [500,1500,2500]) setTimeout(() => {
+            window.__captureDrawSamples.push({time:performance.now(),calls:window.__captureDrawCalls});
+          },delay);
+          setTimeout(() => { window.__freezeCanvasCapture = true; },3000);
+        });
+        observer.observe(document,{subtree:true,attributes:true,childList:true});
       });
       const errors = [], consoleErrors = [], failedRequests = [], badResponses = [];
       page.on('pageerror', error => errors.push(error.message));
@@ -138,13 +150,18 @@ const path = require('node:path');
           if (before > 0) break;
           await page.waitForTimeout(250);
         }
+        const samples = await page.evaluate(() => window.__captureDrawSamples);
+        if (samples.length >= 2) {
+          before = samples[0].calls;
+        } else {
         // Spline may use demand rendering: real pointer input must also be able
         // to produce another frame even when the scene is otherwise stationary.
         await page.mouse.move(viewport.width*.75,viewport.height*.35);
         await page.mouse.move(viewport.width*.55,viewport.height*.6,{steps:6});
         await page.waitForTimeout(1200);
-        const after = await page.evaluate(() => window.__captureDrawCalls);
-        canvasRendering = {before,after,drawCallsAdvanced:after>before,canvas:await page.locator('canvas').count()};
+        }
+        const after = samples.length >= 2 ? samples[samples.length-1].calls : await page.evaluate(() => window.__captureDrawCalls);
+        canvasRendering = {before,after,drawCallsAdvanced:after>before,drawSamples:samples,canvas:await page.locator('canvas').count()};
         if (!before || after <= before || !canvasRendering.canvas) {
           console.error(JSON.stringify({viewport:name,canvasRendering,errors,consoleErrors,failedRequests,badResponses}));
           throw Error('Original WebGL scene did not produce initial and subsequent frames');

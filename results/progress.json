@@ -1,9 +1,8 @@
 {
-  "updated_utc": "2026-10-30T05:58:28.818991+00:00",
+  "updated_utc": "2026-10-30T06:03:09.789577+00:00",
   "total": 380,
   "counts": {
-    "complete": 354,
-    "validating": 1,
+    "complete": 355,
     "running": 5,
     "not_started": 20
   },
@@ -3501,11 +3500,11 @@
       "id": "automation-machines-hero",
       "title": "Automation Machines",
       "category": "Hero Section",
-      "status": "validating",
+      "status": "complete",
       "thread_id": "01a18b52-e476-7a71-8466-79b12fdac0e2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "cab343122616e0d27940b8a8418c8c9fed6818d8",
+      "group_message_id": 424,
+      "url": "https://tool.luo-xd.com/motionsites-results/automation-machines-hero/"
     },
     {
       "id": "focus-ai-landing",
@@ -3582,7 +3581,7 @@
       "title": "Social Media Posts",
       "category": "Social Media",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b60-20b1-7ec1-b805-d265160067d3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3592,7 +3591,7 @@
       "title": "E-commerce Website",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b60-2153-7ce0-9de8-21d6effdce4e",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3602,7 +3601,7 @@
       "title": "Digital Epoch",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b60-21f9-71f3-93dd-352421c685fc",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3612,7 +3611,7 @@
       "title": "EcoVolta",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b60-22b4-7fc2-92d9-c3a40d07e8b9",
       "source_commit": null,
       "group_message_id": null,
       "url": null

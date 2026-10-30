@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 354/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 355/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -433,7 +433,7 @@
 | 346 | `lumina-footer` | Lumina | Footer Section | 1 | 无 | 已完成 |
 | 347 | `nexacore-hero` | NexaCore | Landing Page | 1 | 无 | 已完成 |
 | 348 | `guardnet-landing` | Guardnet | Landing Page | 1 | 无 | 已完成 |
-| 349 | `automation-machines-hero` | Automation Machines | Hero Section | 1 | 无 | 验收中 |
+| 349 | `automation-machines-hero` | Automation Machines | Hero Section | 1 | 无 | 已完成 |
 | 350 | `focus-ai-landing` | Focus AI | Landing Page | 1 | 无 | 已完成 |
 | 351 | `design-rocket-email-hero` | Email Marketing | Email Marketing | 1 | 无 | 已完成 |
 | 352 | `rivr-defi-landing` | RIVR DeFi | Landing Page | 1 | 无 | 已完成 |

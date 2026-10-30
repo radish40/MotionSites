@@ -1757,7 +1757,39 @@
         "generated/gpt-6.1-sol-high/securify-hero/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/securify-hero/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "18",
+      "source_commit": "cf46205aa04505c7cb601f725031383b35492948",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:30:11.788580+00:00",
+      "observation": "Actually reviewed desktop/mobile loading state and final Inspire page, then refreshed public previews to show a readable rotating loading word and live counter. Preview capture at 1700ms waits for word opacity >=0.95; ordinary settled-page checks still run afterward. Required Next.js14/TypeScript/Framer Motion static export and genuine local Instrument Serif retained. Worker verifies Design/Create/Inspire order, padded 000-100 counter duration about 2.7s, 400ms hold plus 600ms exit, completed progress bar, page reveal and reload restart without errors/overflow. Original prompt specifies no further portfolio layout; minimal Inspire page follows loader. Actual loading captures preserved separately.",
+      "additional_review_captures": [
+        ".work/generation/loader-333-desktop-loading.png",
+        ".work/generation/loader-333-mobile-loading.png"
+      ],
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/18/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/18/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "rivr-hero",
+      "source_commit": "42e054c0ca4e86ecb2f2a4f7e1a41d5b37d1a461",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:30:11.788580+00:00",
+      "observation": "Actually reviewed desktop/mobile RIVR hero. Exact remote 3828x2164 video plays and original Helvetica font URL loads; fluid-staking badge, centered typography, active-yielders glass card and documentation corner with both faux-cutout SVG masks fit. Phone card repositions right while navigation hides. Browser verifies source decode/advancing clock, font, hover/tap scales, one main element and no overflowing visible elements, script errors or failed requests. No button destinations or dropdown content supplied; visual interactions retained without invented backend flows.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/rivr-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/rivr-hero/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T05:26:15.799602+00:00"
+  "updated_utc": "2026-10-30T05:30:11.788580+00:00"
 }

@@ -1,0 +1,65 @@
+{
+  "recorded_utc": "2026-10-30T05:30:11.788580+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 2,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T05:29:20.741855+00:00",
+      "remote_main": "cf46205aa04505c7cb601f725031383b35492948",
+      "delivery": {
+        "id": "18",
+        "title": "Loader Animation",
+        "source_commit": "cf46205aa04505c7cb601f725031383b35492948",
+        "thread_id": "01a18b3f-482d-7640-9d8e-18bd2fa45b8c",
+        "group_message_id": 401,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:25:35.693846+00:00",
+      "remote_main": "42e054c0ca4e86ecb2f2a4f7e1a41d5b37d1a461",
+      "delivery": {
+        "id": "rivr-hero",
+        "title": "RIVR",
+        "source_commit": "42e054c0ca4e86ecb2f2a4f7e1a41d5b37d1a461",
+        "thread_id": "01a18b3f-48b7-7511-b138-9d689f9f5663",
+        "group_message_id": 402,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Talent Collective",
+  "id": "talent-collective",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "desktop": "passed: Chromium 1440x1000, screenshot screenshots/desktop.png",
+    "mobile": "passed: Chromium 390x844, screenshot screenshots/mobile.png",
+    "interactions": "passed: all 8 avatar selections, active background and footer name, keyboard selection, mobile last-avatar selection, no autoplay during observation",
+    "animations": "700ms background crossfade; 500ms biography/name; 300ms active dot",
+    "assets": "all 8 exact portrait URLs and Geist loaded",
+    "layout": "no horizontal page overflow; mobile role and tenure hidden; 40px avatars with horizontal scrolling",
+    "browser_errors": 0,
+    "failed_requests": 0,
+    "dependency_audit": "0 known vulnerabilities after build-tool update",
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Page brand and document title: Kollektiva. Project index title: Talent Collective.",
+    "Vite + React 18 + TypeScript + Tailwind CSS 3, with Geist 300/400/500.",
+    "Static output uses base /motionsites-results/talent-collective/.",
+    "Exact external assets require network availability. No reference extraction or substituted portraits.",
+    "WhatsApp href remains # exactly as requested.",
+    "Verification uses containerized Chromium; other browser engines and physical phones were not tested.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

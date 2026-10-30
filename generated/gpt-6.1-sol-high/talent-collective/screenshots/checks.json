@@ -1,0 +1,128 @@
+{
+  "initial": {
+    "title": "Kollektiva",
+    "font": true,
+    "imageCount": 8,
+    "images": [
+      {
+        "alt": "Andrei Baranov",
+        "loaded": true
+      },
+      {
+        "alt": "Daria Lebedeva",
+        "loaded": true
+      },
+      {
+        "alt": "Ivan Sorokin",
+        "loaded": true
+      },
+      {
+        "alt": "Anna Fedorova",
+        "loaded": true
+      },
+      {
+        "alt": "Pavel Smirnov",
+        "loaded": true
+      },
+      {
+        "alt": "Olga Kravtsova",
+        "loaded": true
+      },
+      {
+        "alt": "Igor Zakharenko",
+        "loaded": true
+      },
+      {
+        "alt": "Ksenia Romanova",
+        "loaded": true
+      }
+    ],
+    "layers": 8,
+    "overflow": false
+  },
+  "interactions": [
+    {
+      "name": "Andrei Baranov",
+      "pressed": true,
+      "footer": true,
+      "activeBackground": true,
+      "bioAnimation": "0.5s",
+      "backgroundDuration": "0.7s"
+    },
+    {
+      "name": "Daria Lebedeva",
+      "pressed": true,
+      "footer": true,
+      "activeBackground": true,
+      "bioAnimation": "0.5s",
+      "backgroundDuration": "0.7s"
+    },
+    {
+      "name": "Ivan Sorokin",
+      "pressed": true,
+      "footer": true,
+      "activeBackground": true,
+      "bioAnimation": "0.5s",
+      "backgroundDuration": "0.7s"
+    },
+    {
+      "name": "Anna Fedorova",
+      "pressed": true,
+      "footer": true,
+      "activeBackground": true,
+      "bioAnimation": "0.5s",
+      "backgroundDuration": "0.7s"
+    },
+    {
+      "name": "Pavel Smirnov",
+      "pressed": true,
+      "footer": true,
+      "activeBackground": true,
+      "bioAnimation": "0.5s",
+      "backgroundDuration": "0.7s"
+    },
+    {
+      "name": "Olga Kravtsova",
+      "pressed": true,
+      "footer": true,
+      "activeBackground": true,
+      "bioAnimation": "0.5s",
+      "backgroundDuration": "0.7s"
+    },
+    {
+      "name": "Igor Zakharenko",
+      "pressed": true,
+      "footer": true,
+      "activeBackground": true,
+      "bioAnimation": "0.5s",
+      "backgroundDuration": "0.7s"
+    },
+    {
+      "name": "Ksenia Romanova",
+      "pressed": true,
+      "footer": true,
+      "activeBackground": true,
+      "bioAnimation": "0.5s",
+      "backgroundDuration": "0.7s"
+    }
+  ],
+  "keyboardSelection": true,
+  "hover": {
+    "href": "#",
+    "color": "rgba(255, 255, 255, 0.7)"
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "sectionHeight": 844,
+    "overflow": false,
+    "roleVisible": false,
+    "tenureVisible": false,
+    "avatarWidth": 40,
+    "pickerScroll": true,
+    "lastAvatarWorks": true,
+    "noAutoplay": true
+  },
+  "errors": [],
+  "failed": []
+}

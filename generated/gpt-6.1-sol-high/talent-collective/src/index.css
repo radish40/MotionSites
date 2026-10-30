@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+html, body, #root { width: 100%; min-height: 100%; margin: 0; }
+body { background: #aaa7a2; }
+button:focus-visible, a:focus-visible { outline: 2px solid white; outline-offset: 5px; }

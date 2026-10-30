@@ -85,6 +85,90 @@
         "generated/gpt-6.1-sol-high/shop/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/shop/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "speakup-venture-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show supplied sprout video, Recoleta heading and readable responsive content.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/speakup-venture-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/speakup-venture-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "stark-minimal-footer",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Dotted strip, navigation columns and CSS brand render at both viewports; mobile wordmark scales to avoid clipping.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/stark-minimal-footer/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/stark-minimal-footer/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "stellar-launch",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Supplied video hero and shaped frame render at both viewports; headline and CTA are readable.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/stellar-launch/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/stellar-launch/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "synthesis",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Video-to-canvas DNA hero and serif accent render at both viewports; scroll phases independently tested by original session.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/synthesis/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/synthesis/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "tech-noir-about",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Real red DOM section and signature render; bottom artwork is an isolated still-derived animated approximation because the source video is disabled. Original motion and full aspect ratio are unavailable and documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/tech-noir-about/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/tech-noir-about/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "technical-specifications",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Chart cards, tabs and numeric bars render at both viewports; mobile tabs intentionally scroll horizontally.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/technical-specifications/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/technical-specifications/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "travel-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop split headline, mobile full-width video, destination gallery and mobile tour panel inspected. All seven routes, search/client navigation and true custom 404 responses separately verified online.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/travel-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/travel-hero/screenshots/mobile.png"
+      ]
     }
   ]
 }

@@ -7344,7 +7344,7 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "delivery_hold": "Verify exported destination routes and scoped custom 404 routing before public acceptance"
+      "additional_verification": "docs/gpt-6.1-sol-high/audits/travel-hero-routes.json"
     },
     {
       "number": 215,
@@ -7362,19 +7362,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18abb-d0ce-7113-8caf-ff9e2d12b236",
       "output_path": "generated/gpt-6.1-sol-high/unwind-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 434690,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:55:26.635636+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "6403d1f84cf7587beed1233adf75c43dcbcbc189",
+      "url": "https://tool.luo-xd.com/motionsites-results/unwind-hero/",
+      "completed_utc": "2026-10-30T03:03:46.371385+00:00",
+      "group_message_id": 277
     },
     {
       "number": 216,
@@ -7392,7 +7396,7 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18abd-398e-75f2-bb0b-d95f7e8d4efc",
       "output_path": "generated/gpt-6.1-sol-high/vaultshield",
       "validation": "",
@@ -7400,7 +7404,7 @@
       "process_id": 439882,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:56:59.104259+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -7422,19 +7426,20 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a18abd-3af6-7c43-abf1-60427baef3a8",
       "output_path": "generated/gpt-6.1-sol-high/veloce-cards",
       "validation": "",
-      "notes": "Session ended without result.json; inspect existing session before retrying",
-      "process_id": 439984,
+      "notes": "Confirmed terminal UTF-8 transport failure; retry queued in the same original design session, preserving files and model configuration.",
+      "process_id": 462101,
       "launch_method": "isolated_codex_exec",
-      "started_utc": "2026-10-30T02:56:59.464435+00:00",
-      "worker_state": "terminal",
+      "started_utc": "2026-10-30T03:02:49.525790+00:00",
+      "worker_state": "running",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "repair_attempts": 1
     },
     {
       "number": 218,
@@ -7542,11 +7547,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/waitlist-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 462410,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:02:59.443583+00:00",
+      "worker_state": "running"
     },
     {
       "number": 222,
@@ -11047,7 +11056,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:02:03.262783+00:00",
+  "updated_utc": "2026-10-30T03:03:46.726611+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

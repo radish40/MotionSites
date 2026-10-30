@@ -113,7 +113,7 @@ def launch(ident, resume=False):
             '-c','model_providers.OpenAI.http_headers={"Accept-Encoding"="identity"}',
             '--json','-o',str(logs/'final.txt')]
         if resume:
-            command+=['resume',job['thread_id'],'Continue only this original design session. The provider environment issue is fixed. '+prompt]
+            command+=['resume',job['thread_id'],'Continue only this original design session after its previous turn ended. Inspect your existing files and finish the remaining work. '+prompt]
         else:command.append(prompt)
         with (logs/'events.jsonl').open('a') as stdout,(logs/'stderr.log').open('a') as stderr:
             process=subprocess.Popen(command,stdin=subprocess.DEVNULL,stdout=stdout,stderr=stderr,start_new_session=True)

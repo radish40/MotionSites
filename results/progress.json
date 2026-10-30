@@ -1,12 +1,11 @@
 {
-  "updated_utc": "2026-10-30T03:02:03.262783+00:00",
+  "updated_utc": "2026-10-30T03:03:46.726611+00:00",
   "total": 380,
   "counts": {
-    "complete": 213,
-    "ready": 1,
+    "complete": 214,
+    "ready": 2,
     "running": 5,
-    "needs_fix": 1,
-    "not_started": 160
+    "not_started": 159
   },
   "current_batch": {
     "from_number": 201,
@@ -2162,17 +2161,17 @@
       "id": "unwind-hero",
       "title": "Unwind Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18abb-d0ce-7113-8caf-ff9e2d12b236",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6403d1f84cf7587beed1233adf75c43dcbcbc189",
+      "group_message_id": 277,
+      "url": "https://tool.luo-xd.com/motionsites-results/unwind-hero/"
     },
     {
       "id": "vaultshield",
       "title": "VaultShield",
       "category": "Hero Section",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18abd-398e-75f2-bb0b-d95f7e8d4efc",
       "source_commit": null,
       "group_message_id": null,
@@ -2182,7 +2181,7 @@
       "id": "veloce-cards",
       "title": "Veloce Cards",
       "category": "Cards",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a18abd-3af6-7c43-abf1-60427baef3a8",
       "source_commit": null,
       "group_message_id": null,
@@ -2222,7 +2221,7 @@
       "id": "waitlist-hero",
       "title": "Waitlist Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

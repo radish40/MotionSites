@@ -1,0 +1,180 @@
+{
+  "recorded_utc": "2026-10-30T03:03:42.082626+00:00",
+  "scope": "Incremental delivery audits, preserving actual check times; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 6,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T02:52:25.971863+00:00",
+      "remote_main": "79c972fea22587ab5978f8b38a0712adf3cb594e",
+      "delivery": {
+        "id": "speakup-venture-hero",
+        "title": "SpeakUp Venture Hero",
+        "source_commit": "79c972fea22587ab5978f8b38a0712adf3cb594e",
+        "thread_id": "01a18ab3-b1ba-7280-a657-06d10d076e90",
+        "group_message_id": 271,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:53:02.348809+00:00",
+      "remote_main": "0ffc6cc5623139962ab1419661d4fe452f4beebd",
+      "delivery": {
+        "id": "stark-minimal-footer",
+        "title": "Stark Minimal Footer",
+        "source_commit": "ad1e0d7d6bcb4c8ebe8f0baec330762257ff0dee",
+        "thread_id": "01a18ab3-b22c-7f53-a420-b067b7c52f7e",
+        "group_message_id": 272,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:56:17.937575+00:00",
+      "remote_main": "c17dcec4ad641320dc20dc4785f1c83fa5794ea1",
+      "delivery": {
+        "id": "stellar-launch",
+        "title": "Stellar Launch",
+        "source_commit": "e323f5eacb7c33793b35b98c1675d97041c03836",
+        "thread_id": "01a18ab5-d3c3-7aa1-9e9d-4cb458f20af2",
+        "group_message_id": 273,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:00:20.100187+00:00",
+      "remote_main": "7c7804304d52227528a8005c3cda42bc249becac",
+      "delivery": {
+        "id": "synthesis",
+        "title": "Synthesis",
+        "source_commit": "9a1d8a7becde63ed4b1a130f2b1bbbf7aede9bf8",
+        "thread_id": "01a18ab5-d46c-7e12-9e0f-f4ecbd10cdc3",
+        "group_message_id": 276,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:57:45.008007+00:00",
+      "remote_main": "d41231edffc9fe4aeb61b3b83e1b646049a046d7",
+      "delivery": {
+        "id": "tech-noir-about",
+        "title": "Tech-Noir About",
+        "source_commit": "d41231edffc9fe4aeb61b3b83e1b646049a046d7",
+        "thread_id": "01a18ab5-d4eb-7e83-9fcc-a14f218704cf",
+        "group_message_id": 274,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:58:13.051442+00:00",
+      "remote_main": "3d0170b67f79b93b64dee49fb480d1a8762ee52c",
+      "delivery": {
+        "id": "technical-specifications",
+        "title": "Technical Specifications",
+        "source_commit": "ea0b118dbe5a6a04721cddfd9c4f94964fc0f0f9",
+        "thread_id": "01a18ab8-6866-7cd3-8414-14768629bd17",
+        "group_message_id": 275,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

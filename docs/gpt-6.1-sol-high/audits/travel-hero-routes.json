@@ -1,0 +1,131 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/travel-hero/",
+  "checked_utc": "2026-10-30T03:01:45.867Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "routes": [
+        {
+          "route": "",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/cold-islands-norway/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/serengeti-tanzania/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/switzerland-alps/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/norway-coastal/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/mountain-valleys-iceland/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/hidden-coves-croatia/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/desert-dunes-morocco/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "missing-review-route/",
+          "status": 404,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/missing-review-tour/",
+          "status": 404,
+          "horizontalOverflow": 0
+        }
+      ],
+      "filterAndClientNavigation": true,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "routes": [
+        {
+          "route": "",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/cold-islands-norway/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/serengeti-tanzania/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/switzerland-alps/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/norway-coastal/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/mountain-valleys-iceland/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/hidden-coves-croatia/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/desert-dunes-morocco/",
+          "status": 200,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "missing-review-route/",
+          "status": 404,
+          "horizontalOverflow": 0
+        },
+        {
+          "route": "destinations/missing-review-tour/",
+          "status": 404,
+          "horizontalOverflow": 0
+        }
+      ],
+      "filterAndClientNavigation": true,
+      "errors": []
+    }
+  ]
+}

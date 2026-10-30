@@ -1,0 +1,37 @@
+{
+  "recorded_utc": "2026-10-30T06:42:45.981657+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 1,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T06:37:02.570158+00:00",
+      "remote_main": "511966ce9f07e44b4a505a544bbb6a4a5a1123fa",
+      "delivery": {
+        "id": "yacht-club-hero",
+        "title": "Yacht Club",
+        "source_commit": "511966ce9f07e44b4a505a544bbb6a4a5a1123fa",
+        "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
+        "group_message_id": 449,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

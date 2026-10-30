@@ -2361,7 +2361,21 @@
         "generated/gpt-6.1-sol-high/keep-ahead-features/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/keep-ahead-features/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "yacht-club-hero",
+      "source_commit": "511966ce9f07e44b4a505a544bbb6a4a5a1123fa",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:42:45.981657+00:00",
+      "observation": "Reviewed actual public desktop/mobile hero, six-item menu and fleet plus desktop/mobile vessel detail examples. Independent fixed-public check proves default fallback clock and all three exact fleet detail movies advance at both sizes, desktop hover playback/specs, mobile touch/details and return, zero default Vimeo/challenge requests. Original Vimeo independently returns restricted connection-verification page and config PrivacyError: source retains exact embed only behind ?media=original; original playback NOT verified. Ocean Eclipse fleet film is the explicitly documented approximate hero background. Unmodified fleet assets/local genuine fonts retained; fixed default generic public check passes.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/yacht-club-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/yacht-club-hero/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T06:37:01.376808+00:00"
+  "updated_utc": "2026-10-30T06:42:45.981657+00:00"
 }

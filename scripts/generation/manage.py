@@ -162,7 +162,7 @@ def finish(ident, refresh=False):
     try:
         print(execute(['docker','run','--rm','-u','1000:1000','--shm-size=256m','-v',f'{ROOT}:/work',
             '--entrypoint','node','louislam/uptime-kuma:2','/work/scripts/generation/check-live.cjs',url,
-            '/work/'+str(report.relative_to(ROOT))]))
+            '/work/'+str(report.relative_to(ROOT)),*([job['preview_selector']] if job.get('preview_selector') else [])]))
     except subprocess.CalledProcessError as error:
         job['status']='needs_fix';job['validation']='Live browser check failed; see screenshots/live-check.json';save(manifest)
         print(error.stdout);raise

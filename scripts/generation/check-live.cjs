@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 (async () => {
-  const [url, output] = process.argv.slice(2);
+  const [url, output, previewSelector] = process.argv.slice(2);
   if (!url || !output) throw Error('Usage: check-live.cjs URL OUTPUT');
   fs.mkdirSync(output, { recursive: true });
   const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', args: ['--no-sandbox'] });
@@ -41,6 +41,10 @@ const path = require('node:path');
         // Headlines often enter after an introductory clip's ended event.
         await page.waitForTimeout(2000);
       }
+      if (previewSelector) {
+        await page.locator(previewSelector).first().scrollIntoViewIfNeeded();
+        await page.waitForTimeout(1500);
+      }
       const measureLayout = () => ({
         title: document.title,
         bodyChars: document.body.innerText.trim().length,
@@ -48,7 +52,7 @@ const path = require('node:path');
         images: [...document.images].map(i => {
           const rect=i.getBoundingClientRect();
           return {src:i.currentSrc,loaded:i.complete && i.naturalWidth>0,
-            visible:rect.width>0 && rect.height>0 && rect.bottom>0 && rect.top<innerHeight && getComputedStyle(i).visibility!=='hidden'};
+            visible:rect.width>0 && rect.height>0 && rect.bottom>0 && rect.top<innerHeight && rect.right>0 && rect.left<innerWidth && getComputedStyle(i).visibility!=='hidden'};
         }),
         videos: [...document.querySelectorAll('video')].map(v=>({src:v.currentSrc,readyState:v.readyState,
           paused:v.paused,currentTime:v.currentTime,duration:v.duration,ended:v.ended,loop:v.loop,autoplay:v.autoplay})),
@@ -76,7 +80,7 @@ const path = require('node:path');
   const passed = results.every(r => r.status === 200 && r.bodyChars > 0 && r.horizontalOverflow <= 3 && !r.errors.length &&
     !r.consoleErrors.some(e=>/content security policy|content-security-policy|refused to (execute|apply)|evalerror/i.test(e)) &&
     !r.badResponses.some(e=>sameOrigin(e.url)) && !r.images.some(i=>i.visible && !i.loaded));
-  const report = { url, checked_at: new Date().toISOString(), passed, results };
+  const report = { url, previewSelector:previewSelector || null, checked_at: new Date().toISOString(), passed, results };
   fs.writeFileSync(path.join(output, 'live-check.json'), JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify({url,passed,results:results.map(r=>({viewport:r.viewport,status:r.status,
     horizontalOverflow:r.horizontalOverflow,errors:r.errors,consoleErrors:r.consoleErrors,

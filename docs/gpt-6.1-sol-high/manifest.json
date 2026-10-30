@@ -7020,7 +7020,8 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "preview_selector": "section[aria-label=\"Scroll-driven design gallery\"]"
     },
     {
       "number": 206,
@@ -10873,7 +10874,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T02:40:20.883885+00:00",
+  "updated_utc": "2026-10-30T02:40:35.329516+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -1,0 +1,117 @@
+{
+  "url": "http://localhost:4173/motionsites-results/vize-footer/",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "interLoaded": true,
+        "footerHeight": 761.5
+      },
+      "motion": {
+        "opacity": "1",
+        "filter": "url(\"#glass-effect\")"
+      },
+      "passed": [
+        "render",
+        "directory and legal links",
+        "social button click and focus",
+        "link hover color",
+        "hash navigation",
+        "SVG filter",
+        "Motion entrance completed",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "interLoaded": true,
+        "footerHeight": 1216
+      },
+      "motion": {
+        "opacity": "1",
+        "filter": "url(\"#glass-effect\")"
+      },
+      "passed": [
+        "render",
+        "directory and legal links",
+        "social button click and focus",
+        "link hover color",
+        "hash navigation",
+        "SVG filter",
+        "Motion entrance completed",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "height": 1024,
+      "layout": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "interLoaded": true,
+        "footerHeight": 816.5
+      },
+      "motion": {
+        "opacity": "1",
+        "filter": "url(\"#glass-effect\")"
+      },
+      "passed": [
+        "render",
+        "directory and legal links",
+        "social button click and focus",
+        "link hover color",
+        "hash navigation",
+        "SVG filter",
+        "Motion entrance completed",
+        "no horizontal overflow"
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "fontResponses": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2"
+    },
+    {
+      "viewport": "tablet",
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "viewport": "tablet",
+      "status": 200,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2"
+    }
+  ]
+}

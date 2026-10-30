@@ -1,0 +1,37 @@
+{
+  "title": "Vize Footer",
+  "id": "vize-footer",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html generated",
+    "publication_base": "/motionsites-results/vize-footer/",
+    "browser": "Chromium via playwright-core against production dist",
+    "viewports": ["1440x1000", "390x844", "768x1024"],
+    "horizontal_overflow": "none at all checked widths",
+    "interactions": "passed: directory hover, hash link navigation, social button clicks and focus",
+    "animation": "passed: Motion entrance reaches opacity 1 and SVG filter is applied",
+    "fonts": "Inter loaded; Google Fonts CSS and WOFF2 returned HTTP 200",
+    "console_and_script_errors": 0,
+    "failed_requests": 0,
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "visual_review": "desktop and mobile screenshots reviewed",
+    "report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/vize-footer.webp",
+      "issue": "Optional reference file absent",
+      "resolution": "Implemented from complete written prompt; no screenshot comparison or extraction possible"
+    }
+  ],
+  "notes": [
+    "React, Vite, TypeScript, Tailwind CSS, lucide-react, and motion/react used as required; dependency lockfile saved.",
+    "Exact prompt CSS utilities, copy, layout, logo, and SVG filter preserved.",
+    "Google Fonts remains an external dependency with the specified system fallback.",
+    "Links use prompt-specified # targets and social buttons have no external destinations.",
+    "Mobile screenshot is a full-page capture from a 390x844 viewport.",
+    "Initial missing favicon request fixed and checks rerun on final build.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

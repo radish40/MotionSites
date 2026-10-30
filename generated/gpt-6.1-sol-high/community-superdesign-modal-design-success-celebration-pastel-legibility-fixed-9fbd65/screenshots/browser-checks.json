@@ -1,0 +1,81 @@
+{
+  "url": "/motionsites-results/community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "fonts": 5,
+      "sections": 4,
+      "card": {
+        "x": 496,
+        "y": 243.484375,
+        "width": 448,
+        "height": 499.234375,
+        "top": 243.484375,
+        "right": 944,
+        "bottom": 742.71875,
+        "left": 496
+      },
+      "badElements": [],
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "fonts": 5,
+      "sections": 4,
+      "card": {
+        "x": 24,
+        "y": 183.390625,
+        "width": 342,
+        "height": 467.78125,
+        "top": 183.390625,
+        "right": 366,
+        "bottom": 651.171875,
+        "left": 24
+      },
+      "badElements": [],
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "interactions": [
+    {
+      "viewport": "desktop",
+      "dismissReplay": true,
+      "clipboardShare": true,
+      "continueScroll": true,
+      "explorePro": true,
+      "later": true,
+      "purchasePreview": true,
+      "dialogFocusTrap": true,
+      "escapeAndFocusReturn": true,
+      "liveDemo": true,
+      "navResponsive": true
+    },
+    {
+      "viewport": "mobile",
+      "dismissReplay": true,
+      "clipboardShare": true,
+      "continueScroll": true,
+      "explorePro": true,
+      "later": true,
+      "purchasePreview": true,
+      "dialogFocusTrap": true,
+      "escapeAndFocusReturn": true,
+      "liveDemo": true,
+      "navResponsive": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "reducedMotion": true,
+  "status": "passed"
+}

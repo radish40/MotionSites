@@ -7127,19 +7127,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ab3-b1ba-7280-a657-06d10d076e90",
       "output_path": "generated/gpt-6.1-sol-high/speakup-venture-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 400083,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:46:34.419348+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "79c972fea22587ab5978f8b38a0712adf3cb594e",
+      "url": "https://tool.luo-xd.com/motionsites-results/speakup-venture-hero/",
+      "completed_utc": "2026-10-30T02:52:15.515765+00:00",
+      "group_message_id": 271
     },
     {
       "number": 209,
@@ -7157,19 +7161,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ab3-b22c-7f53-a420-b067b7c52f7e",
       "output_path": "generated/gpt-6.1-sol-high/stark-minimal-footer",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 400122,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:46:34.583653+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "ad1e0d7d6bcb4c8ebe8f0baec330762257ff0dee",
+      "url": "https://tool.luo-xd.com/motionsites-results/stark-minimal-footer/",
+      "completed_utc": "2026-10-30T02:52:37.886393+00:00",
+      "group_message_id": 272
     },
     {
       "number": 210,
@@ -7188,14 +7196,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ab5-d3c3-7aa1-9e9d-4cb458f20af2",
       "output_path": "generated/gpt-6.1-sol-high/stellar-launch",
       "validation": "",
       "notes": "",
       "process_id": 407800,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:48:54.368773+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 211,
@@ -7214,14 +7226,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ab5-d46c-7e12-9e0f-f4ecbd10cdc3",
       "output_path": "generated/gpt-6.1-sol-high/synthesis",
       "validation": "",
       "notes": "",
       "process_id": 407836,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:48:54.481315+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 212,
@@ -7240,14 +7256,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ab5-d4eb-7e83-9fcc-a14f218704cf",
       "output_path": "generated/gpt-6.1-sol-high/tech-noir-about",
       "validation": "",
       "notes": "",
       "process_id": 407892,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:48:54.617962+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 213,
@@ -7265,11 +7285,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/technical-specifications",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 419169,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:51:43.393859+00:00",
+      "worker_state": "running"
     },
     {
       "number": 214,
@@ -7287,11 +7311,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/travel-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 419193,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:51:43.543830+00:00",
+      "worker_state": "running"
     },
     {
       "number": 215,
@@ -10946,7 +10974,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T02:50:48.150588+00:00",
+  "updated_utc": "2026-10-30T02:52:38.059638+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

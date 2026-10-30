@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T02:50:48.150588+00:00",
+  "updated_utc": "2026-10-30T02:52:38.059638+00:00",
   "total": 380,
   "counts": {
-    "complete": 207,
+    "complete": 209,
     "running": 5,
-    "not_started": 168
+    "not_started": 166
   },
   "current_batch": {
     "from_number": 201,
@@ -2090,28 +2090,28 @@
       "id": "speakup-venture-hero",
       "title": "SpeakUp Venture Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ab3-b1ba-7280-a657-06d10d076e90",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "79c972fea22587ab5978f8b38a0712adf3cb594e",
+      "group_message_id": 271,
+      "url": "https://tool.luo-xd.com/motionsites-results/speakup-venture-hero/"
     },
     {
       "id": "stark-minimal-footer",
       "title": "Stark Minimal Footer",
       "category": "Footer Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ab3-b22c-7f53-a420-b067b7c52f7e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "ad1e0d7d6bcb4c8ebe8f0baec330762257ff0dee",
+      "group_message_id": 272,
+      "url": "https://tool.luo-xd.com/motionsites-results/stark-minimal-footer/"
     },
     {
       "id": "stellar-launch",
       "title": "Stellar Launch",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ab5-d3c3-7aa1-9e9d-4cb458f20af2",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2121,7 +2121,7 @@
       "title": "Synthesis",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ab5-d46c-7e12-9e0f-f4ecbd10cdc3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2131,7 +2131,7 @@
       "title": "Tech-Noir About",
       "category": "About Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ab5-d4eb-7e83-9fcc-a14f218704cf",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2140,7 +2140,7 @@
       "id": "technical-specifications",
       "title": "Technical Specifications",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2150,7 +2150,7 @@
       "id": "travel-hero",
       "title": "Scenic Travel",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

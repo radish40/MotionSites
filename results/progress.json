@@ -1,12 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:34:57.088793+00:00",
+  "updated_utc": "2026-10-30T05:37:07.520732+00:00",
   "total": 380,
   "counts": {
-    "complete": 338,
-    "ready": 1,
-    "blocked": 1,
-    "running": 4,
-    "not_started": 36
+    "complete": 340,
+    "running": 5,
+    "not_started": 35
   },
   "current_batch": {
     "from_number": 201,
@@ -3392,11 +3390,11 @@
       "id": "flowmate-landing",
       "title": "FlowMate",
       "category": "Landing Page",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18b44-00d1-7500-a95c-ea0ffcf2ec45",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "bc41697a351e20323cb65292ddfe695c52c5c2d2",
+      "group_message_id": 407,
+      "url": "https://tool.luo-xd.com/motionsites-results/flowmate-landing/"
     },
     {
       "id": "luminex-hero",
@@ -3412,7 +3410,7 @@
       "id": "nike-premium-landing",
       "title": "Nike Premium Landing",
       "category": "Landing Page",
-      "status": "blocked",
+      "status": "running",
       "thread_id": "01a18b46-0a87-7553-b4b4-81fa909d2609",
       "source_commit": null,
       "group_message_id": null,
@@ -3442,11 +3440,11 @@
       "id": "crypto-wealth-hero",
       "title": "Crypto Wealth",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b4a-2fc1-7871-9fe7-e89d4bbeff4b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b098b066c5f1459f4c6e3fa33345cabec6cf259f",
+      "group_message_id": 408,
+      "url": "https://tool.luo-xd.com/motionsites-results/crypto-wealth-hero/"
     },
     {
       "id": "shamoni-hero",
@@ -3462,7 +3460,7 @@
       "id": "glow-features",
       "title": "Glow Features",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

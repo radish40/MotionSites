@@ -1,0 +1,211 @@
+{
+  "recorded_utc": "2026-10-30T05:05:27.851149+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 7,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:58:02.171740+00:00",
+      "remote_main": "b302a24a8e79e90678ba89d22c42f79fa15a0676",
+      "delivery": {
+        "id": "growth-decisions",
+        "title": "Growth Decisions",
+        "source_commit": "b302a24a8e79e90678ba89d22c42f79fa15a0676",
+        "thread_id": "01a18b26-dbe1-7103-a522-649e1d92f599",
+        "group_message_id": 378,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:58:40.833558+00:00",
+      "remote_main": "45de0637189f7a29b8cc097ab5bb1a2e9e4d0886",
+      "delivery": {
+        "id": "aurex-finance",
+        "title": "Aurex Finance",
+        "source_commit": "45de0637189f7a29b8cc097ab5bb1a2e9e4d0886",
+        "thread_id": "01a18b26-dd45-77a3-952f-55e47f016872",
+        "group_message_id": 379,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:04:48.689396+00:00",
+      "remote_main": "7ccf2d39ed8cf7e1322926e843bc2d8ce4cba4ae",
+      "delivery": {
+        "id": "agent-wave",
+        "title": "Agent Wave",
+        "source_commit": "7ccf2d39ed8cf7e1322926e843bc2d8ce4cba4ae",
+        "thread_id": "01a18b28-7782-7f80-9f15-18492bfb45dd",
+        "group_message_id": 383,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:01:06.664900+00:00",
+      "remote_main": "5f95aa15d75d9065020c495ca60ad12c9af4c040",
+      "delivery": {
+        "id": "palomar-labs",
+        "title": "Palomar Labs",
+        "source_commit": "5f95aa15d75d9065020c495ca60ad12c9af4c040",
+        "thread_id": "01a18b28-785e-7001-b889-755abb8414b6",
+        "group_message_id": 380,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:02:43.456549+00:00",
+      "remote_main": "796bd65abea93e765fa633bd75d5e81df1fa70ab",
+      "delivery": {
+        "id": "scaling-platform",
+        "title": "Scaling Platform",
+        "source_commit": "796bd65abea93e765fa633bd75d5e81df1fa70ab",
+        "thread_id": "01a18b28-7935-75f0-89e3-62f3faeae3b4",
+        "group_message_id": 381,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:03:09.347205+00:00",
+      "remote_main": "515d886ddeee211418f86319c917429c92fd58b5",
+      "delivery": {
+        "id": "quantum-lucid",
+        "title": "Quantum Lucid",
+        "source_commit": "deb904f7d111dba7c4e3d974e81acec7ec97a960",
+        "thread_id": "01a18b2a-abb4-7253-a0f3-877311534427",
+        "group_message_id": 382,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:05:14.937277+00:00",
+      "remote_main": "9f83195be29f7d42a9039c494b9aa136c26d2315",
+      "delivery": {
+        "id": "space-planet",
+        "title": "Space planet",
+        "source_commit": "e62e540849e4f5599cc80ce55e69a267be21ffa0",
+        "thread_id": "01a18b2a-aca3-73a1-a352-59274186191b",
+        "group_message_id": 384,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

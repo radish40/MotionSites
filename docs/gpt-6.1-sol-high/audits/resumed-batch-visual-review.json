@@ -1426,7 +1426,114 @@
         "generated/gpt-6.1-sol-high/pet-diagnostics/screenshots/mobile.png"
       ],
       "reviewed_utc": "2026-10-30T04:57:25.287079+00:00"
+    },
+    {
+      "id": "growth-decisions",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop, phone, original phone-menu capture, settled public menu and scrolled public phone lede. Exact painterly mountain video, sharp-cornered controls, left headline and blue accent fit. Initial menu image caught button wipe mid-animation; public check after 1.6 seconds confirms full Book Demo label and unclipped button. Public phone scroll confirms white lede remains visible over video; full-page capture of nested body scrolling omits out-of-viewport compositor video. Worker verifies original video decoding/clock, menu links/Escape, three unchanged bars, hover inversion, reduced-motion solid accent and short desktop. All supplied # links retained.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/growth-decisions/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/growth-decisions/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/growth-decisions/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:05:27.851149+00:00",
+      "additional_review_captures": [
+        ".work/generation/growth-311-menu-settled.png",
+        ".work/generation/growth-311-menu-scrolled.png"
+      ]
+    },
+    {
+      "id": "aurex-finance",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop, phone and open phone menu. Exact luminous-flower video, Graphik display and Manrope UI loaded. Specified 20/35px gutter, three empty node squares with elbow connectors, grid and eight plus marks fit; phone hides nodes and info card at the separate prescribed breakpoints. Wallet status is presentation copy, not a real wallet connection. Browser verifies 640/768/1024 widths, no overflow, menu closure/selection and CTA hover. No substituted assets.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/aurex-finance/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/aurex-finance/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/aurex-finance/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:05:27.851149+00:00"
+    },
+    {
+      "id": "agent-wave",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed final desktop, phone and full-width phone menu after original worker corrected menu width. Exact supplied particle-wave movie converted to animated WebP because the prompt simultaneously supplies MP4 and explicitly prohibits video. Conversion retains full source resolution, duration and 24fps; original source and conversion script retained; 38MiB transfer size and lossy particle softening disclosed. Genuine local Inter and italic Instrument Serif, no scrim, metal-pill hover, eight viewport checks, menu/Escape/link/resize closure, no-JS content and reduced-motion static first frame verified. Fragment destinations remain as specified without invented sections.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/agent-wave/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/agent-wave/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/agent-wave/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:05:27.851149+00:00"
+    },
+    {
+      "id": "palomar-labs",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop, phone and cream full-screen phone menu. Exact landscape video plays with bottom cover framing; all six fonts loaded, five investor wordmarks use specified mixed display fonts. Header, announcement, light headline and backed-by row fit without extra sections or hero CTA. Browser confirms scroll-dependent header, mobile menu after scrolling, selection/Escape/resize closure and body scroll restoration. Desktop Solutions intentionally has no dropdown.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/palomar-labs/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/palomar-labs/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/palomar-labs/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:05:27.851149+00:00"
+    },
+    {
+      "id": "scaling-platform",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed worker full desktop and full phone pages, including both exact specified sections and second video, then independently verified both published video clocks advance on desktop and phone. HEVC originals did not decode in available Chromium; original files retained with reproducible H.264 CRF19 conversion at original dimensions, 24fps and duration. Minor lossy recompression disclosed. Quantico type, staircase headings, cyan chamfered CTAs, contained hero framing and cyan hue-blended About video retained. Worker verifies navigation/CTAs/menu and additional widths without overflow. No recipient supplied for contact mailto; no invented contact backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/scaling-platform/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/scaling-platform/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:05:27.851149+00:00",
+      "additional_review_captures": [
+        ".work/generation/scaling-315-desktop-full.png",
+        ".work/generation/scaling-315-mobile-full.png"
+      ]
+    },
+    {
+      "id": "quantum-lucid",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop, phone and phone dropdown captures. Native single-file Quantum squared page preserves scaled 1290x860 desktop stage, compact grid, proportional mockup and intentionally clipped card at viewport bottom. Original video/poster load and play. Required Google Fonts 100..900 request fails because genuine Figtree source exposes 300..900; same-family variable font recovered and embedded, exact original link retained, error disclosed. All used fractional weights fall within actual native range. Browser verifies reference desktop, tablet, small phone, landscape scrolling, menu closures/focus, entrance cleanup, reduced motion and no-JS grid/menu. Tabs remain visual Outcomes selection as explicitly requested.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/quantum-lucid/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/quantum-lucid/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/quantum-lucid/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:05:27.851149+00:00"
+    },
+    {
+      "id": "space-planet",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop Earth, Venus and Mars states, phone Earth and phone menu. All original videos, stills and transparent cutouts retained; Prata/Hanken Grotesk/Poppins loaded. Initial lazy sources, reversible Earth-Venus-Mars-Earth rotation, same-frame image class swaps without src reassignment, keyboard switching, intent preload, menu closure and reduced-motion matching still verified. Browser reports all three movies decoded/played and cutout toggles at most 0.2ms. All integer widths 320–2560 and short/tablet layouts checked for horizontal overflow; entrance classes removed. Scroll affordance and # links retained without adding unspecified second section.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/space-planet/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/space-planet/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/space-planet/screenshots/desktop-venus.png",
+        "generated/gpt-6.1-sol-high/space-planet/screenshots/desktop-mars.png",
+        "generated/gpt-6.1-sol-high/space-planet/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:05:27.851149+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:57:25.287079+00:00"
+  "updated_utc": "2026-10-30T05:05:27.851149+00:00"
 }

@@ -1,0 +1,57 @@
+{
+  "checked_utc": "2026-10-30T05:03:20.871Z",
+  "results": [
+    {
+      "viewport": "desktop",
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scaling-platform/assets/hero.mp4",
+          "time": 1.231986,
+          "duration": 8.041667,
+          "width": 1920,
+          "height": 1080,
+          "paused": false,
+          "error": null
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scaling-platform/assets/about.mp4",
+          "time": 1.2159,
+          "duration": 8.041667,
+          "width": 1440,
+          "height": 1440,
+          "paused": false,
+          "error": null
+        }
+      ],
+      "scriptErrors": [],
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scaling-platform/assets/hero.mp4",
+          "time": 1.211046,
+          "duration": 8.041667,
+          "width": 1920,
+          "height": 1080,
+          "paused": false,
+          "error": null
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scaling-platform/assets/about.mp4",
+          "time": 1.295571,
+          "duration": 8.041667,
+          "width": 1440,
+          "height": 1440,
+          "paused": false,
+          "error": null
+        }
+      ],
+      "scriptErrors": [],
+      "passed": true
+    }
+  ],
+  "id": "scaling-platform",
+  "source_commit": "796bd65abea93e765fa633bd75d5e81df1fa70ab"
+}

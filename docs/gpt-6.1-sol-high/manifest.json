@@ -8557,11 +8557,11 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "validating",
+      "status": "complete",
       "thread_id": "01a18ae3-68e6-7723-833c-2a2026e24d7f",
       "output_path": "generated/gpt-6.1-sol-high/railroad.ai",
-      "validation": "",
-      "notes": "Delivery failed; inspect private delivery.log and public browser report",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
+      "notes": "Publisher now accepts original railroad.ai catalog id; normal delivery retry pending.",
       "process_id": 596435,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:38:41.566086+00:00",
@@ -8570,7 +8570,17 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "delivery_failures": 3
+      "delivery_failures": 0,
+      "delivery_recovery": {
+        "issue": "Publisher rejected valid dotted catalog id",
+        "fix": "Allow dot-separated nonempty alphanumeric-led segments; path traversal and hidden ids remain rejected",
+        "previous_failures": 3,
+        "fixed_utc": "2026-10-30T03:46:56.912814+00:00"
+      },
+      "source_commit": "ceec8b7456ddac3afce83eadc9ea8243ac1e3f5a",
+      "url": "https://tool.luo-xd.com/motionsites-results/railroad.ai/",
+      "completed_utc": "2026-10-30T03:47:49.933607+00:00",
+      "group_message_id": 315
     },
     {
       "number": 251,
@@ -8588,19 +8598,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae6-d35f-7aa0-9f00-a1453c9d5728",
       "output_path": "generated/gpt-6.1-sol-high/sky-elite-private-jets",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 612195,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:42:25.545964+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b0545b6516786e40c7b31b968694c55dd2d37d17",
+      "url": "https://tool.luo-xd.com/motionsites-results/sky-elite-private-jets/",
+      "completed_utc": "2026-10-30T03:48:17.688525+00:00",
+      "group_message_id": 316
     },
     {
       "number": 252,
@@ -8648,19 +8662,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae6-d4d7-7ae2-93b9-3f867c81fa0e",
       "output_path": "generated/gpt-6.1-sol-high/taskly",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 612324,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:42:25.833269+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f759e0d1b4d1f1a482e0b5b7358ab6be14dfcbcb",
+      "url": "https://tool.luo-xd.com/motionsites-results/taskly/",
+      "completed_utc": "2026-10-30T03:48:44.523226+00:00",
+      "group_message_id": 317
     },
     {
       "number": 254,
@@ -8709,14 +8727,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ae9-b936-7fb1-a863-9550418b7a2f",
       "output_path": "generated/gpt-6.1-sol-high/terra-geo-map",
       "validation": "",
       "notes": "",
       "process_id": 623564,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:45:35.430425+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 256,
@@ -8734,11 +8756,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/transform-data",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 628992,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:47:20.423949+00:00",
+      "worker_state": "running"
     },
     {
       "number": 257,
@@ -8756,11 +8782,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/velorah",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 629060,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:47:20.563951+00:00",
+      "worker_state": "running"
     },
     {
       "number": 258,
@@ -10939,7 +10969,7 @@
       "output_path": "",
       "validation": "",
       "notes": "",
-      "delivery_hold": "Management must configure scoped frame-src https://player.vimeo.com for this prompt-required iframe and verify actual public background and fleet video playback before delivery."
+      "delivery_hold": "Scoped Vimeo frame-src installed and verified. Management must publish unlisted and verify actual original background player and all fleet videos at desktop/mobile before removing this hold."
     },
     {
       "number": 357,
@@ -11470,7 +11500,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:46:27.000797+00:00",
+  "updated_utc": "2026-10-30T03:48:44.747925+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

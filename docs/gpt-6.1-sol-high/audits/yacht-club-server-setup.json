@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-10-30T03:48:24.243293+00:00",
+  "scope": "Server preparation only. Actual Yacht Club page/player and fleet playback acceptance remains pending when design #356 is generated.",
+  "nginx_syntax_and_reload": "passed",
+  "scoped_vimeo_frame_source": true,
+  "existing_default_frame_source": "unchanged",
+  "responses": [
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/__setup-probe__",
+      "status": 404,
+      "content_security_policy": "default-src 'none'; script-src 'self' 'unsafe-inline' https: blob:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; media-src 'self' blob: https:; font-src 'self' data: https:; connect-src 'self' https:; worker-src 'self' blob:; frame-src https://player.vimeo.com; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/travel-hero/__setup-probe__",
+      "status": 404,
+      "content_security_policy": "default-src 'none'; script-src 'self' 'unsafe-inline' https: blob:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; media-src 'self' blob: https:; font-src 'self' data: https:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/",
+      "status": 200,
+      "content_security_policy": "default-src 'none'; script-src 'self' 'unsafe-inline' https: blob:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; media-src 'self' blob: https:; font-src 'self' data: https:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
+    }
+  ]
+}

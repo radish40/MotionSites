@@ -17,7 +17,9 @@ def main():
     p.add_argument('name', help='design id, or index')
     p.add_argument('source', type=Path)
     args = p.parse_args()
-    if not re.fullmatch(r'[a-z0-9][a-z0-9-]*', args.name):
+    # Catalog ids can contain dot-separated words (for example railroad.ai).
+    # Require nonempty alphanumeric-led segments; dots cannot form path traversal.
+    if not re.fullmatch(r'[a-z0-9][a-z0-9-]*(?:\.[a-z0-9][a-z0-9-]*)*', args.name):
         p.error('Invalid design id')
     source = args.source.resolve()
     if not source.is_dir() or not (source / 'index.html').is_file():

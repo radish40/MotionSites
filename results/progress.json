@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:46:27.000797+00:00",
+  "updated_utc": "2026-10-30T03:48:44.747925+00:00",
   "total": 380,
   "counts": {
-    "complete": 249,
-    "validating": 1,
+    "complete": 252,
     "running": 5,
-    "not_started": 125
+    "not_started": 123
   },
   "current_batch": {
     "from_number": 201,
@@ -2511,21 +2510,21 @@
       "id": "railroad.ai",
       "title": "Railroad.ai",
       "category": "Hero Section",
-      "status": "validating",
+      "status": "complete",
       "thread_id": "01a18ae3-68e6-7723-833c-2a2026e24d7f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "ceec8b7456ddac3afce83eadc9ea8243ac1e3f5a",
+      "group_message_id": 315,
+      "url": "https://tool.luo-xd.com/motionsites-results/railroad.ai/"
     },
     {
       "id": "sky-elite-private-jets",
       "title": "SkyElite Private Jets",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae6-d35f-7aa0-9f00-a1453c9d5728",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b0545b6516786e40c7b31b968694c55dd2d37d17",
+      "group_message_id": 316,
+      "url": "https://tool.luo-xd.com/motionsites-results/sky-elite-private-jets/"
     },
     {
       "id": "stellar-ai",
@@ -2541,11 +2540,11 @@
       "id": "taskly",
       "title": "Taskly",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae6-d4d7-7ae2-93b9-3f867c81fa0e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f759e0d1b4d1f1a482e0b5b7358ab6be14dfcbcb",
+      "group_message_id": 317,
+      "url": "https://tool.luo-xd.com/motionsites-results/taskly/"
     },
     {
       "id": "taskora-saa-s-hero",
@@ -2562,7 +2561,7 @@
       "title": "Terra Geo Map",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ae9-b936-7fb1-a863-9550418b7a2f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2571,7 +2570,7 @@
       "id": "transform-data",
       "title": "Transform Data",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2581,7 +2580,7 @@
       "id": "velorah",
       "title": "Velorah",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

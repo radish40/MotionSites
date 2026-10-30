@@ -1,0 +1,36 @@
+{
+  "title": "EcoVolta",
+  "id": "ecovolta-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium 390x844",
+    "overflow": "none at either viewport",
+    "javascript_errors": 0,
+    "failed_asset_requests": 0,
+    "video": "original video decoded, autoplaying muted and inline; play/pause verified",
+    "fonts": "Inter 300\u2013900 bundled locally; Noto Color Emoji added for exact badge glyphs",
+    "heading_animation": "all letters visible after staggered reveal",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional EcoVolta reference preview",
+      "issue": "Specified reference file does not exist; design implemented from PROMPT.md."
+    }
+  ],
+  "notes": [
+    "All source, assets, build output, documentation, and browser evidence are inside this project.",
+    "Original supplied video and three image URLs recovered and bundled without visual substitutions.",
+    "Inter and badge emoji font are self-hosted; no runtime external asset requests.",
+    "The prompt specifies no destinations or downstream workflows for navigation, language, sign-in, or CTA controls. They are presentation-only. The glass video control is functional.",
+    "No deployment, push, other session, or sub-agent was used.",
+    "ready means prepared for review, not published."
+  ]
+}

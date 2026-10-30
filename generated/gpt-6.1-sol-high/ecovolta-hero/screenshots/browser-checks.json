@@ -1,0 +1,68 @@
+{
+  "desktop": {
+    "width": 1440,
+    "height": 1000,
+    "scrollWidth": 1440,
+    "scrollHeight": 1000,
+    "video": {
+      "readyState": 4,
+      "playing": true,
+      "width": 1924,
+      "height": 1076
+    },
+    "images": [
+      {
+        "src": "/motionsites-results/ecovolta-hero/assets/avatar-left.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ecovolta-hero/assets/avatar-right.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ecovolta-hero/assets/avatar-center.webp",
+        "loaded": true
+      }
+    ],
+    "font": true,
+    "heading": "Renewable Power For Tomorrow, Infinite Clean Solutions",
+    "letterOpacity": true,
+    "playPausePassed": true,
+    "errors": [],
+    "failedResponses": [],
+    "noOverflow": true
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "scrollHeight": 844,
+    "video": {
+      "readyState": 4,
+      "playing": true,
+      "width": 1924,
+      "height": 1076
+    },
+    "images": [
+      {
+        "src": "/motionsites-results/ecovolta-hero/assets/avatar-left.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ecovolta-hero/assets/avatar-right.webp",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/ecovolta-hero/assets/avatar-center.webp",
+        "loaded": true
+      }
+    ],
+    "font": true,
+    "heading": "Renewable Power For Tomorrow, Infinite Clean Solutions",
+    "letterOpacity": true,
+    "playPausePassed": true,
+    "errors": [],
+    "failedResponses": [],
+    "noOverflow": true
+  }
+}

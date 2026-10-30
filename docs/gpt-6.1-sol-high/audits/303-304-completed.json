@@ -1,0 +1,66 @@
+{
+  "recorded_utc": "2026-10-30T04:49:27.709253+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 2,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:48:16.111670+00:00",
+      "remote_main": "aec2a5e2cb98a75447ee614aa46892569f0775a5",
+      "delivery": {
+        "id": "task-engine",
+        "title": "Task Engine",
+        "source_commit": "aec2a5e2cb98a75447ee614aa46892569f0775a5",
+        "thread_id": "01a18b1d-7fca-79f1-b4a0-27c2f4274dd1",
+        "group_message_id": 370,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:49:02.129692+00:00",
+      "remote_main": "e76b5aca47ee7b23bb471025413742d7051108b6",
+      "delivery": {
+        "id": "autonomous-ops",
+        "title": "Autonomous Ops",
+        "source_commit": "6f316e58154e6de2c39903bade5c9448713988bb",
+        "thread_id": "01a18b1d-80f6-7b20-9a07-af390832718e",
+        "group_message_id": 371,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

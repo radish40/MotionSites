@@ -1311,7 +1311,37 @@
         "generated/gpt-6.1-sol-high/intelligence-layer/screenshots/mobile-menu.png"
       ],
       "reviewed_utc": "2026-10-30T04:47:03.505905+00:00"
+    },
+    {
+      "id": "task-engine",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile first viewport and additional public full mobile page reviewed. All five specified native HTML/CSS/SVG mosaic panels reflow vertically, including the seven-day chart and search at the bottom. Real browser observes 25 one-shot animations then detachment, tablet geometry, editable native search and immediate reduced-motion visibility. Brand SVG source paths were not supplied; reconstructed Teams/Notion and other brand geometry disclosed. Microphone/integration marks are illustrative because behavior was not specified.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/task-engine/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/task-engine/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:49:27.709253+00:00",
+      "additional_review_captures": [
+        ".work/generation/task-303-mobile-full.png"
+      ]
+    },
+    {
+      "id": "autonomous-ops",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and full mobile stack actually reviewed: three warm product cards, 24 chart bars, native DPR-aware Canvas sparkle and five converging ribbons, labels and copied workflow text fit. Browser verifies center-first entrance, tablet and short-desktop scaling, phone scrolling, no external requests, reduced-motion/no-animate/thrown-animate fallbacks and no-JavaScript text visibility. Original system font stacks retained; Segoe/Arial availability varies by OS. Automate pill is the specified presentation element without an unspecified backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/autonomous-ops/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/autonomous-ops/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/autonomous-ops/screenshots/mobile-full.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:49:27.709253+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:47:03.505905+00:00"
+  "updated_utc": "2026-10-30T04:49:27.709253+00:00"
 }

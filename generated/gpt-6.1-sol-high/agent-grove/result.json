@@ -1,0 +1,42 @@
+{
+  "title": "Agent Grove",
+  "id": "agent-grove",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "stack": "React + Tailwind CSS + lucide-react + Vite",
+    "publish_base": "/motionsites-results/agent-grove/",
+    "desktop": {
+      "viewport": "1440x1000",
+      "status": "passed",
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "status": "passed",
+      "screenshot": "screenshots/mobile.png"
+    },
+    "mobile_menu_screenshot": "screenshots/mobile-menu.png",
+    "browser_report": "screenshots/browser-checks.json",
+    "script_errors": [],
+    "layout_overflow": false,
+    "video": "Original URL autoplay/muted/loop playback verified in both viewports",
+    "fonts": "Exact Geist and Silkscreen loaded",
+    "interactions": "Desktop CTA focus and nav hover; mobile opening, Escape/backdrop/link/CTA dismissal, body scroll lock/restoration; invalid/valid email handling"
+  },
+  "asset_issues": [
+    "No unavailable required asset in the final run. Exact video/avatar URLs retained with bundled original-file fallbacks.",
+    "Bundled original Google font TTFs provide reliable rendering alongside the exact requested Google Fonts link. Initial broad font assertion included unused Unicode faces; actual loaded faces pass.",
+    "Browser report contains canceled video range requests (net::ERR_ABORTED); playback still passed using the original remote source.",
+    "Requested pravatar URL currently differs visually from the reference portrait; exact URL preserved."
+  ],
+  "notes": [
+    "Ready means available for review, not deployed. No push, deployment, other design, or agent delegation performed.",
+    "Page title is Nexum Hero; project index title remains Agent Grove.",
+    "One real DOM hero section; no overlay gradient or reference screenshot embedded.",
+    "Unspecified nav destinations target the hero. Signup validates/confirms locally without backend or persistence.",
+    "Screenshots freeze video at one second for visual inspection; normal page plays continuously.",
+    "README.md documents build, browser verification, assets, and limits. Dependency lockfile included; node_modules excluded from deliverable."
+  ]
+}

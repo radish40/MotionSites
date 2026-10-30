@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { margin: 0; font-family: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.cta { background: linear-gradient(to bottom, #2B2B2B, #101010); transition: opacity 150ms; }
+.cta:hover { opacity: .9; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+@supports (height: 100dvh) { .hero { height: 100dvh; } }

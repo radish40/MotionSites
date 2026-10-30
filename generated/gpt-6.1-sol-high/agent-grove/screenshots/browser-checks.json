@@ -1,0 +1,108 @@
+{
+  "url": "http://localhost:4173/motionsites-results/agent-grove/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "layout": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "innerWidth": 1440,
+        "innerHeight": 1000,
+        "main": {
+          "x": 0,
+          "y": 701,
+          "width": 1440,
+          "height": 299,
+          "top": 701,
+          "right": 1440,
+          "bottom": 1000,
+          "left": 0
+        },
+        "font": true,
+        "statsFont": true,
+        "headlineColor": "rgb(255, 255, 255)"
+      },
+      "video": {
+        "time": 1.846805,
+        "muted": true,
+        "loop": true,
+        "paused": false,
+        "width": 1920,
+        "height": 1080,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260803_192301_9231ed6b-c55c-4a48-909c-4ebe11cf2e11.mp4"
+      },
+      "checks": [
+        "video autoplay, muted, loop and playback",
+        "fonts loaded",
+        "no page overflow",
+        "main content visible",
+        "navigation CTA focuses email",
+        "nav hover checked: rgba(255, 255, 255, 0.1)",
+        "email rejects invalid input and confirms valid input locally"
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "main": {
+          "x": 0,
+          "y": 275,
+          "width": 390,
+          "height": 569,
+          "top": 275,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "font": true,
+        "statsFont": true,
+        "headlineColor": "rgb(1, 1, 1)"
+      },
+      "video": {
+        "time": 1.846945,
+        "muted": true,
+        "loop": true,
+        "paused": false,
+        "width": 1920,
+        "height": 1080,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260803_192301_9231ed6b-c55c-4a48-909c-4ebe11cf2e11.mp4"
+      },
+      "checks": [
+        "video autoplay, muted, loop and playback",
+        "fonts loaded",
+        "no page overflow",
+        "main content visible",
+        "menu opens, Escape/backdrop/link/CTA close menu",
+        "body scroll locks and restores",
+        "drawer CTA focuses email",
+        "email rejects invalid input and confirms valid input locally"
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260803_192301_9231ed6b-c55c-4a48-909c-4ebe11cf2e11.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260803_192301_9231ed6b-c55c-4a48-909c-4ebe11cf2e11.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260803_192301_9231ed6b-c55c-4a48-909c-4ebe11cf2e11.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const fs = require('node:fs');
+const assert = require('node:assert/strict');
+(async () => {
+ const browser = await chromium.launch({executablePath:'/usr/bin/chromium', args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']});
+ const report = { url:'http://localhost:4173/motionsites-results/agent-grove/', viewports:[], errors:[], failedRequests:[] };
+ for (const [name,width,height] of [['desktop',1440,1000],['mobile',390,844]]) {
+  const page=await browser.newPage({viewport:{width,height}, deviceScaleFactor:1});
+  page.on('pageerror',err=>report.errors.push(err.message));
+  page.on('requestfailed',req=>report.failedRequests.push({viewport:name,url:req.url(),error:req.failure()?.errorText}));
+  await page.goto(report.url,{waitUntil:'networkidle'});
+  await page.evaluate(()=>document.fonts.ready);
+  await page.waitForFunction(()=>document.querySelector('video').readyState >= 2,{},{timeout:45000});
+  const initial=await page.locator('video').evaluate(v=>v.currentTime);
+  await page.waitForTimeout(600);
+  const video=await page.locator('video').evaluate(v=>({time:v.currentTime,muted:v.muted,loop:v.loop,paused:v.paused,width:v.videoWidth,height:v.videoHeight,source:v.currentSrc}));
+  assert(video.time>initial && video.muted && video.loop && !video.paused);
+  const layout=await page.evaluate(()=>({scrollWidth:document.documentElement.scrollWidth,scrollHeight:document.documentElement.scrollHeight,innerWidth,innerHeight,main:document.querySelector('main').getBoundingClientRect().toJSON(),font:[...document.fonts].some(f=>f.family==='Geist' && f.weight==='600' && f.status==='loaded'),statsFont:[...document.fonts].some(f=>f.family==='Silkscreen' && f.weight==='400' && f.status==='loaded'),headlineColor:getComputedStyle(document.querySelector('h1')).color}));
+  assert(layout.scrollWidth<=width && layout.scrollHeight<=height);
+  assert(layout.main.y>0 && layout.main.bottom<=height);
+  assert(layout.font && layout.statsFont);
+  assert.equal(layout.headlineColor,name==='desktop'?'rgb(255, 255, 255)':'rgb(1, 1, 1)');
+  await page.locator('video').evaluate(v=>{v.pause();v.currentTime=1;});
+  await page.waitForTimeout(300);
+  await page.screenshot({path:`/work/screenshots/${name}.png`});
+  const checks=['video autoplay, muted, loop and playback','fonts loaded','no page overflow','main content visible'];
+  if(name==='mobile') {
+   await page.getByRole('button',{name:'Open menu'}).click();
+   await page.waitForTimeout(600);
+   assert.equal(await page.evaluate(()=>document.body.style.overflow),'hidden');
+   assert.equal(await page.getByRole('button',{name:'Close menu'}).getAttribute('aria-expanded'),'true');
+   await page.screenshot({path:'/work/screenshots/mobile-menu.png'});
+   await page.keyboard.press('Escape');
+   await page.waitForTimeout(550);
+   assert.equal(await page.evaluate(()=>document.body.style.overflow),'');
+   await page.getByRole('button',{name:'Open menu'}).click();
+   await page.waitForTimeout(550);
+   await page.locator('#mobile-menu').getByRole('link',{name:'Modules'}).click();
+   await page.waitForTimeout(550);
+   await page.getByRole('button',{name:'Open menu'}).click();
+   await page.waitForTimeout(550);
+   await page.mouse.click(20,400);
+   await page.waitForTimeout(550);
+   await page.getByRole('button',{name:'Open menu'}).click();
+   await page.waitForTimeout(550);
+   await page.locator('#mobile-menu').getByRole('button',{name:'Get started'}).click();
+   await page.waitForTimeout(550);
+   assert(await page.getByRole('textbox',{name:'Email address'}).evaluate(e=>document.activeElement===e));
+   checks.push('menu opens, Escape/backdrop/link/CTA close menu','body scroll locks and restores','drawer CTA focuses email');
+  } else {
+   await page.locator('nav').getByRole('button',{name:'Get started'}).click();
+   assert(await page.getByRole('textbox',{name:'Email address'}).evaluate(e=>document.activeElement===e));
+   await page.locator('nav').getByRole('link',{name:'Modules'}).hover();
+   await page.waitForTimeout(200);
+   const hover=await page.locator('nav').getByRole('link',{name:'Modules'}).evaluate(e=>getComputedStyle(e).backgroundColor);
+   assert.notEqual(hover,'rgba(0, 0, 0, 0)');
+   checks.push('navigation CTA focuses email','nav hover checked: '+hover);
+  }
+  await page.getByRole('textbox',{name:'Email address'}).fill('invalid');
+  await page.locator('form').getByRole('button').click();
+  assert(await page.locator('input').evaluate(e=>!e.validity.valid));
+  await page.getByRole('textbox',{name:'Email address'}).fill('sara@example.com');
+  await page.locator('form').getByRole('button').click();
+  assert.equal(await page.locator('form button').textContent(),'Thank you!');
+  checks.push('email rejects invalid input and confirms valid input locally');
+  report.viewports.push({name,width,height,layout,video,checks});
+  await page.close();
+ }
+ assert.equal(report.errors.length,0);
+ fs.writeFileSync('/work/screenshots/browser-checks.json',JSON.stringify(report,null,2));
+ console.log(JSON.stringify(report,null,2));
+ await browser.close();
+})().catch(err=>{console.error(err);process.exit(1);});

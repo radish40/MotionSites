@@ -1,0 +1,92 @@
+[
+  {
+    "viewport": "desktop",
+    "metrics": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "headingFont": "Orbitron, sans-serif",
+      "fonts": {
+        "orbitron": true,
+        "spaceGrotesk": true,
+        "mono": true
+      },
+      "canvas": true,
+      "sceneLoaded": "true",
+      "title": "AUTOMATION\nMACHINES •",
+      "heading": {
+        "x": 24,
+        "y": 40,
+        "width": 576,
+        "height": 129.59375,
+        "top": 40,
+        "right": 600,
+        "bottom": 169.59375,
+        "left": 24
+      },
+      "footer": {
+        "x": 24,
+        "y": 713,
+        "width": 1392,
+        "height": 263,
+        "top": 713,
+        "right": 1416,
+        "bottom": 976,
+        "left": 24
+      }
+    },
+    "interactions": {
+      "iconHover": true,
+      "iconClicks": true,
+      "keyboardTab": true
+    },
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "viewport": "mobile",
+    "metrics": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "headingFont": "Orbitron, sans-serif",
+      "fonts": {
+        "orbitron": true,
+        "spaceGrotesk": true,
+        "mono": true
+      },
+      "canvas": true,
+      "sceneLoaded": "true",
+      "title": "AUTOMATION\nMACHINES •",
+      "heading": {
+        "x": 16,
+        "y": 24,
+        "width": 358,
+        "height": 80,
+        "top": 24,
+        "right": 374,
+        "bottom": 104,
+        "left": 16
+      },
+      "footer": {
+        "x": 16,
+        "y": 433,
+        "width": 358,
+        "height": 387,
+        "top": 433,
+        "right": 374,
+        "bottom": 820,
+        "left": 16
+      }
+    },
+    "interactions": {
+      "iconHover": true,
+      "iconClicks": true,
+      "keyboardTab": true
+    },
+    "errors": [],
+    "failedRequests": []
+  }
+]

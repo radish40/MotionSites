@@ -1,0 +1,38 @@
+{
+  "title": "Automation Machines",
+  "id": "automation-machines-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm run check:browser'",
+    "desktop": {
+      "viewport": "1440x1000",
+      "screenshot": "screenshots/desktop.png",
+      "status": "passed"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "screenshot": "screenshots/mobile.png",
+      "status": "passed"
+    },
+    "spline_original_scene": "loaded and rendered in both viewports",
+    "fonts": "Orbitron, Space Grotesk and JetBrains Mono loaded in both viewports",
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "failed_requests": [],
+    "interactions": "All three icons receive clicks; hover border verified; keyboard Tab exercised. No click actions were specified by the design.",
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "details": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original Spline scene downloaded unchanged and served from assets/scene.splinecode under the configured subpath; source: https://prod.spline.design/PIgTjpRFA03yfLyK/scene.splinecode; SHA-256: 2c9feb96f060d2212d3f02b1e344ea97f2eb699efbfa7cc3f5e1ddb16449e561.",
+    "Exact required Google Fonts CSS URL retained. Network is needed for Google Fonts.",
+    "Optional reference preview WebP does not exist on this host; implementation follows PROMPT.md.",
+    "Vite reports large Spline runtime chunks; Spline is lazy loaded.",
+    "Initial headless checks hit interaction timeouts under software WebGL. Final browser harness holds requestAnimationFrame callbacks three seconds after the real scene loads for deterministic captures and responsive interaction checks. Production animation is unchanged; smooth hardware-accelerated performance has not been measured.",
+    "Dependency ranges match the prompt and installed versions are saved in package-lock.json.",
+    "Ready for review; no deployment, push, agents, or messages."
+  ]
+}

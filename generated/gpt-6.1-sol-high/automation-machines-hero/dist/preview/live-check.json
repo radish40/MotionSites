@@ -1,0 +1,53 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/automation-machines-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T06:02:59.139Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 15438,
+      "canvasRendering": {
+        "before": 6513,
+        "after": 13935,
+        "drawCallsAdvanced": true,
+        "canvas": 1
+      },
+      "title": "Automation Machines",
+      "bodyChars": 309,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 5158,
+      "canvasRendering": {
+        "before": 6496,
+        "after": 12991,
+        "drawCallsAdvanced": true,
+        "canvas": 1
+      },
+      "title": "Automation Machines",
+      "bodyChars": 309,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "results": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headline": "Beyond silence, we build  the eternal.",
+      "fonts": true,
+      "video": {
+        "duration": 14.041995,
+        "currentTime": 2.844769,
+        "paused": false,
+        "opacity": "1"
+      },
+      "nav": {
+        "x": 80,
+        "y": 0,
+        "width": 1280,
+        "height": 88,
+        "top": 0,
+        "right": 1360,
+        "bottom": 88,
+        "left": 80
+      },
+      "loop": {
+        "fading": 0.5,
+        "restarted": {
+          "time": 0.418983,
+          "paused": false,
+          "opacity": 0.807294
+        }
+      },
+      "fadeIn": 0.2
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "headline": "Beyond silence, we build  the eternal.",
+      "fonts": true,
+      "video": {
+        "duration": 14.041995,
+        "currentTime": 2.84266,
+        "paused": false,
+        "opacity": "1"
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 88,
+        "top": 0,
+        "right": 390,
+        "bottom": 88,
+        "left": 0
+      }
+    },
+    "reducedMotion": {
+      "paused": true,
+      "opacity": "1"
+    }
+  },
+  "errors": [],
+  "failed": []
+}

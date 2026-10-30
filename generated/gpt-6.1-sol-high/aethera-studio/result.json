@@ -1,0 +1,35 @@
+{
+  "title": "Aethera Studio",
+  "id": "aethera-studio",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript + Vite",
+    "desktop": "passed: 1440x1000",
+    "mobile": "passed: 390x844",
+    "browser": "Chromium via playwright-core",
+    "video": "passed: playback, 0.5s start/end fades, manual restart",
+    "mobile_navigation": "passed: open and link activation",
+    "cta_hover": "passed",
+    "fonts": "passed: local Instrument Serif regular/italic and Inter",
+    "reduced_motion": "passed",
+    "horizontal_overflow": "none at both target sizes",
+    "console_errors": [],
+    "failed_requests": [],
+    "evidence": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Production static deliverable: dist/index.html. Base: /motionsites-results/aethera-studio/. Not deployed or pushed.",
+    "Exact supplied MP4 successfully downloaded and bundled locally; Google Fonts originals also local. No reference screenshot used as webpage content.",
+    "Navigation anchors stay within the requested single hero; no additional pages were specified.",
+    "CTA uses mailto with a subject and no recipient because the prompt specifies no destination/address. OS email client launch was not tested.",
+    "Verified in headless Chromium; other browser engines not tested. Autoplay depends on browser policy.",
+    "Original video retained without recompression, approximately 29 MiB.",
+    "Only this project was written. No agents, other sessions, or external messages used."
+  ]
+}

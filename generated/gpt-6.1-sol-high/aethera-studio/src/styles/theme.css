@@ -1,0 +1,29 @@
+@import './fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; background: #fff; }
+  body { margin: 0; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+  a, button { -webkit-tap-highlight-color: transparent; }
+  :focus-visible { outline: 2px solid #000; outline-offset: 6px; }
+  ::selection { background: #dbe6d1; color: #000; }
+}
+@keyframes fade-rise {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-rise { animation: fade-rise .8s ease-out both; }
+.animate-fade-rise-delay { animation: fade-rise .8s ease-out .2s both; }
+.animate-fade-rise-delay-2 { animation: fade-rise .8s ease-out .4s both; }
+.landscape { top: 300px; }
+@media (max-width: 639px) {
+  .landscape { top: 300px; min-height: 544px; }
+  .hero-heading { letter-spacing: -1.4px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-fade-rise, .animate-fade-rise-delay, .animate-fade-rise-delay-2 { animation: none; }
+  a { transition: none !important; }
+}

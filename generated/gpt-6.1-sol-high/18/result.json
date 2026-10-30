@@ -1,0 +1,132 @@
+{
+  "title": "Loader Animation",
+  "id": 18,
+  "status": "ready",
+  "build_command": "npm ci && npm run build",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "dist_index_exists": true,
+    "browser": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "screenshot": "screenshots/desktop.png",
+        "checks": {
+          "wordsInOrder": true,
+          "zeroPadded": true,
+          "counterDuration": true,
+          "completeProgress": true,
+          "exitTiming": true,
+          "fontLoaded": true,
+          "noOverflow": true,
+          "revealComplete": true,
+          "noErrors": true,
+          "reloadRestarts": true
+        },
+        "midway": {
+          "word": "Create",
+          "counter": "061",
+          "overflow": false,
+          "font": true,
+          "background": "rgb(10, 10, 10)",
+          "barHeight": 3
+        },
+        "final": {
+          "opacity": "1",
+          "overflow": false,
+          "loaderPresent": false
+        },
+        "words": [
+          {
+            "text": "Design",
+            "time": 29
+          },
+          {
+            "text": "Create",
+            "time": 1468.6999998092651
+          },
+          {
+            "text": "Inspire",
+            "time": 2366.5999999046326
+          }
+        ],
+        "counterDurationMs": 2692.7000002861023,
+        "exitAfter100Ms": 1033.9000000953674,
+        "errors": [],
+        "failedRequests": []
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "screenshots/mobile.png",
+        "checks": {
+          "wordsInOrder": true,
+          "zeroPadded": true,
+          "counterDuration": true,
+          "completeProgress": true,
+          "exitTiming": true,
+          "fontLoaded": true,
+          "noOverflow": true,
+          "revealComplete": true,
+          "noErrors": true,
+          "reloadRestarts": true
+        },
+        "midway": {
+          "word": "Create",
+          "counter": "060",
+          "overflow": false,
+          "font": true,
+          "background": "rgb(10, 10, 10)",
+          "barHeight": 3
+        },
+        "final": {
+          "opacity": "1",
+          "overflow": false,
+          "loaderPresent": false
+        },
+        "words": [
+          {
+            "text": "Design",
+            "time": 42.200000286102295
+          },
+          {
+            "text": "Create",
+            "time": 1546.1000003814697
+          },
+          {
+            "text": "Inspire",
+            "time": 2442.300000190735
+          }
+        ],
+        "counterDurationMs": 2707.8999996185303,
+        "exitAfter100Ms": 1034.4000000953674,
+        "errors": [],
+        "failedRequests": []
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/18.webp",
+      "issue": "Optional reference file absent; implemented written specification."
+    }
+  ],
+  "notes": [
+    "Next.js 14 / React / TypeScript / Framer Motion; static export at /motionsites-results/18/.",
+    "Instrument Serif italic 400 downloaded directly from Google Fonts and served locally; OFL license included.",
+    "Page opacity begins after loader exit via onExitComplete to follow the timing summary.",
+    "Minimal Portfolio/Inspire page revealed after loading; no additional portfolio layout specified.",
+    "npm install reported 1 high and 1 critical dependency advisory in the requested stack; retained Next.js 14 as required.",
+    "Chromium checks passed at 1440x1000 and 390x844 with no script errors, failed requests, or horizontal overflow.",
+    "Built using the Docker command in README.md. No push or deployment performed."
+  ]
+}

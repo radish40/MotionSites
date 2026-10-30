@@ -1,0 +1,136 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "failed": [],
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "mainWidth": 640,
+      "heroHeight": 820,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflows": []
+    },
+    "media": [
+      {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 2.457676,
+        "advances": true,
+        "width": 1244,
+        "height": 1664,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "error": null
+      },
+      {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.183008,
+        "advances": true,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "error": null
+      },
+      {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.167076,
+        "advances": true,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "error": null
+      }
+    ],
+    "videosAdvance": true,
+    "enrollNavigation": true,
+    "courseNavigation": true,
+    "topNavigation": true,
+    "hover": {
+      "background": "rgb(201, 234, 0)",
+      "transform": "matrix(1, 0, 0, 1, 0, -2)"
+    },
+    "videoHover": "matrix(1.03, 0, 0, 1.03, 0, 0)",
+    "socialCount": 6,
+    "stepCount": 4
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "failed": [],
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "mainWidth": 358,
+      "heroHeight": 650,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflows": []
+    },
+    "media": [
+      {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.959767,
+        "advances": true,
+        "width": 1244,
+        "height": 1664,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "error": null
+      },
+      {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.106372,
+        "advances": true,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "error": null
+      },
+      {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.126248,
+        "advances": true,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "error": null
+      }
+    ],
+    "videosAdvance": true,
+    "enrollNavigation": true,
+    "courseNavigation": true,
+    "topNavigation": true,
+    "hover": {
+      "background": "rgb(201, 234, 0)",
+      "transform": "matrix(1, 0, 0, 1, 0, -2)"
+    },
+    "videoHover": "matrix(1.03, 0, 0, 1.03, 0, 0)",
+    "socialCount": 6,
+    "stepCount": 4
+  }
+]

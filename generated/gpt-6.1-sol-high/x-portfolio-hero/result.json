@@ -1,0 +1,107 @@
+{
+  "title": "xPortfolio Hero",
+  "id": "x-portfolio-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci && npm run build\"",
+  "checks": {
+    "production_build": "passed",
+    "publish_base": "/motionsites-results/x-portfolio-hero/",
+    "dist_index_exists": true,
+    "browser": "Chromium 148 via Playwright Core",
+    "viewports": [
+      {
+        "name": "desktop",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "document": [
+          1440,
+          1000
+        ],
+        "video": {
+          "loaded": true,
+          "width": 1924,
+          "height": 1076
+        },
+        "fonts": {
+          "anton": true,
+          "inter": true
+        },
+        "overflow": [],
+        "autoplay": {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        },
+        "errors": [],
+        "failed": [],
+        "httpErrors": [],
+        "interactions": {
+          "enquiry": "Thanks for trying Brandly. This demo does not send or save your details.",
+          "login": "Demo complete. No account service is connected.",
+          "signUp": true,
+          "escapeDismiss": true
+        }
+      },
+      {
+        "name": "mobile",
+        "viewport": [
+          390,
+          844
+        ],
+        "document": [
+          390,
+          844
+        ],
+        "video": {
+          "loaded": true,
+          "width": 1924,
+          "height": 1076
+        },
+        "fonts": {
+          "anton": true,
+          "inter": true
+        },
+        "overflow": [],
+        "autoplay": {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        },
+        "errors": [],
+        "failed": [],
+        "httpErrors": [],
+        "interactions": {
+          "enquiry": "Thanks for trying Brandly. This demo does not send or save your details.",
+          "login": "Demo complete. No account service is connected.",
+          "signUp": true,
+          "escapeDismiss": true
+        }
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional reference preview",
+      "issue": "The specified x-portfolio-hero.webp file was absent. Implemented from PROMPT.md; no reference extraction performed."
+    }
+  ],
+  "notes": [
+    "Original specified MP4 bundled locally, unmodified.",
+    "Google Fonts linked in index.html; identical local Google font files bundled for reliable loading.",
+    "Vite public font stylesheet runtime-resolution warning is informational; its HTTP 200 and loaded fonts were verified.",
+    "Description copy and distinct Lucide brand symbols complete unspecified details.",
+    "Account and enquiry forms are explicitly labeled local demos without backend or persistence.",
+    "Social links use platform homepages; agency profile URLs were not supplied.",
+    "No deployment, push, other design reads, agents, sessions, or messages.",
+    "Ready means ready for review, not deployed."
+  ]
+}

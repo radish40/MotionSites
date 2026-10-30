@@ -1,0 +1,74 @@
+[
+  {
+    "name": "desktop",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "document": [
+      1440,
+      1000
+    ],
+    "video": {
+      "loaded": true,
+      "width": 1924,
+      "height": 1076
+    },
+    "fonts": {
+      "anton": true,
+      "inter": true
+    },
+    "overflow": [],
+    "autoplay": {
+      "playing": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    },
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "interactions": {
+      "enquiry": "Thanks for trying Brandly. This demo does not send or save your details.",
+      "login": "Demo complete. No account service is connected.",
+      "signUp": true,
+      "escapeDismiss": true
+    }
+  },
+  {
+    "name": "mobile",
+    "viewport": [
+      390,
+      844
+    ],
+    "document": [
+      390,
+      844
+    ],
+    "video": {
+      "loaded": true,
+      "width": 1924,
+      "height": 1076
+    },
+    "fonts": {
+      "anton": true,
+      "inter": true
+    },
+    "overflow": [],
+    "autoplay": {
+      "playing": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    },
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "interactions": {
+      "enquiry": "Thanks for trying Brandly. This demo does not send or save your details.",
+      "login": "Demo complete. No account service is connected.",
+      "signUp": true,
+      "escapeDismiss": true
+    }
+  }
+]

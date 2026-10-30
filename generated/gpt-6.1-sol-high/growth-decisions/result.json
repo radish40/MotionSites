@@ -1,0 +1,102 @@
+{
+  "title": "Growth Decisions",
+  "id": "growth-decisions",
+  "status": "ready",
+  "page_title": "Meridian — Revenue Intelligence for SaaS",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed",
+    "browser": "passed",
+    "browser_version": "148.0.7778.178",
+    "report": "checks/browser-results.json",
+    "verified": [
+      {
+        "name": "Desktop 1440×1000: no scrolling; Inter loaded; video playing",
+        "passed": true,
+        "detail": {
+          "width": 1440,
+          "height": 1000,
+          "scrollWidth": 1440,
+          "scrollHeight": 1000,
+          "font": true,
+          "video": {
+            "readyState": 4,
+            "width": 1920,
+            "paused": false,
+            "time": 3.234379
+          }
+        }
+      },
+      {
+        "name": "Desktop navigation hover and button icon inversion",
+        "passed": true
+      },
+      {
+        "name": "Mobile 390×844: no horizontal overflow; responsive navigation",
+        "passed": true,
+        "detail": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "scrollHeight": 844,
+          "font": true,
+          "video": {
+            "readyState": 4,
+            "width": 1920,
+            "paused": false,
+            "time": 6.143712
+          }
+        }
+      },
+      {
+        "name": "Mobile menu: toggle, accessible state, Escape, all five links close, three bars retained",
+        "passed": true
+      },
+      {
+        "name": "Reduced motion: entrance animations disabled and solid blue accent",
+        "passed": true
+      },
+      {
+        "name": "Short desktop 1440×650: content fits without overlap or scrolling",
+        "passed": true,
+        "detail": {
+          "width": 1440,
+          "height": 650,
+          "scrollWidth": 1440,
+          "scrollHeight": 650,
+          "font": true,
+          "video": {
+            "readyState": 4,
+            "width": 1920,
+            "paused": false,
+            "time": 8.910662
+          }
+        }
+      },
+      {
+        "name": "No browser script errors, console errors, or failed asset requests; video still playing",
+        "passed": true,
+        "detail": {
+          "abortedMediaRequests": 1,
+          "note": "Chromium may cancel redundant media range requests. Recorded separately; successful HTTP 206 responses and continued decoded playback verified."
+        }
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_review": "Desktop and mobile captures reviewed against the prompt and this design reference."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Native HTML/CSS/JS implementation; dist/index.html exists; relative resources support /motionsites-results/growth-decisions/. Dependency lockfile included.",
+    "Exact original CloudFront video and Google Fonts URLs loaded successfully; no recovered or substituted assets.",
+    "One Chromium media range request was cancelled with net::ERR_ABORTED in the final check; HTTP 206 range responses and continued decoded playback verified. Full details retained in checks/browser-results.json.",
+    "Phone headline wraps at <=820px to prevent horizontal overflow; desktop second line remains nowrap.",
+    "Written prompt takes precedence over the reference image where they differ, including the white hero Book Demo button.",
+    "Links use the required # destinations. Validation covers Chromium; external fonts/video require network access.",
+    "Ready for review, not deployed. No push, agents, other sessions, or messages."
+  ]
+}

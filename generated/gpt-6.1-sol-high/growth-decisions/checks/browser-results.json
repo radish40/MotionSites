@@ -1,0 +1,108 @@
+{
+  "url": "/motionsites-results/growth-decisions/",
+  "browser": "148.0.7778.178",
+  "checks": [
+    {
+      "name": "Desktop 1440×1000: no scrolling; Inter loaded; video playing",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "font": true,
+        "video": {
+          "readyState": 4,
+          "width": 1920,
+          "paused": false,
+          "time": 3.234379
+        }
+      }
+    },
+    {
+      "name": "Desktop navigation hover and button icon inversion",
+      "passed": true
+    },
+    {
+      "name": "Mobile 390×844: no horizontal overflow; responsive navigation",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "font": true,
+        "video": {
+          "readyState": 4,
+          "width": 1920,
+          "paused": false,
+          "time": 6.143712
+        }
+      }
+    },
+    {
+      "name": "Mobile menu: toggle, accessible state, Escape, all five links close, three bars retained",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion: entrance animations disabled and solid blue accent",
+      "passed": true
+    },
+    {
+      "name": "Short desktop 1440×650: content fits without overlap or scrolling",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "height": 650,
+        "scrollWidth": 1440,
+        "scrollHeight": 650,
+        "font": true,
+        "video": {
+          "readyState": 4,
+          "width": 1920,
+          "paused": false,
+          "time": 8.910662
+        }
+      }
+    },
+    {
+      "name": "No browser script errors, console errors, or failed asset requests; video still playing",
+      "passed": true,
+      "detail": {
+        "abortedMediaRequests": 1,
+        "note": "Chromium may cancel redundant media range requests. Recorded separately; successful HTTP 206 responses and continued decoded playback verified."
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "abortedMediaRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_075824_7c8a2ef3-826c-43ca-81a1-162429faa306.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_075824_7c8a2ef3-826c-43ca-81a1-162429faa306.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_075824_7c8a2ef3-826c-43ca-81a1-162429faa306.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_075824_7c8a2ef3-826c-43ca-81a1-162429faa306.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200
+    }
+  ],
+  "status": "passed"
+}

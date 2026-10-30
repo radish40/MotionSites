@@ -1,0 +1,10 @@
+{
+  "name": "growth-decisions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Growth Decisions — Meridian revenue intelligence hero",
+  "scripts": {
+    "build": "node build.cjs",
+    "check": "node checks/browser.cjs"
+  }
+}

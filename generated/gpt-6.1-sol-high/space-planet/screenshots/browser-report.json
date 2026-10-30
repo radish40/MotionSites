@@ -1,0 +1,303 @@
+{
+  "checks": [
+    {
+      "name": "Initial state and lazy media",
+      "status": "passed",
+      "detail": "Earth featured, Venus left, Mars right; only Earth has src at DOMContentLoaded."
+    },
+    {
+      "name": "Entrance cleanup",
+      "status": "passed",
+      "detail": "Both animation classes removed after one entrance."
+    },
+    {
+      "name": "Google fonts",
+      "status": "passed",
+      "detail": "Prata, Hanken Grotesk and Poppins loaded."
+    },
+    {
+      "name": "Earth video playback",
+      "status": "passed",
+      "detail": {
+        "width": 1276,
+        "height": 720,
+        "time": 3.14105,
+        "paused": false,
+        "error": null
+      }
+    },
+    {
+      "name": "Planet rotation and media",
+      "status": "passed",
+      "detail": "Real button clicks Earth → Venus → Mars → Earth restore exact initial state; all three videos play; image sources unchanged."
+    },
+    {
+      "name": "Same-frame cutout updates",
+      "status": "passed",
+      "detail": {
+        "maxCutoutUpdateMs": 0.20000028610229492,
+        "allCutoutsUnder2ms": true,
+        "maxFullClickHandlerMs": 1
+      }
+    },
+    {
+      "name": "Mobile navigation",
+      "status": "passed",
+      "detail": "Open, Escape with focus return, link click and outside click all work. Same five navigation links."
+    },
+    {
+      "name": "Keyboard planet switching",
+      "status": "passed",
+      "detail": "Enter on focused planet button switches the featured planet."
+    },
+    {
+      "name": "Reduced motion",
+      "status": "passed",
+      "detail": "No entrance classes; videos hidden; still switches correctly to Venus."
+    },
+    {
+      "name": "Horizontal overflow",
+      "status": "passed",
+      "detail": "No body/document horizontal overflow at every integer width 320–2560, plus phone/tablet/landscape cases."
+    },
+    {
+      "name": "Runtime and network",
+      "status": "passed",
+      "detail": "No JavaScript/console errors or unexpected request failures."
+    }
+  ],
+  "console_errors": [],
+  "request_failures": [],
+  "asset_responses": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202133_0ba6de7c-285d-43dc-b7ab-8c54c73707cb.png",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202133_508c64b8-a31e-4290-bdfc-1187df70e0a6.png",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202005_3346cc4d-ec3b-44ab-825c-b18e49f5021a.png",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prata&family=Hanken+Grotesk:wght@400;500;600;700&family=Poppins:wght@500;600&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202133_cf55d1d8-7b59-4a64-80da-d72052ae974e.png",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202012_640b239a-d08a-4200-adb2-741bbe129ac8.png",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202422_3ffb4889-c520-432d-8458-038009eb40df.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202018_3d559490-f613-4ed7-a3bb-3b7e9fc90fb8.png",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/hankengrotesk/v12/ieVn2YZDLWuGJpnzaiwFXS9tYtpd59A.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prata/v22/6xKhdSpbNNCT-sWPCm4.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202005_3346cc4d-ec3b-44ab-825c-b18e49f5021a.png",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202422_b211cd74-013b-4dd3-bfd0-64491d8696fa.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202422_51eae59a-2459-4c84-907c-cc5edfe5fea7.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260827_202005_3346cc4d-ec3b-44ab-825c-b18e49f5021a.png",
+      "status": 200
+    }
+  ],
+  "fonts": [
+    {
+      "font": "Prata",
+      "loaded": true
+    },
+    {
+      "font": "Hanken Grotesk",
+      "loaded": true
+    },
+    {
+      "font": "Poppins",
+      "loaded": true
+    }
+  ],
+  "video": {
+    "width": 1276,
+    "height": 720,
+    "time": 3.14105,
+    "paused": false,
+    "error": null
+  },
+  "switch_timings": [
+    {
+      "elapsedMs": 1,
+      "cutoutUpdateMs": 0.09999990463256836,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.7000002861022949,
+      "cutoutUpdateMs": 0,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.9000000953674316,
+      "cutoutUpdateMs": 0.10000038146972656,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.7999997138977051,
+      "cutoutUpdateMs": 0.10000038146972656,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.6999998092651367,
+      "cutoutUpdateMs": 0,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.6999998092651367,
+      "cutoutUpdateMs": 0.09999990463256836,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.6000003814697266,
+      "cutoutUpdateMs": 0.09999990463256836,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.5999999046325684,
+      "cutoutUpdateMs": 0.20000028610229492,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.9000000953674316,
+      "cutoutUpdateMs": 0.20000028610229492,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.7000002861022949,
+      "cutoutUpdateMs": 0,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.9000000953674316,
+      "cutoutUpdateMs": 0.20000028610229492,
+      "correct": true
+    },
+    {
+      "elapsedMs": 0.5999999046325684,
+      "cutoutUpdateMs": 0,
+      "correct": true
+    }
+  ],
+  "layout": [
+    {
+      "width": 320,
+      "height": 700,
+      "scroll": 320,
+      "body": 320
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "scroll": 360,
+      "body": 360
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scroll": 390,
+      "body": 390
+    },
+    {
+      "width": 500,
+      "height": 900,
+      "scroll": 500,
+      "body": 500
+    },
+    {
+      "width": 579,
+      "height": 844,
+      "scroll": 579,
+      "body": 579
+    },
+    {
+      "width": 580,
+      "height": 900,
+      "scroll": 580,
+      "body": 580
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scroll": 768,
+      "body": 768
+    },
+    {
+      "width": 1030,
+      "height": 1000,
+      "scroll": 1030,
+      "body": 1030
+    },
+    {
+      "width": 1031,
+      "height": 1000,
+      "scroll": 1031,
+      "body": 1031
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "scroll": 1440,
+      "body": 1440
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scroll": 1920,
+      "body": 1920
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "scroll": 2560,
+      "body": 2560
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scroll": 844,
+      "body": 844
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "scroll": 667,
+      "body": 667
+    }
+  ],
+  "status": "passed"
+}

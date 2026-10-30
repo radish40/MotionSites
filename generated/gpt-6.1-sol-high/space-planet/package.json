@@ -1,0 +1,7 @@
+{
+  "name": "space-planet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Space planet — SpaceEdu single-file hero",
+  "scripts": {"build": "node scripts/build.cjs"}
+}

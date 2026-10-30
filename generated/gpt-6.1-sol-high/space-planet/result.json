@@ -1,0 +1,83 @@
+{
+  "title": "Space planet",
+  "id": "space-planet",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --ignore-scripts && npm run build'",
+  "checks": [
+    {
+      "name": "Initial state and lazy media",
+      "status": "passed",
+      "detail": "Earth featured, Venus left, Mars right; only Earth has src at DOMContentLoaded."
+    },
+    {
+      "name": "Entrance cleanup",
+      "status": "passed",
+      "detail": "Both animation classes removed after one entrance."
+    },
+    {
+      "name": "Google fonts",
+      "status": "passed",
+      "detail": "Prata, Hanken Grotesk and Poppins loaded."
+    },
+    {
+      "name": "Earth video playback",
+      "status": "passed",
+      "detail": {
+        "width": 1276,
+        "height": 720,
+        "time": 3.14105,
+        "paused": false,
+        "error": null
+      }
+    },
+    {
+      "name": "Planet rotation and media",
+      "status": "passed",
+      "detail": "Real button clicks Earth → Venus → Mars → Earth restore exact initial state; all three videos play; image sources unchanged."
+    },
+    {
+      "name": "Same-frame cutout updates",
+      "status": "passed",
+      "detail": {
+        "maxCutoutUpdateMs": 0.20000028610229492,
+        "allCutoutsUnder2ms": true,
+        "maxFullClickHandlerMs": 1
+      }
+    },
+    {
+      "name": "Mobile navigation",
+      "status": "passed",
+      "detail": "Open, Escape with focus return, link click and outside click all work. Same five navigation links."
+    },
+    {
+      "name": "Keyboard planet switching",
+      "status": "passed",
+      "detail": "Enter on focused planet button switches the featured planet."
+    },
+    {
+      "name": "Reduced motion",
+      "status": "passed",
+      "detail": "No entrance classes; videos hidden; still switches correctly to Venus."
+    },
+    {
+      "name": "Horizontal overflow",
+      "status": "passed",
+      "detail": "No body/document horizontal overflow at every integer width 320–2560, plus phone/tablet/landscape cases."
+    },
+    {
+      "name": "Runtime and network",
+      "status": "passed",
+      "detail": "No JavaScript/console errors or unexpected request failures."
+    }
+  ],
+  "asset_issues": [],
+  "notes": [
+    "Single authored HTML file with inline CSS and JavaScript; no framework or external JavaScript. The head initializer is the additional inline script explicitly required by the prompt.",
+    "Build validates and copies index.html to dist/index.html. No compilation is required to run the source.",
+    "Verified at /motionsites-results/space-planet/ in Chromium. Required screenshots are screenshots/desktop.png (1440x1000) and screenshots/mobile.png (390x844).",
+    "All nine exact CloudFront assets and Google font files responded successfully. All three videos played. No recovery or approximation was needed.",
+    "Cutout timing measures the synchronous six image-class toggles; complete click-handler timings, including media operations, are separately recorded in screenshots/browser-report.json.",
+    "The prompt uses placeholder links and supplies no second section; no extra flows were added. Original external assets remain network dependencies.",
+    "No agents, other sessions, pushes, deployment, or messages were used. Only this project was written. Ready means available for acceptance, not deployed."
+  ]
+}

@@ -9348,15 +9348,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "complete",
+      "status": "running",
       "thread_id": "01a18afd-ba77-71d3-a1f2-4605ef63f191",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-synapse",
       "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
-      "notes": "",
-      "process_id": 710073,
+      "notes": "Original session resumed only to repair mobile sentence concatenation seen in management screenshot.",
+      "process_id": 745701,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:07:26.479535+00:00",
-      "worker_state": "terminal",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -9364,7 +9364,10 @@
       "source_commit": "a406c02d24100dbe839d375426626fd5c7deabbc",
       "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-synapse/",
       "completed_utc": "2026-10-30T04:14:33.311219+00:00",
-      "group_message_id": 340
+      "group_message_id": 340,
+      "delivery_hold": "Management screenshot acceptance: restore mobile sentence boundary, verify fresh screenshots and refresh original published delivery.",
+      "repair_previous_source_commit": "a406c02d24100dbe839d375426626fd5c7deabbc",
+      "repair_started_utc": "2026-10-30T04:16:06.449124+00:00"
     },
     {
       "number": 274,
@@ -9450,19 +9453,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b00-e8cb-7243-b828-87d9adc3e52a",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-scroll-journey-line",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 723135,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:10:54.951155+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "5a3958abceb5707832f7f9e6260225e4744f7737",
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-scroll-journey-line/",
+      "completed_utc": "2026-10-30T04:17:18.072792+00:00",
+      "group_message_id": 342
     },
     {
       "number": 277,
@@ -11786,7 +11793,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:15:56.536296+00:00",
+  "updated_utc": "2026-10-30T04:17:18.248523+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

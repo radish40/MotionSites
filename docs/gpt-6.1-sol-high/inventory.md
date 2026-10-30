@@ -357,10 +357,10 @@
 | 270 | `wealth-video-hero` | Wealth Video Hero | Fintech | 1 | 图片 | 已完成 |
 | 271 | `web3-eos-hero` | Web3 EOS Hero | Web3 | 1 | 图片 | 已完成 |
 | 272 | `weblex-dark-hero` | Weblex Dark Hero | Landing Page | 1 | 图片 | 已完成 |
-| 273 | `community-superdesign-synapse` | Synapse | Landing Page | 1 | 视频 | 已完成 |
+| 273 | `community-superdesign-synapse` | Synapse | Landing Page | 1 | 视频 | 生成中 |
 | 274 | `community-superdesign-card-swap` | Card Swap | Components | 1 | 视频 | 已完成 |
 | 275 | `community-superdesign-hover-reveal-effect` | Hover reveal effect | Animations & Backgrounds | 1 | 视频 | 已完成 |
-| 276 | `community-superdesign-scroll-journey-line` | Scroll Journey Line | Animations & Backgrounds | 1 | 视频 | 生成中 |
+| 276 | `community-superdesign-scroll-journey-line` | Scroll Journey Line | Animations & Backgrounds | 1 | 视频 | 已完成 |
 | 277 | `community-superdesign-gooey-gradient-background` | Gooey Gradient Background | Animations & Backgrounds | 1 | 视频 | 生成中 |
 | 278 | `community-superdesign-horizontal-gallery` | Horizontal Gallery | Animations & Backgrounds | 1 | 视频 | 生成中 |
 | 279 | `community-superdesign-disruptor-beta-launch` | Disruptor Beta Launch | Waitlist & Coming Soon | 1 | 图片 | 生成中 |

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T04:15:56.536296+00:00",
+  "updated_utc": "2026-10-30T04:17:18.248523+00:00",
   "total": 380,
   "counts": {
     "complete": 275,
@@ -2740,11 +2740,11 @@
       "id": "community-superdesign-synapse",
       "title": "Synapse",
       "category": "Landing Page",
-      "status": "complete",
+      "status": "running",
       "thread_id": "01a18afd-ba77-71d3-a1f2-4605ef63f191",
       "source_commit": "a406c02d24100dbe839d375426626fd5c7deabbc",
       "group_message_id": 340,
-      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-synapse/"
+      "url": null
     },
     {
       "id": "community-superdesign-card-swap",
@@ -2770,11 +2770,11 @@
       "id": "community-superdesign-scroll-journey-line",
       "title": "Scroll Journey Line",
       "category": "Animations & Backgrounds",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b00-e8cb-7243-b828-87d9adc3e52a",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5a3958abceb5707832f7f9e6260225e4744f7737",
+      "group_message_id": 342,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-scroll-journey-line/"
     },
     {
       "id": "community-superdesign-gooey-gradient-background",

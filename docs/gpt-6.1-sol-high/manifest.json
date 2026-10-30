@@ -9789,19 +9789,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b0b-9add-7cc2-88d4-7594ccf1d06f",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-rolodex-text",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 771965,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:22:35.896042+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "46a78f71d3803fa89af75bec4b3bb7b22f23236d",
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-rolodex-text/",
+      "completed_utc": "2026-10-30T04:28:01.147638+00:00",
+      "group_message_id": 352
     },
     {
       "number": 287,
@@ -9914,14 +9918,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b0e-d5cf-7df0-9ce3-84e7262fceaf",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-glow-cursor-button",
       "validation": "",
       "notes": "",
       "process_id": 786854,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:26:07.522130+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 291,
@@ -9939,11 +9947,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-interactive-card-stack",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 792721,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:27:35.667452+00:00",
+      "worker_state": "running"
     },
     {
       "number": 292,
@@ -11905,7 +11917,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:26:35.867084+00:00",
+  "updated_utc": "2026-10-30T04:28:01.339970+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

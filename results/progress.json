@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:26:35.867084+00:00",
+  "updated_utc": "2026-10-30T04:28:01.339970+00:00",
   "total": 380,
   "counts": {
-    "complete": 285,
+    "complete": 286,
     "running": 5,
-    "not_started": 90
+    "not_started": 89
   },
   "current_batch": {
     "from_number": 201,
@@ -2870,11 +2870,11 @@
       "id": "community-superdesign-rolodex-text",
       "title": "Rolodex Text",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b0b-9add-7cc2-88d4-7594ccf1d06f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "46a78f71d3803fa89af75bec4b3bb7b22f23236d",
+      "group_message_id": 352,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-rolodex-text/"
     },
     {
       "id": "community-superdesign-lightning-background",
@@ -2911,7 +2911,7 @@
       "title": "Glow Cursor Button",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b0e-d5cf-7df0-9ce3-84e7262fceaf",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2920,7 +2920,7 @@
       "id": "community-superdesign-interactive-card-stack",
       "title": "Interactive Card Stack",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

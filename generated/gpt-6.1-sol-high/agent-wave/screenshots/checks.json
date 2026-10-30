@@ -1,0 +1,69 @@
+{
+  "checks": [
+    {
+      "viewport": "1440x1000",
+      "horizontalOverflow": false,
+      "desktopScroll": false,
+      "fontsLoaded": true
+    },
+    {
+      "backgroundMotion": "successive frames differ"
+    },
+    {
+      "hover": "metal shine and glow verified"
+    },
+    {
+      "viewport": "390x844",
+      "horizontalOverflow": false,
+      "desktopScroll": "allowed",
+      "fontsLoaded": true
+    },
+    {
+      "mobileMenu": "toggle, aria, Escape, nav click, desktop resize passed"
+    },
+    {
+      "viewport": "1024x768",
+      "horizontalOverflow": false,
+      "desktopScroll": false,
+      "fontsLoaded": true
+    },
+    {
+      "viewport": "1440x700",
+      "horizontalOverflow": false,
+      "desktopScroll": false,
+      "fontsLoaded": true
+    },
+    {
+      "viewport": "1920x1080",
+      "horizontalOverflow": false,
+      "desktopScroll": false,
+      "fontsLoaded": true
+    },
+    {
+      "viewport": "2560x1440",
+      "horizontalOverflow": false,
+      "desktopScroll": false,
+      "fontsLoaded": true
+    },
+    {
+      "viewport": "900x900",
+      "horizontalOverflow": false,
+      "desktopScroll": "allowed",
+      "fontsLoaded": true
+    },
+    {
+      "viewport": "320x740",
+      "horizontalOverflow": false,
+      "desktopScroll": "allowed",
+      "fontsLoaded": true
+    },
+    {
+      "reducedMotion": "static background and visible content passed"
+    },
+    {
+      "noJavaScript": "content visible"
+    }
+  ],
+  "scriptErrors": [],
+  "failedRequests": []
+}

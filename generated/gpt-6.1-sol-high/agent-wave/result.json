@@ -1,0 +1,93 @@
+{
+  "title": "Agent Wave",
+  "id": "agent-wave",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "checks": [
+      {
+        "viewport": "1440x1000",
+        "horizontalOverflow": false,
+        "desktopScroll": false,
+        "fontsLoaded": true
+      },
+      {
+        "backgroundMotion": "successive frames differ"
+      },
+      {
+        "hover": "metal shine and glow verified"
+      },
+      {
+        "viewport": "390x844",
+        "horizontalOverflow": false,
+        "desktopScroll": "allowed",
+        "fontsLoaded": true
+      },
+      {
+        "mobileMenu": "toggle, aria, Escape, nav click, desktop resize passed"
+      },
+      {
+        "viewport": "1024x768",
+        "horizontalOverflow": false,
+        "desktopScroll": false,
+        "fontsLoaded": true
+      },
+      {
+        "viewport": "1440x700",
+        "horizontalOverflow": false,
+        "desktopScroll": false,
+        "fontsLoaded": true
+      },
+      {
+        "viewport": "1920x1080",
+        "horizontalOverflow": false,
+        "desktopScroll": false,
+        "fontsLoaded": true
+      },
+      {
+        "viewport": "2560x1440",
+        "horizontalOverflow": false,
+        "desktopScroll": false,
+        "fontsLoaded": true
+      },
+      {
+        "viewport": "900x900",
+        "horizontalOverflow": false,
+        "desktopScroll": "allowed",
+        "fontsLoaded": true
+      },
+      {
+        "viewport": "320x740",
+        "horizontalOverflow": false,
+        "desktopScroll": "allowed",
+        "fontsLoaded": true
+      },
+      {
+        "reducedMotion": "static background and visible content passed"
+      },
+      {
+        "noJavaScript": "content visible"
+      }
+    ],
+    "scriptErrors": [],
+    "failedRequests": [],
+    "mobile_menu_full_width": "Passed: link width at least 340px in the 390px viewport.",
+    "visual_review": "Desktop, mobile, and mobile menu screenshots inspected."
+  },
+  "asset_issues": [
+    {
+      "asset": "hero background",
+      "issue": "The prompt supplies an MP4 but explicitly disallows video.",
+      "resolution": "Converted the exact supplied source into a self-hosted animated WebP; static first-frame WebP for reduced motion. No reference-page imagery used.",
+      "limitations": "Lossy WebP may soften particles. Cover cropping and animation phase differ across captures; source loop boundary retained. Animated WebP is approximately 38 MiB."
+    }
+  ],
+  "notes": [
+    "Vesper.ai branding and document title preserved; project index remains Agent Wave.",
+    "One HTML file with inline CSS and menu/animation IIFE. Native static build with relative resources supports /motionsites-results/agent-wave/.",
+    "Both exact font families self-hosted as WOFF2; all inline SVG icons and favicon implemented.",
+    "Exact fragment links retained; destination sections and backend flows were outside the supplied single-screen design.",
+    "Chromium checked; other browser engines and physical devices not checked.",
+    "Ready means ready for review, not deployed. No pushes, deployments, agents, or messages."
+  ]
+}

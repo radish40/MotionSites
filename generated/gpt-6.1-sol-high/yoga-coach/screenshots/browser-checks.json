@@ -1,0 +1,98 @@
+[
+  {
+    "name": "desktop",
+    "overflow": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "font": true
+    },
+    "before": [
+      {
+        "readyState": 4,
+        "width": 1280,
+        "height": 712,
+        "duration": 5.041666
+      },
+      {
+        "readyState": 4,
+        "width": 1280,
+        "height": 720,
+        "duration": 6.018
+      },
+      {
+        "readyState": 4,
+        "width": 1280,
+        "height": 720,
+        "duration": 6.018
+      },
+      {
+        "readyState": 4,
+        "width": 1280,
+        "height": 720,
+        "duration": 6.018
+      }
+    ],
+    "playing": {
+      "paused": false,
+      "currentTime": 3.043959
+    },
+    "seeked": true,
+    "collectionVisible": true,
+    "collectionOverflow": true,
+    "hoverPlaying": true,
+    "reset": true,
+    "errors": [],
+    "failed": [],
+    "httpErrors": []
+  },
+  {
+    "name": "mobile",
+    "overflow": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "font": true
+    },
+    "before": [
+      {
+        "readyState": 4,
+        "width": 1280,
+        "height": 712,
+        "duration": 5.041666
+      },
+      {
+        "readyState": 4,
+        "width": 1280,
+        "height": 720,
+        "duration": 6.018
+      },
+      {
+        "readyState": 4,
+        "width": 1280,
+        "height": 720,
+        "duration": 6.018
+      },
+      {
+        "readyState": 4,
+        "width": 1280,
+        "height": 720,
+        "duration": 6.018
+      }
+    ],
+    "playing": {
+      "paused": false,
+      "currentTime": 3.023452
+    },
+    "seeked": true,
+    "collectionVisible": true,
+    "collectionOverflow": true,
+    "hoverPlaying": true,
+    "reset": true,
+    "errors": [],
+    "failed": [],
+    "httpErrors": []
+  }
+]

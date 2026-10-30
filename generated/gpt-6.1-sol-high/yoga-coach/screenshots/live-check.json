@@ -1,0 +1,122 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/yoga-coach/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:15:54.797Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Yoga Coach — Jessica",
+      "bodyChars": 146,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/fca8ddf3-dada-47b7-bc9e-735d4372af66",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 5.041666,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/c2467ee9-0e1f-403f-8ec7-1d9db9c8b7c4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 6.018,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/9e75e0d9-9605-4de9-927b-93d1394dfbc3",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 6.018,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/bd004cc1-933f-40ac-857f-46760a20de38",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 6.018,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Yoga Coach — Jessica",
+      "bodyChars": 146,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/8c0bc7f1-eff9-4573-857f-a8c726b4463e",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 5.041666,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/6595d2d6-2909-4fc7-acab-6c154dad17a7",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 6.018,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/d8bcb797-4138-4661-aaa1-3170de7301ea",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 6.018,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/a7257503-210d-444d-9277-ab6ccef4ccd8",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 6.018,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

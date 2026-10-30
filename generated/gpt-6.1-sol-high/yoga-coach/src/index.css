@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import "tailwindcss";
+@font-face {font-family:"Anton";font-style:normal;font-weight:400;font-display:swap;src:url("/assets/anton.ttf") format("truetype");}
+@theme { --font-anton: "Anton", sans-serif; }
+html,body,#root { width:100%;height:100%;margin:0;overflow:hidden; }
+button { -webkit-tap-highlight-color:transparent; }
+@media(max-width:639px){
+ .hero-bottom{gap:18px;}
+ .start-position{left:auto;right:24px;bottom:48px;translate:0;}
+ .yoga-card{width:min(40vw,200px);border-width:5px;}
+ .card-deck{width:calc(100% + 20px);}
+ .back-button{top:32px;}
+}
+@media(min-width:640px) and (max-height:850px){.yoga-card{width:min(27vw,calc((100dvh - 220px)*.5625));}}

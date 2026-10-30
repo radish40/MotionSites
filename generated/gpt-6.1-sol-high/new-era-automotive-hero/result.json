@@ -1,0 +1,31 @@
+{
+  "title": "New Era Automotive Hero",
+  "id": "new-era-automotive-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.cache -e npm_config_cache=/work/.cache/npm -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/new-era-automotive-hero/",
+    "desktop": "passed at 1440x1000; hero height 965px",
+    "mobile": "passed at 390x844; hero height 844px",
+    "video": "original MP4, muted autoplay, inline playback, and observed end-to-start looping passed",
+    "fonts": "local Inter 400/500/600 and Bebas Neue loaded",
+    "interactions": "brand, navigation, Sign In, Cart, and Shop Now hash targets passed; destination features outside hero scope",
+    "script_errors": [],
+    "failed_requests": [],
+    "horizontal_overflow": false,
+    "visual_review": "desktop and mobile screenshots inspected",
+    "dependency_audit": "zero vulnerabilities reported on final install",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "raw_results": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React and Tailwind CSS implementation with Vite; dependency lockfile retained.",
+    "Exact requested video and Google Fonts are hosted locally for reliable subpath loading.",
+    "Supplied car-only reference used as loading poster; no screenshot-based page implementation or reconstructed video.",
+    "Navigation targets are hash integration placeholders because only the hero was specified.",
+    "Browser validation used Chromium only; screenshots freeze video at two seconds for repeatability.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@font-face { font-family: Inter; src: url('/assets/inter-400.ttf') format('truetype'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: Inter; src: url('/assets/inter-500.ttf') format('truetype'); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: Inter; src: url('/assets/inter-600.ttf') format('truetype'); font-style: normal; font-weight: 600; font-display: swap; }
+@font-face { font-family: 'Bebas Neue'; src: url('/assets/bebas-neue.ttf') format('truetype'); font-style: normal; font-weight: 400; font-display: swap; }
+
+:root { font-family: Inter, sans-serif; color: #fff; background: #010101; font-synthesis: none; }
+body { margin: 0; }
+a { -webkit-tap-highlight-color: transparent; }
+a:focus-visible { outline: 2px solid #fff; outline-offset: 6px; }
+.hero { height: 100svh; min-height: 600px; max-height: 965px; }
+.nav-shell { padding: 32px 80px; }
+.main-nav { position: absolute; left: 50%; transform: translateX(-50%); }
+.cta-shell { padding: 0 80px 64px; }
+.era { top: 15%; font-family: 'Bebas Neue', sans-serif; font-size: min(29.8vw, 428px); line-height: .88; letter-spacing: -.018em; background: linear-gradient(180deg, rgba(255,255,255,.83), rgba(255,255,255,.12)); background-clip: text; -webkit-background-clip: text; color: transparent; }
+.tagline { font-family: 'Bebas Neue', sans-serif; font-size: 64px; line-height: 1; }
+.action { transition: background-color 180ms, transform 180ms; }
+.action:hover { background-color: #eeeff2; transform: translateY(-2px); }
+.action:active { transform: translateY(0); }
+.nav-link { transition: opacity 180ms; }
+.nav-link:hover { opacity: .7; }
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .nav-shell { padding: 28px 40px; }
+  .main-nav { gap: 20px; }
+  .cta-shell { padding: 0 40px 48px; gap: 40px; }
+  .intro { flex-direction: column; align-items: flex-start; gap: 24px; }
+  .tagline { max-width: 400px; }
+}
+@media (max-width: 1023px) {
+  .nav-shell { padding: 28px 40px; }
+  .cta-shell { padding: 0 40px 40px; }
+  .tagline { font-size: 60px; max-width: 460px; }
+}
+@media (max-width: 639px) {
+  .nav-shell { padding: 24px; }
+  .cta-shell { padding: 0 24px 32px; gap: 28px; }
+  .intro { gap: 20px; }
+  .intro p { font-size: 18px; line-height: 27px; max-width: 340px; }
+  .tagline { font-size: 48px; max-width: 342px; }
+  .era { top: 15%; font-size: 29.8vw; }
+}
+@media (prefers-reduced-motion: reduce) { .action, .nav-link { transition: none; } }

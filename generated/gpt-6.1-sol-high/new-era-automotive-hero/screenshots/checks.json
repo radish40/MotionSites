@@ -1,0 +1,48 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "heroHeight": 965,
+    "media": {
+      "playing": true,
+      "muted": true,
+      "loop": true,
+      "autoplay": true,
+      "playsInline": true,
+      "width": 1764,
+      "height": 1176,
+      "duration": 10.041667
+    },
+    "loopPlayback": "passed",
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "links": "passed (hero-only hash destinations)",
+    "fonts": "loaded"
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "heroHeight": 844,
+    "media": {
+      "playing": true,
+      "muted": true,
+      "loop": true,
+      "autoplay": true,
+      "playsInline": true,
+      "width": 1764,
+      "height": 1176,
+      "duration": 10.041667
+    },
+    "loopPlayback": "passed",
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "links": "passed (hero-only hash destinations)",
+    "fonts": "loaded"
+  }
+]

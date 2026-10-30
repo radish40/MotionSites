@@ -1,0 +1,99 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/yoga-coach/",
+  "checked_utc": "2026-10-30T03:18:55.597Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "naturalVideoEnd": true,
+      "collectionTransition": true,
+      "cards": [
+        {
+          "index": 1,
+          "interaction": "pointer hover",
+          "playing": {
+            "width": 1280,
+            "height": 720,
+            "currentTime": 0.231848,
+            "paused": false
+          },
+          "pausedAndRewound": true
+        },
+        {
+          "index": 2,
+          "interaction": "pointer hover",
+          "playing": {
+            "width": 1280,
+            "height": 720,
+            "currentTime": 0.190716,
+            "paused": false
+          },
+          "pausedAndRewound": true
+        },
+        {
+          "index": 3,
+          "interaction": "pointer hover",
+          "playing": {
+            "width": 1280,
+            "height": 720,
+            "currentTime": 0.268852,
+            "paused": false
+          },
+          "pausedAndRewound": true
+        }
+      ],
+      "backReset": true,
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "naturalVideoEnd": true,
+      "collectionTransition": true,
+      "cards": [
+        {
+          "index": 1,
+          "interaction": "keyboard focus in mobile viewport",
+          "playing": {
+            "width": 1280,
+            "height": 720,
+            "currentTime": 0.223636,
+            "paused": false
+          },
+          "pausedAndRewound": true
+        },
+        {
+          "index": 2,
+          "interaction": "keyboard focus in mobile viewport",
+          "playing": {
+            "width": 1280,
+            "height": 720,
+            "currentTime": 0.182999,
+            "paused": false
+          },
+          "pausedAndRewound": true
+        },
+        {
+          "index": 3,
+          "interaction": "keyboard focus in mobile viewport",
+          "playing": {
+            "width": 1280,
+            "height": 720,
+            "currentTime": 0.182544,
+            "paused": false
+          },
+          "pausedAndRewound": true
+        }
+      ],
+      "backReset": true,
+      "overflow": {
+        "x": 0,
+        "y": 0
+      },
+      "errors": []
+    }
+  ]
+}

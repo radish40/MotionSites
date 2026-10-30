@@ -1,0 +1,269 @@
+{
+  "recorded_utc": "2026-10-30T03:19:19.172330+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 9,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:09:04.382932+00:00",
+      "remote_main": "eff494615d05a45c538930572400f7229ff0319d",
+      "delivery": {
+        "id": "vertex-sci",
+        "title": "Vertex Sci",
+        "source_commit": "f7d8a3b1b615f9b7ec96d0468cd10aab822ece24",
+        "thread_id": "01a18ac0-dee2-78c3-9739-73ba1b6bf98a",
+        "group_message_id": 283,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:09:52.018257+00:00",
+      "remote_main": "6ec19eeb70a8dd7f7ecbb2cc768bb310e3b9a1e2",
+      "delivery": {
+        "id": "visual-hero",
+        "title": "Visual Hero",
+        "source_commit": "276546888abe184f571790dde12887819294705d",
+        "thread_id": "01a18ac0-dfca-7a01-a98d-48dc8cbf01c4",
+        "group_message_id": 284,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:11:20.816454+00:00",
+      "remote_main": "2632721ac98f12b4a7184aa94b82e533c57edf75",
+      "delivery": {
+        "id": "waitlist-hero",
+        "title": "Waitlist Hero",
+        "source_commit": "2632721ac98f12b4a7184aa94b82e533c57edf75",
+        "thread_id": "01a18ac2-b8c5-7ea3-b328-bfa56f7659e6",
+        "group_message_id": 285,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:11:47.324104+00:00",
+      "remote_main": "6c3a1a0413ae2a45a5b20e7b5be3a7deeb794249",
+      "delivery": {
+        "id": "wanderful-hero",
+        "title": "Wanderful Hero",
+        "source_commit": "6c3a1a0413ae2a45a5b20e7b5be3a7deeb794249",
+        "thread_id": "01a18ac5-77b8-7832-896a-ebdba1aaf01c",
+        "group_message_id": 286,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:13:19.924868+00:00",
+      "remote_main": "33c8c1031d3e399ea8f2a8d29d6b7b909b217cbf",
+      "delivery": {
+        "id": "wellness-balance",
+        "title": "Wellness Balance",
+        "source_commit": "33c8c1031d3e399ea8f2a8d29d6b7b909b217cbf",
+        "thread_id": "01a18ac5-79a0-73c0-8d83-0f97b2d254d3",
+        "group_message_id": 287,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:13:35.380524+00:00",
+      "remote_main": "0ea040153e5f5b425a9239023c1efa68cbc0029e",
+      "delivery": {
+        "id": "wellness-hero",
+        "title": "Wellness Hero",
+        "source_commit": "0ea040153e5f5b425a9239023c1efa68cbc0029e",
+        "thread_id": "01a18ac7-b564-71a1-9216-068c0672da56",
+        "group_message_id": 288,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:16:16.440914+00:00",
+      "remote_main": "9a912a20aa458bfc6b91a088817ceb326715199c",
+      "delivery": {
+        "id": "yoga-coach",
+        "title": "Yoga Coach",
+        "source_commit": "d9c0440473c20f42cb6cca800da93be66d28c16a",
+        "thread_id": "01a18ac7-b5f9-7643-8350-bcfde8333127",
+        "group_message_id": 290,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:17:32.166880+00:00",
+      "remote_main": "83165bd0df9060274bbec4dbfc4ce5019fa0ea66",
+      "delivery": {
+        "id": "404",
+        "title": "Nexto 404",
+        "source_commit": "83165bd0df9060274bbec4dbfc4ce5019fa0ea66",
+        "thread_id": "01a18ac9-9a8c-7200-976f-c41d88145950",
+        "group_message_id": 291,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:14:00.600691+00:00",
+      "remote_main": "32dfe87aea14f532a9e6a867ddbabdc1fef751fc",
+      "delivery": {
+        "id": "ai-image-generator-ui",
+        "title": "AI Image Generator UI",
+        "source_commit": "2609a123b294189fe3338f53b80a1a46f09c492d",
+        "thread_id": "01a18ac9-9b0b-7f62-8ad9-4ce37ead88ce",
+        "group_message_id": 289,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

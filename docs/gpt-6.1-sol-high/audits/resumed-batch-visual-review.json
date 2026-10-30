@@ -217,7 +217,115 @@
         "generated/gpt-6.1-sol-high/velorix-iic/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/velorix-iic/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "vertex-sci",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Black and white editorial hero, local video and readable mobile navigation render at both sizes.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/vertex-sci/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/vertex-sci/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "visual-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Micro Visuals forest and flower video hero, serif headline and responsive navigation render at both sizes; canvas playback behavior is covered by original-session browser checks.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/visual-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/visual-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "waitlist-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Responsive title and dark dotted capsule match the actual supplied image; the desktop shows three capsules and mobile shows one. Worker separately tested canvas playback; software capture rate limitations are documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/waitlist-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/waitlist-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "wanderful-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Supplied video and responsive text render clearly at both sizes; unavailable unused Dirtyline font variant is documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/wanderful-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/wanderful-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "wellness-balance",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Green TerraElix hero, capsule artwork and responsive stacked content render with readable text at both sizes.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/wellness-balance/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/wellness-balance/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "wellness-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Aurai video background, glass navigation, readable heading and email form render at both sizes.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/wellness-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/wellness-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "yoga-coach",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original meadow poster, responsive Anton headings and collection cards inspected in both viewport sizes, including second-screen screenshots. Published site separately passed natural video end, all three card players, pause/rewind and back reset; mobile card check uses keyboard focus in a mobile viewport, not physical touch-device testing.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/yoga-coach/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/yoga-coach/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "404",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Nexto spaceship artwork, orbital lines, readable 404 headline and navigation cards render at both sizes.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/404/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/404/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "ai-image-generator-ui",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Three pastel feature panels render as a desktop row and mobile stack; the static behavior follows the prompt.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/ai-image-generator-ui/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/ai-image-generator-ui/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:08:46.526845+00:00"
+  "updated_utc": "2026-10-30T03:19:45.718155+00:00"
 }

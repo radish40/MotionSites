@@ -1,0 +1,74 @@
+[
+  {
+    "file": "public/assets/font.woff2",
+    "url": "https://www.generalintelligencecompany.com/_next/static/media/17330fd087386262-s.p.woff2",
+    "source": "https://www.generalintelligencecompany.com/_next/static/media/17330fd087386262-s.p.woff2",
+    "bytes": 59096,
+    "content_type": "font/woff2",
+    "status": "downloaded",
+    "sha256": "ed7f277e0e96f9ce197f3254cd31ff4022118b80f119b82f1ec9889b21ff9e45"
+  },
+  {
+    "file": "public/assets/logo.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_072635_e0ca60b6-0b6c-49a3-825d-b2b6a53dd63d.png&w=1280&q=85",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_072635_e0ca60b6-0b6c-49a3-825d-b2b6a53dd63d.png&w=1280&q=85",
+    "bytes": 46552,
+    "content_type": "image/webp",
+    "status": "downloaded",
+    "sha256": "4bfd184430b1afd47224e20d149f1f10fe7056b33dee77e250bc19351e82c628"
+  },
+  {
+    "file": "public/assets/intro.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_073438_071156e5-2a7a-45d8-a8d9-c628d2144e88.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_073438_071156e5-2a7a-45d8-a8d9-c628d2144e88.mp4",
+    "bytes": 13142404,
+    "content_type": "video/mp4",
+    "status": "downloaded",
+    "sha256": "c8accb619ce92a10d50272735b03d49f688a5255412ad0d27ec7f2155e654d76"
+  },
+  {
+    "file": "public/assets/card-1.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081328_19f48c5b-ea4d-4f23-8f80-7374f31015d4.png&w=1280&q=85",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081328_19f48c5b-ea4d-4f23-8f80-7374f31015d4.png&w=1280&q=85",
+    "bytes": 194348,
+    "content_type": "image/webp",
+    "status": "downloaded",
+    "sha256": "5efc250c421165dac72b191412fd6c3922dcf4e5d42816287b93dcdc4e95cc09"
+  },
+  {
+    "file": "public/assets/card-2.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081342_ad378347-1ebd-4b17-a716-ee895bf739c0.png&w=1280&q=85",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081342_ad378347-1ebd-4b17-a716-ee895bf739c0.png&w=1280&q=85",
+    "bytes": 98274,
+    "content_type": "image/webp",
+    "status": "downloaded",
+    "sha256": "7295a3562c100e1a528cbf23a4b492ec204be276c82ce82e9553ab1447b5ca47"
+  },
+  {
+    "file": "public/assets/card-3.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081415_a6e8a76c-224e-417b-bf99-6b86d6494644.png&w=1280&q=85",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081415_a6e8a76c-224e-417b-bf99-6b86d6494644.png&w=1280&q=85",
+    "bytes": 285584,
+    "content_type": "image/webp",
+    "status": "downloaded",
+    "sha256": "4f102373f6f5e4e621fc7f72ab8658ad6def12557604502d431f855bb1306fe1"
+  },
+  {
+    "file": "public/assets/card-4.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081513_cf1cd2c1-2122-4de6-90ed-acae8bfbdb00.png&w=1280&q=85",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081513_cf1cd2c1-2122-4de6-90ed-acae8bfbdb00.png&w=1280&q=85",
+    "bytes": 358124,
+    "content_type": "image/webp",
+    "status": "downloaded",
+    "sha256": "36ddec009ccd20b79dcf5b3296b09eb799650c8b3e82f328b9fadac198cd6855"
+  },
+  {
+    "file": "public/assets/card-5.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081541_9d2d28bf-d6a3-4b31-b0bb-cfc5202d4fcd.png&w=1280&q=85",
+    "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_081541_9d2d28bf-d6a3-4b31-b0bb-cfc5202d4fcd.png&w=1280&q=85",
+    "bytes": 153710,
+    "content_type": "image/webp",
+    "status": "downloaded",
+    "sha256": "a23dfe83f191685c12980060cd4d741aa56f45630a12dbb4a80e009921a96709"
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "url": "/motionsites-results/flowmate-landing/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "font": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/flowmate-landing/assets/logo.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/flowmate-landing/assets/card-1.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/flowmate-landing/assets/card-2.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/flowmate-landing/assets/card-3.webp",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "ready": 4,
+        "playing": true
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "font": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/flowmate-landing/assets/logo.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/flowmate-landing/assets/card-1.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/flowmate-landing/assets/card-2.webp",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/flowmate-landing/assets/card-3.webp",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "ready": 4,
+        "playing": true
+      }
+    }
+  ],
+  "interactions": [
+    "desktop: no horizontal overflow",
+    "desktop: custom font loaded",
+    "desktop: images loaded",
+    "desktop: supplied video playable",
+    "desktop: all feature cards revealed for screenshot",
+    "desktop: intro link scrolls to video",
+    "desktop: complete typewriter prompt",
+    "desktop: video pause works",
+    "desktop: video play works",
+    "desktop: section observer tracks video",
+    "desktop: sidebar navigation and observer",
+    "desktop: next carousel card",
+    "desktop: previous carousel card",
+    "desktop: direct carousel navigation",
+    "desktop: carousel automatically advances",
+    "desktop: signup opens accessible dialog",
+    "desktop: preview form confirms request locally",
+    "desktop: Escape closes dialog",
+    "mobile: no horizontal overflow",
+    "mobile: custom font loaded",
+    "mobile: images loaded",
+    "mobile: supplied video playable",
+    "mobile: all feature cards revealed for screenshot",
+    "mobile: intro link scrolls to video",
+    "mobile: complete typewriter prompt",
+    "mobile: video pause works",
+    "mobile: video play works",
+    "mobile: navigation menu opens",
+    "mobile: navigation closes after selection",
+    "mobile: next carousel card",
+    "mobile: previous carousel card",
+    "mobile: direct carousel navigation",
+    "mobile: carousel automatically advances",
+    "mobile: signup opens accessible dialog",
+    "mobile: preview form confirms request locally",
+    "mobile: Escape closes dialog"
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "passed": true
+}

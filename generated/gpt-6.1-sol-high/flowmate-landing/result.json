@@ -1,0 +1,44 @@
+{
+  "title": "FlowMate",
+  "id": "flowmate-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build && npm run lint'",
+  "publish_path": "/motionsites-results/flowmate-landing/",
+  "output": "dist/",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "eslint": "passed (zero warnings)",
+    "browser": "Chromium via Playwright Core",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "interaction_checks_passed": 36,
+    "console_errors": [],
+    "script_errors": [],
+    "failed_requests": [],
+    "horizontal_overflow": false,
+    "report": "screenshots/browser-checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "All eight prescribed assets are stored locally; asset-manifest.json records their original URLs, byte sizes, and SHA-256 hashes.",
+    "Initial video request stalled; curl recovered the exact original MP4.",
+    "The optional flowmate-landing.webp reference preview was absent. Design follows the supplied written prompt.",
+    "Account, pricing, community, and workflow controls use labeled local preview dialogs because the prompt supplies no backend or destinations. No information is sent to a server.",
+    "Integration logos are inline SVG illustrations; interface icons use Lucide React.",
+    "Screenshots were visually reviewed after revealing every scroll-animated section.",
+    "Ready for review; not deployed or pushed. Only this FlowMate project was implemented."
+  ]
+}

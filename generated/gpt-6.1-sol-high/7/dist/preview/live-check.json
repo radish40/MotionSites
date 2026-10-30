@@ -1,0 +1,60 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/7/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:06:08.507Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Synapse — Where Innovation Meets Execution",
+      "bodyChars": 401,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://stream.mux.com/9JXDljEVWYwWu01PUkAemafDugK89o01BR6zqJ3aS9u00A.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.25774,
+          "duration": 5.075,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Synapse — Where Innovation Meets Execution",
+      "bodyChars": 335,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://stream.mux.com/9JXDljEVWYwWu01PUkAemafDugK89o01BR6zqJ3aS9u00A.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.65152,
+          "duration": 5.075,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

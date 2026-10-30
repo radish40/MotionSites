@@ -1,0 +1,82 @@
+{
+  "title": "Synapse Dark Hero",
+  "id": 7,
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/7:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists",
+    "browser": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "layout": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "height": 1000,
+          "scrollHeight": 1000,
+          "font": true,
+          "video": {
+            "currentTime": 4.004679,
+            "readyState": 4,
+            "paused": false,
+            "videoWidth": 1864,
+            "error": null,
+            "streamError": null,
+            "opacity": "1"
+          }
+        },
+        "scriptErrors": [],
+        "failedRequests": [],
+        "interactions": "passed: navigation dialog, Escape, signup preview, contact preview"
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "layout": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844,
+          "scrollHeight": 844,
+          "font": true,
+          "video": {
+            "currentTime": 4.005528,
+            "readyState": 4,
+            "paused": false,
+            "videoWidth": 1864,
+            "error": null,
+            "streamError": null,
+            "opacity": "1"
+          }
+        },
+        "scriptErrors": [],
+        "failedRequests": [],
+        "interactions": "passed: navigation dialog, Escape, signup preview, contact preview"
+      },
+      "reducedMotion": "Page renders with reduced motion preference"
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Reviewed both screenshots; mobile logo wrapping adjusted and rechecked. No footer collision or horizontal overflow."
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/7.webp",
+      "issue": "Optional reference file absent. Used this design\u2019s complete text prompt and supplied Mux video; no other designs accessed."
+    }
+  ],
+  "notes": [
+    "Required React, Tailwind CSS, motion/react and hls.js stack implemented. Dependency lockfile saved.",
+    "Exact supplied Mux source plays in both browser sizes. Local poster comes from the same source, not a page capture. No overlay; full video opacity.",
+    "Fonts and SVG marks are local. Runtime video requires access to Mux.",
+    "Signup/contact dialogs are explicitly local interactive previews; no data is sent or stored and no backend was specified.",
+    "Build has a nonblocking initial bundle size warning from the HLS player.",
+    "Tested Chromium only. Native Safari HLS not independently tested.",
+    "All deliverables are inside this project. No deployment, push, other session, sub-agent, or messages to others. Ready means available for management review, not live."
+  ]
+}

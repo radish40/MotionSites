@@ -1,0 +1,53 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "font": true,
+      "video": {
+        "currentTime": 4.004679,
+        "readyState": 4,
+        "paused": false,
+        "videoWidth": 1864,
+        "error": null,
+        "streamError": null,
+        "opacity": "1"
+      }
+    },
+    "scriptErrors": [],
+    "failedRequests": [],
+    "interactions": "passed: navigation dialog, Escape, signup preview, contact preview"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "font": true,
+      "video": {
+        "currentTime": 4.005528,
+        "readyState": 4,
+        "paused": false,
+        "videoWidth": 1864,
+        "error": null,
+        "streamError": null,
+        "opacity": "1"
+      }
+    },
+    "scriptErrors": [],
+    "failedRequests": [],
+    "interactions": "passed: navigation dialog, Escape, signup preview, contact preview"
+  },
+  "reducedMotion": "Page renders with reduced motion preference"
+}

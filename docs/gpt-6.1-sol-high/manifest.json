@@ -8251,19 +8251,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18adb-3092-76f0-b3c2-2261b453b97f",
       "output_path": "generated/gpt-6.1-sol-high/neo-vision",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 561979,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:29:42.914630+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "7a8c156dcac73047afe37064e5334b9fbfa603ab",
+      "url": "https://tool.luo-xd.com/motionsites-results/neo-vision/",
+      "completed_utc": "2026-10-30T03:36:16.291003+00:00",
+      "group_message_id": 305
     },
     {
       "number": 242,
@@ -8342,14 +8346,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ade-ff09-7902-bb48-1b0645e9df07",
       "output_path": "generated/gpt-6.1-sol-high/nexus-it-solutions",
       "validation": "",
       "notes": "",
       "process_id": 578019,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:33:52.402736+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 245,
@@ -8368,14 +8376,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ade-ffa1-75b0-b1b2-cb500c9281d5",
       "output_path": "generated/gpt-6.1-sol-high/nickel-payments",
       "validation": "",
       "notes": "",
       "process_id": 578054,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:33:52.530293+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 246,
@@ -8393,11 +8405,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/orbis-nft",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 585223,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:35:43.234168+00:00",
+      "worker_state": "running"
     },
     {
       "number": 247,
@@ -11349,7 +11365,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:34:50.442748+00:00",
+  "updated_utc": "2026-10-30T03:36:16.496029+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

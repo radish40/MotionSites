@@ -1,0 +1,64 @@
+{
+  "recorded_utc": "2026-10-30T03:35:49.121550+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 2,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:34:29.402267+00:00",
+      "remote_main": "5a5ce4644df373a02d0c1a9f41ba1ea187dca1e3",
+      "delivery": {
+        "id": "hr-saa-s-hero",
+        "title": "HR SaaS Hero",
+        "source_commit": "5a5ce4644df373a02d0c1a9f41ba1ea187dca1e3",
+        "thread_id": "01a18ad8-bd4d-7fb3-9f5a-915cca34a7b0",
+        "group_message_id": 303,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:35:04.392843+00:00",
+      "remote_main": "e43bb2348580e6d5210bc8ae95de55f32c763489",
+      "delivery": {
+        "id": "mindloop",
+        "title": "Mindloop",
+        "source_commit": "03c53b8eb3da82135e7e524652534e5a55fef6f2",
+        "thread_id": "01a18adb-2fe1-71a2-8c9a-073d341ad086",
+        "group_message_id": 304,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

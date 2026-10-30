@@ -459,7 +459,31 @@
         "generated/gpt-6.1-sol-high/grow-ai-talent-platform/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/grow-ai-talent-platform/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "hr-saa-s-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Supplied flipped tiled video, white gradient, mixed-font headline and responsive email CTA render at both sizes. Worker checked email validation, video pause/resume and reduced motion.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/hr-saa-s-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/hr-saa-s-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "mindloop",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original flower-field video, serif headline and glass CTAs render at both sizes. Velorah brand inside the page follows its exact prompt; the delivery/catalog name remains Mindloop. Navigation targets the single hero because no other pages were specified.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/mindloop/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/mindloop/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:33:44.809092+00:00"
+  "updated_utc": "2026-10-30T03:35:49.121550+00:00"
 }

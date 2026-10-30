@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:38:29.793484+00:00",
+  "updated_utc": "2026-10-30T04:40:49.101815+00:00",
   "total": 380,
   "counts": {
-    "complete": 296,
+    "complete": 297,
     "running": 5,
-    "not_started": 79
+    "not_started": 78
   },
   "current_batch": {
     "from_number": 201,
@@ -3000,11 +3000,11 @@
       "id": "agent-grove",
       "title": "Agent Grove",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b15-e17a-7a43-9bc6-07b53e002b59",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c24798dbb14437d002e7a85d38d88a997499538a",
+      "group_message_id": 364,
+      "url": "https://tool.luo-xd.com/motionsites-results/agent-grove/"
     },
     {
       "id": "mostar-guide",
@@ -3021,7 +3021,7 @@
       "title": "Talent Collective",
       "category": "Agency",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b19-7fad-7a30-ad4a-d4993042dc22",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3030,7 +3030,7 @@
       "id": "intelligence-layer",
       "title": "Intelligence Layer",
       "category": "Technology",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

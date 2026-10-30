@@ -10227,19 +10227,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b15-e17a-7a43-9bc6-07b53e002b59",
       "output_path": "generated/gpt-6.1-sol-high/agent-grove",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 818007,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:33:49.298234+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "c24798dbb14437d002e7a85d38d88a997499538a",
+      "url": "https://tool.luo-xd.com/motionsites-results/agent-grove/",
+      "completed_utc": "2026-10-30T04:40:48.828446+00:00",
+      "group_message_id": 364
     },
     {
       "number": 300,
@@ -10288,14 +10292,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b19-7fad-7a30-ad4a-d4993042dc22",
       "output_path": "generated/gpt-6.1-sol-high/talent-collective",
       "validation": "",
       "notes": "",
       "process_id": 835859,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:37:46.304277+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 302,
@@ -10313,11 +10321,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/intelligence-layer",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 844543,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:40:05.283222+00:00",
+      "worker_state": "running"
     },
     {
       "number": 303,
@@ -12037,7 +12049,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:38:29.793484+00:00",
+  "updated_utc": "2026-10-30T04:40:49.101815+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

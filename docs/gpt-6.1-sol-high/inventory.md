@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 296/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 297/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -383,10 +383,10 @@
 | 296 | `intelligent-operations` | Intelligent Operations | Agency | 1 | 视频 | 生成中 |
 | 297 | `skybridge-404` | Skybridge 404 | 404 | 1 | 视频 | 已完成 |
 | 298 | `synth-mode` | Synth Mode | Fashion | 1 | 视频 | 生成中 |
-| 299 | `agent-grove` | Agent Grove | SaaS | 1 | 视频 | 生成中 |
+| 299 | `agent-grove` | Agent Grove | SaaS | 1 | 视频 | 已完成 |
 | 300 | `mostar-guide` | Mostar Guide | Travel | 1 | 视频 | 生成中 |
 | 301 | `talent-collective` | Talent Collective | Agency | 1 | 视频 | 生成中 |
-| 302 | `intelligence-layer` | Intelligence Layer | Technology | 1 | 视频 | 未开始 |
+| 302 | `intelligence-layer` | Intelligence Layer | Technology | 1 | 视频 | 生成中 |
 | 303 | `task-engine` | Task Engine | SaaS | 1 | 视频 | 未开始 |
 | 304 | `autonomous-ops` | Autonomous Ops | SaaS | 1 | 视频 | 未开始 |
 | 305 | `orbit-flora` | Orbit Flora | AI | 1 | 视频 | 未开始 |

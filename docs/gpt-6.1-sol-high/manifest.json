@@ -12188,7 +12188,7 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
       "output_path": "generated/gpt-6.1-sol-high/yacht-club-hero",
       "validation": "Public generic check detects CSP errors inside unavailable Vimeo challenge. Same-thread repair required before delivery.",
@@ -12196,7 +12196,7 @@
       "process_id": 1239632,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:51:45.434287+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -12872,19 +12872,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b7a-61b2-78c2-88cf-29aafc80ba8c",
       "output_path": "generated/gpt-6.1-sol-high/benefits-features",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1233302,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:23:35.588821+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "84502d7fac8396dd6a1284c797bef3af709a2990",
+      "url": "https://tool.luo-xd.com/motionsites-results/benefits-features/",
+      "completed_utc": "2026-10-30T06:30:27.506469+00:00",
+      "group_message_id": 445
     },
     {
       "number": 377,
@@ -12903,14 +12907,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b7d-b6a6-7a13-9489-99c4277e48e0",
       "output_path": "generated/gpt-6.1-sol-high/zenith-footer",
       "validation": "",
       "notes": "",
       "process_id": 1247429,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:27:14.119818+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 378,
@@ -12929,14 +12937,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b7d-b74e-7722-8d27-abf1a26cc1c7",
       "output_path": "generated/gpt-6.1-sol-high/digital-reality-hero",
       "validation": "",
       "notes": "",
       "process_id": 1247490,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:27:14.260261+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 379,
@@ -12955,14 +12967,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b7d-b804-7ee1-9495-756322052cec",
       "output_path": "generated/gpt-6.1-sol-high/community-cta",
       "validation": "",
       "notes": "",
       "process_id": 1247606,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:27:14.452332+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 380,
@@ -12980,14 +12996,18 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/package-fits-pricing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1258706,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T06:30:02.149912+00:00",
+      "worker_state": "running"
     }
   ],
-  "updated_utc": "2026-10-30T06:28:51.465154+00:00",
+  "updated_utc": "2026-10-30T06:30:27.718964+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

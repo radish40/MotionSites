@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-30T06:19:12.388Z",
+  "checked_utc": "2026-10-30T06:32:34.262Z",
   "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/",
   "viewports": [
     {
@@ -7,11 +7,11 @@
       "errors": [],
       "networkFailures": [
         {
-          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a5284ea6db8ed3e3/ChEingEX-69ve_YYm5vpQg_jozKA0_wGoYfj63PKtsehzzyE8Jvqdngb5x0S6wf0n3RkC8yYTusQ-tScF26FV6UXU3UQ9bFsrxaOep2jPDgekgUlnhAYOJHlcey1GAnSMA",
-          "error": "net::ERR_NAME_NOT_RESOLVED"
+          "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+          "error": "net::ERR_ABORTED"
         },
         {
-          "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
+          "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
           "error": "net::ERR_ABORTED"
         },
         {
@@ -23,42 +23,21 @@
           "error": "net::ERR_ABORTED"
         },
         {
-          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a5284f1f0fded3e3/CvIC1Q3l8c9UjcSMkNo0IatdhiozuuzGJUHfSbVTJ2e-noxB-ecEPICaYT1DNZ1n1q65_HPWTXics0FAoGfsv8lp-t0ueh0naPSzYbMHH6mktuaX4qfI3t2wQFLOL2xlTw",
-          "error": "net::ERR_NAME_NOT_RESOLVED"
+          "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
+          "error": "net::ERR_ABORTED"
         },
-        {
-          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a5284f7b1a85d3e3/CmVQHeo5SpPu7CPJpEEtUnfZ9MdvwCcwGko139KYgGpv3dnnZSrLEIrT2s4CePkKIr16_XFM7dHjLZWbFGNRJNn6AUacRTcyjGHGVl7e_dtM34sakb-_QHAIvaDjYtiq_Q",
-          "error": "net::ERR_NAME_NOT_RESOLVED"
-        },
-        {
-          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a5284fd4bb4ad3e3/CkJ7smjxJGES-NXSRke2Hv2Xh3CRlq_LCHGjW3Mmp4T5a-iOL6JRNIhJ94lXeVaXi7XD33caDZ9ffYF2JXMbA-MISnKuLZRZg7oYf_pCxUtfKdS_mBVBhu6IxGXBSfbHYQ",
-          "error": "net::ERR_NAME_NOT_RESOLVED"
-        },
-        {
-          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a528502a2fb2d3e3/CvGVPZyINYF5ZWjQfzTuWH03w7nUmzozGPu1KUq5Ub10yzd326FPGbe-j-lO42WVjcVmOmKzvPtn4PV_rRKjClM6WPVaZOkzUYhyePExhVo4qQBKrkCI_775SsoY4tH_FQ",
-          "error": "net::ERR_NAME_NOT_RESOLVED"
-        }
-      ],
-      "frames": [
         {
           "url": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
-          "title": "Vimeo",
-          "text": "We couldn't verify the security of your connection.\nAccess to this content has been restricted. Contact your internet service provider for help.",
-          "videos": []
-        },
-        {
-          "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/vrpr6/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/new/normal?lang=auto",
-          "title": "Checking your Browser\u2026",
-          "text": "",
-          "videos": []
+          "error": "net::ERR_ABORTED"
         }
       ],
+      "frames": [],
       "fleet": [
         {
           "index": 0,
           "before": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-            "time": 1.00469,
+            "time": 1.043734,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -67,7 +46,7 @@
           },
           "after": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-            "time": 2.378785,
+            "time": 2.419402,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -77,7 +56,7 @@
           "hoverPlayback": {
             "before": {
               "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-              "time": 2.907835,
+              "time": 2.160151,
               "duration": 5.0625,
               "readyState": 4,
               "width": 736,
@@ -86,7 +65,7 @@
             },
             "after": {
               "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-              "time": 4.125479,
+              "time": 2.872086,
               "duration": 5.0625,
               "readyState": 4,
               "width": 736,
@@ -104,7 +83,7 @@
           "index": 1,
           "before": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
-            "time": 0.968324,
+            "time": 0.289496,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -113,7 +92,7 @@
           },
           "after": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
-            "time": 2.341138,
+            "time": 1.742828,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -123,7 +102,7 @@
           "hoverPlayback": {
             "before": {
               "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
-              "time": 4.089456,
+              "time": 3.41465,
               "duration": 5.0625,
               "readyState": 4,
               "width": 736,
@@ -132,9 +111,9 @@
             },
             "after": {
               "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
-              "time": 0,
+              "time": 4.638719,
               "duration": 5.0625,
-              "readyState": 1,
+              "readyState": 4,
               "width": 736,
               "paused": false,
               "error": null
@@ -150,7 +129,7 @@
           "index": 2,
           "before": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
-            "time": 0.98518,
+            "time": 0.453824,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -159,7 +138,7 @@
           },
           "after": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
-            "time": 2.354043,
+            "time": 1.776723,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -169,7 +148,7 @@
           "hoverPlayback": {
             "before": {
               "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
-              "time": 0.521152,
+              "time": 1.243615,
               "duration": 5.0625,
               "readyState": 4,
               "width": 736,
@@ -178,7 +157,7 @@
             },
             "after": {
               "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
-              "time": 1.704647,
+              "time": 2.409033,
               "duration": 5.0625,
               "readyState": 4,
               "width": 736,
@@ -193,9 +172,10 @@
           }
         }
       ],
+      "defaultOriginalRequests": [],
       "heroBefore": {
         "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-        "time": 3.176738,
+        "time": 3.690592,
         "duration": 5.0625,
         "readyState": 4,
         "width": 736,
@@ -204,22 +184,20 @@
       },
       "heroAfter": {
         "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-        "time": 4.705351,
+        "time": 0.066107,
         "duration": 5.0625,
         "readyState": 4,
         "width": 736,
         "paused": false,
         "error": null
       },
-      "originalIframe": {
-        "src": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
-        "visibility": "hidden"
-      },
+      "originalIframe": null,
       "originalPlaybackVerified": false,
       "widths": [
         1440,
         1440
-      ]
+      ],
+      "optInIframe": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0"
     },
     {
       "name": "mobile",
@@ -234,8 +212,8 @@
           "error": "net::ERR_ABORTED"
         },
         {
-          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a5285093e9a11a26/Cvm7JLX9cGJxPOR1d0Nu_AyHeDe7hJFkBt9KJ5tveNgLT9MXfvNW2mvAsRxWCXewWx1LjMbkDeOPfZ3ebkuWbQb2koflI07BoPXD8ylNUYHoMfjpgbuwuEKqYTaWHvSInA",
-          "error": "net::ERR_NAME_NOT_RESOLVED"
+          "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
+          "error": "net::ERR_ABORTED"
         },
         {
           "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
@@ -246,30 +224,21 @@
           "error": "net::ERR_ABORTED"
         },
         {
-          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a5285103bb7a1a26/Ch8Iq9lSbXV2hUMuFdZ1Jmt6sicCdq2QmbpY3iVeeGM8TLRV0IaKndvzmbnfuBteL1ah4_LqF7ONx4CfhMtPhj8vfPWQ4473bL4RME_DdWLRCtnKTBbDliUttIbUMNo9jg",
-          "error": "net::ERR_NAME_NOT_RESOLVED"
-        }
-      ],
-      "frames": [
-        {
-          "url": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
-          "title": "Vimeo",
-          "text": "We couldn't verify the security of your connection.\nAccess to this content has been restricted. Contact your internet service provider for help.",
-          "videos": []
+          "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
+          "error": "net::ERR_ABORTED"
         },
         {
-          "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/jkxvo/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/new/normal?lang=auto",
-          "title": "Checking your Browser\u2026",
-          "text": "",
-          "videos": []
+          "url": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
+          "error": "net::ERR_ABORTED"
         }
       ],
+      "frames": [],
       "fleet": [
         {
           "index": 0,
           "before": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-            "time": 1.137662,
+            "time": 1.050037,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -278,7 +247,7 @@
           },
           "after": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-            "time": 2.546868,
+            "time": 2.474242,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -290,7 +259,7 @@
           "index": 1,
           "before": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
-            "time": 1.104058,
+            "time": 0.94744,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -299,7 +268,7 @@
           },
           "after": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
-            "time": 2.515201,
+            "time": 2.369149,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -311,7 +280,7 @@
           "index": 2,
           "before": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
-            "time": 1.089385,
+            "time": 0.982132,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -320,7 +289,7 @@
           },
           "after": {
             "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
-            "time": 2.502331,
+            "time": 2.412396,
             "duration": 5.0625,
             "readyState": 4,
             "width": 736,
@@ -329,9 +298,10 @@
           }
         }
       ],
+      "defaultOriginalRequests": [],
       "heroBefore": {
         "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-        "time": 3.161396,
+        "time": 3.48072,
         "duration": 5.0625,
         "readyState": 4,
         "width": 736,
@@ -340,25 +310,106 @@
       },
       "heroAfter": {
         "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
-        "time": 4.671445,
+        "time": 4.995207,
         "duration": 5.0625,
         "readyState": 4,
         "width": 736,
         "paused": false,
         "error": null
       },
-      "originalIframe": {
-        "src": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
-        "visibility": "hidden"
-      },
+      "originalIframe": null,
       "originalPlaybackVerified": false,
       "widths": [
         390,
         390
-      ]
+      ],
+      "optInIframe": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0"
     }
   ],
   "original_playback_verified": false,
   "fallback_and_fleet_passed": true,
-  "limitation": "Original Vimeo playback was not verified. Exact embed retained; original supplied fleet MP4 provides an explicitly documented visual approximation."
+  "limitation": "Original Vimeo playback was not verified. Exact embed retained; original supplied fleet MP4 provides an explicitly documented visual approximation.",
+  "generic_default_browser_check": {
+    "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/",
+    "previewSelector": null,
+    "previewDelayMs": null,
+    "checked_at": "2026-10-30T06:32:48.232Z",
+    "passed": true,
+    "results": [
+      {
+        "viewport": "desktop",
+        "status": 200,
+        "introWait": "not-applicable",
+        "visibleImageWaitMs": 7,
+        "canvasRendering": null,
+        "title": "Yacht Club",
+        "bodyChars": 413,
+        "horizontalOverflow": 0,
+        "images": [],
+        "videos": [
+          {
+            "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 3.177099,
+            "duration": 5.0625,
+            "ended": false,
+            "loop": true,
+            "autoplay": true
+          }
+        ],
+        "frames": [],
+        "errors": [],
+        "consoleErrors": [],
+        "failedRequests": [
+          {
+            "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+            "error": "net::ERR_ABORTED"
+          }
+        ],
+        "badResponses": []
+      },
+      {
+        "viewport": "mobile",
+        "status": 200,
+        "introWait": "not-applicable",
+        "visibleImageWaitMs": 3,
+        "canvasRendering": null,
+        "title": "Yacht Club",
+        "bodyChars": 413,
+        "horizontalOverflow": 0,
+        "images": [],
+        "videos": [
+          {
+            "src": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 4.771355,
+            "duration": 5.0625,
+            "ended": false,
+            "loop": true,
+            "autoplay": true
+          }
+        ],
+        "frames": [],
+        "errors": [],
+        "consoleErrors": [],
+        "failedRequests": [
+          {
+            "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+            "error": "net::ERR_ABORTED"
+          }
+        ],
+        "badResponses": []
+      }
+    ]
+  }
 }

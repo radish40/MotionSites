@@ -1,9 +1,8 @@
 {
-  "updated_utc": "2026-10-30T06:35:14.181868+00:00",
+  "updated_utc": "2026-10-30T06:36:36.890502+00:00",
   "total": 380,
   "counts": {
-    "complete": 378,
-    "ready": 1,
+    "complete": 379,
     "running": 1
   },
   "current_batch": {
@@ -3570,11 +3569,11 @@
       "id": "yacht-club-hero",
       "title": "Yacht Club",
       "category": "Landing Page",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "511966ce9f07e44b4a505a544bbb6a4a5a1123fa",
+      "group_message_id": 449,
+      "url": "https://tool.luo-xd.com/motionsites-results/yacht-club-hero/"
     },
     {
       "id": "social-media-posts-hero",

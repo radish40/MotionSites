@@ -1,0 +1,24 @@
+{
+  "browser": "148.0.7778.178",
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "checks": [
+    "Desktop: three cards, fifteen benefits, exact monthly prices",
+    "Billing: monthly/yearly prices, Free unchanged, mouse and keyboard switch",
+    "Video: decoded original asset, muted autoplay, no loop, natural ended event reverses and resumes forward at zero",
+    "Mobile 390x844: no page overflow, horizontal card snap, billing switch, drawer open/close/Escape/link",
+    "Desktop 1440x1000: no page overflow, card hover"
+  ],
+  "video": {
+    "duration": 8,
+    "width": 1920,
+    "height": 1080,
+    "autoplay": true,
+    "loop": false,
+    "muted": true
+  },
+  "errors": [],
+  "failedRequests": []
+}

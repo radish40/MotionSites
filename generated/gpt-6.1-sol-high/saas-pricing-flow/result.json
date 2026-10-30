@@ -1,0 +1,28 @@
+{
+  "title": "SaaS Pricing Flow",
+  "id": "saas-pricing-flow",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/saas-pricing-flow/",
+    "browser": "Chromium 148.0.7778.178 via playwright-core",
+    "desktop": "passed at 1440x1000: plans, features, prices, hover, no horizontal page overflow",
+    "mobile": "passed at 390x844: drawer open/close/Escape/link, scroll snapping, billing, no horizontal page overflow",
+    "billing": "passed: monthly/yearly price changes and keyboard switch; Free unchanged",
+    "video": "passed: original 1920x1080 video decodes, muted autoplay, no native loop, natural ending reverses and resumes forward at zero",
+    "script_errors": [],
+    "failed_requests": [],
+    "report": "screenshots/browser-checks.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/mobile-full.png", "screenshots/mobile-menu.png"]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original video and logo downloaded intact from specified URLs; served locally under the required base path.",
+    "Inter with system sans-serif fallback as requested; no external font import.",
+    "Real React DOM and CSS; reference consulted for composition only.",
+    "Reverse seeking is throttled to avoid stacked seeks; decoder latency can vary by browser/device.",
+    "Choose Plan has no checkout integration; FAQ, Contact and Download use fragment targets because no destinations were supplied.",
+    "Ready for acceptance review; not deployed or pushed."
+  ]
+}

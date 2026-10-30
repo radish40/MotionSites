@@ -1,0 +1,82 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/saas-pricing-flow/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T02:47:45.988Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Forma AI — Pricing",
+      "bodyChars": 731,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/saas-pricing-flow/assets/logo.svg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/saas-pricing-flow/assets/forma-background.mp4",
+          "readyState": 1,
+          "paused": true,
+          "currentTime": 6.616733,
+          "duration": 8,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/saas-pricing-flow/assets/forma-background.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Forma AI — Pricing",
+      "bodyChars": 697,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/saas-pricing-flow/assets/logo.svg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/saas-pricing-flow/assets/forma-background.mp4",
+          "readyState": 1,
+          "paused": true,
+          "currentTime": 6.116633,
+          "duration": 8,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/saas-pricing-flow/assets/forma-background.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

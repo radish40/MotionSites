@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T06:30:27.718964+00:00",
+  "updated_utc": "2026-10-30T06:32:01.511458+00:00",
   "total": 380,
   "counts": {
-    "complete": 375,
+    "complete": 376,
     "ready": 1,
-    "running": 4
+    "running": 3
   },
   "current_batch": {
     "from_number": 201,
@@ -3780,11 +3780,11 @@
       "id": "zenith-footer",
       "title": "Zenith Footer",
       "category": "Footer Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b7d-b6a6-7a13-9489-99c4277e48e0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "deb9ad78210d9d3e92cf1c5a642e84c0078c062b",
+      "group_message_id": 446,
+      "url": "https://tool.luo-xd.com/motionsites-results/zenith-footer/"
     },
     {
       "id": "digital-reality-hero",
@@ -3811,7 +3811,7 @@
       "title": "What Package Fits You",
       "category": "Pricing",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b80-4704-7f92-bc13-9ba2e7475a22",
       "source_commit": null,
       "group_message_id": null,
       "url": null

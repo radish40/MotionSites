@@ -12906,19 +12906,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b7d-b6a6-7a13-9489-99c4277e48e0",
       "output_path": "generated/gpt-6.1-sol-high/zenith-footer",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1247429,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:27:14.119818+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "deb9ad78210d9d3e92cf1c5a642e84c0078c062b",
+      "url": "https://tool.luo-xd.com/motionsites-results/zenith-footer/",
+      "completed_utc": "2026-10-30T06:32:01.322607+00:00",
+      "group_message_id": 446
     },
     {
       "number": 378,
@@ -12997,17 +13001,21 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b80-4704-7f92-bc13-9ba2e7475a22",
       "output_path": "generated/gpt-6.1-sol-high/package-fits-pricing",
       "validation": "",
       "notes": "",
       "process_id": 1258706,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:30:02.149912+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     }
   ],
-  "updated_utc": "2026-10-30T06:30:27.718964+00:00",
+  "updated_utc": "2026-10-30T06:32:01.511458+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

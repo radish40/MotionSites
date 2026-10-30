@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 375/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 376/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -461,7 +461,7 @@
 | 374 | `vertex-ai-hero` | VertexAI Hero | Hero Section | 1 | 无 | 已完成 |
 | 375 | `keep-ahead-features` | Keep Ahead Features | Features Section | 1 | 无 | 已完成 |
 | 376 | `benefits-features` | Benefits Features | Features Section | 1 | 无 | 已完成 |
-| 377 | `zenith-footer` | Zenith Footer | Footer Section | 1 | 无 | 生成中 |
+| 377 | `zenith-footer` | Zenith Footer | Footer Section | 1 | 无 | 已完成 |
 | 378 | `digital-reality-hero` | Digital Reality | Social Media | 1 | 无 | 生成中 |
 | 379 | `community-cta` | Community CTA | CTA Section | 1 | 无 | 生成中 |
 | 380 | `package-fits-pricing` | What Package Fits You | Pricing | 1 | 无 | 生成中 |

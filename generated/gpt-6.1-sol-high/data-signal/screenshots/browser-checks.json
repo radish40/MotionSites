@@ -1,0 +1,259 @@
+{
+  "url": "http://localhost:4173/motionsites-results/data-signal/",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "size": "1440x1000",
+      "passed": true,
+      "state": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "width": 1440,
+        "height": 1000,
+        "video": {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+          "readyState": 4,
+          "paused": false,
+          "videoWidth": 1920,
+          "currentTime": 1.914014
+        },
+        "fonts": true,
+        "hero": {
+          "x": 60.140625,
+          "y": 604.703125,
+          "bottom": 948.109375
+        },
+        "copy": "Your metrics are scattered across a dozen dashboards. Vantage bring them into one clear signal, so every decision is backed by data you actually trust."
+      },
+      "interactions": "Demo open/close, Escape, CTA hooks; compact menu focus, Escape, outside click and link closure where applicable"
+    },
+    {
+      "viewport": "mobile",
+      "size": "390x844",
+      "passed": true,
+      "state": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "width": 390,
+        "height": 844,
+        "video": {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+          "readyState": 4,
+          "paused": false,
+          "videoWidth": 1920,
+          "currentTime": 1.827211
+        },
+        "fonts": true,
+        "hero": {
+          "x": 24,
+          "y": 522,
+          "bottom": 814
+        },
+        "copy": "Your metrics are scattered across a dozen dashboards. Vantage bring them into one clear signal, so every decision is backed by data you actually trust."
+      },
+      "interactions": "Demo open/close, Escape, CTA hooks; compact menu focus, Escape, outside click and link closure where applicable"
+    },
+    {
+      "viewport": "tablet",
+      "size": "768x1024",
+      "passed": true,
+      "state": {
+        "scrollWidth": 768,
+        "scrollHeight": 1024,
+        "width": 768,
+        "height": 1024,
+        "video": {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+          "readyState": 4,
+          "paused": false,
+          "videoWidth": 1920,
+          "currentTime": 1.917817
+        },
+        "fonts": true,
+        "hero": {
+          "x": 36,
+          "y": 574.796875,
+          "bottom": 970.859375
+        },
+        "copy": "Your metrics are scattered across a dozen dashboards. Vantage bring them into one clear signal, so every decision is backed by data you actually trust."
+      },
+      "interactions": "Demo open/close, Escape, CTA hooks; compact menu focus, Escape, outside click and link closure where applicable"
+    },
+    {
+      "viewport": "short-mobile",
+      "size": "360x640",
+      "passed": true,
+      "state": {
+        "scrollWidth": 360,
+        "scrollHeight": 640,
+        "width": 360,
+        "height": 640,
+        "video": {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+          "readyState": 4,
+          "paused": false,
+          "videoWidth": 1920,
+          "currentTime": 1.882299
+        },
+        "fonts": true,
+        "hero": {
+          "x": 20,
+          "y": 352,
+          "bottom": 618
+        },
+        "copy": "Your metrics are scattered across a dozen dashboards. Vantage bring them into one clear signal, so every decision is backed by data you actually trust."
+      },
+      "interactions": "Demo open/close, Escape, CTA hooks; compact menu focus, Escape, outside click and link closure where applicable"
+    },
+    {
+      "viewport": "landscape",
+      "size": "844x390",
+      "passed": true,
+      "state": {
+        "scrollWidth": 844,
+        "scrollHeight": 390,
+        "width": 844,
+        "height": 390,
+        "video": {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+          "readyState": 4,
+          "paused": false,
+          "videoWidth": 1920,
+          "currentTime": 1.764994
+        },
+        "fonts": true,
+        "hero": {
+          "x": 28,
+          "y": 172,
+          "bottom": 370
+        },
+        "copy": "Your metrics are scattered across a dozen dashboards. Vantage bring them into one clear signal, so every decision is backed by data you actually trust."
+      },
+      "interactions": "Demo open/close, Escape, CTA hooks; compact menu focus, Escape, outside click and link closure where applicable"
+    },
+    {
+      "name": "prefers-reduced-motion",
+      "passed": true,
+      "details": "No entrance animation; background paused"
+    }
+  ],
+  "console_errors": [],
+  "failed_requests": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "tablet",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "tablet",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "short-mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "short-mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "short-mobile",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "short-mobile",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "short-mobile",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "short-mobile",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "short-mobile",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "landscape",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "landscape",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "landscape",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "landscape",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "landscape",
+      "url": "http://localhost:4173/motionsites-results/data-signal/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "passed": true
+}

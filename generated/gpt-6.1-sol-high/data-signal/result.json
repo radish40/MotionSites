@@ -1,0 +1,58 @@
+{
+  "title": "Data Signal",
+  "id": "data-signal",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed",
+    "browser": "passed",
+    "viewports": [
+      "1440x1000",
+      "390x844",
+      "768x1024",
+      "360x640",
+      "844x390"
+    ],
+    "javascript_errors": [],
+    "overflow": "No document overflow at all five tested sizes",
+    "interactions": "Compact navigation toggle, inert, first-link focus, Escape, outside pointer and link closure; both demo controls and modal close; conversion event hooks",
+    "reduced_motion": "passed: entrance disabled, background paused",
+    "background_video": "Exact mandatory CloudFront source decoded at 1920px width and autoplayed at all five sizes",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "report": "screenshots/browser-checks.json",
+    "network": "Only ERR_ABORTED media range cancellations during seeking/teardown; no asset load or decode failures observed"
+  },
+  "asset_issues": [
+    {
+      "asset": "Reference Sans / Reference Display",
+      "issue": "Exact variable-font files or URLs were not supplied and could not be located.",
+      "resolution": "Local licensed variable DM Sans and Bodoni Moda substitutes under requested CSS family hooks; original fractional weights and headline weight 500 preserved. Exact typeface fidelity remains unverified."
+    },
+    {
+      "asset": "assets/watch-demo-thumbnail.png",
+      "issue": "Original thumbnail asset absent.",
+      "resolution": "Recovered isolated 160x160 smoke region from this design preview. Removed baked-in play circle by feathered smoke cloning; live control is DOM. Central region approximate. Recovery script included."
+    },
+    {
+      "asset": "brand SVG / responsive source overrides",
+      "issue": "Exact SVG paths and referenced extra short-height source rules absent.",
+      "resolution": "Reconstructed from specified geometry/colors and described behavior; visually checked. Original mobile reference unavailable."
+    },
+    {
+      "asset": "demo movie",
+      "issue": "No separate demo movie supplied.",
+      "resolution": "Viewer plays the supplied background MP4 using native video controls."
+    }
+  ],
+  "notes": [
+    "Native static HTML with inline CSS/JS; no framework or runtime dependencies.",
+    "Complete publishable static artifact is dist/index.html plus dist/assets; relative URLs support /motionsites-results/data-signal/.",
+    "Sign Up / Get Started emit integration events; About / Services / Contact retain fragment links because no destinations, sections or backend were specified.",
+    "README.md documents run commands, verification, provenance and limitations. Dependency lockfile retained; no node_modules.",
+    "Ready means ready for review with disclosed asset approximations, not deployed. No other projects read, no agents or other sessions created, no push/deployment/messages."
+  ]
+}

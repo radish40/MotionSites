@@ -1,0 +1,39 @@
+{
+  "title": "VaultShield",
+  "id": "vaultshield",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "passed: Chromium via playwright-core",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "fonts": "verified actual rendered Helvetica Now Display Bold and Inter through Chromium CDP",
+    "video": "original 1920x1080 asset decoded and autoplaying at both viewports",
+    "interactions": "CTA hover scale; mobile sheet open, five links, focus trap, focus restoration, Escape/backdrop/close/link dismissal",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "detail": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "MP4 range request",
+      "severity": "informational",
+      "detail": "Chromium canceled an initial range request (net::ERR_ABORTED) while buffering/seeking; decode and playback passed. No missing or substituted assets."
+    }
+  ],
+  "notes": [
+    "Original video and fonts downloaded successfully and bundled locally; required external font link/import retained.",
+    "All work restricted to VaultShield; no agents, deployment, push, or messages.",
+    "Signup/sign-in/Get It Free destinations and additional nav content were not specified; this is the requested hero only.",
+    "Video paused at 2 seconds by screenshot script only.",
+    "Ready for review; not deployed."
+  ]
+}

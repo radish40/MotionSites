@@ -1,0 +1,110 @@
+{
+  "errors": [],
+  "requestsFailed": [],
+  "consoleErrors": [],
+  "httpErrors": [],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "home": {
+        "overflow": false,
+        "video": {
+          "ready": 4,
+          "playing": true,
+          "width": 1612
+        },
+        "fonts": [
+          [
+            "Orbitron",
+            true
+          ],
+          [
+            "Space Grotesk",
+            true
+          ],
+          [
+            "JetBrains Mono",
+            true
+          ]
+        ]
+      },
+      "project": {
+        "overflow": false,
+        "video": {
+          "ready": 4,
+          "playing": true,
+          "width": 1756
+        },
+        "fonts": [
+          [
+            "Orbitron",
+            true
+          ],
+          [
+            "Space Grotesk",
+            true
+          ],
+          [
+            "JetBrains Mono",
+            true
+          ]
+        ]
+      },
+      "interactions": "passed"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "home": {
+        "overflow": false,
+        "video": {
+          "ready": 4,
+          "playing": true,
+          "width": 1612
+        },
+        "fonts": [
+          [
+            "Orbitron",
+            true
+          ],
+          [
+            "Space Grotesk",
+            true
+          ],
+          [
+            "JetBrains Mono",
+            true
+          ]
+        ]
+      },
+      "project": {
+        "overflow": false,
+        "video": {
+          "ready": 4,
+          "playing": true,
+          "width": 1756
+        },
+        "fonts": [
+          [
+            "Orbitron",
+            true
+          ],
+          [
+            "Space Grotesk",
+            true
+          ],
+          [
+            "JetBrains Mono",
+            true
+          ]
+        ]
+      },
+      "interactions": "passed"
+    }
+  ],
+  "directProjectLink": true,
+  "reducedMotionVideoPaused": true
+}

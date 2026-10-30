@@ -1,0 +1,139 @@
+{
+  "title": "Viktor Portfolio",
+  "id": "viktor-portfolio",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": "Chromium via Playwright; built static files served at required subpath",
+    "browser_results": {
+      "errors": [],
+      "requestsFailed": [],
+      "consoleErrors": [],
+      "httpErrors": [],
+      "viewports": [
+        {
+          "name": "desktop",
+          "width": 1440,
+          "height": 1000,
+          "home": {
+            "overflow": false,
+            "video": {
+              "ready": 4,
+              "playing": true,
+              "width": 1612
+            },
+            "fonts": [
+              [
+                "Orbitron",
+                true
+              ],
+              [
+                "Space Grotesk",
+                true
+              ],
+              [
+                "JetBrains Mono",
+                true
+              ]
+            ]
+          },
+          "project": {
+            "overflow": false,
+            "video": {
+              "ready": 4,
+              "playing": true,
+              "width": 1756
+            },
+            "fonts": [
+              [
+                "Orbitron",
+                true
+              ],
+              [
+                "Space Grotesk",
+                true
+              ],
+              [
+                "JetBrains Mono",
+                true
+              ]
+            ]
+          },
+          "interactions": "passed"
+        },
+        {
+          "name": "mobile",
+          "width": 390,
+          "height": 844,
+          "home": {
+            "overflow": false,
+            "video": {
+              "ready": 4,
+              "playing": true,
+              "width": 1612
+            },
+            "fonts": [
+              [
+                "Orbitron",
+                true
+              ],
+              [
+                "Space Grotesk",
+                true
+              ],
+              [
+                "JetBrains Mono",
+                true
+              ]
+            ]
+          },
+          "project": {
+            "overflow": false,
+            "video": {
+              "ready": 4,
+              "playing": true,
+              "width": 1756
+            },
+            "fonts": [
+              [
+                "Orbitron",
+                true
+              ],
+              [
+                "Space Grotesk",
+                true
+              ],
+              [
+                "JetBrains Mono",
+                true
+              ]
+            ]
+          },
+          "interactions": "passed"
+        }
+      ],
+      "directProjectLink": true,
+      "reducedMotionVideoPaused": true
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-project.png",
+      "screenshots/mobile-project.png"
+    ],
+    "visual_review": "All four page/viewport compositions inspected"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React, Tailwind CSS, motion/react, and lucide-react implemented.",
+    "Exact specified videos and Picsum image downloaded; all specified fonts bundled locally. No runtime external dependencies.",
+    "Two hash-addressable views with AnimatePresence transitions and functional controls.",
+    "With one specified project, both detail navigation arrows return home.",
+    "Reference used only for visual inspection; no screenshot used as a webpage.",
+    "Supplementary copy supplied where no exact wording was given.",
+    "Validated in Chromium only; mobile power-saving policies may affect autoplay.",
+    "Ready for acceptance; not deployed or pushed."
+  ]
+}

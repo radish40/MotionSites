@@ -1,0 +1,210 @@
+{
+  "checkedAt": "2026-10-30T04:50:28.994Z",
+  "base": "/motionsites-results/cyber-layer/",
+  "errors": [],
+  "networkFailures": [],
+  "cancelledVideoRequests": [
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "checks": [
+    {
+      "name": "desktop captured state",
+      "layout": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "animations": 0,
+        "fonts": [
+          {
+            "family": "SG",
+            "status": "loaded"
+          },
+          {
+            "family": "JB",
+            "status": "loaded"
+          }
+        ],
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": false,
+            "time": 2.08919,
+            "error": null,
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4"
+          },
+          {
+            "readyState": 4,
+            "paused": false,
+            "time": 2.072485,
+            "error": null,
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4"
+          },
+          {
+            "readyState": 4,
+            "paused": false,
+            "time": 2.002076,
+            "error": null,
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4"
+          }
+        ],
+        "h1": {
+          "x": 69.84375,
+          "y": 309.921875,
+          "width": 559.078125,
+          "height": 145.4375,
+          "top": 309.921875,
+          "right": 628.921875,
+          "bottom": 455.359375,
+          "left": 69.84375
+        },
+        "stats": {
+          "x": 0,
+          "y": 790.515625,
+          "width": 1440,
+          "height": 105.234375,
+          "top": 790.515625,
+          "right": 1440,
+          "bottom": 895.75,
+          "left": 0
+        },
+        "offscreen": []
+      }
+    },
+    {
+      "name": "desktop",
+      "passed": true
+    },
+    {
+      "name": "mobile captured state",
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "animations": 0,
+        "fonts": [
+          {
+            "family": "SG",
+            "status": "loaded"
+          },
+          {
+            "family": "JB",
+            "status": "loaded"
+          }
+        ],
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": false,
+            "time": 2.507475,
+            "error": null,
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4"
+          },
+          {
+            "readyState": 4,
+            "paused": false,
+            "time": 2.51127,
+            "error": null,
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4"
+          },
+          {
+            "readyState": 4,
+            "paused": false,
+            "time": 2.511231,
+            "error": null,
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_132544_b6ef0174-ed95-45ad-9a2f-ccb8acfbdce8.mp4"
+          }
+        ],
+        "h1": {
+          "x": 23.578125,
+          "y": 273.375,
+          "width": 312.609375,
+          "height": 83.4375,
+          "top": 273.375,
+          "right": 336.1875,
+          "bottom": 356.8125,
+          "left": 23.578125
+        },
+        "stats": {
+          "x": 0,
+          "y": 661.953125,
+          "width": 390,
+          "height": 72.546875,
+          "top": 661.953125,
+          "right": 390,
+          "bottom": 734.5,
+          "left": 0
+        },
+        "offscreen": []
+      }
+    },
+    {
+      "name": "mobile menu",
+      "passed": true,
+      "details": "Burger, exclusive accordions, Escape, link dismissal, focus trap, desktop resize dismissal"
+    },
+    {
+      "name": "mobile",
+      "passed": true
+    },
+    {
+      "name": "reduced motion",
+      "passed": true,
+      "details": {
+        "intro": false,
+        "animations": 0,
+        "videos": [
+          {
+            "paused": true,
+            "autoplay": false
+          },
+          {
+            "paused": true,
+            "autoplay": false
+          },
+          {
+            "paused": true,
+            "autoplay": false
+          }
+        ],
+        "h1Opacity": "1"
+      }
+    }
+  ],
+  "passed": true
+}

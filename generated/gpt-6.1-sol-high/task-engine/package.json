@@ -1,0 +1,10 @@
+{
+  "name": "task-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Task Engine product feature mosaic — standalone HTML, CSS and SVG",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node checks.mjs"
+  }
+}

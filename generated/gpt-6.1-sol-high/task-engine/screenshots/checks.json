@@ -1,0 +1,441 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1000,
+    "scrollHeight": 1000,
+    "cardCount": 5,
+    "cards": [
+      {
+        "name": "card notif",
+        "x": 36,
+        "y": 168.453125,
+        "width": 337.515625,
+        "height": 148.34375,
+        "visible": true
+      },
+      {
+        "name": "card connect",
+        "x": 36,
+        "y": 325.75,
+        "width": 337.515625,
+        "height": 505.765625,
+        "visible": true
+      },
+      {
+        "name": "card automate",
+        "x": 383.46875,
+        "y": 168.453125,
+        "width": 624.25,
+        "height": 498.796875,
+        "visible": true
+      },
+      {
+        "name": "card insights",
+        "x": 1017.671875,
+        "y": 168.453125,
+        "width": 386.296875,
+        "height": 498.796875,
+        "visible": true
+      },
+      {
+        "name": "card search",
+        "x": 383.46875,
+        "y": 676.203125,
+        "width": 1020.5,
+        "height": 155.3125,
+        "visible": true
+      }
+    ],
+    "animationDetached": true,
+    "fontLoaded": true,
+    "fontFaces": [
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ],
+    "images": 0,
+    "searchInput": "passed",
+    "errors": [],
+    "requestFailures": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 844,
+    "scrollHeight": 1670,
+    "cardCount": 5,
+    "cards": [
+      {
+        "name": "card notif",
+        "x": 15,
+        "y": 15,
+        "width": 360,
+        "height": 143.03125,
+        "visible": true
+      },
+      {
+        "name": "card connect",
+        "x": 15,
+        "y": 170.5,
+        "width": 360,
+        "height": 487.671875,
+        "visible": true
+      },
+      {
+        "name": "card automate",
+        "x": 15,
+        "y": 670.640625,
+        "width": 360,
+        "height": 286.078125,
+        "visible": true
+      },
+      {
+        "name": "card insights",
+        "x": 15,
+        "y": 969.1875,
+        "width": 360,
+        "height": 480,
+        "visible": true
+      },
+      {
+        "name": "card search",
+        "x": 15,
+        "y": 1461.65625,
+        "width": 360,
+        "height": 192.953125,
+        "visible": true
+      }
+    ],
+    "animationDetached": true,
+    "fontLoaded": true,
+    "fontFaces": [
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ],
+    "images": 0,
+    "searchInput": "passed",
+    "errors": [],
+    "requestFailures": []
+  },
+  {
+    "name": "tablet",
+    "viewport": {
+      "width": 820,
+      "height": 1180
+    },
+    "width": 820,
+    "scrollWidth": 820,
+    "height": 1180,
+    "scrollHeight": 1180,
+    "cardCount": 5,
+    "cards": [
+      {
+        "name": "card notif",
+        "x": 20.5,
+        "y": 631.78125,
+        "width": 476.515625,
+        "height": 147.4375,
+        "visible": true
+      },
+      {
+        "name": "card connect",
+        "x": 504.609375,
+        "y": 631.78125,
+        "width": 294.875,
+        "height": 307.015625,
+        "visible": true
+      },
+      {
+        "name": "card automate",
+        "x": 20.5,
+        "y": 241.15625,
+        "width": 476.515625,
+        "height": 380.75,
+        "visible": true
+      },
+      {
+        "name": "card insights",
+        "x": 504.609375,
+        "y": 241.15625,
+        "width": 294.875,
+        "height": 383.796875,
+        "visible": true
+      },
+      {
+        "name": "card search",
+        "x": 20.5,
+        "y": 786.046875,
+        "width": 476.515625,
+        "height": 152.75,
+        "visible": true
+      }
+    ],
+    "animationDetached": true,
+    "fontLoaded": true,
+    "fontFaces": [
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "unloaded"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "status": "loaded"
+      }
+    ],
+    "images": 0,
+    "searchInput": "passed",
+    "errors": [],
+    "requestFailures": []
+  },
+  {
+    "name": "reduced-motion",
+    "rootClass": "",
+    "allVisible": true,
+    "animations": 0
+  },
+  {
+    "name": "entrance",
+    "running": {
+      "animations": 25,
+      "played": true
+    }
+  }
+]

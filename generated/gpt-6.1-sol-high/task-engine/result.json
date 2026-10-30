@@ -1,0 +1,69 @@
+{
+  "title": "Task Engine",
+  "id": "task-engine",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists and matches source",
+    "browser": "Chromium via playwright-core; built file served at /motionsites-results/task-engine/",
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "horizontal_overflow": false,
+        "visible_cards": 5,
+        "font_loaded": true,
+        "script_errors": [],
+        "request_failures": [],
+        "search_input": "passed",
+        "animation_detached": true
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "horizontal_overflow": false,
+        "visible_cards": 5,
+        "font_loaded": true,
+        "script_errors": [],
+        "request_failures": [],
+        "search_input": "passed",
+        "animation_detached": true
+      },
+      {
+        "name": "tablet",
+        "width": 820,
+        "height": 1180,
+        "horizontal_overflow": false,
+        "visible_cards": 5,
+        "font_loaded": true,
+        "script_errors": [],
+        "request_failures": [],
+        "search_input": "passed",
+        "animation_detached": true
+      }
+    ],
+    "reduced_motion": "passed; immediately visible cards and zero animations",
+    "entrance": "passed; 25 animations observed, then removed",
+    "visual_review": "desktop, mobile and tablet screenshots reviewed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/tablet.png"
+    ],
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "Original brand SVG source paths were not included in the prompt. Inline reconstructions use specified colors and recognizable geometry; exact path fidelity, especially Teams and Notion, is approximate. Google Fonts loaded successfully."
+  ],
+  "notes": [
+    "Single self-contained HTML document with inline CSS, JS and SVG; only Google Fonts external. No framework or raster images.",
+    "Reference viewed for comparison only; no reference pixels embedded.",
+    "Search is an editable native search input; microphone and integration marks are illustrative, as no corresponding behavior was specified.",
+    "Uses a plain Node copy build; no Vite required for the mandated no-framework single-file stack. Output supports the required subpath.",
+    "Responsive unspecified details interpreted consistently with prompt. Chromium validation only; no automated pixel-difference guarantee.",
+    "All project artifacts remain within this directory. No agents, other sessions, push, deployment, or external messages.",
+    "README.md contains build, verification and limitations. Ready means available for local acceptance, not published."
+  ]
+}

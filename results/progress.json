@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:20:40.620442+00:00",
+  "updated_utc": "2026-10-30T05:23:18.628162+00:00",
   "total": 380,
   "counts": {
-    "complete": 329,
+    "complete": 331,
     "running": 6,
-    "not_started": 45
+    "not_started": 43
   },
   "current_batch": {
     "from_number": 201,
@@ -3260,11 +3260,11 @@
       "id": "nova-space-landing",
       "title": "NOVA Space Systems",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b35-d418-7952-b8be-2443b7acd0ea",
-      "source_commit": "bbd3297078204ef34b8d2329f72dea0d1b93aa3f",
+      "source_commit": "63e72138beb61a2baca56a96cfd986befe8197ed",
       "group_message_id": 393,
-      "url": null
+      "url": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/"
     },
     {
       "id": "4",
@@ -3310,11 +3310,11 @@
       "id": "innovation-landing",
       "title": "Innovation",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b3b-a096-7e02-babe-ccfac4115efb",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b71cd90e8126a12b4050af9d8a7533976ed4babf",
+      "group_message_id": 399,
+      "url": "https://tool.luo-xd.com/motionsites-results/innovation-landing/"
     },
     {
       "id": "10",
@@ -3341,7 +3341,7 @@
       "title": "Loader Animation",
       "category": "Component",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3f-482d-7640-9d8e-18bd2fa45b8c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3351,7 +3351,7 @@
       "title": "RIVR",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3f-48b7-7511-b138-9d689f9f5663",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3361,7 +3361,7 @@
       "title": "WISA Space",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3f-4a67-7b30-80c2-63179c83ef5a",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3370,7 +3370,7 @@
       "id": "vortex-studio-hero",
       "title": "AI Designer Portfolio",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3380,7 +3380,7 @@
       "id": "impressive-hero",
       "title": "Impressive Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

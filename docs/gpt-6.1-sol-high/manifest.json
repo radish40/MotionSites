@@ -11119,7 +11119,7 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b35-d418-7952-b8be-2443b7acd0ea",
       "output_path": "generated/gpt-6.1-sol-high/nova-space-landing",
       "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
@@ -11127,14 +11127,14 @@
       "process_id": 987854,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:08:43.041225+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "source_commit": "bbd3297078204ef34b8d2329f72dea0d1b93aa3f",
+      "source_commit": "63e72138beb61a2baca56a96cfd986befe8197ed",
       "url": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/",
-      "completed_utc": "2026-10-30T05:15:36.186790+00:00",
+      "completed_utc": "2026-10-30T05:22:07.616260+00:00",
       "group_message_id": 393,
       "repair_attempts": 1
     },
@@ -11288,19 +11288,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b3b-a096-7e02-babe-ccfac4115efb",
       "output_path": "generated/gpt-6.1-sol-high/innovation-landing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 978254,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:15:03.100336+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b71cd90e8126a12b4050af9d8a7533976ed4babf",
+      "url": "https://tool.luo-xd.com/motionsites-results/innovation-landing/",
+      "completed_utc": "2026-10-30T05:23:18.384437+00:00",
+      "group_message_id": 399
     },
     {
       "number": 331,
@@ -11387,14 +11391,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3f-482d-7640-9d8e-18bd2fa45b8c",
       "output_path": "generated/gpt-6.1-sol-high/18",
       "validation": "",
       "notes": "",
       "process_id": 994603,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:19:02.399050+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 334,
@@ -11413,14 +11421,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3f-48b7-7511-b138-9d689f9f5663",
       "output_path": "generated/gpt-6.1-sol-high/rivr-hero",
       "validation": "",
       "notes": "",
       "process_id": 994622,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:19:02.581383+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 335,
@@ -11439,14 +11451,19 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3f-4a67-7b30-80c2-63179c83ef5a",
       "output_path": "generated/gpt-6.1-sol-high/wisa-space-hero",
       "validation": "",
-      "notes": "",
-      "process_id": 994705,
+      "notes": "Management acceptance requested a correction in this same original design session; private repair prompt records details.",
+      "process_id": 1009964,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:19:02.949127+00:00",
-      "worker_state": "running"
+      "worker_state": "repairing",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "repair_attempts": 1
     },
     {
       "number": 336,
@@ -11464,11 +11481,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/vortex-studio-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1004033,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:21:40.025222+00:00",
+      "worker_state": "running"
     },
     {
       "number": 337,
@@ -11486,11 +11507,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/impressive-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1004108,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:21:40.183284+00:00",
+      "worker_state": "running"
     },
     {
       "number": 338,
@@ -12440,7 +12465,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:20:40.620442+00:00",
+  "updated_utc": "2026-10-30T05:23:18.628162+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

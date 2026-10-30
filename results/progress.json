@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:17:24.992471+00:00",
+  "updated_utc": "2026-10-30T03:18:56.619440+00:00",
   "total": 380,
   "counts": {
-    "complete": 227,
+    "complete": 228,
     "running": 5,
-    "not_started": 148
+    "not_started": 147
   },
   "current_batch": {
     "from_number": 201,
@@ -2300,11 +2300,11 @@
       "id": "saas-value",
       "title": "SaaS Value",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18acb-7ce9-7aa3-be75-aa26badb90a5",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "df024f8ab950a9a27f9177f2709e7ddb70ce9d23",
+      "group_message_id": 292,
+      "url": "https://tool.luo-xd.com/motionsites-results/saas-value/"
     },
     {
       "id": "acreage-farming-hero",
@@ -2331,7 +2331,7 @@
       "title": "Apex SaaS",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18acf-87e7-72d0-877c-2958a6267f3e",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2340,7 +2340,7 @@
       "id": "bloom-ai",
       "title": "Bloom AI",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

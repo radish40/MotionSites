@@ -7839,19 +7839,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18acb-7ce9-7aa3-be75-aa26badb90a5",
       "output_path": "generated/gpt-6.1-sol-high/saas-value",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 498613,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:12:33.831020+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "df024f8ab950a9a27f9177f2709e7ddb70ce9d23",
+      "url": "https://tool.luo-xd.com/motionsites-results/saas-value/",
+      "completed_utc": "2026-10-30T03:18:56.358106+00:00",
+      "group_message_id": 292
     },
     {
       "number": 230,
@@ -7930,14 +7934,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18acf-87e7-72d0-877c-2958a6267f3e",
       "output_path": "generated/gpt-6.1-sol-high/apex-saa-s",
       "validation": "",
       "notes": "",
       "process_id": 514815,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:16:58.897225+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 233,
@@ -7955,11 +7963,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/bloom-ai",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 519373,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:18:18.828685+00:00",
+      "worker_state": "running"
     },
     {
       "number": 234,
@@ -11196,7 +11208,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:17:24.992471+00:00",
+  "updated_utc": "2026-10-30T03:18:56.619440+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

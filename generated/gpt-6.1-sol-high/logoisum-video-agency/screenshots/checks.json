@@ -1,0 +1,63 @@
+{
+  "checks": [
+    {
+      "check": "Background autoplay, muted, loop, object-cover",
+      "passed": true,
+      "details": {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "objectFit": "cover",
+        "width": 1928,
+        "height": 1072
+      }
+    },
+    {
+      "check": "Local Barlow and Instrument Serif fonts loaded",
+      "passed": true
+    },
+    {
+      "check": "Video time advances",
+      "passed": true
+    },
+    {
+      "check": "Desktop 1440x1000, no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "Pause and resume scenery",
+      "passed": true
+    },
+    {
+      "check": "Navigation dialogs and Escape dismissal",
+      "passed": true
+    },
+    {
+      "check": "Workreel dialog plays supplied film with controls",
+      "passed": true
+    },
+    {
+      "check": "Meeting draft validation, summary and downloadable request",
+      "passed": true
+    },
+    {
+      "check": "Mobile 390x844, no horizontal overflow, full viewport hero",
+      "passed": true
+    },
+    {
+      "check": "Mobile navigation opens, selects a panel and closes",
+      "passed": true
+    },
+    {
+      "check": "Reduced motion pauses automatic background playback",
+      "passed": true
+    },
+    {
+      "check": "No browser script errors or HTTP asset failures",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

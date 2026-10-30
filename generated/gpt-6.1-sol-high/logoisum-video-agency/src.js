@@ -1,0 +1,28 @@
+import './style.css';
+const base = import.meta.env.BASE_URL;
+const video = document.querySelector('.landscape');
+const motion = document.querySelector('.motion-control');
+const dialog = document.querySelector('.panel');
+const content = document.querySelector('#panel-content');
+const toggle = document.querySelector('.menu-toggle');
+const mobileMenu = document.querySelector('.mobile-links');
+function setMotionLabel(){ motion.setAttribute('aria-label', video.paused ? 'Play background video' : 'Pause background video'); motion.querySelector('span').textContent = video.paused ? 'Play scenery' : 'Pause scenery'; motion.querySelector('svg').innerHTML = video.paused ? '<path d="m6 4 10 6-10 6Z" fill="currentColor"/>' : '<path d="M7 5v10M13 5v10" fill="none" stroke="currentColor" stroke-width="2"/>'; }
+video.addEventListener('play',setMotionLabel);video.addEventListener('pause',setMotionLabel);
+if(matchMedia('(prefers-reduced-motion: reduce)').matches){video.autoplay=false;video.pause();}
+motion.addEventListener('click',()=>video.paused ? video.play().catch(setMotionLabel) : video.pause());
+toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close menu':'Open menu');mobileMenu.hidden=!open;});
+const panels={
+about:'<span class="eyebrow">Meet Logoisum</span><h2 id="panel-title">A little vision.<br>A lot of impact.</h2><p>We turn ideas into short-form videos that people stop to watch. Thoughtful cuts, distinctive storytelling, and a rhythm that feels like you.</p><p>Made for Influencers, Creators and Brands.</p><button class="submit-button" data-panel="meeting">Let’s talk ↗</button>',
+services:'<span class="eyebrow">What we do</span><h2 id="panel-title">Your vision. In motion.</h2><p>Video editing built for the way people watch.</p><ul class="service-list"><li>Short-form video editing <span>01</span></li><li>Reels & social content <span>02</span></li><li>Storytelling & pacing <span>03</span></li><li>Captions & motion graphics <span>04</span></li></ul>',
+testimonial:'<span class="eyebrow">Client stories</span><h2 id="panel-title">Good work gets people talking.</h2><p>Client testimonials will appear here. In the meantime, explore our visual direction and tell us what you’d like to create.</p><button class="submit-button" data-panel="works">See Our Workreel ↗</button>',
+works:`<span class="eyebrow">The workreel</span><h2 id="panel-title">A world of possibilities.</h2><p>A glimpse of our visual direction.</p><video class="reel" controls playsinline autoplay muted loop src="${base}assets/landscape.mp4"></video><p class="fine-print">Featured visual: the landscape film from our homepage. A separate agency workreel has not been provided.</p>`,
+meeting:'<span class="eyebrow">Let’s create together</span><h2 id="panel-title">Book a free meeting.</h2><p>Start with a few details about you and your next project.</p><form id="meeting-form"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Alex Taylor"/><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="alex@brand.com"/><label for="project">What are you working on?</label><textarea id="project" name="project" required placeholder="Tell us about your videos…"></textarea><button class="submit-button" type="submit">Prepare meeting request ↗</button><p class="fine-print">This creates a local request draft. Booking and delivery are not connected yet.</p></form>'
+};
+let wasPlaying=false;
+function openPanel(key){if(!panels[key])return;if(!dialog.open){wasPlaying=!video.paused;video.pause();dialog.showModal();}content.innerHTML=panels[key];toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open menu');mobileMenu.hidden=true;dialog.querySelector('.close-panel').focus();}
+document.addEventListener('click',e=>{const link=e.target.closest('[data-panel]');if(link){e.preventDefault();openPanel(link.dataset.panel);}});
+document.querySelector('.close-panel').addEventListener('click',()=>dialog.close());
+dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+dialog.addEventListener('close',()=>{const reel=content.querySelector('video');if(reel)reel.pause();if(wasPlaying)video.play().catch(setMotionLabel);});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){mobileMenu.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open menu');}});
+document.addEventListener('submit',e=>{if(e.target.id!=='meeting-form')return;e.preventDefault();const data=new FormData(e.target);const request=`Meeting request — Logoisum\n\nName: ${data.get('name')}\nEmail: ${data.get('email')}\nProject: ${data.get('project')}`;content.innerHTML='<span class="eyebrow">Your next project</span><h2 id="panel-title">Your draft is ready.</h2><p>Save these details for your conversation with Logoisum. No request has been sent and no meeting has been scheduled.</p><div class="request-summary"></div><button class="submit-button" id="download-request">Download request</button>';content.querySelector('.request-summary').textContent=request;content.querySelector('#download-request').addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([request],{type:'text/plain'}));const a=document.createElement('a');a.href=url;a.download='logoisum-meeting-request.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});});

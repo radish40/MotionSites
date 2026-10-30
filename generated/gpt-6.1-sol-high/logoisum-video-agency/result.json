@@ -1,0 +1,88 @@
+{
+  "title": "Logoisum Video Agency",
+  "id": "logoisum-video-agency",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": [
+    {
+      "check": "Production build: Vite 6.4.5, dist/index.html present",
+      "passed": true
+    },
+    {
+      "check": "npm audit: zero vulnerabilities",
+      "passed": true
+    },
+    {
+      "check": "Background autoplay, muted, loop, object-cover",
+      "passed": true,
+      "details": {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "objectFit": "cover",
+        "width": 1928,
+        "height": 1072
+      }
+    },
+    {
+      "check": "Local Barlow and Instrument Serif fonts loaded",
+      "passed": true
+    },
+    {
+      "check": "Video time advances",
+      "passed": true
+    },
+    {
+      "check": "Desktop 1440x1000, no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "Pause and resume scenery",
+      "passed": true
+    },
+    {
+      "check": "Navigation dialogs and Escape dismissal",
+      "passed": true
+    },
+    {
+      "check": "Workreel dialog plays supplied film with controls",
+      "passed": true
+    },
+    {
+      "check": "Meeting draft validation, summary and downloadable request",
+      "passed": true
+    },
+    {
+      "check": "Mobile 390x844, no horizontal overflow, full viewport hero",
+      "passed": true
+    },
+    {
+      "check": "Mobile navigation opens, selects a panel and closes",
+      "passed": true
+    },
+    {
+      "check": "Reduced motion pauses automatic background playback",
+      "passed": true
+    },
+    {
+      "check": "No browser script errors or HTTP asset failures",
+      "passed": true
+    },
+    {
+      "check": "Desktop and mobile screenshots visually reviewed",
+      "passed": true
+    }
+  ],
+  "asset_issues": [],
+  "notes": [
+    "Static build uses /motionsites-results/logoisum-video-agency/ as its base path. Not deployed or pushed.",
+    "Original supplied MP4 and requested fonts are stored locally; no overlays or page-image substitutes.",
+    "Custom SVG logo approximation because no logo artwork was supplied.",
+    "No separate reel or testimonials supplied: reel transparently previews the original landscape film; testimonial dialog shows a pending-content message.",
+    "No booking service supplied: meeting form creates and downloads a local draft only; no request is transmitted or meeting scheduled.",
+    "Screenshots: screenshots/desktop.png (1440x1000), screenshots/mobile.png (390x844), screenshots/workreel.png.",
+    "Browser check details: screenshots/checks.json. Chromium tested; Safari and physical devices not tested.",
+    "README.md contains project, build, verification, asset provenance and limitations."
+  ]
+}

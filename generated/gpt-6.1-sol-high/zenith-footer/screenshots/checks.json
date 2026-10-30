@@ -1,0 +1,80 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "horizontalOverflow": false,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 4.117038,
+      "width": 3828,
+      "height": 2164,
+      "muted": true,
+      "loop": true,
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_111347_9cf2a2b0-2c10-475b-a132-147a046b4927.mp4",
+      "advancing": true
+    },
+    "font": true,
+    "footer": {
+      "x": 208,
+      "y": 678.5,
+      "width": 1024,
+      "height": 321.5,
+      "top": 678.5,
+      "right": 1232,
+      "bottom": 1000,
+      "left": 208
+    },
+    "heading": "Move, Heal, Bloom",
+    "buttons": [
+      "Join Today",
+      "View Clubs"
+    ],
+    "links": 8,
+    "hoverTransform": "matrix(1.00948, 0, 0, 1.00948, 0, -0.4949)",
+    "keyboardFocus": "Active Armor",
+    "errors": [],
+    "failedRequests": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": false,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 2.752143,
+      "width": 3828,
+      "height": 2164,
+      "muted": true,
+      "loop": true,
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_111347_9cf2a2b0-2c10-475b-a132-147a046b4927.mp4",
+      "advancing": true
+    },
+    "font": true,
+    "footer": {
+      "x": 16,
+      "y": 374.5,
+      "width": 358,
+      "height": 469.5,
+      "top": 374.5,
+      "right": 374,
+      "bottom": 844,
+      "left": 16
+    },
+    "heading": "Move, Heal, Bloom",
+    "buttons": [
+      "Join Today",
+      "View Clubs"
+    ],
+    "links": 8,
+    "hoverTransform": "matrix(1.00791, 0, 0, 1.00791, 0, -0.405533)",
+    "keyboardFocus": "Active Armor",
+    "errors": [],
+    "failedRequests": []
+  }
+}

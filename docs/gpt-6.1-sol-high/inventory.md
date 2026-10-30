@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 327/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 329/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -415,11 +415,11 @@
 | 328 | `vex-ventures-hero` | VEX Ventures | Hero Section | 1 | 无 | 已完成 |
 | 329 | `5` | Glassmorphism Agency Hero | Agency | 1 | 无 | 生成中 |
 | 330 | `innovation-landing` | Innovation | Landing Page | 1 | 无 | 生成中 |
-| 331 | `10` | AI Automation Hero | AI / SaaS | 1 | 无 | 生成中 |
-| 332 | `securify-hero` | Securify Data Security | SaaS | 1 | 无 | 生成中 |
-| 333 | `18` | Loader Animation | Component | 1 | 无 | 未开始 |
-| 334 | `rivr-hero` | RIVR | Hero Section | 1 | 无 | 未开始 |
-| 335 | `wisa-space-hero` | WISA Space | Hero Section | 1 | 无 | 未开始 |
+| 331 | `10` | AI Automation Hero | AI / SaaS | 1 | 无 | 已完成 |
+| 332 | `securify-hero` | Securify Data Security | SaaS | 1 | 无 | 已完成 |
+| 333 | `18` | Loader Animation | Component | 1 | 无 | 生成中 |
+| 334 | `rivr-hero` | RIVR | Hero Section | 1 | 无 | 生成中 |
+| 335 | `wisa-space-hero` | WISA Space | Hero Section | 1 | 无 | 生成中 |
 | 336 | `vortex-studio-hero` | AI Designer Portfolio | Landing Page | 2 | 无 | 未开始 |
 | 337 | `impressive-hero` | Impressive Hero | Hero Section | 1 | 无 | 未开始 |
 | 338 | `flowmate-landing` | FlowMate | Landing Page | 2 | 无 | 未开始 |

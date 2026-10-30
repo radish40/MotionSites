@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:18:01.876003+00:00",
+  "updated_utc": "2026-10-30T05:20:40.620442+00:00",
   "total": 380,
   "counts": {
-    "complete": 327,
-    "running": 5,
-    "not_started": 48
+    "complete": 329,
+    "running": 6,
+    "not_started": 45
   },
   "current_batch": {
     "from_number": 201,
@@ -3320,27 +3320,27 @@
       "id": "10",
       "title": "AI Automation Hero",
       "category": "AI / SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b3b-a12b-7ac3-99bc-99214f41bea1",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "668ebe2c9d8308d66e813a93a308adeef561ee56",
+      "group_message_id": 397,
+      "url": "https://tool.luo-xd.com/motionsites-results/10/"
     },
     {
       "id": "securify-hero",
       "title": "Securify Data Security",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b3b-a1fe-7001-be7a-659e85a3be00",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e0eb7024e1fb309790d231515ea2e644ebda042b",
+      "group_message_id": 398,
+      "url": "https://tool.luo-xd.com/motionsites-results/securify-hero/"
     },
     {
       "id": "18",
       "title": "Loader Animation",
       "category": "Component",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3350,7 +3350,7 @@
       "id": "rivr-hero",
       "title": "RIVR",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3360,7 +3360,7 @@
       "id": "wisa-space-hero",
       "title": "WISA Space",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

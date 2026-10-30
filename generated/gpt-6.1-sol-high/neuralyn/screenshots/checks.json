@@ -1,0 +1,102 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "images": [
+      {
+        "src": "/motionsites-results/neuralyn/assets/logo.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/neuralyn/assets/hero-dashboard.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/neuralyn/assets/quote-symbol.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/neuralyn/assets/testimonial-avatar.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/neuralyn/assets/logo.png",
+        "loaded": true
+      }
+    ],
+    "video": {
+      "readyState": 4,
+      "playing": true,
+      "time": 2.402009
+    },
+    "fonts": true,
+    "ctaScroll": 46,
+    "signIn": "This is a preview of Neuralyn. Account authentication is not connected.Explore the overview",
+    "errors": [],
+    "failed": [],
+    "servicesAndContact": "passed",
+    "wordReveal": {
+      "initialOpacity": "0.2",
+      "finalFirstOpacity": "1",
+      "lastOpacity": "1"
+    },
+    "reviewWords": 32,
+    "bottomOverflow": false
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "images": [
+      {
+        "src": "/motionsites-results/neuralyn/assets/logo.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/neuralyn/assets/hero-dashboard.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/neuralyn/assets/quote-symbol.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/neuralyn/assets/testimonial-avatar.png",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/neuralyn/assets/logo.png",
+        "loaded": true
+      }
+    ],
+    "video": {
+      "readyState": 4,
+      "playing": true,
+      "time": 2.361884
+    },
+    "fonts": true,
+    "ctaScroll": 272,
+    "signIn": "This is a preview of Neuralyn. Account authentication is not connected.Explore the overview",
+    "errors": [],
+    "failed": [],
+    "servicesAndContact": "hidden as specified",
+    "wordReveal": {
+      "initialOpacity": "0.2",
+      "finalFirstOpacity": "1",
+      "lastOpacity": "1"
+    },
+    "reviewWords": 32,
+    "bottomOverflow": false
+  },
+  {
+    "reducedMotion": {
+      "headingVisible": true,
+      "videoPaused": true
+    }
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "title": "Neuralyn",
+  "id": "neuralyn",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "production_base": "/motionsites-results/neuralyn/",
+    "browser": "Chromium via Playwright Core",
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "script_errors": 0,
+    "console_errors": 0,
+    "failed_asset_responses": 0,
+    "horizontal_overflow": false,
+    "local_fonts": "passed",
+    "images": "all loaded",
+    "video": "downloaded exact source; playback verified",
+    "interactions": [
+      "CTA scroll",
+      "desktop Services dropdown",
+      "Sign In form validation and preview submission",
+      "Contact form preview submission",
+      "Escape dialog dismissal",
+      "sequential word reveal completes",
+      "reduced-motion behavior"
+    ],
+    "evidence": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [
+    "Specified neuralyn.webp reference is absent; exact visual comparison unavailable.",
+    "Four named PNG assets have no source URLs. Logo, dashboard preview, and quote symbol were authored locally; original appearance cannot be verified.",
+    "Avatar is an illustrative Unsplash substitute, not a verified portrait of Brooklyn Simmons. Source and conversion documented in README.md."
+  ],
+  "notes": [
+    "Requested React/Vite/TypeScript/Tailwind/Framer Motion/shadcn/ui stack implemented; Fontsource fonts bundled locally.",
+    "Only this project was read and written; no agents, additional sessions, deployment, push, or messages.",
+    "dist contains complete static build. package-lock.json retained. node_modules is ignored.",
+    "Sign In and Contact are explicitly local previews; no backend was specified. CTA scrolls to the dashboard.",
+    "50vh empty scroll runway permits the exact requested testimonial offset to finish.",
+    "Ready for management review; not deployed."
+  ]
+}

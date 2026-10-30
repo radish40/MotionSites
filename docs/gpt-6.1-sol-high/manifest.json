@@ -8421,19 +8421,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae0-b05a-73d0-86c0-3ca8696f4324",
       "output_path": "generated/gpt-6.1-sol-high/orbis-nft",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 585223,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:35:43.234168+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "e4e38f1fb7431d31c66d22ad52e804179466ea18",
+      "url": "https://tool.luo-xd.com/motionsites-results/orbis-nft/",
+      "completed_utc": "2026-10-30T03:42:51.305307+00:00",
+      "group_message_id": 311
     },
     {
       "number": 247,
@@ -8451,19 +8455,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae2-1e96-7e71-906f-4fd9bfa2a90e",
       "output_path": "generated/gpt-6.1-sol-high/orbit-web3",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 591615,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:37:17.073452+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "98480ae58608689fd34425d3a9079ae61a6871d1",
+      "url": "https://tool.luo-xd.com/motionsites-results/orbit-web3/",
+      "completed_utc": "2026-10-30T03:43:18.765396+00:00",
+      "group_message_id": 312
     },
     {
       "number": 248,
@@ -8541,19 +8549,20 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "validating",
       "thread_id": "01a18ae3-68e6-7723-833c-2a2026e24d7f",
       "output_path": "generated/gpt-6.1-sol-high/railroad.ai",
       "validation": "",
-      "notes": "",
+      "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "process_id": 596435,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:38:41.566086+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "delivery_failures": 1
     },
     {
       "number": 251,
@@ -8571,11 +8580,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/sky-elite-private-jets",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 612195,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:42:25.545964+00:00",
+      "worker_state": "running"
     },
     {
       "number": 252,
@@ -8593,11 +8606,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/stellar-ai",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 612269,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:42:25.685123+00:00",
+      "worker_state": "running"
     },
     {
       "number": 253,
@@ -8615,11 +8632,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/taskly",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 612324,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:42:25.833269+00:00",
+      "worker_state": "running"
     },
     {
       "number": 254,
@@ -11417,7 +11438,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:41:30.200020+00:00",
+  "updated_utc": "2026-10-30T03:43:19.267685+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

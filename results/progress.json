@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T03:41:30.200020+00:00",
+  "updated_utc": "2026-10-30T03:43:19.267685+00:00",
   "total": 380,
   "counts": {
-    "complete": 245,
+    "complete": 247,
     "running": 5,
-    "not_started": 130
+    "validating": 1,
+    "not_started": 127
   },
   "current_batch": {
     "from_number": 201,
@@ -2470,21 +2471,21 @@
       "id": "orbis-nft",
       "title": "Orbis NFT",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae0-b05a-73d0-86c0-3ca8696f4324",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e4e38f1fb7431d31c66d22ad52e804179466ea18",
+      "group_message_id": 311,
+      "url": "https://tool.luo-xd.com/motionsites-results/orbis-nft/"
     },
     {
       "id": "orbit-web3",
       "title": "Orbit Web3",
       "category": "Web3",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae2-1e96-7e71-906f-4fd9bfa2a90e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "98480ae58608689fd34425d3a9079ae61a6871d1",
+      "group_message_id": 312,
+      "url": "https://tool.luo-xd.com/motionsites-results/orbit-web3/"
     },
     {
       "id": "planet-orbit",
@@ -2510,7 +2511,7 @@
       "id": "railroad.ai",
       "title": "Railroad.ai",
       "category": "Hero Section",
-      "status": "running",
+      "status": "validating",
       "thread_id": "01a18ae3-68e6-7723-833c-2a2026e24d7f",
       "source_commit": null,
       "group_message_id": null,
@@ -2520,7 +2521,7 @@
       "id": "sky-elite-private-jets",
       "title": "SkyElite Private Jets",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2530,7 +2531,7 @@
       "id": "stellar-ai",
       "title": "Stellar AI",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2540,7 +2541,7 @@
       "id": "taskly",
       "title": "Taskly",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

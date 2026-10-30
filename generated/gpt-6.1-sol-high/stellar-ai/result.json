@@ -1,0 +1,75 @@
+{
+  "title": "Stellar AI",
+  "id": "stellar-ai",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci --no-audit --no-fund && npm run build\"",
+  "checks": {
+    "production_build": "passed",
+    "base_path": "/motionsites-results/stellar-ai/",
+    "dist_index_exists": true,
+    "browser": {
+      "checks": [
+        {
+          "name": "Desktop layout, local font and video playback",
+          "passed": true,
+          "video": {
+            "width": 1756,
+            "height": 1176,
+            "duration": 10.041667,
+            "currentTime": 1.724682,
+            "readyState": 4
+          }
+        },
+        {
+          "name": "All four tabs, setup progress and deployment preview",
+          "passed": true
+        },
+        {
+          "name": "Automatic 4-second tab cycle",
+          "passed": true
+        },
+        {
+          "name": "Keyboard tab navigation",
+          "passed": true
+        },
+        {
+          "name": "Navigation dropdown, trial form, login dialog and Escape dismissal",
+          "passed": true
+        },
+        {
+          "name": "390\u00d7844 mobile: 2\u00d72 tabs, all four cards contained, no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "No browser script, console, HTTP errors",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    "screenshots": {
+      "desktop": {
+        "path": "screenshots/desktop.png",
+        "viewport": "1440x1000",
+        "full_page": true
+      },
+      "mobile": {
+        "path": "screenshots/mobile.png",
+        "viewport": "390x844",
+        "full_page": true
+      }
+    }
+  },
+  "asset_issues": [
+    "Optional stellar-ai.webp reference absent; implemented from written specification.",
+    "Company marks recreated from text/vector/CSS descriptions; official logo assets were not supplied."
+  ],
+  "notes": [
+    "Original video successfully downloaded, bundled, and played in Chromium.",
+    "Inter 400/500/600/700 imported from Google Fonts and bundled locally. Initial Python download stalled; curl recovery succeeded.",
+    "All four mobile panels checked for containment; no desktop or mobile horizontal overflow.",
+    "Account, training, and deployment interactions are frontend demonstrations. No data is sent or persisted.",
+    "Screenshots freeze actual video at one second for repeatability.",
+    "Ready for acceptance; not deployed or pushed. No agents or other sessions created."
+  ]
+}

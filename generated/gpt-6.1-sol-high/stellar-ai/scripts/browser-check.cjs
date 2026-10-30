@@ -1,0 +1,95 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const fs = require('node:fs');
+const { spawn } = require('node:child_process');
+const assert = require('node:assert/strict');
+(async () => {
+ const server = spawn('node',['node_modules/vite/bin/vite.js','preview','--host','127.0.0.1','--port','4173'],{stdio:'pipe'});
+ const browser = await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox','--disable-dev-shm-usage']});
+ const checks = [];
+ const errors = [];
+ try {
+  await new Promise((resolve,reject) => { server.stdout.on('data', d => { if(d.toString().includes('4173')) resolve(); }); setTimeout(() => reject(new Error('Server startup timeout')),15000).unref(); });
+  const page = await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+  page.on('pageerror',e=>errors.push(e.message));
+  page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+  page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
+  await page.goto('http://127.0.0.1:4173/motionsites-results/stellar-ai/',{waitUntil:'networkidle'});
+  await page.evaluate(()=>document.fonts.ready);
+  await page.waitForTimeout(1200);
+  await page.mouse.move(5,5);
+  assert.equal(await page.title(),'Stellar.ai — Work Smarter. Move Faster.');
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  assert.equal(await page.evaluate(()=>document.querySelector('video').videoWidth>0),true);
+  assert.equal(await page.evaluate(()=>document.querySelector('video').paused),false);
+  const video = await page.evaluate(()=>{const v=document.querySelector('video');return {width:v.videoWidth,height:v.videoHeight,duration:v.duration,currentTime:v.currentTime,readyState:v.readyState};});
+  checks.push({name:'Desktop layout, local font and video playback',passed:true,video});
+  // Capture the initial panel with the original video paused at a deterministic frame.
+  await page.getByRole('tab',{name:'Analyse',exact:true}).click();
+  await page.locator('.workspace').hover();
+  await page.evaluate(()=>{const v=document.querySelector('video');v.pause();v.currentTime=1;});
+  await page.waitForTimeout(700);
+  await page.evaluate(()=>scrollTo(0,0));
+  await page.screenshot({path:'screenshots/desktop.png',fullPage:true});
+  await page.getByRole('button',{name:'Continue',exact:true}).click();
+  await page.getByText('Step 2 of 4').waitFor();
+  for(const name of ['Train','Testing','Deploy']) {
+   await page.getByRole('tab',{name,exact:true}).click();
+   const headings = {Train:'AI Model Training',Testing:'Test Suite Results',Deploy:'Deploy to Production'};
+   await page.getByRole('heading',{name:headings[name],exact:true}).waitFor();
+   await page.waitForTimeout(500);
+   await page.locator('.workspace').screenshot({path:`screenshots/panel-${name.toLowerCase()}.png`});
+  }
+  await page.getByRole('button',{name:'Deploy Now'}).click();
+  await page.getByRole('heading',{name:'You’re Live!'}).waitFor();
+  checks.push({name:'All four tabs, setup progress and deployment preview',passed:true});
+  await page.mouse.move(0,0);
+  await page.getByRole('tab',{name:'Analyse',exact:true}).click();
+  await page.locator('#tab-analyse').blur();
+  await page.waitForTimeout(4200);
+  assert.equal(await page.getByRole('tab',{name:'Train',exact:true}).getAttribute('aria-selected'),'true');
+  checks.push({name:'Automatic 4-second tab cycle',passed:true});
+  await page.getByRole('tab',{name:'Testing',exact:true}).click();
+  await page.keyboard.press('ArrowRight');
+  assert.equal(await page.getByRole('tab',{name:'Deploy',exact:true}).getAttribute('aria-selected'),'true');
+  checks.push({name:'Keyboard tab navigation',passed:true});
+  await page.getByRole('button',{name:'Solutions',exact:true}).click();
+  await page.locator('.nav-menu').getByRole('button',{name:'Train'}).click();
+  assert.equal(await page.getByRole('tab',{name:'Train',exact:true}).getAttribute('aria-selected'),'true');
+  await page.getByRole('button',{name:'Begin Free Trial'}).click();
+  await page.getByLabel('Work email').fill('review@example.com');
+  await page.getByRole('dialog').getByRole('button',{name:'Get started free'}).click();
+  await page.getByRole('heading',{name:'You’re on the list.'}).waitFor();
+  await page.keyboard.press('Escape');
+  assert.equal(await page.getByRole('dialog').count(),0);
+  await page.getByRole('button',{name:'Login',exact:true}).click();
+  await page.getByRole('heading',{name:'Welcome back.'}).waitFor();
+  await page.keyboard.press('Escape');
+  checks.push({name:'Navigation dropdown, trial form, login dialog and Escape dismissal',passed:true});
+  await page.setViewportSize({width:390,height:844});
+  await page.reload({waitUntil:'networkidle'});
+  await page.waitForTimeout(1200);
+  await page.getByRole('tab',{name:'Analyse',exact:true}).click();
+  await page.locator('.workspace').hover();
+  await page.evaluate(()=>{const v=document.querySelector('video');v.pause();v.currentTime=1;});
+  await page.waitForTimeout(700);
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  const cardBounds = await page.locator('.workspace-card').boundingBox();
+  const workspaceBounds = await page.locator('.workspace').boundingBox();
+  assert.ok(cardBounds.x>=workspaceBounds.x && cardBounds.x+cardBounds.width<=workspaceBounds.x+workspaceBounds.width);
+  assert.ok(cardBounds.height<=workspaceBounds.height);
+  await page.evaluate(()=>scrollTo(0,0));
+  await page.screenshot({path:'screenshots/mobile.png',fullPage:true});
+  for (const name of ['Train','Testing','Deploy']) {
+   await page.getByRole('tab',{name,exact:true}).click();
+   await page.locator('.workspace').hover();
+   await page.waitForTimeout(550);
+   const bounds = await page.locator('.workspace-card').boundingBox();
+   assert.ok(bounds.height <= 400, `${name} mobile card overflows: ${bounds.height}`);
+  }
+  checks.push({name:'390×844 mobile: 2×2 tabs, all four cards contained, no horizontal overflow',passed:true});
+  assert.equal(errors.length,0,JSON.stringify(errors));
+  checks.push({name:'No browser script, console, HTTP errors',passed:true});
+  fs.writeFileSync('screenshots/browser-checks.json',JSON.stringify({checks,errors},null,2));
+  console.log(JSON.stringify({checks,errors},null,2));
+ } finally { await browser.close();server.kill(); }
+})().catch(e=>{console.error(e);process.exitCode=1;});

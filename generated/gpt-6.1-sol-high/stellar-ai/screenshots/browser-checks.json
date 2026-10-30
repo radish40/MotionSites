@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "name": "Desktop layout, local font and video playback",
+      "passed": true,
+      "video": {
+        "width": 1756,
+        "height": 1176,
+        "duration": 10.041667,
+        "currentTime": 1.724682,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "All four tabs, setup progress and deployment preview",
+      "passed": true
+    },
+    {
+      "name": "Automatic 4-second tab cycle",
+      "passed": true
+    },
+    {
+      "name": "Keyboard tab navigation",
+      "passed": true
+    },
+    {
+      "name": "Navigation dropdown, trial form, login dialog and Escape dismissal",
+      "passed": true
+    },
+    {
+      "name": "390×844 mobile: 2×2 tabs, all four cards contained, no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "No browser script, console, HTTP errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

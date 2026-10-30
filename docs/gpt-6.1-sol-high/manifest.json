@@ -11795,14 +11795,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b4e-b028-7ff1-aa4e-abe4310d581e",
       "output_path": "generated/gpt-6.1-sol-high/glow-features",
       "validation": "",
       "notes": "",
       "process_id": 1058459,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:35:52.185303+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 346,
@@ -12576,7 +12580,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:37:07.520732+00:00",
+  "updated_utc": "2026-10-30T05:38:03.545414+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

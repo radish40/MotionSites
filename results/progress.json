@@ -1,10 +1,9 @@
 {
-  "updated_utc": "2026-10-30T06:33:48.806504+00:00",
+  "updated_utc": "2026-10-30T06:35:14.181868+00:00",
   "total": 380,
   "counts": {
-    "complete": 377,
+    "complete": 378,
     "ready": 1,
-    "blocked": 1,
     "running": 1
   },
   "current_batch": {
@@ -3801,7 +3800,7 @@
       "id": "community-cta",
       "title": "Community CTA",
       "category": "CTA Section",
-      "status": "blocked",
+      "status": "running",
       "thread_id": "01a18b7d-b804-7ee1-9495-756322052cec",
       "source_commit": null,
       "group_message_id": null,
@@ -3811,11 +3810,11 @@
       "id": "package-fits-pricing",
       "title": "What Package Fits You",
       "category": "Pricing",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b80-4704-7f92-bc13-9ba2e7475a22",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "ba5818cb85bf50d0f8e90f0d0874c0e56565aacd",
+      "group_message_id": 448,
+      "url": "https://tool.luo-xd.com/motionsites-results/package-fits-pricing/"
     }
   ]
 }

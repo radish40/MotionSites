@@ -12974,19 +12974,20 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "blocked",
+      "status": "running",
       "thread_id": "01a18b7d-b804-7ee1-9495-756322052cec",
       "output_path": "generated/gpt-6.1-sol-high/community-cta",
       "validation": "",
-      "notes": "[{\"assets\": [\"av1\", \"av2\", \"av3\", \"av4\"], \"issue\": \"Original signed CleanShot JPEG URLs and unsigned retries return HTTP 403; browser reports ERR_BLOCKED_BY_ORB.\", \"recovery\": \"Original URLs retained in CSS. Optional project reference preview is absent; no extraction possible.\", \"impact\": \"Four avatar portraits do not render; exact asset fidelity blocked.\", \"evidence\": \"assets/download-report.json\"}]",
-      "process_id": 1247606,
+      "notes": "Management acceptance requested a correction in this same original design session; private repair prompt records details.",
+      "process_id": 1277364,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:27:14.452332+00:00",
-      "worker_state": "terminal",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "repair_attempts": 1
     },
     {
       "number": 380,
@@ -13004,22 +13005,26 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b80-4704-7f92-bc13-9ba2e7475a22",
       "output_path": "generated/gpt-6.1-sol-high/package-fits-pricing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1258706,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:30:02.149912+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "ba5818cb85bf50d0f8e90f0d0874c0e56565aacd",
+      "url": "https://tool.luo-xd.com/motionsites-results/package-fits-pricing/",
+      "completed_utc": "2026-10-30T06:35:13.922487+00:00",
+      "group_message_id": 448
     }
   ],
-  "updated_utc": "2026-10-30T06:33:48.806504+00:00",
+  "updated_utc": "2026-10-30T06:35:14.181868+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

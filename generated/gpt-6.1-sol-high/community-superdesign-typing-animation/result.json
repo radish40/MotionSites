@@ -1,0 +1,28 @@
+{
+  "title": "Typing animation",
+  "id": "community-superdesign-typing-animation",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "real_build": "passed; dist/index.html exists",
+    "publication_path": "/motionsites-results/community-superdesign-typing-animation/",
+    "desktop": "1440x1000; passed",
+    "mobile": "390x844; passed",
+    "typing": "30 characters; measured mean interval approximately 50 ms",
+    "interactions": ["pointer replay", "keyboard replay", "interrupted replay", "reduced motion", "progress completion"],
+    "browser_errors": [],
+    "horizontal_overflow": false,
+    "local_fonts": "loaded successfully",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "detailed_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    "Optional reference WebP was absent; original composition created from the supplied text prompt. Reference fidelity cannot be verified."
+  ],
+  "notes": [
+    "Native HTML/CSS/JavaScript; prompt specified no framework or assets.",
+    "Manrope fonts downloaded successfully and bundled locally with OFL license.",
+    "Headline uses a 50 ms timer; reduced motion displays it immediately.",
+    "Ready for management-session review; not deployed or pushed."
+  ]
+}

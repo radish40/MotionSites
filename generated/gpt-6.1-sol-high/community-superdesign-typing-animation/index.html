@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f4ee">
+    <meta name="description" content="Big ideas. One letter at a time. A small experiment in the art of typing.">
+    <title>Typing animation — Letterform</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23d6fa52'/%3E%3Ctext x='10' y='29' font-family='Arial' font-size='28' font-weight='bold'%3El%3C/text%3E%3C/svg%3E">
+    <link rel="preload" href="./assets/manrope-extrabold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <a class="brand" href="./" aria-label="Letterform home"><span class="brand-mark" aria-hidden="true">l<span></span></span>letterform<span class="brand-dot">®</span></a>
+        <span class="header-note">Little details. Lasting impressions.</span>
+        <span class="edition"><span class="status-dot"></span> A MOTION STUDY</span>
+      </header>
+
+      <main>
+        <div class="eyebrow"><span class="study-number">01</span><span>THE ART OF SHOWING UP</span><span class="eyebrow-line"></span><span class="experiment-label">TYPING ANIMATION</span></div>
+        <div class="hero">
+          <h1 aria-label="Big ideas. One letter at a time."><span id="headline" aria-hidden="true"></span></h1>
+          <aside class="margin-note" aria-label="Made to move">
+            <div class="flower-box"><svg viewBox="0 0 160 160" fill="none" aria-hidden="true"><g fill="currentColor"><path d="M69 5h22v150H69z"/><path d="M5 69h150v22H5z"/><path d="m19.2 34.8 15.6-15.6 106 106-15.6 15.6z"/><path d="m19.2 125.2 106-106 15.6 15.6-106 106z"/></g><circle cx="80" cy="80" r="15" fill="#f5f4ee"/></svg><span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span></div>
+            <span class="note-caption">MADE TO MOVE.<br>BUILT TO MEAN SOMETHING.</span>
+          </aside>
+        </div>
+        <div class="hero-bottom">
+          <p>Every great thought starts somewhere.<br>Give yours a little momentum.</p>
+          <button id="replay" type="button"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10a8 8 0 1 1 .8 6.5M4 4v6h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Play it again</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+        </div>
+        <section class="playback" aria-label="Animation details">
+          <div class="playback-info"><span class="playback-title"><span id="playback-dot" class="status-dot"></span><span id="playback-status" aria-live="polite">Typing in progress</span></span><span class="timing">50 <span>ms / character</span></span></div>
+          <div class="progress-track" role="progressbar" aria-label="Characters revealed" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress"></div></div>
+          <div class="playback-meta"><span>ONE CHARACTER. THEN THE NEXT.</span><span><span id="character-count">00</span> <span class="count-divider">/</span> <span id="total-count">00</span></span></div>
+        </section>
+      </main>
+
+      <footer><span>A small experiment in making words feel alive.</span><span class="footer-right">A LITTLE LESS STATIC <span aria-hidden="true">↗</span></span></footer>
+    </div>
+  </body>
+</html>

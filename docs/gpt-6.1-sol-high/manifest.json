@@ -7059,10 +7059,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ab0-89d9-7c13-a142-10282a2dd5e7",
       "output_path": "generated/gpt-6.1-sol-high/shop",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 388133,
       "launch_method": "isolated_codex_exec",
@@ -7071,7 +7071,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "46fc6abcafe09848c3adfc3dc0ed64ea7e1dfc0f",
+      "url": "https://tool.luo-xd.com/motionsites-results/shop/",
+      "completed_utc": "2026-10-30T02:50:10.891827+00:00",
+      "group_message_id": 269
     },
     {
       "number": 207,
@@ -7089,10 +7093,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ab0-8a8a-7273-8374-b69702240281",
       "output_path": "generated/gpt-6.1-sol-high/solace-sign-in",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 388169,
       "launch_method": "isolated_codex_exec",
@@ -7101,7 +7105,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "5135e2fe63acdcd893f114626aed60d24ba88498",
+      "url": "https://tool.luo-xd.com/motionsites-results/solace-sign-in/",
+      "completed_utc": "2026-10-30T02:50:47.973309+00:00",
+      "group_message_id": 270
     },
     {
       "number": 208,
@@ -10938,7 +10946,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T02:49:28.585351+00:00",
+  "updated_utc": "2026-10-30T02:50:48.150588+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

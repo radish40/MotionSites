@@ -1,9 +1,8 @@
 {
-  "updated_utc": "2026-10-30T02:49:28.585351+00:00",
+  "updated_utc": "2026-10-30T02:50:48.150588+00:00",
   "total": 380,
   "counts": {
-    "complete": 205,
-    "ready": 2,
+    "complete": 207,
     "running": 5,
     "not_started": 168
   },
@@ -2071,21 +2070,21 @@
       "id": "shop",
       "title": "Daisy Shop",
       "category": "E-commerce",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ab0-89d9-7c13-a142-10282a2dd5e7",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "46fc6abcafe09848c3adfc3dc0ed64ea7e1dfc0f",
+      "group_message_id": 269,
+      "url": "https://tool.luo-xd.com/motionsites-results/shop/"
     },
     {
       "id": "solace-sign-in",
       "title": "Solace sign-in",
       "category": "Waitlist & Coming Soon",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ab0-8a8a-7273-8374-b69702240281",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5135e2fe63acdcd893f114626aed60d24ba88498",
+      "group_message_id": 270,
+      "url": "https://tool.luo-xd.com/motionsites-results/solace-sign-in/"
     },
     {
       "id": "speakup-venture-hero",

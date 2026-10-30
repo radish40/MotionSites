@@ -715,7 +715,59 @@
         "generated/gpt-6.1-sol-high/aethera-studio/screenshots/mobile.png"
       ],
       "reviewed_utc": "2026-10-30T03:58:46.401946+00:00"
+    },
+    {
+      "id": "buzzentic-agency",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the original abstract light video, white typography, serif emphasis and sharp rectangular buttons. All content fits the target viewports. Contact creates a local brief only.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/buzzentic-agency/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/buzzentic-agency/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:02:17.702735+00:00"
+    },
+    {
+      "id": "datacore-booking",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the original purple video, serif booking headline and two CTAs. Additional mobile-menu screenshot shows the requested fullscreen black navigation. Mobile Services selection was repaired and re-tested in the original session. Missing/truncated logo path approximation is documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/datacore-booking/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/datacore-booking/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:02:17.702735+00:00"
+    },
+    {
+      "id": "framelix-3d-studios",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile full-page screenshots show both original dragonfly videos, the black hero, lavender marquee and light Shipping Now section. Cart is a local UI; the template contact address is unverified, no payment or contact delivery is claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/framelix-3d-studios/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/framelix-3d-studios/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:02:17.702735+00:00"
+    },
+    {
+      "id": "logoisum-video-agency",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the supplied floral landscape video, floating white navigation and serif-emphasized headline. Workreel reuses the supplied film; meeting requests are local drafts, not actual scheduled meetings.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/logoisum-video-agency/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/logoisum-video-agency/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:02:17.702735+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T03:58:46.401946+00:00"
+  "updated_utc": "2026-10-30T04:02:17.702735+00:00"
 }

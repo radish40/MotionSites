@@ -1,0 +1,123 @@
+{
+  "recorded_utc": "2026-10-30T04:02:17.702735+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 4,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:59:37.307554+00:00",
+      "remote_main": "b501d1fa09f6bb4d48424407d6e188c8cae64f06",
+      "delivery": {
+        "id": "buzzentic-agency",
+        "title": "Buzzentic Agency",
+        "source_commit": "b501d1fa09f6bb4d48424407d6e188c8cae64f06",
+        "thread_id": "01a18aef-80f8-7262-8a19-5b257d2cf955",
+        "group_message_id": 325,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:01:32.267182+00:00",
+      "remote_main": "60394607772d6afe838c25cfd8f4ba1058023454",
+      "delivery": {
+        "id": "datacore-booking",
+        "title": "Datacore Booking",
+        "source_commit": "60394607772d6afe838c25cfd8f4ba1058023454",
+        "thread_id": "01a18af1-2321-7ea0-b2fa-e8ed3206555c",
+        "group_message_id": 327,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:00:02.523773+00:00",
+      "remote_main": "37e5960e517eedf727a28961e28b320a5b355f35",
+      "delivery": {
+        "id": "framelix-3d-studios",
+        "title": "Framelix 3D Studios",
+        "source_commit": "3c27c0847110c121a7d96639744747f18b8a461f",
+        "thread_id": "01a18af1-23e8-7d70-9ba7-498ca396ba8d",
+        "group_message_id": 326,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:01:57.967145+00:00",
+      "remote_main": "dafa6021c028e30c231c12635532966c67388413",
+      "delivery": {
+        "id": "logoisum-video-agency",
+        "title": "Logoisum Video Agency",
+        "source_commit": "dafa6021c028e30c231c12635532966c67388413",
+        "thread_id": "01a18af3-503d-7623-bcbe-d82becf24697",
+        "group_message_id": 328,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

@@ -1,9 +1,8 @@
 {
-  "updated_utc": "2026-10-30T06:24:42.090637+00:00",
+  "updated_utc": "2026-10-30T06:26:17.163167+00:00",
   "total": 380,
   "counts": {
-    "complete": 370,
-    "needs_fix": 1,
+    "complete": 371,
     "running": 5,
     "not_started": 4
   },
@@ -3571,7 +3570,7 @@
       "id": "yacht-club-hero",
       "title": "Yacht Club",
       "category": "Landing Page",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
       "source_commit": null,
       "group_message_id": null,
@@ -3751,18 +3750,18 @@
       "id": "vertex-ai-hero",
       "title": "VertexAI Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b78-d781-7790-a2b2-9be46ea2fc80",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "2a70a82984fe86eea4200bde661be81bd6215e87",
+      "group_message_id": 441,
+      "url": "https://tool.luo-xd.com/motionsites-results/vertex-ai-hero/"
     },
     {
       "id": "keep-ahead-features",
       "title": "Keep Ahead Features",
       "category": "Features Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b7a-60d6-7b32-b979-06f99d15f572",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3772,7 +3771,7 @@
       "title": "Benefits Features",
       "category": "Features Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b7a-61b2-78c2-88cf-29aafc80ba8c",
       "source_commit": null,
       "group_message_id": null,
       "url": null

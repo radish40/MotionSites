@@ -12188,15 +12188,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "running",
       "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
       "output_path": "generated/gpt-6.1-sol-high/yacht-club-hero",
       "validation": "Public generic check detects CSP errors inside unavailable Vimeo challenge. Same-thread repair required before delivery.",
-      "notes": "",
-      "process_id": 1116780,
+      "notes": "Management acceptance requested a correction in this same original design session; private repair prompt records details.",
+      "process_id": 1239632,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:51:45.434287+00:00",
-      "worker_state": "terminal",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -12207,7 +12207,8 @@
         "accepted_with_asset_limitation": "Independent desktop/mobile public frames show Vimeo connection-verification restriction and no original decoded video; original-session config recovery also yields PrivacyError. Exact iframe retained. Supplied Ocean Eclipse MP4 used as explicitly documented approximate hero background, independently verified advancing. All three exact fleet movies verified advancing in desktop hover and all vessel detail views at desktop/mobile. Root visually reviewed hero/menu/fleet desktop/mobile and vessel detail examples.",
         "proof": "docs/gpt-6.1-sol-high/audits/yacht-club-interactions.json"
       },
-      "delivery_hold": "Original Vimeo is unavailable; original-session repair must avoid requesting the broken external verification page by default while retaining the exact embed for explicit original-media mode. Public fallback/fleet acceptance exists; final generic public check still required."
+      "delivery_hold": "Original Vimeo is unavailable; original-session repair must avoid requesting the broken external verification page by default while retaining the exact embed for explicit original-media mode. Public fallback/fleet acceptance exists; final generic public check still required.",
+      "repair_attempts": 1
     },
     {
       "number": 357,
@@ -12795,19 +12796,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b78-d781-7790-a2b2-9be46ea2fc80",
       "output_path": "generated/gpt-6.1-sol-high/vertex-ai-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1226330,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:21:54.768097+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "2a70a82984fe86eea4200bde661be81bd6215e87",
+      "url": "https://tool.luo-xd.com/motionsites-results/vertex-ai-hero/",
+      "completed_utc": "2026-10-30T06:26:16.957060+00:00",
+      "group_message_id": 441
     },
     {
       "number": 375,
@@ -12826,14 +12831,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b7a-60d6-7b32-b979-06f99d15f572",
       "output_path": "generated/gpt-6.1-sol-high/keep-ahead-features",
       "validation": "",
       "notes": "",
       "process_id": 1233249,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:23:35.415385+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 376,
@@ -12852,14 +12861,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b7a-61b2-78c2-88cf-29aafc80ba8c",
       "output_path": "generated/gpt-6.1-sol-high/benefits-features",
       "validation": "",
       "notes": "",
       "process_id": 1233302,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:23:35.588821+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 377,
@@ -12950,7 +12963,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T06:24:42.090637+00:00",
+  "updated_utc": "2026-10-30T06:26:17.163167+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

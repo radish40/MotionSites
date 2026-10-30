@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T03:07:18.574271+00:00",
+  "updated_utc": "2026-10-30T03:08:56.004531+00:00",
   "total": 380,
   "counts": {
-    "complete": 218,
+    "complete": 219,
+    "ready": 1,
     "running": 5,
-    "not_started": 157
+    "not_started": 155
   },
   "current_batch": {
     "from_number": 201,
@@ -2200,17 +2201,17 @@
       "id": "vertex-sci",
       "title": "Vertex Sci",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac0-dee2-78c3-9739-73ba1b6bf98a",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f7d8a3b1b615f9b7ec96d0468cd10aab822ece24",
+      "group_message_id": 283,
+      "url": "https://tool.luo-xd.com/motionsites-results/vertex-sci/"
     },
     {
       "id": "visual-hero",
       "title": "Visual Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18ac0-dfca-7a01-a98d-48dc8cbf01c4",
       "source_commit": null,
       "group_message_id": null,
@@ -2231,7 +2232,7 @@
       "title": "Wanderful Hero",
       "category": "Travel",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac5-77b8-7832-896a-ebdba1aaf01c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2241,7 +2242,7 @@
       "title": "Wellness Balance",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac5-79a0-73c0-8d83-0f97b2d254d3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2250,7 +2251,7 @@
       "id": "wellness-hero",
       "title": "Wellness Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2260,7 +2261,7 @@
       "id": "yoga-coach",
       "title": "Yoga Coach",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -169,6 +169,55 @@
         "generated/gpt-6.1-sol-high/travel-hero/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/travel-hero/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "unwind-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Cabin video, desktop booking panel and mobile stacked content render with readable headings; missing original vectors and embedded font data are documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/unwind-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/unwind-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "vaultshield",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Real video-backed hero, readable text/icons and mobile navigation render at both viewports.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/vaultshield/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/vaultshield/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "veloce-cards",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Three actual video cards align at the bottom on desktop and stack on mobile, with readable statistics; original session resumed after a confirmed transport failure.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/veloce-cards/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/veloce-cards/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "velorix-iic",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Black hero, responsive headline and supplied animated video render on desktop and mobile; local font and mobile menu verified by original session.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/velorix-iic/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/velorix-iic/screenshots/mobile.png"
+      ]
     }
-  ]
+  ],
+  "updated_utc": "2026-10-30T03:08:46.526845+00:00"
 }

@@ -1,0 +1,152 @@
+{
+  "recorded_utc": "2026-10-30T03:08:46.526298+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required. Scenic Travel additionally passed travel-hero-routes.json.",
+  "all_selected_pass": true,
+  "audited_designs": 5,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:06:23.260159+00:00",
+      "remote_main": "eadfd22f70b6033e4c6c9a0666b9f4678cb2fa9e",
+      "delivery": {
+        "id": "travel-hero",
+        "title": "Scenic Travel",
+        "source_commit": "eadfd22f70b6033e4c6c9a0666b9f4678cb2fa9e",
+        "thread_id": "01a18ab8-691b-7bc2-a45e-5bcf3ee18a01",
+        "group_message_id": 279,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:03:54.291892+00:00",
+      "remote_main": "6403d1f84cf7587beed1233adf75c43dcbcbc189",
+      "delivery": {
+        "id": "unwind-hero",
+        "title": "Unwind Hero",
+        "source_commit": "6403d1f84cf7587beed1233adf75c43dcbcbc189",
+        "thread_id": "01a18abb-d0ce-7113-8caf-ff9e2d12b236",
+        "group_message_id": 277,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:04:59.521649+00:00",
+      "remote_main": "e7f881cafbcaf328fd80b47915a82861a222478e",
+      "delivery": {
+        "id": "vaultshield",
+        "title": "VaultShield",
+        "source_commit": "62ca54917202fd03adb5c50f80488fa577673c6c",
+        "thread_id": "01a18abd-398e-75f2-bb0b-d95f7e8d4efc",
+        "group_message_id": 278,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:07:07.925259+00:00",
+      "remote_main": "fc8311d9c0ae4ac4b2110fa588c5f8aa2e358117",
+      "delivery": {
+        "id": "veloce-cards",
+        "title": "Veloce Cards",
+        "source_commit": "fc8311d9c0ae4ac4b2110fa588c5f8aa2e358117",
+        "thread_id": "01a18abd-3af6-7c43-abf1-60427baef3a8",
+        "group_message_id": 280,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:07:58.880735+00:00",
+      "remote_main": "85b60c53c6f6f477edc1c2e25d882132e8bb630d",
+      "delivery": {
+        "id": "velorix-iic",
+        "title": "Velorix IIC",
+        "source_commit": "b0580ab1f6f92bf848dd01b3ef29e8a45579b6ea",
+        "thread_id": "01a18abe-fb29-7cc1-8917-bf4b14e4a28e",
+        "group_message_id": 281,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

@@ -7503,19 +7503,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac0-dee2-78c3-9739-73ba1b6bf98a",
       "output_path": "generated/gpt-6.1-sol-high/vertex-sci",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 456079,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:00:58.004552+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f7d8a3b1b615f9b7ec96d0468cd10aab822ece24",
+      "url": "https://tool.luo-xd.com/motionsites-results/vertex-sci/",
+      "completed_utc": "2026-10-30T03:08:55.834708+00:00",
+      "group_message_id": 283
     },
     {
       "number": 220,
@@ -7533,7 +7537,7 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18ac0-dfca-7a01-a98d-48dc8cbf01c4",
       "output_path": "generated/gpt-6.1-sol-high/visual-hero",
       "validation": "",
@@ -7541,7 +7545,7 @@
       "process_id": 456113,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:00:58.192161+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -7594,14 +7598,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac5-77b8-7832-896a-ebdba1aaf01c",
       "output_path": "generated/gpt-6.1-sol-high/wanderful-hero",
       "validation": "",
       "notes": "",
       "process_id": 474387,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:05:59.331192+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 223,
@@ -7620,14 +7628,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac5-79a0-73c0-8d83-0f97b2d254d3",
       "output_path": "generated/gpt-6.1-sol-high/wellness-balance",
       "validation": "",
       "notes": "",
       "process_id": 474439,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:05:59.529355+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 224,
@@ -7645,11 +7657,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/wellness-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 482872,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:08:26.242361+00:00",
+      "worker_state": "running"
     },
     {
       "number": 225,
@@ -7667,11 +7683,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/yoga-coach",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 482940,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:08:26.379935+00:00",
+      "worker_state": "running"
     },
     {
       "number": 226,
@@ -11084,7 +11104,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:07:18.574271+00:00",
+  "updated_utc": "2026-10-30T03:08:56.004531+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

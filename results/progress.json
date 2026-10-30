@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:05:07.993275+00:00",
+  "updated_utc": "2026-10-30T04:06:32.576664+00:00",
   "total": 380,
   "counts": {
-    "complete": 266,
+    "complete": 267,
     "running": 5,
-    "not_started": 109
+    "not_started": 108
   },
   "current_batch": {
     "from_number": 201,
@@ -2680,11 +2680,11 @@
       "id": "sync-ai",
       "title": "Sync AI",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af7-98a3-7262-a7c1-a6bc89bc4f5c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f602a3cfa3007490a268819f82671deaab02cc34",
+      "group_message_id": 332,
+      "url": "https://tool.luo-xd.com/motionsites-results/sync-ai/"
     },
     {
       "id": "targo-logistics-hero",
@@ -2711,7 +2711,7 @@
       "title": "Wealth Video Hero",
       "category": "Fintech",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18afa-b151-7900-8d6d-8581880b9313",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2721,7 +2721,7 @@
       "title": "Web3 EOS Hero",
       "category": "Web3",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18afa-b1f9-7941-b8f3-2e582a021edc",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2730,7 +2730,7 @@
       "id": "weblex-dark-hero",
       "title": "Weblex Dark Hero",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

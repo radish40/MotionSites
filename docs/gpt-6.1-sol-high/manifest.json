@@ -9144,19 +9144,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af7-98a3-7262-a7c1-a6bc89bc4f5c",
       "output_path": "generated/gpt-6.1-sol-high/sync-ai",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 682172,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:00:44.520602+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f602a3cfa3007490a268819f82671deaab02cc34",
+      "url": "https://tool.luo-xd.com/motionsites-results/sync-ai/",
+      "completed_utc": "2026-10-30T04:06:32.402868+00:00",
+      "group_message_id": 332
     },
     {
       "number": 268,
@@ -9235,14 +9239,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18afa-b151-7900-8d6d-8581880b9313",
       "output_path": "generated/gpt-6.1-sol-high/wealth-video-hero",
       "validation": "",
       "notes": "",
       "process_id": 696431,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:04:07.526839+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 271,
@@ -9261,14 +9269,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18afa-b1f9-7941-b8f3-2e582a021edc",
       "output_path": "generated/gpt-6.1-sol-high/web3-eos-hero",
       "validation": "",
       "notes": "",
       "process_id": 696489,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:04:07.660108+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 272,
@@ -9286,11 +9298,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/weblex-dark-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 703356,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:06:00.691509+00:00",
+      "worker_state": "running"
     },
     {
       "number": 273,
@@ -11670,7 +11686,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:05:07.993275+00:00",
+  "updated_utc": "2026-10-30T04:06:32.576664+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

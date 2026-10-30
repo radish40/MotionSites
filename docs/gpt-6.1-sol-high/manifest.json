@@ -9541,14 +9541,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b03-d7b4-79d0-9400-f4b0c3290547",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-disruptor-beta-launch",
       "validation": "",
       "notes": "",
       "process_id": 736322,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:14:07.204313+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 280,
@@ -9567,14 +9571,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b03-d86b-74a3-9ac7-82f861d0cb1c",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-ghost-cursor",
       "validation": "",
       "notes": "",
       "process_id": 736400,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:14:07.342616+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 281,
@@ -11778,7 +11786,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:15:02.413367+00:00",
+  "updated_utc": "2026-10-30T04:15:56.536296+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

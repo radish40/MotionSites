@@ -1,0 +1,10 @@
+{
+  "name": "quantum-lucid",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quantum Lucid single-file landing page",
+  "scripts": {
+    "build": "node build.cjs",
+    "check": "node browser-check.cjs"
+  }
+}

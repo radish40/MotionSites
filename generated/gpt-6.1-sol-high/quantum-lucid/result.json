@@ -1,0 +1,55 @@
+{
+  "title": "Quantum Lucid",
+  "id": "quantum-lucid",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm run build && npm run check'",
+  "checks": {
+    "build": "passed; dist/index.html exists",
+    "browser": "passed; real Chromium via playwright-core",
+    "viewports": [
+      "desktop",
+      "referenceDesktop",
+      "mobile",
+      "tablet",
+      "smallMobile",
+      "landscape"
+    ],
+    "desktop_screenshot": "screenshots/desktop.png",
+    "mobile_screenshot": "screenshots/mobile.png",
+    "report": "screenshots/browser-checks.json",
+    "interactions": {
+      "menuToggle": true,
+      "escapeClosesAndFocuses": true,
+      "outsideCloses": true,
+      "linkCloses": true,
+      "desktopResizeCloses": true,
+      "ctaAnchors": true
+    },
+    "reduced_motion": true,
+    "no_javascript": true,
+    "javascript_errors": [],
+    "video": "decoded, autoplaying, time advancing",
+    "font": "embedded genuine Figtree variable FontFace loaded",
+    "overflow": "none on desktop/portrait; landscape scroll intentional"
+  },
+  "asset_issues": [
+    {
+      "asset": "Required Google Fonts 100..900 stylesheet",
+      "issue": "HTTP 400 Missing font family; Chromium ERR_BLOCKED_BY_ORB. Figtree native range is 300..900.",
+      "resolution": "Retained exact required link and embedded Google Fonts variable WOFF2 in standalone HTML; all requested used weights are within native axis.",
+      "sources": [
+        "https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=block",
+        "https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4S9DQ.woff2"
+      ]
+    }
+  ],
+  "notes": [
+    "Single standalone HTML; inline CSS and JS; no framework.",
+    "Release path /motionsites-results/quantum-lucid/.",
+    "Exact CloudFront video and poster retained; both HTTP 200.",
+    "README includes build, validation, recovery and limitations.",
+    "Only this project was written; no agents, other sessions, deployment, push, or messages to others.",
+    "Ready for review, not deployed.",
+    "Browser checks cover Chromium only; video screenshot frames vary."
+  ]
+}

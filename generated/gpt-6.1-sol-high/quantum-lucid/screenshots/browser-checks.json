@@ -1,0 +1,383 @@
+{
+  "desktop": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "scroll": [
+      1440,
+      1000
+    ],
+    "nav": {
+      "x": 209.5203399658203,
+      "y": 50,
+      "width": 1023.2557983398438,
+      "height": 60.465110778808594,
+      "bottom": 110.4651107788086,
+      "right": 1232.776138305664
+    },
+    "headline": {
+      "x": 0,
+      "y": 236.0465087890625,
+      "width": 1439.989013671875,
+      "height": 141.86044311523438,
+      "bottom": 377.9069519042969,
+      "right": 1439.989013671875
+    },
+    "band": {
+      "x": 0,
+      "y": 550,
+      "width": 1439.989013671875,
+      "height": 449.99993896484375,
+      "bottom": 999.9999389648438,
+      "right": 1439.989013671875
+    },
+    "card": {
+      "x": 402.5435791015625,
+      "y": 638.3720703125,
+      "width": 637.2093505859375,
+      "height": 395.348876953125,
+      "bottom": 1033.720947265625,
+      "right": 1039.7529296875
+    },
+    "fontFaces": [
+      {
+        "family": "Figtree",
+        "weight": "100 900",
+        "status": "loaded"
+      }
+    ],
+    "fontLoaded": true,
+    "fontFamily": "Figtree, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif",
+    "video": {
+      "readyState": 4,
+      "currentTime": 2.031837,
+      "paused": false,
+      "width": 2212,
+      "height": 936,
+      "error": null
+    },
+    "stageTransform": "matrix(1.16279, 0, 0, 1.16279, 0, 0)"
+  },
+  "referenceDesktop": {
+    "viewport": [
+      1290,
+      860
+    ],
+    "scroll": [
+      1290,
+      860
+    ],
+    "nav": {
+      "x": 206,
+      "y": 43,
+      "width": 880,
+      "height": 52,
+      "bottom": 95,
+      "right": 1086
+    },
+    "headline": {
+      "x": 0,
+      "y": 203,
+      "width": 1290,
+      "height": 122,
+      "bottom": 325,
+      "right": 1290
+    },
+    "band": {
+      "x": 0,
+      "y": 473,
+      "width": 1290,
+      "height": 387,
+      "bottom": 860,
+      "right": 1290
+    },
+    "card": {
+      "x": 372,
+      "y": 549,
+      "width": 548,
+      "height": 340,
+      "bottom": 889,
+      "right": 920
+    },
+    "fontFaces": [
+      {
+        "family": "Figtree",
+        "weight": "100 900",
+        "status": "loaded"
+      }
+    ],
+    "fontLoaded": true,
+    "fontFamily": "Figtree, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif",
+    "video": {
+      "readyState": 4,
+      "currentTime": 2.863922,
+      "paused": false,
+      "width": 2212,
+      "height": 936,
+      "error": null
+    },
+    "stageTransform": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "scroll": [
+      390,
+      844
+    ],
+    "nav": {
+      "x": 16,
+      "y": 20,
+      "width": 358,
+      "height": 52,
+      "bottom": 72,
+      "right": 374
+    },
+    "headline": {
+      "x": 16,
+      "y": 266.59375,
+      "width": 358,
+      "height": 68.1875,
+      "bottom": 334.78125,
+      "right": 374
+    },
+    "band": {
+      "x": 0,
+      "y": 623.375,
+      "width": 390,
+      "height": 220.625,
+      "bottom": 844,
+      "right": 390
+    },
+    "card": {
+      "x": 39,
+      "y": 669.78125,
+      "width": 312,
+      "height": 193.5625,
+      "bottom": 863.34375,
+      "right": 351
+    },
+    "fontFaces": [
+      {
+        "family": "Figtree",
+        "weight": "100 900",
+        "status": "loaded"
+      }
+    ],
+    "fontLoaded": true,
+    "fontFamily": "Figtree, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif",
+    "video": {
+      "readyState": 4,
+      "currentTime": 3.090154,
+      "paused": false,
+      "width": 2212,
+      "height": 936,
+      "error": null
+    },
+    "stageTransform": "none"
+  },
+  "interactions": {
+    "menuToggle": true,
+    "escapeClosesAndFocuses": true,
+    "outsideCloses": true,
+    "linkCloses": true,
+    "desktopResizeCloses": true,
+    "ctaAnchors": true
+  },
+  "tablet": {
+    "viewport": [
+      768,
+      1024
+    ],
+    "scroll": [
+      768,
+      1024
+    ],
+    "nav": {
+      "x": 26.109375,
+      "y": 26.109375,
+      "width": 715.765625,
+      "height": 52,
+      "bottom": 78.109375,
+      "right": 741.875
+    },
+    "headline": {
+      "x": 138.875,
+      "y": 252.609375,
+      "width": 490.25,
+      "height": 90.09375,
+      "bottom": 342.703125,
+      "right": 629.125
+    },
+    "band": {
+      "x": 0,
+      "y": 624.609375,
+      "width": 768,
+      "height": 399.390625,
+      "bottom": 1024,
+      "right": 768
+    },
+    "card": {
+      "x": 76.796875,
+      "y": 680.921875,
+      "width": 614.390625,
+      "height": 381.1875,
+      "bottom": 1062.109375,
+      "right": 691.1875
+    },
+    "fontFaces": [
+      {
+        "family": "Figtree",
+        "weight": "100 900",
+        "status": "loaded"
+      }
+    ],
+    "fontLoaded": true,
+    "fontFamily": "Figtree, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif",
+    "video": {
+      "readyState": 4,
+      "currentTime": 4.790196,
+      "paused": false,
+      "width": 2212,
+      "height": 936,
+      "error": null
+    },
+    "stageTransform": "none"
+  },
+  "smallMobile": {
+    "viewport": [
+      320,
+      568
+    ],
+    "scroll": [
+      320,
+      568
+    ],
+    "nav": {
+      "x": 16,
+      "y": 20,
+      "width": 288,
+      "height": 52,
+      "bottom": 72,
+      "right": 304
+    },
+    "headline": {
+      "x": 16,
+      "y": 124.9375,
+      "width": 288,
+      "height": 102.28125,
+      "bottom": 227.21875,
+      "right": 304
+    },
+    "band": {
+      "x": 0,
+      "y": 380.421875,
+      "width": 320,
+      "height": 187.578125,
+      "bottom": 568,
+      "right": 320
+    },
+    "card": {
+      "x": 20,
+      "y": 411.65625,
+      "width": 280,
+      "height": 173.71875,
+      "bottom": 585.375,
+      "right": 300
+    },
+    "fontFaces": [
+      {
+        "family": "Figtree",
+        "weight": "100 900",
+        "status": "loaded"
+      }
+    ],
+    "fontLoaded": true,
+    "fontFamily": "Figtree, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif",
+    "video": {
+      "readyState": 4,
+      "currentTime": 5.043653,
+      "paused": false,
+      "width": 2212,
+      "height": 936,
+      "error": null
+    },
+    "stageTransform": "none"
+  },
+  "landscape": {
+    "viewport": [
+      844,
+      390
+    ],
+    "scroll": [
+      844,
+      728
+    ],
+    "nav": {
+      "x": 28.703125,
+      "y": 28.6875,
+      "width": 786.59375,
+      "height": 52,
+      "bottom": 80.6875,
+      "right": 815.296875
+    },
+    "headline": {
+      "x": 223.078125,
+      "y": 100.6875,
+      "width": 397.84375,
+      "height": 73.125,
+      "bottom": 173.8125,
+      "right": 620.921875
+    },
+    "band": {
+      "x": 0,
+      "y": 299,
+      "width": 844,
+      "height": 429.234375,
+      "bottom": 728.234375,
+      "right": 844
+    },
+    "card": {
+      "x": 114.765625,
+      "y": 323,
+      "width": 614.453125,
+      "height": 381.234375,
+      "bottom": 704.234375,
+      "right": 729.21875
+    },
+    "fontFaces": [
+      {
+        "family": "Figtree",
+        "weight": "100 900",
+        "status": "loaded"
+      }
+    ],
+    "fontLoaded": true,
+    "fontFamily": "Figtree, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif",
+    "video": {
+      "readyState": 4,
+      "currentTime": 5.269805,
+      "paused": false,
+      "width": 2212,
+      "height": 936,
+      "error": null
+    },
+    "stageTransform": "none"
+  },
+  "reducedMotion": true,
+  "noJavaScriptGridAndMenu": true,
+  "scriptErrors": [],
+  "failedRequests": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Figtree:wght@100..900&display=block",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Figtree:wght@100..900&display=block",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    }
+  ]
+}

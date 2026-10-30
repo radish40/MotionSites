@@ -1,0 +1,234 @@
+{
+  "desktop": {
+    "fonts": {
+      "anton": true,
+      "condiment": true
+    },
+    "videos": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_045634_e1c98c76-1265-4f5c-882a-4276f2080894.mp4",
+        "readyState": 4,
+        "width": 1860,
+        "height": 1112,
+        "paused": false,
+        "currentTime": 6.677353,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_151551_992053d1-3d3e-4b8c-abac-45f22158f411.mp4",
+        "readyState": 4,
+        "width": 1844,
+        "height": 1124,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_053923_22c0a6a5-313c-474c-85ff-3b50d25e944a.mp4",
+        "readyState": 4,
+        "width": 1320,
+        "height": 1568,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_054411_511c1b7a-fb2f-42ef-bf6c-32c0b1a06e79.mp4",
+        "readyState": 4,
+        "width": 1320,
+        "height": 1568,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_055427_ac7035b5-9f3b-4289-86fc-941b2432317d.mp4",
+        "readyState": 4,
+        "width": 1320,
+        "height": 1568,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_055729_72d66327-b59e-4ae9-bb70-de6ccb5ecdb0.mp4",
+        "readyState": 4,
+        "width": 1784,
+        "height": 1160,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      }
+    ],
+    "overflow": {
+      "viewport": 1440,
+      "document": 1440
+    },
+    "navigation": "Homepage, Gallery, Buy NFT, Contact anchors verified",
+    "faq": "opens and closes using Escape",
+    "cardInteraction": "opens object details and closes",
+    "creators": "links to Orbis introduction",
+    "socialLinks": [
+      {
+        "label": "Email about Orbis.Nft",
+        "href": "mailto:?subject=Orbis.Nft"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/"
+      },
+      {
+        "label": "Github",
+        "href": "https://github.com/"
+      }
+    ],
+    "visiblePlayback": [
+      {
+        "selector": "#about video",
+        "paused": false,
+        "time": 2.844217,
+        "error": null
+      },
+      {
+        "selector": "#gallery article:nth-child(1) video",
+        "paused": false,
+        "time": 4.469608,
+        "error": null
+      },
+      {
+        "selector": "#gallery article:nth-child(2) video",
+        "paused": false,
+        "time": 5.867583,
+        "error": null
+      },
+      {
+        "selector": "#gallery article:nth-child(3) video",
+        "paused": false,
+        "time": 7.309824,
+        "error": null
+      },
+      {
+        "selector": "#contact video",
+        "paused": false,
+        "time": 8.256331,
+        "error": null
+      }
+    ]
+  },
+  "mobile": {
+    "fonts": {
+      "anton": true,
+      "condiment": true
+    },
+    "videos": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_045634_e1c98c76-1265-4f5c-882a-4276f2080894.mp4",
+        "readyState": 4,
+        "width": 1860,
+        "height": 1112,
+        "paused": false,
+        "currentTime": 7.683287,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_151551_992053d1-3d3e-4b8c-abac-45f22158f411.mp4",
+        "readyState": 4,
+        "width": 1844,
+        "height": 1124,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_053923_22c0a6a5-313c-474c-85ff-3b50d25e944a.mp4",
+        "readyState": 4,
+        "width": 1320,
+        "height": 1568,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_054411_511c1b7a-fb2f-42ef-bf6c-32c0b1a06e79.mp4",
+        "readyState": 4,
+        "width": 1320,
+        "height": 1568,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_055427_ac7035b5-9f3b-4289-86fc-941b2432317d.mp4",
+        "readyState": 4,
+        "width": 1320,
+        "height": 1568,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_055729_72d66327-b59e-4ae9-bb70-de6ccb5ecdb0.mp4",
+        "readyState": 4,
+        "width": 1784,
+        "height": 1160,
+        "paused": true,
+        "currentTime": 0,
+        "error": null
+      }
+    ],
+    "overflow": {
+      "viewport": 390,
+      "document": 390
+    },
+    "cardInteraction": "opens object details and closes",
+    "creators": "links to Orbis introduction",
+    "socialLinks": [
+      {
+        "label": "Email about Orbis.Nft",
+        "href": "mailto:?subject=Orbis.Nft"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/"
+      },
+      {
+        "label": "Github",
+        "href": "https://github.com/"
+      }
+    ],
+    "visiblePlayback": [
+      {
+        "selector": "#about video",
+        "paused": false,
+        "time": 1.227428,
+        "error": null
+      },
+      {
+        "selector": "#gallery article:nth-child(1) video",
+        "paused": false,
+        "time": 1.783089,
+        "error": null
+      },
+      {
+        "selector": "#gallery article:nth-child(2) video",
+        "paused": false,
+        "time": 2.956155,
+        "error": null
+      },
+      {
+        "selector": "#gallery article:nth-child(3) video",
+        "paused": false,
+        "time": 1.631091,
+        "error": null
+      },
+      {
+        "selector": "#contact video",
+        "paused": false,
+        "time": 2.377567,
+        "error": null
+      }
+    ]
+  },
+  "errors": [],
+  "failedRequests": []
+}

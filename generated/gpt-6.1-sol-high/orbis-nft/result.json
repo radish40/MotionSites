@@ -1,0 +1,43 @@
+{
+  "title": "Orbis NFT",
+  "id": "orbis-nft",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/orbis-nft/",
+    "desktop": "passed: Chromium 1440x1000, no horizontal overflow",
+    "mobile": "passed: Chromium 390x844, no horizontal overflow",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json",
+    "interactions": "passed: desktop navigation, FAQ open/Escape, object detail open/close on desktop and mobile, creator anchor",
+    "videos": "all six exact CloudFront sources loaded; hero autoplay and remaining videos playing when scrolled into view on both viewports",
+    "fonts": "Anton and Condiment loaded on both viewports",
+    "javascript_errors": 0,
+    "failed_requests": 0,
+    "visual_review": "desktop and mobile full-page screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "texture.png",
+      "issue": "Prompt specifies a local image without providing its source.",
+      "resolution": "Generated an original subtle grayscale texture at public/texture.png; reproducible via scripts/create-texture.py. Approximation documented in README."
+    },
+    {
+      "asset": "optional orbis-nft.webp reference",
+      "issue": "Specified preview file does not exist.",
+      "resolution": "Built from the full prompt. No reference extraction was necessary or possible."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Only this project was read and written; no agents, other sessions, or messages were created.",
+    "External videos and Google Fonts require network access.",
+    "Project social destinations and email recipient were not supplied: platform homepage links and a recipient-free mail composer are documented assumptions.",
+    "Buy NFT scrolls to the collection; card arrows show object details. No wallet, contract, purchase endpoint, or minting behavior was specified.",
+    "Source, lockfile, production dist, browser verification script, screenshots, README and result.json are included."
+  ]
+}

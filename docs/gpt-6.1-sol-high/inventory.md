@@ -409,8 +409,8 @@
 | 322 | `digitwist-hero` | Digitwist AI Builder | SaaS | 1 | 视频 | 已完成 |
 | 323 | `deck-investor` | Investor Deck | Investor Presentations | 1 | 视频 | 已完成 |
 | 324 | `bionova-hero` | Bionova Biotech | SaaS | 1 | 视频 | 已完成 |
-| 325 | `nova-space-landing` | NOVA Space Systems | Landing Page | 1 | 视频 | 已完成 |
-| 326 | `4` | Datacore SaaS Hero | SaaS | 1 | 视频 | 生成中 |
+| 325 | `nova-space-landing` | NOVA Space Systems | Landing Page | 1 | 视频 | 生成中 |
+| 326 | `4` | Datacore SaaS Hero | SaaS | 1 | 视频 | 已完成 |
 | 327 | `15` | Dark Portfolio Hero | Portfolio | 1 | 视频 | 已完成 |
 | 328 | `vex-ventures-hero` | VEX Ventures | Hero Section | 1 | 无 | 已完成 |
 | 329 | `5` | Glassmorphism Agency Hero | Agency | 1 | 无 | 生成中 |

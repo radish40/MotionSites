@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T05:16:40.409870+00:00",
+  "updated_utc": "2026-10-30T05:18:01.876003+00:00",
   "total": 380,
   "counts": {
     "complete": 327,
@@ -3260,21 +3260,21 @@
       "id": "nova-space-landing",
       "title": "NOVA Space Systems",
       "category": "Landing Page",
-      "status": "complete",
+      "status": "running",
       "thread_id": "01a18b35-d418-7952-b8be-2443b7acd0ea",
       "source_commit": "bbd3297078204ef34b8d2329f72dea0d1b93aa3f",
       "group_message_id": 393,
-      "url": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/"
+      "url": null
     },
     {
       "id": "4",
       "title": "Datacore SaaS Hero",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b37-2fbe-72c3-a0eb-4608ed5bf5de",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "acef1463a465bcfd977bcbc34b3d91dfad528cb3",
+      "group_message_id": 396,
+      "url": "https://tool.luo-xd.com/motionsites-results/4/"
     },
     {
       "id": "15",
@@ -3311,7 +3311,7 @@
       "title": "Innovation",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3b-a096-7e02-babe-ccfac4115efb",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3321,7 +3321,7 @@
       "title": "AI Automation Hero",
       "category": "AI / SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3b-a12b-7ac3-99bc-99214f41bea1",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3331,7 +3331,7 @@
       "title": "Securify Data Security",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3b-a1fe-7001-be7a-659e85a3be00",
       "source_commit": null,
       "group_message_id": null,
       "url": null

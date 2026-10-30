@@ -11119,15 +11119,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "complete",
+      "status": "running",
       "thread_id": "01a18b35-d418-7952-b8be-2443b7acd0ea",
       "output_path": "generated/gpt-6.1-sol-high/nova-space-landing",
       "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
-      "notes": "",
-      "process_id": 954259,
+      "notes": "Original session inspecting own catalog reference movie for missing exact hero recovery. Prior published version remains available.",
+      "process_id": 987854,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:08:43.041225+00:00",
-      "worker_state": "terminal",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -11135,7 +11135,8 @@
       "source_commit": "bbd3297078204ef34b8d2329f72dea0d1b93aa3f",
       "url": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/",
       "completed_utc": "2026-10-30T05:15:36.186790+00:00",
-      "group_message_id": 393
+      "group_message_id": 393,
+      "repair_attempts": 1
     },
     {
       "number": 326,
@@ -11153,19 +11154,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b37-2fbe-72c3-a0eb-4608ed5bf5de",
       "output_path": "generated/gpt-6.1-sol-high/4",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 959542,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:10:12.013171+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "acef1463a465bcfd977bcbc34b3d91dfad528cb3",
+      "url": "https://tool.luo-xd.com/motionsites-results/4/",
+      "completed_utc": "2026-10-30T05:18:01.684267+00:00",
+      "group_message_id": 396
     },
     {
       "number": 327,
@@ -11282,14 +11287,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3b-a096-7e02-babe-ccfac4115efb",
       "output_path": "generated/gpt-6.1-sol-high/innovation-landing",
       "validation": "",
       "notes": "",
       "process_id": 978254,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:15:03.100336+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 331,
@@ -11308,14 +11317,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3b-a12b-7ac3-99bc-99214f41bea1",
       "output_path": "generated/gpt-6.1-sol-high/10",
       "validation": "",
       "notes": "",
       "process_id": 978302,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:15:03.239853+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 332,
@@ -11334,14 +11347,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b3b-a1fe-7001-be7a-659e85a3be00",
       "output_path": "generated/gpt-6.1-sol-high/securify-hero",
       "validation": "",
       "notes": "",
       "process_id": 978398,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:15:03.412980+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 333,
@@ -12401,7 +12418,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:16:40.409870+00:00",
+  "updated_utc": "2026-10-30T05:18:01.876003+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

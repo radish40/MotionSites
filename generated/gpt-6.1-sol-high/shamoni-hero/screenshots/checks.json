@@ -1,0 +1,119 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "video": {
+      "width": 1280,
+      "height": 720,
+      "time": 1.603638,
+      "paused": false,
+      "readyState": 4
+    },
+    "images": [
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      }
+    ],
+    "fonts": {
+      "serif": true,
+      "sans": true
+    },
+    "smallItemWidth": 80,
+    "largeItemWidth": 520,
+    "menuClosed": true,
+    "collectionProgress": 0.45,
+    "buyProgress": 0.45,
+    "overflow": {
+      "document": 1440,
+      "viewport": 1440
+    },
+    "errors": [],
+    "failures": [],
+    "cancelledVideoRequests": []
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "video": {
+      "width": 1280,
+      "height": 720,
+      "time": 1.693671,
+      "paused": false,
+      "readyState": 4
+    },
+    "images": [
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      }
+    ],
+    "fonts": {
+      "serif": true,
+      "sans": true
+    },
+    "smallItemWidth": 80,
+    "largeItemWidth": 520,
+    "menuClosed": true,
+    "collectionProgress": 0.45,
+    "buyProgress": 0.45,
+    "overflow": {
+      "document": 390,
+      "viewport": 390
+    },
+    "errors": [],
+    "failures": [],
+    "cancelledVideoRequests": [
+      {
+        "url": "http://localhost:5174/motionsites-results/shamoni-hero/assets/sailing.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:5174/motionsites-results/shamoni-hero/assets/sailing.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ]
+  }
+]

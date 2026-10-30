@@ -1,0 +1,66 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const fs = require('fs');
+const assert = require('node:assert/strict');
+(async () => {
+ const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', headless: true, args: ['--no-sandbox','--disable-dev-shm-usage','--autoplay-policy=no-user-gesture-required'] });
+ const results = [];
+ for (const [name,width,height] of [['desktop',1440,1000],['mobile',390,844]]) {
+  const page = await browser.newPage({ viewport: {width,height}, deviceScaleFactor:1 });
+  const errors = [], failures = [], cancelledVideoRequests = [];
+  page.on('pageerror',error=>errors.push(error.message));
+  page.on('requestfailed',request=>{
+    const item={url:request.url(),error:request.failure()?.errorText};
+    if(item.url.endsWith('/sailing.mp4') && item.error === 'net::ERR_ABORTED') cancelledVideoRequests.push(item);
+    else failures.push(item);
+  });
+  await page.goto('http://localhost:5174/motionsites-results/shamoni-hero/', {waitUntil:'networkidle'});
+  await page.evaluate(async()=>{
+    await Promise.all([document.fonts.load('40px "Instrument Serif"'),document.fonts.load('16px Manrope')]);
+    await document.fonts.ready;
+  });
+  await page.waitForFunction(() => { const v=document.querySelector('video'); return v && v.videoWidth > 0 && v.currentTime > 0.2 && !v.paused; });
+  await page.waitForTimeout(1000);
+  const video = await page.locator('video').evaluate(v=>({width:v.videoWidth,height:v.videoHeight,time:v.currentTime,paused:v.paused,readyState:v.readyState,error:v.error?.message}));
+  await page.screenshot({path:`screenshots/${name}.png`});
+  await page.evaluate(()=>window.scrollTo(0,(document.documentElement.scrollHeight-innerHeight)*0.1));
+  await page.waitForTimeout(1000);
+  await page.screenshot({path:`screenshots/${name}-orbit.png`});
+  const smallItemWidth=await page.locator('.orbit-item').first().evaluate(e=>parseFloat(getComputedStyle(e).width));
+  const images = await page.locator('.orbit-image').evaluateAll(imgs=>imgs.map(i=>({loaded:i.complete&&i.naturalWidth>0,width:i.naturalWidth})));
+  await page.getByRole('button',{name:'Menu',exact:true}).click();
+  await page.locator('#shamoni-menu').waitFor({state:'visible'});
+  await page.locator('#shamoni-menu').getByRole('button',{name:'0651 Collection'}).click();
+  await page.waitForFunction(() => Math.abs(scrollY/(document.documentElement.scrollHeight-innerHeight) - 0.45) < 0.002);
+  await page.waitForTimeout(300);
+  const largeItemWidth=await page.locator('.orbit-item').first().evaluate(e=>parseFloat(getComputedStyle(e).width));
+  const menuClosed = await page.locator('#shamoni-menu').count()===0;
+  const progress = await page.evaluate(()=>scrollY/(document.documentElement.scrollHeight-innerHeight));
+  await page.screenshot({path:`screenshots/${name}-collection.png`});
+  await page.evaluate(()=>window.scrollTo(0,(document.documentElement.scrollHeight-innerHeight)*0.1));
+  await page.waitForTimeout(700);
+  await page.getByRole('button',{name:'BUY COLLECTION',exact:true}).click();
+  await page.waitForFunction(() => Math.abs(scrollY/(document.documentElement.scrollHeight-innerHeight) - 0.45) < 0.002);
+  await page.waitForTimeout(300);
+  const buyProgress=await page.evaluate(()=>scrollY/(document.documentElement.scrollHeight-innerHeight));
+  await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight));
+  await page.waitForTimeout(700);
+  await page.screenshot({path:`screenshots/${name}-end.png`});
+  const overflow=await page.evaluate(()=>({document:document.documentElement.scrollWidth,viewport:innerWidth}));
+  const fonts=await page.evaluate(()=>({serif:document.fonts.check('40px "Instrument Serif"'),sans:document.fonts.check('16px Manrope')}));
+  if(errors.length || failures.length) console.log({errors,failures});
+  assert.equal(errors.length,0);
+  assert.equal(failures.length,0);
+  assert.ok(images.every(i=>i.loaded));
+  assert.ok(fonts.serif && fonts.sans);
+  assert.equal(overflow.document,overflow.viewport);
+  assert.ok(menuClosed && Math.abs(progress-0.45)<0.002 && Math.abs(buyProgress-0.45)<0.002);
+  assert.equal(video.width,1280);
+  assert.equal(smallItemWidth,80);
+  assert.equal(largeItemWidth,520);
+  results.push({name,width,height,video,images,fonts,smallItemWidth,largeItemWidth,menuClosed,collectionProgress:progress,buyProgress,overflow,errors,failures,cancelledVideoRequests});
+  await page.close();
+ }
+ fs.writeFileSync('screenshots/checks.json',JSON.stringify(results,null,2));
+ console.log(JSON.stringify(results,null,2));
+ await browser.close();
+})();

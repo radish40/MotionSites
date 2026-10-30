@@ -1,0 +1,164 @@
+{
+  "title": "Shamoni",
+  "id": "shamoni-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript + Vite; dist/index.html exists",
+    "browser": "Chromium against Vite production preview at the configured subpath",
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "video": {
+          "width": 1280,
+          "height": 720,
+          "time": 1.603638,
+          "paused": false,
+          "readyState": 4
+        },
+        "images": [
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          }
+        ],
+        "fonts": {
+          "serif": true,
+          "sans": true
+        },
+        "smallItemWidth": 80,
+        "largeItemWidth": 520,
+        "menuClosed": true,
+        "collectionProgress": 0.45,
+        "buyProgress": 0.45,
+        "overflow": {
+          "document": 1440,
+          "viewport": 1440
+        },
+        "errors": [],
+        "failures": [],
+        "cancelledVideoRequests": []
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "video": {
+          "width": 1280,
+          "height": 720,
+          "time": 1.693671,
+          "paused": false,
+          "readyState": 4
+        },
+        "images": [
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          },
+          {
+            "loaded": true,
+            "width": 2048
+          }
+        ],
+        "fonts": {
+          "serif": true,
+          "sans": true
+        },
+        "smallItemWidth": 80,
+        "largeItemWidth": 520,
+        "menuClosed": true,
+        "collectionProgress": 0.45,
+        "buyProgress": 0.45,
+        "overflow": {
+          "document": 390,
+          "viewport": 390
+        },
+        "errors": [],
+        "failures": [],
+        "cancelledVideoRequests": [
+          {
+            "url": "http://localhost:5174/motionsites-results/shamoni-hero/assets/sailing.mp4",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "http://localhost:5174/motionsites-results/shamoni-hero/assets/sailing.mp4",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    ],
+    "timeline_arrays": "All 11 scrollYProgress transform array pairs match PROMPT.md exactly",
+    "visual_review": "Entry, orbit and collection screenshots inspected; requested desktop/mobile captures saved",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-orbit.png",
+      "screenshots/mobile-orbit.png",
+      "screenshots/desktop-collection.png",
+      "screenshots/mobile-collection.png",
+      "screenshots/desktop-end.png",
+      "screenshots/mobile-end.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "issue": "The supplied video and images depict a cat with flowers and ceramic bowls, despite sailing copy.",
+      "resolution": "Preserved all exact original assets and the supplied copy."
+    },
+    {
+      "issue": "The provided Mux URL is HLS, while the prompt labels it video/mp4; the direct high.mp4 endpoint returns 404.",
+      "resolution": "Packaged original 720p fMP4 initialization and media segments as a local MP4 without transcoding; retained original HLS URL as fallback. See public/assets/video-provenance.json and scripts/cache-video.py."
+    },
+    {
+      "issue": "Optional design preview file was absent.",
+      "resolution": "Implemented from full TASK.md and PROMPT.md; no preview-based visual comparison was possible."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Only this project was implemented; no agents, other designs or sessions were used.",
+    "All required source dependencies and package-lock.json are included; node_modules excluded.",
+    "Google Fonts are served from local copies of the exact source files; the exact Google Fonts import is retained as a source comment.",
+    "Menu and buy controls navigate within the provided scroll scene; no checkout backend was specified.",
+    "Chromium MP4 byte-range cancellations during looping are recorded separately from failures; active 1280x720 playback was verified.",
+    "Safari and Firefox were not tested."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "source": "https://stream.mux.com/OD2Ny6q9anbQ9h7Vie3KnqDxFpzHM9sjwfhF029lfd600.m3u8",
+  "rendition": "1280x720",
+  "duration_seconds": 8.08333,
+  "method": "Concatenated original fMP4 init and two media segments; no transcoding or visual changes.",
+  "playlist": "#EXTM3U\n#EXT-X-VERSION:7\n#EXT-X-TARGETDURATION:5\n#EXT-X-MAP:URI=\"https://chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/knMVFH6z02xYb1L00pC8OAvTLuo9pp3PaKlCXGgWVeUiaBVmk100ERv4PgdrweHn8Rz2gRzC4ltTJg1pvyWYA02oWpu00mfUxX4nC6z02vs01sOOn8/18446744073709551615.m4s?skid=default&signature=NmFlZDZjZTBfMGFiYzEwYjljOWMzMTliZTZlNjQ3ZDYwMzRiYzY1NTRjMWRhOGFiY2FiNTIxYTJiZTAwMTdiMDZiODk5YjdjNQ==&zone=0\"\n#EXT-X-PLAYLIST-TYPE:VOD\n#EXTINF:5,\nhttps://chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/LhUEkZKLKPJsn3LcrGx6Xc591iy600ufVbKkhQdEdIOwdkp9KfE3sSxwxmXQRvIkhAndUtRra4r54w6iGQ49Qd9jfazc8AaMUoiKgDO9xU74/0.m4s?skid=default&signature=NmFlZDZjZTBfMjQ2ODc5YmIyM2YxYTIzYWU5YWNlZjhiYjRjNGY1M2Y5NmM4OWQ3NTVjNTU0MmNmYzJjNGE0MGQ3OGJhYmU3Yg==&zone=0\n#EXTINF:3.08333,\nhttps://chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/d34QSCxGhtbNp5FdirVg1we01CWR2r6G019Uj2nhMyKAjt8TM7leCM4CIDzi02nDbiLDQRyVBmb3vevVu400301rive01nrznuFwmRDBGyj9Cq500E/1.m4s?skid=default&signature=NmFlZDZjZTBfZTU4YTUxYWM4NzE3N2JjZDY0YzUzMjkzMTUwZDgyYmFmNzE5NzZjODhlYjQ0NzQ5NWJkOTM2M2E3MjcxMjYwMQ==&zone=0\n#EXT-X-ENDLIST\n"
+}

@@ -1,0 +1,16 @@
+/* Original Google Fonts source (the same files are self-hosted below):
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&family=Great+Vibes&display=swap');
+*/
+@import "../public/assets/local-fonts.css";
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Instrument Serif", serif;
+  --font-sans: "Manrope", sans-serif;
+  --font-script: "Great Vibes", cursive;
+}
+
+html, body, #root { margin: 0; width: 100%; min-height: 100%; }
+body { background: #000; }
+button { cursor: pointer; }
+button:focus-visible { outline: 2px solid #9e9f55; outline-offset: 5px; }

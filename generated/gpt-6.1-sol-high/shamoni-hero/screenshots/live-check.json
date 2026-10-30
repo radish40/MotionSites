@@ -1,0 +1,151 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T05:41:10.476Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 4,
+      "title": "Shamoni — Master the Elements",
+      "bodyChars": 194,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/3644e7bae80f5a458c3c087d313204cc67952aff.3644e7ba.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/85346ab4899007b001b3df5d5da04a9d0e4e9ea4.85346ab4.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/ff5f9bb7c566be349d20a775a29eab9ff591311b.ff5f9bb7.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/22e1b6bbc71c4977a49b6bbd991ed75be483cf0e.22e1b6bb.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/874d9530b2ec45092a4c71a1fd74564599b7e3c8.874d9530.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/2adc4a2c178d6aaa68dda80fc42e7628372522d1.2adc4a2c.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/sailing.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.44144,
+          "duration": 8.05,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/sailing.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/sailing.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/sailing.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 3,
+      "title": "Shamoni — Master the Elements",
+      "bodyChars": 194,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/3644e7bae80f5a458c3c087d313204cc67952aff.3644e7ba.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/85346ab4899007b001b3df5d5da04a9d0e4e9ea4.85346ab4.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/ff5f9bb7c566be349d20a775a29eab9ff591311b.ff5f9bb7.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/22e1b6bbc71c4977a49b6bbd991ed75be483cf0e.22e1b6bb.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/874d9530b2ec45092a4c71a1fd74564599b7e3c8.874d9530.png",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/2adc4a2c178d6aaa68dda80fc42e7628372522d1.2adc4a2c.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/sailing.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.543079,
+          "duration": 8.05,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/sailing.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/sailing.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/assets/sailing.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

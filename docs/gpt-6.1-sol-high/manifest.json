@@ -12654,14 +12654,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b73-250f-7471-b145-ff922367d378",
       "output_path": "generated/gpt-6.1-sol-high/vitara-hero",
       "validation": "",
       "notes": "",
       "process_id": 1200760,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:15:41.497800+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 371,
@@ -12680,14 +12684,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b73-25c6-72e3-bef2-cf80edf1e4b2",
       "output_path": "generated/gpt-6.1-sol-high/zenith-realty-landing",
       "validation": "",
       "notes": "",
       "process_id": 1200815,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:15:41.644284+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 372,
@@ -12706,14 +12714,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b73-2681-7ea3-ad6a-779954163213",
       "output_path": "generated/gpt-6.1-sol-high/nexar-hero",
       "validation": "",
       "notes": "",
       "process_id": 1200885,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:15:41.810303+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 373,
@@ -12892,7 +12904,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T06:17:14.650007+00:00",
+  "updated_utc": "2026-10-30T06:18:09.519078+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -47,7 +47,7 @@ const assert=require('node:assert/strict');
         row.fleet.push({index:i,before,after});
         await page.screenshot({path:output+'/'+name+'-vessel-'+i+'.png'});
         await page.keyboard.press('Escape');await dialog.waitFor({state:'detached'});
-        if(!touch){await page.mouse.move(0,0);await card.hover();await page.waitForTimeout(800);const before=await video.evaluate(state);await page.waitForTimeout(1200);const after=await video.evaluate(state);row.fleet[i].hoverPlayback={before,after,card:await card.evaluate(e=>({class:e.className,hover:e.matches(':hover'),focus:e.contains(document.activeElement)}))};fs.writeFileSync(output+'/report.json',JSON.stringify(report,null,2)+'\n');await page.screenshot({path:output+'/'+name+'-hover-'+i+'.png'});assert(!after.paused&&after.time!==before.time,JSON.stringify(row.fleet[i].hoverPlayback));}
+        if(!touch){await page.locator('.fleet-video').nth((i+1)%3).hover();await card.hover();await page.waitForTimeout(800);const before=await video.evaluate(state);await page.waitForTimeout(1200);const after=await video.evaluate(state);row.fleet[i].hoverPlayback={before,after,card:await card.evaluate(e=>({class:e.className,hover:e.matches(':hover'),focus:e.contains(document.activeElement)}))};fs.writeFileSync(output+'/report.json',JSON.stringify(report,null,2)+'\n');await page.screenshot({path:output+'/'+name+'-hover-'+i+'.png'});assert(!after.paused&&after.time!==before.time,JSON.stringify(row.fleet[i].hoverPlayback));}
       }
       await page.locator('.fleet-overlay').evaluate(e=>e.scrollTo({top:0,behavior:'instant'}));await page.waitForTimeout(500);
       await page.screenshot({path:output+'/'+name+'-fleet.png'});

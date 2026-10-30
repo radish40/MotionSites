@@ -1,0 +1,34 @@
+{
+  "url": "/motionsites-results/rocket-faq/",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "dimensions": {
+        "viewport": 1440,
+        "document": 1440,
+        "height": 1000
+      },
+      "fontsLoaded": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "dimensions": {
+        "viewport": 390,
+        "document": 390,
+        "height": 1290
+      },
+      "fontsLoaded": true,
+      "noHorizontalOverflow": true
+    }
+  ],
+  "interactions": [
+    "1440px: all 15 answers, category reset, single-open, collapse, keyboard Enter/ArrowDown, email href, cursor spotlight",
+    "390px: all 15 answers, category reset, single-open, collapse, keyboard Enter/ArrowDown, email href, cursor spotlight",
+    "Reduced motion removes translation; bundled fonts load without external stylesheet"
+  ],
+  "errors": [],
+  "failedRequests": []
+}

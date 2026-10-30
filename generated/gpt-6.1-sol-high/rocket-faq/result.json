@@ -1,0 +1,60 @@
+{
+  "title": "Rocket FAQ",
+  "id": "rocket-faq",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/rocket-faq:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities at install",
+    "browser": {
+      "url": "/motionsites-results/rocket-faq/",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "dimensions": {
+            "viewport": 1440,
+            "document": 1440,
+            "height": 1000
+          },
+          "fontsLoaded": true,
+          "noHorizontalOverflow": true
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "dimensions": {
+            "viewport": 390,
+            "document": 390,
+            "height": 1290
+          },
+          "fontsLoaded": true,
+          "noHorizontalOverflow": true
+        }
+      ],
+      "interactions": [
+        "1440px: all 15 answers, category reset, single-open, collapse, keyboard Enter/ArrowDown, email href, cursor spotlight",
+        "390px: all 15 answers, category reset, single-open, collapse, keyboard Enter/ArrowDown, email href, cursor spotlight",
+        "Reduced motion removes translation; bundled fonts load without external stylesheet"
+      ],
+      "errors": [],
+      "failedRequests": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected against the supplied layout; real DOM controls and text."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Required React 18/Vite/TypeScript/Tailwind/Framer Motion/Radix stack implemented.",
+    "All 15 supplied questions and answers retained.",
+    "Inter and Material Symbols downloaded successfully and bundled locally; required Google stylesheet retained.",
+    "Foreground uses Tailwind alpha placeholder to support semantic opacity utilities.",
+    "Only this design reference was inspected; no reference pixels are used as page content.",
+    "Chromium checks only; email href validated without sending mail.",
+    "No deployment or push performed. Ready for acceptance, not published.",
+    "Requested model configuration is controlled by the session; no other model or session was created."
+  ]
+}

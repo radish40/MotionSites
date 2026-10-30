@@ -1,0 +1,46 @@
+{
+  "title": "AI Automation Hero",
+  "id": 10,
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "desktop": {
+      "viewport": "1440x1000",
+      "screenshot": "screenshots/desktop.png",
+      "overflow": false
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "screenshot": "screenshots/mobile.png",
+      "overflow": false
+    },
+    "video": "Original HLS stream decoded and advancing; autoplay, muted, loop enabled on both viewports",
+    "interactions": "Learn now targets and focuses description; keyboard focus works; booking href equals /book-call",
+    "reduced_motion": "heading visible",
+    "script_errors": [],
+    "failed_requests": [],
+    "details": "screenshots/checks.json",
+    "visual_review": "Both desktop and mobile screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/10.webp",
+      "issue": "Optional reference absent; implemented from full written prompt"
+    },
+    {
+      "asset": "Mux HLS video",
+      "issue": "No observed failure; external network required"
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Only this project was read and written; no agents or other sessions created.",
+    "React, Vite, Tailwind CSS, Framer Motion, Lucide React, hls.js; dependency lockfile included.",
+    "No font asset specified; local Arial/Helvetica sans and Georgia/Times serif used.",
+    "/book-call is the exact specified root destination; booking page is outside supplied scope.",
+    "Learn now targets existing description because no destination was specified.",
+    "Build has advisory for JavaScript chunk above 500 kB due to bundled HLS playback support.",
+    "Chromium tested; Safari/Firefox and a full loop cycle were not tested."
+  ]
+}

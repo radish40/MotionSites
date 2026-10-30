@@ -1,0 +1,114 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "scrollWidth": 1440,
+    "scrollHeight": 1000,
+    "heading": "Unlock the Power of AI for Your Business.",
+    "buttons": [
+      {
+        "text": "Book A Free Call",
+        "href": "/book-call",
+        "bounds": {
+          "x": 128,
+          "y": 642.25,
+          "width": 189,
+          "height": 48,
+          "top": 642.25,
+          "right": 317,
+          "bottom": 690.25,
+          "left": 128
+        }
+      },
+      {
+        "text": "Learn now",
+        "href": "#platform-overview",
+        "bounds": {
+          "x": 333,
+          "y": 642.25,
+          "width": 142.875,
+          "height": 48,
+          "top": 642.25,
+          "right": 475.875,
+          "bottom": 690.25,
+          "left": 333
+        }
+      }
+    ],
+    "video": {
+      "readyState": 4,
+      "currentTime": 3.261061,
+      "width": 640,
+      "height": 334,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "status": "ok"
+    },
+    "learnInteraction": true,
+    "keyboardFocus": true,
+    "bookCallHref": "/book-call",
+    "playbackError": null,
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "scrollHeight": 844,
+    "heading": "Unlock the Power of AI for Your Business.",
+    "buttons": [
+      {
+        "text": "Book A Free Call",
+        "href": "/book-call",
+        "bounds": {
+          "x": 24,
+          "y": 557,
+          "width": 189,
+          "height": 48,
+          "top": 557,
+          "right": 213,
+          "bottom": 605,
+          "left": 24
+        }
+      },
+      {
+        "text": "Learn now",
+        "href": "#platform-overview",
+        "bounds": {
+          "x": 24,
+          "y": 621,
+          "width": 142.875,
+          "height": 48,
+          "top": 621,
+          "right": 166.875,
+          "bottom": 669,
+          "left": 24
+        }
+      }
+    ],
+    "video": {
+      "readyState": 4,
+      "currentTime": 3.135898,
+      "width": 640,
+      "height": 334,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "status": "ok"
+    },
+    "learnInteraction": true,
+    "keyboardFocus": true,
+    "bookCallHref": "/book-call",
+    "playbackError": null,
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "reduced-motion",
+    "headingVisible": true
+  }
+]

@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #070612;
+  --color-foreground: #ffffff;
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-serif: Georgia, 'Times New Roman', serif;
+}
+
+html { background: #070612; }
+body { margin: 0; font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+.hero { min-height: 620px; }
+.hero-video { margin-left: 200px; transform: scale(1.2); transform-origin: left center; }
+.cta { min-height: 48px; transition: background-color 180ms, transform 180ms, box-shadow 180ms; }
+.cta:hover { transform: translateY(-2px); box-shadow: 0 6px 28px #0003; }
+.cta:first-child:hover { background: #e9e7f5; }
+.cta:last-child:hover { background: #ffffff40; }
+.cta:active { transform: translateY(0); }
+.cta:focus-visible { outline: 2px solid #c4b5fd; outline-offset: 5px; }
+.overview:focus { outline: none; }
+.overview:target { text-shadow: 0 0 20px #ffffff25; }
+@media (prefers-reduced-motion: reduce) {
+  .cta { transition: none; }
+}

@@ -1,0 +1,11 @@
+import { motion } from 'framer-motion';
+import { ArrowUpRight } from 'lucide-react';
+import { useReveal, Video } from './shared';
+const services = [{video:'strategy',tag:'Strategy',title:'Research & Insight',description:'We dig deep into data, culture, and human behavior to surface the insights that drive meaningful, lasting change.'},{video:'craft',tag:'Craft',title:'Design & Execution',description:'From concept to launch, we obsess over every detail to deliver experiences that feel effortless and look extraordinary.'}];
+export default function ServicesSection({onSelect}:{onSelect:(title:string)=>void}) {
+  const {ref,visible} = useReveal();
+  return <section id="services" className="relative bg-black py-28 md:py-40 px-6 overflow-hidden"><div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(255,255,255,0.02)_0%,_transparent_60%)]"/><div ref={ref} className="relative max-w-6xl mx-auto">
+    <motion.div initial={{opacity:0,y:30}} animate={visible?{opacity:1,y:0}:{}} transition={{duration:.7}} className="flex items-center justify-between mb-12"><h2 className="text-3xl md:text-5xl tracking-tight">What we do</h2><span className="hidden md:block text-white/40 text-sm">Our services</span></motion.div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">{services.map((s,i)=><motion.article key={s.tag} initial={{opacity:0,y:50}} animate={visible?{opacity:1,y:0}:{}} transition={{duration:.8,delay:i*.15}} className="liquid-glass rounded-3xl group"><div className="relative aspect-video overflow-hidden"><Video name={s.video} className="transition-transform duration-700 group-hover:scale-105"/><div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"/></div><div className="p-6 md:p-8"><div className="flex items-center justify-between mb-5"><span className="text-white/40 text-xs tracking-widest uppercase">{s.tag}</span><button onClick={()=>onSelect(s.title)} aria-label={`Learn about ${s.title}`} className="liquid-glass rounded-full p-2 hover:bg-white/10 transition-colors"><ArrowUpRight size={20}/></button></div><h3 className="text-xl md:text-2xl mb-3 tracking-tight">{s.title}</h3><p className="text-white/50 text-sm leading-relaxed">{s.description}</p></div></motion.article>)}</div>
+  </div></section>;
+}

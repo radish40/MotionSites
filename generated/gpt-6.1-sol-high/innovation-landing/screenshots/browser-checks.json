@@ -1,0 +1,195 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "label": "desktop: five videos decoded and playing",
+      "passed": true,
+      "data": [
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/hero.mp4",
+          "readyState": 4,
+          "width": 1756,
+          "height": 1176,
+          "playing": true,
+          "duration": 13.041667
+        },
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/featured.mp4",
+          "readyState": 4,
+          "width": 1928,
+          "height": 1072,
+          "playing": true,
+          "duration": 11.041667
+        },
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/philosophy.mp4",
+          "readyState": 4,
+          "width": 1664,
+          "height": 1244,
+          "playing": true,
+          "duration": 10.041667
+        },
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/strategy.mp4",
+          "readyState": 4,
+          "width": 1924,
+          "height": 1076,
+          "playing": true,
+          "duration": 12.041667
+        },
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/craft.mp4",
+          "readyState": 4,
+          "width": 1928,
+          "height": 1076,
+          "playing": true,
+          "duration": 13.041995
+        }
+      ]
+    },
+    {
+      "label": "desktop: Instrument Serif loaded",
+      "passed": true
+    },
+    {
+      "label": "desktop: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "desktop: sign up focuses email",
+      "passed": true
+    },
+    {
+      "label": "desktop: signup shows honest local feedback",
+      "passed": true
+    },
+    {
+      "label": "desktop: login dialog opens",
+      "passed": true
+    },
+    {
+      "label": "desktop: dialog closes with Escape",
+      "passed": true
+    },
+    {
+      "label": "desktop: manifesto navigation",
+      "passed": true
+    },
+    {
+      "label": "desktop: service details opens",
+      "passed": true
+    },
+    {
+      "label": "desktop: no overflow after reveal",
+      "passed": true
+    },
+    {
+      "label": "pricing control opens",
+      "passed": true
+    },
+    {
+      "label": "hero fades and restarts after ended",
+      "passed": true,
+      "data": {
+        "time": 0.533746,
+        "opacity": 1,
+        "playing": true
+      }
+    },
+    {
+      "label": "features links to services",
+      "passed": true
+    },
+    {
+      "label": "about navigation",
+      "passed": true
+    },
+    {
+      "label": "mobile: five videos decoded and playing",
+      "passed": true,
+      "data": [
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/hero.mp4",
+          "readyState": 4,
+          "width": 1756,
+          "height": 1176,
+          "playing": true,
+          "duration": 13.041667
+        },
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/featured.mp4",
+          "readyState": 4,
+          "width": 1928,
+          "height": 1072,
+          "playing": true,
+          "duration": 11.041667
+        },
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/philosophy.mp4",
+          "readyState": 4,
+          "width": 1664,
+          "height": 1244,
+          "playing": true,
+          "duration": 10.041667
+        },
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/strategy.mp4",
+          "readyState": 4,
+          "width": 1924,
+          "height": 1076,
+          "playing": true,
+          "duration": 12.041667
+        },
+        {
+          "source": "http://localhost:4173/motionsites-results/innovation-landing/assets/craft.mp4",
+          "readyState": 4,
+          "width": 1928,
+          "height": 1076,
+          "playing": true,
+          "duration": 13.041995
+        }
+      ]
+    },
+    {
+      "label": "mobile: Instrument Serif loaded",
+      "passed": true
+    },
+    {
+      "label": "mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "mobile: sign up focuses email",
+      "passed": true
+    },
+    {
+      "label": "mobile: signup shows honest local feedback",
+      "passed": true
+    },
+    {
+      "label": "mobile: login dialog opens",
+      "passed": true
+    },
+    {
+      "label": "mobile: dialog closes with Escape",
+      "passed": true
+    },
+    {
+      "label": "mobile: manifesto navigation",
+      "passed": true
+    },
+    {
+      "label": "mobile: service details opens",
+      "passed": true
+    },
+    {
+      "label": "mobile: no overflow after reveal",
+      "passed": true
+    },
+    {
+      "label": "no JavaScript errors",
+      "passed": true
+    }
+  ]
+}

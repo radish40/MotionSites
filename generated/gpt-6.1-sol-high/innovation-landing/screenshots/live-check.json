@@ -1,0 +1,140 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/innovation-landing/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:22:45.823Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Asme — Innovation & Vision",
+      "bodyChars": 1250,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.875783,
+          "duration": 13.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/featured.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 11.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/philosophy.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/strategy.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/craft.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 13.041995,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Asme — Innovation & Vision",
+      "bodyChars": 1214,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.036942,
+          "duration": 13.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/featured.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 11.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/philosophy.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/strategy.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/innovation-landing/assets/craft.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 13.041995,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

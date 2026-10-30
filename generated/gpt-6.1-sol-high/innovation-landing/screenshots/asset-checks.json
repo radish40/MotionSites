@@ -1,0 +1,32 @@
+[
+  {
+    "file": "craft.mp4",
+    "bytes": 17130632,
+    "sha256": "87e49bdb231952de9f100e2ac7fadb4ad1fe84a66b732dcaff923db93bc1b766",
+    "build_matches": true
+  },
+  {
+    "file": "featured.mp4",
+    "bytes": 22837644,
+    "sha256": "1ff0eed94523a4126e12385f479f6346803e4a7d38e3ccb1302f129716854fa5",
+    "build_matches": true
+  },
+  {
+    "file": "hero.mp4",
+    "bytes": 13480268,
+    "sha256": "bcc26c97dda8f63466f7fd4aacbe58557a6873f22ad225181dd898f98b2a7a69",
+    "build_matches": true
+  },
+  {
+    "file": "philosophy.mp4",
+    "bytes": 10971616,
+    "sha256": "35f805604516df8f1193c6687aa544c35afcb5f61db5acd191662d72fdb37e11",
+    "build_matches": true
+  },
+  {
+    "file": "strategy.mp4",
+    "bytes": 14142575,
+    "sha256": "c5c37853107ca51166f453662a4ccbfd668a020e7cd70ffa0b5a3be0351d458b",
+    "build_matches": true
+  }
+]

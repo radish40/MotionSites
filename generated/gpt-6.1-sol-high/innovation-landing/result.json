@@ -1,0 +1,44 @@
+{
+  "title": "Innovation",
+  "id": "innovation-landing",
+  "status": "ready",
+  "build_command": "npm ci && npm run build",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite in louislam/uptime-kuma:2 Docker image",
+    "dist_index": true,
+    "browser": "Chromium via playwright-core against production build at required subpath",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "passed_checks": 25,
+    "javascript_errors": [],
+    "failed_requests": [],
+    "video_assets": "All five original MP4s decoded and played; dist copies match source SHA-256",
+    "font": "Google Fonts Instrument Serif loaded successfully",
+    "interactions": "Signup focus and validation feedback, login and service dialogs, Escape and close controls, pricing dialog, manifesto/features/about anchors, hero fade/restart",
+    "horizontal_overflow": "none at either viewport",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png",
+      "screenshots/mobile-full.png"
+    ],
+    "reports": [
+      "screenshots/browser-checks.json",
+      "screenshots/asset-checks.json"
+    ]
+  },
+  "asset_issues": [
+    "Optional innovation-landing.webp visual reference was absent. No extracted or substitute assets used."
+  ],
+  "notes": [
+    "All five sections implemented using the required stack, original video assets, and requested Google Fonts import.",
+    "Static output is in dist/ and uses base /motionsites-results/innovation-landing/.",
+    "No signup or authentication backend, pricing data, or branded social URLs were supplied; controls disclose preview limitations. Instagram and Twitter use platform homepages.",
+    "Featured video frame is taller on mobile to preserve readability of the stacked overlay.",
+    "Original bundled videos total approximately 75 MB; Google Fonts requires internet access.",
+    "No deployment, push, subagents, other sessions, or outbound messages performed. Ready means ready for review.",
+    "Docker build and verification commands are documented in README.md."
+  ]
+}

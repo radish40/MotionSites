@@ -1,0 +1,115 @@
+{
+  "title": "Framelix 3D Studios",
+  "id": "framelix-3d-studios",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite",
+    "dist_index_exists": true,
+    "publish_base": "/motionsites-results/framelix-3d-studios/",
+    "browser": "Real Chromium using playwright-core",
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "dimensions": {
+          "width": 1440,
+          "height": 1000
+        },
+        "videos": [
+          {
+            "width": 1088,
+            "height": 720,
+            "duration": 15.041667,
+            "paused": false,
+            "currentTime": 2.057688,
+            "error": null
+          },
+          {
+            "width": 960,
+            "height": 720,
+            "duration": 9.041667,
+            "paused": false,
+            "currentTime": 2.058056,
+            "error": null
+          }
+        ],
+        "overflow": {
+          "scroll": 1440,
+          "viewport": 1440
+        },
+        "navHidden": false,
+        "marquee": "marquee",
+        "fontLoaded": true,
+        "scriptErrors": [],
+        "failedRequests": [],
+        "interactions": [
+          "reel opens and closes",
+          "Buy Now adds product and opens cart",
+          "Remove empties cart",
+          "Escape closes cart",
+          "empty cart CTA navigates to shipping"
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "dimensions": {
+          "width": 390,
+          "height": 844
+        },
+        "videos": [
+          {
+            "width": 1088,
+            "height": 720,
+            "duration": 15.041667,
+            "paused": false,
+            "currentTime": 2.075361,
+            "error": null
+          },
+          {
+            "width": 960,
+            "height": 720,
+            "duration": 9.041667,
+            "paused": false,
+            "currentTime": 2.082544,
+            "error": null
+          }
+        ],
+        "overflow": {
+          "scroll": 390,
+          "viewport": 390
+        },
+        "navHidden": true,
+        "marquee": "marquee",
+        "fontLoaded": true,
+        "scriptErrors": [],
+        "failedRequests": [],
+        "interactions": [
+          "reel opens and closes",
+          "Buy Now adds product and opens cart",
+          "Remove empties cart",
+          "Escape closes cart",
+          "empty cart CTA navigates to shipping"
+        ]
+      }
+    ],
+    "reduced_motion_tablet": "passed at 768x1024; no overflow and marquee disabled",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile full-page screenshots inspected",
+    "npm_audit": "0 vulnerabilities"
+  },
+  "asset_issues": [
+    "No logo source was provided: original local geometric F SVG used as an approximation.",
+    "Google Fonts remains an external dependency; Inter loaded successfully during verification."
+  ],
+  "notes": [
+    "Both supplied original MP4 files downloaded successfully and are included locally.",
+    "Built with React, TypeScript, Tailwind CSS, tailwindcss-animate, and Framer Motion.",
+    "Only the authorized Framelix preview was read; no full-page image used to implement the site.",
+    "No payment backend or destination URLs supplied. Cart is local UI; contact uses unverified template address hello@framelix.com, which must be confirmed before publication.",
+    "No deployment, push, agent creation, or external messages.",
+    "ready means ready for management review, not deployed."
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "public/assets/hero.mp4",
+    "bytes": 14537389,
+    "sha256": "c5310d94b94bcd7a977032e67a728328bd4b7f183a7e9ff7e2f3fea269952d3d"
+  },
+  {
+    "file": "public/assets/shipping.mp4",
+    "bytes": 3270777,
+    "sha256": "e8b90d0a1caa6bf1dd972d35f649a4dd7a8c79725cb235f35b80759e6686908a"
+  },
+  {
+    "file": "public/assets/logo.svg",
+    "bytes": 180,
+    "sha256": "0a6815ef23c7887e5cda213ba9593f688d81b6c31387efc85df1456364c8c67f"
+  }
+]

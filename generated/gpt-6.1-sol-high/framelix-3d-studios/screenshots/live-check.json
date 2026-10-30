@@ -1,0 +1,112 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:59:35.569Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Framelix 3D — Cinematic Motion Studios",
+      "bodyChars": 487,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/assets/logo.svg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.975759,
+          "duration": 15.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/assets/shipping.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 9.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/assets/hero.mp4",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Framelix 3D — Cinematic Motion Studios",
+      "bodyChars": 433,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/assets/logo.svg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.269925,
+          "duration": 15.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/assets/shipping.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 9.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/assets/hero.mp4",
+          "readyState": 0,
+          "paused": true,
+          "currentTime": 0,
+          "duration": null,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

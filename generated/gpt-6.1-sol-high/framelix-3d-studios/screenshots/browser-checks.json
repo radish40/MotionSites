@@ -1,0 +1,84 @@
+[
+  {
+    "viewport": "desktop",
+    "dimensions": {
+      "width": 1440,
+      "height": 1000
+    },
+    "videos": [
+      {
+        "width": 1088,
+        "height": 720,
+        "duration": 15.041667,
+        "paused": false,
+        "currentTime": 2.057688,
+        "error": null
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "duration": 9.041667,
+        "paused": false,
+        "currentTime": 2.058056,
+        "error": null
+      }
+    ],
+    "overflow": {
+      "scroll": 1440,
+      "viewport": 1440
+    },
+    "navHidden": false,
+    "marquee": "marquee",
+    "fontLoaded": true,
+    "scriptErrors": [],
+    "failedRequests": [],
+    "interactions": [
+      "reel opens and closes",
+      "Buy Now adds product and opens cart",
+      "Remove empties cart",
+      "Escape closes cart",
+      "empty cart CTA navigates to shipping"
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "dimensions": {
+      "width": 390,
+      "height": 844
+    },
+    "videos": [
+      {
+        "width": 1088,
+        "height": 720,
+        "duration": 15.041667,
+        "paused": false,
+        "currentTime": 2.075361,
+        "error": null
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "duration": 9.041667,
+        "paused": false,
+        "currentTime": 2.082544,
+        "error": null
+      }
+    ],
+    "overflow": {
+      "scroll": 390,
+      "viewport": 390
+    },
+    "navHidden": true,
+    "marquee": "marquee",
+    "fontLoaded": true,
+    "scriptErrors": [],
+    "failedRequests": [],
+    "interactions": [
+      "reel opens and closes",
+      "Buy Now adds product and opens cart",
+      "Remove empties cart",
+      "Escape closes cart",
+      "empty cart CTA navigates to shipping"
+    ]
+  }
+]

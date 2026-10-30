@@ -1,0 +1,18 @@
+{
+  "checked_utc": "2026-10-30T05:57:56.904550+00:00",
+  "nginx_syntax_and_reload": "passed",
+  "scope": "Only Automation Machines Spline scene enables wasm-unsafe-eval; JavaScript unsafe-eval remains disabled",
+  "direct_origin_responses": [
+    {
+      "id": "automation-machines-hero",
+      "status_line": "HTTP/2 200 ",
+      "csp": "default-src 'none'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https: blob:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; media-src 'self' blob: https:; font-src 'self' data: https:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
+    },
+    {
+      "id": "sentinel-ai-hero",
+      "status_line": "HTTP/2 200 ",
+      "csp": "default-src 'none'; script-src 'self' 'unsafe-inline' https: blob:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; media-src 'self' blob: https:; font-src 'self' data: https:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
+    }
+  ],
+  "public_scene_rendering": "pending browser revalidation; Python HTTP client receives Cloudflare 403"
+}

@@ -1,12 +1,11 @@
 {
-  "updated_utc": "2026-10-30T05:52:54.369816+00:00",
+  "updated_utc": "2026-10-30T05:58:28.818991+00:00",
   "total": 380,
   "counts": {
-    "complete": 350,
-    "needs_fix": 1,
-    "running": 4,
-    "ready": 1,
-    "not_started": 24
+    "complete": 354,
+    "validating": 1,
+    "running": 5,
+    "not_started": 20
   },
   "current_batch": {
     "from_number": 201,
@@ -3502,7 +3501,7 @@
       "id": "automation-machines-hero",
       "title": "Automation Machines",
       "category": "Hero Section",
-      "status": "needs_fix",
+      "status": "validating",
       "thread_id": "01a18b52-e476-7a71-8466-79b12fdac0e2",
       "source_commit": null,
       "group_message_id": null,
@@ -3532,41 +3531,41 @@
       "id": "rivr-defi-landing",
       "title": "RIVR DeFi",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b57-c9aa-70a2-9133-37c6787fb12f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "8d7bfc7dddd206b04bc788945047f91d47195e88",
+      "group_message_id": 420,
+      "url": "https://tool.luo-xd.com/motionsites-results/rivr-defi-landing/"
     },
     {
       "id": "duolingo-styleguide-hero",
       "title": "Duolingo Styleguide",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b5a-76a0-7270-9185-94d672b6fe0d",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6b1944bf83f517467185bc5805bb94c3f8c9c53b",
+      "group_message_id": 421,
+      "url": "https://tool.luo-xd.com/motionsites-results/duolingo-styleguide-hero/"
     },
     {
       "id": "velorah-focus-hero",
       "title": "Velorah Focus",
       "category": "Social Media",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18b5a-7749-7251-a67c-25c4e5b6a07b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b7e156b8279904a65b8ad37afacc13b896589b8f",
+      "group_message_id": 422,
+      "url": "https://tool.luo-xd.com/motionsites-results/velorah-focus-hero/"
     },
     {
       "id": "price-calculator",
       "title": "Price Calculator",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b5a-7801-7081-9c93-425e42df8475",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6a73be9b69df86757b7dea4ac37a6e008b935c6d",
+      "group_message_id": 423,
+      "url": "https://tool.luo-xd.com/motionsites-results/price-calculator/"
     },
     {
       "id": "yacht-club-hero",
@@ -3582,7 +3581,7 @@
       "id": "social-media-posts-hero",
       "title": "Social Media Posts",
       "category": "Social Media",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3592,7 +3591,7 @@
       "id": "ecommerce-website-landing",
       "title": "E-commerce Website",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3602,7 +3601,7 @@
       "id": "digital-epoch-hero",
       "title": "Digital Epoch",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3612,7 +3611,7 @@
       "id": "ecovolta-hero",
       "title": "EcoVolta",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

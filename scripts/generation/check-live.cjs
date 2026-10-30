@@ -11,7 +11,8 @@ const path = require('node:path');
   }
   if (!url || !output) throw Error('Usage: check-live.cjs URL OUTPUT');
   fs.mkdirSync(output, { recursive: true });
-  const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', args: ['--no-sandbox'] });
+  const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', args: ['--no-sandbox',
+    ...(canvasCapture ? ['--disable-dev-shm-usage','--enable-unsafe-swiftshader'] : [])] });
   const results = [];
   try {
     for (const [name, viewport] of [['desktop', {width:1440,height:1000}], ['mobile', {width:390,height:844}]]) {
@@ -137,10 +138,17 @@ const path = require('node:path');
           if (before > 0) break;
           await page.waitForTimeout(250);
         }
+        // Spline may use demand rendering: real pointer input must also be able
+        // to produce another frame even when the scene is otherwise stationary.
+        await page.mouse.move(viewport.width*.75,viewport.height*.35);
+        await page.mouse.move(viewport.width*.55,viewport.height*.6,{steps:6});
         await page.waitForTimeout(1200);
         const after = await page.evaluate(() => window.__captureDrawCalls);
         canvasRendering = {before,after,drawCallsAdvanced:after>before,canvas:await page.locator('canvas').count()};
-        if (!before || after <= before || !canvasRendering.canvas) throw Error('Original WebGL scene did not render continuously');
+        if (!before || after <= before || !canvasRendering.canvas) {
+          console.error(JSON.stringify({viewport:name,canvasRendering,errors,consoleErrors,failedRequests,badResponses}));
+          throw Error('Original WebGL scene did not produce initial and subsequent frames');
+        }
         // Freeze only the injected validation browser after real GPU draw calls
         // advance. Production source and normal error/layout checks stay intact.
         await page.evaluate(() => { window.__freezeCanvasCapture = true; });

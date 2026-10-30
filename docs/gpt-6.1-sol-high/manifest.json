@@ -11948,7 +11948,7 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "validating",
       "thread_id": "01a18b52-e476-7a71-8466-79b12fdac0e2",
       "output_path": "generated/gpt-6.1-sol-high/automation-machines-hero",
       "validation": "Live browser check failed; see screenshots/live-check.json",
@@ -12048,19 +12048,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b57-c9aa-70a2-9133-37c6787fb12f",
       "output_path": "generated/gpt-6.1-sol-high/rivr-defi-landing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1095238,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:45:48.610102+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "8d7bfc7dddd206b04bc788945047f91d47195e88",
+      "url": "https://tool.luo-xd.com/motionsites-results/rivr-defi-landing/",
+      "completed_utc": "2026-10-30T05:55:26.001883+00:00",
+      "group_message_id": 420
     },
     {
       "number": 353,
@@ -12078,19 +12082,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b5a-76a0-7270-9185-94d672b6fe0d",
       "output_path": "generated/gpt-6.1-sol-high/duolingo-styleguide-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1104272,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:48:43.984953+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "6b1944bf83f517467185bc5805bb94c3f8c9c53b",
+      "url": "https://tool.luo-xd.com/motionsites-results/duolingo-styleguide-hero/",
+      "completed_utc": "2026-10-30T05:55:54.868990+00:00",
+      "group_message_id": 421
     },
     {
       "number": 354,
@@ -12108,10 +12116,10 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18b5a-7749-7251-a67c-25c4e5b6a07b",
       "output_path": "generated/gpt-6.1-sol-high/velorah-focus-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1104343,
       "launch_method": "isolated_codex_exec",
@@ -12120,7 +12128,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b7e156b8279904a65b8ad37afacc13b896589b8f",
+      "url": "https://tool.luo-xd.com/motionsites-results/velorah-focus-hero/",
+      "completed_utc": "2026-10-30T05:56:25.039893+00:00",
+      "group_message_id": 422
     },
     {
       "number": 355,
@@ -12138,19 +12150,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b5a-7801-7081-9c93-425e42df8475",
       "output_path": "generated/gpt-6.1-sol-high/price-calculator",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1104428,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:48:44.283949+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "6a73be9b69df86757b7dea4ac37a6e008b935c6d",
+      "url": "https://tool.luo-xd.com/motionsites-results/price-calculator/",
+      "completed_utc": "2026-10-30T05:58:27.562874+00:00",
+      "group_message_id": 423
     },
     {
       "number": 356,
@@ -12199,11 +12215,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/social-media-posts-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1124736,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:54:55.196442+00:00",
+      "worker_state": "running"
     },
     {
       "number": 358,
@@ -12221,11 +12241,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/ecommerce-website-landing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1124808,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:54:55.344525+00:00",
+      "worker_state": "running"
     },
     {
       "number": 359,
@@ -12243,11 +12267,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/digital-epoch-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1124890,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:54:55.494004+00:00",
+      "worker_state": "running"
     },
     {
       "number": 360,
@@ -12265,11 +12293,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/ecovolta-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1125020,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:54:55.687235+00:00",
+      "worker_state": "running"
     },
     {
       "number": 361,
@@ -12712,7 +12744,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:52:54.369816+00:00",
+  "updated_utc": "2026-10-30T05:58:28.818991+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

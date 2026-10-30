@@ -1,0 +1,44 @@
+{
+  "title": "Digital Reality",
+  "id": "digital-reality-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "stack": "React functional component, Tailwind CSS v4, Vite 7.3.7",
+    "base_path": "/motionsites-results/digital-reality-hero/",
+    "desktop": "passed at 1440x1000; 600x800 centered card",
+    "mobile": "passed at 390x844; proportional 366x488 card",
+    "horizontal_overflow": false,
+    "video": "exact URL; autoplay, loop, muted, playsInline; real playback verified on both viewports",
+    "fonts": "Didot and Inter loaded successfully; identical local fallback files included",
+    "interactions": "desktop hover glow, keyboard focus, message click and mailto destination passed",
+    "javascript_errors": [],
+    "console_errors": [],
+    "http_errors": [],
+    "dependency_audit": "0 vulnerabilities after Vite update",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_evidence": "screenshots/browser-checks.json",
+    "visual_review": "desktop and mobile screenshots reviewed"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional reference preview",
+      "status": "absent at supplied path",
+      "impact": "No reference extraction or pixel comparison; implemented from full prompt."
+    }
+  ],
+  "notes": [
+    "All output is confined to this project; no deployment or push.",
+    "Video remains remotely hosted at the exact required URL and needs network access.",
+    "Contact destination was unspecified; hello@your.name is a documented placeholder.",
+    "Headless Chromium records mailto requests as ERR_ABORTED during external application handoff; navigation intent was verified. No messages were sent.",
+    "Screenshots pause the video at 3 seconds after real playback validation; normal page playback is continuous.",
+    "Mobile validation uses Chromium viewport/touch emulation, not a physical device.",
+    "README.md includes build, preview, validation commands, font attribution, and limitations.",
+    "ready indicates reviewable local deliverables, not publication."
+  ]
+}

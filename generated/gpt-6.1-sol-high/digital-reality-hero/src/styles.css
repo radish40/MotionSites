@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..500&display=swap');
+@import url('https://db.onlinewebfonts.com/c/251039e6849ad977a8bfc40b564dce89?family=Didot');
+@import 'tailwindcss';
+
+/* Local copies of the same fonts keep typography available if a font CDN fails. */
+@font-face {
+  font-family: 'Didot Local';
+  src: url('/fonts/didot.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@theme {
+  --font-serif: 'Didot', 'Didot Local', 'Bodoni MT', Georgia, serif;
+  --font-sans: 'Inter', 'Inter Local', sans-serif;
+}
+
+html, body, #root { min-height: 100%; background: #000; }
+body { margin: 0; }
+button, a { -webkit-tap-highlight-color: transparent; }
+@font-face { font-family: 'Inter Local'; font-style: normal; font-weight: 100; font-display: swap; src: url('/fonts/inter-100.ttf') format('truetype'); }
+@font-face { font-family: 'Inter Local'; font-style: normal; font-weight: 200; font-display: swap; src: url('/fonts/inter-200.ttf') format('truetype'); }
+@font-face { font-family: 'Inter Local'; font-style: normal; font-weight: 300; font-display: swap; src: url('/fonts/inter-300.ttf') format('truetype'); }
+@font-face { font-family: 'Inter Local'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/inter-400.ttf') format('truetype'); }
+@font-face { font-family: 'Inter Local'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/inter-500.ttf') format('truetype'); }

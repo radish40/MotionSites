@@ -1,0 +1,105 @@
+{
+  "pages": [
+    {
+      "name": "desktop",
+      "title": "Digital Reality",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "overflow": false,
+      "card": {
+        "inlineWidth": "600px",
+        "inlineHeight": "800px",
+        "rect": {
+          "x": 420,
+          "y": 100,
+          "width": 600,
+          "height": 800,
+          "top": 100,
+          "right": 1020,
+          "bottom": 900,
+          "left": 420
+        }
+      },
+      "video": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_212252_7d25a6d2-cf7f-465c-9bd1-a1496112806e.mp4",
+        "readyState": 4,
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "error": null
+      },
+      "fonts": {
+        "didot": true,
+        "inter": true,
+        "heading": "Didot, \"Didot Local\", \"Bodoni MT\", Georgia, serif"
+      },
+      "heading": "Create your digital reality.",
+      "hoverGlowOpacity": "1",
+      "keyboardFocusVisible": true,
+      "contactNavigation": [
+        "mailto:hello@your.name"
+      ]
+    },
+    {
+      "name": "mobile",
+      "title": "Digital Reality",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "card": {
+        "inlineWidth": "600px",
+        "inlineHeight": "800px",
+        "rect": {
+          "x": 12,
+          "y": 178,
+          "width": 366,
+          "height": 488,
+          "top": 178,
+          "right": 378,
+          "bottom": 666,
+          "left": 12
+        }
+      },
+      "video": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_212252_7d25a6d2-cf7f-465c-9bd1-a1496112806e.mp4",
+        "readyState": 4,
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "error": null
+      },
+      "fonts": {
+        "didot": true,
+        "inter": true,
+        "heading": "Didot, \"Didot Local\", \"Bodoni MT\", Georgia, serif"
+      },
+      "heading": "Create your digital reality.",
+      "hoverGlowOpacity": "0",
+      "keyboardFocusVisible": true,
+      "contactNavigation": [
+        "mailto:hello@your.name"
+      ]
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "httpErrors": [],
+  "failedRequests": [
+    {
+      "url": "mailto:hello@your.name",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "mailto:hello@your.name",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

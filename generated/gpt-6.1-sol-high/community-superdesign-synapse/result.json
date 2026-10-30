@@ -1,0 +1,72 @@
+{
+  "title": "Synapse",
+  "id": "community-superdesign-synapse",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; Vite 6.4.5; dist/index.html exists",
+    "browser": {
+      "desktop": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "fonts": [
+          true,
+          true
+        ],
+        "overflow": [],
+        "errors": [],
+        "failed": [],
+        "navigation": true,
+        "pythonTab": true,
+        "copy": true,
+        "copyFeedback": "Copied to clipboard.",
+        "typescriptTab": true
+      },
+      "mobile": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "fonts": [
+          true,
+          true
+        ],
+        "overflow": [],
+        "errors": [],
+        "failed": [],
+        "navigation": true,
+        "pythonTab": true,
+        "copy": true,
+        "copyFeedback": "Copied to clipboard.",
+        "typescriptTab": true
+      },
+      "motion": {
+        "animations": {
+          "orb": "float",
+          "ticker": "ticker",
+          "shinyBorder": "spin"
+        },
+        "reveal": true,
+        "hover": true
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "both screenshots reviewed",
+    "dependency_audit": "0 vulnerabilities at install"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional design reference WebP",
+      "issue": "File absent at the specified path",
+      "resolution": "Implemented the written design using real DOM, CSS effects, and inline SVG; no screenshot extraction. Exact reference matching unavailable."
+    }
+  ],
+  "notes": [
+    "All work is contained in this project. No agents, other design sessions, pushes, or deployments.",
+    "Vite and vanilla JavaScript; no framework was mandated in PROMPT.md.",
+    "Fonts are locally hosted with OFL licenses. No runtime external asset dependencies.",
+    "Static marketing design. Metrics and SDK snippets are illustrative; no backend was requested or connected.",
+    "Ready means ready for acceptance, not deployed."
+  ]
+}

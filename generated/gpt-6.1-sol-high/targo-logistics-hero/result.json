@@ -1,0 +1,32 @@
+{
+  "title": "Targo Logistics Hero",
+  "id": "targo-logistics-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "stack": "React, Tailwind CSS, Vite, lucide-react Phone",
+    "public_base": "/motionsites-results/targo-logistics-hero/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "video": "original video; autoplay, muted, loop, playsInline, opacity 1; pause/play passed",
+    "fonts": "self-hosted Rubik loaded",
+    "interactions": "About, Contact Us, mobile menu, Get Started, Book a Call, required form validation, local confirmation, close and Escape passed",
+    "layout": "no horizontal overflow or headline clipping at both required viewports",
+    "browser_errors": 0,
+    "failed_http_responses": 0,
+    "dependency_audit": "zero vulnerabilities",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session review; not deployed or pushed.",
+    "Original specified video and Rubik fonts are self-hosted. No reference screenshot is used as page content.",
+    "Logo recreated as inline SVG because no original vector asset was supplied.",
+    "Contact form is explicitly a local demo with no submission backend or persistence.",
+    "Screenshots freeze video at 1.5 seconds for consistency; normal startup autoplays.",
+    "Verified with Chromium only; original video is 960x720 and cropped responsively.",
+    "All project artifacts remain within this project. No agents or other sessions were created."
+  ]
+}

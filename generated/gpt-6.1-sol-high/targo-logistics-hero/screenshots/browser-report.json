@@ -1,0 +1,58 @@
+{
+  "url": "http://localhost:4173/motionsites-results/targo-logistics-hero/",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "video": {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "opacity": "1",
+        "width": 960,
+        "height": 720
+      },
+      "font": "Rubik loaded",
+      "horizontalOverflow": false,
+      "interactions": [
+        "navigation",
+        "contact",
+        "get started",
+        "book a call",
+        "form validation and preparation",
+        "dialog escape/close",
+        "video pause/play"
+      ],
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "video": {
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "opacity": "1",
+        "width": 960,
+        "height": 720
+      },
+      "font": "Rubik loaded",
+      "horizontalOverflow": false,
+      "interactions": [
+        "navigation",
+        "contact",
+        "get started",
+        "book a call",
+        "form validation and preparation",
+        "dialog escape/close",
+        "video pause/play"
+      ],
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "errors": [],
+  "requestsFailed": [],
+  "status": "passed"
+}

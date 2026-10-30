@@ -1,0 +1,100 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/bionova-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:12:57.661Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Bionova Biotech",
+      "bodyChars": 566,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://stream.mux.com/1RdbcBtpEUK6501pc6yaIvwo9UfSnOg02k1uHxat00xR3w.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.877904,
+          "duration": 8.916666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://stream.mux.com/t1TbTB8M1VYHkhxBuap4A8Vm1x015HTHyuQxqchDBago.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.490354,
+          "duration": 8.916666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://stream.mux.com/6yvj9SR5bjmXq9N3ak7gy427RwUs8R2ZoH4ndA7Q1018.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.537362,
+          "duration": 8.916666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Bionova Biotech",
+      "bodyChars": 377,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://stream.mux.com/1RdbcBtpEUK6501pc6yaIvwo9UfSnOg02k1uHxat00xR3w.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.590263,
+          "duration": 8.916666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://stream.mux.com/t1TbTB8M1VYHkhxBuap4A8Vm1x015HTHyuQxqchDBago.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.181726,
+          "duration": 8.916666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://stream.mux.com/6yvj9SR5bjmXq9N3ak7gy427RwUs8R2ZoH4ndA7Q1018.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.228819,
+          "duration": 8.916666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

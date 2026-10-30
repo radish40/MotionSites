@@ -1,0 +1,103 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "heroHeight": 1000,
+      "fontLoaded": true,
+      "videos": [
+        {
+          "readyState": 4,
+          "playing": true,
+          "time": 5.531797,
+          "width": 720,
+          "height": 720,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "playing": true,
+          "time": 5.552841,
+          "width": 360,
+          "height": 360,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "playing": true,
+          "time": 5.526592,
+          "width": 720,
+          "height": 720,
+          "error": null
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 947,
+      "heroHeight": 946.640625,
+      "fontLoaded": true,
+      "videos": [
+        {
+          "readyState": 4,
+          "playing": true,
+          "time": 6.55577,
+          "width": 1080,
+          "height": 1080,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "playing": true,
+          "time": 5.51196,
+          "width": 720,
+          "height": 720,
+          "error": null
+        },
+        {
+          "readyState": 4,
+          "playing": true,
+          "time": 5.825176,
+          "width": 1080,
+          "height": 1080,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "viewport": "desktop",
+      "passed": true,
+      "checks": [
+        "process dialog",
+        "contact dialog",
+        "location dialog",
+        "Escape dismissal",
+        "close button",
+        "navigation dialogs",
+        "login dialog",
+        "request call"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "passed": true,
+      "checks": [
+        "process dialog",
+        "contact dialog",
+        "location dialog",
+        "Escape dismissal",
+        "close button"
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

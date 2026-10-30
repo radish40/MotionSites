@@ -1,0 +1,33 @@
+{
+  "title": "Bionova Biotech",
+  "id": "bionova-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/bionova-hero/",
+    "desktop": "1440x1000; hero exactly 100vh; no horizontal or vertical overflow",
+    "mobile": "390x844; scrollable; no horizontal overflow",
+    "videos": "All three exact HLS streams loaded and played on desktop and mobile, readyState 4, no media errors",
+    "font": "Google Poppins loaded on desktop and mobile",
+    "interactions": "Contact, process, locations, navigation, login and call dialogs passed; close and Escape dismissal passed",
+    "script_errors": 0,
+    "failed_requests": 0,
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/browser-report.json",
+    "visual_review": "Desktop and mobile screenshots inspected"
+  },
+  "asset_issues": [
+    "Optional reference preview file was absent; used written requirements.",
+    "No external font or streaming failures observed. Network remains required for Google Fonts and HLS; original-stream posters are stored locally."
+  ],
+  "notes": [
+    "React, Vite and hls.js implementation; Poppins weights 400/500/600/700.",
+    "Local posters recovered directly from each original Mux thumbnail endpoint; image pill reuses the locations image.",
+    "Unspecified descriptions and image pill subject were interpreted from the prompt.",
+    "Dialogs provide local concept interactions. Booking/authentication are not connected; contact email is illustrative.",
+    "Native Safari HLS fallback implemented but not browser-tested in Safari.",
+    "Vite emits a nonblocking JavaScript chunk-size advisory for hls.js.",
+    "No agents, other sessions, deployments, pushes or outbound messages. Ready means available for review, not deployed."
+  ]
+}

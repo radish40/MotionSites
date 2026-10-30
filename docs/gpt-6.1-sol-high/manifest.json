@@ -12544,14 +12544,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b6d-dfcf-76f0-8c47-2c1550a64a52",
       "output_path": "generated/gpt-6.1-sol-high/slate-hero",
       "validation": "",
       "notes": "",
       "process_id": 1179314,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:09:56.055326+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 368,
@@ -12840,7 +12844,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T06:10:33.921650+00:00",
+  "updated_utc": "2026-10-30T06:11:57.120828+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

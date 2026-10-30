@@ -1,0 +1,67 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T06:13:18.257Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 22,
+      "canvasRendering": null,
+      "title": "Studio — Pro AI Deck",
+      "bodyChars": 256,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104229_49794008-3d16-4cb6-9a8c-73d7751b0e79.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.348124,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 27,
+      "canvasRendering": null,
+      "title": "Studio — Pro AI Deck",
+      "bodyChars": 243,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104229_49794008-3d16-4cb6-9a8c-73d7751b0e79.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.505778,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

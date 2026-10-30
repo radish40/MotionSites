@@ -1,0 +1,289 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "viewports": {
+    "desktop": {
+      "slides": [
+        {
+          "label": "Introduction",
+          "overflow": false,
+          "video": [
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260411_104229_49794008-3d16-4cb6-9a8c-73d7751b0e79.mp4",
+              "ready": 4,
+              "width": 1928
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "The Process",
+          "overflow": false,
+          "video": [
+            {
+              "src": "blob:http://localhost:4173/4d667509-eb07-4db9-9f13-aa615122fa8b",
+              "ready": 4,
+              "width": 1864
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Capabilities",
+          "overflow": false,
+          "video": [
+            {
+              "src": "blob:http://localhost:4173/10720837-3f84-4ddf-ab13-ffa1389790b8",
+              "ready": 4,
+              "width": 1280
+            },
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260302_085844_21a8f4b3-dea5-4ede-be16-d53f6973bb14.mp4",
+              "ready": 4,
+              "width": 1724
+            },
+            {
+              "src": "blob:http://localhost:4173/57dc2675-bd46-4e6f-bf40-527466739fc6",
+              "ready": 4,
+              "width": 1280
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Differentiators",
+          "overflow": false,
+          "video": [
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260411_104032_69319010-2458-492b-b04d-b40a5dfa4482.mp4",
+              "ready": 4,
+              "width": 1928
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Traction",
+          "overflow": false,
+          "video": [
+            {
+              "src": "blob:http://localhost:4173/5a2a7867-a231-4e64-8a49-ab796894ea5e",
+              "ready": 4,
+              "width": 1620
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Social Proof",
+          "overflow": false,
+          "video": [
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260406_094145_4a271a6c-3869-4f1c-8aa7-aeb0cb227994.mp4",
+              "ready": 4,
+              "width": 1928
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Next Steps",
+          "overflow": false,
+          "video": [
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260324_024928_1efd0b0d-6c02-45a8-8847-1030900c4f63.mp4",
+              "ready": 4,
+              "width": 1924
+            }
+          ],
+          "outside": []
+        }
+      ],
+      "fonts": {
+        "heading": true,
+        "body": true,
+        "icons": true
+      },
+      "previous": "Social Proof",
+      "getStarted": "Next Steps",
+      "links": [
+        {
+          "text": "Book a Call ",
+          "href": "mailto:hello@studio.ai?subject=Book%20a%20free%20strategy%20call"
+        },
+        {
+          "text": "View Pricing",
+          "href": "mailto:hello@studio.ai?subject=Pricing%20enquiry"
+        },
+        {
+          "text": "hello@studio.ai",
+          "href": "mailto:hello@studio.ai"
+        },
+        {
+          "text": "+1 (555) 000-0000",
+          "href": "tel:+15550000000"
+        },
+        {
+          "text": "Privacy",
+          "href": "mailto:hello@studio.ai?subject=Privacy%20enquiry"
+        },
+        {
+          "text": "Terms",
+          "href": "mailto:hello@studio.ai?subject=Terms%20enquiry"
+        },
+        {
+          "text": "Contact",
+          "href": "mailto:hello@studio.ai?subject=Hello%20Studio"
+        }
+      ],
+      "keyboard": "The Process",
+      "wheel": "Capabilities",
+      "titleSlideFonts": {
+        "heading": true,
+        "body": true,
+        "icons": false
+      }
+    },
+    "mobile": {
+      "slides": [
+        {
+          "label": "Introduction",
+          "overflow": false,
+          "video": [
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260411_104229_49794008-3d16-4cb6-9a8c-73d7751b0e79.mp4",
+              "ready": 4,
+              "width": 1928
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "The Process",
+          "overflow": false,
+          "video": [
+            {
+              "src": "blob:http://localhost:4173/112f2b8f-75ed-404b-9b75-6e1d31b49114",
+              "ready": 4,
+              "width": 1864
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Capabilities",
+          "overflow": false,
+          "video": [
+            {
+              "src": "blob:http://localhost:4173/c35e0eb8-a23f-4229-8524-998f859a0e2e",
+              "ready": 4,
+              "width": 1280
+            },
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260302_085844_21a8f4b3-dea5-4ede-be16-d53f6973bb14.mp4",
+              "ready": 4,
+              "width": 1724
+            },
+            {
+              "src": "blob:http://localhost:4173/4cc95b08-9344-417a-b1fb-a41dd98a8d9b",
+              "ready": 4,
+              "width": 1280
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Differentiators",
+          "overflow": false,
+          "video": [
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260411_104032_69319010-2458-492b-b04d-b40a5dfa4482.mp4",
+              "ready": 4,
+              "width": 1928
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Traction",
+          "overflow": false,
+          "video": [
+            {
+              "src": "blob:http://localhost:4173/e34ee516-eb80-4518-a9fe-dea96c119343",
+              "ready": 4,
+              "width": 1620
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Social Proof",
+          "overflow": false,
+          "video": [
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260406_094145_4a271a6c-3869-4f1c-8aa7-aeb0cb227994.mp4",
+              "ready": 4,
+              "width": 1928
+            }
+          ],
+          "outside": []
+        },
+        {
+          "label": "Next Steps",
+          "overflow": false,
+          "video": [
+            {
+              "src": "http://localhost:4173/motionsites-results/pro-ai-deck/assets/hf_20260324_024928_1efd0b0d-6c02-45a8-8847-1030900c4f63.mp4",
+              "ready": 4,
+              "width": 1924
+            }
+          ],
+          "outside": []
+        }
+      ],
+      "fonts": {
+        "heading": true,
+        "body": true,
+        "icons": true
+      },
+      "previous": "Social Proof",
+      "getStarted": "Next Steps",
+      "links": [
+        {
+          "text": "Book a Call ",
+          "href": "mailto:hello@studio.ai?subject=Book%20a%20free%20strategy%20call"
+        },
+        {
+          "text": "View Pricing",
+          "href": "mailto:hello@studio.ai?subject=Pricing%20enquiry"
+        },
+        {
+          "text": "hello@studio.ai",
+          "href": "mailto:hello@studio.ai"
+        },
+        {
+          "text": "+1 (555) 000-0000",
+          "href": "tel:+15550000000"
+        },
+        {
+          "text": "Privacy",
+          "href": "mailto:hello@studio.ai?subject=Privacy%20enquiry"
+        },
+        {
+          "text": "Terms",
+          "href": "mailto:hello@studio.ai?subject=Terms%20enquiry"
+        },
+        {
+          "text": "Contact",
+          "href": "mailto:hello@studio.ai?subject=Hello%20Studio"
+        }
+      ],
+      "swipe": "The Process",
+      "titleSlideFonts": {
+        "heading": true,
+        "body": true,
+        "icons": false
+      }
+    }
+  }
+}

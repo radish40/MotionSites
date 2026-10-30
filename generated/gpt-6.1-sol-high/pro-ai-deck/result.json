@@ -1,0 +1,40 @@
+{
+  "title": "Pro AI Deck",
+  "id": "pro-ai-deck",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript + Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/pro-ai-deck/",
+    "desktop": "1440x1000: all seven slides checked",
+    "mobile": "390x844: all seven slides checked",
+    "javascript_errors": 0,
+    "failed_requests": 0,
+    "horizontal_overflow": false,
+    "out_of_bounds_text_or_controls": false,
+    "video_playback": "All nine original videos decoded; readyState 4 at both viewports",
+    "fonts": "Instrument Serif, Barlow, Material Symbols Rounded loaded at both sizes; icon font loads on first use on slide 2",
+    "interactions": [
+      "seven direct slide indicators",
+      "previous slide",
+      "Get Started to Next Steps",
+      "ArrowRight keyboard navigation",
+      "mouse-wheel navigation",
+      "Chromium touch swipe"
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "evidence": "browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original MP4 assets downloaded unchanged locally; original Mux HLS sources stream remotely. Exact Google Fonts links retained.",
+    "Optional design preview file was absent; implementation follows PROMPT.md. No substitute artwork or screenshot-based page.",
+    "No booking, pricing, or legal destinations provided: email enquiry links use the specified Studio address.",
+    "Build warns about JavaScript chunk size; npm audit reports two advisories in the required Vite 5 development tooling (see dependency-audit.json).",
+    "Chromium coverage at required desktop/mobile sizes; external mail/telephone applications not launched.",
+    "Ready for review only; no push or deployment. node_modules removed; lockfile retained."
+  ]
+}

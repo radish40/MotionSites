@@ -1,0 +1,23 @@
+{
+  "title": "Horizontal Gallery",
+  "id": "community-superdesign-horizontal-gallery",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "public_base": "/motionsites-results/community-superdesign-horizontal-gallery/",
+    "desktop": "1440x1000 Chromium passed",
+    "mobile": "390x844 Chromium passed",
+    "interactions": ["GSAP pins gallery", "vertical wheel translates track horizontally", "previous and next", "pin releases at end", "back to top"],
+    "reduced_motion": "native horizontal gallery, no pin",
+    "responsive_resize": "desktop to mobile and back",
+    "document_overflow": false,
+    "script_errors": [],
+    "failed_asset_requests": [],
+    "dependency_audit": "0 vulnerabilities",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/desktop-pinned.png", "screenshots/mobile-pinned.png"],
+    "browser_report": "screenshots/checks.json"
+  },
+  "asset_issues": ["Optional original reference WebP was not present; visual parity could not be verified. All chosen image and font downloads succeeded and are served locally."],
+  "notes": ["React + GSAP + Vite implementation", "Font and image readiness plus 100 ms safety delay before ScrollTrigger measurement", "Project index title preserved as Horizontal Gallery; page brand Somewhere", "No deployment or push performed", "Chromium tested; Safari and Firefox not tested"]
+}

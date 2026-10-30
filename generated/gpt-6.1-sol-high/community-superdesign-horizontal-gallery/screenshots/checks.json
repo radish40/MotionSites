@@ -1,0 +1,32 @@
+[
+  {
+    "viewport": "1440x1000",
+    "imagesLoaded": true,
+    "noHorizontalOverflow": true,
+    "pinning": true,
+    "horizontalTranslation": -599.888,
+    "nextAndPrevious": true,
+    "pinRelease": true,
+    "backToTop": true,
+    "scriptErrors": [],
+    "failedRequests": []
+  },
+  {
+    "viewport": "390x844",
+    "imagesLoaded": true,
+    "noHorizontalOverflow": true,
+    "pinning": true,
+    "horizontalTranslation": -599.637,
+    "nextAndPrevious": true,
+    "pinRelease": true,
+    "backToTop": true,
+    "scriptErrors": [],
+    "failedRequests": []
+  },
+  {
+    "resize": "Desktop to mobile and back; single pin, no overflow"
+  },
+  {
+    "reducedMotion": "Unpinned native horizontal gallery verified"
+  }
+]

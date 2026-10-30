@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 229/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 230/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -312,14 +312,14 @@
 | 225 | `yoga-coach` | Yoga Coach | Landing Page | 2 | 图片 | 已完成 |
 | 226 | `404` | Nexto 404 | 404 Pages | 2 | 图片 | 已完成 |
 | 227 | `ai-image-generator-ui` | AI Image Generator UI | AI Apps | 1 | 图片 | 已完成 |
-| 228 | `modern-hr-dashboard` | Modern HR Dashboard | HR | 2 | 图片 | 生成中 |
+| 228 | `modern-hr-dashboard` | Modern HR Dashboard | HR | 2 | 图片 | 已完成 |
 | 229 | `saas-value` | SaaS Value | SaaS | 2 | 图片 | 已完成 |
 | 230 | `acreage-farming-hero` | Acreage Farming | Landing Page | 3 | 视频 | 生成中 |
 | 231 | `akor-security` | AKOR Security | Landing Page | 1 | 视频 | 生成中 |
 | 232 | `apex-saa-s` | Apex SaaS | SaaS | 2 | 视频 | 已完成 |
 | 233 | `bloom-ai` | Bloom AI | Hero Section | 1 | 视频 | 生成中 |
 | 234 | `club-x-investors` | ClubX Investors | Landing Page | 2 | 视频 | 生成中 |
-| 235 | `design-pro-academy` | DesignPro Academy | Hero Section | 1 | 视频 | 未开始 |
+| 235 | `design-pro-academy` | DesignPro Academy | Hero Section | 1 | 视频 | 生成中 |
 | 236 | `evr-ventures` | EVR Ventures | Hero Section | 1 | 视频 | 未开始 |
 | 237 | `finlytic-ai-agent` | Finlytic AI Agent | SaaS | 1 | 视频 | 未开始 |
 | 238 | `grow-ai-talent-platform` | Grow AI Talent Platform | SaaS | 2 | 视频 | 未开始 |

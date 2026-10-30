@@ -337,7 +337,33 @@
         "generated/gpt-6.1-sol-high/saas-value/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/saas-value/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "apex-saa-s",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Dark APEX hero, original blue video, readable title and purple calls to action render at both sizes; brand marquee continues below the mobile viewport.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/apex-saa-s/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/apex-saa-s/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "modern-hr-dashboard",
+      "viewports": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "observation": "Talvex dashboard cards and chart render at desktop, stacked mobile and two-column tablet sizes. Calendar events remain inside their card and profile/activity cards no longer overlap. Worker tested timer, tasks, accordions, navigation and four widths.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/modern-hr-dashboard/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/modern-hr-dashboard/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/modern-hr-dashboard/screenshots/tablet.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:20:55.508979+00:00"
+  "updated_utc": "2026-10-30T03:22:41.725259+00:00"
 }

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:21:26.683232+00:00",
+  "updated_utc": "2026-10-30T03:22:52.110564+00:00",
   "total": 380,
   "counts": {
-    "complete": 229,
+    "complete": 230,
     "running": 5,
-    "not_started": 146
+    "not_started": 145
   },
   "current_batch": {
     "from_number": 201,
@@ -2290,11 +2290,11 @@
       "id": "modern-hr-dashboard",
       "title": "Modern HR Dashboard",
       "category": "HR",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18acb-7bfd-7621-b826-4e3c4da07818",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "af06d027c1c188f915784e33817243578c920b00",
+      "group_message_id": 294,
+      "url": "https://tool.luo-xd.com/motionsites-results/modern-hr-dashboard/"
     },
     {
       "id": "saas-value",
@@ -2351,7 +2351,7 @@
       "title": "ClubX Investors",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ad3-2061-7683-8161-e39bcfceaa6c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2360,7 +2360,7 @@
       "id": "design-pro-academy",
       "title": "DesignPro Academy",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

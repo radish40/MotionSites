@@ -7809,19 +7809,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18acb-7bfd-7621-b826-4e3c4da07818",
       "output_path": "generated/gpt-6.1-sol-high/modern-hr-dashboard",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 498547,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:12:33.677591+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "af06d027c1c188f915784e33817243578c920b00",
+      "url": "https://tool.luo-xd.com/motionsites-results/modern-hr-dashboard/",
+      "completed_utc": "2026-10-30T03:22:51.944124+00:00",
+      "group_message_id": 294
     },
     {
       "number": 229,
@@ -7998,14 +8002,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ad3-2061-7683-8161-e39bcfceaa6c",
       "output_path": "generated/gpt-6.1-sol-high/club-x-investors",
       "validation": "",
       "notes": "",
       "process_id": 530366,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:20:54.259213+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 235,
@@ -8023,11 +8031,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/design-pro-academy",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 535585,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:22:19.888104+00:00",
+      "worker_state": "running"
     },
     {
       "number": 236,
@@ -10689,7 +10701,8 @@
       "thread_id": "",
       "output_path": "",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "delivery_hold": "Management must configure scoped frame-src https://player.vimeo.com for this prompt-required iframe and verify actual public background and fleet video playback before delivery."
     },
     {
       "number": 357,
@@ -11220,7 +11233,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:21:26.683232+00:00",
+  "updated_utc": "2026-10-30T03:22:52.110564+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "hero.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_142713_322c5ac5-8a5d-413b-be68-4a0e82014264.mp4",
+    "bytes": 9859143,
+    "status": "ok"
+  },
+  {
+    "file": "sweet.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_151802_1bbf9a81-a7cb-4be1-b858-f1cd92b62b96.mp4",
+    "bytes": 9960746,
+    "status": "ok"
+  },
+  {
+    "file": "wild.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_151818_65bb22c5-33ae-4e23-85ea-0a3dd89957c2.mp4",
+    "bytes": 9777246,
+    "status": "ok"
+  },
+  {
+    "file": "fresh.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260511_143221_81001e13-b71c-4a90-b2d7-abf4e2ec08ff.png&w=1280&q=85",
+    "bytes": 38286,
+    "status": "ok"
+  },
+  {
+    "file": "sweet.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260511_151640_5b4a7bf8-4eb2-4a49-aa63-17a9bb642b88.png&w=1280&q=85",
+    "bytes": 27654,
+    "status": "ok"
+  },
+  {
+    "file": "wild.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260511_151621_4fba6892-ed21-4c2e-8cb3-0bd2ec2abefa.png&w=1280&q=85",
+    "bytes": 71954,
+    "status": "ok"
+  }
+]

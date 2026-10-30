@@ -1,0 +1,73 @@
+{
+  "title": "Daisy Shop",
+  "id": "shop",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22; Docker command in README.md)",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "base_path": "/motionsites-results/shop/",
+    "dist_index_exists": true,
+    "browser": [
+      {
+        "viewport": {
+          "name": "desktop",
+          "width": 1440,
+          "height": 1000
+        },
+        "checks": {
+          "sweetPlayback": true,
+          "wildPlayback": true,
+          "shopScroll": true,
+          "sweetAdded": true,
+          "wildAdded": true,
+          "freshAdded": true,
+          "removed": true,
+          "cartOpens": true,
+          "noHorizontalOverflow": true
+        },
+        "script_and_console_errors": [],
+        "failed_http_requests": [],
+        "all_images_loaded": true,
+        "all_visible_videos_loaded": true
+      },
+      {
+        "viewport": {
+          "name": "mobile",
+          "width": 390,
+          "height": 844
+        },
+        "checks": {
+          "sweetPlayback": true,
+          "wildPlayback": true,
+          "shopScroll": true,
+          "sweetAdded": true,
+          "wildAdded": true,
+          "freshAdded": true,
+          "removed": true,
+          "cartOpens": true,
+          "noHorizontalOverflow": true
+        },
+        "script_and_console_errors": [],
+        "failed_http_requests": [],
+        "all_images_loaded": true,
+        "all_visible_videos_loaded": true
+      }
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected; three sections and responsive ordering match the prompt.",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-hero.png",
+      "screenshots/mobile-hero.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "All six exact supplied asset URLs retrieved successfully; original media stored locally under public/assets and dist/assets. See asset-report.json.",
+    "React + TypeScript + Vite + Tailwind CSS 3; system fonts; no SVGs or icon graphics.",
+    "Header shopping link scrolls to ScentFinder; product buttons use a minimal in-memory cart dialog. No checkout or backend.",
+    "Videos verified playing while their sections are visible. Chromium can pause offscreen videos. Screenshot frames vary with video playback.",
+    "Browser verification uses Chromium desktop and mobile viewport emulation; physical iOS/Safari was not tested.",
+    "Ready for review; not deployed or pushed. No other designs accessed or agents spawned."
+  ]
+}

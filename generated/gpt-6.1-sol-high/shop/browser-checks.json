@@ -1,0 +1,194 @@
+[
+  {
+    "viewport": {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "failed": [],
+    "checks": {
+      "sweetPlayback": true,
+      "wildPlayback": true,
+      "shopScroll": true,
+      "sweetAdded": true,
+      "wildAdded": true,
+      "freshAdded": true,
+      "removed": true,
+      "cartOpens": true,
+      "noHorizontalOverflow": true
+    },
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "sections": [
+        {
+          "height": 1000,
+          "top": 0
+        },
+        {
+          "height": 1000,
+          "top": 1000
+        },
+        {
+          "height": 1000,
+          "top": 2000
+        }
+      ],
+      "images": [
+        {
+          "src": "/motionsites-results/shop/assets/fresh.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/fresh.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/sweet.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/wild.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/sweet.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/wild.webp",
+          "loaded": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/shop/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "width": 3856,
+          "height": 2148,
+          "currentTime": 6.554131,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/shop/assets/sweet.mp4",
+          "readyState": 4,
+          "paused": true,
+          "width": 1292,
+          "height": 1604,
+          "currentTime": 4.014572,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/shop/assets/wild.mp4",
+          "readyState": 4,
+          "paused": true,
+          "width": 1292,
+          "height": 1604,
+          "currentTime": 3.558195,
+          "muted": true,
+          "loop": true
+        }
+      ]
+    }
+  },
+  {
+    "viewport": {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "failed": [],
+    "checks": {
+      "sweetPlayback": true,
+      "wildPlayback": true,
+      "shopScroll": true,
+      "sweetAdded": true,
+      "wildAdded": true,
+      "freshAdded": true,
+      "removed": true,
+      "cartOpens": true,
+      "noHorizontalOverflow": true
+    },
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "sections": [
+        {
+          "height": 844,
+          "top": 0
+        },
+        {
+          "height": 804,
+          "top": 844
+        },
+        {
+          "height": 804,
+          "top": 1648
+        }
+      ],
+      "images": [
+        {
+          "src": "/motionsites-results/shop/assets/fresh.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/fresh.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/sweet.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/wild.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/sweet.webp",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/shop/assets/wild.webp",
+          "loaded": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/shop/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "width": 3856,
+          "height": 2148,
+          "currentTime": 5.595959,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/shop/assets/sweet.mp4",
+          "readyState": 4,
+          "paused": true,
+          "width": 1292,
+          "height": 1604,
+          "currentTime": 1.690757,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "http://127.0.0.1:4173/motionsites-results/shop/assets/wild.mp4",
+          "readyState": 4,
+          "paused": true,
+          "width": 1292,
+          "height": 1604,
+          "currentTime": 3.446747,
+          "muted": true,
+          "loop": true
+        }
+      ]
+    }
+  }
+]

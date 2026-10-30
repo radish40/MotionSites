@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:,">
+  <meta name="theme-color" content="#111414">
+  <meta name="description" content="EngineTech propulsion data across cities, manufacturing, fuels, and hydrogen programs.">
+  <title>EngineTech — Technical Specifications</title>
+  <link rel="stylesheet" href="/motionsites-results/technical-specifications/src/styles.css">
+  <script type="module" src="/motionsites-results/technical-specifications/src/main.js"></script>
+</head>
+<body>
+<main>
+  <section class="stats" aria-label="EngineTech propulsion statistics">
+    <header class="stats__header">
+      <div class="stats__title-wrap"><h2>Unmatched propulsion data across every flight-critical layer.</h2></div>
+      <p class="stats__summary">Distributed aerospace infrastructure needs engines that can test, relight, and recover across dense launch corridors and remote operating bases.</p>
+    </header>
+    <div class="stats__tabs" role="tablist" aria-label="Propulsion data categories">
+      <button class="statstab is-active" id="tab-cities" role="tab" aria-selected="true" aria-controls="stats-panel" data-stats-tab="cities">Cities &amp; Infrastructure</button>
+      <button class="statstab" id="tab-materials" role="tab" aria-selected="false" aria-controls="stats-panel" tabindex="-1" data-stats-tab="materials">Materials &amp; Manufacturing</button>
+      <button class="statstab" id="tab-fuels" role="tab" aria-selected="false" aria-controls="stats-panel" tabindex="-1" data-stats-tab="fuels">Fuels &amp; Upstream</button>
+      <button class="statstab" id="tab-hydrogen" role="tab" aria-selected="false" aria-controls="stats-panel" tabindex="-1" data-stats-tab="hydrogen">H2 Hydrogen</button>
+    </div>
+    <div class="statschart" id="stats-panel" role="tabpanel" aria-labelledby="tab-cities" aria-live="polite" data-stats-chart></div>
+  </section>
+</main>
+</body>
+</html>

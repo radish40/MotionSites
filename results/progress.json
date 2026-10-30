@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:32:54.884898+00:00",
+  "updated_utc": "2026-10-30T04:35:43.616082+00:00",
   "total": 380,
   "counts": {
-    "complete": 291,
+    "complete": 295,
     "running": 5,
-    "not_started": 84
+    "not_started": 80
   },
   "current_batch": {
     "from_number": 201,
@@ -2930,48 +2930,48 @@
       "id": "community-superdesign-counter",
       "title": "Counter",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b11-602a-7cc1-a377-f1782af69c85",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "211aff35b537a2272cca43618b39df5a46e75693",
+      "group_message_id": 358,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-counter/"
     },
     {
       "id": "community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65",
       "title": "Modal Design · success-celebration (pastel) — legibility fixed",
       "category": "Onboarding",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b11-60d3-7713-97f8-f3b4e5e98ff8",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e062df61cdffa2477405143b6e7d5809eb924911",
+      "group_message_id": 359,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65/"
     },
     {
       "id": "personal-showcase",
       "title": "Personal Showcase",
       "category": "Portfolio",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b11-61de-7a63-b8be-49776c0693d9",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "4444f17e8cf44b6a1175e786df0ab88c1af71316",
+      "group_message_id": 360,
+      "url": "https://tool.luo-xd.com/motionsites-results/personal-showcase/"
     },
     {
       "id": "digital-director",
       "title": "Digital Director",
       "category": "Portfolio",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b13-7057-75a1-a9b9-79dbc57f1850",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a07a0f01f776cb233373dbb682aab559ebbf98d8",
+      "group_message_id": 361,
+      "url": "https://tool.luo-xd.com/motionsites-results/digital-director/"
     },
     {
       "id": "intelligent-operations",
       "title": "Intelligent Operations",
       "category": "Agency",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b14-ae63-70f2-a3b5-0cfa8ee0d1ce",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2980,7 +2980,7 @@
       "id": "skybridge-404",
       "title": "Skybridge 404",
       "category": "404",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2990,7 +2990,7 @@
       "id": "synth-mode",
       "title": "Synth Mode",
       "category": "Fashion",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3000,7 +3000,7 @@
       "id": "agent-grove",
       "title": "Agent Grove",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3010,7 +3010,7 @@
       "id": "mostar-guide",
       "title": "Mostar Guide",
       "category": "Travel",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

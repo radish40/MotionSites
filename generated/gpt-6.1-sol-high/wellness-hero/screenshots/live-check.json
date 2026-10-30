@@ -1,0 +1,62 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/wellness-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:13:14.177Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Aurai - Always-On Wellness Companion",
+      "bodyChars": 269,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/wellness-hero/assets/aurai-wellness.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.76273,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Aurai - Always-On Wellness Companion",
+      "bodyChars": 255,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/wellness-hero/assets/aurai-wellness.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.692406,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

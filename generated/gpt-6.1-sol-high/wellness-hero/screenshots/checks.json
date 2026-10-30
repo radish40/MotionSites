@@ -1,0 +1,58 @@
+[
+  {
+    "viewport": "desktop",
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "askan": true,
+      "inter": true
+    },
+    "media": {
+      "time": 1.155938,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "width": 3828,
+      "height": 2164,
+      "position": "50% 50%"
+    },
+    "playbackAdvanced": true,
+    "menuToggle": true,
+    "menuLinkCloses": true,
+    "joinFocusesInput": true,
+    "emailAlert": "Thank you for joining the list, wellness@example.com!",
+    "invalidEmailRejected": true,
+    "scriptErrors": [],
+    "failedRequests": []
+  },
+  {
+    "viewport": "mobile",
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "askan": true,
+      "inter": true
+    },
+    "media": {
+      "time": 0.700814,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "width": 3828,
+      "height": 2164,
+      "position": "80% 50%"
+    },
+    "playbackAdvanced": true,
+    "menuToggle": true,
+    "menuLinkCloses": true,
+    "joinFocusesInput": true,
+    "emailAlert": "Thank you for joining the list, wellness@example.com!",
+    "invalidEmailRejected": true,
+    "scriptErrors": [],
+    "failedRequests": []
+  }
+]

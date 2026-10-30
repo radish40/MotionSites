@@ -1,0 +1,84 @@
+{
+  "title": "Wellness Hero",
+  "id": "wellness-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": "Chromium via playwright-core",
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "layout": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "height": 1000,
+          "scrollHeight": 1000,
+          "askan": true,
+          "inter": true
+        },
+        "media": {
+          "time": 1.155938,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "width": 3828,
+          "height": 2164,
+          "position": "50% 50%"
+        },
+        "playbackAdvanced": true,
+        "menuToggle": true,
+        "menuLinkCloses": true,
+        "joinFocusesInput": true,
+        "emailAlert": "Thank you for joining the list, wellness@example.com!",
+        "invalidEmailRejected": true,
+        "scriptErrors": [],
+        "failedRequests": []
+      },
+      {
+        "viewport": "mobile",
+        "layout": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844,
+          "scrollHeight": 844,
+          "askan": true,
+          "inter": true
+        },
+        "media": {
+          "time": 0.700814,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "width": 3828,
+          "height": 2164,
+          "position": "80% 50%"
+        },
+        "playbackAdvanced": true,
+        "menuToggle": true,
+        "menuLinkCloses": true,
+        "joinFocusesInput": true,
+        "emailAlert": "Thank you for joining the list, wellness@example.com!",
+        "invalidEmailRejected": true,
+        "scriptErrors": [],
+        "failedRequests": []
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "passed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original MP4, Askan Light and Inter bundled locally; no asset substitutions or extraction.",
+    "React + Vite + Tailwind CSS + lucide-react.",
+    "Base path: /motionsites-results/wellness-hero/.",
+    "Email submissions show the requested alert; no backend or persistent storage.",
+    "Desktop menu provides the same navigation links in a glass dropdown.",
+    "Video frame varies over time; Chromium tested, other browsers not tested.",
+    "Ready for acceptance review; not deployed or pushed."
+  ]
+}

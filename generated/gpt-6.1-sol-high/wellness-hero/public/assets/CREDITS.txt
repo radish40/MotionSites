@@ -1,0 +1,4 @@
+Askan Light supplied by OnlineWebFonts: https://www.onlinewebfonts.com/fonts
+Provider stylesheet specifies CC BY 4.0 attribution. Original stylesheet: askan-source.css.
+Inter supplied by Google Fonts: https://fonts.google.com/specimen/Inter
+Video: original CloudFront URL specified in PROMPT.md, downloaded unchanged as aurai-wellness.mp4.

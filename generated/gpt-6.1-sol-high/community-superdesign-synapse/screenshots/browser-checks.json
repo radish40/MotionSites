@@ -7,6 +7,11 @@
       true
     ],
     "overflow": [],
+    "heroCopy": {
+      "renderedText": "The infrastructure for your next big idea.\nConnect powerful AI to your product. Build beyond the possible.",
+      "sentenceBoundary": true,
+      "breakDisplay": "inline"
+    },
     "errors": [],
     "failed": [],
     "navigation": true,
@@ -23,6 +28,11 @@
       true
     ],
     "overflow": [],
+    "heroCopy": {
+      "renderedText": "The infrastructure for your next big idea. Connect powerful AI to your product. Build beyond the possible.",
+      "sentenceBoundary": true,
+      "breakDisplay": "none"
+    },
     "errors": [],
     "failed": [],
     "navigation": true,

@@ -47,6 +47,12 @@ Full-page screenshots captured at the required viewport sizes are `screenshots/d
 
 The dependency installation reports zero known vulnerabilities. Keyboard focus styles, semantic navigation, live copy feedback, and reduced-motion support are implemented.
 
+## Acceptance correction
+
+Added a literal space after the hero copy's `<br>` in `index.html` (`idea.<br> Connect`). At 390×844, where CSS hides the break, the rendered text now contains `idea. Connect`. At 1440×1000, the explicit desktop line break remains visible. All wording and design styles are preserved.
+
+Rebuilt the production bundle and refreshed both required screenshots. The browser check now asserts the rendered sentence boundary and the expected responsive break display in both viewports. Navigation, code tabs, copying, font loading, motion, script errors, and overflow checks all passed again. The refreshed desktop and mobile screenshots were visually reviewed.
+
 ## Assets and limitations
 
 Instrument Serif and Inter were downloaded from Google Fonts and are served locally; no runtime external asset requests are required. Font license files are in `public/fonts/licenses/`. The optional original reference `/home/opc/motionsites/assets/previews/community-superdesign-synapse.webp` was absent. No reference images or screenshot fragments were used, so exact reference-image matching could not be verified.

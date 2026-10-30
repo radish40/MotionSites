@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:21:42.713964+00:00",
+  "updated_utc": "2026-10-30T04:23:52.972328+00:00",
   "total": 380,
   "counts": {
-    "complete": 280,
+    "complete": 283,
     "running": 5,
-    "not_started": 95
+    "not_started": 92
   },
   "current_batch": {
     "from_number": 201,
@@ -2800,11 +2800,11 @@
       "id": "community-superdesign-disruptor-beta-launch",
       "title": "Disruptor Beta Launch",
       "category": "Waitlist & Coming Soon",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b03-d7b4-79d0-9400-f4b0c3290547",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6591592c7726b10bd5dca1fb170adebb45eb4ab9",
+      "group_message_id": 347,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-disruptor-beta-launch/"
     },
     {
       "id": "community-superdesign-ghost-cursor",
@@ -2840,28 +2840,28 @@
       "id": "community-superdesign-typing-animation",
       "title": "Typing animation",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b07-945c-76c1-a61b-6c904b620fec",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "04baaa1e4095136c2c5fb86892e5d4a4acd9e4cf",
+      "group_message_id": 348,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-typing-animation/"
     },
     {
       "id": "community-superdesign-pill-nav",
       "title": "Pill Nav",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b09-363c-7de3-88fa-f5c4c3891590",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "0b2ac68e1fd9b905bc66f3ee494355b3b4cd5bae",
+      "group_message_id": 349,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-pill-nav/"
     },
     {
       "id": "community-superdesign-exploded-view-assembly",
       "title": "\"Exploded View\" Assembly",
       "category": "Animations & Backgrounds",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b0a-6b42-7072-9c1f-e16fc9e388d9",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2870,7 +2870,7 @@
       "id": "community-superdesign-rolodex-text",
       "title": "Rolodex Text",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2880,7 +2880,7 @@
       "id": "community-superdesign-lightning-background",
       "title": "Lightning Background",
       "category": "Animations & Backgrounds",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2890,7 +2890,7 @@
       "id": "community-superdesign-hyperspeed-background",
       "title": "Hyperspeed Background",
       "category": "Animations & Backgrounds",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

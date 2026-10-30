@@ -11210,14 +11210,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b38-f5f3-77a3-a586-bd62fc041c35",
       "output_path": "generated/gpt-6.1-sol-high/vex-ventures-hero",
       "validation": "",
       "notes": "",
       "process_id": 966352,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:12:08.292776+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 329,
@@ -11236,14 +11240,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b38-ffd7-7142-aa3c-5cd35f0a6220",
       "output_path": "generated/gpt-6.1-sol-high/5",
       "validation": "",
       "notes": "",
       "process_id": 966460,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:12:08.571525+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 330,
@@ -12369,7 +12377,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:13:13.666009+00:00",
+  "updated_utc": "2026-10-30T05:14:07.004965+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

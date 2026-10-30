@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme { --font-sans: 'Inter', sans-serif; }
+:root { font-family: 'Inter', sans-serif; color: #111; background: #F4F6FA; font-synthesis: none; }
+body { margin: 0; }
+button { cursor: pointer; }
+button:focus-visible { outline: 3px solid #3585A5; outline-offset: 5px; }
+.inline-fallback { display: inline-block; width: 1.2em; height: .8em; margin-inline: -.1em; vertical-align: middle; transform: translateY(-.1em) scale(1.15); border-radius: 100%; background: radial-gradient(ellipse at 36% 35%, #e3d5a9 0 20%, #b4bd6b 22% 40%, #4c6038 43% 46%, #b9c86d 48% 64%, #87934f 68%); }

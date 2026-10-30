@@ -1,0 +1,114 @@
+{
+  "title": "Benefits Features",
+  "id": "benefits-features",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22; Docker equivalent in README.md)",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": [
+      {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "defaultExpanded": "true",
+        "sportExpanded": true,
+        "connectionCollapsed": true,
+        "keyboardExpanded": true,
+        "overflow": false,
+        "font": true,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 0.609932,
+          "error": null
+        },
+        "counter": "86%",
+        "fallback": true,
+        "cardBounds": {
+          "x": 964,
+          "y": 176,
+          "width": 320,
+          "height": 595.5625,
+          "top": 176,
+          "right": 1284,
+          "bottom": 771.5625,
+          "left": 964
+        },
+        "errors": [],
+        "failedRequests": [],
+        "httpErrors": [
+          {
+            "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1777202844/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82_26-04-2026_134245-removebg-preview_jju5ww.png",
+            "status": 401
+          }
+        ]
+      },
+      {
+        "name": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "defaultExpanded": "true",
+        "sportExpanded": true,
+        "connectionCollapsed": true,
+        "keyboardExpanded": true,
+        "overflow": false,
+        "font": true,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.940018,
+          "error": null
+        },
+        "counter": "86%",
+        "fallback": true,
+        "cardBounds": {
+          "x": 43.5,
+          "y": 380.03125,
+          "width": 303,
+          "height": 360,
+          "top": 380.03125,
+          "right": 346.5,
+          "bottom": 740.03125,
+          "left": 43.5
+        },
+        "errors": [],
+        "failedRequests": [],
+        "httpErrors": [
+          {
+            "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1777202844/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82_26-04-2026_134245-removebg-preview_jju5ww.png",
+            "status": 401
+          }
+        ]
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Both screenshots inspected; responsive composition and badges fit."
+  },
+  "asset_issues": [
+    {
+      "asset": "required inline Cloudinary image",
+      "status": "unavailable",
+      "http_status": 401,
+      "reason": "cloud_name dsdhxhhqh is disabled",
+      "recovery_attempt": "Exact and versionless URLs both returned 401. The design-specific reference preview does not exist.",
+      "fallback": "Small abstract green CSS illustration; original URL retained in source. Not an exact reconstruction."
+    }
+  ],
+  "notes": [
+    "React + Tailwind CSS + motion/react + lucide-react; Inter imported from Google Fonts.",
+    "Exact required video URL plays in both tested viewports.",
+    "Accordion mouse and keyboard checks pass. Counter reaches 86%. No horizontal document overflow or JavaScript exceptions.",
+    "Join Now! is a styled CTA with no destination because none is specified.",
+    "Motion dependency use-client warnings are nonfatal.",
+    "Specified typography naturally wraps desktop headings at the required viewport.",
+    "All artifacts are local; no deployment or push. Ready means available for management-session acceptance with the documented image limitation."
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"real-time-alerts","version":"1.0.0","private":true,"description":"Real-Time Alerts — self-contained Signal login composition","scripts":{"build":"python3 build.py"}}

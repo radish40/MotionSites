@@ -1,0 +1,85 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/real-time-alerts/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:54:52.505Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Signal — Log in",
+      "bodyChars": 183,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/real-time-alerts/assets/falcon.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.772256,
+          "duration": 5.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/real-time-alerts/assets/falcon.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 5.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Signal — Log in",
+      "bodyChars": 183,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/real-time-alerts/assets/falcon.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 5.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/real-time-alerts/assets/falcon.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.757255,
+          "duration": 5.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/real-time-alerts/assets/falcon.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

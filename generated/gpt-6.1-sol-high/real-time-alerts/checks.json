@@ -1,0 +1,164 @@
+{
+  "checks": [
+    {
+      "name": "Desktop 1440x1000",
+      "passed": true,
+      "detail": {
+        "mode": "land",
+        "overflow": false,
+        "fonts": "loaded",
+        "animations": 0
+      }
+    },
+    {
+      "name": "Editable inputs, masked password, keyboard focus, button hover/press",
+      "passed": true,
+      "detail": "Inputs and static buttons work; focus/hover styles present."
+    },
+    {
+      "name": "Reference geometry 1464x949",
+      "passed": true,
+      "detail": {
+        "photoWidth": 836,
+        "cardWidth": 613,
+        "cardHeight": 922,
+        "cardX": 836.984375,
+        "cardY": 14
+      }
+    },
+    {
+      "name": "Resize and rotate without reload",
+      "passed": true,
+      "detail": [
+        {
+          "width": 1400,
+          "height": 850,
+          "mode": "land"
+        },
+        {
+          "width": 900,
+          "height": 700,
+          "mode": "land"
+        },
+        {
+          "width": 700,
+          "height": 600,
+          "mode": "land"
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "mode": "tabport"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "mode": "land"
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "mode": "phone"
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "mode": "tabport"
+        },
+        {
+          "width": 1464,
+          "height": 949,
+          "mode": "land"
+        }
+      ]
+    },
+    {
+      "name": "Phone flow, readable inputs, white headline, short-screen scroll",
+      "passed": true,
+      "detail": {
+        "mode": "phone",
+        "inputFont": "16px",
+        "headline": "rgb(255, 255, 255)",
+        "overflow": false
+      }
+    },
+    {
+      "name": "Video plays silently and loops in all modes",
+      "passed": true,
+      "detail": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "video": [
+            {
+              "paused": false,
+              "muted": true,
+              "loop": true,
+              "ready": 4,
+              "error": null,
+              "time": 0.640832,
+              "poster": true
+            }
+          ]
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "video": [
+            {
+              "paused": false,
+              "muted": true,
+              "loop": true,
+              "ready": 4,
+              "error": null,
+              "time": 2.568636,
+              "poster": true
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "video": [
+            {
+              "paused": false,
+              "muted": true,
+              "loop": true,
+              "ready": 4,
+              "error": null,
+              "time": 3.236593,
+              "poster": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Video crosses loop boundary",
+      "passed": true,
+      "detail": {
+        "time": 0.621733,
+        "paused": false
+      }
+    },
+    {
+      "name": "Reduced motion visible with no entrance",
+      "passed": true,
+      "detail": {
+        "animations": 0,
+        "hidden": 0
+      }
+    },
+    {
+      "name": "JavaScript disabled, static page renders",
+      "passed": true,
+      "detail": "Desktop and phone render without JS."
+    },
+    {
+      "name": "No script errors or failed requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,197 @@
+{
+  "title": "Real-Time Alerts",
+  "id": "real-time-alerts",
+  "status": "ready",
+  "build_command": "python3 build.py",
+  "checks": [
+    {
+      "name": "Desktop 1440x1000",
+      "passed": true,
+      "detail": {
+        "mode": "land",
+        "overflow": false,
+        "fonts": "loaded",
+        "animations": 0
+      }
+    },
+    {
+      "name": "Editable inputs, masked password, keyboard focus, button hover/press",
+      "passed": true,
+      "detail": "Inputs and static buttons work; focus/hover styles present."
+    },
+    {
+      "name": "Reference geometry 1464x949",
+      "passed": true,
+      "detail": {
+        "photoWidth": 836,
+        "cardWidth": 613,
+        "cardHeight": 922,
+        "cardX": 836.984375,
+        "cardY": 14
+      }
+    },
+    {
+      "name": "Resize and rotate without reload",
+      "passed": true,
+      "detail": [
+        {
+          "width": 1400,
+          "height": 850,
+          "mode": "land"
+        },
+        {
+          "width": 900,
+          "height": 700,
+          "mode": "land"
+        },
+        {
+          "width": 700,
+          "height": 600,
+          "mode": "land"
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "mode": "tabport"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "mode": "land"
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "mode": "phone"
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "mode": "tabport"
+        },
+        {
+          "width": 1464,
+          "height": 949,
+          "mode": "land"
+        }
+      ]
+    },
+    {
+      "name": "Phone flow, readable inputs, white headline, short-screen scroll",
+      "passed": true,
+      "detail": {
+        "mode": "phone",
+        "inputFont": "16px",
+        "headline": "rgb(255, 255, 255)",
+        "overflow": false
+      }
+    },
+    {
+      "name": "Video plays silently and loops in all modes",
+      "passed": true,
+      "detail": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "video": [
+            {
+              "paused": false,
+              "muted": true,
+              "loop": true,
+              "ready": 4,
+              "error": null,
+              "time": 0.640832,
+              "poster": true
+            }
+          ]
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "video": [
+            {
+              "paused": false,
+              "muted": true,
+              "loop": true,
+              "ready": 4,
+              "error": null,
+              "time": 2.568636,
+              "poster": true
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "video": [
+            {
+              "paused": false,
+              "muted": true,
+              "loop": true,
+              "ready": 4,
+              "error": null,
+              "time": 3.236593,
+              "poster": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Video crosses loop boundary",
+      "passed": true,
+      "detail": {
+        "time": 0.621733,
+        "paused": false
+      }
+    },
+    {
+      "name": "Reduced motion visible with no entrance",
+      "passed": true,
+      "detail": {
+        "animations": 0,
+        "hidden": 0
+      }
+    },
+    {
+      "name": "JavaScript disabled, static page renders",
+      "passed": true,
+      "detail": "Desktop and phone render without JS."
+    },
+    {
+      "name": "No script errors or failed requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "asset_issues": [
+    {
+      "asset": "Eloquia variable font",
+      "resolution": "Prompt-permitted Manrope variable 200–800 embedded as WOFF2; original weight-axis values preserved.",
+      "limitation": "Display glyphs and text widths differ from Eloquia."
+    },
+    {
+      "asset": "Original 1177×1336 poster photograph",
+      "resolution": "Isolated still extracted at 0.05 seconds from the original supplied falcon video, resized to 1177×1336 and embedded as WebP.",
+      "limitation": "Opening video frame approximates the separately unavailable original photograph."
+    }
+  ],
+  "notes": [
+    "Native single-file HTML with inline CSS, JS, SVG, fonts and poster; original specified video downloaded locally. No frameworks or runtime dependencies.",
+    "dist/index.html exists; relative assets support /motionsites-results/real-time-alerts/. Ready means ready for review, not deployed.",
+    "Required screenshots: screenshots/desktop.png (1440x1000), screenshots/mobile.png (390x844). Additional reference, tablet and small-mobile screenshots saved.",
+    "All 10 Chromium checks passed with zero script errors or failed requests. Detailed evidence in checks.json.",
+    "The hidden responsive video can be paused by Chromium; the displayed variant plays in every mode. Actual loop-boundary playback verified.",
+    "Negative padding is invalid CSS and ignored by the browser; original token retained. Negative tablet spacing implemented with a valid negative margin.",
+    "No physical iOS verification; phone input font size and video inline/autoplay/muted/loop attributes verified.",
+    "No agents, other sessions, pushes, deployment or external messages."
+  ],
+  "artifacts": {
+    "page": "dist/index.html",
+    "readme": "README.md",
+    "verification": "checks.json",
+    "desktop": "screenshots/desktop.png",
+    "mobile": "screenshots/mobile.png"
+  },
+  "video_sha256": "4a7ed90ac6969c9794b0d18c0fbe93b77538004f3b3816a2fdc827bc173e42ad"
+}

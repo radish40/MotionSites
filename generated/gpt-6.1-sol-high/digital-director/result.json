@@ -1,0 +1,40 @@
+{
+  "title": "Digital Director",
+  "id": "digital-director",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities at installation",
+    "base_path": "/motionsites-results/digital-director/",
+    "browser": "Chromium via playwright-core against actual dist build",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "overflow": "passed: no document overflow; footer fits including 16px bottom padding",
+    "fonts": "Inter and basis33 loaded in both viewports",
+    "video": "Exact requested URL; readyState 4; 1920x1080; muted autoplay advances in both viewports; desktop scale 1.2",
+    "interactions": "Desktop navigation and showreel hover/fullscreen; mobile menu opens and closes using X, Escape, and navigation links",
+    "script_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "evidence": "screenshots/browser-report.json",
+    "visual_review": "Desktop, mobile, and mobile menu screenshots reviewed"
+  },
+  "asset_issues": [
+    "No unavailable assets or substitutions. Video and both fonts loaded successfully.",
+    "Chromium reported video net::ERR_ABORTED requests during the run; playback readiness and advancing time were verified independently. Raw requests retained in browser-report.json."
+  ],
+  "notes": [
+    "Only Digital Director was read and implemented. No agents, other sessions, deployment, push, or messages.",
+    "Written prompt takes precedence over preview discrepancies. Reference was viewed only, with no asset extraction.",
+    "Service list line height is 1.45 on screens <=420px wide and <=860px tall to prevent footer clipping in the locked mobile viewport.",
+    "Navigation and call links retain prescribed # destinations. Showreel uses native fullscreen playback of the original video.",
+    "External fonts/video require network access. Screenshot video frames vary over time. Physical mobile browsers were not tested.",
+    "ready means ready for management review; not deployed."
+  ]
+}

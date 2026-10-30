@@ -1,0 +1,136 @@
+{
+  "url": "http://localhost:4173/motionsites-results/digital-director/",
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260725_114042_d2ed2a89-f2fa-449b-9609-da456344257b.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260725_114042_d2ed2a89-f2fa-449b-9609-da456344257b.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260725_114042_d2ed2a89-f2fa-449b-9609-da456344257b.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260725_114042_d2ed2a89-f2fa-449b-9609-da456344257b.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "checks": [
+    "Desktop navigation renders; showreel hover and video fullscreen work.",
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "title": "Adam Roberts - Design & Engineering",
+      "scroll": [
+        1440,
+        1000
+      ],
+      "video": {
+        "readyState": 4,
+        "time": 2.117538,
+        "paused": false,
+        "muted": true,
+        "width": 1920,
+        "height": 1080,
+        "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+      },
+      "fonts": [
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "basis33",
+          "status": "loaded"
+        }
+      ],
+      "hero": {
+        "x": 56,
+        "y": 664.09375,
+        "width": 652,
+        "height": 267.90625,
+        "top": 664.09375,
+        "right": 708,
+        "bottom": 932,
+        "left": 56
+      },
+      "footer": {
+        "x": 56,
+        "y": 952,
+        "width": 1328,
+        "height": 32,
+        "top": 952,
+        "right": 1384,
+        "bottom": 984,
+        "left": 56
+      },
+      "showreelHover": "rgba(255, 255, 255, 0.1)"
+    },
+    "Mobile menu opens; all six links render; link, Escape, and X close it.",
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "Adam Roberts - Design & Engineering",
+      "scroll": [
+        390,
+        844
+      ],
+      "video": {
+        "readyState": 4,
+        "time": 2.128697,
+        "paused": false,
+        "muted": true,
+        "width": 1920,
+        "height": 1080,
+        "transform": "none"
+      },
+      "fonts": [
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded"
+        },
+        {
+          "family": "basis33",
+          "status": "loaded"
+        }
+      ],
+      "hero": {
+        "x": 20,
+        "y": 515.8125,
+        "width": 350,
+        "height": 118.1875,
+        "top": 515.8125,
+        "right": 370,
+        "bottom": 634,
+        "left": 20
+      },
+      "footer": {
+        "x": 20,
+        "y": 772,
+        "width": 350,
+        "height": 56,
+        "top": 772,
+        "right": 370,
+        "bottom": 828,
+        "left": 20
+      }
+    }
+  ],
+  "passed": true
+}

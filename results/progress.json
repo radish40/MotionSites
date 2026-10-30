@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:30:13.438885+00:00",
+  "updated_utc": "2026-10-30T04:31:37.406899+00:00",
   "total": 380,
   "counts": {
-    "complete": 289,
+    "complete": 290,
     "running": 5,
-    "not_started": 86
+    "not_started": 85
   },
   "current_batch": {
     "from_number": 201,
@@ -2860,11 +2860,11 @@
       "id": "community-superdesign-exploded-view-assembly",
       "title": "\"Exploded View\" Assembly",
       "category": "Animations & Backgrounds",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b0a-6b42-7072-9c1f-e16fc9e388d9",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c1a0a78e8f4eb5263b0c01a1b20289d4a9eb3c07",
+      "group_message_id": 356,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-exploded-view-assembly/"
     },
     {
       "id": "community-superdesign-rolodex-text",
@@ -2931,7 +2931,7 @@
       "title": "Counter",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b11-602a-7cc1-a377-f1782af69c85",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2941,7 +2941,7 @@
       "title": "Modal Design · success-celebration (pastel) — legibility fixed",
       "category": "Onboarding",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b11-60d3-7713-97f8-f3b4e5e98ff8",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2951,7 +2951,7 @@
       "title": "Personal Showcase",
       "category": "Portfolio",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b11-61de-7a63-b8be-49776c0693d9",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2960,7 +2960,7 @@
       "id": "digital-director",
       "title": "Digital Director",
       "category": "Portfolio",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

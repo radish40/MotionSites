@@ -1,0 +1,181 @@
+{
+  "recorded_utc": "2026-10-30T03:49:26.441082+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 6,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:43:05.791061+00:00",
+      "remote_main": "e4e38f1fb7431d31c66d22ad52e804179466ea18",
+      "delivery": {
+        "id": "orbis-nft",
+        "title": "Orbis NFT",
+        "source_commit": "e4e38f1fb7431d31c66d22ad52e804179466ea18",
+        "thread_id": "01a18ae0-b05a-73d0-86c0-3ca8696f4324",
+        "group_message_id": 311,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:43:31.933291+00:00",
+      "remote_main": "aa61d82440ab6714d92ac61ae04acdef21633dba",
+      "delivery": {
+        "id": "orbit-web3",
+        "title": "Orbit Web3",
+        "source_commit": "98480ae58608689fd34425d3a9079ae61a6871d1",
+        "thread_id": "01a18ae2-1e96-7e71-906f-4fd9bfa2a90e",
+        "group_message_id": 312,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:44:48.645178+00:00",
+      "remote_main": "22ccef75cc37437c65dd5ff20e74ee9eb1086087",
+      "delivery": {
+        "id": "planet-orbit",
+        "title": "Planet Orbit",
+        "source_commit": "22ccef75cc37437c65dd5ff20e74ee9eb1086087",
+        "thread_id": "01a18ae3-6754-7ca2-b745-e8451dfbe44e",
+        "group_message_id": 313,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:46:33.537101+00:00",
+      "remote_main": "169e0a4bac45755fa5e03b66a8acddcf130c91b6",
+      "delivery": {
+        "id": "power-ai",
+        "title": "Power AI",
+        "source_commit": "169e0a4bac45755fa5e03b66a8acddcf130c91b6",
+        "thread_id": "01a18ae3-6855-7751-bbee-5f58a6a1f488",
+        "group_message_id": 314,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:48:09.888885+00:00",
+      "remote_main": "ceec8b7456ddac3afce83eadc9ea8243ac1e3f5a",
+      "delivery": {
+        "id": "railroad.ai",
+        "title": "Railroad.ai",
+        "source_commit": "ceec8b7456ddac3afce83eadc9ea8243ac1e3f5a",
+        "thread_id": "01a18ae3-68e6-7723-833c-2a2026e24d7f",
+        "group_message_id": 315,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:48:27.171166+00:00",
+      "remote_main": "b0545b6516786e40c7b31b968694c55dd2d37d17",
+      "delivery": {
+        "id": "sky-elite-private-jets",
+        "title": "SkyElite Private Jets",
+        "source_commit": "b0545b6516786e40c7b31b968694c55dd2d37d17",
+        "thread_id": "01a18ae6-d35f-7aa0-9f00-a1453c9d5728",
+        "group_message_id": 316,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

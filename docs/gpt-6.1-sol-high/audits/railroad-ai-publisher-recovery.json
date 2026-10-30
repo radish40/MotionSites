@@ -1,0 +1,53 @@
+{
+  "checked_utc": "2026-10-30T03:49:26.441082+00:00",
+  "issue": "The publisher rejected the valid catalog id railroad.ai before static publication.",
+  "fix": "Accept dot-separated nonempty alphanumeric-led segments, preserve the original catalog id and publication URL.",
+  "cli_acceptance": {
+    "accepted": [
+      "railroad.ai",
+      "orbit-web3",
+      "404",
+      "index"
+    ],
+    "rejected": [
+      "..",
+      ".hidden",
+      "a..b",
+      "a.",
+      "a/b",
+      "../railroad.ai",
+      "A",
+      "a\\b"
+    ],
+    "method": "Actual publish.py CLI with a nonexistent source: valid ids reach static-directory validation; malformed ids fail design-id validation. No artifacts published by the validation probes."
+  },
+  "delivery": {
+    "checked_utc": "2026-10-30T03:48:09.888885+00:00",
+    "remote_main": "ceec8b7456ddac3afce83eadc9ea8243ac1e3f5a",
+    "delivery": {
+      "id": "railroad.ai",
+      "title": "Railroad.ai",
+      "source_commit": "ceec8b7456ddac3afce83eadc9ea8243ac1e3f5a",
+      "thread_id": "01a18ae3-68e6-7723-833c-2a2026e24d7f",
+      "group_message_id": 315,
+      "checks": {
+        "exact_title": true,
+        "prompt_snapshot": true,
+        "source_is_on_remote_main": true,
+        "actual_model_settings": true,
+        "no_delegated_contexts": true,
+        "actual_group_message": true,
+        "desktop_mobile_browser_report": true,
+        "source_files_committed": true,
+        "committed_source_bytes": true,
+        "remote_index.html": true,
+        "committed_dist_html": true,
+        "remote_preview/desktop.png": true,
+        "committed_preview/desktop.png": true,
+        "remote_preview/mobile.png": true,
+        "committed_preview/mobile.png": true
+      },
+      "passed": true
+    }
+  }
+}

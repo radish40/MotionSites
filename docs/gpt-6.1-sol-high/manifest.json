@@ -8561,7 +8561,7 @@
       "thread_id": "01a18ae3-68e6-7723-833c-2a2026e24d7f",
       "output_path": "generated/gpt-6.1-sol-high/railroad.ai",
       "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
-      "notes": "Publisher now accepts original railroad.ai catalog id; normal delivery retry pending.",
+      "notes": "Original dotted catalog id published after publisher validation repair; source push, public screenshots and group receipt independently audited.",
       "process_id": 596435,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:38:41.566086+00:00",
@@ -8575,7 +8575,9 @@
         "issue": "Publisher rejected valid dotted catalog id",
         "fix": "Allow dot-separated nonempty alphanumeric-led segments; path traversal and hidden ids remain rejected",
         "previous_failures": 3,
-        "fixed_utc": "2026-10-30T03:46:56.912814+00:00"
+        "fixed_utc": "2026-10-30T03:46:56.912814+00:00",
+        "verified_utc": "2026-10-30T03:49:26.441082+00:00",
+        "audit": "docs/gpt-6.1-sol-high/audits/246-251-completed.json"
       },
       "source_commit": "ceec8b7456ddac3afce83eadc9ea8243ac1e3f5a",
       "url": "https://tool.luo-xd.com/motionsites-results/railroad.ai/",
@@ -11500,7 +11502,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:48:44.747925+00:00",
+  "updated_utc": "2026-10-30T03:49:26.491511+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

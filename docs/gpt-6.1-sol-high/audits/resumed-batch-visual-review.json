@@ -579,7 +579,43 @@
         "generated/gpt-6.1-sol-high/railroad.ai/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/railroad.ai/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "planet-orbit",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original Earth video, lime CTAs, readable heading and responsive marquee render at both sizes. APEX is the brand expressly required by its prompt; catalog and delivery title remain Planet Orbit.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/planet-orbit/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/planet-orbit/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "power-ai",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original purple video, large responsive Power AI heading and gradient accent render at both sizes. Worker tested video fades/restart, marquee and preview interactions; recreated missing logo documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/power-ai/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/power-ai/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "sky-elite-private-jets",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original jet video, two-line centered headline and navigation render at both sizes. Worker verified mobile menu and hover states; destinations and booking backend were not supplied.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/sky-elite-private-jets/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/sky-elite-private-jets/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:43:55.846310+00:00"
+  "updated_utc": "2026-10-30T03:49:26.441082+00:00"
 }

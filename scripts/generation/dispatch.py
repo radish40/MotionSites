@@ -15,7 +15,7 @@ import manage
 ROOT=manage.ROOT
 RUNTIME=ROOT/'.work/generation'
 MAX_WORKERS=5  # Five queue workers, one reserved repair slot, and the management conversation: at most seven.
-BATCH_STOP_NUMBER=200  # User requested this run stop after the first 200 designs; retain all 380 in the inventory.
+BATCH_STOP_NUMBER=380  # User resumed the remaining designs after the verified 200-item pause.
 OWNER_THREAD='01a185a9-9c17-7bf1-813d-c0d86c818e53'
 
 
@@ -175,7 +175,7 @@ def main():
             except Exception:traceback.print_exc()
             batch=[job for job in manage.load()['jobs'] if job['number']<=BATCH_STOP_NUMBER]
             if len(batch)==BATCH_STOP_NUMBER and all(job['status']=='complete' and job.get('group_message_id') for job in batch):
-                print(f'First {BATCH_STOP_NUMBER} deliveries finished; queue stopped for management verification and requested pause.',flush=True)
+                print(f'First {BATCH_STOP_NUMBER} deliveries finished; queue stopped for final management verification.',flush=True)
                 return
             time.sleep(45)
         print('Owner goal is no longer active; no additional jobs will be launched.',flush=True)

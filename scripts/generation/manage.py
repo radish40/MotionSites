@@ -123,6 +123,8 @@ def index():
         batch_done=sum(j['status']=='complete' for j in jobs if j['number']<=batch_limit)
         if batch.get('status')=='paused':
             doc+=f'<p>本轮已暂停：{batch_done} / {batch_limit} 项已交付并通过核验；剩余 {len(jobs)-batch_limit} 项尚未开始。</p>'
+        elif batch.get('after_verified_completion')=='complete':
+            doc+=f'<p>当前进度：{batch_done} / {batch_limit}；已从第 {batch.get("from_number",1)} 项继续，全部交付后进行最终核验。</p>'
         else:
             doc+=f'<p>本轮进度：{batch_done} / {batch_limit}；前 {batch_limit} 项完成后暂停，剩余项目保留。</p>'
     doc+=f'<div class="stats"><span>已完成 {counts["complete"]} / {len(jobs)}</span><span>生成中 {counts["running"]}</span><span>验收 / 发布中 {counts["ready"]+counts["validating"]+counts["publishing"]}</span><span>待修复 / 阻塞 {counts["needs_fix"]+counts["blocked"]}</span></div>'

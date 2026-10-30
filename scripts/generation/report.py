@@ -22,7 +22,10 @@ def main():
     batch_limit=manifest.get('current_batch',{}).get('through_number')
     if batch_limit:
         batch_done=sum(job['status']=='complete' for job in jobs if job['number']<=batch_limit)
-        text += f'本轮进度：{batch_done}/{batch_limit}；完成前 {batch_limit} 项后暂停，其余保留。\n'
+        if manifest['current_batch'].get('after_verified_completion')=='complete':
+            text += f'当前进度：{batch_done}/{batch_limit}；继续完成全部剩余项目，交付后进行最终核验。\n'
+        else:
+            text += f'本轮进度：{batch_done}/{batch_limit}；完成前 {batch_limit} 项后暂停，其余保留。\n'
     text += f"生成中：{counts['running']}；排队：{counts['queued']}；验收/发布中：{counts['ready'] + counts['validating'] + counts['publishing']}\n"
     text += f"待修复/阻塞：{counts['needs_fix'] + counts['blocked']}；未开始：{counts['not_started']}\n"
     if active:

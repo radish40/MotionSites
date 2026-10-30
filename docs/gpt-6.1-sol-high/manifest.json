@@ -10833,18 +10833,29 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-29T08:27:54.914494+00:00",
+  "updated_utc": "2026-10-30T02:37:24.448276+00:00",
   "current_batch": {
-    "through_number": 200,
-    "after_verified_completion": "pause",
-    "remaining_designs_after_batch": 180,
+    "from_number": 201,
+    "through_number": 380,
+    "after_verified_completion": "complete",
+    "remaining_designs_after_batch": 0,
     "requested_by_user": true,
-    "status": "paused",
-    "verified_utc": "2026-10-29T08:27:12.842867+00:00",
-    "paused_utc": "2026-10-29T08:27:30.161498+00:00",
-    "audit_path": "docs/gpt-6.1-sol-high/audits/200-completed.json",
-    "generation_service": "stopped_and_disabled",
-    "progress_timer": "stopped_and_disabled",
-    "final_group_message_id": 258
-  }
+    "status": "running",
+    "resumed_utc": "2026-10-30T02:37:24.448257+00:00"
+  },
+  "batch_history": [
+    {
+      "through_number": 200,
+      "after_verified_completion": "pause",
+      "remaining_designs_after_batch": 180,
+      "requested_by_user": true,
+      "status": "paused",
+      "verified_utc": "2026-10-29T08:27:12.842867+00:00",
+      "paused_utc": "2026-10-29T08:27:30.161498+00:00",
+      "audit_path": "docs/gpt-6.1-sol-high/audits/200-completed.json",
+      "generation_service": "stopped_and_disabled",
+      "progress_timer": "stopped_and_disabled",
+      "final_group_message_id": 258
+    }
+  ]
 }

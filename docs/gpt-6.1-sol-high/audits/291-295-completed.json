@@ -1,0 +1,152 @@
+{
+  "recorded_utc": "2026-10-30T04:38:29.884412+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 5,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:36:31.400623+00:00",
+      "remote_main": "54f805f2605c9b950b8f328b9f35d7f0fca8e343",
+      "delivery": {
+        "id": "community-superdesign-interactive-card-stack",
+        "title": "Interactive Card Stack",
+        "source_commit": "f4e0b60b8c919cd0b8185795d660903e95bd7cce",
+        "thread_id": "01a18b10-2dd1-7113-b987-072093733b75",
+        "group_message_id": 357,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:36:31.400623+00:00",
+      "remote_main": "54f805f2605c9b950b8f328b9f35d7f0fca8e343",
+      "delivery": {
+        "id": "community-superdesign-counter",
+        "title": "Counter",
+        "source_commit": "211aff35b537a2272cca43618b39df5a46e75693",
+        "thread_id": "01a18b11-602a-7cc1-a377-f1782af69c85",
+        "group_message_id": 358,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:36:31.400623+00:00",
+      "remote_main": "54f805f2605c9b950b8f328b9f35d7f0fca8e343",
+      "delivery": {
+        "id": "community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65",
+        "title": "Modal Design · success-celebration (pastel) — legibility fixed",
+        "source_commit": "e062df61cdffa2477405143b6e7d5809eb924911",
+        "thread_id": "01a18b11-60d3-7713-97f8-f3b4e5e98ff8",
+        "group_message_id": 359,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:36:31.400623+00:00",
+      "remote_main": "54f805f2605c9b950b8f328b9f35d7f0fca8e343",
+      "delivery": {
+        "id": "personal-showcase",
+        "title": "Personal Showcase",
+        "source_commit": "4444f17e8cf44b6a1175e786df0ab88c1af71316",
+        "thread_id": "01a18b11-61de-7a63-b8be-49776c0693d9",
+        "group_message_id": 360,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:36:31.400623+00:00",
+      "remote_main": "54f805f2605c9b950b8f328b9f35d7f0fca8e343",
+      "delivery": {
+        "id": "digital-director",
+        "title": "Digital Director",
+        "source_commit": "a07a0f01f776cb233373dbb682aab559ebbf98d8",
+        "thread_id": "01a18b13-7057-75a1-a9b9-79dbc57f1850",
+        "group_message_id": 361,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

@@ -10163,19 +10163,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b15-e02e-7f83-9caf-8123c42cc8b7",
       "output_path": "generated/gpt-6.1-sol-high/skybridge-404",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 817912,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:33:49.017298+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f945eb9f44457df6dc50e5bf0de69c74bbcf0909",
+      "url": "https://tool.luo-xd.com/motionsites-results/skybridge-404/",
+      "completed_utc": "2026-10-30T04:38:29.559162+00:00",
+      "group_message_id": 363
     },
     {
       "number": 298,
@@ -10283,11 +10287,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/talent-collective",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 835859,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:37:46.304277+00:00",
+      "worker_state": "running"
     },
     {
       "number": 302,
@@ -12029,7 +12037,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:36:46.079746+00:00",
+  "updated_utc": "2026-10-30T04:38:29.793484+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

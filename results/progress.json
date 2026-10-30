@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:36:46.079746+00:00",
+  "updated_utc": "2026-10-30T04:38:29.793484+00:00",
   "total": 380,
   "counts": {
-    "complete": 295,
+    "complete": 296,
     "running": 5,
-    "not_started": 80
+    "not_started": 79
   },
   "current_batch": {
     "from_number": 201,
@@ -2980,11 +2980,11 @@
       "id": "skybridge-404",
       "title": "Skybridge 404",
       "category": "404",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b15-e02e-7f83-9caf-8123c42cc8b7",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f945eb9f44457df6dc50e5bf0de69c74bbcf0909",
+      "group_message_id": 363,
+      "url": "https://tool.luo-xd.com/motionsites-results/skybridge-404/"
     },
     {
       "id": "synth-mode",
@@ -3020,7 +3020,7 @@
       "id": "talent-collective",
       "title": "Talent Collective",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1135,7 +1135,78 @@
         "generated/gpt-6.1-sol-high/community-superdesign-glow-cursor-button/screenshots/mobile.png"
       ],
       "reviewed_utc": "2026-10-30T04:32:55.833259+00:00"
+    },
+    {
+      "id": "community-superdesign-interactive-card-stack",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile show all four original locally bundled house photographs in a compact rotated card stack. Browser report verifies full click cycle, keyboard Enter/Space, reset, short-drag spring back, threshold drag exactly once, touchscreen tap/drag, dark mode and reduced motion. Autoplay remains disabled as in the supplied demo.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-interactive-card-stack/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-interactive-card-stack/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:38:29.884412+00:00"
+    },
+    {
+      "id": "community-superdesign-counter",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile show the centered mechanical rolling counter with readable gradient-edged digits, title, reset and explanatory text. Browser verifies initial value, timed 1.1 increments, real spring transforms, integer/decimal place detection and pointer/keyboard reset without overflow.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-counter/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-counter/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:38:29.884412+00:00"
+    },
+    {
+      "id": "community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile first screens and additional public full-page captures actually reviewed: pastel confetti hero, success badge/dialog, three pattern cards, stacked upgrade preview, dark CTA and footer reflow cleanly. Browser verifies dismiss/replay/share clipboard/section navigation, local labeled purchase/sign-in previews, focus trap and Escape restoration. Deepened text and CTA colors meet the recorded contrast checks; no commerce backend claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:38:29.884412+00:00",
+      "additional_review_captures": [
+        ".work/generation/modal-293-desktop-full.png",
+        ".work/generation/modal-293-mobile-full.png"
+      ]
+    },
+    {
+      "id": "personal-showcase",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile and open mobile drawer actually viewed. Original background and cutout portrait layer over the moving Marcus — Bennet marquee, cream header/footer stay visible; drawer navigation and social columns fit. Exact external font loaded and exact original images have unmodified local error fallbacks. Placeholder href=# links follow the explicit prompt.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/personal-showcase/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/personal-showcase/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/personal-showcase/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:38:29.884412+00:00"
+    },
+    {
+      "id": "digital-director",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile and open mobile menu actually viewed. Original video portrait plays behind white Inter and basis33 pixel typography, services and showreel; mobile footer remains inside viewport. Browser verifies original video decoding and clock advance, desktop 1.2 scale, fullscreen showreel and mobile close/Escape/link behavior. Video ERR_ABORTED request entries are disclosed separately from verified successful playback; supplied placeholder # links retained.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/digital-director/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/digital-director/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/digital-director/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:38:29.884412+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:32:55.833259+00:00"
+  "updated_utc": "2026-10-30T04:38:29.884412+00:00"
 }

@@ -1,0 +1,89 @@
+{
+  "title": "RIVR",
+  "id": "rivr-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities reported during npm install",
+    "base_path": "/motionsites-results/rivr-hero/",
+    "browser_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'node scripts/browser-check.cjs'",
+    "browser_results": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "errors": [],
+        "failedRequests": [],
+        "media": {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260428_193507_4286c423-2fd9-4efd-92bd-91a939453fc1.mp4",
+          "width": 3828,
+          "height": 2164,
+          "currentTime": 2.766195,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        },
+        "autoplayAdvanced": true,
+        "hoverScale": 1.0200001964173475,
+        "interactions": "Specified hover and tap surfaces checked; no destinations supplied by prompt.",
+        "layout": {
+          "viewportWidth": 1440,
+          "viewportHeight": 1000,
+          "scrollWidth": 1440,
+          "scrollHeight": 1000,
+          "fontLoaded": true,
+          "mainCount": 1,
+          "heading": "Fluid Asset Streams",
+          "visibleOverflow": []
+        }
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "errors": [],
+        "failedRequests": [],
+        "media": {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260428_193507_4286c423-2fd9-4efd-92bd-91a939453fc1.mp4",
+          "width": 3828,
+          "height": 2164,
+          "currentTime": 2.398022,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true
+        },
+        "autoplayAdvanced": true,
+        "hoverScale": 1.0200000565601552,
+        "interactions": "Specified hover and tap surfaces checked; no destinations supplied by prompt.",
+        "layout": {
+          "viewportWidth": 390,
+          "viewportHeight": 844,
+          "scrollWidth": 390,
+          "scrollHeight": 844,
+          "fontLoaded": true,
+          "mainCount": 1,
+          "heading": "Fluid Asset Streams",
+          "visibleOverflow": []
+        }
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots reviewed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original required video and Helvetica font URLs loaded successfully; no substitute assets.",
+    "Optional original RIVR reference WebP was absent. Layout follows PROMPT.md; no comparison with an unavailable reference was possible.",
+    "Screenshots show the actual video paused at 2 seconds for reproducibility. Production video autoplays muted, loops, and plays inline.",
+    "No destinations or dropdown contents were specified. Controls implement visual hover/tap interactions without invented flows.",
+    "External font and video require their original hosts to remain available.",
+    "Only this project was implemented. No agents, other sessions, push, deployment, or messages were used.",
+    "Ready means available for review, not deployed."
+  ]
+}

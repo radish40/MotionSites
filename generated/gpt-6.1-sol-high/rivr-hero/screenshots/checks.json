@@ -1,0 +1,62 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "errors": [],
+    "failedRequests": [],
+    "media": {
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260428_193507_4286c423-2fd9-4efd-92bd-91a939453fc1.mp4",
+      "width": 3828,
+      "height": 2164,
+      "currentTime": 2.766195,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    },
+    "autoplayAdvanced": true,
+    "hoverScale": 1.0200001964173475,
+    "interactions": "Specified hover and tap surfaces checked; no destinations supplied by prompt.",
+    "layout": {
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "fontLoaded": true,
+      "mainCount": 1,
+      "heading": "Fluid Asset Streams",
+      "visibleOverflow": []
+    }
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "failedRequests": [],
+    "media": {
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260428_193507_4286c423-2fd9-4efd-92bd-91a939453fc1.mp4",
+      "width": 3828,
+      "height": 2164,
+      "currentTime": 2.398022,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    },
+    "autoplayAdvanced": true,
+    "hoverScale": 1.0200000565601552,
+    "interactions": "Specified hover and tap surfaces checked; no destinations supplied by prompt.",
+    "layout": {
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "fontLoaded": true,
+      "mainCount": 1,
+      "heading": "Fluid Asset Streams",
+      "visibleOverflow": []
+    }
+  }
+]

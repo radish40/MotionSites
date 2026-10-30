@@ -1,0 +1,182 @@
+{
+  "recorded_utc": "2026-10-30T03:33:44.809092+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 6,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:26:19.703557+00:00",
+      "remote_main": "81276970110d2365526e62cbd20c8ceb305b0417",
+      "delivery": {
+        "id": "bloom-ai",
+        "title": "Bloom AI",
+        "source_commit": "f0e166bd633d63fb1fbfb30d389503a020038092",
+        "thread_id": "01a18ad0-c05a-7a91-8887-bdcd611573e2",
+        "group_message_id": 297,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:27:57.359472+00:00",
+      "remote_main": "b52895578cffb994a4320beb54b8311815e95774",
+      "delivery": {
+        "id": "club-x-investors",
+        "title": "ClubX Investors",
+        "source_commit": "b52895578cffb994a4320beb54b8311815e95774",
+        "thread_id": "01a18ad3-2061-7683-8161-e39bcfceaa6c",
+        "group_message_id": 298,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:30:24.150550+00:00",
+      "remote_main": "5bdc0e02a5e2c8c16ce84a9cadca522b526560d1",
+      "delivery": {
+        "id": "design-pro-academy",
+        "title": "DesignPro Academy",
+        "source_commit": "5bdc0e02a5e2c8c16ce84a9cadca522b526560d1",
+        "thread_id": "01a18ad4-6e3c-77a2-a248-b0f636681d8c",
+        "group_message_id": 299,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:30:51.163734+00:00",
+      "remote_main": "a40dd0cc15440e4260cfff6aac85b2d5943029b1",
+      "delivery": {
+        "id": "evr-ventures",
+        "title": "EVR Ventures",
+        "source_commit": "fcefa16c2108fb121fb6109ca6cc5290d817a936",
+        "thread_id": "01a18ad5-be8b-73f2-af94-ebf8daff0fc3",
+        "group_message_id": 300,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:32:07.440519+00:00",
+      "remote_main": "38c4729bbca9dfd4948a17508c14e3038318454e",
+      "delivery": {
+        "id": "finlytic-ai-agent",
+        "title": "Finlytic AI Agent",
+        "source_commit": "38c4729bbca9dfd4948a17508c14e3038318454e",
+        "thread_id": "01a18ad5-bf19-71e2-b3b0-a8870f2e9616",
+        "group_message_id": 301,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:33:03.772446+00:00",
+      "remote_main": "07619fd517d3e1b4a182d6244938a65085e3a38a",
+      "delivery": {
+        "id": "grow-ai-talent-platform",
+        "title": "Grow AI Talent Platform",
+        "source_commit": "90f78c1a8c99d2521a8d747b9de6959dddbd236a",
+        "thread_id": "01a18ad7-7240-7e33-9537-b908eb63feeb",
+        "group_message_id": 302,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

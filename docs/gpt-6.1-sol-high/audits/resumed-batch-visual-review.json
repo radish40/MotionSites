@@ -447,7 +447,19 @@
         "generated/gpt-6.1-sol-high/finlytic-ai-agent/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/finlytic-ai-agent/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "grow-ai-talent-platform",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Large blue Grow heading, original supplied blue video and partner strip render at both sizes. Worker verified marquee movement, fade-in/fade-out and video restart. Buttons have the prompt-specified styling and focus states, with no destinations supplied.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/grow-ai-talent-platform/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/grow-ai-talent-platform/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:32:39.879447+00:00"
+  "updated_utc": "2026-10-30T03:33:44.809092+00:00"
 }

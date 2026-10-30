@@ -1,0 +1,31 @@
+{
+  "title": "RIVR DeFi",
+  "id": "rivr-defi-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "public_base": "/motionsites-results/rivr-defi-landing/",
+    "desktop": "1440x1000 Chromium: passed",
+    "mobile": "390x844 Chromium: passed",
+    "videos": "both exact original CloudFront assets decoded and playing",
+    "font": "original Helvetica Regular WOFF2 loaded",
+    "interactions": "demo, documentation, staking, audits, cross-chain, launch, read docs, Discord, dialog dismissal, back to top",
+    "horizontal_overflow": false,
+    "script_errors": 0,
+    "console_errors": 0,
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    "Optional original preview WebP is absent; reference-image comparison unavailable.",
+    "Initial font request returned 403; recovered original WOFF2/WOFF/TTF with browser-style headers and self-hosted them."
+  ],
+  "notes": [
+    "React, Vite, Tailwind CSS v4, motion/react, and Lucide React implemented.",
+    "Exact CloudFront URLs remain primary sources; original local MP4 copies provide error fallbacks.",
+    "Unspecified live app, booking, community, documentation and audit destinations use honest preview information dialogs.",
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "All source, build output, and evidence are contained within this project."
+  ]
+}

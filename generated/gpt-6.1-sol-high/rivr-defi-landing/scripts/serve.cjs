@@ -1,0 +1,3 @@
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const base='/motionsites-results/rivr-defi-landing/';
+http.createServer((req,res)=>{const clean=decodeURIComponent(req.url.split('?')[0]);const relative=clean.startsWith(base)?clean.slice(base.length):clean.slice(1);const target=path.join('/work/dist',relative||'index.html');if(!target.startsWith('/work/dist/')){res.writeHead(403);res.end();return}fs.readFile(target,(e,data)=>{if(e){res.writeHead(404);res.end('Not found');return}res.setHeader('Content-Type',({'html':'text/html','js':'application/javascript','css':'text/css','mp4':'video/mp4','woff2':'font/woff2','svg':'image/svg+xml'})[path.extname(target).slice(1)]||'application/octet-stream');res.end(data)})}).listen(4173,'0.0.0.0');

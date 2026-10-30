@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-30T03:44:41.584084+00:00",
+  "updated_utc": "2026-10-30T03:46:27.000797+00:00",
   "total": 380,
   "counts": {
-    "complete": 248,
-    "running": 5,
+    "complete": 249,
     "validating": 1,
-    "not_started": 126
+    "running": 5,
+    "not_started": 125
   },
   "current_batch": {
     "from_number": 201,
@@ -2501,11 +2501,11 @@
       "id": "power-ai",
       "title": "Power AI",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae3-6855-7751-bbee-5f58a6a1f488",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "169e0a4bac45755fa5e03b66a8acddcf130c91b6",
+      "group_message_id": 314,
+      "url": "https://tool.luo-xd.com/motionsites-results/power-ai/"
     },
     {
       "id": "railroad.ai",
@@ -2552,7 +2552,7 @@
       "title": "Taskora SaaS Hero",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ae8-7826-7423-a6e4-e89e9429efc0",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2561,7 +2561,7 @@
       "id": "terra-geo-map",
       "title": "Terra Geo Map",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

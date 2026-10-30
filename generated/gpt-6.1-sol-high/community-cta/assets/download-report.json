@@ -1,0 +1,84 @@
+[
+  {
+    "file": "background.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_101827_abebfeec-f243-466b-b494-7f6814c0fbbf.mp4",
+    "recovered_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_101827_abebfeec-f243-466b-b494-7f6814c0fbbf.mp4",
+    "bytes": 10562680,
+    "attempts": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_101827_abebfeec-f243-466b-b494-7f6814c0fbbf.mp4",
+        "exit_code": 0,
+        "error": ""
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "file": "avatar-1.jpeg",
+    "url": "https://media.cleanshot.cloud/media/21620/CG4uIqBDEVKcxvtOnH2si7r1u5ne9QKdmAAj5Ym5.jpeg?Expires=1777825539&Signature=OF0EIwcA6IsXNVbGzc9-3KdoOBpMbtOrzarsjwKbOCM7bpPmnKhA18dnDGmy2sF0g7y2mcwmptgBLWmHJHESlMuQxzUqjuc2kqF75vztQIMdR1DYroQ53P~DB8tGIjNyp4-Wgc5bigDyODIrQMeJfzTlhaPjHIkoZNWZsKtJahOHMh6znpuNRcx-oOUvi1JsHe7ObRI27rz-~qDod8w3XsyzLvsSxdf6dlNdJ9Xo650r1tHtwMyh8QXBu037lYRKYD1qSB9-sA6J0a~Xq7ZxhVKady-BbhWk6sEY0XZO4UqAp1IWuPQESPWyAXJ3PmD5gep0mc7igPVcw5EqqvSBaA__&Key-Pair-Id=K269JMAT9ZF4GZ",
+    "attempts": [
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/CG4uIqBDEVKcxvtOnH2si7r1u5ne9QKdmAAj5Ym5.jpeg?Expires=1777825539&Signature=OF0EIwcA6IsXNVbGzc9-3KdoOBpMbtOrzarsjwKbOCM7bpPmnKhA18dnDGmy2sF0g7y2mcwmptgBLWmHJHESlMuQxzUqjuc2kqF75vztQIMdR1DYroQ53P~DB8tGIjNyp4-Wgc5bigDyODIrQMeJfzTlhaPjHIkoZNWZsKtJahOHMh6znpuNRcx-oOUvi1JsHe7ObRI27rz-~qDod8w3XsyzLvsSxdf6dlNdJ9Xo650r1tHtwMyh8QXBu037lYRKYD1qSB9-sA6J0a~Xq7ZxhVKady-BbhWk6sEY0XZO4UqAp1IWuPQESPWyAXJ3PmD5gep0mc7igPVcw5EqqvSBaA__&Key-Pair-Id=K269JMAT9ZF4GZ",
+        "exit_code": 22,
+        "error": "curl: (22) The requested URL returned error: 403\n"
+      },
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/CG4uIqBDEVKcxvtOnH2si7r1u5ne9QKdmAAj5Ym5.jpeg",
+        "exit_code": 22,
+        "error": "curl: (22) The requested URL returned error: 403\n"
+      }
+    ],
+    "status": "failed"
+  },
+  {
+    "file": "avatar-2.jpeg",
+    "url": "https://media.cleanshot.cloud/media/21620/dsPsOuiJtbftO4aFjajygweQMGFKZOJk4ac3ujD1.jpeg?Expires=1777825533&Signature=s~QBv9pAVu7NEuyEuJP3u875TwxED6c1MCZFGrhEyU8Puj7Yt2I3V0DxTNUy0eOSu26RSV5yzrkfl~O7d5zk32X7SqsNesIxA6urpBUrSaU79LxwsQf0TLAeq3-1nSHUSC96Q0OnHAZLpBZ0qbZcKQ8CQCiC9vjcBm~RkDy1mCLlK8SfVsqRMch0yVfYAZcNovalP9jBQ2kesLFu68h~eSbrUzWHhni7t4WQI3V3qNVEZCgzProoMdG~zwq1gBew1KFOrz2MS765pqym0hlIIwPiKQv6BeIYYHpdYXdWpl-ycjhsbW8GqcJkAeDkCmuy~raeqHmVzaNwzDvFZrb2yw__&Key-Pair-Id=K269JMAT9ZF4GZ",
+    "attempts": [
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/dsPsOuiJtbftO4aFjajygweQMGFKZOJk4ac3ujD1.jpeg?Expires=1777825533&Signature=s~QBv9pAVu7NEuyEuJP3u875TwxED6c1MCZFGrhEyU8Puj7Yt2I3V0DxTNUy0eOSu26RSV5yzrkfl~O7d5zk32X7SqsNesIxA6urpBUrSaU79LxwsQf0TLAeq3-1nSHUSC96Q0OnHAZLpBZ0qbZcKQ8CQCiC9vjcBm~RkDy1mCLlK8SfVsqRMch0yVfYAZcNovalP9jBQ2kesLFu68h~eSbrUzWHhni7t4WQI3V3qNVEZCgzProoMdG~zwq1gBew1KFOrz2MS765pqym0hlIIwPiKQv6BeIYYHpdYXdWpl-ycjhsbW8GqcJkAeDkCmuy~raeqHmVzaNwzDvFZrb2yw__&Key-Pair-Id=K269JMAT9ZF4GZ",
+        "exit_code": 22,
+        "error": "curl: (22) The requested URL returned error: 403\n"
+      },
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/dsPsOuiJtbftO4aFjajygweQMGFKZOJk4ac3ujD1.jpeg",
+        "exit_code": 22,
+        "error": "curl: (22) The requested URL returned error: 403\n"
+      }
+    ],
+    "status": "failed"
+  },
+  {
+    "file": "avatar-3.jpeg",
+    "url": "https://media.cleanshot.cloud/media/21620/tvzgP1YqhKu4Rj3N1FmqAmZVgNs6jl9gzgmpmUHk.jpeg?Expires=1777825526&Signature=m6W6cOzHlaMAfw4gXnU9Vpvxsko-nOaqqsPwsUNgPbeSjLuKTUaeIsTnbqcA0PZjtr-EX0iI9y4OhuF6p2sFG93diwprvjGKOhlErVlnx-gCoQGk73PKcrlKjelXp4QOg56rbRL79VAVEVvZ8klyh--cH9uZNlo4Z53qP272dSXYQfj3YGWTevKEnwr3p5~sjUWW4-BBSJ7l-~Z5SA~n7W8G-FKm~LVNUqdz633IwnCbwaF7CJtvhlycOjnsJXZdYl0ZesQTRn~yYrblzLL5sAnWEU0NDPeuPwnIdE7z3SDL7xm1SBXetkF~P9or-XFMEsVePC~idOeAYwG2zSxoew__&Key-Pair-Id=K269JMAT9ZF4GZ",
+    "attempts": [
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/tvzgP1YqhKu4Rj3N1FmqAmZVgNs6jl9gzgmpmUHk.jpeg?Expires=1777825526&Signature=m6W6cOzHlaMAfw4gXnU9Vpvxsko-nOaqqsPwsUNgPbeSjLuKTUaeIsTnbqcA0PZjtr-EX0iI9y4OhuF6p2sFG93diwprvjGKOhlErVlnx-gCoQGk73PKcrlKjelXp4QOg56rbRL79VAVEVvZ8klyh--cH9uZNlo4Z53qP272dSXYQfj3YGWTevKEnwr3p5~sjUWW4-BBSJ7l-~Z5SA~n7W8G-FKm~LVNUqdz633IwnCbwaF7CJtvhlycOjnsJXZdYl0ZesQTRn~yYrblzLL5sAnWEU0NDPeuPwnIdE7z3SDL7xm1SBXetkF~P9or-XFMEsVePC~idOeAYwG2zSxoew__&Key-Pair-Id=K269JMAT9ZF4GZ",
+        "exit_code": 22,
+        "error": "curl: (22) The requested URL returned error: 403\n"
+      },
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/tvzgP1YqhKu4Rj3N1FmqAmZVgNs6jl9gzgmpmUHk.jpeg",
+        "exit_code": 22,
+        "error": "curl: (22) The requested URL returned error: 403\n"
+      }
+    ],
+    "status": "failed"
+  },
+  {
+    "file": "avatar-4.jpeg",
+    "url": "https://media.cleanshot.cloud/media/21620/xuWsFI56rqEUeYTmLVTHCoq224TH90PxcBKrsp4N.jpeg?Expires=1777825521&Signature=lLNMvpDUre8-UAsh1mRdGGLOnBaEGY4hcmQjpbCMkwTHK48cfU5OW5RVkmlcJffulFiUhEfB7qkPSFmIJ7vUcg9nU5qa8iHb6~RGpCHSqTbqK6c2LWy3unWA4e~UY3E9Q4tEQ7eewEbIlZscERJK7XtsoPgb9mde5TlLzjp90bTXbJwwSU5dXo6dhrvml5PMmJa8BDUcVIV2a8BCzkw8OzDBQUwWMhammdmGLBMNpRTJbnaNYM4pXgrcABcJ0DMBLkUjCUTtftKNmYM4O32SlRWbZvXY73H2qRUfL0wBwxM0c35gf372hh1tdkoEoixnneCW5TBs79wyS7xV3dF61Q__&Key-Pair-Id=K269JMAT9ZF4GZ",
+    "attempts": [
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/xuWsFI56rqEUeYTmLVTHCoq224TH90PxcBKrsp4N.jpeg?Expires=1777825521&Signature=lLNMvpDUre8-UAsh1mRdGGLOnBaEGY4hcmQjpbCMkwTHK48cfU5OW5RVkmlcJffulFiUhEfB7qkPSFmIJ7vUcg9nU5qa8iHb6~RGpCHSqTbqK6c2LWy3unWA4e~UY3E9Q4tEQ7eewEbIlZscERJK7XtsoPgb9mde5TlLzjp90bTXbJwwSU5dXo6dhrvml5PMmJa8BDUcVIV2a8BCzkw8OzDBQUwWMhammdmGLBMNpRTJbnaNYM4pXgrcABcJ0DMBLkUjCUTtftKNmYM4O32SlRWbZvXY73H2qRUfL0wBwxM0c35gf372hh1tdkoEoixnneCW5TBs79wyS7xV3dF61Q__&Key-Pair-Id=K269JMAT9ZF4GZ",
+        "exit_code": 22,
+        "error": "curl: (22) The requested URL returned error: 403\n"
+      },
+      {
+        "url": "https://media.cleanshot.cloud/media/21620/xuWsFI56rqEUeYTmLVTHCoq224TH90PxcBKrsp4N.jpeg",
+        "exit_code": 22,
+        "error": "curl: (22) The requested URL returned error: 403\n"
+      }
+    ],
+    "status": "failed"
+  }
+]

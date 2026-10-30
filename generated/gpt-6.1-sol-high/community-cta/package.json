@@ -1,0 +1,7 @@
+{
+  "name": "community-cta",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-file HTML community CTA section",
+  "scripts": { "build": "node scripts/build.mjs" }
+}

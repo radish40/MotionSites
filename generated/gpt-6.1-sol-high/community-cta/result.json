@@ -1,0 +1,85 @@
+{
+  "title": "Community CTA",
+  "id": "community-cta",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --ignore-scripts && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists",
+    "browser": "passed; Chromium at required URL prefix",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "horizontal_overflow": false,
+    "script_errors": 0,
+    "console_errors": 0,
+    "video": "original MP4 decoded; autoplay advances; muted, loop, playsinline verified",
+    "interactions": "email focus and validity, keyboard tab, button hover and active reset passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_inspection": "Refreshed desktop and mobile screenshots inspected; all four portrait circles visibly populated.",
+    "report": "screenshots/browser-checks.json",
+    "network_failures": 0,
+    "http_errors": 0,
+    "external_runtime_requests": 0,
+    "portraits": "Four distinct cached Unsplash JPEGs decode and are visible as 32px circles on desktop and 28px circles on mobile."
+  },
+  "asset_issues": [
+    {
+      "assets": [
+        "av1",
+        "av2",
+        "av3",
+        "av4"
+      ],
+      "issue": "Original signed CleanShot URLs and unsigned retries returned HTTP 403; optional reference preview absent. Original portrait fidelity remains unavailable.",
+      "resolution": "Per management authorization, four distinct locally cached Unsplash stock photographs serve as approximate decorative portraits. Original URLs are preserved only in provenance metadata and are never requested by the default preview.",
+      "classification": "Approximate decorative stock portraits, not original CleanShot assets or verified community members.",
+      "evidence": [
+        "assets/download-report.json",
+        "assets/portrait-provenance.json"
+      ],
+      "replacements": [
+        {
+          "selector": ".av1",
+          "replacement_source": "Unsplash",
+          "replacement_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=128&h=128&fit=crop&crop=faces&fm=jpg&q=85",
+          "local_file": "assets/avatar-1.jpeg",
+          "sha256": "96b32f32d623cc902483990a23d194683ecb530ab00f51810971dd961bcf09a4"
+        },
+        {
+          "selector": ".av2",
+          "replacement_source": "Unsplash",
+          "replacement_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=128&h=128&fit=crop&crop=faces&fm=jpg&q=85",
+          "local_file": "assets/avatar-2.jpeg",
+          "sha256": "c635366f613d66463a6b53862f1e3eb9f993fc1f2d25f106a86902416d5d5207"
+        },
+        {
+          "selector": ".av3",
+          "replacement_source": "Unsplash",
+          "replacement_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=128&h=128&fit=crop&crop=faces&fm=jpg&q=85",
+          "local_file": "assets/avatar-3.jpeg",
+          "sha256": "c83528aee59cfb464aeb71ee21fae6781710fa57c6cd7bf3fc7ae98383d171b0"
+        },
+        {
+          "selector": ".av4",
+          "replacement_source": "Unsplash",
+          "replacement_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=128&h=128&fit=crop&crop=faces&fm=jpg&q=85",
+          "local_file": "assets/avatar-4.jpeg",
+          "sha256": "7c0966ed98e317b223c306cc50e9d190d7b78e10e62bf16c048479c13ad6ce33"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Ready means usable preview ready for management acceptance, not deployed or exact original portrait fidelity.",
+    "Original video, DM Sans weights, layout, supplied copy, single HTML inline CSS, and requested interactions preserved.",
+    "All runtime resources are cached locally; no external requests in browser validation.",
+    "The supplied 5,000+ happy members copy is design text, not a verified membership claim; stock subjects are decorative only.",
+    "Original exact portrait URLs retained in assets/portrait-provenance.json and historical assets/download-report.json.",
+    "Button remains visual-only; no subscription backend, sending, or success state added.",
+    "No deployment, push, external messages, additional sessions, or sub-agents."
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "selector": ".av1",
+    "classification": "Approximate decorative stock portrait; not the original CleanShot asset and not a verified community member.",
+    "original_url": "https://media.cleanshot.cloud/media/21620/CG4uIqBDEVKcxvtOnH2si7r1u5ne9QKdmAAj5Ym5.jpeg?Expires=1777825539&Signature=OF0EIwcA6IsXNVbGzc9-3KdoOBpMbtOrzarsjwKbOCM7bpPmnKhA18dnDGmy2sF0g7y2mcwmptgBLWmHJHESlMuQxzUqjuc2kqF75vztQIMdR1DYroQ53P~DB8tGIjNyp4-Wgc5bigDyODIrQMeJfzTlhaPjHIkoZNWZsKtJahOHMh6znpuNRcx-oOUvi1JsHe7ObRI27rz-~qDod8w3XsyzLvsSxdf6dlNdJ9Xo650r1tHtwMyh8QXBu037lYRKYD1qSB9-sA6J0a~Xq7ZxhVKady-BbhWk6sEY0XZO4UqAp1IWuPQESPWyAXJ3PmD5gep0mc7igPVcw5EqqvSBaA__&Key-Pair-Id=K269JMAT9ZF4GZ",
+    "original_status": "HTTP 403 on signed and unsigned URLs; historical attempts in download-report.json; not requested by preview.",
+    "replacement_source": "Unsplash",
+    "replacement_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=128&h=128&fit=crop&crop=faces&fm=jpg&q=85",
+    "local_file": "assets/avatar-1.jpeg",
+    "cached_at": "2026-10-30T06:35:44.119297+00:00",
+    "bytes": 5997,
+    "sha256": "96b32f32d623cc902483990a23d194683ecb530ab00f51810971dd961bcf09a4"
+  },
+  {
+    "selector": ".av2",
+    "classification": "Approximate decorative stock portrait; not the original CleanShot asset and not a verified community member.",
+    "original_url": "https://media.cleanshot.cloud/media/21620/dsPsOuiJtbftO4aFjajygweQMGFKZOJk4ac3ujD1.jpeg?Expires=1777825533&Signature=s~QBv9pAVu7NEuyEuJP3u875TwxED6c1MCZFGrhEyU8Puj7Yt2I3V0DxTNUy0eOSu26RSV5yzrkfl~O7d5zk32X7SqsNesIxA6urpBUrSaU79LxwsQf0TLAeq3-1nSHUSC96Q0OnHAZLpBZ0qbZcKQ8CQCiC9vjcBm~RkDy1mCLlK8SfVsqRMch0yVfYAZcNovalP9jBQ2kesLFu68h~eSbrUzWHhni7t4WQI3V3qNVEZCgzProoMdG~zwq1gBew1KFOrz2MS765pqym0hlIIwPiKQv6BeIYYHpdYXdWpl-ycjhsbW8GqcJkAeDkCmuy~raeqHmVzaNwzDvFZrb2yw__&Key-Pair-Id=K269JMAT9ZF4GZ",
+    "original_status": "HTTP 403 on signed and unsigned URLs; historical attempts in download-report.json; not requested by preview.",
+    "replacement_source": "Unsplash",
+    "replacement_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=128&h=128&fit=crop&crop=faces&fm=jpg&q=85",
+    "local_file": "assets/avatar-2.jpeg",
+    "cached_at": "2026-10-30T06:35:44.099109+00:00",
+    "bytes": 7738,
+    "sha256": "c635366f613d66463a6b53862f1e3eb9f993fc1f2d25f106a86902416d5d5207"
+  },
+  {
+    "selector": ".av3",
+    "classification": "Approximate decorative stock portrait; not the original CleanShot asset and not a verified community member.",
+    "original_url": "https://media.cleanshot.cloud/media/21620/tvzgP1YqhKu4Rj3N1FmqAmZVgNs6jl9gzgmpmUHk.jpeg?Expires=1777825526&Signature=m6W6cOzHlaMAfw4gXnU9Vpvxsko-nOaqqsPwsUNgPbeSjLuKTUaeIsTnbqcA0PZjtr-EX0iI9y4OhuF6p2sFG93diwprvjGKOhlErVlnx-gCoQGk73PKcrlKjelXp4QOg56rbRL79VAVEVvZ8klyh--cH9uZNlo4Z53qP272dSXYQfj3YGWTevKEnwr3p5~sjUWW4-BBSJ7l-~Z5SA~n7W8G-FKm~LVNUqdz633IwnCbwaF7CJtvhlycOjnsJXZdYl0ZesQTRn~yYrblzLL5sAnWEU0NDPeuPwnIdE7z3SDL7xm1SBXetkF~P9or-XFMEsVePC~idOeAYwG2zSxoew__&Key-Pair-Id=K269JMAT9ZF4GZ",
+    "original_status": "HTTP 403 on signed and unsigned URLs; historical attempts in download-report.json; not requested by preview.",
+    "replacement_source": "Unsplash",
+    "replacement_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=128&h=128&fit=crop&crop=faces&fm=jpg&q=85",
+    "local_file": "assets/avatar-3.jpeg",
+    "cached_at": "2026-10-30T06:35:44.113305+00:00",
+    "bytes": 7638,
+    "sha256": "c83528aee59cfb464aeb71ee21fae6781710fa57c6cd7bf3fc7ae98383d171b0"
+  },
+  {
+    "selector": ".av4",
+    "classification": "Approximate decorative stock portrait; not the original CleanShot asset and not a verified community member.",
+    "original_url": "https://media.cleanshot.cloud/media/21620/xuWsFI56rqEUeYTmLVTHCoq224TH90PxcBKrsp4N.jpeg?Expires=1777825521&Signature=lLNMvpDUre8-UAsh1mRdGGLOnBaEGY4hcmQjpbCMkwTHK48cfU5OW5RVkmlcJffulFiUhEfB7qkPSFmIJ7vUcg9nU5qa8iHb6~RGpCHSqTbqK6c2LWy3unWA4e~UY3E9Q4tEQ7eewEbIlZscERJK7XtsoPgb9mde5TlLzjp90bTXbJwwSU5dXo6dhrvml5PMmJa8BDUcVIV2a8BCzkw8OzDBQUwWMhammdmGLBMNpRTJbnaNYM4pXgrcABcJ0DMBLkUjCUTtftKNmYM4O32SlRWbZvXY73H2qRUfL0wBwxM0c35gf372hh1tdkoEoixnneCW5TBs79wyS7xV3dF61Q__&Key-Pair-Id=K269JMAT9ZF4GZ",
+    "original_status": "HTTP 403 on signed and unsigned URLs; historical attempts in download-report.json; not requested by preview.",
+    "replacement_source": "Unsplash",
+    "replacement_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=128&h=128&fit=crop&crop=faces&fm=jpg&q=85",
+    "local_file": "assets/avatar-4.jpeg",
+    "cached_at": "2026-10-30T06:35:44.113013+00:00",
+    "bytes": 6551,
+    "sha256": "7c0966ed98e317b223c306cc50e9d190d7b78e10e62bf16c048479c13ad6ce33"
+  }
+]

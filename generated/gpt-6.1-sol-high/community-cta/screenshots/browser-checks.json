@@ -1,0 +1,211 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/community-cta/",
+  "checks": [
+    "Static production build served at required subpath",
+    "Desktop 1440x1000 and mobile 390x844",
+    "No horizontal overflow",
+    "Local DM Sans loaded",
+    "Original MP4 decoded and autoplay advanced",
+    "Muted, loop, playsinline verified",
+    "Input and button states verified",
+    "Four distinct cached portraits decoded, correctly sized and visible",
+    "No JavaScript or console errors",
+    "No failed requests or HTTP errors",
+    "All runtime requests local; unavailable originals never requested",
+    "Required screenshots captured"
+  ],
+  "viewports": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "card": {
+        "x": 145,
+        "y": 317.5,
+        "width": 1150,
+        "height": 316.984375
+      },
+      "font": true,
+      "headingSize": "26px",
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.384456,
+        "width": 2196,
+        "height": 940,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      "cardShadow": "none",
+      "portraits": [
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-1.jpeg",
+          "width": 32,
+          "height": 32,
+          "imageWidth": 128,
+          "imageHeight": 128,
+          "borderRadius": "50%",
+          "x": 186,
+          "y": 561.484375,
+          "label": "Approximate decorative Unsplash portrait 1; not a verified community member"
+        },
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-2.jpeg",
+          "width": 32,
+          "height": 32,
+          "imageWidth": 128,
+          "imageHeight": 128,
+          "borderRadius": "50%",
+          "x": 209,
+          "y": 561.484375,
+          "label": "Approximate decorative Unsplash portrait 2; not a verified community member"
+        },
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-3.jpeg",
+          "width": 32,
+          "height": 32,
+          "imageWidth": 128,
+          "imageHeight": 128,
+          "borderRadius": "50%",
+          "x": 232,
+          "y": 561.484375,
+          "label": "Approximate decorative Unsplash portrait 3; not a verified community member"
+        },
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-4.jpeg",
+          "width": 32,
+          "height": 32,
+          "imageWidth": 128,
+          "imageHeight": 128,
+          "borderRadius": "50%",
+          "x": 255,
+          "y": 561.484375,
+          "label": "Approximate decorative Unsplash portrait 4; not a verified community member"
+        }
+      ],
+      "scriptErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "requests": [
+        "http://127.0.0.1:4173/motionsites-results/community-cta/",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/dm-sans-400.ttf",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-1.jpeg",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-2.jpeg",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-3.jpeg",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-4.jpeg",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/dm-sans-700.ttf",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/dm-sans-600.ttf",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/background.mp4"
+      ],
+      "screenshot": "screenshots/desktop.png",
+      "interactions": [
+        "focus styling",
+        "valid and invalid email states",
+        "keyboard tab to button",
+        "hover lift",
+        "active reset",
+        "button click (visual-only per prompt)"
+      ]
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "card": {
+        "x": 48,
+        "y": 226.265625,
+        "width": 294,
+        "height": 343.46875
+      },
+      "font": true,
+      "headingSize": "19px",
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 1.294098,
+        "width": 2196,
+        "height": 940,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      "cardShadow": "none",
+      "portraits": [
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-1.jpeg",
+          "width": 28,
+          "height": 28,
+          "imageWidth": 128,
+          "imageHeight": 128,
+          "borderRadius": "50%",
+          "x": 73,
+          "y": 516.734375,
+          "label": "Approximate decorative Unsplash portrait 1; not a verified community member"
+        },
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-2.jpeg",
+          "width": 28,
+          "height": 28,
+          "imageWidth": 128,
+          "imageHeight": 128,
+          "borderRadius": "50%",
+          "x": 94,
+          "y": 516.734375,
+          "label": "Approximate decorative Unsplash portrait 2; not a verified community member"
+        },
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-3.jpeg",
+          "width": 28,
+          "height": 28,
+          "imageWidth": 128,
+          "imageHeight": 128,
+          "borderRadius": "50%",
+          "x": 115,
+          "y": 516.734375,
+          "label": "Approximate decorative Unsplash portrait 3; not a verified community member"
+        },
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-4.jpeg",
+          "width": 28,
+          "height": 28,
+          "imageWidth": 128,
+          "imageHeight": 128,
+          "borderRadius": "50%",
+          "x": 136,
+          "y": 516.734375,
+          "label": "Approximate decorative Unsplash portrait 4; not a verified community member"
+        }
+      ],
+      "scriptErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "requests": [
+        "http://127.0.0.1:4173/motionsites-results/community-cta/",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/background.mp4",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/dm-sans-400.ttf",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-1.jpeg",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-2.jpeg",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-3.jpeg",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/avatar-4.jpeg",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/dm-sans-700.ttf",
+        "http://127.0.0.1:4173/motionsites-results/community-cta/assets/dm-sans-600.ttf"
+      ],
+      "screenshot": "screenshots/mobile.png",
+      "interactions": [
+        "focus styling",
+        "valid and invalid email states",
+        "keyboard tab to button",
+        "hover lift",
+        "active reset",
+        "button click (visual-only per prompt)"
+      ]
+    }
+  }
+}

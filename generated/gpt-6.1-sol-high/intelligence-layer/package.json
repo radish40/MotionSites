@@ -1,0 +1,1 @@
+{"name":"intelligence-layer","version":"1.0.0","private":true,"description":"Single-file Intelligence Layer landing page","scripts":{"build":"node build.cjs"}}

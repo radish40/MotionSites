@@ -1,0 +1,187 @@
+{
+  "desktop": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "overflow": false,
+    "fontLoaded": true,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "time": 2.036633,
+      "width": 1664,
+      "height": 1248
+    },
+    "headline": {
+      "x": 71.359375,
+      "y": 217.859375,
+      "width": 470.84375,
+      "height": 153.46875
+    },
+    "logos": {
+      "x": 388.7160949707031,
+      "y": 0,
+      "width": 700.375,
+      "height": 0
+    },
+    "actions": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 0
+    }
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "overflow": false,
+    "fontLoaded": true,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "time": 1.753574,
+      "width": 1664,
+      "height": 1248
+    },
+    "headline": {
+      "x": 25.390625,
+      "y": 257.640625,
+      "width": 339.21875,
+      "height": 113.78125
+    },
+    "logos": {
+      "x": 25.390625,
+      "y": 737.90625,
+      "width": 339.21875,
+      "height": 78.890625
+    },
+    "actions": {
+      "x": 25.390625,
+      "y": 494.78125,
+      "width": 339.21875,
+      "height": 44.4375
+    }
+  },
+  "menu": {
+    "open": true,
+    "escapeClose": true,
+    "linkClose": true,
+    "landscapeClose": true
+  },
+  "reference": {
+    "viewport": [
+      1487,
+      1058
+    ],
+    "overflow": false,
+    "fontLoaded": true,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "time": 1.687135,
+      "width": 1664,
+      "height": 1248
+    },
+    "headline": {
+      "x": 75.5,
+      "y": 230.5,
+      "width": 493.90625,
+      "height": 161
+    },
+    "logos": {
+      "x": 393,
+      "y": 0,
+      "width": 741,
+      "height": 0
+    },
+    "actions": {
+      "x": 0,
+      "y": 0,
+      "width": 1487,
+      "height": 0
+    }
+  },
+  "tablet": {
+    "viewport": [
+      768,
+      1024
+    ],
+    "overflow": false,
+    "fontLoaded": true,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "time": 1.799109,
+      "width": 1664,
+      "height": 1248
+    },
+    "headline": {
+      "x": 44.640625,
+      "y": 371.78125,
+      "width": 678.71875,
+      "height": 135.1875
+    },
+    "logos": {
+      "x": 44.640625,
+      "y": 965.078125,
+      "width": 678.71875,
+      "height": 27.671875
+    },
+    "actions": {
+      "x": 44.640625,
+      "y": 613.203125,
+      "width": 678.71875,
+      "height": 43.75
+    }
+  },
+  "reducedMotion": "none",
+  "scriptErrors": [],
+  "cancelledVideoRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_112712_da9d53df-6d27-4b12-bdf6-aa9dc2622bdf.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_112712_da9d53df-6d27-4b12-bdf6-aa9dc2622bdf.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_112712_da9d53df-6d27-4b12-bdf6-aa9dc2622bdf.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_112712_da9d53df-6d27-4b12-bdf6-aa9dc2622bdf.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_112712_da9d53df-6d27-4b12-bdf6-aa9dc2622bdf.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_112712_da9d53df-6d27-4b12-bdf6-aa9dc2622bdf.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_112712_da9d53df-6d27-4b12-bdf6-aa9dc2622bdf.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "failedRequests": []
+}

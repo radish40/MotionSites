@@ -1,0 +1,76 @@
+{
+  "title": "Intelligence Layer",
+  "id": "intelligence-layer",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists and equals source",
+    "browser": "Chromium with Playwright, real dist served at /motionsites-results/intelligence-layer/",
+    "viewports": {
+      "desktop": {
+        "size": [
+          1440,
+          1000
+        ],
+        "overflow": false,
+        "font_loaded": true,
+        "video_playing": true
+      },
+      "mobile": {
+        "size": [
+          390,
+          844
+        ],
+        "overflow": false,
+        "font_loaded": true,
+        "video_playing": true
+      },
+      "reference": {
+        "size": [
+          1487,
+          1058
+        ],
+        "overflow": false,
+        "font_loaded": true,
+        "video_playing": true
+      },
+      "tablet": {
+        "size": [
+          768,
+          1024
+        ],
+        "overflow": false,
+        "font_loaded": true,
+        "video_playing": true
+      }
+    },
+    "menu": {
+      "open": true,
+      "escapeClose": true,
+      "linkClose": true,
+      "landscapeClose": true
+    },
+    "reduced_motion": true,
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "IpsumMark binary unavailable: permitted bold Manrope fallback used only for partner words.",
+    "Partner SVG silhouettes reconstructed from prompt and this design reference; exact source paths unavailable."
+  ],
+  "notes": [
+    "Single HTML file with inline CSS, JS, SVG and embedded Manrope variable WOFF2; no runtime package dependencies.",
+    "Exact required CloudFront MP4 verified HTTP 200 and playing at all four viewport sizes. External video requires network.",
+    "Video request cancellations during browser navigation are recorded separately in checks.json; no actual failed requests.",
+    "Navigation and CTAs retain # placeholders because prompt supplies no destinations or backend.",
+    "No preview screenshot is used as a page asset.",
+    "All writes limited to this project; no agents, other sessions, deployment, push, or messages.",
+    "Ready for management-session acceptance; not deployed."
+  ]
+}

@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 238/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 240/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -323,13 +323,13 @@
 | 236 | `evr-ventures` | EVR Ventures | Hero Section | 1 | 视频 | 已完成 |
 | 237 | `finlytic-ai-agent` | Finlytic AI Agent | SaaS | 1 | 视频 | 已完成 |
 | 238 | `grow-ai-talent-platform` | Grow AI Talent Platform | SaaS | 2 | 视频 | 已完成 |
-| 239 | `hr-saa-s-hero` | HR SaaS Hero | SaaS | 1 | 视频 | 生成中 |
-| 240 | `mindloop` | Mindloop | SaaS | 2 | 视频 | 生成中 |
+| 239 | `hr-saa-s-hero` | HR SaaS Hero | SaaS | 1 | 视频 | 已完成 |
+| 240 | `mindloop` | Mindloop | SaaS | 2 | 视频 | 已完成 |
 | 241 | `neo-vision` | NeoVision | Landing Page | 2 | 视频 | 生成中 |
 | 242 | `neuralyn` | Neuralyn | SaaS | 2 | 视频 | 生成中 |
 | 243 | `nexora-automation` | Nexora Automation | SaaS | 1 | 视频 | 生成中 |
-| 244 | `nexus-it-solutions` | Nexus IT Solutions | Hero Section | 1 | 视频 | 未开始 |
-| 245 | `nickel-payments` | Nickel Payments | SaaS | 1 | 视频 | 未开始 |
+| 244 | `nexus-it-solutions` | Nexus IT Solutions | Hero Section | 1 | 视频 | 生成中 |
+| 245 | `nickel-payments` | Nickel Payments | SaaS | 1 | 视频 | 生成中 |
 | 246 | `orbis-nft` | Orbis NFT | Landing Page | 2 | 视频 | 未开始 |
 | 247 | `orbit-web3` | Orbit Web3 | Web3 | 1 | 视频 | 未开始 |
 | 248 | `planet-orbit` | Planet Orbit | SaaS | 2 | 视频 | 未开始 |

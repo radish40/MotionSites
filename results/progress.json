@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:32:52.635304+00:00",
+  "updated_utc": "2026-10-30T03:34:50.442748+00:00",
   "total": 380,
   "counts": {
-    "complete": 238,
+    "complete": 240,
     "running": 5,
-    "not_started": 137
+    "not_started": 135
   },
   "current_batch": {
     "from_number": 201,
@@ -2400,21 +2400,21 @@
       "id": "hr-saa-s-hero",
       "title": "HR SaaS Hero",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad8-bd4d-7fb3-9f5a-915cca34a7b0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5a5ce4644df373a02d0c1a9f41ba1ea187dca1e3",
+      "group_message_id": 303,
+      "url": "https://tool.luo-xd.com/motionsites-results/hr-saa-s-hero/"
     },
     {
       "id": "mindloop",
       "title": "Mindloop",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18adb-2fe1-71a2-8c9a-073d341ad086",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "03c53b8eb3da82135e7e524652534e5a55fef6f2",
+      "group_message_id": 304,
+      "url": "https://tool.luo-xd.com/motionsites-results/mindloop/"
     },
     {
       "id": "neo-vision",
@@ -2431,7 +2431,7 @@
       "title": "Neuralyn",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18adc-d6dd-7740-9f9e-0a7d03570548",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2441,7 +2441,7 @@
       "title": "Nexora Automation",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18adc-d75f-7d52-90ed-6c7422fdb5d3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2450,7 +2450,7 @@
       "id": "nexus-it-solutions",
       "title": "Nexus IT Solutions",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2460,7 +2460,7 @@
       "id": "nickel-payments",
       "title": "Nickel Payments",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

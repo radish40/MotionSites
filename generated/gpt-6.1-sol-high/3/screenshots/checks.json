@@ -1,0 +1,40 @@
+{
+  "desktop": {
+    "video": {
+      "readyState": 4,
+      "currentTime": 4.056182,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "width": 640,
+      "error": null
+    },
+    "fonts": {
+      "switzer": true,
+      "geist": true
+    },
+    "overflow": false,
+    "hoverArrowOpacity": "1",
+    "interactions": "passed"
+  },
+  "mobile": {
+    "video": {
+      "readyState": 4,
+      "currentTime": 4.059748,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "width": 640,
+      "error": null
+    },
+    "fonts": {
+      "switzer": true,
+      "geist": true
+    },
+    "overflow": false,
+    "menu": "passed",
+    "interactions": "passed"
+  },
+  "errors": [],
+  "networkFailures": []
+}

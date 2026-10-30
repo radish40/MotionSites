@@ -1,0 +1,92 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/3/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:07:28.866Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "ClearInvoice — Effortless billing. More possibility.",
+      "bodyChars": 317,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/3/images/sarah.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/3/images/james.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/3/images/maya.jpg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://stream.mux.com/hUT6X11m1Vkw1QMxPOLgI761x2cfpi9bHFbi5cNg4014.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.271214,
+          "duration": 13.95,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "ClearInvoice — Effortless billing. More possibility.",
+      "bodyChars": 276,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/3/images/sarah.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/3/images/james.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/3/images/maya.jpg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://stream.mux.com/hUT6X11m1Vkw1QMxPOLgI761x2cfpi9bHFbi5cNg4014.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.68784,
+          "duration": 13.95,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

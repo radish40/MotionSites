@@ -1,0 +1,66 @@
+{
+  "title": "ClearInvoice SaaS Hero",
+  "id": 3,
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists",
+    "browser": {
+      "desktop": {
+        "video": {
+          "readyState": 4,
+          "currentTime": 4.056182,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "width": 640,
+          "error": null
+        },
+        "fonts": {
+          "switzer": true,
+          "geist": true
+        },
+        "overflow": false,
+        "hoverArrowOpacity": "1",
+        "interactions": "passed"
+      },
+      "mobile": {
+        "video": {
+          "readyState": 4,
+          "currentTime": 4.059748,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "width": 640,
+          "error": null
+        },
+        "fonts": {
+          "switzer": true,
+          "geist": true
+        },
+        "overflow": false,
+        "menu": "passed",
+        "interactions": "passed"
+      },
+      "errors": [],
+      "networkFailures": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "publish_base": "/motionsites-results/3/"
+  },
+  "asset_issues": [
+    "Optional project reference /home/opc/motionsites/assets/previews/3.webp was absent. Implemented from full written prompt."
+  ],
+  "notes": [
+    "React + Vite, Tailwind CSS, motion/react, lucide-react, native video and hls.js implemented.",
+    "Exact supplied Mux source works; fonts and avatars are local; same-source Mux thumbnail is a loading fallback.",
+    "Account and navigation dialogs are local design previews; no backend is connected.",
+    "Vite emitted a non-blocking bundle-size warning.",
+    "No agents, deployment, push, other sessions, or external messaging. All output written within this project.",
+    "Ready for review; not deployed."
+  ]
+}

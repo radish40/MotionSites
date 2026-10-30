@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:46:23.171713+00:00",
+  "updated_utc": "2026-10-30T04:48:51.582110+00:00",
   "total": 380,
   "counts": {
-    "complete": 302,
+    "complete": 304,
     "running": 5,
-    "not_started": 73
+    "not_started": 71
   },
   "current_batch": {
     "from_number": 201,
@@ -3040,21 +3040,21 @@
       "id": "task-engine",
       "title": "Task Engine",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b1d-7fca-79f1-b4a0-27c2f4274dd1",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "aec2a5e2cb98a75447ee614aa46892569f0775a5",
+      "group_message_id": 370,
+      "url": "https://tool.luo-xd.com/motionsites-results/task-engine/"
     },
     {
       "id": "autonomous-ops",
       "title": "Autonomous Ops",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b1d-80f6-7b20-9a07-af390832718e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6f316e58154e6de2c39903bade5c9448713988bb",
+      "group_message_id": 371,
+      "url": "https://tool.luo-xd.com/motionsites-results/autonomous-ops/"
     },
     {
       "id": "orbit-flora",
@@ -3081,7 +3081,7 @@
       "title": "Cyber Layer",
       "category": "Cybersecurity",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b20-f8bc-73b3-9387-a7010afccb08",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3090,7 +3090,7 @@
       "id": "ai-runtime",
       "title": "AI Runtime",
       "category": "AI",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3100,7 +3100,7 @@
       "id": "real-time-alerts",
       "title": "Real-Time Alerts",
       "category": "Sign in",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 302/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 304/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -387,13 +387,13 @@
 | 300 | `mostar-guide` | Mostar Guide | Travel | 1 | 视频 | 已完成 |
 | 301 | `talent-collective` | Talent Collective | Agency | 1 | 视频 | 已完成 |
 | 302 | `intelligence-layer` | Intelligence Layer | Technology | 1 | 视频 | 已完成 |
-| 303 | `task-engine` | Task Engine | SaaS | 1 | 视频 | 生成中 |
-| 304 | `autonomous-ops` | Autonomous Ops | SaaS | 1 | 视频 | 生成中 |
+| 303 | `task-engine` | Task Engine | SaaS | 1 | 视频 | 已完成 |
+| 304 | `autonomous-ops` | Autonomous Ops | SaaS | 1 | 视频 | 已完成 |
 | 305 | `orbit-flora` | Orbit Flora | AI | 1 | 视频 | 生成中 |
 | 306 | `data-signal` | Data Signal | Analytics | 1 | 视频 | 生成中 |
 | 307 | `cyber-layer` | Cyber Layer | Cybersecurity | 1 | 视频 | 生成中 |
-| 308 | `ai-runtime` | AI Runtime | AI | 1 | 视频 | 未开始 |
-| 309 | `real-time-alerts` | Real-Time Alerts | Sign in | 1 | 视频 | 未开始 |
+| 308 | `ai-runtime` | AI Runtime | AI | 1 | 视频 | 生成中 |
+| 309 | `real-time-alerts` | Real-Time Alerts | Sign in | 1 | 视频 | 生成中 |
 | 310 | `pet-diagnostics` | Pet Diagnostics | Healthcare | 1 | 视频 | 未开始 |
 | 311 | `growth-decisions` | Growth Decisions | SaaS | 1 | 视频 | 未开始 |
 | 312 | `aurex-finance` | Aurex Finance | Fintech | 1 | 视频 | 未开始 |

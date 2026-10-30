@@ -9212,19 +9212,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af9-6d30-7f83-b216-fcdbe224bac7",
       "output_path": "generated/gpt-6.1-sol-high/viktor-portfolio",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 691195,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:02:44.533821+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "46cadedda4d126d3c7a842751eec745a0cc215a6",
+      "url": "https://tool.luo-xd.com/motionsites-results/viktor-portfolio/",
+      "completed_utc": "2026-10-30T04:09:23.803658+00:00",
+      "group_message_id": 335
     },
     {
       "number": 270,
@@ -9272,19 +9276,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18afa-b1f9-7941-b8f3-2e582a021edc",
       "output_path": "generated/gpt-6.1-sol-high/web3-eos-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 696489,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:04:07.660108+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f3e8cd6003311df767c134a98e12a1b821ef4c71",
+      "url": "https://tool.luo-xd.com/motionsites-results/web3-eos-hero/",
+      "completed_utc": "2026-10-30T04:09:57.860157+00:00",
+      "group_message_id": 336
     },
     {
       "number": 272,
@@ -9333,14 +9341,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18afd-ba77-71d3-a1f2-4605ef63f191",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-synapse",
       "validation": "",
       "notes": "",
       "process_id": 710073,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:07:26.479535+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 274,
@@ -9358,11 +9370,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-card-swap",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 715897,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:08:55.345824+00:00",
+      "worker_state": "running"
     },
     {
       "number": 275,
@@ -9380,11 +9396,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-hover-reveal-effect",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 715963,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:08:55.482777+00:00",
+      "worker_state": "running"
     },
     {
       "number": 276,
@@ -11698,7 +11718,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:08:02.307750+00:00",
+  "updated_utc": "2026-10-30T04:09:58.090453+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

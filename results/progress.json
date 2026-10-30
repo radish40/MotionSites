@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T03:52:48.200656+00:00",
+  "updated_utc": "2026-10-30T03:54:29.222239+00:00",
   "total": 380,
   "counts": {
-    "complete": 255,
+    "complete": 256,
+    "ready": 1,
     "running": 5,
-    "not_started": 120
+    "not_started": 118
   },
   "current_batch": {
     "from_number": 201,
@@ -2570,17 +2571,17 @@
       "id": "transform-data",
       "title": "Transform Data",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aeb-533f-7830-9158-ba9d842672a5",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "bf03889f3a7967db4aa94980006d11ca3c083981",
+      "group_message_id": 321,
+      "url": "https://tool.luo-xd.com/motionsites-results/transform-data/"
     },
     {
       "id": "velorah",
       "title": "Velorah",
       "category": "Agency",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18aeb-53fa-7f31-aace-caa75702fe6c",
       "source_commit": null,
       "group_message_id": null,
@@ -2601,7 +2602,7 @@
       "title": "Aethera Studio",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18aef-804f-7133-8c93-82169a25c540",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2611,7 +2612,7 @@
       "title": "Buzzentic Agency",
       "category": "Agency",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18aef-80f8-7262-8a19-5b257d2cf955",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2620,7 +2621,7 @@
       "id": "datacore-booking",
       "title": "Datacore Booking",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2630,7 +2631,7 @@
       "id": "framelix-3d-studios",
       "title": "Framelix 3D Studios",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

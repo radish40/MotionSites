@@ -627,7 +627,43 @@
         "generated/gpt-6.1-sol-high/taskly/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/taskly/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "stellar-ai",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "White responsive hero, original garden video and real setup panel render at desktop and mobile sizes. Original session tested all four panels, auto-cycle, keyboard tabs, setup progress and account preview dialogs. Company marks are recreated approximations because assets were not supplied.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/stellar-ai/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/stellar-ai/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "terra-geo-map",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original globe video, Product Hunt badge and responsive navigation render at both sizes. Heading letters visibly overlap because the prompt explicitly requires -0.2em tracking; exact spacing is preserved and documented without a normal-legibility claim.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/terra-geo-map/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/terra-geo-map/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "taskora-saa-s-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original blue video, mixed-font heading and actual DOM dashboard render at both sizes. The dashboard preserves its layout and scrolls horizontally inside its mobile container as specified; worker verified real scroll movement, fonts and preview forms.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/taskora-saa-s-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/taskora-saa-s-hero/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:50:23.507338+00:00"
+  "updated_utc": "2026-10-30T03:54:01.856407+00:00"
 }

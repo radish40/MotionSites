@@ -8770,19 +8770,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aeb-533f-7830-9158-ba9d842672a5",
       "output_path": "generated/gpt-6.1-sol-high/transform-data",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 628992,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:47:20.423949+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "bf03889f3a7967db4aa94980006d11ca3c083981",
+      "url": "https://tool.luo-xd.com/motionsites-results/transform-data/",
+      "completed_utc": "2026-10-30T03:54:29.044015+00:00",
+      "group_message_id": 321
     },
     {
       "number": 257,
@@ -8800,7 +8804,7 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18aeb-53fa-7f31-aace-caa75702fe6c",
       "output_path": "generated/gpt-6.1-sol-high/velorah",
       "validation": "",
@@ -8808,7 +8812,7 @@
       "process_id": 629060,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:47:20.563951+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -8861,14 +8865,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18aef-804f-7133-8c93-82169a25c540",
       "output_path": "generated/gpt-6.1-sol-high/aethera-studio",
       "validation": "",
       "notes": "",
       "process_id": 647120,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:51:54.104611+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 260,
@@ -8887,14 +8895,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18aef-80f8-7262-8a19-5b257d2cf955",
       "output_path": "generated/gpt-6.1-sol-high/buzzentic-agency",
       "validation": "",
       "notes": "",
       "process_id": 647169,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:51:54.230624+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 261,
@@ -8912,11 +8924,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/datacore-booking",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 653085,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:53:41.243866+00:00",
+      "worker_state": "running"
     },
     {
       "number": 262,
@@ -8934,11 +8950,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/framelix-3d-studios",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 653138,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:53:41.422235+00:00",
+      "worker_state": "running"
     },
     {
       "number": 263,
@@ -11538,7 +11558,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:52:48.200656+00:00",
+  "updated_utc": "2026-10-30T03:54:29.222239+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

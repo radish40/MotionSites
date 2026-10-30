@@ -1,0 +1,123 @@
+{
+  "recorded_utc": "2026-10-30T03:54:01.856407+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 4,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:52:37.143045+00:00",
+      "remote_main": "833c692808b599e82b2b8ca0586f5ee8a3529857",
+      "delivery": {
+        "id": "stellar-ai",
+        "title": "Stellar AI",
+        "source_commit": "833c692808b599e82b2b8ca0586f5ee8a3529857",
+        "thread_id": "01a18ae6-d451-7123-aef9-9c542cd2a245",
+        "group_message_id": 319,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:48:52.153581+00:00",
+      "remote_main": "f759e0d1b4d1f1a482e0b5b7358ab6be14dfcbcb",
+      "delivery": {
+        "id": "taskly",
+        "title": "Taskly",
+        "source_commit": "f759e0d1b4d1f1a482e0b5b7358ab6be14dfcbcb",
+        "thread_id": "01a18ae6-d4d7-7ae2-93b9-3f867c81fa0e",
+        "group_message_id": 317,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:53:01.800219+00:00",
+      "remote_main": "6351f3e372cc17177f3d7339a6dc64cd9093bb46",
+      "delivery": {
+        "id": "taskora-saa-s-hero",
+        "title": "Taskora SaaS Hero",
+        "source_commit": "2bf90459b3d6f862adba76cc2e58693bd71a1ab8",
+        "thread_id": "01a18ae8-7826-7423-a6e4-e89e9429efc0",
+        "group_message_id": 320,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:51:10.052659+00:00",
+      "remote_main": "196839699f0ef0da490ea8c944f82d5f2c49483f",
+      "delivery": {
+        "id": "terra-geo-map",
+        "title": "Terra Geo Map",
+        "source_commit": "196839699f0ef0da490ea8c944f82d5f2c49483f",
+        "thread_id": "01a18ae9-b936-7fb1-a863-9550418b7a2f",
+        "group_message_id": 318,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/crypto-wealth-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T05:36:43.372Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 15,
+      "title": "ContentFlow",
+      "bodyChars": 681,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/crypto-wealth-hero/assets/background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.518024,
+          "duration": 7.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/crypto-wealth-hero/assets/showcase.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 64,
+      "title": "ContentFlow",
+      "bodyChars": 611,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/crypto-wealth-hero/assets/background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.631137,
+          "duration": 7.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/crypto-wealth-hero/assets/showcase.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

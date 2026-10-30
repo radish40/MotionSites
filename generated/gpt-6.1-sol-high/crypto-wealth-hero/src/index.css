@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { font-family: 'Inter', sans-serif; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+a:focus-visible { outline: 2px solid #3b82f6; outline-offset: 5px; }
+.gradient-border-btn { position: relative; background: white; isolation: isolate; }
+.gradient-border-btn::before { content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1.5px; background: linear-gradient(135deg, #F59E0B, #3B82F6); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none; }
+@keyframes spin-ring { to { transform: rotate(360deg); } }
+.spin-ring { animation: spin-ring 1.4s linear infinite; }
+@keyframes popup-card-in { from { opacity: 0; transform: translateY(16px) scale(0.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
+.popup-card-animate { opacity: 0; animation: popup-card-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+@keyframes slide-in-right { from { opacity: 0; transform: translateX(40px); } to { opacity: 1; transform: translateX(0); } }
+.dashboard-animate { opacity: 0; animation: slide-in-right 0.9s ease-out 1.2s forwards; }
+@keyframes progress-fill { from { stroke-dashoffset: 88; } }
+.progress-ring-fill { animation: progress-fill 1.2s ease-out 2s both; }
+@keyframes chart-fade { from { opacity: 0; } to { opacity: 1; } }
+.chart-area { opacity: 0; animation: chart-fade 1s ease-out 800ms forwards; }
+@keyframes chart-dot-in { from { transform: scale(0); } to { transform: scale(1); } }
+.chart-dot { transform: scale(0); animation: chart-dot-in 0.4s ease-out 1600ms forwards; }
+@keyframes chart-tooltip-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+.chart-tooltip { opacity: 0; animation: chart-tooltip-in 0.4s ease-out 1800ms forwards; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .spin-ring { animation: none; }
+  .popup-card-animate, .dashboard-animate, .chart-area, .chart-dot, .chart-tooltip { animation-duration: 1ms; animation-delay: 0ms !important; }
+}

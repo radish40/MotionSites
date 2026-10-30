@@ -1,0 +1,84 @@
+{
+  "url": "/motionsites-results/solace-sign-in/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "documentHeight": 1000,
+      "fontLoaded": true,
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "loop": true
+      },
+      "canvas": {
+        "width": 512,
+        "height": 512
+      },
+      "title": "Solace - Login",
+      "buttonCount": 5,
+      "animatedCanvas": true,
+      "interactions": "Password show/hide, checkbox on/off, prevented form submit, email validity, secondary buttons checked",
+      "first": {
+        "sum": 58975048,
+        "opaque": 261945,
+        "canvasWidth": 512,
+        "time": 2.459931
+      },
+      "second": {
+        "sum": 58967603,
+        "opaque": 261945,
+        "canvasWidth": 512,
+        "time": 3.131878
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "fontLoaded": true,
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "loop": true
+      },
+      "canvas": {
+        "width": 358,
+        "height": 358
+      },
+      "title": "Solace - Login",
+      "buttonCount": 5,
+      "animatedCanvas": true,
+      "interactions": "Password show/hide, checkbox on/off, prevented form submit, email validity, secondary buttons checked",
+      "first": {
+        "sum": 27305802,
+        "opaque": 127965,
+        "canvasWidth": 358,
+        "time": 2.610877
+      },
+      "second": {
+        "sum": 27402225,
+        "opaque": 127965,
+        "canvasWidth": 358,
+        "time": 3.405073
+      }
+    }
+  ],
+  "errors": [],
+  "requestFailures": [
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/solace-sign-in/assets/solace-background.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/solace-sign-in/assets/solace-background.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

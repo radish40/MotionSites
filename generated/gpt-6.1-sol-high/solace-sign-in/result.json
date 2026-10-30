@@ -1,0 +1,32 @@
+{
+  "title": "Solace sign-in",
+  "id": "solace-sign-in",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5; dist/index.html exists",
+    "source_files": "Exactly four files in src; LiquidGlass.tsx and FadeUp.tsx match PROMPT.md verbatim",
+    "browser": "Chromium via /app/node_modules/playwright-core, against dist at required base path",
+    "desktop": "1440x1000 passed; no horizontal or vertical overflow",
+    "mobile": "390x844 passed; no horizontal or vertical overflow",
+    "video_and_canvas": "1920x1080 original video plays and loops; canvas has rendered pixels and changes over time at both viewports",
+    "font": "Inter loaded successfully on both viewports",
+    "interactions": "Password visibility, checkbox on/off, submit prevented, native email validity, secondary button clicks passed",
+    "script_errors": [],
+    "dependency_audit": "0 vulnerabilities after updating Vite and PostCSS",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original specified video downloaded successfully and bundled locally, with no visual substitutions or extracted preview assets.",
+    "Google Fonts remains external as specified.",
+    "Two net::ERR_ABORTED video requests were recorded as browser pages closed after successful playback; these are streaming cancellations, not failed asset loads.",
+    "Frontend only, as specified: submit prevents default; reset, Google and join buttons have no backend or external flow.",
+    "The exact supplied refraction engine and square canvas scaling are preserved.",
+    "Ready for management-session review; not deployed or pushed."
+  ]
+}

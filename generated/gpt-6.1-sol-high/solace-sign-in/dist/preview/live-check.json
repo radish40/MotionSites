@@ -1,0 +1,72 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/solace-sign-in/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T02:50:29.279Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Solace - Login",
+      "bodyChars": 204,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/solace-sign-in/assets/solace-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.483707,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/solace-sign-in/assets/solace-background.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Solace - Login",
+      "bodyChars": 204,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/solace-sign-in/assets/solace-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 6.359315,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/solace-sign-in/assets/solace-background.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

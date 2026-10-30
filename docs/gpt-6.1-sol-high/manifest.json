@@ -8838,19 +8838,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aee-3e8f-7a52-bbd1-db7f9d4eab24",
       "output_path": "generated/gpt-6.1-sol-high/x-portfolio-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 642054,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:50:31.680719+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "3a49dabf2edbd44807e6af52da8898bae4ce2f2a",
+      "url": "https://tool.luo-xd.com/motionsites-results/x-portfolio-hero/",
+      "completed_utc": "2026-10-30T03:56:29.050389+00:00",
+      "group_message_id": 323
     },
     {
       "number": 259,
@@ -8929,14 +8933,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af1-2321-7ea0-b2fa-e8ed3206555c",
       "output_path": "generated/gpt-6.1-sol-high/datacore-booking",
       "validation": "",
       "notes": "",
       "process_id": 653085,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:53:41.243866+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 262,
@@ -8955,14 +8963,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af1-23e8-7d70-9ba7-498ca396ba8d",
       "output_path": "generated/gpt-6.1-sol-high/framelix-3d-studios",
       "validation": "",
       "notes": "",
       "process_id": 653138,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:53:41.422235+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 263,
@@ -8980,11 +8992,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/logoisum-video-agency",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 663551,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:56:03.931764+00:00",
+      "worker_state": "running"
     },
     {
       "number": 264,
@@ -11562,7 +11578,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:55:08.940258+00:00",
+  "updated_utc": "2026-10-30T03:56:29.221182+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

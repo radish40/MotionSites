@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:55:08.940258+00:00",
+  "updated_utc": "2026-10-30T03:56:29.221182+00:00",
   "total": 380,
   "counts": {
-    "complete": 257,
+    "complete": 258,
     "running": 5,
-    "not_started": 118
+    "not_started": 117
   },
   "current_batch": {
     "from_number": 201,
@@ -2590,11 +2590,11 @@
       "id": "x-portfolio-hero",
       "title": "xPortfolio Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aee-3e8f-7a52-bbd1-db7f9d4eab24",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "3a49dabf2edbd44807e6af52da8898bae4ce2f2a",
+      "group_message_id": 323,
+      "url": "https://tool.luo-xd.com/motionsites-results/x-portfolio-hero/"
     },
     {
       "id": "aethera-studio",
@@ -2621,7 +2621,7 @@
       "title": "Datacore Booking",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af1-2321-7ea0-b2fa-e8ed3206555c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2631,7 +2631,7 @@
       "title": "Framelix 3D Studios",
       "category": "Agency",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af1-23e8-7d70-9ba7-498ca396ba8d",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2640,7 +2640,7 @@
       "id": "logoisum-video-agency",
       "title": "Logoisum Video Agency",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

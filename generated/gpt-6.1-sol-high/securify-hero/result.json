@@ -1,0 +1,42 @@
+{
+  "title": "Securify Data Security",
+  "id": "securify-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "stack": "React 19, TypeScript 5, Tailwind CSS 3, Vite 6",
+    "public_base": "/motionsites-results/securify-hero/",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium 390x844",
+    "overflow": "none at either viewport, horizontally or vertically",
+    "video": "original remote MP4 decoded and advanced on both viewports; autoplay, loop, muted, playsInline verified",
+    "fallback": "passed: original remote blocked intentionally; local video decoded and played",
+    "fonts": "Readex Pro 400 and 500 loaded in browser; all five requested font weights included locally",
+    "interactions": "desktop fragment navigation, nav hover, CTA hover/click/focus, mobile visibility passed",
+    "script_errors": [],
+    "normal_run_failed_requests": [],
+    "normal_run_http_errors": [],
+    "dependency_audit": "zero vulnerabilities reported during final dependency installation",
+    "visual_review": "desktop and mobile screenshots inspected",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional securify-hero.webp project preview",
+      "issue": "not present at the supplied path",
+      "resolution": "implemented the complete written prompt; no screenshot extraction or substitute imagery"
+    }
+  ],
+  "notes": [
+    "Ready for management review; not deployed or pushed.",
+    "All work and generated artifacts are inside this project. No agents or other sessions were created.",
+    "Original CloudFront video is the primary source; a local original copy provides an error fallback.",
+    "Google Fonts files are hosted locally with provenance CSS and OFL license.",
+    "The get started button has no supplied destination or signup action; only its specified styling and interactions are implemented.",
+    "Navigation targets existing hero content through local fragments; no extra pages or flows.",
+    "Screenshots freeze the video at one second; the delivered hero loops normally.",
+    "Browser verification is limited to Chromium and the two requested viewport sizes."
+  ]
+}

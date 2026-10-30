@@ -1,0 +1,14 @@
+@font-face { font-family: 'Readex Pro'; font-style: normal; font-weight: 300; font-display: swap; src: url('/assets/readex-pro-300.ttf') format('truetype'); }
+@font-face { font-family: 'Readex Pro'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/readex-pro-400.ttf') format('truetype'); }
+@font-face { font-family: 'Readex Pro'; font-style: normal; font-weight: 500; font-display: swap; src: url('/assets/readex-pro-500.ttf') format('truetype'); }
+@font-face { font-family: 'Readex Pro'; font-style: normal; font-weight: 600; font-display: swap; src: url('/assets/readex-pro-600.ttf') format('truetype'); }
+@font-face { font-family: 'Readex Pro'; font-style: normal; font-weight: 700; font-display: swap; src: url('/assets/readex-pro-700.ttf') format('truetype'); }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: 'Readex Pro', system-ui, -apple-system, sans-serif; background: #000; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.hero-title { letter-spacing: -0.04em; line-height: 0.95; }
+:focus-visible { outline: 2px solid white; outline-offset: 4px; }

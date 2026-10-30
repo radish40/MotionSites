@@ -1,0 +1,102 @@
+{
+  "base": "/motionsites-results/securify-hero/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "video": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_063509_7d167302-4fd4-480b-8260-18ab572333d4.mp4",
+        "width": 1928,
+        "height": 1072,
+        "duration": 7.041667,
+        "paused": false,
+        "loop": true,
+        "muted": true,
+        "playsInline": true,
+        "time": 0.227564
+      },
+      "layout": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "font": "\"Readex Pro\", system-ui, -apple-system, sans-serif",
+        "loadedFonts": [
+          "400",
+          "500"
+        ],
+        "headings": [
+          {
+            "text": "protect",
+            "size": "187.2px"
+          },
+          {
+            "text": "your",
+            "size": "187.2px"
+          },
+          {
+            "text": "data",
+            "size": "187.2px"
+          }
+        ],
+        "visibleDividers": 3
+      },
+      "errors": [],
+      "failedRequests": [],
+      "badResponses": [],
+      "interactionChecks": "navigation fragments, CTA hover/click/focus, responsive visibility passed; CTA has no supplied destination"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "video": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_063509_7d167302-4fd4-480b-8260-18ab572333d4.mp4",
+        "width": 1928,
+        "height": 1072,
+        "duration": 7.041667,
+        "paused": false,
+        "loop": true,
+        "muted": true,
+        "playsInline": true,
+        "time": 0.221064
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "font": "\"Readex Pro\", system-ui, -apple-system, sans-serif",
+        "loadedFonts": [
+          "400",
+          "500"
+        ],
+        "headings": [
+          {
+            "text": "protect",
+            "size": "54.6px"
+          },
+          {
+            "text": "your",
+            "size": "54.6px"
+          },
+          {
+            "text": "data",
+            "size": "54.6px"
+          }
+        ],
+        "visibleDividers": 0
+      },
+      "errors": [],
+      "failedRequests": [],
+      "badResponses": [],
+      "interactionChecks": "navigation fragments, CTA hover/click/focus, responsive visibility passed; CTA has no supplied destination"
+    }
+  ],
+  "fallback": {
+    "src": "http://127.0.0.1:4173/motionsites-results/securify-hero/assets/securify-background.mp4",
+    "playing": true,
+    "width": 1928
+  }
+}

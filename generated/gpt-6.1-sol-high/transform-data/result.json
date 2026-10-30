@@ -1,0 +1,42 @@
+{
+  "title": "Transform Data",
+  "id": "transform-data",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: Vite 6.4.5, dist/index.html exists",
+    "base_path": "/motionsites-results/transform-data/",
+    "desktop": "passed: Chromium 1440x1000, screenshot visually inspected",
+    "mobile": "passed: Chromium 390x844, screenshot visually inspected",
+    "horizontal_overflow": "none at both required viewports",
+    "javascript_errors": [],
+    "failed_asset_requests": [],
+    "fonts": "all 16 requested family/weight faces present locally",
+    "video": "original MP4 plays; 115% geometry, intermediate opacity, fade-out, restart and fade-in verified",
+    "interactions": "passed on both viewports: empty submit, counter, prompt selection, submission feedback, local file selection, character limit, Features menu, Escape, login dialog, upgrade dialog and voice fallback; mobile navigation exercised",
+    "dependency_audit": "0 vulnerabilities reported during final install",
+    "evidence": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional transform-data.webp reference",
+      "issue": "File absent at the specified path",
+      "resolution": "Implemented from the full text prompt using its exact available video; reference comparison unavailable"
+    },
+    {
+      "asset": "imported SVG icon paths",
+      "issue": "No source icon file supplied",
+      "resolution": "Equivalent SVG icons authored in src/icons.js; exact path matching unavailable"
+    }
+  ],
+  "notes": [
+    "Only Transform Data was implemented. No agents, other sessions, deployment, push, or external messages.",
+    "Vite with native JavaScript components; no framework was prescribed in the prompt.",
+    "Original video and all specified fonts are local; no reference screenshot is used as page content.",
+    "Screenshots: screenshots/desktop.png and screenshots/mobile.png, original video at 3 seconds.",
+    "AI, accounts, billing and persistent data services are not connected; related controls display explicit preview feedback.",
+    "Speech hardware and recognition service were not tested; browser fallback was tested.",
+    "README.md contains run instructions, validation details, asset provenance and limitations.",
+    "ready means ready for management review, not published."
+  ]
+}

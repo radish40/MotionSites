@@ -1,0 +1,331 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "fonts": 16,
+      "video": {
+        "width": 1656,
+        "height": 1150,
+        "duration": 11.041995
+      },
+      "composer": {
+        "x": 356,
+        "y": 556,
+        "width": 728,
+        "height": 200,
+        "top": 556,
+        "right": 1084,
+        "bottom": 756,
+        "left": 356
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "fonts": 16,
+      "video": {
+        "width": 448.5,
+        "height": 970.59375,
+        "duration": 11.041995
+      },
+      "composer": {
+        "x": 20,
+        "y": 484.5,
+        "width": 350,
+        "height": 192,
+        "top": 484.5,
+        "right": 370,
+        "bottom": 676.5,
+        "left": 20
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "viewport": "desktop",
+      "passed": [
+        "empty submission",
+        "character counter",
+        "prompt selection",
+        "submission feedback",
+        "file attachment",
+        "3000 character limit",
+        "Features dropdown",
+        "Escape dismissal",
+        "login dialog",
+        "upgrade dialog",
+        "voice fallback"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "passed": [
+        "empty submission",
+        "character counter",
+        "prompt selection",
+        "submission feedback",
+        "file attachment",
+        "3000 character limit",
+        "Features dropdown",
+        "Escape dismissal",
+        "login dialog",
+        "upgrade dialog",
+        "voice fallback"
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "videoFade": {
+    "duration": 11.041995,
+    "samples": [
+      {
+        "t": 10.442495,
+        "opacity": 1
+      },
+      {
+        "t": 10.452681,
+        "opacity": 1
+      },
+      {
+        "t": 10.462888,
+        "opacity": 1
+      },
+      {
+        "t": 10.493104,
+        "opacity": 1
+      },
+      {
+        "t": 10.523309,
+        "opacity": 1
+      },
+      {
+        "t": 10.553537,
+        "opacity": 1
+      },
+      {
+        "t": 10.58373,
+        "opacity": 1
+      },
+      {
+        "t": 10.613975,
+        "opacity": 1
+      },
+      {
+        "t": 10.644487,
+        "opacity": 1
+      },
+      {
+        "t": 10.674727,
+        "opacity": 0.9628
+      },
+      {
+        "t": 10.704952,
+        "opacity": 0.896
+      },
+      {
+        "t": 10.734415,
+        "opacity": 0.7628
+      },
+      {
+        "t": 10.765578,
+        "opacity": 0.6296
+      },
+      {
+        "t": 10.795799,
+        "opacity": 0.5628
+      },
+      {
+        "t": 10.826075,
+        "opacity": 0.4296
+      },
+      {
+        "t": 10.856256,
+        "opacity": 0.2296
+      },
+      {
+        "t": 10.886507,
+        "opacity": 0.1628
+      },
+      {
+        "t": 10.916353,
+        "opacity": 0.0296
+      },
+      {
+        "t": 10.946969,
+        "opacity": 0
+      },
+      {
+        "t": 10.977235,
+        "opacity": 0
+      },
+      {
+        "t": 11.007458,
+        "opacity": 0
+      },
+      {
+        "t": 11.037707,
+        "opacity": 0
+      },
+      {
+        "t": 11.041995,
+        "opacity": 0
+      },
+      {
+        "t": 11.041995,
+        "opacity": 0
+      },
+      {
+        "t": 11.041995,
+        "opacity": 0
+      },
+      {
+        "t": 11.041995,
+        "opacity": 0
+      },
+      {
+        "t": 0,
+        "opacity": 0
+      },
+      {
+        "t": 0.003008,
+        "opacity": -0.0032
+      },
+      {
+        "t": 0.013107,
+        "opacity": 0.0636
+      },
+      {
+        "t": 0.023204,
+        "opacity": 0.13
+      },
+      {
+        "t": 0.053505,
+        "opacity": 0.2636
+      },
+      {
+        "t": 0.083714,
+        "opacity": 0.3968
+      },
+      {
+        "t": 0.113859,
+        "opacity": 0.5968
+      },
+      {
+        "t": 0.144068,
+        "opacity": 0.6632
+      },
+      {
+        "t": 0.174245,
+        "opacity": 0.7968
+      },
+      {
+        "t": 0.204419,
+        "opacity": 0.8636
+      },
+      {
+        "t": 0.234666,
+        "opacity": 0.9968
+      },
+      {
+        "t": 0.264873,
+        "opacity": 1
+      },
+      {
+        "t": 0.295112,
+        "opacity": 1
+      },
+      {
+        "t": 0.325294,
+        "opacity": 1
+      },
+      {
+        "t": 0.354452,
+        "opacity": 1
+      },
+      {
+        "t": 0.385795,
+        "opacity": 1
+      },
+      {
+        "t": 0.415982,
+        "opacity": 1
+      },
+      {
+        "t": 0.44619,
+        "opacity": 1
+      },
+      {
+        "t": 0.475479,
+        "opacity": 1
+      },
+      {
+        "t": 0.506649,
+        "opacity": 1
+      },
+      {
+        "t": 0.538844,
+        "opacity": 1
+      },
+      {
+        "t": 0.566977,
+        "opacity": 1
+      },
+      {
+        "t": 0.596176,
+        "opacity": 1
+      },
+      {
+        "t": 0.629438,
+        "opacity": 1
+      },
+      {
+        "t": 0.661716,
+        "opacity": 1
+      },
+      {
+        "t": 0.692716,
+        "opacity": 1
+      },
+      {
+        "t": 0.722915,
+        "opacity": 1
+      },
+      {
+        "t": 0.752555,
+        "opacity": 1
+      },
+      {
+        "t": 0.783346,
+        "opacity": 1
+      },
+      {
+        "t": 0.81353,
+        "opacity": 1
+      },
+      {
+        "t": 0.843719,
+        "opacity": 1
+      },
+      {
+        "t": 0.87399,
+        "opacity": 1
+      },
+      {
+        "t": 0.904236,
+        "opacity": 1
+      },
+      {
+        "t": 0.934428,
+        "opacity": 1
+      }
+    ]
+  }
+}

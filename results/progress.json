@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:01:50.184871+00:00",
+  "updated_utc": "2026-10-30T04:03:13.132565+00:00",
   "total": 380,
   "counts": {
-    "complete": 263,
+    "complete": 264,
     "running": 5,
-    "not_started": 112
+    "not_started": 111
   },
   "current_batch": {
     "from_number": 201,
@@ -2650,11 +2650,11 @@
       "id": "new-era-automotive-hero",
       "title": "New Era Automotive Hero",
       "category": "Automotive",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af4-82ee-7a30-a106-daf7eeba3be3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "7beee6323448c70372bb474e7aeb957b72c41c73",
+      "group_message_id": 329,
+      "url": "https://tool.luo-xd.com/motionsites-results/new-era-automotive-hero/"
     },
     {
       "id": "new-era-bold-hero",
@@ -2681,7 +2681,7 @@
       "title": "Sync AI",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af7-98a3-7262-a7c1-a6bc89bc4f5c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2691,7 +2691,7 @@
       "title": "Targo Logistics Hero",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af7-99e5-7bd2-bab7-75d6b9340c1c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2700,7 +2700,7 @@
       "id": "viktor-portfolio",
       "title": "Viktor Portfolio",
       "category": "Portfolio",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

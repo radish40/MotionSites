@@ -9042,19 +9042,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af4-82ee-7a30-a106-daf7eeba3be3",
       "output_path": "generated/gpt-6.1-sol-high/new-era-automotive-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 668318,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:57:22.442644+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "7beee6323448c70372bb474e7aeb957b72c41c73",
+      "url": "https://tool.luo-xd.com/motionsites-results/new-era-automotive-hero/",
+      "completed_utc": "2026-10-30T04:03:12.951875+00:00",
+      "group_message_id": 329
     },
     {
       "number": 265,
@@ -9133,14 +9137,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af7-98a3-7262-a7c1-a6bc89bc4f5c",
       "output_path": "generated/gpt-6.1-sol-high/sync-ai",
       "validation": "",
       "notes": "",
       "process_id": 682172,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:00:44.520602+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 268,
@@ -9159,14 +9167,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af7-99e5-7bd2-bab7-75d6b9340c1c",
       "output_path": "generated/gpt-6.1-sol-high/targo-logistics-hero",
       "validation": "",
       "notes": "",
       "process_id": 682243,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:00:44.691495+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 269,
@@ -9184,11 +9196,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/viktor-portfolio",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 691195,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:02:44.533821+00:00",
+      "worker_state": "running"
     },
     {
       "number": 270,
@@ -11634,7 +11650,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:01:50.184871+00:00",
+  "updated_utc": "2026-10-30T04:03:13.132565+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

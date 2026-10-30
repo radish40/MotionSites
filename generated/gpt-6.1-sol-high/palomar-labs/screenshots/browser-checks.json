@@ -1,0 +1,376 @@
+{
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Oswald:wght@500&family=Montserrat:wght@700&family=Roboto+Slab:wght@600&family=Raleway:wght@700&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue+Light",
+      "status": 200
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtM.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvsUZiZQ.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rj.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCIPrE.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue+Light",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Oswald:wght@500&family=Montserrat:wght@700&family=Roboto+Slab:wght@600&family=Raleway:wght@700&display=swap",
+      "status": 200
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvsUZiZQ.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtM.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCIPrE.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rj.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+      "status": 206
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+      "status": 206
+    }
+  ],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "video": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 100%"
+      },
+      "fonts": [
+        {
+          "family": "Helvetica Neue Light",
+          "status": "loaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "loaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "unloaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "unloaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "unloaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "unloaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "loaded"
+        },
+        {
+          "family": "Playfair Display",
+          "status": "unloaded"
+        },
+        {
+          "family": "Playfair Display",
+          "status": "unloaded"
+        },
+        {
+          "family": "Playfair Display",
+          "status": "unloaded"
+        },
+        {
+          "family": "Playfair Display",
+          "status": "loaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "unloaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "unloaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "unloaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "unloaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "loaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "loaded"
+        }
+      ]
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "video": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260820_010308_b1636845-4c15-4ab6-b0c9-9a29bfb0c6e3.mp4",
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "objectFit": "cover",
+        "objectPosition": "50% 100%"
+      },
+      "fonts": [
+        {
+          "family": "Helvetica Neue Light",
+          "status": "loaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "status": "loaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "unloaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "unloaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "unloaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "unloaded"
+        },
+        {
+          "family": "Oswald",
+          "status": "loaded"
+        },
+        {
+          "family": "Playfair Display",
+          "status": "unloaded"
+        },
+        {
+          "family": "Playfair Display",
+          "status": "unloaded"
+        },
+        {
+          "family": "Playfair Display",
+          "status": "unloaded"
+        },
+        {
+          "family": "Playfair Display",
+          "status": "loaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "unloaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "unloaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "unloaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "unloaded"
+        },
+        {
+          "family": "Raleway",
+          "status": "loaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "unloaded"
+        },
+        {
+          "family": "Roboto Slab",
+          "status": "loaded"
+        }
+      ]
+    }
+  },
+  "interactions": [
+    "Desktop Solutions button does not open a dropdown",
+    "Solutions: menu opens, locks scroll, closes on selection, restores scrolling",
+    "Plans: menu opens, locks scroll, closes on selection, restores scrolling",
+    "News: menu opens, locks scroll, closes on selection, restores scrolling",
+    "Try It Free: menu opens, locks scroll, closes on selection, restores scrolling",
+    "Escape closes mobile menu",
+    "Resizing to desktop closes menu and restores scrolling",
+    "Short viewport scrolling applies navbar cream background, blur, and shadow",
+    "Mobile menu covers the full viewport even when navbar is scrolled and blurred"
+  ]
+}

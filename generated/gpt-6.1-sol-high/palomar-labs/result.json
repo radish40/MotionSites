@@ -1,0 +1,29 @@
+{
+  "title": "Palomar Labs",
+  "id": "palomar-labs",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/palomar-labs/",
+    "desktop": "1440x1000: passed; no horizontal overflow",
+    "mobile": "390x844: passed; no horizontal overflow",
+    "runtime_errors": 0,
+    "video": "Exact requested URL; HTTP 206; 1920x1080; active muted inline looping playback on both viewports; cover/bottom framing",
+    "fonts": "All six requested font families loaded; font stylesheets and used font files HTTP 200",
+    "interactions": "Mobile toggle, every menu selection, scroll lock/restoration, Escape, desktop resize cleanup, scroll-dependent navbar, full-screen scrolled menu, desktop Solutions without dropdown",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/mobile-menu.png"],
+    "browser_report": "screenshots/browser-checks.json",
+    "dependency_audit": "0 vulnerabilities"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React + TypeScript + Vite + Tailwind CSS + lucide-react; Navbar, Hero, TrustedBy in src/App.tsx.",
+    "All specified asset URLs preserved; no recovery or extracted assets needed.",
+    "Chromium canceled some video range requests during navigation/stream management; playback and decoding passed on desktop and mobile.",
+    "External assets require network access; moving footage means screenshots capture different moments.",
+    "Unspecified destination links use #; mobile selections close the menu. Desktop Solutions intentionally has no dropdown.",
+    "Only Chromium tested; no Safari or physical-device verification.",
+    "No extra sections, deployment, push, messages, agents, or other design work. Ready for review, not deployed."
+  ]
+}

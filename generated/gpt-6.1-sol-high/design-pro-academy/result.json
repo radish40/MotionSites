@@ -1,0 +1,49 @@
+{
+  "title": "DesignPro Academy",
+  "id": "design-pro-academy",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "required_base_path": "/motionsites-results/design-pro-academy/",
+    "browser": "Chromium via Playwright Core",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "horizontal_overflow": false,
+    "page_script_errors": 0,
+    "normal_failed_requests": 0,
+    "video": "exact remote source decoded and playing in both viewports",
+    "local_video_fallback": "passed with remote source deliberately blocked",
+    "local_inter_fonts": "loaded in both viewports",
+    "shiny_text": "gradient progression verified; 3-second continuous animation, 100-degree gradient",
+    "heading_line_height": "0.85 verified from computed styles",
+    "interactions": [
+      "enrollment dialog",
+      "Escape dismissal",
+      "all desktop navigation panels",
+      "mobile menu and course navigation",
+      "return buttons"
+    ],
+    "reduced_motion": "video paused and text animation disabled",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional design-pro-academy.webp reference",
+      "issue": "not present at specified path",
+      "resolution": "implemented from the full written prompt; no extracted or reconstructed assets"
+    }
+  ],
+  "notes": [
+    "Required React + TypeScript + Vite + Tailwind CSS + Framer Motion + Lucide React stack used.",
+    "dist/index.html and all static assets are ready for review; no deployment or push performed.",
+    "Original video retained as primary URL; identical local MP4 fallback bundled.",
+    "Source content for destination pages and an enrollment backend was not supplied. Small information dialogs explain opening-soon availability; no forms transmit data.",
+    "Chromium checked; Safari and Firefox not tested.",
+    "README.md contains run instructions, verification and limitations."
+  ]
+}

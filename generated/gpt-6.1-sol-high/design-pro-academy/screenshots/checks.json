@@ -1,0 +1,59 @@
+{
+  "desktop": {
+    "overflow": false,
+    "video": {
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_105406_16f4600d-7a92-4292-b96e-b19156c7830a.mp4",
+      "readyState": 4,
+      "paused": false,
+      "time": 2.081639,
+      "width": 1924,
+      "height": 1076
+    },
+    "font": true,
+    "heading": {
+      "x": 282.828125,
+      "y": 471.703125,
+      "width": 874.328125,
+      "height": 217.59375,
+      "top": 471.703125,
+      "right": 1157.15625,
+      "bottom": 689.296875,
+      "left": 282.828125
+    },
+    "lineHeight": "108.8px",
+    "fontSize": "128px",
+    "interactions": "enrollment dialog, Escape dismissal, course navigation, return button passed",
+    "failedRequests": []
+  },
+  "mobile": {
+    "overflow": false,
+    "video": {
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_105406_16f4600d-7a92-4292-b96e-b19156c7830a.mp4",
+      "readyState": 4,
+      "paused": false,
+      "time": 2.18662,
+      "width": 1924,
+      "height": 1076
+    },
+    "font": true,
+    "heading": {
+      "x": 31.171875,
+      "y": 464.984375,
+      "width": 327.65625,
+      "height": 81.53125,
+      "top": 464.984375,
+      "right": 358.828125,
+      "bottom": 546.515625,
+      "left": 31.171875
+    },
+    "lineHeight": "40.7745px",
+    "fontSize": "47.97px",
+    "interactions": "enrollment dialog, Escape dismissal, course navigation, return button passed",
+    "failedRequests": []
+  },
+  "fallback": {
+    "source": "http://127.0.0.1:4173/motionsites-results/design-pro-academy/assets/designpro-background.mp4",
+    "paused": true
+  },
+  "errors": []
+}

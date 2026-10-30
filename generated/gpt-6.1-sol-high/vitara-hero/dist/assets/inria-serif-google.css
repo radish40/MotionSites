@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inriaserif/v18/fC14PYxPY3rXxEndZJAzN3wAVQjF.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inriaserif/v18/fC1lPYxPY3rXxEndZJAzN0Ss.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inriaserif/v18/fC14PYxPY3rXxEndZJAzN3wQUgjF.ttf) format('truetype');
+}

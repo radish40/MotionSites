@@ -1,0 +1,36 @@
+{
+  "title": "Vitara",
+  "id": "vitara-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci --no-audit --no-fund && npm run build\"",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite",
+    "desktop": "1440x1000; passed",
+    "mobile": "390x844; passed",
+    "horizontal_overflow": "none at either viewport",
+    "interactions": "All three shortcuts, send, login form, sign-up dialog, desktop navigation passed",
+    "video": "Exact supplied URL loaded and playing at both viewports",
+    "fonts": "Inria Serif loaded; Google import plus bundled original TTF files",
+    "script_errors": 0,
+    "failed_requests": 0,
+    "external_asset_fallback": "passed with external requests blocked",
+    "reduced_motion": "passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_evidence": [
+      "screenshots/checks.json",
+      "screenshots/fallback-checks.json"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Built static files are in dist/; base path /motionsites-results/vitara-hero/.",
+    "Original video and original Google font files bundled as fallbacks. No replacement assets used.",
+    "Specified preview file was absent; design follows PROMPT.md.",
+    "UI is a frontend demonstration; no live clinical AI, authentication, or data storage backend.",
+    "Nothing deployed or pushed. No agents or other sessions created.",
+    "Vite emits a public CSS runtime-resolution notice; browser checks verify the stylesheet and local fonts resolve at the required subpath."
+  ]
+}

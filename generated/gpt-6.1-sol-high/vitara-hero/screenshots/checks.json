@@ -1,0 +1,48 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "documentWidth": 1440,
+    "viewportWidth": 1440,
+    "fontLoaded": true,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "time": 3.9505,
+      "width": 1924,
+      "height": 1076,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260402_134434_5de46cb4-38e7-42a6-a8bc-6e62b2fd6c7b.mp4"
+    },
+    "navVisible": true,
+    "heading": "Smart Care Begins with Data + Insight",
+    "errors": [],
+    "failedRequests": [],
+    "interactions": "passed"
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "documentWidth": 390,
+    "viewportWidth": 390,
+    "fontLoaded": true,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "time": 3.970059,
+      "width": 1924,
+      "height": 1076,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260402_134434_5de46cb4-38e7-42a6-a8bc-6e62b2fd6c7b.mp4"
+    },
+    "navVisible": false,
+    "heading": "Smart Care Begins with Data + Insight",
+    "errors": [],
+    "failedRequests": [],
+    "interactions": "passed"
+  }
+]

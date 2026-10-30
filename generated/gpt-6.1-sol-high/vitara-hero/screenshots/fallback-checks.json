@@ -1,0 +1,7 @@
+{
+  "videoSource": "http://localhost:4173/motionsites-results/vitara-hero/assets/vitara-hero.mp4",
+  "videoPlaying": true,
+  "videoReady": 4,
+  "fontLoaded": true,
+  "reducedMotionOpacity": "1"
+}

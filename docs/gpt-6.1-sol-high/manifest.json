@@ -11407,13 +11407,14 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "source_commit": "0d9234c763bfff6dc55d682d9bc7f425f78f7f7e",
+      "source_commit": "cf46205aa04505c7cb601f725031383b35492948",
       "url": "https://tool.luo-xd.com/motionsites-results/18/",
-      "completed_utc": "2026-10-30T05:27:43.702328+00:00",
+      "completed_utc": "2026-10-30T05:29:06.076973+00:00",
       "group_message_id": 401,
       "preview_delay_ms": 1700,
-      "preview_previous_source_commit": "a60c57c372e5a29fb878bdd59373d3cc6eb25b7e",
-      "preview_refreshed_utc": "2026-10-30T05:27:43.702416+00:00"
+      "preview_previous_source_commit": "0d9234c763bfff6dc55d682d9bc7f425f78f7f7e",
+      "preview_refreshed_utc": "2026-10-30T05:29:06.077048+00:00",
+      "preview_selector": ".loading-word"
     },
     {
       "number": 334,
@@ -11465,20 +11466,24 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b3f-4a67-7b30-80c2-63179c83ef5a",
       "output_path": "generated/gpt-6.1-sol-high/wisa-space-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Management acceptance requested a correction in this same original design session; private repair prompt records details.",
       "process_id": 1009964,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:19:02.949127+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "5ffca19068b064a63d02340168b5249593e60728",
+      "url": "https://tool.luo-xd.com/motionsites-results/wisa-space-hero/",
+      "completed_utc": "2026-10-30T05:29:34.535543+00:00",
+      "group_message_id": 404
     },
     {
       "number": 336,
@@ -11496,19 +11501,20 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a18b41-af17-7bb2-9923-e5bee4c7ac4c",
       "output_path": "generated/gpt-6.1-sol-high/vortex-studio-hero",
-      "validation": "",
-      "notes": "",
+      "validation": "Live browser check failed; see screenshots/live-check.json",
+      "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "process_id": 1004033,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:21:40.025222+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "delivery_failures": 1
     },
     {
       "number": 337,
@@ -11650,11 +11656,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/sentinel-ai-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1033362,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:29:06.452781+00:00",
+      "worker_state": "running"
     },
     {
       "number": 342,
@@ -11672,11 +11682,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/slam-dunk-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1033429,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:29:06.591943+00:00",
+      "worker_state": "running"
     },
     {
       "number": 343,
@@ -12516,7 +12530,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:27:44.107741+00:00",
+  "updated_utc": "2026-10-30T05:29:55.976334+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

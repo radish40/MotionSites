@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T05:27:44.107741+00:00",
+  "updated_utc": "2026-10-30T05:29:55.976334+00:00",
   "total": 380,
   "counts": {
-    "complete": 335,
+    "complete": 336,
+    "needs_fix": 1,
     "running": 5,
-    "not_started": 40
+    "not_started": 38
   },
   "current_batch": {
     "from_number": 201,
@@ -3342,7 +3343,7 @@
       "category": "Component",
       "status": "complete",
       "thread_id": "01a18b3f-482d-7640-9d8e-18bd2fa45b8c",
-      "source_commit": "0d9234c763bfff6dc55d682d9bc7f425f78f7f7e",
+      "source_commit": "cf46205aa04505c7cb601f725031383b35492948",
       "group_message_id": 401,
       "url": "https://tool.luo-xd.com/motionsites-results/18/"
     },
@@ -3360,17 +3361,17 @@
       "id": "wisa-space-hero",
       "title": "WISA Space",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b3f-4a67-7b30-80c2-63179c83ef5a",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5ffca19068b064a63d02340168b5249593e60728",
+      "group_message_id": 404,
+      "url": "https://tool.luo-xd.com/motionsites-results/wisa-space-hero/"
     },
     {
       "id": "vortex-studio-hero",
       "title": "AI Designer Portfolio",
       "category": "Landing Page",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a18b41-af17-7bb2-9923-e5bee4c7ac4c",
       "source_commit": null,
       "group_message_id": null,
@@ -3420,7 +3421,7 @@
       "id": "sentinel-ai-hero",
       "title": "Sentinel AI",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3430,7 +3431,7 @@
       "id": "slam-dunk-hero",
       "title": "Slam Dunk",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

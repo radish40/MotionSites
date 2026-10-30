@@ -26,6 +26,17 @@ const path = require('node:path');
       // settled-page checks unchanged so later errors cannot escape acceptance.
       if (previewDelayMs !== null) {
         await page.waitForTimeout(previewDelayMs);
+        if (previewSelector) {
+          const subject = page.locator(previewSelector).first();
+          await subject.waitFor({state:'visible',timeout:2000});
+          let opaque = false;
+          for (let attempt=0;attempt<30;attempt++) {
+            opaque = await subject.evaluate(element => Number(getComputedStyle(element).opacity) >= 0.95);
+            if (opaque) break;
+            await page.waitForTimeout(50);
+          }
+          if (!opaque) throw Error('Animated preview subject never became readable');
+        }
         await page.screenshot({ path: path.join(output, `${name}.png`) });
         await page.waitForTimeout(5000 - previewDelayMs);
       } else {
@@ -53,7 +64,7 @@ const path = require('node:path');
         // Headlines often enter after an introductory clip's ended event.
         await page.waitForTimeout(2000);
       }
-      if (previewSelector) {
+      if (previewSelector && previewDelayMs === null) {
         await page.locator(previewSelector).first().scrollIntoViewIfNeeded();
         await page.waitForTimeout(1500);
       }

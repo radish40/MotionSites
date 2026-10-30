@@ -1,0 +1,20 @@
+{
+  "attempts": [
+    {
+      "label": "hero_cdn",
+      "url": "https://cdn.jsdelivr.net/gh/dsMagnatov/Acreage-landing-assets@main/0098888.jpg",
+      "checked_at_utc": "2026-10-30T05:36:12.151593+00:00",
+      "status": 404,
+      "reason": "Not Found",
+      "response_excerpt": "Couldn't find the requested file /0098888.jpg in dsMagnatov/Acreage-landing-assets."
+    },
+    {
+      "label": "innovation_cdn",
+      "url": "https://cdn.jsdelivr.net/gh/dsMagnatov/Acreage-landing-assets@main/02604201313.png",
+      "checked_at_utc": "2026-10-30T05:36:12.163444+00:00",
+      "status": 404,
+      "reason": "Not Found",
+      "response_excerpt": "Couldn't find the requested file /02604201313.png in dsMagnatov/Acreage-landing-assets."
+    }
+  ]
+}

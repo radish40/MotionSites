@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "hero image",
+    "requested_url": "https://github.com/dsMagnatov/Acreage-landing-assets/blob/main/0098888.jpg?raw=true",
+    "result": "HTTP 404 on GitHub blob and raw main/master paths",
+    "fallback": "public/assets/hero-fallback.jpg",
+    "source": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=2400&q=90"
+  },
+  {
+    "asset": "hero video",
+    "requested_url": "https://pikaso.cdnpk.net/private/production/4021778466/80a7f7ef-643d-40bc-b533-1e86f159d653-0.mp4?token=exp=1777075200~hmac=91d86c3600a89e923130fce0912dcfb0de81f05f2cde5fc77c30f3e7ae094342",
+    "result": "HTTP 403 with supplied token and without query string",
+    "fallback": "public/assets/hero-motion.webm",
+    "source": "Locally generated camera/light sweep of hero-fallback.jpg; not original Nike motion footage."
+  },
+  {
+    "asset": "innovation image",
+    "requested_url": "https://github.com/dsMagnatov/Acreage-landing-assets/blob/main/02604201313.png?raw=true",
+    "result": "HTTP 404 on GitHub blob and raw main paths",
+    "fallback": "public/assets/innovation-fallback.jpg",
+    "source": "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=2400&q=90"
+  },
+  {
+    "asset": "innovation video",
+    "requested_url": "https://pikaso.cdnpk.net/private/production/4024859125/d070ae9c-55df-47aa-acbe-4ee66337855c-0.mp4?token=exp=1777075200~hmac=4202c1d0ec90137eb6dffa8e0db93ed7569a68b2016165d8b1b567f888869ff5",
+    "result": "HTTP 403 with supplied token and without query string",
+    "fallback": "public/assets/innovation-motion.webm",
+    "source": "Locally generated camera/light sweep of innovation-fallback.jpg; not original Nike motion footage."
+  },
+  {
+    "asset": "optional visual reference",
+    "requested_path": "/home/opc/motionsites/assets/previews/nike-premium-landing.webp",
+    "result": "File does not exist; no reference extraction possible."
+  },
+  {
+    "asset": "exact-source recovery follow-up",
+    "result": "No original assets recovered. Live repository HTTP 404; Git refs HTTP 401; API HTTP 403 rate limit; both raw main images HTTP 404; both jsDelivr main images HTTP 404. Cached repository listing showed expected filenames but did not yield media.",
+    "evidence": [
+      "source-recovery-review.json",
+      "source-recovery-cdn-review.json"
+    ],
+    "classification": "APPROXIMATION; existing Unsplash fallback photos and locally generated camera/light sweep clips retained. Original failure evidence above remains unchanged."
+  }
+]

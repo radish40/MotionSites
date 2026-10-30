@@ -1,0 +1,41 @@
+const {chromium}=require('/app/node_modules/playwright-core');
+const fs=require('fs');
+const assert=require('assert');
+(async()=>{
+ const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
+ const report={url:'http://127.0.0.1:4173/motionsites-results/nike-premium-landing/',viewports:[],errors:[],failedRequests:[],badResponses:[]};
+ for(const viewport of [{width:1440,height:1000},{width:390,height:844}]){
+  const page=await browser.newPage({viewport,isMobile:viewport.width<700,hasTouch:viewport.width<700});
+  page.on('pageerror',e=>report.errors.push(e.message));
+  page.on('requestfailed',r=>report.failedRequests.push({url:r.url(),error:r.failure()?.errorText}));
+  page.on('response',r=>{if(r.status()>=400)report.badResponses.push({url:r.url(),status:r.status()});});
+  await page.goto(report.url,{waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(800);
+  assert.equal(await page.locator('section').count(),2);
+  const label=viewport.width===1440?'desktop':'mobile';
+  await page.mouse.move(viewport.width*.75,viewport.height*.5);await page.waitForTimeout(700);
+  await page.screenshot({path:`screenshots/${label}.png`});
+  const hero=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,fonts:[document.fonts.check('500 16px Manrope'),document.fonts.check('italic 16px "Instrument Serif"')],videos:[...document.querySelectorAll('video')].map(v=>({readyState:v.readyState,paused:v.paused,error:v.error?.message}))}));
+  assert(hero.scrollWidth<=viewport.width,'horizontal overflow');
+  assert.equal(hero.videos.length,2,'two video players');assert(hero.videos.every(v=>v.readyState>=2),'video decoding');
+  await page.mouse.move(80,80);await page.waitForTimeout(350);
+  assert(await page.locator('video').first().evaluate(v=>v.paused),'hero pauses outside hover zone');
+  await page.mouse.move(viewport.width*.7,viewport.height*.6);await page.waitForTimeout(350);
+  assert.equal(await page.locator('video').first().evaluate(v=>v.paused),false,'hero plays in hover zone');
+  const menu=page.getByRole('button',{name:'Toggle menu'});await menu.click();await page.waitForTimeout(800);
+  assert.equal(await menu.getAttribute('aria-expanded'),'true');
+  assert.equal(await page.getByRole('link').count(),5);
+  await page.screenshot({path:`screenshots/${label}-menu.png`});
+  await page.keyboard.press('Escape');await page.waitForTimeout(300);assert.equal(await menu.getAttribute('aria-expanded'),'false');
+  await menu.click();await page.waitForTimeout(700);await page.getByRole('link',{name:'Innovation',exact:true}).click();await page.waitForTimeout(1200);
+  assert.equal(await menu.getAttribute('aria-expanded'),'false');
+  await page.evaluate(()=>window.scrollTo({top:window.innerHeight,behavior:'instant'}));await page.waitForTimeout(500);
+  await page.mouse.move(viewport.width*.65,viewport.height*.5);await page.waitForFunction(() => {const circle=document.querySelectorAll('mask')[1]?.querySelector('circle'); const y=Number(circle?.getAttribute('cy'));return y>0 && y<innerHeight;}, {timeout:10000});
+  const second=await page.evaluate(()=>({scrollY,top:document.querySelectorAll('section')[1].getBoundingClientRect().top,scrollWidth:document.documentElement.scrollWidth,maskIds:[...document.querySelectorAll('mask')].map(x=>x.id),circle:[...document.querySelectorAll('mask')][1].querySelector('circle').getAttribute('cy'),videos:[...document.querySelectorAll('video')].map(v=>({readyState:v.readyState,paused:v.paused,currentTime:v.currentTime,error:v.error?.message}))}));
+  assert(second.scrollWidth<=viewport.width);assert(Math.abs(second.top)<2);assert.equal(new Set(second.maskIds).size,2);assert(Number(second.circle)>0 && Number(second.circle)<viewport.height,JSON.stringify(second));
+  await page.screenshot({path:`screenshots/${label}-innovation.png`});
+  report.viewports.push({viewport,hero,second,checks:['two sections','no horizontal overflow','menu open','five menu links','Escape closes','menu navigation closes and scrolls','unique SVG masks','section-local pointer coordinates']});
+  await page.close();
+ }
+ fs.writeFileSync('screenshots/browser-checks.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));await browser.close();
+ assert.equal(report.errors.length,0,'runtime errors');assert.equal(report.badResponses.length,0,'failed HTTP response');
+})().catch(e=>{console.error(e);process.exit(1)});

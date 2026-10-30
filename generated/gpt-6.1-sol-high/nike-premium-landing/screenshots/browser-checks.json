@@ -1,0 +1,120 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/nike-premium-landing/",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "hero": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "fonts": [
+          true,
+          true
+        ],
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": false
+          },
+          {
+            "readyState": 4,
+            "paused": true
+          }
+        ]
+      },
+      "second": {
+        "scrollY": 1000,
+        "top": 0,
+        "scrollWidth": 1440,
+        "maskIds": [
+          "mask-_r_0_",
+          "mask-_r_2_"
+        ],
+        "circle": "27.31521837668626",
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 3.515435
+          },
+          {
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 1.556053
+          }
+        ]
+      },
+      "checks": [
+        "two sections",
+        "no horizontal overflow",
+        "menu open",
+        "five menu links",
+        "Escape closes",
+        "menu navigation closes and scrolls",
+        "unique SVG masks",
+        "section-local pointer coordinates"
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "hero": {
+        "width": 390,
+        "scrollWidth": 390,
+        "fonts": [
+          true,
+          true
+        ],
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": false
+          },
+          {
+            "readyState": 4,
+            "paused": true
+          }
+        ]
+      },
+      "second": {
+        "scrollY": 844,
+        "top": 0,
+        "scrollWidth": 390,
+        "maskIds": [
+          "mask-_r_0_",
+          "mask-_r_2_"
+        ],
+        "circle": "21.22875987844872",
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 3.521446
+          },
+          {
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 2.552214
+          }
+        ]
+      },
+      "checks": [
+        "two sections",
+        "no horizontal overflow",
+        "menu open",
+        "five menu links",
+        "Escape closes",
+        "menu navigation closes and scrolls",
+        "unique SVG masks",
+        "section-local pointer coordinates"
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "badResponses": []
+}

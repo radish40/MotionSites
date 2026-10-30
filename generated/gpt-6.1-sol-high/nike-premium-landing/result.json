@@ -1,0 +1,107 @@
+{
+  "title": "Nike Premium Landing",
+  "id": "nike-premium-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci && npm run build\"",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "passed: actual dist served at required subpath with Chromium/Playwright",
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "interactions": [
+      "GSAP menu open/close",
+      "five menu labels",
+      "Escape dismissal",
+      "menu navigation and scrolling",
+      "two independent six-circle SVG masks",
+      "section-local pointer tracking",
+      "two decoded videos per viewport",
+      "hover playback and pause"
+    ],
+    "horizontal_overflow": "none at either viewport",
+    "fonts": "Manrope and Instrument Serif loaded at both viewports",
+    "runtime_errors": [],
+    "failed_requests": [],
+    "http_failures": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-innovation.png",
+      "screenshots/mobile-innovation.png",
+      "screenshots/desktop-menu.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "report": "screenshots/browser-checks.json",
+    "acceptance_update": "Documentation/classification only; existing source, media, checker, production output and genuine passing browser evidence retained unchanged (SHA-256 verified). No rebuild or new browser run required or claimed.",
+    "preservation_manifest": "acceptance-preservation.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "hero image",
+      "requested_url": "https://github.com/dsMagnatov/Acreage-landing-assets/blob/main/0098888.jpg?raw=true",
+      "result": "HTTP 404 on GitHub blob and raw main/master paths",
+      "fallback": "public/assets/hero-fallback.jpg",
+      "source": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=2400&q=90"
+    },
+    {
+      "asset": "hero video",
+      "requested_url": "https://pikaso.cdnpk.net/private/production/4021778466/80a7f7ef-643d-40bc-b533-1e86f159d653-0.mp4?token=exp=1777075200~hmac=91d86c3600a89e923130fce0912dcfb0de81f05f2cde5fc77c30f3e7ae094342",
+      "result": "HTTP 403 with supplied token and without query string",
+      "fallback": "public/assets/hero-motion.webm",
+      "source": "Locally generated camera/light sweep of hero-fallback.jpg; not original Nike motion footage."
+    },
+    {
+      "asset": "innovation image",
+      "requested_url": "https://github.com/dsMagnatov/Acreage-landing-assets/blob/main/02604201313.png?raw=true",
+      "result": "HTTP 404 on GitHub blob and raw main paths",
+      "fallback": "public/assets/innovation-fallback.jpg",
+      "source": "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=2400&q=90"
+    },
+    {
+      "asset": "innovation video",
+      "requested_url": "https://pikaso.cdnpk.net/private/production/4024859125/d070ae9c-55df-47aa-acbe-4ee66337855c-0.mp4?token=exp=1777075200~hmac=4202c1d0ec90137eb6dffa8e0db93ed7569a68b2016165d8b1b567f888869ff5",
+      "result": "HTTP 403 with supplied token and without query string",
+      "fallback": "public/assets/innovation-motion.webm",
+      "source": "Locally generated camera/light sweep of innovation-fallback.jpg; not original Nike motion footage."
+    },
+    {
+      "asset": "optional visual reference",
+      "requested_path": "/home/opc/motionsites/assets/previews/nike-premium-landing.webp",
+      "result": "File does not exist; no reference extraction possible."
+    },
+    {
+      "asset": "exact-source recovery follow-up",
+      "result": "No original assets recovered. Live repository HTTP 404; Git refs HTTP 401; API HTTP 403 rate limit; both raw main images HTTP 404; both jsDelivr main images HTTP 404. Cached repository listing showed expected filenames but did not yield media.",
+      "evidence": [
+        "source-recovery-review.json",
+        "source-recovery-cdn-review.json"
+      ],
+      "classification": "APPROXIMATION; existing Unsplash fallback photos and locally generated camera/light sweep clips retained. Original failure evidence above remains unchanged."
+    }
+  ],
+  "notes": [
+    "Ready for management acceptance as an explicitly authorized APPROXIMATION. Existing production build and functional browser checks pass with local fallback media. Original media recovery has not succeeded; exact source fidelity is not claimed.",
+    "Required React, TypeScript, Tailwind v4, GSAP and react-player are installed, with package-lock.json.",
+    "Google Fonts configuration and supplied text, menu labels, vectors and desktop positioning retained; responsive overrides added for mobile.",
+    "Fallback photographs are separate image assets; locally generated WebM camera/light sweeps approximate motion. They do not reproduce the unavailable original videos.",
+    "No full-page screenshot or video was used as page content.",
+    "Vite emits a large-chunk warning for optional react-player provider bundles.",
+    "All output is inside this project. No deployment, push, subagents or external messaging.",
+    "Acceptance update changes documentation/classification only; source, assets, checker, dist and genuine passing screenshots/browser report are preserved. No new build/browser run is claimed for this update."
+  ],
+  "fidelity": "APPROXIMATION",
+  "classification_history": [
+    {
+      "previous_status": "blocked",
+      "reason": "Original images/videos unavailable; no own reference preview.",
+      "current_status": "ready",
+      "basis": "User explicitly authorizes documented visual approximations for management acceptance; not deployed.",
+      "updated_at_utc": "2026-10-30T05:37:07.449573+00:00"
+    }
+  ],
+  "recovery_evidence": [
+    "asset-manifest.json",
+    "source-recovery-review.json",
+    "source-recovery-cdn-review.json"
+  ]
+}

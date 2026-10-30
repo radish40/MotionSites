@@ -1,0 +1,52 @@
+{
+  "attempts": [
+    {
+      "label": "repository",
+      "url": "https://github.com/dsMagnatov/Acreage-landing-assets",
+      "checked_at_utc": "2026-10-30T05:35:40.040204+00:00",
+      "status": 404,
+      "reason": "Not Found",
+      "response_excerpt": "\n\n\n\n\n\n\n\n<!DOCTYPE html>\n<html\n  lang=\"en\"\n  \n  data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\"\n  data-a11y-animated-images=\"system\" data-a11y-link-underlines=\"true\"\n  data-css-features=\"site_disable_smooth_scrolling\"\n  >\n\n\n\n\n  <head>\n    <meta charset=\"utf-8\">\n  <link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\">\n  <link rel=\"dns-prefetch\" href=\"https://avatars.githubusercontent.com\">\n  <link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\">\n  <"
+    },
+    {
+      "label": "repository_api",
+      "url": "https://api.github.com/repos/dsMagnatov/Acreage-landing-assets",
+      "checked_at_utc": "2026-10-30T05:35:40.041258+00:00",
+      "status": 403,
+      "reason": "rate limit exceeded",
+      "response_excerpt": "{\"message\":\"API rate limit exceeded for 140.83.48.92. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
+    },
+    {
+      "label": "hero_raw",
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/main/0098888.jpg",
+      "checked_at_utc": "2026-10-30T05:35:40.041580+00:00",
+      "status": 404,
+      "reason": "Not Found",
+      "response_excerpt": "404: Not Found"
+    },
+    {
+      "label": "innovation_raw",
+      "url": "https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/main/02604201313.png",
+      "checked_at_utc": "2026-10-30T05:35:40.041900+00:00",
+      "status": 404,
+      "reason": "Not Found",
+      "response_excerpt": "404: Not Found"
+    },
+    {
+      "label": "repository_refs",
+      "url": "https://github.com/dsMagnatov/Acreage-landing-assets.git/info/refs?service=git-upload-pack",
+      "checked_at_utc": "2026-10-30T05:35:40.042617+00:00",
+      "status": 401,
+      "reason": "Unauthorized",
+      "response_excerpt": "Repository not found."
+    }
+  ],
+  "cached_web_observation": {
+    "url": "https://github.com/dsMagnatov/Acreage-landing-assets",
+    "observation": "The web tool returned a repository snapshot crawled last month listing 0098888.jpg and 02604201313.png. Direct current repository access returned HTTP 404, refs HTTP 401, raw image URLs HTTP 404. Cached existence is not evidence of successful media recovery.",
+    "blob_checks": "Both corresponding blob pages without raw query returned cache-miss fetch errors in the web tool.",
+    "raw_web_checks": "Web tool returned no readable content for the two raw image URLs; no original binary media was recovered."
+  },
+  "cdn_evidence": "source-recovery-cdn-review.json",
+  "conclusion": "Exact original image recovery remains unsuccessful. Existing fallback images and generated clips retained, explicitly classified as APPROXIMATION."
+}

@@ -1,0 +1,31 @@
+{
+  "title": "New Era Bold Hero",
+  "id": "new-era-bold-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "stack": "React 19.2.0, Tailwind CSS 4.1.17, Vite 7.3.7",
+    "publish_base": "/motionsites-results/new-era-bold-hero/",
+    "browser": "Chromium via playwright-core in supplied Docker image",
+    "viewports": ["1440x1000", "390x844", "320x740", "768x1024"],
+    "layout": "passed; no horizontal overflow or headline clipping; correct top padding and CTA dimensions",
+    "typography": "passed; local Rubik 700 loaded; exact three-line uppercase headline",
+    "video": "passed; decoded 1704x1212; autoplay, muted, loop, playsInline; playback advances",
+    "interactions": "passed; hover 1.05, active 0.95, keyboard focus/Enter, touch tap",
+    "browser_errors": [],
+    "dependency_audit": "0 vulnerabilities",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original specified video and Rubik font downloaded and bundled locally; source URLs documented in README.md.",
+    "No reference screenshot is used as page content; layout, text, SVG button, and video are independently implemented.",
+    "CTA implements the requested visual interactions; no destination was specified.",
+    "Screenshots hold the real video at one second after verifying playback; live page loops normally.",
+    "Validation uses Chromium mobile emulation, not physical mobile hardware or other engines.",
+    "Below 375px, headline size becomes fluid to preserve the three-line layout.",
+    "Ready for acceptance review; no deployment, push, external messages, or agent sessions created."
+  ]
+}

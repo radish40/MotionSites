@@ -1,0 +1,134 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "scrollWidth": 1440,
+    "scrollHeight": 1000,
+    "heading": {
+      "text": "NEW ERA\nOF DESIGN\nSTARTS NOW",
+      "top": 192,
+      "font": "Rubik, sans-serif",
+      "size": "100px"
+    },
+    "linesFit": true,
+    "button": {
+      "width": 184,
+      "height": 65
+    },
+    "fontLoaded": true,
+    "video": {
+      "playing": true,
+      "time": 0.530668,
+      "width": 1704,
+      "height": 1212,
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    },
+    "interactions": "passed",
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "scrollHeight": 844,
+    "heading": {
+      "text": "NEW ERA\nOF DESIGN\nSTARTS NOW",
+      "top": 128,
+      "font": "Rubik, sans-serif",
+      "size": "60px"
+    },
+    "linesFit": true,
+    "button": {
+      "width": 184,
+      "height": 65
+    },
+    "fontLoaded": true,
+    "video": {
+      "playing": true,
+      "time": 0.506173,
+      "width": 1704,
+      "height": 1212,
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    },
+    "interactions": "passed",
+    "errors": []
+  },
+  {
+    "name": "small-mobile",
+    "viewport": {
+      "width": 320,
+      "height": 740
+    },
+    "scrollWidth": 320,
+    "scrollHeight": 740,
+    "heading": {
+      "text": "NEW ERA\nOF DESIGN\nSTARTS NOW",
+      "top": 128,
+      "font": "Rubik, sans-serif",
+      "size": "49.28px"
+    },
+    "linesFit": true,
+    "button": {
+      "width": 184,
+      "height": 65
+    },
+    "fontLoaded": true,
+    "video": {
+      "playing": true,
+      "time": 0.550884,
+      "width": 1704,
+      "height": 1212,
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    },
+    "interactions": "passed",
+    "errors": []
+  },
+  {
+    "name": "tablet",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "scrollWidth": 768,
+    "scrollHeight": 1024,
+    "heading": {
+      "text": "NEW ERA\nOF DESIGN\nSTARTS NOW",
+      "top": 192,
+      "font": "Rubik, sans-serif",
+      "size": "96px"
+    },
+    "linesFit": true,
+    "button": {
+      "width": 184,
+      "height": 65
+    },
+    "fontLoaded": true,
+    "video": {
+      "playing": true,
+      "time": 0.555591,
+      "width": 1704,
+      "height": 1212,
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "playsInline": true
+    },
+    "interactions": "passed",
+    "errors": []
+  }
+]

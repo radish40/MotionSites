@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../public/assets/rubik-bold.ttf') format('truetype');
+}
+
+@theme {
+  --font-sans: Rubik, sans-serif;
+}
+
+html, body, #root { min-height: 100%; }
+body { margin: 0; font-family: Rubik, sans-serif; }
+.hero-container { max-width: 1408px; }
+@media (max-width: 374px) {
+  h1 { font-size: clamp(44px, 15.4vw, 60px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  button { transition: none; }
+}

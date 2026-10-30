@@ -1,0 +1,70 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/impressive-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:26:40.010Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "VEX — Shaping tomorrow",
+      "bodyChars": 255,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/impressive-hero/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.946908,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/impressive-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "VEX — Shaping tomorrow",
+      "bodyChars": 221,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/impressive-hero/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.413872,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/impressive-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

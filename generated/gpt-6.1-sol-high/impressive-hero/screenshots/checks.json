@@ -1,0 +1,50 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "navLinksVisible": true,
+    "headingCharactersVisible": true,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "time": 3.254536,
+      "width": 1920,
+      "height": 1080,
+      "muted": true,
+      "loop": true
+    },
+    "errors": [],
+    "hover": {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)"
+    },
+    "interactionChecks": "Navigation anchors and Explore Now target the tagline; both chat buttons accept clicks (no destination supplied in prompt)."
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "navLinksVisible": false,
+    "headingCharactersVisible": true,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "time": 3.260603,
+      "width": 1920,
+      "height": 1080,
+      "muted": true,
+      "loop": true
+    },
+    "errors": [],
+    "hover": {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)"
+    },
+    "interactionChecks": "Navigation anchors and Explore Now target the tagline; both chat buttons accept clicks (no destination supplied in prompt)."
+  }
+]

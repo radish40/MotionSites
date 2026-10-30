@@ -1,0 +1,39 @@
+{
+  "title": "Impressive Hero",
+  "id": "impressive-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "browser": "Chromium via playwright-core",
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "video": "Local original MP4 decoded and autoplayed muted, looping",
+    "animations": "Heading and fades completed",
+    "interactions": "Hover colors and local anchor links passed; chat buttons clicked with no action as documented",
+    "script_errors": 0,
+    "horizontal_overflow": false,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/checks.json",
+    "dependency_audit": "0 vulnerabilities"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional original visual preview",
+      "issue": "Specified file absent; implemented from full prompt."
+    }
+  ],
+  "notes": [
+    "React 18 + TypeScript + Vite + default Tailwind CSS; no extra runtime libraries.",
+    "Exact source video downloaded unchanged and bundled locally.",
+    "Public base: /motionsites-results/impressive-hero/.",
+    "Mobile heading widened by 16px to avoid an orphaned final period.",
+    "Chat destinations and individual section content are unspecified; buttons remain visual controls and links target the tagline.",
+    "System font fallback depends on operating system.",
+    "Not deployed or pushed."
+  ]
+}

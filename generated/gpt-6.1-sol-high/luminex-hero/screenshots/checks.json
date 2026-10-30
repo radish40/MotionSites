@@ -1,0 +1,47 @@
+[
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "video": {
+      "width": 1920,
+      "height": 1080,
+      "time": 1.159633,
+      "duration": 7.8,
+      "playing": true
+    },
+    "hls": true,
+    "playPause": true,
+    "workDialog": true,
+    "studioDialog": true,
+    "contactDialog": true,
+    "mobileMenu": false,
+    "horizontalOverflow": false,
+    "errors": [],
+    "badRequests": []
+  },
+  {
+    "viewport": "mobile",
+    "width": 390,
+    "height": 844,
+    "video": {
+      "width": 1920,
+      "height": 1080,
+      "time": 1.059293,
+      "duration": 7.8,
+      "playing": true
+    },
+    "hls": true,
+    "playPause": true,
+    "workDialog": true,
+    "studioDialog": true,
+    "contactDialog": true,
+    "mobileMenu": true,
+    "horizontalOverflow": false,
+    "errors": [],
+    "badRequests": []
+  },
+  {
+    "reducedMotion": "passed: paused poster, manual playback available"
+  }
+]

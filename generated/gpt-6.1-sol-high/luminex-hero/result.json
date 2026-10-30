@@ -1,0 +1,91 @@
+{
+  "title": "Luminex",
+  "id": "luminex-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index": "dist/index.html",
+    "browser_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'node scripts/check-browser.cjs'",
+    "browser_results": [
+      {
+        "viewport": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "video": {
+          "width": 1920,
+          "height": 1080,
+          "time": 1.159633,
+          "duration": 7.8,
+          "playing": true
+        },
+        "hls": true,
+        "playPause": true,
+        "workDialog": true,
+        "studioDialog": true,
+        "contactDialog": true,
+        "mobileMenu": false,
+        "horizontalOverflow": false,
+        "errors": [],
+        "badRequests": []
+      },
+      {
+        "viewport": "mobile",
+        "width": 390,
+        "height": 844,
+        "video": {
+          "width": 1920,
+          "height": 1080,
+          "time": 1.059293,
+          "duration": 7.8,
+          "playing": true
+        },
+        "hls": true,
+        "playPause": true,
+        "workDialog": true,
+        "studioDialog": true,
+        "contactDialog": true,
+        "mobileMenu": true,
+        "horizontalOverflow": false,
+        "errors": [],
+        "badRequests": []
+      },
+      {
+        "reducedMotion": "passed: paused poster, manual playback available"
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "screenshots_visually_inspected": true,
+    "final_build_warnings": []
+  },
+  "asset_issues": [
+    {
+      "asset": "optional Luminex reference",
+      "issue": "Provided optional preview path does not exist.",
+      "resolution": "Original design follows all four requirements in PROMPT.md; reference fidelity cannot be evaluated."
+    },
+    {
+      "asset": "initial discovery assets",
+      "issue": "Pexels discovery page returned 403 and initial candidate MP4 returned 404.",
+      "resolution": "Downloaded working Pexels video 1093662 and encoded local HLS; final runtime has no failed asset requests."
+    },
+    {
+      "asset": "Google Fonts",
+      "issue": "Initial Python download stalled.",
+      "resolution": "Recovered all chosen fonts using bounded curl downloads; all are served locally."
+    }
+  ],
+  "notes": [
+    "React + Vite + hls.js light; genuine locally bundled HLS VOD and MP4 fallback.",
+    "Configured base: /motionsites-results/luminex-hero/.",
+    "No exact copy, fonts or video assets were prescribed; custom Luminex concept.",
+    "Video: Water Crashing Over The Rocks by Peter Fowler / Pexels; source and recovery details in README.md.",
+    "Desktop/mobile playback, interactions, reduced-motion and overflow checks pass; no browser script errors.",
+    "Chromium tested; Safari/native HLS and physical devices untested.",
+    "Contact email is a demonstration address and is not verified.",
+    "Ready means ready for review. Not deployed or pushed."
+  ]
+}

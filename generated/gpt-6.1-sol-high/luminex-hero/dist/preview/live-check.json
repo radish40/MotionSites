@@ -1,0 +1,61 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/luminex-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T05:31:12.840Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Luminex — A different point of view",
+      "bodyChars": 419,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luminex-hero/media/hls/coast.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.883201,
+          "duration": 7.8,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Luminex — A different point of view",
+      "bodyChars": 275,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/luminex-hero/media/hls/coast.m3u8",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.107239,
+          "duration": 7.8,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

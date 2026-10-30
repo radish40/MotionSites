@@ -1053,7 +1053,89 @@
         "generated/gpt-6.1-sol-high/community-superdesign-pill-nav/screenshots/mobile-menu.png"
       ],
       "reviewed_utc": "2026-10-30T04:26:24.822349+00:00"
+    },
+    {
+      "id": "community-superdesign-exploded-view-assembly",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile initial, exploded and final assembled states actually inspected. Native DOM/CSS/SVG controller separates into independent layers and locks into a visibly wider, different final arrangement. Original-session cropping/callout corrections are reflected in screenshots. Product controls change visual state; no audio synthesis was specified or claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-exploded-view-assembly/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-exploded-view-assembly/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-exploded-view-assembly/screenshots/desktop-exploded.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-exploded-view-assembly/screenshots/mobile-exploded.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-exploded-view-assembly/screenshots/desktop-assembled.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-exploded-view-assembly/screenshots/mobile-assembled.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:32:55.833259+00:00"
+    },
+    {
+      "id": "community-superdesign-rolodex-text",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile show aligned fixed and rotating text inside the light editorial showcase. Original-session baseline correction verified in browser report; all four word lengths, 3D enter/exit, pause/manual advance and narrow mobile containment pass.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-rolodex-text/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-rolodex-text/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:32:55.833259+00:00"
+    },
+    {
+      "id": "community-superdesign-lightning-background",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile show the live blue lightning shader behind readable centered title and Reply control. Browser verifies nonidentical animated frames, successful WebGL without GL errors and pointer/keyboard Reply action. Software WebGL coverage only.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-lightning-background/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-lightning-background/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:32:55.833259+00:00"
+    },
+    {
+      "id": "community-superdesign-hyperspeed-background",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile show the supplied stylized colored line tunnel, centered hold-to-speed-up hint and all six presets. The prompt source explicitly uses a line tunnel instead of modeled road/car geometry. Browser verifies frames change, preset selection, acceleration/release, restart, keyboard and touch cancellation; no hardware FPS claim.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-hyperspeed-background/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-hyperspeed-background/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:32:55.833259+00:00"
+    },
+    {
+      "id": "community-superdesign-light-rays-background",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile show top-center cyan procedural rays, centered title and inset glass frame. Browser verifies animated frames, pointer tracking and exact history-back Reply behavior. Shader coordinate correction is documented; physical GPU performance unmeasured.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-light-rays-background/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-light-rays-background/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:32:55.833259+00:00"
+    },
+    {
+      "id": "community-superdesign-glow-cursor-button",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile show centered green glass button with arrow on a dark green field. Browser verifies cursor coordinates change glow variables, pointer leave resets, touch activation, keyboard Enter/Space and reduced motion. No destination was supplied.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-glow-cursor-button/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-glow-cursor-button/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:32:55.833259+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:26:24.822349+00:00"
+  "updated_utc": "2026-10-30T04:32:55.833259+00:00"
 }

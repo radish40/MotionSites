@@ -1,0 +1,182 @@
+{
+  "recorded_utc": "2026-10-30T04:32:55.833259+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 6,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:31:44.649100+00:00",
+      "remote_main": "c1a0a78e8f4eb5263b0c01a1b20289d4a9eb3c07",
+      "delivery": {
+        "id": "community-superdesign-exploded-view-assembly",
+        "title": "\"Exploded View\" Assembly",
+        "source_commit": "c1a0a78e8f4eb5263b0c01a1b20289d4a9eb3c07",
+        "thread_id": "01a18b0a-6b42-7072-9c1f-e16fc9e388d9",
+        "group_message_id": 356,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:28:16.635757+00:00",
+      "remote_main": "1fa895151344fcc6d23274301b8dfc1c63ddadb7",
+      "delivery": {
+        "id": "community-superdesign-rolodex-text",
+        "title": "Rolodex Text",
+        "source_commit": "46a78f71d3803fa89af75bec4b3bb7b22f23236d",
+        "thread_id": "01a18b0b-9add-7cc2-88d4-7594ccf1d06f",
+        "group_message_id": 352,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:26:40.778660+00:00",
+      "remote_main": "034b16fd6fb232e423c3f344691c85264b7151ac",
+      "delivery": {
+        "id": "community-superdesign-lightning-background",
+        "title": "Lightning Background",
+        "source_commit": "034b16fd6fb232e423c3f344691c85264b7151ac",
+        "thread_id": "01a18b0b-9ba5-78e2-9416-066b73f0b8e2",
+        "group_message_id": 351,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:29:33.122459+00:00",
+      "remote_main": "0550688b8df94c6719cb4b111d6784a08e546cc5",
+      "delivery": {
+        "id": "community-superdesign-hyperspeed-background",
+        "title": "Hyperspeed Background",
+        "source_commit": "0550688b8df94c6719cb4b111d6784a08e546cc5",
+        "thread_id": "01a18b0b-9cd6-7eb3-ae53-be872e1b1aa3",
+        "group_message_id": 353,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:30:00.205870+00:00",
+      "remote_main": "8df2fdb674101ecb3ae1c085f7d5db3fe3f97954",
+      "delivery": {
+        "id": "community-superdesign-light-rays-background",
+        "title": "Light Rays Background",
+        "source_commit": "8df2fdb674101ecb3ae1c085f7d5db3fe3f97954",
+        "thread_id": "01a18b0d-9917-75a2-8317-5b206fd5e744",
+        "group_message_id": 354,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:30:28.682814+00:00",
+      "remote_main": "c0d0b105d740582c47478259cd693ce7372335e0",
+      "delivery": {
+        "id": "community-superdesign-glow-cursor-button",
+        "title": "Glow Cursor Button",
+        "source_commit": "d04ea6cae0669bf1f6cbbe6685300fd91edb4ab7",
+        "thread_id": "01a18b0e-d5cf-7df0-9ce3-84e7262fceaf",
+        "group_message_id": 355,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

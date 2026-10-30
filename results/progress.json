@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:50:59.629302+00:00",
+  "updated_utc": "2026-10-30T03:52:48.200656+00:00",
   "total": 380,
   "counts": {
-    "complete": 253,
+    "complete": 255,
     "running": 5,
-    "not_started": 122
+    "not_started": 120
   },
   "current_batch": {
     "from_number": 201,
@@ -2530,11 +2530,11 @@
       "id": "stellar-ai",
       "title": "Stellar AI",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae6-d451-7123-aef9-9c542cd2a245",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "833c692808b599e82b2b8ca0586f5ee8a3529857",
+      "group_message_id": 319,
+      "url": "https://tool.luo-xd.com/motionsites-results/stellar-ai/"
     },
     {
       "id": "taskly",
@@ -2550,11 +2550,11 @@
       "id": "taskora-saa-s-hero",
       "title": "Taskora SaaS Hero",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae8-7826-7423-a6e4-e89e9429efc0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "2bf90459b3d6f862adba76cc2e58693bd71a1ab8",
+      "group_message_id": 320,
+      "url": "https://tool.luo-xd.com/motionsites-results/taskora-saa-s-hero/"
     },
     {
       "id": "terra-geo-map",
@@ -2591,7 +2591,7 @@
       "title": "xPortfolio Hero",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18aee-3e8f-7a52-bbd1-db7f9d4eab24",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2600,7 +2600,7 @@
       "id": "aethera-studio",
       "title": "Aethera Studio",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2610,7 +2610,7 @@
       "id": "buzzentic-agency",
       "title": "Buzzentic Agency",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 253/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 255/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -336,15 +336,15 @@
 | 249 | `power-ai` | Power AI | Hero Section | 1 | 视频 | 已完成 |
 | 250 | `railroad.ai` | Railroad.ai | Hero Section | 2 | 视频 | 已完成 |
 | 251 | `sky-elite-private-jets` | SkyElite Private Jets | Landing Page | 1 | 视频 | 已完成 |
-| 252 | `stellar-ai` | Stellar AI | Hero Section | 1 | 视频 | 生成中 |
+| 252 | `stellar-ai` | Stellar AI | Hero Section | 1 | 视频 | 已完成 |
 | 253 | `taskly` | Taskly | Hero Section | 1 | 图片 | 已完成 |
-| 254 | `taskora-saa-s-hero` | Taskora SaaS Hero | SaaS | 1 | 视频 | 生成中 |
+| 254 | `taskora-saa-s-hero` | Taskora SaaS Hero | SaaS | 1 | 视频 | 已完成 |
 | 255 | `terra-geo-map` | Terra Geo Map | SaaS | 2 | 视频 | 已完成 |
 | 256 | `transform-data` | Transform Data | Hero Section | 1 | 视频 | 生成中 |
 | 257 | `velorah` | Velorah | Agency | 2 | 视频 | 生成中 |
 | 258 | `x-portfolio-hero` | xPortfolio Hero | Hero Section | 1 | 视频 | 生成中 |
-| 259 | `aethera-studio` | Aethera Studio | Hero Section | 1 | 图片 | 未开始 |
-| 260 | `buzzentic-agency` | Buzzentic Agency | Agency | 1 | 图片 | 未开始 |
+| 259 | `aethera-studio` | Aethera Studio | Hero Section | 1 | 图片 | 生成中 |
+| 260 | `buzzentic-agency` | Buzzentic Agency | Agency | 1 | 图片 | 生成中 |
 | 261 | `datacore-booking` | Datacore Booking | SaaS | 1 | 图片 | 未开始 |
 | 262 | `framelix-3d-studios` | Framelix 3D Studios | Agency | 1 | 图片 | 未开始 |
 | 263 | `logoisum-video-agency` | Logoisum Video Agency | Agency | 1 | 图片 | 未开始 |

@@ -2221,7 +2221,77 @@
         "generated/gpt-6.1-sol-high/veloce-finance-landing/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/veloce-finance-landing/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "6",
+      "source_commit": "a5a24f96e9b1fcb9a5c9e4b8c093e20d6da41809",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:27:44.344537+00:00",
+      "observation": "Reviewed desktop and full public mobile portfolio: exact orange composition, Anton/Inter, oversized headline, original brush SVG mask, monochrome stock portrait, intro and five-wordmark strip. No portrait URL supplied, original Unsplash stock photo chosen; logos are documented typographic recreations. Mobile three-line headline remains readable with portrait below. Local informational dialogs and sample email documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/6/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/6/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "slate-hero",
+      "source_commit": "a8079c2ad158b82f3adc3b98d0c4e0c7034117b5",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:27:44.344537+00:00",
+      "observation": "Reviewed full public desktop/mobile Slate hero with exact original 3828×2164 scenic film, glass navigation/badge/CTAs, character reveal and original copy. Desktop/mobile/tablet playback/controls and reduced motion passed. Original landscape contains violet tones despite no-purple constraint; exact asset retained with neutral/white UI. Destinations use local demo dialogs, no backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/slate-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/slate-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "ecovolta-v2-hero",
+      "source_commit": "d81f8d9dae12fcb0c94be441b551a1cac0f83e15",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:27:44.344537+00:00",
+      "observation": "Reviewed desktop/mobile Closer AI outbound hero matching actual detailed prompt while index catalog remains EcoVolta V2. Exact Mux HLS plays requested highest active level 4 at both sizes, Instrument Serif/Manrope/Instrument Sans genuine; no overflow. Original poster from same Mux ID. Retry after manifest failure verified, unspecified CTA/login/nav remain integration placeholders.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/ecovolta-v2-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/ecovolta-v2-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "nexora-features",
+      "source_commit": "eec211052972aed1180e8bbc635d811c063295cc",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:27:44.344537+00:00",
+      "observation": "Reviewed desktop four-card asymmetric grid and full public mobile all four cards including content-driven short fourth card per supplied classes. Actual TanStack Start static prerender with Tailwind 4; all four original MP4 byte hashes preserved and playback clocks advance. Button scale/keyboard/touch checks pass; no destination or backend supplied.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/nexora-features/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/nexora-features/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "vitara-hero",
+      "source_commit": "277192c3f51b5721751fc6965fcdf524f900b136",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:27:44.344537+00:00",
+      "observation": "Reviewed full public desktop/mobile medical hero and lower shield section. Exact supplied movie and Inria Serif files retained with local fallback; all three shortcuts/send/login/signup/nav checked, no overflow. Only local frontend demonstration, no clinical AI or authentication/backend claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/vitara-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/vitara-hero/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T06:20:06.209948+00:00"
+  "updated_utc": "2026-10-30T06:27:44.344537+00:00"
 }

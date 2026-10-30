@@ -1,0 +1,153 @@
+{
+  "recorded_utc": "2026-10-30T06:27:44.344537+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 5,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T06:16:59.441792+00:00",
+      "remote_main": "a5a24f96e9b1fcb9a5c9e4b8c093e20d6da41809",
+      "delivery": {
+        "id": "6",
+        "title": "Bold Portfolio Hero",
+        "source_commit": "a5a24f96e9b1fcb9a5c9e4b8c093e20d6da41809",
+        "thread_id": "01a18b6c-8be3-72d0-a5c4-aa143c4d6d4d",
+        "group_message_id": 435,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:17:24.407311+00:00",
+      "remote_main": "387eba5ce81acee7555986d43e97e06067ff860d",
+      "delivery": {
+        "id": "slate-hero",
+        "title": "Slate",
+        "source_commit": "a8079c2ad158b82f3adc3b98d0c4e0c7034117b5",
+        "thread_id": "01a18b6d-dfcf-76f0-8c47-2c1550a64a52",
+        "group_message_id": 436,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:22:46.214164+00:00",
+      "remote_main": "d81f8d9dae12fcb0c94be441b551a1cac0f83e15",
+      "delivery": {
+        "id": "ecovolta-v2-hero",
+        "title": "EcoVolta V2",
+        "source_commit": "d81f8d9dae12fcb0c94be441b551a1cac0f83e15",
+        "thread_id": "01a18b70-ad85-7a62-89b4-cffbf63d696d",
+        "group_message_id": 438,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:20:23.523873+00:00",
+      "remote_main": "47c9f3a0f9e5fe04a85d1ce3e120cd30c2f2fb5b",
+      "delivery": {
+        "id": "nexora-features",
+        "title": "Nexora Features",
+        "source_commit": "eec211052972aed1180e8bbc635d811c063295cc",
+        "thread_id": "01a18b70-af12-7552-b4da-d6c7f207d88b",
+        "group_message_id": 437,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:24:25.955879+00:00",
+      "remote_main": "277192c3f51b5721751fc6965fcdf524f900b136",
+      "delivery": {
+        "id": "vitara-hero",
+        "title": "Vitara",
+        "source_commit": "277192c3f51b5721751fc6965fcdf524f900b136",
+        "thread_id": "01a18b73-250f-7471-b145-ff922367d378",
+        "group_message_id": 439,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

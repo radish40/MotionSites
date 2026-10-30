@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T06:26:17.163167+00:00",
+  "updated_utc": "2026-10-30T06:28:51.465154+00:00",
   "total": 380,
   "counts": {
-    "complete": 371,
+    "complete": 374,
     "running": 5,
-    "not_started": 4
+    "not_started": 1
   },
   "current_batch": {
     "from_number": 201,
@@ -3720,11 +3720,11 @@
       "id": "zenith-realty-landing",
       "title": "Zenith Realty",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b73-25c6-72e3-bef2-cf80edf1e4b2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e75a117a07c997f8ee7ac5b7370aac318155da6f",
+      "group_message_id": 442,
+      "url": "https://tool.luo-xd.com/motionsites-results/zenith-realty-landing/"
     },
     {
       "id": "nexar-hero",
@@ -3740,11 +3740,11 @@
       "id": "prioritize-hero",
       "title": "Prioritize",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b76-54c7-7990-8d83-0f7f77b40d37",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "93e857e60021d4a0f5378b265b8bfea4986e6081",
+      "group_message_id": 443,
+      "url": "https://tool.luo-xd.com/motionsites-results/prioritize-hero/"
     },
     {
       "id": "vertex-ai-hero",
@@ -3760,11 +3760,11 @@
       "id": "keep-ahead-features",
       "title": "Keep Ahead Features",
       "category": "Features Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b7a-60d6-7b32-b979-06f99d15f572",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "09eeea86d548f5f6e6a8c19c85b7d998157f1452",
+      "group_message_id": 444,
+      "url": "https://tool.luo-xd.com/motionsites-results/keep-ahead-features/"
     },
     {
       "id": "benefits-features",
@@ -3780,7 +3780,7 @@
       "id": "zenith-footer",
       "title": "Zenith Footer",
       "category": "Footer Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3790,7 +3790,7 @@
       "id": "digital-reality-hero",
       "title": "Digital Reality",
       "category": "Social Media",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3800,7 +3800,7 @@
       "id": "community-cta",
       "title": "Community CTA",
       "category": "CTA Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

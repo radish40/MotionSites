@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 337/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 338/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -420,11 +420,11 @@
 | 333 | `18` | Loader Animation | Component | 1 | 无 | 已完成 |
 | 334 | `rivr-hero` | RIVR | Hero Section | 1 | 无 | 已完成 |
 | 335 | `wisa-space-hero` | WISA Space | Hero Section | 1 | 无 | 已完成 |
-| 336 | `vortex-studio-hero` | AI Designer Portfolio | Landing Page | 2 | 无 | 待修复 |
+| 336 | `vortex-studio-hero` | AI Designer Portfolio | Landing Page | 2 | 无 | 已完成 |
 | 337 | `impressive-hero` | Impressive Hero | Hero Section | 1 | 无 | 已完成 |
-| 338 | `flowmate-landing` | FlowMate | Landing Page | 2 | 无 | 生成中 |
+| 338 | `flowmate-landing` | FlowMate | Landing Page | 2 | 无 | 待验收 |
 | 339 | `luminex-hero` | Luminex | Hero Section | 1 | 无 | 已完成 |
-| 340 | `nike-premium-landing` | Nike Premium Landing | Landing Page | 1 | 无 | 生成中 |
+| 340 | `nike-premium-landing` | Nike Premium Landing | Landing Page | 1 | 无 | 阻塞 |
 | 341 | `sentinel-ai-hero` | Sentinel AI | Hero Section | 1 | 无 | 生成中 |
 | 342 | `slam-dunk-hero` | Slam Dunk | Hero Section | 1 | 无 | 生成中 |
 | 343 | `crypto-wealth-hero` | Crypto Wealth | Hero Section | 1 | 无 | 生成中 |

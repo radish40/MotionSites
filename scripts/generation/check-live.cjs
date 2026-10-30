@@ -68,6 +68,20 @@ const path = require('node:path');
         await page.locator(previewSelector).first().scrollIntoViewIfNeeded();
         await page.waitForTimeout(1500);
       }
+      // Original animated GIFs can still be downloading after the entrance
+      // animation. Allow a bounded load window; failed images remain failures.
+      const imageWaitStarted = Date.now();
+      while (Date.now() - imageWaitStarted < 20000) {
+        const visibleImagesLoaded = await page.evaluate(() => [...document.images].every(image => {
+          const rect = image.getBoundingClientRect();
+          const visible = rect.width>0 && rect.height>0 && rect.bottom>0 && rect.top<innerHeight &&
+            rect.right>0 && rect.left<innerWidth && getComputedStyle(image).visibility!=='hidden';
+          return !visible || (image.complete && image.naturalWidth>0);
+        }));
+        if (visibleImagesLoaded) break;
+        await page.waitForTimeout(200);
+      }
+      const visibleImageWaitMs = Date.now() - imageWaitStarted;
       const measureLayout = () => ({
         title: document.title,
         bodyChars: document.body.innerText.trim().length,
@@ -95,7 +109,7 @@ const path = require('node:path');
         layout.videos.push(...child.videos);
       }
       if (previewDelayMs === null) await page.screenshot({ path: path.join(output, `${name}.png`) });
-      results.push({ viewport:name,status:response.status(),introWait,...layout,errors,consoleErrors,failedRequests,badResponses });
+      results.push({ viewport:name,status:response.status(),introWait,visibleImageWaitMs,...layout,errors,consoleErrors,failedRequests,badResponses });
       await context.close();
     }
   } finally { await browser.close(); }

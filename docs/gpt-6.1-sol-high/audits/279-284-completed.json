@@ -1,0 +1,179 @@
+{
+  "recorded_utc": "2026-10-30T04:26:24.822349+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 6,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:23:09.259204+00:00",
+      "remote_main": "6591592c7726b10bd5dca1fb170adebb45eb4ab9",
+      "delivery": {
+        "id": "community-superdesign-disruptor-beta-launch",
+        "title": "Disruptor Beta Launch",
+        "source_commit": "6591592c7726b10bd5dca1fb170adebb45eb4ab9",
+        "thread_id": "01a18b03-d7b4-79d0-9400-f4b0c3290547",
+        "group_message_id": 347,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:20:38.810031+00:00",
+      "remote_main": "f100b4ea6d726e1eeca6517746da30627d02866c",
+      "delivery": {
+        "id": "community-superdesign-ghost-cursor",
+        "title": "Ghost Cursor",
+        "source_commit": "9e2b7e53de03ee3242fbb41f0a3e176f98c92394",
+        "thread_id": "01a18b03-d86b-74a3-9ac7-82f861d0cb1c",
+        "group_message_id": 345,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:25:26.063027+00:00",
+      "remote_main": "1c3c65216d3d207bd74d65d7c56ee4b4a071e081",
+      "delivery": {
+        "id": "community-superdesign-interactive-folder",
+        "title": "Interactive Folder",
+        "source_commit": "66c8b423a65dbfd753ebdad3127a7fde2c86da29",
+        "thread_id": "01a18b07-92bd-71d2-8024-8a3afa33644f",
+        "group_message_id": 350,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:21:54.563498+00:00",
+      "remote_main": "36991992cff587f47efeb017e42591385f660b25",
+      "delivery": {
+        "id": "community-superdesign-parallax-stars-background",
+        "title": "Parallax Stars Background",
+        "source_commit": "c05f3d4a8db63cf5f66e9e3f532858500dc9c2da",
+        "thread_id": "01a18b07-9337-79e1-9585-b7cf7bd2ae1b",
+        "group_message_id": 346,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:23:35.124240+00:00",
+      "remote_main": "04baaa1e4095136c2c5fb86892e5d4a4acd9e4cf",
+      "delivery": {
+        "id": "community-superdesign-typing-animation",
+        "title": "Typing animation",
+        "source_commit": "04baaa1e4095136c2c5fb86892e5d4a4acd9e4cf",
+        "thread_id": "01a18b07-945c-76c1-a61b-6c904b620fec",
+        "group_message_id": 348,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:24:00.091742+00:00",
+      "remote_main": "0b2ac68e1fd9b905bc66f3ee494355b3b4cd5bae",
+      "delivery": {
+        "id": "community-superdesign-pill-nav",
+        "title": "Pill Nav",
+        "source_commit": "0b2ac68e1fd9b905bc66f3ee494355b3b4cd5bae",
+        "thread_id": "01a18b09-363c-7de3-88fa-f5c4c3891590",
+        "group_message_id": 349,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

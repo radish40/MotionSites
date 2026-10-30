@@ -9819,19 +9819,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b0b-9ba5-78e2-9416-066b73f0b8e2",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-lightning-background",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 772027,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:22:36.069448+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "034b16fd6fb232e423c3f344691c85264b7151ac",
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-lightning-background/",
+      "completed_utc": "2026-10-30T04:26:35.682144+00:00",
+      "group_message_id": 351
     },
     {
       "number": 288,
@@ -9880,14 +9884,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b0d-9917-75a2-8317-5b206fd5e744",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-light-rays-background",
       "validation": "",
       "notes": "",
       "process_id": 780221,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:24:46.506724+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 290,
@@ -9905,11 +9913,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-glow-cursor-button",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 786854,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:26:07.522130+00:00",
+      "worker_state": "running"
     },
     {
       "number": 291,
@@ -11893,7 +11905,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:25:14.320442+00:00",
+  "updated_utc": "2026-10-30T04:26:35.867084+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

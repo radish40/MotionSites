@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:25:14.320442+00:00",
+  "updated_utc": "2026-10-30T04:26:35.867084+00:00",
   "total": 380,
   "counts": {
-    "complete": 284,
+    "complete": 285,
     "running": 5,
-    "not_started": 91
+    "not_started": 90
   },
   "current_batch": {
     "from_number": 201,
@@ -2880,11 +2880,11 @@
       "id": "community-superdesign-lightning-background",
       "title": "Lightning Background",
       "category": "Animations & Backgrounds",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b0b-9ba5-78e2-9416-066b73f0b8e2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "034b16fd6fb232e423c3f344691c85264b7151ac",
+      "group_message_id": 351,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-lightning-background/"
     },
     {
       "id": "community-superdesign-hyperspeed-background",
@@ -2901,7 +2901,7 @@
       "title": "Light Rays Background",
       "category": "Animations & Backgrounds",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b0d-9917-75a2-8317-5b206fd5e744",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2910,7 +2910,7 @@
       "id": "community-superdesign-glow-cursor-button",
       "title": "Glow Cursor Button",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

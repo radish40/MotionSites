@@ -970,7 +970,90 @@
         "generated/gpt-6.1-sol-high/community-superdesign-horizontal-gallery/screenshots/mobile-pinned.png"
       ],
       "reviewed_utc": "2026-10-30T04:20:25.885027+00:00"
+    },
+    {
+      "id": "community-superdesign-disruptor-beta-launch",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile screenshots show lime brutalist launch layout, heavy white/black headline, angular form and testimonial cards. Email validation, duplicate recognition, FAQ and countdown tested; waitlist is device-local and countdown is a demo schedule.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-disruptor-beta-launch/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-disruptor-beta-launch/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:26:24.822349+00:00"
+    },
+    {
+      "id": "community-superdesign-ghost-cursor",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile idle screenshots plus desktop reactivated state inspected: procedural purple ghost trail behind centered text. Browser reports cover actual pointer/touch, idle fade and restart with software WebGL. Mobile preview is intentionally idle; no physical GPU performance claim.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-ghost-cursor/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-ghost-cursor/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-ghost-cursor/screenshots/desktop-reactivated.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:26:24.822349+00:00"
+    },
+    {
+      "id": "community-superdesign-interactive-folder",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile closed and opened screenshots inspected: purple Resources folder and three smaller folders expand into papers. Browser verifies all four controls, hover drift/reset, keyboard Enter/Space and paper containment after original-session clipping/overflow fixes.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-interactive-folder/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-interactive-folder/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-interactive-folder/screenshots/desktop-open.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-interactive-folder/screenshots/mobile-open.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:26:24.822349+00:00"
+    },
+    {
+      "id": "community-superdesign-parallax-stars-background",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show live CSS pixel stars, dark blue radial background and centered Lato Light title. Browser confirms three actual animated layers with requested star counts and timings plus reduced motion.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-parallax-stars-background/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-parallax-stars-background/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:26:24.822349+00:00"
+    },
+    {
+      "id": "community-superdesign-typing-animation",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show cream editorial typography, lime word emphasis, replay control and completed progress. Browser measures approximately 50 ms per character and verifies pointer/keyboard/interrupted replay and reduced motion.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-typing-animation/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-typing-animation/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:26:24.822349+00:00"
+    },
+    {
+      "id": "community-superdesign-pill-nav",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile default and desktop-hover/mobile-open screenshots inspected: rounded pill navigation, inverted active hover and dark mobile dropdown. Browser verifies GSAP transitions, focus, hash navigation, replay and mobile dismissal. Required Router 6 advisory limitations remain documented in project audit; separate destination pages were not specified.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-pill-nav/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-pill-nav/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-pill-nav/screenshots/desktop-hover.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-pill-nav/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:26:24.822349+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:20:25.885027+00:00"
+  "updated_utc": "2026-10-30T04:26:24.822349+00:00"
 }

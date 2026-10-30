@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T04:17:18.248523+00:00",
+  "updated_utc": "2026-10-30T04:19:05.814466+00:00",
   "total": 380,
   "counts": {
-    "complete": 275,
+    "complete": 277,
+    "ready": 1,
     "running": 5,
-    "not_started": 100
+    "not_started": 97
   },
   "current_batch": {
     "from_number": 201,
@@ -2740,7 +2741,7 @@
       "id": "community-superdesign-synapse",
       "title": "Synapse",
       "category": "Landing Page",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18afd-ba77-71d3-a1f2-4605ef63f191",
       "source_commit": "a406c02d24100dbe839d375426626fd5c7deabbc",
       "group_message_id": 340,
@@ -2780,21 +2781,21 @@
       "id": "community-superdesign-gooey-gradient-background",
       "title": "Gooey Gradient Background",
       "category": "Animations & Backgrounds",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b00-e98e-7283-8ccf-2066d36e6454",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "bb558092186d5dc90bd3930455035ee1e78c810a",
+      "group_message_id": 343,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-gooey-gradient-background/"
     },
     {
       "id": "community-superdesign-horizontal-gallery",
       "title": "Horizontal Gallery",
       "category": "Animations & Backgrounds",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b02-a132-7ba0-b274-c9cbeadc150f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f1f33ae03c5eb60e29b6751d9e459ad5609851b0",
+      "group_message_id": 344,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-horizontal-gallery/"
     },
     {
       "id": "community-superdesign-disruptor-beta-launch",
@@ -2820,7 +2821,7 @@
       "id": "community-superdesign-interactive-folder",
       "title": "Interactive Folder",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2830,7 +2831,7 @@
       "id": "community-superdesign-parallax-stars-background",
       "title": "Parallax Stars Background",
       "category": "Animations & Backgrounds",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2840,7 +2841,7 @@
       "id": "community-superdesign-typing-animation",
       "title": "Typing animation",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

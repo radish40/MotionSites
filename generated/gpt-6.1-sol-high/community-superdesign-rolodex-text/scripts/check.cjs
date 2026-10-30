@@ -1,0 +1,68 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const fs = require('node:fs');
+(async () => {
+ const browser = await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox','--disable-dev-shm-usage']});
+ const errors=[]; const failures=[]; const checks=[];
+ const assert=(test,message)=>{if(!test) throw new Error(message);checks.push(message)};
+ const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+ page.on('pageerror',e=>errors.push(e.message));
+ page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+ page.on('requestfailed',r=>failures.push(r.url()));
+ await page.goto('http://localhost:5173/motionsites-results/community-superdesign-rolodex-text/');
+ await page.waitForTimeout(100);
+ assert(await page.title()==='Rolodex Text — Words in motion','Page and assets load at required subpath');
+ await page.getByRole('button',{name:'Pause animation',exact:true}).click();
+ await page.waitForTimeout(3000);
+ assert(await page.locator('.word.current').textContent()==='ideas.','Pause stops automatic rotation');
+ await page.screenshot({path:'screenshots/desktop.png',fullPage:true});
+ const baseline = await page.locator('.sentence').evaluate(e=>Math.abs(e.querySelector('.prefix').getBoundingClientRect().top-e.querySelector('.word.current').getBoundingClientRect().top));
+ assert(baseline<1,'Prefix and changing word share a consistent text baseline');
+ const startX=await page.locator('.word.current').evaluate(e=>e.getBoundingClientRect().left);
+ await page.getByRole('button',{name:'Give it a spin'}).click();
+ await page.waitForTimeout(200);
+ const motion=await page.locator('.rolodex').evaluate(e=>({style:getComputedStyle(e).transformStyle,overflow:getComputedStyle(e).overflow,align:getComputedStyle(e).textAlign,leaving:getComputedStyle(e.querySelector('.leaving')).transform,arriving:getComputedStyle(e.querySelector('.arriving')).transform}));
+ assert(motion.style==='preserve-3d'&&motion.overflow==='visible'&&motion.align==='left','Container preserves 3D, remains unclipped and left-aligned');
+ assert(motion.leaving.startsWith('matrix3d')&&motion.arriving.startsWith('matrix3d'),'Both words rotate in 3D during transition');
+ await page.screenshot({path:'screenshots/transition.png',fullPage:true});
+ await page.waitForTimeout(700);
+ assert(await page.locator('.word.current').textContent()==='good things.','Manual advance completes the flip');
+ assert(await page.locator('.word').count()===1,'Outgoing words are removed after animation');
+ for(let i=0;i<4;i++) {
+   await page.locator('.word-choice').nth(i).click(); await page.waitForTimeout(750);
+   const x=await page.locator('.word.current').evaluate(e=>e.getBoundingClientRect().left);
+   assert(Math.abs(x-startX)<.1,`Word ${i+1} retains a flush left edge`);
+ }
+ await page.getByRole('button',{name:'Play animation',exact:true}).click();
+ const previous=await page.locator('.word.current').textContent(); await page.waitForTimeout(3650);
+ assert(await page.locator('.word.current').textContent()!==previous,'Play resumes automatic rotation');
+ await page.getByRole('button',{name:'Pause animation',exact:true}).click();
+ await page.locator('.word-choice').nth(0).click(); await page.waitForTimeout(800);
+ await page.screenshot({path:'screenshots/desktop.png',fullPage:true});
+ await page.getByRole('link',{name:'Behind the motion'}).click();
+ assert(new URL(page.url()).hash==='#details','Details anchor navigates to animation explanation');
+ await page.goto('http://localhost:5173/motionsites-results/community-superdesign-rolodex-text/');
+ await page.setViewportSize({width:390,height:844});
+ await page.getByRole('button',{name:'Pause animation',exact:true}).click();
+ for(let i=0;i<4;i++) {
+   await page.locator('.word-choice').nth(i).click(); await page.waitForTimeout(750);
+   const fit=await page.locator('.word.current').evaluate(e=>({right:e.getBoundingClientRect().right,width:window.innerWidth,scroll:document.documentElement.scrollWidth}));
+   assert(fit.right<=fit.width&&fit.scroll<=fit.width,`Mobile word ${i+1} fits with no horizontal overflow`);
+ }
+ await page.locator('.word-choice').nth(0).click(); await page.waitForTimeout(750);
+ await page.screenshot({path:'screenshots/mobile.png',fullPage:true});
+ await page.emulateMedia({reducedMotion:'reduce'});
+ await page.reload();
+ await page.waitForTimeout(3000);
+ assert(await page.locator('#pause').getAttribute('aria-label')==='Play animation','Reduced motion starts with automatic animation paused');
+ await page.getByRole('button',{name:'Give it a spin'}).click(); await page.waitForTimeout(100);
+ assert(await page.locator('.word.current').textContent()==='good things.','Reduced-motion manual interaction updates immediately');
+ await page.setViewportSize({width:320,height:700});
+ await page.locator('.word-choice').nth(2).click(); await page.waitForTimeout(100);
+ const small=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,width:innerWidth,right:document.querySelector('.word.current').getBoundingClientRect().right}));
+ assert(small.scroll<=small.width&&small.right<=small.width,'320px narrow screen also has no horizontal overflow');
+ assert(errors.length===0,'No browser console or script errors');
+ assert(failures.length===0,'No failed asset requests');
+ fs.writeFileSync('screenshots/checks.json',JSON.stringify({browser:'Chromium',viewports:['1440x1000','390x844','320x700'],checks,errors,failedRequests:failures,motion},null,2));
+ console.log(JSON.stringify({checks,errors,failures},null,2));
+ await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

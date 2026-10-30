@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="A little motion goes a long way. An interactive, three-dimensional Rolodex text experiment.">
+  <title>Rolodex Text — Words in motion</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232b3d2d'/%3E%3Cpath d='M8 10h16M8 16h16M8 22h16' stroke='%23d2eb96' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Rolodex Text home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i></span>rolodex<span class="brand-suffix">/ text</span></a>
+    <span class="header-note"><span class="status-dot"></span> A small experiment in motion</span>
+    <a class="header-link" href="#details">Behind the motion <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div class="eyebrow"><span class="tiny-cross" aria-hidden="true">✳</span> WORDS, WITH A LITTLE PERSONALITY</div>
+      <h1 id="page-title">Same sentence.<br>A new feeling.</h1>
+      <p>A familiar flip. A fresh perspective.<br>Give your words a little room to move.</p>
+    </section>
+
+    <section class="playground" aria-label="Interactive Rolodex text demo">
+      <div class="demo-top"><span><span class="status-dot"></span> THE LIVE EXAMPLE</span><span class="demo-number">NO. 001</span></div>
+      <div class="sentence-stage">
+        <div class="sentence" aria-hidden="true"><span class="prefix">We deliver</span> <span class="rolodex"><span class="word current">ideas.</span></span></div>
+        <span class="sr-only" id="sentence-accessible">We deliver ideas.</span>
+        <div class="stage-caption"><span class="caption-line"></span> A new word. The same point of view.</div>
+      </div>
+      <div class="demo-bottom">
+        <div class="playback"><button id="pause" class="icon-button" aria-label="Pause animation" aria-pressed="false"><svg class="pause-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M4 3h3v10H4zm5 0h3v10H9z"/></svg><svg class="play-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="m5 3 8 5-8 5z"/></svg></button><span id="playback-label">On a roll</span><span class="playback-divider"></span><span class="interval">Every 2.8 seconds</span></div>
+        <button id="next" class="next-button">Give it a spin <span aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+
+    <section class="word-bank" aria-label="Choose a word"><span class="word-bank-label">IN THE ROTATION</span><div class="word-options"><button class="word-choice active" data-index="0" aria-pressed="true">ideas<span>.</span></button><button class="word-choice" data-index="1" aria-pressed="false">good things<span>.</span></button><button class="word-choice" data-index="2" aria-pressed="false">a little magic<span>.</span></button><button class="word-choice" data-index="3" aria-pressed="false">possibility<span>.</span></button></div><span class="word-count"><span id="active-count">01</span> / 04</span></section>
+
+    <section class="details" id="details" aria-label="Animation details">
+      <div class="details-intro"><span class="eyebrow">THE BEAUTY IS IN THE DETAILS</span><h2>A classic move.<br>A thoughtful execution.</h2></div>
+      <div class="detail"><div class="detail-icon rotate-icon" aria-hidden="true">↶</div><h3>A 90° change of pace</h3><p>The old word rotates back.<br>The next one rises into place.</p></div>
+      <div class="detail"><div class="detail-icon alignment-icon" aria-hidden="true"><i></i><i></i><i></i></div><h3>Always left-aligned</h3><p>Short or long, every word starts<br>exactly where it should.</p></div>
+      <div class="detail"><div class="detail-icon cube-icon" aria-hidden="true">◇</div><h3>Room for dimension</h3><p>Real perspective. An open stage.<br>Nothing gets lost in the flip.</p></div>
+    </section>
+  </main>
+  <footer><span>Small details. <span class="footer-serif">Lasting impressions.</span></span><span>ROLODEX TEXT <span class="footer-star" aria-hidden="true">✳</span> MADE TO MOVE</span></footer>
+  <script src="./app.js"></script>
+</body>
+</html>

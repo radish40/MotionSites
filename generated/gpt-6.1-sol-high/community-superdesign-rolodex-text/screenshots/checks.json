@@ -1,0 +1,41 @@
+{
+  "browser": "Chromium",
+  "viewports": [
+    "1440x1000",
+    "390x844",
+    "320x700"
+  ],
+  "checks": [
+    "Page and assets load at required subpath",
+    "Pause stops automatic rotation",
+    "Prefix and changing word share a consistent text baseline",
+    "Container preserves 3D, remains unclipped and left-aligned",
+    "Both words rotate in 3D during transition",
+    "Manual advance completes the flip",
+    "Outgoing words are removed after animation",
+    "Word 1 retains a flush left edge",
+    "Word 2 retains a flush left edge",
+    "Word 3 retains a flush left edge",
+    "Word 4 retains a flush left edge",
+    "Play resumes automatic rotation",
+    "Details anchor navigates to animation explanation",
+    "Mobile word 1 fits with no horizontal overflow",
+    "Mobile word 2 fits with no horizontal overflow",
+    "Mobile word 3 fits with no horizontal overflow",
+    "Mobile word 4 fits with no horizontal overflow",
+    "Reduced motion starts with automatic animation paused",
+    "Reduced-motion manual interaction updates immediately",
+    "320px narrow screen also has no horizontal overflow",
+    "No browser console or script errors",
+    "No failed asset requests"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "motion": {
+    "style": "preserve-3d",
+    "overflow": "visible",
+    "align": "left",
+    "leaving": "matrix3d(1, 0, 0, 0, 0, 0.98558, 0.169209, 0, 0, -0.169209, 0.98558, 0, 0, -4.94419, 0, 1)",
+    "arriving": "matrix3d(1, 0, 0, 0, 0, 0.169209, -0.98558, 0, 0, 0.98558, 0.169209, 0, 0, 40.7326, 0, 1)"
+  }
+}

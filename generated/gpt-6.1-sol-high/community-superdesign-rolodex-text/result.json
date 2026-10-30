@@ -1,0 +1,61 @@
+{
+  "title": "Rolodex Text",
+  "id": "community-superdesign-rolodex-text",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only && npm run build'",
+  "checks": {
+    "build": "passed",
+    "browser": "Chromium",
+    "viewports": [
+      "1440x1000",
+      "390x844",
+      "320x700"
+    ],
+    "passed": [
+      "Page and assets load at required subpath",
+      "Pause stops automatic rotation",
+      "Prefix and changing word share a consistent text baseline",
+      "Container preserves 3D, remains unclipped and left-aligned",
+      "Both words rotate in 3D during transition",
+      "Manual advance completes the flip",
+      "Outgoing words are removed after animation",
+      "Word 1 retains a flush left edge",
+      "Word 2 retains a flush left edge",
+      "Word 3 retains a flush left edge",
+      "Word 4 retains a flush left edge",
+      "Play resumes automatic rotation",
+      "Details anchor navigates to animation explanation",
+      "Mobile word 1 fits with no horizontal overflow",
+      "Mobile word 2 fits with no horizontal overflow",
+      "Mobile word 3 fits with no horizontal overflow",
+      "Mobile word 4 fits with no horizontal overflow",
+      "Reduced motion starts with automatic animation paused",
+      "Reduced-motion manual interaction updates immediately",
+      "320px narrow screen also has no horizontal overflow",
+      "No browser console or script errors",
+      "No failed asset requests"
+    ],
+    "console_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/transition.png"
+    ],
+    "report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/community-superdesign-rolodex-text.webp",
+      "issue": "Optional reference file is absent. Visual reference comparison unavailable.",
+      "resolution": "Implemented the full text prompt directly with native DOM, CSS 3D animation and local system fonts. No extracted or external assets."
+    }
+  ],
+  "notes": [
+    "Static output is in dist/ with dist/index.html.",
+    "Uses native HTML/CSS/JavaScript; no framework or external assets specified by prompt.",
+    "All resources support /motionsites-results/community-superdesign-rolodex-text/.",
+    "Ready for management-session review; not deployed or pushed.",
+    "Browser checks used Chromium only; screenshots are full-page captures."
+  ]
+}

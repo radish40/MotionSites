@@ -1,0 +1,132 @@
+{
+  "title": "Disruptor Beta Launch",
+  "id": "community-superdesign-disruptor-beta-launch",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": {
+      "url": "/motionsites-results/community-superdesign-disruptor-beta-launch/",
+      "viewports": [
+        {
+          "name": "desktop",
+          "height": 1000,
+          "width": 1440,
+          "documentWidth": 1440,
+          "fonts": [
+            {
+              "family": "Ranchers",
+              "loaded": true
+            },
+            {
+              "family": "Space Mono",
+              "loaded": true
+            },
+            {
+              "family": "Plus Jakarta Sans",
+              "loaded": true
+            },
+            {
+              "family": "Archivo",
+              "loaded": true
+            }
+          ],
+          "headings": 1,
+          "overflow": []
+        },
+        {
+          "name": "mobile",
+          "height": 844,
+          "width": 390,
+          "documentWidth": 390,
+          "fonts": [
+            {
+              "family": "Ranchers",
+              "loaded": true
+            },
+            {
+              "family": "Space Mono",
+              "loaded": true
+            },
+            {
+              "family": "Plus Jakarta Sans",
+              "loaded": true
+            },
+            {
+              "family": "Archivo",
+              "loaded": true
+            }
+          ],
+          "headings": 1,
+          "overflow": []
+        },
+        {
+          "name": "extra",
+          "width": 320,
+          "documentWidth": 320
+        },
+        {
+          "name": "extra",
+          "width": 768,
+          "documentWidth": 768
+        },
+        {
+          "name": "extra",
+          "width": 1024,
+          "documentWidth": 1024
+        }
+      ],
+      "interactions": [
+        "desktop: Join Beta focuses email",
+        "desktop: empty email rejected",
+        "desktop: invalid email rejected",
+        "desktop: valid interest saved with accurate confirmation",
+        "desktop: duplicate email recognized",
+        "desktop: FAQ opens and closes",
+        "desktop: countdown advances",
+        "desktop: footer form submits",
+        "desktop: sidebar anchors navigate",
+        "mobile: Join Beta focuses email",
+        "mobile: empty email rejected",
+        "mobile: invalid email rejected",
+        "mobile: valid interest saved with accurate confirmation",
+        "mobile: duplicate email recognized",
+        "mobile: FAQ opens and closes",
+        "mobile: countdown advances",
+        "mobile: footer form submits"
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "status": "passed"
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png",
+      "screenshots/mobile-full.png"
+    ],
+    "visual_review": "Desktop/mobile viewport and full-page screenshots reviewed",
+    "dependency_audit": "0 vulnerabilities after Vite update to 6.4.5"
+  },
+  "asset_issues": [
+    {
+      "asset": "Optional project reference WebP",
+      "issue": "File absent at supplied path",
+      "resolution": "Built original DOM and isolated SVG artwork from the complete written specification; reference comparison unavailable"
+    },
+    {
+      "asset": "Google Fonts",
+      "issue": "Initial Python download stalled",
+      "resolution": "Recovered every requested font with bounded curl downloads; served locally; all four font families verified loaded in Chromium"
+    }
+  ],
+  "notes": [
+    "Deliverable base: /motionsites-results/community-superdesign-disruptor-beta-launch/",
+    "React + Vite with local fonts and original inline SVG; prompt specifies no mandatory framework or external image assets.",
+    "Waitlist is device-local localStorage; no backend or outgoing mail. Confirmation accurately states this limit.",
+    "Countdown is a browser-local demo schedule, not an official launch date.",
+    "Sample testimonial copy and illustrated avatars are original placeholders.",
+    "No agents, other sessions, deployment, pushes, or external messages were used.",
+    "Ready for management-session acceptance; not deployed."
+  ]
+}

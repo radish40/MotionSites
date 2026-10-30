@@ -1,0 +1,40 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-disruptor-beta-launch/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:22:50.187Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Disruptor — Less talk. More ship.",
+      "bodyChars": 2061,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Disruptor — Less talk. More ship.",
+      "bodyChars": 1786,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

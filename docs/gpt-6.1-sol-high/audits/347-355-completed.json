@@ -1,0 +1,265 @@
+{
+  "recorded_utc": "2026-10-30T06:05:25.616572+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 9,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T05:49:28.481331+00:00",
+      "remote_main": "9fd8f446ba5a298817604c0d159e46e7380a2093",
+      "delivery": {
+        "id": "nexacore-hero",
+        "title": "NexaCore",
+        "source_commit": "9fd8f446ba5a298817604c0d159e46e7380a2093",
+        "thread_id": "01a18b52-e28e-7f02-b88c-fdea966796c0",
+        "group_message_id": 417,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:48:09.815497+00:00",
+      "remote_main": "87569ce0a866dfe79e0e2161745babfe1f0ac16f",
+      "delivery": {
+        "id": "guardnet-landing",
+        "title": "Guardnet",
+        "source_commit": "9311abba8c6f59c1b2c91cc544692c33246b871f",
+        "thread_id": "01a18b52-e391-74b3-ae4a-a4a151288176",
+        "group_message_id": 415,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:03:16.013798+00:00",
+      "remote_main": "cab343122616e0d27940b8a8418c8c9fed6818d8",
+      "delivery": {
+        "id": "automation-machines-hero",
+        "title": "Automation Machines",
+        "source_commit": "cab343122616e0d27940b8a8418c8c9fed6818d8",
+        "thread_id": "01a18b52-e476-7a71-8466-79b12fdac0e2",
+        "group_message_id": 424,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:49:44.289005+00:00",
+      "remote_main": "e8ca25abb36bda6eeb248e81e1db612ece7a6fbd",
+      "delivery": {
+        "id": "focus-ai-landing",
+        "title": "Focus AI",
+        "source_commit": "e8ca25abb36bda6eeb248e81e1db612ece7a6fbd",
+        "thread_id": "01a18b55-0708-7d53-804e-fd039f5a3625",
+        "group_message_id": 418,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:51:00.747676+00:00",
+      "remote_main": "0e83e1dbd9a4accdbabeadeec040ef4778aa3099",
+      "delivery": {
+        "id": "design-rocket-email-hero",
+        "title": "Email Marketing",
+        "source_commit": "0e83e1dbd9a4accdbabeadeec040ef4778aa3099",
+        "thread_id": "01a18b55-0948-7010-9d52-8c08d2718b53",
+        "group_message_id": 419,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:56:44.990588+00:00",
+      "remote_main": "b7e156b8279904a65b8ad37afacc13b896589b8f",
+      "delivery": {
+        "id": "rivr-defi-landing",
+        "title": "RIVR DeFi",
+        "source_commit": "8d7bfc7dddd206b04bc788945047f91d47195e88",
+        "thread_id": "01a18b57-c9aa-70a2-9133-37c6787fb12f",
+        "group_message_id": 420,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:56:44.990588+00:00",
+      "remote_main": "b7e156b8279904a65b8ad37afacc13b896589b8f",
+      "delivery": {
+        "id": "duolingo-styleguide-hero",
+        "title": "Duolingo Styleguide",
+        "source_commit": "6b1944bf83f517467185bc5805bb94c3f8c9c53b",
+        "thread_id": "01a18b5a-76a0-7270-9185-94d672b6fe0d",
+        "group_message_id": 421,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:56:44.990588+00:00",
+      "remote_main": "b7e156b8279904a65b8ad37afacc13b896589b8f",
+      "delivery": {
+        "id": "velorah-focus-hero",
+        "title": "Velorah Focus",
+        "source_commit": "b7e156b8279904a65b8ad37afacc13b896589b8f",
+        "thread_id": "01a18b5a-7749-7251-a67c-25c4e5b6a07b",
+        "group_message_id": 422,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:58:49.989862+00:00",
+      "remote_main": "6a73be9b69df86757b7dea4ac37a6e008b935c6d",
+      "delivery": {
+        "id": "price-calculator",
+        "title": "Price Calculator",
+        "source_commit": "6a73be9b69df86757b7dea4ac37a6e008b935c6d",
+        "thread_id": "01a18b5a-7801-7081-9c93-425e42df8475",
+        "group_message_id": 423,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

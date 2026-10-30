@@ -1968,7 +1968,134 @@
         "generated/gpt-6.1-sol-high/lumina-footer/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/lumina-footer/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "nexacore-hero",
+      "source_commit": "9fd8f446ba5a298817604c0d159e46e7380a2093",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:05:25.616572+00:00",
+      "observation": "Root inspected full public desktop/mobile pages with all four service cards, circular original HLS, five negative/positive rows and four staircase delivery pillars. Genuine Mazzard fonts and original assets retained. Build, TypeScript, lint, two decoded videos, shrinking navbar, service hover, local search/filter/dismissal and mobile layout passed. Missing Control SVG was reconstructed and invalid package name interpreted as unwired supabase-js; contact composer has no recipient because none was supplied.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/nexacore-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/nexacore-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "guardnet-landing",
+      "source_commit": "9311abba8c6f59c1b2c91cc544692c33246b871f",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:05:25.616572+00:00",
+      "observation": "Root inspected complete public desktop/mobile layouts: shelter/user/info hero, confirmation/demo scene, four exact SVG brands and three benefits cards. All three original videos and Futura downloaded unchanged, decode and play when visible. Confirmation is explicitly local UI, not identity verification; demo replays original security media. No overflow, script/console/network errors. Repeated first/third benefit title matches prompt.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/guardnet-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/guardnet-landing/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "automation-machines-hero",
+      "source_commit": "cab343122616e0d27940b8a8418c8c9fed6818d8",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:05:25.616572+00:00",
+      "observation": "Root inspected real original mechanical-arm scene at desktop/mobile, including final public captures with different arm orientation after pointer input. Exact original Spline bytes retained. Scoped nginx wasm-unsafe-eval permission fixes a genuine WebAssembly CSP failure without enabling JavaScript unsafe-eval or changing other pages. Public browser measured real draw calls advancing before capture-only RAF pause; production remains animated. Exact fonts, 15% scene offset, gradient heading, technical specs and pill bar preserved. Icon actions were unspecified.",
+      "additional_evidence": "docs/gpt-6.1-sol-high/audits/automation-wasm-server-setup.json",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/automation-machines-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/automation-machines-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "focus-ai-landing",
+      "source_commit": "e8ca25abb36bda6eeb248e81e1db612ece7a6fbd",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:05:25.616572+00:00",
+      "observation": "Root inspected full public desktop/mobile six-section pages. On-page Velorah branding and mixed RV/focus copy follow original prompt despite catalog Focus AI title. All four original movies/HLS reachable and playing, genuine Inter/Instrument Serif loaded after correcting Instrumental typo. Feature tabs, navigation, local preorder/tour/subscription and legal dialogs pass. No backend submission or payment is claimed; mobile layout/error/overflow checks pass.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/focus-ai-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/focus-ai-landing/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "design-rocket-email-hero",
+      "source_commit": "0e83e1dbd9a4accdbabeadeec040ef4778aa3099",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:05:25.616572+00:00",
+      "observation": "Root inspected full public desktop/mobile email composition, four numbered learning steps, three exact original videos, lime CTA and complete footer. Original fonts loaded, all three video clocks advance, CTA section navigation, hover lift and card zoom verified. Responsive hero minimum height preserves readable content. Prompt-provided course/collaboration copy retained; unspecified footer destinations are provisional/unverified and there is no enrollment/unsubscribe backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/design-rocket-email-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/design-rocket-email-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "rivr-defi-landing",
+      "source_commit": "8d7bfc7dddd206b04bc788945047f91d47195e88",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:05:25.616572+00:00",
+      "observation": "Root inspected complete public desktop/mobile pages after instant scroll and settled entrance captures, including all four features, metrics, CTA and footer. An initial full-page capture missed scroll-triggered content because smooth scrolling was still in flight; corrected capture helper demonstrates actual content without source changes. Exact two original videos, original Helvetica, inverted corner SVGs and opacity .02 icon watermarks retained. Honest local preview dialogs cover unspecified app/community/docs/audit destinations; runtime/overflow checks pass.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/rivr-defi-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/rivr-defi-landing/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "duolingo-styleguide-hero",
+      "source_commit": "6b1944bf83f517467185bc5805bb94c3f8c9c53b",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:05:25.616572+00:00",
+      "observation": "Root inspected complete public desktop/mobile style guide, all eight light/dark panels, 12 colors, exact Feather Bold/Nunito, ten original images and flame emoji. Responsive stacking, pressed/disabled buttons, anchors, toggles, language selection, tooltip, email validation and local feedback pass. Original gzip-encoded SVGs correctly decoded; genuine Noto Color Emoji supplies missing glyph. Native HTML/CSS/JS with Vite is compatible with prompt, which specified no React requirement.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/duolingo-styleguide-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/duolingo-styleguide-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "velorah-focus-hero",
+      "source_commit": "b7e156b8279904a65b8ad37afacc13b896589b8f",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:05:25.616572+00:00",
+      "observation": "Root inspected both 600x800 desktop posts and complete public stacked mobile posts. Both original movies, exact -180/-358 content offsets, genuine fonts, SVG noise, scanlines, moving glitch bar, RGB text and liquid-glass hover retained; mobile scales compositions proportionally. Both remote videos and blocked-remote local fallbacks decode/play. CTA has no specified destination, so no invented flow.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/velorah-focus-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/velorah-focus-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "price-calculator",
+      "source_commit": "6a73be9b69df86757b7dea4ac37a6e008b935c6d",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:05:25.616572+00:00",
+      "observation": "Root inspected complete desktop/mobile calculator captures including all service choices, add-ons, timeline radios and all three estimates. Default both/5 pages produces $1299, agency $12000 and freelancer $5000 as specified. All three formulas pass 1080 input combinations; genuine Radix/Shadcn slider pointer, keyboard and bounds, radio/checkbox updates, toast infrastructure and additional widths pass. No overflow or runtime/resource errors; system fonts and CSS require no external assets.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/price-calculator/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/price-calculator/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T05:49:10.896095+00:00"
+  "updated_utc": "2026-10-30T06:05:25.616572+00:00"
 }

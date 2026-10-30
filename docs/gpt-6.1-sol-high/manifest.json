@@ -12219,19 +12219,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b60-20b1-7ec1-b805-d265160067d3",
       "output_path": "generated/gpt-6.1-sol-high/social-media-posts-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1124736,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:54:55.196442+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "cb4afb894b4b74935476916ccf51e04a1716b4d5",
+      "url": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/",
+      "completed_utc": "2026-10-30T06:05:25.158010+00:00",
+      "group_message_id": 425
     },
     {
       "number": 358,
@@ -12279,19 +12283,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b60-21f9-71f3-93dd-352421c685fc",
       "output_path": "generated/gpt-6.1-sol-high/digital-epoch-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1124890,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:54:55.494004+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "61fed6b5d81192fdd44761f0a07f08db5abfba0b",
+      "url": "https://tool.luo-xd.com/motionsites-results/digital-epoch-hero/",
+      "completed_utc": "2026-10-30T06:05:51.957903+00:00",
+      "group_message_id": 426
     },
     {
       "number": 360,
@@ -12309,19 +12317,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b60-22b4-7fc2-92d9-c3a40d07e8b9",
       "output_path": "generated/gpt-6.1-sol-high/ecovolta-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1125020,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:54:55.687235+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "09bc839a98a359ada54bf3a1ba7a0b268ecbc36c",
+      "url": "https://tool.luo-xd.com/motionsites-results/ecovolta-hero/",
+      "completed_utc": "2026-10-30T06:06:18.347413+00:00",
+      "group_message_id": 427
     },
     {
       "number": 361,
@@ -12339,11 +12351,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/kresna-footer",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1157799,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T06:04:03.552912+00:00",
+      "worker_state": "running"
     },
     {
       "number": 362,
@@ -12361,11 +12377,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/vize-footer",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1157836,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T06:04:03.693422+00:00",
+      "worker_state": "running"
     },
     {
       "number": 363,
@@ -12383,11 +12403,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/pro-ai-deck",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1157984,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T06:04:03.922477+00:00",
+      "worker_state": "running"
     },
     {
       "number": 364,
@@ -12764,7 +12788,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T06:03:09.789577+00:00",
+  "updated_utc": "2026-10-30T06:06:18.523699+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

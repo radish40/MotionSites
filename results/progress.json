@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T06:03:09.789577+00:00",
+  "updated_utc": "2026-10-30T06:06:18.523699+00:00",
   "total": 380,
   "counts": {
-    "complete": 355,
+    "complete": 358,
     "running": 5,
-    "not_started": 20
+    "not_started": 17
   },
   "current_batch": {
     "from_number": 201,
@@ -3580,11 +3580,11 @@
       "id": "social-media-posts-hero",
       "title": "Social Media Posts",
       "category": "Social Media",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b60-20b1-7ec1-b805-d265160067d3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "cb4afb894b4b74935476916ccf51e04a1716b4d5",
+      "group_message_id": 425,
+      "url": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/"
     },
     {
       "id": "ecommerce-website-landing",
@@ -3600,27 +3600,27 @@
       "id": "digital-epoch-hero",
       "title": "Digital Epoch",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b60-21f9-71f3-93dd-352421c685fc",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "61fed6b5d81192fdd44761f0a07f08db5abfba0b",
+      "group_message_id": 426,
+      "url": "https://tool.luo-xd.com/motionsites-results/digital-epoch-hero/"
     },
     {
       "id": "ecovolta-hero",
       "title": "EcoVolta",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b60-22b4-7fc2-92d9-c3a40d07e8b9",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "09bc839a98a359ada54bf3a1ba7a0b268ecbc36c",
+      "group_message_id": 427,
+      "url": "https://tool.luo-xd.com/motionsites-results/ecovolta-hero/"
     },
     {
       "id": "kresna-footer",
       "title": "Kresna Footer",
       "category": "Footer Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3630,7 +3630,7 @@
       "id": "vize-footer",
       "title": "Vize Footer",
       "category": "Footer Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3640,7 +3640,7 @@
       "id": "pro-ai-deck",
       "title": "Pro AI Deck",
       "category": "Presentation",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

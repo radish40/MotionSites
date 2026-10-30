@@ -1,0 +1,36 @@
+{
+  "title": "VEX Ventures",
+  "id": "vex-ventures-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "Chromium through Playwright Core, serving dist at the required subpath",
+    "desktop": "passed at 1440x1000; screenshots/desktop.png",
+    "mobile": "passed at 390x844; screenshots/mobile.png",
+    "layout_overflow": "none at both required viewports",
+    "javascript_errors": [],
+    "failed_requests": [],
+    "font": "Inter loaded successfully from the required Google Fonts link",
+    "video": "local original asset decoded at 1924x1076; playback advances, muted and looping",
+    "interactions": "navigation anchors and Explore Now passed; Explore hover reaches white background and black text; chat mailto hrefs verified",
+    "visual_review": "desktop and mobile screenshots reviewed",
+    "details": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional original visual preview",
+      "issue": "Specified preview file was absent",
+      "resolution": "Implemented from complete PROMPT.md; direct preview comparison unavailable"
+    }
+  ],
+  "notes": [
+    "React + TypeScript, Tailwind CSS, Vite; dependency lockfile included.",
+    "Publication base: /motionsites-results/vex-ventures-hero/.",
+    "Original video saved unchanged locally; no overlay or substitute imagery.",
+    "No chat destination supplied: Start a Chat opens a mailto draft with an empty recipient. External email delivery is not tested.",
+    "Navigation remains within the supplied hero; no extra content or backend added.",
+    "Google Fonts loaded during testing and remains an external dependency.",
+    "No deployment, push, other project access, or agents. Ready means ready for review."
+  ]
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "page": {
+      "width": 1440,
+      "height": 1000
+    },
+    "font": "Inter, sans-serif",
+    "interLoaded": true,
+    "video": {
+      "readyState": 4,
+      "width": 1924,
+      "height": 1076,
+      "playing": true,
+      "muted": true,
+      "loop": true
+    },
+    "heading": {
+      "x": 64,
+      "y": 680,
+      "width": 656,
+      "height": 144,
+      "top": 680,
+      "right": 720,
+      "bottom": 824,
+      "left": 64
+    },
+    "lastCharacterOpacity": "1",
+    "errors": [],
+    "failedRequests": [],
+    "exploreWorks": true,
+    "chatLinks": [
+      "mailto:?subject=VEX%20Ventures%20Enquiry",
+      "mailto:?subject=VEX%20Ventures%20Enquiry"
+    ],
+    "navigation": {
+      "Story": true,
+      "Investing": true,
+      "Building": true,
+      "Advisory": true,
+      "exploreHover": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)"
+      }
+    }
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "page": {
+      "width": 390,
+      "height": 844
+    },
+    "font": "Inter, sans-serif",
+    "interLoaded": true,
+    "video": {
+      "readyState": 4,
+      "width": 1924,
+      "height": 1076,
+      "playing": true,
+      "muted": true,
+      "loop": true
+    },
+    "heading": {
+      "x": 24,
+      "y": 500,
+      "width": 342,
+      "height": 80,
+      "top": 500,
+      "right": 366,
+      "bottom": 580,
+      "left": 24
+    },
+    "lastCharacterOpacity": "1",
+    "errors": [],
+    "failedRequests": [],
+    "exploreWorks": true,
+    "chatLinks": [
+      "mailto:?subject=VEX%20Ventures%20Enquiry",
+      "mailto:?subject=VEX%20Ventures%20Enquiry"
+    ],
+    "navigation": {}
+  }
+]

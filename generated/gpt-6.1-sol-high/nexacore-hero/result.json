@@ -1,0 +1,65 @@
+{
+  "title": "NexaCore",
+  "id": "nexacore-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run typecheck && npm run lint && npm run build'",
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "font_loaded": true,
+        "hero_playing": true,
+        "hls_playing": true,
+        "navbar_scroll": true,
+        "service_card_reveal": true,
+        "search_filter": true,
+        "search_dismissal": true,
+        "horizontal_overflow": false,
+        "javascript_errors": [],
+        "console_errors": [],
+        "http_errors": [],
+        "screenshot": "screenshots/desktop.png"
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "font_loaded": true,
+        "hero_playing": true,
+        "hls_playing": true,
+        "navbar_scroll": true,
+        "service_card_reveal": true,
+        "search_filter": true,
+        "search_dismissal": true,
+        "horizontal_overflow": false,
+        "javascript_errors": [],
+        "console_errors": [],
+        "http_errors": [],
+        "screenshot": "screenshots/mobile.png"
+      }
+    }
+  },
+  "asset_issues": [
+    "All supplied media and font URLs retrieved successfully; see asset-report.json.",
+    "Original NexaCore visual preview was absent at its specified path.",
+    "The prompt references an exact Control chip SVG path without supplying it; a heart path was reconstructed from the description.",
+    "Hero media range requests sometimes report net::ERR_ABORTED while decoded video continues playing successfully."
+  ],
+  "notes": [
+    "Ready for acceptance review; not deployed or pushed.",
+    "React 18.3 / TypeScript 5.5 / Vite / Tailwind 3.4; lucide-react and hls.js used.",
+    "The invalid package name @supabase/Bolt Database-js was interpreted as @supabase/supabase-js, installed but unwired.",
+    "Contact uses an email composer with no recipient because no contact address was supplied.",
+    "Both Chromium viewports passed interaction, media, error and overflow assertions. Safari native HLS fallback implemented but untested.",
+    "Build has a nonfatal hls.js bundle size warning. Requested Vite 5 dependency tree reports two npm audit findings; details in README.md.",
+    "All source, local assets, build, reports and screenshots remain in this project. node_modules removed after validation."
+  ]
+}

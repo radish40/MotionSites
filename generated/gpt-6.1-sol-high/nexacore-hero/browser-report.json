@@ -1,0 +1,114 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "initial": {
+      "title": "NexaCore — Infrastructure Built to Last",
+      "overflow": false,
+      "font": true,
+      "hero": {
+        "readyState": 4,
+        "playing": true,
+        "time": 4.727218,
+        "width": 1920
+      }
+    },
+    "scrolled": true,
+    "cardActive": true,
+    "searchCount": 1,
+    "searchClosed": true,
+    "control": {
+      "readyState": 4,
+      "playing": true,
+      "time": 10.42099,
+      "width": 1700
+    },
+    "overflow": [
+      {
+        "section": "home",
+        "overflow": false
+      },
+      {
+        "section": "what-we-build",
+        "overflow": false
+      },
+      {
+        "section": "our-method",
+        "overflow": false
+      },
+      {
+        "section": "who-we-are",
+        "overflow": false
+      }
+    ],
+    "errors": [],
+    "consoleErrors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpErrors": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "initial": {
+      "title": "NexaCore — Infrastructure Built to Last",
+      "overflow": false,
+      "font": true,
+      "hero": {
+        "readyState": 4,
+        "playing": true,
+        "time": 5.213193,
+        "width": 1920
+      }
+    },
+    "scrolled": true,
+    "cardActive": true,
+    "searchCount": 1,
+    "searchClosed": true,
+    "control": {
+      "readyState": 4,
+      "playing": true,
+      "time": 9.748912,
+      "width": 1700
+    },
+    "overflow": [
+      {
+        "section": "home",
+        "overflow": false
+      },
+      {
+        "section": "what-we-build",
+        "overflow": false
+      },
+      {
+        "section": "our-method",
+        "overflow": false
+      },
+      {
+        "section": "who-we-are",
+        "overflow": false
+      }
+    ],
+    "errors": [],
+    "consoleErrors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "httpErrors": []
+  }
+}

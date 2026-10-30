@@ -1,0 +1,281 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T05:48:58.736Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 5,
+      "canvasRendering": null,
+      "title": "NexaCore — Infrastructure Built to Last",
+      "bodyChars": 2029,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/card.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/card.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/card.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/card.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.744175,
+          "duration": 8.057007,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/19fcde24-4bfc-4ea4-8446-dfe7fb247816",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.131853,
+          "duration": 17.052333,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 3,
+      "canvasRendering": null,
+      "title": "NexaCore — Infrastructure Built to Last",
+      "bodyChars": 1976,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/card.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/card.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/card.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/card.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/cross.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/check.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/assets/logo.png",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.77564,
+          "duration": 8.057007,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/375586f6-a99a-42eb-880b-66435b83bc77",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.515674,
+          "duration": 17.052333,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_115655_b4d9cd77-feed-43cd-a198-af78ebdf1f7a.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

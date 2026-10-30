@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-30T05:29:55.976334+00:00",
+  "updated_utc": "2026-10-30T05:31:33.724129+00:00",
   "total": 380,
   "counts": {
-    "complete": 336,
+    "complete": 337,
     "needs_fix": 1,
-    "running": 5,
-    "not_started": 38
+    "running": 6,
+    "not_started": 36
   },
   "current_batch": {
     "from_number": 201,
@@ -3401,11 +3401,11 @@
       "id": "luminex-hero",
       "title": "Luminex",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b44-01d6-7ae1-bebf-a582b1c0e061",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f392a81f42fb8228d22b7bbeac1439eeecf8e69f",
+      "group_message_id": 405,
+      "url": "https://tool.luo-xd.com/motionsites-results/luminex-hero/"
     },
     {
       "id": "nike-premium-landing",
@@ -3422,7 +3422,7 @@
       "title": "Sentinel AI",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b48-7ef3-7130-8393-de69b14c16f6",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3432,7 +3432,7 @@
       "title": "Slam Dunk",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b48-7f9a-7853-b914-62dab55b4abb",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3441,7 +3441,7 @@
       "id": "crypto-wealth-hero",
       "title": "Crypto Wealth",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3451,7 +3451,7 @@
       "id": "shamoni-hero",
       "title": "Shamoni",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

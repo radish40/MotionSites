@@ -11596,19 +11596,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b44-01d6-7ae1-bebf-a582b1c0e061",
       "output_path": "generated/gpt-6.1-sol-high/luminex-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1013013,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:24:12.184087+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f392a81f42fb8228d22b7bbeac1439eeecf8e69f",
+      "url": "https://tool.luo-xd.com/motionsites-results/luminex-hero/",
+      "completed_utc": "2026-10-30T05:31:33.365561+00:00",
+      "group_message_id": 405
     },
     {
       "number": 340,
@@ -11657,14 +11661,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b48-7ef3-7130-8393-de69b14c16f6",
       "output_path": "generated/gpt-6.1-sol-high/sentinel-ai-hero",
       "validation": "",
       "notes": "",
       "process_id": 1033362,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:29:06.452781+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 342,
@@ -11683,14 +11691,19 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b48-7f9a-7853-b914-62dab55b4abb",
       "output_path": "generated/gpt-6.1-sol-high/slam-dunk-hero",
       "validation": "",
-      "notes": "",
-      "process_id": 1033429,
+      "notes": "Management acceptance requested a correction in this same original design session; private repair prompt records details.",
+      "process_id": 1043359,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:29:06.591943+00:00",
-      "worker_state": "running"
+      "worker_state": "repairing",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "repair_attempts": 1
     },
     {
       "number": 343,
@@ -11708,11 +11721,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/crypto-wealth-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1040678,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:30:57.103351+00:00",
+      "worker_state": "running"
     },
     {
       "number": 344,
@@ -11730,11 +11747,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/shamoni-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1040722,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:30:57.316844+00:00",
+      "worker_state": "running"
     },
     {
       "number": 345,
@@ -12530,7 +12551,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:29:55.976334+00:00",
+  "updated_utc": "2026-10-30T05:31:33.724129+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -1,0 +1,62 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/planet-orbit/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:44:26.285Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "APEX — Accelerate Your Revenue Growth",
+      "bodyChars": 384,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/planet-orbit/assets/orbit.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.740554,
+          "duration": 15.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "APEX — Accelerate Your Revenue Growth",
+      "bodyChars": 350,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/planet-orbit/assets/orbit.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.831285,
+          "duration": 15.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

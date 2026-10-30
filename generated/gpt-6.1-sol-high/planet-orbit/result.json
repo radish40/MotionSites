@@ -1,0 +1,34 @@
+{
+  "title": "Planet Orbit",
+  "id": "planet-orbit",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "publish_path": "/motionsites-results/planet-orbit/",
+    "dist_index_exists": true,
+    "desktop": "1440x1000: passed",
+    "mobile": "390x844: passed",
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "failed_requests": [],
+    "video": "original MP4 loaded and playing; frame progression verified",
+    "fonts": "Geist Sans bundled locally, 400/500/600/700",
+    "marquee": "animation progression verified; duplicated six-brand array, 20-second loop",
+    "interactions": "desktop dropdowns, mobile menu, Nova+ dialog, signup, start-free, consultation form validation and completion, Escape dismissal passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original specified CloudFront MP4 downloaded successfully and bundled without alteration.",
+    "Optional visual reference file was absent; no other design was read.",
+    "CTA forms are explicitly local previews; no account or scheduling backend was provided.",
+    "Screenshots use video time 3 seconds and marquee at loop start.",
+    "No deployment, push, external messages, agents, or other sessions were created.",
+    "Ready for management review; not deployed."
+  ]
+}

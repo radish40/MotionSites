@@ -1,0 +1,78 @@
+{
+  "results": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "font": true,
+      "video": {
+        "readyState": 4,
+        "playing": true,
+        "time": 4.602562,
+        "width": 1464,
+        "height": 1412
+      },
+      "heading": {
+        "x": 380.21875,
+        "y": 316,
+        "width": 679.546875,
+        "height": 151.1875,
+        "top": 316,
+        "right": 1059.765625,
+        "bottom": 467.1875,
+        "left": 380.21875
+      },
+      "social": {
+        "x": 180,
+        "y": 773.21875,
+        "width": 1080,
+        "height": 226.78125,
+        "top": 773.21875,
+        "right": 1260,
+        "bottom": 1000,
+        "left": 180
+      },
+      "motion": "video and marquee advancing",
+      "interactions": "passed"
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "font": true,
+      "video": {
+        "readyState": 4,
+        "playing": true,
+        "time": 4.359389,
+        "width": 1464,
+        "height": 1412
+      },
+      "heading": {
+        "x": 23.3125,
+        "y": 256,
+        "width": 343.375,
+        "height": 75.59375,
+        "top": 256,
+        "right": 366.6875,
+        "bottom": 331.59375,
+        "left": 23.3125
+      },
+      "social": {
+        "x": 0,
+        "y": 650.8125,
+        "width": 390,
+        "height": 193.1875,
+        "top": 650.8125,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      },
+      "motion": "video and marquee advancing",
+      "interactions": "passed"
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

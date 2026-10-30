@@ -1,0 +1,112 @@
+{
+  "title": "Space Voyage",
+  "id": "space-voyage",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22; Docker host command in README.md)",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities",
+    "publish_base": "/motionsites-results/space-voyage/",
+    "browser": "Chromium via Playwright Core",
+    "desktop_screenshot": "screenshots/desktop.png",
+    "mobile_screenshot": "screenshots/mobile.png",
+    "browser_details": {
+      "desktop": {
+        "overflow": false,
+        "heading": "Venture\nPast\nOur\nSky\nAcross\nthe\nUniverse",
+        "fonts": {
+          "heading": true,
+          "body": true
+        },
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "width": 1924,
+          "time": 3.014603
+        },
+        "interactions": {
+          "startVoyage": true,
+          "liftoff": {
+            "controls": true,
+            "src": "http://localhost:4173/motionsites-results/space-voyage/media/voyage.mp4"
+          },
+          "worlds": true,
+          "voyages": true,
+          "innovation": true,
+          "planLaunch": true,
+          "home": true,
+          "claimSpot": true,
+          "escapeClosesDialog": true,
+          "mobileMenu": false
+        },
+        "errors": [],
+        "failed": [],
+        "warnings": [
+          "<link rel=preload> uses an unsupported `as` value"
+        ]
+      },
+      "mobile": {
+        "overflow": false,
+        "heading": "Venture\nPast\nOur\nSky\nAcross\nthe\nUniverse",
+        "fonts": {
+          "heading": true,
+          "body": true
+        },
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "width": 1924,
+          "time": 2.968892
+        },
+        "interactions": {
+          "startVoyage": true,
+          "liftoff": {
+            "controls": true,
+            "src": "http://localhost:4173/motionsites-results/space-voyage/media/voyage.mp4"
+          },
+          "worlds": true,
+          "voyages": true,
+          "innovation": true,
+          "planLaunch": true,
+          "home": true,
+          "claimSpot": true,
+          "escapeClosesDialog": true,
+          "mobileMenu": true
+        },
+        "errors": [],
+        "failed": [],
+        "warnings": [
+          "<link rel=preload> uses an unsupported `as` value"
+        ]
+      },
+      "localVideoFallback": {
+        "passed": true
+      }
+    },
+    "visual_review": "Desktop and mobile screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "/images/hero_bg.jpeg",
+      "resolution": "Missing supplied poster generated from original video at 0.1 seconds with Chromium canvas. Recovery script included."
+    },
+    {
+      "asset": "logo",
+      "resolution": "No source asset specified; original orbital SVG created. Branding appearance is approximate."
+    },
+    {
+      "asset": "video preload hint",
+      "resolution": "Required as=video preload retained. Chromium reports unsupported as value; video playback and local fallback passed."
+    }
+  ],
+  "notes": [
+    "Required React, Vite, TypeScript, Tailwind CSS, motion/react and lucide-react stack implemented.",
+    "Exact specified video URL is primary source. It depicts the floral landscape in the supplied preview; unchanged copy included as fallback.",
+    "Google Fonts import retained; Instrument Serif and Barlow loaded during verification.",
+    "Navigation and CTAs use local informational dialogs; no booking backend was specified or connected.",
+    "Ready for management review. Not deployed or pushed. No agents or other sessions created.",
+    "Only this project and its designated preview were read; created files remain inside this project.",
+    "Physical-device and other-browser checks were not performed.",
+    "README.md contains build, asset recovery, validation, and limitation details."
+  ]
+}

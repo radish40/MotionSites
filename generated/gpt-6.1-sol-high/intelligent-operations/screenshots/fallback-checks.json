@@ -1,0 +1,12 @@
+{
+  "videoSource": "http://localhost:5199/motionsites-results/intelligent-operations/hero.mp4",
+  "portraitSource": "http://localhost:5199/motionsites-results/intelligent-operations/mitha.webp",
+  "videoTime": 9.991566,
+  "chevronTransform": "matrix(1, 0, 0, 1, 2, 0)",
+  "paused": true,
+  "demoScroll": {
+    "actual": 1000,
+    "expected": 1000
+  },
+  "errors": []
+}

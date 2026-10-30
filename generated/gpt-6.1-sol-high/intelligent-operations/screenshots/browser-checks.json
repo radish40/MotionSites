@@ -1,0 +1,88 @@
+{
+  "desktop": {
+    "initial": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "totalHeight": 2800,
+      "canvas": {
+        "extracted": "90",
+        "frameCount": "90",
+        "ready": "true",
+        "frame": "0"
+      },
+      "video": {
+        "time": 0,
+        "paused": true,
+        "autoplay": false
+      },
+      "font": true,
+      "portrait": 1280,
+      "navHidden": false
+    },
+    "bottom": {
+      "frame": "89",
+      "scrollWidth": 1440,
+      "headingVisible": true,
+      "visibleReveals": true
+    },
+    "consultationLink": true,
+    "homeLink": true,
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260729_102822_0e6c87e8-c141-4744-bf32-ad30db296371.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260729_102822_0e6c87e8-c141-4744-bf32-ad30db296371.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "blob:http://localhost:5199/74d3aab8-fb88-474d-afdc-25ec42d55622",
+        "error": "net::ERR_ABORTED"
+      }
+    ]
+  },
+  "mobile": {
+    "initial": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "totalHeight": 2513,
+      "canvas": {
+        "extracted": "90",
+        "frameCount": "90",
+        "ready": "true",
+        "frame": "0"
+      },
+      "video": {
+        "time": 0,
+        "paused": true,
+        "autoplay": false
+      },
+      "font": true,
+      "portrait": 1280,
+      "navHidden": true
+    },
+    "bottom": {
+      "frame": "89",
+      "scrollWidth": 390,
+      "headingVisible": true,
+      "visibleReveals": true
+    },
+    "consultationLink": true,
+    "homeLink": true,
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260729_102822_0e6c87e8-c141-4744-bf32-ad30db296371.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "blob:http://localhost:5199/88e13c4a-bfc6-419e-98f8-52476963eae3",
+        "error": "net::ERR_ABORTED"
+      }
+    ]
+  }
+}

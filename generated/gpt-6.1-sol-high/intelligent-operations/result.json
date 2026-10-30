@@ -1,0 +1,42 @@
+{
+  "title": "Intelligent Operations",
+  "id": "intelligent-operations",
+  "status": "ready",
+  "page_title": "NOVA_AI \u2014 Today AI Aligns With Bold Dreams",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: TypeScript and Vite production build",
+    "dist_index": "dist/index.html exists",
+    "desktop": "1440x1000: no horizontal overflow; Inter and exact portrait loaded; no JavaScript errors",
+    "mobile": "390x844: no horizontal overflow; responsive nav hidden; Inter and exact portrait loaded; no JavaScript errors",
+    "scroll_video": "Both viewports: 90 cached ImageBitmaps; scroll advances canvas from frame 0 to frame 89; paused video; no autoplay",
+    "reveals": "All capability section reveal blocks visible on scroll",
+    "interactions": "Home and consultation anchors passed at both sizes; demo anchor and capability hover passed",
+    "fallbacks": "Remote video/portrait intentionally blocked: local originals load; paused video fallback reaches 9.99 seconds",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-capability.png",
+      "screenshots/mobile-capability.png"
+    ],
+    "evidence": [
+      "screenshots/browser-checks.json",
+      "screenshots/fallback-checks.json"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "Chromium media request lifecycle",
+      "detail": "ERR_ABORTED entries occur for replaced video range/blob requests; original media loads and all 90 frames were decoded. Raw requests retained in browser-checks.json."
+    }
+  ],
+  "notes": [
+    "Exact requested React/TypeScript/Vite/Tailwind/lucide-react stack.",
+    "Production base: /motionsites-results/intelligent-operations/.",
+    "Exact video and portrait URLs retained in source; identical local mirrors packaged. Poster extracted at 0.001 seconds after decoding.",
+    "Frame extraction downloads the same video into a blob for reliable seeking; preparation can take over a minute in software-decoded Chromium. Seek fallback remains available.",
+    "Only the Intelligent Operations reference was viewed; no screenshot substituted for DOM or animation.",
+    "No separate booking, demo app, project list or blog URL supplied; links use relevant in-page anchors, documented in README.md.",
+    "Ready means ready for management-session acceptance; no deployment or push performed."
+  ]
+}

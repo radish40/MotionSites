@@ -1,0 +1,253 @@
+{
+  "title": "Unwind Hero",
+  "id": "unwind-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publish_path": "/motionsites-results/unwind-hero/",
+  "checks": {
+    "production_build": "passed",
+    "browser": "Chromium via playwright-core against dist at required subpath",
+    "viewports": {
+      "desktop": {
+        "initiallyPlaying": true,
+        "overflow": false,
+        "cardInBounds": true,
+        "font400": true,
+        "font600": true,
+        "video": {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": false
+        },
+        "heading": {
+          "x": 65,
+          "y": 174,
+          "width": 850,
+          "height": 314.859375
+        },
+        "card": {
+          "x": 979,
+          "y": 485,
+          "width": 396,
+          "height": 455
+        },
+        "description": {
+          "x": 65,
+          "y": 844,
+          "width": 300,
+          "height": 96
+        },
+        "rating": {
+          "x": 505,
+          "y": 844,
+          "width": 165.734375,
+          "height": 66
+        },
+        "interactions": [
+          "check-in selection",
+          "check-out selection",
+          "Reserve date entry",
+          "Book Now date entry",
+          "outside-click dismissal",
+          "Escape dismissal",
+          "edit title"
+        ]
+      },
+      "mobile": {
+        "initiallyPlaying": true,
+        "overflow": false,
+        "cardInBounds": true,
+        "font400": true,
+        "font600": true,
+        "video": {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": false
+        },
+        "heading": {
+          "x": 16,
+          "y": 104,
+          "width": 358,
+          "height": 127.875
+        },
+        "card": {
+          "x": 16,
+          "y": 481.875,
+          "width": 358,
+          "height": 443
+        },
+        "description": {
+          "x": 16,
+          "y": 271.875,
+          "width": 358,
+          "height": 72
+        },
+        "rating": {
+          "x": 16,
+          "y": 375.875,
+          "width": 165.734375,
+          "height": 66
+        },
+        "interactions": [
+          "mobile menu open",
+          "menu anchor and dismissal",
+          "mobile date selection"
+        ]
+      },
+      "reference": {
+        "initiallyPlaying": true,
+        "overflow": false,
+        "cardInBounds": true,
+        "font400": true,
+        "font600": true,
+        "video": {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": false
+        },
+        "heading": {
+          "x": 65,
+          "y": 174,
+          "width": 955,
+          "height": 314.859375
+        },
+        "card": {
+          "x": 1084,
+          "y": 482,
+          "width": 396,
+          "height": 455
+        },
+        "description": {
+          "x": 65,
+          "y": 841,
+          "width": 300,
+          "height": 96
+        },
+        "rating": {
+          "x": 505,
+          "y": 841,
+          "width": 165.734375,
+          "height": 66
+        }
+      },
+      "tablet": {
+        "initiallyPlaying": true,
+        "overflow": false,
+        "cardInBounds": true,
+        "font400": true,
+        "font600": true,
+        "video": {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": false
+        },
+        "heading": {
+          "x": 32,
+          "y": 135,
+          "width": 704,
+          "height": 170.015625
+        },
+        "card": {
+          "x": 32,
+          "y": 498,
+          "width": 410,
+          "height": 455
+        },
+        "description": {
+          "x": 32,
+          "y": 386,
+          "width": 300,
+          "height": 72
+        },
+        "rating": {
+          "x": 396,
+          "y": 386,
+          "width": 165.734375,
+          "height": 66
+        }
+      },
+      "small-desktop": {
+        "initiallyPlaying": true,
+        "overflow": false,
+        "cardInBounds": true,
+        "font400": true,
+        "font600": true,
+        "video": {
+          "readyState": 4,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": false
+        },
+        "heading": {
+          "x": 40,
+          "y": 174,
+          "width": 564,
+          "height": 226.6875
+        },
+        "card": {
+          "x": 644,
+          "y": 253,
+          "width": 340,
+          "height": 455
+        },
+        "description": {
+          "x": 40,
+          "y": 612,
+          "width": 260,
+          "height": 96
+        },
+        "rating": {
+          "x": 340,
+          "y": 612,
+          "width": 149.15625,
+          "height": 66
+        }
+      }
+    },
+    "script_errors": [],
+    "unexpected_failed_requests": [],
+    "expected_video_seek_aborts": 5,
+    "dependency_audit": "0 vulnerabilities",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-calendar.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "PP Mori",
+      "issue": "Original src/styles/fonts.css was not supplied.",
+      "recovery": "Recovered regular and semibold WOFF2 from aesthetic.computer, embedded as 400/600 data URLs in src/styles/fonts.css.",
+      "limitation": "Cannot compare recovered font bytes against missing original embedded font data."
+    },
+    {
+      "asset": "WoodNest logo and icons",
+      "issue": "Original SVG component and exact paths were not supplied.",
+      "recovery": "Reconstructed inline SVG logo and icons using the textual specification and this design reference.",
+      "limitation": "Logo mark, wordmark, star, and edit paths are approximations; exact vector equivalence is not claimed."
+    }
+  ],
+  "notes": [
+    "Ready for review, not deployed. No push, other project reads, agents, or other sessions.",
+    "React + Tailwind CSS + Framer Motion; original MP4 copied unchanged into local public assets; muted inline autoplay without loop verified.",
+    "Full-page mobile screenshot uses a 390x844 browser viewport and includes vertically stacked content below the fold.",
+    "Date pickers use the specified February/March 2025 months, fixed six blank cells, and editable selected days.",
+    "Book Now and Reserve open date selection. No booking/contact backend was specified; no paid booking is submitted.",
+    "Navigation links target existing hero regions; cabin title is editable with the pencil control.",
+    "Nonfatal Framer Motion use-client bundler warnings are preserved in build.log.",
+    "At 1545x997: heading x65/y174, description x65/y841, rating x505/y841, card x1084/w396. Card height follows explicit spacing and is 455px rather than the approximate 436px geometry.",
+    "Asset URLs, byte sizes and SHA-256 hashes are in asset-manifest.json; recovery code is scripts/recover-assets.py."
+  ]
+}

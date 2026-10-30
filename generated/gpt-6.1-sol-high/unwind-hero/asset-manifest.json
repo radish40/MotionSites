@@ -1,0 +1,20 @@
+[
+  {
+    "file": "public/assets/evergreen.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260620_140846_aef8cb19-5ec8-4b45-974b-020aed20f297.mp4",
+    "bytes": 7913346,
+    "sha256": "b938efb79e009b2c508dd5294bf77815e0caef38b13830f926dea5740402f6c9"
+  },
+  {
+    "file": "public/assets/PPMori-Regular.woff2",
+    "source": "https://aesthetic.computer/assets/fonts/PPMori-Regular.woff2",
+    "bytes": 36944,
+    "sha256": "87a8c06a966031596415b7d116bcdad5fc51e32b613b386491094a87a0e36714"
+  },
+  {
+    "file": "public/assets/PPMori-SemiBold.woff2",
+    "source": "https://aesthetic.computer/assets/fonts/PPMori-SemiBold.woff2",
+    "bytes": 39232,
+    "sha256": "ae7907fb3dd3338d731906393f793e9d14e6a74c3e557866ce77a1ef99cd7d15"
+  }
+]

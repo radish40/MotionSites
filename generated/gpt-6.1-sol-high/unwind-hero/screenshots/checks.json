@@ -1,0 +1,233 @@
+{
+  "passed": true,
+  "viewports": {
+    "desktop": {
+      "initiallyPlaying": true,
+      "overflow": false,
+      "cardInBounds": true,
+      "font400": true,
+      "font600": true,
+      "video": {
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": false
+      },
+      "heading": {
+        "x": 65,
+        "y": 174,
+        "width": 850,
+        "height": 314.859375
+      },
+      "card": {
+        "x": 979,
+        "y": 485,
+        "width": 396,
+        "height": 455
+      },
+      "description": {
+        "x": 65,
+        "y": 844,
+        "width": 300,
+        "height": 96
+      },
+      "rating": {
+        "x": 505,
+        "y": 844,
+        "width": 165.734375,
+        "height": 66
+      },
+      "interactions": [
+        "check-in selection",
+        "check-out selection",
+        "Reserve date entry",
+        "Book Now date entry",
+        "outside-click dismissal",
+        "Escape dismissal",
+        "edit title"
+      ]
+    },
+    "mobile": {
+      "initiallyPlaying": true,
+      "overflow": false,
+      "cardInBounds": true,
+      "font400": true,
+      "font600": true,
+      "video": {
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": false
+      },
+      "heading": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 127.875
+      },
+      "card": {
+        "x": 16,
+        "y": 481.875,
+        "width": 358,
+        "height": 443
+      },
+      "description": {
+        "x": 16,
+        "y": 271.875,
+        "width": 358,
+        "height": 72
+      },
+      "rating": {
+        "x": 16,
+        "y": 375.875,
+        "width": 165.734375,
+        "height": 66
+      },
+      "interactions": [
+        "mobile menu open",
+        "menu anchor and dismissal",
+        "mobile date selection"
+      ]
+    },
+    "reference": {
+      "initiallyPlaying": true,
+      "overflow": false,
+      "cardInBounds": true,
+      "font400": true,
+      "font600": true,
+      "video": {
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": false
+      },
+      "heading": {
+        "x": 65,
+        "y": 174,
+        "width": 955,
+        "height": 314.859375
+      },
+      "card": {
+        "x": 1084,
+        "y": 482,
+        "width": 396,
+        "height": 455
+      },
+      "description": {
+        "x": 65,
+        "y": 841,
+        "width": 300,
+        "height": 96
+      },
+      "rating": {
+        "x": 505,
+        "y": 841,
+        "width": 165.734375,
+        "height": 66
+      }
+    },
+    "tablet": {
+      "initiallyPlaying": true,
+      "overflow": false,
+      "cardInBounds": true,
+      "font400": true,
+      "font600": true,
+      "video": {
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": false
+      },
+      "heading": {
+        "x": 32,
+        "y": 135,
+        "width": 704,
+        "height": 170.015625
+      },
+      "card": {
+        "x": 32,
+        "y": 498,
+        "width": 410,
+        "height": 455
+      },
+      "description": {
+        "x": 32,
+        "y": 386,
+        "width": 300,
+        "height": 72
+      },
+      "rating": {
+        "x": 396,
+        "y": 386,
+        "width": 165.734375,
+        "height": 66
+      }
+    },
+    "small-desktop": {
+      "initiallyPlaying": true,
+      "overflow": false,
+      "cardInBounds": true,
+      "font400": true,
+      "font600": true,
+      "video": {
+        "readyState": 4,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": false
+      },
+      "heading": {
+        "x": 40,
+        "y": 174,
+        "width": 564,
+        "height": 226.6875
+      },
+      "card": {
+        "x": 644,
+        "y": 253,
+        "width": 340,
+        "height": 455
+      },
+      "description": {
+        "x": 40,
+        "y": 612,
+        "width": 260,
+        "height": 96
+      },
+      "rating": {
+        "x": 340,
+        "y": 612,
+        "width": 149.15625,
+        "height": 66
+      }
+    }
+  },
+  "scriptErrors": [],
+  "failedRequests": [],
+  "expectedVideoSeekAborts": [
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/unwind-hero/assets/evergreen.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/unwind-hero/assets/evergreen.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/unwind-hero/assets/evergreen.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/unwind-hero/assets/evergreen.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/unwind-hero/assets/evergreen.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

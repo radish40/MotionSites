@@ -14,5 +14,115 @@
       "csp": "default-src 'none'; script-src 'self' 'unsafe-inline' https: blob:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; media-src 'self' blob: https:; font-src 'self' data: https:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
     }
   ],
-  "public_scene_rendering": "pending browser revalidation; Python HTTP client receives Cloudflare 403"
+  "public_scene_rendering": {
+    "passed": true,
+    "source_commit": "cab343122616e0d27940b8a8418c8c9fed6818d8",
+    "report": {
+      "url": "https://tool.luo-xd.com/motionsites-results/automation-machines-hero/",
+      "previewSelector": null,
+      "previewDelayMs": null,
+      "checked_at": "2026-10-30T06:13:38.174Z",
+      "passed": true,
+      "results": [
+        {
+          "viewport": "desktop",
+          "status": 200,
+          "introWait": "not-applicable",
+          "visibleImageWaitMs": 12997,
+          "canvasRendering": {
+            "before": 1864,
+            "after": 6513,
+            "drawCallsAdvanced": true,
+            "drawSamples": [
+              {
+                "time": 13058,
+                "calls": 1864
+              },
+              {
+                "time": 17092,
+                "calls": 2795
+              },
+              {
+                "time": 22357.400000095367,
+                "calls": 3723
+              },
+              {
+                "time": 29137,
+                "calls": 4654
+              },
+              {
+                "time": 35385.90000009537,
+                "calls": 5582
+              },
+              {
+                "time": 39413.7000002861,
+                "calls": 6513
+              }
+            ],
+            "canvas": 1
+          },
+          "title": "Automation Machines",
+          "bodyChars": 309,
+          "horizontalOverflow": 0,
+          "images": [],
+          "videos": [],
+          "frames": [],
+          "errors": [],
+          "consoleErrors": [],
+          "failedRequests": [],
+          "badResponses": []
+        },
+        {
+          "viewport": "mobile",
+          "status": 200,
+          "introWait": "not-applicable",
+          "visibleImageWaitMs": 6192,
+          "canvasRendering": {
+            "before": 1860,
+            "after": 6499,
+            "drawCallsAdvanced": true,
+            "drawSamples": [
+              {
+                "time": 17374.700000286102,
+                "calls": 1860
+              },
+              {
+                "time": 21218.200000286102,
+                "calls": 2789
+              },
+              {
+                "time": 24308.099999904633,
+                "calls": 3715
+              },
+              {
+                "time": 26528.900000095367,
+                "calls": 4644
+              },
+              {
+                "time": 30515.300000190735,
+                "calls": 5573
+              },
+              {
+                "time": 33771.90000009537,
+                "calls": 6499
+              }
+            ],
+            "canvas": 1
+          },
+          "title": "Automation Machines",
+          "bodyChars": 309,
+          "horizontalOverflow": 0,
+          "images": [],
+          "videos": [],
+          "frames": [],
+          "errors": [],
+          "consoleErrors": [],
+          "failedRequests": [],
+          "badResponses": []
+        }
+      ]
+    },
+    "capture_method": "Capture browser samples actual WebGL calls across distinct animation frames before freezing screenshot-only RAF; production scene is unchanged.",
+    "http_client_limitation": "Python HTTP client received Cloudflare 403; actual public Chromium responses are 200."
+  }
 }

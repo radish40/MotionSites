@@ -40,12 +40,20 @@ const path = require('node:path');
         const observer = new MutationObserver(() => {
           if (!document.querySelector('[data-loaded="true"],[data-scene="loaded"]')) return;
           observer.disconnect();
-          // Bound the software renderer's active capture window. Samples are
-          // real WebGL calls taken at distinct times before freezing anything.
-          for (const delay of [500,1500,2500]) setTimeout(() => {
-            window.__captureDrawSamples.push({time:performance.now(),calls:window.__captureDrawCalls});
-          },delay);
-          setTimeout(() => { window.__freezeCanvasCapture = true; },3000);
+          // Sample actual animation frames. Wall-clock timers can all run in
+          // one turn when a software WebGL frame blocks the browser thread.
+          let frames = 0;
+          const sample = () => {
+            frames++;
+            const calls = window.__captureDrawCalls;
+            const samples = window.__captureDrawSamples;
+            if (calls && (!samples.length || calls > samples[samples.length-1].calls)) {
+              samples.push({time:performance.now(),calls});
+            }
+            if (frames >= 6 && samples.length >= 2) window.__freezeCanvasCapture = true;
+            else if (frames < 120) raf(sample);
+          };
+          raf(sample);
         });
         observer.observe(document,{subtree:true,attributes:true,childList:true});
       });

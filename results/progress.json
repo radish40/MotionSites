@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-30T06:11:57.120828+00:00",
+  "updated_utc": "2026-10-30T06:14:34.016433+00:00",
   "total": 380,
   "counts": {
-    "complete": 361,
+    "complete": 363,
     "ready": 1,
     "running": 5,
-    "not_started": 13
+    "not_started": 11
   },
   "current_batch": {
     "from_number": 201,
@@ -3641,21 +3641,21 @@
       "id": "pro-ai-deck",
       "title": "Pro AI Deck",
       "category": "Presentation",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b68-80cb-7690-9fdc-14df1126c5a8",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "1969c53c2f1e9d553da5b926db309503d1aafc6b",
+      "group_message_id": 432,
+      "url": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/"
     },
     {
       "id": "haul-footer",
       "title": "HAUL!",
       "category": "Footer Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b6b-5d53-7a92-b3ec-806ca9d996e2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c93e14658bbd689fd47a33e85fd72680a599e625",
+      "group_message_id": 433,
+      "url": "https://tool.luo-xd.com/motionsites-results/haul-footer/"
     },
     {
       "id": "veloce-finance-landing",
@@ -3691,7 +3691,7 @@
       "id": "ecovolta-v2-hero",
       "title": "EcoVolta V2",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3701,7 +3701,7 @@
       "id": "nexora-features",
       "title": "Nexora Features",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,0 +1,47 @@
+{
+  "url": "http://localhost:4173/motionsites-results/community-superdesign-lightning-background/",
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "canvas": [
+        1440,
+        1000
+      ],
+      "webgl": true,
+      "glError": 0,
+      "overflow": false,
+      "buttonVisible": true,
+      "animationChanges": true,
+      "replyClick": true,
+      "keyboardActivation": true,
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "name": "mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "canvas": [
+        390,
+        844
+      ],
+      "webgl": true,
+      "glError": 0,
+      "overflow": false,
+      "buttonVisible": true,
+      "animationChanges": true,
+      "replyClick": true,
+      "keyboardActivation": true,
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "warnings": [],
+  "status": "passed"
+}

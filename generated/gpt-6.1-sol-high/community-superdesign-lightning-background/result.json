@@ -1,0 +1,80 @@
+{
+  "title": "Lightning Background",
+  "id": "community-superdesign-lightning-background",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "browser": {
+      "url": "http://localhost:4173/motionsites-results/community-superdesign-lightning-background/",
+      "checks": [
+        {
+          "name": "desktop",
+          "viewport": [
+            1440,
+            1000
+          ],
+          "canvas": [
+            1440,
+            1000
+          ],
+          "webgl": true,
+          "glError": 0,
+          "overflow": false,
+          "buttonVisible": true,
+          "animationChanges": true,
+          "replyClick": true,
+          "keyboardActivation": true,
+          "screenshot": "screenshots/desktop.png"
+        },
+        {
+          "name": "mobile",
+          "viewport": [
+            390,
+            844
+          ],
+          "canvas": [
+            390,
+            844
+          ],
+          "webgl": true,
+          "glError": 0,
+          "overflow": false,
+          "buttonVisible": true,
+          "animationChanges": true,
+          "replyClick": true,
+          "keyboardActivation": true,
+          "screenshot": "screenshots/mobile.png"
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "warnings": [],
+      "status": "passed"
+    },
+    "visual_review": "Desktop and mobile screenshots inspected; fullscreen blue lightning, centered text, Reply control and inset frame verified.",
+    "required_files": [
+      "dist/index.html",
+      "package-lock.json",
+      "README.md",
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "Optional Lightning Background preview WebP",
+      "issue": "Not present at the supplied path",
+      "resolution": "Implemented the supplied React demo and GLSL shader directly; no extraction or replacement needed."
+    }
+  ],
+  "notes": [
+    "React 18, TypeScript and Vite; lucide-react dependency retained as specified.",
+    "Original shader, prop interface, demo values, copy and Reply Action alert preserved. Local CSS reproduces the supplied utility styles.",
+    "All production resources use the required /motionsites-results/community-superdesign-lightning-background/ base path.",
+    "No external font or image requests. Inline SVG favicon prevents a missing favicon request.",
+    "Browser checks used Chromium SwiftShader; physical GPU performance and other browser engines were not measured.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

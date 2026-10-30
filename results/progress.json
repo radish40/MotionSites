@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:51:24.873486+00:00",
+  "updated_utc": "2026-10-30T04:53:12.393520+00:00",
   "total": 380,
   "counts": {
-    "complete": 305,
+    "complete": 307,
     "running": 5,
-    "not_started": 70
+    "not_started": 68
   },
   "current_batch": {
     "from_number": 201,
@@ -3060,11 +3060,11 @@
       "id": "orbit-flora",
       "title": "Orbit Flora",
       "category": "AI",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b1f-4959-7e53-9458-49fcf221876a",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "0bcfd613ebf7b77c62e4b9672a64b118baab2990",
+      "group_message_id": 373,
+      "url": "https://tool.luo-xd.com/motionsites-results/orbit-flora/"
     },
     {
       "id": "data-signal",
@@ -3080,11 +3080,11 @@
       "id": "cyber-layer",
       "title": "Cyber Layer",
       "category": "Cybersecurity",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b20-f8bc-73b3-9387-a7010afccb08",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "7eca53792f21efaab1270a380fbda82931ec71bb",
+      "group_message_id": 374,
+      "url": "https://tool.luo-xd.com/motionsites-results/cyber-layer/"
     },
     {
       "id": "ai-runtime",
@@ -3120,7 +3120,7 @@
       "id": "growth-decisions",
       "title": "Growth Decisions",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3130,7 +3130,7 @@
       "id": "aurex-finance",
       "title": "Aurex Finance",
       "category": "Fintech",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

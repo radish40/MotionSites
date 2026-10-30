@@ -10439,19 +10439,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b1f-4959-7e53-9458-49fcf221876a",
       "output_path": "generated/gpt-6.1-sol-high/orbit-flora",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 858037,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:44:05.721976+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "0bcfd613ebf7b77c62e4b9672a64b118baab2990",
+      "url": "https://tool.luo-xd.com/motionsites-results/orbit-flora/",
+      "completed_utc": "2026-10-30T04:52:49.310176+00:00",
+      "group_message_id": 373
     },
     {
       "number": 306,
@@ -10503,19 +10507,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b20-f8bc-73b3-9387-a7010afccb08",
       "output_path": "generated/gpt-6.1-sol-high/cyber-layer",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 865398,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:45:56.196066+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "7eca53792f21efaab1270a380fbda82931ec71bb",
+      "url": "https://tool.luo-xd.com/motionsites-results/cyber-layer/",
+      "completed_utc": "2026-10-30T04:53:12.202105+00:00",
+      "group_message_id": 374
     },
     {
       "number": 308,
@@ -10623,11 +10631,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/growth-decisions",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 891129,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:52:22.017971+00:00",
+      "worker_state": "running"
     },
     {
       "number": 312,
@@ -10645,11 +10657,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/aurex-finance",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 891207,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:52:22.279613+00:00",
+      "worker_state": "running"
     },
     {
       "number": 313,
@@ -12149,7 +12165,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:51:24.873486+00:00",
+  "updated_utc": "2026-10-30T04:53:12.393520+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

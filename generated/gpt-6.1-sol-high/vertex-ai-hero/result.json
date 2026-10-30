@@ -1,0 +1,47 @@
+{
+  "title": "VertexAI Hero",
+  "id": "vertex-ai-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript check and Vite 6.4.5 production build",
+    "publish_path": "/motionsites-results/vertex-ai-hero/",
+    "dist_index_exists": true,
+    "browser": "Chromium via playwright-core in louislam/uptime-kuma:2",
+    "desktop": {
+      "viewport": "1440x1000",
+      "status": "passed",
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "status": "passed",
+      "screenshot": "screenshots/mobile.png"
+    },
+    "script_errors": [],
+    "asset_failures": [],
+    "http_errors": [],
+    "layout": "No horizontal overflow; tested visible text and controls remain within both viewports",
+    "video": "Original MP4 loaded at 1920x1080; autoplay, muted, playsInline, advancing playback and loop wraparound verified at both sizes",
+    "fonts": "Inter and italic Cormorant Garamond loaded at both sizes",
+    "interactions": "Login lift, CTA scale, tag fill, arrow rotation, nav hover, all four desktop fragment links, and button clicks checked",
+    "responsive": "Desktop nav links and footer row; mobile links hidden and footer stacked",
+    "dependency_audit": {
+      "vulnerabilities": 0,
+      "report": "screenshots/dependency-audit.json"
+    },
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original prompt components and CSS preserved; original CloudFront video and Google Fonts import used without substitutions.",
+    "External CloudFront and Google Fonts availability remains a runtime dependency.",
+    "Browser recorded 5 aborted video range requests while seeking/navigating; playback and loop checks passed. These are recorded separately from asset failures.",
+    "Hero-only controls retain prompt behavior; no authentication, decoration workflow, or destination sections were requested or added.",
+    "Mobile description wraps naturally under the supplied CSS.",
+    "Screenshots use the video frame at three seconds; application playback remains continuous.",
+    "Validation is limited to Chromium at the specified desktop and mobile viewport sizes.",
+    "No deployment, push, agents, other sessions, or external messages. All deliverables are inside this project.",
+    "Ready for management-session acceptance; not deployed."
+  ]
+}

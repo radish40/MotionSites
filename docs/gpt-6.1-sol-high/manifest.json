@@ -12012,10 +12012,10 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18b55-0948-7010-9d52-8c08d2718b53",
       "output_path": "generated/gpt-6.1-sol-high/design-rocket-email-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1083564,
       "launch_method": "isolated_codex_exec",
@@ -12024,7 +12024,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "0e83e1dbd9a4accdbabeadeec040ef4778aa3099",
+      "url": "https://tool.luo-xd.com/motionsites-results/design-rocket-email-hero/",
+      "completed_utc": "2026-10-30T05:50:52.192135+00:00",
+      "group_message_id": 419
     },
     {
       "number": 352,
@@ -12686,7 +12690,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:49:35.754220+00:00",
+  "updated_utc": "2026-10-30T05:50:52.381519+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

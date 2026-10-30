@@ -1,10 +1,9 @@
 {
-  "updated_utc": "2026-10-30T05:49:35.754220+00:00",
+  "updated_utc": "2026-10-30T05:50:52.381519+00:00",
   "total": 380,
   "counts": {
-    "complete": 349,
+    "complete": 350,
     "running": 5,
-    "ready": 1,
     "not_started": 25
   },
   "current_batch": {
@@ -3521,11 +3520,11 @@
       "id": "design-rocket-email-hero",
       "title": "Email Marketing",
       "category": "Email Marketing",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18b55-0948-7010-9d52-8c08d2718b53",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "0e83e1dbd9a4accdbabeadeec040ef4778aa3099",
+      "group_message_id": 419,
+      "url": "https://tool.luo-xd.com/motionsites-results/design-rocket-email-hero/"
     },
     {
       "id": "rivr-defi-landing",

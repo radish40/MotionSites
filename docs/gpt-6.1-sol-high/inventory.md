@@ -298,13 +298,13 @@
 | 211 | `synthesis` | Synthesis | Landing Page | 2 | 图片 | 已完成 |
 | 212 | `tech-noir-about` | Tech-Noir About | About Section | 2 | 图片 | 已完成 |
 | 213 | `technical-specifications` | Technical Specifications | Components | 2 | 图片 | 已完成 |
-| 214 | `travel-hero` | Scenic Travel | Landing Page | 2 | 图片 | 生成中 |
+| 214 | `travel-hero` | Scenic Travel | Landing Page | 2 | 图片 | 待验收 |
 | 215 | `unwind-hero` | Unwind Hero | Hero Section | 2 | 图片 | 生成中 |
 | 216 | `vaultshield` | VaultShield | Hero Section | 2 | 图片 | 生成中 |
-| 217 | `veloce-cards` | Veloce Cards | Cards | 2 | 图片 | 生成中 |
+| 217 | `veloce-cards` | Veloce Cards | Cards | 2 | 图片 | 待修复 |
 | 218 | `velorix-iic` | Velorix IIC | Hero Section | 2 | 图片 | 生成中 |
-| 219 | `vertex-sci` | Vertex Sci | Hero Section | 2 | 图片 | 未开始 |
-| 220 | `visual-hero` | Visual Hero | Hero Section | 2 | 图片 | 未开始 |
+| 219 | `vertex-sci` | Vertex Sci | Hero Section | 2 | 图片 | 生成中 |
+| 220 | `visual-hero` | Visual Hero | Hero Section | 2 | 图片 | 生成中 |
 | 221 | `waitlist-hero` | Waitlist Hero | Hero Section | 2 | 图片 | 未开始 |
 | 222 | `wanderful-hero` | Wanderful Hero | Travel | 2 | 图片 | 未开始 |
 | 223 | `wellness-balance` | Wellness Balance | Hero Section | 2 | 图片 | 未开始 |

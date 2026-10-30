@@ -7331,7 +7331,7 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18ab8-691b-7bc2-a45e-5bcf3ee18a01",
       "output_path": "generated/gpt-6.1-sol-high/travel-hero",
       "validation": "",
@@ -7339,7 +7339,7 @@
       "process_id": 419193,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:51:43.543830+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -7422,15 +7422,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a18abd-3af6-7c43-abf1-60427baef3a8",
       "output_path": "generated/gpt-6.1-sol-high/veloce-cards",
       "validation": "",
-      "notes": "",
+      "notes": "Session ended without result.json; inspect existing session before retrying",
       "process_id": 439984,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:56:59.464435+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -7453,14 +7453,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18abe-fb29-7cc1-8917-bf4b14e4a28e",
       "output_path": "generated/gpt-6.1-sol-high/velorix-iic",
       "validation": "",
       "notes": "",
       "process_id": 448526,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:58:54.054168+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 219,
@@ -7478,11 +7482,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/vertex-sci",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 456079,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:00:58.004552+00:00",
+      "worker_state": "running"
     },
     {
       "number": 220,
@@ -7500,11 +7508,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/visual-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 456113,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:00:58.192161+00:00",
+      "worker_state": "running"
     },
     {
       "number": 221,
@@ -11027,7 +11039,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:00:04.558826+00:00",
+  "updated_utc": "2026-10-30T03:00:58.192295+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

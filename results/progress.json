@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:07:40.533154+00:00",
+  "updated_utc": "2026-10-30T05:09:18.124758+00:00",
   "total": 380,
   "counts": {
-    "complete": 319,
+    "complete": 320,
     "running": 5,
-    "not_started": 56
+    "not_started": 55
   },
   "current_batch": {
     "from_number": 201,
@@ -3230,11 +3230,11 @@
       "id": "digitwist-hero",
       "title": "Digitwist AI Builder",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b31-5fe5-7fd1-9566-259518266bbf",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "bce4a0281684044b879d48f2e0a3eb6a162d1e9b",
+      "group_message_id": 388,
+      "url": "https://tool.luo-xd.com/motionsites-results/digitwist-hero/"
     },
     {
       "id": "deck-investor",
@@ -3251,7 +3251,7 @@
       "title": "Bionova Biotech",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b34-79d2-71f2-904c-ed1540cd45f3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3260,7 +3260,7 @@
       "id": "nova-space-landing",
       "title": "NOVA Space Systems",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

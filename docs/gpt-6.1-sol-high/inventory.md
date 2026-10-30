@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 319/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 320/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -406,10 +406,10 @@
 | 319 | `portfolio-cosmic-hero` | Portfolio Cosmic | Portfolio | 1 | 视频 | 生成中 |
 | 320 | `3` | ClearInvoice SaaS Hero | SaaS | 1 | 视频 | 已完成 |
 | 321 | `codenest-hero` | CodeNest Coding Platform | Landing Page | 1 | 视频 | 生成中 |
-| 322 | `digitwist-hero` | Digitwist AI Builder | SaaS | 1 | 视频 | 生成中 |
+| 322 | `digitwist-hero` | Digitwist AI Builder | SaaS | 1 | 视频 | 已完成 |
 | 323 | `deck-investor` | Investor Deck | Investor Presentations | 1 | 视频 | 生成中 |
 | 324 | `bionova-hero` | Bionova Biotech | SaaS | 1 | 视频 | 生成中 |
-| 325 | `nova-space-landing` | NOVA Space Systems | Landing Page | 1 | 视频 | 未开始 |
+| 325 | `nova-space-landing` | NOVA Space Systems | Landing Page | 1 | 视频 | 生成中 |
 | 326 | `4` | Datacore SaaS Hero | SaaS | 1 | 视频 | 未开始 |
 | 327 | `15` | Dark Portfolio Hero | Portfolio | 1 | 视频 | 未开始 |
 | 328 | `vex-ventures-hero` | VEX Ventures | Hero Section | 1 | 无 | 未开始 |

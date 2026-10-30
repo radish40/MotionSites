@@ -11009,19 +11009,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b31-5fe5-7fd1-9566-259518266bbf",
       "output_path": "generated/gpt-6.1-sol-high/digitwist-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 936242,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:03:51.093965+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "bce4a0281684044b879d48f2e0a3eb6a162d1e9b",
+      "url": "https://tool.luo-xd.com/motionsites-results/digitwist-hero/",
+      "completed_utc": "2026-10-30T05:09:17.941423+00:00",
+      "group_message_id": 388
     },
     {
       "number": 323,
@@ -11070,14 +11074,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b34-79d2-71f2-904c-ed1540cd45f3",
       "output_path": "generated/gpt-6.1-sol-high/bionova-hero",
       "validation": "",
       "notes": "",
       "process_id": 948754,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:07:14.426709+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 325,
@@ -11095,11 +11103,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nova-space-landing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 954259,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:08:43.041225+00:00",
+      "worker_state": "running"
     },
     {
       "number": 326,
@@ -12313,7 +12325,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:07:40.533154+00:00",
+  "updated_utc": "2026-10-30T05:09:18.124758+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -1,0 +1,145 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "heading": {
+      "text": "Instant payment clarity counts",
+      "opacity": "1",
+      "filter": "blur(0px)"
+    },
+    "bounds": [
+      {
+        "x": 60,
+        "y": 386,
+        "width": 426.65625,
+        "height": 450,
+        "bottom": 836,
+        "opacity": "1"
+      },
+      {
+        "x": 506.65625,
+        "y": 486,
+        "width": 426.671875,
+        "height": 350,
+        "bottom": 836,
+        "opacity": "1"
+      },
+      {
+        "x": 953.328125,
+        "y": 386,
+        "width": 426.671875,
+        "height": 450,
+        "bottom": 836,
+        "opacity": "1"
+      }
+    ],
+    "overflow": false,
+    "videos": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_143605_bc7bd6c0-9c68-49ff-a9d3-073a10759fa4.mp4",
+        "time": 2.563008,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_145119_f4ec4d9f-3ecd-4116-baa3-26e8cf2df976.mp4",
+        "time": 3.192102,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_140728_ae719193-f10b-4105-82fc-c989610b3aa6.mp4",
+        "time": 4.035357,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "heading": {
+      "text": "Instant payment clarity counts",
+      "opacity": "1",
+      "filter": "blur(0px)"
+    },
+    "bounds": [
+      {
+        "x": 24,
+        "y": -526,
+        "width": 342,
+        "height": 450,
+        "bottom": -76,
+        "opacity": "1"
+      },
+      {
+        "x": 24,
+        "y": -56,
+        "width": 342,
+        "height": 350,
+        "bottom": 294,
+        "opacity": "1"
+      },
+      {
+        "x": 24,
+        "y": 314,
+        "width": 342,
+        "height": 450,
+        "bottom": 764,
+        "opacity": "1"
+      }
+    ],
+    "overflow": false,
+    "videos": [
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_143605_bc7bd6c0-9c68-49ff-a9d3-073a10759fa4.mp4",
+        "time": 2.408744,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_145119_f4ec4d9f-3ecd-4116-baa3-26e8cf2df976.mp4",
+        "time": 3.124277,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_140728_ae719193-f10b-4105-82fc-c989610b3aa6.mp4",
+        "time": 0.750454,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "localVideoFallback": "passed"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "title": "Veloce Cards",
+  "id": "veloce-cards",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/veloce-cards/",
+    "desktop": { "viewport": "1440x1000", "status": "passed", "card_heights": [450, 350, 450], "bottom_alignment": true, "horizontal_overflow": false },
+    "mobile": { "viewport": "390x844", "status": "passed", "stacked_cards": true, "card_width": 342, "horizontal_overflow": false },
+    "heading_reveal": "passed: final opacity 1 and blur(0px)",
+    "card_reveal": "passed: all card opacities 1 after scrolling",
+    "original_video_playback": "passed: all three original MP4s decode and advance while visible on desktop and mobile",
+    "video_attributes": "passed: muted, loop, playsInline",
+    "local_video_fallback": "passed with CloudFront requests blocked",
+    "javascript_errors": [],
+    "normal_run_failed_requests": [],
+    "visual_inspection": "passed: desktop and mobile screenshots inspected",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "details": "screenshots/checks.json",
+    "build_log": "build.log"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React + TypeScript + Vite + Tailwind CSS + Framer Motion; dependency lock included.",
+    "Exact original CloudFront MP4 URLs retained; unmodified downloaded copies bundled as fallback sources.",
+    "Specified system font stack retained; actual font rendering varies by platform.",
+    "No screenshot-based page or reconstructed assets used.",
+    "Mobile screenshot is full-page, captured using a 390x844 viewport.",
+    "Browser validation used headless Chromium; physical iOS/Safari was not tested.",
+    "Ready for review only. No deployment, push, or external messages."
+  ]
+}

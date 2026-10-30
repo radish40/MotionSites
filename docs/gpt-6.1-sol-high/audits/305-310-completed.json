@@ -1,0 +1,182 @@
+{
+  "recorded_utc": "2026-10-30T04:57:25.287079+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 6,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:53:05.167587+00:00",
+      "remote_main": "0bcfd613ebf7b77c62e4b9672a64b118baab2990",
+      "delivery": {
+        "id": "orbit-flora",
+        "title": "Orbit Flora",
+        "source_commit": "0bcfd613ebf7b77c62e4b9672a64b118baab2990",
+        "thread_id": "01a18b1f-4959-7e53-9458-49fcf221876a",
+        "group_message_id": 373,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:50:46.666045+00:00",
+      "remote_main": "93ef3a785b362900a15613a804de46bcbcf79c74",
+      "delivery": {
+        "id": "data-signal",
+        "title": "Data Signal",
+        "source_commit": "6fcebd9b77b69581ff757ebdd60f4a699b4030c0",
+        "thread_id": "01a18b1f-4a63-7a90-bde7-4d4cd7a3d65a",
+        "group_message_id": 372,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:53:21.312343+00:00",
+      "remote_main": "7eca53792f21efaab1270a380fbda82931ec71bb",
+      "delivery": {
+        "id": "cyber-layer",
+        "title": "Cyber Layer",
+        "source_commit": "7eca53792f21efaab1270a380fbda82931ec71bb",
+        "thread_id": "01a18b20-f8bc-73b3-9387-a7010afccb08",
+        "group_message_id": 374,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:54:54.421385+00:00",
+      "remote_main": "621eee89484c5ebb4cd7848a43ea7092dce24bd6",
+      "delivery": {
+        "id": "ai-runtime",
+        "title": "AI Runtime",
+        "source_commit": "621eee89484c5ebb4cd7848a43ea7092dce24bd6",
+        "thread_id": "01a18b22-5f06-7643-84ca-fb1e0a5623d5",
+        "group_message_id": 375,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:55:21.665636+00:00",
+      "remote_main": "297efd0e00dd817ae2a78d1fc7002ac9c94190fd",
+      "delivery": {
+        "id": "real-time-alerts",
+        "title": "Real-Time Alerts",
+        "source_commit": "297efd0e00dd817ae2a78d1fc7002ac9c94190fd",
+        "thread_id": "01a18b22-5fe0-7aa2-bce0-f64763ff4db4",
+        "group_message_id": 376,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:55:49.397806+00:00",
+      "remote_main": "f7ade92d4bb5f8ed7e5a8337bdd3739d55f5435b",
+      "delivery": {
+        "id": "pet-diagnostics",
+        "title": "Pet Diagnostics",
+        "source_commit": "1db055c0ef030ebe220330d10a9ca2971f74b69f",
+        "thread_id": "01a18b24-7db8-7aa2-b399-e40a0fa2ad0d",
+        "group_message_id": 377,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

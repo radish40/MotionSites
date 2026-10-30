@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T04:55:38.629044+00:00",
+  "updated_utc": "2026-10-30T04:57:25.211535+00:00",
   "total": 380,
   "counts": {
-    "complete": 310,
+    "complete": 311,
+    "ready": 1,
     "running": 5,
-    "not_started": 65
+    "not_started": 63
   },
   "current_batch": {
     "from_number": 201,
@@ -3120,17 +3121,17 @@
       "id": "growth-decisions",
       "title": "Growth Decisions",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b26-dbe1-7103-a522-649e1d92f599",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b302a24a8e79e90678ba89d22c42f79fa15a0676",
+      "group_message_id": 378,
+      "url": "https://tool.luo-xd.com/motionsites-results/growth-decisions/"
     },
     {
       "id": "aurex-finance",
       "title": "Aurex Finance",
       "category": "Fintech",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18b26-dd45-77a3-952f-55e47f016872",
       "source_commit": null,
       "group_message_id": null,
@@ -3141,7 +3142,7 @@
       "title": "Agent Wave",
       "category": "AI",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b28-7782-7f80-9f15-18492bfb45dd",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3151,7 +3152,7 @@
       "title": "Palomar Labs",
       "category": "AI",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b28-785e-7001-b889-755abb8414b6",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3161,7 +3162,7 @@
       "title": "Scaling Platform",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b28-7935-75f0-89e3-62f3faeae3b4",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3170,7 +3171,7 @@
       "id": "quantum-lucid",
       "title": "Quantum Lucid",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3180,7 +3181,7 @@
       "id": "space-planet",
       "title": "Space planet",
       "category": "3D",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

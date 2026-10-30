@@ -10643,19 +10643,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b26-dbe1-7103-a522-649e1d92f599",
       "output_path": "generated/gpt-6.1-sol-high/growth-decisions",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 891129,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:52:22.017971+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b302a24a8e79e90678ba89d22c42f79fa15a0676",
+      "url": "https://tool.luo-xd.com/motionsites-results/growth-decisions/",
+      "completed_utc": "2026-10-30T04:57:25.002575+00:00",
+      "group_message_id": 378
     },
     {
       "number": 312,
@@ -10673,7 +10677,7 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18b26-dd45-77a3-952f-55e47f016872",
       "output_path": "generated/gpt-6.1-sol-high/aurex-finance",
       "validation": "",
@@ -10681,7 +10685,7 @@
       "process_id": 891207,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:52:22.279613+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -10704,14 +10708,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b28-7782-7f80-9f15-18492bfb45dd",
       "output_path": "generated/gpt-6.1-sol-high/agent-wave",
       "validation": "",
       "notes": "",
       "process_id": 897758,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:54:07.380379+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 314,
@@ -10730,14 +10738,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b28-785e-7001-b889-755abb8414b6",
       "output_path": "generated/gpt-6.1-sol-high/palomar-labs",
       "validation": "",
       "notes": "",
       "process_id": 897801,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:54:07.532066+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 315,
@@ -10756,14 +10768,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b28-7935-75f0-89e3-62f3faeae3b4",
       "output_path": "generated/gpt-6.1-sol-high/scaling-platform",
       "validation": "",
       "notes": "",
       "process_id": 897886,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:54:07.731551+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 316,
@@ -10781,11 +10797,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/quantum-lucid",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 909059,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:56:31.823757+00:00",
+      "worker_state": "running"
     },
     {
       "number": 317,
@@ -10803,11 +10823,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/space-planet",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 909135,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:56:31.992740+00:00",
+      "worker_state": "running"
     },
     {
       "number": 318,
@@ -12197,7 +12221,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:55:38.629044+00:00",
+  "updated_utc": "2026-10-30T04:57:25.211535+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

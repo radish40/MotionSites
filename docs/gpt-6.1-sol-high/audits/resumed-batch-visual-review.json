@@ -1341,7 +1341,92 @@
         "generated/gpt-6.1-sol-high/autonomous-ops/screenshots/mobile-full.png"
       ],
       "reviewed_utc": "2026-10-30T04:49:27.709253+00:00"
+    },
+    {
+      "id": "orbit-flora",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop, phone, desktop reveal and phone menu captures. Oversized white/pink ORBIT lettering and original transparent flower fit the locked poster. Reveal shows the second original flower through the irregular fading trail, not a static circular reveal. Worker browser verified two mask canvases, trail decay, focus trap, menu closure and reduced motion. Original Orbit font binaries were absent; embedded licensed Arimo/Tinos substitutes and resulting typography limitation are explicitly disclosed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/orbit-flora/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/orbit-flora/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/orbit-flora/screenshots/desktop-reveal.png",
+        "generated/gpt-6.1-sol-high/orbit-flora/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:57:25.287079+00:00"
+    },
+    {
+      "id": "data-signal",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop, phone and open phone menu actually reviewed. Original red pixel-volume video, two-line serif headline, timestamp and demo glass card fit both layouts. Browser tests five sizes, decoded/autoplay video, both demo controls/modal closure, keyboard/menu and reduced motion. Reference font binaries were absent; DM Sans/Bodoni Moda substitutes are disclosed. Smoke thumbnail recovered from this design reference only; baked play icon removed and replaced with native control, with approximation documented. Signup hooks have no unspecified backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/data-signal/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/data-signal/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/data-signal/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:57:25.287079+00:00"
+    },
+    {
+      "id": "cyber-layer",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop, phone and phone menu. Red square CTAs, dark original video composition, headline and three stats fit; exclusive Benefits accordion and lower CTA fit the menu. Browser verifies three exact-source videos with synchronized clocks, prescribed transfer-function grading, entrance completion, keyboard/focus/menu closure and reduced-motion video pause. Prompt-permitted Space Grotesk and JetBrains Mono equivalents used because private embedded font cuts were absent; video navigation range cancellations separately recorded.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/cyber-layer/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/cyber-layer/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/cyber-layer/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:57:25.287079+00:00"
+    },
+    {
+      "id": "ai-runtime",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop, phone and phone menu. Original animated background, white dotted two-line headline, three enterprise marks and all four count-up metrics fit. Browser confirms actual CDN Bubbledot and Font Awesome loads, local Geist fallback through deliberate font fallback check, original 1920x1080 autoplay video and byte-identical local video recovery. Menu closures, short-phone layout and reduced-motion visibility pass. Missing logo recovered from its own reference as isolated raster only; low-resolution approximation disclosed. Video frame brightness varies behind the specified white headline.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/ai-runtime/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/ai-runtime/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/ai-runtime/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:57:25.287079+00:00"
+    },
+    {
+      "id": "real-time-alerts",
+      "viewports": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "observation": "Actually reviewed desktop, phone and portrait tablet screenshots: original falcon footage, specified login composition, editable email/password, Google button and signup line fit. Browser verifies live resize/rotation across all three modes, real silent looping video and loop boundary, keyboard/button states, phone 16px inputs, no-JavaScript and reduced-motion visible content. All buttons remain static type=button as requested, with no authentication backend. Original Eloquia font absent; prompt-permitted Manrope variable substitute disclosed. Embedded poster extracted from the original falcon footage because separate photo was not supplied.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/real-time-alerts/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/real-time-alerts/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/real-time-alerts/screenshots/tablet.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:57:25.287079+00:00"
+    },
+    {
+      "id": "pet-diagnostics",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop and phone captures. Original pet/person video on desktop and specified static portrait on phone, measured small serif headline, glass comparison grid and cream brand column all fit. Browser checks 11 widths, original asset decoding, button hover/press/focus and reduced-motion static still. Exact prompt typography formulas retained (about 24px headline and 10.9px table at desktop); no invented booking or checkout flow because CTA destinations were not supplied. No substituted assets.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/pet-diagnostics/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/pet-diagnostics/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:57:25.287079+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:49:27.709253+00:00"
+  "updated_utc": "2026-10-30T04:57:25.287079+00:00"
 }

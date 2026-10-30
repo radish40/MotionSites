@@ -7396,10 +7396,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18abd-398e-75f2-bb0b-d95f7e8d4efc",
       "output_path": "generated/gpt-6.1-sol-high/vaultshield",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 439882,
       "launch_method": "isolated_codex_exec",
@@ -7408,7 +7408,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "62ca54917202fd03adb5c50f80488fa577673c6c",
+      "url": "https://tool.luo-xd.com/motionsites-results/vaultshield/",
+      "completed_utc": "2026-10-30T03:04:48.336534+00:00",
+      "group_message_id": 278
     },
     {
       "number": 217,
@@ -11056,7 +11060,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:03:46.726611+00:00",
+  "updated_utc": "2026-10-30T03:04:48.509239+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

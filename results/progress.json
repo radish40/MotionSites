@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:04:59.559318+00:00",
+  "updated_utc": "2026-10-30T05:06:19.168665+00:00",
   "total": 380,
   "counts": {
-    "complete": 317,
+    "complete": 318,
     "running": 5,
-    "not_started": 58
+    "not_started": 57
   },
   "current_batch": {
     "from_number": 201,
@@ -3190,11 +3190,11 @@
       "id": "7",
       "title": "Synapse Dark Hero",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b2d-718b-7651-b8a3-43be4cd6041b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c13629f61d30aa7fbb5f9e4c76a28eba3b9ec0da",
+      "group_message_id": 385,
+      "url": "https://tool.luo-xd.com/motionsites-results/7/"
     },
     {
       "id": "portfolio-cosmic-hero",
@@ -3221,7 +3221,7 @@
       "title": "CodeNest Coding Platform",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b31-5f1d-7591-a903-cce5944b10b4",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3231,7 +3231,7 @@
       "title": "Digitwist AI Builder",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b31-5fe5-7fd1-9566-259518266bbf",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3240,7 +3240,7 @@
       "id": "deck-investor",
       "title": "Investor Deck",
       "category": "Investor Presentations",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,0 +1,104 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "dimensions": {
+      "viewport": 1440,
+      "document": 1440
+    },
+    "fonts": true,
+    "media": [
+      {
+        "src": "http://localhost:4173/motionsites-results/akor-security/assets/hero.mp4",
+        "readyState": 4,
+        "width": 2076,
+        "height": 996,
+        "paused": false,
+        "currentTime": 1.936573,
+        "muted": true,
+        "loop": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/akor-security/assets/about.mp4",
+        "readyState": 4,
+        "width": 1472,
+        "height": 1404,
+        "paused": true,
+        "currentTime": 0,
+        "muted": true,
+        "loop": true
+      }
+    ],
+    "aboutPlayback": {
+      "paused": false,
+      "currentTime": 1.204081
+    },
+    "scriptErrors": [],
+    "failedRequests": [],
+    "checks": [
+      "fonts loaded",
+      "both videos autoplay muted and loop",
+      "no horizontal overflow",
+      "Learn More navigation",
+      "consultation dialog",
+      "required form validation",
+      "request confirmation",
+      "quote dialog",
+      "Escape close",
+      "all navigation links",
+      "Contacts dialog"
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "dimensions": {
+      "viewport": 390,
+      "document": 390
+    },
+    "fonts": true,
+    "media": [
+      {
+        "src": "http://localhost:4173/motionsites-results/akor-security/assets/hero.mp4",
+        "readyState": 4,
+        "width": 2076,
+        "height": 996,
+        "paused": false,
+        "currentTime": 1.980244,
+        "muted": true,
+        "loop": true
+      },
+      {
+        "src": "http://localhost:4173/motionsites-results/akor-security/assets/about.mp4",
+        "readyState": 4,
+        "width": 1472,
+        "height": 1404,
+        "paused": true,
+        "currentTime": 0,
+        "muted": true,
+        "loop": true
+      }
+    ],
+    "aboutPlayback": {
+      "paused": false,
+      "currentTime": 1.196732
+    },
+    "scriptErrors": [],
+    "failedRequests": [],
+    "checks": [
+      "fonts loaded",
+      "both videos autoplay muted and loop",
+      "no horizontal overflow",
+      "Learn More navigation",
+      "consultation dialog",
+      "required form validation",
+      "request confirmation",
+      "quote dialog",
+      "Escape close"
+    ]
+  }
+}

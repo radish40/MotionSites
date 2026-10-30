@@ -1,0 +1,142 @@
+{
+  "title": "AKOR Security",
+  "id": "akor-security",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci && npm run build\"",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "dimensions": {
+          "viewport": 1440,
+          "document": 1440
+        },
+        "fonts": true,
+        "media": [
+          {
+            "src": "http://localhost:4173/motionsites-results/akor-security/assets/hero.mp4",
+            "readyState": 4,
+            "width": 2076,
+            "height": 996,
+            "paused": false,
+            "currentTime": 1.936573,
+            "muted": true,
+            "loop": true
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/akor-security/assets/about.mp4",
+            "readyState": 4,
+            "width": 1472,
+            "height": 1404,
+            "paused": true,
+            "currentTime": 0,
+            "muted": true,
+            "loop": true
+          }
+        ],
+        "aboutPlayback": {
+          "paused": false,
+          "currentTime": 1.204081
+        },
+        "scriptErrors": [],
+        "failedRequests": [],
+        "checks": [
+          "fonts loaded",
+          "both videos autoplay muted and loop",
+          "no horizontal overflow",
+          "Learn More navigation",
+          "consultation dialog",
+          "required form validation",
+          "request confirmation",
+          "quote dialog",
+          "Escape close",
+          "all navigation links",
+          "Contacts dialog"
+        ]
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "dimensions": {
+          "viewport": 390,
+          "document": 390
+        },
+        "fonts": true,
+        "media": [
+          {
+            "src": "http://localhost:4173/motionsites-results/akor-security/assets/hero.mp4",
+            "readyState": 4,
+            "width": 2076,
+            "height": 996,
+            "paused": false,
+            "currentTime": 1.980244,
+            "muted": true,
+            "loop": true
+          },
+          {
+            "src": "http://localhost:4173/motionsites-results/akor-security/assets/about.mp4",
+            "readyState": 4,
+            "width": 1472,
+            "height": 1404,
+            "paused": true,
+            "currentTime": 0,
+            "muted": true,
+            "loop": true
+          }
+        ],
+        "aboutPlayback": {
+          "paused": false,
+          "currentTime": 1.196732
+        },
+        "scriptErrors": [],
+        "failedRequests": [],
+        "checks": [
+          "fonts loaded",
+          "both videos autoplay muted and loop",
+          "no horizontal overflow",
+          "Learn More navigation",
+          "consultation dialog",
+          "required form validation",
+          "request confirmation",
+          "quote dialog",
+          "Escape close"
+        ]
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected against PROMPT.md; reference preview absent"
+  },
+  "asset_issues": [
+    {
+      "issue": "Python asset requests stalled",
+      "resolution": "Original files downloaded successfully using IPv4 curl; all served locally"
+    },
+    {
+      "issue": "Three service images specified through Higgs proxy URLs",
+      "resolution": "Recovered exact original PNG URLs encoded in proxy URLs; original PNGs downloaded"
+    },
+    {
+      "issue": "Optional reference preview does not exist",
+      "resolution": "Implemented and visually reviewed against the complete written specification"
+    }
+  ],
+  "notes": [
+    "React, Tailwind CSS, Vite, and local Google Fonts Sora weights 300/400/500/600/700.",
+    "All original videos and service icons included in dist; no runtime external asset dependencies.",
+    "Fixed publication base: /motionsites-results/akor-security/.",
+    "No deployment, push, agents, or other sessions.",
+    "Inquiry forms are local demos and explicitly report that no request is sent.",
+    "Projects and Team navigate to relevant portions of the specified four sections.",
+    "Original service descriptions and mission copy supplied because prompt specified their subject without exact text.",
+    "ready means ready for management review, not deployed."
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "file": "hero.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260322_013248_a74099a8-be2b-4164-a823-eddd5e149fa1.mp4",
+    "status": "downloaded",
+    "bytes": 5285334
+  },
+  {
+    "file": "about.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260322_011532_86f9b93a-2ffc-42fd-8735-12a4c55ab536.mp4",
+    "status": "downloaded",
+    "bytes": 6105471
+  },
+  {
+    "file": "security.png",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260322_015134_c80a3c98-609e-4526-b79e-94dc96cd34e8.png",
+    "status": "downloaded",
+    "bytes": 947482
+  },
+  {
+    "file": "building.png",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260322_014934_6e2804d7-d219-461d-98d5-36140fc90c4c.png",
+    "status": "downloaded",
+    "bytes": 916737
+  },
+  {
+    "file": "integration.png",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260322_014626_97cccc38-534a-4c9d-a801-68a449da9d0c.png",
+    "status": "downloaded",
+    "bytes": 897041
+  },
+  {
+    "file": "support.png",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260322_014849_570d4eeb-9613-4b19-a084-46c7a2665243.png",
+    "status": "downloaded",
+    "bytes": 978813
+  },
+  {
+    "file": "sora.css",
+    "status": "downloaded",
+    "url": "https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap"
+  }
+]

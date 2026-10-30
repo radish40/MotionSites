@@ -7195,19 +7195,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ab5-d3c3-7aa1-9e9d-4cb458f20af2",
       "output_path": "generated/gpt-6.1-sol-high/stellar-launch",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 407800,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:48:54.368773+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "e323f5eacb7c33793b35b98c1675d97041c03836",
+      "url": "https://tool.luo-xd.com/motionsites-results/stellar-launch/",
+      "completed_utc": "2026-10-30T02:56:05.255608+00:00",
+      "group_message_id": 273
     },
     {
       "number": 211,
@@ -7346,11 +7350,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/unwind-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 434690,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:55:26.635636+00:00",
+      "worker_state": "running"
     },
     {
       "number": 216,
@@ -10983,7 +10991,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T02:55:05.814655+00:00",
+  "updated_utc": "2026-10-30T02:56:05.440146+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 209/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 210/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -294,12 +294,12 @@
 | 207 | `solace-sign-in` | Solace sign-in | Waitlist & Coming Soon | 2 | 图片 | 已完成 |
 | 208 | `speakup-venture-hero` | SpeakUp Venture Hero | Hero Section | 2 | 图片 | 已完成 |
 | 209 | `stark-minimal-footer` | Stark Minimal Footer | Footer Section | 2 | 图片 | 已完成 |
-| 210 | `stellar-launch` | Stellar Launch | Landing Page | 2 | 图片 | 生成中 |
+| 210 | `stellar-launch` | Stellar Launch | Landing Page | 2 | 图片 | 已完成 |
 | 211 | `synthesis` | Synthesis | Landing Page | 2 | 图片 | 生成中 |
 | 212 | `tech-noir-about` | Tech-Noir About | About Section | 2 | 图片 | 生成中 |
 | 213 | `technical-specifications` | Technical Specifications | Components | 2 | 图片 | 生成中 |
 | 214 | `travel-hero` | Scenic Travel | Landing Page | 2 | 图片 | 生成中 |
-| 215 | `unwind-hero` | Unwind Hero | Hero Section | 2 | 图片 | 未开始 |
+| 215 | `unwind-hero` | Unwind Hero | Hero Section | 2 | 图片 | 生成中 |
 | 216 | `vaultshield` | VaultShield | Hero Section | 2 | 图片 | 未开始 |
 | 217 | `veloce-cards` | Veloce Cards | Cards | 2 | 图片 | 未开始 |
 | 218 | `velorix-iic` | Velorix IIC | Hero Section | 2 | 图片 | 未开始 |

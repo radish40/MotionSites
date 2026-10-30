@@ -1,0 +1,38 @@
+{
+  "title": "Hover reveal effect",
+  "id": "community-superdesign-hover-reveal-effect",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; Vite 6.4.5; dist/index.html exists",
+    "desktop": "1440x1000; no script errors, failed assets, or overflow",
+    "mobile": "390x844; no script errors, failed assets, or overflow",
+    "interactions": [
+      "organic reveal and speed-dependent trails",
+      "name, Portfolio, and all four social icons invert to white",
+      "pointer-leave fade",
+      "keyboard link focus",
+      "touch reveal and fade",
+      "reduced-motion handling"
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-reveal.png",
+      "screenshots/mobile-reveal.png"
+    ],
+    "details": "browser-checks.json"
+  },
+  "asset_issues": [
+    "Optional design reference file absent.",
+    "Prompt provides no actual name, image URLs, portfolio destination, or social profile URLs. Sample identity and destinations are documented in README.md.",
+    "A locally downloaded portrait is used for both layers with monochrome and blue color treatments rather than two supplied headshots."
+  ],
+  "notes": [
+    "Only this project was implemented. No agents, sessions, deployment, push, or messages.",
+    "Vanilla JavaScript/CSS/SVG with Vite; prompt specifies no framework.",
+    "All production assets are local and subpath-compatible.",
+    "Ready for management review; not deployed.",
+    "Physical mobile devices and non-Chromium engines were not tested."
+  ]
+}

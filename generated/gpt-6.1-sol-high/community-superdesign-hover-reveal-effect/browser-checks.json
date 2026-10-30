@@ -1,0 +1,102 @@
+{
+  "inversion": {
+    "inverted": true,
+    "color": "rgb(255, 255, 255)"
+  },
+  "textInversions": {
+    ".portfolio": true,
+    ".socials a:nth-child(1)": true,
+    ".socials a:nth-child(2)": true,
+    ".socials a:nth-child(3)": true,
+    ".socials a:nth-child(4)": true
+  },
+  "trailRadii": [
+    106.87999999998112,
+    89.34499999998422,
+    71.80999999998733,
+    54.27499999999041,
+    36.739999999993515
+  ],
+  "leave": true,
+  "keyboardFocus": true,
+  "desktop": {
+    "layout": {
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "font": true,
+      "image": 2400,
+      "links": [
+        {
+          "label": "Request Alex Morgan’s portfolio",
+          "href": "mailto:hello@example.com?subject=Portfolio%20enquiry"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/"
+        },
+        {
+          "label": "X / Twitter",
+          "href": "https://x.com/"
+        },
+        {
+          "label": "YouTube",
+          "href": "https://www.youtube.com/"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    "errors": [],
+    "failed": []
+  },
+  "touchReveal": true,
+  "touchFade": true,
+  "mobile": {
+    "layout": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "font": true,
+      "image": 2400,
+      "links": [
+        {
+          "label": "Request Alex Morgan’s portfolio",
+          "href": "mailto:hello@example.com?subject=Portfolio%20enquiry"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/"
+        },
+        {
+          "label": "X / Twitter",
+          "href": "https://x.com/"
+        },
+        {
+          "label": "YouTube",
+          "href": "https://www.youtube.com/"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    "errors": [],
+    "failed": []
+  },
+  "reducedMotion": {
+    "waveAnimation": "none",
+    "trailRadii": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  }
+}

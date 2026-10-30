@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4f3ef" />
+  <meta name="description" content="Alex Morgan — a different perspective. A personal portfolio in motion." />
+  <title>Alex Morgan — Portfolio</title>
+</head>
+<body>
+  <main class="hero" aria-label="Alex Morgan personal portfolio">
+    <div class="portrait-frame" aria-hidden="true"><img class="portrait" src="/assets/portrait.jpg" alt="" /></div>
+    <svg class="reveal" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="goo" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+          <feGaussianBlur stdDeviation="9" /><feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 22 -9" />
+        </filter>
+        <mask id="blob-mask" maskUnits="userSpaceOnUse"><g fill="white" filter="url(#goo)"><path id="blob" />
+          <circle class="trail" /><circle class="trail" /><circle class="trail" /><circle class="trail" /><circle class="trail" />
+        </g></mask>
+      </defs>
+      <g mask="url(#blob-mask)"><rect class="reveal-bg" width="100%" height="100%" fill="#32284d"/><image class="alternate" href="/assets/portrait.jpg" preserveAspectRatio="xMidYMid slice" /></g>
+    </svg>
+    <svg class="waves" viewBox="0 0 1440 1000" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M-100 690 C160 350 200 880 510 630 S880 310 1530 500" />
+      <path d="M-100 716 C160 376 200 906 510 656 S880 336 1530 526" />
+      <path d="M-100 742 C160 402 200 932 510 682 S880 362 1530 552" />
+    </svg>
+    <header>
+      <h1 class="reactive name">Alex<br />Morgan<span class="name-dot">.</span></h1>
+      <a class="reactive portfolio" href="mailto:hello@example.com?subject=Portfolio%20enquiry" aria-label="Request Alex Morgan’s portfolio">Portfolio <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" /></svg></a>
+    </header>
+    <div class="caption reactive"><span class="eyebrow">A DIFFERENT PERSPECTIVE</span><p>More than meets the eye.</p></div>
+    <div class="explore reactive" aria-hidden="true"><span class="explore-mark">+</span><span class="desktop-hint">Move to discover</span><span class="touch-hint">Touch to discover</span></div>
+    <nav class="socials" aria-label="Social profiles">
+      <a class="reactive" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-3.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg></a>
+      <a class="reactive" href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 14.5 5.4 22H2.2l8.4-9.6L2.8 2h6.5l4.4 6.6L18.9 2ZM17.9 20h1.7L8.3 3.9H6.5L17.9 20Z"/></svg></a>
+      <a class="reactive" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7a3 3 0 0 0-2.1-2.1C19 4.4 12 4.4 12 4.4s-7 0-8.9.5A3 3 0 0 0 1 7a31 31 0 0 0-.5 5 31 31 0 0 0 .5 5 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5A3 3 0 0 0 23 17a31 31 0 0 0 .5-5 31 31 0 0 0-.5-5ZM9.7 15.5v-7l6.1 3.5-6.1 3.5Z"/></svg></a>
+      <a class="reactive" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2ZM8 19H5V9h3v10ZM6.5 7.7a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4ZM19 19h-3v-5.3c0-1.5-.6-2.1-1.5-2.1-1.1 0-1.7.8-1.7 2.1V19h-3V9h2.9v1.4A3.3 3.3 0 0 1 15.6 9c2.1 0 3.4 1.3 3.4 4V19Z"/></svg></a>
+    </nav>
+    <span class="edition reactive">PORTFOLIO — 2026</span>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

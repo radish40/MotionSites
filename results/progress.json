@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:28:01.339970+00:00",
+  "updated_utc": "2026-10-30T04:30:13.438885+00:00",
   "total": 380,
   "counts": {
-    "complete": 286,
+    "complete": 289,
     "running": 5,
-    "not_started": 89
+    "not_started": 86
   },
   "current_batch": {
     "from_number": 201,
@@ -2890,38 +2890,38 @@
       "id": "community-superdesign-hyperspeed-background",
       "title": "Hyperspeed Background",
       "category": "Animations & Backgrounds",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b0b-9cd6-7eb3-ae53-be872e1b1aa3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "0550688b8df94c6719cb4b111d6784a08e546cc5",
+      "group_message_id": 353,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-hyperspeed-background/"
     },
     {
       "id": "community-superdesign-light-rays-background",
       "title": "Light Rays Background",
       "category": "Animations & Backgrounds",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b0d-9917-75a2-8317-5b206fd5e744",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "8df2fdb674101ecb3ae1c085f7d5db3fe3f97954",
+      "group_message_id": 354,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-light-rays-background/"
     },
     {
       "id": "community-superdesign-glow-cursor-button",
       "title": "Glow Cursor Button",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b0e-d5cf-7df0-9ce3-84e7262fceaf",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "d04ea6cae0669bf1f6cbbe6685300fd91edb4ab7",
+      "group_message_id": 355,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-glow-cursor-button/"
     },
     {
       "id": "community-superdesign-interactive-card-stack",
       "title": "Interactive Card Stack",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b10-2dd1-7113-b987-072093733b75",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2930,7 +2930,7 @@
       "id": "community-superdesign-counter",
       "title": "Counter",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2940,7 +2940,7 @@
       "id": "community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65",
       "title": "Modal Design · success-celebration (pastel) — legibility fixed",
       "category": "Onboarding",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2950,7 +2950,7 @@
       "id": "personal-showcase",
       "title": "Personal Showcase",
       "category": "Portfolio",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,0 +1,59 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1000,
+    "scrollHeight": 1000,
+    "heading": "62px",
+    "bottomPadding": 100
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 844,
+    "scrollHeight": 844,
+    "heading": "36px",
+    "bottomPadding": 100
+  },
+  "video": {
+    "duration": 12.041667,
+    "muted": true,
+    "loop": true,
+    "autoplay": true,
+    "playsInline": true,
+    "readyState": 4,
+    "width": 1088,
+    "height": 720
+  },
+  "fade": [
+    {
+      "time": 0.5,
+      "opacity": 0.5
+    },
+    {
+      "time": 1.2,
+      "opacity": 1
+    },
+    {
+      "time": 11.141667,
+      "opacity": 0.5
+    },
+    {
+      "time": 11.841667000000001,
+      "opacity": 0
+    }
+  ],
+  "naturalLoop": true,
+  "errors": [],
+  "checks": [
+    "Production page served at exact subpath",
+    "Desktop and mobile: no horizontal or vertical overflow",
+    "Responsive heading 62px / 48px / 36px",
+    "Content bottom padding 100px",
+    "Video loaded, autoplayed and naturally looped",
+    "Fade-in, full opacity, fade-out and black interval verified",
+    "Desktop navigation and hero anchors",
+    "Mobile menu open, close, Escape, and navigation",
+    "No browser console errors, page errors or failed HTTP requests"
+  ]
+}

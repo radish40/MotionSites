@@ -1,0 +1,31 @@
+{
+  "title": "Weblex Dark Hero",
+  "id": "weblex-dark-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "publish_path": "/motionsites-results/weblex-dark-hero/",
+    "desktop": "passed at 1440x1000; screenshot screenshots/desktop.png",
+    "mobile": "passed at 390x844; screenshot screenshots/mobile.png",
+    "responsive_typography": "passed: 62px desktop, 48px medium, 36px mobile",
+    "overflow": "none at required desktop and mobile sizes",
+    "bottom_padding": "100px at both required sizes",
+    "interactions": "passed: local navigation, CTA anchors, mobile menu toggle, Escape and selection close",
+    "video": "passed: local original MP4, autoplay, muted, playsInline, natural looping, requestAnimationFrame fade timing",
+    "browser_errors": [],
+    "failed_requests": [],
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React, TypeScript, Tailwind CSS and Lucide icons; dependencies locked in package-lock.json.",
+    "All runtime assets are local and dist/index.html exists.",
+    "Original video downloaded successfully; no reference extraction was necessary.",
+    "Prompt did not specify a custom font; local Arial/Helvetica/sans-serif used.",
+    "CTA and navigation destinations are local anchors; no signup or pricing service was specified.",
+    "Screenshots use the actual video paused at three seconds for repeatability.",
+    "Short viewports below minimum hero height can scroll to retain content access.",
+    "Verified in Chromium only; no deployment or push performed."
+  ]
+}

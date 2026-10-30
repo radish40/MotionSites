@@ -1,0 +1,264 @@
+{
+  "recorded_utc": "2026-10-30T06:20:06.209948+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 9,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T06:05:32.389888+00:00",
+      "remote_main": "cb4afb894b4b74935476916ccf51e04a1716b4d5",
+      "delivery": {
+        "id": "social-media-posts-hero",
+        "title": "Social Media Posts",
+        "source_commit": "cb4afb894b4b74935476916ccf51e04a1716b4d5",
+        "thread_id": "01a18b60-20b1-7ec1-b805-d265160067d3",
+        "group_message_id": 425,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:07:49.289244+00:00",
+      "remote_main": "701bdbf42e7c3e9aa84b0f1588d627e4e939fd06",
+      "delivery": {
+        "id": "ecommerce-website-landing",
+        "title": "E-commerce Website",
+        "source_commit": "b00b01be7396ed321e7a867851c797c2e464458d",
+        "thread_id": "01a18b60-2153-7ce0-9de8-21d6effdce4e",
+        "group_message_id": 428,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:05:58.176847+00:00",
+      "remote_main": "61fed6b5d81192fdd44761f0a07f08db5abfba0b",
+      "delivery": {
+        "id": "digital-epoch-hero",
+        "title": "Digital Epoch",
+        "source_commit": "61fed6b5d81192fdd44761f0a07f08db5abfba0b",
+        "thread_id": "01a18b60-21f9-71f3-93dd-352421c685fc",
+        "group_message_id": 426,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:06:34.397559+00:00",
+      "remote_main": "e8360b71684d5fc5918c0ee91b59768eedcccab7",
+      "delivery": {
+        "id": "ecovolta-hero",
+        "title": "EcoVolta",
+        "source_commit": "09bc839a98a359ada54bf3a1ba7a0b268ecbc36c",
+        "thread_id": "01a18b60-22b4-7fc2-92d9-c3a40d07e8b9",
+        "group_message_id": 427,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:11:04.481575+00:00",
+      "remote_main": "505104aa7fbc9f99eb03f472e25aed4eb283f82f",
+      "delivery": {
+        "id": "kresna-footer",
+        "title": "Kresna Footer",
+        "source_commit": "505104aa7fbc9f99eb03f472e25aed4eb283f82f",
+        "thread_id": "01a18b68-7ece-7062-8da0-6ec0353a78de",
+        "group_message_id": 431,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:09:15.622445+00:00",
+      "remote_main": "50b1af8bf0d1015b57b50c874e032df34ef10314",
+      "delivery": {
+        "id": "vize-footer",
+        "title": "Vize Footer",
+        "source_commit": "11588c3ac8c59a92cff2533bf08ee61ba62dfce3",
+        "thread_id": "01a18b68-7f81-73a2-a7b0-fb50d8b9fa45",
+        "group_message_id": 430,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:14:11.948411+00:00",
+      "remote_main": "1969c53c2f1e9d553da5b926db309503d1aafc6b",
+      "delivery": {
+        "id": "pro-ai-deck",
+        "title": "Pro AI Deck",
+        "source_commit": "1969c53c2f1e9d553da5b926db309503d1aafc6b",
+        "thread_id": "01a18b68-80cb-7690-9fdc-14df1126c5a8",
+        "group_message_id": 432,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:14:47.382219+00:00",
+      "remote_main": "6c76596a0695bf96502ece3a66c93fadee514f52",
+      "delivery": {
+        "id": "haul-footer",
+        "title": "HAUL!",
+        "source_commit": "c93e14658bbd689fd47a33e85fd72680a599e625",
+        "thread_id": "01a18b6b-5d53-7a92-b3ec-806ca9d996e2",
+        "group_message_id": 433,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:16:25.010876+00:00",
+      "remote_main": "d43c65f081ffd246aeab0abf556146e491a01cee",
+      "delivery": {
+        "id": "veloce-finance-landing",
+        "title": "Veloce Finance",
+        "source_commit": "d43c65f081ffd246aeab0abf556146e491a01cee",
+        "thread_id": "01a18b6b-5df1-7fd0-88f8-44ff0f60b476",
+        "group_message_id": 434,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

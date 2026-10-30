@@ -2095,7 +2095,133 @@
         "generated/gpt-6.1-sol-high/price-calculator/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/price-calculator/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "social-media-posts-hero",
+      "source_commit": "cb4afb894b4b74935476916ccf51e04a1716b4d5",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:20:06.209948+00:00",
+      "observation": "Reviewed desktop six-card 384px grid and mobile fixed-grid scroll viewport. All six exact videos decode and autoplay; fifth natural-ended fade/replay verified by original-session browser report. Fixed three-column mobile scrolling follows prompt. Expired CleanShot background is explicitly approximated by neutral locally generated gradient; not claimed original.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/social-media-posts-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/social-media-posts-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "ecommerce-website-landing",
+      "source_commit": "b00b01be7396ed321e7a867851c797c2e464458d",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:20:06.209948+00:00",
+      "observation": "Reviewed complete public desktop/mobile page: sticky header, hero, six products, weight-loss section, carousel, science, FAQ, four guides and footer. Public independent browser check verifies all six product routes both with and without trailing slash (12 HTTP 200 routes). Original product URLs absent: local SVG bottles and stock photography documented. Forms/authentication/consultation are local demonstrations; LegitScript remains explicitly pending.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/ecommerce-website-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/ecommerce-website-landing/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "digital-epoch-hero",
+      "source_commit": "61fed6b5d81192fdd44761f0a07f08db5abfba0b",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:20:06.209948+00:00",
+      "observation": "Reviewed public desktop/mobile hero and eight-logo marquee. Exact 600px rounded hero video decodes and plays; Inter and Outfit load. Marquee hover pause/resume and contact/docs previews verified. No recipient or documentation destination supplied; no email delivery claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/digital-epoch-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/digital-epoch-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "ecovolta-hero",
+      "source_commit": "09bc839a98a359ada54bf3a1ba7a0b268ecbc36c",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:20:06.209948+00:00",
+      "observation": "Reviewed public desktop/mobile renewable-energy hero, staggered lettering, original turbine/solar film, supplied desktop avatars, map/address and marquee. Exact media self-hosted unchanged, Inter and badge emoji fonts local. Both viewports fit without overflow. Video play/pause works; unspecified navigation remains presentation-only.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/ecovolta-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/ecovolta-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "kresna-footer",
+      "source_commit": "505104aa7fbc9f99eb03f472e25aed4eb283f82f",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:20:06.209948+00:00",
+      "observation": "Reviewed public full desktop/mobile single-HTML footer: original blue film, DM Sans/Caveat, social icons, floating cube, nine links, newsletter input and oversized faint Kresna. Mobile stacks correctly; watermark negative margin follows exact supplied styling. Genuine fonts/video loaded, getBBox sizing and widths 320–1920 checked. Newsletter backend and parent anchors unspecified, honest disconnected-service feedback.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/kresna-footer/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/kresna-footer/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "vize-footer",
+      "source_commit": "11588c3ac8c59a92cff2533bf08ee61ba62dfce3",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:20:06.209948+00:00",
+      "observation": "Reviewed public full desktop/mobile directory/legal footer and separately viewed public mobile bottom viewport confirming giant vize logo renders at opacity 1 after its 1.8-second in-view reveal. Returning to top hides offscreen reveal by design. Exact SVG glass filter, Inter, specified hash links and placeholder social controls retained.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/vize-footer/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/vize-footer/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "pro-ai-deck",
+      "source_commit": "1969c53c2f1e9d553da5b926db309503d1aafc6b",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:20:06.209948+00:00",
+      "observation": "Actually reviewed all seven slides at desktop and mobile (14 slide images): Introduction, Process, Capabilities, Differentiators, Traction, Social Proof, Next Steps. Independent public browser check verifies all nine original videos have decoded frames and advancing clocks at both sizes, no page errors; original worker verified indicators, previous, Get Started, keyboard, wheel and touch swipe. Exact supplied contact copy retained; no booking/backend invented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/pro-ai-deck/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/pro-ai-deck/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "haul-footer",
+      "source_commit": "c93e14658bbd689fd47a33e85fd72680a599e625",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:20:06.209948+00:00",
+      "observation": "Reviewed full desktop/mobile HAUL footer including initial View Below spacer, white navigation/legal card, exact original orange landscape and transparent truck foreground. Source images unchanged; real parallax transform changes, hover/focus, tablet and no overflow verified. Destinations remain prompt-specified hash placeholders.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/haul-footer/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/haul-footer/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "veloce-finance-landing",
+      "source_commit": "d43c65f081ffd246aeab0abf556146e491a01cee",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:20:06.209948+00:00",
+      "observation": "Reviewed public full desktop/mobile finance page including hero, three movie statistic cards and text-fill statement; additionally viewed both final gradient text-fill screenshots. Four original videos and two badge images preserved locally as fallbacks. Desktop/mobile scroll fill 0 to 100%, mobile menu/Escape/anchors verified. Exact given brand gradient takes precedence over inconsistent no-purple instruction; no authentication or app listing supplied.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/veloce-finance-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/veloce-finance-landing/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T06:05:25.616572+00:00"
+  "updated_utc": "2026-10-30T06:20:06.209948+00:00"
 }

@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-30T06:18:09.519078+00:00",
+  "updated_utc": "2026-10-30T06:20:06.132369+00:00",
   "total": 380,
   "counts": {
-    "complete": 366,
+    "complete": 367,
     "ready": 1,
     "running": 5,
-    "not_started": 8
+    "not_started": 7
   },
   "current_batch": {
     "from_number": 201,
@@ -3701,11 +3701,11 @@
       "id": "nexora-features",
       "title": "Nexora Features",
       "category": "Features Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b70-af12-7552-b4da-d6c7f207d88b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "eec211052972aed1180e8bbc635d811c063295cc",
+      "group_message_id": 437,
+      "url": "https://tool.luo-xd.com/motionsites-results/nexora-features/"
     },
     {
       "id": "vitara-hero",
@@ -3741,7 +3741,7 @@
       "id": "prioritize-hero",
       "title": "Prioritize",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

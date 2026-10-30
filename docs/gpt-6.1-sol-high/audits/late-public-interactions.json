@@ -1,0 +1,478 @@
+{
+  "checked_utc": "2026-10-30T06:17:27.195Z",
+  "proAI": [
+    {
+      "name": "desktop",
+      "slides": [
+        {
+          "number": 1,
+          "before": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104229_49794008-3d16-4cb6-9a8c-73d7751b0e79.mp4",
+              "time": 4.320377,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 12.041667
+            }
+          ],
+          "after": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104229_49794008-3d16-4cb6-9a8c-73d7751b0e79.mp4",
+              "time": 5.344229,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 12.041667
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "before": [
+            {
+              "src": "blob:https://tool.luo-xd.com/9db6aa25-815e-45dd-a705-e8f5de972d33",
+              "time": 0.917017,
+              "ready": 4,
+              "width": 1864,
+              "paused": false,
+              "duration": 5.075
+            }
+          ],
+          "after": [
+            {
+              "src": "blob:https://tool.luo-xd.com/9db6aa25-815e-45dd-a705-e8f5de972d33",
+              "time": 1.923111,
+              "ready": 4,
+              "width": 1864,
+              "paused": false,
+              "duration": 5.075
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "before": [
+            {
+              "src": "blob:https://tool.luo-xd.com/6d239f6a-5ba1-4c27-8ab6-3e71bd9e2d2b",
+              "time": 0.530578,
+              "ready": 4,
+              "width": 1280,
+              "paused": false,
+              "duration": 11.746667
+            },
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260302_085844_21a8f4b3-dea5-4ede-be16-d53f6973bb14.mp4",
+              "time": 1.106016,
+              "ready": 4,
+              "width": 1724,
+              "paused": false,
+              "duration": 14.041667
+            },
+            {
+              "src": "blob:https://tool.luo-xd.com/e96edefb-bf55-4bd9-900b-43af70c534e1",
+              "time": 0.366959,
+              "ready": 4,
+              "width": 1280,
+              "paused": false,
+              "duration": 20.02
+            }
+          ],
+          "after": [
+            {
+              "src": "blob:https://tool.luo-xd.com/6d239f6a-5ba1-4c27-8ab6-3e71bd9e2d2b",
+              "time": 1.551411,
+              "ready": 4,
+              "width": 1280,
+              "paused": false,
+              "duration": 11.746667
+            },
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260302_085844_21a8f4b3-dea5-4ede-be16-d53f6973bb14.mp4",
+              "time": 2.126844,
+              "ready": 4,
+              "width": 1724,
+              "paused": false,
+              "duration": 14.041667
+            },
+            {
+              "src": "blob:https://tool.luo-xd.com/e96edefb-bf55-4bd9-900b-43af70c534e1",
+              "time": 1.388734,
+              "ready": 4,
+              "width": 1280,
+              "paused": false,
+              "duration": 20.019966
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "before": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104032_69319010-2458-492b-b04d-b40a5dfa4482.mp4",
+              "time": 1.222261,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 12.041667
+            }
+          ],
+          "after": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104032_69319010-2458-492b-b04d-b40a5dfa4482.mp4",
+              "time": 2.231385,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 12.041667
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "before": [
+            {
+              "src": "blob:https://tool.luo-xd.com/d93d7556-8489-4957-b3cd-4402767b3489",
+              "time": 0.948543,
+              "ready": 4,
+              "width": 1620,
+              "paused": false,
+              "duration": 10.2
+            }
+          ],
+          "after": [
+            {
+              "src": "blob:https://tool.luo-xd.com/d93d7556-8489-4957-b3cd-4402767b3489",
+              "time": 1.96703,
+              "ready": 4,
+              "width": 1620,
+              "paused": false,
+              "duration": 10.2
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "before": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260406_094145_4a271a6c-3869-4f1c-8aa7-aeb0cb227994.mp4",
+              "time": 1.203715,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 14.041667
+            }
+          ],
+          "after": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260406_094145_4a271a6c-3869-4f1c-8aa7-aeb0cb227994.mp4",
+              "time": 2.21582,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 14.041667
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "before": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260324_024928_1efd0b0d-6c02-45a8-8847-1030900c4f63.mp4",
+              "time": 1.29031,
+              "ready": 4,
+              "width": 1924,
+              "paused": false,
+              "duration": 10.041667
+            }
+          ],
+          "after": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260324_024928_1efd0b0d-6c02-45a8-8847-1030900c4f63.mp4",
+              "time": 2.295222,
+              "ready": 4,
+              "width": 1924,
+              "paused": false,
+              "duration": 10.041667
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "mobile",
+      "slides": [
+        {
+          "number": 1,
+          "before": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104229_49794008-3d16-4cb6-9a8c-73d7751b0e79.mp4",
+              "time": 4.300466,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 12.041667
+            }
+          ],
+          "after": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104229_49794008-3d16-4cb6-9a8c-73d7751b0e79.mp4",
+              "time": 5.303889,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 12.041667
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "before": [
+            {
+              "src": "blob:https://tool.luo-xd.com/151c2f84-84d3-4664-a242-eedc0576076e",
+              "time": 1.215477,
+              "ready": 4,
+              "width": 1864,
+              "paused": false,
+              "duration": 5.075
+            }
+          ],
+          "after": [
+            {
+              "src": "blob:https://tool.luo-xd.com/151c2f84-84d3-4664-a242-eedc0576076e",
+              "time": 2.21995,
+              "ready": 4,
+              "width": 1864,
+              "paused": false,
+              "duration": 5.075
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "before": [
+            {
+              "src": "blob:https://tool.luo-xd.com/b0c361d5-0228-4977-8c41-ecbdbb898f5f",
+              "time": 0.94578,
+              "ready": 4,
+              "width": 1280,
+              "paused": false,
+              "duration": 11.746667
+            },
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260302_085844_21a8f4b3-dea5-4ede-be16-d53f6973bb14.mp4",
+              "time": 1.092734,
+              "ready": 4,
+              "width": 1724,
+              "paused": false,
+              "duration": 14.041667
+            },
+            {
+              "src": "blob:https://tool.luo-xd.com/130298b8-b816-47db-8806-98c9ae3e1d40",
+              "time": 0.583189,
+              "ready": 4,
+              "width": 1280,
+              "paused": false,
+              "duration": 20.019966
+            }
+          ],
+          "after": [
+            {
+              "src": "blob:https://tool.luo-xd.com/b0c361d5-0228-4977-8c41-ecbdbb898f5f",
+              "time": 1.96046,
+              "ready": 4,
+              "width": 1280,
+              "paused": false,
+              "duration": 11.746667
+            },
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260302_085844_21a8f4b3-dea5-4ede-be16-d53f6973bb14.mp4",
+              "time": 2.107397,
+              "ready": 4,
+              "width": 1724,
+              "paused": false,
+              "duration": 14.041667
+            },
+            {
+              "src": "blob:https://tool.luo-xd.com/130298b8-b816-47db-8806-98c9ae3e1d40",
+              "time": 1.598974,
+              "ready": 4,
+              "width": 1280,
+              "paused": false,
+              "duration": 20.019966
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "before": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104032_69319010-2458-492b-b04d-b40a5dfa4482.mp4",
+              "time": 1.089905,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 12.041667
+            }
+          ],
+          "after": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260411_104032_69319010-2458-492b-b04d-b40a5dfa4482.mp4",
+              "time": 2.095196,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 12.041667
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "before": [
+            {
+              "src": "blob:https://tool.luo-xd.com/052d05f2-2184-458d-9df8-5d6d907f640a",
+              "time": 1.111893,
+              "ready": 4,
+              "width": 1620,
+              "paused": false,
+              "duration": 10.2
+            }
+          ],
+          "after": [
+            {
+              "src": "blob:https://tool.luo-xd.com/052d05f2-2184-458d-9df8-5d6d907f640a",
+              "time": 2.123375,
+              "ready": 4,
+              "width": 1620,
+              "paused": false,
+              "duration": 10.2
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "before": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260406_094145_4a271a6c-3869-4f1c-8aa7-aeb0cb227994.mp4",
+              "time": 1.188312,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 14.041667
+            }
+          ],
+          "after": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260406_094145_4a271a6c-3869-4f1c-8aa7-aeb0cb227994.mp4",
+              "time": 2.19561,
+              "ready": 4,
+              "width": 1928,
+              "paused": false,
+              "duration": 14.041667
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "before": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260324_024928_1efd0b0d-6c02-45a8-8847-1030900c4f63.mp4",
+              "time": 1.388503,
+              "ready": 4,
+              "width": 1924,
+              "paused": false,
+              "duration": 10.041667
+            }
+          ],
+          "after": [
+            {
+              "src": "https://tool.luo-xd.com/motionsites-results/pro-ai-deck/assets/hf_20260324_024928_1efd0b0d-6c02-45a8-8847-1030900c4f63.mp4",
+              "time": 2.391772,
+              "ready": 4,
+              "width": 1924,
+              "paused": false,
+              "duration": 10.041667
+            }
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "products": [
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/semaglutide",
+      "status": 200,
+      "heading": "Compounded Semaglutide"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/semaglutide/",
+      "status": 200,
+      "heading": "Compounded Semaglutide"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/tirzepatide",
+      "status": 200,
+      "heading": "Compounded Tirzepatide"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/tirzepatide/",
+      "status": 200,
+      "heading": "Compounded Tirzepatide"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/metformin",
+      "status": 200,
+      "heading": "Metformin"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/metformin/",
+      "status": 200,
+      "heading": "Metformin"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/nad",
+      "status": 200,
+      "heading": "NAD+"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/nad/",
+      "status": 200,
+      "heading": "NAD+"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/sermorelin",
+      "status": 200,
+      "heading": "Sermorelin"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/sermorelin/",
+      "status": 200,
+      "heading": "Sermorelin"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/hair-growth",
+      "status": 200,
+      "heading": "Hair Growth Essentials"
+    },
+    {
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/product/hair-growth/",
+      "status": 200,
+      "heading": "Hair Growth Essentials"
+    }
+  ],
+  "vize": [
+    {
+      "name": "desktop",
+      "logo": "vize",
+      "visible": true
+    },
+    {
+      "name": "mobile",
+      "logo": "vize",
+      "visible": true
+    }
+  ],
+  "passed": true
+}

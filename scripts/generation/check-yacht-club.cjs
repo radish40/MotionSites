@@ -20,7 +20,8 @@ const assert=require('node:assert/strict');
       row.heroBefore=await page.locator('.background-fallback').evaluate(state);
       await page.waitForTimeout(1500);
       row.heroAfter=await page.locator('.background-fallback').evaluate(state);
-      assert(row.heroAfter.width>0&&row.heroAfter.readyState>=2&&!row.heroAfter.paused);
+      fs.writeFileSync(output+'/report.json',JSON.stringify(report,null,2)+'\n');
+      assert(row.heroAfter.width>0&&row.heroAfter.readyState>=2&&!row.heroAfter.paused,JSON.stringify(row));
       assert(row.heroAfter.time!==row.heroBefore.time);
       row.originalIframe=await page.locator('.vimeo-background').evaluate(e=>({src:e.src,visibility:getComputedStyle(e).visibility}));
       for(const frame of page.frames().slice(1)){

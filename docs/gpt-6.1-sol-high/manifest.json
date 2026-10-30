@@ -12188,12 +12188,11 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "needs_fix",
       "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
       "output_path": "generated/gpt-6.1-sol-high/yacht-club-hero",
-      "validation": "",
+      "validation": "Public generic check detects CSP errors inside unavailable Vimeo challenge. Same-thread repair required before delivery.",
       "notes": "",
-      "delivery_hold": "Scoped Vimeo frame-src installed and verified. Management must publish unlisted and verify actual original background player and all fleet videos at desktop/mobile before removing this hold.",
       "process_id": 1116780,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:51:45.434287+00:00",
@@ -12201,7 +12200,14 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "delivery_hold_resolution": {
+        "reviewed_utc": "2026-10-30T06:24:13.869936+00:00",
+        "original_vimeo_playback_verified": false,
+        "accepted_with_asset_limitation": "Independent desktop/mobile public frames show Vimeo connection-verification restriction and no original decoded video; original-session config recovery also yields PrivacyError. Exact iframe retained. Supplied Ocean Eclipse MP4 used as explicitly documented approximate hero background, independently verified advancing. All three exact fleet movies verified advancing in desktop hover and all vessel detail views at desktop/mobile. Root visually reviewed hero/menu/fleet desktop/mobile and vessel detail examples.",
+        "proof": "docs/gpt-6.1-sol-high/audits/yacht-club-interactions.json"
+      },
+      "delivery_hold": "Original Vimeo is unavailable; original-session repair must avoid requesting the broken external verification page by default while retaining the exact embed for explicit original-media mode. Public fallback/fleet acceptance exists; final generic public check still required."
     },
     {
       "number": 357,
@@ -12661,19 +12667,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b73-250f-7471-b145-ff922367d378",
       "output_path": "generated/gpt-6.1-sol-high/vitara-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1200760,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:15:41.497800+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "277192c3f51b5721751fc6965fcdf524f900b136",
+      "url": "https://tool.luo-xd.com/motionsites-results/vitara-hero/",
+      "completed_utc": "2026-10-30T06:24:13.390643+00:00",
+      "group_message_id": 439
     },
     {
       "number": 371,
@@ -12721,19 +12731,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b73-2681-7ea3-ad6a-779954163213",
       "output_path": "generated/gpt-6.1-sol-high/nexar-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1200885,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:15:41.810303+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "4212887f0de9de63578995db9181f77d03326b3b",
+      "url": "https://tool.luo-xd.com/motionsites-results/nexar-hero/",
+      "completed_utc": "2026-10-30T06:24:41.803440+00:00",
+      "group_message_id": 440
     },
     {
       "number": 373,
@@ -12782,14 +12796,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b78-d781-7790-a2b2-9be46ea2fc80",
       "output_path": "generated/gpt-6.1-sol-high/vertex-ai-hero",
       "validation": "",
       "notes": "",
       "process_id": 1226330,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:21:54.768097+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 375,
@@ -12807,11 +12825,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/keep-ahead-features",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1233249,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T06:23:35.415385+00:00",
+      "worker_state": "running"
     },
     {
       "number": 376,
@@ -12829,11 +12851,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/benefits-features",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1233302,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T06:23:35.588821+00:00",
+      "worker_state": "running"
     },
     {
       "number": 377,
@@ -12924,7 +12950,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T06:22:28.867378+00:00",
+  "updated_utc": "2026-10-30T06:24:42.090637+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

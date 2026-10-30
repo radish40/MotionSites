@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-30T06:22:28.867378+00:00",
+  "updated_utc": "2026-10-30T06:24:42.090637+00:00",
   "total": 380,
   "counts": {
-    "complete": 368,
-    "ready": 1,
+    "complete": 370,
+    "needs_fix": 1,
     "running": 5,
-    "not_started": 6
+    "not_started": 4
   },
   "current_batch": {
     "from_number": 201,
@@ -3571,7 +3571,7 @@
       "id": "yacht-club-hero",
       "title": "Yacht Club",
       "category": "Landing Page",
-      "status": "ready",
+      "status": "needs_fix",
       "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
       "source_commit": null,
       "group_message_id": null,
@@ -3711,11 +3711,11 @@
       "id": "vitara-hero",
       "title": "Vitara",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b73-250f-7471-b145-ff922367d378",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "277192c3f51b5721751fc6965fcdf524f900b136",
+      "group_message_id": 439,
+      "url": "https://tool.luo-xd.com/motionsites-results/vitara-hero/"
     },
     {
       "id": "zenith-realty-landing",
@@ -3731,11 +3731,11 @@
       "id": "nexar-hero",
       "title": "Nexar",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b73-2681-7ea3-ad6a-779954163213",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "4212887f0de9de63578995db9181f77d03326b3b",
+      "group_message_id": 440,
+      "url": "https://tool.luo-xd.com/motionsites-results/nexar-hero/"
     },
     {
       "id": "prioritize-hero",
@@ -3752,7 +3752,7 @@
       "title": "VertexAI Hero",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b78-d781-7790-a2b2-9be46ea2fc80",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3761,7 +3761,7 @@
       "id": "keep-ahead-features",
       "title": "Keep Ahead Features",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3771,7 +3771,7 @@
       "id": "benefits-features",
       "title": "Benefits Features",
       "category": "Features Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

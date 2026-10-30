@@ -1,0 +1,43 @@
+{
+  "title": "Modern HR Dashboard",
+  "id": "modern-hr-dashboard",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "browser": "passed",
+    "assertions": 26,
+    "viewports": [
+      "1440x1000",
+      "390x844",
+      "820x1180",
+      "1024x768"
+    ],
+    "horizontal_overflow": "none",
+    "browser_errors": [],
+    "failed_requests": [],
+    "details": "browser-report.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/tablet.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "Sofia Pro",
+      "resolved": true,
+      "detail": "Exact external stylesheet and original Regular WOFF2 recovered. Supplied stylesheet defines Regular only; its original font is locally mapped to the required Medium CSS family as documented in README.md."
+    }
+  ],
+  "notes": [
+    "Ready for management-session review; not deployed.",
+    "Built static output: dist/index.html; base /motionsites-results/modern-hr-dashboard/.",
+    "All six supplied Pexels images are local and loaded successfully.",
+    "Real React DOM, SVG background and timer, Recharts chart; no screenshot used as page content.",
+    "Task and timer state are session-local; navigation selects tabs without adding unspecified pages.",
+    "Small-screen calendar event widths adapted for readability.",
+    "Exact requested dependency versions preserved; npm-audit.json records 1 moderate and 2 high build-tool findings. Vite emits a non-blocking bundle-size warning.",
+    "README.md documents commands, verification, asset sources, font mapping, and limitations."
+  ]
+}

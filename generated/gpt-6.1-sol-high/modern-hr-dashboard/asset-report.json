@@ -1,0 +1,52 @@
+[
+  {
+    "file": "profile.jpg",
+    "url": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "bytes": 96580,
+    "status": "ok"
+  },
+  {
+    "file": "account.jpg",
+    "url": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=80",
+    "bytes": 2789,
+    "status": "ok"
+  },
+  {
+    "file": "hardware.jpg",
+    "url": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=120",
+    "bytes": 2509,
+    "status": "ok"
+  },
+  {
+    "file": "avatar-1.jpg",
+    "url": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=60",
+    "bytes": 1279,
+    "status": "ok"
+  },
+  {
+    "file": "avatar-2.jpg",
+    "url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=60",
+    "bytes": 2414,
+    "status": "ok"
+  },
+  {
+    "file": "avatar-3.jpg",
+    "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=60",
+    "bytes": 2644,
+    "status": "ok"
+  },
+  {
+    "file": "font-source.css",
+    "url": "https://db.onlinewebfonts.com/c/060e116a70e3096c52db16f61aaab194?family=Sofia+Pro+Regular",
+    "bytes": 1143,
+    "status": "ok"
+  },
+  {
+    "file": "sofia-pro-regular.woff2",
+    "url": "https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.woff2",
+    "bytes": 62292,
+    "status": "ok",
+    "method": "curl recovery after Python request stalled",
+    "note": "Original Regular font mapped to both Regular and required Medium CSS family names."
+  }
+]

@@ -1,0 +1,453 @@
+{
+  "checks": [
+    {
+      "label": "Desktop has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "Desktop fits viewport",
+      "passed": true
+    },
+    {
+      "label": "All supplied images load",
+      "passed": true
+    },
+    {
+      "label": "Sofia Pro font loads",
+      "passed": true
+    },
+    {
+      "label": "Friday activity tooltip appears",
+      "passed": true
+    },
+    {
+      "label": "Timer runs",
+      "passed": true
+    },
+    {
+      "label": "Timer pauses",
+      "passed": true
+    },
+    {
+      "label": "Timer resets",
+      "passed": true
+    },
+    {
+      "label": "Task checkbox toggles",
+      "passed": true
+    },
+    {
+      "label": "Hardware accordion closes",
+      "passed": true
+    },
+    {
+      "label": "Hardware accordion opens",
+      "passed": true
+    },
+    {
+      "label": "Navigation active state changes",
+      "passed": true
+    },
+    {
+      "label": "Calendar month advances",
+      "passed": true
+    },
+    {
+      "label": "Notification dialog opens",
+      "passed": true
+    },
+    {
+      "label": "Mobile has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "Mobile calendar retains 160px event area",
+      "passed": true
+    },
+    {
+      "label": "Mobile events stay inside calendar",
+      "passed": true
+    },
+    {
+      "label": "Mobile menu opens",
+      "passed": true
+    },
+    {
+      "label": "Mobile navigation selects and closes",
+      "passed": true
+    },
+    {
+      "label": "Tablet has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "Tablet two-column layout and spanning calendar",
+      "passed": true
+    },
+    {
+      "label": "Tablet cards do not overlap",
+      "passed": true
+    },
+    {
+      "label": "Tablet events stay inside calendar",
+      "passed": true
+    },
+    {
+      "label": "Compact desktop has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "Compact desktop tasks remain inside card",
+      "passed": true
+    },
+    {
+      "label": "No browser script or console errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "requestFailures": [],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "font": true,
+      "images": [
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/account.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/profile.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/hardware.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-1.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-3.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-1.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-2.jpg",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "name": "profile-card",
+          "x": 44,
+          "y": 236.59375,
+          "width": 335,
+          "height": 367.703125
+        },
+        {
+          "name": "card activity",
+          "x": 383,
+          "y": 236.59375,
+          "width": 335,
+          "height": 367.703125
+        },
+        {
+          "name": "card timer",
+          "x": 722,
+          "y": 236.59375,
+          "width": 335,
+          "height": 367.703125
+        },
+        {
+          "name": "card induction",
+          "x": 1061,
+          "y": 236.59375,
+          "width": 335,
+          "height": 739.40625
+        },
+        {
+          "name": "accordion card",
+          "x": 44,
+          "y": 608.296875,
+          "width": 335,
+          "height": 367.703125
+        },
+        {
+          "name": "card calendar",
+          "x": 383,
+          "y": 608.296875,
+          "width": 674,
+          "height": 367.703125
+        }
+      ]
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 2578,
+      "font": true,
+      "images": [
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/account.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/profile.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/hardware.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-1.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-3.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-1.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-2.jpg",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "name": "profile-card",
+          "x": 16,
+          "y": 289,
+          "width": 358,
+          "height": 268.5
+        },
+        {
+          "name": "card activity",
+          "x": 16,
+          "y": 569.5,
+          "width": 358,
+          "height": 331.1875
+        },
+        {
+          "name": "card timer",
+          "x": 16,
+          "y": 912.6875,
+          "width": 358,
+          "height": 361
+        },
+        {
+          "name": "card induction",
+          "x": 16,
+          "y": 1285.6875,
+          "width": 358,
+          "height": 631.1875
+        },
+        {
+          "name": "accordion card",
+          "x": 16,
+          "y": 1928.875,
+          "width": 358,
+          "height": 287
+        },
+        {
+          "name": "card calendar",
+          "x": 16,
+          "y": 2227.875,
+          "width": 358,
+          "height": 302
+        }
+      ]
+    },
+    "tablet": {
+      "width": 820,
+      "scrollWidth": 820,
+      "height": 1180,
+      "scrollHeight": 1930,
+      "font": true,
+      "images": [
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/account.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/profile.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/hardware.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-1.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-3.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-1.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-2.jpg",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "name": "profile-card",
+          "x": 24,
+          "y": 215.1875,
+          "width": 380,
+          "height": 331.1875
+        },
+        {
+          "name": "card activity",
+          "x": 416,
+          "y": 215.1875,
+          "width": 380,
+          "height": 331.1875
+        },
+        {
+          "name": "card timer",
+          "x": 24,
+          "y": 558.375,
+          "width": 380,
+          "height": 371
+        },
+        {
+          "name": "card induction",
+          "x": 24,
+          "y": 1258.375,
+          "width": 772,
+          "height": 623.1875
+        },
+        {
+          "name": "accordion card",
+          "x": 416,
+          "y": 558.375,
+          "width": 380,
+          "height": 371
+        },
+        {
+          "name": "card calendar",
+          "x": 24,
+          "y": 941.375,
+          "width": 772,
+          "height": 305
+        }
+      ]
+    },
+    "compactDesktop": {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 768,
+      "scrollHeight": 768,
+      "font": true,
+      "images": [
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/account.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/profile.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/hardware.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-1.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-3.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-1.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/modern-hr-dashboard/assets/avatar-2.jpg",
+          "loaded": true
+        }
+      ],
+      "cards": [
+        {
+          "name": "profile-card",
+          "x": 24,
+          "y": 218,
+          "width": 241,
+          "height": 261
+        },
+        {
+          "name": "card activity",
+          "x": 269,
+          "y": 218,
+          "width": 241,
+          "height": 261
+        },
+        {
+          "name": "card timer",
+          "x": 514,
+          "y": 218,
+          "width": 241,
+          "height": 261
+        },
+        {
+          "name": "card induction",
+          "x": 759,
+          "y": 218,
+          "width": 241,
+          "height": 526
+        },
+        {
+          "name": "accordion card",
+          "x": 24,
+          "y": 483,
+          "width": 241,
+          "height": 261
+        },
+        {
+          "name": "card calendar",
+          "x": 269,
+          "y": 483,
+          "width": 486,
+          "height": 261
+        }
+      ]
+    }
+  },
+  "status": "passed"
+}

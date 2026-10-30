@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T02:56:05.440146+00:00",
+  "updated_utc": "2026-10-30T02:57:58.923894+00:00",
   "total": 380,
   "counts": {
-    "complete": 210,
+    "complete": 212,
     "running": 5,
-    "not_started": 165
+    "not_started": 163
   },
   "current_batch": {
     "from_number": 201,
@@ -2130,21 +2130,21 @@
       "id": "tech-noir-about",
       "title": "Tech-Noir About",
       "category": "About Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ab5-d4eb-7e83-9fcc-a14f218704cf",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "d41231edffc9fe4aeb61b3b83e1b646049a046d7",
+      "group_message_id": 274,
+      "url": "https://tool.luo-xd.com/motionsites-results/tech-noir-about/"
     },
     {
       "id": "technical-specifications",
       "title": "Technical Specifications",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ab8-6866-7cd3-8414-14768629bd17",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "ea0b118dbe5a6a04721cddfd9c4f94964fc0f0f9",
+      "group_message_id": 275,
+      "url": "https://tool.luo-xd.com/motionsites-results/technical-specifications/"
     },
     {
       "id": "travel-hero",
@@ -2161,7 +2161,7 @@
       "title": "Unwind Hero",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18abb-d0ce-7113-8caf-ff9e2d12b236",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2170,7 +2170,7 @@
       "id": "vaultshield",
       "title": "VaultShield",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2180,7 +2180,7 @@
       "id": "veloce-cards",
       "title": "Veloce Cards",
       "category": "Cards",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

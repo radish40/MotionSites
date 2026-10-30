@@ -1,0 +1,74 @@
+{
+  "checks": {
+    "desktop": {
+      "title": "PURE CSS\nPARALLAX PIXEL STARS",
+      "overflow": false,
+      "fontLoaded": true,
+      "fontSize": "50px",
+      "fieldHeight": 1000,
+      "layers": [
+        {
+          "size": "1px",
+          "duration": "50s",
+          "count": 700,
+          "repeatMatches": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -16.6634)"
+        },
+        {
+          "size": "2px",
+          "duration": "100s",
+          "count": 200,
+          "repeatMatches": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -8.33168)"
+        },
+        {
+          "size": "3px",
+          "duration": "150s",
+          "count": 100,
+          "repeatMatches": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -5.55445)"
+        }
+      ],
+      "controls": 0,
+      "animationMoves": true,
+      "reducedMotion": true,
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "title": "PURE CSS\nPARALLAX PIXEL STARS",
+      "overflow": false,
+      "fontLoaded": true,
+      "fontSize": "30px",
+      "fieldHeight": 844,
+      "layers": [
+        {
+          "size": "1px",
+          "duration": "50s",
+          "count": 700,
+          "repeatMatches": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -18.0007)"
+        },
+        {
+          "size": "2px",
+          "duration": "100s",
+          "count": 200,
+          "repeatMatches": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -9.00034)"
+        },
+        {
+          "size": "3px",
+          "duration": "150s",
+          "count": 100,
+          "repeatMatches": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -6.00023)"
+        }
+      ],
+      "controls": 0,
+      "animationMoves": true,
+      "reducedMotion": true,
+      "screenshot": "screenshots/mobile.png"
+    }
+  },
+  "errors": [],
+  "failedRequests": []
+}

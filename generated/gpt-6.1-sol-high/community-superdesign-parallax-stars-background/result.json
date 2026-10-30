@@ -1,0 +1,40 @@
+{
+  "title": "Parallax Stars Background",
+  "id": "community-superdesign-parallax-stars-background",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "typescript": "passed",
+    "production_build": "passed; dist/index.html exists",
+    "required_base_path": "/motionsites-results/community-superdesign-parallax-stars-background/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "animation": "passed: three moving layers, 700/200/100 stars, 50/100/150 second durations, matching repeat layers",
+    "reduced_motion": "passed",
+    "local_font": "passed",
+    "layout_overflow": "none at both required viewports",
+    "script_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "primary_interactions": "Default app has no controls; continuous animation and reduced-motion behavior checked",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "visual_inspection": "Both screenshots reviewed",
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/community-superdesign-parallax-stars-background.webp",
+      "issue": "Optional reference file does not exist",
+      "resolution": "Implemented from the complete source in PROMPT.md; preview comparison unavailable"
+    }
+  ],
+  "notes": [
+    "React and TypeScript component with the supplied dependencies, Vite build, and equivalent CSS styles.",
+    "Lato Light downloaded successfully, bundled locally with its SIL license; no external runtime asset dependencies.",
+    "Stars are live CSS box-shadow particles; no page screenshot or video used as the implementation.",
+    "Browser screenshots pause animation at one second; the shipped page animates normally.",
+    "Validation used containerized Chromium rather than physical mobile hardware.",
+    "The optional children, title, className, and speed component API is retained; the default page follows the supplied App.tsx.",
+    "No deployment or push performed. Ready for acceptance review."
+  ]
+}

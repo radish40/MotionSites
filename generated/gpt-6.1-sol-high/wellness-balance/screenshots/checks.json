@@ -1,0 +1,125 @@
+{
+  "desktop": {
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "images": [
+        {
+          "src": "/motionsites-results/wellness-balance/assets/avatar.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/capsule.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/product.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/botanical.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/community.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/product.png",
+          "loaded": true
+        }
+      ],
+      "fonts": true
+    },
+    "errors": [],
+    "failed": [],
+    "carouselRotates": true,
+    "manualCarousel": true,
+    "mobileMenu": null,
+    "exploreTargetVisible": true,
+    "menuToggleVisible": false
+  },
+  "mobile": {
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 1545,
+      "images": [
+        {
+          "src": "/motionsites-results/wellness-balance/assets/avatar.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/capsule.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/product.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/botanical.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/community.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/product.png",
+          "loaded": true
+        }
+      ],
+      "fonts": true
+    },
+    "errors": [],
+    "failed": [],
+    "carouselRotates": true,
+    "manualCarousel": true,
+    "mobileMenu": true,
+    "exploreTargetVisible": true,
+    "menuToggleVisible": true
+  },
+  "tablet": {
+    "layout": {
+      "width": 820,
+      "scrollWidth": 820,
+      "height": 1868,
+      "images": [
+        {
+          "src": "/motionsites-results/wellness-balance/assets/avatar.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/capsule.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/product.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/botanical.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/community.png",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/wellness-balance/assets/product.png",
+          "loaded": true
+        }
+      ],
+      "fonts": true
+    },
+    "errors": [],
+    "failed": [],
+    "carouselRotates": true,
+    "manualCarousel": true,
+    "mobileMenu": null,
+    "exploreTargetVisible": true,
+    "menuToggleVisible": false
+  }
+}

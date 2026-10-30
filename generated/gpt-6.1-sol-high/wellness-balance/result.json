@@ -1,0 +1,38 @@
+{
+  "title": "Wellness Balance",
+  "id": "wellness-balance",
+  "status": "ready",
+  "build_command": "npm install && npm run build (Node 22/npm in louislam/uptime-kuma:2 container; see README.md)",
+  "checks": {
+    "production_build": "passed",
+    "browser_target": "production build via Vite preview at /motionsites-results/wellness-balance/",
+    "viewports": [
+      "1440x1000",
+      "390x844",
+      "820x1180"
+    ],
+    "all_images_loaded": true,
+    "google_fonts_loaded": true,
+    "horizontal_overflow": false,
+    "browser_errors": [],
+    "failed_requests": [],
+    "automatic_carousel": "passed",
+    "manual_carousel": "passed",
+    "mobile_menu": "passed",
+    "responsive_menu_visibility": "passed",
+    "explore_cta": "passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "All six specified original images downloaded with curl and included locally; initial Python urllib 403 responses were resolved.",
+    "Google Fonts remain an external dependency and loaded during verification.",
+    "React + Tailwind CSS + Lucide React; dependency lockfile and complete dist/index.html included.",
+    "Static single-page design; navigation controls target relevant on-page content.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

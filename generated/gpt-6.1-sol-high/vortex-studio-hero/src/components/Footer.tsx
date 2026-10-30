@@ -1,0 +1,3 @@
+import {ArrowUpRight} from 'lucide-react';
+import Button from './Button';
+export default function Footer(){return <footer className="max-w-[1200px] mx-auto py-12 px-6 flex flex-col md:flex-row justify-between gap-12 items-start"><Button>Start a chat</Button><nav aria-label="Footer" className="flex gap-10 md:gap-16"><ArrowUpRight className="w-6 h-6"/><div className="flex flex-col gap-3"><a href="#services">Services</a><a href="#projects">Work</a><a href="#about">About</a></div><div className="flex flex-col gap-3"><a href="https://x.com/" target="_blank" rel="noreferrer">x.com</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></div></nav></footer>;}

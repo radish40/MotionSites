@@ -1,0 +1,20 @@
+[
+  {
+    "file": "../PPMondwest-Regular.woff2",
+    "url": "https://pangrampangram.com/cdn/shop/files/PPMondwest-Regular.woff?v=7568021129578465612",
+    "success": true,
+    "method": "Foundry URL has a .woff suffix but returns valid WOFF2 bytes; saved unchanged under required .woff2 name."
+  },
+  {
+    "file": "PPNeueMontreal-Book.woff2",
+    "url": "https://cdn.b3.fun/fonts/ppneuemontreal-book-webfont.woff2",
+    "success": true,
+    "error": ""
+  },
+  {
+    "file": "PPNeueMontreal-Medium.woff2",
+    "url": "https://cdn.b3.fun/fonts/ppneuemontreal-medium-webfont.woff2",
+    "success": true,
+    "error": ""
+  }
+]

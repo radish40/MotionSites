@@ -1,0 +1,51 @@
+{
+  "title": "AI Designer Portfolio",
+  "id": "vortex-studio-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite build completed",
+    "browser_report": "browser-checks.json",
+    "passed": 30,
+    "total": 30,
+    "desktop": "1440x1000",
+    "mobile": "390x844",
+    "script_errors": [],
+    "failed_requests": [],
+    "horizontal_overflow": false,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop viewport and both full page screenshots reviewed"
+  },
+  "asset_issues": [
+    {
+      "asset": "PP Neue Montreal Book and Medium",
+      "issue": "Both supplied Webflow CDN URLs returned 403",
+      "resolution": "Exact font families recovered as local WOFF2 from cdn.b3.fun; supplied CDN URLs retained as secondary sources",
+      "resolved": true
+    },
+    {
+      "asset": "PPMondwest-Regular.woff2",
+      "issue": "No supplied local file; motionsites.ai root/assets/fonts paths returned 404",
+      "resolution": "Recovered original foundry font from pangrampangram.com, saved original WOFF2 bytes unchanged to required local filename",
+      "resolved": true
+    },
+    {
+      "asset": "Optional design preview",
+      "issue": "Specified preview file absent",
+      "resolution": "Implemented and visually reviewed against full written prompt",
+      "resolved": false
+    }
+  ],
+  "notes": [
+    "All eleven specified GIFs and the exact portrait are local and load successfully. No whole page screenshot was used as the implementation.",
+    "React + TypeScript + Vite + Tailwind CSS + lucide-react; complete source and package-lock.json included.",
+    "Static output exists in dist/index.html and uses /motionsites-results/vortex-studio-hero/ as its base.",
+    "Original animated media retained; runtime assets total about 109 MB.",
+    "Booking link destinations verified without navigating external booking pages. Social profile URLs were unspecified; links use named platform homepages.",
+    "README.md documents build, verification, font provenance, and limitations. No deployment or push performed.",
+    "node_modules excluded from deliverable."
+  ]
+}

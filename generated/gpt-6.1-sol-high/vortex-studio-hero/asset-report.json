@@ -1,0 +1,142 @@
+[
+  {
+    "file": "space-voyage.gif",
+    "url": "https://motionsites.ai/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+    "success": true,
+    "error": "",
+    "bytes": 14452812
+  },
+  {
+    "file": "cosmic.gif",
+    "url": "https://motionsites.ai/assets/hero-portfolio-cosmic-preview-BpvWJ3Nc.gif",
+    "success": true,
+    "error": "",
+    "bytes": 14035033
+  },
+  {
+    "file": "velorah.gif",
+    "url": "https://motionsites.ai/assets/hero-velorah-preview-CJNTtbpd.gif",
+    "success": true,
+    "error": "",
+    "bytes": 13799296
+  },
+  {
+    "file": "asme.gif",
+    "url": "https://motionsites.ai/assets/hero-asme-preview-B_nGDnTP.gif",
+    "success": true,
+    "error": "",
+    "bytes": 11153253
+  },
+  {
+    "file": "data.gif",
+    "url": "https://motionsites.ai/assets/hero-transform-data-preview-Cx5OU29N.gif",
+    "success": true,
+    "error": "",
+    "bytes": 8635170
+  },
+  {
+    "file": "aethera.gif",
+    "url": "https://motionsites.ai/assets/hero-aethera-preview-DknSlcTa.gif",
+    "success": true,
+    "error": "",
+    "bytes": 13543814
+  },
+  {
+    "file": "orbit.gif",
+    "url": "https://motionsites.ai/assets/hero-orbit-web3-preview-BXt4OttD.gif",
+    "success": true,
+    "error": "",
+    "bytes": 11477083
+  },
+  {
+    "file": "nexora.gif",
+    "url": "https://motionsites.ai/assets/hero-nexora-preview-cx5HmUgo.gif",
+    "success": true,
+    "error": "",
+    "bytes": 5651480
+  },
+  {
+    "file": "evr.gif",
+    "url": "https://motionsites.ai/assets/hero-evr-ventures-preview-DZxeVFEX.gif",
+    "success": true,
+    "error": "",
+    "bytes": 8714367
+  },
+  {
+    "file": "automation.gif",
+    "url": "https://motionsites.ai/assets/hero-automation-machines-preview-DlTveRIN.gif",
+    "success": true,
+    "error": "",
+    "bytes": 3689894
+  },
+  {
+    "file": "xportfolio.gif",
+    "url": "https://motionsites.ai/assets/hero-xportfolio-preview-D4A8maiC.gif",
+    "success": true,
+    "error": "",
+    "bytes": 8167453
+  },
+  {
+    "file": "portrait.webp",
+    "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260330_103804_7aa5494f-4d5b-432e-9dc7-20715275f143.png&w=1280&q=85",
+    "success": true,
+    "error": "",
+    "bytes": 103334
+  },
+  {
+    "file": "PPNeueMontreal-Book.otf",
+    "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9bb43e36419997ecfe_PPNeueMontreal-Book.otf",
+    "success": false,
+    "error": "curl: (22) The requested URL returned error: 403",
+    "bytes": 0
+  },
+  {
+    "file": "PPNeueMontreal-Medium.otf",
+    "url": "https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9b39c5673e51a86f5a_PPNeueMontreal-Medium.otf",
+    "success": false,
+    "error": "curl: (22) The requested URL returned error: 403",
+    "bytes": 0
+  },
+  {
+    "file": "PPMondwest-Regular.woff2",
+    "url": "https://motionsites.ai/PPMondwest-Regular.woff2",
+    "success": false,
+    "error": "curl: (22) The requested URL returned error: 404",
+    "bytes": 0
+  },
+  {
+    "file": "avatar-0.jpg",
+    "url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "success": true,
+    "error": "",
+    "bytes": 2418
+  },
+  {
+    "file": "avatar-1.jpg",
+    "url": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "success": true,
+    "error": "",
+    "bytes": 2533
+  },
+  {
+    "file": "avatar-2.jpg",
+    "url": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "success": true,
+    "error": "",
+    "bytes": 3660
+  },
+  {
+    "file": "avatar-3.jpg",
+    "url": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "success": true,
+    "error": "",
+    "bytes": 2493
+  },
+  {
+    "file": "avatar-4.jpg",
+    "url": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+    "success": true,
+    "error": "",
+    "bytes": 3569
+  }
+]

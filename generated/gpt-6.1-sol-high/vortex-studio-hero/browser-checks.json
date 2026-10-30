@@ -1,0 +1,139 @@
+{
+  "url": "http://localhost:4173/motionsites-results/vortex-studio-hero/",
+  "checks": [
+    {
+      "name": "desktop hero",
+      "passed": true
+    },
+    {
+      "name": "desktop fonts",
+      "passed": true
+    },
+    {
+      "name": "desktop marquee animation",
+      "passed": true
+    },
+    {
+      "name": "desktop marquee moves",
+      "passed": true
+    },
+    {
+      "name": "desktop projects anchor",
+      "passed": true
+    },
+    {
+      "name": "desktop portrait parallax",
+      "passed": true
+    },
+    {
+      "name": "desktop carousel next",
+      "passed": true
+    },
+    {
+      "name": "desktop carousel previous",
+      "passed": true
+    },
+    {
+      "name": "desktop carousel pauses",
+      "passed": true
+    },
+    {
+      "name": "desktop carousel auto advances",
+      "passed": true
+    },
+    {
+      "name": "cursor trail spawns",
+      "passed": true
+    },
+    {
+      "name": "cursor trail cleans up",
+      "passed": true
+    },
+    {
+      "name": "desktop images",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "desktop no horizontal overflow",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "desktop CTA destinations",
+      "passed": true
+    },
+    {
+      "name": "mobile hero",
+      "passed": true
+    },
+    {
+      "name": "mobile fonts",
+      "passed": true
+    },
+    {
+      "name": "mobile marquee animation",
+      "passed": true
+    },
+    {
+      "name": "mobile marquee moves",
+      "passed": true
+    },
+    {
+      "name": "mobile projects anchor",
+      "passed": true
+    },
+    {
+      "name": "mobile portrait parallax",
+      "passed": true
+    },
+    {
+      "name": "mobile carousel next",
+      "passed": true
+    },
+    {
+      "name": "mobile carousel previous",
+      "passed": true
+    },
+    {
+      "name": "mobile carousel pauses",
+      "passed": true
+    },
+    {
+      "name": "mobile carousel auto advances",
+      "passed": true
+    },
+    {
+      "name": "mobile images",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "mobile no horizontal overflow",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "mobile CTA destinations",
+      "passed": true
+    },
+    {
+      "name": "no script or console errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "no failed requests",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

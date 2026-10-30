@@ -1,0 +1,23 @@
+@font-face{font-family:'PP Neue Montreal';src:url('/assets/PPNeueMontreal-Book.woff2') format('woff2'),url('https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9bb43e36419997ecfe_PPNeueMontreal-Book.otf') format('opentype');font-weight:400;font-display:swap}
+@font-face{font-family:'PP Neue Montreal';src:url('/assets/PPNeueMontreal-Medium.woff2') format('woff2'),url('https://assets.website-files.com/6009ec8cda7f305645c9d91b/60176f9b39c5673e51a86f5a_PPNeueMontreal-Medium.otf') format('opentype');font-weight:500 700;font-display:swap}
+@font-face{font-family:'PP Mondwest';src:url('/PPMondwest-Regular.woff2') format('woff2');font-weight:400 700;font-display:swap}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{font-family:'PP Neue Montreal',Arial,sans-serif;color:#051A24;background:#fff;font-synthesis:weight}
+html{scroll-behavior:smooth;scroll-padding-top:40px}body{margin:0}*{box-sizing:border-box}button,a{-webkit-tap-highlight-color:transparent}a,button{transition:opacity .2s,transform .2s}a:hover{opacity:.7}button{cursor:pointer}a:focus-visible,button:focus-visible{outline:2px solid #0D212C;outline-offset:5px}section[id]{scroll-margin-top:40px}
+.display-heading{font-size:32px;line-height:1.1;letter-spacing:-.025em;color:#0D212C;font-weight:400}
+.button{display:inline-flex;justify-content:center;align-items:center;border-radius:999px;padding:12px 28px;font-size:14px;line-height:20px;text-align:center;white-space:nowrap;flex-shrink:0}
+.button:hover{opacity:.85;transform:translateY(-2px)}
+.button-primary{background:#051A24;color:white;box-shadow:0 1px 2px 0 rgba(5,26,36,.1),0 4px 4px 0 rgba(5,26,36,.09),0 9px 6px 0 rgba(5,26,36,.05),0 17px 7px 0 rgba(5,26,36,.01),0 26px 7px 0 rgba(5,26,36,0),inset 0 2px 8px 0 rgba(255,255,255,.5)}
+.button-secondary{background:white;color:#051A24;box-shadow:0 0 0 .5px rgba(0,0,0,.05),0 4px 30px rgba(0,0,0,.08)}
+.button-tertiary{background:white;color:#051A24;box-shadow:0 1px 2px rgba(5,26,36,.1),0 4px 4px rgba(5,26,36,.09),0 9px 6px rgba(5,26,36,.05),inset 0 2px 8px rgba(255,255,255,.5),0 0 0 .5px rgba(0,0,0,.08)}
+.marquee{overflow:hidden;padding-bottom:20px}.marquee-track{display:flex;width:max-content;animation:marquee 10s linear infinite}.marquee-group{display:flex;flex-shrink:0}.marquee img{max-width:none}.portrait-frame{height:390px}.portrait-frame img{height:125%;margin-top:-15%;will-change:transform}.pricing-card{min-height:355px}.pricing-card .button{padding-left:20px;padding-right:20px}
+.carousel-window{padding-top:18px;padding-bottom:18px;overflow:hidden}.testimonial-card{min-height:290px;transition:opacity .8s,scale .8s}.testimonial-card.is-exiting{opacity:0;scale:.93}.carousel-arrow{height:48px;width:48px;border-radius:50%;border:1px solid rgba(13,33,44,.2);display:grid;place-items:center}.carousel-arrow:hover{background:#f6f8f9}.bottom-nav{box-shadow:0 2px 4px rgba(5,26,36,.04),0 8px 24px rgba(5,26,36,.12),0 0 0 1px rgba(5,26,36,.04)}.cursor-thumbnail{animation:trail-out 1s ease-out forwards;z-index:1}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}100%{opacity:1;transform:translateY(0)}}
+.animate-fade-in-up{animation:fadeInUp .8s ease-out forwards;opacity:0}
+@keyframes trail-out{0%{opacity:.85;transform:translate(-50%,-50%) rotate(var(--rotation)) scale(1)}100%{opacity:0;transform:translate(-50%,-65%) rotate(var(--rotation)) scale(.5)}}
+@media(min-width:768px){.display-heading{font-size:40px}.marquee-track{animation-duration:30s}}
+@media(min-width:1024px){.display-heading{font-size:44px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.animate-fade-in-up{animation:none;opacity:1}.marquee-track{animation-play-state:paused}.testimonial-card{transition:none}.cursor-thumbnail{display:none}}

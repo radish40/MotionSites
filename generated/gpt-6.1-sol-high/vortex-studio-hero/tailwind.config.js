@@ -1,0 +1,1 @@
+export default { content: ['./index.html', './src/**/*.{ts,tsx}'], theme: { extend: { colors: { ink: '#051A24', heading: '#0D212C' }, fontFamily: { sans: ['PP Neue Montreal','Arial','sans-serif'], accent: ['PP Mondwest','Georgia','serif'] } } }, plugins: [] };

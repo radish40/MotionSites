@@ -1,0 +1,403 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T05:34:12.184Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 19519,
+      "title": "Viktor Oddy — Creative Studio",
+      "bodyChars": 2620,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/space-voyage.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/cosmic.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/velorah.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/asme.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/data.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/aethera.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/orbit.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/nexora.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/space-voyage.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/cosmic.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/velorah.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/asme.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/data.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/aethera.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/orbit.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/nexora.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/portrait.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-0.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-3.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-4.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-0.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-3.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-4.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-0.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-3.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-4.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-3.jpg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 18,
+      "title": "Viktor Oddy — Creative Studio",
+      "bodyChars": 2620,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/space-voyage.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/cosmic.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/velorah.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/asme.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/data.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/aethera.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/orbit.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/nexora.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/space-voyage.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/cosmic.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/velorah.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/asme.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/data.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/aethera.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/orbit.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/nexora.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/portrait.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-0.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-3.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-4.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-0.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-3.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-4.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-0.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-3.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-4.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/vortex-studio-hero/assets/avatar-3.jpg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

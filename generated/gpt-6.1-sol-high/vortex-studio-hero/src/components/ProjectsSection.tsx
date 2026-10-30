@@ -1,0 +1,4 @@
+import {asset} from '../assets';
+import {Reveal} from './Reveal';
+const projects=[{name:'evr',description:'From idea to millions raised for a web3 AI product',image:'evr.gif'},{name:'Automation Machines',description:'Streamlining industrial automation processes',image:'automation.gif'},{name:'xPortfolio',description:'Modern portfolio management platform',image:'xportfolio.gif'}];
+export default function ProjectsSection(){return <section id="projects" className="max-w-[1200px] mx-auto px-6 py-12 flex flex-col gap-16 md:gap-20">{projects.map(p=><Reveal key={p.name}><article><div className="ml-20 md:ml-28 mb-6"><h2 className="font-accent text-2xl md:text-3xl font-semibold">{p.name}</h2><p className="text-sm md:text-base text-ink/70 mt-1">{p.description}</p></div><img src={asset(p.image)} alt={`${p.name} website design`} loading="lazy" className="w-full rounded-2xl shadow-lg object-cover"/></article></Reveal>)}</section>;}

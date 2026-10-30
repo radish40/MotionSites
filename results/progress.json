@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:28:41.462768+00:00",
+  "updated_utc": "2026-10-30T03:30:37.568268+00:00",
   "total": 380,
   "counts": {
-    "complete": 234,
+    "complete": 236,
     "running": 5,
-    "not_started": 141
+    "not_started": 139
   },
   "current_batch": {
     "from_number": 201,
@@ -2360,21 +2360,21 @@
       "id": "design-pro-academy",
       "title": "DesignPro Academy",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad4-6e3c-77a2-a248-b0f636681d8c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5bdc0e02a5e2c8c16ce84a9cadca522b526560d1",
+      "group_message_id": 299,
+      "url": "https://tool.luo-xd.com/motionsites-results/design-pro-academy/"
     },
     {
       "id": "evr-ventures",
       "title": "EVR Ventures",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad5-be8b-73f2-af94-ebf8daff0fc3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "fcefa16c2108fb121fb6109ca6cc5290d817a936",
+      "group_message_id": 300,
+      "url": "https://tool.luo-xd.com/motionsites-results/evr-ventures/"
     },
     {
       "id": "finlytic-ai-agent",
@@ -2410,7 +2410,7 @@
       "id": "mindloop",
       "title": "Mindloop",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2420,7 +2420,7 @@
       "id": "neo-vision",
       "title": "NeoVision",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

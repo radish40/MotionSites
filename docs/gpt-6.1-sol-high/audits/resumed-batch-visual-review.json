@@ -399,7 +399,19 @@
         "generated/gpt-6.1-sol-high/bloom-ai/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/bloom-ai/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "club-x-investors",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Supplied lake video, centered finance headline and glass statistics render at both sizes. Original-session checks verified controls and reduced motion. Local portrait substitutions for unavailable generated avatars are explicitly documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/club-x-investors/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/club-x-investors/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:27:02.535303+00:00"
+  "updated_utc": "2026-10-30T03:28:47.563538+00:00"
 }

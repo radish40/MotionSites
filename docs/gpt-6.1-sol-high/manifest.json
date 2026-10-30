@@ -8047,19 +8047,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad4-6e3c-77a2-a248-b0f636681d8c",
       "output_path": "generated/gpt-6.1-sol-high/design-pro-academy",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 535585,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:22:19.888104+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "5bdc0e02a5e2c8c16ce84a9cadca522b526560d1",
+      "url": "https://tool.luo-xd.com/motionsites-results/design-pro-academy/",
+      "completed_utc": "2026-10-30T03:30:11.729633+00:00",
+      "group_message_id": 299
     },
     {
       "number": 236,
@@ -8077,19 +8081,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad5-be8b-73f2-af94-ebf8daff0fc3",
       "output_path": "generated/gpt-6.1-sol-high/evr-ventures",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 540390,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:23:46.097957+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "fcefa16c2108fb121fb6109ca6cc5290d817a936",
+      "url": "https://tool.luo-xd.com/motionsites-results/evr-ventures/",
+      "completed_utc": "2026-10-30T03:30:37.393591+00:00",
+      "group_message_id": 300
     },
     {
       "number": 237,
@@ -8197,11 +8205,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/mindloop",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 561928,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:29:42.791130+00:00",
+      "worker_state": "running"
     },
     {
       "number": 241,
@@ -8219,11 +8231,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/neo-vision",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 561979,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:29:42.914630+00:00",
+      "worker_state": "running"
     },
     {
       "number": 242,
@@ -11285,7 +11301,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:28:41.462768+00:00",
+  "updated_utc": "2026-10-30T03:30:37.568268+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

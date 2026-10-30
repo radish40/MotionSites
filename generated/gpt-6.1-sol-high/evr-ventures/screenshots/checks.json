@@ -1,0 +1,65 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 1000,
+    "scrollHeight": 1000,
+    "fonts": true,
+    "video": {
+      "ready": 4,
+      "playing": true,
+      "time": 2.559023,
+      "width": 1924
+    },
+    "progress": "84.823px",
+    "headingTracking": "-16px",
+    "menuOpenClose": true,
+    "escape": true,
+    "focusTrap": true,
+    "hashNavigation": true,
+    "errors": [],
+    "failed": []
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 844,
+    "scrollHeight": 844,
+    "fonts": true,
+    "video": {
+      "ready": 4,
+      "playing": true,
+      "time": 2.570784,
+      "width": 1924
+    },
+    "progress": "84.823px",
+    "headingTracking": "-6.4px",
+    "menuOpenClose": true,
+    "escape": true,
+    "focusTrap": true,
+    "hashNavigation": true,
+    "errors": [],
+    "failed": []
+  },
+  "tablet": {
+    "width": 820,
+    "scrollWidth": 820,
+    "height": 1180,
+    "scrollHeight": 1180,
+    "fonts": true,
+    "video": {
+      "ready": 4,
+      "playing": true,
+      "time": 2.543115,
+      "width": 1924
+    },
+    "progress": "84.823px",
+    "headingTracking": "-9.84px",
+    "menuOpenClose": true,
+    "escape": true,
+    "focusTrap": true,
+    "hashNavigation": true,
+    "errors": [],
+    "failed": []
+  }
+}

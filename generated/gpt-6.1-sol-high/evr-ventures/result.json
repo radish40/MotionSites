@@ -1,0 +1,32 @@
+{
+  "title": "EVR Ventures",
+  "id": "evr-ventures",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "base_path": "/motionsites-results/evr-ventures/",
+    "browser": "Chromium through playwright-core, production dist served at the specified base path",
+    "viewports": ["1440x1000", "390x844", "820x1180"],
+    "video": "original MP4 decoded and autoplay advanced; muted, looping, playsInline",
+    "fonts": "local Geist and Gilda Display loaded",
+    "progress": "75% ring reached expected stroke-dashoffset",
+    "menu": "open/close, five links, Escape, focus containment, focus restoration, body scroll lock and quick-navigation targeting passed",
+    "layout": "no horizontal overflow at all tested viewports",
+    "runtime": "no page errors, console errors or failed network requests",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/menu.png"],
+    "report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "Optional evr-ventures.webp visual reference was absent; implementation follows PROMPT.md.",
+    "Initial Python font download stalled; all exact font files recovered with bounded curl downloads. No missing runtime assets."
+  ],
+  "notes": [
+    "React, Vite, Framer Motion and Lucide; original video and fonts hosted locally.",
+    "Exact -0.2em heading tracking preserved as specified, including its very tight letter spacing.",
+    "Hero-only scope: menu destinations update URL fragments; additional pages and backend services were not supplied.",
+    "Vite emits harmless ignored use-client directive warnings from Framer Motion; build succeeds.",
+    "No deployment, push, external messages or additional agents. All written artifacts are in this project.",
+    "Ready for management review; not published."
+  ]
+}

@@ -1206,7 +1206,112 @@
         "generated/gpt-6.1-sol-high/digital-director/screenshots/mobile-menu.png"
       ],
       "reviewed_utc": "2026-10-30T04:38:29.884412+00:00"
+    },
+    {
+      "id": "intelligent-operations",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile initial and capability states actually reviewed. Exact scroll-driven video preserves the no-autoplay requirement; browser proves all 90 frames extracted and actual canvas frame changes from 0 to 89 after scrolling, with 80vh spacer and reveals. Original portrait URL currently depicts the same abstract form rather than a human; retained exactly. Capability viewport capture is at document bottom, so earlier content can scroll under the fixed nav normally. Original media range aborts disclosed separately from successful frame extraction; no hardware smoothness claim.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/intelligent-operations/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/intelligent-operations/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/intelligent-operations/screenshots/desktop-capability.png",
+        "generated/gpt-6.1-sol-high/intelligent-operations/screenshots/mobile-capability.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:47:03.505905+00:00"
+    },
+    {
+      "id": "skybridge-404",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile show exact original animated bridge scene, white LGPSM SVG, uncropped gradient-only 404 numerals, divider and original message. No extra controls or overlay were added. Browser verifies decoding, real playback/loop, exact font loading and short-viewport vertical scroll; same original font bytes mirrored only as fallback.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/skybridge-404/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/skybridge-404/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:47:03.505905+00:00"
+    },
+    {
+      "id": "synth-mode",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile, desktop spotlight reveal and mobile catalog reviewed. Public independent pointer probe moves onto the portrait: original visor appears/disappears under the real canvas mask; center alpha 255 and remote corner 0, second original image decoded. Desktop keeps two original full-bleed images and exact cursor easing, mobile has bordered static image below the hero. All four drawers, add/remove/count/toasts and client-side checkout behavior pass; no payments backend claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/synth-mode/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/synth-mode/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:47:03.505905+00:00",
+      "additional_review_captures": [
+        ".work/generation/synth-mask-before.png",
+        ".work/generation/synth-mask-after.png"
+      ]
+    },
+    {
+      "id": "agent-grove",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile and mobile menu actually viewed. Exact original forest video behind bottom-anchored hero and two frosted panels; required responsive black-to-white type and Silkscreen stats preserved. Browser verifies original media playback, menu/body-lock restoration, desktop CTA focus and local email validation. Requested avatar currently differs from reference; original URL retained.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/agent-grove/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/agent-grove/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/agent-grove/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:47:03.505905+00:00"
+    },
+    {
+      "id": "mostar-guide",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "All eight desktop/mobile states reviewed: intro, bridge details, bazaar details and final horizontally looped sights. Seven original remote scene layers and three remote pins remain separate native image elements. Exact supplied mobile slider offset naturally clips edge cards. Browser verifies 15 clones, both-direction seamless loop, pointer/keyboard selection, anchor choreography and reduced motion. Exact Ogg font server lacks CORS; unmodified original binary mirrored as documented recovery, with no substitute face. Language/notes have exact specified markup; no behavior was supplied.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/mostar-guide/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/mostar-guide/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/mostar-guide/screenshots/desktop-bridge.png",
+        "generated/gpt-6.1-sol-high/mostar-guide/screenshots/desktop-bazaar.png",
+        "generated/gpt-6.1-sol-high/mostar-guide/screenshots/desktop-sights.png",
+        "generated/gpt-6.1-sol-high/mostar-guide/screenshots/mobile-bridge.png",
+        "generated/gpt-6.1-sol-high/mostar-guide/screenshots/mobile-bazaar.png",
+        "generated/gpt-6.1-sol-high/mostar-guide/screenshots/mobile-sights.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:47:03.505905+00:00"
+    },
+    {
+      "id": "talent-collective",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile show Kollektiva portrait hero, eight avatar buttons and responsive footer. Exact source photos retained even where their subject differs from the supplied person name. Browser verifies all eight manual selections, matching biography/name/background, keyboard, mobile last-avatar access and no autoplay. Requested WhatsApp href=# retained.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/talent-collective/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/talent-collective/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:47:03.505905+00:00"
+    },
+    {
+      "id": "intelligence-layer",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile and open phone menu actually reviewed. Standalone inline HTML with exact original portal video, height-based desktop geometry, native SVG marks, Manrope, responsive two-by-two phone logo grid and edge fades. Browser verifies playback at desktop/reference/tablet/mobile, menu Escape/link/landscape closure and reduced motion. Prompt explicitly permits fallback for unavailable IpsumMark and partner paths; documented bold Manrope and reconstructed native SVG silhouettes used.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/intelligence-layer/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/intelligence-layer/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/intelligence-layer/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:47:03.505905+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:38:29.884412+00:00"
+  "updated_utc": "2026-10-30T04:47:03.505905+00:00"
 }

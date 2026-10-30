@@ -1,0 +1,209 @@
+{
+  "recorded_utc": "2026-10-30T04:47:03.505905+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 7,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:46:40.009617+00:00",
+      "remote_main": "e0564dba3a8fff18e24b67ba4337aa452a3ffe0b",
+      "delivery": {
+        "id": "intelligent-operations",
+        "title": "Intelligent Operations",
+        "source_commit": "a38d0917737d94183598cdb20151919a3695726d",
+        "thread_id": "01a18b14-ae63-70f2-a3b5-0cfa8ee0d1ce",
+        "group_message_id": 369,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:39:01.822129+00:00",
+      "remote_main": "f945eb9f44457df6dc50e5bf0de69c74bbcf0909",
+      "delivery": {
+        "id": "skybridge-404",
+        "title": "Skybridge 404",
+        "source_commit": "f945eb9f44457df6dc50e5bf0de69c74bbcf0909",
+        "thread_id": "01a18b15-e02e-7f83-9caf-8123c42cc8b7",
+        "group_message_id": 363,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:43:00.865073+00:00",
+      "remote_main": "f9ab27031d7930aa6c06823963cbc3919c588694",
+      "delivery": {
+        "id": "synth-mode",
+        "title": "Synth Mode",
+        "source_commit": "f9ab27031d7930aa6c06823963cbc3919c588694",
+        "thread_id": "01a18b15-e0db-7541-a67b-b39d73a9a479",
+        "group_message_id": 365,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:41:17.579963+00:00",
+      "remote_main": "c24798dbb14437d002e7a85d38d88a997499538a",
+      "delivery": {
+        "id": "agent-grove",
+        "title": "Agent Grove",
+        "source_commit": "c24798dbb14437d002e7a85d38d88a997499538a",
+        "thread_id": "01a18b15-e17a-7a43-9bc6-07b53e002b59",
+        "group_message_id": 364,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:44:45.182589+00:00",
+      "remote_main": "70baefe4bb99530fad8f3da55ecbdd7ad79611fc",
+      "delivery": {
+        "id": "mostar-guide",
+        "title": "Mostar Guide",
+        "source_commit": "70baefe4bb99530fad8f3da55ecbdd7ad79611fc",
+        "thread_id": "01a18b15-e214-70b3-bb93-0d78cbe5e077",
+        "group_message_id": 367,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:43:28.389754+00:00",
+      "remote_main": "444d2d7997b02ed392bdd0a6ccf907234bcd3ab2",
+      "delivery": {
+        "id": "talent-collective",
+        "title": "Talent Collective",
+        "source_commit": "5772de4fc0efce4886a431ccd7b08a12ebb03629",
+        "thread_id": "01a18b19-7fad-7a30-ad4a-d4993042dc22",
+        "group_message_id": 366,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:45:10.069161+00:00",
+      "remote_main": "c7d38a799b0a93f074715c6aacd3f3c96735b8c7",
+      "delivery": {
+        "id": "intelligence-layer",
+        "title": "Intelligence Layer",
+        "source_commit": "c7d38a799b0a93f074715c6aacd3f3c96735b8c7",
+        "thread_id": "01a18b1b-9e32-74b0-82ee-580092fffd29",
+        "group_message_id": 368,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

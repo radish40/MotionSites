@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-10-30T04:42:51.117Z",
+  "url": "https://tool.luo-xd.com/motionsites-results/synth-mode/",
+  "passed": true,
+  "realPointerMask": true,
+  "changedRenderedImage": true,
+  "centerAlpha": 255,
+  "cornerAlpha": 0,
+  "revealWidth": 1920,
+  "maskWidth": 1440,
+  "errors": [],
+  "screenshots": [
+    ".work/generation/synth-mask-before.png",
+    ".work/generation/synth-mask-after.png"
+  ],
+  "design_id": "synth-mode",
+  "source_commit": "f9ab27031d7930aa6c06823963cbc3919c588694",
+  "scope": "Additional public desktop pointer-mask verification; screenshot pair actually reviewed by management. Not a replacement for full 380-delivery audit."
+}

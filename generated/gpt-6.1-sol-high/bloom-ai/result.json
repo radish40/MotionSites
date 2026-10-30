@@ -1,0 +1,36 @@
+{
+  "title": "Bloom AI",
+  "id": "bloom-ai",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: Vite 6.4.5; dist/index.html exists",
+    "public_base": "/motionsites-results/bloom-ai/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844; right panel hidden",
+    "video": "original MP4 loads, muted inline looping autoplay advances in Chromium",
+    "assets": "all local fonts and images load",
+    "layout": "no horizontal or vertical overflow at required viewports",
+    "interactions": "menu, category navigation, Explore Now, feature and ecosystem dialogs, Escape/close, account preview form passed",
+    "script_errors": 0,
+    "failed_http_responses": 0,
+    "visual_review": "desktop and mobile screenshots inspected",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "Optional original preview does not exist, so exact visual comparison was unavailable.",
+    "Logo file was not supplied; recreated an eight-petal raster mark using project-local canvas code.",
+    "hero-flowers.png was not supplied; recreated a separate grayscale flower sculpture with project-local canvas code.",
+    "The exact provided MP4 shows a planet and stars. Kept the supplied footage and applied grayscale to match the requested palette."
+  ],
+  "notes": [
+    "Ready for review, not deployed or published.",
+    "React, Vite, lucide-react; self-hosted Poppins and Source Serif 4; dependency lockfile included.",
+    "All work is inside this project. No agents, pushes, deployments, or external messages.",
+    "Account is a clearly labeled browser-only preview; no backend, AI service, or external form submission.",
+    "Social profile URLs were not supplied; links use platform homepages.",
+    "Asset recreation sources and verification limits are documented in README.md.",
+    "Browser validation used Chromium, not physical devices or other engines."
+  ]
+}

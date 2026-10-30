@@ -1,0 +1,69 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "layout": {
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "scrollHeight": 1000,
+      "innerHeight": 1000,
+      "fonts": true,
+      "images": true,
+      "video": {
+        "width": 1756,
+        "muted": true,
+        "loop": true
+      }
+    },
+    "interactions": [
+      "menu opens",
+      "menu navigation",
+      "escape closes dialog",
+      "explore opens gallery",
+      "dialog category navigation",
+      "dialog close button",
+      "category opens detail",
+      "Processing opens detail",
+      "Growth Archive opens detail",
+      "Advanced Plant Sculpting opens detail",
+      "Enter our ecosystem opens detail",
+      "account preview form submission"
+    ],
+    "scriptErrors": [],
+    "failedResponses": [],
+    "screenshot": "screenshots/desktop.png"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": {
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "scrollHeight": 844,
+      "innerHeight": 844,
+      "fonts": true,
+      "images": true,
+      "video": {
+        "width": 1756,
+        "muted": true,
+        "loop": true
+      }
+    },
+    "interactions": [
+      "menu opens",
+      "menu navigation",
+      "escape closes dialog",
+      "explore opens gallery",
+      "dialog category navigation",
+      "dialog close button",
+      "category opens detail"
+    ],
+    "scriptErrors": [],
+    "failedResponses": [],
+    "screenshot": "screenshots/mobile.png"
+  }
+}

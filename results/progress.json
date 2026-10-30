@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:23:52.972328+00:00",
+  "updated_utc": "2026-10-30T04:25:14.320442+00:00",
   "total": 380,
   "counts": {
-    "complete": 283,
+    "complete": 284,
     "running": 5,
-    "not_started": 92
+    "not_started": 91
   },
   "current_batch": {
     "from_number": 201,
@@ -2820,11 +2820,11 @@
       "id": "community-superdesign-interactive-folder",
       "title": "Interactive Folder",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b07-92bd-71d2-8024-8a3afa33644f",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "66c8b423a65dbfd753ebdad3127a7fde2c86da29",
+      "group_message_id": 350,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-interactive-folder/"
     },
     {
       "id": "community-superdesign-parallax-stars-background",
@@ -2871,7 +2871,7 @@
       "title": "Rolodex Text",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b0b-9add-7cc2-88d4-7594ccf1d06f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2881,7 +2881,7 @@
       "title": "Lightning Background",
       "category": "Animations & Backgrounds",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b0b-9ba5-78e2-9416-066b73f0b8e2",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2891,7 +2891,7 @@
       "title": "Hyperspeed Background",
       "category": "Animations & Backgrounds",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b0b-9cd6-7eb3-ae53-be872e1b1aa3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2900,7 +2900,7 @@
       "id": "community-superdesign-light-rays-background",
       "title": "Light Rays Background",
       "category": "Animations & Backgrounds",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

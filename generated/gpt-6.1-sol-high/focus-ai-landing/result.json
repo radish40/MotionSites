@@ -1,0 +1,99 @@
+{
+  "title": "Focus AI",
+  "id": "focus-ai-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --no-audit --no-fund && npm run build'",
+  "checks": {
+    "typescript": "passed",
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": "Chromium via playwright-core against production dist at the required base path",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "assertions": [
+      {
+        "name": "desktop overflow",
+        "passed": true,
+        "viewport": 1440,
+        "content": 1440
+      },
+      {
+        "name": "feature tab switches active state",
+        "passed": true
+      },
+      {
+        "name": "app CTA navigation",
+        "passed": true
+      },
+      {
+        "name": "Preorder Now dialog and local form",
+        "passed": true
+      },
+      {
+        "name": "Schedule a Tour dialog and local form",
+        "passed": true
+      },
+      {
+        "name": "Subscribe dialog and local form",
+        "passed": true
+      },
+      {
+        "name": "Privacy Policy dialog",
+        "passed": true
+      },
+      {
+        "name": "Terms & Conditions dialog",
+        "passed": true
+      },
+      {
+        "name": "mobile overflow",
+        "passed": true,
+        "viewport": 390,
+        "content": 390
+      },
+      {
+        "name": "mobile feature tab",
+        "passed": true
+      },
+      {
+        "name": "mobile dialog fits viewport",
+        "passed": true
+      }
+    ],
+    "page_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "fonts": {
+      "serif": true,
+      "body": true
+    },
+    "videos_playing": true,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Both full-page screenshots reviewed; six sections present with responsive stacking."
+  },
+  "asset_issues": [
+    {
+      "asset": "optional focus-ai-landing.webp reference",
+      "issue": "Specified file is absent. Implementation follows PROMPT.md; no other design inspected."
+    },
+    {
+      "asset": "Google Fonts CSS import",
+      "issue": "Prompt says Instrumental Serif; corrected typo to actual Instrument Serif via the required HTML link. Inter uses the CSS import."
+    }
+  ],
+  "notes": [
+    "Ready for management-session review; not deployed or pushed.",
+    "Page branding is Velorah as specified; project index title is Focus AI.",
+    "All four supplied media URLs are unchanged, reachable, and played successfully.",
+    "Preorder, tour, and subscription dialogs are explicitly local previews without backend submission or payment.",
+    "Native HLS fallback implemented; Safari was not available for verification.",
+    "Non-fatal Vite advisory: main bundle 798.24 kB, 251.75 kB gzip, including hls.js.",
+    "External media and fonts require network access.",
+    "Dependency lockfile retained; node_modules excluded by .gitignore."
+  ]
+}

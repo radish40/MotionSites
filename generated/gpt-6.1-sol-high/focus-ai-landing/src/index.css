@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 201 100% 13%; --foreground: 0 0% 100%;
+    --card: 0 0% 6%; --card-foreground: 0 0% 100%;
+    --primary: 0 0% 100%; --primary-foreground: 0 0% 4%;
+    --secondary: 0 0% 10%; --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 10%; --muted-foreground: 240 4% 66%;
+    --accent: 0 0% 10%; --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%; --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 18%; --input: 0 0% 18%; --ring: 0 0% 100%;
+    --radius: 0.5rem; --font-body: 'Inter', sans-serif;
+  }
+  html { scroll-behavior: smooth; background: #000; }
+  body { margin: 0; background: #000; color: white; font-family: var(--font-body); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: 'Instrument Serif', serif; font-weight: 400; }
+  button, a { -webkit-tap-highlight-color: transparent; }
+  button { cursor: pointer; }
+  ::selection { background: #b1b9c8; color: #000; }
+  :focus-visible { outline: 2px solid white; outline-offset: 5px; }
+  section { scroll-margin-top: 24px; }
+}
+.liquid-glass {
+  background: rgba(255,255,255,0.01); background-blend-mode: luminosity;
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+  border: none; box-shadow: inset 0 1px 1px rgba(255,255,255,0.1);
+  position: relative; overflow: hidden;
+}
+.liquid-glass::before {
+  content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1.4px; pointer-events: none;
+  background: linear-gradient(180deg,rgba(255,255,255,.45) 0%,rgba(255,255,255,.15) 20%,rgba(255,255,255,0) 40%,rgba(255,255,255,0) 60%,rgba(255,255,255,.15) 80%,rgba(255,255,255,.45) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; mask-composite: exclude;
+}
+@keyframes fade-rise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+.animate-fade-rise { animation: fade-rise .8s ease-out both; }
+.animate-fade-rise-delay { animation: fade-rise .8s .2s ease-out both; }
+.animate-fade-rise-delay-2 { animation: fade-rise .8s .4s ease-out both; }
+.dialog-overlay { background: rgba(0,0,0,.75); backdrop-filter: blur(12px); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }

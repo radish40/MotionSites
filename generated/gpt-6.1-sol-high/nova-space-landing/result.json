@@ -1,0 +1,116 @@
+{
+  "title": "NOVA Space Systems",
+  "id": "nova-space-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite; dist/index.html exists",
+    "browser": "passed",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "assertions": [
+      {
+        "name": "Three local videos loaded and autoplaying muted/looping",
+        "passed": true,
+        "videoStates": [
+          {
+            "width": 1440,
+            "height": 1440,
+            "playing": true,
+            "muted": true,
+            "loop": true,
+            "time": 0.575267
+          },
+          {
+            "width": 1440,
+            "height": 1440,
+            "playing": true,
+            "muted": true,
+            "loop": true,
+            "time": 0.627777
+          },
+          {
+            "width": 1440,
+            "height": 1440,
+            "playing": true,
+            "muted": true,
+            "loop": true,
+            "time": 0.568837
+          }
+        ]
+      },
+      {
+        "name": "Desktop hero exactly fills viewport with navbar; no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "Fleet CTA scrolls to launch vehicles",
+        "passed": true
+      },
+      {
+        "name": "Search matching, empty state, Escape and focus restoration",
+        "passed": true
+      },
+      {
+        "name": "Panel keyboard focus stays inside dialog in both directions",
+        "passed": true
+      },
+      {
+        "name": "Desktop menu destination links",
+        "passed": true
+      },
+      {
+        "name": "390×844 mobile layout, exact hero height, no overflow",
+        "passed": true
+      },
+      {
+        "name": "Mobile menu, search and destination navigation",
+        "passed": true
+      },
+      {
+        "name": "Reduced motion pauses ambient video",
+        "passed": true
+      },
+      {
+        "name": "No page or console errors",
+        "passed": true
+      }
+    ],
+    "console_errors": [],
+    "page_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png",
+      "screenshots/mobile-full.png"
+    ],
+    "report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "Specified hero MP4",
+      "status": "HTTP 403; original file could not be recovered",
+      "attempts": [
+        "original URL",
+        "browser User-Agent and Referer",
+        "query-string variation",
+        "HTTP redirect"
+      ],
+      "fallback": "Reused the exact supplied launch-pad video (public/assets/launch.mp4), with no overlay or filter. Hero footage is an approximation."
+    },
+    {
+      "asset": "Optional original reference WebP",
+      "status": "File does not exist; no reference extraction possible"
+    }
+  ],
+  "notes": [
+    "Ready for management acceptance with the documented hero asset deviation; not deployed.",
+    "Exact supplied lower-section videos and exact Google Fonts Space Grotesk weights 400–700 are stored locally.",
+    "Menu and search are functional; CTA and links navigate existing sections.",
+    "Science body paragraphs were authored because PROMPT.md specifies no exact body copy for these cards.",
+    "Video range requests cancelled during navigation are recorded as ERR_ABORTED; videos loaded and played successfully.",
+    "No agents, other sessions, deployment, push, or external messages."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "url": "http://localhost:4173/motionsites-results/nova-space-landing/",
+  "checks": [
+    {
+      "name": "Three local videos loaded and autoplaying muted/looping",
+      "passed": true,
+      "videoStates": [
+        {
+          "width": 1440,
+          "height": 1440,
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "time": 0.575267
+        },
+        {
+          "width": 1440,
+          "height": 1440,
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "time": 0.627777
+        },
+        {
+          "width": 1440,
+          "height": 1440,
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "time": 0.568837
+        }
+      ]
+    },
+    {
+      "name": "Desktop hero exactly fills viewport with navbar; no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Fleet CTA scrolls to launch vehicles",
+      "passed": true
+    },
+    {
+      "name": "Search matching, empty state, Escape and focus restoration",
+      "passed": true
+    },
+    {
+      "name": "Panel keyboard focus stays inside dialog in both directions",
+      "passed": true
+    },
+    {
+      "name": "Desktop menu destination links",
+      "passed": true
+    },
+    {
+      "name": "390×844 mobile layout, exact hero height, no overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu, search and destination navigation",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion pauses ambient video",
+      "passed": true
+    },
+    {
+      "name": "No page or console errors",
+      "passed": true
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "url": "http://localhost:4173/motionsites-results/nova-space-landing/assets/launch.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/nova-space-landing/assets/launch.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/nova-space-landing/assets/launch.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "status": "passed"
+}

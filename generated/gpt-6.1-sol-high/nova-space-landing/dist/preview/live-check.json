@@ -1,0 +1,110 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:15:17.781Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "NOVA Space Systems",
+      "bodyChars": 798,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/assets/launch.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.742791,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/assets/engineering.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.742794,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/assets/launch.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.686913,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/assets/launch.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "NOVA Space Systems",
+      "bodyChars": 765,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/assets/launch.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.579513,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/assets/engineering.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.763543,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/assets/launch.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.582262,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/assets/launch.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

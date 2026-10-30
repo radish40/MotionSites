@@ -1,0 +1,54 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "video": {
+        "width": 1928,
+        "height": 1072,
+        "paused": false,
+        "time": 2.642522,
+        "muted": true,
+        "loop": true,
+        "inline": true
+      },
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "height": 1000
+      },
+      "screenshot": "screenshots/desktop.png",
+      "interactions": "Get Started focus; required email; valid submission; local persistence; navigation visibility and desktop anchor links"
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "video": {
+        "width": 1928,
+        "height": 1072,
+        "paused": false,
+        "time": 2.808102,
+        "muted": true,
+        "loop": true,
+        "inline": true
+      },
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "height": 844
+      },
+      "screenshot": "screenshots/mobile.png",
+      "interactions": "Get Started focus; required email; valid submission; local persistence; navigation visibility and desktop anchor links"
+    }
+  ]
+}

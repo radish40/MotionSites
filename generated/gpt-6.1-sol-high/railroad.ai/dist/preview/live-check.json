@@ -1,0 +1,62 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/railroad.ai/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:47:35.497Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Railroad.ai — Reclaim your attention",
+      "bodyChars": 309,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/railroad.ai/assets/railroad-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.825729,
+          "duration": 9.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Railroad.ai — Reclaim your attention",
+      "bodyChars": 278,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/railroad.ai/assets/railroad-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.292959,
+          "duration": 9.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

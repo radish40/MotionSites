@@ -1,0 +1,28 @@
+{
+  "title": "Railroad.ai",
+  "id": "railroad.ai",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium 390x844",
+    "video": "passed: original MP4 decoded at 1928x1072; autoplay, muted, loop, inline playback",
+    "layout": "passed: no horizontal or vertical viewport overflow at required sizes",
+    "interactions": "passed: Get Started focus, required email validation, local email save, desktop anchors, hidden mobile navigation",
+    "javascript_errors": 0,
+    "failed_requests": 0,
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "Optional project reference WebP was absent; implementation follows PROMPT.md. Original video and Google Fonts import were available."
+  ],
+  "notes": [
+    "React, Vite, TypeScript, Tailwind CSS, framer-motion, lucide-react, HSL design tokens; dependency lockfile included.",
+    "Static build configured for /motionsites-results/railroad.ai/.",
+    "Waitlist saves email on the current device only; no backend was supplied. UI discloses this after submission.",
+    "Navigation anchors remain within the specified hero; no extra pages added.",
+    "Ready for acceptance review; not deployed or pushed."
+  ]
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "desktop",
+    "metrics": {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "document": [
+        1440,
+        1000
+      ],
+      "headline": {
+        "x": 359,
+        "y": 203.5,
+        "width": 722,
+        "height": 128,
+        "top": 203.5,
+        "right": 1081,
+        "bottom": 331.5,
+        "left": 359
+      },
+      "content": {
+        "x": 228,
+        "y": 203.5,
+        "width": 984,
+        "height": 320,
+        "top": 203.5,
+        "right": 1212,
+        "bottom": 523.5,
+        "left": 228
+      },
+      "fonts": {
+        "serif": true,
+        "manrope": true,
+        "sans": true
+      },
+      "navVisible": true,
+      "video": {
+        "time": 1.446566,
+        "readyState": 4,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "width": 1104,
+        "height": 832,
+        "requestedLevel": "4",
+        "activeLevel": "4"
+      },
+      "headlineSize": "70px"
+    },
+    "hoverOpacity": "0.9",
+    "focusOutline": "solid",
+    "errors": [],
+    "failedRequests": [],
+    "interactions": "CTA/Login click, CTA hover and keyboard focus, desktop navigation hash checks"
+  },
+  {
+    "name": "mobile",
+    "metrics": {
+      "viewport": [
+        390,
+        844
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "headline": {
+        "x": 24,
+        "y": 111.8046875,
+        "width": 342,
+        "height": 158.390625,
+        "top": 111.8046875,
+        "right": 366,
+        "bottom": 270.1953125,
+        "left": 24
+      },
+      "content": {
+        "x": 0,
+        "y": 111.8046875,
+        "width": 390,
+        "height": 347.390625,
+        "top": 111.8046875,
+        "right": 390,
+        "bottom": 459.1953125,
+        "left": 0
+      },
+      "fonts": {
+        "serif": true,
+        "manrope": true,
+        "sans": true
+      },
+      "navVisible": false,
+      "video": {
+        "time": 1.276594,
+        "readyState": 4,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "width": 1104,
+        "height": 832,
+        "requestedLevel": "4",
+        "activeLevel": "4"
+      },
+      "headlineSize": "48px"
+    },
+    "hoverOpacity": "0.9",
+    "focusOutline": "solid",
+    "errors": [],
+    "failedRequests": [],
+    "interactions": "CTA/Login click, CTA hover and keyboard focus, desktop navigation hash checks"
+  }
+]

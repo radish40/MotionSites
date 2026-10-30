@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scenario": "Abort initial Mux manifest request; verify automatic retry and real playback",
+  "manifestRequests": 2,
+  "video": {
+    "time": 0.020761,
+    "width": 1104,
+    "paused": false
+  },
+  "errors": []
+}

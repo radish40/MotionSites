@@ -1,0 +1,67 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/ecovolta-v2-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T06:22:09.023Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 4,
+      "canvasRendering": null,
+      "title": "closer — AI that does your outbound",
+      "bodyChars": 227,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/eac3d7ae-6bd2-404c-be04-0d8de0b47bd3",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.202969,
+          "duration": 6.046734,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 4,
+      "canvasRendering": null,
+      "title": "closer — AI that does your outbound",
+      "bodyChars": 183,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/b7d3dfbd-b0e9-4ec2-8c2a-55b02185d753",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.460213,
+          "duration": 6.046734,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

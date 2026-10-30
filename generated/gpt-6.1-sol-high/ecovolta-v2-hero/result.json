@@ -1,0 +1,107 @@
+{
+  "title": "EcoVolta V2",
+  "id": "ecovolta-v2-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": {
+      "status": "passed",
+      "details": "TypeScript check and real Vite production build; dist/index.html exists. Nonfatal combined bundle size advisory (258.27 kB gzip)."
+    },
+    "browser": [
+      {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "status": "passed",
+        "screenshot": "screenshots/desktop.png",
+        "horizontal_overflow": false,
+        "vertical_overflow": false,
+        "script_errors": [],
+        "failed_requests": [],
+        "fonts_loaded": {
+          "serif": true,
+          "manrope": true,
+          "sans": true
+        },
+        "video": {
+          "time": 1.446566,
+          "readyState": 4,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "width": 1104,
+          "height": 832,
+          "requestedLevel": "4",
+          "activeLevel": "4"
+        },
+        "interaction_checks": "CTA/Login click, CTA hover and keyboard focus, desktop navigation hash checks",
+        "limitations": "CTA/Login clicks test UI clickability only; navigation hashes are integration placeholders."
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "status": "passed",
+        "screenshot": "screenshots/mobile.png",
+        "horizontal_overflow": false,
+        "vertical_overflow": false,
+        "script_errors": [],
+        "failed_requests": [],
+        "fonts_loaded": {
+          "serif": true,
+          "manrope": true,
+          "sans": true
+        },
+        "video": {
+          "time": 1.276594,
+          "readyState": 4,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "playsInline": true,
+          "width": 1104,
+          "height": 832,
+          "requestedLevel": "4",
+          "activeLevel": "4"
+        },
+        "interaction_checks": "CTA/Login click, CTA hover and keyboard focus, desktop navigation hash checks",
+        "limitations": "CTA/Login clicks test UI clickability only; navigation hashes are integration placeholders."
+      }
+    ],
+    "network_recovery": {
+      "status": "passed",
+      "scenario": "Abort initial Mux manifest request; verify automatic retry and real playback",
+      "manifestRequests": 2,
+      "video": {
+        "time": 0.020761,
+        "width": 1104,
+        "paused": false
+      },
+      "errors": []
+    },
+    "visual_review": "Desktop and mobile screenshots inspected; actual DOM text, buttons, SVG logo, and live HLS video.",
+    "native_safari_ios": "Native HLS detection implemented; Safari/iOS unavailable for runtime verification."
+  },
+  "asset_issues": [
+    {
+      "asset": "optional reference WebP",
+      "issue": "Specified reference file was absent. Implemented from full written specification; no reference extraction."
+    },
+    {
+      "asset": "SF Pro Display Medium",
+      "issue": "No font file or license supplied; detailed Instrument Serif headline specification takes precedence. SF Pro Display is a local fallback only."
+    }
+  ],
+  "notes": [
+    "React + TypeScript + Tailwind CSS v4 + hls.js. Dependency lockfile included.",
+    "Public base: /motionsites-results/ecovolta-v2-hero/. Complete static deliverable in dist/.",
+    "Mux HLS and Google Fonts loaded successfully in normal desktop and mobile browser checks; external services remain network dependencies.",
+    "Local video poster fetched from the same Mux playback ID thumbnail endpoint, time=0, width=1920. Contains background only.",
+    "Navigation destinations, signup and login behavior were not specified. Hash links and buttons are integration points; no additional pages or backend workflows added.",
+    "Ready for management review; no push or deployment. Only this project was written; no agents or other designs used."
+  ]
+}

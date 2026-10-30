@@ -1,0 +1,207 @@
+{
+  "desktop": {
+    "title": "Marcus — Bennet",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "document": {
+      "width": 1440,
+      "height": 1000
+    },
+    "images": [
+      {
+        "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260729_022513_486985a2-ac8c-4278-91a8-071dcd9fcaff.png&w=1280&q=85",
+        "loaded": true,
+        "width": 1280,
+        "height": 714,
+        "fallback": false
+      },
+      {
+        "src": "https://stone-expand-60400629.figma.site/_assets/v11/8da570354e86aa0d44ac3e4aa335a72c8e750d68.png",
+        "loaded": true,
+        "width": 3840,
+        "height": 2160,
+        "fallback": false
+      }
+    ],
+    "fontLoaded": true,
+    "fontFaces": [
+      {
+        "family": "Helvetica Neue ME",
+        "status": "loaded"
+      }
+    ],
+    "marqueeDuration": "30s",
+    "lineTransform": "matrix(1, 0, 0, 1, 0, 0)",
+    "hoverOpacity": "0.6"
+  },
+  "mobile": {
+    "title": "Marcus — Bennet",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "document": {
+      "width": 390,
+      "height": 844
+    },
+    "images": [
+      {
+        "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260729_022513_486985a2-ac8c-4278-91a8-071dcd9fcaff.png&w=1280&q=85",
+        "loaded": true,
+        "width": 1280,
+        "height": 714,
+        "fallback": false
+      },
+      {
+        "src": "https://stone-expand-60400629.figma.site/_assets/v11/8da570354e86aa0d44ac3e4aa335a72c8e750d68.png",
+        "loaded": true,
+        "width": 3840,
+        "height": 2160,
+        "fallback": false
+      }
+    ],
+    "fontLoaded": true,
+    "fontFaces": [
+      {
+        "family": "Helvetica Neue ME",
+        "status": "loaded"
+      }
+    ],
+    "marqueeDuration": "30s",
+    "lineTransform": "matrix(1, 0, 0, 1, 0, 0)",
+    "interactions": [
+      "open",
+      "link closes",
+      "Escape closes",
+      "backdrop closes",
+      "close button",
+      "body overflow restored"
+    ]
+  },
+  "reducedMotion": {
+    "title": "Marcus — Bennet",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "document": {
+      "width": 390,
+      "height": 844
+    },
+    "images": [
+      {
+        "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260729_022513_486985a2-ac8c-4278-91a8-071dcd9fcaff.png&w=1280&q=85",
+        "loaded": true,
+        "width": 1280,
+        "height": 714,
+        "fallback": false
+      },
+      {
+        "src": "https://stone-expand-60400629.figma.site/_assets/v11/8da570354e86aa0d44ac3e4aa335a72c8e750d68.png",
+        "loaded": true,
+        "width": 3840,
+        "height": 2160,
+        "fallback": false
+      }
+    ],
+    "fontLoaded": true,
+    "fontFaces": [
+      {
+        "family": "Helvetica Neue ME",
+        "status": "loaded"
+      }
+    ],
+    "marqueeDuration": "1e-05s",
+    "lineTransform": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  "fallback": {
+    "title": "Marcus — Bennet",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "document": {
+      "width": 390,
+      "height": 844
+    },
+    "images": [
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/personal-showcase/assets/background.webp",
+        "loaded": true,
+        "width": 1280,
+        "height": 714,
+        "fallback": true
+      },
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/personal-showcase/assets/portrait.png",
+        "loaded": true,
+        "width": 3840,
+        "height": 2160,
+        "fallback": true
+      }
+    ],
+    "fontLoaded": true,
+    "fontFaces": [
+      {
+        "family": "Helvetica Neue ME",
+        "status": "loaded"
+      }
+    ],
+    "marqueeDuration": "30s",
+    "lineTransform": "matrix(0, 0, 0, 1, 0, 0)"
+  },
+  "errors": [],
+  "failedRequests": [],
+  "assetResponses": [
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260729_022513_486985a2-ac8c-4278-91a8-071dcd9fcaff.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/c/95cecf452d3208890088a5b4c19c7ecf?family=Helvetica+Neue+ME",
+      "status": 200
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.woff",
+      "status": 200
+    },
+    {
+      "url": "https://stone-expand-60400629.figma.site/_assets/v11/8da570354e86aa0d44ac3e4aa335a72c8e750d68.png",
+      "status": 200
+    },
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260729_022513_486985a2-ac8c-4278-91a8-071dcd9fcaff.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "url": "https://stone-expand-60400629.figma.site/_assets/v11/8da570354e86aa0d44ac3e4aa335a72c8e750d68.png",
+      "status": 200
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/c/95cecf452d3208890088a5b4c19c7ecf?family=Helvetica+Neue+ME",
+      "status": 200
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.woff",
+      "status": 200
+    },
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260729_022513_486985a2-ac8c-4278-91a8-071dcd9fcaff.png&w=1280&q=85",
+      "status": 200
+    },
+    {
+      "url": "https://stone-expand-60400629.figma.site/_assets/v11/8da570354e86aa0d44ac3e4aa335a72c8e750d68.png",
+      "status": 200
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/c/95cecf452d3208890088a5b4c19c7ecf?family=Helvetica+Neue+ME",
+      "status": 200
+    },
+    {
+      "url": "https://db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.woff",
+      "status": 200
+    }
+  ]
+}

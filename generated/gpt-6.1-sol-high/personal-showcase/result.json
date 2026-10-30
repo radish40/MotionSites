@@ -1,0 +1,53 @@
+{
+  "title": "Personal Showcase",
+  "id": "personal-showcase",
+  "status": "ready",
+  "document_title": "Marcus — Bennet",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "output_directory": "dist",
+  "base_path": "/motionsites-results/personal-showcase/",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5",
+    "browser": "Chromium via playwright-core against production dist at the required base path",
+    "desktop": {
+      "viewport": "1440x1000",
+      "overflow": false,
+      "images_loaded": true,
+      "font_loaded": true,
+      "hover_opacity": "0.6",
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "overflow": false,
+      "images_loaded": true,
+      "font_loaded": true,
+      "interactions": [
+        "open",
+        "link closes",
+        "Escape closes",
+        "backdrop closes",
+        "close button",
+        "body overflow restored"
+      ],
+      "screenshot": "screenshots/mobile.png",
+      "drawer_screenshot": "screenshots/mobile-menu.png"
+    },
+    "reduced_motion": "passed: animation duration 0.01ms, zero delays",
+    "image_fallbacks": "passed: both exact original files load locally when remote requests are deliberately blocked",
+    "console_and_script_errors": [],
+    "failed_requests": [],
+    "dependency_vulnerabilities": 0,
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "All source, configuration, build, screenshots, recovery files, and documentation are inside this project.",
+    "Exact original image URLs are primary sources; unmodified downloads are bundled solely as error fallbacks. No preview-derived assets or screenshot-based page elements.",
+    "Exact OnlineWebFonts print-to-all stylesheet and Helvetica Neue ME font returned HTTP 200 in browser checks; font still depends on the external host.",
+    "Only this project prompt and its own visual reference were inspected. No agents or other sessions were created; nothing was pushed, deployed, or sent externally.",
+    "All links intentionally use href=\"#\".",
+    "Continuous marquee position varies with capture time. Browser validation covers Chromium desktop and emulated mobile only.",
+    "ready means available for management review, not deployed."
+  ]
+}

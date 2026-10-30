@@ -1,0 +1,215 @@
+[
+  {
+    "name": "desktop",
+    "title": "Sentinel AI — We implement security correctly.",
+    "heading": "SENTINEL AI",
+    "viewportWidth": 1440,
+    "documentWidth": 1440,
+    "viewportHeight": 1000,
+    "documentHeight": 1000,
+    "font": "Sora, sans-serif",
+    "soraLoaded": true,
+    "fontFaces": [
+      {
+        "weight": "300",
+        "status": "unloaded"
+      },
+      {
+        "weight": "300",
+        "status": "loaded"
+      },
+      {
+        "weight": "400",
+        "status": "unloaded"
+      },
+      {
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "weight": "500",
+        "status": "unloaded"
+      },
+      {
+        "weight": "500",
+        "status": "loaded"
+      },
+      {
+        "weight": "600",
+        "status": "unloaded"
+      },
+      {
+        "weight": "600",
+        "status": "loaded"
+      },
+      {
+        "weight": "700",
+        "status": "unloaded"
+      },
+      {
+        "weight": "700",
+        "status": "loaded"
+      },
+      {
+        "weight": "300",
+        "status": "loaded"
+      },
+      {
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "weight": "500",
+        "status": "loaded"
+      },
+      {
+        "weight": "600",
+        "status": "loaded"
+      },
+      {
+        "weight": "700",
+        "status": "loaded"
+      }
+    ],
+    "sceneLoaded": true,
+    "canvas": [
+      {
+        "width": 1440,
+        "height": 1000
+      }
+    ],
+    "navLinksVisible": true,
+    "quoteVisible": true,
+    "buttons": [
+      {
+        "text": "Get Quote",
+        "pointerEvents": "auto"
+      },
+      {
+        "text": "Book a Call",
+        "pointerEvents": "auto"
+      },
+      {
+        "text": "Our Work",
+        "pointerEvents": "auto"
+      }
+    ],
+    "ctaFocus": true,
+    "ctaHovered": true,
+    "ctaHoverFilter": "brightness(1)",
+    "servicesHash": "#services",
+    "lastClick": {
+      "text": "Get Quote",
+      "defaultPrevented": false
+    },
+    "errors": [],
+    "failedRequests": [],
+    "consoleErrors": []
+  },
+  {
+    "name": "mobile",
+    "title": "Sentinel AI — We implement security correctly.",
+    "heading": "SENTINEL AI",
+    "viewportWidth": 390,
+    "documentWidth": 390,
+    "viewportHeight": 844,
+    "documentHeight": 844,
+    "font": "Sora, sans-serif",
+    "soraLoaded": true,
+    "fontFaces": [
+      {
+        "weight": "300",
+        "status": "unloaded"
+      },
+      {
+        "weight": "300",
+        "status": "loaded"
+      },
+      {
+        "weight": "400",
+        "status": "unloaded"
+      },
+      {
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "weight": "500",
+        "status": "unloaded"
+      },
+      {
+        "weight": "500",
+        "status": "loaded"
+      },
+      {
+        "weight": "600",
+        "status": "unloaded"
+      },
+      {
+        "weight": "600",
+        "status": "loaded"
+      },
+      {
+        "weight": "700",
+        "status": "unloaded"
+      },
+      {
+        "weight": "700",
+        "status": "loaded"
+      },
+      {
+        "weight": "300",
+        "status": "loaded"
+      },
+      {
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "weight": "500",
+        "status": "loaded"
+      },
+      {
+        "weight": "600",
+        "status": "loaded"
+      },
+      {
+        "weight": "700",
+        "status": "loaded"
+      }
+    ],
+    "sceneLoaded": true,
+    "canvas": [
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "navLinksVisible": false,
+    "quoteVisible": false,
+    "buttons": [
+      {
+        "text": "Get Quote",
+        "pointerEvents": "auto"
+      },
+      {
+        "text": "Book a Call",
+        "pointerEvents": "auto"
+      },
+      {
+        "text": "Our Work",
+        "pointerEvents": "auto"
+      }
+    ],
+    "ctaFocus": true,
+    "ctaHovered": true,
+    "ctaHoverFilter": "brightness(1)",
+    "lastClick": {
+      "text": "Our Work",
+      "defaultPrevented": false
+    },
+    "errors": [],
+    "failedRequests": [],
+    "consoleErrors": []
+  }
+]

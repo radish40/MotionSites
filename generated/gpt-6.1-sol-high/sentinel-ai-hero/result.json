@@ -1,0 +1,44 @@
+{
+  "title": "Sentinel AI",
+  "id": "sentinel-ai-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite; dist/index.html exists",
+    "publish_base": "/motionsites-results/sentinel-ai-hero/",
+    "browser": "Chromium via playwright-core; actual dist served at configured subpath",
+    "desktop": "1440x1000; scene and Sora loaded; no overflow; navigation and quote visible",
+    "mobile": "390x844; scene and Sora loaded; no overflow; navigation and quote hidden",
+    "interactions": "Keyboard focus and real pointer hover/click checked on CTA controls; Services updates hash to #services",
+    "script_errors": 0,
+    "console_errors": 0,
+    "failed_requests": 0,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "details": "screenshots/browser-checks.json",
+    "build_log": "screenshots/build.log"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional reference preview",
+      "status": "unavailable",
+      "details": "The specified sentinel-ai-hero.webp reference was absent; original prompt and original Spline scene were used."
+    },
+    {
+      "asset": "Sora",
+      "status": "resolved",
+      "details": "An early mobile font readiness check was false. Added unmodified local Google-hosted TTF copies for all five weights and included OFL license; final checks confirm loaded faces on both viewports. Exact requested Google Fonts link retained."
+    }
+  ],
+  "notes": [
+    "Only Sentinel AI was implemented. No agents, other sessions, deployment, push, or outbound messages.",
+    "Original remote Spline URL is used; a byte-for-byte local copy provides fallback if remote loading fails.",
+    "CTA destinations and linked section content were not specified; controls preserve requested presentation and interactions, with no invented backend or extra sections.",
+    "Software WebGL made initial unpaused screenshot capture time out. Final checks freeze requestAnimationFrame in the validation browser after scene initialization; production remains animated.",
+    "Hover state was verified; the recorded brightness value is the transition start while animation frames are frozen.",
+    "Vite reports the expected advisory chunk-size warning for the lazy-loaded Spline runtime.",
+    "Ready means available for review, not deployed."
+  ]
+}

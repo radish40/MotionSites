@@ -1,0 +1,53 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/sentinel-ai-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T05:47:39.054Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 9352,
+      "canvasRendering": {
+        "before": 20087,
+        "after": 22955,
+        "drawCallsAdvanced": true,
+        "canvas": 1
+      },
+      "title": "Sentinel AI — We implement security correctly.",
+      "bodyChars": 387,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 2102,
+      "canvasRendering": {
+        "before": 15383,
+        "after": 19795,
+        "drawCallsAdvanced": true,
+        "canvas": 1
+      },
+      "title": "Sentinel AI — We implement security correctly.",
+      "bodyChars": 336,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

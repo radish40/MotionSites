@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Noto Color Emoji';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab507yAtZyg&skey=a373f7129eaba270&v=v50) format('truetype');
+}
+body {
+  --google-font-color-notocoloremoji:none;
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Duolingo Styleguide",
+  "id": "duolingo-styleguide-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities",
+    "browser": "Chromium via playwright-core, production build under required subpath",
+    "desktop": {
+      "viewport": "1440x1000",
+      "screenshot": "screenshots/desktop.png",
+      "horizontal_overflow": false,
+      "interactions": "passed"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "screenshot": "screenshots/mobile.png",
+      "horizontal_overflow": false,
+      "interactions": "passed"
+    },
+    "assets": "all 10 images and all local fonts loaded",
+    "controls": [
+      "navigation anchors",
+      "3D button pressed state",
+      "disabled buttons",
+      "toggle state changes",
+      "language selection",
+      "tooltip hover",
+      "email form validation and local feedback"
+    ],
+    "console_errors": [],
+    "failed_requests": [],
+    "visual_review": "desktop and mobile screenshots reviewed",
+    "report": "screenshots/browser-report.json",
+    "log": "verification.log"
+  },
+  "asset_issues": [
+    {
+      "issue": "Initial Python fetches stalled; CloudFront SVGs were gzip encoded.",
+      "status": "resolved",
+      "resolution": "Fetched exact source URLs using curl and decoded gzip. Downloader now uses --compressed."
+    },
+    {
+      "issue": "Chromium lacked a fire emoji glyph.",
+      "status": "resolved",
+      "resolution": "Bundled Noto Color Emoji from Google Fonts for the specified flame."
+    },
+    {
+      "issue": "Optional reference WebP absent.",
+      "status": "recorded",
+      "resolution": "Implemented and verified against the full written prompt; no reference extraction."
+    }
+  ],
+  "notes": [
+    "Only this project was implemented. No agents, other sessions, deployment, or push.",
+    "HTML/CSS/JavaScript with Vite 6.4.5; package-lock.json included.",
+    "Base path: /motionsites-results/duolingo-styleguide-hero/. All runtime resources are local.",
+    "Style-guide action buttons are interaction specimens. Email subscription is a local demo without a backend.",
+    "ready means prepared for management-session acceptance, not deployed."
+  ]
+}

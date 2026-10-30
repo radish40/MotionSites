@@ -1,0 +1,149 @@
+[
+  {
+    "name": "spanish-course.jpg",
+    "url": "https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop",
+    "ok": true,
+    "bytes": 16483,
+    "error": null
+  },
+  {
+    "name": "french-course.jpg",
+    "url": "https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop",
+    "ok": true,
+    "bytes": 21773,
+    "error": null
+  },
+  {
+    "name": "avatar-1.jpg",
+    "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop",
+    "ok": true,
+    "bytes": 2739,
+    "error": null
+  },
+  {
+    "name": "emoji-source.css",
+    "url": "https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&text=%F0%9F%94%A5",
+    "ok": true,
+    "bytes": 281,
+    "error": null
+  },
+  {
+    "name": "logo.svg",
+    "url": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg",
+    "ok": true,
+    "bytes": 6056,
+    "error": null
+  },
+  {
+    "name": "spanish.svg",
+    "url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/59a90a2cedd48b751a8fd22014768fd7.svg",
+    "ok": true,
+    "bytes": 1816,
+    "error": null
+  },
+  {
+    "name": "french.svg",
+    "url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/482fda142ee4abd728ebf4ccce5d3307.svg",
+    "ok": true,
+    "bytes": 1295,
+    "error": null
+  },
+  {
+    "name": "german.svg",
+    "url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/c71db846ffab7e0a74bc6971e34ad82e.svg",
+    "ok": true,
+    "bytes": 1284,
+    "error": null
+  },
+  {
+    "name": "japanese.svg",
+    "url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/edea4fa18ff3e7d8c0282de3f102aaed.svg",
+    "ok": true,
+    "bytes": 985,
+    "error": null
+  },
+  {
+    "name": "nunito-source.css",
+    "url": "https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap",
+    "ok": true,
+    "bytes": 1290,
+    "error": null
+  },
+  {
+    "name": "feather-source.css",
+    "url": "https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold",
+    "ok": true,
+    "bytes": 1128,
+    "error": null
+  },
+  {
+    "name": "avatar-2.jpg",
+    "url": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop",
+    "ok": true,
+    "bytes": 2385,
+    "error": null
+  },
+  {
+    "name": "avatar-3.jpg",
+    "url": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop",
+    "ok": true,
+    "bytes": 2591,
+    "error": null
+  },
+  {
+    "name": "nunito-400.ttf",
+    "url": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshRTM.ttf",
+    "ok": true,
+    "bytes": 125528,
+    "error": null
+  },
+  {
+    "name": "nunito-500.ttf",
+    "url": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhRTM.ttf",
+    "ok": true,
+    "bytes": 125652,
+    "error": null
+  },
+  {
+    "name": "nunito-600.ttf",
+    "url": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmRTM.ttf",
+    "ok": true,
+    "bytes": 125536,
+    "error": null
+  },
+  {
+    "name": "nunito-700.ttf",
+    "url": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmRTM.ttf",
+    "ok": true,
+    "bytes": 125464,
+    "error": null
+  },
+  {
+    "name": "nunito-800.ttf",
+    "url": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmRTM.ttf",
+    "ok": true,
+    "bytes": 125416,
+    "error": null
+  },
+  {
+    "name": "nunito-900.ttf",
+    "url": "https://fonts.gstatic.com/s/nunito/v32/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImRTM.ttf",
+    "ok": true,
+    "bytes": 125376,
+    "error": null
+  },
+  {
+    "name": "feather.woff2",
+    "url": "https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.woff2",
+    "ok": true,
+    "bytes": 25440,
+    "error": null
+  },
+  {
+    "name": "fire-emoji.ttf",
+    "url": "https://fonts.gstatic.com/l/font?kit=Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab507yAtZyg&skey=a373f7129eaba270&v=v50",
+    "ok": true,
+    "bytes": 20424600,
+    "error": null
+  }
+]

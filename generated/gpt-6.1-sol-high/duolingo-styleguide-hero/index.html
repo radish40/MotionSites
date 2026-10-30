@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/assets/spanish.svg" />
+  <meta name="theme-color" content="#58cc02" />
+  <meta name="description" content="A comprehensive visual reference for the Duolingo design system: colors, typography, buttons, cards, and UI components." />
+  <title>Duolingo Styleguide</title>
+  <!-- Feather Bold supplied by OnlineWebFonts: https://www.onlinewebfonts.com/fonts -->
+</head>
+<body>
+  <header class="navbar"><div class="nav-inner">
+    <a class="brand" href="#top" aria-label="Duolingo Styleguide home"><img src="/assets/logo.svg" width="140" height="33" alt="duolingo"/><span class="divider"></span><span class="brand-label">STYLE GUIDE</span></a>
+    <nav aria-label="Style guide sections"><a href="#colors">Colors</a><a href="#type">Type</a><a href="#buttons">Buttons</a><a href="#cards">Cards</a><a href="#components">Components</a></nav>
+  </div></header>
+  <main id="top">
+    <section class="hero">
+      <h1>duolingo design</h1>
+      <p>A comprehensive visual reference for the Duolingo design system covering colors, typography, button variants, cards, and UI components.</p>
+      <div class="hero-actions"><button class="button primary">Get started</button><button class="button secondary">I already have an account</button></div>
+    </section>
+    <div class="main-grid">
+      <section class="panel" id="colors"><h2 class="section-label">Color palette</h2><div class="color-grid" id="color-grid"></div></section>
+      <section class="panel" id="type"><h2 class="section-label">Typography</h2>
+        <div class="type-stack">
+          <div class="type-row"><div class="type-meta"><strong>48px</strong><span>Feather Bold</span></div><div class="display">Display</div></div>
+          <div class="type-row"><div class="type-meta"><strong>32px</strong><span>Bold 700</span></div><div class="heading-one">Heading One</div></div>
+          <div class="type-row"><div class="type-meta"><strong>28px</strong><span>Feather Bold</span></div><div class="heading-two">heading two</div></div>
+          <div class="type-row"><div class="type-meta"><strong>18px</strong><span>Medium 500</span></div><div class="body-sample">Body text for paragraphs and descriptions with comfortable reading line-height.</div></div>
+          <div class="type-row"><div class="type-meta"><strong>14px</strong><span>Bold 700</span></div><div class="caption-sample">Caption label</div></div>
+          <div class="type-row"><div class="type-meta"><strong>12px</strong><span>Semi 600</span></div><div class="utility-sample">Small utility text for metadata and hints</div></div>
+        </div>
+      </section>
+      <section class="panel" id="buttons"><h2 class="section-label">Button variants</h2>
+        <div class="button-stack">
+          <div class="button-row"><span class="row-label">Primary</span><div class="button-set"><button class="button primary">Get started</button><button class="button primary small">Small</button><button class="button primary" disabled>Disabled</button></div></div>
+          <div class="button-row"><span class="row-label">Secondary</span><div class="button-set"><button class="button secondary">Learn more</button><button class="button secondary small">Small</button><button class="button secondary" disabled>Disabled</button></div></div>
+          <div class="button-row"><span class="row-label">Danger</span><div class="button-set"><button class="button danger">Delete</button><button class="button danger small">Remove</button></div></div>
+          <div class="button-row"><span class="row-label">Ghost</span><div class="button-set"><button class="button ghost">View all</button></div></div>
+        </div>
+      </section>
+      <section class="panel dark"><h2 class="section-label">Dark theme buttons</h2><div class="button-stack"><div class="button-set"><button class="button primary">Get started</button><button class="button white">Try 1 week free</button></div><div class="button-set"><button class="button primary small">Get started</button><button class="button white small">Try 1 week free</button></div></div></section>
+      <section class="panel" id="cards"><h2 class="section-label">Cards</h2><div class="cards-grid">
+        <article class="card"><img class="course-image" src="/assets/spanish-course.jpg" alt="Student taking an online lesson at home"/><div class="card-body"><span class="tag tag-green">New</span><h3>Spanish for Beginners</h3><p>Start your language journey with interactive lessons designed to build fluency.</p></div><div class="card-footer"><span>12 units</span><button>Start</button></div></article>
+        <article class="card"><img class="course-image" src="/assets/french-course.jpg" alt="Open book with printed text"/><div class="card-body"><span class="tag tag-blue">Popular</span><h3>French Conversations</h3><p>Practice real-world dialogue and improve pronunciation with native speakers.</p></div><div class="card-footer"><span>8 units</span><button>Continue</button></div></article>
+      </div></section>
+      <section class="panel dark"><h2 class="section-label">Dark theme cards</h2><div class="cards-grid">
+        <article class="card"><div class="card-body"><span class="tag tag-golden">Super</span><h3>Unlimited Hearts</h3><p>Keep learning without interruption with Super Duolingo benefits.</p></div><div class="card-footer"><span>Premium</span><button>Upgrade</button></div></article>
+        <article class="card"><div class="card-body"><span class="tag tag-orange">Pro</span><h3>Mastery Quizzes</h3><p>Challenge yourself with advanced assessments to test your skill level.</p></div><div class="card-footer"><span>Advanced</span><button>Try now</button></div></article>
+      </div></section>
+      <section class="panel" id="components"><h2 class="section-label">Components</h2><div class="component-stack">
+        <div><h3 class="group-label">Badges</h3><div class="badge-row"><span class="badge tag-green">Completed</span><span class="badge tag-blue">In progress</span><span class="badge tag-red">Failed</span><span class="badge tag-orange">Streak</span><span class="badge tag-premium">Premium</span></div></div>
+        <div><h3 class="group-label">Input + button</h3><form class="input-row"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Enter your email" required autocomplete="email"/><button class="button primary" type="submit">Subscribe</button></form><p class="form-message" role="status"></p></div>
+        <div><h3 class="group-label">Toggle</h3><div class="toggle-row"><label class="toggle-label"><input type="checkbox" role="switch" checked/><span class="toggle-track"></span>Sound effects</label><label class="toggle-label"><input type="checkbox" role="switch"/><span class="toggle-track"></span>Animations</label></div></div>
+        <div><h3 class="group-label">Progress</h3><div class="progress-stack"><div class="progress-row"><div class="progress-track" role="progressbar" aria-label="Green progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span style="width:85%;background:var(--green)"></span></div><span>85%</span></div><div class="progress-row"><div class="progress-track" role="progressbar" aria-label="Blue progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60"><span style="width:60%;background:var(--blue)"></span></div><span>60%</span></div><div class="progress-row"><div class="progress-track" role="progressbar" aria-label="Orange progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="35"><span style="width:35%;background:var(--orange)"></span></div><span>35%</span></div></div></div>
+        <div><h3 class="group-label">Tooltips &amp; streak</h3><div class="tooltip-row"><button class="tooltip-trigger" aria-describedby="tooltip">Hover me<span id="tooltip" role="tooltip">Keep up the great work!</span></button><span class="streak"><span aria-hidden="true">🔥</span>42</span></div></div>
+      </div></section>
+      <section class="panel dark"><h2 class="section-label">Dark theme components</h2><div class="component-stack">
+        <div><h3 class="group-label">Language pills</h3><div class="language-row" role="group" aria-label="Select a language"><button class="language active" aria-pressed="true"><img src="/assets/spanish.svg" alt=""/>Spanish</button><button class="language" aria-pressed="false"><img src="/assets/french.svg" alt=""/>French</button><button class="language" aria-pressed="false"><img src="/assets/german.svg" alt=""/>German</button><button class="language" aria-pressed="false"><img src="/assets/japanese.svg" alt=""/>Japanese</button></div></div>
+        <div><h3 class="group-label">Avatar group</h3><div class="avatar-row"><div class="avatars"><img src="/assets/avatar-1.jpg" alt="Learner one"/><img src="/assets/avatar-2.jpg" alt="Learner two"/><img src="/assets/avatar-3.jpg" alt="Learner three"/><span>+5</span></div><span>8 learners active</span></div></div>
+        <div><h3 class="group-label">Progress (dark)</h3><div class="progress-stack"><div class="progress-row"><div class="progress-track" role="progressbar" aria-label="Golden progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="72"><span style="width:72%;background:var(--golden)"></span></div><span>72%</span></div><div class="progress-row"><div class="progress-track" role="progressbar" aria-label="Green progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45"><span style="width:45%;background:var(--green)"></span></div><span>45%</span></div></div></div>
+        <div><h3 class="group-label">Badges (dark)</h3><div class="badge-row"><span class="badge mastered">Mastered</span><span class="badge review">Review</span><span class="badge crown">Crown</span></div></div>
+      </div></section>
+    </div>
+  </main>
+  <script type="module" src="/src.js"></script>
+</body>
+</html>

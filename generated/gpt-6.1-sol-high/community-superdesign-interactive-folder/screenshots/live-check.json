@@ -1,0 +1,38 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-interactive-folder/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:25:01.413Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Interactive Folder",
+      "bodyChars": 84,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Interactive Folder",
+      "bodyChars": 84,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

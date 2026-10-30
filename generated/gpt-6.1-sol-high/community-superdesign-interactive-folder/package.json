@@ -1,0 +1,29 @@
+{
+  "name": "interactive-folder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A playful interactive folder component with drift animation",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.8",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.6.3",
+    "vite": "^8.3.5"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T06:06:18.523699+00:00",
+  "updated_utc": "2026-10-30T06:07:36.275580+00:00",
   "total": 380,
   "counts": {
-    "complete": 358,
+    "complete": 359,
+    "ready": 1,
     "running": 5,
-    "not_started": 17
+    "not_started": 15
   },
   "current_batch": {
     "from_number": 201,
@@ -3570,7 +3571,7 @@
       "id": "yacht-club-hero",
       "title": "Yacht Club",
       "category": "Landing Page",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
       "source_commit": null,
       "group_message_id": null,
@@ -3590,11 +3591,11 @@
       "id": "ecommerce-website-landing",
       "title": "E-commerce Website",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b60-2153-7ce0-9de8-21d6effdce4e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b00b01be7396ed321e7a867851c797c2e464458d",
+      "group_message_id": 428,
+      "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/"
     },
     {
       "id": "digital-epoch-hero",
@@ -3621,7 +3622,7 @@
       "title": "Kresna Footer",
       "category": "Footer Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b68-7ece-7062-8da0-6ec0353a78de",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3631,7 +3632,7 @@
       "title": "Vize Footer",
       "category": "Footer Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b68-7f81-73a2-a7b0-fb50d8b9fa45",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3641,7 +3642,7 @@
       "title": "Pro AI Deck",
       "category": "Presentation",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b68-80cb-7690-9fdc-14df1126c5a8",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3650,7 +3651,7 @@
       "id": "haul-footer",
       "title": "HAUL!",
       "category": "Footer Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3660,7 +3661,7 @@
       "id": "veloce-finance-landing",
       "title": "Veloce Finance",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

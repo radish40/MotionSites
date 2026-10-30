@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 258/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 259/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -343,12 +343,12 @@
 | 256 | `transform-data` | Transform Data | Hero Section | 1 | 视频 | 已完成 |
 | 257 | `velorah` | Velorah | Agency | 2 | 视频 | 已完成 |
 | 258 | `x-portfolio-hero` | xPortfolio Hero | Hero Section | 1 | 视频 | 已完成 |
-| 259 | `aethera-studio` | Aethera Studio | Hero Section | 1 | 图片 | 生成中 |
+| 259 | `aethera-studio` | Aethera Studio | Hero Section | 1 | 图片 | 已完成 |
 | 260 | `buzzentic-agency` | Buzzentic Agency | Agency | 1 | 图片 | 生成中 |
 | 261 | `datacore-booking` | Datacore Booking | SaaS | 1 | 图片 | 生成中 |
 | 262 | `framelix-3d-studios` | Framelix 3D Studios | Agency | 1 | 图片 | 生成中 |
 | 263 | `logoisum-video-agency` | Logoisum Video Agency | Agency | 1 | 图片 | 生成中 |
-| 264 | `new-era-automotive-hero` | New Era Automotive Hero | Automotive | 1 | 图片 | 未开始 |
+| 264 | `new-era-automotive-hero` | New Era Automotive Hero | Automotive | 1 | 图片 | 生成中 |
 | 265 | `new-era-bold-hero` | New Era Bold Hero | Agency | 1 | 图片 | 未开始 |
 | 266 | `space-voyage` | Space Voyage | Landing Page | 2 | 图片 | 未开始 |
 | 267 | `sync-ai` | Sync AI | Hero Section | 2 | 图片 | 未开始 |

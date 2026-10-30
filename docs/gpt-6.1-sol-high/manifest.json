@@ -8872,19 +8872,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aef-804f-7133-8c93-82169a25c540",
       "output_path": "generated/gpt-6.1-sol-high/aethera-studio",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 647120,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:51:54.104611+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "73be4de949b58747f4b7f3d53e0adf62933735d8",
+      "url": "https://tool.luo-xd.com/motionsites-results/aethera-studio/",
+      "completed_utc": "2026-10-30T03:57:56.511356+00:00",
+      "group_message_id": 324
     },
     {
       "number": 260,
@@ -8993,14 +8997,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af3-503d-7623-bcbe-d82becf24697",
       "output_path": "generated/gpt-6.1-sol-high/logoisum-video-agency",
       "validation": "",
       "notes": "",
       "process_id": 663551,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:56:03.931764+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 264,
@@ -9018,11 +9026,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/new-era-automotive-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 668318,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:57:22.442644+00:00",
+      "worker_state": "running"
     },
     {
       "number": 265,
@@ -11578,7 +11590,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:56:29.221182+00:00",
+  "updated_utc": "2026-10-30T03:57:56.678837+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

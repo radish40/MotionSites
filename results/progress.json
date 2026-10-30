@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:56:29.221182+00:00",
+  "updated_utc": "2026-10-30T03:57:56.678837+00:00",
   "total": 380,
   "counts": {
-    "complete": 258,
+    "complete": 259,
     "running": 5,
-    "not_started": 117
+    "not_started": 116
   },
   "current_batch": {
     "from_number": 201,
@@ -2600,11 +2600,11 @@
       "id": "aethera-studio",
       "title": "Aethera Studio",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aef-804f-7133-8c93-82169a25c540",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "73be4de949b58747f4b7f3d53e0adf62933735d8",
+      "group_message_id": 324,
+      "url": "https://tool.luo-xd.com/motionsites-results/aethera-studio/"
     },
     {
       "id": "buzzentic-agency",
@@ -2641,7 +2641,7 @@
       "title": "Logoisum Video Agency",
       "category": "Agency",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af3-503d-7623-bcbe-d82becf24697",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2650,7 +2650,7 @@
       "id": "new-era-automotive-hero",
       "title": "New Era Automotive Hero",
       "category": "Automotive",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

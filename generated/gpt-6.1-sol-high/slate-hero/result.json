@@ -1,0 +1,100 @@
+{
+  "title": "Slate",
+  "id": "slate-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/slate-hero:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "desktop",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "video": {
+            "width": 3828,
+            "height": 2164,
+            "duration": 12.041667,
+            "time": 2.713162,
+            "muted": true,
+            "loop": true,
+            "playsInline": true
+          },
+          "horizontalOverflow": false,
+          "interactions": "passed"
+        },
+        {
+          "name": "mobile",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "video": {
+            "width": 3828,
+            "height": 2164,
+            "duration": 12.041667,
+            "time": 2.747382,
+            "muted": true,
+            "loop": true,
+            "playsInline": true
+          },
+          "horizontalOverflow": false,
+          "interactions": "passed"
+        },
+        {
+          "name": "tablet",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "video": {
+            "width": 3828,
+            "height": 2164,
+            "duration": 12.041667,
+            "time": 2.279014,
+            "muted": true,
+            "loop": true,
+            "playsInline": true
+          },
+          "horizontalOverflow": false,
+          "interactions": "passed"
+        }
+      ],
+      "reducedMotion": "passed",
+      "scriptErrors": [],
+      "failedRequests": []
+    },
+    "screenshots": {
+      "desktop": "screenshots/desktop.png",
+      "mobile": "screenshots/mobile.png",
+      "visually_reviewed": true
+    },
+    "asset_integrity": "Original video and built copy SHA-256 match",
+    "subpath": "Production output tested at /motionsites-results/slate-hero/",
+    "dependency_install": "0 reported vulnerabilities; package-lock.json saved"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional reference preview",
+      "issue": "The specified slate-hero.webp reference file was absent. Implementation follows PROMPT.md directly."
+    },
+    {
+      "asset": "specified background video",
+      "issue": "Original video has violet landscape/cloud tones despite the no-purple constraint. Exact video retained unchanged; UI has no purple/indigo colors."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Only this project was read and written; no agents, additional sessions, or external messages were created.",
+    "Original video downloaded successfully and is served locally; no recovery or approximated asset was needed.",
+    "Video SHA-256: 4b3d3b5dd2f5d56e2d8c7f99119dde4fb5c4c6ed8f610e9d88eb212561581c79.",
+    "Signup and navigation are local preview dialogs. No backend or separate product demo was provided; demo reuses the supplied scenic video.",
+    "Screenshots pause the video at 3 seconds for reproducibility; normal page uses autoplay, muted, loop, playsInline.",
+    "Chromium desktop/mobile/tablet checked. Physical mobile devices and Safari were not available.",
+    "Global system font stack follows prompt; face and weight depend on platform fonts.",
+    "node_modules is excluded by .gitignore; package-lock.json is included."
+  ]
+}

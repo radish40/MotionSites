@@ -1,0 +1,65 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/slate-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T06:16:57.770Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 6,
+      "canvasRendering": null,
+      "title": "Slate — Grow Your Team Thriving",
+      "bodyChars": 250,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/slate-hero/assets/slate-landscape.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.679234,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 4,
+      "canvasRendering": null,
+      "title": "Slate — Grow Your Team Thriving",
+      "bodyChars": 204,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/slate-hero/assets/slate-landscape.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.157758,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

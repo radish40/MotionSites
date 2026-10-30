@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "video": {
+        "width": 3828,
+        "height": 2164,
+        "duration": 12.041667,
+        "time": 2.713162,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      "horizontalOverflow": false,
+      "interactions": "passed"
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "video": {
+        "width": 3828,
+        "height": 2164,
+        "duration": 12.041667,
+        "time": 2.747382,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      "horizontalOverflow": false,
+      "interactions": "passed"
+    },
+    {
+      "name": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "video": {
+        "width": 3828,
+        "height": 2164,
+        "duration": 12.041667,
+        "time": 2.279014,
+        "muted": true,
+        "loop": true,
+        "playsInline": true
+      },
+      "horizontalOverflow": false,
+      "interactions": "passed"
+    }
+  ],
+  "reducedMotion": "passed",
+  "scriptErrors": [],
+  "failedRequests": []
+}

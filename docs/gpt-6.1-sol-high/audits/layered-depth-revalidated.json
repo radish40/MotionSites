@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-10-30T04:17:55.772707+00:00",
+  "total_designs": 380,
+  "completed_at_snapshot": 275,
+  "audited_designs": 1,
+  "remote_main": "4ccb4560d94c8ef78264e0b711f22d2c52e62cb6",
+  "unique_design_sessions": true,
+  "selected_deliveries_pass": true,
+  "public_index_matches_names_links_and_previews": true,
+  "public_index_cards": 275,
+  "full_scope_achieved": false,
+  "requested_batch_limit": null,
+  "requested_batch_scope_achieved": null,
+  "deliveries": [
+    {
+      "id": "layered-depth",
+      "title": "Layered Depth",
+      "source_commit": "6cae6067a32771e243efc06e6ae29cf5a18b847e",
+      "thread_id": "01a18679-ad43-70a1-b60d-c15d50c66090",
+      "group_message_id": 209,
+      "checks": {
+        "exact_title": true,
+        "prompt_snapshot": true,
+        "source_is_on_remote_main": true,
+        "actual_model_settings": true,
+        "no_delegated_contexts": true,
+        "actual_group_message": true,
+        "desktop_mobile_browser_report": true,
+        "source_files_committed": true,
+        "committed_source_bytes": true,
+        "remote_index.html": true,
+        "committed_dist_html": true,
+        "remote_preview/desktop.png": true,
+        "committed_preview/desktop.png": true,
+        "remote_preview/mobile.png": true,
+        "committed_preview/mobile.png": true
+      },
+      "passed": true
+    }
+  ],
+  "scope_note": "Revalidation of the current Layered Depth source after source-aware monitoring found its source commit differed from the historical 200-design baseline. This selected audit passed; the final full 380 audit remains pending."
+}

@@ -1,0 +1,178 @@
+{
+  "base": "/motionsites-results/synthesis/",
+  "cases": [
+    {
+      "viewport": "desktop",
+      "title": "Elias Norden — Health Capital",
+      "overflow": false,
+      "frameCount": 110,
+      "firstFrame": 0,
+      "font": true,
+      "serif": true,
+      "nav": [
+        {
+          "text": "Elias Norden",
+          "bounds": {
+            "x": 48,
+            "y": 28,
+            "width": 111.125,
+            "height": 33,
+            "top": 28,
+            "right": 159.125,
+            "bottom": 61,
+            "left": 48
+          }
+        },
+        {
+          "text": "Articles",
+          "bounds": {
+            "x": 1075.34375,
+            "y": 36.5,
+            "width": 71.453125,
+            "height": 16,
+            "top": 36.5,
+            "right": 1146.796875,
+            "bottom": 52.5,
+            "left": 1075.34375
+          }
+        },
+        {
+          "text": "Allocations",
+          "bounds": {
+            "x": 1186.796875,
+            "y": 36.5,
+            "width": 103.359375,
+            "height": 16,
+            "top": 36.5,
+            "right": 1290.15625,
+            "bottom": 52.5,
+            "left": 1186.796875
+          }
+        },
+        {
+          "text": "Inquire",
+          "bounds": {
+            "x": 1330.15625,
+            "y": 36.5,
+            "width": 61.84375,
+            "height": 16,
+            "top": 36.5,
+            "right": 1392,
+            "bottom": 52.5,
+            "left": 1330.15625
+          }
+        }
+      ],
+      "middleFrame": 59,
+      "midpointHeroOpacity": 0.502865,
+      "paragraphCounts": [
+        1,
+        2,
+        3
+      ],
+      "navigation": "passed",
+      "revealFits": true
+    },
+    {
+      "viewport": "mobile",
+      "title": "Elias Norden — Health Capital",
+      "overflow": false,
+      "frameCount": 110,
+      "firstFrame": 0,
+      "font": true,
+      "serif": true,
+      "nav": [
+        {
+          "text": "Elias Norden",
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 83.34375,
+            "height": 29,
+            "top": 16,
+            "right": 99.34375,
+            "bottom": 45,
+            "left": 16
+          }
+        },
+        {
+          "text": "Articles",
+          "bounds": {
+            "x": 155.1875,
+            "y": 23,
+            "width": 56.34375,
+            "height": 15,
+            "top": 23,
+            "right": 211.53125,
+            "bottom": 38,
+            "left": 155.1875
+          }
+        },
+        {
+          "text": "Allocations",
+          "bounds": {
+            "x": 227.53125,
+            "y": 23,
+            "width": 81.734375,
+            "height": 15,
+            "top": 23,
+            "right": 309.265625,
+            "bottom": 38,
+            "left": 227.53125
+          }
+        },
+        {
+          "text": "Inquire",
+          "bounds": {
+            "x": 325.265625,
+            "y": 23,
+            "width": 48.734375,
+            "height": 15,
+            "top": 23,
+            "right": 374,
+            "bottom": 38,
+            "left": 325.265625
+          }
+        }
+      ],
+      "middleFrame": 59,
+      "midpointHeroOpacity": 0.503656,
+      "paragraphCounts": [
+        1,
+        2,
+        3
+      ],
+      "navigation": "passed",
+      "revealFits": true
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/synthesis/assets/health-capital.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "blob:http://127.0.0.1:4173/86a122cc-2bc1-4354-91fc-e31f1e470b91",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/synthesis/assets/health-capital.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "blob:http://127.0.0.1:4173/8e41208f-4f4e-471b-825c-6090095605d2",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "warnings": [],
+  "videoFallback": {
+    "time": 3.616293,
+    "duration": 8.041667,
+    "ready": 4
+  }
+}

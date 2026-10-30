@@ -1,0 +1,80 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/synthesis/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T02:59:21.138Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Elias Norden — Health Capital",
+      "bodyChars": 606,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/synthesis/assets/health-capital.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/synthesis/assets/health-capital.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/3f67fadb-f67a-4fe9-b699-8b43b15e0941",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Elias Norden — Health Capital",
+      "bodyChars": 606,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/synthesis/assets/health-capital.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/synthesis/assets/health-capital.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "blob:https://tool.luo-xd.com/02b85980-12d2-4e42-bad9-d3b849c68469",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

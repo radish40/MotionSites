@@ -1,0 +1,40 @@
+{
+  "title": "Synthesis",
+  "id": "synthesis",
+  "status": "ready",
+  "page_title": "Elias Norden \u2014 Health Capital",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite, dist/index.html exists",
+    "publish_base": "/motionsites-results/synthesis/",
+    "desktop": "passed: 1440x1000",
+    "mobile": "passed: 390x844",
+    "frame_extraction": "passed: 110 original-video ImageBitmaps per viewport",
+    "scroll_scrub": "passed: frame 0 to frame 59 at 30% page progress",
+    "fade": "passed: hero opacity approximately 0.5 at 60% progress",
+    "paragraph_reveal": "passed: sequential counts 1, 2, 3; text fits both viewports",
+    "navigation": "passed: logo, Articles, Allocations; Inquire mailto href verified without opening external email app",
+    "video_fallback": "passed: deliberately rejected createImageBitmap; original video scrubbed to 3.616 seconds",
+    "fonts": "passed: bundled Roobert TRIAL and Instrument Serif loaded",
+    "horizontal_overflow": "none in either viewport",
+    "page_errors": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-scrub.png",
+      "screenshots/mobile-scrub.png",
+      "screenshots/desktop-reveal.png",
+      "screenshots/mobile-reveal.png"
+    ],
+    "browser_report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Exact original video and font files recovered successfully and bundled locally. Required external font stylesheet links remain in index.html. Sources documented in public/assets/SOURCES.md.",
+    "Chromium recorded ERR_ABORTED media requests when video loads were superseded or detached decoder sources were cleared after extraction; video rendering, blob decoding, and fallback were verified successful. No missing asset or script errors occurred.",
+    "Frame extraction can take roughly a minute on shared CPU; original seeked video remains visible during preparation.",
+    "The prompt provides no external article destinations or inquiry recipient. Articles and Allocations navigate within the supplied design; Inquire opens a blank-recipient email composer with a subject.",
+    "No other designs read; no agents, sessions, deployment, push, or messages used.",
+    "Browser validation used Chromium, not physical Safari/iOS devices. Ready means available for acceptance, not deployed."
+  ]
+}

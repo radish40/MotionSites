@@ -1,0 +1,10 @@
+@font-face { font-family: 'Roobert TRIAL'; src: url('../public/assets/roobert-trial.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Instrument Serif'; src: url('../public/assets/instrument-serif.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Instrument Serif'; src: url('../public/assets/instrument-serif-italic.ttf') format('truetype'); font-weight: 400; font-style: italic; font-display: swap; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: 'Roobert TRIAL', system-ui, sans-serif; background: #020b1f; color: white; -webkit-font-smoothing: antialiased; }
+::selection { background: rgba(255,255,255,0.2); }
+a:focus-visible { outline: 1px solid white; outline-offset: 7px; border-radius: 1px; }

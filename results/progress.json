@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:30:37.568268+00:00",
+  "updated_utc": "2026-10-30T03:32:52.635304+00:00",
   "total": 380,
   "counts": {
-    "complete": 236,
+    "complete": 238,
     "running": 5,
-    "not_started": 139
+    "not_started": 137
   },
   "current_batch": {
     "from_number": 201,
@@ -2380,21 +2380,21 @@
       "id": "finlytic-ai-agent",
       "title": "Finlytic AI Agent",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad5-bf19-71e2-b3b0-a8870f2e9616",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "38c4729bbca9dfd4948a17508c14e3038318454e",
+      "group_message_id": 301,
+      "url": "https://tool.luo-xd.com/motionsites-results/finlytic-ai-agent/"
     },
     {
       "id": "grow-ai-talent-platform",
       "title": "Grow AI Talent Platform",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad7-7240-7e33-9537-b908eb63feeb",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "90f78c1a8c99d2521a8d747b9de6959dddbd236a",
+      "group_message_id": 302,
+      "url": "https://tool.luo-xd.com/motionsites-results/grow-ai-talent-platform/"
     },
     {
       "id": "hr-saa-s-hero",
@@ -2411,7 +2411,7 @@
       "title": "Mindloop",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18adb-2fe1-71a2-8c9a-073d341ad086",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2421,7 +2421,7 @@
       "title": "NeoVision",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18adb-3092-76f0-b3c2-2261b453b97f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2430,7 +2430,7 @@
       "id": "neuralyn",
       "title": "Neuralyn",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2440,7 +2440,7 @@
       "id": "nexora-automation",
       "title": "Nexora Automation",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

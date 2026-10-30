@@ -8115,19 +8115,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad5-bf19-71e2-b3b0-a8870f2e9616",
       "output_path": "generated/gpt-6.1-sol-high/finlytic-ai-agent",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 540441,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:23:46.219824+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "38c4729bbca9dfd4948a17508c14e3038318454e",
+      "url": "https://tool.luo-xd.com/motionsites-results/finlytic-ai-agent/",
+      "completed_utc": "2026-10-30T03:32:00.460547+00:00",
+      "group_message_id": 301
     },
     {
       "number": 238,
@@ -8145,19 +8149,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad7-7240-7e33-9537-b908eb63feeb",
       "output_path": "generated/gpt-6.1-sol-high/grow-ai-talent-platform",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 547899,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:25:37.603481+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "90f78c1a8c99d2521a8d747b9de6959dddbd236a",
+      "url": "https://tool.luo-xd.com/motionsites-results/grow-ai-talent-platform/",
+      "completed_utc": "2026-10-30T03:32:52.459009+00:00",
+      "group_message_id": 302
     },
     {
       "number": 239,
@@ -8206,14 +8214,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18adb-2fe1-71a2-8c9a-073d341ad086",
       "output_path": "generated/gpt-6.1-sol-high/mindloop",
       "validation": "",
       "notes": "",
       "process_id": 561928,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:29:42.791130+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 241,
@@ -8232,14 +8244,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18adb-3092-76f0-b3c2-2261b453b97f",
       "output_path": "generated/gpt-6.1-sol-high/neo-vision",
       "validation": "",
       "notes": "",
       "process_id": 561979,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:29:42.914630+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 242,
@@ -8257,11 +8273,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/neuralyn",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 568505,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:31:30.992627+00:00",
+      "worker_state": "running"
     },
     {
       "number": 243,
@@ -8279,11 +8299,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nexora-automation",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 568536,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:31:31.132769+00:00",
+      "worker_state": "running"
     },
     {
       "number": 244,
@@ -11301,7 +11325,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:30:37.568268+00:00",
+  "updated_utc": "2026-10-30T03:32:52.635304+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

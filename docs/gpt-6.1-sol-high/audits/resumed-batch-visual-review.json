@@ -411,7 +411,43 @@
         "generated/gpt-6.1-sol-high/club-x-investors/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/club-x-investors/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "design-pro-academy",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Supplied blue video, large animated heading and responsive course navigation render at both sizes. Original session verified 0.85 line height, three-second shine, enrollment dialogs and the local video fallback.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/design-pro-academy/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/design-pro-academy/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "evr-ventures",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original prism video, progress ring and partner marquee render at both sizes. Heading letters visibly overlap because the prompt explicitly requires -0.2em tracking; exact spacing is preserved and documented, with no claim that the overlapping title is normally legible.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/evr-ventures/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/evr-ventures/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "finlytic-ai-agent",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Supplied purple globe video, mixed-font headline and dashboard illustration render at both sizes. The dashboard and logo are newly created approximations because original files were not supplied; preview-only demo and account behavior are documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/finlytic-ai-agent/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/finlytic-ai-agent/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:28:47.563538+00:00"
+  "updated_utc": "2026-10-30T03:32:39.879447+00:00"
 }

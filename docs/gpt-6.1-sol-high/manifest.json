@@ -11638,20 +11638,24 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b46-0a87-7553-b4b4-81fa909d2609",
       "output_path": "generated/gpt-6.1-sol-high/nike-premium-landing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Management acceptance requested a correction in this same original design session; private repair prompt records details.",
       "process_id": 1056706,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:26:25.523270+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "2d300cbeefc26b96ddcf7bc2925cfb300e1bdf6f",
+      "url": "https://tool.luo-xd.com/motionsites-results/nike-premium-landing/",
+      "completed_utc": "2026-10-30T05:39:34.270285+00:00",
+      "group_message_id": 410
     },
     {
       "number": 341,
@@ -11824,11 +11828,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/lumina-footer",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1070315,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:39:05.781576+00:00",
+      "worker_state": "running"
     },
     {
       "number": 347,
@@ -12580,7 +12588,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:38:03.545414+00:00",
+  "updated_utc": "2026-10-30T05:39:34.458787+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

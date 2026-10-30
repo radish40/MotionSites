@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:38:03.545414+00:00",
+  "updated_utc": "2026-10-30T05:39:34.458787+00:00",
   "total": 380,
   "counts": {
-    "complete": 340,
+    "complete": 341,
     "running": 5,
-    "not_started": 35
+    "not_started": 34
   },
   "current_batch": {
     "from_number": 201,
@@ -3410,11 +3410,11 @@
       "id": "nike-premium-landing",
       "title": "Nike Premium Landing",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b46-0a87-7553-b4b4-81fa909d2609",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "2d300cbeefc26b96ddcf7bc2925cfb300e1bdf6f",
+      "group_message_id": 410,
+      "url": "https://tool.luo-xd.com/motionsites-results/nike-premium-landing/"
     },
     {
       "id": "sentinel-ai-hero",
@@ -3470,7 +3470,7 @@
       "id": "lumina-footer",
       "title": "Lumina",
       "category": "Footer Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

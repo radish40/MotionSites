@@ -1,0 +1,32 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "portraitLoaded": true,
+    "mask": "url(\"http://127.0.0.1:4173/motionsites-results/6/assets/brush-mask.svg\")",
+    "anton": true,
+    "inter": true,
+    "headline": "NEW DESIGN ERA",
+    "errors": [],
+    "failed": [],
+    "contact": "mailto:hello@viktoroddy.design",
+    "escapeClosesDialog": true,
+    "navigation": true
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "portraitLoaded": true,
+    "mask": "url(\"http://127.0.0.1:4173/motionsites-results/6/assets/brush-mask.svg\")",
+    "anton": true,
+    "inter": true,
+    "headline": "NEW\nDESIGN\nERA",
+    "errors": [],
+    "failed": [],
+    "contact": "mailto:hello@viktoroddy.design",
+    "escapeClosesDialog": true,
+    "navigation": true
+  }
+}

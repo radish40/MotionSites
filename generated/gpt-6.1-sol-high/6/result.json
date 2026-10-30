@@ -1,0 +1,59 @@
+{
+  "title": "Bold Portfolio Hero",
+  "id": 6,
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index": "dist/index.html",
+    "browser": "Chromium via playwright-core",
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": false,
+        "portraitLoaded": true,
+        "mask": "url(\"http://127.0.0.1:4173/motionsites-results/6/assets/brush-mask.svg\")",
+        "anton": true,
+        "inter": true,
+        "headline": "NEW DESIGN ERA",
+        "errors": [],
+        "failed": [],
+        "contact": "mailto:hello@viktoroddy.design",
+        "escapeClosesDialog": true,
+        "navigation": true
+      },
+      "mobile": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": false,
+        "portraitLoaded": true,
+        "mask": "url(\"http://127.0.0.1:4173/motionsites-results/6/assets/brush-mask.svg\")",
+        "anton": true,
+        "inter": true,
+        "headline": "NEW\nDESIGN\nERA",
+        "errors": [],
+        "failed": [],
+        "contact": "mailto:hello@viktoroddy.design",
+        "escapeClosesDialog": true,
+        "navigation": true
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile reviewed; mobile overlap adjusted for headline readability."
+  },
+  "asset_issues": [
+    "Optional reference preview was absent.",
+    "Brand strip uses typographic recreations rather than official logo files."
+  ],
+  "notes": [
+    "React 19 + Tailwind CSS 4 + Vite 7.",
+    "Required base path: /motionsites-results/6/.",
+    "Portrait, SVG mask, Anton, and Inter bundled locally; no runtime external requests.",
+    "Supporting panel copy and email address are demonstrative; verify owner contact before public use.",
+    "No push or deployment performed."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/digitwist-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:09:03.043Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Digitwist — Build Faster",
+      "bodyChars": 236,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/7545dc3a-2b49-4f60-92f1-39d866cee4a1",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.984239,
+          "duration": 20.019966,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Digitwist — Build Faster",
+      "bodyChars": 180,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/91227e7c-4ab1-42be-b5b0-968343a3bd8f",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.410211,
+          "duration": 20.019966,
+          "ended": false,
+          "loop": true,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "fontSans": true,
+    "fontSerif": true,
+    "video": {
+      "readyState": 4,
+      "time": 3.260701,
+      "paused": false,
+      "width": 1280
+    },
+    "posterLoaded": "http://localhost:4173/motionsites-results/digitwist-hero/assets/poster.jpg",
+    "scriptErrors": [],
+    "failedRequests": [],
+    "interactions": "passed",
+    "screenshot": "screenshots/desktop.png"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "fontSans": true,
+    "fontSerif": true,
+    "video": {
+      "readyState": 4,
+      "time": 3.154598,
+      "paused": false,
+      "width": 1280
+    },
+    "posterLoaded": "http://localhost:4173/motionsites-results/digitwist-hero/assets/poster.jpg",
+    "scriptErrors": [],
+    "failedRequests": [],
+    "interactions": "passed",
+    "screenshot": "screenshots/mobile.png"
+  },
+  "reducedMotion": {
+    "videoPaused": true
+  }
+}

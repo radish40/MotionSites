@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,body{font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;background:#fff;margin:0}body{overflow:hidden}.font-firs{font-family:'TT Firs Neue','Inter',system-ui,sans-serif}.no-scrollbar{scrollbar-width:none;-ms-overflow-style:none}.no-scrollbar::-webkit-scrollbar{display:none}.hero{background:#b3cbd2}.chamfer{clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}.chamfer-small{clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px)}.section-fade{background:linear-gradient(to bottom,rgba(240,245,247,0) 0%,rgba(240,245,247,.7) 60%,#F0F5F7 100%)}.stat-value{background:linear-gradient(294deg,#185B7B 20%,#4BBDF0);background-clip:text;color:transparent;line-height:1.1}.top-nav:before,.top-nav:after{content:'';position:absolute;top:0;width:24px;height:24px;background:white}.top-nav:before{left:-24px;mask-image:radial-gradient(circle at 0 100%,transparent 24px,black 25px)}.top-nav:after{right:-24px;mask-image:radial-gradient(circle at 100% 100%,transparent 24px,black 25px)}a:focus-visible,button:focus-visible{outline:2px solid #4bbdf0;outline-offset:5px}dialog::backdrop{backdrop-filter:blur(6px)}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+
+@font-face{font-family:"TT Firs Neue";src:url("../public/assets/firs.woff2") format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:Inter;src:url("../public/assets/inter-300.ttf") format("truetype");font-weight:300;font-display:swap}
+@font-face{font-family:Inter;src:url("../public/assets/inter-400.ttf") format("truetype");font-weight:400;font-display:swap}
+@font-face{font-family:Inter;src:url("../public/assets/inter-500.ttf") format("truetype");font-weight:500;font-display:swap}
+@font-face{font-family:Inter;src:url("../public/assets/inter-600.ttf") format("truetype");font-weight:600;font-display:swap}
+@font-face{font-family:Inter;src:url("../public/assets/inter-700.ttf") format("truetype");font-weight:700;font-display:swap}

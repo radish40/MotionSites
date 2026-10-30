@@ -1,0 +1,138 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "media": [
+      {
+        "width": 3828,
+        "height": 2164,
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "error": null
+      },
+      {
+        "width": 1440,
+        "height": 1440,
+        "playing": false,
+        "muted": true,
+        "loop": true,
+        "error": null,
+        "playing_when_visible": true
+      }
+    ],
+    "overflow": {
+      "body": false,
+      "sections": [
+        {
+          "id": "hero",
+          "overflow": false
+        },
+        {
+          "id": "submissions",
+          "overflow": false
+        },
+        {
+          "id": "about",
+          "overflow": false
+        }
+      ]
+    },
+    "images": [
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/stellar-launch/assets/submissions.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "interactions": "CTA scroll, about section, category and founder destination links, About navigation, Venue/Judges/Connect destination links",
+    "fonts": {
+      "inter": true,
+      "firs": true
+    }
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "media": [
+      {
+        "width": 3828,
+        "height": 2164,
+        "playing": true,
+        "muted": true,
+        "loop": true,
+        "error": null
+      },
+      {
+        "width": 1440,
+        "height": 1440,
+        "playing": false,
+        "muted": true,
+        "loop": true,
+        "error": null,
+        "playing_when_visible": true
+      }
+    ],
+    "overflow": {
+      "body": false,
+      "sections": [
+        {
+          "id": "hero",
+          "overflow": false
+        },
+        {
+          "id": "submissions",
+          "overflow": false
+        },
+        {
+          "id": "about",
+          "overflow": false
+        }
+      ]
+    },
+    "images": [
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      },
+      {
+        "loaded": true,
+        "width": 2048
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [
+      {
+        "url": "http://127.0.0.1:4173/motionsites-results/stellar-launch/assets/submissions.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "interactions": "CTA scroll, about section, category and founder destination links",
+    "fonts": {
+      "inter": true,
+      "firs": true
+    }
+  }
+}

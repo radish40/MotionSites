@@ -1,0 +1,79 @@
+[
+  {
+    "file": "hero.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260511_151648_2bdfbd1c-6bde-4f5d-a967-f57cbced97f6.mp4",
+    "status": "downloaded",
+    "bytes": 13842348,
+    "error": ""
+  },
+  {
+    "file": "submissions.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154120_b89bfedd-530d-4ebb-9eb7-42eeafe08667.mp4",
+    "status": "downloaded",
+    "bytes": 6138129,
+    "error": ""
+  },
+  {
+    "file": "stat-1.png",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154203_6c6f94dc-a07e-4ba5-8688-106f01ccd2c8.png",
+    "status": "downloaded",
+    "bytes": 3490382,
+    "error": ""
+  },
+  {
+    "file": "stat-2.png",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_154151_45c62c60-3bcc-4f21-8f9d-03722ebb5df8.png",
+    "status": "downloaded",
+    "bytes": 3350340,
+    "error": ""
+  },
+  {
+    "file": "stat-3.png",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260514_152238_24ec8db4-d728-4739-bb30-e985533e9637.png",
+    "status": "downloaded",
+    "bytes": 4002550,
+    "error": ""
+  },
+  {
+    "file": "firs.woff2",
+    "source": "https://db.onlinewebfonts.com/t/69f2576e7ca287875bf8d089130e292c.woff2",
+    "status": "downloaded",
+    "bytes": 80372,
+    "error": ""
+  },
+  {
+    "file": "inter-300.ttf",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf",
+    "status": "downloaded",
+    "bytes": 325748,
+    "error": ""
+  },
+  {
+    "file": "inter-400.ttf",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+    "status": "downloaded",
+    "bytes": 324820,
+    "error": ""
+  },
+  {
+    "file": "inter-500.ttf",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+    "status": "downloaded",
+    "bytes": 325304,
+    "error": ""
+  },
+  {
+    "file": "inter-600.ttf",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+    "status": "downloaded",
+    "bytes": 326048,
+    "error": ""
+  },
+  {
+    "file": "inter-700.ttf",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+    "status": "downloaded",
+    "bytes": 326468,
+    "error": ""
+  }
+]

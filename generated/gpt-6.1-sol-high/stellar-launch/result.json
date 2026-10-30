@@ -1,0 +1,169 @@
+{
+  "title": "Stellar Launch",
+  "id": "stellar-launch",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: TypeScript and Vite production build",
+    "dist_index": true,
+    "browser_report": "browser-checks.json",
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media": [
+        {
+          "width": 3828,
+          "height": 2164,
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "error": null
+        },
+        {
+          "width": 1440,
+          "height": 1440,
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "error": null,
+          "playing_when_visible": true
+        }
+      ],
+      "overflow": {
+        "body": false,
+        "sections": [
+          {
+            "id": "hero",
+            "overflow": false
+          },
+          {
+            "id": "submissions",
+            "overflow": false
+          },
+          {
+            "id": "about",
+            "overflow": false
+          }
+        ]
+      },
+      "images": [
+        {
+          "loaded": true,
+          "width": 2048
+        },
+        {
+          "loaded": true,
+          "width": 2048
+        },
+        {
+          "loaded": true,
+          "width": 2048
+        }
+      ],
+      "script_errors": [],
+      "failed_requests": [
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/stellar-launch/assets/submissions.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "interactions": "CTA scroll, about section, category and founder destination links, About navigation, Venue/Judges/Connect destination links",
+      "fonts": {
+        "inter": true,
+        "firs": true
+      }
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "media": [
+        {
+          "width": 3828,
+          "height": 2164,
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "error": null
+        },
+        {
+          "width": 1440,
+          "height": 1440,
+          "playing": false,
+          "muted": true,
+          "loop": true,
+          "error": null,
+          "playing_when_visible": true
+        }
+      ],
+      "overflow": {
+        "body": false,
+        "sections": [
+          {
+            "id": "hero",
+            "overflow": false
+          },
+          {
+            "id": "submissions",
+            "overflow": false
+          },
+          {
+            "id": "about",
+            "overflow": false
+          }
+        ]
+      },
+      "images": [
+        {
+          "loaded": true,
+          "width": 2048
+        },
+        {
+          "loaded": true,
+          "width": 2048
+        },
+        {
+          "loaded": true,
+          "width": 2048
+        }
+      ],
+      "script_errors": [],
+      "failed_requests": [
+        {
+          "url": "http://127.0.0.1:4173/motionsites-results/stellar-launch/assets/submissions.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "interactions": "CTA scroll, about section, category and founder destination links",
+      "fonts": {
+        "inter": true,
+        "firs": true
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/desktop-submissions.png",
+      "screenshots/desktop-about.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-submissions.png",
+      "screenshots/mobile-about.png"
+    ]
+  },
+  "asset_issues": [
+    "Initial Python HTTP downloads stalled; curl recovered all original assets.",
+    "Used original CloudFront PNG sources embedded in Higgs URLs, without proxy transformations.",
+    "One aborted submissions video range request per viewport; decoding and visible playback passed."
+  ],
+  "notes": [
+    "Ready for management-session review; not deployed.",
+    "Only this project implemented; no agents, other sessions, pushes or external messages.",
+    "Required stack and local original videos/images/fonts included.",
+    "Entry CTA scrolls to submissions; unspecified category/Venue/Judges/Connect destinations use the supplied Launchex.Hub URL. No backend endpoint supplied.",
+    "Three real sections; requested indicator denominator 05 preserved.",
+    "Reference used only for comparison; no page screenshot embedded.",
+    "Model selection is controlled by the calling session; no model or session changes made."
+  ]
+}

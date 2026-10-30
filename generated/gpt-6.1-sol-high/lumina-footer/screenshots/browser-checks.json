@@ -1,0 +1,88 @@
+[
+  {
+    "name": "desktop",
+    "title": "Lumina — A world of wonder",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "scrollWidth": 1440,
+    "pageHeight": 1150,
+    "footerColumns": "50.6562px 50.6562px 50.6562px 50.6562px 50.6562px 50.6562px 50.6562px 50.6562px 50.6562px 50.6562px 50.6562px 50.6562px",
+    "video": {
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_114316_1c7889ad-2885-410e-b493-98119fee0ddb.mp4",
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 2.777322,
+      "muted": true,
+      "loop": true,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "playing": true
+    },
+    "fontLoaded": true,
+    "footerLinks": 13,
+    "socialLinks": 5,
+    "ctaNavigatesToFooter": true,
+    "keyboardFocusVisible": true,
+    "hoverColor": "rgb(255, 255, 255)",
+    "homeNavigatesToIntro": true,
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_114316_1c7889ad-2885-410e-b493-98119fee0ddb.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_114316_1c7889ad-2885-410e-b493-98119fee0ddb.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "noHorizontalOverflow": true
+  },
+  {
+    "name": "mobile",
+    "title": "Lumina — A world of wonder",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "pageHeight": 1001,
+    "footerColumns": "302px",
+    "video": {
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_114316_1c7889ad-2885-410e-b493-98119fee0ddb.mp4",
+      "readyState": 4,
+      "paused": false,
+      "currentTime": 2.602791,
+      "muted": true,
+      "loop": true,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "playing": true
+    },
+    "fontLoaded": true,
+    "footerLinks": 13,
+    "socialLinks": 5,
+    "ctaNavigatesToFooter": true,
+    "keyboardFocusVisible": true,
+    "hoverColor": "rgb(255, 255, 255)",
+    "homeNavigatesToIntro": true,
+    "errors": [],
+    "failedRequests": [
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_114316_1c7889ad-2885-410e-b493-98119fee0ddb.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260429_114316_1c7889ad-2885-410e-b493-98119fee0ddb.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "noHorizontalOverflow": true
+  }
+]

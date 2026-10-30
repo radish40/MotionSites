@@ -1,0 +1,33 @@
+{
+  "title": "Lumina",
+  "id": "lumina-footer",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "subpath": "/motionsites-results/lumina-footer/",
+    "desktop": "1440x1000 Chromium: passed",
+    "mobile": "390x844 Chromium: passed",
+    "horizontal_overflow": "none at either viewport",
+    "script_errors": 0,
+    "video": "exact URL, readyState 4, muted, looping, playing at both viewports",
+    "font": "Helvetica Regular loaded at both viewports",
+    "interactions": "CTA scroll, brand return, link hover and focus; 13 footer links and 5 social links",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    "Optional visual reference file was absent; no visual reference comparison was possible.",
+    "Chromium reported a canceled video request (net::ERR_ABORTED) during media loading; playback was successful on both viewports."
+  ],
+  "notes": [
+    "React, TypeScript, Tailwind CSS v4, motion/react, lucide-react; dependency lockfile saved.",
+    "Original video and exact remote font declaration retained; external host availability remains a runtime dependency.",
+    "Upper CTA content is a permitted placeholder. Footer destinations use same-page placeholders; social links use platform homepages because no profile URLs were supplied.",
+    "No deployment, push, agents, other sessions, or external messages.",
+    "Ready means ready for acceptance, not deployed."
+  ]
+}

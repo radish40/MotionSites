@@ -1,0 +1,73 @@
+{
+  "title": "Prioritize",
+  "id": "prioritize-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "dist_index_exists": true,
+    "browser": {
+      "passed": true,
+      "results": [
+        {
+          "name": "desktop",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "layout": {
+            "width": 1440,
+            "scrollWidth": 1440,
+            "fonts": true,
+            "images": true
+          },
+          "script_errors": [],
+          "failed_requests": [],
+          "interactions": "passed"
+        },
+        {
+          "name": "mobile",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "layout": {
+            "width": 390,
+            "scrollWidth": 390,
+            "fonts": true,
+            "images": true
+          },
+          "script_errors": [],
+          "failed_requests": [],
+          "interactions": "passed"
+        }
+      ],
+      "additional_checks": [
+        "768px tablet: no horizontal overflow",
+        "reduced motion: page renders"
+      ],
+      "base_path": "/motionsites-results/prioritize-hero/"
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_inspection": "Desktop and mobile inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "original visual preview",
+      "issue": "Designated prioritize-hero.webp is absent",
+      "resolution": "Implemented from complete written prompt; reference comparison unavailable"
+    }
+  ],
+  "notes": [
+    "React, Tailwind CSS, motion/react, and lucide-react.",
+    "Google Fonts and exact DiceBear seed assets successfully downloaded and served locally.",
+    "All runtime assets load under /motionsites-results/prioritize-hero/.",
+    "Navigation, auth, and trial controls open accessible informational dialogs; no backend was specified or connected.",
+    "No deployment, push, other design access, or sub-agents.",
+    "Source, lockfile, build, screenshots, and documentation are included."
+  ]
+}

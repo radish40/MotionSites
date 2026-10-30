@@ -1,0 +1,153 @@
+{
+  "recorded_utc": "2026-10-30T06:51:10.644646+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 5,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T06:50:26.358694+00:00",
+      "remote_main": "b7a4343f23979303fbbebcc037535f20805aaba4",
+      "delivery": {
+        "id": "benefits-features",
+        "title": "Benefits Features",
+        "source_commit": "2b5f516913dda42bdc17b93ce766bb7f908c3dd5",
+        "thread_id": "01a18b7a-61b2-78c2-88cf-29aafc80ba8c",
+        "group_message_id": 445,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:50:26.358694+00:00",
+      "remote_main": "b7a4343f23979303fbbebcc037535f20805aaba4",
+      "delivery": {
+        "id": "zenith-footer",
+        "title": "Zenith Footer",
+        "source_commit": "deb9ad78210d9d3e92cf1c5a642e84c0078c062b",
+        "thread_id": "01a18b7d-b6a6-7a13-9489-99c4277e48e0",
+        "group_message_id": 446,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:50:26.358694+00:00",
+      "remote_main": "b7a4343f23979303fbbebcc037535f20805aaba4",
+      "delivery": {
+        "id": "digital-reality-hero",
+        "title": "Digital Reality",
+        "source_commit": "b6a33a77ef5c9cec0019f019d7b3f8da4f6defb7",
+        "thread_id": "01a18b7d-b74e-7722-8d27-abf1a26cc1c7",
+        "group_message_id": 447,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:50:26.358694+00:00",
+      "remote_main": "b7a4343f23979303fbbebcc037535f20805aaba4",
+      "delivery": {
+        "id": "community-cta",
+        "title": "Community CTA",
+        "source_commit": "decf727eea5d6e7bdbce12848f3594049ff124a7",
+        "thread_id": "01a18b7d-b804-7ee1-9495-756322052cec",
+        "group_message_id": 451,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:50:26.358694+00:00",
+      "remote_main": "b7a4343f23979303fbbebcc037535f20805aaba4",
+      "delivery": {
+        "id": "package-fits-pricing",
+        "title": "What Package Fits You",
+        "source_commit": "ba5818cb85bf50d0f8e90f0d0874c0e56565aacd",
+        "thread_id": "01a18b80-4704-7f92-bc13-9ba2e7475a22",
+        "group_message_id": 448,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

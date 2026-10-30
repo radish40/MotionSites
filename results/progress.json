@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T06:44:39.111607+00:00",
+  "updated_utc": "2026-10-30T06:52:35.122475+00:00",
   "total": 380,
   "counts": {
     "complete": 380
@@ -10,8 +10,14 @@
     "after_verified_completion": "complete",
     "remaining_designs_after_batch": 0,
     "requested_by_user": true,
-    "status": "running",
-    "resumed_utc": "2026-10-30T02:37:24.448257+00:00"
+    "status": "complete",
+    "resumed_utc": "2026-10-30T02:37:24.448257+00:00",
+    "verified_utc": "2026-10-30T06:50:26.358694+00:00",
+    "completed_utc": "2026-10-30T06:52:35.103297+00:00",
+    "audit_path": "docs/gpt-6.1-sol-high/audits/380-completed.json",
+    "generation_service": "stopped_and_disabled",
+    "progress_timer": "stopped_and_disabled",
+    "source_audit_remote_main": "b7a4343f23979303fbbebcc037535f20805aaba4"
   },
   "jobs": [
     {

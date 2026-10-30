@@ -2375,7 +2375,77 @@
         "generated/gpt-6.1-sol-high/yacht-club-hero/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/yacht-club-hero/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "benefits-features",
+      "source_commit": "2b5f516913dda42bdc17b93ce766bb7f908c3dd5",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:51:10.644646+00:00",
+      "observation": "Reviewed full public desktop/mobile two-column-to-stacked benefits composition, both accordion states via independent interaction test and real tennis film. Original Cloudinary account disabled (401), versionless recovery fails; original URL retained, small abstract green CSS inline graphic is explicitly approximate. Root public 25ms sampling caught negative -4%; original thread repaired progress clamp [0,1]. Independent fixed-public samples at both sizes now start 0, include intermediate positive values, end 86, all bounded/nondecreasing; visible decoded video advances and Sport Pacakge accordion opens. Exact original film and font retained.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/benefits-features/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/benefits-features/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "zenith-footer",
+      "source_commit": "deb9ad78210d9d3e92cf1c5a642e84c0078c062b",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:51:10.644646+00:00",
+      "observation": "Reviewed public full desktop/mobile Zenith footer over exact supplied background film (actual asset depicts runners on grassy slope), cream rounded card, dumbbell, Move/Heal/Bloom, two buttons, both four-link columns and duplicated copyright as specified. Geist loaded, playback clocks advance. Mobile stacks and fits; unspecified links/actions remain prompt placeholders.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/zenith-footer/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/zenith-footer/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "digital-reality-hero",
+      "source_commit": "b6a33a77ef5c9cec0019f019d7b3f8da4f6defb7",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:51:10.644646+00:00",
+      "observation": "Reviewed public desktop 600×800 card and mobile proportional 366×488 composition: exact original film, Didot and Inter, title/subtitle/message glass button/orange edge, footer. No extra overlay beyond specified grain. Genuine fonts and real movie playback/loop/hover/keyboard checks pass. Sample hello@your.name contact explicitly documented, no message sent.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/digital-reality-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/digital-reality-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "community-cta",
+      "source_commit": "decf727eea5d6e7bdbce12848f3594049ff124a7",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:51:10.644646+00:00",
+      "observation": "Reviewed public desktop/mobile single-HTML community CTA with exact original cloud/flower film, local genuine DM Sans, email field/button and all four visible portrait circles. Four signed CleanShot avatars unrecoverably 403; same original session repaired blank circles with four distinct locally cached decorative Unsplash photos, sources/hashes and original URLs preserved in provenance. Replacements and 5,000+ design copy explicitly not verified membership. No external runtime requests or browser errors; no subscription backend or success sending invented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-cta/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-cta/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "package-fits-pricing",
+      "source_commit": "ba5818cb85bf50d0f8e90f0d0874c0e56565aacd",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:51:10.644646+00:00",
+      "observation": "Reviewed public full desktop/mobile pricing and custom-request card. Standalone component2.html with inline CSS/JS and c2 classes, exact three recovered original tree/landscape assets and genuine Google fonts. Single/multi-page 1500/2500 plus optional Framer 800 (2300/3300), selected/checked ARIA, keyboard arrows/Enter/Space, flip timing and contact console logs checked. 375/390px widths no overflow; explicit 180px mobile landscape rule takes precedence over conflicting 240px prose.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/package-fits-pricing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/package-fits-pricing/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T06:42:45.981657+00:00"
+  "updated_utc": "2026-10-30T06:51:10.644646+00:00"
 }

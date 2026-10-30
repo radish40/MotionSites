@@ -663,7 +663,59 @@
         "generated/gpt-6.1-sol-high/taskora-saa-s-hero/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/taskora-saa-s-hero/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "transform-data",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the valley video, readable heading and question composer with attach/voice/prompt controls. Browser reports cover file/prompt/counter interactions and custom video fades; hardware speech recognition is not claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/transform-data/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/transform-data/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T03:58:46.401946+00:00"
+    },
+    {
+      "id": "velorah",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the original starry study video, serif headline, muted secondary text and glass CTA with no clipped hero content.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/velorah/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/velorah/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T03:58:46.401946+00:00"
+    },
+    {
+      "id": "x-portfolio-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the original portrait video, Brandly heading, statistics and six brand cards. On mobile the intentionally specified heading line-height 0.80 visibly compresses/overlaps Anton letters; preserved as a prompt parameter, not claimed to have normal line spacing.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/x-portfolio-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/x-portfolio-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T03:58:46.401946+00:00"
+    },
+    {
+      "id": "aethera-studio",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the original pastoral video, italic serif emphasis, white landscape fade and black CTA; mobile navigation is collapsed. Email client launch is not claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/aethera-studio/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/aethera-studio/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T03:58:46.401946+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T03:54:01.856407+00:00"
+  "updated_utc": "2026-10-30T03:58:46.401946+00:00"
 }

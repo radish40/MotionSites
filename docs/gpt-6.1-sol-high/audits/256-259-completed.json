@@ -1,0 +1,124 @@
+{
+  "recorded_utc": "2026-10-30T03:58:46.401946+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 4,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:54:40.987400+00:00",
+      "remote_main": "bf03889f3a7967db4aa94980006d11ca3c083981",
+      "delivery": {
+        "id": "transform-data",
+        "title": "Transform Data",
+        "source_commit": "bf03889f3a7967db4aa94980006d11ca3c083981",
+        "thread_id": "01a18aeb-533f-7830-9158-ba9d842672a5",
+        "group_message_id": 321,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:55:18.465306+00:00",
+      "remote_main": "1ca59406bc123f681fb80d1f7fe0528ebaf2f701",
+      "delivery": {
+        "id": "velorah",
+        "title": "Velorah",
+        "source_commit": "1ca59406bc123f681fb80d1f7fe0528ebaf2f701",
+        "thread_id": "01a18aeb-53fa-7f31-aace-caa75702fe6c",
+        "group_message_id": 322,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:56:45.119152+00:00",
+      "remote_main": "4effd9329ded28dc678c10f5b869f09397945ad1",
+      "delivery": {
+        "id": "x-portfolio-hero",
+        "title": "xPortfolio Hero",
+        "source_commit": "3a49dabf2edbd44807e6af52da8898bae4ce2f2a",
+        "thread_id": "01a18aee-3e8f-7a52-bbd1-db7f9d4eab24",
+        "group_message_id": 323,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:58:09.816500+00:00",
+      "remote_main": "2e3e4c7313e5b2b350b81039d62a14290fda187d",
+      "delivery": {
+        "id": "aethera-studio",
+        "title": "Aethera Studio",
+        "source_commit": "73be4de949b58747f4b7f3d53e0adf62933735d8",
+        "thread_id": "01a18aef-804f-7133-8c93-82169a25c540",
+        "group_message_id": 324,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

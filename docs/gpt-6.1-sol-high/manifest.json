@@ -9963,19 +9963,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b10-2dd1-7113-b987-072093733b75",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-interactive-card-stack",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 792721,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:27:35.667452+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f4e0b60b8c919cd0b8185795d660903e95bd7cce",
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-interactive-card-stack/",
+      "completed_utc": "2026-10-30T04:32:54.684776+00:00",
+      "group_message_id": 357
     },
     {
       "number": 292,
@@ -10084,14 +10088,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b13-7057-75a1-a9b9-79dbc57f1850",
       "output_path": "generated/gpt-6.1-sol-high/digital-director",
       "validation": "",
       "notes": "",
       "process_id": 807186,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:31:09.290031+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 296,
@@ -10109,11 +10117,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/intelligent-operations",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 813448,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:32:30.702047+00:00",
+      "worker_state": "running"
     },
     {
       "number": 297,
@@ -11965,7 +11977,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:31:37.406899+00:00",
+  "updated_utc": "2026-10-30T04:32:54.884898+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

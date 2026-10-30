@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:31:37.406899+00:00",
+  "updated_utc": "2026-10-30T04:32:54.884898+00:00",
   "total": 380,
   "counts": {
-    "complete": 290,
+    "complete": 291,
     "running": 5,
-    "not_started": 85
+    "not_started": 84
   },
   "current_batch": {
     "from_number": 201,
@@ -2920,11 +2920,11 @@
       "id": "community-superdesign-interactive-card-stack",
       "title": "Interactive Card Stack",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b10-2dd1-7113-b987-072093733b75",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f4e0b60b8c919cd0b8185795d660903e95bd7cce",
+      "group_message_id": 357,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-interactive-card-stack/"
     },
     {
       "id": "community-superdesign-counter",
@@ -2961,7 +2961,7 @@
       "title": "Digital Director",
       "category": "Portfolio",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b13-7057-75a1-a9b9-79dbc57f1850",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2970,7 +2970,7 @@
       "id": "intelligent-operations",
       "title": "Intelligent Operations",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,0 +1,77 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const http = require('node:http');
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const base = '/motionsites-results/community-superdesign-interactive-card-stack/';
+const root = path.resolve('dist');
+const mime = {'.html':'text/html','.js':'text/javascript','.css':'text/css','.jpg':'image/jpeg'};
+const server = http.createServer((req,res) => {
+  if(req.url === '/favicon.ico') {res.writeHead(204); res.end(); return;}
+  const local = decodeURIComponent(req.url.split('?')[0]).replace(base, '');
+  const file = path.resolve(root, local || 'index.html');
+  if (!file.startsWith(root + '/') || !fs.existsSync(file)) {res.writeHead(404);res.end();return;}
+  res.setHeader('Content-Type',mime[path.extname(file)] || 'application/octet-stream');
+  fs.createReadStream(file).pipe(res);
+});
+(async()=>{
+  await new Promise(resolve=>server.listen(4173,'127.0.0.1',resolve));
+  const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+  const errors=[]; const checks=[];
+  const context=await browser.newContext({viewport:{width:1440,height:1000},colorScheme:'light'});
+  const page=await context.newPage();
+  page.on('pageerror',error=>errors.push(error.message));
+  page.on('console',msg=>{if(msg.type()==='error') errors.push(msg.text());});
+  page.on('response',res=>{if(res.status()>=400) errors.push(`${res.status()} ${res.url()}`);});
+  await page.goto(`http://127.0.0.1:4173${base}`,{waitUntil:'networkidle'});
+  await page.waitForTimeout(700);
+  const top=()=>page.locator('[data-top="true"]');
+  const id=()=>top().getAttribute('data-card-id');
+  const reset=async()=>{await page.getByRole('button',{name:'Reset Animation'}).click();await page.waitForTimeout(700);assert.equal(await id(),'3');};
+  assert.equal(await page.title(),'Interactive Card Stack');
+  assert.equal(await page.locator('img').evaluateAll(images=>images.filter(img=>img.complete && img.naturalWidth>0).length),4);
+  checks.push('All four original photos loaded locally under the required base path');
+  await top().click(); await page.waitForTimeout(650); assert.equal(await id(),'2');
+  checks.push('Click cycles the front card to the back');
+  for (let i=0;i<3;i++) {await top().click();await page.waitForTimeout(400);}
+  assert.equal(await id(),'3');checks.push('Four clicks complete a full cycle');
+  await top().focus();await page.keyboard.press('Enter');await page.waitForTimeout(400);assert.equal(await id(),'2');
+  await top().focus();await page.keyboard.press('Space');await page.waitForTimeout(400);assert.equal(await id(),'1');
+  checks.push('Enter and Space cycle the focused top card');
+  await reset();checks.push('Reset restores the original front photo');
+  let box=await top().boundingBox();let x=box.x+box.width/2,y=box.y+box.height/2;
+  await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+70,y+10,{steps:15});await page.mouse.up();await page.waitForTimeout(800);assert.equal(await id(),'3');
+  checks.push('Short drag springs back without cycling');
+  await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+260,y,{steps:25});await page.mouse.up();await page.waitForTimeout(900);assert.equal(await id(),'2');
+  checks.push('Drag beyond the 180px threshold cycles exactly once');
+  await reset();await page.mouse.move(20,20);await page.waitForTimeout(400);
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth===innerWidth && document.documentElement.scrollHeight===innerHeight));
+  await page.screenshot({path:'screenshots/desktop.png',fullPage:true});
+  checks.push('Desktop 1440×1000: no horizontal or vertical overflow; screenshot saved');
+  await page.emulateMedia({colorScheme:'dark'});
+  assert.equal(await page.locator('body').evaluate(()=>getComputedStyle(document.documentElement).backgroundColor),'rgb(26, 26, 27)');
+  checks.push('Dark mode follows the system color scheme');
+  await page.emulateMedia({colorScheme:'light',reducedMotion:'reduce'});await reset();
+  await top().click();await page.waitForTimeout(100);assert.equal(await id(),'2');checks.push('Reduced-motion mode remains interactive');
+  const mobile=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:1,isMobile:true,hasTouch:true,colorScheme:'light'});
+  const mp=await mobile.newPage();mp.on('pageerror',e=>errors.push(e.message));mp.on('console',msg=>{if(msg.type()==='error') errors.push(msg.text());});
+  await mp.goto(`http://127.0.0.1:4173${base}`,{waitUntil:'networkidle'});await mp.waitForTimeout(700);
+  await mp.locator('[data-top="true"]').tap();await mp.waitForTimeout(700);assert.equal(await mp.locator('[data-top="true"]').getAttribute('data-card-id'),'2');
+  checks.push('Mobile touchscreen tap cycles the stack');
+  const session=await mobile.newCDPSession(mp);
+  box=await mp.locator('[data-top="true"]').boundingBox();x=box.x+box.width/2;y=box.y+box.height/2;
+  await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});
+  for(let i=1;i<=20;i++) {await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y:y-240*i/20}]});await mp.waitForTimeout(12);}
+  await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await mp.waitForTimeout(900);
+  assert.equal(await mp.locator('[data-top="true"]').getAttribute('data-card-id'),'1');checks.push('Mobile touch drag cycles exactly once');
+  await mp.getByRole('button',{name:'Reset Animation'}).tap();await mp.waitForTimeout(700);
+  assert.equal(await mp.locator('[data-top="true"]').getAttribute('data-card-id'),'3');
+  assert(await mp.evaluate(()=>document.documentElement.scrollWidth===innerWidth && document.documentElement.scrollHeight===innerHeight));
+  await mp.screenshot({path:'screenshots/mobile.png',fullPage:true});checks.push('Mobile 390×844: reset works, no overflow; screenshot saved');
+  await mp.setViewportSize({width:320,height:700});await mp.waitForTimeout(500);
+  assert(await mp.evaluate(()=>document.documentElement.scrollWidth===innerWidth));checks.push('Narrow 320px viewport has no horizontal overflow');
+  assert.deepEqual(errors,[]);checks.push('No browser script errors, console errors, or failed HTTP responses');
+  fs.writeFileSync('browser-checks.json',JSON.stringify({browser:'Chromium',checks,errors},null,2)+'\n');
+  console.log(JSON.stringify({checks,errors},null,2));
+  await browser.close();server.close();
+})().catch(error=>{console.error(error);server.close();process.exit(1);});

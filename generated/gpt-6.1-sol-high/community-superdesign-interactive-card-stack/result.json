@@ -1,0 +1,42 @@
+{
+  "title": "Interactive Card Stack",
+  "id": "community-superdesign-interactive-card-stack",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": "Chromium",
+    "passed": [
+      "All four original photos loaded locally under the required base path",
+      "Click cycles the front card to the back",
+      "Four clicks complete a full cycle",
+      "Enter and Space cycle the focused top card",
+      "Reset restores the original front photo",
+      "Short drag springs back without cycling",
+      "Drag beyond the 180px threshold cycles exactly once",
+      "Desktop 1440\u00d71000: no horizontal or vertical overflow; screenshot saved",
+      "Dark mode follows the system color scheme",
+      "Reduced-motion mode remains interactive",
+      "Mobile touchscreen tap cycles the stack",
+      "Mobile touch drag cycles exactly once",
+      "Mobile 390\u00d7844: reset works, no overflow; screenshot saved",
+      "Narrow 320px viewport has no horizontal overflow",
+      "No browser script errors, console errors, or failed HTTP responses"
+    ],
+    "errors": [],
+    "screenshots": {
+      "desktop": "screenshots/desktop.png",
+      "mobile": "screenshots/mobile.png"
+    }
+  },
+  "asset_issues": [],
+  "notes": [
+    "All four specified Unsplash photographs were recovered and bundled locally; see asset-sources.json.",
+    "The optional design reference preview was absent; comparison against that preview was unavailable.",
+    "No external font was specified; system sans-serif is used.",
+    "Required base path: /motionsites-results/community-superdesign-interactive-card-stack/.",
+    "Autoplay remains disabled as specified. Optional component APIs are implemented but not all are exercised by showcase checks.",
+    "Random rotations vary on mount and reset. Responsive dimensions, keyboard cycling, and reduced-motion handling are included.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "browser": "Chromium",
+  "checks": [
+    "All four original photos loaded locally under the required base path",
+    "Click cycles the front card to the back",
+    "Four clicks complete a full cycle",
+    "Enter and Space cycle the focused top card",
+    "Reset restores the original front photo",
+    "Short drag springs back without cycling",
+    "Drag beyond the 180px threshold cycles exactly once",
+    "Desktop 1440×1000: no horizontal or vertical overflow; screenshot saved",
+    "Dark mode follows the system color scheme",
+    "Reduced-motion mode remains interactive",
+    "Mobile touchscreen tap cycles the stack",
+    "Mobile touch drag cycles exactly once",
+    "Mobile 390×844: reset works, no overflow; screenshot saved",
+    "Narrow 320px viewport has no horizontal overflow",
+    "No browser script errors, console errors, or failed HTTP responses"
+  ],
+  "errors": []
+}

@@ -285,11 +285,11 @@
 | 198 | `radial-diagram` | Radial Diagram | Testimonials | 2 | 图片 | 已完成 |
 | 199 | `retro-futurist` | Retro-Futurist | Hero Section | 2 | 图片 | 已完成 |
 | 200 | `rocket-cta` | Rocket CTA | CTA Section | 2 | 图片 | 已完成 |
-| 201 | `rocket-faq` | Rocket FAQ | FAQ & Help | 2 | 图片 | 未开始 |
-| 202 | `rocket-pricing` | Rocket Pricing | Pricing Page | 2 | 图片 | 未开始 |
-| 203 | `saas-pricing-flow` | SaaS Pricing Flow | Pricing Page | 2 | 图片 | 未开始 |
-| 204 | `scroll-landing` | Scroll Landing Page | Interactive | 2 | 图片 | 未开始 |
-| 205 | `scroll-marquee` | Scroll Marquee | Components | 2 | 图片 | 未开始 |
+| 201 | `rocket-faq` | Rocket FAQ | FAQ & Help | 2 | 图片 | 生成中 |
+| 202 | `rocket-pricing` | Rocket Pricing | Pricing Page | 2 | 图片 | 生成中 |
+| 203 | `saas-pricing-flow` | SaaS Pricing Flow | Pricing Page | 2 | 图片 | 生成中 |
+| 204 | `scroll-landing` | Scroll Landing Page | Interactive | 2 | 图片 | 生成中 |
+| 205 | `scroll-marquee` | Scroll Marquee | Components | 2 | 图片 | 生成中 |
 | 206 | `shop` | Daisy Shop | E-commerce | 2 | 图片 | 未开始 |
 | 207 | `solace-sign-in` | Solace sign-in | Waitlist & Coming Soon | 2 | 图片 | 未开始 |
 | 208 | `speakup-venture-hero` | SpeakUp Venture Hero | Hero Section | 2 | 图片 | 未开始 |

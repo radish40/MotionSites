@@ -1,9 +1,10 @@
 {
-  "updated_utc": "2026-10-30T02:37:24.448276+00:00",
+  "updated_utc": "2026-10-30T02:37:37.273306+00:00",
   "total": 380,
   "counts": {
     "complete": 200,
-    "not_started": 180
+    "running": 5,
+    "not_started": 175
   },
   "current_batch": {
     "from_number": 201,
@@ -2019,7 +2020,7 @@
       "id": "rocket-faq",
       "title": "Rocket FAQ",
       "category": "FAQ & Help",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2029,7 +2030,7 @@
       "id": "rocket-pricing",
       "title": "Rocket Pricing",
       "category": "Pricing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2039,7 +2040,7 @@
       "id": "saas-pricing-flow",
       "title": "SaaS Pricing Flow",
       "category": "Pricing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2049,7 +2050,7 @@
       "id": "scroll-landing",
       "title": "Scroll Landing Page",
       "category": "Interactive",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2059,7 +2060,7 @@
       "id": "scroll-marquee",
       "title": "Scroll Marquee",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

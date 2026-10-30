@@ -6888,11 +6888,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/rocket-faq",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 369372,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:37:36.714840+00:00",
+      "worker_state": "running"
     },
     {
       "number": 202,
@@ -6910,11 +6914,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/rocket-pricing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 369458,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:37:36.852683+00:00",
+      "worker_state": "running"
     },
     {
       "number": 203,
@@ -6932,11 +6940,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/saas-pricing-flow",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 369561,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:37:37.005638+00:00",
+      "worker_state": "running"
     },
     {
       "number": 204,
@@ -6954,11 +6966,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/scroll-landing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 369627,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:37:37.128285+00:00",
+      "worker_state": "running"
     },
     {
       "number": 205,
@@ -6976,11 +6992,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/scroll-marquee",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 369725,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:37:37.273223+00:00",
+      "worker_state": "running"
     },
     {
       "number": 206,
@@ -10833,7 +10853,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T02:37:24.448276+00:00",
+  "updated_utc": "2026-10-30T02:37:37.273306+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

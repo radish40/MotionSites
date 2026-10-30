@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-30T06:08:52.192888+00:00",
+  "updated_utc": "2026-10-30T06:10:33.921650+00:00",
   "total": 380,
   "counts": {
-    "complete": 360,
+    "complete": 361,
     "ready": 1,
     "running": 5,
-    "not_started": 14
+    "not_started": 13
   },
   "current_batch": {
     "from_number": 201,
@@ -3621,11 +3621,11 @@
       "id": "kresna-footer",
       "title": "Kresna Footer",
       "category": "Footer Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b68-7ece-7062-8da0-6ec0353a78de",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "505104aa7fbc9f99eb03f472e25aed4eb283f82f",
+      "group_message_id": 431,
+      "url": "https://tool.luo-xd.com/motionsites-results/kresna-footer/"
     },
     {
       "id": "vize-footer",
@@ -3672,7 +3672,7 @@
       "title": "Bold Portfolio Hero",
       "category": "Portfolio",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b6c-8be3-72d0-a5c4-aa143c4d6d4d",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3681,7 +3681,7 @@
       "id": "slate-hero",
       "title": "Slate",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

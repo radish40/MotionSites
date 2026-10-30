@@ -11703,20 +11703,24 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b48-7f9a-7853-b914-62dab55b4abb",
       "output_path": "generated/gpt-6.1-sol-high/slam-dunk-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Management acceptance requested a correction in this same original design session; private repair prompt records details.",
       "process_id": 1043359,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:29:06.591943+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "50ccef3b6491c75e6c9cfb5cc8c4fb3cfdb1905f",
+      "url": "https://tool.luo-xd.com/motionsites-results/slam-dunk-hero/",
+      "completed_utc": "2026-10-30T05:40:57.221331+00:00",
+      "group_message_id": 411
     },
     {
       "number": 343,
@@ -11768,19 +11772,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b4a-3196-7e20-ba05-4fa2154feb59",
       "output_path": "generated/gpt-6.1-sol-high/shamoni-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1040722,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:30:57.316844+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "5169faa66ae69bb7b98565f29154718b3e28d44e",
+      "url": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/",
+      "completed_utc": "2026-10-30T05:41:27.778933+00:00",
+      "group_message_id": 412
     },
     {
       "number": 345,
@@ -11798,19 +11806,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b4e-b028-7ff1-aa4e-abe4310d581e",
       "output_path": "generated/gpt-6.1-sol-high/glow-features",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1058459,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:35:52.185303+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "03d1e399d25c97eabb631556504a0fa7d7838445",
+      "url": "https://tool.luo-xd.com/motionsites-results/glow-features/",
+      "completed_utc": "2026-10-30T05:41:53.684271+00:00",
+      "group_message_id": 413
     },
     {
       "number": 346,
@@ -11829,14 +11841,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b51-a488-7a20-874e-0715e37b8c06",
       "output_path": "generated/gpt-6.1-sol-high/lumina-footer",
       "validation": "",
       "notes": "",
       "process_id": 1070315,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:39:05.781576+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 347,
@@ -11854,11 +11870,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/nexacore-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1074443,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:40:27.301022+00:00",
+      "worker_state": "running"
     },
     {
       "number": 348,
@@ -11876,11 +11896,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/guardnet-landing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1074484,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:40:27.455787+00:00",
+      "worker_state": "running"
     },
     {
       "number": 349,
@@ -11898,11 +11922,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/automation-machines-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1074550,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:40:27.656131+00:00",
+      "worker_state": "running"
     },
     {
       "number": 350,
@@ -12588,7 +12616,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:39:34.458787+00:00",
+  "updated_utc": "2026-10-30T05:41:53.867450+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

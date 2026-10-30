@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:39:34.458787+00:00",
+  "updated_utc": "2026-10-30T05:41:53.867450+00:00",
   "total": 380,
   "counts": {
-    "complete": 341,
+    "complete": 344,
     "running": 5,
-    "not_started": 34
+    "not_started": 31
   },
   "current_batch": {
     "from_number": 201,
@@ -3430,11 +3430,11 @@
       "id": "slam-dunk-hero",
       "title": "Slam Dunk",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b48-7f9a-7853-b914-62dab55b4abb",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "50ccef3b6491c75e6c9cfb5cc8c4fb3cfdb1905f",
+      "group_message_id": 411,
+      "url": "https://tool.luo-xd.com/motionsites-results/slam-dunk-hero/"
     },
     {
       "id": "crypto-wealth-hero",
@@ -3450,28 +3450,28 @@
       "id": "shamoni-hero",
       "title": "Shamoni",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b4a-3196-7e20-ba05-4fa2154feb59",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5169faa66ae69bb7b98565f29154718b3e28d44e",
+      "group_message_id": 412,
+      "url": "https://tool.luo-xd.com/motionsites-results/shamoni-hero/"
     },
     {
       "id": "glow-features",
       "title": "Glow Features",
       "category": "Features Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b4e-b028-7ff1-aa4e-abe4310d581e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "03d1e399d25c97eabb631556504a0fa7d7838445",
+      "group_message_id": 413,
+      "url": "https://tool.luo-xd.com/motionsites-results/glow-features/"
     },
     {
       "id": "lumina-footer",
       "title": "Lumina",
       "category": "Footer Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b51-a488-7a20-874e-0715e37b8c06",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3480,7 +3480,7 @@
       "id": "nexacore-hero",
       "title": "NexaCore",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3490,7 +3490,7 @@
       "id": "guardnet-landing",
       "title": "Guardnet",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3500,7 +3500,7 @@
       "id": "automation-machines-hero",
       "title": "Automation Machines",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

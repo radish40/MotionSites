@@ -11673,11 +11673,11 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a18b48-7ef3-7130-8393-de69b14c16f6",
       "output_path": "generated/gpt-6.1-sol-high/sentinel-ai-hero",
-      "validation": "Live browser check failed; see screenshots/live-check.json",
-      "notes": "Delivery failed; inspect private delivery.log and public browser report",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
+      "notes": "Original 3D scene verified in worker captures; public software-rendered screenshot timeout. Scoped checker now requires advancing actual WebGL draw calls, then freezes only injected validation-browser RAF for capture; production remains animated.",
       "process_id": 1033362,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:29:06.452781+00:00",
@@ -11686,7 +11686,12 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "delivery_failures": 1
+      "delivery_failures": 1,
+      "canvas_capture": true,
+      "source_commit": "72011925d533f178b5f5007012ef7459ee79ee27",
+      "url": "https://tool.luo-xd.com/motionsites-results/sentinel-ai-hero/",
+      "completed_utc": "2026-10-30T05:47:50.679689+00:00",
+      "group_message_id": 416
     },
     {
       "number": 342,
@@ -11905,19 +11910,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b52-e391-74b3-ae4a-a4a151288176",
       "output_path": "generated/gpt-6.1-sol-high/guardnet-landing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1074484,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:40:27.455787+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "9311abba8c6f59c1b2c91cc544692c33246b871f",
+      "url": "https://tool.luo-xd.com/motionsites-results/guardnet-landing/",
+      "completed_utc": "2026-10-30T05:46:17.786472+00:00",
+      "group_message_id": 415
     },
     {
       "number": 349,
@@ -11966,14 +11975,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b55-0708-7d53-804e-fd039f5a3625",
       "output_path": "generated/gpt-6.1-sol-high/focus-ai-landing",
       "validation": "",
       "notes": "",
       "process_id": 1083489,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:42:47.636484+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 351,
@@ -11992,14 +12005,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b55-0948-7010-9d52-8c08d2718b53",
       "output_path": "generated/gpt-6.1-sol-high/design-rocket-email-hero",
       "validation": "",
       "notes": "",
       "process_id": 1083564,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:42:48.160117+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 352,
@@ -12017,11 +12034,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/rivr-defi-landing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1095238,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:45:48.610102+00:00",
+      "worker_state": "running"
     },
     {
       "number": 353,
@@ -12641,7 +12662,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:44:52.649387+00:00",
+  "updated_utc": "2026-10-30T05:47:50.826734+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

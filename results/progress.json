@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:44:52.649387+00:00",
+  "updated_utc": "2026-10-30T05:47:50.826734+00:00",
   "total": 380,
   "counts": {
-    "complete": 345,
-    "needs_fix": 1,
+    "complete": 347,
     "running": 5,
-    "not_started": 29
+    "not_started": 28
   },
   "current_batch": {
     "from_number": 201,
@@ -3421,11 +3420,11 @@
       "id": "sentinel-ai-hero",
       "title": "Sentinel AI",
       "category": "Hero Section",
-      "status": "needs_fix",
+      "status": "complete",
       "thread_id": "01a18b48-7ef3-7130-8393-de69b14c16f6",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "72011925d533f178b5f5007012ef7459ee79ee27",
+      "group_message_id": 416,
+      "url": "https://tool.luo-xd.com/motionsites-results/sentinel-ai-hero/"
     },
     {
       "id": "slam-dunk-hero",
@@ -3491,11 +3490,11 @@
       "id": "guardnet-landing",
       "title": "Guardnet",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b52-e391-74b3-ae4a-a4a151288176",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9311abba8c6f59c1b2c91cc544692c33246b871f",
+      "group_message_id": 415,
+      "url": "https://tool.luo-xd.com/motionsites-results/guardnet-landing/"
     },
     {
       "id": "automation-machines-hero",
@@ -3512,7 +3511,7 @@
       "title": "Focus AI",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b55-0708-7d53-804e-fd039f5a3625",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3522,7 +3521,7 @@
       "title": "Email Marketing",
       "category": "Email Marketing",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b55-0948-7010-9d52-8c08d2718b53",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3531,7 +3530,7 @@
       "id": "rivr-defi-landing",
       "title": "RIVR DeFi",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

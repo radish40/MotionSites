@@ -4,6 +4,7 @@ const path = require('node:path');
 
 (async () => {
   const [url, output, previewSelector, previewDelayArgument] = process.argv.slice(2);
+  const canvasCapture = process.env.MOTIONSITES_CANVAS_CAPTURE === '1';
   const previewDelayMs = previewDelayArgument === undefined ? null : Number(previewDelayArgument);
   if (previewDelayMs !== null && (!Number.isFinite(previewDelayMs) || previewDelayMs < 0 || previewDelayMs > 4000)) {
     throw Error('Preview delay must be between 0 and 4000ms; settled-page validation still runs after 5000ms');
@@ -16,6 +17,25 @@ const path = require('node:path');
     for (const [name, viewport] of [['desktop', {width:1440,height:1000}], ['mobile', {width:390,height:844}]]) {
       const context = await browser.newContext({ viewport, deviceScaleFactor: 1 });
       const page = await context.newPage();
+      if (canvasCapture) await page.addInitScript(() => {
+        window.__captureDrawCalls = 0;
+        for (const type of [window.WebGLRenderingContext, window.WebGL2RenderingContext]) {
+          if (!type) continue;
+          for (const name of ['drawArrays', 'drawElements', 'drawArraysInstanced', 'drawElementsInstanced']) {
+            const original = type.prototype[name];
+            if (!original) continue;
+            type.prototype[name] = function(...args) {
+              const result = original.apply(this, args);
+              window.__captureDrawCalls++;
+              return result;
+            };
+          }
+        }
+        const raf = window.requestAnimationFrame.bind(window);
+        window.requestAnimationFrame = callback => raf(time => {
+          if (!window.__freezeCanvasCapture) callback(time);
+        });
+      });
       const errors = [], consoleErrors = [], failedRequests = [], badResponses = [];
       page.on('pageerror', error => errors.push(error.message));
       page.on('console', message => {if(message.type()==='error') consoleErrors.push(message.text());});
@@ -108,8 +128,26 @@ const path = require('node:path');
         layout.images.push(...child.images.map(image => ({...image,visible:visible && image.visible})));
         layout.videos.push(...child.videos);
       }
-      if (previewDelayMs === null) await page.screenshot({ path: path.join(output, `${name}.png`) });
-      results.push({ viewport:name,status:response.status(),introWait,visibleImageWaitMs,...layout,errors,consoleErrors,failedRequests,badResponses });
+      let canvasRendering = null;
+      if (canvasCapture) {
+        const deadline = Date.now() + 60000;
+        let before = 0;
+        while (Date.now() < deadline) {
+          before = await page.evaluate(() => window.__captureDrawCalls);
+          if (before > 0) break;
+          await page.waitForTimeout(250);
+        }
+        await page.waitForTimeout(1200);
+        const after = await page.evaluate(() => window.__captureDrawCalls);
+        canvasRendering = {before,after,drawCallsAdvanced:after>before,canvas:await page.locator('canvas').count()};
+        if (!before || after <= before || !canvasRendering.canvas) throw Error('Original WebGL scene did not render continuously');
+        // Freeze only the injected validation browser after real GPU draw calls
+        // advance. Production source and normal error/layout checks stay intact.
+        await page.evaluate(() => { window.__freezeCanvasCapture = true; });
+        await page.waitForTimeout(300);
+      }
+      if (previewDelayMs === null) await page.screenshot({ path: path.join(output, `${name}.png`),timeout:60000 });
+      results.push({ viewport:name,status:response.status(),introWait,visibleImageWaitMs,canvasRendering,...layout,errors,consoleErrors,failedRequests,badResponses });
       await context.close();
     }
   } finally { await browser.close(); }

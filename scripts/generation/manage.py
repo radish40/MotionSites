@@ -161,7 +161,8 @@ def finish(ident, refresh=False):
     if any(p.stat().st_uid!=os.getuid() for p in [report,*report.iterdir()]):
         execute(['sudo','-n','chown','-R','--no-dereference',f'{os.getuid()}:{os.getgid()}',report])
     try:
-        print(execute(['docker','run','--rm','-u','1000:1000','--shm-size=256m','-v',f'{ROOT}:/work',
+        print(execute(['docker','run','--rm','-u','1000:1000','--shm-size=256m',
+            *(['-e','MOTIONSITES_CANVAS_CAPTURE=1'] if job.get('canvas_capture') else []),'-v',f'{ROOT}:/work',
             '--entrypoint','node','louislam/uptime-kuma:2','/work/scripts/generation/check-live.cjs',url,
             '/work/'+str(report.relative_to(ROOT)),
             *([job.get('preview_selector',''),str(job['preview_delay_ms'])] if job.get('preview_delay_ms') is not None

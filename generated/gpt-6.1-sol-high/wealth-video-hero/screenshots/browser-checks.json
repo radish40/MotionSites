@@ -1,0 +1,51 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/wealth-video-hero/",
+  "checks": [
+    {
+      "name": "Original video autoplay, muted, looping, 150% scale, top-left",
+      "result": "pass",
+      "details": {
+        "paused": false,
+        "time": 0.739107,
+        "muted": true,
+        "loop": true,
+        "width": 3840,
+        "height": 2160,
+        "scale": "1.5",
+        "transform": "none",
+        "position": "0% 0%",
+        "origin": "0px 0px"
+      }
+    },
+    {
+      "name": "1440x1000 desktop layout, exact headline, four steps, no overflow",
+      "result": "pass"
+    },
+    {
+      "name": "Features dropdown and anchor navigation",
+      "result": "pass"
+    },
+    {
+      "name": "All navigation actions, CTA forms and preview confirmation",
+      "result": "pass"
+    },
+    {
+      "name": "Dialog Escape close",
+      "result": "pass"
+    },
+    {
+      "name": "390x844 mobile layout, mobile menu and sign in",
+      "result": "pass"
+    },
+    {
+      "name": "Additional overflow checks at 320, 768, 1024, 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "No browser script errors or failing asset requests",
+      "result": "pass"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/wealth-video-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:11:09.688Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Aureon — Wealth That Lasts",
+      "bodyChars": 614,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/wealth-video-hero/assets/wealth-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.043178,
+          "duration": 8,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/wealth-video-hero/assets/wealth-background.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Aureon — Wealth That Lasts",
+      "bodyChars": 571,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/wealth-video-hero/assets/wealth-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.072366,
+          "duration": 8,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/wealth-video-hero/assets/wealth-background.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

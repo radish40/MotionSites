@@ -1,0 +1,92 @@
+{
+  "title": "Wealth Video Hero",
+  "id": "wealth-video-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "stack": [
+    "React 19.2.0",
+    "Tailwind CSS 4.1.16",
+    "Vite 7.3.7"
+  ],
+  "publish_path": "/motionsites-results/wealth-video-hero/",
+  "output_directory": "dist/",
+  "checks": [
+    {
+      "name": "Production build",
+      "result": "pass",
+      "details": "Real Vite production build; dist/index.html and all local assets present."
+    },
+    {
+      "name": "Dependency audit",
+      "result": "pass",
+      "details": "Final npm install reports 0 vulnerabilities."
+    },
+    {
+      "name": "Original video autoplay, muted, looping, 150% scale, top-left",
+      "result": "pass",
+      "details": {
+        "paused": false,
+        "time": 0.739107,
+        "muted": true,
+        "loop": true,
+        "width": 3840,
+        "height": 2160,
+        "scale": "1.5",
+        "transform": "none",
+        "position": "0% 0%",
+        "origin": "0px 0px"
+      }
+    },
+    {
+      "name": "1440x1000 desktop layout, exact headline, four steps, no overflow",
+      "result": "pass"
+    },
+    {
+      "name": "Features dropdown and anchor navigation",
+      "result": "pass"
+    },
+    {
+      "name": "All navigation actions, CTA forms and preview confirmation",
+      "result": "pass"
+    },
+    {
+      "name": "Dialog Escape close",
+      "result": "pass"
+    },
+    {
+      "name": "390x844 mobile layout, mobile menu and sign in",
+      "result": "pass"
+    },
+    {
+      "name": "Additional overflow checks at 320, 768, 1024, 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "No browser script errors or failing asset requests",
+      "result": "pass"
+    },
+    {
+      "name": "Visual screenshot inspection",
+      "result": "pass",
+      "details": "Desktop and mobile screenshots inspected."
+    }
+  ],
+  "screenshots": {
+    "desktop": "screenshots/desktop.png",
+    "mobile": "screenshots/mobile.png",
+    "mobile_viewport": "screenshots/mobile-viewport.png"
+  },
+  "browser_report": "screenshots/browser-checks.json",
+  "asset_issues": [],
+  "notes": [
+    "Ready for management-session review; not deployed or pushed.",
+    "Original specified 3840x2160 MP4 downloaded successfully and served locally without modification; approximately 23 MiB.",
+    "Poster extracted from the original MP4 at two seconds. No page screenshot is used in the implementation.",
+    "Only this project and its own allowed reference were used. No agents or other sessions were created.",
+    "Aureon is an original white SVG wordmark because the prompt supplies no brand name or logo. No particular font was specified; system sans-serif is used.",
+    "Supplied feature text is preserved verbatim, including incomplete sentence endings.",
+    "Account and sign-in controls are clearly marked local design previews; no data is transmitted or account created. Company and Blogs use local informational dialogs.",
+    "Physical mobile devices and browser engines other than Chromium were not tested.",
+    "Mobile screenshot is full-page at a 390x844 viewport; an exact viewport screenshot is also provided."
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "mounted": 5,
+      "slides": [
+        {
+          "active": "Slide 1 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        },
+        {
+          "active": "Slide 2 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        },
+        {
+          "active": "Slide 3 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        },
+        {
+          "active": "Slide 4 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        },
+        {
+          "active": "Slide 5 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        }
+      ],
+      "keyboard": [
+        {
+          "key": "ArrowRight",
+          "expected": 3,
+          "active": "Slide 3 of 5",
+          "passed": true
+        },
+        {
+          "key": "ArrowDown",
+          "expected": 4,
+          "active": "Slide 4 of 5",
+          "passed": true
+        },
+        {
+          "key": "Space",
+          "expected": 5,
+          "active": "Slide 5 of 5",
+          "passed": true
+        },
+        {
+          "key": "ArrowLeft",
+          "expected": 4,
+          "active": "Slide 4 of 5",
+          "passed": true
+        },
+        {
+          "key": "ArrowUp",
+          "expected": 3,
+          "active": "Slide 3 of 5",
+          "passed": true
+        }
+      ],
+      "persistentVideos": true,
+      "videos": [
+        {
+          "readyState": 4,
+          "currentTime": 4.608212,
+          "paused": false,
+          "width": 1708,
+          "height": 1212,
+          "error": null,
+          "status": null
+        },
+        {
+          "readyState": 4,
+          "currentTime": 10.68157,
+          "paused": false,
+          "width": 1280,
+          "height": 668,
+          "error": null,
+          "status": null
+        },
+        {
+          "readyState": 4,
+          "currentTime": 15.089752,
+          "paused": false,
+          "width": 3840,
+          "height": 1846,
+          "error": null,
+          "status": null
+        },
+        {
+          "readyState": 4,
+          "currentTime": 0.913956,
+          "paused": false,
+          "width": 2210,
+          "height": 1080,
+          "error": null,
+          "status": null
+        },
+        {
+          "readyState": 4,
+          "currentTime": 4.193733,
+          "paused": false,
+          "width": 1664,
+          "height": 1244,
+          "error": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "mounted": 5,
+      "slides": [
+        {
+          "active": "Slide 1 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        },
+        {
+          "active": "Slide 2 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        },
+        {
+          "active": "Slide 3 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        },
+        {
+          "active": "Slide 4 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        },
+        {
+          "active": "Slide 5 of 5",
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "textOutside": []
+        }
+      ],
+      "keyboard": [
+        {
+          "key": "ArrowRight",
+          "expected": 3,
+          "active": "Slide 3 of 5",
+          "passed": true
+        },
+        {
+          "key": "ArrowDown",
+          "expected": 4,
+          "active": "Slide 4 of 5",
+          "passed": true
+        },
+        {
+          "key": "Space",
+          "expected": 5,
+          "active": "Slide 5 of 5",
+          "passed": true
+        },
+        {
+          "key": "ArrowLeft",
+          "expected": 4,
+          "active": "Slide 4 of 5",
+          "passed": true
+        },
+        {
+          "key": "ArrowUp",
+          "expected": 3,
+          "active": "Slide 3 of 5",
+          "passed": true
+        }
+      ],
+      "persistentVideos": true,
+      "videos": [
+        {
+          "readyState": 2,
+          "currentTime": 3.85695,
+          "paused": false,
+          "width": 1708,
+          "height": 1212,
+          "error": null,
+          "status": null
+        },
+        {
+          "readyState": 4,
+          "currentTime": 10.215201,
+          "paused": false,
+          "width": 1280,
+          "height": 668,
+          "error": null,
+          "status": null
+        },
+        {
+          "readyState": 4,
+          "currentTime": 15.398066,
+          "paused": false,
+          "width": 3840,
+          "height": 1846,
+          "error": null,
+          "status": null
+        },
+        {
+          "readyState": 2,
+          "currentTime": 0.354319,
+          "paused": false,
+          "width": 2210,
+          "height": 1080,
+          "error": null,
+          "status": null
+        },
+        {
+          "readyState": 4,
+          "currentTime": 3.446782,
+          "paused": false,
+          "width": 1664,
+          "height": 1244,
+          "error": null,
+          "status": null
+        }
+      ]
+    }
+  ]
+}

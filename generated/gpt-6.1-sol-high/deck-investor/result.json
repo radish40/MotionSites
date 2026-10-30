@@ -1,0 +1,134 @@
+{
+  "title": "Investor Deck",
+  "id": "deck-investor",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser_report": "screenshots/browser-check.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "viewports": [
+      {
+        "size": "1440x1000",
+        "all_five_dots": "passed",
+        "keyboard": "passed",
+        "persistent_video_elements": true,
+        "layout_overflow": false,
+        "video_playback": [
+          {
+            "slide": 1,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 4,
+            "error": null
+          },
+          {
+            "slide": 2,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 4,
+            "error": null
+          },
+          {
+            "slide": 3,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 4,
+            "error": null
+          },
+          {
+            "slide": 4,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 4,
+            "error": null
+          },
+          {
+            "slide": 5,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 4,
+            "error": null
+          }
+        ]
+      },
+      {
+        "size": "390x844",
+        "all_five_dots": "passed",
+        "keyboard": "passed",
+        "persistent_video_elements": true,
+        "layout_overflow": false,
+        "video_playback": [
+          {
+            "slide": 1,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 2,
+            "error": null
+          },
+          {
+            "slide": 2,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 4,
+            "error": null
+          },
+          {
+            "slide": 3,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 4,
+            "error": null
+          },
+          {
+            "slide": 4,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 2,
+            "error": null
+          },
+          {
+            "slide": 5,
+            "advanced": true,
+            "paused": false,
+            "ready_state": 4,
+            "error": null
+          }
+        ]
+      }
+    ],
+    "script_errors": [],
+    "console_errors": [],
+    "failed_requests": []
+  },
+  "asset_issues": [
+    {
+      "asset": "Aeonik",
+      "issue": "No font file or URL supplied; CSS requests Aeonik and falls back to sans-serif. Exact typography requires a licensed font."
+    },
+    {
+      "asset": "Logo SVG",
+      "issue": "Original path data absent. Locally recreated Viktory wordmark in src/assets/logo.svg."
+    },
+    {
+      "asset": "Chart PNG",
+      "issue": "Original PNG absent. Locally generated gradient fill; reproducible with scripts/generate-chart.py."
+    },
+    {
+      "asset": "Reference preview",
+      "issue": "Design-specific optional WebP not present. Original screenshot comparison unavailable."
+    }
+  ],
+  "notes": [
+    "Built with React, Tailwind CSS v4, motion/react, and hls.js. All five slides and videos remain mounted.",
+    "All five exact Mux streams loaded and advanced on desktop and mobile. Mobile streams 1 and 4 had readyState 2 at final sampling; external streams may buffer. Local exact-video posters cover startup.",
+    "Five individual slide screenshots per viewport are included in screenshots/.",
+    "Desktop and mobile checks: zero script/console errors or failed requests; no page/text overflow; all five navigation keys passed while a dot had focus.",
+    "Production base: /motionsites-results/deck-investor/. dist/ is ready for review; not deployed or pushed.",
+    "Non-fatal Motion directives and bundle-size warnings are retained in screenshots/build.log.",
+    "Only this project was implemented. No agents or other sessions were created."
+  ]
+}

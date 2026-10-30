@@ -1,0 +1,72 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/finlytic-ai-agent/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:31:46.961Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Finlytic AI Agent",
+      "bodyChars": 253,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/finlytic-ai-agent/assets/dashboard.svg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/finlytic-ai-agent/assets/hero-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.93015,
+          "duration": 5.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Finlytic AI Agent",
+      "bodyChars": 212,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/finlytic-ai-agent/assets/dashboard.svg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/finlytic-ai-agent/assets/hero-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.362231,
+          "duration": 5.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

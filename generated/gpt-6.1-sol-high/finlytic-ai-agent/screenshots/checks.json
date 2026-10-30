@@ -1,0 +1,150 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": [
+        {
+          "name": "Inter",
+          "loaded": true
+        },
+        {
+          "name": "Manrope",
+          "loaded": true
+        },
+        {
+          "name": "Instrument Serif",
+          "loaded": true
+        },
+        {
+          "name": "Cabin",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "ready": 4,
+        "paused": false,
+        "time": 2.515251,
+        "width": 1664,
+        "height": 1244
+      },
+      "dashboardLoaded": 1120,
+      "heading": {
+        "x": 372.25,
+        "y": 264,
+        "width": 695.484375,
+        "height": 174.78125,
+        "top": 264,
+        "right": 1067.734375,
+        "bottom": 438.78125,
+        "left": 372.25
+      }
+    },
+    "checks": [
+      {
+        "name": "services dropdown",
+        "passed": true
+      },
+      {
+        "name": "service dialog",
+        "passed": true
+      },
+      {
+        "name": "signup preview form",
+        "passed": true
+      },
+      {
+        "name": "demo preview",
+        "passed": true
+      },
+      {
+        "name": "signin preview form",
+        "passed": true
+      },
+      {
+        "name": "Reviews dialog",
+        "passed": true
+      },
+      {
+        "name": "Contact us dialog",
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "failed": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": [
+        {
+          "name": "Inter",
+          "loaded": true
+        },
+        {
+          "name": "Manrope",
+          "loaded": true
+        },
+        {
+          "name": "Instrument Serif",
+          "loaded": true
+        },
+        {
+          "name": "Cabin",
+          "loaded": true
+        }
+      ],
+      "video": {
+        "ready": 4,
+        "paused": false,
+        "time": 2.490946,
+        "width": 1664,
+        "height": 1244
+      },
+      "dashboardLoaded": 1120,
+      "heading": {
+        "x": 28.921875,
+        "y": 187,
+        "width": 332.140625,
+        "height": 86.09375,
+        "top": 187,
+        "right": 361.0625,
+        "bottom": 273.09375,
+        "left": 28.921875
+      }
+    },
+    "checks": [
+      {
+        "name": "mobile navigation",
+        "passed": true
+      },
+      {
+        "name": "services dropdown",
+        "passed": true
+      },
+      {
+        "name": "service dialog",
+        "passed": true
+      },
+      {
+        "name": "signup preview form",
+        "passed": true
+      },
+      {
+        "name": "demo preview",
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "failed": []
+  }
+}

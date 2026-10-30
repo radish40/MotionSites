@@ -1,0 +1,49 @@
+{
+  "title": "Finlytic AI Agent",
+  "id": "finlytic-ai-agent",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: Vite 7.3.7; dist/index.html exists",
+    "browser": "passed: Chromium via Playwright Core",
+    "desktop": "1440x1000; no horizontal overflow",
+    "mobile": "390x844; no horizontal overflow",
+    "assets": "all local fonts, dashboard image and original video loaded; video autoplay verified",
+    "interactions": "passed: mobile menu, services dropdown and detail, signup form, sign-in form, demo preview, reviews and contact dialogs, dismissal",
+    "script_errors": 0,
+    "failed_requests": 0,
+    "dependency_audit": "0 vulnerabilities reported during install",
+    "details": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "reference preview",
+      "issue": "Specified finlytic-ai-agent.webp file does not exist; no visual-reference comparison possible."
+    },
+    {
+      "asset": "dashboard image",
+      "issue": "No original image was supplied. Created original local SVG illustration; appearance is approximate. Generator: scripts/create-dashboard.py."
+    },
+    {
+      "asset": "LOGOIPSUM SVG",
+      "issue": "No original SVG supplied. Created white inline SVG wordmark approximation at specified size."
+    },
+    {
+      "asset": "2-minute demo",
+      "issue": "No demo clip supplied; CTA opens a clearly identified preview dialog."
+    }
+  ],
+  "notes": [
+    "Implemented only this project; no agents, other sessions, deployment, push or messages.",
+    "All output is local to this project.",
+    "Required publishing base: /motionsites-results/finlytic-ai-agent/.",
+    "Account, reviews and contact flows are frontend previews; no backend or data transmission.",
+    "Exact background video downloaded unchanged; requested fonts hosted locally.",
+    "Ready for management review; not deployed."
+  ]
+}

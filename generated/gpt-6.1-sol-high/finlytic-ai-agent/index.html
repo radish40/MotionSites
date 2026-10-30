@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="The next-generation AI agent platform that handles lead generation, customer support, and data entry while you build." />
+    <link rel="stylesheet" href="/assets/fonts.css" />
+    <title>Finlytic AI Agent</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%237b39fc'/%3E%3Cpath d='M10 8h14l-4 6h-6v4h7l-4 6h-7z' fill='white'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <main class="hero" id="home">
+      <video class="background-video" autoplay loop muted playsinline aria-hidden="true"><source src="/assets/hero-background.mp4" type="video/mp4" /></video>
+      <div class="background-blur" aria-hidden="true"></div>
+      <header class="navbar">
+        <div class="nav-left">
+          <a class="logo" href="#home" aria-label="Logoipsum home">
+            <svg width="134" height="25" viewBox="0 0 134 25" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LOGOIPSUM"><g fill="white"><path d="M0 4h8v8H0zM8 12h8v8H8zM8 4a8 8 0 0 1 8 8H8zM8 20a8 8 0 0 1-8-8h8z"/><text x="22" y="18.8" font-family="Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="-.8">LOGOIPSUM</text></g></svg>
+          </a>
+          <nav class="nav-links" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <div class="services-wrap"><button class="nav-link" id="services-button" aria-expanded="false" aria-controls="services-menu">Services<svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m7 10 5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div id="services-menu" class="services-menu" hidden><button data-service="Lead generation">Lead generation</button><button data-service="Customer support">Customer support</button><button data-service="Data entry">Data entry</button></div></div>
+            <button class="nav-link" data-info="reviews">Reviews</button>
+            <button class="nav-link" data-info="contact">Contact us</button>
+          </nav>
+        </div>
+        <div class="nav-actions"><button class="button sign-in" data-open="signin">Sign In</button><button class="button primary" data-open="signup">Get Started</button></div>
+        <button class="mobile-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      </header>
+      <section class="hero-content" aria-labelledby="hero-title">
+        <div class="heading-block"><h1 id="hero-title"><span>Automate repetitive.</span><em>Focus on growth.</em></h1><p>The next-generation AI agent platform that handles lead generation, customer support, and data entry while you build.</p></div>
+        <div class="hero-actions"><button class="hero-button primary" data-open="signup">Get Started Free</button><button class="hero-button secondary" data-open="demo">Watch 2min Demo</button></div>
+      </section>
+      <div class="dashboard-wrap" id="dashboard"><div class="dashboard-glass"><img src="/assets/dashboard.svg" width="1120" height="650" alt="Finlytic dashboard showing AI agent activity, leads generated, hours saved, and recent automations" /></div></div>
+    </main>
+    <dialog id="action-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close dialog">×</button><div id="dialog-content"></div></dialog>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

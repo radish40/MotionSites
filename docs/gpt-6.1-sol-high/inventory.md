@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 215/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 218/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -298,16 +298,16 @@
 | 211 | `synthesis` | Synthesis | Landing Page | 2 | 图片 | 已完成 |
 | 212 | `tech-noir-about` | Tech-Noir About | About Section | 2 | 图片 | 已完成 |
 | 213 | `technical-specifications` | Technical Specifications | Components | 2 | 图片 | 已完成 |
-| 214 | `travel-hero` | Scenic Travel | Landing Page | 2 | 图片 | 待验收 |
+| 214 | `travel-hero` | Scenic Travel | Landing Page | 2 | 图片 | 已完成 |
 | 215 | `unwind-hero` | Unwind Hero | Hero Section | 2 | 图片 | 已完成 |
 | 216 | `vaultshield` | VaultShield | Hero Section | 2 | 图片 | 已完成 |
-| 217 | `veloce-cards` | Veloce Cards | Cards | 2 | 图片 | 生成中 |
-| 218 | `velorix-iic` | Velorix IIC | Hero Section | 2 | 图片 | 生成中 |
+| 217 | `veloce-cards` | Veloce Cards | Cards | 2 | 图片 | 已完成 |
+| 218 | `velorix-iic` | Velorix IIC | Hero Section | 2 | 图片 | 已完成 |
 | 219 | `vertex-sci` | Vertex Sci | Hero Section | 2 | 图片 | 生成中 |
 | 220 | `visual-hero` | Visual Hero | Hero Section | 2 | 图片 | 生成中 |
 | 221 | `waitlist-hero` | Waitlist Hero | Hero Section | 2 | 图片 | 生成中 |
-| 222 | `wanderful-hero` | Wanderful Hero | Travel | 2 | 图片 | 未开始 |
-| 223 | `wellness-balance` | Wellness Balance | Hero Section | 2 | 图片 | 未开始 |
+| 222 | `wanderful-hero` | Wanderful Hero | Travel | 2 | 图片 | 生成中 |
+| 223 | `wellness-balance` | Wellness Balance | Hero Section | 2 | 图片 | 生成中 |
 | 224 | `wellness-hero` | Wellness Hero | Hero Section | 2 | 图片 | 未开始 |
 | 225 | `yoga-coach` | Yoga Coach | Landing Page | 2 | 图片 | 未开始 |
 | 226 | `404` | Nexto 404 | 404 Pages | 2 | 图片 | 未开始 |

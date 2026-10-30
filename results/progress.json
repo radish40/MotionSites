@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:04:48.509239+00:00",
+  "updated_utc": "2026-10-30T03:07:18.574271+00:00",
   "total": 380,
   "counts": {
-    "complete": 215,
-    "ready": 1,
+    "complete": 218,
     "running": 5,
-    "not_started": 159
+    "not_started": 157
   },
   "current_batch": {
     "from_number": 201,
@@ -2151,11 +2150,11 @@
       "id": "travel-hero",
       "title": "Scenic Travel",
       "category": "Landing Page",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ab8-691b-7bc2-a45e-5bcf3ee18a01",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "eadfd22f70b6033e4c6c9a0666b9f4678cb2fa9e",
+      "group_message_id": 279,
+      "url": "https://tool.luo-xd.com/motionsites-results/travel-hero/"
     },
     {
       "id": "unwind-hero",
@@ -2181,21 +2180,21 @@
       "id": "veloce-cards",
       "title": "Veloce Cards",
       "category": "Cards",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18abd-3af6-7c43-abf1-60427baef3a8",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "fc8311d9c0ae4ac4b2110fa588c5f8aa2e358117",
+      "group_message_id": 280,
+      "url": "https://tool.luo-xd.com/motionsites-results/veloce-cards/"
     },
     {
       "id": "velorix-iic",
       "title": "Velorix IIC",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18abe-fb29-7cc1-8917-bf4b14e4a28e",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b0580ab1f6f92bf848dd01b3ef29e8a45579b6ea",
+      "group_message_id": 281,
+      "url": "https://tool.luo-xd.com/motionsites-results/velorix-iic/"
     },
     {
       "id": "vertex-sci",
@@ -2222,7 +2221,7 @@
       "title": "Waitlist Hero",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac2-b8c5-7ea3-b328-bfa56f7659e6",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2231,7 +2230,7 @@
       "id": "wanderful-hero",
       "title": "Wanderful Hero",
       "category": "Travel",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2241,7 +2240,7 @@
       "id": "wellness-balance",
       "title": "Wellness Balance",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

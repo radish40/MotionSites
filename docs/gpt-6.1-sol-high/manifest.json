@@ -7331,10 +7331,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ab8-691b-7bc2-a45e-5bcf3ee18a01",
       "output_path": "generated/gpt-6.1-sol-high/travel-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 419193,
       "launch_method": "isolated_codex_exec",
@@ -7344,7 +7344,11 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "additional_verification": "docs/gpt-6.1-sol-high/audits/travel-hero-routes.json"
+      "additional_verification": "docs/gpt-6.1-sol-high/audits/travel-hero-routes.json",
+      "source_commit": "eadfd22f70b6033e4c6c9a0666b9f4678cb2fa9e",
+      "url": "https://tool.luo-xd.com/motionsites-results/travel-hero/",
+      "completed_utc": "2026-10-30T03:05:58.908455+00:00",
+      "group_message_id": 279
     },
     {
       "number": 215,
@@ -7430,20 +7434,24 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18abd-3af6-7c43-abf1-60427baef3a8",
       "output_path": "generated/gpt-6.1-sol-high/veloce-cards",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Confirmed terminal UTF-8 transport failure; retry queued in the same original design session, preserving files and model configuration.",
       "process_id": 462101,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:02:49.525790+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "fc8311d9c0ae4ac4b2110fa588c5f8aa2e358117",
+      "url": "https://tool.luo-xd.com/motionsites-results/veloce-cards/",
+      "completed_utc": "2026-10-30T03:06:50.720186+00:00",
+      "group_message_id": 280
     },
     {
       "number": 218,
@@ -7461,19 +7469,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18abe-fb29-7cc1-8917-bf4b14e4a28e",
       "output_path": "generated/gpt-6.1-sol-high/velorix-iic",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 448526,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:58:54.054168+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b0580ab1f6f92bf848dd01b3ef29e8a45579b6ea",
+      "url": "https://tool.luo-xd.com/motionsites-results/velorix-iic/",
+      "completed_utc": "2026-10-30T03:07:18.403501+00:00",
+      "group_message_id": 281
     },
     {
       "number": 219,
@@ -7552,14 +7564,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac2-b8c5-7ea3-b328-bfa56f7659e6",
       "output_path": "generated/gpt-6.1-sol-high/waitlist-hero",
       "validation": "",
       "notes": "",
       "process_id": 462410,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:02:59.443583+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 222,
@@ -7577,11 +7593,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/wanderful-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 474387,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:05:59.331192+00:00",
+      "worker_state": "running"
     },
     {
       "number": 223,
@@ -7599,11 +7619,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/wellness-balance",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 474439,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:05:59.529355+00:00",
+      "worker_state": "running"
     },
     {
       "number": 224,
@@ -11060,7 +11084,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:04:48.509239+00:00",
+  "updated_utc": "2026-10-30T03:07:18.574271+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

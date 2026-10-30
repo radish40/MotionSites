@@ -10775,19 +10775,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b28-7935-75f0-89e3-62f3faeae3b4",
       "output_path": "generated/gpt-6.1-sol-high/scaling-platform",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 897886,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:54:07.731551+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "796bd65abea93e765fa633bd75d5e81df1fa70ab",
+      "url": "https://tool.luo-xd.com/motionsites-results/scaling-platform/",
+      "completed_utc": "2026-10-30T05:02:32.803695+00:00",
+      "group_message_id": 381
     },
     {
       "number": 316,
@@ -10805,19 +10809,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b2a-abb4-7253-a0f3-877311534427",
       "output_path": "generated/gpt-6.1-sol-high/quantum-lucid",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 909059,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:56:31.823757+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "deb904f7d111dba7c4e3d974e81acec7ec97a960",
+      "url": "https://tool.luo-xd.com/motionsites-results/quantum-lucid/",
+      "completed_utc": "2026-10-30T05:02:57.768763+00:00",
+      "group_message_id": 382
     },
     {
       "number": 317,
@@ -10866,14 +10874,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b2d-718b-7651-b8a3-43be4cd6041b",
       "output_path": "generated/gpt-6.1-sol-high/7",
       "validation": "",
       "notes": "",
       "process_id": 921900,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:59:33.195377+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 319,
@@ -10891,11 +10903,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/portfolio-cosmic-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 929294,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:01:56.169956+00:00",
+      "worker_state": "running"
     },
     {
       "number": 320,
@@ -10913,11 +10929,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/3",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 929400,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:01:57.562802+00:00",
+      "worker_state": "running"
     },
     {
       "number": 321,
@@ -12241,7 +12261,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:00:44.443714+00:00",
+  "updated_utc": "2026-10-30T05:02:57.964255+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

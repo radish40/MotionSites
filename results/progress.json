@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:00:44.443714+00:00",
+  "updated_utc": "2026-10-30T05:02:57.964255+00:00",
   "total": 380,
   "counts": {
-    "complete": 313,
+    "complete": 315,
     "running": 5,
-    "not_started": 62
+    "not_started": 60
   },
   "current_batch": {
     "from_number": 201,
@@ -3160,21 +3160,21 @@
       "id": "scaling-platform",
       "title": "Scaling Platform",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b28-7935-75f0-89e3-62f3faeae3b4",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "796bd65abea93e765fa633bd75d5e81df1fa70ab",
+      "group_message_id": 381,
+      "url": "https://tool.luo-xd.com/motionsites-results/scaling-platform/"
     },
     {
       "id": "quantum-lucid",
       "title": "Quantum Lucid",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b2a-abb4-7253-a0f3-877311534427",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "deb904f7d111dba7c4e3d974e81acec7ec97a960",
+      "group_message_id": 382,
+      "url": "https://tool.luo-xd.com/motionsites-results/quantum-lucid/"
     },
     {
       "id": "space-planet",
@@ -3191,7 +3191,7 @@
       "title": "Synapse Dark Hero",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b2d-718b-7651-b8a3-43be4cd6041b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3200,7 +3200,7 @@
       "id": "portfolio-cosmic-hero",
       "title": "Portfolio Cosmic",
       "category": "Portfolio",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3210,7 +3210,7 @@
       "id": "3",
       "title": "ClearInvoice SaaS Hero",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

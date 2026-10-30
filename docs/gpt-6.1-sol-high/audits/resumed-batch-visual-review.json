@@ -543,7 +543,43 @@
         "generated/gpt-6.1-sol-high/nickel-payments/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/nickel-payments/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "orbis-nft",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Exact astronaut video, Anton heading and script accent render at desktop and mobile sizes. Worker browser evidence covers all six supplied video sources, each lower section playing in view, FAQ and object details. Missing standalone texture recreated and documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/orbis-nft/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/orbis-nft/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "orbit-web3",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original gold-coin video, serif typography, navigation and builder marquee render at both sizes. Worker verified animation, focus and hover; launch destination is unspecified and documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/orbit-web3/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/orbit-web3/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "railroad.ai",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original video, centered title, waitlist email control and responsive typography render at both sizes. Waitlist saves only on the current device, with this scope disclosed in the UI.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/railroad.ai/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/railroad.ai/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:41:18.921064+00:00"
+  "updated_utc": "2026-10-30T03:43:55.846310+00:00"
 }

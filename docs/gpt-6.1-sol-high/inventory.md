@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 247/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 248/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -332,13 +332,13 @@
 | 245 | `nickel-payments` | Nickel Payments | SaaS | 1 | 视频 | 已完成 |
 | 246 | `orbis-nft` | Orbis NFT | Landing Page | 2 | 视频 | 已完成 |
 | 247 | `orbit-web3` | Orbit Web3 | Web3 | 1 | 视频 | 已完成 |
-| 248 | `planet-orbit` | Planet Orbit | SaaS | 2 | 视频 | 生成中 |
+| 248 | `planet-orbit` | Planet Orbit | SaaS | 2 | 视频 | 已完成 |
 | 249 | `power-ai` | Power AI | Hero Section | 1 | 视频 | 生成中 |
 | 250 | `railroad.ai` | Railroad.ai | Hero Section | 2 | 视频 | 验收中 |
 | 251 | `sky-elite-private-jets` | SkyElite Private Jets | Landing Page | 1 | 视频 | 生成中 |
 | 252 | `stellar-ai` | Stellar AI | Hero Section | 1 | 视频 | 生成中 |
 | 253 | `taskly` | Taskly | Hero Section | 1 | 图片 | 生成中 |
-| 254 | `taskora-saa-s-hero` | Taskora SaaS Hero | SaaS | 1 | 视频 | 未开始 |
+| 254 | `taskora-saa-s-hero` | Taskora SaaS Hero | SaaS | 1 | 视频 | 生成中 |
 | 255 | `terra-geo-map` | Terra Geo Map | SaaS | 2 | 视频 | 未开始 |
 | 256 | `transform-data` | Transform Data | Hero Section | 1 | 视频 | 未开始 |
 | 257 | `velorah` | Velorah | Agency | 2 | 视频 | 未开始 |

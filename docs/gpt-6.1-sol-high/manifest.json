@@ -8489,19 +8489,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ae3-6754-7ca2-b745-e8451dfbe44e",
       "output_path": "generated/gpt-6.1-sol-high/planet-orbit",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 596313,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:38:41.241872+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "22ccef75cc37437c65dd5ff20e74ee9eb1086087",
+      "url": "https://tool.luo-xd.com/motionsites-results/planet-orbit/",
+      "completed_utc": "2026-10-30T03:44:41.026658+00:00",
+      "group_message_id": 313
     },
     {
       "number": 249,
@@ -8562,7 +8566,7 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "delivery_failures": 1
+      "delivery_failures": 2
     },
     {
       "number": 251,
@@ -8581,14 +8585,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ae6-d35f-7aa0-9f00-a1453c9d5728",
       "output_path": "generated/gpt-6.1-sol-high/sky-elite-private-jets",
       "validation": "",
       "notes": "",
       "process_id": 612195,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:42:25.545964+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 252,
@@ -8607,14 +8615,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ae6-d451-7123-aef9-9c542cd2a245",
       "output_path": "generated/gpt-6.1-sol-high/stellar-ai",
       "validation": "",
       "notes": "",
       "process_id": 612269,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:42:25.685123+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 253,
@@ -8633,14 +8645,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ae6-d4d7-7ae2-93b9-3f867c81fa0e",
       "output_path": "generated/gpt-6.1-sol-high/taskly",
       "validation": "",
       "notes": "",
       "process_id": 612324,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:42:25.833269+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 254,
@@ -8658,11 +8674,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/taskora-saa-s-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 619208,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:44:13.251632+00:00",
+      "worker_state": "running"
     },
     {
       "number": 255,
@@ -11438,7 +11458,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:43:19.267685+00:00",
+  "updated_utc": "2026-10-30T03:44:41.584084+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

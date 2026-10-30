@@ -1,0 +1,140 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/5/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:24:26.872Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Digital Reality — Design for what’s next",
+      "bodyChars": 344,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/openai.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/nvidia.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/github.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/vercel.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/linear.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/openai.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/nvidia.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/github.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/vercel.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/linear.svg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Digital Reality — Design for what’s next",
+      "bodyChars": 343,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/openai.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/nvidia.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/github.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/vercel.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/linear.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/openai.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/nvidia.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/github.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/vercel.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/5/logos/linear.svg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

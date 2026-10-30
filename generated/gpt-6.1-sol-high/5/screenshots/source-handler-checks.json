@@ -1,0 +1,43 @@
+{
+  "originalPlayback": "unavailable; not tested as restored",
+  "fixtureOnly": true,
+  "hls-fallback": {
+    "attempts": {
+      "hls": 1,
+      "fallback": 1
+    },
+    "fixtureLoaded": true,
+    "fixturePlaying": true,
+    "pauseWorks": true,
+    "resumeWorks": true
+  },
+  "native-selection-fallback": {
+    "attempts": {
+      "hls": 1,
+      "fallback": 1
+    },
+    "fixtureLoaded": true,
+    "fixturePlaying": true,
+    "pauseWorks": true,
+    "resumeWorks": true
+  },
+  "no-hls-support-fallback": {
+    "attempts": {
+      "hls": 0,
+      "fallback": 1
+    },
+    "fixtureLoaded": true,
+    "fixturePlaying": true,
+    "pauseWorks": true,
+    "resumeWorks": true
+  },
+  "both-unavailable": {
+    "attempts": {
+      "hls": 1,
+      "fallback": 1
+    },
+    "cssApproximationVisible": true,
+    "controlsHidden": true
+  },
+  "passed": true
+}

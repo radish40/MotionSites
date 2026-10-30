@@ -1,0 +1,46 @@
+{
+  "design": {
+    "id": 5,
+    "title": "Glassmorphism Agency Hero"
+  },
+  "original_media": {
+    "availability": "unavailable",
+    "original_playback_verified": false,
+    "hls_url": "https://customer-cbeadsgr09pnsezs.cloudflarestream.com/697945ca6b876878dba3b23fbd2f1561/manifest/video.m3u8",
+    "mp4_path": "/_videos/v1/f0c78f536d5f21a047fb7792723a36f9d647daa1",
+    "recovery_evidence": "screenshots/source-recovery.json",
+    "recovery_result": "Both exact source paths still return HTTP 404. Prior direct-download recovery also failed. No original footage was recovered.",
+    "default_enabled": false,
+    "enable_for_one_visit": "?media=original",
+    "enable_at_build": "VITE_ENABLE_ORIGINAL_MEDIA=true",
+    "handler": "src/hooks/useHeroMedia.ts"
+  },
+  "default_rendering": {
+    "asset": "src/index.css (.ambient-art, .orbital, .horizon)",
+    "type": "Original local CSS approximation, not original footage or extracted imagery",
+    "network_behavior": "No video element, media source requests or availability probes"
+  },
+  "original_preview": {
+    "status": "No optional original preview exists according to catalog",
+    "used": false
+  },
+  "logo_substitutes": {
+    "status": "Local substitute symbols with approximate typeset wordmarks",
+    "original_urls": [
+      "https://html.tailus.io/blocks/customers/openai.svg",
+      "https://html.tailus.io/blocks/customers/nvidia.svg"
+    ],
+    "original_failure": "Redirect to unrelated website",
+    "substitute_source": "https://cdn.jsdelivr.net/npm/simple-icons@11.15.0/icons/{openai,nvidia,github,vercel,linear}.svg",
+    "restoration_script": "scripts/restore-assets.py"
+  },
+  "validation": {
+    "default_unmocked_production": "screenshots/checks.json",
+    "source_handlers_fixture_only": "screenshots/source-handler-checks.json",
+    "fixture_description": "Generated in-memory WebM; source request interception used only by check-sources.cjs",
+    "original_playback_claimed": false,
+    "native_hls_decoding_verified": false,
+    "previous_management_failure_unchanged": "screenshots/live-check.json",
+    "public_redeployment_performed": false
+  }
+}

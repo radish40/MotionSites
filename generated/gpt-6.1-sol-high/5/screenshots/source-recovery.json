@@ -1,0 +1,17 @@
+{
+  "scope": "Only exact same-design original sources; manual recovery check, not page-load requests.",
+  "results": [
+    {
+      "url": "https://customer-cbeadsgr09pnsezs.cloudflarestream.com/697945ca6b876878dba3b23fbd2f1561/manifest/video.m3u8",
+      "headers": "HTTP/2 404 \ndate: Fri, 30 Oct 2026 05:21:28 GMT\ncontent-type: text/plain\naccess-control-allow-origin: *\ncache-control: no-cache, no-store, must-revalidate\nvary: origin\nerr-code: 1020002\nstream-dwg-version: 5136c8a9-7cf1-46da-b93e-9aa96d77ab40\nserver: cloudflare\ncf-ray: a527fa077e81d1c8-KIX\n\n",
+      "error": "",
+      "exit_code": 0
+    },
+    {
+      "url": "https://tool.luo-xd.com/_videos/v1/f0c78f536d5f21a047fb7792723a36f9d647daa1",
+      "headers": "HTTP/2 404 \ndate: Fri, 30 Oct 2026 05:21:28 GMT\ncontent-type: text/html\nserver: cloudflare\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nstrict-transport-security: max-age=31536000\nx-content-type-options: nosniff\nx-frame-options: DENY\nreferrer-policy: no-referrer\npermissions-policy: camera=(), microphone=(), geolocation=()\ncontent-security-policy: default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'\ncf-cache-status: DYNAMIC\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xdkv1Wlz8pVuy4BIa5FmE8VbFDvnzCNb%2BXUo9N00hu0dI1B67QrFyZwhJCVVyRAw%2Fnow8y0WsCi80leS4HZcWV1dvtEjHFwKxGx7RLHS%2FVq7eQDZPyEGnIWbvd19M8%2FZwa8%3D\"}]}\ncf-ray: a527fa0bbd20eee3-KIX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+      "error": "",
+      "exit_code": 0
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "title": "Glassmorphism Agency Hero",
+  "id": 5,
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "default_production_browser": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "errors": [],
+        "consoleErrors": [],
+        "failedRequests": [],
+        "badResponses": [],
+        "mediaRequests": [],
+        "overflow": false,
+        "logosLoaded": true,
+        "sliderAnimated": true,
+        "heading": "Your Vision\nOur Digital Reality.",
+        "cta": "mailto:?subject=Book%20a%2015-min%20call&body=Hi%2C%20I%E2%80%99d%20love%20to%20discuss%20my%20project.%0A%0AMy%20availability%3A%20",
+        "mediaMode": "local-approximation",
+        "mediaStatus": "disabled",
+        "videoElements": 0,
+        "ctaKeyboardFocus": true,
+        "ctaKeyboardActivated": true
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "errors": [],
+        "consoleErrors": [],
+        "failedRequests": [],
+        "badResponses": [],
+        "mediaRequests": [],
+        "overflow": false,
+        "logosLoaded": true,
+        "sliderAnimated": true,
+        "heading": "Your Vision\nOur Digital Reality.",
+        "cta": "mailto:?subject=Book%20a%2015-min%20call&body=Hi%2C%20I%E2%80%99d%20love%20to%20discuss%20my%20project.%0A%0AMy%20availability%3A%20",
+        "mediaMode": "local-approximation",
+        "mediaStatus": "disabled",
+        "videoElements": 0,
+        "ctaKeyboardFocus": true,
+        "ctaKeyboardActivated": true
+      },
+      "reducedMotion": {
+        "sliderStopped": true,
+        "artStopped": true
+      },
+      "passed": true
+    },
+    "source_handlers_fixture_only": {
+      "originalPlayback": "unavailable; not tested as restored",
+      "fixtureOnly": true,
+      "hls-fallback": {
+        "attempts": {
+          "hls": 1,
+          "fallback": 1
+        },
+        "fixtureLoaded": true,
+        "fixturePlaying": true,
+        "pauseWorks": true,
+        "resumeWorks": true
+      },
+      "native-selection-fallback": {
+        "attempts": {
+          "hls": 1,
+          "fallback": 1
+        },
+        "fixtureLoaded": true,
+        "fixturePlaying": true,
+        "pauseWorks": true,
+        "resumeWorks": true
+      },
+      "no-hls-support-fallback": {
+        "attempts": {
+          "hls": 0,
+          "fallback": 1
+        },
+        "fixtureLoaded": true,
+        "fixturePlaying": true,
+        "pauseWorks": true,
+        "resumeWorks": true
+      },
+      "both-unavailable": {
+        "attempts": {
+          "hls": 1,
+          "fallback": 1
+        },
+        "cssApproximationVisible": true,
+        "controlsHidden": true
+      },
+      "passed": true
+    },
+    "source_recovery_evidence": "screenshots/source-recovery.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "completed; reviewed desktop/mobile composition preserved",
+    "management_live_check": "Previous failure retained unchanged at screenshots/live-check.json; no checker changed, no redeployment or new public acceptance performed"
+  },
+  "asset_issues": [
+    "Original footage remains unavailable: exact HLS URL and public MP4 path both return HTTP 404. Default visits do not request them.",
+    "CSS background is a local approximation, not recovered original footage.",
+    "Tailus logo sources redirect to an unrelated website; local Simple Icons symbols and approximate typeset wordmarks remain documented.",
+    "Catalog confirms no optional original preview exists."
+  ],
+  "notes": [
+    "Production build in dist/ uses /motionsites-results/5/. No deployment, push or management-checker changes.",
+    "Default production load and reload pass desktop/mobile with no console, request or script errors, no missing media requests, no overflow, working keyboard CTA activation and animated slider.",
+    "Exact source URLs and real hls.js/native-HLS/MP4 handling preserved behind explicit opt-in.",
+    "Source-handler tests use generated in-memory fixtures separately; they do not establish original playback or actual native-HLS decoding.",
+    "CTA opens a mailto draft without recipient; no booking destination supplied.",
+    "Nonfatal large bundle warning remains. See README.md and provenance.json for limitations."
+  ],
+  "media_delivery": {
+    "default": "local animated CSS approximation; original video disabled",
+    "original_availability": "unavailable; both exact paths still HTTP 404",
+    "original_playback_verified": false,
+    "per_visit_opt_in": "?media=original",
+    "build_opt_in": "VITE_ENABLE_ORIGINAL_MEDIA=true",
+    "provenance": "provenance.json"
+  }
+}

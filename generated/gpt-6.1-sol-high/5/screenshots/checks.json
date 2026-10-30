@@ -1,0 +1,49 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "consoleErrors": [],
+    "failedRequests": [],
+    "badResponses": [],
+    "mediaRequests": [],
+    "overflow": false,
+    "logosLoaded": true,
+    "sliderAnimated": true,
+    "heading": "Your Vision\nOur Digital Reality.",
+    "cta": "mailto:?subject=Book%20a%2015-min%20call&body=Hi%2C%20I%E2%80%99d%20love%20to%20discuss%20my%20project.%0A%0AMy%20availability%3A%20",
+    "mediaMode": "local-approximation",
+    "mediaStatus": "disabled",
+    "videoElements": 0,
+    "ctaKeyboardFocus": true,
+    "ctaKeyboardActivated": true
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "consoleErrors": [],
+    "failedRequests": [],
+    "badResponses": [],
+    "mediaRequests": [],
+    "overflow": false,
+    "logosLoaded": true,
+    "sliderAnimated": true,
+    "heading": "Your Vision\nOur Digital Reality.",
+    "cta": "mailto:?subject=Book%20a%2015-min%20call&body=Hi%2C%20I%E2%80%99d%20love%20to%20discuss%20my%20project.%0A%0AMy%20availability%3A%20",
+    "mediaMode": "local-approximation",
+    "mediaStatus": "disabled",
+    "videoElements": 0,
+    "ctaKeyboardFocus": true,
+    "ctaKeyboardActivated": true
+  },
+  "reducedMotion": {
+    "sliderStopped": true,
+    "artStopped": true
+  },
+  "passed": true
+}

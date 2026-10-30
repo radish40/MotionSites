@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:57:56.678837+00:00",
+  "updated_utc": "2026-10-30T03:59:51.039364+00:00",
   "total": 380,
   "counts": {
-    "complete": 259,
+    "complete": 261,
     "running": 5,
-    "not_started": 116
+    "not_started": 114
   },
   "current_batch": {
     "from_number": 201,
@@ -2610,11 +2610,11 @@
       "id": "buzzentic-agency",
       "title": "Buzzentic Agency",
       "category": "Agency",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aef-80f8-7262-8a19-5b257d2cf955",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b501d1fa09f6bb4d48424407d6e188c8cae64f06",
+      "group_message_id": 325,
+      "url": "https://tool.luo-xd.com/motionsites-results/buzzentic-agency/"
     },
     {
       "id": "datacore-booking",
@@ -2630,11 +2630,11 @@
       "id": "framelix-3d-studios",
       "title": "Framelix 3D Studios",
       "category": "Agency",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af1-23e8-7d70-9ba7-498ca396ba8d",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "3c27c0847110c121a7d96639744747f18b8a461f",
+      "group_message_id": 326,
+      "url": "https://tool.luo-xd.com/motionsites-results/framelix-3d-studios/"
     },
     {
       "id": "logoisum-video-agency",
@@ -2651,7 +2651,7 @@
       "title": "New Era Automotive Hero",
       "category": "Automotive",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af4-82ee-7a30-a106-daf7eeba3be3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2660,7 +2660,7 @@
       "id": "new-era-bold-hero",
       "title": "New Era Bold Hero",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2670,7 +2670,7 @@
       "id": "space-voyage",
       "title": "Space Voyage",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

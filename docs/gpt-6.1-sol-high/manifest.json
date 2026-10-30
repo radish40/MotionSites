@@ -10164,14 +10164,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b15-e02e-7f83-9caf-8123c42cc8b7",
       "output_path": "generated/gpt-6.1-sol-high/skybridge-404",
       "validation": "",
       "notes": "",
       "process_id": 817912,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:33:49.017298+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 298,
@@ -10190,14 +10194,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b15-e0db-7541-a67b-b39d73a9a479",
       "output_path": "generated/gpt-6.1-sol-high/synth-mode",
       "validation": "",
       "notes": "",
       "process_id": 817962,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:33:49.152114+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 299,
@@ -10216,14 +10224,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b15-e17a-7a43-9bc6-07b53e002b59",
       "output_path": "generated/gpt-6.1-sol-high/agent-grove",
       "validation": "",
       "notes": "",
       "process_id": 818007,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:33:49.298234+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 300,
@@ -10242,14 +10254,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b15-e214-70b3-bb93-0d78cbe5e077",
       "output_path": "generated/gpt-6.1-sol-high/mostar-guide",
       "validation": "",
       "notes": "",
       "process_id": 818162,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:33:49.460556+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 301,
@@ -12013,7 +12029,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:35:43.616082+00:00",
+  "updated_utc": "2026-10-30T04:36:46.079746+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

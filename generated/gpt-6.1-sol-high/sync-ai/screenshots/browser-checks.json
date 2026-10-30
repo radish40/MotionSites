@@ -1,0 +1,56 @@
+{
+  "url": "http://localhost:4173/motionsites-results/sync-ai/",
+  "views": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "document": {
+        "width": 1440,
+        "height": 1000
+      },
+      "video": {
+        "readyState": 4,
+        "currentTime": 2.60899,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "width": 1924,
+        "height": 1076
+      },
+      "font": true,
+      "heading": "Work Smarter. Move Faster.\nAI Powers You Up.",
+      "ctaVisible": true
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 844
+      },
+      "video": {
+        "readyState": 4,
+        "currentTime": 2.538537,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "width": 1924,
+        "height": 1076
+      },
+      "font": true,
+      "heading": "Work Smarter.\nMove Faster.\nAI Powers You Up.",
+      "ctaVisible": true,
+      "menuChecks": "open, close, aria-expanded, Escape passed"
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "httpErrors": [],
+  "requestFailures": []
+}

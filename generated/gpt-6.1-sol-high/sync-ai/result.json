@@ -1,0 +1,33 @@
+{
+  "title": "Sync AI",
+  "id": "sync-ai",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/sync-ai/",
+    "desktop": "passed: Chromium 1440x1000; screenshot visually inspected",
+    "mobile": "passed: Chromium 390x844; screenshot visually inspected",
+    "overflow": "none at both required viewport sizes",
+    "video": "local original MP4 loaded and autoplay advances; muted and looping enabled",
+    "fonts": "Inter loaded successfully from Google Fonts",
+    "mobile_menu": "passed: open, close, aria-expanded and Escape",
+    "cta_clicks": "clickable without exceptions; destinations unspecified by prompt",
+    "page_errors": 0,
+    "console_errors": 0,
+    "http_errors": 0,
+    "failed_requests": 0,
+    "report": "screenshots/browser-checks.json",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/mobile-menu.png"]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Page branding is Stellar.ai as required by PROMPT.md; project identity remains Sync AI.",
+    "Only React, React DOM and Lucide React are runtime dependencies; build dependencies provide the requested TypeScript and Tailwind stack.",
+    "Original video downloaded successfully and bundled locally; no visual-reference extraction or whole-page screenshot embedding.",
+    "Interface palette is monochrome. Original meadow video retains its colors, consistent with this design's permitted reference and specified unfiltered video styles.",
+    "Google Fonts is external and loaded successfully during checks; sans-serif fallback applies if unavailable.",
+    "No routes, login backend, trial backend or desktop dropdown content were provided; these controls retain specified appearance without invented flows.",
+    "Static build is ready for acceptance review. Nothing has been deployed or pushed."
+  ]
+}

@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 324/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 327/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -409,14 +409,14 @@
 | 322 | `digitwist-hero` | Digitwist AI Builder | SaaS | 1 | 视频 | 已完成 |
 | 323 | `deck-investor` | Investor Deck | Investor Presentations | 1 | 视频 | 已完成 |
 | 324 | `bionova-hero` | Bionova Biotech | SaaS | 1 | 视频 | 已完成 |
-| 325 | `nova-space-landing` | NOVA Space Systems | Landing Page | 1 | 视频 | 生成中 |
+| 325 | `nova-space-landing` | NOVA Space Systems | Landing Page | 1 | 视频 | 已完成 |
 | 326 | `4` | Datacore SaaS Hero | SaaS | 1 | 视频 | 生成中 |
-| 327 | `15` | Dark Portfolio Hero | Portfolio | 1 | 视频 | 生成中 |
-| 328 | `vex-ventures-hero` | VEX Ventures | Hero Section | 1 | 无 | 生成中 |
+| 327 | `15` | Dark Portfolio Hero | Portfolio | 1 | 视频 | 已完成 |
+| 328 | `vex-ventures-hero` | VEX Ventures | Hero Section | 1 | 无 | 已完成 |
 | 329 | `5` | Glassmorphism Agency Hero | Agency | 1 | 无 | 生成中 |
-| 330 | `innovation-landing` | Innovation | Landing Page | 1 | 无 | 未开始 |
-| 331 | `10` | AI Automation Hero | AI / SaaS | 1 | 无 | 未开始 |
-| 332 | `securify-hero` | Securify Data Security | SaaS | 1 | 无 | 未开始 |
+| 330 | `innovation-landing` | Innovation | Landing Page | 1 | 无 | 生成中 |
+| 331 | `10` | AI Automation Hero | AI / SaaS | 1 | 无 | 生成中 |
+| 332 | `securify-hero` | Securify Data Security | SaaS | 1 | 无 | 生成中 |
 | 333 | `18` | Loader Animation | Component | 1 | 无 | 未开始 |
 | 334 | `rivr-hero` | RIVR | Hero Section | 1 | 无 | 未开始 |
 | 335 | `wisa-space-hero` | WISA Space | Hero Section | 1 | 无 | 未开始 |

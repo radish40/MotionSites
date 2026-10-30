@@ -11119,19 +11119,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b35-d418-7952-b8be-2443b7acd0ea",
       "output_path": "generated/gpt-6.1-sol-high/nova-space-landing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 954259,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:08:43.041225+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "bbd3297078204ef34b8d2329f72dea0d1b93aa3f",
+      "url": "https://tool.luo-xd.com/motionsites-results/nova-space-landing/",
+      "completed_utc": "2026-10-30T05:15:36.186790+00:00",
+      "group_message_id": 393
     },
     {
       "number": 326,
@@ -11179,19 +11183,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b37-309e-7b91-a3d6-fb383ae9e759",
       "output_path": "generated/gpt-6.1-sol-high/15",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 959588,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:10:12.197028+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "9f51e2ff8d677d519e44ae45db6222a3ebecfa6f",
+      "url": "https://tool.luo-xd.com/motionsites-results/15/",
+      "completed_utc": "2026-10-30T05:16:03.762985+00:00",
+      "group_message_id": 394
     },
     {
       "number": 328,
@@ -11209,19 +11217,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b38-f5f3-77a3-a586-bd62fc041c35",
       "output_path": "generated/gpt-6.1-sol-high/vex-ventures-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 966352,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:12:08.292776+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "4d25461c7a3ff7cec0493be7253b632d19939199",
+      "url": "https://tool.luo-xd.com/motionsites-results/vex-ventures-hero/",
+      "completed_utc": "2026-10-30T05:16:40.117279+00:00",
+      "group_message_id": 395
     },
     {
       "number": 329,
@@ -11269,11 +11281,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/innovation-landing",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 978254,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:15:03.100336+00:00",
+      "worker_state": "running"
     },
     {
       "number": 331,
@@ -11291,11 +11307,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/10",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 978302,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:15:03.239853+00:00",
+      "worker_state": "running"
     },
     {
       "number": 332,
@@ -11313,11 +11333,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/securify-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 978398,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:15:03.412980+00:00",
+      "worker_state": "running"
     },
     {
       "number": 333,
@@ -12377,7 +12401,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:14:07.004965+00:00",
+  "updated_utc": "2026-10-30T05:16:40.409870+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

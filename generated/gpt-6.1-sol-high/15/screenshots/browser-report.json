@@ -1,0 +1,47 @@
+{
+  "url": "http://localhost:3000/motionsites-results/15/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "horizontalOverflow": false,
+      "roleCycles": true,
+      "dialogs": true,
+      "contactLinks": true,
+      "fonts": {
+        "body": true,
+        "display": true
+      },
+      "video": {
+        "readyState": 4,
+        "currentTime": 7.569163,
+        "paused": false,
+        "videoWidth": 640,
+        "poster": "http://localhost:3000/motionsites-results/15/assets/hero-poster.avif"
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false,
+      "roleCycles": true,
+      "dialogs": true,
+      "contactLinks": true,
+      "fonts": {
+        "body": true,
+        "display": true
+      },
+      "video": {
+        "readyState": 4,
+        "currentTime": 6.481406,
+        "paused": false,
+        "videoWidth": 1280,
+        "poster": "http://localhost:3000/motionsites-results/15/assets/hero-poster.avif"
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

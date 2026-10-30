@@ -1,0 +1,83 @@
+{
+  "title": "Dark Portfolio Hero",
+  "id": 15,
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -e NEXT_TELEMETRY_DISABLED=1 -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed during Next.js build",
+    "static_entry": "dist/index.html",
+    "publish_path": "/motionsites-results/15/",
+    "browser": "Chromium 148 / Playwright",
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "horizontalOverflow": false,
+        "roleCycles": true,
+        "dialogs": true,
+        "contactLinks": true,
+        "fonts": {
+          "body": true,
+          "display": true
+        },
+        "video": {
+          "readyState": 4,
+          "currentTime": 7.569163,
+          "paused": false,
+          "videoWidth": 640,
+          "poster": "http://localhost:3000/motionsites-results/15/assets/hero-poster.avif"
+        }
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "horizontalOverflow": false,
+        "roleCycles": true,
+        "dialogs": true,
+        "contactLinks": true,
+        "fonts": {
+          "body": true,
+          "display": true
+        },
+        "video": {
+          "readyState": 4,
+          "currentTime": 6.481406,
+          "paused": false,
+          "videoWidth": 1280,
+          "poster": "http://localhost:3000/motionsites-results/15/assets/hero-poster.avif"
+        }
+      }
+    ],
+    "runtime_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/loading.png"
+    ],
+    "visual_review": "desktop, mobile, and loader screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "Mux AVIF poster endpoint",
+      "issue": "HTTP 404",
+      "resolution": "Downloaded a JPEG frame at time=2 from the same supplied Mux video and converted it locally to AVIF with Sharp. Original JPEG and recovery script retained.",
+      "approximation": "JPEG-to-AVIF re-encoding only"
+    },
+    {
+      "asset": "optional reference preview 15.webp",
+      "issue": "File absent; no visual-reference comparison possible"
+    }
+  ],
+  "notes": [
+    "Only design 15 was implemented. No agents, sessions, deployment, push, or outbound messages.",
+    "Exact specified Next.js 14, TypeScript, Tailwind CSS v3, GSAP, Framer Motion and Google Fonts used.",
+    "Video playback verified at both required viewports; live HLS remains externally hosted. Fonts and AVIF poster are local.",
+    "Project details, downloadable resume, and contact address were not supplied. Work/Resume panels disclose missing content; mailto links leave recipient empty.",
+    "Dependency audit retained in dependency-audit.json: 1 critical and 2 high findings. Requested Next.js 14 retained; static export has no Next.js runtime server.",
+    "ready means ready for management acceptance, not deployed."
+  ]
+}

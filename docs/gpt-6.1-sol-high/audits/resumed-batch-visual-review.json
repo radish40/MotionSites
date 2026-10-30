@@ -1643,7 +1643,121 @@
       "additional_review_captures": [
         ".work/generation/bionova-324-mobile-full.png"
       ]
+    },
+    {
+      "id": "nova-space-landing",
+      "source_commit": "63e72138beb61a2baca56a96cfd986befe8197ed",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:26:15.799602+00:00",
+      "observation": "Actually reviewed desktop/mobile full pages and final desktop/mobile published first views after original-session missing-hero investigation. Three decoded local videos, viewport hero, white monochrome Space Grotesk type, staggered Rocket Science grid, menu/search/focus and CTA navigation pass. Exact hero returns 403; retained explicitly documented launch-pad source from the prompt as approximation. Own catalog movie is byte-identical by SHA-256 to engineering.mp4 and cannot recover the missing distinct hero. Original-session evidence/provenance retained; no page screenshot or movie baked into layout. Both lower-section sources exact.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/nova-space-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/nova-space-landing/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/nova-space-landing/screenshots/desktop-full.png",
+        "generated/gpt-6.1-sol-high/nova-space-landing/screenshots/mobile-full.png"
+      ]
+    },
+    {
+      "id": "4",
+      "source_commit": "acef1463a465bcfd977bcbc34b3d91dfad528cb3",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:26:15.799602+00:00",
+      "observation": "Actually reviewed desktop, phone and full-screen phone menu. Original HLS plays with exact 60-percent black scrim; centered two-line Inter/Instrument Serif heading, Cabin badge/buttons and Manrope supporting text fit. Cloudflare poster returns 404; exact-stream time-zero poster recovered locally with reproducible script. Browser checks seven widths without overflow, poster fade after playback, six local CTA dialogs, menu/Escape/focus, reduced motion and blocked-stream poster. Four genuine fonts loaded; no errors or failed normal requests.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/4/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/4/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "15",
+      "source_commit": "9f51e2ff8d677d519e44ae45db6222a3ebecfa6f",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:26:15.799602+00:00",
+      "observation": "Actually reviewed desktop, phone and loader. Required Next.js 14 App Router/TypeScript/Tailwind3/GSAP/Framer Motion static export, 2.7s rotating-word loader, original blue folded-ribbon HLS hero and Michael Smith type fit. Body Inter and display Instrument Serif loaded locally. Same-source JPEG converted to AVIF because native AVIF endpoint returns 404. Worker verifies role cycling, dialogs/contact links and playback at both widths without overflow/errors. Work/resume content unspecified; panels honestly disclose missing data and contact mailto has no invented recipient. Static export has no Next runtime; stack dependency advisories recorded.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/15/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/15/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "vex-ventures-hero",
+      "source_commit": "4d25461c7a3ff7cec0493be7253b632d19939199",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:26:15.799602+00:00",
+      "observation": "Actually reviewed desktop and phone. Unchanged original city/river video plays raw without scrim; liquid-glass rectangular nav, bottom-left staggered character heading, white/transparent CTAs and bottom-right tag adapt to stacked phone layout. Exact Google Inter link loaded; browser verifies 1924x1076 decode and advancing clock, muted loop, fragment navigation/Explore hover and no overflow/errors. Chat uses mailto with empty recipient because no destination was provided; no extra sections invented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/vex-ventures-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/vex-ventures-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "5",
+      "source_commit": "9e345bf1260d378082400b050800ca6ca811eb96",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:26:15.799602+00:00",
+      "observation": "Actually reviewed initial and corrected final desktop/mobile composition. Specified HLS and relative MP4 both return 404; no own reference available. Original session corrected default page to use documented local animated CSS light-ribbon approximation without requesting either known-missing resource; genuine original HLS/native/MP4 handling and exact URLs remain available by explicit opt-in. Default public acceptance now passes with no failed same-origin resources or console errors, CTA and moving logo cloud work. Separate generated media fixtures prove handler branches only and are not claimed as original playback. Tailus logo redirects required Simple Icons symbols and approximate wordmarks. Missing footage and logo fidelity documented; no checker relaxed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/5/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/5/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "innovation-landing",
+      "source_commit": "b71cd90e8126a12b4050af9d8a7533976ed4babf",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:26:15.799602+00:00",
+      "observation": "Actually reviewed full desktop/mobile five-section page. All five exact original movies decode/play; original Instrument Serif, liquid-glass navigation/email input, hero fade-to-black restart, About, featured video, philosophy and two service cards fit. Worker reports 25 passing checks covering fonts, signup preview feedback, dialogs/Escape, anchors, service details and hero ended/restart. Original video blobs match source SHA-256, no errors/overflow/failed requests. Phone featured frame intentionally taller to preserve stacked card readability. No authentication/subscription backend supplied; local feedback and platform-level social links documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/innovation-landing/screenshots/desktop-full.png",
+        "generated/gpt-6.1-sol-high/innovation-landing/screenshots/mobile-full.png"
+      ]
+    },
+    {
+      "id": "10",
+      "source_commit": "668ebe2c9d8308d66e813a93a308adeef561ee56",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:26:15.799602+00:00",
+      "observation": "Actually reviewed desktop and phone. Fullscreen original HLS shifted right 200px/scaled1.2, dark-purple background and bottom fade, split-word left heading with serif Business accent, badge and both CTAs match. Worker verifies source decode and advancing clock on both sizes, reduced-motion heading visibility and no errors/overflow. No font supplied; system sans/serif used. Exact specified /book-call root href retained; booking page is outside supplied scope. Learn now focuses existing description.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/10/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/10/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "securify-hero",
+      "source_commit": "e0eb7024e1fb309790d231515ea2e644ebda042b",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:26:15.799602+00:00",
+      "observation": "Actually reviewed desktop and phone. Exact original snowboard MP4 and Readex Pro retained, giant staggered protect/your/data words, three stats with desktop diagonal dividers, neutral pill navigation, original SVG mark and bottom fade fit. Phone hides navigation/dividers and retains vw typography. Browser verifies original remote decode/clock, unchanged local-source fallback when blocked, fonts, hover/tap/focus and no horizontal/vertical overflow or browser errors. No CTA destination supplied, so no invented signup flow.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/securify-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/securify-hero/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T05:18:17.035107+00:00"
+  "updated_utc": "2026-10-30T05:26:15.799602+00:00"
 }

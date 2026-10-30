@@ -1,0 +1,240 @@
+{
+  "recorded_utc": "2026-10-30T05:26:15.799602+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 8,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T05:23:38.451497+00:00",
+      "remote_main": "c75d027f34b5c723bd9a1bc8d26b3c9e4e662ff3",
+      "delivery": {
+        "id": "nova-space-landing",
+        "title": "NOVA Space Systems",
+        "source_commit": "63e72138beb61a2baca56a96cfd986befe8197ed",
+        "thread_id": "01a18b35-d418-7952-b8be-2443b7acd0ea",
+        "group_message_id": 393,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:18:16.306277+00:00",
+      "remote_main": "acef1463a465bcfd977bcbc34b3d91dfad528cb3",
+      "delivery": {
+        "id": "4",
+        "title": "Datacore SaaS Hero",
+        "source_commit": "acef1463a465bcfd977bcbc34b3d91dfad528cb3",
+        "thread_id": "01a18b37-2fbe-72c3-a0eb-4608ed5bf5de",
+        "group_message_id": 396,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:16:18.758163+00:00",
+      "remote_main": "9f51e2ff8d677d519e44ae45db6222a3ebecfa6f",
+      "delivery": {
+        "id": "15",
+        "title": "Dark Portfolio Hero",
+        "source_commit": "9f51e2ff8d677d519e44ae45db6222a3ebecfa6f",
+        "thread_id": "01a18b37-309e-7b91-a3d6-fb383ae9e759",
+        "group_message_id": 394,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:16:54.669538+00:00",
+      "remote_main": "0dec473f7795797f3b7234e76544c15cd83bfdc5",
+      "delivery": {
+        "id": "vex-ventures-hero",
+        "title": "VEX Ventures",
+        "source_commit": "4d25461c7a3ff7cec0493be7253b632d19939199",
+        "thread_id": "01a18b38-f5f3-77a3-a586-bd62fc041c35",
+        "group_message_id": 395,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:24:54.376745+00:00",
+      "remote_main": "9e345bf1260d378082400b050800ca6ca811eb96",
+      "delivery": {
+        "id": "5",
+        "title": "Glassmorphism Agency Hero",
+        "source_commit": "9e345bf1260d378082400b050800ca6ca811eb96",
+        "thread_id": "01a18b38-ffd7-7142-aa3c-5cd35f0a6220",
+        "group_message_id": 400,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:23:38.451497+00:00",
+      "remote_main": "c75d027f34b5c723bd9a1bc8d26b3c9e4e662ff3",
+      "delivery": {
+        "id": "innovation-landing",
+        "title": "Innovation",
+        "source_commit": "b71cd90e8126a12b4050af9d8a7533976ed4babf",
+        "thread_id": "01a18b3b-a096-7e02-babe-ccfac4115efb",
+        "group_message_id": 399,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:21:31.303212+00:00",
+      "remote_main": "6ced47536f9ea7606863b92145dbe6413acd4bfe",
+      "delivery": {
+        "id": "10",
+        "title": "AI Automation Hero",
+        "source_commit": "668ebe2c9d8308d66e813a93a308adeef561ee56",
+        "thread_id": "01a18b3b-a12b-7ac3-99bc-99214f41bea1",
+        "group_message_id": 397,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:21:31.303212+00:00",
+      "remote_main": "6ced47536f9ea7606863b92145dbe6413acd4bfe",
+      "delivery": {
+        "id": "securify-hero",
+        "title": "Securify Data Security",
+        "source_commit": "e0eb7024e1fb309790d231515ea2e644ebda042b",
+        "thread_id": "01a18b3b-a1fe-7001-be7a-659e85a3be00",
+        "group_message_id": 398,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

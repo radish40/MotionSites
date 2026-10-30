@@ -1,0 +1,31 @@
+{
+  "title": "Glow Cursor Button",
+  "id": "community-superdesign-glow-cursor-button",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "real_build": "passed; dist/index.html and local assets generated",
+    "browser": "Chromium through Playwright; actual dist served at required subpath",
+    "desktop": "1440x1000 passed; screenshots/desktop.png",
+    "mobile": "390x844 passed; screenshots/mobile.png",
+    "cursor_css_variables": "passed; pointer position updates glow and resets on leave",
+    "keyboard": "passed; visible focus, Enter and Space activation",
+    "touch": "passed; tap activation and feedback reset",
+    "reduced_motion": "passed",
+    "horizontal_overflow": "none at both required sizes",
+    "script_and_console_errors": [],
+    "asset_loading": "passed; no external dependencies",
+    "visual_review": "both screenshots reviewed",
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "Optional reference WebP was not present; reference pixel matching unavailable."
+  ],
+  "notes": [
+    "Native HTML/CSS/JavaScript; prompt specifies no framework or external assets.",
+    "Inline SVG arrow, system fonts, and CSS gradients; no screenshot used as page content.",
+    "Button activation provides transient demo feedback; no destination or backend specified.",
+    "Browser coverage is Chromium with mobile emulation, not physical-device testing.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

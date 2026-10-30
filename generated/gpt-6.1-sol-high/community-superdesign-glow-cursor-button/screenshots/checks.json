@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "viewport": "desktop",
+      "size": "1440x1000",
+      "centered": true,
+      "overflow": false,
+      "activation": "passed",
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "size": "390x844",
+      "centered": true,
+      "overflow": false,
+      "activation": "passed",
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "console_errors": [],
+  "cursor_tracking": "passed",
+  "keyboard_enter_and_space": "passed",
+  "focus_visible": "passed",
+  "reduced_motion": "passed",
+  "subpath_assets": "passed"
+}

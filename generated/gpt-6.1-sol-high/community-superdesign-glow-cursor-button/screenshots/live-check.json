@@ -1,0 +1,38 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-glow-cursor-button/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:30:00.063Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Glow Cursor Button",
+      "bodyChars": 11,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Glow Cursor Button",
+      "bodyChars": 11,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

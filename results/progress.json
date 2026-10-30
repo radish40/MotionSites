@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:14:45.413234+00:00",
+  "updated_utc": "2026-10-30T03:16:05.945443+00:00",
   "total": 380,
   "counts": {
-    "complete": 225,
+    "complete": 226,
     "running": 5,
-    "not_started": 150
+    "not_started": 149
   },
   "current_batch": {
     "from_number": 201,
@@ -2260,11 +2260,11 @@
       "id": "yoga-coach",
       "title": "Yoga Coach",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac7-b5f9-7643-8350-bcfde8333127",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "d9c0440473c20f42cb6cca800da93be66d28c16a",
+      "group_message_id": 290,
+      "url": "https://tool.luo-xd.com/motionsites-results/yoga-coach/"
     },
     {
       "id": "404",
@@ -2320,7 +2320,7 @@
       "id": "akor-security",
       "title": "AKOR Security",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

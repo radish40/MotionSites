@@ -7707,19 +7707,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac7-b5f9-7643-8350-bcfde8333127",
       "output_path": "generated/gpt-6.1-sol-high/yoga-coach",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 482940,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:08:26.379935+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "d9c0440473c20f42cb6cca800da93be66d28c16a",
+      "url": "https://tool.luo-xd.com/motionsites-results/yoga-coach/",
+      "completed_utc": "2026-10-30T03:16:05.771958+00:00",
+      "group_message_id": 290
     },
     {
       "number": 226,
@@ -7891,11 +7895,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/akor-security",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 510287,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:15:41.685649+00:00",
+      "worker_state": "running"
     },
     {
       "number": 232,
@@ -11176,7 +11184,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:14:45.413234+00:00",
+  "updated_utc": "2026-10-30T03:16:05.945443+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

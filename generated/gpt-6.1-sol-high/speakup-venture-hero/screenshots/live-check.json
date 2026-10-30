@@ -1,0 +1,60 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/speakup-venture-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T02:51:59.914Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Speakup",
+      "bodyChars": 215,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/speakup-venture-hero/assets/venture.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.293582,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Speakup",
+      "bodyChars": 151,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/speakup-venture-hero/assets/venture.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.572582,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

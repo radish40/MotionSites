@@ -1,0 +1,2 @@
+/** @type {import('tailwindcss').Config} */
+export default { content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'], theme: { extend: { fontFamily: { recoleta: ['"Recoleta Regular"', 'serif'], inter: ['Inter', 'sans-serif'] }, colors: { brand: { green: '#0E7824', dark: '#2D2D2F' } } } }, plugins: [] };

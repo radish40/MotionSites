@@ -1,0 +1,104 @@
+{
+  "errors": [],
+  "consoleErrors": [],
+  "httpErrors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "desktop layout and media",
+      "pass": true,
+      "details": {
+        "overflow": false,
+        "heading": "128px",
+        "font": "\"Recoleta Regular\", serif",
+        "green": "rgb(14, 120, 36)",
+        "video": {
+          "readyState": 4,
+          "muted": true,
+          "paused": false,
+          "loop": true,
+          "time": 0.771869,
+          "width": 3828,
+          "height": 2164
+        },
+        "recoleta": true,
+        "inter": true
+      }
+    },
+    {
+      "name": "desktop navigation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "link hover color",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hero CTA anchor",
+      "pass": true,
+      "details": "http://localhost:4173/motionsites-results/speakup-venture-hero/#begin-a-venture"
+    },
+    {
+      "name": "mobile layout and media",
+      "pass": true,
+      "details": {
+        "overflow": false,
+        "heading": "56px",
+        "font": "\"Recoleta Regular\", serif",
+        "green": "rgb(14, 120, 36)",
+        "video": {
+          "readyState": 4,
+          "muted": true,
+          "paused": false,
+          "loop": true,
+          "time": 0.587959,
+          "width": 3828,
+          "height": 2164
+        },
+        "recoleta": true,
+        "inter": true
+      }
+    },
+    {
+      "name": "mobile overlay opens",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "menu focus trap",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "escape closes menu",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "close button closes menu",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "mobile navigation closes menu",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "no console or network errors",
+      "pass": true,
+      "details": {
+        "consoleErrors": [],
+        "httpErrors": [],
+        "failedRequests": []
+      }
+    }
+  ]
+}

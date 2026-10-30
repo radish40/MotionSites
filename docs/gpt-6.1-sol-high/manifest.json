@@ -8285,19 +8285,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18adc-d6dd-7740-9f9e-0a7d03570548",
       "output_path": "generated/gpt-6.1-sol-high/neuralyn",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 568505,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:31:30.992627+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "06f447a60058f0e8b7aa7c5ad70d2e0c79c42323",
+      "url": "https://tool.luo-xd.com/motionsites-results/neuralyn/",
+      "completed_utc": "2026-10-30T03:39:14.608956+00:00",
+      "group_message_id": 308
     },
     {
       "number": 243,
@@ -8349,7 +8353,7 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18ade-ff09-7902-bb48-1b0645e9df07",
       "output_path": "generated/gpt-6.1-sol-high/nexus-it-solutions",
       "validation": "",
@@ -8357,7 +8361,7 @@
       "process_id": 578019,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:33:52.402736+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -8379,7 +8383,7 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18ade-ffa1-75b0-b1b2-cb500c9281d5",
       "output_path": "generated/gpt-6.1-sol-high/nickel-payments",
       "validation": "",
@@ -8387,7 +8391,7 @@
       "process_id": 578054,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:33:52.530293+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -8440,14 +8444,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ae2-1e96-7e71-906f-4fd9bfa2a90e",
       "output_path": "generated/gpt-6.1-sol-high/orbit-web3",
       "validation": "",
       "notes": "",
       "process_id": 591615,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:37:17.073452+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 248,
@@ -8465,11 +8473,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/planet-orbit",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 596313,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:38:41.241872+00:00",
+      "worker_state": "running"
     },
     {
       "number": 249,
@@ -8487,11 +8499,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/power-ai",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 596357,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:38:41.385842+00:00",
+      "worker_state": "running"
     },
     {
       "number": 250,
@@ -8509,11 +8525,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/railroad.ai",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 596435,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:38:41.566086+00:00",
+      "worker_state": "running"
     },
     {
       "number": 251,
@@ -11377,7 +11397,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:37:46.330500+00:00",
+  "updated_utc": "2026-10-30T03:39:14.799707+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

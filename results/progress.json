@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:11:53.407882+00:00",
+  "updated_utc": "2026-10-30T04:13:13.586709+00:00",
   "total": 380,
   "counts": {
-    "complete": 272,
+    "complete": 273,
     "running": 5,
-    "not_started": 103
+    "not_started": 102
   },
   "current_batch": {
     "from_number": 201,
@@ -2750,11 +2750,11 @@
       "id": "community-superdesign-card-swap",
       "title": "Card Swap",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aff-158b-7ee0-9ed3-01d57c471dfc",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "79b90114e578d02a2893b66840f71f8cc8419717",
+      "group_message_id": 339,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/"
     },
     {
       "id": "community-superdesign-hover-reveal-effect",
@@ -2771,7 +2771,7 @@
       "title": "Scroll Journey Line",
       "category": "Animations & Backgrounds",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b00-e8cb-7243-b828-87d9adc3e52a",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2781,7 +2781,7 @@
       "title": "Gooey Gradient Background",
       "category": "Animations & Backgrounds",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b00-e98e-7283-8ccf-2066d36e6454",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2790,7 +2790,7 @@
       "id": "community-superdesign-horizontal-gallery",
       "title": "Horizontal Gallery",
       "category": "Animations & Backgrounds",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

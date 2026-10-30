@@ -9378,19 +9378,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aff-158b-7ee0-9ed3-01d57c471dfc",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-card-swap",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 715897,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:08:55.345824+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "79b90114e578d02a2893b66840f71f8cc8419717",
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/",
+      "completed_utc": "2026-10-30T04:13:13.407626+00:00",
+      "group_message_id": 339
     },
     {
       "number": 275,
@@ -9439,14 +9443,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b00-e8cb-7243-b828-87d9adc3e52a",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-scroll-journey-line",
       "validation": "",
       "notes": "",
       "process_id": 723135,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:10:54.951155+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 277,
@@ -9465,14 +9473,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b00-e98e-7283-8ccf-2066d36e6454",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-gooey-gradient-background",
       "validation": "",
       "notes": "",
       "process_id": 723185,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:10:55.084337+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 278,
@@ -9490,11 +9502,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-horizontal-gallery",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 731826,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:12:47.620559+00:00",
+      "worker_state": "running"
     },
     {
       "number": 279,
@@ -11742,7 +11758,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:11:53.407882+00:00",
+  "updated_utc": "2026-10-30T04:13:13.586709+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -21,7 +21,7 @@
             "playing": true,
             "muted": true,
             "loop": true,
-            "time": 0.575267
+            "time": 0.547546
           },
           {
             "width": 1440,
@@ -29,7 +29,7 @@
             "playing": true,
             "muted": true,
             "loop": true,
-            "time": 0.627777
+            "time": 0.529078
           },
           {
             "width": 1440,
@@ -37,7 +37,7 @@
             "playing": true,
             "muted": true,
             "loop": true,
-            "time": 0.568837
+            "time": 0.640825
           }
         ]
       },
@@ -62,7 +62,7 @@
         "passed": true
       },
       {
-        "name": "390×844 mobile layout, exact hero height, no overflow",
+        "name": "390\u00d7844 mobile layout, exact hero height, no overflow",
         "passed": true
       },
       {
@@ -86,31 +86,60 @@
       "screenshots/desktop-full.png",
       "screenshots/mobile-full.png"
     ],
-    "report": "screenshots/browser-checks.json"
+    "report": "screenshots/browser-checks.json",
+    "reference_inspection": {
+      "report": "reference-inspection/evidence.json",
+      "reference_exists": true,
+      "reference_byte_identical_to_science_asset": true,
+      "sha256": "106bf97dfbd17f22fcb49a77be0de1efd75d6097ae7b9e43c008307599fc0e7b",
+      "dimensions": [
+        1440,
+        1440
+      ],
+      "duration_seconds": 10.041667,
+      "sampled_seconds": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "contains_page_ui_in_inspected_frames": false,
+      "exact_hero_recovery_supported": false
+    }
   },
   "asset_issues": [
     {
       "asset": "Specified hero MP4",
-      "status": "HTTP 403; original file could not be recovered",
+      "status": "Still HTTP 403 AccessDenied after fresh retry; exact hero not recovered.",
       "attempts": [
         "original URL",
         "browser User-Agent and Referer",
         "query-string variation",
-        "HTTP redirect"
+        "HTTP redirect",
+        "Inspected the single authorized catalog movie; SHA-256 proves it matches the top-right science asset exactly.",
+        "Retried the original hero source and saved the HTTP 403 response and AccessDenied XML."
       ],
-      "fallback": "Reused the exact supplied launch-pad video (public/assets/launch.mp4), with no overlay or filter. Hero footage is an approximation."
+      "fallback": "Reused the exact supplied launch-pad video (public/assets/launch.mp4), with no overlay or filter. Hero footage is an approximation.",
+      "inspection_evidence": "Catalog movie is isolated star-field launch footage identical to engineering.mp4. It contains no page UI or separately identifiable missing hero region. Its catalog name does not establish identity with the missing hero URL.",
+      "evidence_report": "reference-inspection/evidence.json"
     },
     {
       "asset": "Optional original reference WebP",
-      "status": "File does not exist; no reference extraction possible"
+      "status": "Optional WebP absent. Authorized catalog MP4 exists and was inspected; it matches the science video, so missing WebP is not treated as evidence that no reference exists."
     }
   ],
   "notes": [
     "Ready for management acceptance with the documented hero asset deviation; not deployed.",
-    "Exact supplied lower-section videos and exact Google Fonts Space Grotesk weights 400–700 are stored locally.",
+    "Exact supplied lower-section videos and exact Google Fonts Space Grotesk weights 400\u2013700 are stored locally.",
     "Menu and search are functional; CTA and links navigate existing sections.",
     "Science body paragraphs were authored because PROMPT.md specifies no exact body copy for these cards.",
     "Video range requests cancelled during navigation are recorded as ERR_ABORTED; videos loaded and played successfully.",
-    "No agents, other sessions, deployment, push, or external messages."
+    "Reference inspection updated provenance and README; retained approximation because no exact hero identity/recovery is supported.",
+    "Fresh production build and desktop/mobile browser checks passed; all four screenshots regenerated after provenance update.",
+    "No page screenshot, page movie, or reference-inspection frame is used as website content.",
+    "No agents, other sessions, deployment, push, external messages, or other-design access in this continuation."
   ]
 }

@@ -2,6 +2,19 @@
   "engineering.mp4": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260324_032431_5e054107-51c0-4162-9f0f-3a40054761ef.mp4",
   "launch.mp4": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260324_032535_4ccc152e-0cc8-4ee5-a698-e1a98cea8a1e.mp4",
   "hero_unavailable": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260324_031824_0c85e1e9-fe2b-4d52-8cde-25b0c2b5e8a2.mp4",
-  "hero_recovery": "HTTP 403 on original, query-string variation, browser User-Agent/Referer, and HTTP redirect. Reference preview does not exist. Reused the supplied launch.mp4 without filtering or overlays as an explicit approximation; original hero composition cannot be verified.",
-  "fonts": "Space Grotesk 400, 500, 600, 700 downloaded from the exact Google Fonts CSS requested in PROMPT.md. Original Google Fonts links retained; local CSS and TTF files provide an offline copy of the same font."
+  "hero_recovery": "Original hero URL still returns HTTP 403 AccessDenied. Inspected the authorized NOVA_Space_Systems_1.mp4 catalog reference at 0, 1, 2, 4, 6, 8, 10 seconds. It contains isolated star-field launch footage with no page UI and is byte-identical to engineering.mp4 (the exact supplied science-section source). It does not establish or recover the distinct missing hero. Retained the launch.mp4 approximation; did not replace it with unproven footage.",
+  "fonts": "Space Grotesk 400, 500, 600, 700 downloaded from the exact Google Fonts CSS requested in PROMPT.md. Original Google Fonts links retained; local CSS and TTF files provide an offline copy of the same font.",
+  "catalog_reference": {
+    "path": "/home/opc/motionsites/assets/library/videos/NOVA_Space_Systems_1.mp4",
+    "sha256": "106bf97dfbd17f22fcb49a77be0de1efd75d6097ae7b9e43c008307599fc0e7b",
+    "bytes": 9814953,
+    "dimensions": [
+      1440,
+      1440
+    ],
+    "duration_seconds": 10.041667,
+    "byte_identical_to": "engineering.mp4",
+    "inspection_report": "reference-inspection/evidence.json (project-only, not published)",
+    "finding": "Clean science-section footage, not a page recording or demonstrable missing hero source."
+  }
 }

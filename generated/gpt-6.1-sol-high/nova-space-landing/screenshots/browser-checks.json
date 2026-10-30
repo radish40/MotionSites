@@ -11,7 +11,7 @@
           "playing": true,
           "muted": true,
           "loop": true,
-          "time": 0.575267
+          "time": 0.547546
         },
         {
           "width": 1440,
@@ -19,7 +19,7 @@
           "playing": true,
           "muted": true,
           "loop": true,
-          "time": 0.627777
+          "time": 0.529078
         },
         {
           "width": 1440,
@@ -27,7 +27,7 @@
           "playing": true,
           "muted": true,
           "loop": true,
-          "time": 0.568837
+          "time": 0.640825
         }
       ]
     },

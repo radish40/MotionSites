@@ -1,0 +1,35 @@
+{
+  "reference": {
+    "path": "/home/opc/motionsites/assets/library/videos/NOVA_Space_Systems_1.mp4",
+    "bytes": 9814953,
+    "sha256": "106bf97dfbd17f22fcb49a77be0de1efd75d6097ae7b9e43c008307599fc0e7b"
+  },
+  "science_asset": {
+    "path": "public/assets/engineering.mp4",
+    "bytes": 9814953,
+    "sha256": "106bf97dfbd17f22fcb49a77be0de1efd75d6097ae7b9e43c008307599fc0e7b"
+  },
+  "byte_identical": true,
+  "metadata": {
+    "width": 1440,
+    "height": 1440,
+    "duration": 10.041667
+  },
+  "visually_inspected_seconds": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "observations": [
+    "Full-frame square star field, coastal launch site, and ascending light trail. No navbar, headings, buttons, or other page UI in inspected frames.",
+    "The reference is byte-identical to the exact top-right science-section video URL in PROMPT.md. It is not a page recording with an extractable hero region.",
+    "The catalog filename alone cannot establish that this is the unavailable hero video; the independently available science asset provides an exact identity match.",
+    "The original hero URL was retried and returned HTTP 403 AccessDenied. Response evidence is saved alongside this report.",
+    "No clean recovery of the distinct requested hero is supported by the supplied evidence. Retain the clearly identified launch.mp4 approximation."
+  ],
+  "site_content_policy": "Inspection images remain outside public/ and dist/. The catalog movie was not copied into the site. All page text, layout, and controls remain real DOM."
+}

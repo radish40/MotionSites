@@ -1,0 +1,12 @@
+HTTP/2 403 
+content-type: application/xml
+date: Fri, 30 Oct 2026 05:18:32 GMT
+server: AmazonS3
+x-cache: Error from cloudfront
+via: 1.1 1800cd7a7c20ba05c1bba4e05f5adce4.cloudfront.net (CloudFront)
+x-amz-cf-pop: KIX82-P7
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: sHvkmr2C0VH1qgtN9wCrm9ROm7J0IC-6t9nt3Rq8phj1TxFlkI01vQ==
+x-robots-tag: noindex, nofollow
+vary: Origin
+

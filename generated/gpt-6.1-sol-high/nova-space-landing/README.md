@@ -33,8 +33,22 @@ Screenshots: `screenshots/desktop.png`, `screenshots/mobile.png`; full-page capt
 docker run --rm -u 1000:1000 -e HOME=/tmp -v "$PWD:/work" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'node scripts/check-browser.cjs'
 ```
 
-## Asset limitation
+## Asset provenance and reference inspection
 
-The exact hero MP4 returns HTTP 403. Recovery attempts used its original URL, a query variation, browser headers/Referer and the HTTP redirect; none recovered it. The project's optional reference WebP is absent, so no reference extraction was possible. The hero therefore reuses the **supplied launch-pad MP4** from the lower section, preserving real autoplay video with no overlay/gradient. The original hero footage and composition remain unverified; restoring it requires obtaining that source file and changing the hero's `name` in `src/Index.tsx`. This is a documented visual approximation, not an exact asset match.
+The exact hero MP4 still returns **HTTP 403 AccessDenied**. Initial attempts used its original URL, a query variation, browser headers/Referer and the HTTP redirect. A fresh request after reference inspection also returned AccessDenied; see `reference-inspection/hero-response-headers.txt` and `hero-response.xml`.
 
-Both lower-section MP4s are the exact requested files, downloaded locally. Google Fonts loaded successfully and an identical local copy of weights 400–700 is included for resilience. Full provenance is in `public/assets/sources.json`. The prompt does not supply the two science paragraphs; original supporting prose was written under the specified headings. All layout, type, controls and text are real DOM; no page screenshot is used as site content.
+Management supplied this design's catalog reference: `/home/opc/motionsites/assets/library/videos/NOVA_Space_Systems_1.mp4`. It exists and was inspected directly in Chromium. It is **1440×1440, 10.041667 seconds, 9,814,953 bytes**. Frames at 0, 1, 2, 4, 6, 8 and 10 seconds show a star field, a coastal launch site and a rising light trail. These frames contain no page typography, navigation or controls. Crucially, a whole-file SHA-256 comparison proves it is **byte-identical to `public/assets/engineering.mp4`**, the exact top-right science video supplied by PROMPT.md:
+
+```text
+106bf97dfbd17f22fcb49a77be0de1efd75d6097ae7b9e43c008307599fc0e7b
+```
+
+This is clean, isolated science-section footage, rather than a page recording containing a recoverable hero region. Its filename alone does not establish it as the separately specified unavailable hero. There are no obscured hero pixels to extract from this reference, and no evidence identifies it with the missing URL. Therefore the exact hero **cannot be recovered from the supplied evidence**. The optional WebP remains absent. No other designs or asset directories were inspected.
+
+The hero retains the explicitly documented **supplied launch-pad MP4** approximation (`launch.mp4`), preserving real autoplay video with no overlay/gradient. It is not claimed to match the original hero. Obtaining the distinct original source remains necessary for an exact hero match. The catalog footage was not repurposed as proof of a hero recovery, and no page movie, screenshot or inspection frame is used as website content.
+
+Reproducible inspection code is in `scripts/inspect-reference.cjs` (mount the single authorized reference read-only at `/reference.mp4` in the same Docker image) and `scripts/reference-evidence.py` (whole-file fingerprints). `reference-inspection/evidence.json`, metadata and sampled PNGs record the inspection outside `public/` and `dist/`. Provenance shipped with the build is in `public/assets/sources.json`.
+
+Both lower-section MP4s are the exact requested files, downloaded locally. Google Fonts loaded successfully and an identical local copy of weights 400–700 is included for resilience. The prompt does not supply the two science paragraphs; original supporting prose was written under the specified headings. All layout, type, controls and text are real DOM.
+
+After the reference inspection and provenance update, the project was rebuilt and the desktop/mobile browser checks and all four screenshots were regenerated. The visual implementation retains the documented hero approximation.

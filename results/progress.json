@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:36:16.496029+00:00",
+  "updated_utc": "2026-10-30T03:37:46.330500+00:00",
   "total": 380,
   "counts": {
-    "complete": 241,
+    "complete": 242,
     "running": 5,
-    "not_started": 134
+    "not_started": 133
   },
   "current_batch": {
     "from_number": 201,
@@ -2440,11 +2440,11 @@
       "id": "nexora-automation",
       "title": "Nexora Automation",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18adc-d75f-7d52-90ed-6c7422fdb5d3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "8a5483f90dec78756e5b58a7438345b807add951",
+      "group_message_id": 307,
+      "url": "https://tool.luo-xd.com/motionsites-results/nexora-automation/"
     },
     {
       "id": "nexus-it-solutions",
@@ -2471,7 +2471,7 @@
       "title": "Orbis NFT",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ae0-b05a-73d0-86c0-3ca8696f4324",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2480,7 +2480,7 @@
       "id": "orbit-web3",
       "title": "Orbit Web3",
       "category": "Web3",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

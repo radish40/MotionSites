@@ -483,7 +483,19 @@
         "generated/gpt-6.1-sol-high/mindloop/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/mindloop/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "neo-vision",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original VR-headset video, desktop split layout, readable mobile overlaid heading and diagonal transition render at both sizes. Worker separately tested both supplied videos, insight tabs, search and video/article dialogs. Unprovided logo and insight image approximations are documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/neo-vision/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/neo-vision/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:35:49.121550+00:00"
+  "updated_utc": "2026-10-30T03:37:38.947172+00:00"
 }

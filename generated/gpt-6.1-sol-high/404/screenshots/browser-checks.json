@@ -1,0 +1,37 @@
+{
+  "checks": [
+    "desktop: no document overflow",
+    "desktop: both local fonts loaded",
+    "desktop: cards visible",
+    "desktop: heading fits",
+    "desktop: card rises on hover",
+    "desktop: navigation visible",
+    "desktop: connect destination set",
+    "mobile: no document overflow",
+    "mobile: both local fonts loaded",
+    "mobile: cards visible",
+    "mobile: heading fits",
+    "mobile: desktop navigation hidden",
+    "mobile: menu opens",
+    "mobile: overlay slides into viewport",
+    "mobile: Escape closes menu",
+    "mobile: focus returns to toggle",
+    "mobile: focus trap wraps",
+    "Main Page points to project base",
+    "Showcase destination set",
+    "no browser script or console errors",
+    "no failed asset requests",
+    "all runtime requests are local"
+  ],
+  "errors": [],
+  "failed": [],
+  "requests": [
+    "http://localhost:4173/motionsites-results/404/",
+    "http://localhost:4173/motionsites-results/404/assets/index-GE-5kTDC.js",
+    "http://localhost:4173/motionsites-results/404/assets/index-Be2oSbK0.css",
+    "http://localhost:4173/motionsites-results/404/assets/alien-spaceship-Cyy__y12.png",
+    "http://localhost:4173/motionsites-results/404/assets/logo.svg",
+    "http://localhost:4173/motionsites-results/404/assets/dm-sans-latin-Bf69Tn_J.woff2",
+    "http://localhost:4173/motionsites-results/404/assets/material-symbols-rounded-BxZzJp6d.woff2"
+  ]
+}

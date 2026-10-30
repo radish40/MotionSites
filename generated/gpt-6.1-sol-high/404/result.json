@@ -1,0 +1,53 @@
+{
+  "title": "Nexto 404",
+  "id": "404",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dependency_audit": "0 vulnerabilities",
+    "browser": "Chromium via playwright-core, production static files at /motionsites-results/404/",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "assertions": [
+      "desktop: no document overflow",
+      "desktop: both local fonts loaded",
+      "desktop: cards visible",
+      "desktop: heading fits",
+      "desktop: card rises on hover",
+      "desktop: navigation visible",
+      "desktop: connect destination set",
+      "mobile: no document overflow",
+      "mobile: both local fonts loaded",
+      "mobile: cards visible",
+      "mobile: heading fits",
+      "mobile: desktop navigation hidden",
+      "mobile: menu opens",
+      "mobile: overlay slides into viewport",
+      "mobile: Escape closes menu",
+      "mobile: focus returns to toggle",
+      "mobile: focus trap wraps",
+      "Main Page points to project base",
+      "Showcase destination set",
+      "no browser script or console errors",
+      "no failed asset requests",
+      "all runtime requests are local"
+    ],
+    "console_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "React + Vite + Tailwind CSS; original specified images and fonts hosted locally.",
+    "Optional original preview file was absent; implemented and reviewed against the full written prompt.",
+    "Navigation destinations are conventional integration paths; destination pages are outside this single-page scope and not supplied.",
+    "No deployment or push performed. Ready for management review."
+  ]
+}

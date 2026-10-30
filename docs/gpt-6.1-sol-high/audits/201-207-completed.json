@@ -1,0 +1,210 @@
+{
+  "recorded_utc": "2026-10-30T02:51:33.721338+00:00",
+  "scope": "Incremental independent delivery audits for designs 201–207; each record retains its actual check time and remote-main snapshot. Full 380-item audit is still required at completion.",
+  "all_selected_pass": true,
+  "audited_designs": 7,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T02:47:40.327719+00:00",
+      "remote_main": "04174c410d7597571e2b014f0e84e92b7ce0a5b1",
+      "delivery": {
+        "id": "rocket-faq",
+        "title": "Rocket FAQ",
+        "source_commit": "04174c410d7597571e2b014f0e84e92b7ce0a5b1",
+        "thread_id": "01a18aab-7c9f-7ce0-90ca-1596d61c6ffc",
+        "group_message_id": 266,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:43:40.053419+00:00",
+      "remote_main": "154ac52ff427a4522a5d4c6c61529e0e3d4a0400",
+      "delivery": {
+        "id": "rocket-pricing",
+        "title": "Rocket Pricing",
+        "source_commit": "154ac52ff427a4522a5d4c6c61529e0e3d4a0400",
+        "thread_id": "01a18aab-7d41-7173-8aa4-d11c3908bd6c",
+        "group_message_id": 264,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:48:17.223156+00:00",
+      "remote_main": "e5eab86a5917e6045148a5dd952ca9632cbb0efb",
+      "delivery": {
+        "id": "saas-pricing-flow",
+        "title": "SaaS Pricing Flow",
+        "source_commit": "94a66c58177f2e0a4b3315e85898399c294efe80",
+        "thread_id": "01a18aab-7dec-7cf1-989d-b725b26b1fce",
+        "group_message_id": 267,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:49:49.581511+00:00",
+      "remote_main": "cabcf3a5069eec7eebfe33a720056275275b45d4",
+      "delivery": {
+        "id": "scroll-landing",
+        "title": "Scroll Landing Page",
+        "source_commit": "e051edd37047cd5237e23d358abacc55e48833c6",
+        "thread_id": "01a18aab-7e5b-76f3-ae16-dddd176e2d6b",
+        "group_message_id": 268,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:45:45.478317+00:00",
+      "remote_main": "14992672c08084e1c9061bafc19e56fdb059956d",
+      "delivery": {
+        "id": "scroll-marquee",
+        "title": "Scroll Marquee",
+        "source_commit": "14992672c08084e1c9061bafc19e56fdb059956d",
+        "thread_id": "01a18aab-7f18-7051-8c20-94150e5d95da",
+        "group_message_id": 265,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:50:32.112666+00:00",
+      "remote_main": "46fc6abcafe09848c3adfc3dc0ed64ea7e1dfc0f",
+      "delivery": {
+        "id": "shop",
+        "title": "Daisy Shop",
+        "source_commit": "46fc6abcafe09848c3adfc3dc0ed64ea7e1dfc0f",
+        "thread_id": "01a18ab0-89d9-7c13-a142-10282a2dd5e7",
+        "group_message_id": 269,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T02:51:00.222991+00:00",
+      "remote_main": "8a8e6471e251242202729236100dc96e46c92b4f",
+      "delivery": {
+        "id": "solace-sign-in",
+        "title": "Solace sign-in",
+        "source_commit": "5135e2fe63acdcd893f114626aed60d24ba88498",
+        "thread_id": "01a18ab0-8a8a-7273-8374-b69702240281",
+        "group_message_id": 270,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

@@ -73,6 +73,18 @@
         "generated/gpt-6.1-sol-high/solace-sign-in/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/solace-sign-in/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "shop",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Real video-backed hero, readable responsive headings, product card and cart affordance render correctly at both sizes. Worker also tested shopping controls and all three video sections.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/shop/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/shop/screenshots/mobile.png"
+      ]
     }
   ]
 }

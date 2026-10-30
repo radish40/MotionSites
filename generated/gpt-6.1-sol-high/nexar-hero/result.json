@@ -1,0 +1,129 @@
+{
+  "title": "Nexar",
+  "id": "nexar-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publish_path": "/motionsites-results/nexar-hero/",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 5.4.21; dist/index.html exists",
+    "browser": "real Chromium via playwright-core",
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "interactions": [
+      {
+        "name": "Desktop: three task cards and no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "Original assets and background video load and play",
+        "passed": true
+      },
+      {
+        "name": "Mode switch and notifications",
+        "passed": true
+      },
+      {
+        "name": "Project selector opens and selects",
+        "passed": true
+      },
+      {
+        "name": "Session, AI review brief, and scheduled details",
+        "passed": true
+      },
+      {
+        "name": "Fast commands and adding an item",
+        "passed": true
+      },
+      {
+        "name": "Editing metrics updates the dashboard",
+        "passed": true
+      },
+      {
+        "name": "Navigation switches views",
+        "passed": true
+      },
+      {
+        "name": "Microphone unavailable state is explained",
+        "passed": true
+      },
+      {
+        "name": "Mobile: all cards visible, no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "Mobile task details and dialog dismissal",
+        "passed": true
+      }
+    ],
+    "additional_widths": [
+      {
+        "width": 320,
+        "scroll": 320,
+        "overflow": []
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "overflow": []
+      },
+      {
+        "width": 1024,
+        "scroll": 1024,
+        "overflow": []
+      },
+      {
+        "width": 1280,
+        "scroll": 1280,
+        "overflow": []
+      },
+      {
+        "width": 1536,
+        "scroll": 1536,
+        "overflow": []
+      },
+      {
+        "width": 1920,
+        "scroll": 1920,
+        "overflow": []
+      }
+    ],
+    "console_errors": [],
+    "page_errors": [],
+    "failed_requests": [],
+    "media": {
+      "images": true,
+      "video": 4,
+      "playing": true,
+      "time": 2.088012
+    },
+    "local_asset_integrity": "All public assets match built files",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "issue": "Higgs image proxy returned HTTP 403",
+      "resolution": "Recovered exact original PNG assets from embedded CloudFront source URLs; served locally"
+    },
+    {
+      "issue": "Optional original reference WebP absent",
+      "resolution": "Implemented and reviewed against complete PROMPT.md"
+    },
+    {
+      "issue": "Container emoji glyph unavailable",
+      "resolution": "Vector star icon used in white command heading circle"
+    }
+  ],
+  "notes": [
+    "Source, lockfile, static build, screenshots, README, and check reports are included.",
+    "Instrument Serif regular and italic bundled locally; requested Google Fonts links retained.",
+    "Invalid prompt package @supabase/Bolt Database-js resolved to @supabase/supabase-js 2.57.4.",
+    "Backend-dependent commands and meetings use clearly described local UI states; no external services are connected.",
+    "Microphone permission failure tested; hardware/granted microphone path not verified.",
+    "npm reported one moderate and one high advisory in the requested dependency family.",
+    "No deployment, push, agents, external messages, or additional sessions created. Ready means available for review."
+  ]
+}

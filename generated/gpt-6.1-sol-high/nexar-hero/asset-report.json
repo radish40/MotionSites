@@ -1,0 +1,49 @@
+[
+  {
+    "file": "public/assets/background.mp4",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_054410_6b17f7f9-d11e-44f1-90b0-75ee563d1971.mp4",
+    "bytes": 9089130,
+    "sha256": "e9157e724cd8fa9b306e71b7eb29cee77f65a3a69acafe73edc8271325fd79f3",
+    "status": "original downloaded"
+  },
+  {
+    "file": "public/assets/avatar-1.png",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_075317_744395c6-7168-48c6-a1f6-5b9b7bd58f87.png",
+    "bytes": 1246792,
+    "sha256": "efa2458ea99f3d9febd328075b6881fccc7860928a96fa73a45c492032478b70",
+    "status": "exact original recovered after image proxy HTTP 403"
+  },
+  {
+    "file": "public/assets/avatar-2.png",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_075333_2caea84e-742e-4846-9284-ed8532c44c99.png",
+    "bytes": 1108899,
+    "sha256": "60497683c499b78a64119865cb60ff2d55ff4532917dba6ddd201dc7b3246a6a",
+    "status": "exact original recovered after image proxy HTTP 403"
+  },
+  {
+    "file": "public/assets/avatar-3.png",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_075354_70a33cfd-3c9c-45ef-a7bb-d371cb8aa0af.png",
+    "bytes": 940717,
+    "sha256": "2287496315d98fb6357a2410d558da71f417d1b4584017fc9b18dfff09ba641b",
+    "status": "exact original recovered after image proxy HTTP 403"
+  },
+  {
+    "file": "public/assets/sprint.png",
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_055416_630ff6c1-4b72-4cb6-a563-0c7e41124fe1.png",
+    "bytes": 459803,
+    "sha256": "956fb6d314261025081ef7c95f120acd59ff73785e4e9314fd6b7884fdf45ffa",
+    "status": "exact original recovered after image proxy HTTP 403"
+  },
+  {
+    "file": "public/assets/instrument-serif-regular.ttf",
+    "source": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zI.ttf",
+    "bytes": 62284,
+    "status": "downloaded from Google Fonts"
+  },
+  {
+    "file": "public/assets/instrument-serif-italic.ttf",
+    "source": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zATiw.ttf",
+    "bytes": 64208,
+    "status": "downloaded from Google Fonts"
+  }
+]

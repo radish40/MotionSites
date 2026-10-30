@@ -1,0 +1,58 @@
+{
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "Desktop: three task cards and no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Original assets and background video load and play",
+      "passed": true
+    },
+    {
+      "name": "Mode switch and notifications",
+      "passed": true
+    },
+    {
+      "name": "Project selector opens and selects",
+      "passed": true
+    },
+    {
+      "name": "Session, AI review brief, and scheduled details",
+      "passed": true
+    },
+    {
+      "name": "Fast commands and adding an item",
+      "passed": true
+    },
+    {
+      "name": "Editing metrics updates the dashboard",
+      "passed": true
+    },
+    {
+      "name": "Navigation switches views",
+      "passed": true
+    },
+    {
+      "name": "Microphone unavailable state is explained",
+      "passed": true
+    },
+    {
+      "name": "Mobile: all cards visible, no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile task details and dialog dismissal",
+      "passed": true
+    }
+  ],
+  "media": {
+    "images": true,
+    "video": 4,
+    "playing": true,
+    "time": 2.088012
+  },
+  "passed": true
+}

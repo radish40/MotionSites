@@ -1,0 +1,12 @@
+{
+  "video": {
+    "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260521_064421_279656fd-e76f-40a0-8fed-7456d4f7715a.mp4",
+    "source_sha256": "bbbd41af048ea752f1f3fd985268015464654b42a5d4434f524a2c11e4190f3c",
+    "source_format": "3840x2160 HEVC, 11.041667 seconds, AAC audio",
+    "delivered_file": "wisa-scroll.mp4",
+    "conversion": "ffmpeg -i original.mp4 -an -c:v libx264 -preset fast -crf 20 -vf scale=1920:-2 -pix_fmt yuv420p -g 12 -movflags +faststart wisa-scroll.mp4",
+    "reason": "Chromium reported readyState 4 for original HEVC file but videoWidth 0 and a black frame. H.264 delivers the same footage at 1920x1080; audio omitted because scroll video is always muted."
+  },
+  "svg": "Exact paths were absent from PROMPT.md. Four-path geometric WISA wordmark recreated from this design's reference; globe drawn as inline ellipse and line wireframe.",
+  "reference": "/home/opc/motionsites/assets/previews/scroll-landing.webp; inspected only, no pixels extracted or embedded"
+}

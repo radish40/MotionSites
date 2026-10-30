@@ -1,0 +1,329 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "responses": [],
+  "viewports": {
+    "desktop": {
+      "initial": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "duration": 11.041667,
+        "videoWidth": 1920,
+        "videoHeight": 1080,
+        "videoTime": 0,
+        "fonts": [
+          {
+            "family": "JetBrains Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "JetBrains Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "status": "loaded"
+          }
+        ],
+        "h1": {
+          "x": 72,
+          "y": 768,
+          "width": 753.84375,
+          "height": 168,
+          "top": 768,
+          "right": 825.84375,
+          "bottom": 936,
+          "left": 72
+        }
+      },
+      "middle": {
+        "scrollY": 1823,
+        "videoTime": 9.149526,
+        "headerY": -30,
+        "opacity": "1",
+        "scrollWidth": 1440
+      },
+      "footer": {
+        "scrollWidth": 1440,
+        "videoTime": 10.494602,
+        "duration": 11.041667,
+        "scrollY": 2091,
+        "footerTop": 309,
+        "links": [
+          {
+            "label": "WISA home",
+            "href": "#home"
+          },
+          {
+            "label": "LEAGUESLEAGUES",
+            "href": "#programs"
+          },
+          {
+            "label": "STADIUMS",
+            "href": "#facilities"
+          },
+          {
+            "label": "TRAINING",
+            "href": "#programs"
+          },
+          {
+            "label": "COMPETITIONS",
+            "href": "#experiences"
+          },
+          {
+            "label": "TICKETS",
+            "href": "#contact"
+          },
+          {
+            "label": "BUY MATCH PASS",
+            "href": "mailto:tickets@wisa.football?subject=Match%20pass%20enquiry"
+          },
+          {
+            "label": "EXPLORE OUR STADIUMS",
+            "href": "#facilities"
+          },
+          {
+            "label": "START YOUR SEASONS",
+            "href": "mailto:hello@wisa.football?subject=Start%20your%20seasons"
+          },
+          {
+            "label": "About",
+            "href": "#about"
+          },
+          {
+            "label": "Rosters",
+            "href": "#programs"
+          },
+          {
+            "label": "Press",
+            "href": "mailto:press@wisa.football"
+          },
+          {
+            "label": "Contact",
+            "href": "mailto:hello@wisa.football"
+          },
+          {
+            "label": "Coaching",
+            "href": "#programs"
+          },
+          {
+            "label": "Training Camp",
+            "href": "#facilities"
+          },
+          {
+            "label": "Fitness",
+            "href": "#programs"
+          },
+          {
+            "label": "Tryout",
+            "href": "mailto:hello@wisa.football?subject=Tryout%20enquiry"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/"
+          },
+          {
+            "label": "X / Twitter",
+            "href": "https://x.com/"
+          },
+          {
+            "label": "YouTube",
+            "href": "https://www.youtube.com/"
+          },
+          {
+            "label": "Newsletter",
+            "href": "mailto:hello@wisa.football?subject=Newsletter%20subscription"
+          },
+          {
+            "label": "PRIVACY",
+            "href": "mailto:hello@wisa.football?subject=Privacy%20enquiry"
+          },
+          {
+            "label": "TERMS",
+            "href": "mailto:hello@wisa.football?subject=Terms%20enquiry"
+          }
+        ]
+      },
+      "passed": [
+        "video loads",
+        "no horizontal overflow",
+        "arrow hover animation",
+        "CTA navigates to facilities",
+        "video advances on scroll",
+        "header slides out",
+        "internal links resolve",
+        "footer navigation works",
+        "reverse video scrub"
+      ]
+    },
+    "mobile": {
+      "initial": {
+        "width": 390,
+        "scrollWidth": 390,
+        "duration": 11.041667,
+        "videoWidth": 1920,
+        "videoHeight": 1080,
+        "videoTime": 0,
+        "fonts": [
+          {
+            "family": "JetBrains Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "JetBrains Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "status": "loaded"
+          }
+        ],
+        "h1": {
+          "x": 19.5,
+          "y": 658.15625,
+          "width": 286.375,
+          "height": 63.84375,
+          "top": 658.15625,
+          "right": 305.875,
+          "bottom": 722,
+          "left": 19.5
+        }
+      },
+      "middle": {
+        "scrollY": 1556,
+        "videoTime": 8.658821,
+        "headerY": -93,
+        "opacity": "1",
+        "scrollWidth": 390
+      },
+      "footer": {
+        "scrollWidth": 390,
+        "videoTime": 11.001667,
+        "duration": 11.041667,
+        "scrollY": 2093,
+        "footerTop": 60,
+        "links": [
+          {
+            "label": "WISA home",
+            "href": "#home"
+          },
+          {
+            "label": "LEAGUES",
+            "href": "#programs"
+          },
+          {
+            "label": "STADIUMS",
+            "href": "#facilities"
+          },
+          {
+            "label": "TRAINING",
+            "href": "#programs"
+          },
+          {
+            "label": "COMPETITIONS",
+            "href": "#experiences"
+          },
+          {
+            "label": "TICKETS",
+            "href": "#contact"
+          },
+          {
+            "label": "BUY MATCH PASS",
+            "href": "mailto:tickets@wisa.football?subject=Match%20pass%20enquiry"
+          },
+          {
+            "label": "EXPLORE OUR STADIUMS",
+            "href": "#facilities"
+          },
+          {
+            "label": "START YOUR SEASONS",
+            "href": "mailto:hello@wisa.football?subject=Start%20your%20seasons"
+          },
+          {
+            "label": "About",
+            "href": "#about"
+          },
+          {
+            "label": "Rosters",
+            "href": "#programs"
+          },
+          {
+            "label": "Press",
+            "href": "mailto:press@wisa.football"
+          },
+          {
+            "label": "Contact",
+            "href": "mailto:hello@wisa.football"
+          },
+          {
+            "label": "Coaching",
+            "href": "#programs"
+          },
+          {
+            "label": "Training Camp",
+            "href": "#facilities"
+          },
+          {
+            "label": "Fitness",
+            "href": "#programs"
+          },
+          {
+            "label": "Tryout",
+            "href": "mailto:hello@wisa.football?subject=Tryout%20enquiry"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/"
+          },
+          {
+            "label": "X / Twitter",
+            "href": "https://x.com/"
+          },
+          {
+            "label": "YouTube",
+            "href": "https://www.youtube.com/"
+          },
+          {
+            "label": "Newsletter",
+            "href": "mailto:hello@wisa.football?subject=Newsletter%20subscription"
+          },
+          {
+            "label": "PRIVACY",
+            "href": "mailto:hello@wisa.football?subject=Privacy%20enquiry"
+          },
+          {
+            "label": "TERMS",
+            "href": "mailto:hello@wisa.football?subject=Terms%20enquiry"
+          }
+        ]
+      },
+      "passed": [
+        "video loads",
+        "no horizontal overflow",
+        "arrow hover animation",
+        "CTA navigates to facilities",
+        "video advances on scroll",
+        "header slides out",
+        "internal links resolve",
+        "footer navigation works",
+        "reverse video scrub"
+      ]
+    }
+  }
+}

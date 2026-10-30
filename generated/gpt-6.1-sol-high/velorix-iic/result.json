@@ -1,0 +1,35 @@
+{
+  "title": "Velorix IIC",
+  "id": "velorix-iic",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "publishing_path": "/motionsites-results/velorix-iic/",
+    "desktop": "passed: 1440x1000",
+    "mobile": "passed: 390x844",
+    "video": "passed: original video loads locally, autoplays, advances, muted, loops",
+    "fonts": "passed: local Inter fonts load",
+    "interactions": "passed: menu toggle, Escape, link dismissal, backdrop dismissal, CTA clickability",
+    "overflow": "none at both required sizes",
+    "browser_errors": [],
+    "failed_requests": [],
+    "visual_review": "desktop, mobile, and open mobile menu screenshots inspected",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "report": "browser-report.json",
+    "build_and_browser_log": "verification.log"
+  },
+  "asset_issues": [],
+  "notes": [
+    "React/TypeScript, Vite, Tailwind CSS, lucide-react; supplied Supabase dependency retained without persistence.",
+    "Original video downloaded unchanged; Inter 400/500/600 hosted locally. Provenance documented in README.md and font-source.css.",
+    "The original presentational navigation hrefs and CTA button behavior are preserved; no backend or additional product flows were specified.",
+    "Video is paused at 3 seconds only by the screenshot script; the delivered page autoplays and loops.",
+    "Chromium verification only; physical devices and other browser engines were not tested.",
+    "No deployment, push, agents, or other project changes. ready means ready for review."
+  ]
+}

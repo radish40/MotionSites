@@ -1,0 +1,41 @@
+{
+  "path": "/motionsites-results/velorix-iic/",
+  "checks": [
+    "desktop: font loaded, video autoplay/advance/muted/loop, no page overflow, screenshot, navigation and CTA clicks",
+    "mobile: font loaded, video autoplay/advance/muted/loop, no page overflow, screenshot, navigation and CTA clicks",
+    "Mobile menu: toggle, Escape, link selection, backdrop dismissal, menu CTA"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "screens": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "font": true,
+      "video": {
+        "width": 3828,
+        "height": 2164,
+        "duration": 10.041667,
+        "muted": true,
+        "loop": true
+      }
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "font": true,
+      "video": {
+        "width": 3828,
+        "height": 2164,
+        "duration": 10.041667,
+        "muted": true,
+        "loop": true
+      }
+    }
+  },
+  "status": "passed"
+}

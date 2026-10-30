@@ -1,0 +1,8 @@
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/inter-400.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url('/assets/inter-500.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('/assets/inter-600.ttf') format('truetype'); }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #root { width: 100%; min-height: 100%; margin: 0; background: #000; }
+button:focus-visible, a:focus-visible { outline: 2px solid #a78bfa; outline-offset: 4px; }

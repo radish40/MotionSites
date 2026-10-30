@@ -12748,14 +12748,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b76-54c7-7990-8d83-0f7f77b40d37",
       "output_path": "generated/gpt-6.1-sol-high/prioritize-hero",
       "validation": "",
       "notes": "",
       "process_id": 1215626,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:19:10.244604+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 374,
@@ -12912,7 +12916,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T06:20:06.132369+00:00",
+  "updated_utc": "2026-10-30T06:21:00.170894+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

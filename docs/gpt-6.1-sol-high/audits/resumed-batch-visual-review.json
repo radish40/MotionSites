@@ -615,7 +615,19 @@
         "generated/gpt-6.1-sol-high/sky-elite-private-jets/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/sky-elite-private-jets/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "taskly",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Blue graded original orb video, readable Taskly heading, gradient CTA and responsive company marks render at both sizes. Worker tested original video progression, required color filter/screen blend, signup and reduced motion. Edge transparency approximation is documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/taskly/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/taskly/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:49:26.441082+00:00"
+  "updated_utc": "2026-10-30T03:50:23.507338+00:00"
 }

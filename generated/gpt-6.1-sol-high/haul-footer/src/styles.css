@@ -1,0 +1,9 @@
+@import url('../public/assets/inter-google.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { background: #f8f9fa; }
+body { margin: 0; font-family: Inter, sans-serif; background: #f8f9fa; }
+a { text-decoration: none; }
+::selection { background: #fed7aa; color: #111827; }

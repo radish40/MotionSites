@@ -1,0 +1,39 @@
+{
+  "title": "HAUL!",
+  "id": "haul-footer",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser": "Chromium via playwright-core",
+    "desktop_1440x1000": "passed",
+    "mobile_390x844": "passed",
+    "tablet_768x1024": "passed",
+    "scroll_parallax": "passed; foreground transform changes on scroll",
+    "responsive_spacer": "passed",
+    "social_hover": "passed; orange background",
+    "keyboard_focus": "passed",
+    "horizontal_overflow": "none at checked sizes",
+    "script_errors": [],
+    "failed_requests": [],
+    "images_and_fonts": "loaded successfully",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png",
+      "screenshots/mobile-full.png"
+    ],
+    "evidence": "checks/browser-results.json"
+  },
+  "asset_issues": [
+    "Optional local visual reference was absent; validation follows written prompt.",
+    "Original transparent truck PNG is approximately 19 MiB; retained without modification."
+  ],
+  "notes": [
+    "React, Tailwind CSS, motion/react, lucide-react; Inter 400/500/600/700 from Google Fonts.",
+    "Exact specified images and Google font files are stored locally.",
+    "Base path: /motionsites-results/haul-footer/.",
+    "Navigation and social destinations are # placeholders because prompt provides no URLs.",
+    "Ready for review; no deployment or push performed."
+  ]
+}

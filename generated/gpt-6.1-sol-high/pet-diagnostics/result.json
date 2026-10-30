@@ -1,0 +1,64 @@
+{
+  "title": "Pet Diagnostics",
+  "id": "pet-diagnostics",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html is byte-identical to index.html",
+    "delivery_path": "/motionsites-results/pet-diagnostics/",
+    "desktop": "passed; 1440x1000 screenshot",
+    "mobile": "passed; 390x844 screenshot",
+    "desktop_type_1440x900": {
+      "headline_px": 23.9702,
+      "table_px": 10.8633
+    },
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "width": 1928,
+      "duration": 8.041667,
+      "display": "block",
+      "opacity": "1"
+    },
+    "reduced_motion": {
+      "video": "none",
+      "still": "block",
+      "loaded": true,
+      "transition": "0s"
+    },
+    "responsive_widths": [
+      320,
+      375,
+      390,
+      640,
+      820,
+      821,
+      1024,
+      1280,
+      1440,
+      1920,
+      2560
+    ],
+    "horizontal_overflow": false,
+    "button_states": "hover, press, focus and keyboard activation passed for all three pills",
+    "script_errors": [],
+    "failed_requests": [],
+    "fonts": "Inter and Instrument Serif loaded",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-report.json",
+    "visual_review": "desktop and mobile screenshots inspected",
+    "og_asset_http_status": 200
+  },
+  "asset_issues": [],
+  "notes": [
+    "Self-contained native HTML with one CSS block and one small script; no frontend build required. npm build packages an exact copy into dist/.",
+    "Exact original remote assets and fonts retained; no recovered or substitute media.",
+    "Actual source video duration 8.041667 seconds rounds to 8.04. CSS measurements are the exact specified formulas and round to the target values.",
+    "CTA destinations were not provided; href=\"#\" placeholders preserve the specified design without adding checkout or booking flows.",
+    "Only Linux Chromium was tested; no deployment or push performed.",
+    "ready means ready for review, not published."
+  ]
+}

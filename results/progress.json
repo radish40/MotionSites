@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:23:18.628162+00:00",
+  "updated_utc": "2026-10-30T05:25:27.631364+00:00",
   "total": 380,
   "counts": {
-    "complete": 331,
-    "running": 6,
-    "not_started": 43
+    "complete": 334,
+    "running": 5,
+    "not_started": 41
   },
   "current_batch": {
     "from_number": 201,
@@ -3300,11 +3300,11 @@
       "id": "5",
       "title": "Glassmorphism Agency Hero",
       "category": "Agency",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b38-ffd7-7142-aa3c-5cd35f0a6220",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9e345bf1260d378082400b050800ca6ca811eb96",
+      "group_message_id": 400,
+      "url": "https://tool.luo-xd.com/motionsites-results/5/"
     },
     {
       "id": "innovation-landing",
@@ -3340,21 +3340,21 @@
       "id": "18",
       "title": "Loader Animation",
       "category": "Component",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b3f-482d-7640-9d8e-18bd2fa45b8c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a60c57c372e5a29fb878bdd59373d3cc6eb25b7e",
+      "group_message_id": 401,
+      "url": "https://tool.luo-xd.com/motionsites-results/18/"
     },
     {
       "id": "rivr-hero",
       "title": "RIVR",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b3f-48b7-7511-b138-9d689f9f5663",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "42e054c0ca4e86ecb2f2a4f7e1a41d5b37d1a461",
+      "group_message_id": 402,
+      "url": "https://tool.luo-xd.com/motionsites-results/rivr-hero/"
     },
     {
       "id": "wisa-space-hero",
@@ -3371,7 +3371,7 @@
       "title": "AI Designer Portfolio",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b41-af17-7bb2-9923-e5bee4c7ac4c",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3381,7 +3381,7 @@
       "title": "Impressive Hero",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b41-afdb-7290-8443-4fbe18e298d7",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3390,7 +3390,7 @@
       "id": "flowmate-landing",
       "title": "FlowMate",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3400,7 +3400,7 @@
       "id": "luminex-hero",
       "title": "Luminex",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

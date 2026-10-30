@@ -1,0 +1,54 @@
+{
+  "title": "Slam Dunk",
+  "id": "slam-dunk-hero",
+  "interpretation": "Independent original concept, explicitly authorized by management in the continuation request; not a faithful recreation or recovered design.",
+  "inputs": {
+    "original_prompt": "PROMPT.md preserved byte-for-byte (86 bytes). Its only content is the Google AI Studio footer; there is no remix link or usable design brief.",
+    "reference": "The specified own reference image is absent; no reference or other design was accessed.",
+    "catalog_brief": "Slam Dunk; Hero Section/landing; a Slam Dunk basketball themed hero with dynamic basketball elements and passionate sports styling.",
+    "original_prompt_sha256": "70922c7b3e3469038092bbe4183330a7c4957a7eff7afff92ad0cfa178348937"
+  },
+  "creative_choices": [
+    "Warm off-white, charcoal, court terracotta, and bright orange evoke street basketball and printed sports posters.",
+    "Condensed heavyweight headline, oversized outlined 23, hand-drawn-style SVG underline, court markings, and typographic ticker establish energetic sports styling.",
+    "The hero ball is original SVG geometry with gradients, a repeating pebble pattern, clipped seams, and CSS float/shot animation. The hoop, grid, brand mark, shadows, stars, and court lines are original SVG/CSS.",
+    "23 is a generic decorative jersey number. Coordinates are decorative geographic notation, not a promised venue or affiliation.",
+    "All marketing copy, fictional sessions, initials, and community values were written for this concept. Initial circles are graphic placeholders, not real player portraits or testimonials.",
+    "Interactions include a local session filter and reservation plan, three shooting fundamentals, community principles, basketball shooting with a score, and optional synthesized sound.",
+    "EST. 2026 denotes creation of this concept, not a historical organization. No actual team, league, event organizer, or anime affiliation is claimed."
+  ],
+  "assets": [
+    {
+      "kind": "original code-native graphics",
+      "files": [
+        "src/main.tsx",
+        "src/style.css"
+      ],
+      "source": "Authored in this project; no recovered art, reference extraction, generated raster images, or external image assets."
+    },
+    {
+      "kind": "fonts",
+      "families": [
+        "Barlow",
+        "Barlow Condensed"
+      ],
+      "source": "Google Fonts, locally bundled TTF files",
+      "details": "public/fonts/provenance.json",
+      "licenses": [
+        "public/fonts/OFL-Barlow.txt",
+        "public/fonts/OFL-BarlowCondensed.txt"
+      ]
+    },
+    {
+      "kind": "interface icons",
+      "source": "lucide-react npm package",
+      "license": "ISC; package license included with installed dependency"
+    }
+  ],
+  "limitations": [
+    "Fictional sessions only. Saving a spot stores a demo preference in browser localStorage, never a real booking.",
+    "No backend, account, AI service, external runtime API, deployment, or message sending.",
+    "Shot audio is synthesized with Web Audio after explicit opt-in; unavailable audio is silently optional.",
+    "Visual and browser verification uses local Chromium; no cross-browser or physical-device certification."
+  ]
+}

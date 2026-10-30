@@ -1,0 +1,29 @@
+{
+  "stylesheet": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600;700&display=swap",
+  "files": [
+    {
+      "file": "font-0.ttf",
+      "source": "https://fonts.gstatic.com/s/barlow/v13/7cHpv4kjgoGqM7EPCw.ttf"
+    },
+    {
+      "file": "font-1.ttf",
+      "source": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3_-gc4A.ttf"
+    },
+    {
+      "file": "font-2.ttf",
+      "source": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E30-8c4A.ttf"
+    },
+    {
+      "file": "font-3.ttf",
+      "source": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3t-4c4A.ttf"
+    },
+    {
+      "file": "font-4.ttf",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2_3E.ttf"
+    },
+    {
+      "file": "font-5.ttf",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1_3E.ttf"
+    }
+  ]
+}

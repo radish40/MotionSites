@@ -1,0 +1,56 @@
+{
+  "browser": "148.0.7778.178",
+  "base": "/motionsites-results/slam-dunk-hero/",
+  "results": [
+    {
+      "name": "Production page and bundled fonts load at required subpath",
+      "status": "passed"
+    },
+    {
+      "name": "Desktop 1440×1000: no horizontal overflow",
+      "status": "passed"
+    },
+    {
+      "name": "Session filter, save, reload persistence, cancellation, Escape, and focus return",
+      "status": "passed"
+    },
+    {
+      "name": "Playbook next button and tip navigation",
+      "status": "passed"
+    },
+    {
+      "name": "Community dialog and session handoff",
+      "status": "passed"
+    },
+    {
+      "name": "Shoot interaction, score, and optional synthesized audio toggle",
+      "status": "passed"
+    },
+    {
+      "name": "Reduced motion disables decorative and shot animations",
+      "status": "passed"
+    },
+    {
+      "name": "Mobile 390×844: no horizontal overflow and screenshot",
+      "status": "passed"
+    },
+    {
+      "name": "Mobile menu, playbook layout, sessions filter and save",
+      "status": "passed"
+    },
+    {
+      "name": "Additional widths 320, 768, 1024, 1920: no page overflow",
+      "status": "passed"
+    },
+    {
+      "name": "Normal-motion floating artwork and shooting animation",
+      "status": "passed"
+    },
+    {
+      "name": "No browser script/console errors or failed asset responses",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

@@ -1,0 +1,115 @@
+{
+  "title": "Slam Dunk",
+  "id": "slam-dunk-hero",
+  "status": "ready",
+  "concept_status": "Independent original concept authorized by management; not a faithful recreation or recovered original.",
+  "stack": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "responsive CSS",
+    "original SVG/CSS motion"
+  ],
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "build": {
+    "status": "passed",
+    "output": "dist/",
+    "entrypoint": "dist/index.html",
+    "base": "/motionsites-results/slam-dunk-hero/"
+  },
+  "checks": {
+    "browser": "148.0.7778.178",
+    "results": [
+      {
+        "name": "Production page and bundled fonts load at required subpath",
+        "status": "passed"
+      },
+      {
+        "name": "Desktop 1440\u00d71000: no horizontal overflow",
+        "status": "passed"
+      },
+      {
+        "name": "Session filter, save, reload persistence, cancellation, Escape, and focus return",
+        "status": "passed"
+      },
+      {
+        "name": "Playbook next button and tip navigation",
+        "status": "passed"
+      },
+      {
+        "name": "Community dialog and session handoff",
+        "status": "passed"
+      },
+      {
+        "name": "Shoot interaction, score, and optional synthesized audio toggle",
+        "status": "passed"
+      },
+      {
+        "name": "Reduced motion disables decorative and shot animations",
+        "status": "passed"
+      },
+      {
+        "name": "Mobile 390\u00d7844: no horizontal overflow and screenshot",
+        "status": "passed"
+      },
+      {
+        "name": "Mobile menu, playbook layout, sessions filter and save",
+        "status": "passed"
+      },
+      {
+        "name": "Additional widths 320, 768, 1024, 1920: no page overflow",
+        "status": "passed"
+      },
+      {
+        "name": "Normal-motion floating artwork and shooting animation",
+        "status": "passed"
+      },
+      {
+        "name": "No browser script/console errors or failed asset responses",
+        "status": "passed"
+      }
+    ],
+    "script_errors": [],
+    "failed_asset_responses": [],
+    "screenshots": {
+      "desktop": {
+        "path": "screenshots/desktop.png",
+        "image_width": 1440,
+        "image_height": 1143,
+        "capture": "full page",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      },
+      "mobile": {
+        "path": "screenshots/mobile.png",
+        "image_width": 390,
+        "image_height": 1461,
+        "capture": "full page",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    "evidence": "screenshots/checks.json",
+    "prompt_preserved": true,
+    "prompt_bytes": 86,
+    "prompt_sha256": "70922c7b3e3469038092bbe4183330a7c4957a7eff7afff92ad0cfa178348937"
+  },
+  "asset_issues": [
+    {
+      "issue": "Original prompt contains only a footer; no actual design instructions or remix link. Own reference image is absent.",
+      "resolution": "Management explicitly authorized an original concept from the title and catalog brief. No recovered artwork or fidelity claims."
+    }
+  ],
+  "notes": [
+    "Ready for management acceptance, not deployed.",
+    "All visual art and copy are original to this concept; fonts are locally bundled Google Fonts (OFL), icons are Lucide (ISC).",
+    "Fictional sessions; localStorage saves a demo preference, never a real reservation.",
+    "No backend, account, AI service, external runtime asset requests, push, deployment, agents, or external messages.",
+    "Desktop/mobile Chromium checks and screenshots are real. No cross-browser or physical-device certification.",
+    "README.md and provenance.json explain creative choices, missing sources, asset origins, and limitations."
+  ]
+}

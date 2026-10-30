@@ -1,0 +1,66 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "video": {
+      "playing": true,
+      "time": 2.481257,
+      "width": 1924,
+      "height": 1076,
+      "muted": true,
+      "loop": true,
+      "autoplay": true,
+      "playsInline": true,
+      "source": "http://127.0.0.1:4173/motionsites-results/velorah/assets/velorah.mp4"
+    },
+    "fonts": {
+      "display": true,
+      "body": true
+    },
+    "overflow": {
+      "viewport": 1440,
+      "content": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "failedRequests": [],
+    "navigation": "all five links checked",
+    "journeyButtons": "both checked; headline focus and entrance replay",
+    "screenshot": "screenshots/desktop.png",
+    "reducedMotion": "entrance animations disabled"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "video": {
+      "playing": true,
+      "time": 2.455526,
+      "width": 1924,
+      "height": 1076,
+      "muted": true,
+      "loop": true,
+      "autoplay": true,
+      "playsInline": true,
+      "source": "http://127.0.0.1:4173/motionsites-results/velorah/assets/velorah.mp4"
+    },
+    "fonts": {
+      "display": true,
+      "body": true
+    },
+    "overflow": {
+      "viewport": 390,
+      "content": 390,
+      "height": 844
+    },
+    "errors": [],
+    "failedRequests": [],
+    "navigation": "hidden as specified",
+    "journeyButtons": "both checked; headline focus and entrance replay",
+    "screenshot": "screenshots/mobile.png",
+    "reducedMotion": "entrance animations disabled"
+  }
+}

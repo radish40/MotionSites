@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:25:27.631364+00:00",
+  "updated_utc": "2026-10-30T05:26:51.243470+00:00",
   "total": 380,
   "counts": {
-    "complete": 334,
+    "complete": 335,
     "running": 5,
-    "not_started": 41
+    "not_started": 40
   },
   "current_batch": {
     "from_number": 201,
@@ -3380,18 +3380,18 @@
       "id": "impressive-hero",
       "title": "Impressive Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b41-afdb-7290-8443-4fbe18e298d7",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6c2bea7b02ef661b6b3c8f117d1e52ebf74d02d5",
+      "group_message_id": 403,
+      "url": "https://tool.luo-xd.com/motionsites-results/impressive-hero/"
     },
     {
       "id": "flowmate-landing",
       "title": "FlowMate",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b44-00d1-7500-a95c-ea0ffcf2ec45",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3401,7 +3401,7 @@
       "title": "Luminex",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b44-01d6-7ae1-bebf-a582b1c0e061",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3410,7 +3410,7 @@
       "id": "nike-premium-landing",
       "title": "Nike Premium Landing",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,0 +1,62 @@
+{
+  "title": "Gooey Gradient Background",
+  "id": "community-superdesign-gooey-gradient-background",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "dist_index_exists": true,
+    "browser": {
+      "checks": [
+        {
+          "viewport": "desktop",
+          "width": 1440,
+          "height": 1000,
+          "fontLoaded": true,
+          "noOverflow": true,
+          "animation": true,
+          "pointerTracking": true,
+          "buttons": true,
+          "dialogEscape": true,
+          "keyboardFocus": true,
+          "reducedMotion": true
+        },
+        {
+          "viewport": "mobile",
+          "width": 390,
+          "height": 844,
+          "fontLoaded": true,
+          "noOverflow": true,
+          "animation": true,
+          "pointerTracking": true,
+          "buttons": true,
+          "dialogEscape": true,
+          "keyboardFocus": true,
+          "reducedMotion": true
+        }
+      ],
+      "errors": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected against supplied implementation."
+  },
+  "asset_issues": [
+    {
+      "asset": "Optional reference WebP",
+      "issue": "File absent at the path specified by TASK.md.",
+      "resolution": "Built from full PROMPT.md reference code; no screenshot asset was used. Image comparison unavailable."
+    }
+  ],
+  "notes": [
+    "React 18, TypeScript, Vite, lucide-react; bundled Dongle 300/400 with SIL OFL license.",
+    "Configured base: /motionsites-results/community-superdesign-gooey-gradient-background/.",
+    "Preserves five gradient animations, SVG goo filter, colors, centered Bubbles copy, and two glass buttons.",
+    "Mouse/touch following uses elapsed-time smoothing for lower frame rates; reduced-motion and animation cleanup are implemented.",
+    "Get Started reveals a pointer hint; Learn More opens a dismissible native dialog.",
+    "Headless software rendering of full-screen SVG blur layers can be slow; real device GPU performance was not measured.",
+    "No deployment, push, agents, or other design sessions. Ready means ready for review."
+  ]
+}

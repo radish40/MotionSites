@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "fontLoaded": true,
+      "noOverflow": true,
+      "animation": true,
+      "pointerTracking": true,
+      "buttons": true,
+      "dialogEscape": true,
+      "keyboardFocus": true,
+      "reducedMotion": true
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "fontLoaded": true,
+      "noOverflow": true,
+      "animation": true,
+      "pointerTracking": true,
+      "buttons": true,
+      "dialogEscape": true,
+      "keyboardFocus": true,
+      "reducedMotion": true
+    }
+  ],
+  "errors": []
+}

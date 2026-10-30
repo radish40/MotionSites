@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:24:44.768965+00:00",
+  "updated_utc": "2026-10-30T03:26:08.613531+00:00",
   "total": 380,
   "counts": {
-    "complete": 232,
+    "complete": 233,
     "running": 5,
-    "not_started": 143
+    "not_started": 142
   },
   "current_batch": {
     "from_number": 201,
@@ -2340,11 +2340,11 @@
       "id": "bloom-ai",
       "title": "Bloom AI",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad0-c05a-7a91-8887-bdcd611573e2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f0e166bd633d63fb1fbfb30d389503a020038092",
+      "group_message_id": 297,
+      "url": "https://tool.luo-xd.com/motionsites-results/bloom-ai/"
     },
     {
       "id": "club-x-investors",
@@ -2371,7 +2371,7 @@
       "title": "EVR Ventures",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ad5-be8b-73f2-af94-ebf8daff0fc3",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2381,7 +2381,7 @@
       "title": "Finlytic AI Agent",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ad5-bf19-71e2-b3b0-a8870f2e9616",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2390,7 +2390,7 @@
       "id": "grow-ai-talent-platform",
       "title": "Grow AI Talent Platform",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

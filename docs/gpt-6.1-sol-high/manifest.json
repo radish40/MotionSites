@@ -7979,19 +7979,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad0-c05a-7a91-8887-bdcd611573e2",
       "output_path": "generated/gpt-6.1-sol-high/bloom-ai",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 519373,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:18:18.828685+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "f0e166bd633d63fb1fbfb30d389503a020038092",
+      "url": "https://tool.luo-xd.com/motionsites-results/bloom-ai/",
+      "completed_utc": "2026-10-30T03:26:08.411103+00:00",
+      "group_message_id": 297
     },
     {
       "number": 234,
@@ -8070,14 +8074,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ad5-be8b-73f2-af94-ebf8daff0fc3",
       "output_path": "generated/gpt-6.1-sol-high/evr-ventures",
       "validation": "",
       "notes": "",
       "process_id": 540390,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:23:46.097957+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 237,
@@ -8096,14 +8104,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ad5-bf19-71e2-b3b0-a8870f2e9616",
       "output_path": "generated/gpt-6.1-sol-high/finlytic-ai-agent",
       "validation": "",
       "notes": "",
       "process_id": 540441,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:23:46.219824+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 238,
@@ -8121,11 +8133,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/grow-ai-talent-platform",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 547899,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:25:37.603481+00:00",
+      "worker_state": "running"
     },
     {
       "number": 239,
@@ -11253,7 +11269,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:24:44.768965+00:00",
+  "updated_utc": "2026-10-30T03:26:08.613531+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

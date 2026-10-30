@@ -144,6 +144,7 @@ def cycle():
     for job in manifest['jobs']:
         if job['number']>BATCH_STOP_NUMBER:continue
         if job['status'] in ('ready','validating','publishing'):
+            if job.get('delivery_hold'):continue
             logs=RUNTIME/job['id'];logs.mkdir(exist_ok=True)
             # Persistent delivery failures require investigation, not an unbounded retry loop.
             if job.get('delivery_failures',0)>=3:continue

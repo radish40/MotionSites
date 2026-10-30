@@ -7327,7 +7327,8 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "delivery_hold": "Verify exported destination routes and scoped custom 404 routing before public acceptance"
     },
     {
       "number": 215,
@@ -10982,7 +10983,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T02:54:32.906226+00:00",
+  "updated_utc": "2026-10-30T02:55:05.814655+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

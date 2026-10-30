@@ -144,6 +144,7 @@ def finish(ident, refresh=False):
     if refresh and job['status']!='complete':raise RuntimeError('Only completed deliveries can refresh their previews')
     if job['status']=='complete' and not refresh:
         notify(ident);return
+    if job.get('delivery_hold'):raise RuntimeError('Delivery review pending: '+job['delivery_hold'])
     if refresh:job['preview_previous_source_commit']=job['source_commit']
     output=ROOT/job['output_path']; result=json.loads((output/'result.json').read_text())
     if result.get('status')!='ready': raise RuntimeError('Worker is not ready')

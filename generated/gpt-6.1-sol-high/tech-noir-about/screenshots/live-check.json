@@ -1,0 +1,60 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/tech-noir-about/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T02:57:18.603Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Tech-Noir About",
+      "bodyChars": 439,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/tech-noir-about/assets/recovered-artwork.webm",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 5.970976,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Tech-Noir About",
+      "bodyChars": 439,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/tech-noir-about/assets/recovered-artwork.webm",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 5.970976,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

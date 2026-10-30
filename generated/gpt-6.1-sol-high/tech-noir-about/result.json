@@ -1,0 +1,34 @@
+{
+  "title": "Tech-Noir About",
+  "id": "tech-noir-about",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "desktop": "Chromium 1440x1000; full-page and viewport screenshots",
+    "mobile": "Chromium 390x844; full-page and viewport screenshots",
+    "layout": "no horizontal overflow at either required viewport; solid #FF0000; supplied copy and 80x80 SVG",
+    "fonts": "local Manrope 400 and Marck Script 400 loaded; requested Google Fonts import retained",
+    "media": "local WebM decodes, muted inline autoplay advances when visible, loop attribute set, object-fit contain",
+    "reduced_motion": "autoplay disabled and media paused",
+    "details": "screenshots/browser-checks.json",
+    "browser_errors": "0 console errors, 0 page errors and 0 failed requests at both required sizes"
+  },
+  "asset_issues": [
+    {
+      "asset": "Bottom video",
+      "url": "https://res.cloudinary.com/daklr2whx/video/upload/v1778602552/track-video_2_s9lp53.mp4",
+      "issue": "HTTP 401: cloud_name daklr2whx is disabled. Versionless URL also fails.",
+      "recovery": "Isolated artwork rows 345\u2013469 from the single 640x470 design reference, removed red backdrop, composited onto #FF0000 and generated a six-second WebM with subtle scale animation. Recovery source and script are included locally.",
+      "limitations": "Only a partial still artwork is recoverable. Original full artwork, motion, duration and aspect ratio remain unknown. The substitute uses a 4:1 ratio; masking and resolution are approximate. No original-video fidelity claim."
+    }
+  ],
+  "notes": [
+    "React 19, TypeScript, Vite, Tailwind CSS v4 with @tailwindcss/vite, motion/react.",
+    "Static deliverable: dist/. Base path: /motionsites-results/tech-noir-about/.",
+    "README.md includes run, validation and asset recovery details.",
+    "Screenshots: screenshots/desktop.png and screenshots/mobile.png; exact viewport captures also included.",
+    "No deployment, push, other designs, sub-agents or external messages.",
+    "Ready for review with the documented media substitution; not published."
+  ]
+}

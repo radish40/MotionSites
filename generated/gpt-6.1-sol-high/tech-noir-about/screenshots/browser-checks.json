@@ -1,0 +1,104 @@
+{
+  "desktop": {
+    "title": "Tech-Noir About",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "document": {
+      "width": 1440,
+      "height": 1380
+    },
+    "horizontalOverflow": false,
+    "background": "rgb(255, 0, 0)",
+    "signatureFont": "\"Marck Script\", cursive",
+    "fontsLoaded": [
+      {
+        "font": "Manrope",
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "font": "Marck Script",
+        "weight": "400",
+        "status": "loaded"
+      }
+    ],
+    "logo": {
+      "x": 680,
+      "y": 400,
+      "width": 80,
+      "height": 80
+    },
+    "video": {
+      "autoplay": true,
+      "readyState": 4,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "width": 1280,
+      "height": 320,
+      "currentTime": 1.309326,
+      "objectFit": "contain",
+      "playbackAdvanced": true
+    },
+    "bodyText": "WE BUILT THIS PLATFORM WITH A SINGLE PURPOSE TO ELIMINATE OPERATIONAL CHAOS AND RESTORE BALANCE TO YOUR DAILY BUSINESS ROUTINE\n\nS.P.D\n\nI Was Exhausted By Software That Demanded More Effort Than It Actually Saved. That Is Why We Engineered An Autonomous Architecture That Operates Silently In The Background.\n\nYour Business Should Serve Your Life, Not Consume It. Let Our Algorithms Handle The Heavy Lifting, So You Can Focus On The Vision.",
+    "scrollReachedMedia": true,
+    "errors": [],
+    "failedRequests": []
+  },
+  "mobile": {
+    "title": "Tech-Noir About",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "document": {
+      "width": 390,
+      "height": 974
+    },
+    "horizontalOverflow": false,
+    "background": "rgb(255, 0, 0)",
+    "signatureFont": "\"Marck Script\", cursive",
+    "fontsLoaded": [
+      {
+        "font": "Manrope",
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "font": "Marck Script",
+        "weight": "400",
+        "status": "loaded"
+      }
+    ],
+    "logo": {
+      "x": 155,
+      "y": 100,
+      "width": 80,
+      "height": 80
+    },
+    "video": {
+      "autoplay": true,
+      "readyState": 4,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "width": 1280,
+      "height": 320,
+      "currentTime": 1.323389,
+      "objectFit": "contain",
+      "playbackAdvanced": true
+    },
+    "bodyText": "WE BUILT THIS PLATFORM WITH A SINGLE PURPOSE TO ELIMINATE OPERATIONAL CHAOS AND RESTORE BALANCE TO YOUR DAILY BUSINESS ROUTINE\n\nS.P.D\n\nI Was Exhausted By Software That Demanded More Effort Than It Actually Saved. That Is Why We Engineered An Autonomous Architecture That Operates Silently In The Background.\n\nYour Business Should Serve Your Life, Not Consume It. Let Our Algorithms Handle The Heavy Lifting, So You Can Focus On The Vision.",
+    "scrollReachedMedia": true,
+    "errors": [],
+    "failedRequests": []
+  },
+  "reducedMotion": {
+    "paused": true,
+    "autoPlay": false
+  }
+}

@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #080808;
+  --color-muted: #292929;
+  --color-muted-foreground: #969696;
+}
+
+:root { font-family: Arial, Helvetica, sans-serif; color: #f4f4f4; background: #080808; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, input { font: inherit; }
+#calculator-section { width: 100%; padding: 112px 64px; }
+.section-inner { max-width: 1280px; margin: 0 auto; }
+.section-header { text-align: center; margin-bottom: 56px; }
+.eyebrow { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; text-transform: uppercase; letter-spacing: .19em; font-size: 11px; line-height: 1.6; color: #969696; margin: 0 0 21px; }
+.section-title { font-size: 48px; font-weight: 400; line-height: 1.14; letter-spacing: -1.7px; margin: 0; }
+.calculator-grid { display: grid; grid-template-columns: 1fr 1fr; border-radius: 16px; overflow: hidden; }
+.calculator-form { padding: 48px; background: #0d0d0d; min-width: 0; }
+.form-section { padding: 28px 0; margin: 0; border: 0; border-top: 1px solid #1e1e1e; min-width: 0; }
+.form-section:first-child { padding-top: 0; border: 0; }
+.form-section:last-child { padding-bottom: 0; }
+legend { float: left; width: 100%; font-size: 16px; font-weight: 500; line-height: 1.5; margin-bottom: 20px; padding: 0; }
+.options { clear: both; display: flex; flex-direction: column; gap: 17px; }
+.option { position: relative; display: flex; align-items: center; gap: 12px; font-size: 14px; line-height: 1.5; color: #bcbcbc; cursor: pointer; min-height: 21px; }
+.option input { position: absolute; width: 20px; height: 20px; opacity: 0; margin: 0; }
+.radio-mark, .checkbox-mark { flex: 0 0 20px; width: 20px; height: 20px; border: 2px solid #505050; display: grid; place-items: center; transition: border-color .18s, background-color .18s; }
+.radio-mark { border-radius: 50%; }
+.radio-mark::after { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #ff5656; transform: scale(0); transition: transform .18s; }
+input:checked + .radio-mark { border-color: #ff5656; }
+input:checked + .radio-mark::after { transform: scale(1); }
+.checkbox-mark { border-radius: 4px; pointer-events: none; }
+.checkbox-mark svg { width: 15px; height: 15px; color: white; opacity: 0; }
+input:checked + .checkbox-mark { background: #ff5656; border-color: #ff5656; }
+input:checked + .checkbox-mark svg { opacity: 1; }
+input:focus-visible + span { outline: 2px solid #fff; outline-offset: 4px; }
+.option:hover .radio-mark, .option:hover .checkbox-mark { border-color: #ff8585; }
+.option-label { flex: 1; }
+.option-price { flex-shrink: 0; color: #ff5656; font-size: 12px; }
+.page-value { color: #ff5656; margin-left: 8px; }
+.slider { position: relative; display: flex; align-items: center; width: 100%; height: 20px; clear: both; touch-action: none; user-select: none; }
+.slider-track { position: relative; height: 4px; flex-grow: 1; background: #303030; border-radius: 10px; }
+.slider-range { position: absolute; height: 100%; background: #ff5656; border-radius: 10px; }
+.slider-thumb { display: block; width: 16px; height: 16px; border-radius: 50%; background: #ff5656; cursor: grab; box-shadow: 0 0 0 4px #ff56560b; transition: box-shadow .18s; }
+.slider-thumb:hover { box-shadow: 0 0 0 6px #ff565622; }
+.slider-thumb:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+.slider-thumb:active { cursor: grabbing; }
+.slider-labels { display: flex; justify-content: space-between; font-size: 12px; color: #858585; margin-top: 8px; }
+.detail { color: #8d8d8d; font-size: 12px; }
+.estimation { border: 1px solid #ffffff1a; border-radius: 0 16px 16px 0; padding: 48px; min-height: 717.98px; }
+.estimation > h3 { margin: 0 0 12px; font-size: 24px; line-height: 1.3; font-weight: 500; letter-spacing: -.5px; }
+.estimate-description { margin: 0 0 28px; color: #969696; font-size: 14px; line-height: 1.7; }
+.price-cards { display: flex; flex-direction: column; gap: 12px; }
+.price-card { border-radius: 16px; padding: 24px; background: #29292980; }
+.price-card h3 { margin: 0 0 12px; color: #bcbcbc; font-size: 14px; line-height: 1.5; font-weight: 400; }
+.price { margin: 0 0 12px; font-size: 36px; line-height: 1.1; font-weight: 700; letter-spacing: -1px; font-variant-numeric: tabular-nums; }
+.price-note { font-size: 12px; line-height: 1.5; color: #969696; margin: 0; }
+.studio-card { background: linear-gradient(105deg, #ec4899 0%, #f16855 56%, #f97316 100%); color: white; }
+.studio-card h3, .studio-card .price-note { color: white; }
+.studio-price { font-size: 48px; }
+.toast-viewport { position: fixed; bottom: 24px; right: 24px; list-style: none; padding: 0; }
+.toast { padding: 20px; border-radius: 12px; background: #242424; }
+@media (min-width: 1024px) and (max-width: 1200px) { .calculator-form, .estimation { padding: 32px; } .option { font-size: 13px; } .option-price { font-size: 11px; } .wide-break { display: none; } }
+@media (max-width: 1023px) { .calculator-grid { grid-template-columns: 1fr; } .calculator-form, .estimation { padding: 32px; } .estimation { border-radius: 0 0 16px 16px; min-height: 717.98px; } .section-title { font-size: 36px; } }
+@media (max-width: 767px) { #calculator-section { padding: 64px 16px; } .section-header { margin-bottom: 36px; } .eyebrow { font-size: 9px; letter-spacing: .13em; margin-bottom: 18px; } .section-title { font-size: 30px; letter-spacing: -.9px; line-height: 1.2; } .desktop-break { display: none; } .option { font-size: 13px; gap: 10px; } .addon { flex-wrap: wrap; row-gap: 3px; } .addon .option-label { flex-basis: calc(100% - 30px); } .addon .option-price { margin-left: 30px; } .option-price { font-size: 11px; } .detail { display: block; font-size: 11px; } legend { font-size: 15px; } .price-card { padding: 24px; } .price-card h3 { font-size: 13px; } .price-note { font-size: 11px; } .estimate-description { font-size: 13px; } .wide-break { display: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }

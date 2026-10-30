@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "All three pricing formulas pass across 1080 input combinations",
+    "Desktop: service radios, both add-ons, rush/fast timelines, slider pointer and keyboard/bounds update prices correctly",
+    "Desktop 1440×1000: two columns, no horizontal overflow; full-page screenshot saved",
+    "Mobile 390×844: stacked layout, working service/add-on/timeline controls, no horizontal overflow; full-page screenshot saved",
+    "Additional responsive checks: no horizontal overflow at 320, 768, 1024, 1280 and 1920px",
+    "No browser script/console errors or failed resource requests"
+  ],
+  "errors": [],
+  "failedRequests": []
+}

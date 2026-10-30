@@ -1,0 +1,35 @@
+{
+  "title": "Price Calculator",
+  "id": "price-calculator",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "browser": "Chromium via playwright-core",
+    "results": [
+      "All three pricing formulas pass across 1080 input combinations",
+      "Desktop: service radios, both add-ons, rush/fast timelines, slider pointer and keyboard/bounds update prices correctly",
+      "Desktop 1440\u00d71000: two columns, no horizontal overflow; full-page screenshot saved",
+      "Mobile 390\u00d7844: stacked layout, working service/add-on/timeline controls, no horizontal overflow; full-page screenshot saved",
+      "Additional responsive checks: no horizontal overflow at 320, 768, 1024, 1280 and 1920px",
+      "No browser script/console errors or failed resource requests"
+    ],
+    "script_errors": [],
+    "failed_resource_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Both screenshots inspected"
+  },
+  "asset_issues": [
+    "Optional design reference /home/opc/motionsites/assets/previews/price-calculator.webp is absent; fidelity assessed against written prompt only. No external images or font family were specified."
+  ],
+  "notes": [
+    "React + Vite + Tailwind CSS, locally styled Shadcn/Radix Slider, useToast hook and Radix Toast infrastructure.",
+    "Static output: dist/index.html; base path: /motionsites-results/price-calculator/.",
+    "System fonts and local SVG/CSS assets; no runtime external asset requests.",
+    "Ready for acceptance review; not deployed or pushed.",
+    "Estimate description copy supplied because no exact paragraph was specified."
+  ]
+}

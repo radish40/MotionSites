@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 367/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 368/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -452,13 +452,13 @@
 | 365 | `veloce-finance-landing` | Veloce Finance | Landing Page | 1 | 无 | 已完成 |
 | 366 | `6` | Bold Portfolio Hero | Portfolio | 1 | 无 | 已完成 |
 | 367 | `slate-hero` | Slate | SaaS | 1 | 无 | 已完成 |
-| 368 | `ecovolta-v2-hero` | EcoVolta V2 | Hero Section | 1 | 无 | 生成中 |
+| 368 | `ecovolta-v2-hero` | EcoVolta V2 | Hero Section | 1 | 无 | 已完成 |
 | 369 | `nexora-features` | Nexora Features | Features Section | 1 | 无 | 已完成 |
 | 370 | `vitara-hero` | Vitara | Landing Page | 1 | 无 | 生成中 |
 | 371 | `zenith-realty-landing` | Zenith Realty | Landing Page | 1 | 无 | 生成中 |
 | 372 | `nexar-hero` | Nexar | Hero Section | 1 | 无 | 生成中 |
 | 373 | `prioritize-hero` | Prioritize | Hero Section | 1 | 无 | 生成中 |
-| 374 | `vertex-ai-hero` | VertexAI Hero | Hero Section | 1 | 无 | 未开始 |
+| 374 | `vertex-ai-hero` | VertexAI Hero | Hero Section | 1 | 无 | 生成中 |
 | 375 | `keep-ahead-features` | Keep Ahead Features | Features Section | 1 | 无 | 未开始 |
 | 376 | `benefits-features` | Benefits Features | Features Section | 1 | 无 | 未开始 |
 | 377 | `zenith-footer` | Zenith Footer | Footer Section | 1 | 无 | 未开始 |

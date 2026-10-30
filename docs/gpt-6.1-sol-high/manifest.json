@@ -12593,19 +12593,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b70-ad85-7a62-89b4-cffbf63d696d",
       "output_path": "generated/gpt-6.1-sol-high/ecovolta-v2-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1190505,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:12:59.802321+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "d81f8d9dae12fcb0c94be441b551a1cac0f83e15",
+      "url": "https://tool.luo-xd.com/motionsites-results/ecovolta-v2-hero/",
+      "completed_utc": "2026-10-30T06:22:28.646654+00:00",
+      "group_message_id": 438
     },
     {
       "number": 369,
@@ -12777,11 +12781,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/vertex-ai-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1226330,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T06:21:54.768097+00:00",
+      "worker_state": "running"
     },
     {
       "number": 375,
@@ -12916,7 +12924,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T06:21:00.170894+00:00",
+  "updated_utc": "2026-10-30T06:22:28.867378+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

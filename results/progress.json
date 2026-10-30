@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-30T06:21:00.170894+00:00",
+  "updated_utc": "2026-10-30T06:22:28.867378+00:00",
   "total": 380,
   "counts": {
-    "complete": 367,
+    "complete": 368,
     "ready": 1,
     "running": 5,
-    "not_started": 7
+    "not_started": 6
   },
   "current_batch": {
     "from_number": 201,
@@ -3691,11 +3691,11 @@
       "id": "ecovolta-v2-hero",
       "title": "EcoVolta V2",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b70-ad85-7a62-89b4-cffbf63d696d",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "d81f8d9dae12fcb0c94be441b551a1cac0f83e15",
+      "group_message_id": 438,
+      "url": "https://tool.luo-xd.com/motionsites-results/ecovolta-v2-hero/"
     },
     {
       "id": "nexora-features",
@@ -3751,7 +3751,7 @@
       "id": "vertex-ai-hero",
       "title": "VertexAI Hero",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

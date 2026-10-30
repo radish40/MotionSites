@@ -433,14 +433,14 @@
 | 346 | `lumina-footer` | Lumina | Footer Section | 1 | 无 | 已完成 |
 | 347 | `nexacore-hero` | NexaCore | Landing Page | 1 | 无 | 已完成 |
 | 348 | `guardnet-landing` | Guardnet | Landing Page | 1 | 无 | 已完成 |
-| 349 | `automation-machines-hero` | Automation Machines | Hero Section | 1 | 无 | 生成中 |
+| 349 | `automation-machines-hero` | Automation Machines | Hero Section | 1 | 无 | 待修复 |
 | 350 | `focus-ai-landing` | Focus AI | Landing Page | 1 | 无 | 已完成 |
 | 351 | `design-rocket-email-hero` | Email Marketing | Email Marketing | 1 | 无 | 已完成 |
 | 352 | `rivr-defi-landing` | RIVR DeFi | Landing Page | 1 | 无 | 生成中 |
 | 353 | `duolingo-styleguide-hero` | Duolingo Styleguide | Hero Section | 1 | 无 | 生成中 |
-| 354 | `velorah-focus-hero` | Velorah Focus | Social Media | 1 | 无 | 生成中 |
+| 354 | `velorah-focus-hero` | Velorah Focus | Social Media | 1 | 无 | 待验收 |
 | 355 | `price-calculator` | Price Calculator | SaaS | 1 | 无 | 生成中 |
-| 356 | `yacht-club-hero` | Yacht Club | Landing Page | 1 | 无 | 未开始 |
+| 356 | `yacht-club-hero` | Yacht Club | Landing Page | 1 | 无 | 生成中 |
 | 357 | `social-media-posts-hero` | Social Media Posts | Social Media | 1 | 无 | 未开始 |
 | 358 | `ecommerce-website-landing` | E-commerce Website | Landing Page | 1 | 无 | 未开始 |
 | 359 | `digital-epoch-hero` | Digital Epoch | Hero Section | 1 | 无 | 未开始 |

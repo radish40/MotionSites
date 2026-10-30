@@ -11948,19 +11948,21 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a18b52-e476-7a71-8466-79b12fdac0e2",
       "output_path": "generated/gpt-6.1-sol-high/automation-machines-hero",
-      "validation": "",
-      "notes": "",
+      "validation": "Live browser check failed; see screenshots/live-check.json",
+      "notes": "Delivery failed; inspect private delivery.log and public browser report",
       "process_id": 1074550,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:40:27.656131+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "canvas_capture": true,
+      "delivery_failures": 1
     },
     {
       "number": 350,
@@ -12077,14 +12079,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b5a-76a0-7270-9185-94d672b6fe0d",
       "output_path": "generated/gpt-6.1-sol-high/duolingo-styleguide-hero",
       "validation": "",
       "notes": "",
       "process_id": 1104272,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:48:43.984953+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 354,
@@ -12102,15 +12108,19 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "ready",
+      "thread_id": "01a18b5a-7749-7251-a67c-25c4e5b6a07b",
       "output_path": "generated/gpt-6.1-sol-high/velorah-focus-hero",
       "validation": "",
       "notes": "",
       "process_id": 1104343,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:48:44.130672+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 355,
@@ -12129,14 +12139,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b5a-7801-7081-9c93-425e42df8475",
       "output_path": "generated/gpt-6.1-sol-high/price-calculator",
       "validation": "",
       "notes": "",
       "process_id": 1104428,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:48:44.283949+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 356,
@@ -12154,12 +12168,20 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
-      "thread_id": "",
-      "output_path": "",
+      "status": "running",
+      "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
+      "output_path": "generated/gpt-6.1-sol-high/yacht-club-hero",
       "validation": "",
       "notes": "",
-      "delivery_hold": "Scoped Vimeo frame-src installed and verified. Management must publish unlisted and verify actual original background player and all fleet videos at desktop/mobile before removing this hold."
+      "delivery_hold": "Scoped Vimeo frame-src installed and verified. Management must publish unlisted and verify actual original background player and all fleet videos at desktop/mobile before removing this hold.",
+      "process_id": 1116780,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:51:45.434287+00:00",
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 357,
@@ -12690,7 +12712,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:50:52.381519+00:00",
+  "updated_utc": "2026-10-30T05:52:54.369816+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

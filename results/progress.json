@@ -1,10 +1,12 @@
 {
-  "updated_utc": "2026-10-30T05:50:52.381519+00:00",
+  "updated_utc": "2026-10-30T05:52:54.369816+00:00",
   "total": 380,
   "counts": {
     "complete": 350,
-    "running": 5,
-    "not_started": 25
+    "needs_fix": 1,
+    "running": 4,
+    "ready": 1,
+    "not_started": 24
   },
   "current_batch": {
     "from_number": 201,
@@ -3500,7 +3502,7 @@
       "id": "automation-machines-hero",
       "title": "Automation Machines",
       "category": "Hero Section",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a18b52-e476-7a71-8466-79b12fdac0e2",
       "source_commit": null,
       "group_message_id": null,
@@ -3541,7 +3543,7 @@
       "title": "Duolingo Styleguide",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b5a-76a0-7270-9185-94d672b6fe0d",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3550,8 +3552,8 @@
       "id": "velorah-focus-hero",
       "title": "Velorah Focus",
       "category": "Social Media",
-      "status": "running",
-      "thread_id": "",
+      "status": "ready",
+      "thread_id": "01a18b5a-7749-7251-a67c-25c4e5b6a07b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3561,7 +3563,7 @@
       "title": "Price Calculator",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b5a-7801-7081-9c93-425e42df8475",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3570,8 +3572,8 @@
       "id": "yacht-club-hero",
       "title": "Yacht Club",
       "category": "Landing Page",
-      "status": "not_started",
-      "thread_id": "",
+      "status": "running",
+      "thread_id": "01a18b5d-3b75-7372-87d6-0d603c6e8c50",
       "source_commit": null,
       "group_message_id": null,
       "url": null

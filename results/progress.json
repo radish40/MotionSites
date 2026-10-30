@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:09:58.090453+00:00",
+  "updated_utc": "2026-10-30T04:11:53.407882+00:00",
   "total": 380,
   "counts": {
-    "complete": 270,
+    "complete": 272,
     "running": 5,
-    "not_started": 105
+    "not_started": 103
   },
   "current_batch": {
     "from_number": 201,
@@ -2710,11 +2710,11 @@
       "id": "wealth-video-hero",
       "title": "Wealth Video Hero",
       "category": "Fintech",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18afa-b151-7900-8d6d-8581880b9313",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "6ade3e87d1447f6dfd2a1eeb728bc6d34824c935",
+      "group_message_id": 337,
+      "url": "https://tool.luo-xd.com/motionsites-results/wealth-video-hero/"
     },
     {
       "id": "web3-eos-hero",
@@ -2730,11 +2730,11 @@
       "id": "weblex-dark-hero",
       "title": "Weblex Dark Hero",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18afc-6b6b-7ee0-814e-4da93e8f4698",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "366217dd7af306068c0e68f1f8f236ed386a6ca3",
+      "group_message_id": 338,
+      "url": "https://tool.luo-xd.com/motionsites-results/weblex-dark-hero/"
     },
     {
       "id": "community-superdesign-synapse",
@@ -2751,7 +2751,7 @@
       "title": "Card Swap",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18aff-158b-7ee0-9ed3-01d57c471dfc",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2761,7 +2761,7 @@
       "title": "Hover reveal effect",
       "category": "Animations & Backgrounds",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18aff-162a-7e12-9038-72945e3f6fbc",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2770,7 +2770,7 @@
       "id": "community-superdesign-scroll-journey-line",
       "title": "Scroll Journey Line",
       "category": "Animations & Backgrounds",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2780,7 +2780,7 @@
       "id": "community-superdesign-gooey-gradient-background",
       "title": "Gooey Gradient Background",
       "category": "Animations & Backgrounds",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

@@ -1,0 +1,77 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/viktor-portfolio/",
+  "checked_utc": "2026-10-30T04:09:52.307Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "homeVideo": {
+        "width": 1612,
+        "height": 1284,
+        "currentTime": 1.067757,
+        "muted": true,
+        "loop": true,
+        "paused": false
+      },
+      "projectVideo": {
+        "width": 1756,
+        "height": 1176,
+        "currentTime": 0.80961,
+        "muted": true,
+        "loop": true,
+        "paused": false
+      },
+      "directProjectVideo": {
+        "width": 1756,
+        "height": 1176,
+        "currentTime": 0.938423,
+        "muted": true,
+        "loop": true,
+        "paused": false
+      },
+      "nextProject": true,
+      "readMoreToggle": true,
+      "backHome": true,
+      "projectCard": true,
+      "directHashReload": true,
+      "overflow": false,
+      "errors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": "mobile",
+      "homeVideo": {
+        "width": 1612,
+        "height": 1284,
+        "currentTime": 0.758676,
+        "muted": true,
+        "loop": true,
+        "paused": false
+      },
+      "projectVideo": {
+        "width": 1756,
+        "height": 1176,
+        "currentTime": 0.766816,
+        "muted": true,
+        "loop": true,
+        "paused": false
+      },
+      "directProjectVideo": {
+        "width": 1756,
+        "height": 1176,
+        "currentTime": 0.974474,
+        "muted": true,
+        "loop": true,
+        "paused": false
+      },
+      "nextProject": true,
+      "readMoreToggle": true,
+      "backHome": true,
+      "projectCard": true,
+      "directHashReload": true,
+      "overflow": false,
+      "errors": [],
+      "failedRequests": []
+    }
+  ]
+}

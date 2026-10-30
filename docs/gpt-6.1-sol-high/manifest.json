@@ -9246,19 +9246,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18afa-b151-7900-8d6d-8581880b9313",
       "output_path": "generated/gpt-6.1-sol-high/wealth-video-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 696431,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:04:07.526839+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "6ade3e87d1447f6dfd2a1eeb728bc6d34824c935",
+      "url": "https://tool.luo-xd.com/motionsites-results/wealth-video-hero/",
+      "completed_utc": "2026-10-30T04:11:26.564741+00:00",
+      "group_message_id": 337
     },
     {
       "number": 271,
@@ -9310,19 +9314,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18afc-6b6b-7ee0-814e-4da93e8f4698",
       "output_path": "generated/gpt-6.1-sol-high/weblex-dark-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 703356,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:06:00.691509+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "366217dd7af306068c0e68f1f8f236ed386a6ca3",
+      "url": "https://tool.luo-xd.com/motionsites-results/weblex-dark-hero/",
+      "completed_utc": "2026-10-30T04:11:53.211440+00:00",
+      "group_message_id": 338
     },
     {
       "number": 273,
@@ -9371,14 +9379,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18aff-158b-7ee0-9ed3-01d57c471dfc",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-card-swap",
       "validation": "",
       "notes": "",
       "process_id": 715897,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:08:55.345824+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 275,
@@ -9397,14 +9409,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18aff-162a-7e12-9038-72945e3f6fbc",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-hover-reveal-effect",
       "validation": "",
       "notes": "",
       "process_id": 715963,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:08:55.482777+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 276,
@@ -9422,11 +9438,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-scroll-journey-line",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 723135,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:10:54.951155+00:00",
+      "worker_state": "running"
     },
     {
       "number": 277,
@@ -9444,11 +9464,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-gooey-gradient-background",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 723185,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:10:55.084337+00:00",
+      "worker_state": "running"
     },
     {
       "number": 278,
@@ -11718,7 +11742,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:09:58.090453+00:00",
+  "updated_utc": "2026-10-30T04:11:53.407882+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

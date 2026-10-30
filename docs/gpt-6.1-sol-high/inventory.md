@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 301/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 302/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -380,7 +380,7 @@
 | 293 | `community-superdesign-modal-design-success-celebration-pastel-legibility-fixed-9fbd65` | Modal Design · success-celebration (pastel) — legibility fixed | Onboarding | 1 | 图片 | 已完成 |
 | 294 | `personal-showcase` | Personal Showcase | Portfolio | 1 | 视频 | 已完成 |
 | 295 | `digital-director` | Digital Director | Portfolio | 1 | 视频 | 已完成 |
-| 296 | `intelligent-operations` | Intelligent Operations | Agency | 1 | 视频 | 生成中 |
+| 296 | `intelligent-operations` | Intelligent Operations | Agency | 1 | 视频 | 已完成 |
 | 297 | `skybridge-404` | Skybridge 404 | 404 | 1 | 视频 | 已完成 |
 | 298 | `synth-mode` | Synth Mode | Fashion | 1 | 视频 | 已完成 |
 | 299 | `agent-grove` | Agent Grove | SaaS | 1 | 视频 | 已完成 |
@@ -391,7 +391,7 @@
 | 304 | `autonomous-ops` | Autonomous Ops | SaaS | 1 | 视频 | 生成中 |
 | 305 | `orbit-flora` | Orbit Flora | AI | 1 | 视频 | 生成中 |
 | 306 | `data-signal` | Data Signal | Analytics | 1 | 视频 | 生成中 |
-| 307 | `cyber-layer` | Cyber Layer | Cybersecurity | 1 | 视频 | 未开始 |
+| 307 | `cyber-layer` | Cyber Layer | Cybersecurity | 1 | 视频 | 生成中 |
 | 308 | `ai-runtime` | AI Runtime | AI | 1 | 视频 | 未开始 |
 | 309 | `real-time-alerts` | Real-Time Alerts | Sign in | 1 | 视频 | 未开始 |
 | 310 | `pet-diagnostics` | Pet Diagnostics | Healthcare | 1 | 视频 | 未开始 |

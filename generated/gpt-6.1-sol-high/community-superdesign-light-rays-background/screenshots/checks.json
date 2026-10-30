@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x1000",
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "canvasWidth": 1440,
+        "canvasHeight": 1000
+      },
+      "animation": true,
+      "mouseTracking": true,
+      "keyboardFocus": true,
+      "replyHistoryBack": true
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "canvasWidth": 390,
+        "canvasHeight": 844
+      },
+      "animation": true,
+      "mouseTracking": true,
+      "keyboardFocus": true,
+      "replyHistoryBack": true
+    }
+  ],
+  "errors": []
+}

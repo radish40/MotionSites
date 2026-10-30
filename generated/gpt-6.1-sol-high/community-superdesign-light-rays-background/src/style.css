@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  color-scheme: dark;
+  background: #1a1a1b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root { width: 100%; min-height: 100%; margin: 0; }
+main { height: 100svh; }
+button { cursor: pointer; }
+button:focus-visible { outline: 2px solid #00ffff; outline-offset: 5px; }
+
+@media (max-width: 600px) {
+  button.fixed { right: 24px; bottom: 24px; }
+  .fixed.inset-24 { inset: 24px; border-radius: 28px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; }
+}

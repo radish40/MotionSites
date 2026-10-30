@@ -1,0 +1,67 @@
+{
+  "title": "Light Rays Background",
+  "id": "community-superdesign-light-rays-background",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci && npm run build\"",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": {
+      "results": [
+        {
+          "viewport": "desktop",
+          "dimensions": "1440x1000",
+          "layout": {
+            "width": 1440,
+            "scrollWidth": 1440,
+            "height": 1000,
+            "scrollHeight": 1000,
+            "canvasWidth": 1440,
+            "canvasHeight": 1000
+          },
+          "animation": true,
+          "mouseTracking": true,
+          "keyboardFocus": true,
+          "replyHistoryBack": true
+        },
+        {
+          "viewport": "mobile",
+          "dimensions": "390x844",
+          "layout": {
+            "width": 390,
+            "scrollWidth": 390,
+            "height": 844,
+            "scrollHeight": 844,
+            "canvasWidth": 390,
+            "canvasHeight": 844
+          },
+          "animation": true,
+          "mouseTracking": true,
+          "keyboardFocus": true,
+          "replyHistoryBack": true
+        }
+      ],
+      "errors": []
+    },
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "publication_base": "/motionsites-results/community-superdesign-light-rays-background/"
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/community-superdesign-light-rays-background.webp",
+      "issue": "Optional reference file absent",
+      "resolution": "Used the complete supplied React component and layout; no external media or fonts required."
+    }
+  ],
+  "notes": [
+    "Only this design was implemented. No agents, additional sessions, deployment, push, or external messages.",
+    "Supplied top-center shader coordinate mismatch corrected; fragment coordinates and mouse position now share top-down coordinates.",
+    "Mobile frame and Reply insets adapted to 24px; desktop preserves supplied 96px frame and 48px Reply offsets.",
+    "Browser checks used Chromium software WebGL; GPU performance and other engines were not measured.",
+    "Reply calls window.history.back() exactly as requested; prior browser history is required.",
+    "Ready means available for review, not deployed."
+  ]
+}

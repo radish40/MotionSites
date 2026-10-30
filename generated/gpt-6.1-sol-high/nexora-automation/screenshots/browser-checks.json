@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "desktop": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "document": [
+      1440,
+      1000
+    ],
+    "video": {
+      "readyState": 4,
+      "width": 1920,
+      "paused": false
+    },
+    "fonts": {
+      "display": true,
+      "body": true
+    },
+    "heading": {
+      "x": 450.390625,
+      "y": 190,
+      "width": 539.21875,
+      "height": 160,
+      "top": 190,
+      "right": 989.609375,
+      "bottom": 350,
+      "left": 450.390625
+    },
+    "dashboard": {
+      "x": 208,
+      "y": 518,
+      "width": 1024,
+      "height": 688.5,
+      "top": 518,
+      "right": 1232,
+      "bottom": 1206.5,
+      "left": 208
+    }
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "document": [
+      390,
+      844
+    ],
+    "heading": {
+      "x": 33.234375,
+      "y": 166,
+      "width": 323.53125,
+      "height": 91.1875,
+      "top": 166,
+      "right": 356.765625,
+      "bottom": 257.1875,
+      "left": 33.234375
+    },
+    "dashboard": {
+      "x": 24,
+      "y": 447.1875,
+      "width": 342,
+      "height": 695.5,
+      "top": 447.1875,
+      "right": 366,
+      "bottom": 1142.6875,
+      "left": 24
+    },
+    "navLinksVisible": false
+  },
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/nexora-automation/assets/nexora-background.mp4",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "httpErrors": [],
+  "interactions": [
+    "demo form validation and local confirmation",
+    "dialog close and focus restoration",
+    "preview video and Escape dismissal",
+    "Pricing, About, Contact navigation",
+    "Get started",
+    "mobile CTA and modal bounds",
+    "reduced motion pauses background video"
+  ]
+}

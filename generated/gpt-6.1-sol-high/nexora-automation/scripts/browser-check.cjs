@@ -1,0 +1,53 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const { spawn } = require('node:child_process');
+const fs = require('node:fs');
+const assert = require('node:assert/strict');
+const server = spawn(process.execPath, ['node_modules/vite/bin/vite.js','preview','--host','127.0.0.1','--port','4173'], {stdio:'pipe'});
+const delay=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{
+ let browser;
+ try {
+ await delay(1200);
+ browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+ const errors=[],failed=[],responses=[];
+ const context=await browser.newContext({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+ const page=await context.newPage();
+ page.on('pageerror',e=>errors.push(e.message));
+ page.on('requestfailed',r=>failed.push({url:r.url(),failure:r.failure()}));
+ page.on('response',r=>{if(r.status()>=400)responses.push({url:r.url(),status:r.status()});});
+ const url='http://127.0.0.1:4173/motionsites-results/nexora-automation/';
+ await page.goto(url,{waitUntil:'networkidle'});
+ await page.evaluate(()=>document.fonts.ready);
+ await page.waitForTimeout(1800);
+ const desktop=await page.evaluate(()=>({viewport:[innerWidth,innerHeight],document:[document.documentElement.scrollWidth,document.documentElement.scrollHeight],video:{readyState:document.querySelector('video').readyState,width:document.querySelector('video').videoWidth,paused:document.querySelector('video').paused},fonts:{display:document.fonts.check('80px "Instrument Serif"'),body:document.fonts.check('14px Inter')},heading:document.querySelector('h1').getBoundingClientRect().toJSON(),dashboard:document.querySelector('[aria-label="Product preview"]').getBoundingClientRect().toJSON()}));
+ assert.equal(desktop.document[0],1440);assert.equal(desktop.document[1],1000);assert.ok(desktop.video.readyState>=2);assert.ok(!desktop.video.paused);assert.ok(desktop.fonts.display&&desktop.fonts.body);
+ assert.ok(await page.evaluate(()=>document.fonts.check('14px \"Nexora Emoji\"')));
+ await page.screenshot({path:'screenshots/desktop.png'});
+ await page.getByRole('button',{name:'Book a demo',exact:true}).click();
+ await page.getByLabel('Name',{exact:true}).fill('Jane Baker');
+ await page.getByLabel('Work email').fill('jane@example.com');
+ await page.getByRole('button',{name:'Request a demo'}).click();
+ await page.getByRole('status').waitFor();
+ await page.getByRole('button',{name:'Back to Nexora'}).click();
+ assert.equal(await page.locator('dialog').evaluate(e=>e.open),false);
+ assert.equal(await page.getByRole('button',{name:'Book a demo',exact:true}).evaluate(e=>e===document.activeElement),true);
+ await page.getByRole('button',{name:'Play Nexora preview'}).click();
+ await page.locator('dialog video').waitFor();
+ await page.keyboard.press('Escape');
+ for(const name of ['Pricing','About','Contact']) {await page.getByRole('link',{name,exact:true}).click();assert.equal(await page.locator('dialog').evaluate(e=>e.open),true);await page.getByRole('button',{name:'Close dialog'}).click();}
+ await page.getByRole('button',{name:'Get started'}).click();await page.keyboard.press('Escape');
+ await page.setViewportSize({width:390,height:844});
+ await page.waitForTimeout(700);
+ const mobile=await page.evaluate(()=>({viewport:[innerWidth,innerHeight],document:[document.documentElement.scrollWidth,document.documentElement.scrollHeight],heading:document.querySelector('h1').getBoundingClientRect().toJSON(),dashboard:document.querySelector('[aria-label="Product preview"]').getBoundingClientRect().toJSON(),navLinksVisible:getComputedStyle(document.querySelector('nav > div > div')).display!=='none'}));
+ assert.deepEqual(mobile.document,[390,844]);assert.equal(mobile.navLinksVisible,false);
+ await page.getByText('Now with GPT-5 support').click();
+ await page.screenshot({path:'screenshots/mobile.png'});
+ await page.getByRole('button',{name:'Book a demo',exact:true}).click();
+ const modalBounds=await page.locator('dialog').boundingBox();assert.ok(modalBounds.x>=0&&modalBounds.x+modalBounds.width<=390);
+ await page.keyboard.press('Escape');
+ const reduced=await browser.newContext({reducedMotion:'reduce'});const reducedPage=await reduced.newPage();await reducedPage.goto(url);await reducedPage.waitForTimeout(800);assert.equal(await reducedPage.locator('main > video').evaluate(e=>e.paused),true);
+ assert.deepEqual(errors,[]);assert.deepEqual(responses,[]);
+ fs.writeFileSync('screenshots/browser-checks.json',JSON.stringify({passed:true,desktop,mobile,errors,failedRequests:failed,httpErrors:responses,interactions:['demo form validation and local confirmation','dialog close and focus restoration','preview video and Escape dismissal','Pricing, About, Contact navigation','Get started','mobile CTA and modal bounds','reduced motion pauses background video']},null,2));
+ console.log(JSON.stringify({passed:true,desktop,mobile,errors,failedRequests:failed,httpErrors:responses},null,2));
+ } finally { if(browser)await browser.close();server.kill('SIGTERM'); }
+})().catch(e=>{console.error(e);process.exitCode=1;});

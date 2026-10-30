@@ -1,0 +1,35 @@
+{
+  "title": "Nexora Automation",
+  "id": "nexora-automation",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html generated",
+    "desktop": "passed: Chromium 1440x1000; no document overflow",
+    "mobile": "passed: Chromium 390x844; no document overflow; nav links hidden",
+    "assets": "passed: exact original video plays locally; Instrument Serif and Inter loaded",
+    "interactions": "passed: demo form, confirmation, navigation dialogs, preview video, Escape, focus restoration, mobile CTA",
+    "reduced_motion": "passed: background video pauses",
+    "javascript_errors": 0,
+    "http_errors": 0,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    "Optional original reference preview was absent; implementation follows PROMPT.md.",
+    "Chromium environment lacks an emoji glyph; bundled a 1.7 KB Noto Emoji subset and license for the sparkle.",
+    "Google Fonts CSS remains external as specified and requires runtime network access; verified successfully.",
+    "Some video requests are canceled with net::ERR_ABORTED on dialog teardown; source playback verified independently."
+  ],
+  "notes": [
+    "Ready for review, not deployed. All work confined to this project.",
+    "Original CloudFront MP4 preserved locally; dashboard is React DOM and SVG, not a screenshot.",
+    "Native dialogs supply local preview interactions. Demo/contact submissions are local only, explicitly disclosed in the UI.",
+    "The play dialog uses the specified ambient video because no separate walkthrough asset was provided.",
+    "Build uses the required publication base /motionsites-results/nexora-automation/.",
+    "The viewport clips the dashboard intentionally, including its right side on phones."
+  ]
+}

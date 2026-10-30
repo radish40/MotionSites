@@ -1,0 +1,55 @@
+{
+  "title": "Wanderful Hero",
+  "id": "wanderful-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite; dist/index.html exists",
+    "publish_base": "/motionsites-results/wanderful-hero/",
+    "browser": {
+      "engine": "Chromium via playwright-core",
+      "passed": true,
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "script_errors": [],
+      "failed_requests": [],
+      "http_errors": []
+    },
+    "verified": [
+      "muted video autoplay, looping, 1.25 playback rate",
+      "Google Fonts Inter loaded",
+      "GSAP mouse parallax",
+      "CTA hover scale and glow, click",
+      "navigation hash targets and keyboard focus",
+      "no horizontal or vertical overflow",
+      "no headline/CTA overlap",
+      "desktop and mobile screenshots visually inspected"
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "details": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "Dirtyline36DaysofType.woff",
+      "original_url": "https://fonts.cdnfonts.com/s/15011/Dirtyline36DaysofType.woff",
+      "issue": "HTTP 404",
+      "recovery": "Related Dirtyline 36daysoftype 2022 variant downloaded from the same provider and bundled as local secondary font source; exact original source retained.",
+      "fallback_source": "https://fonts.cdnfonts.com/s/83214/Dirtyline%2036daysoftype%202022.woff",
+      "local_file": "public/fonts/dirtyline-2022.woff",
+      "limitation": "Related variant, not verified identical. Font is unused in the requested visible layout."
+    }
+  ],
+  "notes": [
+    "Ready for management review; not deployed or pushed.",
+    "Only Wanderful Hero was read and implemented; no sub-agents or other sessions created.",
+    "Exact remote video src retained; video and Google Fonts require network access.",
+    "CTA visual states implemented; no booking workflow or destination pages were specified.",
+    "Screenshots use a repeatable video frame after live autoplay verification.",
+    "Chromium desktop/mobile emulation tested; no Safari or physical device testing."
+  ]
+}

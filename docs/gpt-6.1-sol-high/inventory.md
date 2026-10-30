@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 312/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 313/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -398,11 +398,11 @@
 | 311 | `growth-decisions` | Growth Decisions | SaaS | 1 | 视频 | 已完成 |
 | 312 | `aurex-finance` | Aurex Finance | Fintech | 1 | 视频 | 已完成 |
 | 313 | `agent-wave` | Agent Wave | AI | 1 | 视频 | 生成中 |
-| 314 | `palomar-labs` | Palomar Labs | AI | 1 | 视频 | 生成中 |
+| 314 | `palomar-labs` | Palomar Labs | AI | 1 | 视频 | 已完成 |
 | 315 | `scaling-platform` | Scaling Platform | SaaS | 1 | 视频 | 生成中 |
 | 316 | `quantum-lucid` | Quantum Lucid | SaaS | 1 | 视频 | 生成中 |
 | 317 | `space-planet` | Space planet | 3D | 1 | 视频 | 生成中 |
-| 318 | `7` | Synapse Dark Hero | SaaS | 1 | 视频 | 未开始 |
+| 318 | `7` | Synapse Dark Hero | SaaS | 1 | 视频 | 生成中 |
 | 319 | `portfolio-cosmic-hero` | Portfolio Cosmic | Portfolio | 1 | 视频 | 未开始 |
 | 320 | `3` | ClearInvoice SaaS Hero | SaaS | 1 | 视频 | 未开始 |
 | 321 | `codenest-hero` | CodeNest Coding Platform | Landing Page | 1 | 视频 | 未开始 |

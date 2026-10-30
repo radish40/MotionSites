@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:58:31.636001+00:00",
+  "updated_utc": "2026-10-30T05:00:44.443714+00:00",
   "total": 380,
   "counts": {
-    "complete": 312,
+    "complete": 313,
     "running": 5,
-    "not_started": 63
+    "not_started": 62
   },
   "current_batch": {
     "from_number": 201,
@@ -3150,11 +3150,11 @@
       "id": "palomar-labs",
       "title": "Palomar Labs",
       "category": "AI",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b28-785e-7001-b889-755abb8414b6",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5f95aa15d75d9065020c495ca60ad12c9af4c040",
+      "group_message_id": 380,
+      "url": "https://tool.luo-xd.com/motionsites-results/palomar-labs/"
     },
     {
       "id": "scaling-platform",
@@ -3171,7 +3171,7 @@
       "title": "Quantum Lucid",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b2a-abb4-7253-a0f3-877311534427",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3181,7 +3181,7 @@
       "title": "Space planet",
       "category": "3D",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b2a-aca3-73a1-a352-59274186191b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3190,7 +3190,7 @@
       "id": "7",
       "title": "Synapse Dark Hero",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

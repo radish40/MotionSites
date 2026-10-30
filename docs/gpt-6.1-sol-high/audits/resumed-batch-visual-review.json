@@ -1,0 +1,78 @@
+{
+  "reviewed_utc": "2026-10-30T02:49:18.681001+00:00",
+  "scope": "Management visual inspection of actual desktop and mobile screenshots; complements functional browser reports and independent delivery audits. Not a claim of physical-device testing or pixel-perfect equivalence.",
+  "designs": [
+    {
+      "id": "rocket-faq",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop two-column FAQ and mobile stacked categories, contact card and accordion render with readable text.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/rocket-faq/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/rocket-faq/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "rocket-pricing",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop two pricing cards and mobile stacked card render with the specified dark presentation.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/rocket-pricing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/rocket-pricing/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "saas-pricing-flow",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop three glass cards and mobile horizontally scrollable card presentation render over the supplied video.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/saas-pricing-flow/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/saas-pricing-flow/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "scroll-marquee",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show real image rows. Delivery preview scrolls to the gallery below the intentionally empty hero; Celestia substitution is explicitly documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/scroll-marquee/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/scroll-marquee/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "scroll-landing",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile display decoded video behind real WISA DOM text and controls. Same supplied footage transcoded from HEVC to H.264; conversion details recorded in public/assets/provenance.json.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/scroll-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/scroll-landing/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "solace-sign-in",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the refraction canvas, real form controls and video background. Worker report also records changing canvas pixels.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/solace-sign-in/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/solace-sign-in/screenshots/mobile.png"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 204/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 205/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -288,15 +288,15 @@
 | 201 | `rocket-faq` | Rocket FAQ | FAQ & Help | 2 | 图片 | 已完成 |
 | 202 | `rocket-pricing` | Rocket Pricing | Pricing Page | 2 | 图片 | 已完成 |
 | 203 | `saas-pricing-flow` | SaaS Pricing Flow | Pricing Page | 2 | 图片 | 已完成 |
-| 204 | `scroll-landing` | Scroll Landing Page | Interactive | 2 | 图片 | 生成中 |
+| 204 | `scroll-landing` | Scroll Landing Page | Interactive | 2 | 图片 | 已完成 |
 | 205 | `scroll-marquee` | Scroll Marquee | Components | 2 | 图片 | 已完成 |
-| 206 | `shop` | Daisy Shop | E-commerce | 2 | 图片 | 生成中 |
-| 207 | `solace-sign-in` | Solace sign-in | Waitlist & Coming Soon | 2 | 图片 | 生成中 |
+| 206 | `shop` | Daisy Shop | E-commerce | 2 | 图片 | 待验收 |
+| 207 | `solace-sign-in` | Solace sign-in | Waitlist & Coming Soon | 2 | 图片 | 待验收 |
 | 208 | `speakup-venture-hero` | SpeakUp Venture Hero | Hero Section | 2 | 图片 | 生成中 |
 | 209 | `stark-minimal-footer` | Stark Minimal Footer | Footer Section | 2 | 图片 | 生成中 |
-| 210 | `stellar-launch` | Stellar Launch | Landing Page | 2 | 图片 | 未开始 |
-| 211 | `synthesis` | Synthesis | Landing Page | 2 | 图片 | 未开始 |
-| 212 | `tech-noir-about` | Tech-Noir About | About Section | 2 | 图片 | 未开始 |
+| 210 | `stellar-launch` | Stellar Launch | Landing Page | 2 | 图片 | 生成中 |
+| 211 | `synthesis` | Synthesis | Landing Page | 2 | 图片 | 生成中 |
+| 212 | `tech-noir-about` | Tech-Noir About | About Section | 2 | 图片 | 生成中 |
 | 213 | `technical-specifications` | Technical Specifications | Components | 2 | 图片 | 未开始 |
 | 214 | `travel-hero` | Scenic Travel | Landing Page | 2 | 图片 | 未开始 |
 | 215 | `unwind-hero` | Unwind Hero | Hero Section | 2 | 图片 | 未开始 |

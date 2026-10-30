@@ -1,0 +1,32 @@
+{
+  "title": "SkyElite Private Jets",
+  "id": "sky-elite-private-jets",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities reported during install",
+    "base_path": "/motionsites-results/sky-elite-private-jets/",
+    "browser": "Chromium via playwright-core in louislam/uptime-kuma:2",
+    "desktop": { "viewport": "1440x1000", "screenshot": "screenshots/desktop.png", "overflow": false, "video_playing": true, "inter_loaded": true },
+    "mobile": { "viewport": "390x844", "screenshot": "screenshots/mobile.png", "overflow": false, "video_playing": true, "inter_loaded": true },
+    "mobile_menu": "passed: open, toggle close, link selection close, aria-expanded",
+    "cta_hover": "passed: Discover rgb(156,163,175), Book Now rgb(26,34,41)",
+    "script_errors": [],
+    "console_errors": [],
+    "failed_requests": [],
+    "visual_review": "desktop and mobile screenshots reviewed",
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    { "asset": "optional reference WebP", "issue": "Specified reference file absent; followed PROMPT.md. No substitute or extracted asset used." }
+  ],
+  "notes": [
+    "Exact supplied CloudFront video successfully played in both browser checks.",
+    "Google Fonts Inter weights 400, 500, 600, 700 imported as requested. Video and font require network access.",
+    "Hero-only scope: secondary content and CTA destinations were unspecified. Secondary links use fragment placeholders; CTA buttons have no booking or discovery flow.",
+    "Screens below 650px height use a smaller upward offset to keep content visible.",
+    "Ready means ready for review, not deployed. No deployment, push, other sessions, agents, or external messages.",
+    "Mobile check uses a Chromium viewport, not a physical device."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "heading": {
+        "x": 485.328125,
+        "y": 250,
+        "width": 469.34375,
+        "height": 180
+      },
+      "font": "Inter, sans-serif",
+      "interLoaded": true,
+      "video": {
+        "readyState": 4,
+        "currentTime": 2.233078,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "videoWidth": 1924,
+        "videoHeight": 1076,
+        "error": null
+      },
+      "interactions": {
+        "discoverHover": "rgb(156, 163, 175)",
+        "bookHover": "rgb(26, 34, 41)"
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "heading": {
+        "x": 33.671875,
+        "y": 208,
+        "width": 322.65625,
+        "height": 108
+      },
+      "font": "Inter, sans-serif",
+      "interLoaded": true,
+      "video": {
+        "readyState": 4,
+        "currentTime": 2.262327,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "playsInline": true,
+        "videoWidth": 1924,
+        "videoHeight": 1076,
+        "error": null
+      },
+      "interactions": {
+        "open": "true",
+        "linkClosesMenu": true,
+        "toggleClosesMenu": true
+      }
+    }
+  ],
+  "scriptErrors": [],
+  "consoleErrors": [],
+  "requestFailures": []
+}

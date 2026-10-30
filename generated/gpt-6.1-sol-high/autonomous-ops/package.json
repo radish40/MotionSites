@@ -1,0 +1,7 @@
+{
+  "name": "autonomous-ops",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-contained Falcon AI Operations Overview",
+  "scripts": { "build": "node build.mjs" }
+}

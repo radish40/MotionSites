@@ -1,0 +1,37 @@
+{
+  "title": "Autonomous Ops",
+  "id": "autonomous-ops",
+  "status": "ready",
+  "page_title": "Falcon AI Operations Overview",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only --ignore-scripts && npm run build'",
+  "output": "dist/index.html",
+  "publish_path": "/motionsites-results/autonomous-ops/",
+  "checks": {
+    "build": "passed; real Node build, dependency lockfile saved",
+    "browser_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint node louislam/uptime-kuma:2 scripts/check.cjs",
+    "desktop_1440x1000": "passed; centered triptych; center-first entrance",
+    "mobile_390x844": "passed; vertical stack; scrolling reaches all cards",
+    "tablet_768x1024": "passed; two-column layout with centered third card",
+    "short_desktop_1440x500": "passed; all cards fit scaled composition",
+    "canvas": "passed; DPR-aware canvases painted; 24 timeline bars",
+    "overflow": "none detected at checked viewports",
+    "script_and_console_errors": [],
+    "network": "one document request; no external resource requests",
+    "fallbacks": "passed; reduced motion, unavailable animate, thrown animate, JavaScript disabled text visibility",
+    "visual_inspection": "desktop and full mobile screenshots inspected",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png", "screenshots/mobile-full.png"],
+    "measurements": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "No external asset failures. Exact requested font stacks are retained, but Segoe UI and Arial are absent in the Linux test container; system fallback font rendering differs from the reference."
+  ],
+  "notes": [
+    "Native single-file HTML with inline CSS/JavaScript; no frameworks or external assets.",
+    "Only this design's supplied WebP reference was read; no screenshot is embedded and no assets were extracted.",
+    "Responsive clamp values were inferred because the prompt provides no numerical source clamps.",
+    "Automate pill is the specified presentation element; no functional backend or click action is defined by the prompt.",
+    "Browser validation used Chromium; JavaScript is required for canvas graphics.",
+    "All artifacts are inside this project. No agents, other sessions, deployment, push, or external messages.",
+    "Ready for management-session acceptance; not deployed."
+  ]
+}

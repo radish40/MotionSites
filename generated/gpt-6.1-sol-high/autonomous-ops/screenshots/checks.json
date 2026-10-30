@@ -1,0 +1,337 @@
+[
+  {
+    "name": "desktop",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "errors": [],
+    "requests": [
+      "http://127.0.0.1:4173/motionsites-results/autonomous-ops/"
+    ],
+    "animation": [
+      [
+        {
+          "delay": 245,
+          "duration": 900
+        }
+      ],
+      [
+        {
+          "delay": 60,
+          "duration": 960
+        }
+      ],
+      [
+        {
+          "delay": 330,
+          "duration": 900
+        }
+      ]
+    ],
+    "layout": {
+      "cards": [
+        {
+          "x": 131.6953125,
+          "y": 256.5703125,
+          "width": 380.390625,
+          "height": 486.859375,
+          "bottom": 743.4296875,
+          "right": 512.0859375
+        },
+        {
+          "x": 533.5078125,
+          "y": 256.5703125,
+          "width": 380.390625,
+          "height": 486.859375,
+          "bottom": 743.4296875,
+          "right": 913.8984375
+        },
+        {
+          "x": 935.3203125,
+          "y": 259.3984375,
+          "width": 372.984375,
+          "height": 479.546875,
+          "bottom": 738.9453125,
+          "right": 1308.3046875
+        }
+      ],
+      "overflow": false,
+      "canvas": [
+        {
+          "width": 22,
+          "height": 21,
+          "painted": true
+        },
+        {
+          "width": 356,
+          "height": 183,
+          "painted": true
+        }
+      ],
+      "opacity": [
+        "1",
+        "1",
+        "1"
+      ],
+      "promptOverflow": false,
+      "titleOverflow": false,
+      "bars": 24,
+      "scale": "1"
+    }
+  },
+  {
+    "name": "mobile",
+    "viewport": [
+      390,
+      844
+    ],
+    "errors": [],
+    "requests": [
+      "http://127.0.0.1:4173/motionsites-results/autonomous-ops/"
+    ],
+    "animation": [
+      [
+        {
+          "delay": 70,
+          "duration": 780
+        }
+      ],
+      [
+        {
+          "delay": 185,
+          "duration": 780
+        }
+      ],
+      []
+    ],
+    "layout": {
+      "cards": [
+        {
+          "x": 19.5,
+          "y": 24,
+          "width": 351,
+          "height": 449.421875,
+          "bottom": 473.421875,
+          "right": 370.5
+        },
+        {
+          "x": 19.5,
+          "y": 489.421875,
+          "width": 351,
+          "height": 449.421875,
+          "bottom": 938.84375,
+          "right": 370.5
+        },
+        {
+          "x": 19.5,
+          "y": 954.84375,
+          "width": 351,
+          "height": 449.421875,
+          "bottom": 1404.265625,
+          "right": 370.5
+        }
+      ],
+      "overflow": false,
+      "canvas": [
+        {
+          "width": 20,
+          "height": 19,
+          "painted": true
+        },
+        {
+          "width": 335,
+          "height": 171,
+          "painted": true
+        }
+      ],
+      "opacity": [
+        "1",
+        "1",
+        "1"
+      ],
+      "promptOverflow": false,
+      "titleOverflow": false,
+      "bars": 24,
+      "scale": "1"
+    }
+  },
+  {
+    "name": "tablet",
+    "viewport": [
+      768,
+      1024
+    ],
+    "errors": [],
+    "requests": [
+      "http://127.0.0.1:4173/motionsites-results/autonomous-ops/"
+    ],
+    "animation": [
+      [
+        {
+          "delay": 70,
+          "duration": 900
+        }
+      ],
+      [
+        {
+          "delay": 185,
+          "duration": 960
+        }
+      ],
+      [
+        {
+          "delay": 300,
+          "duration": 900
+        }
+      ]
+    ],
+    "layout": {
+      "cards": [
+        {
+          "x": 46.0859375,
+          "y": 81.5,
+          "width": 330.234375,
+          "height": 422.828125,
+          "bottom": 504.328125,
+          "right": 376.3203125
+        },
+        {
+          "x": 391.6796875,
+          "y": 81.5,
+          "width": 330.234375,
+          "height": 422.828125,
+          "bottom": 504.328125,
+          "right": 721.9140625
+        },
+        {
+          "x": 218.8828125,
+          "y": 519.6875,
+          "width": 330.21875,
+          "height": 422.8125,
+          "bottom": 942.5,
+          "right": 549.1015625
+        }
+      ],
+      "overflow": false,
+      "canvas": [
+        {
+          "width": 13,
+          "height": 13,
+          "painted": true
+        },
+        {
+          "width": 315,
+          "height": 161,
+          "painted": true
+        }
+      ],
+      "opacity": [
+        "1",
+        "1",
+        "1"
+      ],
+      "promptOverflow": false,
+      "titleOverflow": false,
+      "bars": 24,
+      "scale": "1"
+    }
+  },
+  {
+    "name": "short-desktop",
+    "viewport": [
+      1440,
+      500
+    ],
+    "errors": [],
+    "requests": [
+      "http://127.0.0.1:4173/motionsites-results/autonomous-ops/"
+    ],
+    "animation": [
+      [
+        {
+          "delay": 245,
+          "duration": 900
+        }
+      ],
+      [
+        {
+          "delay": 60,
+          "duration": 960
+        }
+      ],
+      [
+        {
+          "delay": 330,
+          "duration": 900
+        }
+      ]
+    ],
+    "layout": {
+      "cards": [
+        {
+          "x": 357.493408203125,
+          "y": 100.00141906738281,
+          "width": 234.392333984375,
+          "height": 299.9971923828125,
+          "bottom": 399.9986114501953,
+          "right": 591.8857421875
+        },
+        {
+          "x": 605.085693359375,
+          "y": 100.00141906738281,
+          "width": 234.392333984375,
+          "height": 299.9971923828125,
+          "bottom": 399.9986114501953,
+          "right": 839.47802734375
+        },
+        {
+          "x": 852.6779174804688,
+          "y": 101.74407958984375,
+          "width": 229.82867431640625,
+          "height": 295.49127197265625,
+          "bottom": 397.2353515625,
+          "right": 1082.506591796875
+        }
+      ],
+      "overflow": false,
+      "canvas": [
+        {
+          "width": 22,
+          "height": 21,
+          "painted": true
+        },
+        {
+          "width": 356,
+          "height": 183,
+          "painted": true
+        }
+      ],
+      "opacity": [
+        "1",
+        "1",
+        "1"
+      ],
+      "promptOverflow": false,
+      "titleOverflow": false,
+      "bars": 24,
+      "scale": "0.616189"
+    }
+  },
+  {
+    "name": "reduced-motion",
+    "visible": true
+  },
+  {
+    "name": "no-animate",
+    "visible": true
+  },
+  {
+    "name": "animation-error",
+    "visible": true
+  },
+  {
+    "name": "no-javascript",
+    "visible": true
+  }
+]

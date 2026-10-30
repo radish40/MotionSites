@@ -1,0 +1,11 @@
+@import url('https://db.onlinewebfonts.com/c/e55e9079ee863276569c8a68d776ef04?family=Futura+Md+BT+Medium');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{font-family:'Futura Md BT Medium';src:url('/assets/futura.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap;}
+html,body,#root{height:100%;}
+body{margin:0;font-family:'Futura Md BT Medium',system-ui,-apple-system,sans-serif;background-color:#000;color:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.hero-title{letter-spacing:-0.04em;line-height:0.95;}
+button,a{-webkit-tap-highlight-color:transparent;}
+button:focus-visible,a:focus-visible{outline:2px solid #FA8453;outline-offset:5px;}
+::selection{background:#FA8453;color:#000;}

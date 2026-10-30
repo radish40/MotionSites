@@ -1,0 +1,143 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "consoleErrors": [],
+    "requestFailures": [],
+    "badResponses": [],
+    "overflow": {
+      "viewport": 1440,
+      "document": 1440
+    },
+    "videos": [
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/guardnet-landing/assets/hero.mp4",
+        "readyState": 4,
+        "playing": true,
+        "time": 1.724792,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/guardnet-landing/assets/security.mp4",
+        "readyState": 4,
+        "playing": false,
+        "time": 0,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/guardnet-landing/assets/benefit.mp4",
+        "readyState": 4,
+        "playing": false,
+        "time": 0,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true
+      }
+    ],
+    "visiblePlayback": [
+      {
+        "playing": true,
+        "time": 2.450903
+      },
+      {
+        "playing": true,
+        "time": 0.481912
+      },
+      {
+        "playing": true,
+        "time": 0.479938
+      }
+    ],
+    "interactions": {
+      "startNavigates": true,
+      "confirmation": "true",
+      "demoRestarts": true,
+      "lowerDemoNavigates": true,
+      "nav": {
+        "products": "#products",
+        "offerings": "#offerings",
+        "mission": "#mission",
+        "contact": "#contact"
+      }
+    },
+    "font": true
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "consoleErrors": [],
+    "requestFailures": [],
+    "badResponses": [],
+    "overflow": {
+      "viewport": 390,
+      "document": 390
+    },
+    "videos": [
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/guardnet-landing/assets/hero.mp4",
+        "readyState": 4,
+        "playing": true,
+        "time": 1.519066,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/guardnet-landing/assets/security.mp4",
+        "readyState": 4,
+        "playing": false,
+        "time": 0,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      {
+        "src": "http://127.0.0.1:4173/motionsites-results/guardnet-landing/assets/benefit.mp4",
+        "readyState": 4,
+        "playing": false,
+        "time": 0,
+        "width": 1440,
+        "height": 1440,
+        "muted": true,
+        "loop": true
+      }
+    ],
+    "visiblePlayback": [
+      {
+        "playing": true,
+        "time": 2.388481
+      },
+      {
+        "playing": true,
+        "time": 0.552674
+      },
+      {
+        "playing": true,
+        "time": 0.47757
+      }
+    ],
+    "interactions": {
+      "startNavigates": true,
+      "confirmation": "true",
+      "demoRestarts": true,
+      "lowerDemoNavigates": true,
+      "nav": {}
+    },
+    "font": true
+  }
+}

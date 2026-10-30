@@ -1,0 +1,42 @@
+{
+  "title": "Guardnet",
+  "id": "guardnet-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.cache -e npm_config_cache=/work/.cache/npm -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: tsc -b && vite build",
+    "dist_index_exists": true,
+    "base_path": "/motionsites-results/guardnet-landing/",
+    "desktop": "passed: Chromium 1440x1000",
+    "mobile": "passed: Chromium 390x844",
+    "script_and_console_errors": 0,
+    "failed_requests": 0,
+    "http_errors": 0,
+    "horizontal_overflow": false,
+    "font_loaded": true,
+    "all_videos_play_when_visible": true,
+    "navigation_and_ctas": "passed",
+    "confirmation_toggle": "passed",
+    "demo_replay": "passed",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-report.json",
+    "visual_review": "completed"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional Guardnet preview WebP",
+      "issue": "File absent at supplied path; followed written prompt. No screenshot assets extracted."
+    }
+  ],
+  "notes": [
+    "React + TypeScript + Vite + Tailwind CSS; no UI libraries or persistence.",
+    "Original supplied videos and font downloaded successfully; local assets included in dist. Exact requested remote font import retained.",
+    "Offscreen videos may pause in Chromium; each was verified playing after scrolling into view.",
+    "Contact navigation targets the specified lower CTA; no contact information or form was supplied.",
+    "Person confirmation is a local UI toggle, not identity verification; demo replays the original security video.",
+    "Static deliverable ready for review, not deployed. All output is confined to this project."
+  ]
+}

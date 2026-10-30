@@ -1,9 +1,8 @@
 {
-  "updated_utc": "2026-10-30T06:43:30.641818+00:00",
+  "updated_utc": "2026-10-30T06:44:39.111607+00:00",
   "total": 380,
   "counts": {
-    "complete": 379,
-    "ready": 1
+    "complete": 380
   },
   "current_batch": {
     "from_number": 201,
@@ -3769,11 +3768,11 @@
       "id": "benefits-features",
       "title": "Benefits Features",
       "category": "Features Section",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18b7a-61b2-78c2-88cf-29aafc80ba8c",
-      "source_commit": "84502d7fac8396dd6a1284c797bef3af709a2990",
+      "source_commit": "2b5f516913dda42bdc17b93ce766bb7f908c3dd5",
       "group_message_id": 445,
-      "url": null
+      "url": "https://tool.luo-xd.com/motionsites-results/benefits-features/"
     },
     {
       "id": "zenith-footer",

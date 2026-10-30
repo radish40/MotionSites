@@ -8940,19 +8940,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af1-2321-7ea0-b2fa-e8ed3206555c",
       "output_path": "generated/gpt-6.1-sol-high/datacore-booking",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 653085,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:53:41.243866+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "60394607772d6afe838c25cfd8f4ba1058023454",
+      "url": "https://tool.luo-xd.com/motionsites-results/datacore-booking/",
+      "completed_utc": "2026-10-30T04:01:20.444862+00:00",
+      "group_message_id": 327
     },
     {
       "number": 262,
@@ -9004,19 +9008,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18af3-503d-7623-bcbe-d82becf24697",
       "output_path": "generated/gpt-6.1-sol-high/logoisum-video-agency",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 663551,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:56:03.931764+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "dafa6021c028e30c231c12635532966c67388413",
+      "url": "https://tool.luo-xd.com/motionsites-results/logoisum-video-agency/",
+      "completed_utc": "2026-10-30T04:01:49.996716+00:00",
+      "group_message_id": 328
     },
     {
       "number": 264,
@@ -9065,14 +9073,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af5-eaa6-7ec1-bb25-d442aa9928c7",
       "output_path": "generated/gpt-6.1-sol-high/new-era-bold-hero",
       "validation": "",
       "notes": "",
       "process_id": 674786,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:58:54.520890+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 266,
@@ -9091,14 +9103,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18af5-eb82-70f0-bc52-11f1d87c1618",
       "output_path": "generated/gpt-6.1-sol-high/space-voyage",
       "validation": "",
       "notes": "",
       "process_id": 674832,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:58:54.664846+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 267,
@@ -9116,11 +9132,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/sync-ai",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 682172,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:00:44.520602+00:00",
+      "worker_state": "running"
     },
     {
       "number": 268,
@@ -9138,11 +9158,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/targo-logistics-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 682243,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:00:44.691495+00:00",
+      "worker_state": "running"
     },
     {
       "number": 269,
@@ -11610,7 +11634,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:59:51.039364+00:00",
+  "updated_utc": "2026-10-30T04:01:50.184871+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

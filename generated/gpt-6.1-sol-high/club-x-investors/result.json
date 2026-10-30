@@ -1,0 +1,119 @@
+{
+  "title": "ClubX Investors",
+  "id": "club-x-investors",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists",
+    "browser": {
+      "desktop": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "overflow": false,
+        "images": [
+          {
+            "src": "/motionsites-results/club-x-investors/assets/clubx-logo.svg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-1.jpg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-2.jpg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-3.jpg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-4.jpg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-5.jpg",
+            "loaded": true
+          }
+        ],
+        "font": true,
+        "video": {
+          "ready": 4,
+          "playing": true,
+          "width": 1756,
+          "time": 1.713054
+        },
+        "scriptErrors": [],
+        "failedRequests": [],
+        "interactions": "passed",
+        "screenshot": "screenshots/desktop.png"
+      },
+      "mobile": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "overflow": false,
+        "images": [
+          {
+            "src": "/motionsites-results/club-x-investors/assets/clubx-logo.svg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-1.jpg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-2.jpg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-3.jpg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-4.jpg",
+            "loaded": true
+          },
+          {
+            "src": "/motionsites-results/club-x-investors/assets/avatar-5.jpg",
+            "loaded": true
+          }
+        ],
+        "font": true,
+        "video": {
+          "ready": 4,
+          "playing": true,
+          "width": 1756,
+          "time": 1.727709
+        },
+        "scriptErrors": [],
+        "failedRequests": [],
+        "interactions": "passed",
+        "screenshot": "screenshots/mobile.png"
+      },
+      "reducedMotion": {
+        "videoPaused": true,
+        "animation": "none"
+      }
+    },
+    "visual_review": "Desktop and mobile screenshots inspected",
+    "dependency_audit": "0 vulnerabilities"
+  },
+  "asset_issues": [
+    "Built-in image generation unavailable. Five locally cached Unsplash portraits substitute for requested newly generated avatars; imagegen CLI was not authorized.",
+    "Initial portrait provider i.pravatar.cc returned HTTP 403; replacement files load successfully.",
+    "Optional original visual reference file did not exist.",
+    "Google Fonts family is Instrument Serif (prompt calls it Instrumental Serif); regular and italic are cached locally with Inter 400/500/700."
+  ],
+  "notes": [
+    "Ready for management-session review; not deployed.",
+    "Exact supplied video downloaded and verified playing in desktop and mobile Chromium.",
+    "All production assets served locally under /motionsites-results/club-x-investors/.",
+    "Navigation and Begin Journey use informational dialogs; destination URLs and membership backend were not supplied.",
+    "Mobile stats use a two-column grid. Reduced motion pauses video and disables fade-rise.",
+    "No agents, other projects, sessions, pushes, deployments, or messages. All writes restricted to this project."
+  ]
+}

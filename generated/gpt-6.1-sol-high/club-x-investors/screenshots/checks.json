@@ -1,0 +1,94 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "images": [
+      {
+        "src": "/motionsites-results/club-x-investors/assets/clubx-logo.svg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-1.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-2.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-3.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-4.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-5.jpg",
+        "loaded": true
+      }
+    ],
+    "font": true,
+    "video": {
+      "ready": 4,
+      "playing": true,
+      "width": 1756,
+      "time": 1.713054
+    },
+    "scriptErrors": [],
+    "failedRequests": [],
+    "interactions": "passed",
+    "screenshot": "screenshots/desktop.png"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "images": [
+      {
+        "src": "/motionsites-results/club-x-investors/assets/clubx-logo.svg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-1.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-2.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-3.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-4.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/motionsites-results/club-x-investors/assets/avatar-5.jpg",
+        "loaded": true
+      }
+    ],
+    "font": true,
+    "video": {
+      "ready": 4,
+      "playing": true,
+      "width": 1756,
+      "time": 1.727709
+    },
+    "scriptErrors": [],
+    "failedRequests": [],
+    "interactions": "passed",
+    "screenshot": "screenshots/mobile.png"
+  },
+  "reducedMotion": {
+    "videoPaused": true,
+    "animation": "none"
+  }
+}

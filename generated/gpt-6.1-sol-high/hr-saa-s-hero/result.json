@@ -1,0 +1,109 @@
+{
+  "title": "HR SaaS Hero",
+  "id": "hr-saa-s-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "browser": "Chromium via Playwright Core",
+    "results": [
+      {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "metrics": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "topPadding": "290px",
+          "gap": "32px",
+          "headingFont": "80px",
+          "serifFont": "100px",
+          "video": {
+            "width": 1928,
+            "height": 1072,
+            "playing": true,
+            "time": 2.339299,
+            "transform": "matrix(1, 0, 0, -1, 0, 0)",
+            "objectFit": "cover"
+          },
+          "fonts": [
+            true,
+            true
+          ]
+        },
+        "errors": [],
+        "checks": [
+          "no overflow",
+          "local fonts loaded",
+          "video decoded and autoplaying",
+          "video pause and resume",
+          "empty and invalid email validation",
+          "valid form feedback",
+          "screenshot saved"
+        ]
+      },
+      {
+        "name": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "metrics": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "topPadding": "290px",
+          "gap": "32px",
+          "headingFont": "43px",
+          "serifFont": "58px",
+          "video": {
+            "width": 1928,
+            "height": 1072,
+            "playing": true,
+            "time": 2.343696,
+            "transform": "matrix(1, 0, 0, -1, 0, 0)",
+            "objectFit": "cover"
+          },
+          "fonts": [
+            true,
+            true
+          ]
+        },
+        "errors": [],
+        "checks": [
+          "no overflow",
+          "local fonts loaded",
+          "video decoded and autoplaying",
+          "video pause and resume",
+          "empty and invalid email validation",
+          "valid form feedback",
+          "screenshot saved"
+        ]
+      },
+      {
+        "name": "reduced motion",
+        "passed": true
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "desktop and mobile reviewed"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional reference WebP",
+      "issue": "Absent at the specified location; implementation based on full written prompt."
+    }
+  ],
+  "notes": [
+    "React, Tailwind CSS v4, Motion, and Vite.",
+    "All required video and font assets downloaded and served locally.",
+    "Supporting description and inline review marks authored because exact assets/copy were not supplied.",
+    "Frontend signup preview only; no account creation or email persistence.",
+    "dist/index.html exists; base is /motionsites-results/hr-saa-s-hero/.",
+    "Ready for acceptance review; not deployed or pushed."
+  ]
+}

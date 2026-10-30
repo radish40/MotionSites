@@ -1,0 +1,60 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/hr-saa-s-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:34:07.249Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "HR SaaS Hero",
+      "bodyChars": 209,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/hr-saa-s-hero/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.893898,
+          "duration": 7.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "HR SaaS Hero",
+      "bodyChars": 209,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/hr-saa-s-hero/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.835478,
+          "duration": 7.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

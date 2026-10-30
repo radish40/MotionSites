@@ -1,0 +1,80 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "metrics": {
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "topPadding": "290px",
+      "gap": "32px",
+      "headingFont": "80px",
+      "serifFont": "100px",
+      "video": {
+        "width": 1928,
+        "height": 1072,
+        "playing": true,
+        "time": 2.339299,
+        "transform": "matrix(1, 0, 0, -1, 0, 0)",
+        "objectFit": "cover"
+      },
+      "fonts": [
+        true,
+        true
+      ]
+    },
+    "errors": [],
+    "checks": [
+      "no overflow",
+      "local fonts loaded",
+      "video decoded and autoplaying",
+      "video pause and resume",
+      "empty and invalid email validation",
+      "valid form feedback",
+      "screenshot saved"
+    ]
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "metrics": {
+      "scrollWidth": 390,
+      "viewport": 390,
+      "topPadding": "290px",
+      "gap": "32px",
+      "headingFont": "43px",
+      "serifFont": "58px",
+      "video": {
+        "width": 1928,
+        "height": 1072,
+        "playing": true,
+        "time": 2.343696,
+        "transform": "matrix(1, 0, 0, -1, 0, 0)",
+        "objectFit": "cover"
+      },
+      "fonts": [
+        true,
+        true
+      ]
+    },
+    "errors": [],
+    "checks": [
+      "no overflow",
+      "local fonts loaded",
+      "video decoded and autoplaying",
+      "video pause and resume",
+      "empty and invalid email validation",
+      "valid form feedback",
+      "screenshot saved"
+    ]
+  },
+  {
+    "name": "reduced motion",
+    "passed": true
+  }
+]

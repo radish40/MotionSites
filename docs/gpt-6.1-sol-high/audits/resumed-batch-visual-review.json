@@ -767,7 +767,59 @@
         "generated/gpt-6.1-sol-high/logoisum-video-agency/screenshots/mobile.png"
       ],
       "reviewed_utc": "2026-10-30T04:02:17.702735+00:00"
+    },
+    {
+      "id": "new-era-automotive-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the original orange sports-car video, large gradient NEW ERA typography, white navigation and responsive stacked mobile CTA. Hash destinations are integration placeholders; no car shopping transaction is claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/new-era-automotive-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/new-era-automotive-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:07:16.671378+00:00"
+    },
+    {
+      "id": "new-era-bold-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the original blue product video, exact three-line Rubik heading and shaped white GET STARTED button. CTA has hover, press and keyboard behavior; no destination was specified.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/new-era-bold-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/new-era-bold-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:07:16.671378+00:00"
+    },
+    {
+      "id": "space-voyage",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the original supplied floral valley video behind the space-themed serif headline, glass pills, navigation and five partner names. The supplied video itself is floral rather than space imagery, preserved and documented; poster was extracted from that same video.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/space-voyage/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/space-voyage/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:07:16.671378+00:00"
+    },
+    {
+      "id": "sync-ai",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the supplied meadow video below a white gradient, Stellar.ai branding, gradient headline and partner bar. The aerospace partner wording is present in this design own prompt. UI is monochrome while the explicitly supplied original video retains its colors; account/trial destinations are unspecified.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/sync-ai/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/sync-ai/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:07:16.671378+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:02:17.702735+00:00"
+  "updated_utc": "2026-10-30T04:07:16.671378+00:00"
 }

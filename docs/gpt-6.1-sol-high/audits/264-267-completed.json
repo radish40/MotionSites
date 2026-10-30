@@ -1,0 +1,123 @@
+{
+  "recorded_utc": "2026-10-30T04:07:16.671378+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 4,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:03:25.693952+00:00",
+      "remote_main": "4298e4079752aff337566a7ff4cadf0087df7aa9",
+      "delivery": {
+        "id": "new-era-automotive-hero",
+        "title": "New Era Automotive Hero",
+        "source_commit": "7beee6323448c70372bb474e7aeb957b72c41c73",
+        "thread_id": "01a18af4-82ee-7a30-a106-daf7eeba3be3",
+        "group_message_id": 329,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:04:42.797898+00:00",
+      "remote_main": "b5b6e551fc15044fa6d4cf2fd6a60b72cbfa3a40",
+      "delivery": {
+        "id": "new-era-bold-hero",
+        "title": "New Era Bold Hero",
+        "source_commit": "b5b6e551fc15044fa6d4cf2fd6a60b72cbfa3a40",
+        "thread_id": "01a18af5-eaa6-7ec1-bb25-d442aa9928c7",
+        "group_message_id": 330,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:05:17.577376+00:00",
+      "remote_main": "8530c4e996462253c060bb06240d15f806e5f06f",
+      "delivery": {
+        "id": "space-voyage",
+        "title": "Space Voyage",
+        "source_commit": "9339bbbfc8cca463972bb949ea96db2c617139d9",
+        "thread_id": "01a18af5-eb82-70f0-bc52-11f1d87c1618",
+        "group_message_id": 331,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:06:44.393853+00:00",
+      "remote_main": "3cd11ed82ec6b8f14fb86bbb7e564d5adb43108d",
+      "delivery": {
+        "id": "sync-ai",
+        "title": "Sync AI",
+        "source_commit": "f602a3cfa3007490a268819f82671deaab02cc34",
+        "thread_id": "01a18af7-98a3-7262-a7c1-a6bc89bc4f5c",
+        "group_message_id": 332,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

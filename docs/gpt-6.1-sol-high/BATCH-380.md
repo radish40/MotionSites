@@ -23,4 +23,4 @@
 
 ## 完成后运行状态
 
-生成队列及每 30 分钟群内汇报已停止并禁用；公开页面继续服务。`motionsites-oyla` 与 `motionsites-glitch-pulse` 必要生产容器继续运行，最终核验确认健康并保留 unless-stopped 重启策略。项目群逐项通知回执均已核实；最终群完成通知回执随台账归档。
+生成队列及每 30 分钟群内汇报已停止并禁用；公开页面继续服务。`motionsites-oyla` 与 `motionsites-glitch-pulse` 必要生产容器继续运行，最终核验确认健康并保留 unless-stopped 重启策略。项目群逐项通知回执均已核实；最终群完成通知已发送并核实，消息 ID 为 **452**。最终回执与停止状态见 [audits/final-delivery-summary.json](audits/final-delivery-summary.json)。

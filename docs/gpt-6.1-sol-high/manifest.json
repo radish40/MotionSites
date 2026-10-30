@@ -13042,7 +13042,7 @@
       "group_message_id": 448
     }
   ],
-  "updated_utc": "2026-10-30T06:52:35.122475+00:00",
+  "updated_utc": "2026-10-30T06:54:33.704039+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,
@@ -13056,7 +13056,9 @@
     "audit_path": "docs/gpt-6.1-sol-high/audits/380-completed.json",
     "generation_service": "stopped_and_disabled",
     "progress_timer": "stopped_and_disabled",
-    "source_audit_remote_main": "b7a4343f23979303fbbebcc037535f20805aaba4"
+    "source_audit_remote_main": "b7a4343f23979303fbbebcc037535f20805aaba4",
+    "final_group_message_id": 452,
+    "final_group_notified_utc": "2026-10-30T06:54:33.698384+00:00"
   },
   "batch_history": [
     {

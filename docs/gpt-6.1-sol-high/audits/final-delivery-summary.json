@@ -1,0 +1,34 @@
+{
+  "recorded_utc": "2026-10-30T06:54:33.698384+00:00",
+  "status": "complete",
+  "design_count": 380,
+  "completed": 380,
+  "pending": 0,
+  "full_audit": "380-completed.json",
+  "source_audit_remote_main": "b7a4343f23979303fbbebcc037535f20805aaba4",
+  "published_final_report_checkpoint": "0ada34890bb3e82cc92f9c850db6a4b29e4be216",
+  "root_reviewed_resumed_designs": 180,
+  "final_group_message_id": 452,
+  "final_group_request_id": "e76fa95326ce24fb3799ec777c8d25c7",
+  "final_group_text": "MotionSites 全部完成 · 380 / 380\n\n已完成第 201–380 项续做，全部 380 个设计均已上线，保存桌面和手机预览截图，并将源码推送 GitHub main。\n每个设计使用独立 gpt-6.1-sol / high 原始会话；修复沿用对应原会话。\n\n最终全量核验：380 项通过。原提示词、远端源码、线上文件与截图、索引名称及链接、380 条实际项目群通知记录均已核对；关键视频、WebGL 和页面交互另有复测证据。Benefits Features 的瞬时负计数已修复并复核。\n\n成果索引：https://tool.luo-xd.com/motionsites-results/\n源码：https://github.com/radish40/MotionSites\n最终交付报告：https://github.com/radish40/MotionSites/blob/main/docs/gpt-6.1-sol-high/BATCH-380.md\n\n缺失提示词、失效素材及近似替代方案均已记录；没有把替代素材或本地演示称作原始影片恢复或真实业务提交。\n生成队列及每 30 分钟定时汇报现已停止并禁用，网页和必要的生产后端继续运行。",
+  "actual_final_group_receipt_verified": true,
+  "services": {
+    "motionsites-generation.service": {
+      "active": "inactive",
+      "enabled": "disabled"
+    },
+    "motionsites-progress.timer": {
+      "active": "inactive",
+      "enabled": "disabled"
+    },
+    "motionsites-audit.service": {
+      "active": "inactive",
+      "enabled": "not_installed_transient_unit_collected"
+    }
+  },
+  "required_production_runtimes": [
+    "motionsites-oyla",
+    "motionsites-glitch-pulse"
+  ],
+  "production_runtime_health_and_restart_policy": "Both healthy and unless-stopped; also verified by full delivery audit."
+}

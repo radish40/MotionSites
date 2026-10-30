@@ -1,0 +1,52 @@
+const {chromium}=require('/app/node_modules/playwright-core');
+const fs=require('fs');
+const http=require('http');
+const path=require('path');
+const base='/motionsites-results/community-superdesign-card-swap/';
+const root=path.resolve('dist');
+const server=http.createServer((req,res)=>{
+ const p=decodeURIComponent(req.url.split('?')[0]);
+ if(!p.startsWith(base)){res.writeHead(404);return res.end();}
+ const file=path.join(root,p.slice(base.length)||'index.html');
+ fs.readFile(file,(e,b)=>{if(e){res.writeHead(404);res.end();return;} const ext=path.extname(file);res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.jpg':'image/jpeg'})[ext]||'application/octet-stream');res.end(b);});
+});
+(async()=>{
+ await new Promise(r=>server.listen(4173,'127.0.0.1',r));
+ const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox','--disable-dev-shm-usage']});
+ const errors=[],failed=[],checks=[];
+ function assert(condition,name,details){checks.push({name,passed:!!condition,details});if(!condition)throw new Error(name+': '+JSON.stringify(details));}
+ const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+ page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});page.on('requestfailed',r=>failed.push(r.url()));
+ await page.goto('http://127.0.0.1:4173'+base);await page.locator('img').last().waitFor();await page.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));
+ const cards=page.locator('.card-swap > div > div');
+ const state=()=>cards.evaluateAll(els=>els.map(e=>({title:e.querySelector('h3').textContent,transform:e.style.transform,z:Number(e.style.zIndex)})));
+ const front=async()=> (await state()).sort((a,b)=>b.z-a.z)[0].title;
+ assert(await front()==='Perspective Design','Initial front card');
+ assert(await cards.count()===4,'Four DOM cards');
+ assert(await page.locator('img').evaluateAll(imgs=>imgs.every(i=>i.complete&&i.naturalWidth>0)),'All original images loaded');
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth===innerWidth),'Desktop has no horizontal overflow');
+ assert(await page.evaluate(()=>{const h=document.querySelector('h1').getBoundingClientRect();return [...document.querySelectorAll('.card-swap > div > div')].every(e=>e.getBoundingClientRect().top>h.bottom)}),'Desktop heading clear of card stack');
+ await page.screenshot({path:'screenshots/desktop.png'});
+ await page.waitForTimeout(7000);
+ assert(await front()==='Fluid Motion','Automatic cycle promotes second card',await state());
+ await page.locator('.card-swap').hover();const paused=await state();await page.waitForTimeout(4500);
+ assert(JSON.stringify(paused)===JSON.stringify(await state()),'Hover pauses animation and timer');
+ await page.mouse.move(10,10);await page.waitForTimeout(7000);
+ assert(await front()==='Minimalist Aesthetic','Mouse leave resumes cycling',await state());
+ await page.getByRole('button',{name:'Reply Animation',exact:true}).click();await page.waitForLoadState('load');await page.waitForTimeout(200);
+ assert(await front()==='Perspective Design','Replay resets stack');
+ await page.keyboard.press('Tab');
+ const mobile=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1,isMobile:true,hasTouch:true});
+ mobile.on('pageerror',e=>errors.push(e.message));
+ await mobile.goto('http://127.0.0.1:4173'+base);await mobile.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));
+ assert(await mobile.evaluate(()=>document.documentElement.scrollWidth===innerWidth),'Mobile has no horizontal overflow');
+ const bounds=await mobile.locator('.card-swap > div > div').evaluateAll(es=>es.map(e=>{const r=e.getBoundingClientRect();return {x:r.x,right:r.right,top:r.top,bottom:r.bottom}}));
+ assert(bounds.every(r=>r.x>=0&&r.right<=390&&r.top>=0&&r.bottom<=844),'Mobile cards fit viewport',bounds);
+ await mobile.screenshot({path:'screenshots/mobile.png'});
+ await mobile.waitForTimeout(7000);assert(await mobile.locator('.card-swap > div > div').evaluateAll(es=>es.sort((a,b)=>Number(b.style.zIndex)-Number(a.style.zIndex))[0].querySelector('h3').textContent)==='Fluid Motion','Mobile cycles');
+ await mobile.getByRole('button',{name:'Reply Animation',exact:true}).tap();await mobile.waitForLoadState('load');
+ assert(await mobile.locator('.card-swap > div > div').first().evaluate(e=>Number(e.style.zIndex))===4,'Mobile replay');
+ assert(!errors.length,'No browser script or console errors',errors);assert(!failed.length,'No failed requests',failed);
+ fs.writeFileSync('screenshots/browser-checks.json',JSON.stringify({checks,errors,failed},null,2));
+ await browser.close();server.close();
+})().catch(e=>{console.error(e);server.close();process.exit(1)});

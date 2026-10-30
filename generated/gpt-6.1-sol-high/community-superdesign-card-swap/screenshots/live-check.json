@@ -1,0 +1,80 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:13:02.265Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Card Swap Showcase",
+      "bodyChars": 309,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/assets/photo-1618005182384-a83a8bd57fbe.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/assets/photo-1633356122544-f134324a6cee.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/assets/photo-1614850523296-d8c1af93d400.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/assets/photo-1620641788421-7a1c342ea42e.jpg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Card Swap Showcase",
+      "bodyChars": 309,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/assets/photo-1618005182384-a83a8bd57fbe.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/assets/photo-1633356122544-f134324a6cee.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/assets/photo-1614850523296-d8c1af93d400.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/community-superdesign-card-swap/assets/photo-1620641788421-7a1c342ea42e.jpg",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

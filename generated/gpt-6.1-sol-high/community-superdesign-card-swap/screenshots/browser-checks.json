@@ -1,0 +1,138 @@
+{
+  "checks": [
+    {
+      "name": "Initial front card",
+      "passed": true
+    },
+    {
+      "name": "Four DOM cards",
+      "passed": true
+    },
+    {
+      "name": "All original images loaded",
+      "passed": true
+    },
+    {
+      "name": "Desktop has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Desktop heading clear of card stack",
+      "passed": true
+    },
+    {
+      "name": "Automatic cycle promotes second card",
+      "passed": true,
+      "details": [
+        {
+          "title": "Perspective Design",
+          "transform": "translate(-50%, -50%) translate3d(120px, -120px, -180px) skew(0deg, 4deg)",
+          "z": 1
+        },
+        {
+          "title": "Fluid Motion",
+          "transform": "translate(-50%, -50%) translate3d(0px, 0px, 0px) skew(0deg, 4deg)",
+          "z": 4
+        },
+        {
+          "title": "Minimalist Aesthetic",
+          "transform": "translate(-50%, -50%) translate3d(40px, -40px, -60px) skew(0deg, 4deg)",
+          "z": 3
+        },
+        {
+          "title": "Atmospheric Loops",
+          "transform": "translate(-50%, -50%) translate3d(80px, -80px, -120px) skew(0deg, 4deg)",
+          "z": 2
+        }
+      ]
+    },
+    {
+      "name": "Hover pauses animation and timer",
+      "passed": true
+    },
+    {
+      "name": "Mouse leave resumes cycling",
+      "passed": true,
+      "details": [
+        {
+          "title": "Perspective Design",
+          "transform": "translate(-50%, -50%) translate3d(80px, -80px, -120px) skew(0deg, 4deg)",
+          "z": 2
+        },
+        {
+          "title": "Fluid Motion",
+          "transform": "translate(-50%, -50%) translate3d(120px, -120px, -180px) skew(0deg, 4deg)",
+          "z": 1
+        },
+        {
+          "title": "Minimalist Aesthetic",
+          "transform": "translate(-50%, -50%) translate3d(0px, 0px, 0px) skew(0deg, 4deg)",
+          "z": 4
+        },
+        {
+          "title": "Atmospheric Loops",
+          "transform": "translate(-50%, -50%) translate3d(40px, -40px, -60px) skew(0deg, 4deg)",
+          "z": 3
+        }
+      ]
+    },
+    {
+      "name": "Replay resets stack",
+      "passed": true
+    },
+    {
+      "name": "Mobile has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile cards fit viewport",
+      "passed": true,
+      "details": [
+        {
+          "x": 39,
+          "right": 311,
+          "top": 289.4899597167969,
+          "bottom": 512.510009765625
+        },
+        {
+          "x": 71.38095092773438,
+          "right": 330.4285888671875,
+          "top": 268.89520263671875,
+          "bottom": 481.2952880859375
+        },
+        {
+          "x": 100.81817626953125,
+          "right": 348.0909118652344,
+          "top": 250.1726837158203,
+          "bottom": 452.918212890625
+        },
+        {
+          "x": 127.6956558227539,
+          "right": 364.2173843383789,
+          "top": 233.07821655273438,
+          "bottom": 427.00872802734375
+        }
+      ]
+    },
+    {
+      "name": "Mobile cycles",
+      "passed": true
+    },
+    {
+      "name": "Mobile replay",
+      "passed": true
+    },
+    {
+      "name": "No browser script or console errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "No failed requests",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

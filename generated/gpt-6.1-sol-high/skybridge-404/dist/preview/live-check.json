@@ -1,0 +1,78 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/skybridge-404/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:38:09.491Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Skybridge 404",
+      "bodyChars": 71,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/skybridge-404/assets/skybridge.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.571042,
+          "duration": 5.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/skybridge-404/assets/skybridge.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/skybridge-404/assets/skybridge.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Skybridge 404",
+      "bodyChars": 71,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/skybridge-404/assets/skybridge.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.526921,
+          "duration": 5.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/skybridge-404/assets/skybridge.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/skybridge-404/assets/skybridge.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

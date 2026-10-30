@@ -1,0 +1,246 @@
+{
+  "browser": "148.0.7778.178",
+  "pages": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "content": {
+        "x": 478.5,
+        "y": 262.453125,
+        "width": 483,
+        "height": 475.09375
+      },
+      "heading": {
+        "x": 490.78125,
+        "y": 262.453125,
+        "width": 458.421875,
+        "height": 333.3125
+      },
+      "logo": {
+        "x": 603.5,
+        "y": 80,
+        "width": 233,
+        "height": 40
+      },
+      "divider": {
+        "x": 507.5,
+        "y": 639.765625,
+        "width": 425,
+        "height": 1
+      },
+      "fontLoaded": true,
+      "fontSize": "295.751px",
+      "gap": "44px",
+      "video": {
+        "currentTime": 0.82427,
+        "duration": 5.041667,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "width": 1920,
+        "height": 1080
+      },
+      "firstChildIsVideo": true,
+      "contentChildren": 3,
+      "uiCount": 0,
+      "message": "The path may be broken, but the journey isn't. Let's get you back.",
+      "autoplayPassed": true,
+      "loopPassed": true,
+      "tabPassed": true
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "content": {
+        "x": 20,
+        "y": 260.203125,
+        "width": 350,
+        "height": 323.59375
+      },
+      "heading": {
+        "x": 41.984375,
+        "y": 260.203125,
+        "width": 306.015625,
+        "height": 228
+      },
+      "logo": {
+        "x": 107.625,
+        "y": 32,
+        "width": 174.75,
+        "height": 30
+      },
+      "divider": {
+        "x": 20,
+        "y": 516.203125,
+        "width": 350,
+        "height": 1
+      },
+      "fontLoaded": true,
+      "fontSize": "200px",
+      "gap": "28px",
+      "video": {
+        "currentTime": 1.209902,
+        "duration": 5.041667,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "width": 1920,
+        "height": 1080
+      },
+      "firstChildIsVideo": true,
+      "contentChildren": 3,
+      "uiCount": 0,
+      "message": "The path may be broken, but the journey isn't. Let's get you back.",
+      "autoplayPassed": true,
+      "loopPassed": true,
+      "tabPassed": true
+    },
+    {
+      "name": "short",
+      "viewport": {
+        "width": 390,
+        "height": 360
+      },
+      "scrollWidth": 390,
+      "scrollHeight": 480,
+      "content": {
+        "x": 20,
+        "y": 78.203125,
+        "width": 350,
+        "height": 323.59375
+      },
+      "heading": {
+        "x": 41.984375,
+        "y": 78.203125,
+        "width": 306.015625,
+        "height": 228
+      },
+      "logo": {
+        "x": 107.625,
+        "y": 32,
+        "width": 174.75,
+        "height": 30
+      },
+      "divider": {
+        "x": 20,
+        "y": 334.203125,
+        "width": 350,
+        "height": 1
+      },
+      "fontLoaded": true,
+      "fontSize": "200px",
+      "gap": "28px",
+      "video": {
+        "currentTime": 1.105669,
+        "duration": 5.041667,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "width": 1920,
+        "height": 1080
+      },
+      "firstChildIsVideo": true,
+      "contentChildren": 3,
+      "uiCount": 0,
+      "message": "The path may be broken, but the journey isn't. Let's get you back.",
+      "autoplayPassed": true,
+      "loopPassed": true,
+      "tabPassed": true
+    },
+    {
+      "name": "narrow",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "scrollWidth": 320,
+      "scrollHeight": 568,
+      "content": {
+        "x": 20,
+        "y": 133.5859375,
+        "width": 280,
+        "height": 300.828125
+      },
+      "heading": {
+        "x": 32.703125,
+        "y": 133.5859375,
+        "width": 254.578125,
+        "height": 191.046875
+      },
+      "logo": {
+        "x": 72.625,
+        "y": 32,
+        "width": 174.75,
+        "height": 30
+      },
+      "divider": {
+        "x": 20,
+        "y": 352.6328125,
+        "width": 280,
+        "height": 1
+      },
+      "fontLoaded": true,
+      "fontSize": "166.4px",
+      "gap": "28px",
+      "video": {
+        "currentTime": 0.945693,
+        "duration": 5.041667,
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "width": 1920,
+        "height": 1080
+      },
+      "firstChildIsVideo": true,
+      "contentChildren": 3,
+      "uiCount": 0,
+      "message": "The path may be broken, but the journey isn't. Let's get you back.",
+      "autoplayPassed": true,
+      "loopPassed": true,
+      "tabPassed": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "mediaRequestCancellations": [
+    {
+      "url": "http://localhost:4173/motionsites-results/skybridge-404/assets/skybridge.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/skybridge-404/assets/skybridge.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/skybridge-404/assets/skybridge.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4173/motionsites-results/skybridge-404/assets/skybridge.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "passed": true
+}

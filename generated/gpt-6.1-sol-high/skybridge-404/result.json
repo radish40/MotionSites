@@ -1,0 +1,34 @@
+{
+  "title": "Skybridge 404",
+  "id": "skybridge-404",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: React + Vite 6.4.5 + Tailwind CSS v4; dist/index.html exists",
+    "dependency_audit": "passed: zero vulnerabilities",
+    "publish_base": "/motionsites-results/skybridge-404/",
+    "browser": "Chromium 148.0.7778.178 using Playwright Core",
+    "viewports": ["1440x1000", "390x844", "320x568", "390x360"],
+    "layout": "passed: centered content, exact desktop/mobile dimensions, no horizontal overflow, vertical scroll only on short viewport",
+    "video": "passed: original 1920x1080 MP4, autoplay, muted, loop, playsInline, opacity 1, actual playback and looping verified",
+    "font": "passed: exact Geist Mono:SemiBold source loaded",
+    "semantics": "passed: main, h1, video first child, decorative aria-hidden attributes, labeled brand, three content elements",
+    "interactions": "passed: no controls or tab stops, as required",
+    "script_and_console_errors": [],
+    "failed_asset_requests": [],
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "visual_review": "passed: both screenshots inspected",
+    "detailed_report": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    "No unavailable assets. The Figma font endpoint serves TrueType/sfnt bytes despite the specified WOFF2 format declaration; the exact required declaration works in tested Chromium. An unchanged local font copy is included as a fallback."
+  ],
+  "notes": [
+    "Ready for acceptance review; not deployed or pushed.",
+    "Original MP4 is served locally, with exact downloaded bytes and no overlays or extra animation.",
+    "The supplied preview was used only for visual reference; the page is real React DOM with video and SVG assets.",
+    "Screenshots use a paused video timestamp of one second only during test capture; the delivered page loops normally.",
+    "Expected Chromium media range cancellations while seeking are recorded separately from failed asset loads.",
+    "Validation is limited to the available Chromium engine."
+  ]
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Geist Mono:SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://static.figma.com/font/GeistMono_wght__1") format("woff2"),
+    url("/assets/geist-mono.woff2") format("woff2");
+}
+
+html, body, #root { margin: 0; min-height: 100%; background: #000; }
+body { overflow-x: hidden; }
+.page { min-height: max(100svh, 650px); }
+.page > video { opacity: 1; }
+.brand { top: 80px; left: 50%; width: 233px; height: 40px; transform: translateX(-50%); }
+.brand-type { position: absolute; left: 68px; top: -25px; }
+.error-content {
+  top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 483px; gap: 44px;
+  font-family: "Geist Mono:SemiBold", monospace; font-weight: 600;
+}
+.error-content h1 {
+  margin: 0; padding-bottom: 8px;
+  font-size: 295.751px; font-weight: 600; line-height: 1.1; letter-spacing: -24.6459px;
+  background: linear-gradient(247.3282658084845deg, rgb(255, 255, 255) 2.5334%, rgba(255, 255, 255, 0.4) 93.612%);
+  background-clip: text; -webkit-background-clip: text; color: transparent;
+}
+.divider { width: 425px; height: 1px; flex-shrink: 0; background: #fff; }
+.error-content p { margin: 0; width: 100%; font-size: 24px; font-weight: 600; line-height: 1.1; letter-spacing: -2px; }
+
+@media (max-width: 640px) {
+  .page { min-height: max(100svh, 480px); }
+  .brand { top: 32px; transform: translateX(-50%) scale(.75); transform-origin: top center; }
+  .error-content { width: min(calc(100% - 40px), 360px); gap: 28px; }
+  .error-content h1 { font-size: clamp(140px, 52vw, 200px); letter-spacing: -.09em; height: auto; min-height: 0; padding-bottom: 8px; }
+  .divider { width: 100%; }
+  .error-content p { font-size: clamp(16px, 4.5vw, 20px); letter-spacing: -1.3px; }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Glow Features",
+  "id": "glow-features",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v /home/opc/motionsites/generated/gpt-6.1-sol-high/glow-features:/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html and bundled assets exist",
+    "stack": "React 19, Vite, Tailwind CSS v4, lucide-react, motion/react",
+    "browser": "Chromium via playwright-core in louislam/uptime-kuma:2",
+    "viewports": ["1440x1000", "390x844", "768x1024", "320x760"],
+    "responsive_layout": "passed",
+    "card_dimensions_and_borders": "passed",
+    "text_and_icons": "passed",
+    "staggered_entrance_animation": "passed; intermediate and final frames sampled",
+    "text_selection": "passed",
+    "horizontal_overflow": "none at all checked viewports",
+    "text_clipping": "none at all checked viewports",
+    "console_errors": [],
+    "failed_requests": [],
+    "subpath": "/motionsites-results/glow-features/",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "screenshots_visually_inspected": true,
+    "detailed_report": "browser-checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Optional reference WebP was absent. Implementation follows the full PROMPT.md specifications; comparison to the reference image was unavailable.",
+    "No external images or fonts required; icons and a locally authored SVG favicon are bundled.",
+    "Mobile screenshot is a full-page 390x908 image captured with a 390x844 viewport.",
+    "The specified design has no actionable controls; animation and text selection were verified.",
+    "Chromium checked; other browser engines not tested.",
+    "Source, lockfile, production dist, README, screenshots and repeatable browser-check script included. node_modules omitted.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

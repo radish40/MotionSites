@@ -10594,14 +10594,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b24-7db8-7aa2-b399-e40a0fa2ad0d",
       "output_path": "generated/gpt-6.1-sol-high/pet-diagnostics",
       "validation": "",
       "notes": "",
       "process_id": 880917,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:49:46.807748+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 311,
@@ -12145,7 +12149,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:50:13.707760+00:00",
+  "updated_utc": "2026-10-30T04:51:24.873486+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

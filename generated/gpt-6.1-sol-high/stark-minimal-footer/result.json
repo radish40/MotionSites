@@ -1,0 +1,30 @@
+{
+  "title": "Stark Minimal Footer",
+  "id": "stark-minimal-footer",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html and local assets generated",
+    "publication_path": "/motionsites-results/stark-minimal-footer/",
+    "browser": "Chromium via playwright-core",
+    "viewports": ["1440x1000", "390x844", "768x1024", "320x740", "981x1000"],
+    "horizontal_overflow": "none; document width and text bounds checked",
+    "font": "local Geist variable loaded successfully",
+    "interactions": "passed fragment navigation, hover translation, keyboard focus, social attributes, home destination, animated dots and reduced motion",
+    "console_errors": [],
+    "failed_requests": [],
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "visual_inspection": "desktop and mobile screenshots inspected",
+    "details": "screenshots/checks.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Standalone semantic HTML/CSS; no frontend framework required by the prompt.",
+    "Geist bundled through pinned @fontsource-variable/geist 5.2.8 with license; dots and logo are CSS.",
+    "Only this design reference was inspected; no reference screenshot is used as page content.",
+    "Mobile wordmark receives scaleX(0.8) to avoid clipping while retaining the specified font-size clamp.",
+    "Fragment destinations and root home href are preserved exactly; destination pages are outside this footer's scope.",
+    "External social navigation and browsers other than Chromium were not exercised.",
+    "Ready for review only; not deployed or pushed."
+  ]
+}

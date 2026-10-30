@@ -1,0 +1,14 @@
+{
+  "name": "stark-minimal-footer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stark Minimal Footer — EngineTech",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node scripts/check.cjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "5.2.8"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "results": {
+    "desktop": {
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "footerHeight": 736.546875,
+      "gridColumns": "583.266px 195.984px 195.984px 195.984px",
+      "wordRight": 974.6875,
+      "contentOverflow": false,
+      "brandRight": 1392,
+      "fontLoaded": true,
+      "linkCount": 14
+    },
+    "mobile": {
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "footerHeight": 720.453125,
+      "gridColumns": "358px",
+      "wordRight": 363.4093933105469,
+      "contentOverflow": false,
+      "brandRight": 374,
+      "fontLoaded": true,
+      "linkCount": 14
+    },
+    "tablet": {
+      "viewportWidth": 768,
+      "documentWidth": 768,
+      "footerHeight": 578.28125,
+      "gridColumns": "344.641px 344.641px",
+      "wordRight": 531.078125,
+      "contentOverflow": false,
+      "brandRight": 744,
+      "fontLoaded": true,
+      "linkCount": 14
+    },
+    "small": {
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "footerHeight": 766.796875,
+      "gridColumns": "288px",
+      "wordRight": 303.578125,
+      "contentOverflow": false,
+      "brandRight": 304,
+      "fontLoaded": true,
+      "linkCount": 14
+    },
+    "breakpoint": {
+      "viewportWidth": 981,
+      "documentWidth": 981,
+      "footerHeight": 554.765625,
+      "gridColumns": "320px 150px 150px 150px",
+      "wordRight": 679.265625,
+      "contentOverflow": false,
+      "brandRight": 933,
+      "fontLoaded": true,
+      "linkCount": 14
+    }
+  },
+  "interactions": "passed: fragment links, hover, focus, social attributes, home href, moving dots and reduced motion",
+  "consoleErrors": [],
+  "failedRequests": []
+}

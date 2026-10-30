@@ -1,0 +1,78 @@
+{
+  "url": "http://localhost:4173/motionsites-results/scaling-platform/",
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sections": 2,
+      "overflow": false,
+      "fontLoaded": true,
+      "media": [
+        {
+          "currentTime": 1.963336,
+          "muted": true,
+          "paused": false,
+          "width": 1920,
+          "height": 1080,
+          "source": "http://localhost:4173/motionsites-results/scaling-platform/assets/hero.mp4"
+        },
+        {
+          "currentTime": 1.963383,
+          "muted": true,
+          "paused": false,
+          "width": 1440,
+          "height": 1440,
+          "source": "http://localhost:4173/motionsites-results/scaling-platform/assets/about.mp4"
+        }
+      ],
+      "interactionChecks": "navigation, get started, learn more",
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sections": 2,
+      "overflow": false,
+      "fontLoaded": true,
+      "media": [
+        {
+          "currentTime": 1.941801,
+          "muted": true,
+          "paused": false,
+          "width": 1920,
+          "height": 1080,
+          "source": "http://localhost:4173/motionsites-results/scaling-platform/assets/hero.mp4"
+        },
+        {
+          "currentTime": 1.847517,
+          "muted": true,
+          "paused": false,
+          "width": 1440,
+          "height": 1440,
+          "source": "http://localhost:4173/motionsites-results/scaling-platform/assets/about.mp4"
+        }
+      ],
+      "interactionChecks": "navigation, get started, learn more, menu toggle, Escape, menu closes on selection",
+      "screenshot": "screenshots/mobile.png"
+    },
+    {
+      "name": "additional responsive widths",
+      "widths": [
+        320,
+        700,
+        701,
+        1024,
+        1920
+      ],
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

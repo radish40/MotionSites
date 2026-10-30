@@ -1,0 +1,48 @@
+{
+  "title": "Scaling Platform",
+  "id": "scaling-platform",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html exists",
+    "browser_report": "screenshots/browser-checks.json",
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "additional_widths": [
+      320,
+      700,
+      701,
+      1024,
+      1920
+    ],
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "failed_resource_requests": [],
+    "video_playback": "Both videos decoded and advancing, muted and looping",
+    "interactions": "Desktop navigation, Get Started, Learn More, mobile toggle, Escape and close-on-selection passed",
+    "dependency_audit": "0 vulnerabilities; screenshots/dependency-audit.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "Original hero and about MP4s",
+      "issue": "HEVC encoding did not decode in available Chromium",
+      "resolution": "Resolved: downloaded exact original videos and converted to H.264 (libx264 CRF19, yuv420p, faststart), retaining dimensions, 24fps, and 8.041667-second duration. No reconstruction or preview extraction.",
+      "originals": "assets-source/",
+      "recovery_script": "scripts/transcode-assets.sh",
+      "limitation": "Minor lossy recompression differences; only Chromium tested."
+    }
+  ],
+  "notes": [
+    "Exactly two sections with original prompt copy; no footer.",
+    "Vite with vanilla HTML/CSS/JavaScript; Quantico 400/700 and videos served locally.",
+    "Static deliverable in dist/ configured for /motionsites-results/scaling-platform/.",
+    "Contact mailto links have no recipient because none is supplied; Get Started scrolls to About and Learn More targets its paragraph.",
+    "Below 360px, About minimum width relaxes and hero button padding narrows to avoid overflow.",
+    "README.md contains build, verification, asset provenance and limitations.",
+    "Ready for acceptance; not deployed or pushed."
+  ]
+}

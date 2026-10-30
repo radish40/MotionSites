@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Quantico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/quantico/v19/rax-HiSdp9cPL3KIF4xs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quantico';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/quantico/v19/rax5HiSdp9cPL3KIF7TQARha.ttf) format('truetype');
+}

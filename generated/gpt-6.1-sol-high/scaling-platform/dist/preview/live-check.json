@@ -1,0 +1,80 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/scaling-platform/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:02:16.634Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Targo — Scaling the Platform for Your Business",
+      "bodyChars": 325,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scaling-platform/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.891269,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scaling-platform/assets/about.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.788784,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Targo — Scaling the Platform for Your Business",
+      "bodyChars": 292,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scaling-platform/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.939773,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scaling-platform/assets/about.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.939833,
+          "duration": 8.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

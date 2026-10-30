@@ -1,0 +1,76 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "scrollWidth": 1440,
+    "scrollHeight": 1000,
+    "heading": "Own the future of\nyour assets.",
+    "fontLoaded": true,
+    "video": {
+      "time": 1.144823,
+      "muted": true,
+      "paused": false,
+      "width": 1924,
+      "height": 1076
+    },
+    "marquee": "matrix(1, 0, 0, 1, -46.6285, 0)",
+    "icons": 10,
+    "bodyFont": "\"Instrument Serif\", serif",
+    "button": {
+      "x": 64,
+      "y": 523.1875,
+      "width": 202.03125,
+      "height": 60,
+      "top": 523.1875,
+      "right": 266.03125,
+      "bottom": 583.1875,
+      "left": 64
+    },
+    "hoverScale": "matrix(1.05, 0, 0, 1.05, 0, 0)",
+    "navLinks": "passed",
+    "buttonClick": "passed; no destination specified by design",
+    "videoPlayback": "passed before pausing at 3s for repeatable screenshot",
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "scrollHeight": 844,
+    "heading": "Own the future of\nyour assets.",
+    "fontLoaded": true,
+    "video": {
+      "time": 1.100303,
+      "muted": true,
+      "paused": false,
+      "width": 1924,
+      "height": 1076
+    },
+    "marquee": "matrix(1, 0, 0, 1, -41.5222, 0)",
+    "icons": 10,
+    "bodyFont": "\"Instrument Serif\", serif",
+    "button": {
+      "x": 32,
+      "y": 443.328125,
+      "width": 202.03125,
+      "height": 60,
+      "top": 443.328125,
+      "right": 234.03125,
+      "bottom": 503.328125,
+      "left": 32
+    },
+    "hoverScale": "matrix(1.05, 0, 0, 1.05, 0, 0)",
+    "navLinks": "passed",
+    "buttonClick": "passed; no destination specified by design",
+    "videoPlayback": "passed before pausing at 3s for repeatable screenshot",
+    "errors": [],
+    "failedRequests": []
+  }
+]

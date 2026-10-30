@@ -11407,10 +11407,13 @@
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "source_commit": "a60c57c372e5a29fb878bdd59373d3cc6eb25b7e",
+      "source_commit": "0d9234c763bfff6dc55d682d9bc7f425f78f7f7e",
       "url": "https://tool.luo-xd.com/motionsites-results/18/",
-      "completed_utc": "2026-10-30T05:25:01.022749+00:00",
-      "group_message_id": 401
+      "completed_utc": "2026-10-30T05:27:43.702328+00:00",
+      "group_message_id": 401,
+      "preview_delay_ms": 1700,
+      "preview_previous_source_commit": "a60c57c372e5a29fb878bdd59373d3cc6eb25b7e",
+      "preview_refreshed_utc": "2026-10-30T05:27:43.702416+00:00"
     },
     {
       "number": 334,
@@ -11618,14 +11621,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b46-0a87-7553-b4b4-81fa909d2609",
       "output_path": "generated/gpt-6.1-sol-high/nike-premium-landing",
       "validation": "",
       "notes": "",
       "process_id": 1022131,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:26:25.523270+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 341,
@@ -12509,7 +12516,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:26:51.243470+00:00",
+  "updated_utc": "2026-10-30T05:27:44.107741+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -1,0 +1,60 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/apex-saa-s/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:21:10.097Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "APEX — Accelerate Your Revenue Growth",
+      "bodyChars": 446,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/apex-saa-s/assets/apex-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.714769,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "APEX — Accelerate Your Revenue Growth",
+      "bodyChars": 412,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/apex-saa-s/assets/apex-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.743816,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

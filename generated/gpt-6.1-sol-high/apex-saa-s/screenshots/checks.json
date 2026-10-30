@@ -1,0 +1,53 @@
+{
+  "url": "http://localhost:4173/motionsites-results/apex-saa-s/",
+  "errors": [],
+  "failedRequests": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "heading": "Accelerate YourRevenue Growth Now",
+      "font": "\"Geist Sans\", Inter, system-ui, sans-serif",
+      "video": {
+        "readyState": 4,
+        "time": 3.788224,
+        "opacity": "1",
+        "width": 1928
+      },
+      "marqueeAnimation": "marquee"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "heading": "Accelerate YourRevenue Growth Now",
+      "font": "\"Geist Sans\", Inter, system-ui, sans-serif",
+      "video": {
+        "readyState": 4,
+        "time": 3.848784,
+        "opacity": "1",
+        "width": 1928
+      },
+      "marqueeAnimation": "marquee"
+    }
+  ],
+  "interactions": [
+    {
+      "viewport": 1440,
+      "navigation": "passed",
+      "nova": "passed",
+      "ctaForms": "passed",
+      "dialogCloseAndEscape": "passed",
+      "mobileMenu": "not applicable"
+    },
+    {
+      "viewport": 390,
+      "navigation": "passed",
+      "nova": "passed",
+      "ctaForms": "passed",
+      "dialogCloseAndEscape": "passed",
+      "mobileMenu": "passed"
+    }
+  ]
+}

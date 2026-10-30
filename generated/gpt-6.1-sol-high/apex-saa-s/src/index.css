@@ -1,0 +1,16 @@
+@import '@fontsource/geist-sans/400.css';
+@import '@fontsource/geist-sans/500.css';
+@import '@fontsource/geist-sans/600.css';
+@import '@fontsource/geist-sans/700.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--background:260 87% 3%;--foreground:40 6% 95%;--primary:262 83% 58%;--primary-foreground:0 0% 100%;--secondary:240 4% 16%;--secondary-foreground:40 6% 95%;--muted:240 4% 16%;--muted-foreground:240 5% 65%;--border:240 4% 20%;--hero-heading:40 10% 96%;--hero-sub:40 6% 82%;--card:240 6% 9%;--ring:262 83% 58%;--radius:.75rem;color-scheme:dark}
+body{margin:0;background:hsl(var(--background));color:hsl(var(--foreground));font-family:'Geist Sans','Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+button,a,input{ -webkit-tap-highlight-color:transparent}button{cursor:pointer}button,a{transition:background-color .2s,color .2s,box-shadow .2s}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid hsl(var(--ring));outline-offset:4px}button.bg-primary:hover{background:hsl(262 83% 64%)}
+.liquid-glass{background:rgba(255,255,255,.01);background-blend-mode:luminosity;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border:none;box-shadow:inset 0 1px 1px rgba(255,255,255,.1);position:relative;overflow:hidden}
+.liquid-glass::before{content:'';position:absolute;inset:0;border-radius:inherit;padding:1.4px;background:linear-gradient(180deg,rgba(255,255,255,.45) 0%,rgba(255,255,255,.15) 20%,rgba(255,255,255,0) 40%,rgba(255,255,255,0) 60%,rgba(255,255,255,.15) 80%,rgba(255,255,255,.45) 100%);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.video-background{transition:opacity 1.4s ease} .marquee-mask{mask-image:linear-gradient(to right,transparent,#000 5%,#000 92%,transparent)}
+.marquee-mask:hover .animate-marquee{animation-play-state:paused}
+dialog{background:hsl(var(--card));color:hsl(var(--foreground));border:1px solid hsl(var(--border));border-radius:24px;padding:32px;width:min(440px,calc(100% - 32px));max-height:90vh}dialog::backdrop{background:rgba(3,0,10,.8);backdrop-filter:blur(8px)}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

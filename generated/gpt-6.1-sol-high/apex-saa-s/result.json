@@ -1,0 +1,57 @@
+{
+  "title": "Apex SaaS",
+  "id": "apex-saa-s",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript + Vite",
+    "dist_index_exists": true,
+    "browser": "Chromium via playwright-core",
+    "desktop": "1440x1000 passed",
+    "mobile": "390x844 passed",
+    "horizontal_overflow": "none",
+    "javascript_errors": [],
+    "failed_requests": [],
+    "video": "local original MP4 decodes, autoplays muted, fades in and loops",
+    "fonts": "local Geist Sans 400/500/600/700",
+    "interactions": [
+      {
+        "viewport": 1440,
+        "navigation": "passed",
+        "nova": "passed",
+        "ctaForms": "passed",
+        "dialogCloseAndEscape": "passed",
+        "mobileMenu": "not applicable"
+      },
+      {
+        "viewport": 390,
+        "navigation": "passed",
+        "nova": "passed",
+        "ctaForms": "passed",
+        "dialogCloseAndEscape": "passed",
+        "mobileMenu": "passed"
+      }
+    ],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "evidence": "screenshots/checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional apex-saa-s.webp reference",
+      "issue": "File absent at the specified path; no visual reference comparison possible.",
+      "resolution": "Implemented from full written prompt. No extracted or replacement artwork used."
+    }
+  ],
+  "notes": [
+    "React + Tailwind CSS + TypeScript. Original supplied video downloaded successfully and bundled locally.",
+    "Static output uses /motionsites-results/apex-saa-s/.",
+    "CTA forms are explicitly disclosed local previews with no backend; navigation uses information dialogs.",
+    "Screenshots are full-page captures at requested viewport sizes.",
+    "No deployment, push, external messages, other designs, or sub-agents.",
+    "Ready means available for review, not published.",
+    "Model selection is externally controlled; no model switch was made."
+  ]
+}

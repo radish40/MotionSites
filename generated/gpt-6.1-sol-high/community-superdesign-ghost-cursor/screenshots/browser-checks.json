@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "name": "desktop",
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "canvasWidth": 720,
+        "canvasHeight": 500,
+        "headingSize": "60px"
+      },
+      "text": true,
+      "canvas": true,
+      "noOverflow": true,
+      "pointerOrTouch": true,
+      "idleFadeCaptured": true,
+      "resize": true,
+      "restartCaptured": true
+    },
+    {
+      "name": "mobile",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "canvasWidth": 195,
+        "canvasHeight": 422,
+        "headingSize": "36px"
+      },
+      "text": true,
+      "canvas": true,
+      "noOverflow": true,
+      "pointerOrTouch": true,
+      "idleFadeCaptured": true
+    }
+  ],
+  "errors": []
+}

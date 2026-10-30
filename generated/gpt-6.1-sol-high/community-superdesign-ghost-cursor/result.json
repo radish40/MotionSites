@@ -1,0 +1,74 @@
+{
+  "title": "Ghost Cursor",
+  "id": "community-superdesign-ghost-cursor",
+  "status": "ready",
+  "build_command": "npm run build",
+  "checks": {
+    "production_build": "passed: TypeScript noEmit and Vite production build",
+    "dist_index": "dist/index.html exists",
+    "publication_base": "/motionsites-results/community-superdesign-ghost-cursor/",
+    "browser": {
+      "checks": [
+        {
+          "name": "desktop",
+          "layout": {
+            "width": 1440,
+            "scrollWidth": 1440,
+            "height": 1000,
+            "scrollHeight": 1000,
+            "canvasWidth": 720,
+            "canvasHeight": 500,
+            "headingSize": "60px"
+          },
+          "text": true,
+          "canvas": true,
+          "noOverflow": true,
+          "pointerOrTouch": true,
+          "idleFadeCaptured": true,
+          "resize": true,
+          "restartCaptured": true
+        },
+        {
+          "name": "mobile",
+          "layout": {
+            "width": 390,
+            "scrollWidth": 390,
+            "height": 844,
+            "scrollHeight": 844,
+            "canvasWidth": 195,
+            "canvasHeight": 422,
+            "headingSize": "36px"
+          },
+          "text": true,
+          "canvas": true,
+          "noOverflow": true,
+          "pointerOrTouch": true,
+          "idleFadeCaptured": true
+        }
+      ],
+      "errors": []
+    },
+    "visual_review": "Desktop active, desktop faded and mobile active screenshots inspected",
+    "fade_image_comparison": "Both active screenshots differ from faded images; both faded images exactly match their idle images",
+    "required_screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "dependency_lockfile": "package-lock.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/community-superdesign-ghost-cursor.webp",
+      "issue": "Optional reference file is absent",
+      "resolution": "Implemented the supplied React/Three.js source and layout directly; all visuals are procedural, with system fonts. No external assets or extraction required."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "React 18, TypeScript, Three.js 0.160 and Vite; original demo copy and effect parameters preserved.",
+    "Corrected idle fading, overlay screen blending, touch release/cancel handling, zero-radius shader behavior and post-processing cleanup.",
+    "Chromium tests use SwiftShader software WebGL. Screenshots maintain continuous input during slow frame capture; real mouse and touch paths were also dispatched. Hardware GPU frame-rate performance is not established.",
+    "Vite emits a nonfatal bundle-size warning: approximately 622 kB minified / 168 kB gzip.",
+    "All artifacts remain inside this project; no agents, other sessions, pushes or deployment were used."
+  ]
+}

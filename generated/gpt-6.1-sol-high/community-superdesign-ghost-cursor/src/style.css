@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+html, body, #root { width: 100%; min-height: 100%; margin: 0; }
+body { background: #111; font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; -webkit-font-smoothing: antialiased; }
+h1, p { margin: 0; }
+.absolute { position: absolute; }
+.inset-0 { inset: 0; }
+.z-0 { z-index: 0; }
+.z-20 { position: relative; z-index: 20; padding: 24px; }
+.text-center { text-align: center; }
+.pointer-events-none { pointer-events: none; }
+.select-none { user-select: none; }
+.text-4xl { font-size: 36px; line-height: 40px; }
+.font-bold { font-weight: 700; }
+.mb-4 { margin-bottom: 16px; }
+.tracking-tighter { letter-spacing: -0.05em; }
+.text-gray-400 { color: #9ca3af; }
+.text-lg { font-size: 18px; line-height: 28px; }
+.bg-gradient-to-tr { background: linear-gradient(to top right, rgb(88 28 135 / 0.1), rgb(30 58 138 / 0.1)); }
+@media (min-width: 768px) { .md\:text-6xl { font-size: 60px; line-height: 60px; } }

@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "start": {
+        "scroll": 0,
+        "sectionTop": 1000,
+        "heroHeight": 1000,
+        "x": [
+          -200,
+          200
+        ],
+        "count": [
+          33,
+          30
+        ],
+        "card": {
+          "width": 420,
+          "height": 270,
+          "radius": "16px"
+        },
+        "gap": "12px",
+        "rowGap": 12,
+        "padding": "160px",
+        "background": "rgb(12, 12, 12)",
+        "font": "Kanit, sans-serif",
+        "overflow": false
+      },
+      "scrolled": {
+        "scroll": 300,
+        "sectionTop": 1000,
+        "heroHeight": 1000,
+        "x": [
+          -110,
+          110
+        ],
+        "count": [
+          33,
+          30
+        ],
+        "card": {
+          "width": 420,
+          "height": 270,
+          "radius": "16px"
+        },
+        "gap": "12px",
+        "rowGap": 12,
+        "padding": "160px",
+        "background": "rgb(12, 12, 12)",
+        "font": "Kanit, sans-serif",
+        "overflow": false
+      },
+      "final": {
+        "scroll": 502,
+        "sectionTop": 1000,
+        "heroHeight": 1000,
+        "x": [
+          -49.4,
+          49.4
+        ],
+        "count": [
+          33,
+          30
+        ],
+        "card": {
+          "width": 420,
+          "height": 270,
+          "radius": "16px"
+        },
+        "gap": "12px",
+        "rowGap": 12,
+        "padding": "160px",
+        "background": "rgb(12, 12, 12)",
+        "font": "Kanit, sans-serif",
+        "overflow": false
+      },
+      "all21AssetsDecoded": true,
+      "reverseScroll": true,
+      "noAutonomousMovement": true,
+      "errors": [],
+      "requestFailures": [],
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "start": {
+        "scroll": 0,
+        "sectionTop": 844,
+        "heroHeight": 844,
+        "x": [
+          -200,
+          200
+        ],
+        "count": [
+          33,
+          30
+        ],
+        "card": {
+          "width": 420,
+          "height": 270,
+          "radius": "16px"
+        },
+        "gap": "12px",
+        "rowGap": 12,
+        "padding": "96px",
+        "background": "rgb(12, 12, 12)",
+        "font": "Kanit, sans-serif",
+        "overflow": false
+      },
+      "scrolled": {
+        "scroll": 300,
+        "sectionTop": 844,
+        "heroHeight": 844,
+        "x": [
+          -110,
+          110
+        ],
+        "count": [
+          33,
+          30
+        ],
+        "card": {
+          "width": 420,
+          "height": 270,
+          "radius": "16px"
+        },
+        "gap": "12px",
+        "rowGap": 12,
+        "padding": "96px",
+        "background": "rgb(12, 12, 12)",
+        "font": "Kanit, sans-serif",
+        "overflow": false
+      },
+      "final": {
+        "scroll": 438,
+        "sectionTop": 844,
+        "heroHeight": 844,
+        "x": [
+          -68.6,
+          68.6
+        ],
+        "count": [
+          33,
+          30
+        ],
+        "card": {
+          "width": 420,
+          "height": 270,
+          "radius": "16px"
+        },
+        "gap": "12px",
+        "rowGap": 12,
+        "padding": "96px",
+        "background": "rgb(12, 12, 12)",
+        "font": "Kanit, sans-serif",
+        "overflow": false
+      },
+      "all21AssetsDecoded": true,
+      "reverseScroll": true,
+      "noAutonomousMovement": true,
+      "errors": [],
+      "requestFailures": [],
+      "screenshot": "screenshots/mobile.png"
+    }
+  ]
+}

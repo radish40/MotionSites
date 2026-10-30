@@ -1,0 +1,208 @@
+{
+  "title": "Scroll Marquee",
+  "id": "scroll-marquee",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "output": "dist/index.html",
+    "base_path": "/motionsites-results/scroll-marquee/",
+    "browser": {
+      "status": "passed",
+      "results": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "start": {
+            "scroll": 0,
+            "sectionTop": 1000,
+            "heroHeight": 1000,
+            "x": [
+              -200,
+              200
+            ],
+            "count": [
+              33,
+              30
+            ],
+            "card": {
+              "width": 420,
+              "height": 270,
+              "radius": "16px"
+            },
+            "gap": "12px",
+            "rowGap": 12,
+            "padding": "160px",
+            "background": "rgb(12, 12, 12)",
+            "font": "Kanit, sans-serif",
+            "overflow": false
+          },
+          "scrolled": {
+            "scroll": 300,
+            "sectionTop": 1000,
+            "heroHeight": 1000,
+            "x": [
+              -110,
+              110
+            ],
+            "count": [
+              33,
+              30
+            ],
+            "card": {
+              "width": 420,
+              "height": 270,
+              "radius": "16px"
+            },
+            "gap": "12px",
+            "rowGap": 12,
+            "padding": "160px",
+            "background": "rgb(12, 12, 12)",
+            "font": "Kanit, sans-serif",
+            "overflow": false
+          },
+          "final": {
+            "scroll": 502,
+            "sectionTop": 1000,
+            "heroHeight": 1000,
+            "x": [
+              -49.4,
+              49.4
+            ],
+            "count": [
+              33,
+              30
+            ],
+            "card": {
+              "width": 420,
+              "height": 270,
+              "radius": "16px"
+            },
+            "gap": "12px",
+            "rowGap": 12,
+            "padding": "160px",
+            "background": "rgb(12, 12, 12)",
+            "font": "Kanit, sans-serif",
+            "overflow": false
+          },
+          "all21AssetsDecoded": true,
+          "reverseScroll": true,
+          "noAutonomousMovement": true,
+          "errors": [],
+          "requestFailures": [],
+          "screenshot": "screenshots/desktop.png"
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "start": {
+            "scroll": 0,
+            "sectionTop": 844,
+            "heroHeight": 844,
+            "x": [
+              -200,
+              200
+            ],
+            "count": [
+              33,
+              30
+            ],
+            "card": {
+              "width": 420,
+              "height": 270,
+              "radius": "16px"
+            },
+            "gap": "12px",
+            "rowGap": 12,
+            "padding": "96px",
+            "background": "rgb(12, 12, 12)",
+            "font": "Kanit, sans-serif",
+            "overflow": false
+          },
+          "scrolled": {
+            "scroll": 300,
+            "sectionTop": 844,
+            "heroHeight": 844,
+            "x": [
+              -110,
+              110
+            ],
+            "count": [
+              33,
+              30
+            ],
+            "card": {
+              "width": 420,
+              "height": 270,
+              "radius": "16px"
+            },
+            "gap": "12px",
+            "rowGap": 12,
+            "padding": "96px",
+            "background": "rgb(12, 12, 12)",
+            "font": "Kanit, sans-serif",
+            "overflow": false
+          },
+          "final": {
+            "scroll": 438,
+            "sectionTop": 844,
+            "heroHeight": 844,
+            "x": [
+              -68.6,
+              68.6
+            ],
+            "count": [
+              33,
+              30
+            ],
+            "card": {
+              "width": 420,
+              "height": 270,
+              "radius": "16px"
+            },
+            "gap": "12px",
+            "rowGap": 12,
+            "padding": "96px",
+            "background": "rgb(12, 12, 12)",
+            "font": "Kanit, sans-serif",
+            "overflow": false
+          },
+          "all21AssetsDecoded": true,
+          "reverseScroll": true,
+          "noAutonomousMovement": true,
+          "errors": [],
+          "requestFailures": [],
+          "screenshot": "screenshots/mobile.png"
+        }
+      ]
+    },
+    "visual_inspection": "Desktop and mobile screenshots inspected against the supplied Scroll Marquee reference.",
+    "dependency_audit": "Final installation reported zero vulnerabilities."
+  },
+  "asset_issues": [
+    {
+      "asset": "hero-celestia-preview-0yO3jXO8.gif",
+      "issue": "Original URL and recovery variants return HTTP 404. No isolated Celestia card can be recovered from the provided reference.",
+      "resolution": "Documented approximation: local filename contains the supplied Planet Orbit GIF. Exact Celestia visual remains unavailable."
+    },
+    {
+      "asset": "hero-skyelite-preview-DHaZIgUv.gif",
+      "issue": "Original URL serves PNG bytes despite GIF extension.",
+      "resolution": "Preserved original static image; browser decoding passed."
+    }
+  ],
+  "notes": [
+    "Completed only this project. No agents, other designs, deployment, push, or external messaging.",
+    "React, Tailwind CSS, vanilla passive scroll event handler with refs and exact specified formulas.",
+    "Blank full-screen hero because no hero content is specified.",
+    "Original animated assets and local Kanit font copies are included; Google Fonts head links retained.",
+    "Screenshots show the gallery at the bottom of the scroll, rather than only the initial blank hero.",
+    "Ready for review with the disclosed Celestia substitution; not deployed."
+  ]
+}

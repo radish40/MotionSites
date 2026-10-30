@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://motionsites.ai/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+    "local": "public/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+    "bytes": 14452812,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-codenest-preview-Cgppc2qV.gif",
+    "local": "public/assets/hero-codenest-preview-Cgppc2qV.gif",
+    "bytes": 8431024,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-vex-ventures-preview-BczMFIiw.gif",
+    "local": "public/assets/hero-vex-ventures-preview-BczMFIiw.gif",
+    "bytes": 11495326,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-stellar-ai-v2-preview-DjvxjG3C.gif",
+    "local": "public/assets/hero-stellar-ai-v2-preview-DjvxjG3C.gif",
+    "bytes": 10573276,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-asme-preview-B_nGDnTP.gif",
+    "local": "public/assets/hero-asme-preview-B_nGDnTP.gif",
+    "bytes": 11153253,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-transform-data-preview-Cx5OU29N.gif",
+    "local": "public/assets/hero-transform-data-preview-Cx5OU29N.gif",
+    "bytes": 8635170,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-vitara-preview-Cjz2QYyU.gif",
+    "local": "public/assets/hero-vitara-preview-Cjz2QYyU.gif",
+    "bytes": 3361948,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-terra-preview-BFjrCr7T.gif",
+    "local": "public/assets/hero-terra-preview-BFjrCr7T.gif",
+    "bytes": 7008252,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-skyelite-preview-DHaZIgUv.gif",
+    "status": "ok",
+    "format": "PNG served by source at GIF URL",
+    "bytes": 1385341
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-aethera-preview-DknSlcTa.gif",
+    "local": "public/assets/hero-aethera-preview-DknSlcTa.gif",
+    "bytes": 13543814,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-designpro-preview-D8c5_een.gif",
+    "local": "public/assets/hero-designpro-preview-D8c5_een.gif",
+    "bytes": 5774694,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-stellar-ai-preview-D3HL6bw1.gif",
+    "local": "public/assets/hero-stellar-ai-preview-D3HL6bw1.gif",
+    "bytes": 7720369,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-xportfolio-preview-D4A8maiC.gif",
+    "local": "public/assets/hero-xportfolio-preview-D4A8maiC.gif",
+    "bytes": 8167453,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-orbit-web3-preview-BXt4OttD.gif",
+    "local": "public/assets/hero-orbit-web3-preview-BXt4OttD.gif",
+    "bytes": 11477083,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-nexora-preview-cx5HmUgo.gif",
+    "local": "public/assets/hero-nexora-preview-cx5HmUgo.gif",
+    "bytes": 5651480,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-evr-ventures-preview-DZxeVFEX.gif",
+    "local": "public/assets/hero-evr-ventures-preview-DZxeVFEX.gif",
+    "bytes": 8714367,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-planet-orbit-preview-DWAP8Z1P.gif",
+    "local": "public/assets/hero-planet-orbit-preview-DWAP8Z1P.gif",
+    "bytes": 12026612,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-new-era-preview-CocuDUm9.gif",
+    "local": "public/assets/hero-new-era-preview-CocuDUm9.gif",
+    "bytes": 10688001,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-wealth-preview-B70idl_u.gif",
+    "local": "public/assets/hero-wealth-preview-B70idl_u.gif",
+    "bytes": 7379671,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-luminex-preview-CxOP7ce6.gif",
+    "local": "public/assets/hero-luminex-preview-CxOP7ce6.gif",
+    "bytes": 8471722,
+    "status": "ok"
+  },
+  {
+    "url": "https://motionsites.ai/assets/hero-celestia-preview-0yO3jXO8.gif",
+    "status": "fallback",
+    "error": "Original URL returns HTTP 404; www, alternate extension and initial O variants also failed.",
+    "local": "public/assets/hero-celestia-preview-0yO3jXO8.gif",
+    "fallback_source": "hero-planet-orbit-preview-DWAP8Z1P.gif",
+    "limitation": "Uses the provided Planet Orbit animation in place of unavailable Celestia; no exact visual recovery."
+  }
+]

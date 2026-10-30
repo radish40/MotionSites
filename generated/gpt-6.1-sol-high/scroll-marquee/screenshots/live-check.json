@@ -1,0 +1,670 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/",
+  "previewSelector": "section[aria-label=\"Scroll-driven design gallery\"]",
+  "checked_at": "2026-10-30T02:43:52.095Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Scroll Marquee",
+      "bodyChars": 14,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-codenest-preview-Cgppc2qV.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-vex-ventures-preview-BczMFIiw.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-stellar-ai-v2-preview-DjvxjG3C.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-asme-preview-B_nGDnTP.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-transform-data-preview-Cx5OU29N.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-codenest-preview-Cgppc2qV.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-vex-ventures-preview-BczMFIiw.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-stellar-ai-v2-preview-DjvxjG3C.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-asme-preview-B_nGDnTP.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-transform-data-preview-Cx5OU29N.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-codenest-preview-Cgppc2qV.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-vex-ventures-preview-BczMFIiw.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-stellar-ai-v2-preview-DjvxjG3C.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-asme-preview-B_nGDnTP.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-transform-data-preview-Cx5OU29N.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-stellar-ai-preview-D3HL6bw1.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-xportfolio-preview-D4A8maiC.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-orbit-web3-preview-BXt4OttD.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-nexora-preview-cx5HmUgo.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-evr-ventures-preview-DZxeVFEX.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-stellar-ai-preview-D3HL6bw1.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-xportfolio-preview-D4A8maiC.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-orbit-web3-preview-BXt4OttD.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-nexora-preview-cx5HmUgo.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-evr-ventures-preview-DZxeVFEX.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-stellar-ai-preview-D3HL6bw1.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-xportfolio-preview-D4A8maiC.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-orbit-web3-preview-BXt4OttD.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-nexora-preview-cx5HmUgo.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-evr-ventures-preview-DZxeVFEX.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Scroll Marquee",
+      "bodyChars": 14,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-codenest-preview-Cgppc2qV.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-vex-ventures-preview-BczMFIiw.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-codenest-preview-Cgppc2qV.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-vex-ventures-preview-BczMFIiw.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-codenest-preview-Cgppc2qV.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-vex-ventures-preview-BczMFIiw.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-stellar-ai-preview-D3HL6bw1.gif",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-xportfolio-preview-D4A8maiC.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-orbit-web3-preview-BXt4OttD.gif",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-stellar-ai-preview-D3HL6bw1.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-xportfolio-preview-D4A8maiC.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-orbit-web3-preview-BXt4OttD.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-stellar-ai-preview-D3HL6bw1.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-xportfolio-preview-D4A8maiC.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/assets/hero-orbit-web3-preview-BXt4OttD.gif",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

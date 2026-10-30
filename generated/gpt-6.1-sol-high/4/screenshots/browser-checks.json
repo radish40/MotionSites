@@ -1,0 +1,68 @@
+{
+  "desktop": {
+    "width": 1440,
+    "height": 1000,
+    "scrollWidth": 1440,
+    "videoTime": 2.008502,
+    "videoWidth": 480,
+    "posterHidden": "0",
+    "fonts": [
+      {
+        "font": "Inter",
+        "loaded": true
+      },
+      {
+        "font": "Manrope",
+        "loaded": true
+      },
+      {
+        "font": "Cabin",
+        "loaded": true
+      },
+      {
+        "font": "Instrument Serif",
+        "loaded": true
+      }
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "scrollHeight": 844
+  },
+  "sizes": [
+    {
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920
+    }
+  ],
+  "reducedMotion": {
+    "posterLoaded": true,
+    "posterOpacity": "1",
+    "videoPaused": true
+  },
+  "unavailableStream": {
+    "posterLoaded": true,
+    "posterOpacity": "1"
+  },
+  "errors": [],
+  "failedRequests": [],
+  "interactions": "Desktop services, service details, all six CTA/navigation dialogs, dialog Escape and close, mobile open/close/Escape and contact navigation passed."
+}

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:11:15.134359+00:00",
+  "updated_utc": "2026-10-30T05:13:13.666009+00:00",
   "total": 380,
   "counts": {
-    "complete": 322,
+    "complete": 324,
     "running": 5,
-    "not_started": 53
+    "not_started": 51
   },
   "current_batch": {
     "from_number": 201,
@@ -3240,21 +3240,21 @@
       "id": "deck-investor",
       "title": "Investor Deck",
       "category": "Investor Presentations",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b33-3953-7d40-9116-4d27fc4bdfa0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "fbfa44fcd96771d7546c730958b57a0133b061ee",
+      "group_message_id": 391,
+      "url": "https://tool.luo-xd.com/motionsites-results/deck-investor/"
     },
     {
       "id": "bionova-hero",
       "title": "Bionova Biotech",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b34-79d2-71f2-904c-ed1540cd45f3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f20ec90b36256a0abf2b4a7503e29122138c635a",
+      "group_message_id": 392,
+      "url": "https://tool.luo-xd.com/motionsites-results/bionova-hero/"
     },
     {
       "id": "nova-space-landing",
@@ -3271,7 +3271,7 @@
       "title": "Datacore SaaS Hero",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b37-2fbe-72c3-a0eb-4608ed5bf5de",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3281,7 +3281,7 @@
       "title": "Dark Portfolio Hero",
       "category": "Portfolio",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b37-309e-7b91-a3d6-fb383ae9e759",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3290,7 +3290,7 @@
       "id": "vex-ventures-hero",
       "title": "VEX Ventures",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3300,7 +3300,7 @@
       "id": "5",
       "title": "Glassmorphism Agency Hero",
       "category": "Agency",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

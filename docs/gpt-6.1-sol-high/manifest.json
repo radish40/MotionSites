@@ -12880,7 +12880,7 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18b7a-61b2-78c2-88cf-29aafc80ba8c",
       "output_path": "generated/gpt-6.1-sol-high/benefits-features",
       "validation": "Counter progress can be negative when RAF timestamp predates performance.now() start; clamp progress to [0,1].",
@@ -12888,7 +12888,7 @@
       "process_id": 1285942,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:23:35.588821+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -13038,7 +13038,7 @@
       "group_message_id": 448
     }
   ],
-  "updated_utc": "2026-10-30T06:41:45.210178+00:00",
+  "updated_utc": "2026-10-30T06:42:38.026948+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

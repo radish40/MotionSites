@@ -10915,19 +10915,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b2f-9ebb-7ba0-b63b-a5052500474b",
       "output_path": "generated/gpt-6.1-sol-high/portfolio-cosmic-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 929294,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:01:56.169956+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "6e24e5ce4d7659f6385e4b4f68c0e0605dc57e80",
+      "url": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/",
+      "completed_utc": "2026-10-30T05:10:46.897463+00:00",
+      "group_message_id": 389
     },
     {
       "number": 320,
@@ -10979,19 +10983,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b31-5f1d-7591-a903-cce5944b10b4",
       "output_path": "generated/gpt-6.1-sol-high/codenest-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 936201,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:03:50.955247+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "1fe25d5ce9fddc8ab5b61e2ddc68eacb97ca9e50",
+      "url": "https://tool.luo-xd.com/motionsites-results/codenest-hero/",
+      "completed_utc": "2026-10-30T05:11:14.953634+00:00",
+      "group_message_id": 390
     },
     {
       "number": 322,
@@ -11104,14 +11112,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b35-d418-7952-b8be-2443b7acd0ea",
       "output_path": "generated/gpt-6.1-sol-high/nova-space-landing",
       "validation": "",
       "notes": "",
       "process_id": 954259,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:08:43.041225+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 326,
@@ -11129,11 +11141,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/4",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 959542,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:10:12.013171+00:00",
+      "worker_state": "running"
     },
     {
       "number": 327,
@@ -11151,11 +11167,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/15",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 959588,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:10:12.197028+00:00",
+      "worker_state": "running"
     },
     {
       "number": 328,
@@ -12325,7 +12345,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:09:18.124758+00:00",
+  "updated_utc": "2026-10-30T05:11:15.134359+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

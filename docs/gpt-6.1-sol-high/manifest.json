@@ -12940,19 +12940,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b7d-b74e-7722-8d27-abf1a26cc1c7",
       "output_path": "generated/gpt-6.1-sol-high/digital-reality-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1247490,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:27:14.260261+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b6a33a77ef5c9cec0019f019d7b3f8da4f6defb7",
+      "url": "https://tool.luo-xd.com/motionsites-results/digital-reality-hero/",
+      "completed_utc": "2026-10-30T06:33:48.540942+00:00",
+      "group_message_id": 447
     },
     {
       "number": 379,
@@ -12970,15 +12974,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "blocked",
       "thread_id": "01a18b7d-b804-7ee1-9495-756322052cec",
       "output_path": "generated/gpt-6.1-sol-high/community-cta",
       "validation": "",
-      "notes": "",
+      "notes": "[{\"assets\": [\"av1\", \"av2\", \"av3\", \"av4\"], \"issue\": \"Original signed CleanShot JPEG URLs and unsigned retries return HTTP 403; browser reports ERR_BLOCKED_BY_ORB.\", \"recovery\": \"Original URLs retained in CSS. Optional project reference preview is absent; no extraction possible.\", \"impact\": \"Four avatar portraits do not render; exact asset fidelity blocked.\", \"evidence\": \"assets/download-report.json\"}]",
       "process_id": 1247606,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:27:14.452332+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -13015,7 +13019,7 @@
       }
     }
   ],
-  "updated_utc": "2026-10-30T06:32:01.511458+00:00",
+  "updated_utc": "2026-10-30T06:33:48.806504+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -11,7 +11,9 @@ const assert=require('node:assert/strict');
     for(const [name,width,height,touch] of [['desktop',1440,1000,false],['mobile',390,844,true]]){
       const context=await browser.newContext({viewport:{width,height},isMobile:touch,hasTouch:touch});
       const page=await context.newPage();
-      const row={name,errors:[],networkFailures:[],frames:[],fleet:[]};report.viewports.push(row);
+      const row={name,errors:[],networkFailures:[],frames:[],fleet:[],defaultOriginalRequests:[]};report.viewports.push(row);
+      let originalMode=false;
+      page.on('request',r=>{if(!originalMode&&/vimeo\.com|challenges\.cloudflare\.com/.test(r.url()))row.defaultOriginalRequests.push(r.url());});
       page.on('pageerror',e=>row.errors.push(e.message));
       page.on('requestfailed',r=>row.networkFailures.push({url:r.url(),error:r.failure()?.errorText}));
       const response=await page.goto(report.url,{waitUntil:'domcontentloaded',timeout:90000});assert.equal(response.status(),200);
@@ -23,12 +25,12 @@ const assert=require('node:assert/strict');
       fs.writeFileSync(output+'/report.json',JSON.stringify(report,null,2)+'\n');
       assert(row.heroAfter.width>0&&row.heroAfter.readyState>=2&&!row.heroAfter.paused,JSON.stringify(row));
       assert(row.heroAfter.time!==row.heroBefore.time);
-      row.originalIframe=await page.locator('.vimeo-background').evaluate(e=>({src:e.src,visibility:getComputedStyle(e).visibility}));
+      row.originalIframe=await page.locator('.vimeo-background').count()?await page.locator('.vimeo-background').evaluate(e=>({src:e.src,visibility:getComputedStyle(e).visibility})):null;
       for(const frame of page.frames().slice(1)){
         try {row.frames.push(await frame.evaluate(()=>({url:location.href,title:document.title,text:document.body?.innerText.slice(0,1500),videos:[...document.querySelectorAll('video')].map(v=>({time:v.currentTime,readyState:v.readyState,width:v.videoWidth,paused:v.paused}))})));}
         catch(e){row.frames.push({url:frame.url(),inspectionError:e.message});}
       }
-      row.originalPlaybackVerified=row.originalIframe.visibility==='visible'&&row.frames.some(f=>f.videos?.some(v=>v.width>0&&v.readyState>=2&&v.time>0&&!v.paused));
+      row.originalPlaybackVerified=row.originalIframe?.visibility==='visible'&&row.frames.some(f=>f.videos?.some(v=>v.width>0&&v.readyState>=2&&v.time>0&&!v.paused));
       await page.screenshot({path:output+'/'+name+'-hero.png'});
       await page.getByRole('button',{name:'Open menu',exact:true}).click();await page.waitForTimeout(1800);
       assert.equal(await page.locator('.menu-item').count(),6);
@@ -55,6 +57,12 @@ const assert=require('node:assert/strict');
       row.widths=await page.evaluate(()=>[innerWidth,document.documentElement.scrollWidth]);assert(row.widths[1]<=row.widths[0]+3);
       await page.getByRole('button',{name:'BACK TO THE OCEAN',exact:false}).click();await page.waitForTimeout(1500);
       assert(await page.locator('h1').isVisible());
+      assert.deepEqual(row.defaultOriginalRequests,[]);
+      assert.deepEqual(row.errors,[]);
+      originalMode=true;
+      await page.goto(report.url+'?media=original',{waitUntil:'domcontentloaded',timeout:90000});
+      row.optInIframe=await page.locator('.vimeo-background').getAttribute('src');
+      assert.equal(row.optInIframe,'https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0');
       await context.close();
       fs.writeFileSync(output+'/report.json',JSON.stringify(report,null,2)+'\n');
       console.log(JSON.stringify({name,originalPlaybackVerified:row.originalPlaybackVerified,fleetVerified:row.fleet.length,errors:row.errors}));

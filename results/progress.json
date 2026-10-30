@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T06:32:01.511458+00:00",
+  "updated_utc": "2026-10-30T06:33:48.806504+00:00",
   "total": 380,
   "counts": {
-    "complete": 376,
+    "complete": 377,
     "ready": 1,
-    "running": 3
+    "blocked": 1,
+    "running": 1
   },
   "current_batch": {
     "from_number": 201,
@@ -3790,17 +3791,17 @@
       "id": "digital-reality-hero",
       "title": "Digital Reality",
       "category": "Social Media",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b7d-b74e-7722-8d27-abf1a26cc1c7",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b6a33a77ef5c9cec0019f019d7b3f8da4f6defb7",
+      "group_message_id": 447,
+      "url": "https://tool.luo-xd.com/motionsites-results/digital-reality-hero/"
     },
     {
       "id": "community-cta",
       "title": "Community CTA",
       "category": "CTA Section",
-      "status": "running",
+      "status": "blocked",
       "thread_id": "01a18b7d-b804-7ee1-9495-756322052cec",
       "source_commit": null,
       "group_message_id": null,

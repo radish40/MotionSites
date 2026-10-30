@@ -1,0 +1,68 @@
+{
+  "title": "Terra Geo Map",
+  "id": "terra-geo-map",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": {
+      "status": "passed",
+      "checks": [
+        {
+          "name": "desktop",
+          "viewport": "1440x1000",
+          "metrics": {
+            "viewport": 1440,
+            "documentWidth": 1440,
+            "fontLoaded": true,
+            "video": {
+              "width": 1764,
+              "height": 1176,
+              "paused": false,
+              "currentTime": 0.765944,
+              "muted": true
+            },
+            "headingSpacing": "-14.4px"
+          },
+          "interactions": "passed",
+          "screenshot": "screenshots/desktop.png"
+        },
+        {
+          "name": "mobile",
+          "viewport": "390x844",
+          "metrics": {
+            "viewport": 390,
+            "documentWidth": 390,
+            "fontLoaded": true,
+            "video": {
+              "width": 1764,
+              "height": 1176,
+              "paused": false,
+              "currentTime": 0.517905,
+              "muted": true
+            },
+            "headingSpacing": "-9.6px"
+          },
+          "interactions": "passed",
+          "screenshot": "screenshots/mobile.png"
+        }
+      ],
+      "errors": [],
+      "failedRequests": []
+    },
+    "visual_review": "Desktop and mobile screenshots reviewed; native video proportions preserved.",
+    "base_path": "/motionsites-results/terra-geo-map/"
+  },
+  "asset_issues": [
+    "Optional original visual reference was not present; implementation follows the complete written prompt."
+  ],
+  "notes": [
+    "Original MP4 and Inter fonts saved locally; no asset substitutions.",
+    "Exact requested -0.2em heading letter spacing retained.",
+    "Responsive React/Vite page with lucide-react Menu/X icons.",
+    "Account dialogs are local preview interactions; no backend connected.",
+    "Exact viewport and full-page screenshots saved in screenshots/.",
+    "Not deployed or pushed."
+  ]
+}

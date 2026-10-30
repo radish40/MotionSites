@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": "1440x1000",
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "fontLoaded": true,
+        "video": {
+          "width": 1764,
+          "height": 1176,
+          "paused": false,
+          "currentTime": 0.765944,
+          "muted": true
+        },
+        "headingSpacing": "-14.4px"
+      },
+      "interactions": "passed",
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "name": "mobile",
+      "viewport": "390x844",
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "fontLoaded": true,
+        "video": {
+          "width": 1764,
+          "height": 1176,
+          "paused": false,
+          "currentTime": 0.517905,
+          "muted": true
+        },
+        "headingSpacing": "-9.6px"
+      },
+      "interactions": "passed",
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

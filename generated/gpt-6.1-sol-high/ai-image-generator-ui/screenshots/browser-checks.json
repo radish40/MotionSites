@@ -1,0 +1,68 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "columns": 3,
+    "overflow": false,
+    "cardCount": 3,
+    "cardHeights": [
+      340,
+      340,
+      340
+    ],
+    "imagesLoaded": true,
+    "fontLoaded": true,
+    "scripts": 0,
+    "animations": 0,
+    "staticPillClicks": "unchanged as specified",
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "columns": 1,
+    "overflow": false,
+    "cardCount": 3,
+    "cardHeights": [
+      340,
+      340,
+      340
+    ],
+    "imagesLoaded": true,
+    "fontLoaded": true,
+    "scripts": 0,
+    "animations": 0,
+    "staticPillClicks": "unchanged as specified",
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "tablet",
+    "viewport": {
+      "width": 800,
+      "height": 1000
+    },
+    "columns": 2,
+    "overflow": false,
+    "cardCount": 3,
+    "cardHeights": [
+      340,
+      340,
+      340
+    ],
+    "imagesLoaded": true,
+    "fontLoaded": true,
+    "scripts": 0,
+    "animations": 0,
+    "staticPillClicks": "unchanged as specified",
+    "errors": [],
+    "failedRequests": []
+  }
+]

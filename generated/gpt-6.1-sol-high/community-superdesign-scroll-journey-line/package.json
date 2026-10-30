@@ -1,0 +1,7 @@
+{
+  "name": "community-superdesign-scroll-journey-line",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs", "start": "node scripts/serve.mjs", "check": "node scripts/check.cjs" }
+}

@@ -1,0 +1,73 @@
+{
+  "title": "Scroll Journey Line",
+  "id": "community-superdesign-scroll-journey-line",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed",
+    "dist_index_exists": true,
+    "publication_path": "/motionsites-results/community-superdesign-scroll-journey-line/",
+    "browser": "Chromium via Playwright Core",
+    "results": [
+      {
+        "viewport": "1440x1000",
+        "scrollStart": 0,
+        "scrollMidpoint": 50,
+        "scrollEnd": 100,
+        "noOverflow": true,
+        "lineStartEmpty": true,
+        "lineEndComplete": true,
+        "milestonesReached": 4,
+        "dialog": true,
+        "escapeDismissal": true,
+        "journeyLink": true,
+        "restart": true,
+        "dialogCTA": true,
+        "scriptErrors": [],
+        "failedRequests": []
+      },
+      {
+        "viewport": "390x844",
+        "scrollStart": 0,
+        "scrollMidpoint": 50,
+        "scrollEnd": 100,
+        "noOverflow": true,
+        "lineStartEmpty": true,
+        "lineEndComplete": true,
+        "milestonesReached": 4,
+        "dialog": true,
+        "escapeDismissal": true,
+        "journeyLink": true,
+        "restart": true,
+        "dialogCTA": true,
+        "scriptErrors": [],
+        "failedRequests": []
+      }
+    ],
+    "reducedMotion": true,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-midpoint.png",
+      "screenshots/mobile-midpoint.png",
+      "screenshots/desktop-complete.png",
+      "screenshots/mobile-complete.png"
+    ],
+    "visual_review": "Desktop and mobile initial and midpoint screenshots reviewed; clipped mobile headline fixed and checks rerun."
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/community-superdesign-scroll-journey-line.webp",
+      "issue": "Optional visual reference is absent.",
+      "resolution": "Original native DOM/CSS/SVG composition created from the complete supplied text prompt; no reference extraction."
+    }
+  ],
+  "notes": [
+    "Native HTML/CSS/JavaScript; prompt specifies no framework or external assets.",
+    "SVG dash offset and moving endpoint follow actual document scroll percentage in both directions.",
+    "Local fonts and licenses included; no runtime external requests.",
+    "Dependency lockfile included; no node_modules in project.",
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Browser validation limited to Chromium at 1440x1000 and 390x844."
+  ]
+}

@@ -1,0 +1,62 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const fs = require('node:fs');
+const assert = require('node:assert/strict');
+(async () => {
+  const browser = await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+  const results = [];
+  for(const [name,width,height] of [['desktop',1440,1000],['mobile',390,844]]) {
+    const page = await browser.newPage({viewport:{width,height},deviceScaleFactor:1});
+    const errors=[],failedRequests=[];
+    page.on('pageerror',error=>errors.push(error.message));
+    page.on('requestfailed',request=>failedRequests.push(request.url()));
+    page.on('response',response=>{if(response.status()>=400)failedRequests.push(`${response.status()} ${response.url()}`);});
+    await page.goto('http://127.0.0.1:3000/motionsites-results/community-superdesign-scroll-journey-line/',{waitUntil:'networkidle'});
+    await page.evaluate(()=>document.fonts.ready);
+    await page.screenshot({path:`screenshots/${name}.png`,fullPage:false});
+    assert.equal(await page.locator('.progress-value').textContent(),'0');
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,'initial overflow');
+    assert.equal(await page.locator('h1').evaluate(el=>{const range=document.createRange();range.selectNodeContents(el);return [...range.getClientRects()].every(r=>r.left>=0 && r.right<=innerWidth);}),true,'hero title fits viewport');
+    const lineStart = await page.locator('.route-drawn').evaluate(el=>({length:el.getTotalLength(),offset:parseFloat(el.style.strokeDashoffset)}));
+    assert.ok(Math.abs(lineStart.length-lineStart.offset)<1,'line starts empty');
+    await page.getByRole('button',{name:'How it works'}).click();
+    assert.equal(await page.locator('dialog').evaluate(el=>el.open),true);
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('dialog').evaluate(el=>el.open),false);
+    await page.getByRole('link',{name:'Follow the journey'}).click();
+    await page.waitForTimeout(1100);
+    assert.ok(await page.evaluate(()=>scrollY)>200,'journey button scrolls');
+    await page.evaluate(()=>scrollTo({top:(document.documentElement.scrollHeight-innerHeight)/2,behavior:'instant'}));
+    await page.waitForTimeout(150);
+    assert.ok(Math.abs(Number(await page.locator('.progress-value').textContent())-50)<=1,'midpoint progress');
+    await page.screenshot({path:`screenshots/${name}-midpoint.png`,fullPage:false});
+    for (let fraction of [.25,.75,1]) {
+      await page.evaluate(fraction=>scrollTo({top:(document.documentElement.scrollHeight-innerHeight)*fraction,behavior:'instant'}),fraction);
+      await page.waitForTimeout(100);
+      assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,'scroll overflow');
+    }
+    assert.equal(await page.locator('.progress-value').textContent(),'100');
+    const lineEnd=await page.locator('.route-drawn').evaluate(el=>parseFloat(el.style.strokeDashoffset));
+    assert.ok(Math.abs(lineEnd)<1,'line ends fully drawn');
+    assert.equal(await page.locator('.stage.reached').count(),4,'all stages reached');
+    await page.screenshot({path:`screenshots/${name}-complete.png`,fullPage:false});
+    await page.getByRole('button',{name:'Take it from the top'}).click();
+    await page.waitForTimeout(1300);
+    assert.equal(await page.locator('.progress-value').textContent(),'0','restart resets progress');
+    await page.getByRole('button',{name:'How it works'}).click();
+    await page.getByRole('button',{name:"Let's explore"}).click();
+    await page.waitForTimeout(1000);
+    assert.equal(await page.locator('dialog').evaluate(el=>el.open),false);
+    assert.ok(await page.evaluate(()=>scrollY)>200,'dialog CTA scrolls');
+    assert.deepEqual(errors,[],'no script errors');
+    assert.deepEqual(failedRequests,[],'no failed requests');
+    results.push({viewport:`${width}x${height}`,scrollStart:0,scrollMidpoint:50,scrollEnd:100,noOverflow:true,lineStartEmpty:true,lineEndComplete:true,milestonesReached:4,dialog:true,escapeDismissal:true,journeyLink:true,restart:true,dialogCTA:true,scriptErrors:errors,failedRequests});
+    await page.close();
+  }
+  const page = await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});
+  await page.goto('http://127.0.0.1:3000/motionsites-results/community-superdesign-scroll-journey-line/');
+  assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).scrollBehavior),'auto');
+  await page.close();
+  fs.writeFileSync('screenshots/checks.json',JSON.stringify({results,reducedMotion:true},null,2));
+  await browser.close();
+  console.log(JSON.stringify({results,reducedMotion:true},null,2));
+})().catch(error=>{console.error(error);process.exit(1);});

@@ -1,0 +1,38 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-scroll-journey-line/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:17:07.227Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Scroll Journey Line — A little further",
+      "bodyChars": 1347,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Scroll Journey Line — A little further",
+      "bodyChars": 1292,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

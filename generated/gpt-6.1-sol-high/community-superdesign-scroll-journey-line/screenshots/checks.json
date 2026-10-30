@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "viewport": "1440x1000",
+      "scrollStart": 0,
+      "scrollMidpoint": 50,
+      "scrollEnd": 100,
+      "noOverflow": true,
+      "lineStartEmpty": true,
+      "lineEndComplete": true,
+      "milestonesReached": 4,
+      "dialog": true,
+      "escapeDismissal": true,
+      "journeyLink": true,
+      "restart": true,
+      "dialogCTA": true,
+      "scriptErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": "390x844",
+      "scrollStart": 0,
+      "scrollMidpoint": 50,
+      "scrollEnd": 100,
+      "noOverflow": true,
+      "lineStartEmpty": true,
+      "lineEndComplete": true,
+      "milestonesReached": 4,
+      "dialog": true,
+      "escapeDismissal": true,
+      "journeyLink": true,
+      "restart": true,
+      "dialogCTA": true,
+      "scriptErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "reducedMotion": true
+}

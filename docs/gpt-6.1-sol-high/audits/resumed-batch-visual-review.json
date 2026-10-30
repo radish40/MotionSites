@@ -387,7 +387,19 @@
         "generated/gpt-6.1-sol-high/akor-security/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/akor-security/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "bloom-ai",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Grayscale video-backed split glass panels and responsive single-panel mobile layout render with readable headings. Exact supplied footage shows a planet; missing logo and flower thumbnail were recreated as isolated assets and documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/bloom-ai/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/bloom-ai/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:25:18.607094+00:00"
+  "updated_utc": "2026-10-30T03:27:02.535303+00:00"
 }

@@ -8013,19 +8013,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad3-2061-7683-8161-e39bcfceaa6c",
       "output_path": "generated/gpt-6.1-sol-high/club-x-investors",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 530366,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:20:54.259213+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "b52895578cffb994a4320beb54b8311815e95774",
+      "url": "https://tool.luo-xd.com/motionsites-results/club-x-investors/",
+      "completed_utc": "2026-10-30T03:27:47.787143+00:00",
+      "group_message_id": 298
     },
     {
       "number": 235,
@@ -8134,14 +8138,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ad7-7240-7e33-9537-b908eb63feeb",
       "output_path": "generated/gpt-6.1-sol-high/grow-ai-talent-platform",
       "validation": "",
       "notes": "",
       "process_id": 547899,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:25:37.603481+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 239,
@@ -8159,11 +8167,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/hr-saa-s-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 552652,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:27:02.166924+00:00",
+      "worker_state": "running"
     },
     {
       "number": 240,
@@ -11269,7 +11281,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:26:08.613531+00:00",
+  "updated_utc": "2026-10-30T03:27:48.017275+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

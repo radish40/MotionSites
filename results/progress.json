@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:26:08.613531+00:00",
+  "updated_utc": "2026-10-30T03:27:48.017275+00:00",
   "total": 380,
   "counts": {
-    "complete": 233,
+    "complete": 234,
     "running": 5,
-    "not_started": 142
+    "not_started": 141
   },
   "current_batch": {
     "from_number": 201,
@@ -2350,11 +2350,11 @@
       "id": "club-x-investors",
       "title": "ClubX Investors",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ad3-2061-7683-8161-e39bcfceaa6c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "b52895578cffb994a4320beb54b8311815e95774",
+      "group_message_id": 298,
+      "url": "https://tool.luo-xd.com/motionsites-results/club-x-investors/"
     },
     {
       "id": "design-pro-academy",
@@ -2391,7 +2391,7 @@
       "title": "Grow AI Talent Platform",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ad7-7240-7e33-9537-b908eb63feeb",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2400,7 +2400,7 @@
       "id": "hr-saa-s-hero",
       "title": "HR SaaS Hero",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

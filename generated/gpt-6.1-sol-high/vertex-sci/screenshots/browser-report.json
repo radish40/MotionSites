@@ -1,0 +1,104 @@
+{
+  "reports": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "metrics": {
+        "title": "Vertex Sci.",
+        "viewportWidth": 1440,
+        "pageWidth": 1440,
+        "font": "\"JetBrains Mono\", monospace",
+        "loadedFont": true,
+        "video": {
+          "readyState": 4,
+          "currentTime": 3.213292,
+          "paused": false,
+          "width": 1920,
+          "height": 1080,
+          "filter": "grayscale(1)"
+        },
+        "headlineOpacity": "1",
+        "statOpacity": "1"
+      },
+      "interactionChecks": [
+        "Desktop navigation anchors",
+        "Contact link targets",
+        "Navbar background on scroll >20px"
+      ],
+      "scriptErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://localhost:4173/motionsites-results/vertex-sci/assets/fracture.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://localhost:4173/motionsites-results/vertex-sci/assets/fracture.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "title": "Vertex Sci.",
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "font": "\"JetBrains Mono\", monospace",
+        "loadedFont": true,
+        "video": {
+          "readyState": 4,
+          "currentTime": 3.233222,
+          "paused": false,
+          "width": 1920,
+          "height": 1080,
+          "filter": "grayscale(1)"
+        },
+        "headlineOpacity": "1",
+        "statOpacity": "1"
+      },
+      "interactionChecks": [
+        "Menu open/close",
+        "Scroll lock/restore",
+        "Escape dismissal",
+        "Navigation closes menu and updates anchor"
+      ],
+      "scriptErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://localhost:4173/motionsites-results/vertex-sci/assets/fracture.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://localhost:4173/motionsites-results/vertex-sci/assets/fracture.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ]
+    }
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "pageWidth": 320
+    },
+    {
+      "width": 640,
+      "pageWidth": 640
+    },
+    {
+      "width": 768,
+      "pageWidth": 768
+    },
+    {
+      "width": 1024,
+      "pageWidth": 1024
+    }
+  ],
+  "passed": true
+}

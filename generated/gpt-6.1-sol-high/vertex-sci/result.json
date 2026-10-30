@@ -1,0 +1,137 @@
+{
+  "title": "Vertex Sci",
+  "id": "vertex-sci",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/work/.cache -e npm_config_cache=/work/.cache/npm -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "0 vulnerabilities at installation",
+    "browser": {
+      "reports": [
+        {
+          "name": "desktop",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "metrics": {
+            "title": "Vertex Sci.",
+            "viewportWidth": 1440,
+            "pageWidth": 1440,
+            "font": "\"JetBrains Mono\", monospace",
+            "loadedFont": true,
+            "video": {
+              "readyState": 4,
+              "currentTime": 3.213292,
+              "paused": false,
+              "width": 1920,
+              "height": 1080,
+              "filter": "grayscale(1)"
+            },
+            "headlineOpacity": "1",
+            "statOpacity": "1"
+          },
+          "interactionChecks": [
+            "Desktop navigation anchors",
+            "Contact link targets",
+            "Navbar background on scroll >20px"
+          ],
+          "scriptErrors": [],
+          "failedRequests": [
+            {
+              "url": "http://localhost:4173/motionsites-results/vertex-sci/assets/fracture.mp4",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "url": "http://localhost:4173/motionsites-results/vertex-sci/assets/fracture.mp4",
+              "error": "net::ERR_ABORTED"
+            }
+          ]
+        },
+        {
+          "name": "mobile",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "metrics": {
+            "title": "Vertex Sci.",
+            "viewportWidth": 390,
+            "pageWidth": 390,
+            "font": "\"JetBrains Mono\", monospace",
+            "loadedFont": true,
+            "video": {
+              "readyState": 4,
+              "currentTime": 3.233222,
+              "paused": false,
+              "width": 1920,
+              "height": 1080,
+              "filter": "grayscale(1)"
+            },
+            "headlineOpacity": "1",
+            "statOpacity": "1"
+          },
+          "interactionChecks": [
+            "Menu open/close",
+            "Scroll lock/restore",
+            "Escape dismissal",
+            "Navigation closes menu and updates anchor"
+          ],
+          "scriptErrors": [],
+          "failedRequests": [
+            {
+              "url": "http://localhost:4173/motionsites-results/vertex-sci/assets/fracture.mp4",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "url": "http://localhost:4173/motionsites-results/vertex-sci/assets/fracture.mp4",
+              "error": "net::ERR_ABORTED"
+            }
+          ]
+        }
+      ],
+      "responsive": [
+        {
+          "width": 320,
+          "pageWidth": 320
+        },
+        {
+          "width": 640,
+          "pageWidth": 640
+        },
+        {
+          "width": 768,
+          "pageWidth": 768
+        },
+        {
+          "width": 1024,
+          "pageWidth": 1024
+        }
+      ],
+      "passed": true
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_review": "Desktop, mobile, and mobile menu screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "background MP4",
+      "status": "Original recovered and bundled successfully; decoded playback confirmed at both required viewports",
+      "observation": "Chromium cancels initial media range requests (net::ERR_ABORTED) while switching requests; playback remains successful."
+    }
+  ],
+  "notes": [
+    "React + Vite + TypeScript + Tailwind CSS; no additional UI or icon libraries.",
+    "Configured base: /motionsites-results/vertex-sci/.",
+    "Original Google Font weights 300, 400, 500, 700, 800 bundled; required Google Fonts head links retained.",
+    "Grayscale applied to original color video to follow explicit monochrome requirement.",
+    "Navigation anchors use existing hero content; Inquire and Join Study have fictional .example mailto targets because no real destination or backend was specified.",
+    "650px hero minimum height preserves access on short viewports.",
+    "Browser checks use Chromium emulation; physical devices and other browser engines were not tested.",
+    "No deployment, push, messages, agents, or other design sessions created."
+  ]
+}

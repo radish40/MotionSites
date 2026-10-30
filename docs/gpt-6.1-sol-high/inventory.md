@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 273/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 275/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -357,14 +357,14 @@
 | 270 | `wealth-video-hero` | Wealth Video Hero | Fintech | 1 | 图片 | 已完成 |
 | 271 | `web3-eos-hero` | Web3 EOS Hero | Web3 | 1 | 图片 | 已完成 |
 | 272 | `weblex-dark-hero` | Weblex Dark Hero | Landing Page | 1 | 图片 | 已完成 |
-| 273 | `community-superdesign-synapse` | Synapse | Landing Page | 1 | 视频 | 生成中 |
+| 273 | `community-superdesign-synapse` | Synapse | Landing Page | 1 | 视频 | 已完成 |
 | 274 | `community-superdesign-card-swap` | Card Swap | Components | 1 | 视频 | 已完成 |
-| 275 | `community-superdesign-hover-reveal-effect` | Hover reveal effect | Animations & Backgrounds | 1 | 视频 | 生成中 |
+| 275 | `community-superdesign-hover-reveal-effect` | Hover reveal effect | Animations & Backgrounds | 1 | 视频 | 已完成 |
 | 276 | `community-superdesign-scroll-journey-line` | Scroll Journey Line | Animations & Backgrounds | 1 | 视频 | 生成中 |
 | 277 | `community-superdesign-gooey-gradient-background` | Gooey Gradient Background | Animations & Backgrounds | 1 | 视频 | 生成中 |
 | 278 | `community-superdesign-horizontal-gallery` | Horizontal Gallery | Animations & Backgrounds | 1 | 视频 | 生成中 |
-| 279 | `community-superdesign-disruptor-beta-launch` | Disruptor Beta Launch | Waitlist & Coming Soon | 1 | 图片 | 未开始 |
-| 280 | `community-superdesign-ghost-cursor` | Ghost Cursor | Components | 1 | 视频 | 未开始 |
+| 279 | `community-superdesign-disruptor-beta-launch` | Disruptor Beta Launch | Waitlist & Coming Soon | 1 | 图片 | 生成中 |
+| 280 | `community-superdesign-ghost-cursor` | Ghost Cursor | Components | 1 | 视频 | 生成中 |
 | 281 | `community-superdesign-interactive-folder` | Interactive Folder | Components | 1 | 视频 | 未开始 |
 | 282 | `community-superdesign-parallax-stars-background` | Parallax Stars Background | Animations & Backgrounds | 1 | 视频 | 未开始 |
 | 283 | `community-superdesign-typing-animation` | Typing animation | Components | 1 | 视频 | 未开始 |

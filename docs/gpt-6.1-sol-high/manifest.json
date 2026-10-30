@@ -9348,19 +9348,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18afd-ba77-71d3-a1f2-4605ef63f191",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-synapse",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 710073,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:07:26.479535+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "a406c02d24100dbe839d375426626fd5c7deabbc",
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-synapse/",
+      "completed_utc": "2026-10-30T04:14:33.311219+00:00",
+      "group_message_id": 340
     },
     {
       "number": 274,
@@ -9412,19 +9416,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aff-162a-7e12-9038-72945e3f6fbc",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-hover-reveal-effect",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 715963,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:08:55.482777+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "eca0088ac2b496d6b3e0cd2142d1491ac118cb8b",
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-hover-reveal-effect/",
+      "completed_utc": "2026-10-30T04:15:02.227049+00:00",
+      "group_message_id": 341
     },
     {
       "number": 276,
@@ -9503,14 +9511,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b02-a132-7ba0-b274-c9cbeadc150f",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-horizontal-gallery",
       "validation": "",
       "notes": "",
       "process_id": 731826,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:12:47.620559+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 279,
@@ -9528,11 +9540,15 @@
       "preview_kind": "jpg",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-disruptor-beta-launch",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 736322,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:14:07.204313+00:00",
+      "worker_state": "running"
     },
     {
       "number": 280,
@@ -9550,11 +9566,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-ghost-cursor",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 736400,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:14:07.342616+00:00",
+      "worker_state": "running"
     },
     {
       "number": 281,
@@ -11758,7 +11778,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:13:13.586709+00:00",
+  "updated_utc": "2026-10-30T04:15:02.413367+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

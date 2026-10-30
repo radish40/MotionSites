@@ -1,0 +1,32 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "heading": "Unlock growth with every payment",
+    "font": true,
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "time": 2.531377,
+      "visible": true
+    },
+    "interactions": "passed",
+    "errors": [],
+    "failedResponses": []
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "heading": "Unlock growth with every payment",
+    "font": true,
+    "video": {
+      "readyState": 4,
+      "paused": true,
+      "time": 0,
+      "visible": false
+    },
+    "interactions": "passed",
+    "errors": [],
+    "failedResponses": []
+  }
+}

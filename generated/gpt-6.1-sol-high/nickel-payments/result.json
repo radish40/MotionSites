@@ -1,0 +1,55 @@
+{
+  "title": "Nickel Payments",
+  "id": "nickel-payments",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed (TypeScript and Vite)",
+    "browser": {
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": "Unlock growth with every payment",
+        "font": true,
+        "video": {
+          "readyState": 4,
+          "paused": false,
+          "time": 2.531377,
+          "visible": true
+        },
+        "interactions": "passed",
+        "errors": [],
+        "failedResponses": []
+      },
+      "mobile": {
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": "Unlock growth with every payment",
+        "font": true,
+        "video": {
+          "readyState": 4,
+          "paused": true,
+          "time": 0,
+          "visible": false
+        },
+        "interactions": "passed",
+        "errors": [],
+        "failedResponses": []
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Both screenshots inspected; composition, typography, local assets and responsive layout verified."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original prompt video downloaded intact and served locally. Inter fonts served locally.",
+    "Optional project reference WebP was absent; implemented from written prompt.",
+    "React, Tailwind CSS and shadcn/ui-style Radix/CVA components.",
+    "CTA dialogs are interactive previews; no backend, email transmission, pricing service or authentication is connected.",
+    "Static publication base: /motionsites-results/nickel-payments/. dist/index.html exists.",
+    "No deployment or push performed. ready means ready for review."
+  ]
+}

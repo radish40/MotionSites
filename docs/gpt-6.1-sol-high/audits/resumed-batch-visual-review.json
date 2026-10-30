@@ -886,7 +886,91 @@
         "generated/gpt-6.1-sol-high/weblex-dark-hero/screenshots/mobile.png"
       ],
       "reviewed_utc": "2026-10-30T04:12:11.355779+00:00"
+    },
+    {
+      "id": "community-superdesign-synapse",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile and full-page compositions show serif headline, orbit graphics, ticker, feature cards, code tabs and footer. Management found mobile idea.Connect text concatenation; SAME original thread repaired it to idea. Connect, rebuilt/retested and republished. Fresh independent audit uses the repaired source commit; illustrative SDK/status metrics do not imply a backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-synapse/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-synapse/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:20:25.885027+00:00"
+    },
+    {
+      "id": "community-superdesign-card-swap",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show four original Unsplash image cards in a perspective stack below a visible heading and above the replay button. Original-session fix prevents heading overlap; browser evidence covers actual cycling, hover pause/resume, replay and mobile containment.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-card-swap/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-card-swap/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:20:25.885027+00:00"
+    },
+    {
+      "id": "community-superdesign-hover-reveal-effect",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile initial and reveal-state screenshots inspected: grayscale portrait with organic blue image mask following pointer/touch. No portrait/name/profile assets were supplied, so the documented sample identity and one locally treated portrait supply both layers; no reference parity claim.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-hover-reveal-effect/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-hover-reveal-effect/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-hover-reveal-effect/screenshots/desktop-reveal.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-hover-reveal-effect/screenshots/mobile-reveal.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:20:25.885027+00:00"
+    },
+    {
+      "id": "community-superdesign-scroll-journey-line",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile initial and midpoint screenshots inspected: lime SVG path advances through numbered editorial milestones with a visible 50% indicator. Browser report verifies empty/start, half and complete path states plus navigation/restart and reduced motion.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-scroll-journey-line/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-scroll-journey-line/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-scroll-journey-line/screenshots/desktop-midpoint.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-scroll-journey-line/screenshots/mobile-midpoint.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:20:25.885027+00:00"
+    },
+    {
+      "id": "community-superdesign-gooey-gradient-background",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show animated purple/blue gradient blobs, centered Bubbles heading, supporting copy and two glass buttons. Browser verifies pointer/touch following, animations and controls. Software blur rendering performance is documented without a physical-device FPS claim.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-gooey-gradient-background/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-gooey-gradient-background/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:20:25.885027+00:00"
+    },
+    {
+      "id": "community-superdesign-horizontal-gallery",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop/mobile initial and pinned-gallery screenshots inspected: cream editorial heading, original downloaded landscape/architecture images, horizontal card track and progress controls. Browser verifies real GSAP pin/translate/unpin, controls, resizing and reduced-motion native scrolling.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/community-superdesign-horizontal-gallery/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-horizontal-gallery/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-horizontal-gallery/screenshots/desktop-pinned.png",
+        "generated/gpt-6.1-sol-high/community-superdesign-horizontal-gallery/screenshots/mobile-pinned.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:20:25.885027+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:12:11.355779+00:00"
+  "updated_utc": "2026-10-30T04:20:25.885027+00:00"
 }

@@ -1,0 +1,182 @@
+{
+  "recorded_utc": "2026-10-30T04:20:25.885027+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required. Includes repaired Synapse source, not its superseded first delivery.",
+  "all_selected_pass": true,
+  "audited_designs": 6,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:19:43.799099+00:00",
+      "remote_main": "73a0cdca622fe2e36e758a429be2a8748974afb8",
+      "delivery": {
+        "id": "community-superdesign-synapse",
+        "title": "Synapse",
+        "source_commit": "73a0cdca622fe2e36e758a429be2a8748974afb8",
+        "thread_id": "01a18afd-ba77-71d3-a1f2-4605ef63f191",
+        "group_message_id": 340,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:13:18.693145+00:00",
+      "remote_main": "79b90114e578d02a2893b66840f71f8cc8419717",
+      "delivery": {
+        "id": "community-superdesign-card-swap",
+        "title": "Card Swap",
+        "source_commit": "79b90114e578d02a2893b66840f71f8cc8419717",
+        "thread_id": "01a18aff-158b-7ee0-9ed3-01d57c471dfc",
+        "group_message_id": 339,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:15:14.071489+00:00",
+      "remote_main": "a23151ce7e87323baafe514abc034b60dce76675",
+      "delivery": {
+        "id": "community-superdesign-hover-reveal-effect",
+        "title": "Hover reveal effect",
+        "source_commit": "eca0088ac2b496d6b3e0cd2142d1491ac118cb8b",
+        "thread_id": "01a18aff-162a-7e12-9038-72945e3f6fbc",
+        "group_message_id": 341,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:17:29.439756+00:00",
+      "remote_main": "4ccb4560d94c8ef78264e0b711f22d2c52e62cb6",
+      "delivery": {
+        "id": "community-superdesign-scroll-journey-line",
+        "title": "Scroll Journey Line",
+        "source_commit": "5a3958abceb5707832f7f9e6260225e4744f7737",
+        "thread_id": "01a18b00-e8cb-7243-b828-87d9adc3e52a",
+        "group_message_id": 342,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:18:52.739244+00:00",
+      "remote_main": "bb558092186d5dc90bd3930455035ee1e78c810a",
+      "delivery": {
+        "id": "community-superdesign-gooey-gradient-background",
+        "title": "Gooey Gradient Background",
+        "source_commit": "bb558092186d5dc90bd3930455035ee1e78c810a",
+        "thread_id": "01a18b00-e98e-7283-8ccf-2066d36e6454",
+        "group_message_id": 343,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:19:18.416175+00:00",
+      "remote_main": "917ce9b42a844a223b60bd2427a91724decef97a",
+      "delivery": {
+        "id": "community-superdesign-horizontal-gallery",
+        "title": "Horizontal Gallery",
+        "source_commit": "f1f33ae03c5eb60e29b6751d9e459ad5609851b0",
+        "thread_id": "01a18b02-a132-7ba0-b274-c9cbeadc150f",
+        "group_message_id": 344,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

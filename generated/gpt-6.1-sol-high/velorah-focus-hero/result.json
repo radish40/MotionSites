@@ -1,0 +1,33 @@
+{
+  "title": "Velorah Focus",
+  "id": "velorah-focus-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -e HOME=/work/.npm-home -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --cache /work/.npm-cache && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "browser": "Chromium with playwright-core, production preview at configured subpath",
+    "desktop": "1440x1000: two 600x800 frames; no horizontal overflow",
+    "mobile": "390x844: stacked 358x477.33 frames; no horizontal overflow",
+    "media": "both original videos autoplay; local fallback verified by blocking remote requests",
+    "fonts": "Instrument Serif and Inter loaded",
+    "interactions": "keyboard focus, 1.03 hover scale and click checked",
+    "script_errors": 0,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    "Optional reference /home/opc/motionsites/assets/previews/velorah-focus-hero.webp was absent.",
+    "Google Fonts uses the required external import; fallback font stacks are supplied."
+  ],
+  "notes": [
+    "Both posts from PROMPT.md implemented using their exact source videos and content offsets.",
+    "Original MP4 files are bundled as local fallbacks. No visual assets were approximated.",
+    "No CTA destination was specified; no extra journey flow was added.",
+    "Mobile preserves the composition with proportional scaling.",
+    "Ready for acceptance, not deployed or pushed.",
+    "Session model selection is runner-controlled and cannot be independently certified by this application."
+  ]
+}

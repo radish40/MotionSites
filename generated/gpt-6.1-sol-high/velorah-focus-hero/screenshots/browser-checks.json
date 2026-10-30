@@ -1,0 +1,113 @@
+{
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_110052_2e127257-5236-40b1-ba48-4690260f1185.mp4",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      }
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_105838_084968f2-4415-42a4-971a-3bec54539549.mp4",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      }
+    }
+  ],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "documentWidth": 1440,
+      "frames": [
+        {
+          "x": 108,
+          "y": 100,
+          "width": 600,
+          "height": 800
+        },
+        {
+          "x": 732,
+          "y": 100,
+          "width": 600,
+          "height": 800
+        }
+      ],
+      "fonts": {
+        "serif": true,
+        "sans": true
+      },
+      "videos": [
+        {
+          "readyState": 4,
+          "paused": false,
+          "time": 2.08099,
+          "width": 1244,
+          "height": 1664,
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_110052_2e127257-5236-40b1-ba48-4690260f1185.mp4"
+        },
+        {
+          "readyState": 4,
+          "paused": false,
+          "time": 1.981814,
+          "width": 1244,
+          "height": 1664,
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_105838_084968f2-4415-42a4-971a-3bec54539549.mp4"
+        }
+      ],
+      "headingAnimation": "fade-rise, rgb-flicker"
+    },
+    "mobile": {
+      "width": 390,
+      "documentWidth": 390,
+      "frames": [
+        {
+          "x": 16,
+          "y": 16,
+          "width": 358.0000305175781,
+          "height": 477.3333435058594
+        },
+        {
+          "x": 16,
+          "y": 517.328125,
+          "width": 358.0000305175781,
+          "height": 477.3333740234375
+        }
+      ],
+      "fonts": {
+        "serif": true,
+        "sans": true
+      },
+      "videos": [
+        {
+          "readyState": 4,
+          "paused": false,
+          "time": 1.960055,
+          "width": 1244,
+          "height": 1664,
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_110052_2e127257-5236-40b1-ba48-4690260f1185.mp4"
+        },
+        {
+          "readyState": 4,
+          "paused": false,
+          "time": 1.848184,
+          "width": 1244,
+          "height": 1664,
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_105838_084968f2-4415-42a4-971a-3bec54539549.mp4"
+        }
+      ],
+      "headingAnimation": "fade-rise, rgb-flicker"
+    }
+  },
+  "interactions": {
+    "keyboardFocus": true,
+    "hoverScale": "1.03",
+    "click": "Button accepts clicks. Prompt defines no destination or additional flow.",
+    "localFallback": true
+  },
+  "intentionalFallbackErrors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "fallbackTest": true
+}

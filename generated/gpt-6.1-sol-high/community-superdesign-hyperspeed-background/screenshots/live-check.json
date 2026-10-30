@@ -1,0 +1,38 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-hyperspeed-background/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:29:08.243Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Hyperspeed Background",
+      "bodyChars": 172,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Hyperspeed Background",
+      "bodyChars": 100,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

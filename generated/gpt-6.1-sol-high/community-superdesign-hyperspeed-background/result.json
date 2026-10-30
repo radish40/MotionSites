@@ -1,0 +1,72 @@
+{
+  "title": "Hyperspeed Background",
+  "id": "community-superdesign-hyperspeed-background",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed: TypeScript and Vite production build; dist/index.html exists",
+    "dependencies": "package-lock.json saved; npm install audit reported zero vulnerabilities",
+    "base_path": "/motionsites-results/community-superdesign-hyperspeed-background/",
+    "browser_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'node scripts/browser-check.cjs'",
+    "browser": {
+      "url": "/motionsites-results/community-superdesign-hyperspeed-background/",
+      "desktop": {
+        "animation": "passed: rendered canvas changes between frames",
+        "presets": "passed: all six change selection and simulation label",
+        "hold": "passed: hold accelerates, release slows and restores hint",
+        "restart": "passed",
+        "dialogs": "passed: info, Escape, reply local save, close",
+        "keyboard": "passed",
+        "layout": {
+          "width": 1440,
+          "height": 1000,
+          "scrollWidth": 1440,
+          "scrollHeight": 1000,
+          "canvasWidth": 1440,
+          "canvasHeight": 1000
+        }
+      },
+      "mobile": {
+        "animation": "passed: rendered canvas changes between frames",
+        "presets": "passed: all six change selection and simulation label",
+        "hold": "passed: hold accelerates, release slows and restores hint",
+        "restart": "passed",
+        "dialogs": "passed: info, Escape, reply local save, close",
+        "keyboard": "passed",
+        "touch": "passed: touch pointer and cancellation",
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "scrollHeight": 844,
+          "canvasWidth": 390,
+          "canvasHeight": 844
+        }
+      },
+      "errors": [],
+      "consoleWarnings": [],
+      "failedRequests": []
+    },
+    "screenshots": {
+      "desktop": "screenshots/desktop.png",
+      "mobile": "screenshots/mobile.png"
+    },
+    "visual_review": "Desktop and mobile screenshots inspected; title, hint, presets, and corner controls are visible without overlap."
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/community-superdesign-hyperspeed-background.webp",
+      "issue": "Optional original visual reference was absent.",
+      "resolution": "Implemented from the full supplied React component, palettes, and styling; no extraction or screenshot-based reconstruction used.",
+      "limitation": "Direct comparison with the original preview was unavailable."
+    }
+  ],
+  "notes": [
+    "React, Three.js ^0.160.0, Framer Motion, and Lucide React used as requested. All runtime assets are local; system fonts require no external requests.",
+    "Six presets, all five distortions, hold/release acceleration, touch cancellation, keyboard Space, restart, information, and browser-local Reply are functional.",
+    "The supplied stylized line tunnel is preserved. Road/vehicle option fields do not create modeled road or vehicle geometry.",
+    "Vite reports a bundle-size advisory: JavaScript is approximately 236 kB gzipped.",
+    "Browser checks used Chromium software WebGL and mobile emulation; physical-device performance and 60 fps were not certified.",
+    "Ready for review only. No deployment, push, external messages, other designs, or sub-agents."
+  ]
+}

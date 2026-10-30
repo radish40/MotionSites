@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:40:49.101815+00:00",
+  "updated_utc": "2026-10-30T04:43:10.941808+00:00",
   "total": 380,
   "counts": {
-    "complete": 297,
+    "complete": 299,
     "running": 5,
-    "not_started": 78
+    "not_started": 76
   },
   "current_batch": {
     "from_number": 201,
@@ -2990,11 +2990,11 @@
       "id": "synth-mode",
       "title": "Synth Mode",
       "category": "Fashion",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b15-e0db-7541-a67b-b39d73a9a479",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "f9ab27031d7930aa6c06823963cbc3919c588694",
+      "group_message_id": 365,
+      "url": "https://tool.luo-xd.com/motionsites-results/synth-mode/"
     },
     {
       "id": "agent-grove",
@@ -3020,18 +3020,18 @@
       "id": "talent-collective",
       "title": "Talent Collective",
       "category": "Agency",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b19-7fad-7a30-ad4a-d4993042dc22",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "5772de4fc0efce4886a431ccd7b08a12ebb03629",
+      "group_message_id": 366,
+      "url": "https://tool.luo-xd.com/motionsites-results/talent-collective/"
     },
     {
       "id": "intelligence-layer",
       "title": "Intelligence Layer",
       "category": "Technology",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b1b-9e32-74b0-82ee-580092fffd29",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3040,7 +3040,7 @@
       "id": "task-engine",
       "title": "Task Engine",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3050,7 +3050,7 @@
       "id": "autonomous-ops",
       "title": "Autonomous Ops",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

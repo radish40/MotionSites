@@ -1,0 +1,152 @@
+{
+  "recorded_utc": "2026-10-30T06:37:01.376808+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 5,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T06:36:08.987824+00:00",
+      "remote_main": "05198cde2a34c1640d22d3aced27f8d94c8b2dbf",
+      "delivery": {
+        "id": "zenith-realty-landing",
+        "title": "Zenith Realty",
+        "source_commit": "e75a117a07c997f8ee7ac5b7370aac318155da6f",
+        "thread_id": "01a18b73-25c6-72e3-bef2-cf80edf1e4b2",
+        "group_message_id": 442,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:24:53.954818+00:00",
+      "remote_main": "5eace0c7fc0c025266baac012b5236ffb489e861",
+      "delivery": {
+        "id": "nexar-hero",
+        "title": "Nexar",
+        "source_commit": "4212887f0de9de63578995db9181f77d03326b3b",
+        "thread_id": "01a18b73-2681-7ea3-ad6a-779954163213",
+        "group_message_id": 440,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:36:08.987824+00:00",
+      "remote_main": "05198cde2a34c1640d22d3aced27f8d94c8b2dbf",
+      "delivery": {
+        "id": "prioritize-hero",
+        "title": "Prioritize",
+        "source_commit": "93e857e60021d4a0f5378b265b8bfea4986e6081",
+        "thread_id": "01a18b76-54c7-7990-8d83-0f7f77b40d37",
+        "group_message_id": 443,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:36:08.987824+00:00",
+      "remote_main": "05198cde2a34c1640d22d3aced27f8d94c8b2dbf",
+      "delivery": {
+        "id": "vertex-ai-hero",
+        "title": "VertexAI Hero",
+        "source_commit": "2a70a82984fe86eea4200bde661be81bd6215e87",
+        "thread_id": "01a18b78-d781-7790-a2b2-9be46ea2fc80",
+        "group_message_id": 441,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T06:36:08.987824+00:00",
+      "remote_main": "05198cde2a34c1640d22d3aced27f8d94c8b2dbf",
+      "delivery": {
+        "id": "keep-ahead-features",
+        "title": "Keep Ahead Features",
+        "source_commit": "09eeea86d548f5f6e6a8c19c85b7d998157f1452",
+        "thread_id": "01a18b7a-60d6-7b32-b979-06f99d15f572",
+        "group_message_id": 444,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

@@ -460,8 +460,8 @@
 | 373 | `prioritize-hero` | Prioritize | Hero Section | 1 | 无 | 已完成 |
 | 374 | `vertex-ai-hero` | VertexAI Hero | Hero Section | 1 | 无 | 已完成 |
 | 375 | `keep-ahead-features` | Keep Ahead Features | Features Section | 1 | 无 | 已完成 |
-| 376 | `benefits-features` | Benefits Features | Features Section | 1 | 无 | 已完成 |
+| 376 | `benefits-features` | Benefits Features | Features Section | 1 | 无 | 生成中 |
 | 377 | `zenith-footer` | Zenith Footer | Footer Section | 1 | 无 | 已完成 |
 | 378 | `digital-reality-hero` | Digital Reality | Social Media | 1 | 无 | 已完成 |
-| 379 | `community-cta` | Community CTA | CTA Section | 1 | 无 | 生成中 |
+| 379 | `community-cta` | Community CTA | CTA Section | 1 | 无 | 已完成 |
 | 380 | `package-fits-pricing` | What Package Fits You | Pricing | 1 | 无 | 已完成 |

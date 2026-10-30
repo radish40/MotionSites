@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T06:36:36.890502+00:00",
+  "updated_utc": "2026-10-30T06:38:12.040307+00:00",
   "total": 380,
   "counts": {
     "complete": 379,
@@ -3769,11 +3769,11 @@
       "id": "benefits-features",
       "title": "Benefits Features",
       "category": "Features Section",
-      "status": "complete",
+      "status": "running",
       "thread_id": "01a18b7a-61b2-78c2-88cf-29aafc80ba8c",
       "source_commit": "84502d7fac8396dd6a1284c797bef3af709a2990",
       "group_message_id": 445,
-      "url": "https://tool.luo-xd.com/motionsites-results/benefits-features/"
+      "url": null
     },
     {
       "id": "zenith-footer",
@@ -3799,11 +3799,11 @@
       "id": "community-cta",
       "title": "Community CTA",
       "category": "CTA Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b7d-b804-7ee1-9495-756322052cec",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "decf727eea5d6e7bdbce12848f3594049ff124a7",
+      "group_message_id": 451,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-cta/"
     },
     {
       "id": "package-fits-pricing",

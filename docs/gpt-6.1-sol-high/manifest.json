@@ -12880,15 +12880,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "complete",
+      "status": "running",
       "thread_id": "01a18b7a-61b2-78c2-88cf-29aafc80ba8c",
       "output_path": "generated/gpt-6.1-sol-high/benefits-features",
-      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
-      "notes": "",
-      "process_id": 1233302,
+      "validation": "Counter progress can be negative when RAF timestamp predates performance.now() start; clamp progress to [0,1].",
+      "notes": "Management acceptance requested a correction in this same original design session; private repair prompt records details.",
+      "process_id": 1285942,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:23:35.588821+00:00",
-      "worker_state": "terminal",
+      "worker_state": "repairing",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -12896,7 +12896,9 @@
       "source_commit": "84502d7fac8396dd6a1284c797bef3af709a2990",
       "url": "https://tool.luo-xd.com/motionsites-results/benefits-features/",
       "completed_utc": "2026-10-30T06:30:27.506469+00:00",
-      "group_message_id": 445
+      "group_message_id": 445,
+      "delivery_hold": "Root public animation sampling observed transient negative -4% before 0→86%. Same-thread progress clamp repair and independent actual animation recheck required.",
+      "repair_attempts": 1
     },
     {
       "number": 377,
@@ -12982,20 +12984,24 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b7d-b804-7ee1-9495-756322052cec",
       "output_path": "generated/gpt-6.1-sol-high/community-cta",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "Management acceptance requested a correction in this same original design session; private repair prompt records details.",
       "process_id": 1277364,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T06:27:14.452332+00:00",
-      "worker_state": "repairing",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "repair_attempts": 1
+      "repair_attempts": 1,
+      "source_commit": "decf727eea5d6e7bdbce12848f3594049ff124a7",
+      "url": "https://tool.luo-xd.com/motionsites-results/community-cta/",
+      "completed_utc": "2026-10-30T06:38:11.797208+00:00",
+      "group_message_id": 451
     },
     {
       "number": 380,
@@ -13032,7 +13038,7 @@
       "group_message_id": 448
     }
   ],
-  "updated_utc": "2026-10-30T06:36:36.890502+00:00",
+  "updated_utc": "2026-10-30T06:38:12.040307+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

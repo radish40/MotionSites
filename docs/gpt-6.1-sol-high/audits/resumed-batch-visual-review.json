@@ -2291,7 +2291,77 @@
         "generated/gpt-6.1-sol-high/vitara-hero/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/vitara-hero/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "zenith-realty-landing",
+      "source_commit": "e75a117a07c997f8ee7ac5b7370aac318155da6f",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:37:01.376808+00:00",
+      "observation": "Reviewed public full desktop/mobile all four sections plus mobile hero viewport: exact original architectural film, three property cards/four supplied images, switchable service section and three actual Recharts capped-bar charts. Original assets recovered unchanged from supplied Higgs outputs; Lato 500 has no separate file, documented regular mapping. Mobile menu/dialogs/forms/service tabs checked; no footer as specified. Forms clearly local with no data transmission.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/zenith-realty-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/zenith-realty-landing/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "nexar-hero",
+      "source_commit": "4212887f0de9de63578995db9181f77d03326b3b",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:37:01.376808+00:00",
+      "observation": "Reviewed public desktop/full mobile dashboard, all three task cards, 85% score, supplied avatars, yellow metrics panel, command list and waveform card. Exact original background video/assets recovered and local. Mode/project selector/details/commands/add/edit/navigation interactions checked at two sizes and six additional widths. No live AI/meeting backend; microphone unavailable path honestly explained, granted hardware path unverified.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/nexar-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/nexar-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "prioritize-hero",
+      "source_commit": "93e857e60021d4a0f5378b265b8bfea4986e6081",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:37:01.376808+00:00",
+      "observation": "Reviewed public full desktop/mobile white dotted hero, exact Prioritize mark, four clipped decorative folder/task/note groups, central draft/build/ship copy and CTA. Decorative edge clipping follows prompt while central content remains readable. Local original DiceBear images/fonts loaded. Navigation/mobile menu and preview-only account/trial dialogs checked; no backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/prioritize-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/prioritize-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "vertex-ai-hero",
+      "source_commit": "2a70a82984fe86eea4200bde661be81bd6215e87",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:37:01.376808+00:00",
+      "observation": "Reviewed public desktop/mobile full-viewport VertexAI hero: exact original architecture movie without overlay, glass pill, Inter and italic Cormorant Garamond, centered three-line title, footer description/tags/arrow. Normal video clock advances and loops; footer stacks, mobile nav hidden, all text fits. Only prompt-specified hover/button behavior; no account/AI workflow invented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/vertex-ai-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/vertex-ai-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "keep-ahead-features",
+      "source_commit": "09eeea86d548f5f6e6a8c19c85b7d998157f1452",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T06:37:01.376808+00:00",
+      "observation": "Reviewed desktop and full public mobile three gradient cards and footer tags. Single inline-HTML/CSS page, exact SVG icons and DM Sans, no runtime JavaScript or entrance animation. All three hover lifts/link gaps/new-tab and keyboard behavior passed. Destinations unspecified so local anchor targets retained.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/keep-ahead-features/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/keep-ahead-features/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T06:27:44.344537+00:00"
+  "updated_utc": "2026-10-30T06:37:01.376808+00:00"
 }

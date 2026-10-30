@@ -1,6 +1,6 @@
 {
   "url": "https://tool.luo-xd.com/motionsites-results/viktor-portfolio/",
-  "checked_utc": "2026-10-30T04:09:52.307Z",
+  "checked_utc": "2026-10-30T06:32:57.830Z",
   "passed": true,
   "results": [
     {
@@ -8,7 +8,7 @@
       "homeVideo": {
         "width": 1612,
         "height": 1284,
-        "currentTime": 1.067757,
+        "currentTime": 1.043992,
         "muted": true,
         "loop": true,
         "paused": false
@@ -16,7 +16,7 @@
       "projectVideo": {
         "width": 1756,
         "height": 1176,
-        "currentTime": 0.80961,
+        "currentTime": 0.808301,
         "muted": true,
         "loop": true,
         "paused": false
@@ -24,7 +24,7 @@
       "directProjectVideo": {
         "width": 1756,
         "height": 1176,
-        "currentTime": 0.938423,
+        "currentTime": 0.945197,
         "muted": true,
         "loop": true,
         "paused": false
@@ -43,7 +43,7 @@
       "homeVideo": {
         "width": 1612,
         "height": 1284,
-        "currentTime": 0.758676,
+        "currentTime": 1.096334,
         "muted": true,
         "loop": true,
         "paused": false
@@ -51,7 +51,7 @@
       "projectVideo": {
         "width": 1756,
         "height": 1176,
-        "currentTime": 0.766816,
+        "currentTime": 0.867557,
         "muted": true,
         "loop": true,
         "paused": false
@@ -59,7 +59,7 @@
       "directProjectVideo": {
         "width": 1756,
         "height": 1176,
-        "currentTime": 0.974474,
+        "currentTime": 0.936273,
         "muted": true,
         "loop": true,
         "paused": false

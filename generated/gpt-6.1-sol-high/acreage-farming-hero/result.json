@@ -1,0 +1,49 @@
+{
+  "title": "Acreage Farming",
+  "id": "acreage-farming-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; dist/index.html present",
+    "browser": "Chromium via Playwright Core",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "passed": 31,
+    "failed": 0,
+    "javascript_and_console_errors": [],
+    "horizontal_overflow": false,
+    "video_playback": "Both supplied MP4 instances verified playing in viewport on desktop and mobile",
+    "fonts": "Playfair Display and DM Sans loaded from Google Fonts on both viewports",
+    "interactions": "Mobile menu, scrolled navbar, statistics, service/project dialogs, articles, event dialog, validated email inquiry preparation",
+    "report": "browser-results.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png",
+      "screenshots/mobile-full.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "Yield Analysis image",
+      "issue": "Specified Unsplash image returns 404 including alternate URL forms",
+      "resolution": "Reused the prompt’s CTA landscape photograph as local yield.jpg with object-fit crop",
+      "record": "asset-recovery.json"
+    },
+    {
+      "asset": "Optional project preview WebP",
+      "issue": "Not present",
+      "resolution": "Implemented from complete written prompt; no screenshot extraction"
+    }
+  ],
+  "notes": [
+    "React + Tailwind CSS v4; full twelve-section page.",
+    "All imagery and MP4 served locally; Google Fonts remains external.",
+    "Static inquiry flow prepares an email; no backend or automatic sending. January 2024 event is identified as concluded.",
+    "Only this project was read and changed. No agents, other sessions, deployment, push, or external messages.",
+    "Media range requests aborted by Chromium during scroll are recorded in browser-results.json; in-view video playback passed.",
+    "Ready for management review, not deployed."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "asset": "Yield Analysis image",
+  "original": "https://images.unsplash.com/photo-1472141521881-95d0e87e2e76?w=600&q=80",
+  "initial_error": "HTTP 404",
+  "attempts": [
+    {
+      "url": "https://images.unsplash.com/photo-1472141521881-95d0e87e2e76?w=600&q=80",
+      "result": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1472141521881-95d0e87e2e76",
+      "result": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1472141521881-95d0e87e2e76?auto=format&fit=crop&w=600&q=80",
+      "result": "HTTP Error 404: Not Found"
+    }
+  ],
+  "fallback": "Reused the prompt's landscape image, photo-1500382017468-9049fed747ef, locally as yield.jpg; CSS object-fit crops it into the service card.",
+  "reference": "Optional project reference absent; no reference extraction used.",
+  "limitation": "Yield Analysis card cannot match unavailable original photograph."
+}

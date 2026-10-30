@@ -1,0 +1,269 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/",
+  "checks": [
+    {
+      "name": "desktop: initial layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "fontSerif": true,
+        "fontSans": true,
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 3.793919,
+            "width": 1920
+          },
+          {
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "width": 1920
+          }
+        ],
+        "images": []
+      }
+    },
+    {
+      "name": "desktop: fonts",
+      "passed": true
+    },
+    {
+      "name": "desktop: images",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop: hero MP4 playing",
+      "passed": true,
+      "detail": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 3.793919,
+        "width": 1920
+      }
+    },
+    {
+      "name": "desktop: stats counted",
+      "passed": true
+    },
+    {
+      "name": "desktop: dark scrolled navigation",
+      "passed": true
+    },
+    {
+      "name": "desktop: service detail",
+      "passed": true
+    },
+    {
+      "name": "desktop: portfolio detail",
+      "passed": true
+    },
+    {
+      "name": "desktop: cinematic MP4 playing in view",
+      "passed": true,
+      "detail": {
+        "readyState": 4,
+        "paused": false,
+        "time": 2.213438
+      }
+    },
+    {
+      "name": "desktop: past event explained",
+      "passed": true
+    },
+    {
+      "name": "desktop: article opens",
+      "passed": true
+    },
+    {
+      "name": "desktop: inquiry prepared",
+      "passed": true
+    },
+    {
+      "name": "desktop: all sections fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop: no missing images after scroll",
+      "passed": true
+    },
+    {
+      "name": "mobile: initial layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "fontSerif": true,
+        "fontSans": true,
+        "videos": [
+          {
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 2.930868,
+            "width": 1920
+          },
+          {
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0,
+            "width": 1920
+          }
+        ],
+        "images": []
+      }
+    },
+    {
+      "name": "mobile: fonts",
+      "passed": true
+    },
+    {
+      "name": "mobile: images",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mobile: hero MP4 playing",
+      "passed": true,
+      "detail": {
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 2.930868,
+        "width": 1920
+      }
+    },
+    {
+      "name": "mobile: menu opens",
+      "passed": true
+    },
+    {
+      "name": "mobile: menu closes after navigation",
+      "passed": true
+    },
+    {
+      "name": "mobile: stats counted",
+      "passed": true
+    },
+    {
+      "name": "mobile: dark scrolled navigation",
+      "passed": true
+    },
+    {
+      "name": "mobile: service detail",
+      "passed": true
+    },
+    {
+      "name": "mobile: portfolio detail",
+      "passed": true
+    },
+    {
+      "name": "mobile: cinematic MP4 playing in view",
+      "passed": true,
+      "detail": {
+        "readyState": 4,
+        "paused": false,
+        "time": 1.788947
+      }
+    },
+    {
+      "name": "mobile: past event explained",
+      "passed": true
+    },
+    {
+      "name": "mobile: article opens",
+      "passed": true
+    },
+    {
+      "name": "mobile: inquiry prepared",
+      "passed": true
+    },
+    {
+      "name": "mobile: all sections fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mobile: no missing images after scroll",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript or console errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:4173/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

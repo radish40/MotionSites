@@ -1,0 +1,284 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:24:00.874Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Acreage Farming — Rooted in Possibility",
+      "bodyChars": 3935,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/about.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/wheat.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/crop.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/field.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/yield.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/portfolio1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/portfolio2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/portfolio3.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/event.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/blog1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/blog2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/wheat.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/blog4.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/landscape.jpg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.331868,
+          "duration": 12.979633,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 12.979633,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Acreage Farming — Rooted in Possibility",
+      "bodyChars": 3863,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/about.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/wheat.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/crop.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/field.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/yield.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/portfolio1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/portfolio2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/portfolio3.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/event.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/blog1.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/blog2.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/wheat.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/blog4.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/landscape.jpg",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.01054,
+          "duration": 12.979633,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 12.979633,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tool.luo-xd.com/motionsites-results/acreage-farming-hero/assets/hero.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": []
+    }
+  ]
+}

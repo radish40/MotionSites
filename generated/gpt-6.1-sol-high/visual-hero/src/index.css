@@ -1,0 +1,112 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Barlow:wght@300;400;500;600&display=swap');
+
+@import url('../public/assets/fonts-local.css');
+
+@font-face {
+font-family: 'Dirtyline';
+src: url('https://fonts.cdnfonts.com/s/15011/Dirtyline36DaysofType.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.liquid-glass {
+background: rgba(255,255,255,0.01);
+background-blend-mode: luminosity;
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border: none;
+box-shadow: inset 0 1px 1px rgba(255,255,255,0.1);
+position: relative;
+overflow: hidden;
+}
+.liquid-glass::before {
+content: "";
+position: absolute; inset: 0;
+border-radius: inherit;
+padding: 1.4px;
+background: linear-gradient(180deg,
+rgba(255,255,255,0.45) 0%,
+rgba(255,255,255,0.15) 20%,
+rgba(255,255,255,0) 40%,
+rgba(255,255,255,0) 60%,
+rgba(255,255,255,0.15) 80%,
+rgba(255,255,255,0.45) 100%);
+-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor;
+mask-composite: exclude;
+pointer-events: none;
+}
+
+.liquid-glass-strong {
+background: rgba(255,255,255,0.01);
+background-blend-mode: luminosity;
+backdrop-filter: blur(50px);
+-webkit-backdrop-filter: blur(50px);
+border: none;
+box-shadow: 4px 4px 4px rgba(0,0,0,0.05), inset 0 1px 1px rgba(255,255,255,0.15);
+position: relative;
+overflow: hidden;
+}
+.liquid-glass-strong::before {
+content: "";
+position: absolute; inset: 0;
+border-radius: inherit;
+padding: 1.4px;
+background: linear-gradient(180deg,
+rgba(255,255,255,0.5) 0%,
+rgba(255,255,255,0.2) 20%,
+rgba(255,255,255,0) 40%,
+rgba(255,255,255,0) 60%,
+rgba(255,255,255,0.2) 80%,
+rgba(255,255,255,0.5) 100%);
+-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor;
+mask-composite: exclude;
+pointer-events: none;
+}
+
+.hero-title {
+font-family: 'Instrument Serif', serif;
+font-style: italic;
+font-size: clamp(96px, 18vw, 280px);
+line-height: 0.92;
+letter-spacing: -0.02em;
+color: white;
+text-align: center;
+}
+
+:root { font-family: 'Barlow', sans-serif; background: #000; color: white; color-scheme: dark; }
+body { margin: 0; min-width: 320px; background: #000; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+a:focus-visible, button:focus-visible { outline: 2px solid white; outline-offset: 5px; }
+.menu-toggle { display: none; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 100%; }
+.mobile-links { display: none; }
+.hero-actions { white-space: nowrap; }
+@media (max-width: 767px) {
+  .hero-nav { width: calc(100% - 32px); top: 16px; }
+  .nav-pill { justify-content: space-between; gap: 12px; }
+  .desktop-links, .sign-in { display: none; }
+  .nav-account { margin-left: 0; gap: 12px; }
+  .menu-toggle { display: flex; }
+  .mobile-links { display: flex; flex-direction: column; gap: 0; margin-top: 10px; border-radius: 22px; padding: 12px; background: rgba(0,0,0,.75); }
+  .mobile-links a { padding: 10px 14px; }
+  .hero-heading { top: 130px !important; padding: 0 12px; }
+  .hero-title { font-size: clamp(70px, 21vw, 150px); }
+  .bottom-row::before { content: ""; position: fixed; z-index: -1; pointer-events: none; left: -24px; right: -24px; bottom: -28px; height: 280px; background: linear-gradient(transparent, rgba(0,0,0,.68)); }
+  .bottom-row { bottom: max(28px, env(safe-area-inset-bottom)); padding: 0 24px; flex-direction: column; align-items: center; gap: 15px; }
+  .left-copy, .right-copy { max-width: 290px; text-align: center; font-size: 13px; line-height: 1.55; text-shadow: 0 1px 12px #000; }
+  .hero-actions { position: static; transform: none; order: 2; margin-top: 5px; }
+  .right-copy { order: 1; }
+  .hero-actions button { padding: 12px 21px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; }
+}

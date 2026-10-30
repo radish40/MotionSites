@@ -1,0 +1,124 @@
+{
+  "errors": [],
+  "requestFailures": [],
+  "checks": [
+    {
+      "name": "parallax and CTA hover/press",
+      "transform": "matrix(1.08, 0, 0, 1.08, 4.2632, 4.2096)",
+      "hover": {
+        "transform": "matrix(1.03, 0, 0, 1.03, 0, 0)",
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.25) 0px 0px 24px 4px"
+      }
+    },
+    {
+      "name": "desktop",
+      "initial": {
+        "title": "MicroVisuals",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "video": {
+          "width": 3328,
+          "height": 2492,
+          "duration": 6.041667,
+          "time": 2.157243
+        },
+        "fonts": {
+          "heading": true,
+          "body": true
+        },
+        "controls": [
+          {
+            "text": "Start generating",
+            "bounds": {
+              "x": 572.078125,
+              "y": 908,
+              "width": 148.28125,
+              "height": 44,
+              "top": 908,
+              "right": 720.359375,
+              "bottom": 952,
+              "left": 572.078125
+            }
+          },
+          {
+            "text": "See templates",
+            "bounds": {
+              "x": 732.359375,
+              "y": 908,
+              "width": 135.5625,
+              "height": 44,
+              "top": 908,
+              "right": 867.921875,
+              "bottom": 952,
+              "left": 732.359375
+            }
+          }
+        ]
+      },
+      "frames": {
+        "count": 22,
+        "width": 960,
+        "height": 719
+      },
+      "reversePlayback": true,
+      "forwardPlayback": true
+    },
+    {
+      "name": "mobile menu open, Escape close, and link close",
+      "passed": true
+    },
+    {
+      "name": "mobile",
+      "initial": {
+        "title": "MicroVisuals",
+        "width": 390,
+        "scrollWidth": 390,
+        "video": {
+          "width": 3328,
+          "height": 2492,
+          "duration": 6.041667,
+          "time": 2.4414
+        },
+        "fonts": {
+          "heading": true,
+          "body": true
+        },
+        "controls": [
+          {
+            "text": "Start generating",
+            "bounds": {
+              "x": 53.078125,
+              "y": 772,
+              "width": 142.28125,
+              "height": 44,
+              "top": 772,
+              "right": 195.359375,
+              "bottom": 816,
+              "left": 53.078125
+            }
+          },
+          {
+            "text": "See templates",
+            "bounds": {
+              "x": 207.359375,
+              "y": 772,
+              "width": 129.5625,
+              "height": 44,
+              "top": 772,
+              "right": 336.921875,
+              "bottom": 816,
+              "left": 207.359375
+            }
+          }
+        ]
+      },
+      "frames": {
+        "count": 19,
+        "width": 960,
+        "height": 719
+      },
+      "reversePlayback": true,
+      "forwardPlayback": true
+    }
+  ]
+}

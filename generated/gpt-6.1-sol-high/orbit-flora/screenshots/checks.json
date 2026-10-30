@@ -1,0 +1,56 @@
+{
+  "desktop": {
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "animationRemoved": true,
+    "fonts": [
+      true,
+      true
+    ],
+    "images": [
+      {
+        "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260808_192942_e1086505-d7da-433b-a59b-8220f4e6c808.png&w=1280&q=85",
+        "width": 1280,
+        "height": 1451
+      },
+      {
+        "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260808_192942_e1086505-d7da-433b-a59b-8220f4e6c808.png&w=1280&q=85",
+        "width": 1280,
+        "height": 1451
+      },
+      {
+        "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260808_151324_bf318a5f-5525-4fc7-aab5-e9a341018828.png&w=1280&q=85",
+        "width": 1280,
+        "height": 1440
+      }
+    ],
+    "flower": {
+      "x": 239.3359375,
+      "y": 147.484375
+    }
+  },
+  "trail": {
+    "masked": true,
+    "canvases": 2,
+    "points": 15,
+    "headRadius": 127.46560849372533,
+    "closed": true
+  },
+  "desktopNav": "#resources",
+  "mobile": {
+    "overflow": false,
+    "burger": "flex",
+    "closedInert": true,
+    "openFocus": "Home",
+    "reverseTrap": "burger",
+    "escapeAndLinkClose": true,
+    "scrimClose": true
+  },
+  "reducedMotion": {
+    "entranceDone": true,
+    "activeAnimations": 0
+  },
+  "errors": [],
+  "requestFailures": []
+}

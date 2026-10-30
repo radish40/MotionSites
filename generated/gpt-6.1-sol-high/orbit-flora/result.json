@@ -1,0 +1,86 @@
+{
+  "title": "Orbit Flora",
+  "id": "orbit-flora",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html exists",
+    "browser": "Chromium with Playwright; real distribution served at /motionsites-results/orbit-flora/",
+    "details": {
+      "desktop": {
+        "width": 1440,
+        "height": 1000,
+        "overflow": false,
+        "animationRemoved": true,
+        "fonts": [
+          true,
+          true
+        ],
+        "images": [
+          {
+            "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260808_192942_e1086505-d7da-433b-a59b-8220f4e6c808.png&w=1280&q=85",
+            "width": 1280,
+            "height": 1451
+          },
+          {
+            "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260808_192942_e1086505-d7da-433b-a59b-8220f4e6c808.png&w=1280&q=85",
+            "width": 1280,
+            "height": 1451
+          },
+          {
+            "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260808_151324_bf318a5f-5525-4fc7-aab5-e9a341018828.png&w=1280&q=85",
+            "width": 1280,
+            "height": 1440
+          }
+        ],
+        "flower": {
+          "x": 239.3359375,
+          "y": 147.484375
+        }
+      },
+      "trail": {
+        "masked": true,
+        "canvases": 2,
+        "points": 15,
+        "headRadius": 127.46560849372533,
+        "closed": true
+      },
+      "desktopNav": "#resources",
+      "mobile": {
+        "overflow": false,
+        "burger": "flex",
+        "closedInert": true,
+        "openFocus": "Home",
+        "reverseTrap": "burger",
+        "escapeAndLinkClose": true,
+        "scrimClose": true
+      },
+      "reducedMotion": {
+        "entranceDone": true,
+        "activeAnimations": 0
+      },
+      "errors": [],
+      "requestFailures": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-reveal.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "Original Orbit Sans and Orbit Display TTFs",
+      "issue": "No original index.html or embedded font data was supplied; original binaries could not be recovered.",
+      "resolution": "Embedded Arimo weight 400 and Tinos Regular TTF data URLs under the requested CSS family names; licenses included. Typography is an approximation."
+    }
+  ],
+  "notes": [
+    "Native single-file HTML/CSS/JavaScript; no framework or runtime dependencies.",
+    "Both exact supplied Higgsfield URLs loaded successfully in Chromium; local unmodified copies are fallback assets.",
+    "No preview image used in webpage. No assets extracted from reference.",
+    "No deployment, push, agents, or external messages. All written artifacts are inside this project.",
+    "Ready for review, not deployed. Original font fidelity remains a documented limitation."
+  ]
+}

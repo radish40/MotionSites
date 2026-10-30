@@ -1,0 +1,1 @@
+{"name":"orbit-flora","version":"1.0.0","private":true,"description":"Orbit Flora single-file animated poster","scripts":{"build":"node scripts/build.mjs","check":"node scripts/check.cjs"}}

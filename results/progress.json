@@ -1,11 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:19:05.814466+00:00",
+  "updated_utc": "2026-10-30T04:20:24.582464+00:00",
   "total": 380,
   "counts": {
-    "complete": 277,
-    "ready": 1,
+    "complete": 279,
     "running": 5,
-    "not_started": 97
+    "not_started": 96
   },
   "current_batch": {
     "from_number": 201,
@@ -2741,11 +2740,11 @@
       "id": "community-superdesign-synapse",
       "title": "Synapse",
       "category": "Landing Page",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18afd-ba77-71d3-a1f2-4605ef63f191",
-      "source_commit": "a406c02d24100dbe839d375426626fd5c7deabbc",
+      "source_commit": "73a0cdca622fe2e36e758a429be2a8748974afb8",
       "group_message_id": 340,
-      "url": null
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-synapse/"
     },
     {
       "id": "community-superdesign-card-swap",
@@ -2811,18 +2810,18 @@
       "id": "community-superdesign-ghost-cursor",
       "title": "Ghost Cursor",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b03-d86b-74a3-9ac7-82f861d0cb1c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9e2b7e53de03ee3242fbb41f0a3e176f98c92394",
+      "group_message_id": 345,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-ghost-cursor/"
     },
     {
       "id": "community-superdesign-interactive-folder",
       "title": "Interactive Folder",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b07-92bd-71d2-8024-8a3afa33644f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2832,7 +2831,7 @@
       "title": "Parallax Stars Background",
       "category": "Animations & Backgrounds",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b07-9337-79e1-9585-b7cf7bd2ae1b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2842,7 +2841,7 @@
       "title": "Typing animation",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b07-945c-76c1-a61b-6c904b620fec",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2851,7 +2850,7 @@
       "id": "community-superdesign-pill-nav",
       "title": "Pill Nav",
       "category": "Components",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

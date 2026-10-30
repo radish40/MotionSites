@@ -37,7 +37,7 @@ const assert = require('node:assert/strict');
       await page.goto(new URL('destinations/',base).href,{waitUntil:'domcontentloaded'});
       const search = page.getByRole('textbox',{name:'Find your tour'});
       await search.fill('Switzerland');
-      const tourLinks = page.locator('a[href*="/destinations/"]');
+      const tourLinks = page.locator('#destcontainer a[href*="/destinations/"]');
       await page.waitForTimeout(800);
       assert.equal(await tourLinks.count(), 1);
       await tourLinks.first().click();

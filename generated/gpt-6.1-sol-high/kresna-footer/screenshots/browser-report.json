@@ -1,0 +1,102 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/kresna-footer/",
+  "viewports": {
+    "desktop": {
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "fonts": {
+        "dmSans": true,
+        "caveat": true
+      },
+      "video": {
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 2.128686,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      "left": {
+        "x": 145,
+        "y": 48,
+        "width": 350,
+        "height": 458.296875
+      },
+      "right": {
+        "x": 511,
+        "y": 48,
+        "width": 784,
+        "height": 458.296875
+      },
+      "watermarkViewBox": "-13.615432739257812 -77.64945220947266 1027.2308349609375 416.6768798828125",
+      "navLinks": 9,
+      "socialLinks": 4,
+      "interactions": "passed: required email, invalid email, valid email disclosure, Enter key, navigation hash; desktop hover checks"
+    },
+    "mobile": {
+      "scrollWidth": 390,
+      "viewport": 390,
+      "fonts": {
+        "dmSans": true,
+        "caveat": true
+      },
+      "video": {
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+        "readyState": 4,
+        "paused": false,
+        "currentTime": 2.057783,
+        "width": 1920,
+        "height": 1080,
+        "muted": true,
+        "loop": true
+      },
+      "left": {
+        "x": 24,
+        "y": 48,
+        "width": 342,
+        "height": 295.09375
+      },
+      "right": {
+        "x": 24,
+        "y": 359.09375,
+        "width": 342,
+        "height": 466.296875
+      },
+      "watermarkViewBox": "-13.59221076965332 -77.65782165527344 1027.184326171875 417.5663146972656",
+      "navLinks": 9,
+      "socialLinks": 4,
+      "interactions": "passed: required email, invalid email, valid email disclosure, Enter key, navigation hash; desktop hover checks"
+    }
+  },
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260503_104800_bc43ae09-f494-43e3-97d7-2f8c1692cfd7.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "localVideoFallback": {
+    "source": "http://127.0.0.1:4173/motionsites-results/kresna-footer/assets/kresna-background.mp4",
+    "playing": true
+  },
+  "extraWidths": [
+    320,
+    560,
+    768,
+    860,
+    861,
+    1024,
+    1920
+  ],
+  "requestNotes": "ERR_ABORTED media requests can occur when Chromium closes a page with an ongoing video download. Both main checks verify decoded frames and advancing playback; the fallback check deliberately blocks the CDN."
+}

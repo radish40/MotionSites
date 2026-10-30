@@ -1,0 +1,28 @@
+{
+  "title": "Kresna Footer",
+  "id": "kresna-footer",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only && npm run build'",
+  "checks": {
+    "build": "passed; dist/index.html and local video included",
+    "desktop": "passed at 1440x1000; screenshots/desktop.png",
+    "mobile": "passed at 390x844; screenshots/mobile.png (full page)",
+    "fonts": "DM Sans and Caveat loaded from Google Fonts",
+    "video": "specified CDN video decoded and autoplayed muted with loop enabled; local fallback also verified with CDN blocked",
+    "interactions": "native required/invalid email validation, Enter key, honest disconnected-service feedback, navigation fragments, social hrefs, nav/social/button hover effects",
+    "overflow": "none at 320, 390, 560, 768, 860, 861, 1024, 1440, 1920 pixels",
+    "script_errors": 0,
+    "report": "screenshots/browser-report.json"
+  },
+  "asset_issues": [
+    "Optional preview image was absent; visual implementation follows PROMPT.md.",
+    "Remote fonts remain network-dependent by specification; both loaded successfully.",
+    "Chromium recorded media ERR_ABORTED events during page closure, with playback verified before closure. The exact remote video also has a working local fallback."
+  ],
+  "notes": [
+    "Single HTML source with inline CSS and JavaScript; native Node build, no runtime framework or package dependencies.",
+    "Relative assets support /motionsites-results/kresna-footer/.",
+    "No newsletter backend, parent-page anchor targets, or brand-specific social profiles were supplied. See README.md for integration limits.",
+    "No deployment or push performed; ready for review."
+  ]
+}

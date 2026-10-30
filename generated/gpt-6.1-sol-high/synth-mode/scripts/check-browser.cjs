@@ -1,0 +1,78 @@
+const { chromium } = require('/app/node_modules/playwright-core');
+const fs = require('fs');
+const http = require('http');
+const path = require('path');
+const root = '/work/dist';
+const base = '/motionsites-results/synth-mode/';
+const server = http.createServer((req,res)=>{
+ const name=decodeURIComponent(req.url.split('?')[0]);
+ if(!name.startsWith(base)){res.writeHead(404);res.end();return}
+ const file=path.join(root,name.slice(base.length)||'index.html');
+ if(!fs.existsSync(file)){res.writeHead(404);res.end();return}
+ const mime={'.html':'text/html','.js':'text/javascript','.css':'text/css','.webp':'image/webp','.woff2':'font/woff2'};
+ res.setHeader('Content-Type',mime[path.extname(file)]||'application/octet-stream');fs.createReadStream(file).pipe(res);
+});
+(async()=>{
+ await new Promise(resolve=>server.listen(4173,'0.0.0.0',resolve));
+ const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+ const report={url:'http://localhost:4173'+base,checks:[],errors:[],failedRequests:[],responses:[]};
+ const check=(label,value)=>{report.checks.push({label,passed:!!value});if(!value)throw new Error(label)};
+ const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+ page.on('pageerror',e=>report.errors.push(e.message));
+ page.on('requestfailed',r=>report.failedRequests.push({url:r.url(),error:r.failure()}));
+ page.on('response',r=>{if(r.status()>=400)report.responses.push({url:r.url(),status:r.status()})});
+ try{
+ await page.goto(report.url,{waitUntil:'networkidle'});await page.evaluate(async()=>{await Promise.all([document.fonts.load('800 32px Orbitron'),document.fonts.load('400 14px "Plus Jakarta Sans"')]);await document.fonts.ready});
+ check('page title',await page.title()==='LGPSM — Future Forward Fashion');
+ check('Orbitron and Jakarta loaded',await page.evaluate(()=>document.fonts.check('800 32px Orbitron')&&document.fonts.check('400 14px "Plus Jakarta Sans"')));
+ report.desktopLayout=await page.evaluate(()=>({width:innerWidth,height:innerHeight,scrollWidth:document.documentElement.scrollWidth,scrollHeight:document.documentElement.scrollHeight}));
+ check('desktop no horizontal or vertical overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth&&document.documentElement.scrollHeight<=innerHeight));
+ await page.screenshot({path:'/work/screenshots/desktop.png',fullPage:true});
+ const before=await page.locator('.reveal-layer').evaluate(el=>el.style.maskImage);
+ await page.mouse.move(760,420);await page.waitForTimeout(800);
+ const after=await page.locator('.reveal-layer').evaluate(el=>el.style.maskImage);
+ check('cursor updates canvas spotlight mask',after.includes('data:image/png')&&before!==after);
+ await page.screenshot({path:'/work/screenshots/desktop-reveal.png'});
+ await page.getByRole('button',{name:'SHOP NOW',exact:true}).click();
+ check('Catalog opens with four exact garments',await page.locator('.product-row').count()===4);
+ await page.getByRole('button',{name:'ADD',exact:true}).first().click();
+ check('Add shows exact toast',await page.getByRole('status').innerText()==='Added "CYBER-TEX OVERCOAT" to your shopping bag.');
+ await page.screenshot({path:'/work/screenshots/catalog.png'});
+ await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'Shopping bag, 1 items'}).click();
+ check('cart shows selected item',await page.locator('.cart-row').count()===1);
+ await page.getByRole('button',{name:'Remove',exact:true}).click();
+ check('remove restores empty cart',await page.getByText('Your shopping bag is empty.').isVisible());
+ await page.getByRole('button',{name:'Close drawer'}).click();
+ await page.getByRole('button',{name:'SHOP',exact:true}).click();
+ await page.getByRole('button',{name:'ADD',exact:true}).nth(1).click();
+ await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'Shopping bag, 1 items'}).click();
+ await page.getByRole('button',{name:'CHECKOUT NOW'}).click();
+ check('checkout clears cart, closes drawer, shows success',await page.getByRole('dialog').count()===0&&await page.getByRole('status').innerText()==='Order submitted successfully!'&&await page.getByRole('button',{name:'Shopping bag, 0 items'}).count()===1);
+ await page.getByRole('button',{name:'COLLECTIONS',exact:true}).click();
+ check('all collections displayed',await page.locator('.collection-row').count()===3);
+ await page.locator('.backdrop').click({position:{x:20,y:300}});
+ check('backdrop closes drawer',await page.getByRole('dialog').count()===0);
+ await page.getByRole('button',{name:'JOURNAL',exact:true}).click();
+ check('all editorial entries displayed',await page.locator('.journal-row').count()===3);
+ await page.keyboard.press('Escape');
+ await page.waitForTimeout(3100);
+ await page.setViewportSize({width:390,height:844});
+ await page.evaluate(()=>document.activeElement instanceof HTMLElement&&document.activeElement.blur());
+ await page.screenshot({path:'/work/screenshots/mobile.png'});
+ await page.screenshot({path:'/work/screenshots/mobile-full.png',fullPage:true});
+ check('mobile has no horizontal overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ check('mobile static image loads, interactive backdrop hidden',await page.locator('.mobile-media img').evaluate(el=>el.complete&&el.naturalWidth===1920)&&await page.locator('.image-background').isHidden());
+ await page.getByRole('button',{name:'SHOP NOW',exact:true}).click();
+ await page.waitForTimeout(400);
+ check('mobile drawer fits viewport',await page.locator('.drawer').evaluate(el=>el.getBoundingClientRect().left>=0&&el.getBoundingClientRect().right<=innerWidth));
+ await page.getByRole('button',{name:'ADD',exact:true}).nth(3).click();
+ check('mobile add works',await page.getByRole('status').isVisible());
+ await page.screenshot({path:'/work/screenshots/mobile-catalog.png'});
+ await page.keyboard.press('Escape');
+ check('no browser script errors',report.errors.length===0);
+ }catch(e){report.failure=e.stack}
+ fs.writeFileSync('/work/screenshots/browser-report.json',JSON.stringify(report,null,2));
+ console.log(JSON.stringify(report,null,2));await browser.close();server.close();if(report.failure)process.exitCode=1;
+})();

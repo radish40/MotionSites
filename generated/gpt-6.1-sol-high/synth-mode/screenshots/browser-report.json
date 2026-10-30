@@ -1,0 +1,82 @@
+{
+  "url": "http://localhost:4173/motionsites-results/synth-mode/",
+  "checks": [
+    {
+      "label": "page title",
+      "passed": true
+    },
+    {
+      "label": "Orbitron and Jakarta loaded",
+      "passed": true
+    },
+    {
+      "label": "desktop no horizontal or vertical overflow",
+      "passed": true
+    },
+    {
+      "label": "cursor updates canvas spotlight mask",
+      "passed": true
+    },
+    {
+      "label": "Catalog opens with four exact garments",
+      "passed": true
+    },
+    {
+      "label": "Add shows exact toast",
+      "passed": true
+    },
+    {
+      "label": "cart shows selected item",
+      "passed": true
+    },
+    {
+      "label": "remove restores empty cart",
+      "passed": true
+    },
+    {
+      "label": "checkout clears cart, closes drawer, shows success",
+      "passed": true
+    },
+    {
+      "label": "all collections displayed",
+      "passed": true
+    },
+    {
+      "label": "backdrop closes drawer",
+      "passed": true
+    },
+    {
+      "label": "all editorial entries displayed",
+      "passed": true
+    },
+    {
+      "label": "mobile has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "mobile static image loads, interactive backdrop hidden",
+      "passed": true
+    },
+    {
+      "label": "mobile drawer fits viewport",
+      "passed": true
+    },
+    {
+      "label": "mobile add works",
+      "passed": true
+    },
+    {
+      "label": "no browser script errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "responses": [],
+  "desktopLayout": {
+    "width": 1440,
+    "height": 1000,
+    "scrollWidth": 1440,
+    "scrollHeight": 1000
+  }
+}

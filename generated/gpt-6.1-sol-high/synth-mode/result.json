@@ -1,0 +1,115 @@
+{
+  "title": "Synth Mode",
+  "id": "synth-mode",
+  "status": "ready",
+  "page_title": "LGPSM — Future Forward Fashion",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD\":/work -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "desktop_viewport": "1440x1000",
+    "mobile_viewport": "390x844",
+    "browser_checks": [
+      {
+        "label": "page title",
+        "passed": true
+      },
+      {
+        "label": "Orbitron and Jakarta loaded",
+        "passed": true
+      },
+      {
+        "label": "desktop no horizontal or vertical overflow",
+        "passed": true
+      },
+      {
+        "label": "cursor updates canvas spotlight mask",
+        "passed": true
+      },
+      {
+        "label": "Catalog opens with four exact garments",
+        "passed": true
+      },
+      {
+        "label": "Add shows exact toast",
+        "passed": true
+      },
+      {
+        "label": "cart shows selected item",
+        "passed": true
+      },
+      {
+        "label": "remove restores empty cart",
+        "passed": true
+      },
+      {
+        "label": "checkout clears cart, closes drawer, shows success",
+        "passed": true
+      },
+      {
+        "label": "all collections displayed",
+        "passed": true
+      },
+      {
+        "label": "backdrop closes drawer",
+        "passed": true
+      },
+      {
+        "label": "all editorial entries displayed",
+        "passed": true
+      },
+      {
+        "label": "mobile has no horizontal overflow",
+        "passed": true
+      },
+      {
+        "label": "mobile static image loads, interactive backdrop hidden",
+        "passed": true
+      },
+      {
+        "label": "mobile drawer fits viewport",
+        "passed": true
+      },
+      {
+        "label": "mobile add works",
+        "passed": true
+      },
+      {
+        "label": "no browser script errors",
+        "passed": true
+      }
+    ],
+    "browser_script_errors": [],
+    "failed_requests": [],
+    "http_errors": [],
+    "report": "screenshots/browser-report.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-full.png",
+      "screenshots/desktop-reveal.png",
+      "screenshots/catalog.png",
+      "screenshots/mobile-catalog.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "Both supplied Higgs images",
+      "status": "resolved",
+      "detail": "Initial Python requests returned 403. Exact original URLs recovered with Mozilla/5.0 user agent and mirrored unchanged locally. No screenshot extraction or generated substitutes."
+    },
+    {
+      "asset": "Google Fonts",
+      "status": "resolved",
+      "detail": "Exact Google Fonts URL retained; exact families and weights cached locally from Google Fonts. Explicit browser load checks pass for Orbitron and Plus Jakarta Sans."
+    }
+  ],
+  "notes": [
+    "Built only Synth Mode in the authorized project.",
+    "Production base: /motionsites-results/synth-mode/. No deployment or push.",
+    "React 19 + Vite + TypeScript + Tailwind CSS v4 + lucide-react.",
+    "Canvas reveal uses specified easing, radial gradient stops, radius and grid parallax.",
+    "Checkout is the specified client-side confirmation, cart reset and drawer close, without a payment backend.",
+    "Ready means available for acceptance review, not deployed."
+  ]
+}

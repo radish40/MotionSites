@@ -1,0 +1,68 @@
+{
+  "checked_utc": "2026-10-30T05:16:07.999Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "workNavigation": true,
+      "projectDialogAndEscape": true,
+      "parallaxTransformChanged": true,
+      "pin": {
+        "position": "fixed",
+        "top": -0.28125
+      },
+      "heroAndFooterVideos": [
+        {
+          "time": 3.848294,
+          "duration": 9.041666,
+          "width": 1708,
+          "height": 1212,
+          "paused": false,
+          "error": null
+        },
+        {
+          "time": 3.148401,
+          "duration": 9.041666,
+          "width": 1708,
+          "height": 1212,
+          "paused": false,
+          "error": null
+        }
+      ],
+      "emailAndSocialLinks": true,
+      "scriptErrors": []
+    },
+    {
+      "viewport": "mobile",
+      "workNavigation": true,
+      "projectDialogAndEscape": true,
+      "parallaxTransformChanged": true,
+      "pin": {
+        "position": "fixed",
+        "top": -0.21875
+      },
+      "heroAndFooterVideos": [
+        {
+          "time": 3.503572,
+          "duration": 9.041666,
+          "width": 1708,
+          "height": 1212,
+          "paused": false,
+          "error": null
+        },
+        {
+          "time": 3.48745,
+          "duration": 9.041666,
+          "width": 1708,
+          "height": 1212,
+          "paused": false,
+          "error": null
+        }
+      ],
+      "emailAndSocialLinks": true,
+      "scriptErrors": []
+    }
+  ],
+  "id": "portfolio-cosmic-hero",
+  "source_commit": "6e24e5ce4d7659f6385e4b4f68c0e0605dc57e80"
+}

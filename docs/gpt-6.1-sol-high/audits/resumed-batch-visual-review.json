@@ -1546,7 +1546,104 @@
       ],
       "reviewed_utc": "2026-10-30T05:07:40.613286+00:00",
       "observation": "Actually reviewed final public-check desktop and phone captures. Black Synapse hero, original full-opacity Mux HLS floating band, three glass integration badges, two-line headline, CTAs and static grayscale brand row fit; phone row wraps without collision. Real browser confirms decoded, advancing HLS on both sizes, motion entrances, navigation dialog/Escape, signup/contact local preview dialogs and reduced-motion rendering; no script or failed-resource errors. Optional own reference absent, documented. Local dialogs do not send/store data or connect unspecified backend services. Numeric result id normalizes to catalog URL id 7; index name remains Synapse Dark Hero."
+    },
+    {
+      "id": "portfolio-cosmic-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop and mobile hero, full pages, journal, pinned exploration gallery and mobile contact. Independently checked published See Works navigation accounting for intentional 110px root scroll padding, project dialog/Escape, pinned center and changing parallax transforms, two original HLS video clocks advancing on both viewports, email and four social links without script errors. Four unspecified project subjects use isolated images; sample journal/resume content and platform-level social URLs are documented. Gallery reserves 300vh intentionally. Inter and Instrument Serif loaded.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/portfolio-cosmic-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/portfolio-cosmic-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:18:17.035107+00:00",
+      "additional_review_captures": [
+        ".work/generation/cosmic-319-desktop-journal.png",
+        ".work/generation/cosmic-319-mobile-journal.png",
+        ".work/generation/cosmic-319-desktop-gallery.png",
+        ".work/generation/cosmic-319-mobile-gallery.png",
+        ".work/generation/cosmic-319-mobile-footer.png"
+      ]
+    },
+    {
+      "id": "3",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop and mobile ClearInvoice hero. Exact original full-opacity HLS background, narrow multi-color top bar, orange primary CTA, glass secondary CTA, three avatar trust row and genuine Switzer/Geist fonts fit. Worker verifies original stream playback at both viewports, hover arrow, menu/dialog interactions and no overflow or browser/network errors. Account controls are local concept dialogs with no account backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/3/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/3/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:18:17.035107+00:00"
+    },
+    {
+      "id": "codenest-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop, mobile and full-screen mobile menu. Exact 60-percent original HLS background, left/bottom gradients, cyan ellipse glow and 200px glass card translated upward 50px fit. Genuine Inter, Instrument Serif and Plus Jakarta Sans loaded. Worker verifies all three desktop grid lines, five responsive widths, HLS decoding, learning path dialogs, menu focus and Escape, reduced-motion poster, and no console/network errors. Native Safari fallback is implemented but untested.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/codenest-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/codenest-hero/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/codenest-hero/screenshots/mobile-menu.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:18:17.035107+00:00"
+    },
+    {
+      "id": "digitwist-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop and mobile. Exact original 60-percent HLS layer with specified dark overlay, blurred glows, Instrument Sans/Serif, large white-blue gradient headline, staggered entrance and both CTAs fit. Mobile center navigation hides as specified while Get Started remains. Worker verifies source video clocks/decoding, fonts, local dialogs, reduced-motion playback pause and no overflow/errors. AI generation, billing and accounts are concept UI without a backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/digitwist-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/digitwist-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:18:17.035107+00:00"
+    },
+    {
+      "id": "deck-investor",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed all five slides on desktop and mobile. Exact five original HLS backgrounds retained with requested transforms, distinct heading/copy, 80/63/47-percent metrics, purple-pink chart and 32/127-percent callouts, distribution and expansion slides fit. Worker verifies five dots, keyboard navigation, persistent video element identities and clocks advancing for every stream at both viewports without overflow/errors. Aeonik font binary was not supplied and falls back to sans; unspecified logo path and chart image are reconstructed locally, with fidelity limitations documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/desktop-slide-2.png",
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/desktop-slide-3.png",
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/desktop-slide-4.png",
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/desktop-slide-5.png",
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/mobile-slide-2.png",
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/mobile-slide-3.png",
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/mobile-slide-4.png",
+        "generated/gpt-6.1-sol-high/deck-investor/screenshots/mobile-slide-5.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:18:17.035107+00:00"
+    },
+    {
+      "id": "bionova-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Actually reviewed desktop and mobile first view plus full mobile scroll. Desktop is exactly 100vh with Poppins, inline image pill, white/blue CTAs, partner wordmarks and three video cards; phone stacks cards and hides partners as specified. All three exact HLS sources decode/play at desktop and phone, including prescribed 150/280-percent video scales. Worker verifies process/location/contact dialogs, close/Escape, font loading and no horizontal overflow, script errors or failed requests. Booking/authentication remain local concept interactions; illustrative email clearly labeled.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/bionova-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/bionova-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T05:18:17.035107+00:00",
+      "additional_review_captures": [
+        ".work/generation/bionova-324-mobile-full.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T05:07:40.613286+00:00"
+  "updated_utc": "2026-10-30T05:18:17.035107+00:00"
 }

@@ -1,0 +1,180 @@
+{
+  "recorded_utc": "2026-10-30T05:18:17.035107+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 6,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T05:11:01.220583+00:00",
+      "remote_main": "6e24e5ce4d7659f6385e4b4f68c0e0605dc57e80",
+      "delivery": {
+        "id": "portfolio-cosmic-hero",
+        "title": "Portfolio Cosmic",
+        "source_commit": "6e24e5ce4d7659f6385e4b4f68c0e0605dc57e80",
+        "thread_id": "01a18b2f-9ebb-7ba0-b63b-a5052500474b",
+        "group_message_id": 389,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:07:49.468584+00:00",
+      "remote_main": "33fe6beeb361acc60bb43543e9e3eb6e5e2b75bb",
+      "delivery": {
+        "id": "3",
+        "title": "ClearInvoice SaaS Hero",
+        "source_commit": "33fe6beeb361acc60bb43543e9e3eb6e5e2b75bb",
+        "thread_id": "01a18b2f-a4be-7ea3-88a3-c1731d0dfbb2",
+        "group_message_id": 386,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:11:26.474849+00:00",
+      "remote_main": "de6c613dcda80d416b124d36c0d6a7dc30373595",
+      "delivery": {
+        "id": "codenest-hero",
+        "title": "CodeNest Coding Platform",
+        "source_commit": "1fe25d5ce9fddc8ab5b61e2ddc68eacb97ca9e50",
+        "thread_id": "01a18b31-5f1d-7591-a903-cce5944b10b4",
+        "group_message_id": 390,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:09:26.068610+00:00",
+      "remote_main": "bce4a0281684044b879d48f2e0a3eb6a162d1e9b",
+      "delivery": {
+        "id": "digitwist-hero",
+        "title": "Digitwist AI Builder",
+        "source_commit": "bce4a0281684044b879d48f2e0a3eb6a162d1e9b",
+        "thread_id": "01a18b31-5fe5-7fd1-9566-259518266bbf",
+        "group_message_id": 388,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:12:53.944117+00:00",
+      "remote_main": "fbfa44fcd96771d7546c730958b57a0133b061ee",
+      "delivery": {
+        "id": "deck-investor",
+        "title": "Investor Deck",
+        "source_commit": "fbfa44fcd96771d7546c730958b57a0133b061ee",
+        "thread_id": "01a18b33-3953-7d40-9116-4d27fc4bdfa0",
+        "group_message_id": 391,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:13:20.596708+00:00",
+      "remote_main": "f20ec90b36256a0abf2b4a7503e29122138c635a",
+      "delivery": {
+        "id": "bionova-hero",
+        "title": "Bionova Biotech",
+        "source_commit": "f20ec90b36256a0abf2b4a7503e29122138c635a",
+        "thread_id": "01a18b34-79d2-71f2-904c-ed1540cd45f3",
+        "group_message_id": 392,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

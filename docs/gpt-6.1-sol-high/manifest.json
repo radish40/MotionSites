@@ -7571,19 +7571,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac2-b8c5-7ea3-b328-bfa56f7659e6",
       "output_path": "generated/gpt-6.1-sol-high/waitlist-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 462410,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:02:59.443583+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "2632721ac98f12b4a7184aa94b82e533c57edf75",
+      "url": "https://tool.luo-xd.com/motionsites-results/waitlist-hero/",
+      "completed_utc": "2026-10-30T03:11:09.581624+00:00",
+      "group_message_id": 285
     },
     {
       "number": 222,
@@ -7601,19 +7605,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac5-77b8-7832-896a-ebdba1aaf01c",
       "output_path": "generated/gpt-6.1-sol-high/wanderful-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 474387,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:05:59.331192+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "6c3a1a0413ae2a45a5b20e7b5be3a7deeb794249",
+      "url": "https://tool.luo-xd.com/motionsites-results/wanderful-hero/",
+      "completed_utc": "2026-10-30T03:11:40.215120+00:00",
+      "group_message_id": 286
     },
     {
       "number": 223,
@@ -7662,14 +7670,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac7-b564-71a1-9216-068c0672da56",
       "output_path": "generated/gpt-6.1-sol-high/wellness-hero",
       "validation": "",
       "notes": "",
       "process_id": 482872,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:08:26.242361+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 225,
@@ -7688,14 +7700,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac7-b5f9-7643-8350-bcfde8333127",
       "output_path": "generated/gpt-6.1-sol-high/yoga-coach",
       "validation": "",
       "notes": "",
       "process_id": 482940,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:08:26.379935+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 226,
@@ -7713,11 +7729,15 @@
       "preview_kind": "png",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/404",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 490825,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:10:30.437317+00:00",
+      "worker_state": "running"
     },
     {
       "number": 227,
@@ -7735,11 +7755,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/ai-image-generator-ui",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 490884,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:10:30.556427+00:00",
+      "worker_state": "running"
     },
     {
       "number": 228,
@@ -11108,7 +11132,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:09:37.278322+00:00",
+  "updated_utc": "2026-10-30T03:11:40.379713+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

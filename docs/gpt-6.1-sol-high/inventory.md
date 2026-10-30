@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 220/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 222/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -305,13 +305,13 @@
 | 218 | `velorix-iic` | Velorix IIC | Hero Section | 2 | 图片 | 已完成 |
 | 219 | `vertex-sci` | Vertex Sci | Hero Section | 2 | 图片 | 已完成 |
 | 220 | `visual-hero` | Visual Hero | Hero Section | 2 | 图片 | 已完成 |
-| 221 | `waitlist-hero` | Waitlist Hero | Hero Section | 2 | 图片 | 生成中 |
-| 222 | `wanderful-hero` | Wanderful Hero | Travel | 2 | 图片 | 生成中 |
+| 221 | `waitlist-hero` | Waitlist Hero | Hero Section | 2 | 图片 | 已完成 |
+| 222 | `wanderful-hero` | Wanderful Hero | Travel | 2 | 图片 | 已完成 |
 | 223 | `wellness-balance` | Wellness Balance | Hero Section | 2 | 图片 | 生成中 |
 | 224 | `wellness-hero` | Wellness Hero | Hero Section | 2 | 图片 | 生成中 |
 | 225 | `yoga-coach` | Yoga Coach | Landing Page | 2 | 图片 | 生成中 |
-| 226 | `404` | Nexto 404 | 404 Pages | 2 | 图片 | 未开始 |
-| 227 | `ai-image-generator-ui` | AI Image Generator UI | AI Apps | 1 | 图片 | 未开始 |
+| 226 | `404` | Nexto 404 | 404 Pages | 2 | 图片 | 生成中 |
+| 227 | `ai-image-generator-ui` | AI Image Generator UI | AI Apps | 1 | 图片 | 生成中 |
 | 228 | `modern-hr-dashboard` | Modern HR Dashboard | HR | 2 | 图片 | 未开始 |
 | 229 | `saas-value` | SaaS Value | SaaS | 2 | 图片 | 未开始 |
 | 230 | `acreage-farming-hero` | Acreage Farming | Landing Page | 3 | 视频 | 未开始 |

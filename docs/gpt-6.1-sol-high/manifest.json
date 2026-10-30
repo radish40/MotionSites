@@ -8353,10 +8353,10 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ade-ff09-7902-bb48-1b0645e9df07",
       "output_path": "generated/gpt-6.1-sol-high/nexus-it-solutions",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 578019,
       "launch_method": "isolated_codex_exec",
@@ -8365,7 +8365,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "4a970f68e4277518e156f2d056feb4915d837a69",
+      "url": "https://tool.luo-xd.com/motionsites-results/nexus-it-solutions/",
+      "completed_utc": "2026-10-30T03:39:57.953494+00:00",
+      "group_message_id": 309
     },
     {
       "number": 245,
@@ -8383,10 +8387,10 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ade-ffa1-75b0-b1b2-cb500c9281d5",
       "output_path": "generated/gpt-6.1-sol-high/nickel-payments",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 578054,
       "launch_method": "isolated_codex_exec",
@@ -8395,7 +8399,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "fca3dee25e1887f8022f989a0e18dfe179da0946",
+      "url": "https://tool.luo-xd.com/motionsites-results/nickel-payments/",
+      "completed_utc": "2026-10-30T03:40:28.337599+00:00",
+      "group_message_id": 310
     },
     {
       "number": 246,
@@ -11397,7 +11405,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:39:14.799707+00:00",
+  "updated_utc": "2026-10-30T03:40:28.693919+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

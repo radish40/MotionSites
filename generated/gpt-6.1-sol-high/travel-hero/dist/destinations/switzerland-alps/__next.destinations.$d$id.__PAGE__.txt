@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[170,["174","static/chunks/174-e4ff276ecdcc8418.js","785","static/chunks/785-0683d62a3283b621.js","840","static/chunks/app/destinations/%5Bid%5D/page-c97b8ad8735133ff.js"],"default"]
+3:I[484,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"tour":{"id":"switzerland-alps","image":"/motionsites-results/travel-hero/img3.jpg","images":["/motionsites-results/travel-hero/img1.jpg","/motionsites-results/travel-hero/img6.jpg","/motionsites-results/travel-hero/img10.jpg"],"name":"Switzerland","description":"Experience the pinnacle of alpine serenity. From the pristine peaks of the Jungfrau region to the crystal-clear waters of Lake Brienz, Switzerland offers a perfect blend of high-end comfort and untouched nature.","price":3200,"priceDisplay":"$$3,200","friends":12,"bestTime":"May - Oct","visa":"Schengen / EU","imgH":360,"w":250}}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"UDo_tfmPlI8f0kBsvLdFw"}
+5:null

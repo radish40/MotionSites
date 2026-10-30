@@ -1,0 +1,281 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "desktop Inter font loads",
+      "pass": true
+    },
+    {
+      "name": "desktop hero no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "font": true,
+        "videos": [
+          {
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_220929_e6719f25-1ba0-45c2-97fc-0148805d9fb9.mp4",
+            "readyState": 4,
+            "paused": false,
+            "time": 4.478072,
+            "width": 3836
+          },
+          {
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260509_073207_eeb9b7e5-7df4-4204-80c2-163eb46466e8.mp4",
+            "readyState": 4,
+            "paused": false,
+            "time": 3.112451,
+            "width": 896
+          }
+        ],
+        "explore": {
+          "top": 906,
+          "bottom": 946
+        }
+      }
+    },
+    {
+      "name": "desktop hero video playing",
+      "pass": true,
+      "detail": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_220929_e6719f25-1ba0-45c2-97fc-0148805d9fb9.mp4",
+          "readyState": 4,
+          "paused": false,
+          "time": 4.478072,
+          "width": 3836
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260509_073207_eeb9b7e5-7df4-4204-80c2-163eb46466e8.mp4",
+          "readyState": 4,
+          "paused": false,
+          "time": 3.112451,
+          "width": 896
+        }
+      ]
+    },
+    {
+      "name": "desktop CTA within viewport",
+      "pass": true,
+      "detail": {
+        "top": 906,
+        "bottom": 946
+      }
+    },
+    {
+      "name": "desktop menu opens",
+      "pass": true
+    },
+    {
+      "name": "desktop seven destination cards",
+      "pass": true
+    },
+    {
+      "name": "desktop gallery video is a paused preview",
+      "pass": true
+    },
+    {
+      "name": "desktop gallery images load after scrolling",
+      "pass": true
+    },
+    {
+      "name": "desktop destination no page overflow",
+      "pass": true
+    },
+    {
+      "name": "desktop search filters",
+      "pass": true
+    },
+    {
+      "name": "desktop empty search",
+      "pass": true
+    },
+    {
+      "name": "desktop tour video playing",
+      "pass": true
+    },
+    {
+      "name": "desktop tour video has no filter",
+      "pass": true
+    },
+    {
+      "name": "desktop detail no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "desktop image detail loads",
+      "pass": true
+    },
+    {
+      "name": "desktop placeholder 404",
+      "pass": true
+    },
+    {
+      "name": "mobile Inter font loads",
+      "pass": true
+    },
+    {
+      "name": "mobile hero no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "font": true,
+        "videos": [
+          {
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_220929_e6719f25-1ba0-45c2-97fc-0148805d9fb9.mp4",
+            "readyState": 4,
+            "paused": false,
+            "time": 3.789371,
+            "width": 3836
+          },
+          {
+            "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260509_073207_eeb9b7e5-7df4-4204-80c2-163eb46466e8.mp4",
+            "readyState": 4,
+            "paused": true,
+            "time": 0,
+            "width": 896
+          }
+        ],
+        "explore": {
+          "top": 782.5,
+          "bottom": 822.5
+        }
+      }
+    },
+    {
+      "name": "mobile hero video playing",
+      "pass": true,
+      "detail": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_220929_e6719f25-1ba0-45c2-97fc-0148805d9fb9.mp4",
+          "readyState": 4,
+          "paused": false,
+          "time": 3.789371,
+          "width": 3836
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260509_073207_eeb9b7e5-7df4-4204-80c2-163eb46466e8.mp4",
+          "readyState": 4,
+          "paused": true,
+          "time": 0,
+          "width": 896
+        }
+      ]
+    },
+    {
+      "name": "mobile CTA within viewport",
+      "pass": true,
+      "detail": {
+        "top": 782.5,
+        "bottom": 822.5
+      }
+    },
+    {
+      "name": "mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "mobile seven destination cards",
+      "pass": true
+    },
+    {
+      "name": "mobile gallery video is a paused preview",
+      "pass": true
+    },
+    {
+      "name": "mobile gallery images load after scrolling",
+      "pass": true
+    },
+    {
+      "name": "mobile destination no page overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile search filters",
+      "pass": true
+    },
+    {
+      "name": "mobile empty search",
+      "pass": true
+    },
+    {
+      "name": "mobile tour video playing",
+      "pass": true
+    },
+    {
+      "name": "mobile tour video has no filter",
+      "pass": true
+    },
+    {
+      "name": "mobile detail no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile image detail loads",
+      "pass": true
+    },
+    {
+      "name": "mobile placeholder 404",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "font": true,
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_220929_e6719f25-1ba0-45c2-97fc-0148805d9fb9.mp4",
+          "readyState": 4,
+          "paused": false,
+          "time": 4.478072,
+          "width": 3836
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260509_073207_eeb9b7e5-7df4-4204-80c2-163eb46466e8.mp4",
+          "readyState": 4,
+          "paused": false,
+          "time": 3.112451,
+          "width": 896
+        }
+      ],
+      "explore": {
+        "top": 906,
+        "bottom": 946
+      }
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "font": true,
+      "videos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_220929_e6719f25-1ba0-45c2-97fc-0148805d9fb9.mp4",
+          "readyState": 4,
+          "paused": false,
+          "time": 3.789371,
+          "width": 3836
+        },
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260509_073207_eeb9b7e5-7df4-4204-80c2-163eb46466e8.mp4",
+          "readyState": 4,
+          "paused": true,
+          "time": 0,
+          "width": 896
+        }
+      ],
+      "explore": {
+        "top": 782.5,
+        "bottom": 822.5
+      }
+    }
+  }
+}

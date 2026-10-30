@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[170,["174","static/chunks/174-e4ff276ecdcc8418.js","785","static/chunks/785-0683d62a3283b621.js","840","static/chunks/app/destinations/%5Bid%5D/page-c97b8ad8735133ff.js"],"default"]
+3:I[484,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"tour":{"id":"desert-dunes-morocco","image":"/motionsites-results/travel-hero/img8.jpg","images":["/motionsites-results/travel-hero/img2.jpg","/motionsites-results/travel-hero/img7.jpg","/motionsites-results/travel-hero/img10.jpg"],"name":"Desert Dunes, Morocco","description":"Journey into the Sahara's vast golden dunes, ancient medinas and vibrant souks. Morocco blends Berber, Arab and French influences into one unforgettable sensory experience.","price":1600,"priceDisplay":"$$1,600","friends":7,"bestTime":"Oct - Apr","visa":"Visa free / 90 days","imgH":240,"w":215}}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"UDo_tfmPlI8f0kBsvLdFw"}
+5:null

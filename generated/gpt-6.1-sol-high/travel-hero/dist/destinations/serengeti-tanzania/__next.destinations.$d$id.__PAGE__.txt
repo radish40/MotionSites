@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[170,["174","static/chunks/174-e4ff276ecdcc8418.js","785","static/chunks/785-0683d62a3283b621.js","840","static/chunks/app/destinations/%5Bid%5D/page-c97b8ad8735133ff.js"],"default"]
+3:I[484,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"tour":{"id":"serengeti-tanzania","image":"/motionsites-results/travel-hero/img2.jpg","images":["/motionsites-results/travel-hero/img5.jpg","/motionsites-results/travel-hero/img7.jpg","/motionsites-results/travel-hero/img8.jpg"],"name":"Serengeti National Park, Tanzania","description":"Witness the greatest wildlife spectacle on Earth. The Serengeti offers unmatched safari experiences, from the Great Migration to close encounters with the Big Five across endless golden plains.","price":2400,"priceDisplay":"$$2,400","friends":14,"bestTime":"Jul - Oct","visa":"Visa on arrival","imgH":310,"w":340}}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"UDo_tfmPlI8f0kBsvLdFw"}
+5:null

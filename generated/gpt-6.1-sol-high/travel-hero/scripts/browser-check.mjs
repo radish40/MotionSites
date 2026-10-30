@@ -1,0 +1,52 @@
+import { chromium } from '/app/node_modules/playwright-core/index.mjs';
+import fs from 'node:fs';
+(async()=>{
+ const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+ const results={errors:[],failedRequests:[],checks:[],viewports:{}};
+ const base='http://127.0.0.1:3000/motionsites-results/travel-hero';
+ const check=(name,pass,detail)=>{results.checks.push({name,pass,detail});if(!pass)console.error('FAIL',name,detail)};
+ for(const [name,viewport] of Object.entries({desktop:{width:1440,height:1000},mobile:{width:390,height:844}})){
+  const ctx=await browser.newContext({viewport,ignoreHTTPSErrors:true});const page=await ctx.newPage();
+  page.on('pageerror',e=>results.errors.push({viewport:name,message:e.message}));
+  page.on('requestfailed',r=>{if(!r.failure()?.errorText.includes('ERR_ABORTED'))results.failedRequests.push({url:r.url(),error:r.failure()?.errorText})});
+  await page.goto(base+'/',{waitUntil:'load'});await page.waitForTimeout(3500);
+  await page.locator('video').first().evaluate(v=>Promise.race([new Promise(r=>{if(v.readyState>=2)r();else v.addEventListener('loadeddata',r,{once:true})}),new Promise(r=>setTimeout(r,25000))]));
+  await page.evaluate(()=>document.fonts.load('300 16px Inter'));
+  const info=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,font:document.fonts.check('300 16px Inter'),videos:[...document.querySelectorAll('video')].map(v=>({src:v.currentSrc,readyState:v.readyState,paused:v.paused,time:v.currentTime,width:v.videoWidth,error:v.error?.message})),explore:(()=>{const r=document.querySelector('#explorebtn').getBoundingClientRect();return {top:r.top,bottom:r.bottom}})()}));
+  results.viewports[name]=info;
+  check(name+' Inter font loads',info.font);
+  check(name+' hero no horizontal overflow',info.scrollWidth<=viewport.width,info);
+  check(name+' hero video playing',info.videos[0].readyState>=2&&!info.videos[0].paused,info.videos);
+  check(name+' CTA within viewport',info.explore.bottom<=viewport.height,info.explore);
+  await page.screenshot({path:`screenshots/${name}.png`,fullPage:true});
+  await page.getByRole('button',{name:'Open menu'}).click();await page.waitForTimeout(1000);
+  check(name+' menu opens',await page.getByRole('dialog').isVisible());
+  await page.screenshot({path:`screenshots/${name}-menu.png`});
+  await page.getByRole('button',{name:'Close menu'}).click();await page.waitForTimeout(900);
+  await page.locator('#explorebtn').click();await page.waitForURL('**/destinations/');await page.waitForTimeout(1200);
+  check(name+' seven destination cards',await page.locator('#destcontainer a').count()===7);
+  check(name+' gallery video is a paused preview',await page.locator('#destcontainer video').evaluate(v=>v.paused&&!v.autoplay));
+  for(const image of await page.locator('#destcontainer img').all()){await image.scrollIntoViewIfNeeded();await image.evaluate(i=>i.decode());}
+  await page.locator('#destcontainer .no-scrollbar').evaluate(el=>{el.scrollLeft=0});
+  check(name+' gallery images load after scrolling',await page.locator('#destcontainer img').evaluateAll(images=>images.every(i=>i.complete&&i.naturalWidth>0)));
+  check(name+' destination no page overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await page.screenshot({path:`screenshots/${name}-destinations.png`,fullPage:true});
+  await page.getByRole('textbox').fill('switzerland');check(name+' search filters',await page.locator('#destcontainer a').count()===1);
+  await page.getByRole('textbox').fill('zzzz');check(name+' empty search',await page.getByText('No tours found').isVisible());
+  await page.getByRole('textbox').fill('');await page.locator('#destcontainer a').first().click();await page.waitForURL('**/cold-islands-norway/');await page.waitForTimeout(2000);
+  await page.locator('video').evaluate(v=>Promise.race([new Promise(r=>{if(v.readyState>=2)r();else v.addEventListener('loadeddata',r,{once:true})}),new Promise(r=>setTimeout(r,25000))]));
+  check(name+' tour video playing',await page.locator('video').evaluate(v=>v.readyState>=2&&!v.paused));
+  check(name+' tour video has no filter',await page.locator('video').evaluate(v=>getComputedStyle(v).filter==='none'));
+  check(name+' detail no horizontal overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await page.screenshot({path:`screenshots/${name}-tour.png`,fullPage:true});
+  await page.getByRole('button',{name:'Book this tour'}).click();
+  await page.getByRole('link',{name:'Back to explore'}).click();await page.waitForURL('**/destinations/');
+  await page.goto(base+'/destinations/switzerland-alps/');await page.waitForTimeout(1500);
+  check(name+' image detail loads',await page.locator('#tourcontainer img').first().evaluate(i=>i.complete&&i.naturalWidth>0));
+  await page.goto(base+'/booking/');await page.waitForTimeout(1500);check(name+' placeholder 404',await page.getByText('Page not found',{exact:true}).isVisible());
+  await page.getByRole('link',{name:'Back to home'}).click();await page.waitForURL(base+'/');
+  await ctx.close();
+ }
+ check('no runtime errors',results.errors.length===0,results.errors);
+ fs.writeFileSync('browser-results.json',JSON.stringify(results,null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

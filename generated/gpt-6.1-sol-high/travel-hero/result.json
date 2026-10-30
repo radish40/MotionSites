@@ -1,0 +1,40 @@
+{
+  "title": "Scenic Travel",
+  "id": "travel-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -e NEXT_TELEMETRY_DISABLED=1 -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build && npm run lint'",
+  "checks": {
+    "production_build": "passed \u2014 Next.js 16.2.6 webpack static export; dist/index.html exists",
+    "lint": "passed",
+    "browser": {
+      "engine": "Chromium with Playwright Core",
+      "desktop": "1440x1000",
+      "mobile": "390x844",
+      "passed": 33,
+      "failed": 0,
+      "runtime_errors": 0,
+      "failed_requests": 0,
+      "details": "browser-results.json"
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-menu.png",
+      "screenshots/mobile-menu.png",
+      "screenshots/desktop-destinations.png",
+      "screenshots/mobile-destinations.png",
+      "screenshots/desktop-tour.png",
+      "screenshots/mobile-tour.png"
+    ],
+    "visual_review": "Desktop hero, mobile hero and video tour screenshots inspected."
+  },
+  "asset_issues": [],
+  "notes": [
+    "All three exact original CloudFront URLs respond successfully. Hero, gem desktop and tour video playback verified. Gem video is hidden and browser-paused on mobile as specified by the responsive CSS.",
+    "Inter Google font explicitly loaded and verified in both viewports. Ten photographs stored locally; sources recorded in asset-sources.json.",
+    "Static export, basePath, trailingSlash, unoptimized local images and generated route parameters adapt the prompt to required dist delivery at /motionsites-results/travel-hero/.",
+    "Booking, FAQ and Account display the specified 404; Book this tour has the specified visual interaction with no backend workflow.",
+    "Gallery lazy-loaded images were verified after scrolling them into view; offscreen lazy loading is expected behavior.",
+    "Videos and Google Fonts require network access. No deployment, push, other designs, agents or sessions were used."
+  ]
+}

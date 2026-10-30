@@ -1,0 +1,19 @@
+1:"$Sreact.fragment"
+2:I[6555,["174","static/chunks/174-e4ff276ecdcc8418.js","177","static/chunks/app/layout-4ccd9a305e70f4e8.js"],"default"]
+3:I[7121,[],""]
+4:I[4581,[],""]
+5:I[3850,["174","static/chunks/174-e4ff276ecdcc8418.js","345","static/chunks/app/not-found-1376ee3f7cf1b0b0.js"],"default"]
+7:I[484,[],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[484,[],"ViewportBoundary"]
+d:I[484,[],"MetadataBoundary"]
+f:I[7123,[],"default",1]
+:HL["/motionsites-results/travel-hero/_next/static/css/6680a9203babd5d8.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap","style"]
+0:{"P":null,"c":["","faq",""],"q":"","i":false,"f":[[["",{"children":[["catchAll","faq","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/motionsites-results/travel-hero/_next/static/css/6680a9203babd5d8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"className":"h-full antialiased","style":{"fontFamily":"'Inter', sans-serif"},"children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],null]}],false]],"m":"$undefined","G":["$f",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"UDo_tfmPlI8f0kBsvLdFw"}
+6:E{"digest":"NEXT_HTTP_ERROR_FALLBACK;404"}
+10:[]
+a:"$W10"
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+e:[["$","title","0",{"children":"Travel — Discover the World"}],["$","meta","1",{"name":"description","content":"Escape the ordinary and find inspiration in the most breathtaking corners of the globe."}]]

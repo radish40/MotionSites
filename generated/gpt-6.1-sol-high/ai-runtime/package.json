@@ -1,0 +1,10 @@
+{
+  "name": "ai-runtime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Runtime static landing page",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "check": "node --check main.js && node --check scripts/build.cjs"
+  }
+}

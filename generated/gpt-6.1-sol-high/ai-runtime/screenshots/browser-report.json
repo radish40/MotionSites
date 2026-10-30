@@ -1,0 +1,285 @@
+{
+  "errors": [],
+  "requestsFailed": [
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4173/motionsites-results/ai-runtime/assets/background.mp4",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "responses": [],
+  "viewports": {
+    "desktop": {
+      "title": "Intelligence Designed To Evolve",
+      "scrollWidth": 1440,
+      "width": 1440,
+      "scrollHeight": 1000,
+      "height": 1000,
+      "fonts": {
+        "display": true,
+        "inter": true,
+        "geist": false,
+        "icons": true
+      },
+      "headline": {
+        "width": 900,
+        "scrollWidth": 900
+      },
+      "values": [
+        "120ms",
+        "99.99%",
+        "24/7",
+        "2.4M"
+      ],
+      "video": {
+        "readyState": 4,
+        "currentTime": 3.922747,
+        "paused": false,
+        "width": 1920,
+        "height": 1080,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4"
+      },
+      "elements": [
+        {
+          "class": "header",
+          "rect": {
+            "x": 360,
+            "y": 24,
+            "width": 720,
+            "height": 48,
+            "top": 24,
+            "right": 1080,
+            "bottom": 72,
+            "left": 360
+          }
+        },
+        {
+          "class": "trust anim",
+          "rect": {
+            "x": 563.6875,
+            "y": 253.765625,
+            "width": 312.609375,
+            "height": 42,
+            "top": 253.765625,
+            "right": 876.296875,
+            "bottom": 295.765625,
+            "left": 563.6875
+          }
+        },
+        {
+          "class": "headline anim",
+          "rect": {
+            "x": 270,
+            "y": 320.765625,
+            "width": 900,
+            "height": 179.1875,
+            "top": 320.765625,
+            "right": 1170,
+            "bottom": 499.953125,
+            "left": 270
+          }
+        },
+        {
+          "class": "subhead anim",
+          "rect": {
+            "x": 470,
+            "y": 527.953125,
+            "width": 500,
+            "height": 59.40625,
+            "top": 527.953125,
+            "right": 970,
+            "bottom": 587.359375,
+            "left": 470
+          }
+        },
+        {
+          "class": "cta anim",
+          "rect": {
+            "x": 652.109375,
+            "y": 619.359375,
+            "width": 135.78125,
+            "height": 43,
+            "top": 619.359375,
+            "right": 787.890625,
+            "bottom": 662.359375,
+            "left": 652.109375
+          }
+        },
+        {
+          "class": "stats",
+          "rect": {
+            "x": 260,
+            "y": 852.125,
+            "width": 920,
+            "height": 123.875,
+            "top": 852.125,
+            "right": 1180,
+            "bottom": 976,
+            "left": 260
+          }
+        }
+      ]
+    },
+    "mobile": {
+      "title": "Intelligence Designed To Evolve",
+      "scrollWidth": 390,
+      "width": 390,
+      "scrollHeight": 844,
+      "height": 844,
+      "fonts": {
+        "display": true,
+        "inter": true,
+        "geist": false,
+        "icons": true
+      },
+      "headline": {
+        "width": 362,
+        "scrollWidth": 362
+      },
+      "values": [
+        "120ms",
+        "99.99%",
+        "24/7",
+        "2.4M"
+      ],
+      "video": {
+        "readyState": 4,
+        "currentTime": 3.754372,
+        "paused": false,
+        "width": 1920,
+        "height": 1080,
+        "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4"
+      },
+      "elements": [
+        {
+          "class": "header",
+          "rect": {
+            "x": 14,
+            "y": 20.25,
+            "width": 362,
+            "height": 48,
+            "top": 20.25,
+            "right": 376,
+            "bottom": 68.25,
+            "left": 14
+          }
+        },
+        {
+          "class": "trust anim",
+          "rect": {
+            "x": 61.703125,
+            "y": 219.359375,
+            "width": 266.59375,
+            "height": 34,
+            "top": 219.359375,
+            "right": 328.296875,
+            "bottom": 253.359375,
+            "left": 61.703125
+          }
+        },
+        {
+          "class": "headline anim",
+          "rect": {
+            "x": 14,
+            "y": 274.453125,
+            "width": 362,
+            "height": 58.21875,
+            "top": 274.453125,
+            "right": 376,
+            "bottom": 332.671875,
+            "left": 14
+          }
+        },
+        {
+          "class": "subhead anim",
+          "rect": {
+            "x": 24.859375,
+            "y": 354.671875,
+            "width": 340.265625,
+            "height": 75.1875,
+            "top": 354.671875,
+            "right": 365.125,
+            "bottom": 429.859375,
+            "left": 24.859375
+          }
+        },
+        {
+          "class": "cta anim",
+          "rect": {
+            "x": 135.859375,
+            "y": 455.859375,
+            "width": 118.28125,
+            "height": 42,
+            "top": 455.859375,
+            "right": 254.140625,
+            "bottom": 497.859375,
+            "left": 135.859375
+          }
+        },
+        {
+          "class": "stats",
+          "rect": {
+            "x": 14,
+            "y": 648.96875,
+            "width": 362,
+            "height": 174.78125,
+            "top": 648.96875,
+            "right": 376,
+            "bottom": 823.75,
+            "left": 14
+          }
+        }
+      ]
+    },
+    "shortMobile": {
+      "width": 390,
+      "height": 650,
+      "scrollWidth": 390,
+      "scrollHeight": 650,
+      "statsBottom": 634
+    }
+  },
+  "interactions": {
+    "desktopNav": true,
+    "ctaHover": "matrix(1.02, 0, 0, 1.02, 0, -2)",
+    "ctaAnchor": true,
+    "escape": true,
+    "overlayClose": true,
+    "linkClose": true,
+    "resizeClose": true
+  },
+  "reducedMotion": {
+    "opacity": "1",
+    "animation": "none"
+  },
+  "localFallbackFont": true,
+  "localVideoFallback": {
+    "source": "http://127.0.0.1:4173/motionsites-results/ai-runtime/assets/background.mp4",
+    "readyState": 4,
+    "paused": false
+  },
+  "passed": true
+}

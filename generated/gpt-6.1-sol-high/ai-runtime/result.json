@@ -1,0 +1,41 @@
+{
+  "title": "AI Runtime",
+  "id": "ai-runtime",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run check && npm run build'",
+  "checks": {
+    "static_build": "passed; dist/index.html and full local assets exist",
+    "javascript_syntax": "passed",
+    "browser": "Chromium via playwright-core; screenshots/browser-report.json",
+    "desktop_1440x1000": "passed; screenshots/desktop.png",
+    "mobile_390x844": "passed; screenshots/mobile.png",
+    "short_mobile_390x650": "passed",
+    "mobile_menu": "passed; toggle, overlay, Escape, link and desktop resize close; screenshots/mobile-menu.png",
+    "navigation_and_cta": "passed; active state, anchor navigation and hover scale/lift",
+    "stats": "passed; 120ms, 99.99%, 24/7, 2.4M",
+    "overflow": "none at checked sizes; headline fits",
+    "reduced_motion": "passed",
+    "javascript_errors": [],
+    "remote_video": "passed; exact CloudFront source, 1920x1080, autoplay active on desktop and mobile",
+    "fonts": "Inter, BubbledotICG-FinePos and Font Awesome loaded; local Geist fallback explicitly verified",
+    "video_fallback": "passed; deliberate remote failure recovers to local byte-identical MP4",
+    "network": "No HTTP error responses. ERR_ABORTED video requests occurred across navigations; one ERR_FAILED was deliberately injected to verify recovery."
+  },
+  "asset_issues": [
+    {
+      "asset": "assets/logo.webp",
+      "issue": "Original asset absent; no source URL supplied.",
+      "recovery": "Isolated brand mark from this design reference only, using scripts/recover-logo.cjs.",
+      "limitation": "Approximate raster asset from a 26x23 source crop; no page imagery used."
+    }
+  ],
+  "notes": [
+    "Static HTML/CSS/vanilla JS; no framework or production dependencies.",
+    "Document title: Intelligence Designed To Evolve.",
+    "Publish artifact: dist/; relative assets support /motionsites-results/ai-runtime/.",
+    "README.md includes run instructions, validation, asset provenance and limitations.",
+    "The supplied prompt provides no destination pages or authentication backend; links target existing landing-page elements.",
+    "Only this project was written. No agents, deployment, push or external messages.",
+    "Ready for review, not deployed. Chromium verification only; moving video frames vary."
+  ]
+}

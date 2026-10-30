@@ -1,0 +1,60 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/mindloop/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:34:35.775Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Velorah® — Focus in a Distracted World",
+      "bodyChars": 250,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.816725,
+          "duration": 13.041995,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Velorah® — Focus in a Distracted World",
+      "bodyChars": 215,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/mindloop/assets/hero.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.751948,
+          "duration": 13.041995,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

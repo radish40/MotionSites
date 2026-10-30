@@ -1,0 +1,62 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "name": "desktop",
+    "media": {
+      "currentTime": 2.108122,
+      "width": 1928,
+      "height": 1076,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "autoplay": true,
+      "playsInline": true,
+      "error": null
+    },
+    "layout": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "navVisible": true,
+      "headingFont": "\"Instrument Serif\", serif",
+      "bodyFont": "Inter, sans-serif",
+      "fontsLoaded": true,
+      "heading": "Focus in a Distracted World"
+    },
+    "errors": [],
+    "failedRequests": [],
+    "interactions": "Both CTAs, keyboard focus, desktop navigation and hover passed; links return to the single hero."
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "name": "mobile",
+    "media": {
+      "currentTime": 2.052003,
+      "width": 1928,
+      "height": 1076,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "autoplay": true,
+      "playsInline": true,
+      "error": null
+    },
+    "layout": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "navVisible": false,
+      "headingFont": "\"Instrument Serif\", serif",
+      "bodyFont": "Inter, sans-serif",
+      "fontsLoaded": true,
+      "heading": "Focus in a Distracted World"
+    },
+    "errors": [],
+    "failedRequests": [],
+    "interactions": "Both CTAs, keyboard focus, desktop navigation and hover passed; links return to the single hero."
+  }
+]

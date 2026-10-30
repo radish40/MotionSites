@@ -1,0 +1,31 @@
+{
+  "title": "Mindloop",
+  "id": "mindloop",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; Vite 8.3.5; dist/index.html exists",
+    "publish_path": "/motionsites-results/mindloop/",
+    "desktop": "passed at 1440x1000",
+    "mobile": "passed at 390x844",
+    "video": "original asset decoded and playback advanced on desktop and mobile; autoplay, muted, loop, playsInline enabled",
+    "fonts": "Instrument Serif and Inter loaded locally on both viewports",
+    "interactions": "journey links, desktop navigation, hover scaling and keyboard focus passed",
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "failed_asset_requests": [],
+    "dependency_audit": "zero vulnerabilities reported during final dependency installation",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "browser_evidence": "screenshots/checks.json",
+    "visual_inspection": "desktop and mobile screenshots inspected"
+  },
+  "asset_issues": [
+    "Optional mindloop.webp reference did not exist; prompt-based implementation could not be compared to that reference."
+  ],
+  "notes": [
+    "React + Vite implementation; exact supplied video and copy; Google Fonts bundled locally with licenses.",
+    "Destination pages were unspecified; navigation and Begin Journey links target the single hero (#home).",
+    "Browser validation uses Chromium, not physical devices or other engines.",
+    "Ready for review only; not deployed or pushed."
+  ]
+}

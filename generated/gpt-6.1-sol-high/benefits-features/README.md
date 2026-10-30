@@ -22,7 +22,17 @@ Browser verification uses Chromium and the image's existing Playwright installat
 docker run --rm -u 1000:1000 -e HOME=/tmp -v "$PWD:/work" -w /work --entrypoint node louislam/uptime-kuma:2 scripts/browser-check.cjs
 ```
 
-Checks cover desktop 1440×1000 and mobile 390×844; default Connections state; switching to Sport Pacakge; closing the previous panel; keyboard activation; loaded Inter font; actual video playback; counter completion at 86%; no horizontal document overflow; and no JavaScript exceptions. Screenshots are full-page captures made at those viewport sizes: `screenshots/desktop.png` and `screenshots/mobile.png`. Machine-readable evidence is in `screenshots/browser-checks.json`.
+Checks cover desktop 1440×1000 and mobile 390×844; default Connections state; switching to Sport Pacakge; closing the previous panel; keyboard activation; loaded Inter font; actual video playback; 25 ms counter sampling from initial 0% through intermediate positive values to stable 86%, with every numeric sample in [0, 86] and nondecreasing; no horizontal document overflow; and no JavaScript exceptions. Screenshots are full-page captures made at those viewport sizes: `screenshots/desktop.png` and `screenshots/mobile.png`. Machine-readable evidence is in `screenshots/browser-checks.json`.
+
+## Counter correction and regression evidence
+
+The only application-code change clamps elapsed progress to both bounds before the existing easing calculation: `Math.max(0, Math.min((now - start) / 2000, 1))`. This prevents a RAF timestamp earlier than `performance.now()` at startup from producing a negative percentage. Initial state remains 0, duration remains 2000 ms, cubic ease-out remains unchanged, and Motion's real `onViewportEnter` still starts the counter.
+
+The browser test observes the first mounted counter text and samples the actual production DOM at 25 ms intervals, with timestamps recorded in `screenshots/browser-checks.json`. It uses no clock mocks, counter mutations, or manual trigger calls. Mobile stays at 0 before native scrolling brings the card into view. Sampling continues beyond the full two-second animation; assertions require initial 0, positive intermediate values, final 86, all values in [0, 86], and no decrease. The latest desktop run recorded 99 samples and the mobile run 105 samples; both passed.
+
+Playback verification waits for two decoded visible frames using `requestVideoFrameCallback` and checks increasing presented-frame counts. This handles temporary readyState 1 at real video loop boundaries without changing the media. Full console errors are retained: the original Cloudinary 401 and the browser's default `/favicon.ico` 404 on desktop. There were no JavaScript exceptions or video errors. No errors are suppressed.
+
+The local production build and refreshed screenshots are ready for root review. **Management hold remains in effect until root rechecks the public fixed build.** This session did not deploy or validate the public site.
 
 ## Assets and limits
 

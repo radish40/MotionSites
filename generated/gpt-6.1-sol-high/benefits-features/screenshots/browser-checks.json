@@ -14,7 +14,7 @@
     "video": {
       "readyState": 4,
       "paused": false,
-      "currentTime": 0.609932,
+      "currentTime": 3.449987,
       "error": null
     },
     "counter": "86%",
@@ -29,12 +29,652 @@
       "bottom": 771.5625,
       "left": 964
     },
+    "counterSampling": {
+      "intervalMs": 25,
+      "first": 0,
+      "final": 86,
+      "hasIntermediatePositive": true,
+      "allInRange": true,
+      "nondecreasing": true,
+      "samples": [
+        {
+          "timeMs": 176.40000009536743,
+          "text": "0%",
+          "value": 0,
+          "source": "initial DOM"
+        },
+        {
+          "timeMs": 177.69999980926514,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 244.59999990463257,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 287.59999990463257,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 303.40000009536743,
+          "text": "5%",
+          "value": 5,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 337.69999980926514,
+          "text": "9%",
+          "value": 9,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 363,
+          "text": "11%",
+          "value": 11,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 385.19999980926514,
+          "text": "15%",
+          "value": 15,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 411.19999980926514,
+          "text": "18%",
+          "value": 18,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 430.09999990463257,
+          "text": "20%",
+          "value": 20,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 453.59999990463257,
+          "text": "24%",
+          "value": 24,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 480.80000019073486,
+          "text": "25%",
+          "value": 25,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 499.30000019073486,
+          "text": "27%",
+          "value": 27,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 524.5,
+          "text": "30%",
+          "value": 30,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 549,
+          "text": "32%",
+          "value": 32,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 592.0999999046326,
+          "text": "33%",
+          "value": 33,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 599,
+          "text": "36%",
+          "value": 36,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 624.1999998092651,
+          "text": "39%",
+          "value": 39,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 651.8000001907349,
+          "text": "42%",
+          "value": 42,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 674,
+          "text": "44%",
+          "value": 44,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 701,
+          "text": "46%",
+          "value": 46,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 724.0999999046326,
+          "text": "47%",
+          "value": 47,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 751.3000001907349,
+          "text": "50%",
+          "value": 50,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 774,
+          "text": "51%",
+          "value": 51,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 801,
+          "text": "53%",
+          "value": 53,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 824,
+          "text": "55%",
+          "value": 55,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 853.5,
+          "text": "57%",
+          "value": 57,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 874.0999999046326,
+          "text": "58%",
+          "value": 58,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 902.1999998092651,
+          "text": "60%",
+          "value": 60,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 924.1999998092651,
+          "text": "61%",
+          "value": 61,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 951.5,
+          "text": "63%",
+          "value": 63,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 974,
+          "text": "63%",
+          "value": 63,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1000.6999998092651,
+          "text": "65%",
+          "value": 65,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1024,
+          "text": "66%",
+          "value": 66,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1051.3000001907349,
+          "text": "68%",
+          "value": 68,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1074,
+          "text": "68%",
+          "value": 68,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1102,
+          "text": "70%",
+          "value": 70,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1124,
+          "text": "70%",
+          "value": 70,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1153,
+          "text": "72%",
+          "value": 72,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1174,
+          "text": "72%",
+          "value": 72,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1200.9000000953674,
+          "text": "74%",
+          "value": 74,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1224,
+          "text": "74%",
+          "value": 74,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1249.6999998092651,
+          "text": "75%",
+          "value": 75,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1274,
+          "text": "76%",
+          "value": 76,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1299.3000001907349,
+          "text": "77%",
+          "value": 77,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1324.0999999046326,
+          "text": "77%",
+          "value": 77,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1350.5,
+          "text": "78%",
+          "value": 78,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1373.9000000953674,
+          "text": "79%",
+          "value": 79,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1399,
+          "text": "79%",
+          "value": 79,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1424,
+          "text": "80%",
+          "value": 80,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1449,
+          "text": "81%",
+          "value": 81,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1473.9000000953674,
+          "text": "81%",
+          "value": 81,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1499,
+          "text": "82%",
+          "value": 82,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1524.0999999046326,
+          "text": "82%",
+          "value": 82,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1549,
+          "text": "82%",
+          "value": 82,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1573.9000000953674,
+          "text": "83%",
+          "value": 83,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1598.9000000953674,
+          "text": "83%",
+          "value": 83,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1624,
+          "text": "83%",
+          "value": 83,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1649,
+          "text": "84%",
+          "value": 84,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1673.9000000953674,
+          "text": "84%",
+          "value": 84,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1699,
+          "text": "84%",
+          "value": 84,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1724.0999999046326,
+          "text": "84%",
+          "value": 84,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1749,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1774,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1798.9000000953674,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1824,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1848.9000000953674,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1874,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1899,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1924,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1948.9000000953674,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1974,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1999,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2024.0999999046326,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2048.9000000953674,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2074,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2099,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2124,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2148.9000000953674,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2174,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2199,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2224,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2248.9000000953674,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2274.0999999046326,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2299,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2324.0999999046326,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2349,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2374,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2399,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2424,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2449,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2474,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2499,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2524,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2549,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2574,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2599,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2624,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2649,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        }
+      ]
+    },
+    "decodedFrames": [
+      {
+        "timeMs": 3829.8,
+        "mediaTime": 3.416667,
+        "presentedFrames": 82,
+        "width": 1244,
+        "height": 1664,
+        "readyState": 4
+      },
+      {
+        "timeMs": 3846.5,
+        "mediaTime": 3.458333,
+        "presentedFrames": 83,
+        "width": 1244,
+        "height": 1664,
+        "readyState": 4
+      }
+    ],
     "errors": [],
     "failedRequests": [],
     "httpErrors": [
       {
         "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1777202844/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82_26-04-2026_134245-removebg-preview_jju5ww.png",
         "status": 401
+      }
+    ],
+    "consoleErrors": [
+      {
+        "text": "Failed to load resource: the server responded with a status of 401 ()",
+        "location": {
+          "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1777202844/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82_26-04-2026_134245-removebg-preview_jju5ww.png",
+          "lineNumber": 0,
+          "columnNumber": 0
+        }
+      },
+      {
+        "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "location": {
+          "url": "http://localhost:4173/favicon.ico",
+          "lineNumber": 0,
+          "columnNumber": 0
+        }
       }
     ]
   },
@@ -53,7 +693,7 @@
     "video": {
       "readyState": 4,
       "paused": false,
-      "currentTime": 2.940018,
+      "currentTime": 2.448584,
       "error": null
     },
     "counter": "86%",
@@ -68,12 +708,680 @@
       "bottom": 740.03125,
       "left": 43.5
     },
+    "counterSampling": {
+      "intervalMs": 25,
+      "first": 0,
+      "final": 86,
+      "hasIntermediatePositive": true,
+      "allInRange": true,
+      "nondecreasing": true,
+      "samples": [
+        {
+          "timeMs": 181.30000019073486,
+          "text": "0%",
+          "value": 0,
+          "source": "initial DOM"
+        },
+        {
+          "timeMs": 182.59999990463257,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 247.09999990463257,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 283.80000019073486,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 286.30000019073486,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 310.80000019073486,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 335.59999990463257,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 362.40000009536743,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 386.09999990463257,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 411.2000002861023,
+          "text": "0%",
+          "value": 0,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 468.80000019073486,
+          "text": "2%",
+          "value": 2,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 494.7000002861023,
+          "text": "8%",
+          "value": 8,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 510.7000002861023,
+          "text": "12%",
+          "value": 12,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 546.5999999046326,
+          "text": "16%",
+          "value": 16,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 560.8000001907349,
+          "text": "17%",
+          "value": 17,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 588.2000002861023,
+          "text": "21%",
+          "value": 21,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 610.7000002861023,
+          "text": "23%",
+          "value": 23,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 659.0999999046326,
+          "text": "26%",
+          "value": 26,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 681.4000000953674,
+          "text": "28%",
+          "value": 28,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 704.4000000953674,
+          "text": "30%",
+          "value": 30,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 712.3000001907349,
+          "text": "33%",
+          "value": 33,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 750.2000002861023,
+          "text": "34%",
+          "value": 34,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 779,
+          "text": "37%",
+          "value": 37,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 798.8000001907349,
+          "text": "40%",
+          "value": 40,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 812.7000002861023,
+          "text": "42%",
+          "value": 42,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 843,
+          "text": "44%",
+          "value": 44,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 860.7000002861023,
+          "text": "46%",
+          "value": 46,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 898.5999999046326,
+          "text": "47%",
+          "value": 47,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 910.5999999046326,
+          "text": "49%",
+          "value": 49,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 935.7000002861023,
+          "text": "52%",
+          "value": 52,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 960.8000001907349,
+          "text": "53%",
+          "value": 53,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 985.7000002861023,
+          "text": "55%",
+          "value": 55,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1010.5999999046326,
+          "text": "56%",
+          "value": 56,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1044.0999999046326,
+          "text": "57%",
+          "value": 57,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1060.7000002861023,
+          "text": "59%",
+          "value": 59,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1085.7000002861023,
+          "text": "61%",
+          "value": 61,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1110.8000001907349,
+          "text": "62%",
+          "value": 62,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1136.9000000953674,
+          "text": "64%",
+          "value": 64,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1160.7000002861023,
+          "text": "65%",
+          "value": 65,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1185.7000002861023,
+          "text": "66%",
+          "value": 66,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1210.7000002861023,
+          "text": "67%",
+          "value": 67,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1235.7000002861023,
+          "text": "69%",
+          "value": 69,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1260.7000002861023,
+          "text": "69%",
+          "value": 69,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1286.0999999046326,
+          "text": "71%",
+          "value": 71,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1310.7000002861023,
+          "text": "72%",
+          "value": 72,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1338,
+          "text": "73%",
+          "value": 73,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1360.7000002861023,
+          "text": "73%",
+          "value": 73,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1385.8000001907349,
+          "text": "75%",
+          "value": 75,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1410.7000002861023,
+          "text": "75%",
+          "value": 75,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1435.5999999046326,
+          "text": "76%",
+          "value": 76,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1460.7000002861023,
+          "text": "77%",
+          "value": 77,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1485.5999999046326,
+          "text": "78%",
+          "value": 78,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1510.5999999046326,
+          "text": "78%",
+          "value": 78,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1535.7000002861023,
+          "text": "79%",
+          "value": 79,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1560.5999999046326,
+          "text": "79%",
+          "value": 79,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1585.7000002861023,
+          "text": "80%",
+          "value": 80,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1611,
+          "text": "80%",
+          "value": 80,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1635.7000002861023,
+          "text": "81%",
+          "value": 81,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1660.7000002861023,
+          "text": "81%",
+          "value": 81,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1685.5999999046326,
+          "text": "82%",
+          "value": 82,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1710.5999999046326,
+          "text": "82%",
+          "value": 82,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1735.8000001907349,
+          "text": "83%",
+          "value": 83,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1760.7000002861023,
+          "text": "83%",
+          "value": 83,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1785.7000002861023,
+          "text": "83%",
+          "value": 83,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1813.3000001907349,
+          "text": "84%",
+          "value": 84,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1835.7000002861023,
+          "text": "84%",
+          "value": 84,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1860.5999999046326,
+          "text": "84%",
+          "value": 84,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1885.7000002861023,
+          "text": "84%",
+          "value": 84,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1910.7000002861023,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1935.7000002861023,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1960.8000001907349,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 1985.5999999046326,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2010.5999999046326,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2035.7000002861023,
+          "text": "85%",
+          "value": 85,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2074.2000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2097.0999999046326,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2110.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2135.5999999046326,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2160.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2185.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2210.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2235.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2260.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2286.300000190735,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2310.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2335.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2360.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2385.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2410.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2435.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2460.5999999046326,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2485.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2510.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2535.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2560.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2585.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2610.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2635.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2660.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2685.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2710.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2735.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2760.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2785.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        },
+        {
+          "timeMs": 2810.7000002861023,
+          "text": "86%",
+          "value": 86,
+          "source": "25ms interval"
+        }
+      ]
+    },
+    "decodedFrames": [
+      {
+        "timeMs": 3978.2,
+        "mediaTime": 2.416667,
+        "presentedFrames": 57,
+        "width": 1244,
+        "height": 1664,
+        "readyState": 4
+      },
+      {
+        "timeMs": 4011.5,
+        "mediaTime": 2.458333,
+        "presentedFrames": 58,
+        "width": 1244,
+        "height": 1664,
+        "readyState": 4
+      }
+    ],
     "errors": [],
     "failedRequests": [],
     "httpErrors": [
       {
         "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1777202844/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82_26-04-2026_134245-removebg-preview_jju5ww.png",
         "status": 401
+      }
+    ],
+    "consoleErrors": [
+      {
+        "text": "Failed to load resource: the server responded with a status of 401 ()",
+        "location": {
+          "url": "https://res.cloudinary.com/dsdhxhhqh/image/upload/v1777202844/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82_26-04-2026_134245-removebg-preview_jju5ww.png",
+          "lineNumber": 0,
+          "columnNumber": 0
+        }
       }
     ]
   }

@@ -2,14 +2,14 @@
   "url": "https://tool.luo-xd.com/motionsites-results/benefits-features/",
   "previewSelector": null,
   "previewDelayMs": null,
-  "checked_at": "2026-10-30T06:30:14.963Z",
+  "checked_at": "2026-10-30T06:44:28.022Z",
   "passed": true,
   "results": [
     {
       "viewport": "desktop",
       "status": 200,
       "introWait": "not-applicable",
-      "visibleImageWaitMs": 4,
+      "visibleImageWaitMs": 3,
       "canvasRendering": null,
       "title": "Benefits Features",
       "bodyChars": 368,
@@ -20,7 +20,7 @@
           "src": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260426_105815_d66e9c4c-a1f8-4011-9ee5-f0cace24e642.mp4",
           "readyState": 4,
           "paused": false,
-          "currentTime": 4.789371,
+          "currentTime": 4.716775,
           "duration": 7.041667,
           "ended": false,
           "loop": true,
@@ -30,8 +30,8 @@
       "frames": [],
       "errors": [],
       "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()",
-        "Failed to load resource: the server responded with a status of 401 ()"
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 404 ()"
       ],
       "failedRequests": [],
       "badResponses": [
@@ -45,7 +45,7 @@
       "viewport": "mobile",
       "status": 200,
       "introWait": "not-applicable",
-      "visibleImageWaitMs": 4,
+      "visibleImageWaitMs": 5,
       "canvasRendering": null,
       "title": "Benefits Features",
       "bodyChars": 367,

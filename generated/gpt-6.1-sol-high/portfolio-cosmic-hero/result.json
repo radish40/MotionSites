@@ -1,0 +1,47 @@
+{
+  "title": "Portfolio Cosmic",
+  "id": "portfolio-cosmic-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "browser": "Chromium with Playwright Core",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "passed": 31,
+    "failed": 0,
+    "script_errors": [],
+    "failed_requests": [],
+    "details": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop, mobile, full-page composition and final corrected button styling reviewed."
+  },
+  "asset_issues": [
+    {
+      "asset": "optional design reference",
+      "status": "absent",
+      "detail": "The specified portfolio-cosmic-hero.webp did not exist. Built against the complete written specification."
+    },
+    {
+      "asset": "project, journal, and exploration images",
+      "status": "locally supplied",
+      "detail": "No exact URLs were specified. Subject-appropriate Unsplash photos were downloaded; source manifest is public/assets/sources.json."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed.",
+    "All files belong to this project. No other designs, agents, extra sessions, pushes, deployments, or external messages.",
+    "Exact requested stack and HLS URL used. Google Fonts self-hosted locally. Live HLS verified playing at both tested viewport sizes.",
+    "Subpath configured as /motionsites-results/portfolio-cosmic-hero/. Static build is dist/, including dist/index.html.",
+    "Journal/project copy supplied where prompt left copy unspecified. Resume is an on-page summary; social URLs are platform homepages because no profile handles were provided.",
+    "Build warnings: large animation/video runtime bundle, and public font CSS resolved at runtime. Real browser checks verify local font stylesheet and image delivery.",
+    "Chromium validation only; native Safari HLS, physical devices, and email delivery were not tested.",
+    "No node_modules included. Lockfile saved."
+  ]
+}

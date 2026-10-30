@@ -1,0 +1,276 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/portfolio-cosmic-hero/",
+  "checks": [
+    {
+      "name": "desktop: page title",
+      "pass": true
+    },
+    {
+      "name": "desktop: fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "desktop: no horizontal overflow",
+      "pass": true,
+      "details": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "desktop: role cycles",
+      "pass": true,
+      "details": {
+        "before": "Scholar",
+        "after": "Creative"
+      }
+    },
+    {
+      "name": "desktop: specified HLS plays",
+      "pass": true,
+      "details": {
+        "readyState": 4,
+        "time": 7.993813,
+        "paused": false,
+        "width": 1708
+      }
+    },
+    {
+      "name": "desktop: smooth work navigation",
+      "pass": true
+    },
+    {
+      "name": "desktop: project details",
+      "pass": true
+    },
+    {
+      "name": "desktop: escape closes details",
+      "pass": true
+    },
+    {
+      "name": "desktop: journal opens",
+      "pass": true
+    },
+    {
+      "name": "desktop: resume opens",
+      "pass": true
+    },
+    {
+      "name": "desktop: exploration lightbox",
+      "pass": true
+    },
+    {
+      "name": "desktop: contact navigation",
+      "pass": true
+    },
+    {
+      "name": "desktop: email link",
+      "pass": true
+    },
+    {
+      "name": "desktop: all section images load",
+      "pass": true,
+      "details": [
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/automotive.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/human.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/brand.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/interior.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/sculpture.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/landscape.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/space.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/landscape.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/interior.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/brand.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/sculpture.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "desktop: no overflow after scrolling",
+      "pass": true
+    },
+    {
+      "name": "mobile: page title",
+      "pass": true
+    },
+    {
+      "name": "mobile: fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "mobile: no horizontal overflow",
+      "pass": true,
+      "details": {
+        "scroll": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "mobile: role cycles",
+      "pass": true,
+      "details": {
+        "before": "Scholar",
+        "after": "Creative"
+      }
+    },
+    {
+      "name": "mobile: specified HLS plays",
+      "pass": true,
+      "details": {
+        "readyState": 4,
+        "time": 8.084646,
+        "paused": false,
+        "width": 1708
+      }
+    },
+    {
+      "name": "mobile: smooth work navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: project details",
+      "pass": true
+    },
+    {
+      "name": "mobile: escape closes details",
+      "pass": true
+    },
+    {
+      "name": "mobile: journal opens",
+      "pass": true
+    },
+    {
+      "name": "mobile: resume opens",
+      "pass": true
+    },
+    {
+      "name": "mobile: exploration lightbox",
+      "pass": true
+    },
+    {
+      "name": "mobile: contact navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: email link",
+      "pass": true
+    },
+    {
+      "name": "mobile: all section images load",
+      "pass": true,
+      "details": [
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/automotive.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/human.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/brand.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/interior.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/sculpture.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/landscape.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/space.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/landscape.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/interior.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/brand.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/sculpture.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "mobile: no overflow after scrolling",
+      "pass": true
+    },
+    {
+      "name": "No browser script errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

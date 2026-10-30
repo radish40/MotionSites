@@ -1,0 +1,222 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T05:10:27.695Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Michael Smith — Portfolio '26",
+      "bodyChars": 1786,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/automotive.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/human.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/brand.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/brand.jpg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/2d23ee35-d53a-441b-9ebd-4db227f062f4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.533383,
+          "duration": 9.041666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/f5225b6d-6808-4f29-a371-e9106f0a65cb",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.422602,
+          "duration": 9.041666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Michael Smith — Portfolio '26",
+      "bodyChars": 1707,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/automotive.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/human.jpg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/portfolio-cosmic-hero/assets/architecture.jpg",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "blob:https://tool.luo-xd.com/ba2cc19f-2ae1-443c-a968-f608525cb661",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.545862,
+          "duration": 9.041666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "blob:https://tool.luo-xd.com/5d0a48f3-f03c-4e30-870c-3e0ebee50f9c",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.315794,
+          "duration": 9.041666,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

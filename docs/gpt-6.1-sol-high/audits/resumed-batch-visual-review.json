@@ -819,7 +819,74 @@
         "generated/gpt-6.1-sol-high/sync-ai/screenshots/mobile.png"
       ],
       "reviewed_utc": "2026-10-30T04:07:16.671378+00:00"
+    },
+    {
+      "id": "targo-logistics-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the exact original red race-car video at full opacity, Rubik transport heading, clipped-corner buttons and glass consultation card. Mobile line break issue was repaired in the original session; contact is a local preview form.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/targo-logistics-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/targo-logistics-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:12:11.355779+00:00"
+    },
+    {
+      "id": "viktor-portfolio",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile home and project-detail screenshots inspected: original amber portrait and dark planet videos, technical typography, information blocks and mobile top-half video transition. Separate actual public-browser verification covers both views, hash reload, Read More, back/home/card navigation and real video clocks.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/viktor-portfolio/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/viktor-portfolio/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/viktor-portfolio/screenshots/desktop-project.png",
+        "generated/gpt-6.1-sol-high/viktor-portfolio/screenshots/mobile-project.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:12:11.355779+00:00"
+    },
+    {
+      "id": "wealth-video-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and full-page mobile screenshots show the original light-trail video, centered white headline and four-step glass card, stacked vertically on mobile. Source retains the prompt exact incomplete feature sentences; account controls are local previews only.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/wealth-video-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/wealth-video-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:12:11.355779+00:00"
+    },
+    {
+      "id": "web3-eos-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the supplied dark vortex video, General Sans gradient headline and paired outlined/filled waitlist pills. Waitlist is explicitly unavailable without an endpoint; no registration is claimed.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/web3-eos-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/web3-eos-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:12:11.355779+00:00"
+    },
+    {
+      "id": "weblex-dark-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Desktop and mobile show the supplied monochrome asteroid video, centered white headline and lime/white CTAs; title, paragraph and buttons fit the viewport. Natural loop and RAF fade timing covered by browser evidence; no account service was specified.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/weblex-dark-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/weblex-dark-hero/screenshots/mobile.png"
+      ],
+      "reviewed_utc": "2026-10-30T04:12:11.355779+00:00"
     }
   ],
-  "updated_utc": "2026-10-30T04:07:16.671378+00:00"
+  "updated_utc": "2026-10-30T04:12:11.355779+00:00"
 }

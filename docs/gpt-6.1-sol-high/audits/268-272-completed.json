@@ -1,0 +1,153 @@
+{
+  "recorded_utc": "2026-10-30T04:12:11.355779+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 5,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T04:08:10.503899+00:00",
+      "remote_main": "9d4775dd585f53353fdd189f6c3d3c9f9d75aaf0",
+      "delivery": {
+        "id": "targo-logistics-hero",
+        "title": "Targo Logistics Hero",
+        "source_commit": "9d4775dd585f53353fdd189f6c3d3c9f9d75aaf0",
+        "thread_id": "01a18af7-99e5-7bd2-bab7-75d6b9340c1c",
+        "group_message_id": 334,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:09:36.509973+00:00",
+      "remote_main": "46cadedda4d126d3c7a842751eec745a0cc215a6",
+      "delivery": {
+        "id": "viktor-portfolio",
+        "title": "Viktor Portfolio",
+        "source_commit": "46cadedda4d126d3c7a842751eec745a0cc215a6",
+        "thread_id": "01a18af9-6d30-7f83-b216-fcdbe224bac7",
+        "group_message_id": 335,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:11:38.798991+00:00",
+      "remote_main": "6ade3e87d1447f6dfd2a1eeb728bc6d34824c935",
+      "delivery": {
+        "id": "wealth-video-hero",
+        "title": "Wealth Video Hero",
+        "source_commit": "6ade3e87d1447f6dfd2a1eeb728bc6d34824c935",
+        "thread_id": "01a18afa-b151-7900-8d6d-8581880b9313",
+        "group_message_id": 337,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:10:11.841795+00:00",
+      "remote_main": "f025891e7d960e7c14aeea5c87104d3a0fa497e5",
+      "delivery": {
+        "id": "web3-eos-hero",
+        "title": "Web3 EOS Hero",
+        "source_commit": "f3e8cd6003311df767c134a98e12a1b821ef4c71",
+        "thread_id": "01a18afa-b1f9-7941-b8f3-2e582a021edc",
+        "group_message_id": 336,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T04:12:03.748481+00:00",
+      "remote_main": "a6dbffac66db4fac0a051a2f100c9faa8cbccfb6",
+      "delivery": {
+        "id": "weblex-dark-hero",
+        "title": "Weblex Dark Hero",
+        "source_commit": "366217dd7af306068c0e68f1f8f236ed386a6ca3",
+        "thread_id": "01a18afc-6b6b-7ee0-814e-4da93e8f4698",
+        "group_message_id": 338,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

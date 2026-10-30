@@ -1,0 +1,114 @@
+{
+  "title": "\"Exploded View\" Assembly",
+  "id": "community-superdesign-exploded-view-assembly",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "stack": [
+    "Vite 6.4.5",
+    "vanilla JavaScript",
+    "CSS",
+    "inline SVG"
+  ],
+  "output": "dist/",
+  "base_path": "/motionsites-results/community-superdesign-exploded-view-assembly/",
+  "checks": {
+    "production_build": "passed",
+    "browser": "Chromium via playwright-core, against production dist at the required URL subpath",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "interaction_checks": [
+      {
+        "name": "Desktop viewport and no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "Local fonts loaded",
+        "passed": true
+      },
+      {
+        "name": "Preset pads update sound display",
+        "passed": true
+      },
+      {
+        "name": "Texture dial updates value",
+        "passed": true
+      },
+      {
+        "name": "Power disables and restores pads",
+        "passed": true
+      },
+      {
+        "name": "Chapter navigation explodes components",
+        "passed": true
+      },
+      {
+        "name": "Final layout reassembles in a different configuration",
+        "passed": true
+      },
+      {
+        "name": "Details accordion opens",
+        "passed": true
+      },
+      {
+        "name": "Replay returns to first chapter",
+        "passed": true
+      },
+      {
+        "name": "Mobile viewport and no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "Mobile navigation opens and follows link",
+        "passed": true
+      },
+      {
+        "name": "Mobile final assembly stays in viewport",
+        "passed": true
+      },
+      {
+        "name": "Reduced motion preference loads without errors",
+        "passed": true
+      }
+    ],
+    "script_errors": [],
+    "failed_asset_requests": [],
+    "npm_audit": "0 vulnerabilities",
+    "visual_review": "Desktop and mobile hero, exploded and final assembly states, features, and details reviewed; cropping and callout overlaps corrected.",
+    "report": "screenshots/browser-checks.json"
+  },
+  "screenshots": [
+    "screenshots/desktop-assembled.png",
+    "screenshots/desktop-details.png",
+    "screenshots/desktop-exploded.png",
+    "screenshots/desktop-possibilities.png",
+    "screenshots/desktop.png",
+    "screenshots/mobile-assembled.png",
+    "screenshots/mobile-exploded.png",
+    "screenshots/mobile-possibilities.png",
+    "screenshots/mobile.png"
+  ],
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/community-superdesign-exploded-view-assembly.webp",
+      "issue": "Reference preview absent at the specified path.",
+      "resolution": "Implemented the full written prompt with original DOM/CSS/SVG product artwork. No other design was read and no screenshot was used as page content."
+    }
+  ],
+  "notes": [
+    "Pinned product separates into six independent components, then locks into a wider final layout. Scroll reverses the sequence.",
+    "Responsive chapter navigation, presets, power, texture/tone/space controls, mobile navigation, accordions and replay are functional.",
+    "All six font files and license notices are local; there are no external runtime asset dependencies. Font downloads recovered successfully through curl.",
+    "Reduced-motion preference uses discrete assembly states.",
+    "MONO is a fictional product concept; controls change the mockup visually and do not synthesize audio.",
+    "Validation covers the requested Chromium viewports; no claim of physical-device or cross-browser testing.",
+    "No deployment, push, agents, other sessions, or messages. ready means available for review, not published."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "Desktop viewport and no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Local fonts loaded",
+      "passed": true
+    },
+    {
+      "name": "Preset pads update sound display",
+      "passed": true
+    },
+    {
+      "name": "Texture dial updates value",
+      "passed": true
+    },
+    {
+      "name": "Power disables and restores pads",
+      "passed": true
+    },
+    {
+      "name": "Chapter navigation explodes components",
+      "passed": true
+    },
+    {
+      "name": "Final layout reassembles in a different configuration",
+      "passed": true
+    },
+    {
+      "name": "Details accordion opens",
+      "passed": true
+    },
+    {
+      "name": "Replay returns to first chapter",
+      "passed": true
+    },
+    {
+      "name": "Mobile viewport and no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile navigation opens and follows link",
+      "passed": true
+    },
+    {
+      "name": "Mobile final assembly stays in viewport",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion preference loads without errors",
+      "passed": true
+    }
+  ]
+}

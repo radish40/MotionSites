@@ -1,0 +1,38 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-exploded-view-assembly/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T04:31:23.915Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "MONO — Sound, in its elements.",
+      "bodyChars": 2017,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "MONO — Sound, in its elements.",
+      "bodyChars": 1876,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

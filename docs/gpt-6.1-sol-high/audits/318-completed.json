@@ -1,0 +1,37 @@
+{
+  "recorded_utc": "2026-10-30T05:07:40.613286+00:00",
+  "scope": "Incremental independent delivery audit; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 1,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T05:06:33.030869+00:00",
+      "remote_main": "91a8423f9e93a1b5686d2fdb7d4ccc8346833401",
+      "delivery": {
+        "id": "7",
+        "title": "Synapse Dark Hero",
+        "source_commit": "c13629f61d30aa7fbb5f9e4c76a28eba3b9ec0da",
+        "thread_id": "01a18b2d-718b-7651-b8a3-43be4cd6041b",
+        "group_message_id": 385,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

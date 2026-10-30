@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:06:19.168665+00:00",
+  "updated_utc": "2026-10-30T05:07:40.533154+00:00",
   "total": 380,
   "counts": {
-    "complete": 318,
+    "complete": 319,
     "running": 5,
-    "not_started": 57
+    "not_started": 56
   },
   "current_batch": {
     "from_number": 201,
@@ -3210,11 +3210,11 @@
       "id": "3",
       "title": "ClearInvoice SaaS Hero",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b2f-a4be-7ea3-88a3-c1731d0dfbb2",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "33fe6beeb361acc60bb43543e9e3eb6e5e2b75bb",
+      "group_message_id": 386,
+      "url": "https://tool.luo-xd.com/motionsites-results/3/"
     },
     {
       "id": "codenest-hero",
@@ -3241,7 +3241,7 @@
       "title": "Investor Deck",
       "category": "Investor Presentations",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b33-3953-7d40-9116-4d27fc4bdfa0",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3250,7 +3250,7 @@
       "id": "bionova-hero",
       "title": "Bionova Biotech",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

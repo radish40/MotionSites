@@ -363,7 +363,31 @@
         "generated/gpt-6.1-sol-high/modern-hr-dashboard/screenshots/mobile.png",
         "generated/gpt-6.1-sol-high/modern-hr-dashboard/screenshots/tablet.png"
       ]
+    },
+    {
+      "id": "acreage-farming-hero",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original aerial farm video, oversized serif headline and responsive callouts render at both sizes. Worker separately verified both in-view video sections and 31 interactions; unavailable Yield Analysis image is documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/acreage-farming-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/acreage-farming-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "akor-security",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original dark security video, Sora heading and green calls to action render at both sizes. Full-page worker captures also inspected for service grid and building video sections; original-session checks verified offscreen video resumes when visible.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/akor-security/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/akor-security/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:22:41.725259+00:00"
+  "updated_utc": "2026-10-30T03:25:18.607094+00:00"
 }

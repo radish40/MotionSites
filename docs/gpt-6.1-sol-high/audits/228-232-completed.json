@@ -1,0 +1,153 @@
+{
+  "recorded_utc": "2026-10-30T03:25:18.607094+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 5,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:22:58.984410+00:00",
+      "remote_main": "af06d027c1c188f915784e33817243578c920b00",
+      "delivery": {
+        "id": "modern-hr-dashboard",
+        "title": "Modern HR Dashboard",
+        "source_commit": "af06d027c1c188f915784e33817243578c920b00",
+        "thread_id": "01a18acb-7bfd-7621-b826-4e3c4da07818",
+        "group_message_id": 294,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:19:16.135217+00:00",
+      "remote_main": "c02b6609bb6046a2889cc01946c73707034cd9a4",
+      "delivery": {
+        "id": "saas-value",
+        "title": "SaaS Value",
+        "source_commit": "df024f8ab950a9a27f9177f2709e7ddb70ce9d23",
+        "thread_id": "01a18acb-7ce9-7aa3-be75-aa26badb90a5",
+        "group_message_id": 292,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:24:28.914175+00:00",
+      "remote_main": "1e0cab1bbfe0b3a0501ccd4a5a14087af7befcd0",
+      "delivery": {
+        "id": "acreage-farming-hero",
+        "title": "Acreage Farming",
+        "source_commit": "1e0cab1bbfe0b3a0501ccd4a5a14087af7befcd0",
+        "thread_id": "01a18acb-7d70-7b83-8a20-a19e6eec7c4e",
+        "group_message_id": 295,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:24:53.596078+00:00",
+      "remote_main": "a41355e21c60a23d13eb29ad6747593cfc6a01f5",
+      "delivery": {
+        "id": "akor-security",
+        "title": "AKOR Security",
+        "source_commit": "7e3bcf9c3bb5db3ecbc6159bb94de78055363acc",
+        "thread_id": "01a18ace-5a4b-7a42-aea9-5b18f9643354",
+        "group_message_id": 296,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:21:44.263417+00:00",
+      "remote_main": "919866ec84d0403401b0ed310706d0bd7d23e73a",
+      "delivery": {
+        "id": "apex-saa-s",
+        "title": "Apex SaaS",
+        "source_commit": "7fdd19cad823673cac7607a97969045d650c14c7",
+        "thread_id": "01a18acf-87e7-72d0-877c-2958a6267f3e",
+        "group_message_id": 293,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

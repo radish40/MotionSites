@@ -1,0 +1,484 @@
+{
+  "checks": [
+    {
+      "name": "desktop: default has no iframe",
+      "passed": true
+    },
+    {
+      "name": "desktop: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop: 80 ripple nodes",
+      "passed": true
+    },
+    {
+      "name": "desktop: fallback clock advances",
+      "passed": true,
+      "data": {
+        "before": 1.433254,
+        "after": 2.200574,
+        "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+      }
+    },
+    {
+      "name": "desktop: cursor ripples activate",
+      "passed": true
+    },
+    {
+      "name": "desktop: join opens GSAP menu",
+      "passed": true
+    },
+    {
+      "name": "desktop: menu six items",
+      "passed": true
+    },
+    {
+      "name": "desktop: fleet opens",
+      "passed": true
+    },
+    {
+      "name": "desktop: ocean-eclipse.mp4 hover specs",
+      "passed": true
+    },
+    {
+      "name": "desktop: ocean-eclipse.mp4 hover clock advances",
+      "passed": true,
+      "data": {
+        "before": 1.197504,
+        "after": 1.960094,
+        "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+      }
+    },
+    {
+      "name": "desktop: ocean-eclipse.mp4 detail exact asset",
+      "passed": true
+    },
+    {
+      "name": "desktop: ocean-eclipse.mp4 detail clock advances",
+      "passed": true,
+      "data": {
+        "before": 0.556973,
+        "after": 1.31738,
+        "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+      }
+    },
+    {
+      "name": "desktop: ocean-eclipse.mp4 detail closes",
+      "passed": true
+    },
+    {
+      "name": "desktop: black-sovereign.mp4 hover specs",
+      "passed": true
+    },
+    {
+      "name": "desktop: black-sovereign.mp4 hover clock advances",
+      "passed": true,
+      "data": {
+        "before": 1.259636,
+        "after": 2.044295,
+        "src": "/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4"
+      }
+    },
+    {
+      "name": "desktop: black-sovereign.mp4 detail exact asset",
+      "passed": true
+    },
+    {
+      "name": "desktop: black-sovereign.mp4 detail clock advances",
+      "passed": true,
+      "data": {
+        "before": 0.22331,
+        "after": 0.982059,
+        "src": "/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4"
+      }
+    },
+    {
+      "name": "desktop: black-sovereign.mp4 detail closes",
+      "passed": true
+    },
+    {
+      "name": "desktop: azure-horizon.mp4 hover specs",
+      "passed": true
+    },
+    {
+      "name": "desktop: azure-horizon.mp4 hover clock advances",
+      "passed": true,
+      "data": {
+        "before": 2.162896,
+        "after": 2.915356,
+        "src": "/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4"
+      }
+    },
+    {
+      "name": "desktop: azure-horizon.mp4 detail exact asset",
+      "passed": true
+    },
+    {
+      "name": "desktop: azure-horizon.mp4 detail clock advances",
+      "passed": true,
+      "data": {
+        "before": 0.503954,
+        "after": 1.240672,
+        "src": "/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4"
+      }
+    },
+    {
+      "name": "desktop: azure-horizon.mp4 detail closes",
+      "passed": true
+    },
+    {
+      "name": "desktop: back returns hero",
+      "passed": true
+    },
+    {
+      "name": "desktop: escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "desktop: zero Vimeo/Cloudflare requests",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "desktop: no CSP violations",
+      "passed": true,
+      "data": {
+        "events": [],
+        "securityLog": []
+      }
+    },
+    {
+      "name": "desktop: no page or console errors",
+      "passed": true,
+      "data": {
+        "pageErrors": [],
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "mobile: default has no iframe",
+      "passed": true
+    },
+    {
+      "name": "mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile: 80 ripple nodes",
+      "passed": true
+    },
+    {
+      "name": "mobile: fallback clock advances",
+      "passed": true,
+      "data": {
+        "before": 1.468672,
+        "after": 2.26542,
+        "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+      }
+    },
+    {
+      "name": "mobile: join opens GSAP menu",
+      "passed": true
+    },
+    {
+      "name": "mobile: menu six items",
+      "passed": true
+    },
+    {
+      "name": "mobile: fleet opens",
+      "passed": true
+    },
+    {
+      "name": "mobile: fleet scrolls without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile: ocean-eclipse.mp4 detail exact asset",
+      "passed": true
+    },
+    {
+      "name": "mobile: ocean-eclipse.mp4 detail clock advances",
+      "passed": true,
+      "data": {
+        "before": 0.031175,
+        "after": 0.794456,
+        "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+      }
+    },
+    {
+      "name": "mobile: ocean-eclipse.mp4 detail closes",
+      "passed": true
+    },
+    {
+      "name": "mobile: black-sovereign.mp4 detail exact asset",
+      "passed": true
+    },
+    {
+      "name": "mobile: black-sovereign.mp4 detail clock advances",
+      "passed": true,
+      "data": {
+        "before": 0.100292,
+        "after": 0.882186,
+        "src": "/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4"
+      }
+    },
+    {
+      "name": "mobile: black-sovereign.mp4 detail closes",
+      "passed": true
+    },
+    {
+      "name": "mobile: azure-horizon.mp4 detail exact asset",
+      "passed": true
+    },
+    {
+      "name": "mobile: azure-horizon.mp4 detail clock advances",
+      "passed": true,
+      "data": {
+        "before": 0.173602,
+        "after": 0.959733,
+        "src": "/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4"
+      }
+    },
+    {
+      "name": "mobile: azure-horizon.mp4 detail closes",
+      "passed": true
+    },
+    {
+      "name": "mobile: back returns hero",
+      "passed": true
+    },
+    {
+      "name": "mobile: escape closes menu",
+      "passed": true
+    },
+    {
+      "name": "mobile: zero Vimeo/Cloudflare requests",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "mobile: no CSP violations",
+      "passed": true,
+      "data": {
+        "events": [],
+        "securityLog": []
+      }
+    },
+    {
+      "name": "mobile: no page or console errors",
+      "passed": true,
+      "data": {
+        "pageErrors": [],
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "desktop: original opt-in preserves EXACT URL",
+      "passed": true,
+      "data": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0"
+    },
+    {
+      "name": "desktop: opt-in attempts original iframe request",
+      "passed": true
+    },
+    {
+      "name": "desktop: retained Vimeo event behavior (synthetic)",
+      "passed": true
+    },
+    {
+      "name": "mobile: original opt-in preserves EXACT URL",
+      "passed": true,
+      "data": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0"
+    },
+    {
+      "name": "mobile: opt-in attempts original iframe request",
+      "passed": true
+    },
+    {
+      "name": "mobile: retained Vimeo event behavior (synthetic)",
+      "passed": true
+    },
+    {
+      "name": "ocean-eclipse.mp4: exact local asset unchanged",
+      "passed": true,
+      "data": {
+        "before": "3bdbacec4fa72d4c5c43d52a8a9fbd8d8aad9197f2e0fb7c7aa4782b90b549c1",
+        "source": "3bdbacec4fa72d4c5c43d52a8a9fbd8d8aad9197f2e0fb7c7aa4782b90b549c1",
+        "built": "3bdbacec4fa72d4c5c43d52a8a9fbd8d8aad9197f2e0fb7c7aa4782b90b549c1"
+      }
+    },
+    {
+      "name": "black-sovereign.mp4: exact local asset unchanged",
+      "passed": true,
+      "data": {
+        "before": "daff3290a3847b7caa24fb82c39bcdfe1b27d6069a7ee704ebc28a79abacec1e",
+        "source": "daff3290a3847b7caa24fb82c39bcdfe1b27d6069a7ee704ebc28a79abacec1e",
+        "built": "daff3290a3847b7caa24fb82c39bcdfe1b27d6069a7ee704ebc28a79abacec1e"
+      }
+    },
+    {
+      "name": "azure-horizon.mp4: exact local asset unchanged",
+      "passed": true,
+      "data": {
+        "before": "a1ac6128ef5c8c431942d9da39e36d25a2a3fde4e2420f3c525ad010f928fbbe",
+        "source": "a1ac6128ef5c8c431942d9da39e36d25a2a3fde4e2420f3c525ad010f928fbbe",
+        "built": "a1ac6128ef5c8c431942d9da39e36d25a2a3fde4e2420f3c525ad010f928fbbe"
+      }
+    }
+  ],
+  "defaultModes": [
+    {
+      "mode": "desktop",
+      "requests": [
+        "http://localhost:5173/motionsites-results/yacht-club-hero/",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/index-Cu5iEBXy.js",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/index-D3jOW3EV.css",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/instrument-serif-regular.ttf",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/instrument-serif-italic.ttf",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/favicon.svg",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4"
+      ],
+      "thirdPartyRequests": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "securityLog": [],
+      "cspViolations": [],
+      "failedRequests": [
+        {
+          "url": "http://localhost:5173/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://localhost:5173/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "mode": "mobile",
+      "requests": [
+        "http://localhost:5173/motionsites-results/yacht-club-hero/",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/index-Cu5iEBXy.js",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/index-D3jOW3EV.css",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/instrument-serif-regular.ttf",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/instrument-serif-italic.ttf",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/favicon.svg",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4"
+      ],
+      "thirdPartyRequests": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "securityLog": [],
+      "cspViolations": [],
+      "failedRequests": [
+        {
+          "url": "http://localhost:5173/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ]
+    }
+  ],
+  "originalModes": [
+    {
+      "mode": "desktop",
+      "requests": [
+        "http://localhost:5173/motionsites-results/yacht-club-hero/?media=original",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/index-Cu5iEBXy.js",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/index-D3jOW3EV.css",
+        "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/instrument-serif-regular.ttf",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/instrument-serif-italic.ttf",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/favicon.svg",
+        "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=turnstileLoad",
+        "https://player.vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js?ray=a5285c66e99ffcba",
+        "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/scripts/precursor/c787ce48cf6b/main.js?ray=a5285c66e99ffcba",
+        "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/precursor/c787ce48cf6b/0.19194065817513628:1793336961:PyOMUvBenU9UjCxPbkelpjkW2o5gNqT08nEQVdc7uR4/a5285c66e99ffcba",
+        "https://challenges.cloudflare.com/turnstile/v0/g/c787ce48cf6b/api.js",
+        "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/gmhzr/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/new/normal?lang=auto",
+        "blob:https://challenges.cloudflare.com/7a231212-7d0d-4657-b3a0-41ff8792783d",
+        "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/2154133046:1793336956:FH93LiOHYuM-hhZgtiD3bsJQVV8RAeVPV9LxKRMgqek/a5285c6afa859ce5/Cn9scZWqaRFxqhL0tcy-ZrCTr3_60n3mvPQqEDABFVpj5VZ0gm7C1607xNyw831to2FYo3TupKLYk6iGsXR8KlV9l8hDTV1LGZn_yHHwtuBaorfZJ04LEQyxtFg3ENxmzg"
+      ],
+      "pageErrors": [],
+      "consoleErrors": [
+        {
+          "text": "Failed to load resource: the server responded with a status of 401 ()",
+          "location": {
+            "url": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "playbackClaimed": false,
+      "iframeSrc": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0"
+    },
+    {
+      "mode": "mobile",
+      "requests": [
+        "http://localhost:5173/motionsites-results/yacht-club-hero/?media=original",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/index-Cu5iEBXy.js",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/index-D3jOW3EV.css",
+        "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/instrument-serif-regular.ttf",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/instrument-serif-italic.ttf",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4",
+        "http://localhost:5173/motionsites-results/yacht-club-hero/favicon.svg",
+        "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=turnstileLoad",
+        "https://player.vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js?ray=a5285c72c8ded002",
+        "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/scripts/precursor/c787ce48cf6b/main.js?ray=a5285c72c8ded002",
+        "https://challenges.cloudflare.com/turnstile/v0/g/c787ce48cf6b/api.js",
+        "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/precursor/c787ce48cf6b/0.19194065817513628:1793336961:PyOMUvBenU9UjCxPbkelpjkW2o5gNqT08nEQVdc7uR4/a5285c72c8ded002",
+        "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/ntzpo/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/new/normal?lang=auto",
+        "blob:https://challenges.cloudflare.com/4ad3847e-57a3-4481-a64c-fc49bbbe70b3",
+        "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/fo/2154133046:1793336956:FH93LiOHYuM-hhZgtiD3bsJQVV8RAeVPV9LxKRMgqek/a5285c75ebb31b3a/CtT-erK_fwrBFgqvesoU9uJKzTNQIaezWUKWzH5gAc34BpYLn3A2Gossv3PU3SAW9LmObMic970yAb141CN8e6ngtsamPUtp-0S7-Z6bCz8s7Flyqytj1ysopfoJCTAeKA"
+      ],
+      "pageErrors": [],
+      "consoleErrors": [
+        {
+          "text": "Failed to load resource: the server responded with a status of 401 ()",
+          "location": {
+            "url": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "playbackClaimed": false,
+      "iframeSrc": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0"
+    }
+  ],
+  "assetHashes": {
+    "ocean-eclipse.mp4": {
+      "before": "3bdbacec4fa72d4c5c43d52a8a9fbd8d8aad9197f2e0fb7c7aa4782b90b549c1",
+      "source": "3bdbacec4fa72d4c5c43d52a8a9fbd8d8aad9197f2e0fb7c7aa4782b90b549c1",
+      "built": "3bdbacec4fa72d4c5c43d52a8a9fbd8d8aad9197f2e0fb7c7aa4782b90b549c1"
+    },
+    "black-sovereign.mp4": {
+      "before": "daff3290a3847b7caa24fb82c39bcdfe1b27d6069a7ee704ebc28a79abacec1e",
+      "source": "daff3290a3847b7caa24fb82c39bcdfe1b27d6069a7ee704ebc28a79abacec1e",
+      "built": "daff3290a3847b7caa24fb82c39bcdfe1b27d6069a7ee704ebc28a79abacec1e"
+    },
+    "azure-horizon.mp4": {
+      "before": "a1ac6128ef5c8c431942d9da39e36d25a2a3fde4e2420f3c525ad010f928fbbe",
+      "source": "a1ac6128ef5c8c431942d9da39e36d25a2a3fde4e2420f3c525ad010f928fbbe",
+      "built": "a1ac6128ef5c8c431942d9da39e36d25a2a3fde4e2420f3c525ad010f928fbbe"
+    }
+  },
+  "completed": true
+}

@@ -1,0 +1,432 @@
+{
+  "title": "Yacht Club",
+  "id": "yacht-club-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite, rebuilt after media gating and local favicon repair",
+    "desktop_viewport": "1440x1000",
+    "mobile_viewport": "390x844, fresh touch-enabled context",
+    "browser": "real Chromium via playwright-core",
+    "passed": 59,
+    "failed": 0,
+    "application_exceptions": [],
+    "details": [
+      {
+        "name": "desktop: default has no iframe",
+        "passed": true
+      },
+      {
+        "name": "desktop: no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "desktop: 80 ripple nodes",
+        "passed": true
+      },
+      {
+        "name": "desktop: fallback clock advances",
+        "passed": true,
+        "data": {
+          "before": 1.433254,
+          "after": 2.200574,
+          "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+        }
+      },
+      {
+        "name": "desktop: cursor ripples activate",
+        "passed": true
+      },
+      {
+        "name": "desktop: join opens GSAP menu",
+        "passed": true
+      },
+      {
+        "name": "desktop: menu six items",
+        "passed": true
+      },
+      {
+        "name": "desktop: fleet opens",
+        "passed": true
+      },
+      {
+        "name": "desktop: ocean-eclipse.mp4 hover specs",
+        "passed": true
+      },
+      {
+        "name": "desktop: ocean-eclipse.mp4 hover clock advances",
+        "passed": true,
+        "data": {
+          "before": 1.197504,
+          "after": 1.960094,
+          "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+        }
+      },
+      {
+        "name": "desktop: ocean-eclipse.mp4 detail exact asset",
+        "passed": true
+      },
+      {
+        "name": "desktop: ocean-eclipse.mp4 detail clock advances",
+        "passed": true,
+        "data": {
+          "before": 0.556973,
+          "after": 1.31738,
+          "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+        }
+      },
+      {
+        "name": "desktop: ocean-eclipse.mp4 detail closes",
+        "passed": true
+      },
+      {
+        "name": "desktop: black-sovereign.mp4 hover specs",
+        "passed": true
+      },
+      {
+        "name": "desktop: black-sovereign.mp4 hover clock advances",
+        "passed": true,
+        "data": {
+          "before": 1.259636,
+          "after": 2.044295,
+          "src": "/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4"
+        }
+      },
+      {
+        "name": "desktop: black-sovereign.mp4 detail exact asset",
+        "passed": true
+      },
+      {
+        "name": "desktop: black-sovereign.mp4 detail clock advances",
+        "passed": true,
+        "data": {
+          "before": 0.22331,
+          "after": 0.982059,
+          "src": "/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4"
+        }
+      },
+      {
+        "name": "desktop: black-sovereign.mp4 detail closes",
+        "passed": true
+      },
+      {
+        "name": "desktop: azure-horizon.mp4 hover specs",
+        "passed": true
+      },
+      {
+        "name": "desktop: azure-horizon.mp4 hover clock advances",
+        "passed": true,
+        "data": {
+          "before": 2.162896,
+          "after": 2.915356,
+          "src": "/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4"
+        }
+      },
+      {
+        "name": "desktop: azure-horizon.mp4 detail exact asset",
+        "passed": true
+      },
+      {
+        "name": "desktop: azure-horizon.mp4 detail clock advances",
+        "passed": true,
+        "data": {
+          "before": 0.503954,
+          "after": 1.240672,
+          "src": "/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4"
+        }
+      },
+      {
+        "name": "desktop: azure-horizon.mp4 detail closes",
+        "passed": true
+      },
+      {
+        "name": "desktop: back returns hero",
+        "passed": true
+      },
+      {
+        "name": "desktop: escape closes menu",
+        "passed": true
+      },
+      {
+        "name": "desktop: zero Vimeo/Cloudflare requests",
+        "passed": true,
+        "data": []
+      },
+      {
+        "name": "desktop: no CSP violations",
+        "passed": true,
+        "data": {
+          "events": [],
+          "securityLog": []
+        }
+      },
+      {
+        "name": "desktop: no page or console errors",
+        "passed": true,
+        "data": {
+          "pageErrors": [],
+          "consoleErrors": []
+        }
+      },
+      {
+        "name": "mobile: default has no iframe",
+        "passed": true
+      },
+      {
+        "name": "mobile: no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "mobile: 80 ripple nodes",
+        "passed": true
+      },
+      {
+        "name": "mobile: fallback clock advances",
+        "passed": true,
+        "data": {
+          "before": 1.468672,
+          "after": 2.26542,
+          "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+        }
+      },
+      {
+        "name": "mobile: join opens GSAP menu",
+        "passed": true
+      },
+      {
+        "name": "mobile: menu six items",
+        "passed": true
+      },
+      {
+        "name": "mobile: fleet opens",
+        "passed": true
+      },
+      {
+        "name": "mobile: fleet scrolls without horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "mobile: ocean-eclipse.mp4 detail exact asset",
+        "passed": true
+      },
+      {
+        "name": "mobile: ocean-eclipse.mp4 detail clock advances",
+        "passed": true,
+        "data": {
+          "before": 0.031175,
+          "after": 0.794456,
+          "src": "/motionsites-results/yacht-club-hero/assets/ocean-eclipse.mp4"
+        }
+      },
+      {
+        "name": "mobile: ocean-eclipse.mp4 detail closes",
+        "passed": true
+      },
+      {
+        "name": "mobile: black-sovereign.mp4 detail exact asset",
+        "passed": true
+      },
+      {
+        "name": "mobile: black-sovereign.mp4 detail clock advances",
+        "passed": true,
+        "data": {
+          "before": 0.100292,
+          "after": 0.882186,
+          "src": "/motionsites-results/yacht-club-hero/assets/black-sovereign.mp4"
+        }
+      },
+      {
+        "name": "mobile: black-sovereign.mp4 detail closes",
+        "passed": true
+      },
+      {
+        "name": "mobile: azure-horizon.mp4 detail exact asset",
+        "passed": true
+      },
+      {
+        "name": "mobile: azure-horizon.mp4 detail clock advances",
+        "passed": true,
+        "data": {
+          "before": 0.173602,
+          "after": 0.959733,
+          "src": "/motionsites-results/yacht-club-hero/assets/azure-horizon.mp4"
+        }
+      },
+      {
+        "name": "mobile: azure-horizon.mp4 detail closes",
+        "passed": true
+      },
+      {
+        "name": "mobile: back returns hero",
+        "passed": true
+      },
+      {
+        "name": "mobile: escape closes menu",
+        "passed": true
+      },
+      {
+        "name": "mobile: zero Vimeo/Cloudflare requests",
+        "passed": true,
+        "data": []
+      },
+      {
+        "name": "mobile: no CSP violations",
+        "passed": true,
+        "data": {
+          "events": [],
+          "securityLog": []
+        }
+      },
+      {
+        "name": "mobile: no page or console errors",
+        "passed": true,
+        "data": {
+          "pageErrors": [],
+          "consoleErrors": []
+        }
+      },
+      {
+        "name": "desktop: original opt-in preserves EXACT URL",
+        "passed": true,
+        "data": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0"
+      },
+      {
+        "name": "desktop: opt-in attempts original iframe request",
+        "passed": true
+      },
+      {
+        "name": "desktop: retained Vimeo event behavior (synthetic)",
+        "passed": true
+      },
+      {
+        "name": "mobile: original opt-in preserves EXACT URL",
+        "passed": true,
+        "data": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0"
+      },
+      {
+        "name": "mobile: opt-in attempts original iframe request",
+        "passed": true
+      },
+      {
+        "name": "mobile: retained Vimeo event behavior (synthetic)",
+        "passed": true
+      },
+      {
+        "name": "ocean-eclipse.mp4: exact local asset unchanged",
+        "passed": true,
+        "data": {
+          "before": "3bdbacec4fa72d4c5c43d52a8a9fbd8d8aad9197f2e0fb7c7aa4782b90b549c1",
+          "source": "3bdbacec4fa72d4c5c43d52a8a9fbd8d8aad9197f2e0fb7c7aa4782b90b549c1",
+          "built": "3bdbacec4fa72d4c5c43d52a8a9fbd8d8aad9197f2e0fb7c7aa4782b90b549c1"
+        }
+      },
+      {
+        "name": "black-sovereign.mp4: exact local asset unchanged",
+        "passed": true,
+        "data": {
+          "before": "daff3290a3847b7caa24fb82c39bcdfe1b27d6069a7ee704ebc28a79abacec1e",
+          "source": "daff3290a3847b7caa24fb82c39bcdfe1b27d6069a7ee704ebc28a79abacec1e",
+          "built": "daff3290a3847b7caa24fb82c39bcdfe1b27d6069a7ee704ebc28a79abacec1e"
+        }
+      },
+      {
+        "name": "azure-horizon.mp4: exact local asset unchanged",
+        "passed": true,
+        "data": {
+          "before": "a1ac6128ef5c8c431942d9da39e36d25a2a3fde4e2420f3c525ad010f928fbbe",
+          "source": "a1ac6128ef5c8c431942d9da39e36d25a2a3fde4e2420f3c525ad010f928fbbe",
+          "built": "a1ac6128ef5c8c431942d9da39e36d25a2a3fde4e2420f3c525ad010f928fbbe"
+        }
+      }
+    ],
+    "report": "screenshots/browser-report.json",
+    "screenshots": [
+      "screenshots/desktop-detail-1.png",
+      "screenshots/desktop-detail-2.png",
+      "screenshots/desktop-detail-3.png",
+      "screenshots/desktop-fleet.png",
+      "screenshots/desktop-menu.png",
+      "screenshots/desktop.png",
+      "screenshots/mobile-detail-1.png",
+      "screenshots/mobile-detail-2.png",
+      "screenshots/mobile-detail-3.png",
+      "screenshots/mobile-fleet.png",
+      "screenshots/mobile-menu.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Updated desktop/mobile default hero screenshots inspected. Fleet/menu/detail screenshots refreshed; no original reference available.",
+    "default_modes": [
+      {
+        "mode": "desktop",
+        "vimeo_cloudflare_requests": 0,
+        "page_errors": 0,
+        "console_errors": 0,
+        "csp_violations": 0,
+        "security_log_entries": 0
+      },
+      {
+        "mode": "mobile",
+        "vimeo_cloudflare_requests": 0,
+        "page_errors": 0,
+        "console_errors": 0,
+        "csp_violations": 0,
+        "security_log_entries": 0
+      }
+    ],
+    "original_opt_in": "Exact URL and actual request checked on desktop/mobile; retained event behavior tested with a synthetic message only. Original playback not claimed.",
+    "public_build_verification": "Not performed here. Management hold remains pending independent verification of fixed public build."
+  },
+  "asset_issues": [
+    {
+      "asset": "Vimeo 1184061018",
+      "issue": "Exact embed returns a connection-verification challenge; config endpoint returns PrivacyError. Cloudflare challenge host also fails DNS in browser.",
+      "recovery": "Default uses the supplied local Ocean Eclipse approximation without mounting or requesting Vimeo. EXACT iframe source and existing event behavior remain behind explicit ?media=original only.",
+      "limitation": "Original hero film unavailable; fallback is an approximation.",
+      "evidence": [
+        "diagnostics/vimeo-embed-response.html",
+        "diagnostics/vimeo-config-response.html"
+      ]
+    },
+    {
+      "asset": "reference WebP",
+      "issue": "/home/opc/motionsites/assets/previews/yacht-club-hero.webp is absent",
+      "limitation": "No exact reference-image comparison or extraction possible."
+    },
+    {
+      "asset": "Google Fonts CSS",
+      "issue": "External CSS request stalled during browser validation.",
+      "recovery": "Original Google Fonts Instrument Serif regular/italic files cached locally and imported via src/instrument-serif.css.",
+      "evidence": "diagnostics/google-fonts-response.css"
+    }
+  ],
+  "notes": [
+    "Ready means prepared for review, not deployed. No push or deployment performed.",
+    "React 19, Vite, TypeScript, Tailwind v4, motion/react, GSAP, Geist and Instrument Serif used.",
+    "All three exact fleet MP4s served locally; all report readyState 4 and no media error.",
+    "Browser request log includes normal media ERR_ABORTED events when fleet videos unmount; all fleet assets subsequently decode successfully.",
+    "All source and generated artifacts are confined to this project. No agents or additional sessions were created.",
+    "Unspecified navigation destinations are not implemented; required labels are present, Home and Our Fleet switch views, Join opens menu, and View opens vessel details.",
+    "Social links point to platform roots because specific club handles were not supplied.",
+    "Minimal runtime repair: conditional Vimeo iframe/message effect in src/App.tsx; a local favicon using the existing sail mark resolves the missing automatic icon request. No layout, fleet, GSAP menu, ripple, font, server, or checker weakening changes.",
+    "Default-mode validation captures all requests and all console/page/CSP/security errors without request blocking or error filtering. Opt-in third-party diagnostics are recorded separately.",
+    "All three source and built fleet movies match their pre-repair SHA-256 hashes; see browser-report.json assetHashes.",
+    "The private management hold remains in effect until independent root verification of the fixed public build. Ready denotes local review readiness only."
+  ],
+  "output": "dist/",
+  "base_path": "/motionsites-results/yacht-club-hero/",
+  "media_modes": {
+    "default": {
+      "background": "local Ocean Eclipse MP4",
+      "iframe_mounted": false,
+      "vimeo_message_listener_installed": false,
+      "approximation_of_missing_original": true
+    },
+    "original_opt_in": {
+      "query": "?media=original",
+      "iframe_src": "https://player.vimeo.com/video/1184061018?background=1&autoplay=1&loop=1&byline=0&title=0",
+      "event_behavior": "Existing ready subscription and play/timeupdate visibility behavior retained.",
+      "original_playback_claimed": false,
+      "third_party_challenge_errors_possible": true
+    }
+  }
+}

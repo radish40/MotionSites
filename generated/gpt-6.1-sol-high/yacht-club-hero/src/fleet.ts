@@ -1,0 +1,5 @@
+export const fleet = [
+ {src:'https://app-uploads.krea.ai/wan-videos/08006647-1c55-4823-b35d-e40d57c66bf8.mp4',local:'ocean-eclipse.mp4',title:'OCEAN\nECLIPSE',specs:[{label:'LENGTH',value:'28 M (92 FT)'},{label:'CRUISING SPEED',value:'22 KNOTS'},{label:'GUESTS',value:'UP TO 12 GUESTS'},{label:'CABINS',value:'4 EN-SUITE CABINS'},{label:'SPECIAL FEATURE',value:'ADVANCED GYRO STABILIZATION'}]},
+ {src:'https://app-uploads.krea.ai/wan-videos/91fd9932-6194-4d58-ada0-955692853019.mp4',local:'black-sovereign.mp4',title:'BLACK\nSOVEREIGN',specs:[{label:'LENGTH',value:'24 M (78 FT)'},{label:'TOP SPEED',value:'45 KNOTS'},{label:'HULL',value:'CARBON FIBER & KEVLAR'},{label:'ENGINES',value:'TWIN V12 2000 HP'},{label:'SPECIAL FEATURE',value:'BESPOKE DESIGN WITH GOLD DETAILING'}]},
+ {src:'https://app-uploads.krea.ai/wan-videos/95fb3282-d7cf-448e-9202-ef0662541c83.mp4',local:'azure-horizon.mp4',title:'AZURE\nHORIZON',specs:[{label:'LENGTH',value:'32 M (105 FT)'},{label:'RANGE',value:'1,500 NAUTICAL MILES'},{label:'GUESTS',value:'14 GUESTS + 5 CREW'},{label:'DECK',value:'SPACIOUS SUN DECK WITH JACUZZI'},{label:'SPECIAL FEATURE',value:'FULL WATER TOYS GARAGE'}]}
+];

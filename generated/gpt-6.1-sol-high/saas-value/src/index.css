@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{font-family:'Nimbus Sans TW01';src:url('../public/assets/nimbus-sans.woff2') format('woff2');font-weight:normal;font-style:normal;font-display:swap;}
+html{font-family:'Nimbus Sans TW01','Helvetica Neue',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+body{margin:0;}button,a,input{ -webkit-tap-highlight-color:transparent; }button:focus-visible,a:focus-visible{outline:2px solid #52697a;outline-offset:4px;}input{min-width:0;}
+@keyframes fade-up{from{opacity:0;transform:translateY(24px);filter:blur(6px);}to{opacity:1;transform:translateY(0);filter:blur(0);}}
+@keyframes fade-down{from{opacity:0;transform:translateY(-16px);}to{opacity:1;transform:translateY(0);}}
+@keyframes hero-rise{from{opacity:0;transform:translateY(64px) scale(.97);}to{opacity:1;transform:translateY(0) scale(1);}}
+.animate-fade-up{animation:fade-up .9s cubic-bezier(.22,1,.36,1) both;}.animate-fade-down{animation:fade-down .7s cubic-bezier(.22,1,.36,1) both;}.animate-hero-rise{animation:hero-rise 1.1s cubic-bezier(.22,1,.36,1) both;}
+@media(prefers-reduced-motion:reduce){.animate-fade-up,.animate-fade-down,.animate-hero-rise{animation:none!important;}}

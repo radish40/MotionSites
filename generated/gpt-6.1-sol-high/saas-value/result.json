@@ -1,0 +1,81 @@
+{
+  "title": "SaaS Value",
+  "id": "saas-value",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "browser": {
+      "checks": [
+        {
+          "name": "desktop",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "height": 1000,
+          "scrollHeight": 1000,
+          "fontReady": true,
+          "images": true,
+          "heading": "Get cited.\nEffortlessly."
+        },
+        {
+          "test": "desktop: search preserves question; free and sales forms validate and show honest local confirmation; Escape closes",
+          "pass": true
+        },
+        {
+          "test": "Desktop toolkit dropdown and dialog",
+          "pass": true
+        },
+        {
+          "test": "desktop: reduced motion disables entrance animation",
+          "pass": true
+        },
+        {
+          "name": "mobile",
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844,
+          "scrollHeight": 844,
+          "fontReady": true,
+          "images": true,
+          "heading": "Get cited.\nEffortlessly."
+        },
+        {
+          "test": "Mobile menu opens, Plans opens dialog, dialog closes",
+          "pass": true
+        },
+        {
+          "test": "mobile: search preserves question; free and sales forms validate and show honest local confirmation; Escape closes",
+          "pass": true
+        },
+        {
+          "test": "mobile: reduced motion disables entrance animation",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "failures": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "dist_index": true
+  },
+  "asset_issues": [
+    {
+      "asset": "grass overlay",
+      "issue": "Specified Cloudinary transformation URL and original upload URL both returned HTTP 401.",
+      "recovery": "Isolated foreground grass from this design reference with scripts/recover-grass.cjs; transparent PNG at public/assets/grass.png.",
+      "limitation": "Trimmed contour approximates original unavailable grass transparency. Exact original overlay cannot be verified."
+    }
+  ],
+  "notes": [
+    "React + TypeScript + Tailwind CSS 3 + Vite; lucide-react icons.",
+    "Exact background and Nimbus font downloaded locally; specified remote font stylesheet retained.",
+    "Production base /motionsites-results/saas-value/.",
+    "Local preview forms only; no backend account creation, generation or email delivery.",
+    "Built and checked in Chromium at 1440x1000 and 390x844 with no script/console errors, failed requests or layout overflow.",
+    "No push or deployment performed. Ready for review."
+  ]
+}

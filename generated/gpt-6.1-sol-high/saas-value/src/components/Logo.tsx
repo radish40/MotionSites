@@ -1,0 +1,1 @@
+export default function Logo({className=''}:{className?:string}){return <svg className={className} viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M 144 256 L 27.598 256 L 144 139.598 Z M 256 207.5 L 200 256 L 200 56 L 0 56 L 48 0 L 256 0 Z M 0 204.402 L 0 112 L 92.402 112 Z"/></svg>}

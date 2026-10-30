@@ -1,0 +1,50 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/saas-value/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:18:33.636Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Questly — Get cited. Effortlessly.",
+      "bodyChars": 1164,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/saas-value/assets/grass.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Questly — Get cited. Effortlessly.",
+      "bodyChars": 1145,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/saas-value/assets/grass.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

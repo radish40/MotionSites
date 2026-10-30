@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T02:42:09.499500+00:00",
+  "updated_utc": "2026-10-30T02:45:14.133390+00:00",
   "total": 380,
   "counts": {
-    "complete": 200,
+    "complete": 202,
     "running": 5,
-    "not_started": 175
+    "not_started": 173
   },
   "current_batch": {
     "from_number": 201,
@@ -2030,11 +2030,11 @@
       "id": "rocket-pricing",
       "title": "Rocket Pricing",
       "category": "Pricing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aab-7d41-7173-8aa4-d11c3908bd6c",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "154ac52ff427a4522a5d4c6c61529e0e3d4a0400",
+      "group_message_id": 264,
+      "url": "https://tool.luo-xd.com/motionsites-results/rocket-pricing/"
     },
     {
       "id": "saas-pricing-flow",
@@ -2060,17 +2060,17 @@
       "id": "scroll-marquee",
       "title": "Scroll Marquee",
       "category": "Components",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aab-7f18-7051-8c20-94150e5d95da",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "14992672c08084e1c9061bafc19e56fdb059956d",
+      "group_message_id": 265,
+      "url": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/"
     },
     {
       "id": "shop",
       "title": "Daisy Shop",
       "category": "E-commerce",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2080,7 +2080,7 @@
       "id": "solace-sign-in",
       "title": "Solace sign-in",
       "category": "Waitlist & Coming Soon",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

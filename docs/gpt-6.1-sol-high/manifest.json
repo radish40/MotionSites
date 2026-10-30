@@ -6918,19 +6918,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aab-7d41-7173-8aa4-d11c3908bd6c",
       "output_path": "generated/gpt-6.1-sol-high/rocket-pricing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 369458,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:37:36.852683+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "154ac52ff427a4522a5d4c6c61529e0e3d4a0400",
+      "url": "https://tool.luo-xd.com/motionsites-results/rocket-pricing/",
+      "completed_utc": "2026-10-30T02:43:32.178409+00:00",
+      "group_message_id": 264
     },
     {
       "number": 203,
@@ -7008,20 +7012,24 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18aab-7f18-7051-8c20-94150e5d95da",
       "output_path": "generated/gpt-6.1-sol-high/scroll-marquee",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 369725,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:37:37.273223+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
       },
-      "preview_selector": "section[aria-label=\"Scroll-driven design gallery\"]"
+      "preview_selector": "section[aria-label=\"Scroll-driven design gallery\"]",
+      "source_commit": "14992672c08084e1c9061bafc19e56fdb059956d",
+      "url": "https://tool.luo-xd.com/motionsites-results/scroll-marquee/",
+      "completed_utc": "2026-10-30T02:45:13.498525+00:00",
+      "group_message_id": 265
     },
     {
       "number": 206,
@@ -7039,11 +7047,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/shop",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 388133,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:43:07.729643+00:00",
+      "worker_state": "running"
     },
     {
       "number": 207,
@@ -7061,11 +7073,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/solace-sign-in",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 388169,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T02:43:07.866288+00:00",
+      "worker_state": "running"
     },
     {
       "number": 208,
@@ -10874,7 +10890,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T02:42:09.499500+00:00",
+  "updated_utc": "2026-10-30T02:45:14.133390+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Desktop 1440x1000: correct title, four navigation links, no horizontal overflow, screenshot saved",
+    "Desktop: rising circle and label animation, hover reversal, keyboard focus and Collection hash navigation passed",
+    "Logo hover rotation passed",
+    "Mobile 390x844: no overflow; menu opens/closes, About navigation closes dropdown, Escape dismisses and restores focus; screenshots saved",
+    "Replay Animation reload and entrance completed",
+    "No browser script/console errors, failed requests, or HTTP resource errors"
+  ],
+  "errors": [],
+  "failed": []
+}

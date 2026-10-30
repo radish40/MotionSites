@@ -1,0 +1,41 @@
+{
+  "title": "Pill Nav",
+  "id": "community-superdesign-pill-nav",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": {
+      "passed": true,
+      "checks": [
+        "Desktop 1440x1000: correct title, four navigation links, no horizontal overflow, screenshot saved",
+        "Desktop: rising circle and label animation, hover reversal, keyboard focus and Collection hash navigation passed",
+        "Logo hover rotation passed",
+        "Mobile 390x844: no overflow; menu opens/closes, About navigation closes dropdown, Escape dismisses and restores focus; screenshots saved",
+        "Replay Animation reload and entrance completed",
+        "No browser script/console errors, failed requests, or HTTP resource errors"
+      ],
+      "errors": [],
+      "failed": []
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-hover.png",
+      "screenshots/mobile-menu.png"
+    ],
+    "visual_review": "Desktop, mobile, and open mobile menu screenshots inspected"
+  },
+  "asset_issues": [
+    "Optional design reference WebP absent; implemented supplied React source and styling. No external runtime assets or font requests required."
+  ],
+  "notes": [
+    "React 18 + TypeScript + Tailwind CSS + GSAP + React Router 6 + Lucide; dependencies locked.",
+    "Required base path: /motionsites-results/community-superdesign-pill-nav/.",
+    "Hash routes retain the component showcase; separate content pages were not specified.",
+    "Fixed mobile menu selection dismissal; added keyboard animation and Escape dismissal; responsive mobile padding.",
+    "npm audit reports two moderate package entries involving required React Router 6; suggested upgrade changes the prompt-required major. Details in npm-audit.json.",
+    "Chromium verification only; unavailable visual reference prevents reference-image comparison.",
+    "Ready for review; not deployed or pushed."
+  ]
+}

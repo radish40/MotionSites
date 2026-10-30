@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  --background: 0 0% 98%;
+  --foreground: 240 2% 10%;
+  --primary: 240 2% 10%;
+  --primary-foreground: 0 0% 100%;
+  --border: 0 0% 90%;
+  color-scheme: light;
+}
+body { margin: 0; }
+a:focus-visible, button:focus-visible { outline: 2px solid #64748b; outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+body { margin: 0; background: #f9fafb; color: #0a1b33; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #8b9cff; outline-offset: 5px; }
+.marquee { mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent); }
+.marquee-track { width: max-content; animation: marquee 38s linear infinite; will-change: transform; }
+.marquee:hover .marquee-track, .marquee:focus-within .marquee-track { animation-play-state: paused; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+dialog { margin: auto; border: 1px solid #e2e8f0; border-radius: 28px; padding: 32px; max-width: 440px; width: calc(100% - 40px); color: #0a1b33; box-shadow: 0 30px 100px #0a1b3320; }
+dialog::backdrop { background: #0a152d45; backdrop-filter: blur(6px); }
+@media (max-width: 767px) {
+  .hero { border-radius: 32px; }
+  .hero video { object-position: 20% center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; }
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
+}

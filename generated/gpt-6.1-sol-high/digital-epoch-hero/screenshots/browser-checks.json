@@ -1,0 +1,209 @@
+{
+  "results": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "heroHeight": 600,
+      "video": {
+        "readyState": 4,
+        "currentTime": 2.53072,
+        "paused": false,
+        "width": 1920,
+        "height": 1080
+      },
+      "fonts": {
+        "inter": true,
+        "outfit": true
+      },
+      "logos": [
+        {
+          "alt": "Procure",
+          "loaded": true
+        },
+        {
+          "alt": "Shopify",
+          "loaded": true
+        },
+        {
+          "alt": "Blender",
+          "loaded": true
+        },
+        {
+          "alt": "Figma",
+          "loaded": true
+        },
+        {
+          "alt": "Spotify",
+          "loaded": true
+        },
+        {
+          "alt": "Lottielab",
+          "loaded": true
+        },
+        {
+          "alt": "Google Cloud",
+          "loaded": true
+        },
+        {
+          "alt": "Bing",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        }
+      ],
+      "interactions": {
+        "contactOpens": true,
+        "formValid": true,
+        "escapeCloses": true,
+        "docsOpens": true,
+        "navContactOpens": true,
+        "marqueePauses": true,
+        "marqueeResumes": true,
+        "hoverGradient": true
+      },
+      "errors": [],
+      "failures": [
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_101331_74f9b798-3f00-4e86-8a01-377aa16ffeaa.mp4",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_101331_74f9b798-3f00-4e86-8a01-377aa16ffeaa.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "heroHeight": 600,
+      "video": {
+        "readyState": 4,
+        "currentTime": 2.161259,
+        "paused": false,
+        "width": 1920,
+        "height": 1080
+      },
+      "fonts": {
+        "inter": true,
+        "outfit": true
+      },
+      "logos": [
+        {
+          "alt": "Procure",
+          "loaded": true
+        },
+        {
+          "alt": "Shopify",
+          "loaded": true
+        },
+        {
+          "alt": "Blender",
+          "loaded": true
+        },
+        {
+          "alt": "Figma",
+          "loaded": true
+        },
+        {
+          "alt": "Spotify",
+          "loaded": true
+        },
+        {
+          "alt": "Lottielab",
+          "loaded": true
+        },
+        {
+          "alt": "Google Cloud",
+          "loaded": true
+        },
+        {
+          "alt": "Bing",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "alt": "",
+          "loaded": true
+        }
+      ],
+      "interactions": {
+        "contactOpens": true,
+        "formValid": true,
+        "escapeCloses": true,
+        "docsOpens": true,
+        "navContactOpens": true,
+        "marqueePauses": true,
+        "marqueeResumes": true,
+        "hoverGradient": true
+      },
+      "errors": [],
+      "failures": []
+    }
+  ],
+  "reducedMotion": {
+    "marqueeStopped": true,
+    "videoPaused": true
+  }
+}

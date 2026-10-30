@@ -1,0 +1,236 @@
+{
+  "title": "Digital Epoch",
+  "id": "digital-epoch-hero",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22, run in louislam/uptime-kuma:2; full Docker command in README.md)",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite; dist/index.html exists",
+    "browser_command": "node scripts/browser-check.cjs (inside provided Docker image)",
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "overflow": false,
+        "heroHeight": 600,
+        "video": {
+          "readyState": 4,
+          "currentTime": 2.53072,
+          "paused": false,
+          "width": 1920,
+          "height": 1080
+        },
+        "fonts": {
+          "inter": true,
+          "outfit": true
+        },
+        "logos": [
+          {
+            "alt": "Procure",
+            "loaded": true
+          },
+          {
+            "alt": "Shopify",
+            "loaded": true
+          },
+          {
+            "alt": "Blender",
+            "loaded": true
+          },
+          {
+            "alt": "Figma",
+            "loaded": true
+          },
+          {
+            "alt": "Spotify",
+            "loaded": true
+          },
+          {
+            "alt": "Lottielab",
+            "loaded": true
+          },
+          {
+            "alt": "Google Cloud",
+            "loaded": true
+          },
+          {
+            "alt": "Bing",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          }
+        ],
+        "interactions": {
+          "contactOpens": true,
+          "formValid": true,
+          "escapeCloses": true,
+          "docsOpens": true,
+          "navContactOpens": true,
+          "marqueePauses": true,
+          "marqueeResumes": true,
+          "hoverGradient": true
+        },
+        "errors": [],
+        "failures": [
+          {
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_101331_74f9b798-3f00-4e86-8a01-377aa16ffeaa.mp4",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260505_101331_74f9b798-3f00-4e86-8a01-377aa16ffeaa.mp4",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "width": 390,
+        "height": 844,
+        "overflow": false,
+        "heroHeight": 600,
+        "video": {
+          "readyState": 4,
+          "currentTime": 2.161259,
+          "paused": false,
+          "width": 1920,
+          "height": 1080
+        },
+        "fonts": {
+          "inter": true,
+          "outfit": true
+        },
+        "logos": [
+          {
+            "alt": "Procure",
+            "loaded": true
+          },
+          {
+            "alt": "Shopify",
+            "loaded": true
+          },
+          {
+            "alt": "Blender",
+            "loaded": true
+          },
+          {
+            "alt": "Figma",
+            "loaded": true
+          },
+          {
+            "alt": "Spotify",
+            "loaded": true
+          },
+          {
+            "alt": "Lottielab",
+            "loaded": true
+          },
+          {
+            "alt": "Google Cloud",
+            "loaded": true
+          },
+          {
+            "alt": "Bing",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          },
+          {
+            "alt": "",
+            "loaded": true
+          }
+        ],
+        "interactions": {
+          "contactOpens": true,
+          "formValid": true,
+          "escapeCloses": true,
+          "docsOpens": true,
+          "navContactOpens": true,
+          "marqueePauses": true,
+          "marqueeResumes": true,
+          "hoverGradient": true
+        },
+        "errors": [],
+        "failures": []
+      }
+    ],
+    "reduced_motion": {
+      "marqueeStopped": true,
+      "videoPaused": true
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_inspection": "Both final screenshots reviewed; mobile video crop adjusted for readable text.",
+    "dependency_audit": "npm install reported 0 vulnerabilities"
+  },
+  "asset_issues": [
+    "Optional digital-epoch-hero.webp reference absent; implemented from full written prompt.",
+    "Original video, all svgl.app logos, Inter and Outfit loaded successfully. Browser logged aborted video range requests on desktop while playback remained active; raw records retained.",
+    "External assets require network access."
+  ],
+  "notes": [
+    "Ready for review; not deployed or pushed.",
+    "Exact requested React, TypeScript, Tailwind v4 and Motion stack, CSS import and video source retained.",
+    "Contact recipient and documentation URLs were not provided. Contact prepares an email without a recipient, with an explicit notice; Docs displays a preview notice. No delivery is claimed or tested.",
+    "No other designs read, no agents or sessions created, no messages sent. All project artifacts are inside this directory.",
+    "Physical devices and non-Chromium engines were not tested.",
+    "package-lock.json included; node_modules is excluded by .gitignore."
+  ]
+}

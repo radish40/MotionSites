@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T05:41:53.867450+00:00",
+  "updated_utc": "2026-10-30T05:44:52.649387+00:00",
   "total": 380,
   "counts": {
-    "complete": 344,
+    "complete": 345,
+    "needs_fix": 1,
     "running": 5,
-    "not_started": 31
+    "not_started": 29
   },
   "current_batch": {
     "from_number": 201,
@@ -3420,7 +3421,7 @@
       "id": "sentinel-ai-hero",
       "title": "Sentinel AI",
       "category": "Hero Section",
-      "status": "running",
+      "status": "needs_fix",
       "thread_id": "01a18b48-7ef3-7130-8393-de69b14c16f6",
       "source_commit": null,
       "group_message_id": null,
@@ -3470,18 +3471,18 @@
       "id": "lumina-footer",
       "title": "Lumina",
       "category": "Footer Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b51-a488-7a20-874e-0715e37b8c06",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "11d15603afc38eab2e58b61eb6a53112b86609b9",
+      "group_message_id": 414,
+      "url": "https://tool.luo-xd.com/motionsites-results/lumina-footer/"
     },
     {
       "id": "nexacore-hero",
       "title": "NexaCore",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b52-e28e-7f02-b88c-fdea966796c0",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3491,7 +3492,7 @@
       "title": "Guardnet",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b52-e391-74b3-ae4a-a4a151288176",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3501,7 +3502,7 @@
       "title": "Automation Machines",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b52-e476-7a71-8466-79b12fdac0e2",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3510,7 +3511,7 @@
       "id": "focus-ai-landing",
       "title": "Focus AI",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3520,7 +3521,7 @@
       "id": "design-rocket-email-hero",
       "title": "Email Marketing",
       "category": "Email Marketing",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

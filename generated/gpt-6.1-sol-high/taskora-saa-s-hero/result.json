@@ -1,0 +1,107 @@
+{
+  "title": "Taskora SaaS Hero",
+  "id": "taskora-saa-s-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c \"npm ci && npm run build\"",
+  "checks": {
+    "production_build": "passed; dist/index.html exists; Vite publication base configured",
+    "browser": {
+      "desktop": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "fonts": [
+          {
+            "name": "Inter",
+            "loaded": true
+          },
+          {
+            "name": "Manrope",
+            "loaded": true
+          },
+          {
+            "name": "Cabin",
+            "loaded": true
+          }
+        ],
+        "serif": true,
+        "video": {
+          "ready": 4,
+          "playing": true,
+          "width": 1720
+        },
+        "dashboard": {
+          "width": 1102,
+          "scrollWidth": 1102
+        },
+        "checks": [
+          "no page overflow",
+          "all specified fonts loaded",
+          "video autoplay verified",
+          "demo form and result",
+          "sign-in form and result",
+          "Escape closes dialog",
+          "sign-up form and result",
+          "Company and Contact dialogs"
+        ]
+      },
+      "mobile": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "fonts": [
+          {
+            "name": "Inter",
+            "loaded": true
+          },
+          {
+            "name": "Manrope",
+            "loaded": true
+          },
+          {
+            "name": "Cabin",
+            "loaded": true
+          }
+        ],
+        "serif": true,
+        "video": {
+          "ready": 4,
+          "playing": true,
+          "width": 1720
+        },
+        "dashboard": {
+          "width": 342,
+          "scrollWidth": 990
+        },
+        "checks": [
+          "no page overflow",
+          "all specified fonts loaded",
+          "video autoplay verified",
+          "demo form and result",
+          "sign-in form and result",
+          "Escape closes dialog",
+          "mobile menu opens and closes",
+          "Features navigation",
+          "dashboard horizontal scrolling"
+        ]
+      },
+      "reducedMotion": "Video autoplay and entrance animation disabled",
+      "scriptErrors": [],
+      "failedRequests": [],
+      "status": "passed"
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-full.png"
+    ],
+    "visual_review": "Required desktop/mobile screenshots and full-page desktop screenshot reviewed"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented only Taskora SaaS Hero with React, Tailwind CSS, and Framer Motion.",
+    "Exact prompt video and all specified Google Fonts bundled locally and verified in Chromium.",
+    "Optional local reference preview was absent; implementation follows the full written prompt.",
+    "Dashboard is a non-functional DOM product mockup. Demo/account forms are local previews and do not send or store data.",
+    "Ready for acceptance review; not deployed or pushed. No agents or additional sessions created.",
+    "Requested model/reasoning: gpt-6.1-sol, high; model selection is controlled by the host session, not project code."
+  ]
+}

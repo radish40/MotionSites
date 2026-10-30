@@ -1,0 +1,83 @@
+{
+  "desktop": {
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "fonts": [
+      {
+        "name": "Inter",
+        "loaded": true
+      },
+      {
+        "name": "Manrope",
+        "loaded": true
+      },
+      {
+        "name": "Cabin",
+        "loaded": true
+      }
+    ],
+    "serif": true,
+    "video": {
+      "ready": 4,
+      "playing": true,
+      "width": 1720
+    },
+    "dashboard": {
+      "width": 1102,
+      "scrollWidth": 1102
+    },
+    "checks": [
+      "no page overflow",
+      "all specified fonts loaded",
+      "video autoplay verified",
+      "demo form and result",
+      "sign-in form and result",
+      "Escape closes dialog",
+      "sign-up form and result",
+      "Company and Contact dialogs"
+    ]
+  },
+  "mobile": {
+    "viewport": 390,
+    "documentWidth": 390,
+    "fonts": [
+      {
+        "name": "Inter",
+        "loaded": true
+      },
+      {
+        "name": "Manrope",
+        "loaded": true
+      },
+      {
+        "name": "Cabin",
+        "loaded": true
+      }
+    ],
+    "serif": true,
+    "video": {
+      "ready": 4,
+      "playing": true,
+      "width": 1720
+    },
+    "dashboard": {
+      "width": 342,
+      "scrollWidth": 990
+    },
+    "checks": [
+      "no page overflow",
+      "all specified fonts loaded",
+      "video autoplay verified",
+      "demo form and result",
+      "sign-in form and result",
+      "Escape closes dialog",
+      "mobile menu opens and closes",
+      "Features navigation",
+      "dashboard horizontal scrolling"
+    ]
+  },
+  "reducedMotion": "Video autoplay and entrance animation disabled",
+  "scriptErrors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

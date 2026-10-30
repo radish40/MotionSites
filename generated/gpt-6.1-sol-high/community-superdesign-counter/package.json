@@ -1,0 +1,10 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A premium mechanical rolling counter component with smooth Framer Motion animations.",
+  "type": "module",
+  "scripts": {"dev": "vite --host 0.0.0.0", "build": "tsc --noEmit && vite build", "preview": "vite preview --host 0.0.0.0"},
+  "dependencies": {"framer-motion": "^11.0.0", "lucide-react": "latest", "react": "^18.0.0", "react-dom": "^18.0.0"},
+  "devDependencies": {"@types/react": "^18.3.0", "@types/react-dom": "^18.3.0", "typescript": "^5.7.0", "vite": "^6.0.0"}
+}

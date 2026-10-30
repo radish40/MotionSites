@@ -1,0 +1,82 @@
+{
+  "url": "/motionsites-results/community-superdesign-counter/",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "initialValue": true,
+      "automaticIncrement": true,
+      "springTransforms": true,
+      "resetClick": true,
+      "resetKeyboard": true,
+      "focusVisible": true,
+      "noOverflow": true,
+      "layout": {
+        "width": 1440,
+        "scroll": 1440,
+        "card": {
+          "x": 433.328125,
+          "y": 301.25,
+          "width": 573.328125,
+          "height": 372,
+          "top": 301.25,
+          "right": 1006.65625,
+          "bottom": 673.25,
+          "left": 433.328125
+        },
+        "counter": {
+          "x": 513.328125,
+          "y": 381.25,
+          "width": 413.328125,
+          "height": 120,
+          "top": 381.25,
+          "right": 926.65625,
+          "bottom": 501.25,
+          "left": 513.328125
+        }
+      },
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "initialValue": true,
+      "automaticIncrement": true,
+      "springTransforms": true,
+      "resetClick": true,
+      "resetKeyboard": true,
+      "focusVisible": true,
+      "noOverflow": true,
+      "layout": {
+        "width": 390,
+        "scroll": 390,
+        "card": {
+          "x": 24,
+          "y": 267.875,
+          "width": 342,
+          "height": 260,
+          "top": 267.875,
+          "right": 366,
+          "bottom": 527.875,
+          "left": 24
+        },
+        "counter": {
+          "x": 81.390625,
+          "y": 323.875,
+          "width": 227.21875,
+          "height": 64,
+          "top": 323.875,
+          "right": 308.609375,
+          "bottom": 387.875,
+          "left": 81.390625
+        }
+      },
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "automaticPlaceDetection": true
+}

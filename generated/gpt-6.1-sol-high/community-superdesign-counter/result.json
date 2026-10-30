@@ -1,0 +1,115 @@
+{
+  "title": "Counter",
+  "id": "community-superdesign-counter",
+  "status": "ready",
+  "build_command": "npm ci && npm run build (Node 22 through louislam/uptime-kuma:2; full Docker command in README.md)",
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "dist_index_exists": true,
+    "base_path": "/motionsites-results/community-superdesign-counter/",
+    "browser": {
+      "url": "/motionsites-results/community-superdesign-counter/",
+      "checks": [
+        {
+          "viewport": "desktop",
+          "width": 1440,
+          "height": 1000,
+          "initialValue": true,
+          "automaticIncrement": true,
+          "springTransforms": true,
+          "resetClick": true,
+          "resetKeyboard": true,
+          "focusVisible": true,
+          "noOverflow": true,
+          "layout": {
+            "width": 1440,
+            "scroll": 1440,
+            "card": {
+              "x": 433.328125,
+              "y": 301.25,
+              "width": 573.328125,
+              "height": 372,
+              "top": 301.25,
+              "right": 1006.65625,
+              "bottom": 673.25,
+              "left": 433.328125
+            },
+            "counter": {
+              "x": 513.328125,
+              "y": 381.25,
+              "width": 413.328125,
+              "height": 120,
+              "top": 381.25,
+              "right": 926.65625,
+              "bottom": 501.25,
+              "left": 513.328125
+            }
+          },
+          "screenshot": "screenshots/desktop.png"
+        },
+        {
+          "viewport": "mobile",
+          "width": 390,
+          "height": 844,
+          "initialValue": true,
+          "automaticIncrement": true,
+          "springTransforms": true,
+          "resetClick": true,
+          "resetKeyboard": true,
+          "focusVisible": true,
+          "noOverflow": true,
+          "layout": {
+            "width": 390,
+            "scroll": 390,
+            "card": {
+              "x": 24,
+              "y": 267.875,
+              "width": 342,
+              "height": 260,
+              "top": 267.875,
+              "right": 366,
+              "bottom": 527.875,
+              "left": 24
+            },
+            "counter": {
+              "x": 81.390625,
+              "y": 323.875,
+              "width": 227.21875,
+              "height": 64,
+              "top": 323.875,
+              "right": 308.609375,
+              "bottom": 387.875,
+              "left": 81.390625
+            }
+          },
+          "screenshot": "screenshots/mobile.png"
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "automaticPlaceDetection": true
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and mobile screenshots inspected; supplied layout implemented with responsive mobile sizing."
+  },
+  "asset_issues": [
+    {
+      "asset": "/home/opc/motionsites/assets/previews/community-superdesign-counter.webp",
+      "issue": "Optional reference file absent",
+      "resolution": "Implemented from complete PROMPT.md source and styling. No asset extraction needed; exact preview comparison unavailable."
+    }
+  ],
+  "notes": [
+    "Page title is Rolling Counter; project index title remains Counter.",
+    "React 18, TypeScript, Vite 6, Framer Motion 11, Lucide React; dependency lockfile included.",
+    "No external images or fonts specified; system sans-serif and bundled icons used.",
+    "Desktop 1440x1000 and mobile 390x844 pass with no browser errors, failed requests, or horizontal overflow.",
+    "Initial value, timed increments, spring transforms, click and keyboard reset, focus visibility, and integer/decimal place changes verified.",
+    "Dependency use-client directives generate non-blocking Vite warnings recorded in build.log.",
+    "Ready for review; not deployed or pushed. Work confined to this project."
+  ]
+}

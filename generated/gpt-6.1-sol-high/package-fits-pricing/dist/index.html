@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#F0EFED">
+<link rel="icon" href="data:,">
+<title>What Package Fits You</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&display=swap');
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #F0EFED; padding: 48px 20px; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.c2-container { max-width: 800px; width: 100%; }
+.c2-eyebrow { text-align: center; font-size: .75rem; letter-spacing: .18em; text-transform: uppercase; color: #888; margin-bottom: 14px; transform: translateY(10px); animation: c2-fadeUp .7s cubic-bezier(.16,1,.3,1) both; }
+.c2-title { font-family: 'Playfair Display', serif; font-size: 2.8rem; text-align: center; color: #2a2a2a; font-weight: 400; letter-spacing: -.01em; margin-bottom: 36px; transform: translateY(14px); animation: c2-fadeUp .8s .1s cubic-bezier(.16,1,.3,1) both; }
+.c2-title em { font-style: italic; color: #5a5a5a; }
+.c2-grid-wrapper { background: #E8E7E5; border-radius: 20px; padding: 16px; margin-bottom: 20px; transform: translateY(20px); animation: c2-fadeUp .9s .2s cubic-bezier(.16,1,.3,1) both; }
+.c2-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }
+.c2-card { background: white; border-radius: 16px; padding: 24px; position: relative; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,.03); display: flex; flex-direction: column; transition: transform .35s cubic-bezier(.16,1,.3,1), box-shadow .35s cubic-bezier(.16,1,.3,1); }
+.c2-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,.08); }
+.c2-card::before, .c2-card::after, .c2-dot-bl, .c2-dot-br { content: ''; position: absolute; width: 6px; height: 6px; background: #d0d0d0; border-radius: 50%; pointer-events: none; }
+.c2-card::before { top: 12px; left: 12px; } .c2-card::after { top: 12px; right: 12px; }
+.c2-dot-bl { bottom: 12px; left: 12px; } .c2-dot-br { bottom: 12px; right: 12px; }
+.c2-card-title { font-size: 1.3rem; font-weight: 500; margin-bottom: 8px; color: #2a2a2a; letter-spacing: -.01em; }
+.c2-price { font-family: 'Cormorant Garamond', serif; font-size: 3.2rem; font-weight: 400; letter-spacing: -.02em; display: flex; align-items: baseline; gap: 8px; padding-bottom: 12px; border-bottom: 1px solid #e5e5e5; min-height: 76px; }
+.c2-price-unit { font-family: 'Inter', sans-serif; font-size: .85rem; color: #999; font-weight: 300; letter-spacing: normal; }
+.c2-price-amount { transition: opacity .25s, transform .25s; }
+.c2-price-amount.c2-flip { opacity: 0; transform: translateY(-6px); }
+.c2-list { list-style: none; font-size: .85rem; color: #555; margin-bottom: 16px; padding-bottom: 16px; }
+.c2-bordered { border-bottom: 1px solid #e5e5e5; }
+.c2-bordered-top { border-top: 1px solid #e5e5e5; padding-top: 20px; }
+.c2-list li { margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.c2-list li::before { content: '❖'; color: #c0c0c0; font-size: .9rem; }
+.c2-desc { font-size: .85rem; color: #666; line-height: 1.6; max-width: 210px; margin-bottom: auto; }
+.c2-btn { border: none; cursor: pointer; background: #000; color: #fff; padding: 11px 26px; border-radius: 30px; font-size: .85rem; font-weight: 500; font-family: inherit; margin-top: 32px; width: fit-content; z-index: 2; position: relative; transition: transform .2s, background .2s, box-shadow .2s; }
+.c2-btn:hover { transform: translateY(-1px); background: #1a1a1a; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+.c2-btn:active { transform: translateY(0); }
+.c2-btn:focus-visible, .c2-toggle [role="tab"]:focus-visible, .c2-framer:focus-visible { outline: 2px solid #2a2a2a; outline-offset: 3px; }
+.c2-tree { position: absolute; bottom: 0; right: 20px; width: 120px; z-index: 1; pointer-events: none; transition: transform .5s cubic-bezier(.16,1,.3,1); }
+.c2-card:hover .c2-tree { transform: translateY(-3px) rotate(-1.5deg); }
+.c2-toggle { display: inline-flex; align-self: flex-start; background: #f0f0f0; border-radius: 20px; padding: 4px; margin-bottom: 15px; font-size: .75rem; user-select: none; }
+.c2-toggle [role="tab"] { padding: 5px 14px; border-radius: 16px; color: #666; cursor: pointer; transition: background .25s, color .25s, box-shadow .25s; }
+.c2-toggle .c2-active { background: white; color: #1a1a1a; box-shadow: 0 2px 5px rgba(0,0,0,.05); }
+.c2-framer { display: flex; align-items: center; gap: 10px; font-size: .8rem; color: #555; margin-bottom: 30px; cursor: pointer; user-select: none; width: fit-content; }
+.c2-switch { width: 34px; height: 20px; flex-shrink: 0; background: #e5e5e5; border-radius: 10px; position: relative; transition: background .25s; }
+.c2-switch::after { content: ''; position: absolute; width: 16px; height: 16px; background: white; left: 2px; top: 2px; border-radius: 50%; box-shadow: 0 1px 3px rgba(0,0,0,.15); transition: left .25s cubic-bezier(.16,1,.3,1); }
+.c2-framer.c2-on .c2-switch { background: #2a2a2a; } .c2-framer.c2-on .c2-switch::after { left: 16px; }
+.c2-bottom-card { background: #E8E7E5; border-radius: 16px; padding: 32px 32px 4px; display: flex; flex-direction: column; position: relative; overflow: hidden; min-height: 220px; transform: translateY(20px); animation: c2-fadeUp 1s .35s cubic-bezier(.16,1,.3,1) both; }
+.c2-bottom-card .c2-dot-bl, .c2-bottom-card .c2-dot-br { display: none; }
+.c2-bottom-card .c2-btn { margin-top: 60px; }
+.c2-bottom-desc { font-size: .85rem; color: #666; line-height: 1.6; max-width: 600px; margin-bottom: -20px; z-index: 2; position: relative; }
+.c2-landscape { position: absolute; bottom: 0; right: 0; width: 360px; z-index: 1; pointer-events: none; }
+@keyframes c2-fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 768px) { body { padding: 32px 16px; } .c2-title { font-size: 2.1rem; margin-bottom: 28px; } .c2-grid { grid-template-columns: 1fr; } .c2-tree { width: 96px; right: 12px; opacity: .85; } .c2-desc, .c2-bottom-desc { max-width: none; } .c2-landscape { width: 240px; opacity: .85; } .c2-bottom-card { padding: 28px 24px 4px; } .c2-bottom-card .c2-btn { margin-top: 40px; } }
+@media (max-width: 480px) { .c2-title { font-size: 1.8rem; } .c2-price { font-size: 2.6rem; } .c2-landscape { width: 180px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+</style>
+</head>
+<body>
+<main class="c2-container">
+<p class="c2-eyebrow">PRICING</p>
+<h2 class="c2-title">What package fits <em>you?</em></h2>
+<div class="c2-grid-wrapper"><div class="c2-grid">
+<div class="c2-card">
+<div class="c2-dot-bl"></div><div class="c2-dot-br"></div>
+<h3 class="c2-card-title">Product Design</h3>
+<div class="c2-price">$75 <span class="c2-price-unit">Hourly</span></div>
+<ul class="c2-list c2-bordered"><li>Experienced Designer</li><li>Fast Delivery</li><li>Conversion Focused</li><li>Tailored Design Strategy</li></ul>
+<p class="c2-desc">Perfect if you're looking to build a dashboard, app, etc... and get it "done-right" the first time.</p>
+<button class="c2-btn" type="button" data-package="Product Design">Contact Us</button>
+<img class="c2-tree" src="assets/gold-tree.webp" alt="" loading="lazy">
+</div>
+<div class="c2-card" data-card="web">
+<div class="c2-dot-bl"></div><div class="c2-dot-br"></div>
+<h3 class="c2-card-title">Web Design</h3>
+<div class="c2-price"><span class="c2-price-amount" data-price>$1,500</span><span class="c2-price-unit" data-price-note>One-time</span></div>
+<div class="c2-toggle" role="tablist" aria-label="Page count"><span class="c2-active" role="tab" tabindex="0" data-pages="single" aria-selected="true">Single-page</span><span role="tab" tabindex="0" data-pages="multi" aria-selected="false">Multi-page</span></div>
+<div class="c2-framer" role="switch" tabindex="0" aria-checked="false" aria-label="Add Framer development"><span class="c2-switch" aria-hidden="true"></span><span>Framer Development</span></div>
+<ul class="c2-list c2-bordered c2-bordered-top"><li>Experienced Designer</li><li>Fast Delivery</li><li>Conversion Focused</li><li>50/50 Secure Payments</li></ul>
+<br><br>
+<button class="c2-btn" type="button" data-package="Web Design">Contact Us</button>
+<img class="c2-tree" src="assets/purple-tree.webp" alt="" loading="lazy">
+</div>
+</div></div>
+<div class="c2-bottom-card">
+<h3 class="c2-card-title">Unique Request</h3>
+<p class="c2-bottom-desc">Are you looking for something custom?<br>Don't hesitate to contact us, and we'll help brainstorming your product to success.</p>
+<button class="c2-btn" type="button" data-package="Custom">Contact Us</button>
+<img class="c2-landscape" src="assets/landscape.webp" alt="" loading="lazy">
+</div>
+</main>
+<script>
+(function () {
+  'use strict';
+  const BASE = { single: 1500, multi: 2500 };
+  const FRAMER_ADDON = 800;
+  const state = { pages: 'single', framer: false };
+  const card = document.querySelector('[data-card="web"]');
+  const price = card.querySelector('[data-price]');
+  const note = card.querySelector('[data-price-note]');
+  const options = card.querySelectorAll('[data-pages]');
+  const framer = card.querySelector('.c2-framer');
+  let priceTimer;
+  let renderedPrice = price.textContent;
+  function render() {
+    const total = BASE[state.pages] + (state.framer ? FRAMER_ADDON : 0);
+    const formatted = '$' + total.toLocaleString('en-US');
+    if (formatted === renderedPrice) return;
+    renderedPrice = formatted;
+    clearTimeout(priceTimer);
+    price.classList.add('c2-flip');
+    priceTimer = setTimeout(function () { price.textContent = formatted; price.classList.remove('c2-flip'); }, 160);
+    note.textContent = state.framer ? 'One-time + Framer' : 'One-time';
+  }
+  function selectPages(value) {
+    if (state.pages === value) return;
+    state.pages = value;
+    options.forEach(function (opt) {
+      const active = opt.dataset.pages === value;
+      opt.classList.toggle('c2-active', active);
+      opt.setAttribute('aria-selected', String(active));
+    });
+    render();
+  }
+  options.forEach(function (opt) {
+    opt.addEventListener('click', function () { selectPages(opt.dataset.pages); });
+    opt.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); selectPages(opt.dataset.pages); }
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault();
+        const value = event.key === 'ArrowLeft' ? 'single' : 'multi';
+        selectPages(value);
+        card.querySelector('[data-pages="' + value + '"]').focus();
+      }
+    });
+  });
+  function toggleFramer() {
+    state.framer = !state.framer;
+    framer.classList.toggle('c2-on', state.framer);
+    framer.setAttribute('aria-checked', String(state.framer));
+    render();
+  }
+  framer.addEventListener('click', toggleFramer);
+  framer.addEventListener('keydown', function (event) { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleFramer(); } });
+  document.querySelectorAll('.c2-btn').forEach(function (button) {
+    button.addEventListener('click', function () {
+      let label = button.dataset.package;
+      if (label === 'Web Design') label += ' — ' + state.pages + (state.framer ? ' + Framer' : '');
+      console.log('[c2] contact requested: ' + label);
+    });
+  });
+}());
+</script>
+</body>
+</html>

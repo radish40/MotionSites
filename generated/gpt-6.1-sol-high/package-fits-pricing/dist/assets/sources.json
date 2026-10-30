@@ -1,0 +1,20 @@
+[
+  {
+    "file": "assets/gold-tree.webp",
+    "source": "https://pub-f170a2592d2c4a1485466404c36807be.r2.dev/viktor/gold%20tree.webp",
+    "sha256": "ef70dec33d65abab2c0d117e56d321753c49524dee96e5f78c19750f291a049a",
+    "method": "Original file downloaded unchanged with curl; no extraction or approximation."
+  },
+  {
+    "file": "assets/purple-tree.webp",
+    "source": "https://pub-f170a2592d2c4a1485466404c36807be.r2.dev/viktor/purple%20tree.webp",
+    "sha256": "979c7fbca501b35e5712b3c964f5f6718ecc3b473e974a074c50abc2b2685e69",
+    "method": "Original file downloaded unchanged with curl; no extraction or approximation."
+  },
+  {
+    "file": "assets/landscape.webp",
+    "source": "https://pub-f170a2592d2c4a1485466404c36807be.r2.dev/viktor/landscape.webp",
+    "sha256": "bf1c95e4905283898d45668af37235a3de1f32285621d2b643c2c43f2cca9b4c",
+    "method": "Original file downloaded unchanged with curl; no extraction or approximation."
+  }
+]

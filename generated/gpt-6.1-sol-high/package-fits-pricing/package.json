@@ -1,0 +1,7 @@
+{
+  "name": "package-fits-pricing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "What Package Fits You — standalone pricing section",
+  "scripts": { "build": "node build.mjs" }
+}

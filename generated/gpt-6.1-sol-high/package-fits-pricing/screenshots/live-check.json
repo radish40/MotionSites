@@ -1,0 +1,75 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/package-fits-pricing/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T06:35:03.785Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 4,
+      "canvasRendering": null,
+      "title": "What Package Fits You",
+      "bodyChars": 558,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/package-fits-pricing/assets/gold-tree.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/package-fits-pricing/assets/purple-tree.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/package-fits-pricing/assets/landscape.webp",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 3,
+      "canvasRendering": null,
+      "title": "What Package Fits You",
+      "bodyChars": 558,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/package-fits-pricing/assets/gold-tree.webp",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/package-fits-pricing/assets/purple-tree.webp",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/package-fits-pricing/assets/landscape.webp",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

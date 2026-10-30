@@ -1,0 +1,59 @@
+{
+  "title": "What Package Fits You",
+  "id": "package-fits-pricing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "build": "passed",
+    "browser": "passed",
+    "details": "browser-checks.json",
+    "screenshots": {
+      "desktop": "screenshots/desktop.png",
+      "mobile": "screenshots/mobile.png"
+    },
+    "viewports": [
+      {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "columns": "374px 374px",
+        "tree": "120px",
+        "landscape": "360px"
+      },
+      {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "columns": "326px",
+        "tree": "96px",
+        "landscape": "180px"
+      },
+      {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "columns": "311px",
+        "tree": "96px",
+        "landscape": "180px"
+      }
+    ],
+    "pricing_and_keyboard": "PASS: default, multi, Framer, combined total, keyboard arrows/Enter/Space, selected/checked ARIA, contact logs",
+    "script_errors": [],
+    "failed_requests": [],
+    "original_images_loaded": true,
+    "fonts": {
+      "playfair": true,
+      "inter": true,
+      "cormorant": true
+    },
+    "reduced_motion": "passed"
+  },
+  "asset_issues": [
+    "Initial Python asset fetches returned HTTP 403; all three exact original assets recovered unchanged with curl and bundled locally.",
+    "Optional reference preview was absent; no screenshot comparison was possible."
+  ],
+  "notes": [
+    "Standalone component2.html with one style block, one inline script, c2-prefixed classes, no frameworks.",
+    "dist/index.html and dist/component2.html use relative asset paths compatible with /motionsites-results/package-fits-pricing/.",
+    "Explicit max-width:480px landscape rule (180px) takes precedence over the conflicting 240px mobile verification sentence.",
+    "Google Fonts remains externally imported as specified and loaded successfully in browser verification.",
+    "Contact Us logs package details as specified. No deployment, push, messages, agents, or other project work."
+  ]
+}

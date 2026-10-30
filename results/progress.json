@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-30T06:07:36.275580+00:00",
+  "updated_utc": "2026-10-30T06:08:52.192888+00:00",
   "total": 380,
   "counts": {
-    "complete": 359,
+    "complete": 360,
     "ready": 1,
     "running": 5,
-    "not_started": 15
+    "not_started": 14
   },
   "current_batch": {
     "from_number": 201,
@@ -3631,11 +3631,11 @@
       "id": "vize-footer",
       "title": "Vize Footer",
       "category": "Footer Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b68-7f81-73a2-a7b0-fb50d8b9fa45",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "11588c3ac8c59a92cff2533bf08ee61ba62dfce3",
+      "group_message_id": 430,
+      "url": "https://tool.luo-xd.com/motionsites-results/vize-footer/"
     },
     {
       "id": "pro-ai-deck",
@@ -3652,7 +3652,7 @@
       "title": "HAUL!",
       "category": "Footer Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b6b-5d53-7a92-b3ec-806ca9d996e2",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3662,7 +3662,7 @@
       "title": "Veloce Finance",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b6b-5df1-7fd0-88f8-44ff0f60b476",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3671,7 +3671,7 @@
       "id": "6",
       "title": "Bold Portfolio Hero",
       "category": "Portfolio",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

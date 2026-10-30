@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-10-30T06:14:34.016433+00:00",
+  "updated_utc": "2026-10-30T06:17:14.650007+00:00",
   "total": 380,
   "counts": {
-    "complete": 363,
+    "complete": 366,
     "ready": 1,
     "running": 5,
-    "not_started": 11
+    "not_started": 8
   },
   "current_batch": {
     "from_number": 201,
@@ -3661,38 +3661,38 @@
       "id": "veloce-finance-landing",
       "title": "Veloce Finance",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b6b-5df1-7fd0-88f8-44ff0f60b476",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "d43c65f081ffd246aeab0abf556146e491a01cee",
+      "group_message_id": 434,
+      "url": "https://tool.luo-xd.com/motionsites-results/veloce-finance-landing/"
     },
     {
       "id": "6",
       "title": "Bold Portfolio Hero",
       "category": "Portfolio",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b6c-8be3-72d0-a5c4-aa143c4d6d4d",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a5a24f96e9b1fcb9a5c9e4b8c093e20d6da41809",
+      "group_message_id": 435,
+      "url": "https://tool.luo-xd.com/motionsites-results/6/"
     },
     {
       "id": "slate-hero",
       "title": "Slate",
       "category": "SaaS",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b6d-dfcf-76f0-8c47-2c1550a64a52",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "a8079c2ad158b82f3adc3b98d0c4e0c7034117b5",
+      "group_message_id": 436,
+      "url": "https://tool.luo-xd.com/motionsites-results/slate-hero/"
     },
     {
       "id": "ecovolta-v2-hero",
       "title": "EcoVolta V2",
       "category": "Hero Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b70-ad85-7a62-89b4-cffbf63d696d",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3702,7 +3702,7 @@
       "title": "Nexora Features",
       "category": "Features Section",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b70-af12-7552-b4da-d6c7f207d88b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3711,7 +3711,7 @@
       "id": "vitara-hero",
       "title": "Vitara",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3721,7 +3721,7 @@
       "id": "zenith-realty-landing",
       "title": "Zenith Realty",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3731,7 +3731,7 @@
       "id": "nexar-hero",
       "title": "Nexar",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

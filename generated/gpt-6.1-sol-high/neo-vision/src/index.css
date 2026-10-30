@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#000}button,a,input{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible{outline:2px solid #929292;outline-offset:5px}.video-plus-darker{mix-blend-mode:normal!important}.app-hero-wrapper{min-height:100vh;overflow:hidden}.hero-description-group,.hero-stat-group{margin-right:0}dialog::backdrop{backdrop-filter:blur(6px)}
+@media(min-width:768px){.app-hero-wrapper{min-height:auto;height:100vh}.hero-description-group{margin-right:50%}.hero-stat-group{margin-right:20%}}
+@media(max-width:767px){.app-hero-wrapper>div:nth-child(3){min-height:100svh}.app-hero-wrapper section{min-height:740px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}

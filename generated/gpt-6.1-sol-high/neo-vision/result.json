@@ -1,0 +1,183 @@
+{
+  "title": "NeoVision",
+  "id": "neo-vision",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite",
+    "browser": "Chromium via playwright-core against built dist at /motionsites-results/neo-vision/",
+    "viewports": [
+      {
+        "device": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "metrics": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "images": [
+            {
+              "src": "/motionsites-results/neo-vision/image.png",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/assets/avatar-1.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/assets/avatar-2.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/assets/avatar-3.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/assets/avatar-4.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/Mask_group.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/Mask_group.jpg",
+              "ok": true
+            }
+          ],
+          "videos": [
+            {
+              "ready": 4,
+              "time": 2.06904,
+              "paused": false,
+              "width": 1664
+            },
+            {
+              "ready": 4,
+              "time": 2.069076,
+              "paused": false,
+              "width": 1504
+            }
+          ]
+        },
+        "checks": [
+          "page loaded at required subpath",
+          "no horizontal overflow",
+          "all images loaded",
+          "both videos autoplay",
+          "Get Started scroll",
+          "video modal opens and closes with Escape",
+          "three tabs update content",
+          "article dialog opens and closes",
+          "search selects matching insight"
+        ],
+        "console_errors": [],
+        "failed_responses": []
+      },
+      {
+        "device": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "metrics": {
+          "width": 390,
+          "scrollWidth": 390,
+          "images": [
+            {
+              "src": "/motionsites-results/neo-vision/image.png",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/assets/avatar-1.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/assets/avatar-2.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/assets/avatar-3.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/assets/avatar-4.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/Mask_group.jpg",
+              "ok": true
+            },
+            {
+              "src": "/motionsites-results/neo-vision/Mask_group.jpg",
+              "ok": true
+            }
+          ],
+          "videos": [
+            {
+              "ready": 4,
+              "time": 2.0959,
+              "paused": false,
+              "width": 1664
+            },
+            {
+              "ready": 4,
+              "time": 2.036699,
+              "paused": false,
+              "width": 1504
+            }
+          ]
+        },
+        "checks": [
+          "page loaded at required subpath",
+          "no horizontal overflow",
+          "all images loaded",
+          "both videos autoplay",
+          "Get Started scroll",
+          "video modal opens and closes with Escape",
+          "three tabs update content",
+          "article dialog opens and closes",
+          "search selects matching insight",
+          "mobile menu opens and closes"
+        ],
+        "console_errors": [],
+        "failed_responses": []
+      }
+    ],
+    "visual_review": "Desktop and mobile full-page screenshots inspected",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-hero.png",
+      "screenshots/mobile-hero.png"
+    ],
+    "dependency_audit": "npm install reported 0 vulnerabilities"
+  },
+  "asset_issues": [
+    {
+      "assets": [
+        "image.png",
+        "Mask_group.jpg",
+        "Mask_group-1.jpg",
+        "Mask_group-2.jpg"
+      ],
+      "issue": "Original files absent; no original image URLs provided. Filename recovery attempts on the supplied CloudFront directory returned HTTP 403.",
+      "resolution": "Reconstructed system-font NeoVision PNG logo; three 4:3 insight stills from original About video at 2s, Hero video at 4s, and About video at 6s. Reproduction script: scripts/prepare-assets.cjs.",
+      "limitation": "Original logo and insight image appearance cannot be verified."
+    },
+    {
+      "asset": "/home/opc/motionsites/assets/previews/neo-vision.webp",
+      "issue": "Optional design reference does not exist.",
+      "limitation": "Exact comparison with original visual reference unavailable."
+    }
+  ],
+  "notes": [
+    "React 18 + Vite + TypeScript + Tailwind CSS 3 + lucide-react. Default system font stack.",
+    "Both specified MP4s and all four specified Pexels portraits successfully downloaded and self-hosted.",
+    "All source, generated assets, build files, and verification artifacts are inside this project.",
+    "Contact links lead to About because no contact destination was supplied; insight modals show supplied excerpts because full articles were not supplied.",
+    "Browser check found a search stacking issue, corrected by elevating the header above hero content. Final checks pass.",
+    "Ready for management-session acceptance; no deployment, push, other design access, or subagents."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "desktop": {
+    "hero": {
+      "readyState": 4,
+      "paused": false,
+      "time": 3.414674,
+      "width": 1820,
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_154629_a31a2372-bd54-4f7e-ac9b-21246141a664.mp4"
+    },
+    "fonts": {
+      "manrope": true,
+      "inter": true
+    },
+    "images": [
+      {
+        "loaded": true,
+        "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_154325_6e98dcdb-51ba-446a-8c52-2d2f2675a575.png&w=1280&q=85"
+      },
+      {
+        "loaded": true,
+        "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_154356_13de5dda-6dfe-4f54-b3e2-251301254578.png&w=1280&q=85"
+      }
+    ],
+    "aboutNavigates": true,
+    "fillAtBottom": "100",
+    "videos": [
+      {
+        "ready": 4,
+        "playing": false,
+        "width": 1820
+      },
+      {
+        "ready": 4,
+        "playing": true,
+        "width": 1440
+      },
+      {
+        "ready": 4,
+        "playing": true,
+        "width": 1440
+      },
+      {
+        "ready": 4,
+        "playing": true,
+        "width": 1440
+      }
+    ],
+    "overflow": {
+      "page": 1440,
+      "viewport": 1440
+    },
+    "fillAtTop": "0",
+    "signupNavigates": true
+  },
+  "mobile": {
+    "hero": {
+      "readyState": 4,
+      "paused": false,
+      "time": 3.379985,
+      "width": 1820,
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_154629_a31a2372-bd54-4f7e-ac9b-21246141a664.mp4"
+    },
+    "fonts": {
+      "manrope": true,
+      "inter": false
+    },
+    "images": [
+      {
+        "loaded": true,
+        "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_154325_6e98dcdb-51ba-446a-8c52-2d2f2675a575.png&w=1280&q=85"
+      },
+      {
+        "loaded": true,
+        "source": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_154356_13de5dda-6dfe-4f54-b3e2-251301254578.png&w=1280&q=85"
+      }
+    ],
+    "fontsAfterMenu": {
+      "inter": true
+    },
+    "menuOpens": true,
+    "escapeCloses": true,
+    "navigationCloses": true,
+    "aboutNavigates": true,
+    "fillAtBottom": "100",
+    "videos": [
+      {
+        "ready": 4,
+        "playing": false,
+        "width": 1820
+      },
+      {
+        "ready": 4,
+        "playing": false,
+        "width": 1440
+      },
+      {
+        "ready": 4,
+        "playing": false,
+        "width": 1440
+      },
+      {
+        "ready": 4,
+        "playing": true,
+        "width": 1440
+      }
+    ],
+    "overflow": {
+      "page": 390,
+      "viewport": 390
+    },
+    "fillAtTop": "0"
+  },
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}

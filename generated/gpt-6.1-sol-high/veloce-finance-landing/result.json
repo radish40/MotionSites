@@ -1,0 +1,31 @@
+{
+  "title": "Veloce Finance",
+  "id": "veloce-finance-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "base_path": "/motionsites-results/veloce-finance-landing/",
+    "desktop": "1440x1000: browser checked and screenshot saved",
+    "mobile": "390x844: browser checked and screenshot saved",
+    "horizontal_overflow": "none at either viewport",
+    "script_errors": "none",
+    "media": "all four original videos and both original badge images load",
+    "navigation": "anchors, signup download anchor, mobile toggle, Escape, and close-on-navigation passed",
+    "scroll_animation": "0% at top and 100% at bottom verified at both viewports",
+    "local_fallbacks": "four videos and two badge images verified with original media hosts blocked",
+    "screenshots": ["screenshots/desktop.png", "screenshots/mobile.png"],
+    "reports": ["screenshots/browser-report.json", "screenshots/fallback-report.json"]
+  },
+  "asset_issues": [
+    "Optional project preview WebP was absent. All specified remote media assets were available; original files are preserved locally as fallbacks.",
+    "Proprietary fonts were not supplied; the prescribed system fallback stacks are used. Google Fonts imports are retained and load successfully."
+  ],
+  "notes": [
+    "Built with React, TypeScript, Vite, Tailwind CSS, Framer Motion and lucide-react. Lockfile included.",
+    "Invalid dependency name @supabase/Bolt Database-js interpreted as @supabase/supabase-js; installed and unused in UI.",
+    "No backend or verified app listing links supplied. Authentication buttons lead to app badges; badges link to store discovery destinations. Faq leads to final app information; no additional FAQ section was invented.",
+    "Full-page screenshots show the unfilled final text at scroll zero; additional text-fill screenshots show the filled state.",
+    "Ready means available for review. Not deployed or pushed."
+  ]
+}

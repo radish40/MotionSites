@@ -1,0 +1,30 @@
+{
+  "videos": [
+    {
+      "source": "http://127.0.0.1:4173/motionsites-results/veloce-finance-landing/assets/hero.mp4",
+      "ready": 4
+    },
+    {
+      "source": "http://127.0.0.1:4173/motionsites-results/veloce-finance-landing/assets/members.mp4",
+      "ready": 4
+    },
+    {
+      "source": "http://127.0.0.1:4173/motionsites-results/veloce-finance-landing/assets/transfers.mp4",
+      "ready": 4
+    },
+    {
+      "source": "http://127.0.0.1:4173/motionsites-results/veloce-finance-landing/assets/global.mp4",
+      "ready": 4
+    }
+  ],
+  "images": [
+    {
+      "source": "http://127.0.0.1:4173/motionsites-results/veloce-finance-landing/assets/google-play.png",
+      "loaded": true
+    },
+    {
+      "source": "http://127.0.0.1:4173/motionsites-results/veloce-finance-landing/assets/app-store.png",
+      "loaded": true
+    }
+  ]
+}

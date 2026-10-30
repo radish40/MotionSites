@@ -1,0 +1,76 @@
+{
+  "title": "Grow AI Talent Platform",
+  "id": "grow-ai-talent-platform",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "browser": {
+      "errors": [],
+      "failedRequests": [],
+      "viewports": {
+        "desktop": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "font": true,
+          "video": {
+            "duration": 10.041667,
+            "currentTime": 3.01077,
+            "opacity": "1"
+          },
+          "title": "Grow"
+        },
+        "mobile": {
+          "width": 390,
+          "scrollWidth": 390,
+          "font": true,
+          "video": {
+            "duration": 10.041667,
+            "currentTime": 3,
+            "opacity": "1"
+          },
+          "title": "Grow"
+        }
+      },
+      "interactions": {
+        "desktop": "All six specified buttons accept pointer and keyboard focus; no destinations supplied by design.",
+        "mobile": "All six specified buttons accept pointer and keyboard focus; no destinations supplied by design."
+      },
+      "animation": {
+        "marqueeMoves": true,
+        "fadeIn": 0.5,
+        "fadeOut": 0.5,
+        "restarted": {
+          "time": 0,
+          "paused": false
+        }
+      }
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Both screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "src/assets/logo.png",
+      "issue": "Original logo not supplied",
+      "resolution": "Original transparent four-point mark generated locally; reproducible with scripts/generate-logo.py",
+      "limitation": "Approximation; original brand mark cannot be verified"
+    },
+    {
+      "asset": "/home/opc/motionsites/assets/previews/grow-ai-talent-platform.webp",
+      "issue": "Design-specific preview absent",
+      "resolution": "Implemented fully from PROMPT.md",
+      "limitation": "No source visual comparison available"
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance; not deployed or pushed.",
+    "Original specified video downloaded successfully and bundled locally. Geist Sans and General Sans bundled locally.",
+    "Plain buttons retained as specified; no destinations or additional flows supplied.",
+    "Browser verification used desktop 1440x1000 and mobile 390x844 with full-page screenshots.",
+    "Only this project was read and written; no agents or other sessions created."
+  ]
+}

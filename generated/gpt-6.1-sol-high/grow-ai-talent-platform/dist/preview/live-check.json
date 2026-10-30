@@ -1,0 +1,74 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/grow-ai-talent-platform/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:32:31.525Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Grow AI Talent Platform",
+      "bodyChars": 271,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAACOklEQVR4nO3SIZYQQAxEQe5/WXBIMAgUYt+yP8mUaN9J17fvP35+k3eTFxAABAABQAAQAAQAAUAAEAAEAAFAABAABAABQAD45Pz6k7oHAAAAAAAAAAAAAABfPP7TCPICAAAAAAAAANCO/yyCvAAAAEwZ/0kEeQEAAAAAgDHjP4cgLwAAANPGfwpBXgAAACaO/wyCvAAAAEwd/wkEeQEAAJg8/nkEeYEF459GkBdYMv5ZBHkBAADYMv5JBHmBZeOfQ5AXWDj+KQR5gaXjn0GQF1g8/gkEeYHl469HkBc4MP5qBHmBI+OvRZAXODT+SgR5gWPjr0OQFzg2/DoIeYHD469AkBc4Pv54BHmB48OPh5AXeGT4sRDyAo8NPw5CXaAeYEqeAlA/e3rOAqgfuy3rAdQPvJbRAOrnvBoAHs8YAFAsGPurAQAxcPASAAiDhi8BwBCPPgnA6xDqv48B8BqE+s9jAVyHUP91DYBrEOo/rgVwAUH9v/UANiOo/3YGwDYI9Z/OAtiAoP7PeQCTEdR/eQbARAT1P54DMAlB/YdnAUxAUN//PIASQX03AH/F+I8D+EoE9Z0A/CPGfxzA/0RQ3wUAAABUCOp7APhAjP84gM9AUPcHAAAAKgR1bwAAAKBCUPcFAAAAKgR1TwAAAKBCUPcDAAAAAAAgQVD3AgAAACoEdR8AAAAAAAAAAODrEdQ9AAAAAAAAAAAAAAAQAAQAAUAAEAAEAAFAABAABAABQAAQAAQAAUAAkI/nN8cFkSJ6lfXiAAAAAElFTkSuQmCC",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/grow-ai-talent-platform/assets/talent-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.021402,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Grow AI Talent Platform",
+      "bodyChars": 271,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAACOklEQVR4nO3SIZYQQAxEQe5/WXBIMAgUYt+yP8mUaN9J17fvP35+k3eTFxAABAABQAAQAAQAAUAAEAAEAAFAABAABAABQAD45Pz6k7oHAAAAAAAAAAAAAABfPP7TCPICAAAAAAAAANCO/yyCvAAAAEwZ/0kEeQEAAAAAgDHjP4cgLwAAANPGfwpBXgAAACaO/wyCvAAAAEwd/wkEeQEAAJg8/nkEeYEF459GkBdYMv5ZBHkBAADYMv5JBHmBZeOfQ5AXWDj+KQR5gaXjn0GQF1g8/gkEeYHl469HkBc4MP5qBHmBI+OvRZAXODT+SgR5gWPjr0OQFzg2/DoIeYHD469AkBc4Pv54BHmB48OPh5AXeGT4sRDyAo8NPw5CXaAeYEqeAlA/e3rOAqgfuy3rAdQPvJbRAOrnvBoAHs8YAFAsGPurAQAxcPASAAiDhi8BwBCPPgnA6xDqv48B8BqE+s9jAVyHUP91DYBrEOo/rgVwAUH9v/UANiOo/3YGwDYI9Z/OAtiAoP7PeQCTEdR/eQbARAT1P54DMAlB/YdnAUxAUN//PIASQX03AH/F+I8D+EoE9Z0A/CPGfxzA/0RQ3wUAAABUCOp7APhAjP84gM9AUPcHAAAAKgR1bwAAAKBCUPcFAAAAKgR1TwAAAKBCUPcDAAAAAAAgQVD3AgAAACoEdR8AAAAAAAAAAODrEdQ9AAAAAAAAAAAAAAAQAAQAAUAAEAAEAAFAABAABAABQAAQAAQAAUAAkI/nN8cFkSJ6lfXiAAAAAElFTkSuQmCC",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/grow-ai-talent-platform/assets/talent-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.83983,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

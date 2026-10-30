@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "font": true,
+      "video": {
+        "duration": 10.041667,
+        "currentTime": 3.01077,
+        "opacity": "1"
+      },
+      "title": "Grow"
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "font": true,
+      "video": {
+        "duration": 10.041667,
+        "currentTime": 3,
+        "opacity": "1"
+      },
+      "title": "Grow"
+    }
+  },
+  "interactions": {
+    "desktop": "All six specified buttons accept pointer and keyboard focus; no destinations supplied by design.",
+    "mobile": "All six specified buttons accept pointer and keyboard focus; no destinations supplied by design."
+  },
+  "animation": {
+    "marqueeMoves": true,
+    "fadeIn": 0.5,
+    "fadeOut": 0.5,
+    "restarted": {
+      "time": 0,
+      "paused": false
+    }
+  }
+}

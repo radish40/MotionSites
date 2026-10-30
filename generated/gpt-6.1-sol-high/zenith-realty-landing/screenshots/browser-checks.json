@@ -1,0 +1,85 @@
+{
+  "desktop": {
+    "video": {
+      "readyState": 4,
+      "width": 1912,
+      "height": 1080,
+      "playing": true,
+      "time": 2.206913
+    },
+    "dropdown": true,
+    "consultationForm": true,
+    "serviceTabs": true,
+    "dialogEscape": true,
+    "propertyForm": true,
+    "layout": {
+      "width": 1440,
+      "documentWidth": 1440,
+      "height": 3628,
+      "images": [
+        {
+          "source": "/motionsites-results/zenith-realty-landing/assets/aether.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/zenith-realty-landing/assets/azure.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/zenith-realty-landing/assets/summit.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/zenith-realty-landing/assets/collection.webp",
+          "loaded": true
+        }
+      ],
+      "font": true,
+      "footer": false,
+      "charts": 3
+    }
+  },
+  "mobile": {
+    "video": {
+      "readyState": 4,
+      "width": 1912,
+      "height": 1080,
+      "playing": true,
+      "time": 2.19892
+    },
+    "menuNavigation": true,
+    "consultationForm": true,
+    "serviceTabs": true,
+    "dialogEscape": true,
+    "propertyForm": true,
+    "layout": {
+      "width": 390,
+      "documentWidth": 390,
+      "height": 4358,
+      "images": [
+        {
+          "source": "/motionsites-results/zenith-realty-landing/assets/aether.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/zenith-realty-landing/assets/azure.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/zenith-realty-landing/assets/summit.webp",
+          "loaded": true
+        },
+        {
+          "source": "/motionsites-results/zenith-realty-landing/assets/collection.webp",
+          "loaded": true
+        }
+      ],
+      "font": true,
+      "footer": false,
+      "charts": 3
+    }
+  },
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

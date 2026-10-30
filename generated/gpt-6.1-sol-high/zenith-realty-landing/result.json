@@ -1,0 +1,126 @@
+{
+  "title": "Zenith Realty",
+  "id": "zenith-realty-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "publish_path": "/motionsites-results/zenith-realty-landing/",
+  "output": "dist/",
+  "checks": {
+    "production_build": "passed",
+    "browser": "Chromium via playwright-core against production dist at the required subpath",
+    "desktop": {
+      "video": {
+        "readyState": 4,
+        "width": 1912,
+        "height": 1080,
+        "playing": true,
+        "time": 2.206913
+      },
+      "dropdown": true,
+      "consultationForm": true,
+      "serviceTabs": true,
+      "dialogEscape": true,
+      "propertyForm": true,
+      "layout": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "height": 3628,
+        "images": [
+          {
+            "source": "/motionsites-results/zenith-realty-landing/assets/aether.webp",
+            "loaded": true
+          },
+          {
+            "source": "/motionsites-results/zenith-realty-landing/assets/azure.webp",
+            "loaded": true
+          },
+          {
+            "source": "/motionsites-results/zenith-realty-landing/assets/summit.webp",
+            "loaded": true
+          },
+          {
+            "source": "/motionsites-results/zenith-realty-landing/assets/collection.webp",
+            "loaded": true
+          }
+        ],
+        "font": true,
+        "footer": false,
+        "charts": 3
+      }
+    },
+    "mobile": {
+      "video": {
+        "readyState": 4,
+        "width": 1912,
+        "height": 1080,
+        "playing": true,
+        "time": 2.19892
+      },
+      "menuNavigation": true,
+      "consultationForm": true,
+      "serviceTabs": true,
+      "dialogEscape": true,
+      "propertyForm": true,
+      "layout": {
+        "width": 390,
+        "documentWidth": 390,
+        "height": 4358,
+        "images": [
+          {
+            "source": "/motionsites-results/zenith-realty-landing/assets/aether.webp",
+            "loaded": true
+          },
+          {
+            "source": "/motionsites-results/zenith-realty-landing/assets/azure.webp",
+            "loaded": true
+          },
+          {
+            "source": "/motionsites-results/zenith-realty-landing/assets/summit.webp",
+            "loaded": true
+          },
+          {
+            "source": "/motionsites-results/zenith-realty-landing/assets/collection.webp",
+            "loaded": true
+          }
+        ],
+        "font": true,
+        "footer": false,
+        "charts": 3
+      }
+    },
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "details": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "Supplied hero video and four property/service images",
+      "status": "resolved",
+      "details": "Initial Python direct-origin requests stalled and image proxy requests returned 403. Curl successfully downloaded the original MP4 and all four exact supplied Higgs WebP outputs. All load locally in both browser checks; no substitutions."
+    },
+    {
+      "asset": "Lato weight 500",
+      "status": "documented",
+      "details": "Google Fonts response provides 300, 400, 700, 900 with no separate 500 file. Local regular face is mapped to CSS weights 400\u2013500; all requested styling weights remain in CSS."
+    },
+    {
+      "asset": "Optional original reference WebP",
+      "status": "unavailable",
+      "details": "The specified Zenith reference file was absent. Implemented from the complete written prompt; no reference extraction was needed."
+    }
+  ],
+  "notes": [
+    "React, Vite, Tailwind CSS 4, lucide-react, motion/react, and Recharts. No footer.",
+    "Original supplied text, property data, chart values, and capped bar shapes implemented.",
+    "Mobile chart intrinsic-width overflow discovered and fixed; final document widths are exactly 1440 and 390.",
+    "Forms validate locally and explicitly disclose that no data is submitted or stored. No backend was supplied.",
+    "Mortgage and Blog link to the investment section; Company links to services; Careers opens an introduction dialog.",
+    "Vite emits a non-blocking advisory for the 659.71 kB main JavaScript chunk.",
+    "Browser checks cover Chromium emulation, not Safari or physical devices. Video capture frames vary.",
+    "Ready means prepared for review. No deployment, push, agent spawning, or external messaging performed."
+  ]
+}

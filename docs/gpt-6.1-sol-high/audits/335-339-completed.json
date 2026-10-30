@@ -1,0 +1,152 @@
+{
+  "recorded_utc": "2026-10-30T05:37:40.654922+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 5,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T05:30:02.828780+00:00",
+      "remote_main": "5ffca19068b064a63d02340168b5249593e60728",
+      "delivery": {
+        "id": "wisa-space-hero",
+        "title": "WISA Space",
+        "source_commit": "5ffca19068b064a63d02340168b5249593e60728",
+        "thread_id": "01a18b3f-4a67-7b30-80c2-63179c83ef5a",
+        "group_message_id": 404,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:35:08.166544+00:00",
+      "remote_main": "1032cd01c5e336760287791cd9fc7a3e3dc11409",
+      "delivery": {
+        "id": "vortex-studio-hero",
+        "title": "AI Designer Portfolio",
+        "source_commit": "4d211904242ea87ea8b3526fee0135ee3dd0a5e7",
+        "thread_id": "01a18b41-af17-7bb2-9923-e5bee4c7ac4c",
+        "group_message_id": 406,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:27:01.654876+00:00",
+      "remote_main": "695cbe7c5174933a3b118165334ef48a21d41592",
+      "delivery": {
+        "id": "impressive-hero",
+        "title": "Impressive Hero",
+        "source_commit": "6c2bea7b02ef661b6b3c8f117d1e52ebf74d02d5",
+        "thread_id": "01a18b41-afdb-7290-8443-4fbe18e298d7",
+        "group_message_id": 403,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:36:43.091779+00:00",
+      "remote_main": "bc41697a351e20323cb65292ddfe695c52c5c2d2",
+      "delivery": {
+        "id": "flowmate-landing",
+        "title": "FlowMate",
+        "source_commit": "bc41697a351e20323cb65292ddfe695c52c5c2d2",
+        "thread_id": "01a18b44-00d1-7500-a95c-ea0ffcf2ec45",
+        "group_message_id": 407,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:32:05.539856+00:00",
+      "remote_main": "f96901cb915fff730e2dd1c76939dee6b29b330f",
+      "delivery": {
+        "id": "luminex-hero",
+        "title": "Luminex",
+        "source_commit": "f392a81f42fb8228d22b7bbeac1439eeecf8e69f",
+        "thread_id": "01a18b44-01d6-7ae1-bebf-a582b1c0e061",
+        "group_message_id": 405,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

@@ -1789,7 +1789,87 @@
         "generated/gpt-6.1-sol-high/rivr-hero/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/rivr-hero/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "wisa-space-hero",
+      "source_commit": "5ffca19068b064a63d02340168b5249593e60728",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:37:40.654922+00:00",
+      "observation": "Actually reviewed desktop/mobile hero and both open workspace captures, including lower mobile feature cards. Original prompt is a 37-character Google AI Studio placeholder with no reference. Management disclosed this and asked optional user preference, then after a reasonable response window explicitly authorized an original concept based on the existing name and catalog brief. Original PROMPT bytes retained. Concept uses original native SVG planet/orbits and responsive editorial layout; notes, idea cards and collections persist locally without any AI/account backend. Worker verifies creation, persistence, add/remove, feature entry points, About, keyboard tabs and Escape at both widths without errors or overflow. README/result and discreet page footer identify it as an original concept, not recovered original design.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/wisa-space-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/wisa-space-hero/screenshots/mobile.png",
+        "generated/gpt-6.1-sol-high/wisa-space-hero/screenshots/desktop-workspace.png",
+        "generated/gpt-6.1-sol-high/wisa-space-hero/screenshots/mobile-workspace.png"
+      ]
+    },
+    {
+      "id": "vortex-studio-hero",
+      "source_commit": "4d211904242ea87ea8b3526fee0135ee3dd0a5e7",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:37:40.654922+00:00",
+      "observation": "Actually reviewed desktop/mobile hero and public full pages after scrolling all reveals. Narrow white Viktor Oddy hero, eight exact GIF marquee sources duplicated, portrait parallax, pricing, testimonial carousel, three project GIFs, partner mouse trail, footer and fixed bottom nav fit. Genuine PP Neue Montreal recovered from working same-family CDN after supplied URLs returned403; genuine PP Mondwest recovered from original foundry to required filename. All eleven original GIFs and portrait retained, about109MB runtime assets. Browser reports30 passing checks including fonts, marquee movement, reversible/automatic/paused carousel, cursor spawning/cleanup and no overflow/errors. First public5s check saw pending GIF downloads; bounded additional20s image wait verified all visible GIFs loaded without bypassing failures or changing project source. Booking hrefs preserved; unspecified socials use platform homepages.",
+      "additional_review_captures": [
+        ".work/generation/vortex-336-desktop-full.png",
+        ".work/generation/vortex-336-mobile-full.png"
+      ],
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/vortex-studio-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/vortex-studio-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "impressive-hero",
+      "source_commit": "6c2bea7b02ef661b6b3c8f117d1e52ebf74d02d5",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:37:40.654922+00:00",
+      "observation": "Actually reviewed desktop/mobile. Exact original star-field MP4 bundled unchanged, centered two-line character entrance heading, liquid-glass nav, two CTAs and bottom centered tagline fit. System Helvetica Neue/Helvetica/Arial stack as specified; no extra runtime libraries. Browser verifies original decoded/autoplaying muted looping video, completed entrances, hover and local anchors with no script errors/overflow. Chat destination unspecified and buttons remain visual controls; no invented recipient or extra content. Phone headline widened16px to avoid orphaned period.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/impressive-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/impressive-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "flowmate-landing",
+      "source_commit": "bc41697a351e20323cb65292ddfe695c52c5c2d2",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:37:40.654922+00:00",
+      "observation": "Actually reviewed full desktop/mobile pages including all six feature cards and carousel. All eight prescribed assets retained with source URL/bytes/SHA-256 manifest, including genuine font, sunflower logo/video and five carousel illustrations. Fixed240px desktop sidebar and nav, off-white palette, PPMondwest headline, glass typewriter card and responsive six-card grid fit; phone uses stacked flow. Build/typecheck/lint and36 real browser checks passed covering video decode/play/pause, completed typewriter, sidebar observer/anchors, phone menu, reversible/direct/automatic carousel, local signup feedback/Escape, images/fonts and no browser errors/overflow. Account/pricing/community/workflow actions are labeled local previews without a backend.",
+      "additional_review_captures": [
+        ".work/generation/flowmate-338-desktop-full.png",
+        ".work/generation/flowmate-338-mobile-full.png"
+      ],
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/flowmate-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/flowmate-landing/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "luminex-hero",
+      "source_commit": "f392a81f42fb8228d22b7bbeac1439eeecf8e69f",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:37:40.654922+00:00",
+      "observation": "Actually reviewed desktop/mobile. Original short prompt prescribes React, fullscreen HLS, glass navigation and bottom-left hero only; custom Luminex copy/type/composition follows these four requirements. Genuine local HLS VOD generated from licensed/source-attributed Pexels1093662 ocean-rock footage with MP4 fallback; chosen fonts local. Browser verifies1920x1080 advancing playback, play/pause, work/studio/contact dialogs, phone menu, reduced-motion poster with manual play and no errors/overflow. Unspecified original reference unavailable; no exact-reference fidelity claimed. Contact email is a demonstration destination.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/luminex-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/luminex-hero/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T05:30:11.788580+00:00"
+  "updated_utc": "2026-10-30T05:37:40.654922+00:00"
 }

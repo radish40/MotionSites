@@ -1,0 +1,167 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T06:04:43.596Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "settled",
+      "visibleImageWaitMs": 9,
+      "canvasRendering": null,
+      "title": "Social Media Posts",
+      "bodyChars": 1117,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-1.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.71076,
+          "duration": 9.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-2.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.157491,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-3.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 9.996495,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-4.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 2.72877,
+          "duration": 13.041995,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-5.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.724688,
+          "duration": 14.041995,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-6.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.961071,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "settled",
+      "visibleImageWaitMs": 5,
+      "canvasRendering": null,
+      "title": "Social Media Posts",
+      "bodyChars": 1117,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-1.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 5.452938,
+          "duration": 9.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-2.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-3.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-4.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.319147,
+          "duration": 13.041995,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-5.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 14.041995,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/social-media-posts-hero/media/card-6.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+// Approximation only: the supplied signed JPEG returns HTTP 403 and the reference is absent.
+const {chromium}=require('/app/node_modules/playwright-core');
+(async()=>{const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});const page=await browser.newPage({viewport:{width:1920,height:1280}});await page.setContent('<style>html{height:100%;background:radial-gradient(ellipse at 12% 20%,#b8b9b3 0%,transparent 55%),radial-gradient(ellipse at 90% 90%,#a7aaa3 0%,transparent 60%),linear-gradient(135deg,#cbcdc6,#e5e5df 50%,#babdb6)}</style>');await page.screenshot({path:'public/bg.jpeg',type:'jpeg',quality:95});await browser.close();})();

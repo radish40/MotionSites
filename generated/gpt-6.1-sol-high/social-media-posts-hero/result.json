@@ -1,0 +1,47 @@
+{
+  "title": "Social Media Posts",
+  "id": "social-media-posts-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "publication_base": "/motionsites-results/social-media-posts-hero/",
+    "desktop": "passed at 1440x1000: centered 3x2 grid, 384px cards, 16px gaps, 12px corner radius",
+    "mobile": "passed at 390x844: fixed grid scrolls inside outer container; final card reachable; document has no horizontal overflow",
+    "videos": "all six original MP4s decoded and autoplayed muted; fifth custom replay resumed with increasing opacity",
+    "fonts": "all seven Google Font families successfully loaded on desktop and mobile",
+    "interaction": "Learn More hover, active styling, and keyboard focus; no click destination specified",
+    "script_errors": {
+      "desktop": [],
+      "mobile": []
+    },
+    "public_asset_integrity": "all public assets byte-identical in dist",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "browser_report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "original background JPEG",
+      "issue": "Provided signed CleanShot URL returns HTTP 403; unsigned and download-query recovery attempts also return HTTP 403.",
+      "resolution": "public/bg.jpeg is a locally generated neutral gray/green gradient approximation. Original background fidelity remains unavailable.",
+      "recovery_script": "scripts/create-background.cjs"
+    },
+    {
+      "asset": "optional original reference",
+      "issue": "The specified social-media-posts-hero.webp reference does not exist.",
+      "resolution": "Implemented from the complete prompt; no reference extraction or pixel comparison was possible."
+    }
+  ],
+  "notes": [
+    "Ready for management-session acceptance, not deployed or published.",
+    "React, TypeScript, Vite, Tailwind, Lucide, single Google Fonts link, original copy, and all six exact original videos included.",
+    "Preserves the exact fixed three-column grid on mobile; horizontal scrolling is intentional.",
+    "Desktop replay test recorded two aborted video range requests during the deliberate seek. Replay then advanced with opacity 0.693656 and no script errors. Mobile recorded no failed requests.",
+    "Replay timing is isolated by pausing the other videos after taking the desktop screenshot.",
+    "Google Fonts requires external connectivity.",
+    "No other project files were edited; no agents, sessions, deployment, pushes, or messages were created."
+  ]
+}

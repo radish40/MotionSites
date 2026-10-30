@@ -1,0 +1,74 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/power-ai/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:46:12.610Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Power AI",
+      "bodyChars": 275,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/power-ai/assets/logo-CvnO5uUi.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/power-ai/assets/power-ai.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.903043,
+          "duration": 14.041995,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "settled",
+      "title": "Power AI",
+      "bodyChars": 241,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/power-ai/assets/logo-CvnO5uUi.png",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/power-ai/assets/power-ai.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 1.874943,
+          "duration": 14.041995,
+          "ended": false,
+          "loop": false,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "title": "Power AI",
+  "id": "power-ai",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": "Chromium with playwright-core",
+    "evidence": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "results": {
+      "url": "http://127.0.0.1:4173/motionsites-results/power-ai/",
+      "viewports": [
+        {
+          "name": "desktop",
+          "width": 1440,
+          "height": 1000,
+          "scrollWidth": 1440,
+          "scrollHeight": 1000,
+          "video": {
+            "duration": 14.041995,
+            "currentTime": 2.295244,
+            "paused": false,
+            "width": 1764,
+            "height": 1176,
+            "opacity": "1"
+          },
+          "font": true,
+          "headlineSize": "220px",
+          "checks": {
+            "navigation": true,
+            "dialogs": true,
+            "escape": true,
+            "videoLoop": {
+              "fadeIn": 0.4,
+              "fadeOut": 0.4,
+              "restarted": true
+            },
+            "marquee": true
+          }
+        },
+        {
+          "name": "mobile",
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "scrollHeight": 844,
+          "video": {
+            "duration": 14.041995,
+            "currentTime": 2.000376,
+            "paused": false,
+            "width": 1764,
+            "height": 1176,
+            "opacity": "1"
+          },
+          "font": true,
+          "headlineSize": "85.8px",
+          "checks": {
+            "navigation": true,
+            "dialogs": true,
+            "escape": true,
+            "videoLoop": {
+              "fadeIn": 0.4,
+              "fadeOut": 0.4,
+              "restarted": true
+            },
+            "marquee": true
+          }
+        }
+      ],
+      "errors": [],
+      "failedRequests": []
+    }
+  },
+  "asset_issues": [
+    {
+      "asset": "src/assets/logo.png",
+      "issue": "Original logo not supplied; optional design reference also absent.",
+      "resolution": "Original approximate power wordmark rasterized from src/assets/logo-source.svg.",
+      "limitation": "Exact logo/reference fidelity cannot be verified."
+    }
+  ],
+  "notes": [
+    "React/Vite; required Geist Sans package and Fontshare General Sans.",
+    "Exact original video and Fontshare WOFF2 files recovered and self-hosted.",
+    "Production base: /motionsites-results/power-ai/.",
+    "Navigation, sign-up, and consultation have local informational interactions because no targets or backend were specified. No booking or registration is submitted.",
+    "No deployments, pushes, agents, other sessions, or messages."
+  ]
+}

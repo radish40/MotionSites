@@ -1,0 +1,63 @@
+{
+  "url": "http://127.0.0.1:4173/motionsites-results/power-ai/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "video": {
+        "duration": 14.041995,
+        "currentTime": 2.295244,
+        "paused": false,
+        "width": 1764,
+        "height": 1176,
+        "opacity": "1"
+      },
+      "font": true,
+      "headlineSize": "220px",
+      "checks": {
+        "navigation": true,
+        "dialogs": true,
+        "escape": true,
+        "videoLoop": {
+          "fadeIn": 0.4,
+          "fadeOut": 0.4,
+          "restarted": true
+        },
+        "marquee": true
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "video": {
+        "duration": 14.041995,
+        "currentTime": 2.000376,
+        "paused": false,
+        "width": 1764,
+        "height": 1176,
+        "opacity": "1"
+      },
+      "font": true,
+      "headlineSize": "85.8px",
+      "checks": {
+        "navigation": true,
+        "dialogs": true,
+        "escape": true,
+        "videoLoop": {
+          "fadeIn": 0.4,
+          "fadeOut": 0.4,
+          "restarted": true
+        },
+        "marquee": true
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

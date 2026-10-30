@@ -1,0 +1,10 @@
+{
+  "name": "keep-ahead-features",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keep Ahead Features — single-file HTML and CSS design",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.cjs"
+  }
+}

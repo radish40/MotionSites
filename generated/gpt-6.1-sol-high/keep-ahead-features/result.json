@@ -1,0 +1,133 @@
+{
+  "title": "Keep Ahead Features",
+  "id": "keep-ahead-features",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only && npm run build'",
+  "checks": {
+    "build": "passed",
+    "browser": {
+      "url": "http://localhost:4173/motionsites-results/keep-ahead-features/",
+      "viewports": [
+        {
+          "name": "desktop",
+          "width": 1440,
+          "height": 1000,
+          "viewport": 1440,
+          "document": 1440,
+          "columns": 3,
+          "headingSize": "34px",
+          "cards": [
+            {
+              "x": 218,
+              "y": 285.796875,
+              "width": 321.328125,
+              "height": 320
+            },
+            {
+              "x": 559.328125,
+              "y": 285.796875,
+              "width": 321.328125,
+              "height": 320
+            },
+            {
+              "x": 900.65625,
+              "y": 285.796875,
+              "width": 321.34375,
+              "height": 320
+            }
+          ],
+          "overflowing": [],
+          "passed": true
+        },
+        {
+          "name": "mobile",
+          "width": 390,
+          "height": 844,
+          "viewport": 390,
+          "document": 390,
+          "columns": 1,
+          "headingSize": "28px",
+          "cards": [
+            {
+              "x": 52,
+              "y": 345.1875,
+              "width": 286,
+              "height": 320
+            },
+            {
+              "x": 52,
+              "y": 685.1875,
+              "width": 286,
+              "height": 320
+            },
+            {
+              "x": 52,
+              "y": 1025.1875,
+              "width": 286,
+              "height": 320
+            }
+          ],
+          "overflowing": [],
+          "passed": true
+        }
+      ],
+      "interactions": [
+        {
+          "card": 1,
+          "lift": "matrix(1, 0, 0, 1, 0, -4)",
+          "linkHover": {
+            "gap": "10px",
+            "opacity": "0.85"
+          },
+          "newTab": true,
+          "passed": true
+        },
+        {
+          "card": 2,
+          "lift": "matrix(1, 0, 0, 1, 0, -4)",
+          "linkHover": {
+            "gap": "10px",
+            "opacity": "0.85"
+          },
+          "newTab": true,
+          "passed": true
+        },
+        {
+          "card": 3,
+          "lift": "matrix(1, 0, 0, 1, 0, -4)",
+          "linkHover": {
+            "gap": "10px",
+            "opacity": "0.85"
+          },
+          "newTab": true,
+          "passed": true
+        }
+      ],
+      "errors": [],
+      "assetFailures": [],
+      "fontLoaded": true,
+      "keyboardNavigation": "passed",
+      "passed": true
+    },
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Desktop and full-page mobile screenshots reviewed."
+  },
+  "asset_issues": [
+    {
+      "asset": "Optional keep-ahead-features.webp reference",
+      "issue": "File absent at the specified path.",
+      "resolution": "Implemented written specifications; no extraction or substitute page imagery."
+    }
+  ],
+  "notes": [
+    "Single HTML file with embedded CSS and inline SVG; no runtime JavaScript or dependencies.",
+    "dist/index.html is ready for /motionsites-results/keep-ahead-features/.",
+    "Exact Google Fonts URL used; DM Sans loaded successfully in Chromium.",
+    "No destination URLs supplied: links open local card anchors in new tabs.",
+    "Screenshots use desktop 1440x1000 and mobile 390x844 viewports; mobile capture is full-page.",
+    "No deployment, push, messages, other designs, agents, or additional sessions."
+  ]
+}

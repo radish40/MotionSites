@@ -1,0 +1,150 @@
+{
+  "checks": [
+    {
+      "viewport": "1440x1000",
+      "passed": true,
+      "dimensions": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scrollHeight": 1000
+      },
+      "positions": {
+        "heading": {
+          "x": 35,
+          "y": 178,
+          "width": 554,
+          "height": 204,
+          "top": 178,
+          "right": 589,
+          "bottom": 382,
+          "left": 35
+        },
+        "cta": {
+          "x": 35,
+          "y": 925,
+          "width": 233.171875,
+          "height": 40,
+          "top": 925,
+          "right": 268.171875,
+          "bottom": 965,
+          "left": 35
+        }
+      }
+    },
+    {
+      "name": "CTA hover accent",
+      "passed": true
+    },
+    {
+      "viewport": "390x844",
+      "passed": true,
+      "dimensions": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 844
+      }
+    },
+    {
+      "name": "Mobile menu open, close, item selection and wallet",
+      "passed": true
+    },
+    {
+      "viewport": "640x1000",
+      "passed": true,
+      "dimensions": {
+        "width": 640,
+        "height": 1000,
+        "scrollWidth": 640,
+        "scrollHeight": 1000
+      }
+    },
+    {
+      "viewport": "768x1000",
+      "passed": true,
+      "dimensions": {
+        "width": 768,
+        "height": 1000,
+        "scrollWidth": 768,
+        "scrollHeight": 1000
+      }
+    },
+    {
+      "viewport": "1024x1000",
+      "passed": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1000,
+        "scrollWidth": 1024,
+        "scrollHeight": 1000
+      }
+    }
+  ],
+  "assets": {
+    "fonts": [
+      {
+        "family": "Graphik LCG Regular Regular",
+        "status": "loaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "loaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "unloaded"
+      }
+    ],
+    "video": {
+      "readyState": 4,
+      "paused": false,
+      "width": 1912,
+      "height": 1080,
+      "time": 3.977494,
+      "error": null
+    }
+  },
+  "errors": [],
+  "failedRequests": []
+}

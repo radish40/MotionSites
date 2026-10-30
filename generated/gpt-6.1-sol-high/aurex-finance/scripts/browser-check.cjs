@@ -1,0 +1,74 @@
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+const { chromium } = require('/app/node_modules/playwright-core');
+const assert = require('assert');
+const base = '/motionsites-results/aurex-finance/';
+const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml' };
+const server = http.createServer((req, res) => {
+  const url = new URL(req.url, 'http://localhost');
+  const rel = url.pathname.startsWith(base) ? url.pathname.slice(base.length) : '';
+  const file = path.join(process.cwd(), 'dist', rel || 'index.html');
+  if (!fs.existsSync(file)) { res.writeHead(404); res.end(); return; }
+  res.setHeader('Content-Type', mime[path.extname(file)] || 'application/octet-stream');
+  fs.createReadStream(file).pipe(res);
+});
+(async () => {
+  await new Promise(resolve => server.listen(4173, '0.0.0.0', resolve));
+  const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', headless: true, args: ['--no-sandbox', '--disable-dev-shm-usage'] });
+  const errors = [], failedRequests = [], checks = [];
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
+  page.on('pageerror', e => errors.push(e.message));
+  page.on('console', msg => { if (msg.type() === 'error') errors.push(msg.text()); });
+  page.on('requestfailed', req => failedRequests.push({ url: req.url(), error: req.failure()?.errorText }));
+  await page.goto(`http://localhost:4173${base}`, { waitUntil: 'networkidle', timeout: 60000 });
+  await page.evaluate(() => document.fonts.ready);
+  await page.waitForTimeout(3300);
+  const assets = await page.evaluate(() => {
+    const video = document.querySelector('video');
+    return { fonts: [...document.fonts].map(f => ({ family: f.family, status: f.status })), video: { readyState: video.readyState, paused: video.paused, width: video.videoWidth, height: video.videoHeight, time: video.currentTime, error: video.error?.message || null } };
+  });
+  assert.equal(await page.title(), 'LŪMEN // ÍNDEX');
+  assert.equal(await page.locator('section').count(), 1);
+  assert(assets.video.readyState >= 2 && !assets.video.paused, 'Video must play');
+  const noOverflow = async () => page.evaluate(() => ({ width: innerWidth, height: innerHeight, scrollWidth: document.documentElement.scrollWidth, scrollHeight: document.documentElement.scrollHeight }));
+  let dimensions = await noOverflow();
+  assert.equal(dimensions.width, dimensions.scrollWidth); assert.equal(dimensions.height, dimensions.scrollHeight);
+  const positions = await page.evaluate(() => ({ heading: document.querySelector('h1').getBoundingClientRect().toJSON(), cta: [...document.querySelectorAll('button')].find(b => b.textContent.includes('Explore')).getBoundingClientRect().toJSON() }));
+  assert.equal(positions.heading.x, 35); assert.equal(positions.heading.y, 178); assert.equal(positions.cta.x, 35);
+  assert(await page.getByTestId('central-nodes').isVisible());
+  assert(await page.getByTestId('info-card').isVisible());
+  await page.screenshot({ path: 'screenshots/desktop.png' });
+  checks.push({ viewport: '1440x1000', passed: true, dimensions, positions });
+  const cta = page.getByRole('button', { name: 'Explore Private Banking' });
+  await cta.hover(); await page.waitForTimeout(250);
+  assert.equal(await cta.evaluate(el => getComputedStyle(el).backgroundColor), 'rgb(200, 232, 255)');
+  checks.push({ name: 'CTA hover accent', passed: true });
+  await page.setViewportSize({ width: 390, height: 844 }); await page.mouse.move(380, 400); await page.waitForTimeout(1600);
+  assert(!await page.getByTestId('central-nodes').isVisible()); assert(!await page.getByTestId('info-card').isVisible());
+  dimensions = await noOverflow(); assert.equal(dimensions.width, dimensions.scrollWidth); assert.equal(dimensions.height, dimensions.scrollHeight);
+  assert.equal((await page.locator('h1').boundingBox()).x, 20);
+  await page.screenshot({ path: 'screenshots/mobile.png' });
+  checks.push({ viewport: '390x844', passed: true, dimensions });
+  await page.getByRole('button', { name: 'Toggle menu' }).click(); await page.waitForTimeout(1100);
+  assert.equal(await page.getByRole('button', { name: 'Toggle menu' }).getAttribute('aria-expanded'), 'true');
+  assert(await page.getByRole('button', { name: '01. ECOSYSTEM' }).isVisible());
+  await page.screenshot({ path: 'screenshots/mobile-menu.png' });
+  await page.getByRole('button', { name: 'Close menu' }).click(); await page.waitForTimeout(550);
+  assert.equal(await page.locator('#mobile-menu').getAttribute('aria-hidden'), 'true');
+  await page.getByRole('button', { name: 'Toggle menu' }).click(); await page.waitForTimeout(1100);
+  await page.getByRole('button', { name: '02. LIQUIDITY_POOLS' }).click(); await page.waitForTimeout(550);
+  assert.equal(await page.locator('#mobile-menu').getAttribute('aria-hidden'), 'true');
+  checks.push({ name: 'Mobile menu open, close, item selection and wallet', passed: true });
+  for (const width of [640, 768, 1024]) {
+    await page.setViewportSize({ width, height: 1000 });
+    assert.equal(await page.getByTestId('central-nodes').isVisible(), width >= 768);
+    assert(await page.getByTestId('info-card').isVisible());
+    assert.equal(await page.getByRole('button', { name: 'Toggle menu' }).isVisible(), width < 1024);
+    const dimensions = await noOverflow(); assert.equal(dimensions.width, dimensions.scrollWidth); assert.equal(dimensions.height, dimensions.scrollHeight);
+    checks.push({ viewport: `${width}x1000`, passed: true, dimensions });
+  }
+  fs.writeFileSync('screenshots/browser-checks.json', JSON.stringify({ checks, assets, errors, failedRequests }, null, 2));
+  console.log(JSON.stringify({ checks, assets, errors, failedRequests }, null, 2));
+  await browser.close(); server.close();
+})().catch(e => { console.error(e); server.close(); process.exit(1); });

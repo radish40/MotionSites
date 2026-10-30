@@ -1,0 +1,35 @@
+{
+  "title": "Aurex Finance",
+  "id": "aurex-finance",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed; TypeScript and Vite; dist/index.html exists",
+    "browser": "Chromium via playwright-core against production dist files",
+    "desktop": "passed: 1440x1000; screenshots/desktop.png",
+    "mobile": "passed: 390x844; screenshots/mobile.png",
+    "mobile_menu": "passed: opening, close button, nav selection; screenshots/mobile-menu.png",
+    "additional_viewports": [
+      "640x1000",
+      "768x1000",
+      "1024x1000"
+    ],
+    "overflow": "none at all tested sizes",
+    "hover": "CTA #c8e8ff confirmed",
+    "assets": "exact video playing; Graphik and Manrope loaded",
+    "script_errors": 0,
+    "failed_requests": 0,
+    "details": "screenshots/browser-checks.json",
+    "dependency_audit": "2 development-tool findings: Vite high, esbuild moderate; required Vite 5 retained; screenshots/dependency-audit.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Page brand/title: LŪMEN // ÍNDEX. React 18 + TypeScript + Vite 5 + Tailwind CSS 3 + lucide-react.",
+    "Base URL: /motionsites-results/aurex-finance/. Full static output in dist/.",
+    "One React component, one section, one menuOpen state. Exact source video and font links retained.",
+    "No asset extraction or visual substitutions. External providers remain runtime dependencies.",
+    "CTA/report/desktop nav destinations are unspecified by prompt; presentation and hover preserved without adding flows.",
+    "Browser verification used Linux Chromium; physical mobile hardware was not tested.",
+    "No agents, other sessions, deployments, pushes, or messages. Ready means ready for management review, not live."
+  ]
+}

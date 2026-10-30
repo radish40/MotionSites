@@ -7537,10 +7537,10 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ac0-dfca-7a01-a98d-48dc8cbf01c4",
       "output_path": "generated/gpt-6.1-sol-high/visual-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 456113,
       "launch_method": "isolated_codex_exec",
@@ -7549,7 +7549,11 @@
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "276546888abe184f571790dde12887819294705d",
+      "url": "https://tool.luo-xd.com/motionsites-results/visual-hero/",
+      "completed_utc": "2026-10-30T03:09:37.095048+00:00",
+      "group_message_id": 284
     },
     {
       "number": 221,
@@ -11104,7 +11108,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:08:56.004531+00:00",
+  "updated_utc": "2026-10-30T03:09:37.278322+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

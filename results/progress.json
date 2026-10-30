@@ -1,9 +1,8 @@
 {
-  "updated_utc": "2026-10-30T03:08:56.004531+00:00",
+  "updated_utc": "2026-10-30T03:09:37.278322+00:00",
   "total": 380,
   "counts": {
-    "complete": 219,
-    "ready": 1,
+    "complete": 220,
     "running": 5,
     "not_started": 155
   },
@@ -2211,11 +2210,11 @@
       "id": "visual-hero",
       "title": "Visual Hero",
       "category": "Hero Section",
-      "status": "ready",
+      "status": "complete",
       "thread_id": "01a18ac0-dfca-7a01-a98d-48dc8cbf01c4",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "276546888abe184f571790dde12887819294705d",
+      "group_message_id": 284,
+      "url": "https://tool.luo-xd.com/motionsites-results/visual-hero/"
     },
     {
       "id": "waitlist-hero",

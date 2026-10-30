@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:20:24.582464+00:00",
+  "updated_utc": "2026-10-30T04:21:42.713964+00:00",
   "total": 380,
   "counts": {
-    "complete": 279,
+    "complete": 280,
     "running": 5,
-    "not_started": 96
+    "not_started": 95
   },
   "current_batch": {
     "from_number": 201,
@@ -2830,11 +2830,11 @@
       "id": "community-superdesign-parallax-stars-background",
       "title": "Parallax Stars Background",
       "category": "Animations & Backgrounds",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b07-9337-79e1-9585-b7cf7bd2ae1b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c05f3d4a8db63cf5f66e9e3f532858500dc9c2da",
+      "group_message_id": 346,
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-parallax-stars-background/"
     },
     {
       "id": "community-superdesign-typing-animation",
@@ -2851,7 +2851,7 @@
       "title": "Pill Nav",
       "category": "Components",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b09-363c-7de3-88fa-f5c4c3891590",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2860,7 +2860,7 @@
       "id": "community-superdesign-exploded-view-assembly",
       "title": "\"Exploded View\" Assembly",
       "category": "Animations & Backgrounds",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

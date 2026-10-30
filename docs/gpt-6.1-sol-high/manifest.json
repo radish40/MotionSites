@@ -9649,19 +9649,23 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b07-9337-79e1-9585-b7cf7bd2ae1b",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-parallax-stars-background",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 752681,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:18:11.769662+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "c05f3d4a8db63cf5f66e9e3f532858500dc9c2da",
+      "url": "https://tool.luo-xd.com/motionsites-results/community-superdesign-parallax-stars-background/",
+      "completed_utc": "2026-10-30T04:21:42.482688+00:00",
+      "group_message_id": 346
     },
     {
       "number": 283,
@@ -9710,14 +9714,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b09-363c-7de3-88fa-f5c4c3891590",
       "output_path": "generated/gpt-6.1-sol-high/community-superdesign-pill-nav",
       "validation": "",
       "notes": "",
       "process_id": 761276,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T04:19:59.023089+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 285,
@@ -9735,11 +9743,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/community-superdesign-exploded-view-assembly",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 767768,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T04:21:18.158295+00:00",
+      "worker_state": "running"
     },
     {
       "number": 286,
@@ -11833,7 +11845,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T04:20:24.582464+00:00",
+  "updated_utc": "2026-10-30T04:21:42.713964+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

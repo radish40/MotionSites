@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 279/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 280/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -366,10 +366,10 @@
 | 279 | `community-superdesign-disruptor-beta-launch` | Disruptor Beta Launch | Waitlist & Coming Soon | 1 | 图片 | 生成中 |
 | 280 | `community-superdesign-ghost-cursor` | Ghost Cursor | Components | 1 | 视频 | 已完成 |
 | 281 | `community-superdesign-interactive-folder` | Interactive Folder | Components | 1 | 视频 | 生成中 |
-| 282 | `community-superdesign-parallax-stars-background` | Parallax Stars Background | Animations & Backgrounds | 1 | 视频 | 生成中 |
+| 282 | `community-superdesign-parallax-stars-background` | Parallax Stars Background | Animations & Backgrounds | 1 | 视频 | 已完成 |
 | 283 | `community-superdesign-typing-animation` | Typing animation | Components | 1 | 视频 | 生成中 |
 | 284 | `community-superdesign-pill-nav` | Pill Nav | Components | 1 | 视频 | 生成中 |
-| 285 | `community-superdesign-exploded-view-assembly` | "Exploded View" Assembly | Animations & Backgrounds | 1 | 视频 | 未开始 |
+| 285 | `community-superdesign-exploded-view-assembly` | "Exploded View" Assembly | Animations & Backgrounds | 1 | 视频 | 生成中 |
 | 286 | `community-superdesign-rolodex-text` | Rolodex Text | Components | 1 | 视频 | 未开始 |
 | 287 | `community-superdesign-lightning-background` | Lightning Background | Animations & Backgrounds | 1 | 视频 | 未开始 |
 | 288 | `community-superdesign-hyperspeed-background` | Hyperspeed Background | Animations & Backgrounds | 1 | 视频 | 未开始 |

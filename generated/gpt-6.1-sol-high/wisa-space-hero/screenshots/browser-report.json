@@ -1,0 +1,39 @@
+{
+  "base": "/motionsites-results/wisa-space-hero/",
+  "browser": "Chromium / Playwright",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "creation": true,
+      "notesPersistence": true,
+      "canvasAddRemove": true,
+      "collectionAddRemove": true,
+      "featureEntryPoints": true,
+      "about": true,
+      "keyboardTabs": true,
+      "escapeClose": true,
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "creation": true,
+      "notesPersistence": true,
+      "canvasAddRemove": true,
+      "collectionAddRemove": true,
+      "featureEntryPoints": true,
+      "about": true,
+      "keyboardTabs": true,
+      "escapeClose": true,
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

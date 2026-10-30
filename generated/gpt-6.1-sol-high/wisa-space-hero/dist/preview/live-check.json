@@ -1,0 +1,39 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/wisa-space-hero/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T05:29:20.480Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "WISA Space — Room for your next big idea",
+      "bodyChars": 827,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "WISA Space — Room for your next big idea",
+      "bodyChars": 749,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

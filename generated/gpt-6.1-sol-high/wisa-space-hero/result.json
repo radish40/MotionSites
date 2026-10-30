@@ -1,0 +1,78 @@
+{
+  "title": "WISA Space",
+  "id": "wisa-space-hero",
+  "status": "ready",
+  "interpretation": "Original concept explicitly authorized by management; NOT a faithful recreation of the unavailable original prompt.",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci --no-audit --no-fund && npm run build'",
+  "stack": [
+    "React 19",
+    "TypeScript 5.8",
+    "Vite 6",
+    "native CSS and SVG"
+  ],
+  "publish_path": "/motionsites-results/wisa-space-hero/",
+  "checks": {
+    "production_build": "passed: TypeScript check and Vite static build",
+    "dist_index_exists": true,
+    "prompt_byte_identical": true,
+    "browser": {
+      "base": "/motionsites-results/wisa-space-hero/",
+      "browser": "Chromium / Playwright",
+      "checks": [
+        {
+          "viewport": "desktop",
+          "width": 1440,
+          "height": 1000,
+          "overflow": false,
+          "creation": true,
+          "notesPersistence": true,
+          "canvasAddRemove": true,
+          "collectionAddRemove": true,
+          "featureEntryPoints": true,
+          "about": true,
+          "keyboardTabs": true,
+          "escapeClose": true,
+          "screenshot": "screenshots/desktop.png"
+        },
+        {
+          "viewport": "mobile",
+          "width": 390,
+          "height": 844,
+          "overflow": false,
+          "creation": true,
+          "notesPersistence": true,
+          "canvasAddRemove": true,
+          "collectionAddRemove": true,
+          "featureEntryPoints": true,
+          "about": true,
+          "keyboardTabs": true,
+          "escapeClose": true,
+          "screenshot": "screenshots/mobile.png"
+        }
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "status": "passed"
+    },
+    "screenshots_visually_inspected": true,
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-workspace.png",
+      "screenshots/mobile-workspace.png"
+    ]
+  },
+  "asset_issues": [
+    "Original PROMPT.md contains only: Google AI Studio app \u2013 no prompt text",
+    "Original designated reference /home/opc/motionsites/assets/previews/wisa-space-hero.webp is unavailable; management confirmed no own reference exists.",
+    "No original asset recovery was possible. Planet, orbits, icons and other visuals are original native SVG/CSS. No external assets or font requests are used."
+  ],
+  "notes": [
+    "Management authorized a runnable original concept from the WISA Space catalog name and hero-section brief, selecting React + TypeScript + Vite.",
+    "All layout, text, typography, palette, visuals, motion and interaction choices are concept approximations, not recovered original requirements.",
+    "PROMPT.md SHA-256 remains 206873a7aefe7375afc01f279b668e410ee101790275122cfc60efdf4004b824.",
+    "Single local workspace: naming, notes, idea cards and inspiration entries. Data remains in this browser; no AI/account/cloud backend.",
+    "Chromium desktop and mobile validation only; no full accessibility or cross-browser audit.",
+    "Ready means reviewable static delivery, not deployed. No deployment, push, agents, other design reads, or external messages."
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:11:40.379713+00:00",
+  "updated_utc": "2026-10-30T03:13:52.593088+00:00",
   "total": 380,
   "counts": {
-    "complete": 222,
+    "complete": 225,
     "running": 5,
-    "not_started": 153
+    "not_started": 150
   },
   "current_batch": {
     "from_number": 201,
@@ -2240,21 +2240,21 @@
       "id": "wellness-balance",
       "title": "Wellness Balance",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac5-79a0-73c0-8d83-0f97b2d254d3",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "33c8c1031d3e399ea8f2a8d29d6b7b909b217cbf",
+      "group_message_id": 287,
+      "url": "https://tool.luo-xd.com/motionsites-results/wellness-balance/"
     },
     {
       "id": "wellness-hero",
       "title": "Wellness Hero",
       "category": "Hero Section",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac7-b564-71a1-9216-068c0672da56",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "0ea040153e5f5b425a9239023c1efa68cbc0029e",
+      "group_message_id": 288,
+      "url": "https://tool.luo-xd.com/motionsites-results/wellness-hero/"
     },
     {
       "id": "yoga-coach",
@@ -2271,7 +2271,7 @@
       "title": "Nexto 404",
       "category": "404 Pages",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac9-9a8c-7200-976f-c41d88145950",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2280,17 +2280,17 @@
       "id": "ai-image-generator-ui",
       "title": "AI Image Generator UI",
       "category": "AI Apps",
-      "status": "running",
-      "thread_id": "",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "status": "complete",
+      "thread_id": "01a18ac9-9b0b-7f62-8ad9-4ce37ead88ce",
+      "source_commit": "2609a123b294189fe3338f53b80a1a46f09c492d",
+      "group_message_id": 289,
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-image-generator-ui/"
     },
     {
       "id": "modern-hr-dashboard",
       "title": "Modern HR Dashboard",
       "category": "HR",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2300,7 +2300,7 @@
       "id": "saas-value",
       "title": "SaaS Value",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -2310,7 +2310,7 @@
       "id": "acreage-farming-hero",
       "title": "Acreage Farming",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

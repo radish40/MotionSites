@@ -7639,19 +7639,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac5-79a0-73c0-8d83-0f97b2d254d3",
       "output_path": "generated/gpt-6.1-sol-high/wellness-balance",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 474439,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:05:59.529355+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "33c8c1031d3e399ea8f2a8d29d6b7b909b217cbf",
+      "url": "https://tool.luo-xd.com/motionsites-results/wellness-balance/",
+      "completed_utc": "2026-10-30T03:13:01.336565+00:00",
+      "group_message_id": 287
     },
     {
       "number": 224,
@@ -7669,19 +7673,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac7-b564-71a1-9216-068c0672da56",
       "output_path": "generated/gpt-6.1-sol-high/wellness-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 482872,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:08:26.242361+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "0ea040153e5f5b425a9239023c1efa68cbc0029e",
+      "url": "https://tool.luo-xd.com/motionsites-results/wellness-hero/",
+      "completed_utc": "2026-10-30T03:13:28.184225+00:00",
+      "group_message_id": 288
     },
     {
       "number": 225,
@@ -7730,14 +7738,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ac9-9a8c-7200-976f-c41d88145950",
       "output_path": "generated/gpt-6.1-sol-high/404",
       "validation": "",
       "notes": "",
       "process_id": 490825,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:10:30.437317+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 227,
@@ -7755,15 +7767,23 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
-      "thread_id": "",
+      "status": "complete",
+      "thread_id": "01a18ac9-9b0b-7f62-8ad9-4ce37ead88ce",
       "output_path": "generated/gpt-6.1-sol-high/ai-image-generator-ui",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 490884,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:10:30.556427+00:00",
-      "worker_state": "running"
+      "worker_state": "terminal",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "source_commit": "2609a123b294189fe3338f53b80a1a46f09c492d",
+      "url": "https://tool.luo-xd.com/motionsites-results/ai-image-generator-ui/",
+      "completed_utc": "2026-10-30T03:13:52.428820+00:00",
+      "group_message_id": 289
     },
     {
       "number": 228,
@@ -7781,11 +7801,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/modern-hr-dashboard",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 498547,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:12:33.677591+00:00",
+      "worker_state": "running"
     },
     {
       "number": 229,
@@ -7803,11 +7827,15 @@
       "preview_kind": "webp",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/saas-value",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 498613,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:12:33.831020+00:00",
+      "worker_state": "running"
     },
     {
       "number": 230,
@@ -7825,11 +7853,15 @@
       "preview_kind": "mp4",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/acreage-farming-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 498702,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T03:12:33.990321+00:00",
+      "worker_state": "running"
     },
     {
       "number": 231,
@@ -11132,7 +11164,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:11:40.379713+00:00",
+  "updated_utc": "2026-10-30T03:13:52.593088+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

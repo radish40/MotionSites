@@ -1,0 +1,151 @@
+{
+  "recorded_utc": "2026-10-30T03:41:18.921064+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 5,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T03:36:31.940364+00:00",
+      "remote_main": "31965a8d5b404c076ecbfae902338032c92237f7",
+      "delivery": {
+        "id": "neo-vision",
+        "title": "NeoVision",
+        "source_commit": "7a8c156dcac73047afe37064e5334b9fbfa603ab",
+        "thread_id": "01a18adb-3092-76f0-b3c2-2261b453b97f",
+        "group_message_id": 305,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:39:41.647134+00:00",
+      "remote_main": "cf852121dc1b734f2fbecb52817a3dfeadafb7e0",
+      "delivery": {
+        "id": "neuralyn",
+        "title": "Neuralyn",
+        "source_commit": "06f447a60058f0e8b7aa7c5ad70d2e0c79c42323",
+        "thread_id": "01a18adc-d6dd-7740-9f9e-0a7d03570548",
+        "group_message_id": 308,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:38:04.220530+00:00",
+      "remote_main": "3852312003ca1f62d180cb2e13f4a5711f0f45c8",
+      "delivery": {
+        "id": "nexora-automation",
+        "title": "Nexora Automation",
+        "source_commit": "8a5483f90dec78756e5b58a7438345b807add951",
+        "thread_id": "01a18adc-d75f-7d52-90ed-6c7422fdb5d3",
+        "group_message_id": 307,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:40:09.150975+00:00",
+      "remote_main": "4a970f68e4277518e156f2d056feb4915d837a69",
+      "delivery": {
+        "id": "nexus-it-solutions",
+        "title": "Nexus IT Solutions",
+        "source_commit": "4a970f68e4277518e156f2d056feb4915d837a69",
+        "thread_id": "01a18ade-ff09-7902-bb48-1b0645e9df07",
+        "group_message_id": 309,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T03:40:40.381727+00:00",
+      "remote_main": "fca3dee25e1887f8022f989a0e18dfe179da0946",
+      "delivery": {
+        "id": "nickel-payments",
+        "title": "Nickel Payments",
+        "source_commit": "fca3dee25e1887f8022f989a0e18dfe179da0946",
+        "thread_id": "01a18ade-ffa1-75b0-b1b2-cb500c9281d5",
+        "group_message_id": 310,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

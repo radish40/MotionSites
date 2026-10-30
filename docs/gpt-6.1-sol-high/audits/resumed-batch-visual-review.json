@@ -495,7 +495,55 @@
         "generated/gpt-6.1-sol-high/neo-vision/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/neo-vision/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "neuralyn",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Black video-backed hero, mixed-font headline and responsive dashboard illustration render at both sizes. Missing original PNG assets were separately recreated and documented; original session verified reveal, scroll, forms and reduced motion.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/neuralyn/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/neuralyn/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "nexora-automation",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original tree video, serif heading and actual React/SVG dashboard render at both sizes. Viewport deliberately clips the dashboard, including the right side on phones; this implementation choice is documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/nexora-automation/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/nexora-automation/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "nexus-it-solutions",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original portal video, readable Inter/Akshar type and corner-bracket CTA render at both sizes. Navigation and email destination integration limits are documented; original session verified mobile menu and keyboard focus.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/nexus-it-solutions/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/nexus-it-solutions/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "nickel-payments",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Original orange video, desktop split composition, gradient CTAs and mobile text layout render at both sizes. Video is hidden on mobile as implemented; original session tested navigation and preview dialogs.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/nickel-payments/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/nickel-payments/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:37:38.947172+00:00"
+  "updated_utc": "2026-10-30T03:41:18.921064+00:00"
 }

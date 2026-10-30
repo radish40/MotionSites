@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 307/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 310/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -392,14 +392,14 @@
 | 305 | `orbit-flora` | Orbit Flora | AI | 1 | 视频 | 已完成 |
 | 306 | `data-signal` | Data Signal | Analytics | 1 | 视频 | 已完成 |
 | 307 | `cyber-layer` | Cyber Layer | Cybersecurity | 1 | 视频 | 已完成 |
-| 308 | `ai-runtime` | AI Runtime | AI | 1 | 视频 | 生成中 |
-| 309 | `real-time-alerts` | Real-Time Alerts | Sign in | 1 | 视频 | 生成中 |
-| 310 | `pet-diagnostics` | Pet Diagnostics | Healthcare | 1 | 视频 | 生成中 |
+| 308 | `ai-runtime` | AI Runtime | AI | 1 | 视频 | 已完成 |
+| 309 | `real-time-alerts` | Real-Time Alerts | Sign in | 1 | 视频 | 已完成 |
+| 310 | `pet-diagnostics` | Pet Diagnostics | Healthcare | 1 | 视频 | 已完成 |
 | 311 | `growth-decisions` | Growth Decisions | SaaS | 1 | 视频 | 生成中 |
 | 312 | `aurex-finance` | Aurex Finance | Fintech | 1 | 视频 | 生成中 |
-| 313 | `agent-wave` | Agent Wave | AI | 1 | 视频 | 未开始 |
-| 314 | `palomar-labs` | Palomar Labs | AI | 1 | 视频 | 未开始 |
-| 315 | `scaling-platform` | Scaling Platform | SaaS | 1 | 视频 | 未开始 |
+| 313 | `agent-wave` | Agent Wave | AI | 1 | 视频 | 生成中 |
+| 314 | `palomar-labs` | Palomar Labs | AI | 1 | 视频 | 生成中 |
+| 315 | `scaling-platform` | Scaling Platform | SaaS | 1 | 视频 | 生成中 |
 | 316 | `quantum-lucid` | Quantum Lucid | SaaS | 1 | 视频 | 未开始 |
 | 317 | `space-planet` | Space planet | 3D | 1 | 视频 | 未开始 |
 | 318 | `7` | Synapse Dark Hero | SaaS | 1 | 视频 | 未开始 |

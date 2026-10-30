@@ -1,0 +1,11 @@
+{
+  "name": "mostar-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mostar Guide — cinematic vanilla scroll page",
+  "scripts": {
+    "build": "node build.cjs",
+    "check": "node --check script.js",
+    "test:browser": "node browser-check.cjs"
+  }
+}

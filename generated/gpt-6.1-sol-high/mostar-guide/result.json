@@ -1,0 +1,103 @@
+{
+  "title": "Mostar Guide",
+  "id": "mostar-guide",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm install --package-lock-only && npm run check && npm run build'",
+  "checks": {
+    "build": "passed",
+    "javascript_syntax": "passed",
+    "browser": "passed",
+    "browser_report": "browser-report.json",
+    "viewports": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "images": [],
+        "font": true,
+        "overflow": false,
+        "cards": 15
+      },
+      {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "images": [],
+        "font": true,
+        "overflow": false,
+        "cards": 15
+      }
+    ],
+    "interactions": [
+      {
+        "viewport": "desktop",
+        "passed": [
+          "remote images",
+          "Ogg font",
+          "no horizontal overflow",
+          "15 cloned cards",
+          "intro exit",
+          "bridge scene",
+          "bazaar scene",
+          "sights scene",
+          "prev/next",
+          "forward/backward loop",
+          "card click/keyboard",
+          "navigation anchors",
+          "reduced motion"
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "passed": [
+          "remote images",
+          "Ogg font",
+          "no horizontal overflow",
+          "15 cloned cards",
+          "intro exit",
+          "bridge scene",
+          "bazaar scene",
+          "sights scene",
+          "prev/next",
+          "forward/backward loop",
+          "card click/keyboard",
+          "navigation anchors",
+          "reduced motion"
+        ]
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/desktop-bridge.png",
+      "screenshots/desktop-bazaar.png",
+      "screenshots/desktop-sights.png",
+      "screenshots/mobile-bridge.png",
+      "screenshots/mobile-bazaar.png",
+      "screenshots/mobile-sights.png"
+    ],
+    "visual_review": "All eight screenshots inspected"
+  },
+  "asset_issues": [
+    {
+      "asset": "OggText-Medium.woff2",
+      "issue": "Specified remote font returns HTTP 200 without Access-Control-Allow-Origin; Chromium rejected cross-origin font loading. Query-string retry did not resolve CORS.",
+      "resolution": "Recovered exact 68832-byte original to assets/OggText-Medium.woff2 under TASK.md recovery allowance; packaged in dist/assets; verified browser font loading.",
+      "source": "https://dcym8fthxf5uu.cloudfront.net/fonts/247a073c-29f5-4a89-aa3a-741020f346fc/OggText-Medium.woff2",
+      "sha256": "b57d1cbbd6d456d35e421161bfbb614f1903dded2b4c27de26d75ebf5a448702",
+      "recovery_script": "recover-font.sh",
+      "approximation": false
+    }
+  ],
+  "notes": [
+    "Ready for management review; not deployed or pushed.",
+    "Standalone vanilla HTML/CSS/JS. Build only copies static deliverables into dist/. Dependency lock saved; no node_modules.",
+    "Relative resource paths support /motionsites-results/mostar-guide/.",
+    "Seven scene layers and three pin icons use exact remote URLs and all returned 200 in both viewport checks.",
+    "Language and notes buttons have exact specified markup; no additional behavior or content was specified.",
+    "Validation limited to available Chromium and required viewport sizes; remote images require network access.",
+    "Only this project and its own supplied visual reference were read; no agents or additional sessions created."
+  ]
+}

@@ -7286,14 +7286,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ab8-6866-7cd3-8414-14768629bd17",
       "output_path": "generated/gpt-6.1-sol-high/technical-specifications",
       "validation": "",
       "notes": "",
       "process_id": 419169,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:51:43.393859+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 214,
@@ -7312,14 +7316,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ab8-691b-7bc2-a45e-5bcf3ee18a01",
       "output_path": "generated/gpt-6.1-sol-high/travel-hero",
       "validation": "",
       "notes": "",
       "process_id": 419193,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T02:51:43.543830+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 215,
@@ -10974,7 +10982,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T02:52:38.059638+00:00",
+  "updated_utc": "2026-10-30T02:53:37.660995+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

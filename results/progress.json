@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T05:02:57.964255+00:00",
+  "updated_utc": "2026-10-30T05:04:59.559318+00:00",
   "total": 380,
   "counts": {
-    "complete": 315,
+    "complete": 317,
     "running": 5,
-    "not_started": 60
+    "not_started": 58
   },
   "current_batch": {
     "from_number": 201,
@@ -3140,11 +3140,11 @@
       "id": "agent-wave",
       "title": "Agent Wave",
       "category": "AI",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b28-7782-7f80-9f15-18492bfb45dd",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "7ccf2d39ed8cf7e1322926e843bc2d8ce4cba4ae",
+      "group_message_id": 383,
+      "url": "https://tool.luo-xd.com/motionsites-results/agent-wave/"
     },
     {
       "id": "palomar-labs",
@@ -3180,11 +3180,11 @@
       "id": "space-planet",
       "title": "Space planet",
       "category": "3D",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b2a-aca3-73a1-a352-59274186191b",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e62e540849e4f5599cc80ce55e69a267be21ffa0",
+      "group_message_id": 384,
+      "url": "https://tool.luo-xd.com/motionsites-results/space-planet/"
     },
     {
       "id": "7",
@@ -3201,7 +3201,7 @@
       "title": "Portfolio Cosmic",
       "category": "Portfolio",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b2f-9ebb-7ba0-b63b-a5052500474b",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3211,7 +3211,7 @@
       "title": "ClearInvoice SaaS Hero",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b2f-a4be-7ea3-88a3-c1731d0dfbb2",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3220,7 +3220,7 @@
       "id": "codenest-hero",
       "title": "CodeNest Coding Platform",
       "category": "Landing Page",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3230,7 +3230,7 @@
       "id": "digitwist-hero",
       "title": "Digitwist AI Builder",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

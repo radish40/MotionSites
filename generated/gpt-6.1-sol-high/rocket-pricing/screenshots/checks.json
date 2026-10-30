@@ -1,0 +1,64 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "cards": [
+        {
+          "x": 336,
+          "y": 252,
+          "width": 372,
+          "height": 630.25
+        },
+        {
+          "x": 732,
+          "y": 252,
+          "width": 372,
+          "height": 630.25
+        }
+      ],
+      "fonts": {
+        "inter": true,
+        "symbols": true
+      },
+      "horizontalOverflow": false,
+      "screenshot": "screenshots/desktop.png"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "cards": [
+        {
+          "x": 16,
+          "y": 299,
+          "width": 358,
+          "height": 614.25
+        },
+        {
+          "x": 16,
+          "y": 937.25,
+          "width": 358,
+          "height": 614.25
+        }
+      ],
+      "fonts": {
+        "inter": true,
+        "symbols": true
+      },
+      "horizontalOverflow": false,
+      "screenshot": "screenshots/mobile.png"
+    }
+  ],
+  "interactions": [
+    "Cursor-following spotlight coordinates and reset verified",
+    "Animated button hover transform verified",
+    "Keyboard tab reaches signup link",
+    "desktop: both signup links navigate to /auth?mode=signup (intercepted)",
+    "mobile: both signup links navigate to /auth?mode=signup (intercepted)"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

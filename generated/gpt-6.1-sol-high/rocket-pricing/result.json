@@ -1,0 +1,40 @@
+{
+  "title": "Rocket Pricing",
+  "id": "rocket-pricing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5; dist/index.html exists",
+    "browser": "passed: container Chromium, built files served at /motionsites-results/rocket-pricing/",
+    "desktop": "1440x1000; two columns; screenshot visually inspected",
+    "mobile": "390x844; stacked cards; full-page screenshot visually inspected",
+    "interactions": [
+      "Cursor-following spotlight coordinates and reset verified",
+      "Animated button hover transform verified",
+      "Keyboard tab reaches signup link",
+      "desktop: both signup links navigate to /auth?mode=signup (intercepted)",
+      "mobile: both signup links navigate to /auth?mode=signup (intercepted)"
+    ],
+    "fonts": "Inter 400/500 and Material Symbols check/close bundled locally and loaded",
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "failed_requests": [],
+    "dependency_audit": "0 vulnerabilities after updating Vite and PostCSS",
+    "details": "screenshots/checks.json",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ]
+  },
+  "asset_issues": [],
+  "notes": [
+    "Implemented only Rocket Pricing using the specified React 18, Vite, TypeScript, Tailwind, Framer Motion, clsx and tailwind-merge stack.",
+    "Original project reference inspected; no screenshot assets used in the page. No extracted assets or visual substitutions.",
+    "Python font download stalled; curl recovered the original Google Fonts files. Source CSS responses retained in public/fonts/.",
+    "Both buttons preserve /auth?mode=signup. Browser tests intercept this destination; authentication itself is outside scope.",
+    "Mobile screenshot is full-page from a 390x844 viewport. Animation is available in the live page; screenshots show settled state.",
+    "Validated in container Chromium; physical devices and other browser engines were not tested.",
+    "Ready for acceptance; not deployed or pushed. No sub-agents or additional sessions were created.",
+    "node_modules removed from deliverable; package-lock.json retained."
+  ]
+}

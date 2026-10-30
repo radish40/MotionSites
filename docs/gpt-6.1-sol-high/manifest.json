@@ -7802,14 +7802,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18acb-7bfd-7621-b826-4e3c4da07818",
       "output_path": "generated/gpt-6.1-sol-high/modern-hr-dashboard",
       "validation": "",
       "notes": "",
       "process_id": 498547,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:12:33.677591+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 229,
@@ -7828,14 +7832,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18acb-7ce9-7aa3-be75-aa26badb90a5",
       "output_path": "generated/gpt-6.1-sol-high/saas-value",
       "validation": "",
       "notes": "",
       "process_id": 498613,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:12:33.831020+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 230,
@@ -7854,14 +7862,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18acb-7d70-7b83-8a20-a19e6eec7c4e",
       "output_path": "generated/gpt-6.1-sol-high/acreage-farming-hero",
       "validation": "",
       "notes": "",
       "process_id": 498702,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T03:12:33.990321+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 231,
@@ -11164,7 +11176,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T03:13:52.593088+00:00",
+  "updated_utc": "2026-10-30T03:14:45.413234+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

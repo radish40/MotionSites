@@ -1,0 +1,50 @@
+{
+  "title": "Nexora Features",
+  "id": "nexora-features",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build && npm run check'",
+  "checks": {
+    "production_build": {
+      "status": "passed",
+      "log": "build.log",
+      "output": "dist/index.html",
+      "framework": "TanStack Start",
+      "css": "Tailwind CSS v4",
+      "static_prerender": true
+    },
+    "typescript": {
+      "status": "passed",
+      "command": "npm run check"
+    },
+    "desktop": {
+      "status": "passed",
+      "viewport": "1440x1000",
+      "screenshot": "screenshots/desktop.png"
+    },
+    "mobile": {
+      "status": "passed",
+      "viewport": "390x844",
+      "screenshot": "screenshots/mobile.png"
+    },
+    "browser_report": "browser-checks.json",
+    "browser_log": "browser.log",
+    "video_playback": "All four original videos decoded, autoplayed, and advanced; muted, loop, playsInline and full opacity verified.",
+    "interactions": "Hover scale 1.02, pointer click, keyboard Enter and mobile touch activation checked. No click destination was specified.",
+    "horizontal_overflow": false,
+    "script_errors": [],
+    "failed_requests": [],
+    "visual_review": "Both screenshots inspected against the written specification.",
+    "asset_integrity": "All four dist video SHA-256 hashes match the original downloaded assets."
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original CloudFront videos downloaded successfully and bundled locally; provenance and SHA-256 in asset-sources.json.",
+    "Optional reference preview WebP did not exist. No visual reference comparison was possible; implemented the exact written design.",
+    "System Helvetica Neue/Helvetica/Arial/sans-serif stack retained; installed fallback rendering depends on platform.",
+    "CTA click destination was not provided; only specified button behavior is implemented.",
+    "Screenshots use paused video frames after playback checks. Normal page videos autoplay and loop.",
+    "Mobile fourth-card height follows the exact content-driven prompt classes.",
+    "Physical mobile devices and Safari not tested.",
+    "Ready means ready for management review; no deployment, push, other design reads, agents, sessions, or messages to others."
+  ]
+}

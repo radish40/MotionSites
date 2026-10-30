@@ -1,0 +1,125 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nexora-features/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T06:19:31.224Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 62,
+      "canvasRendering": null,
+      "title": "Nexora Features",
+      "bodyChars": 451,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexora-features/videos/feature-1.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.843956,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexora-features/videos/feature-2.mp4",
+          "readyState": 3,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexora-features/videos/feature-3.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.900216,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexora-features/videos/feature-4.mp4",
+          "readyState": 3,
+          "paused": false,
+          "currentTime": 3.354388,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 11,
+      "canvasRendering": null,
+      "title": "Nexora Features",
+      "bodyChars": 451,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexora-features/videos/feature-1.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.603405,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexora-features/videos/feature-2.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.603346,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexora-features/videos/feature-3.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexora-features/videos/feature-4.mp4",
+          "readyState": 4,
+          "paused": true,
+          "currentTime": 0,
+          "duration": 12.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

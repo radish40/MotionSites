@@ -1,0 +1,197 @@
+[
+  {
+    "name": "desktop",
+    "status": "passed",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "scrollWidth": 1440,
+    "background": "rgb(0, 0, 0)",
+    "font": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "cards": [
+      {
+        "x": 80,
+        "y": 209.75,
+        "width": 413.328125,
+        "height": 580,
+        "background": "rgb(37, 43, 76)",
+        "radius": "20px"
+      },
+      {
+        "x": 513.328125,
+        "y": 209.75,
+        "width": 846.671875,
+        "height": 280,
+        "background": "rgb(37, 43, 76)",
+        "radius": "20px"
+      },
+      {
+        "x": 513.328125,
+        "y": 509.75,
+        "width": 413.328125,
+        "height": 280,
+        "background": "rgb(37, 43, 76)",
+        "radius": "20px"
+      },
+      {
+        "x": 946.65625,
+        "y": 509.75,
+        "width": 413.34375,
+        "height": 280,
+        "background": "rgb(37, 43, 76)",
+        "radius": "20px"
+      }
+    ],
+    "videos": [
+      {
+        "src": "http://127.0.0.1:3000/motionsites-results/nexora-features/videos/feature-1.mp4",
+        "time": 1.786896,
+        "width": 1244,
+        "height": 1664,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:3000/motionsites-results/nexora-features/videos/feature-2.mp4",
+        "time": 1.773887,
+        "width": 2196,
+        "height": 940,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:3000/motionsites-results/nexora-features/videos/feature-3.mp4",
+        "time": 1.64192,
+        "width": 1284,
+        "height": 716,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:3000/motionsites-results/nexora-features/videos/feature-4.mp4",
+        "time": 1.541841,
+        "width": 1928,
+        "height": 1072,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "error": null
+      }
+    ],
+    "buttonHoverScale": "1.02",
+    "errors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "mobile",
+    "status": "passed",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "background": "rgb(0, 0, 0)",
+    "font": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "cards": [
+      {
+        "x": 24,
+        "y": 304,
+        "width": 342,
+        "height": 448,
+        "background": "rgb(37, 43, 76)",
+        "radius": "20px"
+      },
+      {
+        "x": 24,
+        "y": 772,
+        "width": 342,
+        "height": 276,
+        "background": "rgb(37, 43, 76)",
+        "radius": "20px"
+      },
+      {
+        "x": 24,
+        "y": 1068,
+        "width": 342,
+        "height": 212,
+        "background": "rgb(37, 43, 76)",
+        "radius": "20px"
+      },
+      {
+        "x": 24,
+        "y": 1300,
+        "width": 342,
+        "height": 92,
+        "background": "rgb(37, 43, 76)",
+        "radius": "20px"
+      }
+    ],
+    "videos": [
+      {
+        "src": "http://127.0.0.1:3000/motionsites-results/nexora-features/videos/feature-1.mp4",
+        "time": 2.150587,
+        "width": 1244,
+        "height": 1664,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:3000/motionsites-results/nexora-features/videos/feature-2.mp4",
+        "time": 2.029384,
+        "width": 2196,
+        "height": 940,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:3000/motionsites-results/nexora-features/videos/feature-3.mp4",
+        "time": 2.101014,
+        "width": 1284,
+        "height": 716,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:3000/motionsites-results/nexora-features/videos/feature-4.mp4",
+        "time": 2.101674,
+        "width": 1928,
+        "height": 1072,
+        "muted": true,
+        "loop": true,
+        "autoplay": true,
+        "playsInline": true,
+        "opacity": "1",
+        "error": null
+      }
+    ],
+    "errors": [],
+    "failedRequests": []
+  }
+]

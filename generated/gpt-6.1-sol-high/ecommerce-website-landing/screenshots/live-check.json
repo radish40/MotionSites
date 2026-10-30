@@ -1,0 +1,365 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/",
+  "previewSelector": null,
+  "previewDelayMs": null,
+  "checked_at": "2026-10-30T06:07:24.402Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 5,
+      "canvasRendering": null,
+      "title": "Logo — A little care. A better you.",
+      "bodyChars": 3913,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/consultation.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/metformin.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/sermorelin.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/metformin.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/sermorelin.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/nad.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/hair-growth.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/nad.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/hair-growth.svg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/metformin.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/nad.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/sermorelin.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/hair-growth.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/nad.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/sermorelin.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/hair-growth.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "visibleImageWaitMs": 4,
+      "canvasRendering": null,
+      "title": "Logo — A little care. A better you.",
+      "bodyChars": 3626,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/consultation.jpg",
+          "loaded": true,
+          "visible": true
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/metformin.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/sermorelin.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/metformin.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/sermorelin.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/nad.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/hair-growth.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/nad.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/hair-growth.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/metformin.svg",
+          "loaded": true,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/nad.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/sermorelin.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/hair-growth.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/semaglutide.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/nad.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/tirzepatide.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/sermorelin.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/ecommerce-website-landing/assets/hair-growth.svg",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        },
+        {
+          "src": "",
+          "loaded": false,
+          "visible": false
+        }
+      ],
+      "videos": [],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

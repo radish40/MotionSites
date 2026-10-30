@@ -1,0 +1,156 @@
+{
+  "checks": [
+    {
+      "name": "Static product entry: semaglutide",
+      "passed": true
+    },
+    {
+      "name": "Static product entry: tirzepatide",
+      "passed": true
+    },
+    {
+      "name": "Static product entry: metformin",
+      "passed": true
+    },
+    {
+      "name": "Static product entry: nad",
+      "passed": true
+    },
+    {
+      "name": "Static product entry: sermorelin",
+      "passed": true
+    },
+    {
+      "name": "Static product entry: hair-growth",
+      "passed": true
+    },
+    {
+      "name": "Page title",
+      "passed": true
+    },
+    {
+      "name": "All seven content sections plus footer and sticky navbar",
+      "passed": true
+    },
+    {
+      "name": "Six product cards",
+      "passed": true
+    },
+    {
+      "name": "Desktop animated image columns visible",
+      "passed": true
+    },
+    {
+      "name": "30 second marquee animation",
+      "passed": true
+    },
+    {
+      "name": "FAQ expands",
+      "passed": true
+    },
+    {
+      "name": "FAQ single item behavior",
+      "passed": true
+    },
+    {
+      "name": "Carousel next",
+      "passed": true
+    },
+    {
+      "name": "Carousel previous",
+      "passed": true
+    },
+    {
+      "name": "Carousel pagination",
+      "passed": true
+    },
+    {
+      "name": "Login modal opens",
+      "passed": true
+    },
+    {
+      "name": "Login demo form submits",
+      "passed": true
+    },
+    {
+      "name": "Eligibility form demo submission",
+      "passed": true
+    },
+    {
+      "name": "Dialog closes with Escape",
+      "passed": true
+    },
+    {
+      "name": "Newsletter local confirmation",
+      "passed": true
+    },
+    {
+      "name": "Product deep link works without SPA fallback",
+      "passed": true
+    },
+    {
+      "name": "Trailing slash product route",
+      "passed": true
+    },
+    {
+      "name": "Product quantity controls",
+      "passed": true
+    },
+    {
+      "name": "Desktop no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "All local images load",
+      "passed": true
+    },
+    {
+      "name": "Mobile marquees hidden",
+      "passed": true
+    },
+    {
+      "name": "Mobile desktop navigation hidden",
+      "passed": true
+    },
+    {
+      "name": "Mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu opens",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu closes on navigation",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion respected",
+      "passed": true
+    },
+    {
+      "name": "No browser script errors",
+      "passed": true
+    },
+    {
+      "name": "No failed network requests",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "screenshots": [
+    "screenshots/desktop.png",
+    "screenshots/mobile.png"
+  ]
+}

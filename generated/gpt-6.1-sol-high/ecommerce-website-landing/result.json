@@ -1,0 +1,189 @@
+{
+  "title": "E-commerce Website",
+  "id": "ecommerce-website-landing",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; six static product route entries generated",
+    "browser_checks": [
+      {
+        "name": "Static product entry: semaglutide",
+        "passed": true
+      },
+      {
+        "name": "Static product entry: tirzepatide",
+        "passed": true
+      },
+      {
+        "name": "Static product entry: metformin",
+        "passed": true
+      },
+      {
+        "name": "Static product entry: nad",
+        "passed": true
+      },
+      {
+        "name": "Static product entry: sermorelin",
+        "passed": true
+      },
+      {
+        "name": "Static product entry: hair-growth",
+        "passed": true
+      },
+      {
+        "name": "Page title",
+        "passed": true
+      },
+      {
+        "name": "All seven content sections plus footer and sticky navbar",
+        "passed": true
+      },
+      {
+        "name": "Six product cards",
+        "passed": true
+      },
+      {
+        "name": "Desktop animated image columns visible",
+        "passed": true
+      },
+      {
+        "name": "30 second marquee animation",
+        "passed": true
+      },
+      {
+        "name": "FAQ expands",
+        "passed": true
+      },
+      {
+        "name": "FAQ single item behavior",
+        "passed": true
+      },
+      {
+        "name": "Carousel next",
+        "passed": true
+      },
+      {
+        "name": "Carousel previous",
+        "passed": true
+      },
+      {
+        "name": "Carousel pagination",
+        "passed": true
+      },
+      {
+        "name": "Login modal opens",
+        "passed": true
+      },
+      {
+        "name": "Login demo form submits",
+        "passed": true
+      },
+      {
+        "name": "Eligibility form demo submission",
+        "passed": true
+      },
+      {
+        "name": "Dialog closes with Escape",
+        "passed": true
+      },
+      {
+        "name": "Newsletter local confirmation",
+        "passed": true
+      },
+      {
+        "name": "Product deep link works without SPA fallback",
+        "passed": true
+      },
+      {
+        "name": "Trailing slash product route",
+        "passed": true
+      },
+      {
+        "name": "Product quantity controls",
+        "passed": true
+      },
+      {
+        "name": "Desktop no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "All local images load",
+        "passed": true
+      },
+      {
+        "name": "Mobile marquees hidden",
+        "passed": true
+      },
+      {
+        "name": "Mobile desktop navigation hidden",
+        "passed": true
+      },
+      {
+        "name": "Mobile no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "Mobile menu opens",
+        "passed": true
+      },
+      {
+        "name": "Mobile menu closes on navigation",
+        "passed": true
+      },
+      {
+        "name": "Reduced motion respected",
+        "passed": true
+      },
+      {
+        "name": "No browser script errors",
+        "passed": true
+      },
+      {
+        "name": "No failed network requests",
+        "passed": true
+      }
+    ],
+    "passed_count": 34,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "script_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "visual_review": "Reviewed desktop and mobile full-page screenshots",
+    "dependency_audit": "npm install reported zero vulnerabilities",
+    "dist_index_exists": true
+  },
+  "asset_issues": [
+    {
+      "asset": "Optional original design preview",
+      "issue": "Specified ecommerce-website-landing.webp does not exist on this host. No original preview was read.",
+      "resolution": "Implemented directly from the complete PROMPT.md; exact visual comparison is unavailable."
+    },
+    {
+      "asset": "Product imagery",
+      "issue": "No original product asset URLs supplied.",
+      "resolution": "Created six original local SVG product illustrations; reproducible source is scripts/create-assets.py. No page screenshot is used as the UI."
+    }
+  ],
+  "notes": [
+    "All nine requested page sections implemented using React, Vite, TypeScript, Tailwind CSS, shadcn/ui-style local components, Radix, and lucide-react.",
+    "System fonts and local assets; five successfully downloaded Unsplash photos with source URLs in README.md.",
+    "Production base path: /motionsites-results/ecommerce-website-landing/.",
+    "Static product pages work with or without a trailing slash and do not require an SPA fallback.",
+    "Authentication, consultation, newsletter, informational, and social actions are frontend demonstrations. No backend or email delivery was supplied; no form data is transmitted.",
+    "Reference-specific unspecified copy, non-semaglutide prices, illustrations, and badge graphics are approximations. LegitScript verification is explicitly pending.",
+    "No deployment, push, external messages, other designs, agents, or additional sessions.",
+    "ready means ready for review, not live."
+  ]
+}

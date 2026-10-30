@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T03:16:05.945443+00:00",
+  "updated_utc": "2026-10-30T03:17:24.992471+00:00",
   "total": 380,
   "counts": {
-    "complete": 226,
+    "complete": 227,
     "running": 5,
-    "not_started": 149
+    "not_started": 148
   },
   "current_batch": {
     "from_number": 201,
@@ -2270,11 +2270,11 @@
       "id": "404",
       "title": "Nexto 404",
       "category": "404 Pages",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18ac9-9a8c-7200-976f-c41d88145950",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "83165bd0df9060274bbec4dbfc4ce5019fa0ea66",
+      "group_message_id": 291,
+      "url": "https://tool.luo-xd.com/motionsites-results/404/"
     },
     {
       "id": "ai-image-generator-ui",
@@ -2321,7 +2321,7 @@
       "title": "AKOR Security",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18ace-5a4b-7a42-aea9-5b18f9643354",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -2330,7 +2330,7 @@
       "id": "apex-saa-s",
       "title": "Apex SaaS",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

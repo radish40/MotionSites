@@ -1,0 +1,72 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "failedRequests": [],
+    "layout": {
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "scrollHeight": 1000,
+      "heading": "We drive companies beyond their biggest obstacles",
+      "akshar": true,
+      "inter": true,
+      "corners": 8
+    },
+    "playback": {
+      "playing": true,
+      "muted": true,
+      "loop": true,
+      "objectFit": "fill",
+      "width": 1924,
+      "height": 1076
+    },
+    "cta": "mailto:?subject=Start%20my%20journey%20with%20Nexus%20IT%20Solutions",
+    "menu": null,
+    "keyboardFocus": {
+      "tag": "A",
+      "outline": "solid"
+    }
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "failedRequests": [],
+    "layout": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "scrollHeight": 844,
+      "heading": "We drive companies beyond their biggest obstacles",
+      "akshar": true,
+      "inter": true,
+      "corners": 8
+    },
+    "playback": {
+      "playing": true,
+      "muted": true,
+      "loop": true,
+      "objectFit": "fill",
+      "width": 1924,
+      "height": 1076
+    },
+    "cta": "mailto:?subject=Start%20my%20journey%20with%20Nexus%20IT%20Solutions",
+    "menu": {
+      "opened": true,
+      "links": 5,
+      "closedAfterSelection": true
+    },
+    "keyboardFocus": {
+      "tag": "A",
+      "outline": "solid"
+    }
+  }
+]

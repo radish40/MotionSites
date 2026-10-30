@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 220 20% 20%;
+  --primary: 212 72% 18%;
+  --muted-foreground: 220 10% 50%;
+  --heading-gradient-from: 212 72% 10%;
+  --heading-gradient-to: 205 65% 48%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+a, button { -webkit-tap-highlight-color: transparent; }
+a { transition: color .2s ease, background-color .2s ease, border-color .2s ease; }
+a:focus-visible, button:focus-visible { outline: 2px solid hsl(var(--primary)); outline-offset: 6px; }
+.heading-gradient { background: linear-gradient(115deg, hsl(var(--heading-gradient-from)) 8%, hsl(var(--heading-gradient-to)) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero-copy { padding-bottom: 30px; }
+.notched-button { min-height: 60px; padding: 17px 30px; color: hsl(var(--primary)); background: hsl(var(--background) / .12); }
+.notched-button:hover { background: hsl(var(--primary) / .08); }
+.corner { position: absolute; display: block; background: currentColor; }
+.corner-0, .corner-2, .corner-4, .corner-6 { width: 10px; height: 1px; }
+.corner-1, .corner-3, .corner-5, .corner-7 { width: 1px; height: 10px; }
+.corner-0, .corner-1 { left: 4px; top: 4px; }
+.corner-2, .corner-3 { right: 4px; top: 4px; }
+.corner-4, .corner-5 { left: 4px; bottom: 4px; }
+.corner-6, .corner-7 { right: 4px; bottom: 4px; }
+.trusted-section { padding-bottom: 55px; }
+.trusted-label { font-size: 13px; }
+.brands { gap: 60px; margin-top: 24px; width: fit-content; }
+.brand-fedex { font-size: 32px; letter-spacing: -2px; }
+.brand-amazon { position: relative; font-size: 29px; letter-spacing: -1.3px; line-height: 1; }
+.brand-amazon svg { width: 58px; height: 12px; position: absolute; top: 22px; left: 10px; fill: none; stroke: currentColor; stroke-width: 2; }
+.brand-mckesson { font-size: 23px; letter-spacing: -1px; }
+.brand-pitney { font-size: 24px; font-weight: 500; letter-spacing: -1px; }
+.menu-toggle { display: none; }
+@media (max-width: 767px) {
+  .hero-frame { height: 100svh; min-height: 680px; }
+  .navigation { padding: 22px 24px; gap: 16px; }
+  .desktop-links, .contact-link { display: none; }
+  .menu-toggle { display: flex; flex-direction: column; gap: 6px; justify-content: center; align-items: center; width: 36px; height: 36px; }
+  .menu-toggle span { display: block; width: 22px; height: 1px; background: hsl(var(--foreground)); transition: transform .2s; }
+  .menu-toggle span:first-child.open { transform: translateY(3.5px) rotate(45deg); }
+  .menu-toggle span:last-child.open { transform: translateY(-3.5px) rotate(-45deg); }
+  .mobile-navigation { position: absolute; top: 78px; left: 16px; right: 16px; padding: 14px 20px; background: hsl(var(--background) / .98); border: 1px solid hsl(var(--foreground) / .1); box-shadow: 0 10px 30px #10385b0d; display: flex; flex-direction: column; gap: 6px; z-index: 20; }
+  .mobile-navigation a { padding: 10px 0; letter-spacing: .05em; }
+  .hero-content { padding: 0 24px; }
+  .hero-copy { padding-bottom: 15px; }
+  .hero-copy h1 { max-width: 350px; }
+  .hero-copy p { max-width: 310px; margin-top: 24px; }
+  .notched-button { margin-top: 30px; }
+  .trusted-section { padding: 0 24px 32px; }
+  .trusted-label { font-size: 11px; }
+  .brands { margin-top: 22px; gap: 21px; flex-wrap: wrap; row-gap: 20px; }
+  .brand-fedex { font-size: 25px; }
+  .brand-amazon { font-size: 23px; }
+  .brand-amazon svg { width: 45px; top: 18px; left: 8px; }
+  .brand-mckesson { font-size: 18px; }
+  .brand-pitney { font-size: 19px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } a, .menu-toggle span { transition: none; } }

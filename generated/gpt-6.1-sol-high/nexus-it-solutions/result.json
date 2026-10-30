@@ -1,0 +1,103 @@
+{
+  "title": "Nexus IT Solutions",
+  "id": "nexus-it-solutions",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite; dist/index.html exists",
+    "dependency_audit": "npm install reported 0 vulnerabilities",
+    "browser": "Chromium via playwright-core against dist at required base path",
+    "viewports": [
+      {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "errors": [],
+        "failedRequests": [],
+        "layout": {
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "height": 1000,
+          "scrollHeight": 1000,
+          "heading": "We drive companies beyond their biggest obstacles",
+          "akshar": true,
+          "inter": true,
+          "corners": 8
+        },
+        "playback": {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "objectFit": "fill",
+          "width": 1924,
+          "height": 1076
+        },
+        "cta": "mailto:?subject=Start%20my%20journey%20with%20Nexus%20IT%20Solutions",
+        "menu": null,
+        "keyboardFocus": {
+          "tag": "A",
+          "outline": "solid"
+        }
+      },
+      {
+        "name": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "errors": [],
+        "failedRequests": [],
+        "layout": {
+          "viewport": 390,
+          "scrollWidth": 390,
+          "height": 844,
+          "scrollHeight": 844,
+          "heading": "We drive companies beyond their biggest obstacles",
+          "akshar": true,
+          "inter": true,
+          "corners": 8
+        },
+        "playback": {
+          "playing": true,
+          "muted": true,
+          "loop": true,
+          "objectFit": "fill",
+          "width": 1924,
+          "height": 1076
+        },
+        "cta": "mailto:?subject=Start%20my%20journey%20with%20Nexus%20IT%20Solutions",
+        "menu": {
+          "opened": true,
+          "links": 5,
+          "closedAfterSelection": true
+        },
+        "keyboardFocus": {
+          "tag": "A",
+          "outline": "solid"
+        }
+      }
+    ],
+    "visual_review": "desktop and mobile screenshots inspected",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "report": "screenshots/browser-checks.json"
+  },
+  "asset_issues": [
+    {
+      "asset": "optional visual reference",
+      "issue": "Specified WebP does not exist; reference comparison unavailable."
+    }
+  ],
+  "notes": [
+    "Original CloudFront MP4 bundled unchanged; autoplay, muted, loop, playsInline and object-fill retained.",
+    "Akshar and Inter loaded in both browser checks; Google Fonts remains an external dependency.",
+    "Our Team and News retain fragment placeholders because no destination content was supplied. Home and Solutions have existing targets.",
+    "CTAs open email drafts with subjects and no recipient. A recipient and configured mail client are needed; email delivery was not tested.",
+    "Screenshots freeze original video at two seconds; delivered page plays continuously.",
+    "No deployment, push, other sessions, agents, or messages. Only this project was written."
+  ]
+}

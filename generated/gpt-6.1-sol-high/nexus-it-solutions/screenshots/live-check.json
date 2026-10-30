@@ -1,0 +1,62 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/nexus-it-solutions/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:39:39.862Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nexus IT Solutions",
+      "bodyChars": 296,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexus-it-solutions/assets/nexus-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.14089,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "Nexus IT Solutions",
+      "bodyChars": 254,
+      "horizontalOverflow": 0,
+      "images": [],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/nexus-it-solutions/assets/nexus-background.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 4.623291,
+          "duration": 10.041667,
+          "ended": false,
+          "loop": true,
+          "autoplay": true
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

@@ -325,7 +325,19 @@
         "generated/gpt-6.1-sol-high/ai-image-generator-ui/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/ai-image-generator-ui/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "saas-value",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "observation": "Questly headline, real DOM dashboard scaled into responsive layout, and isolated recovered grass render at both sizes. Original grass endpoint is unavailable; its trimmed transparency approximation is documented.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/saas-value/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/saas-value/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T03:19:45.718155+00:00"
+  "updated_utc": "2026-10-30T03:20:55.508979+00:00"
 }

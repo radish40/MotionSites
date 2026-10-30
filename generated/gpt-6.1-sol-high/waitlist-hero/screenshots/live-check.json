@@ -1,0 +1,72 @@
+{
+  "url": "https://tool.luo-xd.com/motionsites-results/waitlist-hero/",
+  "previewSelector": null,
+  "checked_at": "2026-10-30T03:10:49.000Z",
+  "passed": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "micro — Organized.",
+      "bodyChars": 186,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/waitlist-hero/portrait.webp",
+          "loaded": true,
+          "visible": true
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/waitlist-hero/boomerang.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 5.449177,
+          "duration": 7.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "introWait": "not-applicable",
+      "title": "micro — Organized.",
+      "bodyChars": 186,
+      "horizontalOverflow": 0,
+      "images": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/waitlist-hero/portrait.webp",
+          "loaded": true,
+          "visible": false
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://tool.luo-xd.com/motionsites-results/waitlist-hero/boomerang.mp4",
+          "readyState": 4,
+          "paused": false,
+          "currentTime": 3.98632,
+          "duration": 7.041667,
+          "ended": false,
+          "loop": false,
+          "autoplay": false
+        }
+      ],
+      "frames": [],
+      "errors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  ]
+}

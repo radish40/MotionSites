@@ -1,0 +1,138 @@
+[
+  {
+    "viewport": "desktop",
+    "layout": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000,
+      "visibleCanvases": 3,
+      "frames": 24,
+      "font": "Inter, sans-serif",
+      "fontLoaded": true,
+      "portraitLoaded": true,
+      "canvasPixel": [
+        32,
+        64,
+        113,
+        255
+      ],
+      "heading": {
+        "x": 850.125,
+        "y": 794,
+        "width": 549.875,
+        "height": 110,
+        "top": 794,
+        "right": 1400,
+        "bottom": 904,
+        "left": 850.125
+      }
+    },
+    "initial": {
+      "frame": "0",
+      "duration": 7.041667
+    },
+    "reverseA": "22",
+    "reverseB": "16",
+    "buttons": [
+      {
+        "text": "Login",
+        "focused": true,
+        "hover": {
+          "opacity": "1",
+          "color": "rgb(255, 255, 255)"
+        },
+        "active": "none"
+      },
+      {
+        "text": "Join the Waitlist",
+        "focused": true,
+        "hover": {
+          "opacity": "0.9",
+          "color": "rgb(255, 255, 255)"
+        },
+        "active": "matrix(0.95, 0, 0, 0.95, 0, 0)"
+      },
+      {
+        "text": "Join the Waitlist",
+        "focused": true,
+        "hover": {
+          "opacity": "0.9",
+          "color": "rgb(3, 4, 4)"
+        },
+        "active": "matrix(0.95, 0, 0, 0.95, 0, 0)"
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "externalRequests": []
+  },
+  {
+    "viewport": "mobile",
+    "layout": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "visibleCanvases": 1,
+      "frames": 23,
+      "font": "Inter, sans-serif",
+      "fontLoaded": true,
+      "portraitLoaded": true,
+      "canvasPixel": [
+        91,
+        106,
+        144,
+        255
+      ],
+      "heading": {
+        "x": 32,
+        "y": 712,
+        "width": 326,
+        "height": 52,
+        "top": 712,
+        "right": 358,
+        "bottom": 764,
+        "left": 32
+      }
+    },
+    "initial": {
+      "frame": "0",
+      "duration": 7.041667
+    },
+    "reverseA": "21",
+    "reverseB": "16",
+    "buttons": [
+      {
+        "text": "Login",
+        "focused": true,
+        "hover": {
+          "opacity": "1",
+          "color": "rgb(255, 255, 255)"
+        },
+        "active": "none"
+      },
+      {
+        "text": "Join the Waitlist",
+        "focused": true,
+        "hover": {
+          "opacity": "0.9",
+          "color": "rgb(255, 255, 255)"
+        },
+        "active": "matrix(0.95, 0, 0, 0.95, 0, 0)"
+      },
+      {
+        "text": "Join the Waitlist",
+        "focused": true,
+        "hover": {
+          "opacity": "0.9",
+          "color": "rgb(3, 4, 4)"
+        },
+        "active": "matrix(0.95, 0, 0, 0.95, 0, 0)"
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "externalRequests": []
+  }
+]

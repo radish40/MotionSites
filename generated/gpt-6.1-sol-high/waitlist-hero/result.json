@@ -1,0 +1,53 @@
+{
+  "title": "Waitlist Hero",
+  "id": "waitlist-hero",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed: TypeScript and Vite 6.4.5; dist/index.html exists",
+    "browser": "passed: Chromium via Playwright Core, production files served at required subpath",
+    "viewports": [
+      {
+        "size": "1440x1000",
+        "visible_canvases": 3,
+        "overflow": false,
+        "browser_errors": [],
+        "failed_requests": [],
+        "external_requests": [],
+        "inter_loaded": true,
+        "portrait_loaded": true,
+        "captured_frames": 24,
+        "reverse_playback_verified": true
+      },
+      {
+        "size": "390x844",
+        "visible_canvases": 1,
+        "overflow": false,
+        "browser_errors": [],
+        "failed_requests": [],
+        "external_requests": [],
+        "inter_loaded": true,
+        "portrait_loaded": true,
+        "captured_frames": 23,
+        "reverse_playback_verified": true
+      }
+    ],
+    "button_states": "passed: keyboard focus, Login hover text, CTA hover opacity 0.9 and active scale 0.95",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png"
+    ],
+    "detail_report": "screenshots/checks.json",
+    "dependency_audit": "0 vulnerabilities; npm-audit.json"
+  },
+  "asset_issues": [],
+  "notes": [
+    "Original video and portrait successfully downloaded from the exact prompt URLs. Inter 400/500/600 hosted locally. No asset substitution or reference extraction.",
+    "Publication base: /motionsites-results/waitlist-hero/. Not deployed or pushed.",
+    "Single App.tsx contains the page, reusable Orb, frame capture and canvas slicing. No video currentTime assignments.",
+    "Buttons implement specified visual interactions. The prompt supplies no login/waitlist destinations or backend; these are not invented.",
+    "Busy software-rendered Chromium captured 24 desktop and 23 mobile presented frames from the 7.04-second source during the final check. Reverse progression is verified; complete encoded-frame capture and physical-device smoothness are not established.",
+    "Vite emits a static local inter.css URL notice at build time; production browser checks verify that the stylesheet and fonts resolve correctly.",
+    "README.md contains build, verification, provenance and limitations. Ready means available for review, not live."
+  ]
+}

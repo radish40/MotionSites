@@ -1,0 +1,75 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "fontStatus": "loaded",
+      "fonts": [
+        [
+          "Manrope",
+          true
+        ],
+        [
+          "Cabin",
+          true
+        ],
+        [
+          "Instrument Serif",
+          true
+        ],
+        [
+          "Inter",
+          true
+        ]
+      ],
+      "video": {
+        "width": 1708,
+        "height": 1212,
+        "muted": true,
+        "loop": true,
+        "playing": true
+      }
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "fontStatus": "loaded",
+      "fonts": [
+        [
+          "Manrope",
+          true
+        ],
+        [
+          "Cabin",
+          true
+        ],
+        [
+          "Instrument Serif",
+          true
+        ],
+        [
+          "Inter",
+          true
+        ]
+      ],
+      "video": {
+        "width": 1708,
+        "height": 1212,
+        "muted": true,
+        "loop": true,
+        "playing": true
+      }
+    }
+  ],
+  "interactions": [
+    "Desktop Services dropdown, service selection, all navigation and CTA preview dialogs, Escape dismissal",
+    "Mobile fullscreen black menu, close button, Escape, Services selection, scroll restoration"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed"
+}

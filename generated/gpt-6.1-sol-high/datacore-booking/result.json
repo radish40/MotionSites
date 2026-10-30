@@ -1,0 +1,106 @@
+{
+  "title": "Datacore Booking",
+  "id": "datacore-booking",
+  "status": "ready",
+  "build_command": "docker run --rm -u 1000:1000 -e HOME=/tmp -v \"$PWD:/work\" -w /work --entrypoint sh louislam/uptime-kuma:2 -c 'npm ci && npm run build'",
+  "checks": {
+    "production_build": "passed",
+    "dist_index_exists": true,
+    "browser": {
+      "viewports": [
+        {
+          "name": "desktop",
+          "width": 1440,
+          "height": 1000,
+          "scrollWidth": 1440,
+          "fontStatus": "loaded",
+          "fonts": [
+            [
+              "Manrope",
+              true
+            ],
+            [
+              "Cabin",
+              true
+            ],
+            [
+              "Instrument Serif",
+              true
+            ],
+            [
+              "Inter",
+              true
+            ]
+          ],
+          "video": {
+            "width": 1708,
+            "height": 1212,
+            "muted": true,
+            "loop": true,
+            "playing": true
+          }
+        },
+        {
+          "name": "mobile",
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "fontStatus": "loaded",
+          "fonts": [
+            [
+              "Manrope",
+              true
+            ],
+            [
+              "Cabin",
+              true
+            ],
+            [
+              "Instrument Serif",
+              true
+            ],
+            [
+              "Inter",
+              true
+            ]
+          ],
+          "video": {
+            "width": 1708,
+            "height": 1212,
+            "muted": true,
+            "loop": true,
+            "playing": true
+          }
+        }
+      ],
+      "interactions": [
+        "Desktop Services dropdown, service selection, all navigation and CTA preview dialogs, Escape dismissal",
+        "Mobile fullscreen black menu, close button, Escape, Services selection, scroll restoration"
+      ],
+      "errors": [],
+      "failedRequests": [],
+      "status": "passed"
+    },
+    "dependency_audit": "0 vulnerabilities",
+    "screenshots": [
+      "screenshots/desktop.png",
+      "screenshots/mobile.png",
+      "screenshots/mobile-menu.png"
+    ]
+  },
+  "asset_issues": [
+    {
+      "asset": "Future logo SVG",
+      "issue": "Prompt supplies a truncated path with an ellipsis; complete original is unavailable.",
+      "resolution": "Approximate white geometric SVG beginning with the provided coordinates. No reference extraction."
+    }
+  ],
+  "notes": [
+    "React + Tailwind CSS + Vite. Base path /motionsites-results/datacore-booking/.",
+    "Original video and all requested font families bundled locally; final asset requests passed.",
+    "CTA and navigation destinations were unspecified; preview dialogs disclose that they are not connected.",
+    "Chromium desktop and mobile viewport emulation tested; physical devices and other engines not tested.",
+    "Screenshots freeze the real background video at two seconds for repeatability; production video autoplays.",
+    "Ready for acceptance only; no deployment, push, messaging, other projects, or subagents."
+  ]
+}

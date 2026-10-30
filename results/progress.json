@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-30T04:43:10.941808+00:00",
+  "updated_utc": "2026-10-30T04:45:03.020077+00:00",
   "total": 380,
   "counts": {
-    "complete": 299,
+    "complete": 301,
     "running": 5,
-    "not_started": 76
+    "not_started": 74
   },
   "current_batch": {
     "from_number": 201,
@@ -3010,11 +3010,11 @@
       "id": "mostar-guide",
       "title": "Mostar Guide",
       "category": "Travel",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b15-e214-70b3-bb93-0d78cbe5e077",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "70baefe4bb99530fad8f3da55ecbdd7ad79611fc",
+      "group_message_id": 367,
+      "url": "https://tool.luo-xd.com/motionsites-results/mostar-guide/"
     },
     {
       "id": "talent-collective",
@@ -3030,18 +3030,18 @@
       "id": "intelligence-layer",
       "title": "Intelligence Layer",
       "category": "Technology",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b1b-9e32-74b0-82ee-580092fffd29",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "c7d38a799b0a93f074715c6aacd3f3c96735b8c7",
+      "group_message_id": 368,
+      "url": "https://tool.luo-xd.com/motionsites-results/intelligence-layer/"
     },
     {
       "id": "task-engine",
       "title": "Task Engine",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b1d-7fca-79f1-b4a0-27c2f4274dd1",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3051,7 +3051,7 @@
       "title": "Autonomous Ops",
       "category": "SaaS",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b1d-80f6-7b20-9a07-af390832718e",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3060,7 +3060,7 @@
       "id": "orbit-flora",
       "title": "Orbit Flora",
       "category": "AI",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3070,7 +3070,7 @@
       "id": "data-signal",
       "title": "Data Signal",
       "category": "Analytics",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,

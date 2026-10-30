@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-10-30T05:47:39.054Z",
+  "id": "sentinel-ai-hero",
+  "source_commit": "72011925d533f178b5f5007012ef7459ee79ee27",
+  "public_url": "https://tool.luo-xd.com/motionsites-results/sentinel-ai-hero/",
+  "passed": true,
+  "method": "Injected validation browser records actual WebGL draw calls before pausing its own RAF for software-renderer screenshot capture; production source remains animated. Root inspected real desktop/mobile public captures.",
+  "viewports": [
+    {
+      "viewport": "desktop",
+      "before": 20087,
+      "after": 22955,
+      "drawCallsAdvanced": true,
+      "canvas": 1
+    },
+    {
+      "viewport": "mobile",
+      "before": 15383,
+      "after": 19795,
+      "drawCallsAdvanced": true,
+      "canvas": 1
+    }
+  ]
+}

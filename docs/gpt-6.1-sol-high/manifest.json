@@ -11880,19 +11880,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b52-e28e-7f02-b88c-fdea966796c0",
       "output_path": "generated/gpt-6.1-sol-high/nexacore-hero",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1074443,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:40:27.301022+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "9fd8f446ba5a298817604c0d159e46e7380a2093",
+      "url": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/",
+      "completed_utc": "2026-10-30T05:49:10.645439+00:00",
+      "group_message_id": 417
     },
     {
       "number": 348,
@@ -11974,19 +11978,23 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b55-0708-7d53-804e-fd039f5a3625",
       "output_path": "generated/gpt-6.1-sol-high/focus-ai-landing",
-      "validation": "",
+      "validation": "Live desktop/mobile browser checks passed; source pushed and public screenshots verified",
       "notes": "",
       "process_id": 1083489,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:42:47.636484+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
-      }
+      },
+      "source_commit": "e8ca25abb36bda6eeb248e81e1db612ece7a6fbd",
+      "url": "https://tool.luo-xd.com/motionsites-results/focus-ai-landing/",
+      "completed_utc": "2026-10-30T05:49:35.565010+00:00",
+      "group_message_id": 418
     },
     {
       "number": 351,
@@ -12004,7 +12012,7 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18b55-0948-7010-9d52-8c08d2718b53",
       "output_path": "generated/gpt-6.1-sol-high/design-rocket-email-hero",
       "validation": "",
@@ -12012,7 +12020,7 @@
       "process_id": 1083564,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:42:48.160117+00:00",
-      "worker_state": "running",
+      "worker_state": "terminal",
       "actual_session_config": {
         "model": "gpt-6.1-sol",
         "reasoning_effort": "high"
@@ -12035,14 +12043,18 @@
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b57-c9aa-70a2-9133-37c6787fb12f",
       "output_path": "generated/gpt-6.1-sol-high/rivr-defi-landing",
       "validation": "",
       "notes": "",
       "process_id": 1095238,
       "launch_method": "isolated_codex_exec",
       "started_utc": "2026-10-30T05:45:48.610102+00:00",
-      "worker_state": "running"
+      "worker_state": "running",
+      "actual_session_config": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      }
     },
     {
       "number": 353,
@@ -12060,11 +12072,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/duolingo-styleguide-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1104272,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:48:43.984953+00:00",
+      "worker_state": "running"
     },
     {
       "number": 354,
@@ -12082,11 +12098,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/velorah-focus-hero",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1104343,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:48:44.130672+00:00",
+      "worker_state": "running"
     },
     {
       "number": 355,
@@ -12104,11 +12124,15 @@
       "preview_kind": "none",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
-      "output_path": "",
+      "output_path": "generated/gpt-6.1-sol-high/price-calculator",
       "validation": "",
-      "notes": ""
+      "notes": "",
+      "process_id": 1104428,
+      "launch_method": "isolated_codex_exec",
+      "started_utc": "2026-10-30T05:48:44.283949+00:00",
+      "worker_state": "running"
     },
     {
       "number": 356,
@@ -12662,7 +12686,7 @@
       "notes": ""
     }
   ],
-  "updated_utc": "2026-10-30T05:47:50.826734+00:00",
+  "updated_utc": "2026-10-30T05:49:35.754220+00:00",
   "current_batch": {
     "from_number": 201,
     "through_number": 380,

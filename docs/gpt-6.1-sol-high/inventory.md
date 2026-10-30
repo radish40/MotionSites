@@ -1,6 +1,6 @@
 # GPT‑6.1 Sol High 网页生成清单
 
-当前状态：已完成 347/380；以 manifest.json 和在线索引的最新状态为准。
+当前状态：已完成 349/380；以 manifest.json 和在线索引的最新状态为准。
 
 - 范围：380 个设计，每个设计生成 1 个可运行网页。
 - 全库含 601 个文本版本；本轮使用 `data/catalog-text-index.json` 指定的画廊默认主提示词，不另行挑选最长版本。
@@ -431,15 +431,15 @@
 | 344 | `shamoni-hero` | Shamoni | Hero Section | 1 | 无 | 已完成 |
 | 345 | `glow-features` | Glow Features | Features Section | 1 | 无 | 已完成 |
 | 346 | `lumina-footer` | Lumina | Footer Section | 1 | 无 | 已完成 |
-| 347 | `nexacore-hero` | NexaCore | Landing Page | 1 | 无 | 生成中 |
+| 347 | `nexacore-hero` | NexaCore | Landing Page | 1 | 无 | 已完成 |
 | 348 | `guardnet-landing` | Guardnet | Landing Page | 1 | 无 | 已完成 |
 | 349 | `automation-machines-hero` | Automation Machines | Hero Section | 1 | 无 | 生成中 |
-| 350 | `focus-ai-landing` | Focus AI | Landing Page | 1 | 无 | 生成中 |
-| 351 | `design-rocket-email-hero` | Email Marketing | Email Marketing | 1 | 无 | 生成中 |
+| 350 | `focus-ai-landing` | Focus AI | Landing Page | 1 | 无 | 已完成 |
+| 351 | `design-rocket-email-hero` | Email Marketing | Email Marketing | 1 | 无 | 待验收 |
 | 352 | `rivr-defi-landing` | RIVR DeFi | Landing Page | 1 | 无 | 生成中 |
-| 353 | `duolingo-styleguide-hero` | Duolingo Styleguide | Hero Section | 1 | 无 | 未开始 |
-| 354 | `velorah-focus-hero` | Velorah Focus | Social Media | 1 | 无 | 未开始 |
-| 355 | `price-calculator` | Price Calculator | SaaS | 1 | 无 | 未开始 |
+| 353 | `duolingo-styleguide-hero` | Duolingo Styleguide | Hero Section | 1 | 无 | 生成中 |
+| 354 | `velorah-focus-hero` | Velorah Focus | Social Media | 1 | 无 | 生成中 |
+| 355 | `price-calculator` | Price Calculator | SaaS | 1 | 无 | 生成中 |
 | 356 | `yacht-club-hero` | Yacht Club | Landing Page | 1 | 无 | 未开始 |
 | 357 | `social-media-posts-hero` | Social Media Posts | Social Media | 1 | 无 | 未开始 |
 | 358 | `ecommerce-website-landing` | E-commerce Website | Landing Page | 1 | 无 | 未开始 |

@@ -1869,7 +1869,106 @@
         "generated/gpt-6.1-sol-high/luminex-hero/screenshots/desktop.png",
         "generated/gpt-6.1-sol-high/luminex-hero/screenshots/mobile.png"
       ]
+    },
+    {
+      "id": "nike-premium-landing",
+      "source_commit": "2d300cbeefc26b96ddcf7bc2925cfb300e1bdf6f",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:49:10.896095+00:00",
+      "observation": "Root inspected desktop/mobile hero, both innovation views and mobile GSAP menu. Independent six-circle masks, hover playback, navigation and two decoded clips passed worker browser checks. Original GitHub images are 404 and signed Pikaso footage 403; original session exhausted source/CDN recovery and retained explicitly documented Unsplash photos plus generated camera/light sweeps. Accepted as an approximation, not original-footage fidelity.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/nike-premium-landing/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/nike-premium-landing/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "sentinel-ai-hero",
+      "source_commit": "72011925d533f178b5f5007012ef7459ee79ee27",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:49:10.896095+00:00",
+      "observation": "Root inspected final public desktop/mobile captures showing genuine original Spline block scene, green AI typography and correct mobile-hidden navigation. Live checker measured actual WebGL draw calls advancing 20087→22955 desktop and 15383→19795 mobile before pausing only injected validation-browser RAF for screenshot stability. Original Sora fonts load, layouts and runtime/network checks pass. Unspecified CTA destinations remain unimplemented; no invented backend.",
+      "additional_evidence": "docs/gpt-6.1-sol-high/audits/sentinel-webgl-rendering.json",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/sentinel-ai-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/sentinel-ai-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "slam-dunk-hero",
+      "source_commit": "50ccef3b6491c75e6c9cfb5cc8c4fb3cfdb1905f",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:49:10.896095+00:00",
+      "observation": "Root inspected both public hero captures and full desktop/mobile pages, including original basketball SVG artwork, marquee, lower cards and explicit independent-concept footer. Original 86-byte prompt is only an orphaned footer; management resumed the same original thread with a documented original-concept brief, retaining original PROMPT SHA. Sessions filter, local save/reload/cancel, playbook navigation, shot score/audio, keyboard focus/Escape and reduced motion passed. Fictional sessions/local storage, no real reservation backend.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/slam-dunk-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/slam-dunk-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "crypto-wealth-hero",
+      "source_commit": "b098b066c5f1459f4c6e3fa33345cabec6cf259f",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:49:10.896095+00:00",
+      "observation": "Root inspected desktop/mobile hero and both showcase captures. Exact prompt uses ContentFlow despite catalog name Crypto Wealth; index retains catalog title. Both original MP4s decode and advance, hero fades/translates with scroll, background scales and analytics dashboard reveals. Dense mobile dashboard retains specified 75% scale and intentional panel clipping. Fonts/layout/runtime checks pass.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/crypto-wealth-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/crypto-wealth-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "shamoni-hero",
+      "source_commit": "5169faa66ae69bb7b98565f29154718b3e28d44e",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:49:10.896095+00:00",
+      "observation": "Root inspected all eight desktop/mobile entry, orbit, collection and end frames. Exact supplied assets are a cat and ceramic bowls despite sailing copy; retained rather than silently substituted. 600vh sticky scene preserves all eleven transform-array pairs, 80→520 image scaling and orbit mathematics. Genuine original Mux fMP4 segments were losslessly assembled as local MP4, original HLS retained; decoded video, six images, fonts, menu and collection progress passed. Enlarged intermediate objects and mobile ellipse corners are intentional scene states.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/shamoni-hero/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/shamoni-hero/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "glow-features",
+      "source_commit": "03d1e399d25c97eabb631556504a0fa7d7838445",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:49:10.896095+00:00",
+      "observation": "Root inspected both public previews and complete mobile page with all three cards. Exact 8px layered gradient borders, glow, 32px Lucide icons and staggered entrance preserved. Responsive widths, text selection and no overflow/clipping/runtime failures verified. No actionable controls were specified.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/glow-features/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/glow-features/screenshots/mobile.png"
+      ]
+    },
+    {
+      "id": "lumina-footer",
+      "source_commit": "11d15603afc38eab2e58b61eb6a53112b86609b9",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "reviewed_utc": "2026-10-30T05:49:10.896095+00:00",
+      "observation": "Root inspected complete desktop/mobile public pages including 13 footer links and five social icons. Original cosmic video, exact Helvetica, liquid-glass footer and 5/7-column desktop structure retained. Actual video playback, font, CTA scroll, brand return, hover/focus and error/overflow checks pass. Upper CTA is expressly permitted placeholder; unspecified links stay local and social links use platform homepages. Fixed background's below-viewport region in full-page capture is a compositor limitation.",
+      "screenshots": [
+        "generated/gpt-6.1-sol-high/lumina-footer/screenshots/desktop.png",
+        "generated/gpt-6.1-sol-high/lumina-footer/screenshots/mobile.png"
+      ]
     }
   ],
-  "updated_utc": "2026-10-30T05:37:40.654922+00:00"
+  "updated_utc": "2026-10-30T05:49:10.896095+00:00"
 }

@@ -1,0 +1,209 @@
+{
+  "recorded_utc": "2026-10-30T05:49:10.896095+00:00",
+  "scope": "Incremental independent delivery audits retaining actual check time and remote main; final full 380 audit remains required.",
+  "all_selected_pass": true,
+  "audited_designs": 7,
+  "records": [
+    {
+      "checked_utc": "2026-10-30T05:39:43.356314+00:00",
+      "remote_main": "e9506f24f298ce7929c3d37d8ead6e1c33f407b9",
+      "delivery": {
+        "id": "nike-premium-landing",
+        "title": "Nike Premium Landing",
+        "source_commit": "2d300cbeefc26b96ddcf7bc2925cfb300e1bdf6f",
+        "thread_id": "01a18b46-0a87-7553-b4b4-81fa909d2609",
+        "group_message_id": 410,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:48:09.815497+00:00",
+      "remote_main": "87569ce0a866dfe79e0e2161745babfe1f0ac16f",
+      "delivery": {
+        "id": "sentinel-ai-hero",
+        "title": "Sentinel AI",
+        "source_commit": "72011925d533f178b5f5007012ef7459ee79ee27",
+        "thread_id": "01a18b48-7ef3-7130-8393-de69b14c16f6",
+        "group_message_id": 416,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:41:09.062023+00:00",
+      "remote_main": "50ccef3b6491c75e6c9cfb5cc8c4fb3cfdb1905f",
+      "delivery": {
+        "id": "slam-dunk-hero",
+        "title": "Slam Dunk",
+        "source_commit": "50ccef3b6491c75e6c9cfb5cc8c4fb3cfdb1905f",
+        "thread_id": "01a18b48-7f9a-7853-b914-62dab55b4abb",
+        "group_message_id": 411,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:37:18.352530+00:00",
+      "remote_main": "d1581b64bb737eee4771f4e0e5a5e50e7b47b9d5",
+      "delivery": {
+        "id": "crypto-wealth-hero",
+        "title": "Crypto Wealth",
+        "source_commit": "b098b066c5f1459f4c6e3fa33345cabec6cf259f",
+        "thread_id": "01a18b4a-2fc1-7871-9fe7-e89d4bbeff4b",
+        "group_message_id": 408,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:41:34.048021+00:00",
+      "remote_main": "5169faa66ae69bb7b98565f29154718b3e28d44e",
+      "delivery": {
+        "id": "shamoni-hero",
+        "title": "Shamoni",
+        "source_commit": "5169faa66ae69bb7b98565f29154718b3e28d44e",
+        "thread_id": "01a18b4a-3196-7e20-ba05-4fa2154feb59",
+        "group_message_id": 412,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "committed_dist_html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:42:00.996542+00:00",
+      "remote_main": "03d1e399d25c97eabb631556504a0fa7d7838445",
+      "delivery": {
+        "id": "glow-features",
+        "title": "Glow Features",
+        "source_commit": "03d1e399d25c97eabb631556504a0fa7d7838445",
+        "thread_id": "01a18b4e-b028-7ff1-aa4e-abe4310d581e",
+        "group_message_id": 413,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "checked_utc": "2026-10-30T05:48:09.815497+00:00",
+      "remote_main": "87569ce0a866dfe79e0e2161745babfe1f0ac16f",
+      "delivery": {
+        "id": "lumina-footer",
+        "title": "Lumina",
+        "source_commit": "11d15603afc38eab2e58b61eb6a53112b86609b9",
+        "thread_id": "01a18b51-a488-7a20-874e-0715e37b8c06",
+        "group_message_id": 414,
+        "checks": {
+          "exact_title": true,
+          "prompt_snapshot": true,
+          "source_is_on_remote_main": true,
+          "actual_model_settings": true,
+          "no_delegated_contexts": true,
+          "actual_group_message": true,
+          "desktop_mobile_browser_report": true,
+          "source_files_committed": true,
+          "committed_source_bytes": true,
+          "remote_index.html": true,
+          "remote_preview/desktop.png": true,
+          "committed_preview/desktop.png": true,
+          "remote_preview/mobile.png": true,
+          "committed_preview/mobile.png": true
+        },
+        "passed": true
+      }
+    }
+  ]
+}

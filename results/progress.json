@@ -1,10 +1,11 @@
 {
-  "updated_utc": "2026-10-30T05:47:50.826734+00:00",
+  "updated_utc": "2026-10-30T05:49:35.754220+00:00",
   "total": 380,
   "counts": {
-    "complete": 347,
+    "complete": 349,
     "running": 5,
-    "not_started": 28
+    "ready": 1,
+    "not_started": 25
   },
   "current_batch": {
     "from_number": 201,
@@ -3480,11 +3481,11 @@
       "id": "nexacore-hero",
       "title": "NexaCore",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b52-e28e-7f02-b88c-fdea966796c0",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "9fd8f446ba5a298817604c0d159e46e7380a2093",
+      "group_message_id": 417,
+      "url": "https://tool.luo-xd.com/motionsites-results/nexacore-hero/"
     },
     {
       "id": "guardnet-landing",
@@ -3510,17 +3511,17 @@
       "id": "focus-ai-landing",
       "title": "Focus AI",
       "category": "Landing Page",
-      "status": "running",
+      "status": "complete",
       "thread_id": "01a18b55-0708-7d53-804e-fd039f5a3625",
-      "source_commit": null,
-      "group_message_id": null,
-      "url": null
+      "source_commit": "e8ca25abb36bda6eeb248e81e1db612ece7a6fbd",
+      "group_message_id": 418,
+      "url": "https://tool.luo-xd.com/motionsites-results/focus-ai-landing/"
     },
     {
       "id": "design-rocket-email-hero",
       "title": "Email Marketing",
       "category": "Email Marketing",
-      "status": "running",
+      "status": "ready",
       "thread_id": "01a18b55-0948-7010-9d52-8c08d2718b53",
       "source_commit": null,
       "group_message_id": null,
@@ -3531,7 +3532,7 @@
       "title": "RIVR DeFi",
       "category": "Landing Page",
       "status": "running",
-      "thread_id": "",
+      "thread_id": "01a18b57-c9aa-70a2-9133-37c6787fb12f",
       "source_commit": null,
       "group_message_id": null,
       "url": null
@@ -3540,7 +3541,7 @@
       "id": "duolingo-styleguide-hero",
       "title": "Duolingo Styleguide",
       "category": "Hero Section",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3550,7 +3551,7 @@
       "id": "velorah-focus-hero",
       "title": "Velorah Focus",
       "category": "Social Media",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
@@ -3560,7 +3561,7 @@
       "id": "price-calculator",
       "title": "Price Calculator",
       "category": "SaaS",
-      "status": "not_started",
+      "status": "running",
       "thread_id": "",
       "source_commit": null,
       "group_message_id": null,
